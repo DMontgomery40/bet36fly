@@ -1,10 +1,10 @@
 # How this fly works
 
-**A guide to the first trained BET36FLY, documented September 10, 2026.**
+**A guide to BET36FLY’s active v1 checkpoint and the separate v2 experiment.**
 
 The fly really uses the measured fly connectome. Sports numbers stimulate neurons, spikes travel through the anatomical network, and a trained decoder turns the resulting activity into probabilities. Training changed a small subset of the actual connections. The first experiment works computationally, but **it does not yet predict games better than our simple statistical baseline**.
 
-This guide explains the existing system. Read [confidence, draws and paper bet size](CONFIDENCE_AND_DRAWS.md) for the probability audit, and [the roadmap](ROADMAP.md) for memory, smarter training and the proposed monitoring plan. Those proposed additions are not already running.
+V1 remains the active model. The user paused v2 with 13 completed runs, eight cancelled temporal jobs and three unfinished whole-trial jobs. The bounded stronger-L2 diagnostic is summarized in the [tracked development evidence](evidence/v2-development-summary.md#decoder-diagnostics), using the existing frozen seed-42 responses and unchanged decoder. All 16 fits converged after the four C=0.01 reproduction checks passed. With stronger regularization, the selected temporal readout now slightly beats the selected whole-trial readout in both sports, but the simple feature baseline still has lower validation log loss. Selection used validation data, so this is development evidence rather than independent confirmation. It did not simulate the brain again, learn connection gains, resume the matrix or change a model pointer. The running app has passed desktop/mobile checks, documented in the [model card](MODEL_CARD.md#verification-and-acceptance), which is authoritative for current status, methods and results. This guide explains the active system and preserves its original training evidence. Read [confidence, draws and paper bet size](CONFIDENCE_AND_DRAWS.md) for the historical probability audit, and [the roadmap](ROADMAP.md) for future work.
 
 ## What came from Google and the research collaborators?
 
@@ -43,7 +43,7 @@ For each match, an external feature builder calculates 16 pregame quantities des
 
 Each feature gets a positive and negative stimulation channel: 32 channels in total. They drive 32 real antennal-lobe projection neurons, or **ALPNs**, selected from the annotated catalog. This is an artificial way of presenting sports information through cells whose biological role is different. It is not evidence that those cells naturally represent Elo or football.
 
-All 166,700 modeled cells advance during a trial. Not all fire: the trained historical pass averaged about 19,333 active cells and 154,456 spikes per trial. Spikes travel over the retained graph. The output consists of 97 mushroom-body output neuron (**MBON**) firing rates plus 27 averages by neuronal superclass. Directly stimulated input cells are excluded from those averages, so the decoder cannot simply read their stimulation back out.
+All 166,700 modeled cells advance during a trial. Not all fire: the trained historical pass averaged about 19,333 active cells and 154,456 spikes per trial. Spikes travel over the retained graph. The output consists of 97 mushroom-body output neuron (**MBON**) firing rates plus 27 averages by neuronal superclass. All ALPNs are excluded from those averages, so the decoder cannot simply read their stimulation back out.
 
 The 124 output quantities are compressed summaries, not a readout of every cell's exact spike timing. That compression and the short trial are possible information bottlenecks worth testing.
 
@@ -60,7 +60,29 @@ flowchart LR
 
 Baseball disables the draw output. Soccer predicts the three match-result categories. The current pick is simply the category with the largest probability; it is not a selection based on offered betting value.
 
-## Exactly how this checkpoint was trained
+## Read the Observatory
+
+The existing brain canvas now keeps anatomy visible during replay. Cyan triangles are sensory ALPNs, violet circles are Kenyon cells, amber diamonds are MBONs, light-gray squares are other annotated cells and muted-gray crosses have unknown categories. A white halo marks a recorded spike without replacing that category color. Ordinary connection lines are slate; rose lines belong to the supported KC→MBON region that plastic models may scale. Rose does not by itself mean a gain changed.
+
+Use the legend checkboxes to show or hide populations and connection layers. Hover or focus an explanation button for a preview; activate it to pin the full text in a scrollable inspector. Close inspector or Escape dismisses it and returns keyboard focus to the original control, including after following a node’s connection links. Hover previews do not intercept clicks; pin an explanation to read or follow its source links. The named topics explain neurons, synapses, mushroom bodies, weights, signs, shared gains, firing and replay, with biological source links. They distinguish what the dataset supplies, what the program assumes and what remains unknown.
+
+Point at a cell to preview its identity, or click/tap to pin its details. The Find displayed neuron field and Inspect neuron selector offer the same access by keyboard. A pinned cell shows its body ID, type, category, available annotations and recorded spike count for the selected time bin. Its incident-connection list opens contact counts, modeled signs, plastic support and source/target cells without having to point at a thin line. Unavailable metadata stays unavailable.
+
+The positions are sampled somas: cell bodies. Straight lines display connectivity, not complete neuronal processes, and the projection is not a mushroom-body outline. The interface samples up to 2,500 cells with category coverage and up to 3,500 of the strongest eligible connections between sampled cells, requiring at least five contacts per displayed connection. Every retained cell and edge still participates in computation. Rotation, filtering and selection change only the view.
+
+Watch brain runs the active frozen checkpoint for a fixture. Replay spikes and the timeline inspect its recorded 80 ms response; playback is slowed for visibility. Nothing is learning during replay, and the trace is not live biology. A connectome is not a saved animal’s complete memories or behavior. More visible or active neurons does not establish greater intelligence. The detailed [UI explanations](../web/src/brainExplainers.ts) are the source of truth for inspector prose; the [model card](MODEL_CARD.md) gives the numerical assumptions.
+
+## Follow the v2 experiment in Training
+
+There is one Training tab. At its top, the experiment tracker identifies active v1 and shows the original 24 neural run slots: eight variants across three seeds. Eight unfinished temporal jobs were cancelled by a separate user instruction, then the three remaining whole-trial jobs were paused for a decoder-only diagnostic. All original rows remain visible, including the 13 completed results; unfinished work is not represented as completed. Select a row to inspect its actual state, parameter counts, validation loss, decoder and surrogate curves, retained plastic checkpoints, neural activity and saturation measurements, and downloadable artifacts. Queued and cancelled runs have no invented completed metrics. Cancellation records the user’s execution decision; it is not a model score or a failed-run diagnosis. A failed run displays its stored error, and a fetch failure retains the last loaded results with a warning. The tracker polls every five seconds while jobs run and every thirty seconds otherwise.
+
+Switch Comparison sport between soccer and baseball, then choose validation or the historical development benchmark. Validation determines the candidate; the January–August 2026 benchmark has already influenced this design. Comparisons fill from completed runs during execution, and the final comparison adds baselines, available-seed aggregates, the selected ensemble and paired weekly uncertainty intervals. No architecture currently has the three completed seeds needed for selection. Available results remain incomplete and descriptive; uncertainty over games does not supply missing seed replications. The [tracked decoder summary](evidence/v2-development-summary.md#decoder-diagnostics) records the original-grid and stronger-L2 results: temporal now has lower validation loss than whole, while both remain behind the feature baseline. This demonstrates sensitivity to regularization, not proof of a root cause or reliable improvement. Detailed reports remain local artifacts, and neither model promotion nor further grid expansion is automatic. The original v1 result remains a separately labeled archived reference below the tracker.
+
+Shared learning uses 295 adjustable gains, one for each supplied KC-type/MBON-type pair with real supported edges. Independent learning uses 61,210. Whole readout averages activity across 80 ms; temporal readout preserves four consecutive 20 ms windows. Both still run the full graph. The [model card](MODEL_CARD.md#prespecified-v2-comparison-and-execution-amendment) explains the controlled comparisons and exact selection rule.
+
+The Fresh games: prospective shadow panel reports a separate candidate after a completed selection. The current diagnostic does not select or activate one. It averages three full-simulator predictions, records them alongside a frozen feature-logistic baseline and keeps v1 active. Only eligible pregame forecasts can count. The first fixed readout awaits 100 completed eligible soccer fixtures and 1,000 baseball fixtures; interim metrics remain descriptive and empty future cohorts are honestly pending. Once a cohort is chosen its membership stays fixed, but corrected results and eligibility are rechecked. Invalidated members are excluded and shown explicitly, without replacement by later games. Public source refresh drives this workflow while the server runs, without online training or automatic promotion.
+
+## How the active v1 checkpoint was trained
 
 The first completed run is `20260910T232621Z`. It ran on CPU in **676 seconds, about 11.3 minutes**, including two complete passes through the full network for 8,075 historical examples. No Hugging Face credits, remote GPU, LLM or private API key was needed.
 
@@ -70,7 +92,7 @@ The first completed run is `20260910T232621Z`. It ran on CPU in **676 seconds, a
 | --- | --- | ---: | ---: | --- |
 | Training | Available history before July 2025 | 760 | 3,687 | Fit scaling, connection gains and decoders. |
 | Validation | July–December 2025 | 186 | 1,165 | Select epochs and baseline regularization. |
-| Test | January–August 2026 | 214 | 2,063 | Evaluate the selected model on later games. |
+| Original v1 test; now historical development benchmark | January–August 2026 | 214 | 2,063 | Preserve the original result; do not select v2 candidates using this period. |
 
 Soccer history starts in the 2023/24 EPL season; baseball history starts in 2024. Features update at a UTC day boundary after a conservative delay of at least 48 hours from scheduled start. Known resumed MLB games without reliable completion timing are excluded from labeled examples. This reduces leakage from late finishes and doubleheaders, but retrospective downloads can still contain corrections whose original publication times are unknown.
 
@@ -99,6 +121,8 @@ We ran 60 epochs with Adam, learning rate 0.018, shuffled batches of up to 256, 
 
 This is supervised learning from known historical outcomes. There is no dopamine reward circuit, pleasure signal for winning, biological reinforcement rule, or exact differentiation through the full spiking simulator in this implementation. The surrogate is an approximation that may learn changes that transfer imperfectly to the real simulation.
 
+That omission is an implementation choice, not a claim that flies lack reward learning. Dopamine modulates learning at Kenyon-cell-to-MBON synapses, and published mushroom-body models explicitly implement reinforcement-dependent synaptic updates. A dopamine-modulated learning experiment would change the circuit's learning mechanism; fitting a different output decoder does not test it. Receptor effects, teaching signals and their anatomical targets would have to be implemented and validated explicitly. [Bennett et al., 2021](https://www.nature.com/articles/s41467-021-22592-4).
+
 ### 4. Install the changes in the real graph and run it again
 
 The learned gains are installed on those actual edges. The complete spiking network is rerun for all 8,075 examples. Its measured output changes: mean absolute change in the recorded readout was 5.04 in its firing-rate units.
@@ -115,9 +139,9 @@ It ran 180 full-batch epochs with AdamW, learning rate 0.025, weight decay 0.03 
 3b6e7312cc4be07a354df4ff377bd6a05fb3af67effe6b86c67bedfa25bcf76e
 ```
 
-Code: [experiment orchestration](../bet36fly/experiment.py), [training equations](../bet36fly/learning.py), [neural simulator](../bet36fly/lif.cpp). Local evidence: [run report](../output/runs/20260910T232621Z/report.json) and [split manifest](../output/runs/20260910T232621Z/split-manifest.json). Large run files are local artifacts excluded from Git.
+Code: [experiment orchestration](../bet36fly/experiment.py), [training equations](../bet36fly/learning.py), [neural simulator](../bet36fly/lif.cpp). The run report and split manifest are local artifacts under `output/runs/`; large run files are excluded from Git.
 
-## What did it learn successfully?
+## What the historical v1 result established
 
 We know the network runs, the selected anatomical weights changed, those changes affect spiking responses, and its wiring affects the final probabilities. Silencing the graph changes output probabilities substantially. These establish a functioning, causally used neural component.
 
@@ -132,7 +156,7 @@ We do **not** yet know that this anatomy gives useful sports-prediction advantag
 
 The feature baseline is logistic regression using the same pregame information. It beats the fly in both sports on these metrics. Learned wiring also did not consistently improve on the frozen-brain control. More firing, more changed weights and attractive visualization are not substitutes for improved held-out results.
 
-Our existing shuffled-label control shuffles only the final decoder's training labels: its wiring was already trained on true labels. It is not a shuffle of the entire learning pipeline. Likewise, silencing the graph proves dependence but does not show an advantage over equally large random wiring. Those stronger controls are on [the roadmap](ROADMAP.md).
+Our existing shuffled-label control shuffles only the final decoder's training labels: its wiring was already trained on true labels. It is not a shuffle of the entire learning pipeline. Likewise, silencing the graph proves dependence but does not show an advantage over equally large random wiring. The v2 protocol includes matched randomized controls for frozen-temporal and shared-temporal variants, but the user’s later curtailment leaves only seed 42 completed for those controls. Those partial comparisons do not deliver the original three-seed topology test or establish a general verdict on biological anatomy.
 
 ## Does it keep learning while we watch?
 

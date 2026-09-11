@@ -1,8 +1,10 @@
 # Confidence, draws and paper bet size
 
-**Audit of checkpoint `20260910T232621Z`, September 10, 2026.** [How it was trained](FLY_GUIDE.md) · [Memory and roadmap](ROADMAP.md).
+**Historical audit of active v1 checkpoint `20260910T232621Z`.** [How it was trained](FLY_GUIDE.md) · [Memory and roadmap](ROADMAP.md).
 
 The current “confidence” is the model's largest output probability. It is **not calibrated certainty**, and the current pick is the most probable category rather than the best-priced opportunity. There is no implemented stake policy or account connection.
+
+January–August 2026 is now the historical development benchmark for v2 because this audit influenced its design. The tables below preserve the original v1 evidence; they are not measurements of v2.
 
 The saved soccer test also does **not** show general draw inflation: the fly averaged **21.0%** for draws, compared with **24.3%** from normalized historical bookmaker prices and **30.8%** actual draws. A few high draw predictions can coexist with underpredicting draws across the whole schedule.
 

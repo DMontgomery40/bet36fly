@@ -56,3 +56,32 @@ def test_upcoming_predictions_require_current_fixture_revision(tmp_path, change,
     # Feature changes independently invalidate an otherwise current fixture.
     runtime.features['g1'] = np.ones(16)
     assert 'prediction' not in runtime.games()[0]
+
+
+def test_neuron_categories_resolve_population_before_broad_labels():
+    from bet36fly.runtime import neuron_category
+    groups = dict(sensory={0}, kc={1, 2}, mbon={3})
+    for index, label, expected in [(0, 'ALPN', 'alpn'), (1, 'KC', 'kc'), (2, 'KCg', 'kc'),
+                                   (3, 'MBON01', 'mbon'), (4, 'other type', 'other'), (5, None, 'unknown')]:
+        assert neuron_category(index, **groups, annotations={'type': label}) == expected
+
+
+def test_geometry_reindexes_annotations_and_aligns_edge_metadata(tmp_path):
+    import pandas as pd
+    import pyarrow.feather as feather
+    from bet36fly.runtime import brain_geometry
+    np.save(tmp_path / 'ids.npy', [10, 20, 30, 40])
+    for name, values in [('sensory', [0]), ('kc', [1]), ('mbon', [2]), ('indptr', [0, 1, 2, 3, 3]),
+                         ('post', [1, 2, 3]), ('counts', [8, 6, 5]), ('signs', [1, 1, -1, 1])]:
+        np.save(tmp_path / (name + '.npy'), values)
+    feather.write_feather(pd.DataFrame(dict(bodyId=[40, 20, 10, 30], type=[None, 'KCg', 'ALPN', 'MBON01'],
+        superclass=[None, 'KC', 'ALPN', 'MBON'], somaLocation=[[3, 0, 0], [1, 1, 0], [0, 0, 0], [2, 1, 0]])),
+        tmp_path / 'nodes.feather')
+    indices, payload = brain_geometry(tmp_path, sample_size=4)
+    assert indices.tolist() == [0, 1, 2, 3]
+    assert [n['id'] for n in payload['nodes']] == ['10', '20', '30', '40']
+    assert [n['category'] for n in payload['nodes']] == ['alpn', 'kc', 'mbon', 'unknown']
+    assert len(payload['edges']) == len(payload['edge_metadata']) == 3
+    for (a, b), edge in zip(payload['edges'], payload['edge_metadata']):
+        assert edge['plastic'] == (a == 1 and b == 2)
+        assert edge['modeled_sign'] == (-1 if a == 2 else 1)

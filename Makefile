@@ -21,3 +21,7 @@ verify:
 	.venv/bin/ruff check bet36fly tests scripts
 	cd web && npm test
 	cd web && npm run build
+
+.PHONY: experiment-v2
+experiment-v2:
+	.venv/bin/python -m bet36fly.experiment_v2 --protocol configs/experiment-v2.json

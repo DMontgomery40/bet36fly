@@ -3,6 +3,9 @@ __pycache__/
 .pytest_cache/
 .ruff_cache/
 .env
+.env.*
+!.env.example
+!.env.sample
 data/
 output/
 research/
@@ -11,3 +14,10 @@ web/dist/
 .superpowers/
 *.log
 .DS_Store
+
+# Local agent recovery notes and superseded execution instructions.
+/docs/handoffs/
+/docs/superpowers/plans/2026-09-10-bet36fly-v2.md
+
+# Retained-run harness: assumes local job counts and performs real inference.
+/scripts/verify_v2_browser.cjs

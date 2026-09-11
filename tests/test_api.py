@@ -33,3 +33,26 @@ def test_ledger_export_is_real_csv_and_unknown_api_is_not_html(tmp_path):
         assert response.text.startswith('id,game_id,')
         assert client.get('/api/unknown').status_code == 404
         assert client.get('/api/ledger').json() == {'picks': [], 'count': 0}
+
+
+def test_experiment_registry_downloads_and_prospective_panel(tmp_path):
+    from bet36fly.experiments import Registry
+    registry = Registry(tmp_path / 'output/experiments/v2-test', {'id': 'v2-test', 'jobs': []})
+    report = registry.directory / 'report.json'
+    report.write_text('{"measured": true}')
+    key = registry.artifact(report)
+    registry.save()
+    with TestClient(create_app(root=tmp_path, warm_on_start=False)) as client:
+        index = client.get('/api/experiments').json()
+        assert index['experiments'][0]['id'] == 'v2-test'
+        assert index['prospective']['sports']['soccer']['threshold'] == 100
+        assert index['prospective']['sports']['baseball']['threshold'] == 1000
+        assert client.get('/api/experiments/v2-test').json()['jobs'] == []
+        assert client.get(f'/api/experiments/v2-test/artifacts/{key}').json() == {'measured': True}
+        assert client.get('/api/experiments/v2-test/artifacts/report').status_code == 404
+        assert client.get('/api/experiments/missing').status_code == 404
+        outside = tmp_path / 'outside'
+        outside.write_text('secret')
+        report.unlink()
+        report.symlink_to(outside)
+        assert client.get(f'/api/experiments/v2-test/artifacts/{key}').status_code == 404

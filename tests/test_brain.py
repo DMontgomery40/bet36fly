@@ -1,6 +1,6 @@
 import numpy as np
 
-from bet36fly.brain import LIFEngine, encode_rates, stimulus_rates
+from bet36fly.brain import FlyBrain, LIFEngine, encode_rates, simulate_windows, stimulus_rates
 
 
 def tiny_engine(weight=160):
@@ -64,3 +64,28 @@ def test_large_sensory_catalog_uses_one_port_per_opponent_channel():
         assert np.count_nonzero(a) == 2 * n_features
         assert np.count_nonzero(a != b) == 2 * n_features
         assert np.all(a[a > 0] == 150)
+
+
+def test_temporal_windows_conserve_exact_counts_and_match_v1_readout():
+    brain = FlyBrain.__new__(FlyBrain)
+    brain.engine = tiny_engine()
+    brain.sensory = np.array([0], np.int32)
+    brain.kc, brain.mbon = np.array([1]), np.array([2])
+    brain.groups, brain.output_dim = [np.array([1, 2]), np.array([], dtype=int)], 3
+    for seed in (3, 42, 137):
+        features = np.array([1.2, -.8], np.float32)
+        exact = brain.engine.run(stimulus_rates(features, 1), duration_ms=80, seed=seed,
+                                 sample=np.arange(3), bin_ms=20)
+        np.testing.assert_array_equal(exact['trace'].sum(0), exact['counts'])
+        result = simulate_windows(brain, features, seed=seed)
+        assert result['windows'].shape == (4, 3)
+        np.testing.assert_array_equal(result['kc_windows'] / 50, exact['trace'][:, [1]])
+        np.testing.assert_array_equal(result['windows'][:, :1] / 50, exact['trace'][:, [2]])
+        np.testing.assert_allclose(result['whole'], result['windows'].mean(0), atol=1e-5)
+        np.testing.assert_allclose(result['whole'], brain.simulate(features, seed=seed)['readout'], atol=1e-5)
+        assert result['active'] == np.count_nonzero(exact['counts'])
+        assert result['spikes'] == exact['counts'].sum()
+        assert 'trace' not in result and 'rates' not in result
+        lean = simulate_windows(brain, features, seed=seed, include_kc=False)
+        assert 'kc_windows' not in lean
+        np.testing.assert_array_equal(lean['windows'], result['windows'])

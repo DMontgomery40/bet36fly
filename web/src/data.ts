@@ -27,3 +27,19 @@ export function percent(value?: number) { return typeof value === 'number' && Nu
 export function date(value?: string) { if (!value) return 'Time unavailable'; const d = new Date(value); return Number.isNaN(d.valueOf()) ? 'Time unavailable' : new Intl.DateTimeFormat('en-US', { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit', timeZone: 'UTC' }).format(d) + ' UTC'; }
 export function safeUrl(url?: string): string | undefined { if (!url) return; try { const parsed = new URL(url); return ['http:', 'https:'].includes(parsed.protocol) ? parsed.href : undefined; } catch { return; } }
 export function activityAt(trace: number[][], frame: number, node: number) { const value = trace[frame]?.[node]; return typeof value === 'number' && Number.isFinite(value) && value > 0 ? value : 0; }
+
+/** Poll from the latest returned state; an error never discards the last result. */
+export function pollExperiments(onData: (data: import('./types').ExperimentIndex) => void, onError: (error: string) => void) {
+  let stopped = false; let timer: ReturnType<typeof setTimeout>; let interval = 30000;
+  async function poll() {
+    try {
+      const data = await request<import('./types').ExperimentIndex>('/api/experiments');
+      if (stopped) return;
+      interval = data.experiments.some(experiment => experiment.jobs.some(job => job.status === 'running')) ? 5000 : 30000;
+      onData(data); onError('');
+    } catch (error) { if (!stopped) onError(error instanceof Error ? error.message : 'Experiment fetch failed.'); }
+    if (!stopped) timer = setTimeout(poll, interval);
+  }
+  void poll();
+  return () => { stopped = true; clearTimeout(timer); };
+}

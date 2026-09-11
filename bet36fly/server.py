@@ -13,6 +13,7 @@ from starlette.middleware.trustedhost import TrustedHostMiddleware
 
 from .connectome import ROOT
 from .runtime import Runtime, read_json
+from .experiments import list_experiments, read_experiment, resolve_artifact
 
 
 def follow_sources(runtime, stop, interval_seconds=900):
@@ -94,6 +95,28 @@ def create_app(root=ROOT, warm_on_start=True):
         return {'progress': read_json(root / 'output/training-progress.json',
                                       {'status': 'not_started', 'stage': 'not_started'}),
                 'report': runtime.report}
+
+    @app.get('/api/experiments')
+    def experiments():
+        return {'experiments': list_experiments(root / 'output/experiments'),
+                'active_v1': read_json(root / 'output/current-model.json', None),
+                'prospective': runtime.shadow.status()}
+
+    @app.get('/api/experiments/{experiment_id}')
+    def experiment_detail(experiment_id: str):
+        try:
+            return dict(read_experiment(root / 'output/experiments', experiment_id),
+                        prospective=runtime.shadow.status())
+        except (ValueError, OSError) as exc:
+            raise HTTPException(404, str(exc)) from exc
+
+    @app.get('/api/experiments/{experiment_id}/artifacts/{artifact_id}')
+    def experiment_artifact(experiment_id: str, artifact_id: str):
+        try:
+            path = resolve_artifact(root / 'output/experiments', experiment_id, artifact_id)
+            return FileResponse(path, filename=path.name)
+        except (ValueError, OSError) as exc:
+            raise HTTPException(404, str(exc)) from exc
 
     @app.get('/api/ledger')
     def ledger():

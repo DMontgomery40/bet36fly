@@ -16,6 +16,7 @@ from .features import build_features
 from .learning import probabilities
 from .ledger import PickLedger, fixture_identity
 from .desk import build_desk
+from .shadow import ShadowRuntime
 
 
 def read_json(path, default):
@@ -49,19 +50,58 @@ def probability_payload(game, p):
             'confidence': float(p[index]), 'fair_odds': 1.0 / float(p[index])}
 
 
+def neuron_category(index, *, sensory, kc, mbon, annotations):
+    if index in sensory:
+        return 'alpn'
+    if index in kc:
+        return 'kc'
+    if index in mbon:
+        return 'mbon'
+    return 'other' if any(annotations.get(k) not in (None, '', 'unknown', 'unassigned')
+                          for k in ('type', 'superclass')) else 'unknown'
+
+
 def brain_geometry(path=ROOT / 'data/brain', sample_size=2500):
     import pyarrow.feather as feather
-    nodes = feather.read_table(path / 'nodes.feather').to_pandas()
-    valid = [i for i, xyz in enumerate(nodes.somaLocation) if xyz is not None and len(xyz) == 3]
-    indices = np.array(valid, np.int32)[np.linspace(0, len(valid) - 1, min(sample_size, len(valid)), dtype=int)]
+    ids = np.load(path / 'ids.npy')
+    nodes = feather.read_table(path / 'nodes.feather').to_pandas().set_index('bodyId').reindex(ids).reset_index()
+    sensory, kc, mbon = [set(np.load(path / (name + '.npy')).tolist()) for name in ('sensory', 'kc', 'mbon')]
+    valid = np.array([i for i, xyz in enumerate(nodes.somaLocation)
+                      if xyz is not None and hasattr(xyz, '__len__') and len(xyz) == 3
+                      and np.isfinite(xyz).all()], np.int32)
+    if len(valid) == 0:
+        return np.array([], np.int32), dict(dataset='MaleCNS v1.0', nodes=[], edges=[], edge_metadata=[],
+            displayed_neurons=0, total_neurons=len(ids), coordinate_note='No annotated soma coordinates available.')
+    # Retain the global sample and ensure the annotated circuit categories can be inspected.
+    selected_indices = set()
+    for population in (sensory, kc, mbon):
+        available = np.array(sorted(population.intersection(valid.tolist())), np.int32)
+        if len(available):
+            selected_indices.update(available[np.linspace(0, len(available) - 1,
+                min(32, len(available), sample_size // 4), dtype=int)].tolist())
+    remaining = np.array([i for i in valid if i not in selected_indices], np.int32)
+    take = min(max(0, sample_size - len(selected_indices)), len(remaining))
+    if take:
+        selected_indices.update(remaining[np.linspace(0, len(remaining) - 1, take, dtype=int)].tolist())
+    indices = np.array(sorted(selected_indices), np.int32)
     coords = np.stack(nodes.somaLocation.iloc[indices]).astype(float)
     center = (coords.max(0) + coords.min(0)) / 2
-    coords = (coords - center) / ((coords.max(0) - coords.min(0)).max() / 2)
-    selected = nodes.iloc[indices]
-    points = [{'id': str(row.bodyId), 'x': float(xyz[0]), 'y': float(xyz[1]), 'z': float(xyz[2]),
-               'type': str(row.type or 'unassigned'), 'group': str(row.superclass)}
-              for (_, row), xyz in zip(selected.iterrows(), coords)]
-    ptr, post, counts = [np.load(path / (s + '.npy'), mmap_mode='r') for s in ('indptr', 'post', 'counts')]
+    coords = (coords - center) / max((coords.max(0) - coords.min(0)).max() / 2, 1)
+    points = []
+    def annotation(value):
+        if value is None or (isinstance(value, float) and not np.isfinite(value)):
+            return None
+        return str(value)
+    for index, xyz in zip(indices, coords):
+        row = nodes.iloc[index]
+        annotations = {name: annotation(row.get(name)) for name in
+                       ('type', 'superclass', 'class', 'subclass', 'hemisphere', 'pre', 'post', 'transmitter')}
+        points.append(dict(id=str(ids[index]), x=float(xyz[0]), y=float(xyz[1]), z=float(xyz[2]),
+            type=annotations['type'] or 'unassigned', group=annotations['superclass'] or 'unknown',
+            category=neuron_category(index, sensory=sensory, kc=kc, mbon=mbon, annotations=annotations),
+            annotations=annotations, classification_source='MaleCNS v1.0 released annotation, resolved by body ID'))
+    ptr, post, counts, signs = [np.load(path / (name + '.npy'), mmap_mode='r')
+                                for name in ('indptr', 'post', 'counts', 'signs')]
     lookup = np.full(len(nodes), -1, np.int32)
     lookup[indices] = np.arange(len(indices))
     edges = []
@@ -69,13 +109,19 @@ def brain_geometry(path=ROOT / 'data/brain', sample_size=2500):
         lo, hi = ptr[pre:pre + 2]
         local = lookup[post[lo:hi]]
         for k in np.flatnonzero((local >= 0) & (counts[lo:hi] >= 5)):
-            edges.append((float(counts[lo + k]), pre_local, int(local[k])))
+            target = int(post[lo + k])
+            edges.append((int(counts[lo + k]), pre_local, int(local[k]),
+                          int(signs[pre]), pre in kc and target in mbon))
     edges.sort(reverse=True)
-    payload = {'dataset': 'MaleCNS v1.0', 'nodes': points, 'edges': [[a, b] for _, a, b in edges[:3500]],
-               'displayed_neurons': len(points), 'total_neurons': len(nodes),
-               'coordinate_note': 'Sampled actual soma positions in MaleCNS coordinates; normalized uniformly. '
-                                  'Displayed connections are a strong-edge subset for readability. '
-                                  'All retained neurons and connections participate in simulation.'}
+    shown = edges[:3500]
+    payload = dict(dataset='MaleCNS v1.0', nodes=points, edges=[[a, b] for _, a, b, _, _ in shown],
+        edge_metadata=[dict(contact_count=count, modeled_sign=sign, plastic=plastic)
+                       for count, _, _, sign, plastic in shown],
+        displayed_neurons=len(points), total_neurons=len(nodes),
+        coordinate_note='Sampled actual soma positions, uniformly normalized, with category coverage. '
+                        'Displayed connections are an anatomical strong-edge subset. All retained neurons and '
+                        'connections participate in computation. This soma projection is not a reconstruction '
+                        'of mushroom-body lobes or a neuropil surface.')
     return indices, payload
 
 
@@ -84,6 +130,7 @@ class Runtime:
         self.root = root
         self.lock = threading.RLock()
         self.ledger = PickLedger(root / 'data/picks.sqlite3')
+        self.shadow = ShadowRuntime(root)
         self.brain = None
         self.checkpoint = None
         self.model_pointer = None
@@ -224,6 +271,7 @@ class Runtime:
                 self.reload_games()
                 self.refresh_state['message'] = 'Running the fly on upcoming fixtures.'
                 count = self.warm_picks()
+                self.shadow.refresh(self)
                 failed = [s for s in refreshed['sources'] if s['status'] in ('failed', 'stale')]
                 self.refresh_state = {'status': 'complete' if not failed else 'failed',
                     'message': f'{count} new paper picks. ' + (f'{len(failed)} sources unavailable or stale.'

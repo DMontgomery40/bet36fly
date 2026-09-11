@@ -141,7 +141,12 @@ class FlyBrain:
         # Biological superclass pooling augments the 97 MBON outputs, using only
         # actual downstream spike counts. Sensory input neurons are excluded.
         import pyarrow.feather as feather
-        self.nodes = feather.read_table(path / 'nodes.feather').to_pandas()
+        annotations = feather.read_table(path / 'nodes.feather').to_pandas()
+        if annotations.bodyId.duplicated().any():
+            raise ValueError('Duplicate annotation body IDs.')
+        self.nodes = annotations.set_index('bodyId').reindex(self.ids).reset_index()
+        if self.nodes.superclass.isna().any():
+            raise ValueError('Graph IDs are missing neuronal superclass annotations.')
         self.groups = [np.flatnonzero(self.nodes.superclass.eq(s).to_numpy() &
                                       ~np.isin(np.arange(len(self.ids)), self.sensory))
                        for s in sorted(self.nodes.superclass.unique())]
@@ -158,3 +163,26 @@ class FlyBrain:
 
     def plastic_support(self):
         return csr_matrix(self.plastic != 0).toarray()
+
+
+def simulate_windows(brain, features, *, seed=42, include_kc=True):
+    """Pool four 20-ms windows from the same 80-ms reset trial as v1.
+
+    Temporal channels are window-first: MBONs followed by superclass means.
+    The all-neuron integer trace is deliberately not returned or cached.
+    """
+    result = brain.engine.run(stimulus_rates(features, len(brain.sensory)), seed=seed,
+                              duration_ms=80, sample=np.arange(brain.engine.n, dtype=np.int32),
+                              bin_ms=20)
+    trace = result.pop('trace')
+    windows = np.empty((4, brain.output_dim), np.float32)
+    windows[:, :len(brain.mbon)] = trace[:, brain.mbon] * np.float32(50)
+    for column, group in enumerate(brain.groups, start=len(brain.mbon)):
+        windows[:, column] = trace[:, group].mean(axis=1) * 50 if len(group) else 0
+    pooled = {'whole': windows.mean(axis=0), 'windows': windows,
+              'active': int(np.count_nonzero(result['counts'])),
+              'spikes': int(result['counts'].sum(dtype=np.int64)),
+              'wall_seconds': result['wall_seconds']}
+    if include_kc:
+        pooled['kc_windows'] = (trace[:, brain.kc] * np.float32(50)).astype(np.float32)
+    return pooled

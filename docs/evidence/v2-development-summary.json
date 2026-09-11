@@ -1,0 +1,6865 @@
+{
+  "schema_version": 1,
+  "scope": "Aggregate retrospective development evidence; original raw data and full reports remain local and are not distributed.",
+  "source_reports": {
+    "output/diagnostics/decoder-frozen-bio-seed42-20260911/report.json": "2dc6f4190b041c1cfe3e45463b5beeef4269d6df720d8da5082bd96304b9196f",
+    "output/diagnostics/decoder-seed42-stronger-l2/report.json": "48cece6cff2b765f1d76f3a9941b063bdf574a11ae783f4f5ed063a731a9cc97",
+    "output/diagnostics/baseball-bookmaker-validation/evaluation-with-utc-boundary/report.json": "0f75b4babc7301fc2514f00129dd1aedad6cc7c15b8ebd2e0d9aa555db6aa7cd",
+    "output/diagnostics/baseball-feature-sweep/report.json": "1194d4857c129aae8676b9385229e4294b7e9ad80455f0fd5f47f69a3126ad3b",
+    "output/experiments/v2-24a83145c27ab220116e/manifest.json": "063b048f94014028b5cb81483a6f538601b51edf94dba0a70dd57ecd219b6030"
+  },
+  "experiment": {
+    "id": "v2-24a83145c27ab220116e",
+    "status": "paused",
+    "job_counts": {
+      "complete": 13,
+      "cancelled": 8,
+      "paused": 3
+    },
+    "source_hashes": {
+      "training-data.npz": "cc8774378e32c8336e72c21fbf654c5cb808afe26fe0c7392d559d494d43c413",
+      "training-games.json": "63bd414dedf18db4c28d5c82d52cc2ea91a0091333a8e790791240436b01d840"
+    },
+    "protocol_sha256": "9766200311c26582d562548f0b5b16729cf3841a7ad7b053196ebeb8722707b3"
+  },
+  "decoder_initial": {
+    "fits": [
+      {
+        "representation": "whole",
+        "sport": "soccer",
+        "C": 0.01,
+        "converged": true,
+        "n_iter": [
+          34
+        ],
+        "warnings": [],
+        "train": {
+          "n": 760,
+          "log_loss": 0.9286571284984488,
+          "brier": 0.5517676477291468,
+          "accuracy": 0.5578947368421052,
+          "ece": 0.06985691166237781
+        },
+        "validation": {
+          "n": 186,
+          "log_loss": 1.0239642867624241,
+          "brier": 0.6107783878975809,
+          "accuracy": 0.5161290322580645,
+          "ece": 0.05522566056379709
+        }
+      },
+      {
+        "representation": "whole",
+        "sport": "soccer",
+        "C": 0.1,
+        "converged": true,
+        "n_iter": [
+          86
+        ],
+        "warnings": [],
+        "train": {
+          "n": 760,
+          "log_loss": 0.8467142751524757,
+          "brier": 0.49896075858794764,
+          "accuracy": 0.6144736842105263,
+          "ece": 0.060487996982900694
+        },
+        "validation": {
+          "n": 186,
+          "log_loss": 1.1181496663781942,
+          "brier": 0.6650667557182062,
+          "accuracy": 0.43010752688172044,
+          "ece": 0.13141896599723446
+        }
+      },
+      {
+        "representation": "whole",
+        "sport": "soccer",
+        "C": 1.0,
+        "converged": true,
+        "n_iter": [
+          196
+        ],
+        "warnings": [],
+        "train": {
+          "n": 760,
+          "log_loss": 0.8113168377274229,
+          "brier": 0.4773901369693556,
+          "accuracy": 0.6447368421052632,
+          "ece": 0.03407431887952906
+        },
+        "validation": {
+          "n": 186,
+          "log_loss": 1.247759072521396,
+          "brier": 0.7279818858084838,
+          "accuracy": 0.4032258064516129,
+          "ece": 0.20602888974451247
+        }
+      },
+      {
+        "representation": "whole",
+        "sport": "baseball",
+        "C": 0.01,
+        "converged": true,
+        "n_iter": [
+          22
+        ],
+        "warnings": [],
+        "train": {
+          "n": 3687,
+          "log_loss": 0.6701473311647826,
+          "brier": 0.4775539967927042,
+          "accuracy": 0.5874694873881204,
+          "ece": 0.01886166753825825
+        },
+        "validation": {
+          "n": 1165,
+          "log_loss": 0.6968029719678537,
+          "brier": 0.5032948788820161,
+          "accuracy": 0.5253218884120172,
+          "ece": 0.04263691206346767
+        }
+      },
+      {
+        "representation": "whole",
+        "sport": "baseball",
+        "C": 0.1,
+        "converged": true,
+        "n_iter": [
+          66
+        ],
+        "warnings": [],
+        "train": {
+          "n": 3687,
+          "log_loss": 0.6659272797079782,
+          "brier": 0.47366758246565294,
+          "accuracy": 0.595606183889341,
+          "ece": 0.010795820493312696
+        },
+        "validation": {
+          "n": 1165,
+          "log_loss": 0.7051845776420043,
+          "brier": 0.5107585864871165,
+          "accuracy": 0.5227467811158798,
+          "ece": 0.0625900443019785
+        }
+      },
+      {
+        "representation": "whole",
+        "sport": "baseball",
+        "C": 1.0,
+        "converged": true,
+        "n_iter": [
+          134
+        ],
+        "warnings": [],
+        "train": {
+          "n": 3687,
+          "log_loss": 0.6648537924747919,
+          "brier": 0.4727002124412783,
+          "accuracy": 0.5966910767561703,
+          "ece": 0.008033255331879086
+        },
+        "validation": {
+          "n": 1165,
+          "log_loss": 0.7108591020224698,
+          "brier": 0.5155355794501858,
+          "accuracy": 0.5184549356223176,
+          "ece": 0.07213092934931804
+        }
+      },
+      {
+        "representation": "temporal",
+        "sport": "soccer",
+        "C": 0.01,
+        "converged": true,
+        "n_iter": [
+          56
+        ],
+        "warnings": [],
+        "train": {
+          "n": 760,
+          "log_loss": 0.7000016539381949,
+          "brier": 0.4029440216297003,
+          "accuracy": 0.7276315789473684,
+          "ece": 0.12727830139429944
+        },
+        "validation": {
+          "n": 186,
+          "log_loss": 1.1285145153579221,
+          "brier": 0.6625022775136926,
+          "accuracy": 0.46774193548387094,
+          "ece": 0.14187219402482434
+        }
+      },
+      {
+        "representation": "temporal",
+        "sport": "soccer",
+        "C": 0.1,
+        "converged": true,
+        "n_iter": [
+          89
+        ],
+        "warnings": [],
+        "train": {
+          "n": 760,
+          "log_loss": 0.4881575266920353,
+          "brier": 0.2736855713494581,
+          "accuracy": 0.8289473684210527,
+          "ece": 0.12147384485916088
+        },
+        "validation": {
+          "n": 186,
+          "log_loss": 1.5917617311806056,
+          "brier": 0.8028960625673367,
+          "accuracy": 0.43548387096774194,
+          "ece": 0.28909156127001645
+        }
+      },
+      {
+        "representation": "temporal",
+        "sport": "soccer",
+        "C": 1.0,
+        "converged": true,
+        "n_iter": [
+          191
+        ],
+        "warnings": [],
+        "train": {
+          "n": 760,
+          "log_loss": 0.2880671605512486,
+          "brier": 0.1495355036045278,
+          "accuracy": 0.9210526315789473,
+          "ece": 0.11554954048050077
+        },
+        "validation": {
+          "n": 186,
+          "log_loss": 3.305174665041935,
+          "brier": 1.0091963366737176,
+          "accuracy": 0.4032258064516129,
+          "ece": 0.46295667063164453
+        }
+      },
+      {
+        "representation": "temporal",
+        "sport": "baseball",
+        "C": 0.01,
+        "converged": true,
+        "n_iter": [
+          45
+        ],
+        "warnings": [],
+        "train": {
+          "n": 3687,
+          "log_loss": 0.6398527278739331,
+          "brier": 0.449284012648474,
+          "accuracy": 0.623542175210198,
+          "ece": 0.020263694911782964
+        },
+        "validation": {
+          "n": 1165,
+          "log_loss": 0.7219563851159264,
+          "brier": 0.5250576878429305,
+          "accuracy": 0.5030042918454936,
+          "ece": 0.1011301626463305
+        }
+      },
+      {
+        "representation": "temporal",
+        "sport": "baseball",
+        "C": 0.1,
+        "converged": true,
+        "n_iter": [
+          120
+        ],
+        "warnings": [],
+        "train": {
+          "n": 3687,
+          "log_loss": 0.6261451364988093,
+          "brier": 0.4373288233070495,
+          "accuracy": 0.6455112557634933,
+          "ece": 0.015516541548657297
+        },
+        "validation": {
+          "n": 1165,
+          "log_loss": 0.7613105905980941,
+          "brier": 0.552280179600159,
+          "accuracy": 0.4901287553648069,
+          "ece": 0.14250390621725578
+        }
+      },
+      {
+        "representation": "temporal",
+        "sport": "baseball",
+        "C": 1.0,
+        "converged": true,
+        "n_iter": [
+          267
+        ],
+        "warnings": [],
+        "train": {
+          "n": 3687,
+          "log_loss": 0.6205818659705358,
+          "brier": 0.4329016269322472,
+          "accuracy": 0.6512069433143477,
+          "ece": 0.015440678577097232
+        },
+        "validation": {
+          "n": 1165,
+          "log_loss": 0.8031439577989165,
+          "brier": 0.5770525489638524,
+          "accuracy": 0.4858369098712446,
+          "ece": 0.16582731341087764
+        }
+      }
+    ]
+  },
+  "decoder_stronger_l2": {
+    "fits": [
+      {
+        "representation": "temporal",
+        "sport": "baseball",
+        "C": 1e-05,
+        "converged": true,
+        "n_iter": [
+          12
+        ],
+        "warnings": [],
+        "train": {
+          "n": 3687,
+          "log_loss": 0.6888250465852535,
+          "brier": 0.49568734962759936,
+          "accuracy": 0.53837808516409,
+          "ece": 0.006979726972313527
+        },
+        "validation": {
+          "n": 1165,
+          "log_loss": 0.6888999446862571,
+          "brier": 0.4957596691444813,
+          "accuracy": 0.542489270386266,
+          "ece": 0.011467292022295683
+        }
+      },
+      {
+        "representation": "temporal",
+        "sport": "baseball",
+        "C": 0.0001,
+        "converged": true,
+        "n_iter": [
+          12
+        ],
+        "warnings": [],
+        "train": {
+          "n": 3687,
+          "log_loss": 0.6803368181714503,
+          "brier": 0.4872896732545516,
+          "accuracy": 0.5622457282343368,
+          "ece": 0.022960749557097808
+        },
+        "validation": {
+          "n": 1165,
+          "log_loss": 0.687751534223796,
+          "brier": 0.49464549881349407,
+          "accuracy": 0.5459227467811159,
+          "ece": 0.009159872767239736
+        }
+      },
+      {
+        "representation": "temporal",
+        "sport": "baseball",
+        "C": 0.001,
+        "converged": true,
+        "n_iter": [
+          19
+        ],
+        "warnings": [],
+        "train": {
+          "n": 3687,
+          "log_loss": 0.66076771222541,
+          "brier": 0.4683848116185078,
+          "accuracy": 0.611879576891782,
+          "ece": 0.04371554335184721
+        },
+        "validation": {
+          "n": 1165,
+          "log_loss": 0.6944101698030384,
+          "brier": 0.5011701099595912,
+          "accuracy": 0.5141630901287554,
+          "ece": 0.049088355860485024
+        }
+      },
+      {
+        "representation": "temporal",
+        "sport": "baseball",
+        "C": 0.01,
+        "converged": true,
+        "n_iter": [
+          45
+        ],
+        "warnings": [],
+        "train": {
+          "n": 3687,
+          "log_loss": 0.6398527278739331,
+          "brier": 0.449284012648474,
+          "accuracy": 0.623542175210198,
+          "ece": 0.020263694911782964
+        },
+        "validation": {
+          "n": 1165,
+          "log_loss": 0.7219563851159264,
+          "brier": 0.5250576878429305,
+          "accuracy": 0.5030042918454936,
+          "ece": 0.1011301626463305
+        }
+      },
+      {
+        "representation": "whole",
+        "sport": "baseball",
+        "C": 1e-05,
+        "converged": true,
+        "n_iter": [
+          11
+        ],
+        "warnings": [],
+        "train": {
+          "n": 3687,
+          "log_loss": 0.6904145966715423,
+          "brier": 0.49727077231310834,
+          "accuracy": 0.532139951179821,
+          "ece": 0.0016687976689981898
+        },
+        "validation": {
+          "n": 1165,
+          "log_loss": 0.6894139172272649,
+          "brier": 0.49627136637511204,
+          "accuracy": 0.5416309012875536,
+          "ece": 0.011127747588914882
+        }
+      },
+      {
+        "representation": "whole",
+        "sport": "baseball",
+        "C": 0.0001,
+        "converged": true,
+        "n_iter": [
+          10
+        ],
+        "warnings": [],
+        "train": {
+          "n": 3687,
+          "log_loss": 0.6879977879988272,
+          "brier": 0.49486631230930045,
+          "accuracy": 0.5465147816653105,
+          "ece": 0.012277677723926165
+        },
+        "validation": {
+          "n": 1165,
+          "log_loss": 0.6883073735496664,
+          "brier": 0.4951740711750743,
+          "accuracy": 0.5476394849785408,
+          "ece": 0.013303880937109673
+        }
+      },
+      {
+        "representation": "whole",
+        "sport": "baseball",
+        "C": 0.001,
+        "converged": true,
+        "n_iter": [
+          10
+        ],
+        "warnings": [],
+        "train": {
+          "n": 3687,
+          "log_loss": 0.679881005356688,
+          "brier": 0.48685476379618486,
+          "accuracy": 0.5728234336859235,
+          "ece": 0.030258764815194725
+        },
+        "validation": {
+          "n": 1165,
+          "log_loss": 0.6886519341793722,
+          "brier": 0.4955410489303743,
+          "accuracy": 0.5330472103004292,
+          "ece": 0.010679960353180069
+        }
+      },
+      {
+        "representation": "whole",
+        "sport": "baseball",
+        "C": 0.01,
+        "converged": true,
+        "n_iter": [
+          22
+        ],
+        "warnings": [],
+        "train": {
+          "n": 3687,
+          "log_loss": 0.6701473311647826,
+          "brier": 0.4775539967927042,
+          "accuracy": 0.5874694873881204,
+          "ece": 0.01886166753825825
+        },
+        "validation": {
+          "n": 1165,
+          "log_loss": 0.6968029719678537,
+          "brier": 0.5032948788820161,
+          "accuracy": 0.5253218884120172,
+          "ece": 0.04263691206346767
+        }
+      },
+      {
+        "representation": "temporal",
+        "sport": "soccer",
+        "C": 1e-05,
+        "converged": true,
+        "n_iter": [
+          22
+        ],
+        "warnings": [],
+        "train": {
+          "n": 760,
+          "log_loss": 1.0520614448698868,
+          "brier": 0.6348274860022861,
+          "accuracy": 0.45263157894736844,
+          "ece": 0.022138295714792432
+        },
+        "validation": {
+          "n": 186,
+          "log_loss": 1.0423893166675755,
+          "brier": 0.627578185530545,
+          "accuracy": 0.4838709677419355,
+          "ece": 0.045456477871505176
+        }
+      },
+      {
+        "representation": "temporal",
+        "sport": "soccer",
+        "C": 0.0001,
+        "converged": true,
+        "n_iter": [
+          18
+        ],
+        "warnings": [],
+        "train": {
+          "n": 760,
+          "log_loss": 1.0046129713601437,
+          "brier": 0.6006689012644469,
+          "accuracy": 0.5263157894736842,
+          "ece": 0.0667001212113782
+        },
+        "validation": {
+          "n": 186,
+          "log_loss": 1.0064039865794197,
+          "brier": 0.6006377514640343,
+          "accuracy": 0.521505376344086,
+          "ece": 0.059851926340851735
+        }
+      },
+      {
+        "representation": "temporal",
+        "sport": "soccer",
+        "C": 0.001,
+        "converged": true,
+        "n_iter": [
+          32
+        ],
+        "warnings": [],
+        "train": {
+          "n": 760,
+          "log_loss": 0.8971105331900568,
+          "brier": 0.5295289912615936,
+          "accuracy": 0.5986842105263158,
+          "ece": 0.08587857273064162
+        },
+        "validation": {
+          "n": 186,
+          "log_loss": 1.0028186485700288,
+          "brier": 0.5967524875976397,
+          "accuracy": 0.5268817204301075,
+          "ece": 0.06615646423832064
+        }
+      },
+      {
+        "representation": "temporal",
+        "sport": "soccer",
+        "C": 0.01,
+        "converged": true,
+        "n_iter": [
+          56
+        ],
+        "warnings": [],
+        "train": {
+          "n": 760,
+          "log_loss": 0.7000016539381949,
+          "brier": 0.4029440216297003,
+          "accuracy": 0.7276315789473684,
+          "ece": 0.12727830139429944
+        },
+        "validation": {
+          "n": 186,
+          "log_loss": 1.1285145153579221,
+          "brier": 0.6625022775136926,
+          "accuracy": 0.46774193548387094,
+          "ece": 0.14187219402482434
+        }
+      },
+      {
+        "representation": "whole",
+        "sport": "soccer",
+        "C": 1e-05,
+        "converged": true,
+        "n_iter": [
+          21
+        ],
+        "warnings": [],
+        "train": {
+          "n": 760,
+          "log_loss": 1.0592690473555166,
+          "brier": 0.6401690363133788,
+          "accuracy": 0.4421052631578947,
+          "ece": 0.012906576771485179
+        },
+        "validation": {
+          "n": 186,
+          "log_loss": 1.0489645820273668,
+          "brier": 0.6325447950012983,
+          "accuracy": 0.4731182795698925,
+          "ece": 0.0411878710472456
+        }
+      },
+      {
+        "representation": "whole",
+        "sport": "soccer",
+        "C": 0.0001,
+        "converged": true,
+        "n_iter": [
+          18
+        ],
+        "warnings": [],
+        "train": {
+          "n": 760,
+          "log_loss": 1.040294711011474,
+          "brier": 0.6261554054659256,
+          "accuracy": 0.45394736842105265,
+          "ece": 0.04935017400666286
+        },
+        "validation": {
+          "n": 186,
+          "log_loss": 1.0297116990943675,
+          "brier": 0.6180126157366769,
+          "accuracy": 0.4731182795698925,
+          "ece": 0.06598594239963
+        }
+      },
+      {
+        "representation": "whole",
+        "sport": "soccer",
+        "C": 0.001,
+        "converged": true,
+        "n_iter": [
+          22
+        ],
+        "warnings": [],
+        "train": {
+          "n": 760,
+          "log_loss": 1.006542681098794,
+          "brier": 0.6030182205983561,
+          "accuracy": 0.4921052631578947,
+          "ece": 0.03596697128132769
+        },
+        "validation": {
+          "n": 186,
+          "log_loss": 1.0115245825299584,
+          "brier": 0.6046140873233441,
+          "accuracy": 0.4946236559139785,
+          "ece": 0.08584943718166763
+        }
+      },
+      {
+        "representation": "whole",
+        "sport": "soccer",
+        "C": 0.01,
+        "converged": true,
+        "n_iter": [
+          34
+        ],
+        "warnings": [],
+        "train": {
+          "n": 760,
+          "log_loss": 0.9286571284984488,
+          "brier": 0.5517676477291468,
+          "accuracy": 0.5578947368421052,
+          "ece": 0.06985691166237781
+        },
+        "validation": {
+          "n": 186,
+          "log_loss": 1.0239642867624241,
+          "brier": 0.6107783878975809,
+          "accuracy": 0.5161290322580645,
+          "ece": 0.05522566056379709
+        }
+      }
+    ],
+    "reproduction": {
+      "C": 0.01,
+      "tolerance": 1e-06,
+      "passed": true,
+      "checks": [
+        {
+          "sport": "soccer",
+          "representation": "whole",
+          "expected": 1.023964,
+          "actual": 1.0239642867624241,
+          "absolute_error": 2.8676242402880803e-07,
+          "passed": true
+        },
+        {
+          "sport": "soccer",
+          "representation": "temporal",
+          "expected": 1.128515,
+          "actual": 1.1285145153579221,
+          "absolute_error": 4.846420778026328e-07,
+          "passed": true
+        },
+        {
+          "sport": "baseball",
+          "representation": "whole",
+          "expected": 0.696803,
+          "actual": 0.6968029719678537,
+          "absolute_error": 2.8032146270895453e-08,
+          "passed": true
+        },
+        {
+          "sport": "baseball",
+          "representation": "temporal",
+          "expected": 0.721956,
+          "actual": 0.7219563851159264,
+          "absolute_error": 3.851159263712489e-07,
+          "passed": true
+        }
+      ]
+    },
+    "best_validation": {
+      "soccer": {
+        "whole": {
+          "representation": "whole",
+          "sport": "soccer",
+          "C": 0.001,
+          "converged": true,
+          "n_iter": [
+            22
+          ],
+          "warnings": [],
+          "train": {
+            "n": 760,
+            "accuracy": 0.4921052631578947,
+            "log_loss": 1.006542681098794,
+            "brier": 0.6030182205983561,
+            "ece": 0.03596697128132769,
+            "calibration": [
+              {
+                "lower": 0.3,
+                "n": 80,
+                "confidence": 0.3861169215291739,
+                "accuracy": 0.3
+              },
+              {
+                "lower": 0.4,
+                "n": 504,
+                "confidence": 0.4516223744149246,
+                "accuracy": 0.4603174603174603
+              },
+              {
+                "lower": 0.5,
+                "n": 93,
+                "confidence": 0.5266193292474234,
+                "accuracy": 0.5806451612903226
+              },
+              {
+                "lower": 0.6,
+                "n": 77,
+                "confidence": 0.6301940749217938,
+                "accuracy": 0.7532467532467533
+              },
+              {
+                "lower": 0.7,
+                "n": 6,
+                "confidence": 0.7393729090690613,
+                "accuracy": 1.0
+              }
+            ]
+          },
+          "validation": {
+            "n": 186,
+            "accuracy": 0.4946236559139785,
+            "log_loss": 1.0115245825299584,
+            "brier": 0.6046140873233441,
+            "ece": 0.08584943718166763,
+            "calibration": [
+              {
+                "lower": 0.3,
+                "n": 29,
+                "confidence": 0.3850647807121277,
+                "accuracy": 0.5172413793103449
+              },
+              {
+                "lower": 0.4,
+                "n": 116,
+                "confidence": 0.45635989128515636,
+                "accuracy": 0.4051724137931034
+              },
+              {
+                "lower": 0.5,
+                "n": 24,
+                "confidence": 0.5487313270568848,
+                "accuracy": 0.6666666666666666
+              },
+              {
+                "lower": 0.6,
+                "n": 17,
+                "confidence": 0.6254895048982957,
+                "accuracy": 0.8235294117647058
+              }
+            ]
+          }
+        },
+        "temporal": {
+          "representation": "temporal",
+          "sport": "soccer",
+          "C": 0.001,
+          "converged": true,
+          "n_iter": [
+            32
+          ],
+          "warnings": [],
+          "train": {
+            "n": 760,
+            "accuracy": 0.5986842105263158,
+            "log_loss": 0.8971105331900568,
+            "brier": 0.5295289912615936,
+            "ece": 0.08587857273064162,
+            "calibration": [
+              {
+                "lower": 0.3,
+                "n": 112,
+                "confidence": 0.3766805258180414,
+                "accuracy": 0.41964285714285715
+              },
+              {
+                "lower": 0.4,
+                "n": 275,
+                "confidence": 0.44897939551960336,
+                "accuracy": 0.49454545454545457
+              },
+              {
+                "lower": 0.5,
+                "n": 230,
+                "confidence": 0.5454300147035848,
+                "accuracy": 0.6608695652173913
+              },
+              {
+                "lower": 0.6,
+                "n": 79,
+                "confidence": 0.643273686306386,
+                "accuracy": 0.810126582278481
+              },
+              {
+                "lower": 0.7,
+                "n": 63,
+                "confidence": 0.7460675977525257,
+                "accuracy": 0.873015873015873
+              },
+              {
+                "lower": 0.8,
+                "n": 1,
+                "confidence": 0.8049488067626953,
+                "accuracy": 1.0
+              }
+            ]
+          },
+          "validation": {
+            "n": 186,
+            "accuracy": 0.5268817204301075,
+            "log_loss": 1.0028186485700288,
+            "brier": 0.5967524875976397,
+            "ece": 0.06615646423832064,
+            "calibration": [
+              {
+                "lower": 0.3,
+                "n": 26,
+                "confidence": 0.3776541661757689,
+                "accuracy": 0.34615384615384615
+              },
+              {
+                "lower": 0.4,
+                "n": 78,
+                "confidence": 0.4538968973434888,
+                "accuracy": 0.5256410256410257
+              },
+              {
+                "lower": 0.5,
+                "n": 49,
+                "confidence": 0.5466976700996866,
+                "accuracy": 0.46938775510204084
+              },
+              {
+                "lower": 0.6,
+                "n": 18,
+                "confidence": 0.6539928482638465,
+                "accuracy": 0.7222222222222222
+              },
+              {
+                "lower": 0.7,
+                "n": 15,
+                "confidence": 0.7417508363723755,
+                "accuracy": 0.8
+              }
+            ]
+          }
+        }
+      },
+      "baseball": {
+        "whole": {
+          "representation": "whole",
+          "sport": "baseball",
+          "C": 0.0001,
+          "converged": true,
+          "n_iter": [
+            10
+          ],
+          "warnings": [],
+          "train": {
+            "n": 3687,
+            "accuracy": 0.5465147816653105,
+            "log_loss": 0.6879977879988272,
+            "brier": 0.49486631230930045,
+            "ece": 0.012277677723926165,
+            "calibration": [
+              {
+                "lower": 0.5,
+                "n": 3677,
+                "confidence": 0.5340836323050011,
+                "accuracy": 0.5463693228175143
+              },
+              {
+                "lower": 0.6,
+                "n": 10,
+                "confidence": 0.6093313753604889,
+                "accuracy": 0.6
+              }
+            ]
+          },
+          "validation": {
+            "n": 1165,
+            "accuracy": 0.5476394849785408,
+            "log_loss": 0.6883073735496664,
+            "brier": 0.4951740711750743,
+            "ece": 0.013303880937109673,
+            "calibration": [
+              {
+                "lower": 0.5,
+                "n": 1159,
+                "confidence": 0.533933950149365,
+                "accuracy": 0.5470232959447799
+              },
+              {
+                "lower": 0.6,
+                "n": 6,
+                "confidence": 0.6119217475255331,
+                "accuracy": 0.6666666666666666
+              }
+            ]
+          }
+        },
+        "temporal": {
+          "representation": "temporal",
+          "sport": "baseball",
+          "C": 0.0001,
+          "converged": true,
+          "n_iter": [
+            12
+          ],
+          "warnings": [],
+          "train": {
+            "n": 3687,
+            "accuracy": 0.5622457282343368,
+            "log_loss": 0.6803368181714503,
+            "brier": 0.4872896732545516,
+            "ece": 0.022960749557097808,
+            "calibration": [
+              {
+                "lower": 0.5,
+                "n": 3566,
+                "confidence": 0.5367201830955683,
+                "accuracy": 0.5560852495793607
+              },
+              {
+                "lower": 0.6,
+                "n": 121,
+                "confidence": 0.614872260034577,
+                "accuracy": 0.743801652892562
+              }
+            ]
+          },
+          "validation": {
+            "n": 1165,
+            "accuracy": 0.5459227467811159,
+            "log_loss": 0.687751534223796,
+            "brier": 0.49464549881349407,
+            "ece": 0.009159872767239736,
+            "calibration": [
+              {
+                "lower": 0.5,
+                "n": 1141,
+                "confidence": 0.5352078699731283,
+                "accuracy": 0.5425065731814198
+              },
+              {
+                "lower": 0.6,
+                "n": 24,
+                "confidence": 0.6106903577844301,
+                "accuracy": 0.7083333333333334
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "bookmaker": {
+    "coverage": {
+      "validation_fixtures": 1165,
+      "matched_unique_fixtures": 1159,
+      "global_intersection": 1159,
+      "excluded_not_shared_by_all_books": 0,
+      "duplicate_or_ambiguous_quotes_excluded": 0,
+      "by_model": {
+        "feature-logistic": 1165,
+        "fly-temporal-C0.0001": 1165,
+        "fly-whole-C0.0001": 1165,
+        "frequency-prior": 1165
+      },
+      "by_sportsbook": {
+        "Bet365": 1159
+      }
+    },
+    "fixture_ids_sha256": "40f2d41c7673fa711ff9ebb9419203330b082e2ed814d516ceb8d825bd518bac",
+    "scores": [
+      {
+        "name": "feature-logistic",
+        "kind": "model",
+        "n": 1159,
+        "log_loss": 0.6827967229435089,
+        "brier": 0.4898740098564223,
+        "accuracy": 0.5340811044003452,
+        "ece": 0.026423958069914075
+      },
+      {
+        "name": "fly-temporal-C0.0001",
+        "kind": "model",
+        "n": 1159,
+        "log_loss": 0.6876608142430131,
+        "brier": 0.4945553548009838,
+        "accuracy": 0.546160483175151,
+        "ece": 0.009315997490705994
+      },
+      {
+        "name": "fly-whole-C0.0001",
+        "kind": "model",
+        "n": 1159,
+        "log_loss": 0.68821981439016,
+        "brier": 0.49508667954083624,
+        "accuracy": 0.548748921484038,
+        "ece": 0.014326615463154854
+      },
+      {
+        "name": "frequency-prior",
+        "kind": "model",
+        "n": 1159,
+        "log_loss": 0.6900285173446096,
+        "brier": 0.4968839960883281,
+        "accuracy": 0.5409836065573771,
+        "ece": 0.011029689506685925
+      },
+      {
+        "name": "Bet365",
+        "kind": "sportsbook",
+        "n": 1159,
+        "log_loss": 0.6805736693578731,
+        "brier": 0.4878862250776396,
+        "accuracy": 0.5392579810181191,
+        "ece": 0.04099269059365462
+      }
+    ],
+    "paired_weekly": [
+      {
+        "difference": 0.0022230535856358116,
+        "interval": [
+          -0.004874200874283303,
+          0.009346872387048876
+        ],
+        "n": 1159,
+        "calendar_weeks": 13,
+        "empty_weeks": 0,
+        "model": "feature-logistic",
+        "sportsbook": "Bet365",
+        "comparison": "model minus sportsbook log loss",
+        "decision": "uncertain",
+        "limitation": "Single frozen seed-42 development scores on the original validation split; weekly blocks approximate but do not eliminate team and time dependence. The intervals are neither profit estimates nor independent confirmation."
+      },
+      {
+        "difference": 0.00708714488514001,
+        "interval": [
+          -0.002941433473054203,
+          0.016550752055410838
+        ],
+        "n": 1159,
+        "calendar_weeks": 13,
+        "empty_weeks": 0,
+        "model": "fly-temporal-C0.0001",
+        "sportsbook": "Bet365",
+        "comparison": "model minus sportsbook log loss",
+        "decision": "uncertain",
+        "limitation": "Single frozen seed-42 development scores on the original validation split; weekly blocks approximate but do not eliminate team and time dependence. The intervals are neither profit estimates nor independent confirmation."
+      },
+      {
+        "difference": 0.007646145032286914,
+        "interval": [
+          -0.0038164528650179983,
+          0.018476417185247736
+        ],
+        "n": 1159,
+        "calendar_weeks": 13,
+        "empty_weeks": 0,
+        "model": "fly-whole-C0.0001",
+        "sportsbook": "Bet365",
+        "comparison": "model minus sportsbook log loss",
+        "decision": "uncertain",
+        "limitation": "Single frozen seed-42 development scores on the original validation split; weekly blocks approximate but do not eliminate team and time dependence. The intervals are neither profit estimates nor independent confirmation."
+      },
+      {
+        "difference": 0.009454847986736535,
+        "interval": [
+          -0.003022959038532023,
+          0.021515034624384272
+        ],
+        "n": 1159,
+        "calendar_weeks": 13,
+        "empty_weeks": 0,
+        "model": "frequency-prior",
+        "sportsbook": "Bet365",
+        "comparison": "model minus sportsbook log loss",
+        "decision": "uncertain",
+        "limitation": "Single frozen seed-42 development scores on the original validation split; weekly blocks approximate but do not eliminate team and time dependence. The intervals are neither profit estimates nor independent confirmation."
+      }
+    ],
+    "source": "Sportsbook Review archived Bet365 openingLine, American moneylines, proportionally de-vigged; actual quote timestamp unknown.",
+    "source_url": "https://www.sportsbookreview.com/betting-odds/mlb-baseball/?date=2025-07-01",
+    "limitations": [
+      "Scores use one frozen biological seed and C selected on this validation split; they are development evidence.",
+      "Book prices are proportionally de-vigged historical quotes, not verified executable prices.",
+      "No profit, staking, new fit, neural simulation, additional C search, historical-development, or prospective evaluation is included.",
+      "Weekly intervals approximate but do not eliminate dependence and are not independent confirmation."
+    ]
+  },
+  "feature_sweep": {
+    "design": {
+      "configs": [
+        {
+          "id": "w3-pooled-none",
+          "form_window": 3,
+          "history": "pooled",
+          "rest": "none"
+        },
+        {
+          "id": "w3-pooled-capped",
+          "form_window": 3,
+          "history": "pooled",
+          "rest": "capped"
+        },
+        {
+          "id": "w3-pooled-recovery",
+          "form_window": 3,
+          "history": "pooled",
+          "rest": "recovery"
+        },
+        {
+          "id": "w3-home-away-none",
+          "form_window": 3,
+          "history": "home-away",
+          "rest": "none"
+        },
+        {
+          "id": "w3-home-away-capped",
+          "form_window": 3,
+          "history": "home-away",
+          "rest": "capped"
+        },
+        {
+          "id": "w3-home-away-recovery",
+          "form_window": 3,
+          "history": "home-away",
+          "rest": "recovery"
+        },
+        {
+          "id": "w5-pooled-none",
+          "form_window": 5,
+          "history": "pooled",
+          "rest": "none"
+        },
+        {
+          "id": "w5-pooled-capped",
+          "form_window": 5,
+          "history": "pooled",
+          "rest": "capped"
+        },
+        {
+          "id": "w5-pooled-recovery",
+          "form_window": 5,
+          "history": "pooled",
+          "rest": "recovery"
+        },
+        {
+          "id": "w5-home-away-none",
+          "form_window": 5,
+          "history": "home-away",
+          "rest": "none"
+        },
+        {
+          "id": "w5-home-away-capped",
+          "form_window": 5,
+          "history": "home-away",
+          "rest": "capped"
+        },
+        {
+          "id": "w5-home-away-recovery",
+          "form_window": 5,
+          "history": "home-away",
+          "rest": "recovery"
+        },
+        {
+          "id": "w10-pooled-none",
+          "form_window": 10,
+          "history": "pooled",
+          "rest": "none"
+        },
+        {
+          "id": "w10-pooled-capped",
+          "form_window": 10,
+          "history": "pooled",
+          "rest": "capped"
+        },
+        {
+          "id": "w10-pooled-recovery",
+          "form_window": 10,
+          "history": "pooled",
+          "rest": "recovery"
+        },
+        {
+          "id": "w10-home-away-none",
+          "form_window": 10,
+          "history": "home-away",
+          "rest": "none"
+        },
+        {
+          "id": "w10-home-away-capped",
+          "form_window": 10,
+          "history": "home-away",
+          "rest": "capped"
+        },
+        {
+          "id": "w10-home-away-recovery",
+          "form_window": 10,
+          "history": "home-away",
+          "rest": "recovery"
+        },
+        {
+          "id": "w20-pooled-none",
+          "form_window": 20,
+          "history": "pooled",
+          "rest": "none"
+        },
+        {
+          "id": "w20-pooled-capped",
+          "form_window": 20,
+          "history": "pooled",
+          "rest": "capped"
+        },
+        {
+          "id": "w20-pooled-recovery",
+          "form_window": 20,
+          "history": "pooled",
+          "rest": "recovery"
+        },
+        {
+          "id": "w20-home-away-none",
+          "form_window": 20,
+          "history": "home-away",
+          "rest": "none"
+        },
+        {
+          "id": "w20-home-away-capped",
+          "form_window": 20,
+          "history": "home-away",
+          "rest": "capped"
+        },
+        {
+          "id": "w20-home-away-recovery",
+          "form_window": 20,
+          "history": "home-away",
+          "rest": "recovery"
+        },
+        {
+          "id": "w40-pooled-none",
+          "form_window": 40,
+          "history": "pooled",
+          "rest": "none"
+        },
+        {
+          "id": "w40-pooled-capped",
+          "form_window": 40,
+          "history": "pooled",
+          "rest": "capped"
+        },
+        {
+          "id": "w40-pooled-recovery",
+          "form_window": 40,
+          "history": "pooled",
+          "rest": "recovery"
+        },
+        {
+          "id": "w40-home-away-none",
+          "form_window": 40,
+          "history": "home-away",
+          "rest": "none"
+        },
+        {
+          "id": "w40-home-away-capped",
+          "form_window": 40,
+          "history": "home-away",
+          "rest": "capped"
+        },
+        {
+          "id": "w40-home-away-recovery",
+          "form_window": 40,
+          "history": "home-away",
+          "rest": "recovery"
+        }
+      ],
+      "C_grid": [
+        1e-05,
+        0.0001,
+        0.001,
+        0.01,
+        0.1,
+        1.0
+      ],
+      "fold_specs": [
+        [
+          "2024-07",
+          "2024-07-01",
+          "2024-08-01"
+        ],
+        [
+          "2024-08",
+          "2024-08-01",
+          "2024-09-01"
+        ],
+        [
+          "2024-09",
+          "2024-09-01",
+          "2024-10-01"
+        ],
+        [
+          "2025-05",
+          "2025-05-01",
+          "2025-06-01"
+        ],
+        [
+          "2025-06",
+          "2025-06-01",
+          "2025-07-01"
+        ]
+      ],
+      "selection": "Minimum pooled out-of-fold log loss; lower C then config ID break ties.",
+      "timing": "Finals become available at scheduled start +48h, applied at the next UTC-day batch (48-72h).",
+      "history": "Pooled or current-role-specific form/win-rate/game-count/margin; Elo and rest remain all-game.",
+      "rest": {
+        "none": "zero",
+        "capped": "min(days,14)/14",
+        "recovery": "1-exp(-days/3)"
+      },
+      "weather_and_starters": "Omitted: neither is present as point-in-time pregame data in the frozen experiment source."
+    },
+    "selected": {
+      "config_id": "w10-pooled-capped",
+      "config": {
+        "id": "w10-pooled-capped",
+        "form_window": 10,
+        "history": "pooled",
+        "rest": "capped"
+      },
+      "C": 0.001,
+      "out_of_fold": {
+        "n": 1970,
+        "accuracy": 0.5431472081218274,
+        "log_loss": 0.6870031540812043,
+        "brier": 0.493955551588931,
+        "ece": 0.00782987538550867,
+        "calibration": [
+          {
+            "lower": 0.5,
+            "n": 1760,
+            "confidence": 0.5414355843207658,
+            "accuracy": 0.5329545454545455
+          },
+          {
+            "lower": 0.6,
+            "n": 209,
+            "confidence": 0.6277498871238489,
+            "accuracy": 0.6267942583732058
+          },
+          {
+            "lower": 0.7,
+            "n": 1,
+            "confidence": 0.7015003039800891,
+            "accuracy": 1.0
+          }
+        ]
+      }
+    },
+    "candidates": [
+      {
+        "C": 1e-05,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6935862395505237,
+          "brier": 0.5004378182402804,
+          "accuracy": 0.5096446700507614,
+          "ece": 0.020556881773977298
+        },
+        "all_folds_converged": true,
+        "config_id": "w3-pooled-none",
+        "solver_iterations": [
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ]
+        ]
+      },
+      {
+        "C": 0.0001,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6913079977866491,
+          "brier": 0.4981686279256416,
+          "accuracy": 0.5197969543147208,
+          "ece": 0.011867661501928306
+        },
+        "all_folds_converged": true,
+        "config_id": "w3-pooled-none",
+        "solver_iterations": [
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ]
+        ]
+      },
+      {
+        "C": 0.001,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6875819296907132,
+          "brier": 0.4944999589729929,
+          "accuracy": 0.5375634517766498,
+          "ece": 0.011416766784694873
+        },
+        "all_folds_converged": true,
+        "config_id": "w3-pooled-none",
+        "solver_iterations": [
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ]
+        ]
+      },
+      {
+        "C": 0.01,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6887298727919947,
+          "brier": 0.495614518372359,
+          "accuracy": 0.5395939086294417,
+          "ece": 0.026613305368601473
+        },
+        "all_folds_converged": true,
+        "config_id": "w3-pooled-none",
+        "solver_iterations": [
+          [
+            8
+          ],
+          [
+            8
+          ],
+          [
+            8
+          ],
+          [
+            9
+          ],
+          [
+            9
+          ]
+        ]
+      },
+      {
+        "C": 0.1,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6893956835084684,
+          "brier": 0.49624332583987796,
+          "accuracy": 0.5380710659898477,
+          "ece": 0.032358638745538036
+        },
+        "all_folds_converged": true,
+        "config_id": "w3-pooled-none",
+        "solver_iterations": [
+          [
+            16
+          ],
+          [
+            12
+          ],
+          [
+            17
+          ],
+          [
+            12
+          ],
+          [
+            11
+          ]
+        ]
+      },
+      {
+        "C": 1.0,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6894760810472055,
+          "brier": 0.49631815291830106,
+          "accuracy": 0.5350253807106599,
+          "ece": 0.035909481449948856
+        },
+        "all_folds_converged": true,
+        "config_id": "w3-pooled-none",
+        "solver_iterations": [
+          [
+            22
+          ],
+          [
+            22
+          ],
+          [
+            22
+          ],
+          [
+            12
+          ],
+          [
+            10
+          ]
+        ]
+      },
+      {
+        "C": 1e-05,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6935810608204677,
+          "brier": 0.500432653762676,
+          "accuracy": 0.5096446700507614,
+          "ece": 0.020571262669846768
+        },
+        "all_folds_converged": true,
+        "config_id": "w3-pooled-capped",
+        "solver_iterations": [
+          [
+            7
+          ],
+          [
+            7
+          ],
+          [
+            7
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ]
+        ]
+      },
+      {
+        "C": 0.0001,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6912571654871276,
+          "brier": 0.4981183405808649,
+          "accuracy": 0.5187817258883248,
+          "ece": 0.012985274770240252
+        },
+        "all_folds_converged": true,
+        "config_id": "w3-pooled-capped",
+        "solver_iterations": [
+          [
+            7
+          ],
+          [
+            6
+          ],
+          [
+            7
+          ],
+          [
+            6
+          ],
+          [
+            7
+          ]
+        ]
+      },
+      {
+        "C": 0.001,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6873382887954208,
+          "brier": 0.49427477833613237,
+          "accuracy": 0.5416243654822335,
+          "ece": 0.00827864611938885
+        },
+        "all_folds_converged": true,
+        "config_id": "w3-pooled-capped",
+        "solver_iterations": [
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ]
+        ]
+      },
+      {
+        "C": 0.01,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6886661303771188,
+          "brier": 0.4955848286853776,
+          "accuracy": 0.5451776649746193,
+          "ece": 0.024793386133537328
+        },
+        "all_folds_converged": true,
+        "config_id": "w3-pooled-capped",
+        "solver_iterations": [
+          [
+            9
+          ],
+          [
+            9
+          ],
+          [
+            9
+          ],
+          [
+            10
+          ],
+          [
+            11
+          ]
+        ]
+      },
+      {
+        "C": 0.1,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6896672972525746,
+          "brier": 0.4965213577568966,
+          "accuracy": 0.5431472081218274,
+          "ece": 0.03073520087638891
+        },
+        "all_folds_converged": true,
+        "config_id": "w3-pooled-capped",
+        "solver_iterations": [
+          [
+            16
+          ],
+          [
+            18
+          ],
+          [
+            16
+          ],
+          [
+            22
+          ],
+          [
+            22
+          ]
+        ]
+      },
+      {
+        "C": 1.0,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6900056950962776,
+          "brier": 0.4968268625736124,
+          "accuracy": 0.5477157360406092,
+          "ece": 0.02752320590914422
+        },
+        "all_folds_converged": true,
+        "config_id": "w3-pooled-capped",
+        "solver_iterations": [
+          [
+            22
+          ],
+          [
+            24
+          ],
+          [
+            18
+          ],
+          [
+            27
+          ],
+          [
+            26
+          ]
+        ]
+      },
+      {
+        "C": 1e-05,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6935877210598564,
+          "brier": 0.5004392898278982,
+          "accuracy": 0.5096446700507614,
+          "ece": 0.020581624028532364
+        },
+        "all_folds_converged": true,
+        "config_id": "w3-pooled-recovery",
+        "solver_iterations": [
+          [
+            6
+          ],
+          [
+            7
+          ],
+          [
+            6
+          ],
+          [
+            7
+          ],
+          [
+            6
+          ]
+        ]
+      },
+      {
+        "C": 0.0001,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6913128127108944,
+          "brier": 0.4981738501453782,
+          "accuracy": 0.516751269035533,
+          "ece": 0.015069953297318861
+        },
+        "all_folds_converged": true,
+        "config_id": "w3-pooled-recovery",
+        "solver_iterations": [
+          [
+            6
+          ],
+          [
+            5
+          ],
+          [
+            7
+          ],
+          [
+            7
+          ],
+          [
+            6
+          ]
+        ]
+      },
+      {
+        "C": 0.001,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6874761537969076,
+          "brier": 0.4944092161157583,
+          "accuracy": 0.5426395939086295,
+          "ece": 0.006836520909017736
+        },
+        "all_folds_converged": true,
+        "config_id": "w3-pooled-recovery",
+        "solver_iterations": [
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ]
+        ]
+      },
+      {
+        "C": 0.01,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6883093382865157,
+          "brier": 0.4952545262765652,
+          "accuracy": 0.5431472081218274,
+          "ece": 0.026534470192366873
+        },
+        "all_folds_converged": true,
+        "config_id": "w3-pooled-recovery",
+        "solver_iterations": [
+          [
+            8
+          ],
+          [
+            9
+          ],
+          [
+            10
+          ],
+          [
+            11
+          ],
+          [
+            12
+          ]
+        ]
+      },
+      {
+        "C": 0.1,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6891605258660181,
+          "brier": 0.4960732558472966,
+          "accuracy": 0.5446700507614213,
+          "ece": 0.02886414438212314
+        },
+        "all_folds_converged": true,
+        "config_id": "w3-pooled-recovery",
+        "solver_iterations": [
+          [
+            17
+          ],
+          [
+            17
+          ],
+          [
+            15
+          ],
+          [
+            21
+          ],
+          [
+            22
+          ]
+        ]
+      },
+      {
+        "C": 1.0,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6897935183216554,
+          "brier": 0.4966611313404901,
+          "accuracy": 0.5467005076142132,
+          "ece": 0.027575078439033812
+        },
+        "all_folds_converged": true,
+        "config_id": "w3-pooled-recovery",
+        "solver_iterations": [
+          [
+            32
+          ],
+          [
+            23
+          ],
+          [
+            18
+          ],
+          [
+            28
+          ],
+          [
+            25
+          ]
+        ]
+      },
+      {
+        "C": 1e-05,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6936435070986503,
+          "brier": 0.5004948749422983,
+          "accuracy": 0.5096446700507614,
+          "ece": 0.02069996255484996
+        },
+        "all_folds_converged": true,
+        "config_id": "w3-home-away-none",
+        "solver_iterations": [
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            7
+          ],
+          [
+            6
+          ]
+        ]
+      },
+      {
+        "C": 0.0001,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6917287363671112,
+          "brier": 0.498588373550727,
+          "accuracy": 0.516751269035533,
+          "ece": 0.015933149567420757
+        },
+        "all_folds_converged": true,
+        "config_id": "w3-home-away-none",
+        "solver_iterations": [
+          [
+            6
+          ],
+          [
+            7
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            7
+          ]
+        ]
+      },
+      {
+        "C": 0.001,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6891505509020819,
+          "brier": 0.49604690167156507,
+          "accuracy": 0.5370558375634518,
+          "ece": 0.015773267339223938
+        },
+        "all_folds_converged": true,
+        "config_id": "w3-home-away-none",
+        "solver_iterations": [
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ]
+        ]
+      },
+      {
+        "C": 0.01,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6931679613273873,
+          "brier": 0.4997735439103861,
+          "accuracy": 0.5426395939086295,
+          "ece": 0.03326859367518407
+        },
+        "all_folds_converged": true,
+        "config_id": "w3-home-away-none",
+        "solver_iterations": [
+          [
+            9
+          ],
+          [
+            9
+          ],
+          [
+            8
+          ],
+          [
+            8
+          ],
+          [
+            9
+          ]
+        ]
+      },
+      {
+        "C": 0.1,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6954225315092407,
+          "brier": 0.5017218769818174,
+          "accuracy": 0.5426395939086295,
+          "ece": 0.04042350949049315
+        },
+        "all_folds_converged": true,
+        "config_id": "w3-home-away-none",
+        "solver_iterations": [
+          [
+            15
+          ],
+          [
+            17
+          ],
+          [
+            16
+          ],
+          [
+            13
+          ],
+          [
+            14
+          ]
+        ]
+      },
+      {
+        "C": 1.0,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6959572333470734,
+          "brier": 0.5021630422374447,
+          "accuracy": 0.5461928934010152,
+          "ece": 0.038143317401450993
+        },
+        "all_folds_converged": true,
+        "config_id": "w3-home-away-none",
+        "solver_iterations": [
+          [
+            19
+          ],
+          [
+            20
+          ],
+          [
+            20
+          ],
+          [
+            14
+          ],
+          [
+            14
+          ]
+        ]
+      },
+      {
+        "C": 1e-05,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6936382275317451,
+          "brier": 0.5004896098776227,
+          "accuracy": 0.5096446700507614,
+          "ece": 0.02071343897074429
+        },
+        "all_folds_converged": true,
+        "config_id": "w3-home-away-capped",
+        "solver_iterations": [
+          [
+            7
+          ],
+          [
+            7
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ]
+        ]
+      },
+      {
+        "C": 0.0001,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6916817969027987,
+          "brier": 0.498541974025289,
+          "accuracy": 0.516751269035533,
+          "ece": 0.016032652666101987
+        },
+        "all_folds_converged": true,
+        "config_id": "w3-home-away-capped",
+        "solver_iterations": [
+          [
+            6
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            5
+          ]
+        ]
+      },
+      {
+        "C": 0.001,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.68889429768247,
+          "brier": 0.49580722624332557,
+          "accuracy": 0.5380710659898477,
+          "ece": 0.015182966871143632
+        },
+        "all_folds_converged": true,
+        "config_id": "w3-home-away-capped",
+        "solver_iterations": [
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ]
+        ]
+      },
+      {
+        "C": 0.01,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6925565620732824,
+          "brier": 0.49919166966424267,
+          "accuracy": 0.5401015228426396,
+          "ece": 0.037080164713372575
+        },
+        "all_folds_converged": true,
+        "config_id": "w3-home-away-capped",
+        "solver_iterations": [
+          [
+            8
+          ],
+          [
+            10
+          ],
+          [
+            9
+          ],
+          [
+            11
+          ],
+          [
+            11
+          ]
+        ]
+      },
+      {
+        "C": 0.1,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6947436942693257,
+          "brier": 0.5010426874158623,
+          "accuracy": 0.5461928934010152,
+          "ece": 0.038753279362503446
+        },
+        "all_folds_converged": true,
+        "config_id": "w3-home-away-capped",
+        "solver_iterations": [
+          [
+            21
+          ],
+          [
+            20
+          ],
+          [
+            18
+          ],
+          [
+            23
+          ],
+          [
+            20
+          ]
+        ]
+      },
+      {
+        "C": 1.0,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.695627966602851,
+          "brier": 0.5017808326051626,
+          "accuracy": 0.5487309644670051,
+          "ece": 0.0373922871061208
+        },
+        "all_folds_converged": true,
+        "config_id": "w3-home-away-capped",
+        "solver_iterations": [
+          [
+            26
+          ],
+          [
+            31
+          ],
+          [
+            20
+          ],
+          [
+            27
+          ],
+          [
+            25
+          ]
+        ]
+      },
+      {
+        "C": 1e-05,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6936448975051172,
+          "brier": 0.5004962547933234,
+          "accuracy": 0.5096446700507614,
+          "ece": 0.020723724421280454
+        },
+        "all_folds_converged": true,
+        "config_id": "w3-home-away-recovery",
+        "solver_iterations": [
+          [
+            7
+          ],
+          [
+            7
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ]
+        ]
+      },
+      {
+        "C": 0.0001,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6917374943886473,
+          "brier": 0.49859754065392237,
+          "accuracy": 0.5152284263959391,
+          "ece": 0.01761389802868507
+        },
+        "all_folds_converged": true,
+        "config_id": "w3-home-away-recovery",
+        "solver_iterations": [
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            5
+          ]
+        ]
+      },
+      {
+        "C": 0.001,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6889867570731147,
+          "brier": 0.4958996420354209,
+          "accuracy": 0.5375634517766498,
+          "ece": 0.015860738326716344
+        },
+        "all_folds_converged": true,
+        "config_id": "w3-home-away-recovery",
+        "solver_iterations": [
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ]
+        ]
+      },
+      {
+        "C": 0.01,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6919139272708916,
+          "brier": 0.4986496305863003,
+          "accuracy": 0.5395939086294417,
+          "ece": 0.035303628102277905
+        },
+        "all_folds_converged": true,
+        "config_id": "w3-home-away-recovery",
+        "solver_iterations": [
+          [
+            8
+          ],
+          [
+            9
+          ],
+          [
+            11
+          ],
+          [
+            11
+          ],
+          [
+            14
+          ]
+        ]
+      },
+      {
+        "C": 0.1,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6938695480001636,
+          "brier": 0.5003730590871648,
+          "accuracy": 0.5451776649746193,
+          "ece": 0.03768579438133966
+        },
+        "all_folds_converged": true,
+        "config_id": "w3-home-away-recovery",
+        "solver_iterations": [
+          [
+            21
+          ],
+          [
+            21
+          ],
+          [
+            18
+          ],
+          [
+            24
+          ],
+          [
+            23
+          ]
+        ]
+      },
+      {
+        "C": 1.0,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6950870603220337,
+          "brier": 0.5014411284459181,
+          "accuracy": 0.5431472081218274,
+          "ece": 0.041779102961440315
+        },
+        "all_folds_converged": true,
+        "config_id": "w3-home-away-recovery",
+        "solver_iterations": [
+          [
+            27
+          ],
+          [
+            30
+          ],
+          [
+            21
+          ],
+          [
+            26
+          ],
+          [
+            25
+          ]
+        ]
+      },
+      {
+        "C": 1e-05,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6935740939508406,
+          "brier": 0.5004257143823155,
+          "accuracy": 0.5096446700507614,
+          "ece": 0.020572132890992578
+        },
+        "all_folds_converged": true,
+        "config_id": "w5-pooled-none",
+        "solver_iterations": [
+          [
+            7
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ]
+        ]
+      },
+      {
+        "C": 0.0001,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6912680681592608,
+          "brier": 0.49812895574068544,
+          "accuracy": 0.5197969543147208,
+          "ece": 0.012038789586888643
+        },
+        "all_folds_converged": true,
+        "config_id": "w5-pooled-none",
+        "solver_iterations": [
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            5
+          ]
+        ]
+      },
+      {
+        "C": 0.001,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6877937468169453,
+          "brier": 0.49471293775273106,
+          "accuracy": 0.5385786802030457,
+          "ece": 0.013102348840312828
+        },
+        "all_folds_converged": true,
+        "config_id": "w5-pooled-none",
+        "solver_iterations": [
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ]
+        ]
+      },
+      {
+        "C": 0.01,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6890468305699667,
+          "brier": 0.49592393062349854,
+          "accuracy": 0.5395939086294417,
+          "ece": 0.027667838244103394
+        },
+        "all_folds_converged": true,
+        "config_id": "w5-pooled-none",
+        "solver_iterations": [
+          [
+            8
+          ],
+          [
+            8
+          ],
+          [
+            8
+          ],
+          [
+            10
+          ],
+          [
+            9
+          ]
+        ]
+      },
+      {
+        "C": 0.1,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6897163061791739,
+          "brier": 0.49655356134610706,
+          "accuracy": 0.5416243654822335,
+          "ece": 0.028637188335991434
+        },
+        "all_folds_converged": true,
+        "config_id": "w5-pooled-none",
+        "solver_iterations": [
+          [
+            10
+          ],
+          [
+            11
+          ],
+          [
+            11
+          ],
+          [
+            11
+          ],
+          [
+            10
+          ]
+        ]
+      },
+      {
+        "C": 1.0,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6898177712563285,
+          "brier": 0.496648870481815,
+          "accuracy": 0.5431472081218274,
+          "ece": 0.027694800574350316
+        },
+        "all_folds_converged": true,
+        "config_id": "w5-pooled-none",
+        "solver_iterations": [
+          [
+            21
+          ],
+          [
+            20
+          ],
+          [
+            24
+          ],
+          [
+            13
+          ],
+          [
+            10
+          ]
+        ]
+      },
+      {
+        "C": 1e-05,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6935690958646958,
+          "brier": 0.5004207294204537,
+          "accuracy": 0.5096446700507614,
+          "ece": 0.020588758966686216
+        },
+        "all_folds_converged": true,
+        "config_id": "w5-pooled-capped",
+        "solver_iterations": [
+          [
+            7
+          ],
+          [
+            7
+          ],
+          [
+            7
+          ],
+          [
+            6
+          ],
+          [
+            7
+          ]
+        ]
+      },
+      {
+        "C": 0.0001,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6912172135835073,
+          "brier": 0.49807862025512173,
+          "accuracy": 0.5197969543147208,
+          "ece": 0.01214013032105421
+        },
+        "all_folds_converged": true,
+        "config_id": "w5-pooled-capped",
+        "solver_iterations": [
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            7
+          ],
+          [
+            6
+          ],
+          [
+            7
+          ]
+        ]
+      },
+      {
+        "C": 0.001,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6875572958245805,
+          "brier": 0.49449469138599184,
+          "accuracy": 0.5411167512690356,
+          "ece": 0.009415068702751293
+        },
+        "all_folds_converged": true,
+        "config_id": "w5-pooled-capped",
+        "solver_iterations": [
+          [
+            7
+          ],
+          [
+            7
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ]
+        ]
+      },
+      {
+        "C": 0.01,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.688992026590561,
+          "brier": 0.49589581101355135,
+          "accuracy": 0.550253807106599,
+          "ece": 0.01941467209123374
+        },
+        "all_folds_converged": true,
+        "config_id": "w5-pooled-capped",
+        "solver_iterations": [
+          [
+            9
+          ],
+          [
+            9
+          ],
+          [
+            9
+          ],
+          [
+            11
+          ],
+          [
+            10
+          ]
+        ]
+      },
+      {
+        "C": 0.1,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6900109725598687,
+          "brier": 0.49684247840173573,
+          "accuracy": 0.5482233502538071,
+          "ece": 0.025499280578797374
+        },
+        "all_folds_converged": true,
+        "config_id": "w5-pooled-capped",
+        "solver_iterations": [
+          [
+            16
+          ],
+          [
+            18
+          ],
+          [
+            17
+          ],
+          [
+            21
+          ],
+          [
+            23
+          ]
+        ]
+      },
+      {
+        "C": 1.0,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6903513165086912,
+          "brier": 0.49715147202155757,
+          "accuracy": 0.5517766497461929,
+          "ece": 0.02338856270177685
+        },
+        "all_folds_converged": true,
+        "config_id": "w5-pooled-capped",
+        "solver_iterations": [
+          [
+            21
+          ],
+          [
+            22
+          ],
+          [
+            17
+          ],
+          [
+            27
+          ],
+          [
+            24
+          ]
+        ]
+      },
+      {
+        "C": 1e-05,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6935755859047606,
+          "brier": 0.5004271951871923,
+          "accuracy": 0.5096446700507614,
+          "ece": 0.020597414660634916
+        },
+        "all_folds_converged": true,
+        "config_id": "w5-pooled-recovery",
+        "solver_iterations": [
+          [
+            7
+          ],
+          [
+            7
+          ],
+          [
+            7
+          ],
+          [
+            6
+          ],
+          [
+            7
+          ]
+        ]
+      },
+      {
+        "C": 0.0001,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6912737001637652,
+          "brier": 0.49813494884337745,
+          "accuracy": 0.5192893401015228,
+          "ece": 0.012702629196729709
+        },
+        "all_folds_converged": true,
+        "config_id": "w5-pooled-recovery",
+        "solver_iterations": [
+          [
+            7
+          ],
+          [
+            6
+          ],
+          [
+            7
+          ],
+          [
+            6
+          ],
+          [
+            7
+          ]
+        ]
+      },
+      {
+        "C": 0.001,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6876955973765657,
+          "brier": 0.49462970801019507,
+          "accuracy": 0.5421319796954315,
+          "ece": 0.00852503436133389
+        },
+        "all_folds_converged": true,
+        "config_id": "w5-pooled-recovery",
+        "solver_iterations": [
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ]
+        ]
+      },
+      {
+        "C": 0.01,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6886234021513513,
+          "brier": 0.4955590246635384,
+          "accuracy": 0.5461928934010152,
+          "ece": 0.023101366769645058
+        },
+        "all_folds_converged": true,
+        "config_id": "w5-pooled-recovery",
+        "solver_iterations": [
+          [
+            9
+          ],
+          [
+            10
+          ],
+          [
+            10
+          ],
+          [
+            12
+          ],
+          [
+            12
+          ]
+        ]
+      },
+      {
+        "C": 0.1,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6894665788238095,
+          "brier": 0.4963674155369948,
+          "accuracy": 0.5451776649746193,
+          "ece": 0.028072391859090863
+        },
+        "all_folds_converged": true,
+        "config_id": "w5-pooled-recovery",
+        "solver_iterations": [
+          [
+            16
+          ],
+          [
+            16
+          ],
+          [
+            18
+          ],
+          [
+            23
+          ],
+          [
+            22
+          ]
+        ]
+      },
+      {
+        "C": 1.0,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6901089129317978,
+          "brier": 0.4969670803990504,
+          "accuracy": 0.5467005076142132,
+          "ece": 0.02769579413634419
+        },
+        "all_folds_converged": true,
+        "config_id": "w5-pooled-recovery",
+        "solver_iterations": [
+          [
+            33
+          ],
+          [
+            24
+          ],
+          [
+            19
+          ],
+          [
+            26
+          ],
+          [
+            24
+          ]
+        ]
+      },
+      {
+        "C": 1e-05,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6935982101248558,
+          "brier": 0.5004497686993167,
+          "accuracy": 0.5096446700507614,
+          "ece": 0.020704910635861884
+        },
+        "all_folds_converged": true,
+        "config_id": "w5-home-away-none",
+        "solver_iterations": [
+          [
+            6
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ]
+        ]
+      },
+      {
+        "C": 0.0001,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.691438009860307,
+          "brier": 0.49829894820893217,
+          "accuracy": 0.5208121827411167,
+          "ece": 0.011967830317382244
+        },
+        "all_folds_converged": true,
+        "config_id": "w5-home-away-none",
+        "solver_iterations": [
+          [
+            7
+          ],
+          [
+            7
+          ],
+          [
+            6
+          ],
+          [
+            7
+          ],
+          [
+            6
+          ]
+        ]
+      },
+      {
+        "C": 0.001,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6886888030563677,
+          "brier": 0.4955879607397325,
+          "accuracy": 0.5370558375634518,
+          "ece": 0.016062948045893723
+        },
+        "all_folds_converged": true,
+        "config_id": "w5-home-away-none",
+        "solver_iterations": [
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ]
+        ]
+      },
+      {
+        "C": 0.01,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.692601161521067,
+          "brier": 0.4992297623409408,
+          "accuracy": 0.5390862944162437,
+          "ece": 0.03602611178600207
+        },
+        "all_folds_converged": true,
+        "config_id": "w5-home-away-none",
+        "solver_iterations": [
+          [
+            9
+          ],
+          [
+            9
+          ],
+          [
+            9
+          ],
+          [
+            9
+          ],
+          [
+            8
+          ]
+        ]
+      },
+      {
+        "C": 0.1,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6947893894918402,
+          "brier": 0.5011249526451563,
+          "accuracy": 0.5380710659898477,
+          "ece": 0.044177789003700826
+        },
+        "all_folds_converged": true,
+        "config_id": "w5-home-away-none",
+        "solver_iterations": [
+          [
+            14
+          ],
+          [
+            20
+          ],
+          [
+            20
+          ],
+          [
+            11
+          ],
+          [
+            13
+          ]
+        ]
+      },
+      {
+        "C": 1.0,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6952869747988112,
+          "brier": 0.5015328475846434,
+          "accuracy": 0.5370558375634518,
+          "ece": 0.04648430083123956
+        },
+        "all_folds_converged": true,
+        "config_id": "w5-home-away-none",
+        "solver_iterations": [
+          [
+            20
+          ],
+          [
+            21
+          ],
+          [
+            19
+          ],
+          [
+            11
+          ],
+          [
+            14
+          ]
+        ]
+      },
+      {
+        "C": 1e-05,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6935926937497441,
+          "brier": 0.5004442675967002,
+          "accuracy": 0.5096446700507614,
+          "ece": 0.020718653713900248
+        },
+        "all_folds_converged": true,
+        "config_id": "w5-home-away-capped",
+        "solver_iterations": [
+          [
+            7
+          ],
+          [
+            7
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ]
+        ]
+      },
+      {
+        "C": 0.0001,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6913905093036351,
+          "brier": 0.4982520116636671,
+          "accuracy": 0.5192893401015228,
+          "ece": 0.013595976797810327
+        },
+        "all_folds_converged": true,
+        "config_id": "w5-home-away-capped",
+        "solver_iterations": [
+          [
+            7
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ]
+        ]
+      },
+      {
+        "C": 0.001,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6884253219824095,
+          "brier": 0.49534264301106595,
+          "accuracy": 0.5385786802030457,
+          "ece": 0.015570641329769245
+        },
+        "all_folds_converged": true,
+        "config_id": "w5-home-away-capped",
+        "solver_iterations": [
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ]
+        ]
+      },
+      {
+        "C": 0.01,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6920416161893849,
+          "brier": 0.4987017703768387,
+          "accuracy": 0.5431472081218274,
+          "ece": 0.033177833809020174
+        },
+        "all_folds_converged": true,
+        "config_id": "w5-home-away-capped",
+        "solver_iterations": [
+          [
+            9
+          ],
+          [
+            10
+          ],
+          [
+            10
+          ],
+          [
+            11
+          ],
+          [
+            11
+          ]
+        ]
+      },
+      {
+        "C": 0.1,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6942403775154011,
+          "brier": 0.5005745127673644,
+          "accuracy": 0.5477157360406092,
+          "ece": 0.036119514599594595
+        },
+        "all_folds_converged": true,
+        "config_id": "w5-home-away-capped",
+        "solver_iterations": [
+          [
+            21
+          ],
+          [
+            21
+          ],
+          [
+            18
+          ],
+          [
+            25
+          ],
+          [
+            23
+          ]
+        ]
+      },
+      {
+        "C": 1.0,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6950822734624846,
+          "brier": 0.5012746731188698,
+          "accuracy": 0.5456852791878173,
+          "ece": 0.039567276177740085
+        },
+        "all_folds_converged": true,
+        "config_id": "w5-home-away-capped",
+        "solver_iterations": [
+          [
+            28
+          ],
+          [
+            31
+          ],
+          [
+            21
+          ],
+          [
+            26
+          ],
+          [
+            25
+          ]
+        ]
+      },
+      {
+        "C": 1e-05,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6935993722233392,
+          "brier": 0.500450921369666,
+          "accuracy": 0.5096446700507614,
+          "ece": 0.020728931504955028
+        },
+        "all_folds_converged": true,
+        "config_id": "w5-home-away-recovery",
+        "solver_iterations": [
+          [
+            7
+          ],
+          [
+            7
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ]
+        ]
+      },
+      {
+        "C": 0.0001,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6914463382595597,
+          "brier": 0.4983077158069016,
+          "accuracy": 0.5182741116751269,
+          "ece": 0.014663908090891575
+        },
+        "all_folds_converged": true,
+        "config_id": "w5-home-away-recovery",
+        "solver_iterations": [
+          [
+            6
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            7
+          ]
+        ]
+      },
+      {
+        "C": 0.001,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6885297250403908,
+          "brier": 0.4954465116482096,
+          "accuracy": 0.5385786802030457,
+          "ece": 0.015102141538000465
+        },
+        "all_folds_converged": true,
+        "config_id": "w5-home-away-recovery",
+        "solver_iterations": [
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ]
+        ]
+      },
+      {
+        "C": 0.01,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6914221362994168,
+          "brier": 0.4981780538390967,
+          "accuracy": 0.5406091370558376,
+          "ece": 0.033445862748817064
+        },
+        "all_folds_converged": true,
+        "config_id": "w5-home-away-recovery",
+        "solver_iterations": [
+          [
+            9
+          ],
+          [
+            10
+          ],
+          [
+            11
+          ],
+          [
+            12
+          ],
+          [
+            12
+          ]
+        ]
+      },
+      {
+        "C": 0.1,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6933933160748738,
+          "brier": 0.4999232031642956,
+          "accuracy": 0.5477157360406092,
+          "ece": 0.033992267747153006
+        },
+        "all_folds_converged": true,
+        "config_id": "w5-home-away-recovery",
+        "solver_iterations": [
+          [
+            20
+          ],
+          [
+            20
+          ],
+          [
+            19
+          ],
+          [
+            24
+          ],
+          [
+            26
+          ]
+        ]
+      },
+      {
+        "C": 1.0,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6946106841518375,
+          "brier": 0.5009898093050631,
+          "accuracy": 0.5436548223350254,
+          "ece": 0.0408751165854667
+        },
+        "all_folds_converged": true,
+        "config_id": "w5-home-away-recovery",
+        "solver_iterations": [
+          [
+            27
+          ],
+          [
+            30
+          ],
+          [
+            22
+          ],
+          [
+            25
+          ],
+          [
+            25
+          ]
+        ]
+      },
+      {
+        "C": 1e-05,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6935235044759595,
+          "brier": 0.5003753302702076,
+          "accuracy": 0.5096446700507614,
+          "ece": 0.0205601572642079
+        },
+        "all_folds_converged": true,
+        "config_id": "w10-pooled-none",
+        "solver_iterations": [
+          [
+            7
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            7
+          ],
+          [
+            6
+          ]
+        ]
+      },
+      {
+        "C": 0.0001,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6909638078294487,
+          "brier": 0.4978268303086571,
+          "accuracy": 0.5197969543147208,
+          "ece": 0.012070537912075019
+        },
+        "all_folds_converged": true,
+        "config_id": "w10-pooled-none",
+        "solver_iterations": [
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            7
+          ]
+        ]
+      },
+      {
+        "C": 0.001,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6872517833054572,
+          "brier": 0.4941849138769154,
+          "accuracy": 0.5421319796954315,
+          "ece": 0.011504524019906981
+        },
+        "all_folds_converged": true,
+        "config_id": "w10-pooled-none",
+        "solver_iterations": [
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ]
+        ]
+      },
+      {
+        "C": 0.01,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6883027226671963,
+          "brier": 0.49519815186945115,
+          "accuracy": 0.5467005076142132,
+          "ece": 0.01934461309144506
+        },
+        "all_folds_converged": true,
+        "config_id": "w10-pooled-none",
+        "solver_iterations": [
+          [
+            8
+          ],
+          [
+            8
+          ],
+          [
+            8
+          ],
+          [
+            9
+          ],
+          [
+            9
+          ]
+        ]
+      },
+      {
+        "C": 0.1,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.688995729734025,
+          "brier": 0.4958459571034984,
+          "accuracy": 0.5482233502538071,
+          "ece": 0.024425850643043645
+        },
+        "all_folds_converged": true,
+        "config_id": "w10-pooled-none",
+        "solver_iterations": [
+          [
+            14
+          ],
+          [
+            11
+          ],
+          [
+            10
+          ],
+          [
+            11
+          ],
+          [
+            11
+          ]
+        ]
+      },
+      {
+        "C": 1.0,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6890962241404488,
+          "brier": 0.4959405414184496,
+          "accuracy": 0.5492385786802031,
+          "ece": 0.024615160923231176
+        },
+        "all_folds_converged": true,
+        "config_id": "w10-pooled-none",
+        "solver_iterations": [
+          [
+            23
+          ],
+          [
+            12
+          ],
+          [
+            11
+          ],
+          [
+            12
+          ],
+          [
+            11
+          ]
+        ]
+      },
+      {
+        "C": 1e-05,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6935183241452996,
+          "brier": 0.5003701635689541,
+          "accuracy": 0.5096446700507614,
+          "ece": 0.020576840109499228
+        },
+        "all_folds_converged": true,
+        "config_id": "w10-pooled-capped",
+        "solver_iterations": [
+          [
+            6
+          ],
+          [
+            7
+          ],
+          [
+            7
+          ],
+          [
+            6
+          ],
+          [
+            7
+          ]
+        ]
+      },
+      {
+        "C": 0.0001,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6909125356617805,
+          "brier": 0.49777609600586836,
+          "accuracy": 0.5203045685279187,
+          "ece": 0.011664283610788861
+        },
+        "all_folds_converged": true,
+        "config_id": "w10-pooled-capped",
+        "solver_iterations": [
+          [
+            7
+          ],
+          [
+            7
+          ],
+          [
+            7
+          ],
+          [
+            7
+          ],
+          [
+            7
+          ]
+        ]
+      },
+      {
+        "C": 0.001,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6870031540812043,
+          "brier": 0.493955551588931,
+          "accuracy": 0.5431472081218274,
+          "ece": 0.00782987538550867
+        },
+        "all_folds_converged": true,
+        "config_id": "w10-pooled-capped",
+        "solver_iterations": [
+          [
+            7
+          ],
+          [
+            7
+          ],
+          [
+            7
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ]
+        ]
+      },
+      {
+        "C": 0.01,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6882595372948782,
+          "brier": 0.4951806173941091,
+          "accuracy": 0.5548223350253807,
+          "ece": 0.017993041105127866
+        },
+        "all_folds_converged": true,
+        "config_id": "w10-pooled-capped",
+        "solver_iterations": [
+          [
+            9
+          ],
+          [
+            10
+          ],
+          [
+            9
+          ],
+          [
+            10
+          ],
+          [
+            11
+          ]
+        ]
+      },
+      {
+        "C": 0.1,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6892993265429055,
+          "brier": 0.49613284047029965,
+          "accuracy": 0.550253807106599,
+          "ece": 0.02365282743478
+        },
+        "all_folds_converged": true,
+        "config_id": "w10-pooled-capped",
+        "solver_iterations": [
+          [
+            16
+          ],
+          [
+            17
+          ],
+          [
+            16
+          ],
+          [
+            23
+          ],
+          [
+            24
+          ]
+        ]
+      },
+      {
+        "C": 1.0,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6897104433529961,
+          "brier": 0.496506580436158,
+          "accuracy": 0.5522842639593909,
+          "ece": 0.023359136826519133
+        },
+        "all_folds_converged": true,
+        "config_id": "w10-pooled-capped",
+        "solver_iterations": [
+          [
+            20
+          ],
+          [
+            19
+          ],
+          [
+            22
+          ],
+          [
+            28
+          ],
+          [
+            30
+          ]
+        ]
+      },
+      {
+        "C": 1e-05,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6935253821308358,
+          "brier": 0.5003771955358516,
+          "accuracy": 0.5096446700507614,
+          "ece": 0.0205902153995281
+        },
+        "all_folds_converged": true,
+        "config_id": "w10-pooled-recovery",
+        "solver_iterations": [
+          [
+            7
+          ],
+          [
+            7
+          ],
+          [
+            7
+          ],
+          [
+            7
+          ],
+          [
+            7
+          ]
+        ]
+      },
+      {
+        "C": 0.0001,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6909687615817603,
+          "brier": 0.4978321543864834,
+          "accuracy": 0.5208121827411167,
+          "ece": 0.011208645332733691
+        },
+        "all_folds_converged": true,
+        "config_id": "w10-pooled-recovery",
+        "solver_iterations": [
+          [
+            5
+          ],
+          [
+            7
+          ],
+          [
+            7
+          ],
+          [
+            7
+          ],
+          [
+            7
+          ]
+        ]
+      },
+      {
+        "C": 0.001,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6871466767202307,
+          "brier": 0.49409538508615014,
+          "accuracy": 0.5426395939086295,
+          "ece": 0.009823406511874726
+        },
+        "all_folds_converged": true,
+        "config_id": "w10-pooled-recovery",
+        "solver_iterations": [
+          [
+            7
+          ],
+          [
+            7
+          ],
+          [
+            7
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ]
+        ]
+      },
+      {
+        "C": 0.01,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6878891046469232,
+          "brier": 0.4948442667863723,
+          "accuracy": 0.549746192893401,
+          "ece": 0.02128155106841039
+        },
+        "all_folds_converged": true,
+        "config_id": "w10-pooled-recovery",
+        "solver_iterations": [
+          [
+            9
+          ],
+          [
+            9
+          ],
+          [
+            11
+          ],
+          [
+            10
+          ],
+          [
+            11
+          ]
+        ]
+      },
+      {
+        "C": 0.1,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6887676624012079,
+          "brier": 0.49567905417259167,
+          "accuracy": 0.5467005076142132,
+          "ece": 0.028777889344902243
+        },
+        "all_folds_converged": true,
+        "config_id": "w10-pooled-recovery",
+        "solver_iterations": [
+          [
+            17
+          ],
+          [
+            17
+          ],
+          [
+            16
+          ],
+          [
+            21
+          ],
+          [
+            21
+          ]
+        ]
+      },
+      {
+        "C": 1.0,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6894793196056842,
+          "brier": 0.49634260645903844,
+          "accuracy": 0.5472081218274112,
+          "ece": 0.029745069049567637
+        },
+        "all_folds_converged": true,
+        "config_id": "w10-pooled-recovery",
+        "solver_iterations": [
+          [
+            32
+          ],
+          [
+            20
+          ],
+          [
+            19
+          ],
+          [
+            27
+          ],
+          [
+            27
+          ]
+        ]
+      },
+      {
+        "C": 1e-05,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6936137431552694,
+          "brier": 0.5004652048554524,
+          "accuracy": 0.5096446700507614,
+          "ece": 0.020738526304405758
+        },
+        "all_folds_converged": true,
+        "config_id": "w10-home-away-none",
+        "solver_iterations": [
+          [
+            7
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ]
+        ]
+      },
+      {
+        "C": 0.0001,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.691595592283158,
+          "brier": 0.4984551180441396,
+          "accuracy": 0.5182741116751269,
+          "ece": 0.014726070129388869
+        },
+        "all_folds_converged": true,
+        "config_id": "w10-home-away-none",
+        "solver_iterations": [
+          [
+            6
+          ],
+          [
+            7
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ]
+        ]
+      },
+      {
+        "C": 0.001,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6891153996733144,
+          "brier": 0.49600775060343605,
+          "accuracy": 0.5380710659898477,
+          "ece": 0.017673923135635875
+        },
+        "all_folds_converged": true,
+        "config_id": "w10-home-away-none",
+        "solver_iterations": [
+          [
+            7
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ]
+        ]
+      },
+      {
+        "C": 0.01,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.692873455704672,
+          "brier": 0.499512879480317,
+          "accuracy": 0.5395939086294417,
+          "ece": 0.03644571105791
+        },
+        "all_folds_converged": true,
+        "config_id": "w10-home-away-none",
+        "solver_iterations": [
+          [
+            9
+          ],
+          [
+            9
+          ],
+          [
+            11
+          ],
+          [
+            9
+          ],
+          [
+            10
+          ]
+        ]
+      },
+      {
+        "C": 0.1,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6957535360743687,
+          "brier": 0.5020691685499696,
+          "accuracy": 0.5421319796954315,
+          "ece": 0.042213461852000936
+        },
+        "all_folds_converged": true,
+        "config_id": "w10-home-away-none",
+        "solver_iterations": [
+          [
+            17
+          ],
+          [
+            19
+          ],
+          [
+            20
+          ],
+          [
+            11
+          ],
+          [
+            15
+          ]
+        ]
+      },
+      {
+        "C": 1.0,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6965096555046348,
+          "brier": 0.502715783769196,
+          "accuracy": 0.5406091370558376,
+          "ece": 0.045554121309522994
+        },
+        "all_folds_converged": true,
+        "config_id": "w10-home-away-none",
+        "solver_iterations": [
+          [
+            19
+          ],
+          [
+            19
+          ],
+          [
+            21
+          ],
+          [
+            14
+          ],
+          [
+            15
+          ]
+        ]
+      },
+      {
+        "C": 1e-05,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6936083751484501,
+          "brier": 0.5004598528570693,
+          "accuracy": 0.5096446700507614,
+          "ece": 0.02075238972776361
+        },
+        "all_folds_converged": true,
+        "config_id": "w10-home-away-capped",
+        "solver_iterations": [
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            7
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ]
+        ]
+      },
+      {
+        "C": 0.0001,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6915474308513104,
+          "brier": 0.4984075779873647,
+          "accuracy": 0.5177664974619289,
+          "ece": 0.015330746553526287
+        },
+        "all_folds_converged": true,
+        "config_id": "w10-home-away-capped",
+        "solver_iterations": [
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            7
+          ],
+          [
+            5
+          ],
+          [
+            7
+          ]
+        ]
+      },
+      {
+        "C": 0.001,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6888589644645348,
+          "brier": 0.49577013252741065,
+          "accuracy": 0.5401015228426396,
+          "ece": 0.01399315542879662
+        },
+        "all_folds_converged": true,
+        "config_id": "w10-home-away-capped",
+        "solver_iterations": [
+          [
+            7
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ]
+        ]
+      },
+      {
+        "C": 0.01,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.692314509248836,
+          "brier": 0.49898591858872376,
+          "accuracy": 0.5411167512690356,
+          "ece": 0.03597249373498764
+        },
+        "all_folds_converged": true,
+        "config_id": "w10-home-away-capped",
+        "solver_iterations": [
+          [
+            10
+          ],
+          [
+            10
+          ],
+          [
+            10
+          ],
+          [
+            10
+          ],
+          [
+            12
+          ]
+        ]
+      },
+      {
+        "C": 0.1,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6951488887478792,
+          "brier": 0.5014615487784259,
+          "accuracy": 0.5380710659898477,
+          "ece": 0.04721472285764913
+        },
+        "all_folds_converged": true,
+        "config_id": "w10-home-away-capped",
+        "solver_iterations": [
+          [
+            20
+          ],
+          [
+            17
+          ],
+          [
+            21
+          ],
+          [
+            22
+          ],
+          [
+            20
+          ]
+        ]
+      },
+      {
+        "C": 1.0,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6962642625483597,
+          "brier": 0.5024174663989254,
+          "accuracy": 0.5360406091370559,
+          "ece": 0.05156173366254551
+        },
+        "all_folds_converged": true,
+        "config_id": "w10-home-away-capped",
+        "solver_iterations": [
+          [
+            30
+          ],
+          [
+            29
+          ],
+          [
+            23
+          ],
+          [
+            27
+          ],
+          [
+            25
+          ]
+        ]
+      },
+      {
+        "C": 1e-05,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6936151727783745,
+          "brier": 0.5004666248595279,
+          "accuracy": 0.5096446700507614,
+          "ece": 0.020763014976617256
+        },
+        "all_folds_converged": true,
+        "config_id": "w10-home-away-recovery",
+        "solver_iterations": [
+          [
+            7
+          ],
+          [
+            6
+          ],
+          [
+            7
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ]
+        ]
+      },
+      {
+        "C": 0.0001,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6916030858587449,
+          "brier": 0.4984630910815888,
+          "accuracy": 0.5172588832487309,
+          "ece": 0.015886195053975705
+        },
+        "all_folds_converged": true,
+        "config_id": "w10-home-away-recovery",
+        "solver_iterations": [
+          [
+            6
+          ],
+          [
+            7
+          ],
+          [
+            7
+          ],
+          [
+            6
+          ],
+          [
+            7
+          ]
+        ]
+      },
+      {
+        "C": 0.001,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6889540409676372,
+          "brier": 0.495864820470184,
+          "accuracy": 0.5370558375634518,
+          "ece": 0.01685460057709368
+        },
+        "all_folds_converged": true,
+        "config_id": "w10-home-away-recovery",
+        "solver_iterations": [
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ]
+        ]
+      },
+      {
+        "C": 0.01,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.691668859974712,
+          "brier": 0.49844304626900965,
+          "accuracy": 0.5406091370558376,
+          "ece": 0.0343474422602613
+        },
+        "all_folds_converged": true,
+        "config_id": "w10-home-away-recovery",
+        "solver_iterations": [
+          [
+            10
+          ],
+          [
+            11
+          ],
+          [
+            11
+          ],
+          [
+            13
+          ],
+          [
+            14
+          ]
+        ]
+      },
+      {
+        "C": 0.1,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6942375629929657,
+          "brier": 0.5007716186302145,
+          "accuracy": 0.5365482233502538,
+          "ece": 0.047574493609507294
+        },
+        "all_folds_converged": true,
+        "config_id": "w10-home-away-recovery",
+        "solver_iterations": [
+          [
+            23
+          ],
+          [
+            20
+          ],
+          [
+            21
+          ],
+          [
+            23
+          ],
+          [
+            20
+          ]
+        ]
+      },
+      {
+        "C": 1.0,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6956978475651813,
+          "brier": 0.5020636123787361,
+          "accuracy": 0.5355329949238579,
+          "ece": 0.05079192527754229
+        },
+        "all_folds_converged": true,
+        "config_id": "w10-home-away-recovery",
+        "solver_iterations": [
+          [
+            31
+          ],
+          [
+            32
+          ],
+          [
+            24
+          ],
+          [
+            26
+          ],
+          [
+            26
+          ]
+        ]
+      },
+      {
+        "C": 1e-05,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.693535710338736,
+          "brier": 0.5003874418385197,
+          "accuracy": 0.5096446700507614,
+          "ece": 0.020569877445238527
+        },
+        "all_folds_converged": true,
+        "config_id": "w20-pooled-none",
+        "solver_iterations": [
+          [
+            7
+          ],
+          [
+            7
+          ],
+          [
+            6
+          ],
+          [
+            7
+          ],
+          [
+            6
+          ]
+        ]
+      },
+      {
+        "C": 0.0001,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6910978415539399,
+          "brier": 0.4979586516366176,
+          "accuracy": 0.5203045685279187,
+          "ece": 0.01164425655276946
+        },
+        "all_folds_converged": true,
+        "config_id": "w20-pooled-none",
+        "solver_iterations": [
+          [
+            7
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ]
+        ]
+      },
+      {
+        "C": 0.001,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6876597434521295,
+          "brier": 0.4945782353480592,
+          "accuracy": 0.5426395939086295,
+          "ece": 0.009288836255658042
+        },
+        "all_folds_converged": true,
+        "config_id": "w20-pooled-none",
+        "solver_iterations": [
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ]
+        ]
+      },
+      {
+        "C": 0.01,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6886935619582223,
+          "brier": 0.4955867428249319,
+          "accuracy": 0.5380710659898477,
+          "ece": 0.02786878822973816
+        },
+        "all_folds_converged": true,
+        "config_id": "w20-pooled-none",
+        "solver_iterations": [
+          [
+            8
+          ],
+          [
+            10
+          ],
+          [
+            10
+          ],
+          [
+            10
+          ],
+          [
+            10
+          ]
+        ]
+      },
+      {
+        "C": 0.1,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6897492864553547,
+          "brier": 0.4965627219703905,
+          "accuracy": 0.534010152284264,
+          "ece": 0.03637508940580319
+        },
+        "all_folds_converged": true,
+        "config_id": "w20-pooled-none",
+        "solver_iterations": [
+          [
+            14
+          ],
+          [
+            12
+          ],
+          [
+            14
+          ],
+          [
+            13
+          ],
+          [
+            12
+          ]
+        ]
+      },
+      {
+        "C": 1.0,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.689928288811207,
+          "brier": 0.49672434442315627,
+          "accuracy": 0.5355329949238579,
+          "ece": 0.03558087147910546
+        },
+        "all_folds_converged": true,
+        "config_id": "w20-pooled-none",
+        "solver_iterations": [
+          [
+            24
+          ],
+          [
+            29
+          ],
+          [
+            15
+          ],
+          [
+            14
+          ],
+          [
+            12
+          ]
+        ]
+      },
+      {
+        "C": 1e-05,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6935305595355178,
+          "brier": 0.5003823059204652,
+          "accuracy": 0.5096446700507614,
+          "ece": 0.02058671563826986
+        },
+        "all_folds_converged": true,
+        "config_id": "w20-pooled-capped",
+        "solver_iterations": [
+          [
+            6
+          ],
+          [
+            7
+          ],
+          [
+            7
+          ],
+          [
+            7
+          ],
+          [
+            7
+          ]
+        ]
+      },
+      {
+        "C": 0.0001,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6910455672624087,
+          "brier": 0.49790699866432747,
+          "accuracy": 0.5192893401015228,
+          "ece": 0.012767614014310369
+        },
+        "all_folds_converged": true,
+        "config_id": "w20-pooled-capped",
+        "solver_iterations": [
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            7
+          ],
+          [
+            7
+          ],
+          [
+            7
+          ]
+        ]
+      },
+      {
+        "C": 0.001,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6873852766177878,
+          "brier": 0.494324034702471,
+          "accuracy": 0.5406091370558376,
+          "ece": 0.010015168968859548
+        },
+        "all_folds_converged": true,
+        "config_id": "w20-pooled-capped",
+        "solver_iterations": [
+          [
+            7
+          ],
+          [
+            7
+          ],
+          [
+            7
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ]
+        ]
+      },
+      {
+        "C": 0.01,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6886318558983079,
+          "brier": 0.49556333077117476,
+          "accuracy": 0.5451776649746193,
+          "ece": 0.025785078106055563
+        },
+        "all_folds_converged": true,
+        "config_id": "w20-pooled-capped",
+        "solver_iterations": [
+          [
+            10
+          ],
+          [
+            10
+          ],
+          [
+            10
+          ],
+          [
+            10
+          ],
+          [
+            11
+          ]
+        ]
+      },
+      {
+        "C": 0.1,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6901077970922689,
+          "brier": 0.49691480554994516,
+          "accuracy": 0.5426395939086295,
+          "ece": 0.03150148403799725
+        },
+        "all_folds_converged": true,
+        "config_id": "w20-pooled-capped",
+        "solver_iterations": [
+          [
+            20
+          ],
+          [
+            19
+          ],
+          [
+            18
+          ],
+          [
+            23
+          ],
+          [
+            24
+          ]
+        ]
+      },
+      {
+        "C": 1.0,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6906144889420961,
+          "brier": 0.49736476589470174,
+          "accuracy": 0.5431472081218274,
+          "ece": 0.032570251286972496
+        },
+        "all_folds_converged": true,
+        "config_id": "w20-pooled-capped",
+        "solver_iterations": [
+          [
+            22
+          ],
+          [
+            27
+          ],
+          [
+            20
+          ],
+          [
+            27
+          ],
+          [
+            26
+          ]
+        ]
+      },
+      {
+        "C": 1e-05,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6935370287854662,
+          "brier": 0.5003887515456245,
+          "accuracy": 0.5096446700507614,
+          "ece": 0.020595625019128816
+        },
+        "all_folds_converged": true,
+        "config_id": "w20-pooled-recovery",
+        "solver_iterations": [
+          [
+            6
+          ],
+          [
+            7
+          ],
+          [
+            7
+          ],
+          [
+            7
+          ],
+          [
+            7
+          ]
+        ]
+      },
+      {
+        "C": 0.0001,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6911016142907886,
+          "brier": 0.49796286313424454,
+          "accuracy": 0.5192893401015228,
+          "ece": 0.01279559243420958
+        },
+        "all_folds_converged": true,
+        "config_id": "w20-pooled-recovery",
+        "solver_iterations": [
+          [
+            7
+          ],
+          [
+            7
+          ],
+          [
+            6
+          ],
+          [
+            7
+          ],
+          [
+            7
+          ]
+        ]
+      },
+      {
+        "C": 0.001,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.687543007343282,
+          "brier": 0.49447718093598003,
+          "accuracy": 0.5406091370558376,
+          "ece": 0.009568313061297377
+        },
+        "all_folds_converged": true,
+        "config_id": "w20-pooled-recovery",
+        "solver_iterations": [
+          [
+            7
+          ],
+          [
+            7
+          ],
+          [
+            7
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ]
+        ]
+      },
+      {
+        "C": 0.01,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6882729857633103,
+          "brier": 0.4952315496181239,
+          "accuracy": 0.5426395939086295,
+          "ece": 0.026793656762591253
+        },
+        "all_folds_converged": true,
+        "config_id": "w20-pooled-recovery",
+        "solver_iterations": [
+          [
+            10
+          ],
+          [
+            10
+          ],
+          [
+            11
+          ],
+          [
+            11
+          ],
+          [
+            11
+          ]
+        ]
+      },
+      {
+        "C": 0.1,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6895453214513556,
+          "brier": 0.49643317612713606,
+          "accuracy": 0.5401015228426396,
+          "ece": 0.03312415057175261
+        },
+        "all_folds_converged": true,
+        "config_id": "w20-pooled-recovery",
+        "solver_iterations": [
+          [
+            20
+          ],
+          [
+            19
+          ],
+          [
+            19
+          ],
+          [
+            23
+          ],
+          [
+            24
+          ]
+        ]
+      },
+      {
+        "C": 1.0,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6903435829267478,
+          "brier": 0.49717242556225916,
+          "accuracy": 0.5411167512690356,
+          "ece": 0.03366335387165358
+        },
+        "all_folds_converged": true,
+        "config_id": "w20-pooled-recovery",
+        "solver_iterations": [
+          [
+            22
+          ],
+          [
+            28
+          ],
+          [
+            22
+          ],
+          [
+            26
+          ],
+          [
+            24
+          ]
+        ]
+      },
+      {
+        "C": 1e-05,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6936179964657703,
+          "brier": 0.5004694404214317,
+          "accuracy": 0.5096446700507614,
+          "ece": 0.020793800104419335
+        },
+        "all_folds_converged": true,
+        "config_id": "w20-home-away-none",
+        "solver_iterations": [
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ]
+        ]
+      },
+      {
+        "C": 0.0001,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6916771654200314,
+          "brier": 0.49853744913804715,
+          "accuracy": 0.5187817258883248,
+          "ece": 0.014631990540469042
+        },
+        "all_folds_converged": true,
+        "config_id": "w20-home-away-none",
+        "solver_iterations": [
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            7
+          ]
+        ]
+      },
+      {
+        "C": 0.001,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6895282007207332,
+          "brier": 0.4964181562482062,
+          "accuracy": 0.5355329949238579,
+          "ece": 0.018131367444392813
+        },
+        "all_folds_converged": true,
+        "config_id": "w20-home-away-none",
+        "solver_iterations": [
+          [
+            7
+          ],
+          [
+            6
+          ],
+          [
+            7
+          ],
+          [
+            7
+          ],
+          [
+            7
+          ]
+        ]
+      },
+      {
+        "C": 0.01,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6929291217976956,
+          "brier": 0.4995642406369578,
+          "accuracy": 0.534517766497462,
+          "ece": 0.04182415843836849
+        },
+        "all_folds_converged": true,
+        "config_id": "w20-home-away-none",
+        "solver_iterations": [
+          [
+            10
+          ],
+          [
+            11
+          ],
+          [
+            10
+          ],
+          [
+            10
+          ],
+          [
+            10
+          ]
+        ]
+      },
+      {
+        "C": 0.1,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6961941315727602,
+          "brier": 0.502567332031407,
+          "accuracy": 0.5375634517766498,
+          "ece": 0.04930396381683982
+        },
+        "all_folds_converged": true,
+        "config_id": "w20-home-away-none",
+        "solver_iterations": [
+          [
+            15
+          ],
+          [
+            21
+          ],
+          [
+            20
+          ],
+          [
+            11
+          ],
+          [
+            14
+          ]
+        ]
+      },
+      {
+        "C": 1.0,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.697644471732066,
+          "brier": 0.5039072421301642,
+          "accuracy": 0.5350253807106599,
+          "ece": 0.05473831583208043
+        },
+        "all_folds_converged": true,
+        "config_id": "w20-home-away-none",
+        "solver_iterations": [
+          [
+            25
+          ],
+          [
+            21
+          ],
+          [
+            24
+          ],
+          [
+            12
+          ],
+          [
+            17
+          ]
+        ]
+      },
+      {
+        "C": 1e-05,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6936130482350839,
+          "brier": 0.500464506114749,
+          "accuracy": 0.5096446700507614,
+          "ece": 0.02081216798506147
+        },
+        "all_folds_converged": true,
+        "config_id": "w20-home-away-capped",
+        "solver_iterations": [
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            7
+          ]
+        ]
+      },
+      {
+        "C": 0.0001,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6916283188546265,
+          "brier": 0.4984891672752318,
+          "accuracy": 0.5172588832487309,
+          "ece": 0.016248632705543886
+        },
+        "all_folds_converged": true,
+        "config_id": "w20-home-away-capped",
+        "solver_iterations": [
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            7
+          ],
+          [
+            7
+          ],
+          [
+            7
+          ]
+        ]
+      },
+      {
+        "C": 0.001,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6892605407323948,
+          "brier": 0.4961677643096657,
+          "accuracy": 0.5355329949238579,
+          "ece": 0.01915119155188769
+        },
+        "all_folds_converged": true,
+        "config_id": "w20-home-away-capped",
+        "solver_iterations": [
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            7
+          ],
+          [
+            7
+          ],
+          [
+            7
+          ]
+        ]
+      },
+      {
+        "C": 0.01,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6922865247001675,
+          "brier": 0.49895096934929944,
+          "accuracy": 0.5426395939086295,
+          "ece": 0.03470226882146217
+        },
+        "all_folds_converged": true,
+        "config_id": "w20-home-away-capped",
+        "solver_iterations": [
+          [
+            9
+          ],
+          [
+            11
+          ],
+          [
+            11
+          ],
+          [
+            11
+          ],
+          [
+            10
+          ]
+        ]
+      },
+      {
+        "C": 0.1,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6953072539205851,
+          "brier": 0.5016645243393447,
+          "accuracy": 0.5436548223350254,
+          "ece": 0.04402635005169941
+        },
+        "all_folds_converged": true,
+        "config_id": "w20-home-away-capped",
+        "solver_iterations": [
+          [
+            22
+          ],
+          [
+            22
+          ],
+          [
+            21
+          ],
+          [
+            24
+          ],
+          [
+            23
+          ]
+        ]
+      },
+      {
+        "C": 1.0,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6970502897455759,
+          "brier": 0.5032370437505767,
+          "accuracy": 0.5401015228426396,
+          "ece": 0.04972066954922536
+        },
+        "all_folds_converged": true,
+        "config_id": "w20-home-away-capped",
+        "solver_iterations": [
+          [
+            32
+          ],
+          [
+            37
+          ],
+          [
+            27
+          ],
+          [
+            30
+          ],
+          [
+            26
+          ]
+        ]
+      },
+      {
+        "C": 1e-05,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.693619863163226,
+          "brier": 0.5004712956158586,
+          "accuracy": 0.5096446700507614,
+          "ece": 0.02082301897764538
+        },
+        "all_folds_converged": true,
+        "config_id": "w20-home-away-recovery",
+        "solver_iterations": [
+          [
+            7
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            7
+          ]
+        ]
+      },
+      {
+        "C": 0.0001,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6916842379088112,
+          "brier": 0.49854496556204003,
+          "accuracy": 0.5177664974619289,
+          "ece": 0.015793414857595
+        },
+        "all_folds_converged": true,
+        "config_id": "w20-home-away-recovery",
+        "solver_iterations": [
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            7
+          ],
+          [
+            6
+          ],
+          [
+            7
+          ]
+        ]
+      },
+      {
+        "C": 0.001,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6893571803294368,
+          "brier": 0.4962648882303571,
+          "accuracy": 0.5375634517766498,
+          "ece": 0.016664646017781237
+        },
+        "all_folds_converged": true,
+        "config_id": "w20-home-away-recovery",
+        "solver_iterations": [
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            7
+          ],
+          [
+            7
+          ]
+        ]
+      },
+      {
+        "C": 0.01,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6916696341994494,
+          "brier": 0.49843412286972943,
+          "accuracy": 0.5395939086294417,
+          "ece": 0.0355269357768262
+        },
+        "all_folds_converged": true,
+        "config_id": "w20-home-away-recovery",
+        "solver_iterations": [
+          [
+            10
+          ],
+          [
+            11
+          ],
+          [
+            11
+          ],
+          [
+            12
+          ],
+          [
+            11
+          ]
+        ]
+      },
+      {
+        "C": 0.1,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.694431890550934,
+          "brier": 0.5010015342514174,
+          "accuracy": 0.5401015228426396,
+          "ece": 0.04573201161214289
+        },
+        "all_folds_converged": true,
+        "config_id": "w20-home-away-recovery",
+        "solver_iterations": [
+          [
+            23
+          ],
+          [
+            23
+          ],
+          [
+            20
+          ],
+          [
+            23
+          ],
+          [
+            24
+          ]
+        ]
+      },
+      {
+        "C": 1.0,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6964963185068563,
+          "brier": 0.5028865612239128,
+          "accuracy": 0.534517766497462,
+          "ece": 0.05550179680941535
+        },
+        "all_folds_converged": true,
+        "config_id": "w20-home-away-recovery",
+        "solver_iterations": [
+          [
+            37
+          ],
+          [
+            38
+          ],
+          [
+            27
+          ],
+          [
+            31
+          ],
+          [
+            27
+          ]
+        ]
+      },
+      {
+        "C": 1e-05,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.693508864430185,
+          "brier": 0.5003606944343362,
+          "accuracy": 0.5096446700507614,
+          "ece": 0.02057439792016913
+        },
+        "all_folds_converged": true,
+        "config_id": "w40-pooled-none",
+        "solver_iterations": [
+          [
+            6
+          ],
+          [
+            7
+          ],
+          [
+            6
+          ],
+          [
+            7
+          ],
+          [
+            7
+          ]
+        ]
+      },
+      {
+        "C": 0.0001,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6909571057744288,
+          "brier": 0.4978191725268904,
+          "accuracy": 0.5243654822335025,
+          "ece": 0.007748113047792771
+        },
+        "all_folds_converged": true,
+        "config_id": "w40-pooled-none",
+        "solver_iterations": [
+          [
+            7
+          ],
+          [
+            7
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ]
+        ]
+      },
+      {
+        "C": 0.001,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.687532758035067,
+          "brier": 0.49445535181981287,
+          "accuracy": 0.5416243654822335,
+          "ece": 0.012794888064938168
+        },
+        "all_folds_converged": true,
+        "config_id": "w40-pooled-none",
+        "solver_iterations": [
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            7
+          ],
+          [
+            6
+          ],
+          [
+            7
+          ]
+        ]
+      },
+      {
+        "C": 0.01,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6881343344525058,
+          "brier": 0.49503444221399656,
+          "accuracy": 0.5406091370558376,
+          "ece": 0.025318222641842626
+        },
+        "all_folds_converged": true,
+        "config_id": "w40-pooled-none",
+        "solver_iterations": [
+          [
+            10
+          ],
+          [
+            10
+          ],
+          [
+            10
+          ],
+          [
+            11
+          ],
+          [
+            11
+          ]
+        ]
+      },
+      {
+        "C": 0.1,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6889505049828532,
+          "brier": 0.4957920355410834,
+          "accuracy": 0.534517766497462,
+          "ece": 0.03629706290525564
+        },
+        "all_folds_converged": true,
+        "config_id": "w40-pooled-none",
+        "solver_iterations": [
+          [
+            14
+          ],
+          [
+            15
+          ],
+          [
+            16
+          ],
+          [
+            13
+          ],
+          [
+            14
+          ]
+        ]
+      },
+      {
+        "C": 1.0,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6895245347130093,
+          "brier": 0.4963046679024024,
+          "accuracy": 0.5401015228426396,
+          "ece": 0.03209000862646152
+        },
+        "all_folds_converged": true,
+        "config_id": "w40-pooled-none",
+        "solver_iterations": [
+          [
+            25
+          ],
+          [
+            31
+          ],
+          [
+            16
+          ],
+          [
+            17
+          ],
+          [
+            16
+          ]
+        ]
+      },
+      {
+        "C": 1e-05,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6935036995575278,
+          "brier": 0.5003555441444126,
+          "accuracy": 0.5096446700507614,
+          "ece": 0.02059029610685348
+        },
+        "all_folds_converged": true,
+        "config_id": "w40-pooled-capped",
+        "solver_iterations": [
+          [
+            6
+          ],
+          [
+            7
+          ],
+          [
+            7
+          ],
+          [
+            7
+          ],
+          [
+            7
+          ]
+        ]
+      },
+      {
+        "C": 0.0001,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6909045506324804,
+          "brier": 0.4977672203651045,
+          "accuracy": 0.5213197969543147,
+          "ece": 0.010892610415990434
+        },
+        "all_folds_converged": true,
+        "config_id": "w40-pooled-capped",
+        "solver_iterations": [
+          [
+            6
+          ],
+          [
+            7
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            7
+          ]
+        ]
+      },
+      {
+        "C": 0.001,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6872631458614459,
+          "brier": 0.49420584284763486,
+          "accuracy": 0.5416243654822335,
+          "ece": 0.010146137986825713
+        },
+        "all_folds_converged": true,
+        "config_id": "w40-pooled-capped",
+        "solver_iterations": [
+          [
+            7
+          ],
+          [
+            7
+          ],
+          [
+            7
+          ],
+          [
+            7
+          ],
+          [
+            7
+          ]
+        ]
+      },
+      {
+        "C": 0.01,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6880542458497244,
+          "brier": 0.4949958586460128,
+          "accuracy": 0.5451776649746193,
+          "ece": 0.02463632119655004
+        },
+        "all_folds_converged": true,
+        "config_id": "w40-pooled-capped",
+        "solver_iterations": [
+          [
+            10
+          ],
+          [
+            10
+          ],
+          [
+            11
+          ],
+          [
+            12
+          ],
+          [
+            12
+          ]
+        ]
+      },
+      {
+        "C": 0.1,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6892321761470949,
+          "brier": 0.4960798546312654,
+          "accuracy": 0.5482233502538071,
+          "ece": 0.026512107300659414
+        },
+        "all_folds_converged": true,
+        "config_id": "w40-pooled-capped",
+        "solver_iterations": [
+          [
+            20
+          ],
+          [
+            20
+          ],
+          [
+            21
+          ],
+          [
+            24
+          ],
+          [
+            24
+          ]
+        ]
+      },
+      {
+        "C": 1.0,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.690140630521593,
+          "brier": 0.496879192794126,
+          "accuracy": 0.5451776649746193,
+          "ece": 0.03193775960379793
+        },
+        "all_folds_converged": true,
+        "config_id": "w40-pooled-capped",
+        "solver_iterations": [
+          [
+            28
+          ],
+          [
+            32
+          ],
+          [
+            24
+          ],
+          [
+            33
+          ],
+          [
+            33
+          ]
+        ]
+      },
+      {
+        "C": 1e-05,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6935101694643698,
+          "brier": 0.5003619908909658,
+          "accuracy": 0.5096446700507614,
+          "ece": 0.020599234870948724
+        },
+        "all_folds_converged": true,
+        "config_id": "w40-pooled-recovery",
+        "solver_iterations": [
+          [
+            6
+          ],
+          [
+            7
+          ],
+          [
+            7
+          ],
+          [
+            7
+          ],
+          [
+            7
+          ]
+        ]
+      },
+      {
+        "C": 0.0001,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.690961738686777,
+          "brier": 0.4978242526974615,
+          "accuracy": 0.5203045685279187,
+          "ece": 0.011960132409182034
+        },
+        "all_folds_converged": true,
+        "config_id": "w40-pooled-recovery",
+        "solver_iterations": [
+          [
+            7
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            7
+          ],
+          [
+            7
+          ]
+        ]
+      },
+      {
+        "C": 0.001,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6874183861668635,
+          "brier": 0.494356669687618,
+          "accuracy": 0.5426395939086295,
+          "ece": 0.008673316139493936
+        },
+        "all_folds_converged": true,
+        "config_id": "w40-pooled-recovery",
+        "solver_iterations": [
+          [
+            7
+          ],
+          [
+            7
+          ],
+          [
+            8
+          ],
+          [
+            7
+          ],
+          [
+            7
+          ]
+        ]
+      },
+      {
+        "C": 0.01,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6877199094591223,
+          "brier": 0.49468480619813354,
+          "accuracy": 0.5441624365482234,
+          "ece": 0.02572305708443267
+        },
+        "all_folds_converged": true,
+        "config_id": "w40-pooled-recovery",
+        "solver_iterations": [
+          [
+            10
+          ],
+          [
+            10
+          ],
+          [
+            11
+          ],
+          [
+            13
+          ],
+          [
+            14
+          ]
+        ]
+      },
+      {
+        "C": 0.1,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6886984329822837,
+          "brier": 0.4956194873425122,
+          "accuracy": 0.5477157360406092,
+          "ece": 0.026443854640913537
+        },
+        "all_folds_converged": true,
+        "config_id": "w40-pooled-recovery",
+        "solver_iterations": [
+          [
+            21
+          ],
+          [
+            20
+          ],
+          [
+            21
+          ],
+          [
+            25
+          ],
+          [
+            23
+          ]
+        ]
+      },
+      {
+        "C": 1.0,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6898549334184794,
+          "brier": 0.4966800333893628,
+          "accuracy": 0.5456852791878173,
+          "ece": 0.03087762521308029
+        },
+        "all_folds_converged": true,
+        "config_id": "w40-pooled-recovery",
+        "solver_iterations": [
+          [
+            35
+          ],
+          [
+            34
+          ],
+          [
+            27
+          ],
+          [
+            33
+          ],
+          [
+            31
+          ]
+        ]
+      },
+      {
+        "C": 1e-05,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6936128544227286,
+          "brier": 0.5004643461253004,
+          "accuracy": 0.5096446700507614,
+          "ece": 0.020843445900146307
+        },
+        "all_folds_converged": true,
+        "config_id": "w40-home-away-none",
+        "solver_iterations": [
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ]
+        ]
+      },
+      {
+        "C": 0.0001,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6916573513760079,
+          "brier": 0.49851838268483645,
+          "accuracy": 0.5152284263959391,
+          "ece": 0.018569772407418195
+        },
+        "all_folds_converged": true,
+        "config_id": "w40-home-away-none",
+        "solver_iterations": [
+          [
+            6
+          ],
+          [
+            7
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ]
+        ]
+      },
+      {
+        "C": 0.001,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6895824171853416,
+          "brier": 0.49647341104662074,
+          "accuracy": 0.5355329949238579,
+          "ece": 0.01915652837192955
+        },
+        "all_folds_converged": true,
+        "config_id": "w40-home-away-none",
+        "solver_iterations": [
+          [
+            7
+          ],
+          [
+            6
+          ],
+          [
+            7
+          ],
+          [
+            7
+          ],
+          [
+            7
+          ]
+        ]
+      },
+      {
+        "C": 0.01,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6925104600201798,
+          "brier": 0.499137864575007,
+          "accuracy": 0.5411167512690356,
+          "ece": 0.03409203453824089
+        },
+        "all_folds_converged": true,
+        "config_id": "w40-home-away-none",
+        "solver_iterations": [
+          [
+            9
+          ],
+          [
+            10
+          ],
+          [
+            10
+          ],
+          [
+            11
+          ],
+          [
+            10
+          ]
+        ]
+      },
+      {
+        "C": 0.1,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.69456469901121,
+          "brier": 0.5009420172509624,
+          "accuracy": 0.5395939086294417,
+          "ece": 0.04349509041720421
+        },
+        "all_folds_converged": true,
+        "config_id": "w40-home-away-none",
+        "solver_iterations": [
+          [
+            14
+          ],
+          [
+            19
+          ],
+          [
+            18
+          ],
+          [
+            14
+          ],
+          [
+            16
+          ]
+        ]
+      },
+      {
+        "C": 1.0,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6976239175447996,
+          "brier": 0.503786490662508,
+          "accuracy": 0.5411167512690356,
+          "ece": 0.04809586584981938
+        },
+        "all_folds_converged": true,
+        "config_id": "w40-home-away-none",
+        "solver_iterations": [
+          [
+            14
+          ],
+          [
+            31
+          ],
+          [
+            21
+          ],
+          [
+            16
+          ],
+          [
+            18
+          ]
+        ]
+      },
+      {
+        "C": 1e-05,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6936078524773988,
+          "brier": 0.5004593590481672,
+          "accuracy": 0.5096446700507614,
+          "ece": 0.020861419268539683
+        },
+        "all_folds_converged": true,
+        "config_id": "w40-home-away-capped",
+        "solver_iterations": [
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            7
+          ]
+        ]
+      },
+      {
+        "C": 0.0001,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.691609442117425,
+          "brier": 0.49847111050843895,
+          "accuracy": 0.5152284263959391,
+          "ece": 0.018662675632207804
+        },
+        "all_folds_converged": true,
+        "config_id": "w40-home-away-capped",
+        "solver_iterations": [
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            7
+          ],
+          [
+            6
+          ],
+          [
+            7
+          ]
+        ]
+      },
+      {
+        "C": 0.001,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6893211274339875,
+          "brier": 0.4962307936969329,
+          "accuracy": 0.5375634517766498,
+          "ece": 0.017580986370256308
+        },
+        "all_folds_converged": true,
+        "config_id": "w40-home-away-capped",
+        "solver_iterations": [
+          [
+            7
+          ],
+          [
+            6
+          ],
+          [
+            7
+          ],
+          [
+            7
+          ],
+          [
+            7
+          ]
+        ]
+      },
+      {
+        "C": 0.01,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6919260915164859,
+          "brier": 0.4985841102053369,
+          "accuracy": 0.5482233502538071,
+          "ece": 0.02821961219629826
+        },
+        "all_folds_converged": true,
+        "config_id": "w40-home-away-capped",
+        "solver_iterations": [
+          [
+            9
+          ],
+          [
+            11
+          ],
+          [
+            11
+          ],
+          [
+            11
+          ],
+          [
+            12
+          ]
+        ]
+      },
+      {
+        "C": 0.1,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6938686182531009,
+          "brier": 0.5002386955643071,
+          "accuracy": 0.5472081218274112,
+          "ece": 0.037773220270175635
+        },
+        "all_folds_converged": true,
+        "config_id": "w40-home-away-capped",
+        "solver_iterations": [
+          [
+            23
+          ],
+          [
+            20
+          ],
+          [
+            19
+          ],
+          [
+            23
+          ],
+          [
+            23
+          ]
+        ]
+      },
+      {
+        "C": 1.0,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6969350584691759,
+          "brier": 0.503030393375113,
+          "accuracy": 0.5441624365482234,
+          "ece": 0.04707444647812327
+        },
+        "all_folds_converged": true,
+        "config_id": "w40-home-away-capped",
+        "solver_iterations": [
+          [
+            25
+          ],
+          [
+            39
+          ],
+          [
+            27
+          ],
+          [
+            29
+          ],
+          [
+            27
+          ]
+        ]
+      },
+      {
+        "C": 1e-05,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6936146576075897,
+          "brier": 0.500466138464095,
+          "accuracy": 0.5096446700507614,
+          "ece": 0.020872142335000232
+        },
+        "all_folds_converged": true,
+        "config_id": "w40-home-away-recovery",
+        "solver_iterations": [
+          [
+            7
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            7
+          ]
+        ]
+      },
+      {
+        "C": 0.0001,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6916647580789886,
+          "brier": 0.4985262680340222,
+          "accuracy": 0.515736040609137,
+          "ece": 0.01820420002896661
+        },
+        "all_folds_converged": true,
+        "config_id": "w40-home-away-recovery",
+        "solver_iterations": [
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            7
+          ],
+          [
+            7
+          ],
+          [
+            7
+          ]
+        ]
+      },
+      {
+        "C": 0.001,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6894105876557667,
+          "brier": 0.49632008795718796,
+          "accuracy": 0.5370558375634518,
+          "ece": 0.017658119497119464
+        },
+        "all_folds_converged": true,
+        "config_id": "w40-home-away-recovery",
+        "solver_iterations": [
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            7
+          ],
+          [
+            7
+          ],
+          [
+            7
+          ]
+        ]
+      },
+      {
+        "C": 0.01,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6912910265816546,
+          "brier": 0.4980507687990392,
+          "accuracy": 0.5456852791878173,
+          "ece": 0.03033567518267794
+        },
+        "all_folds_converged": true,
+        "config_id": "w40-home-away-recovery",
+        "solver_iterations": [
+          [
+            9
+          ],
+          [
+            12
+          ],
+          [
+            11
+          ],
+          [
+            13
+          ],
+          [
+            11
+          ]
+        ]
+      },
+      {
+        "C": 0.1,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6930184274482507,
+          "brier": 0.49959493155949325,
+          "accuracy": 0.5456852791878173,
+          "ece": 0.037024220722294034
+        },
+        "all_folds_converged": true,
+        "config_id": "w40-home-away-recovery",
+        "solver_iterations": [
+          [
+            24
+          ],
+          [
+            19
+          ],
+          [
+            18
+          ],
+          [
+            26
+          ],
+          [
+            23
+          ]
+        ]
+      },
+      {
+        "C": 1.0,
+        "out_of_fold": {
+          "n": 1970,
+          "log_loss": 0.6964564372798879,
+          "brier": 0.5027349705459695,
+          "accuracy": 0.5426395939086295,
+          "ece": 0.04696039108684318
+        },
+        "all_folds_converged": true,
+        "config_id": "w40-home-away-recovery",
+        "solver_iterations": [
+          [
+            28
+          ],
+          [
+            47
+          ],
+          [
+            27
+          ],
+          [
+            35
+          ],
+          [
+            26
+          ]
+        ]
+      }
+    ],
+    "final_fit": {
+      "fit_rows": 3666,
+      "embargoed_training_rows": 21,
+      "validation_rows": 1165,
+      "validation_metrics": {
+        "n": 1165,
+        "accuracy": 0.5364806866952789,
+        "log_loss": 0.6845067426978142,
+        "brier": 0.4914873205326282,
+        "ece": 0.017973260181945977,
+        "calibration": [
+          {
+            "lower": 0.5,
+            "n": 1067,
+            "confidence": 0.5408526029985155,
+            "accuracy": 0.5248359887535146
+          },
+          {
+            "lower": 0.6,
+            "n": 98,
+            "confidence": 0.6239885641576417,
+            "accuracy": 0.6632653061224489
+          }
+        ]
+      },
+      "converged": true,
+      "n_iter": [
+        6
+      ]
+    },
+    "same_game_comparison": {
+      "fixture_ids_sha256": "40f2d41c7673fa711ff9ebb9419203330b082e2ed814d516ceb8d825bd518bac",
+      "scores": [
+        {
+          "name": "selected-feature-sweep",
+          "fixture_ids_sha256": "40f2d41c7673fa711ff9ebb9419203330b082e2ed814d516ceb8d825bd518bac",
+          "n": 1159,
+          "accuracy": 0.5366695427092321,
+          "log_loss": 0.6843273195378207,
+          "brier": 0.49130993452687594,
+          "ece": 0.01782276027855906,
+          "calibration": [
+            {
+              "lower": 0.5,
+              "n": 1061,
+              "confidence": 0.5408175857212996,
+              "accuracy": 0.5249764373232799
+            },
+            {
+              "lower": 0.6,
+              "n": 98,
+              "confidence": 0.6239885641576417,
+              "accuracy": 0.6632653061224489
+            }
+          ]
+        },
+        {
+          "name": "frequency-prior",
+          "fixture_ids_sha256": "40f2d41c7673fa711ff9ebb9419203330b082e2ed814d516ceb8d825bd518bac",
+          "n": 1159,
+          "accuracy": 0.5409836065573771,
+          "log_loss": 0.6900285173446096,
+          "brier": 0.4968839960883281,
+          "ece": 0.011029689506685925,
+          "calibration": [
+            {
+              "lower": 0.5,
+              "n": 1159,
+              "confidence": 0.5299539170506912,
+              "accuracy": 0.5409836065573771
+            }
+          ]
+        },
+        {
+          "name": "feature-logistic",
+          "fixture_ids_sha256": "40f2d41c7673fa711ff9ebb9419203330b082e2ed814d516ceb8d825bd518bac",
+          "n": 1159,
+          "accuracy": 0.5340811044003452,
+          "log_loss": 0.6827967229435089,
+          "brier": 0.4898740098564223,
+          "ece": 0.026423958069914075,
+          "calibration": [
+            {
+              "lower": 0.5,
+              "n": 991,
+              "confidence": 0.5427690591027831,
+              "accuracy": 0.5146316851664985
+            },
+            {
+              "lower": 0.6,
+              "n": 162,
+              "confidence": 0.6297596354543427,
+              "accuracy": 0.6358024691358025
+            },
+            {
+              "lower": 0.7,
+              "n": 6,
+              "confidence": 0.7062848707040151,
+              "accuracy": 1.0
+            }
+          ]
+        },
+        {
+          "name": "Bet365-opening",
+          "fixture_ids_sha256": "40f2d41c7673fa711ff9ebb9419203330b082e2ed814d516ceb8d825bd518bac",
+          "n": 1159,
+          "accuracy": 0.5392579810181191,
+          "log_loss": 0.6805736693578731,
+          "brier": 0.4878862250776396,
+          "ece": 0.04099269059365462,
+          "calibration": [
+            {
+              "lower": 0.5,
+              "n": 848,
+              "confidence": 0.5479116013752681,
+              "accuracy": 0.5035377358490566
+            },
+            {
+              "lower": 0.6,
+              "n": 283,
+              "confidence": 0.636839317479667,
+              "accuracy": 0.6148409893992933
+            },
+            {
+              "lower": 0.7,
+              "n": 28,
+              "confidence": 0.7265727291045495,
+              "accuracy": 0.8571428571428571
+            }
+          ]
+        }
+      ],
+      "paired_weekly": [
+        {
+          "difference": 0.001530596594311722,
+          "interval": [
+            -0.0008065555510205399,
+            0.003870670194872159
+          ],
+          "n": 1159,
+          "calendar_weeks": 13,
+          "empty_weeks": 0,
+          "left": "selected-feature-sweep",
+          "right": "feature-logistic",
+          "limitation": "Single selected development model; training-fold selection and validation comparison are not independent confirmation."
+        },
+        {
+          "difference": -0.005701197806789002,
+          "interval": [
+            -0.01154109996633142,
+            2.9867796890882174e-05
+          ],
+          "n": 1159,
+          "calendar_weeks": 13,
+          "empty_weeks": 0,
+          "left": "selected-feature-sweep",
+          "right": "frequency-prior",
+          "limitation": "Single selected development model; training-fold selection and validation comparison are not independent confirmation."
+        },
+        {
+          "difference": 0.0037536501799475316,
+          "interval": [
+            -0.004182304210722896,
+            0.011216056572529625
+          ],
+          "n": 1159,
+          "calendar_weeks": 13,
+          "empty_weeks": 0,
+          "left": "selected-feature-sweep",
+          "right": "Bet365-opening",
+          "limitation": "Single selected development model; training-fold selection and validation comparison are not independent confirmation."
+        }
+      ]
+    },
+    "limitations": [
+      "Configuration and C were selected only on rolling folds within the original training partition.",
+      "The original validation split is a final development comparison, not independent confirmation.",
+      "The classifier and scaler stay frozen through validation; earlier validation outcomes only update causal history after their availability delay.",
+      "The frozen source lacks completion timestamps, so scheduled time plus the conservative UTC-day delay is used.",
+      "No neural simulation, online update, reinforcement learning, historical/prospective evaluation, automatic extension, or model promotion occurred."
+    ],
+    "folds": [
+      {
+        "name": "2024-07",
+        "fit_rows": 1223,
+        "evaluation_rows": 365
+      },
+      {
+        "name": "2024-08",
+        "fit_rows": 1596,
+        "evaluation_rows": 412
+      },
+      {
+        "name": "2024-09",
+        "fit_rows": 2008,
+        "evaluation_rows": 389
+      },
+      {
+        "name": "2025-05",
+        "fit_rows": 2850,
+        "evaluation_rows": 409
+      },
+      {
+        "name": "2025-06",
+        "fit_rows": 3262,
+        "evaluation_rows": 395
+      }
+    ],
+    "fit_count": 900,
+    "warning_count": 900
+  }
+}
