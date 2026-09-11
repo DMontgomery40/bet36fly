@@ -2,7 +2,15 @@
 
 A working paper-sports experiment driven by the **actual MaleCNS v1.0 fly connectome**: 166,700 modeled neurons, 25,582,938 directed connections and 124,177,617 synaptic contacts. The full spiking network runs on CPU. Real training modifies existing anatomical synapses and fits a readout to its recorded spikes. No language model selects the games.
 
-Phase 1 covers Premier League soccer and MLB baseball. It fetches current fixtures, publishes model probabilities and unfilled paper picks, shows recorded neural activity, and reports a chronological backtest. The bet365 account/API, fills, settlement and player props are deferred to phase 2.
+Phase 1 covers Premier League soccer and MLB baseball. It fetches current fixtures, publishes model probabilities and unfilled paper picks, shows recorded neural activity, tracks the outcomes of saved pregame picks, and reports a chronological backtest. The bet365 account/API, fills, bet settlement and player props are deferred to phase 2.
+
+## Guides
+
+- [How the fly was trained, and how its neurons compare with LLM weights](docs/FLY_GUIDE.md).
+- [Confidence, the draw audit, and proposed paper bet sizing](docs/CONFIDENCE_AND_DRAWS.md).
+- [External memory, smarter training, monitoring plan and capability limits](docs/ROADMAP.md).
+
+The draw audit checks every frozen soccer test prediction: average draw probability was 21.0%, versus 30.8% actual draws. It distinguishes that aggregate underprediction from a few overconfident individual draw picks. Roadmap and sizing sections describe proposed work, not enabled functionality.
 
 ## Open the app
 
@@ -73,6 +81,12 @@ make verify
 ```
 
 The Python suite covers graph integrity, spike propagation, inhibition/refractory behavior, deterministic replay, anatomical plasticity, temporal leakage, reschedules, source failure state, checkpoint-array readout roundtrip, API contracts and ledger durability. Browser acceptance additionally checks actual fixture selection → full brain inference → recorded spike replay → training results → ledger/export. A successful build alone is not that acceptance.
+
+## Fly’s desk
+
+The fourth tab at [Fly’s desk](http://127.0.0.1:8765/#desk) shows real upcoming picks, their original probabilities, result history, and cumulative accuracy against mean pick confidence. It scores the first valid pregame prediction for each current fixture across model versions. Reruns cannot replace that prediction; cancelled or unresolved games do not count as successes or misses. This is prospective forecast scoring, separate from the historical backtest and any future bet settlement.
+
+Public schedules and final scores refresh every 15 minutes while `make serve` is running. The browser polls the record every 12 seconds. Refresh games requests an immediate source check. Watch runs the actual full connectome and replays its measured spikes. The fly artwork and jokes are explicitly illustrative; the probabilities, spike counts, timestamps and score history come from saved model runs and public results.
 
 ## Data, research and phase 2
 

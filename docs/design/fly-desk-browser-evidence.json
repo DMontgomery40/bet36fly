@@ -1,0 +1,60 @@
+{
+  "checked_at": "2026-09-11T04:12:40.689Z",
+  "widths": [
+    {
+      "inner": 1440,
+      "scroll": 1440
+    },
+    {
+      "inner": 1024,
+      "scroll": 1024
+    },
+    {
+      "inner": 768,
+      "scroll": 768
+    },
+    {
+      "inner": 390,
+      "scroll": 390
+    },
+    {
+      "inner": 320,
+      "scroll": 320
+    }
+  ],
+  "first_prediction_id": "5ff4a0c1d663f155f1270377",
+  "inference": {
+    "active_neurons": 19288,
+    "total_spikes": 154208,
+    "wall_seconds": 0.1742941669654101,
+    "bins": 20
+  },
+  "record": {
+    "total": 126,
+    "upcoming": 125,
+    "pending": 0,
+    "held": 0,
+    "void": 0,
+    "completed": 1,
+    "wins": 0,
+    "losses": 1,
+    "hit_rate": 0,
+    "mean_pick_probability": 0.5354829430580139,
+    "log_loss": 0.766756936164097
+  },
+  "checks": [
+    "direct fourth-tab route",
+    "actual neural POST",
+    "saved original pick unchanged",
+    "population bar count",
+    "replay and scrub",
+    "sport filters",
+    "results filter",
+    "completed pick evidence",
+    "pagination",
+    "other tabs",
+    "responsive body widths",
+    "reduced-motion replay",
+    "no JS errors"
+  ]
+}

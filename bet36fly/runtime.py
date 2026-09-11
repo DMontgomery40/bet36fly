@@ -15,6 +15,7 @@ from .experiment import DURATION_MS, NEURAL_SEED, scale, utcnow
 from .features import build_features
 from .learning import probabilities
 from .ledger import PickLedger, fixture_identity
+from .desk import build_desk
 
 
 def read_json(path, default):
@@ -150,6 +151,14 @@ class Runtime:
                         and fixture_identity(pick) == fixture_identity(g)):
                     row['prediction'] = pick
                 result.append(row)
+            return result
+
+    def desk(self, sport='all'):
+        with self.lock:
+            result = build_desk(self.ledger.all(), self.snapshot['games'], sport=sport)
+            result['sources_updated_at'] = self.snapshot['updated_at']
+            result['sources'] = self.sources()
+            result['refresh_interval_seconds'] = 900
             return result
 
     def predict(self, game_id, *, trace=True):

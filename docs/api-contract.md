@@ -28,13 +28,21 @@ Runs the real checkpoint through the complete LIF graph and creates/idempotently
 
 `{"picks":[LedgerRow],"count":42}`. LedgerRow includes Prediction fields plus `id,game_id,sport,home,away,start_time,source_url,source_fetched_at,mode:"paper",status:"proposed",feature_hash,model_hash`. Table: time, sport/match, fly pick, model probability, fair odds, model run. State clear: proposed picks, unfilled; no actual wagers/P&L.
 
+## GET /api/desk?sport=all|soccer|baseball
+
+Returns a `forward_paper` record with `as_of`, `selection_rule`, `first_recorded_at`, `sources_updated_at`, `sources`, `refresh_interval_seconds`, `summary`, `by_sport`, `rows`, `curve`, and `excluded`. Each row contains its original `prediction`, `game_id`, `league`, `state` (`upcoming|pending|won|lost|held|void`), `reason`, `revision_count`, `can_run`, and nullable `result` (home/away scores, outcome, observation time and public source URL).
+
+Summary counts completed/wins/losses/upcoming/pending/held/void and reports nullable hit rate, mean selected-pick probability and multiclass log loss. Curve points contain cumulative hit rate and mean selected-pick probability in kickoff order. Only the first valid pregame paper prediction matching the current fixture identity is scored. Later model/feature revisions cannot replace it. Missing, postponed or inconsistent final results are held; cancelled games are void. Rescheduled fixture revisions are excluded. Historical backtest rows are never imported. Confirmed source corrections can revise a score. All model versions are included and visible in individual record details.
+
+The fourth tab polls this endpoint every 12 seconds, filters by sport and outcome state, and pages the actual rows. Watch calls the same real inference endpoint as the Observatory; it does not change the selected forward prediction. The illustrated fly and scripted banter are labeled as such. Only returned neural samples drive the spike replay. No invented activity, record, odds, stakes or profit is shown.
+
 ## GET /api/ledger/export
 
 CSV download with actual ledger rows. Use `<a href="/api/ledger/export" download>`.
 
 ## POST /api/refresh
 
-Returns `{"status":"running"}` quickly. Refreshes public game sources and computes upcoming paper picks with the current checkpoint in the background. Poll status/games/ledger; disable refresh while running, surface stale/error state. Startup also warms upcoming predictions once the model is ready.
+Returns `{"status":"running"}` quickly. Refreshes public game sources and computes upcoming paper picks with the current checkpoint in the background. Poll status/games/ledger/desk; disable refresh while running, surface stale/error state. Startup also warms upcoming predictions once the model is ready, requests a source refresh, and repeats every 900 seconds while the local server remains running. Failures remain visible and the loop retries.
 
 ## GET /api/methods
 
@@ -42,4 +50,4 @@ Returns `{"model_card":"Markdown string","manifest":{...}}`. Link to Methods and
 
 ## Visual design
 
-Reference `output/dashboard-concept.png` (1536x1024). It is a layout concept only; ALL fixture names, dates, counts, curves and probabilities in implementation must come from the API. Dynamic data is an intentional deviation from its illustrative content. Palette background #101411, lime #c5f277, white #f4f4e9, sage #9ca9a0, border #303b31. Header BET36FLY / Observatory / Training / Pick ledger / Paper mode / Refresh games. Main Observatory 63% brain + 37% fixture list. Hero copy “A small brain. A new game.” and “Real fly wiring. Real games. Paper picks.” Four open stats: Neurons, Connections, Training games, Runtime. Footer dataset / Experimental model / No real money, Methods link. Brain art uses real coordinate plot, not generated photo; the screenshot's wiring drawing is not scientific evidence. Responsive single-column mobile, accessible keyboard focus, reduced-motion support. No account toggle: Paper mode is a fixed status.
+Reference `output/dashboard-concept.png` (1536x1024). It is a layout concept only; ALL fixture names, dates, counts, curves and probabilities in implementation must come from the API. Dynamic data is an intentional deviation from its illustrative content. Palette background #101411, lime #c5f277, white #f4f4e9, sage #9ca9a0, border #303b31. Header BET36FLY / Observatory / Training / Pick ledger / Fly’s desk / Paper mode / Refresh games. Main Observatory 63% brain + 37% fixture list. Hero copy “A small brain. A new game.” and “Real fly wiring. Real games. Paper picks.” Four open stats: Neurons, Connections, Training games, Runtime. Footer dataset / Experimental model / No real money, Methods link. Brain art uses real coordinate plot, not generated photo; the screenshot's wiring drawing is not scientific evidence. Responsive single-column mobile, accessible keyboard focus, reduced-motion support. No account toggle: Paper mode is a fixed status.

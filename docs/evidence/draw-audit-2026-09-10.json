@@ -1,0 +1,202 @@
+{
+  "run_id": "20260910T232621Z",
+  "mode": "retrospective_backtest",
+  "source_sha256": {
+    "training-games.json": "63bd414dedf18db4c28d5c82d52cc2ea91a0091333a8e790791240436b01d840",
+    "training-data.npz": "cc8774378e32c8336e72c21fbf654c5cb808afe26fe0c7392d559d494d43c413",
+    "backtest-picks.json": "9afb287050d5ea93b38dd4c0af903c46385f56e9066eca5700f106372ea750da",
+    "checkpoint.npz": "3b6e7312cc4be07a354df4ff377bd6a05fb3af67effe6b86c67bedfa25bcf76e"
+  },
+  "period": {
+    "first_soccer_test_kickoff": "2026-01-01T17:30:00Z",
+    "last_soccer_test_kickoff": "2026-08-31T19:00:00Z"
+  },
+  "soccer_split_draw_rates": {
+    "train": {
+      "n": 760,
+      "draws": 175,
+      "draw_rate": 0.23026315789473684
+    },
+    "validation": {
+      "n": 186,
+      "draws": 42,
+      "draw_rate": 0.22580645161290322
+    },
+    "test": {
+      "n": 214,
+      "draws": 66,
+      "draw_rate": 0.308411214953271
+    }
+  },
+  "all_soccer_test": {
+    "n": 214,
+    "draws": 66,
+    "actual_draw_rate": 0.308411214953271,
+    "mean_predicted_draw": 0.21046119684649406,
+    "observed_rate_wilson_95": [
+      0.2503676012992451,
+      0.37321185669780016
+    ]
+  },
+  "draw_selected": {
+    "n": 16,
+    "draws": 6,
+    "actual_draw_rate": 0.375,
+    "mean_predicted_draw": 0.4757900554686785,
+    "observed_rate_wilson_95": [
+      0.18481232558863633,
+      0.6135895945449727
+    ],
+    "fraction_of_games": 0.07476635514018691
+  },
+  "maximum_predicted_draw": 0.7996296882629395,
+  "draw_probability_bins": [
+    {
+      "lower": 0.0,
+      "upper": 0.1,
+      "upper_inclusive": false,
+      "n": 27,
+      "draws": 5,
+      "actual_draw_rate": 0.18518518518518517,
+      "mean_predicted_draw": 0.07345832718743218,
+      "observed_rate_wilson_95": [
+        0.08180707142976529,
+        0.3669868361854843
+      ]
+    },
+    {
+      "lower": 0.1,
+      "upper": 0.2,
+      "upper_inclusive": false,
+      "n": 87,
+      "draws": 23,
+      "actual_draw_rate": 0.26436781609195403,
+      "mean_predicted_draw": 0.14632018869635702,
+      "observed_rate_wilson_95": [
+        0.1831002401344622,
+        0.3655639872759853
+      ]
+    },
+    {
+      "lower": 0.2,
+      "upper": 0.3,
+      "upper_inclusive": false,
+      "n": 64,
+      "draws": 22,
+      "actual_draw_rate": 0.34375,
+      "mean_predicted_draw": 0.24206446018069983,
+      "observed_rate_wilson_95": [
+        0.23923142078443355,
+        0.46596359790081815
+      ]
+    },
+    {
+      "lower": 0.3,
+      "upper": 0.4,
+      "upper_inclusive": false,
+      "n": 23,
+      "draws": 11,
+      "actual_draw_rate": 0.4782608695652174,
+      "mean_predicted_draw": 0.353039079386255,
+      "observed_rate_wilson_95": [
+        0.29237157416646653,
+        0.6703726266357259
+      ]
+    },
+    {
+      "lower": 0.4,
+      "upper": 0.5,
+      "upper_inclusive": false,
+      "n": 9,
+      "draws": 3,
+      "actual_draw_rate": 0.3333333333333333,
+      "mean_predicted_draw": 0.44638248284657794,
+      "observed_rate_wilson_95": [
+        0.1205838183869109,
+        0.6457978644196036
+      ]
+    },
+    {
+      "lower": 0.5,
+      "upper": 0.6,
+      "upper_inclusive": false,
+      "n": 1,
+      "draws": 0,
+      "actual_draw_rate": 0.0,
+      "mean_predicted_draw": 0.5680447220802307,
+      "observed_rate_wilson_95": [
+        0.0,
+        0.7934506856227626
+      ]
+    },
+    {
+      "lower": 0.6,
+      "upper": 0.7,
+      "upper_inclusive": false,
+      "n": 2,
+      "draws": 2,
+      "actual_draw_rate": 1.0,
+      "mean_predicted_draw": 0.6641619205474854,
+      "observed_rate_wilson_95": [
+        0.34238022750665303,
+        1.0
+      ]
+    },
+    {
+      "lower": 0.7,
+      "upper": 0.8,
+      "upper_inclusive": false,
+      "n": 1,
+      "draws": 0,
+      "actual_draw_rate": 0.0,
+      "mean_predicted_draw": 0.7996296882629395,
+      "observed_rate_wilson_95": [
+        0.0,
+        0.7934506856227626
+      ]
+    },
+    {
+      "lower": 0.8,
+      "upper": 0.9,
+      "upper_inclusive": false,
+      "n": 0,
+      "draws": 0,
+      "actual_draw_rate": null,
+      "mean_predicted_draw": null,
+      "observed_rate_wilson_95": null
+    },
+    {
+      "lower": 0.9,
+      "upper": 1.0,
+      "upper_inclusive": true,
+      "n": 0,
+      "draws": 0,
+      "actual_draw_rate": null,
+      "mean_predicted_draw": null,
+      "observed_rate_wilson_95": null
+    }
+  ],
+  "historical_odds_comparison": {
+    "n_with_complete_odds": 214,
+    "n_missing_or_invalid_odds": 0,
+    "mean_normalized_b365_draw": 0.24302424661787547,
+    "matched_fly_and_outcomes": {
+      "n": 214,
+      "draws": 66,
+      "actual_draw_rate": 0.308411214953271,
+      "mean_predicted_draw": 0.21046119684649406,
+      "observed_rate_wilson_95": [
+        0.2503676012992451,
+        0.37321185669780016
+      ]
+    },
+    "method": "(1 / B365D) / (1 / B365H + 1 / B365D + 1 / B365A)",
+    "limitation": "Historical bookmaker price proxy, not human forecasts or verified executable quotes."
+  },
+  "limitations": [
+    "Post-hoc descriptive audit of one previously evaluated model and chronological test split.",
+    "Wilson intervals assume independent observations; teams and matchweeks can be correlated.",
+    "No human-forecast panel; historical prices lack verified point-in-time quote availability.",
+    "No stakes, fills, ROI, retraining or prospective validation are produced by this audit."
+  ]
+}

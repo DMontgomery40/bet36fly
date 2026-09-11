@@ -35,7 +35,7 @@ Report log loss, multiclass Brier score, accuracy and calibration by sport. Comp
 
 ## Phase 1 boundary
 
-Upcoming fixtures are fetched from public sources. Picks are unfilled paper proposals with model probabilities and derived fair odds, not current bookmaker prices. There is no bet365 login, account connection, balance, stake sizing or betting action. API connection and real fill/settlement workflows belong to phase 2.
+Upcoming fixtures are fetched from public sources. Picks are unfilled paper proposals with model probabilities and derived fair odds, not current bookmaker prices. There is no bet365 login, account connection, balance, stake sizing or betting action. API connection and real fill/settlement workflows belong to phase 2. Fly’s desk scores forecast outcomes against public final results using the first valid pregame pick per current fixture revision, across model versions. This does not settle wagers or train the model online. Public source refresh runs every 15 minutes while the local server is running.
 
 ## Scientific sources
 

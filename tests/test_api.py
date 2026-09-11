@@ -11,6 +11,10 @@ def test_no_model_and_no_games_are_explicit(tmp_path):
         assert client.get('/api/training').json()['report'] is None
         assert client.post('/api/predict/missing').status_code == 503
         assert client.get('/api/games?sport=cricket').status_code == 422
+        desk = client.get('/api/desk').json()
+        assert desk['mode'] == 'forward_paper'
+        assert desk['summary']['completed'] == 0 and desk['summary']['hit_rate'] is None
+        assert client.get('/api/desk?sport=cricket').status_code == 422
 
 
 def test_refresh_conflict_and_external_origin_are_rejected(tmp_path):

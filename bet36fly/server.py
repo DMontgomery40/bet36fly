@@ -15,6 +15,21 @@ from .connectome import ROOT
 from .runtime import Runtime, read_json
 
 
+def follow_sources(runtime, stop, interval_seconds=900):
+    """Warm real picks and keep public fixtures/results current while serving."""
+    while not stop.is_set():
+        try:
+            if runtime.ensure_model():
+                runtime.warm_picks()
+                runtime.refresh()
+                if stop.wait(interval_seconds):
+                    return
+                continue
+        except Exception as exc:
+            runtime.refresh_state = {'status': 'failed', 'message': str(exc)}
+        stop.wait(10)
+
+
 def create_app(root=ROOT, warm_on_start=True):
     root = Path(root)
     runtime = Runtime(root)
@@ -23,16 +38,8 @@ def create_app(root=ROOT, warm_on_start=True):
     @asynccontextmanager
     async def lifespan(app):
         if warm_on_start:
-            def warm():
-                while not stop.is_set():
-                    try:
-                        if runtime.ensure_model():
-                            runtime.warm_picks()
-                            return
-                    except Exception as exc:
-                        runtime.refresh_state = {'status': 'failed', 'message': str(exc)}
-                    stop.wait(10)
-            threading.Thread(target=warm, daemon=True, name='checkpoint-warmup').start()
+            threading.Thread(target=follow_sources, args=(runtime, stop), daemon=True,
+                             name='public-source-followup').start()
         yield
         stop.set()
 
@@ -97,6 +104,10 @@ def create_app(root=ROOT, warm_on_start=True):
     def export():
         return Response(runtime.ledger.export_csv(), media_type='text/csv',
                         headers={'Content-Disposition': 'attachment; filename="bet36fly-paper-picks.csv"'})
+
+    @app.get('/api/desk')
+    def desk(sport: Literal['all', 'soccer', 'baseball'] = 'all'):
+        return runtime.desk(sport)
 
     @app.post('/api/refresh')
     def refresh():

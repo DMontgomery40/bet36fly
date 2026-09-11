@@ -25,6 +25,7 @@ vi.mock('./data', async importOriginal => ({
 }));
 import App from './App';
 import GamesView from './GamesView';
+import DeskView from './DeskView';
 
 const prediction: Prediction = { pick: 'home', pick_label: 'Home team', probabilities: { home: .6, draw: .1, away: .3 }, confidence: .6, fair_odds: 1 / .6, run_id: 'run-original', created_at: '2026-09-10T20:00:00Z' };
 const game: Game = { id: 'game', sport: 'soccer', league: 'Test league', home: 'Home team', away: 'Away team', start_time: '2026-09-12T20:00:00Z', status: 'scheduled', source: 'test source' };
@@ -42,7 +43,7 @@ beforeEach(() => {
   const snapshots: Record<string, unknown> = {
     '/api/status': { model_ready: true, refresh: { status: 'idle' } },
     '/api/games?sport=all': { games: [game] },
-    '/api/brain': null, '/api/training': null, '/api/ledger': { picks: [], count: 0 },
+    '/api/brain': null, '/api/training': null, '/api/ledger': { picks: [], count: 0 }, '/api/desk': null,
   };
   host.resources = Object.fromEntries(Object.entries(snapshots).map(([url, data]) => [url, { data, error: '', loading: false, reload: vi.fn().mockResolvedValue(undefined) }]));
   host.request.mockResolvedValue(recording);
@@ -57,6 +58,7 @@ describe('Authoritative upcoming predictions after inference', () => {
     await runInference();
     expect(host.resources['/api/games?sport=all'].reload).toHaveBeenCalledOnce();
     expect(host.resources['/api/ledger'].reload).toHaveBeenCalledOnce();
+    expect(host.resources['/api/desk'].reload).toHaveBeenCalledOnce();
   });
   it.each(['rescheduled game', 'refreshed features', 'changed model'])('never restores a removed server pick after %s', async reason => {
     await runInference();
@@ -69,4 +71,18 @@ describe('Authoritative upcoming predictions after inference', () => {
     host.resources['/api/games?sport=all'].data = { games: [{ ...game, prediction: replacement }] };
     expect(renderGames().data?.games[0].prediction).toBe(replacement);
   });
+});
+
+it('the fourth tab renders the real forward record and preserves the existing routes', () => {
+  vi.stubGlobal('window', { location: { hash: '#desk' }, innerWidth: 1200 });
+  const components: unknown[] = [];
+  function visit(node: ReactNode) {
+    if (!node || typeof node !== 'object' || !('type' in node)) return;
+    const element = node as ReactElement<{ children?: ReactNode }>;
+    components.push(element.type);
+    for (const child of [element.props.children].flat(Infinity) as ReactNode[]) visit(child);
+  }
+  host.cursor = 0; visit(App());
+  expect(components).toContain(DeskView);
+  expect(components).not.toContain(GamesView);
 });
