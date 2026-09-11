@@ -197,6 +197,8 @@ def main():
                 retained[f'{key}__signal_bins'] = rec['signal_bins']
                 retained[f'{key}__kc_signal_bins'] = rec['kc_signal_bins']
                 retained[f'{key}__dan_bins'] = result['trace'][:, dan_slice].copy()
+                retained[f'{key}__step_signals'] = rec['step_signals']
+                retained[f'{key}__step_rule'] = rec['step_rule']
                 if game == panel_games[0]:
                     retained[f'{key}__kc_trace_bins'] = rec['kc_trace_bins']
                     retained[f'{key}__sampled_bins'] = result['trace'].copy()
