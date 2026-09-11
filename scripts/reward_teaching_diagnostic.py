@@ -48,19 +48,24 @@ def kc_class(type_name):
     return 'other'
 
 
-def rule_protocol(protocol, rule):
+def rule_protocol(protocol, rule, away_mask):
     if rule == 'legacy':
-        return dict(protocol)
-    if rule == 'candidate':
+        out = dict(protocol)
+    elif rule == 'candidate':
         if 'dan_reference' not in inspect.signature(RewardEngine.__init__).parameters:
             raise SystemExit('The candidate rule is not implemented in this revision; refusing to mislabel a legacy run.')
-        return dict(protocol, dan_reference='none')
-    raise SystemExit(f'Unknown rule {rule}')
+        out = dict(protocol, dan_reference='none')
+    else:
+        raise SystemExit(f'Unknown rule {rule}')
+    if away_mask != 'all':
+        out['away_plasticity_mask'] = away_mask
+    return out
 
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--rule', choices=('legacy', 'candidate'), required=True)
+    parser.add_argument('--away-mask', choices=('all', 'gamma'), default='all')
     parser.add_argument('--pilot', type=Path, default=Path(PILOT))
     parser.add_argument('--games', type=int, default=8)
     parser.add_argument('--cumulative-games', type=int, default=16)
@@ -71,7 +76,7 @@ def main():
 
     started = time.time()
     base_protocol = json.loads((args.pilot / 'source/protocol.json').read_text())
-    protocol = rule_protocol(base_protocol, args.rule)
+    protocol = rule_protocol(base_protocol, args.rule, args.away_mask)
     inputs = np.load(args.pilot / 'source/inputs.npz', allow_pickle=False)
     X, src, cal = inputs['X'], inputs['source_indices'], inputs['calibration_indices']
     mean, std = inputs['input_mean'], inputs['input_std']
@@ -86,7 +91,7 @@ def main():
     identity = dict(rule=args.rule, protocol=protocol, pilot=args.pilot.name, games=args.games,
                     cumulative_games=args.cumulative_games, alt_seed_offset=ALT_SEED_OFFSET, code_hashes=code,
                     inputs_sha256=file_hash(args.pilot / 'source/inputs.npz'))
-    run_id = f'diag-{args.rule}-' + hashlib.sha256(json.dumps(identity, sort_keys=True).encode()).hexdigest()[:12]
+    run_id = f'diag-{args.rule}' + ('' if args.away_mask == 'all' else f'-mask{args.away_mask}') + '-' + hashlib.sha256(json.dumps(identity, sort_keys=True).encode()).hexdigest()[:12]
     if not panel_complete:
         run_id += '-INCOMPLETE'
     out = args.out / run_id
@@ -224,6 +229,7 @@ def main():
                    panel_note=('frozen v1.1 panel: 8 games x 2 seed sets x 4 conditions + 16-trial cumulative' if panel_complete
                                else 'INCOMPLETE debug panel; not a gate result'),
                    anatomy=dict(plastic_edges=int(len(pc)), group_labels=group_labels, group_edges=group_edges,
+                                plasticity_mask=anatomy.get('plasticity_mask'), eligible_edges=int(engine.plastic_mask.sum()),
                                 dan_populations=[int(np.count_nonzero(dcomp == c)) for c in range(2)],
                                 compartments=[dict(label=c['label'], dan_type=c['dan_type'], mbon_type=c['mbon_type']) for c in anatomy['compartments']]),
                    panel_games=panel_games, rows=rows, effects=panel['rows'], criteria=criteria,

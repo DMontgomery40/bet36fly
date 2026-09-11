@@ -21,6 +21,9 @@ struct Random {
 //                                        edges clipped low, edges clipped high, KC events on group edges,
 //                                        sum of Kbar over group edges at bin end}
 //   kc_trace_bins[bin][kc]            = KC trace at bin end
+//   step_signals[step][1 + compartments] = {KC spikes this step, compartment-mean DAN spikes this step}
+// plastic_mask[k] == 0 marks a listed edge that transmits with its current gain but never updates
+// (Stage C anatomical eligibility); its KC events are still counted in rule_bins column 5.
 enum { SIGNAL_WIDTH = 4, KC_SIGNAL_WIDTH = 2, RULE_WIDTH = 7 };
 
 extern "C" int simulate_reward(
@@ -39,7 +42,7 @@ extern "C" int simulate_reward(
     int32_t* dan_counts, int32_t* compartment_dan_counts,
     int record, int n_groups, const int32_t* plastic_groups,
     double* signal_bins, double* kc_signal_bins, double* rule_bins, float* kc_trace_bins,
-    int dan_reference_mode
+    int dan_reference_mode, const uint8_t* plastic_mask, float* step_signals
 ) {
     try {
         Random rng{seed ? seed : 1};
@@ -122,12 +125,17 @@ extern "C" int simulate_reward(
                         : 0.0f;
                 }
             if (record) {
+                float* step_row = step_signals + size_t(t) * (1 + n_compartments);
                 for (int compartment=0; compartment<n_compartments; ++compartment) {
                     const int population_size = dan_population_size[compartment];
-                    signal_acc[compartment * SIGNAL_WIDTH + 0] +=
-                        population_size ? double(dan_spikes[compartment]) / population_size : 0.0;
+                    const double mean_spikes = population_size ? double(dan_spikes[compartment]) / population_size : 0.0;
+                    signal_acc[compartment * SIGNAL_WIDTH + 0] += mean_spikes;
+                    step_row[1 + compartment] = float(mean_spikes);
                 }
-                for (int k=0; k<n_kc; ++k) kc_spike_acc += spiked[kc_indices[k]] ? 1.0 : 0.0;
+                double kc_now = 0.0;
+                for (int k=0; k<n_kc; ++k) kc_now += spiked[kc_indices[k]] ? 1.0 : 0.0;
+                kc_spike_acc += kc_now;
+                step_row[0] = float(kc_now);
             }
             if (learning) {
                 for (int compartment=0; compartment<n_compartments; ++compartment) {
@@ -145,6 +153,10 @@ extern "C" int simulate_reward(
                     const int compartment = plastic_compartments[k];
                     const int kc = plastic_kc[k];
                     const float kc_spike = spiked[kc_indices[kc]] ? 1.0f : 0.0f;
+                    if (!plastic_mask[k]) {
+                        if (record) rule_acc[size_t(plastic_groups[k]) * RULE_WIDTH + 5] += kc_spike;
+                        continue;
+                    }
                     const float delta = learning_rate
                         * (dan_trace[compartment] * kc_spike - kc_trace[kc] * phasic[compartment]);
                     const float before = gains[k];

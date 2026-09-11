@@ -46,6 +46,7 @@ def _native_library():
     i64 = np.ctypeslib.ndpointer(dtype=np.int64, flags='C_CONTIGUOUS')
     f32 = np.ctypeslib.ndpointer(dtype=np.float32, flags='C_CONTIGUOUS')
     f64 = np.ctypeslib.ndpointer(dtype=np.float64, flags='C_CONTIGUOUS')
+    u8 = np.ctypeslib.ndpointer(dtype=np.uint8, flags='C_CONTIGUOUS')
     lib.simulate_reward.argtypes = [
         ctypes.c_int, i64, i32, f32, ctypes.c_int, i32, f32, ctypes.c_int,
         ctypes.c_int, ctypes.c_float, ctypes.c_uint64, ctypes.c_int, i32,
@@ -55,7 +56,7 @@ def _native_library():
         ctypes.c_int, i32, i32, ctypes.c_int, i32, ctypes.c_int,
         i32, f32, i32, i32, i32, i32,
         ctypes.c_int, ctypes.c_int, i32, f64, f64, f64, f32,
-        ctypes.c_int,
+        ctypes.c_int, u8, f32,
     ]
     lib.simulate_reward.restype = ctypes.c_int
     return lib
@@ -95,6 +96,7 @@ class RewardEngine:
         plasticity_onset_ms=0.0,
         dan_baseline_window_ms=0.0,
         dan_reference='none',
+        plastic_mask=None,
     ):
         self.ptr = _integer_array(ptr, np.int64, 'ptr')
         self.post = _integer_array(post, np.int32, 'post')
@@ -165,6 +167,15 @@ class RewardEngine:
             or np.intersect1d(self.sensory, self.dan_indices).size
         ):
             raise ValueError('Invalid reward graph or learning configuration.')
+        if plastic_mask is None:
+            mask = np.ones(len(self.plastic_edge_indices), np.uint8)
+        else:
+            raw_mask = np.asarray(plastic_mask)
+            if (raw_mask.shape != self.plastic_edge_indices.shape or raw_mask.dtype.kind not in 'iub'
+                    or not np.isin(raw_mask, [0, 1]).all()):
+                raise ValueError('plastic_mask must hold one 0/1 eligibility flag per plastic edge.')
+            mask = np.array(raw_mask, dtype=np.uint8, order='C', copy=True)
+        self.plastic_mask = mask
         if len(self.plastic_edge_indices):
             plastic_sources = np.searchsorted(
                 self.ptr, self.plastic_edge_indices, side='right'
@@ -190,7 +201,7 @@ class RewardEngine:
         for array in (
             self.ptr, self.post, self.weights, self.sensory, self.kc_indices, self.dan_indices,
             self.dan_compartments, self.plastic_edge_indices, self.plastic_kc_indices,
-            self.plastic_compartments,
+            self.plastic_compartments, self.plastic_mask,
         ):
             array.setflags(write=False)
         self.lib = _native_library()
@@ -314,11 +325,13 @@ class RewardEngine:
             kc_signal_bins = np.zeros((n_bins, KC_SIGNAL_WIDTH), np.float64)
             rule_bins = np.zeros((n_bins, n_groups, RULE_WIDTH), np.float64)
             kc_trace_bins = np.zeros((n_bins, len(self.kc_indices)), np.float32)
+            step_signals = np.zeros((steps, 1 + self.n_compartments), np.float32)
         else:
             signal_bins = np.zeros(0, np.float64)
             kc_signal_bins = np.zeros(0, np.float64)
             rule_bins = np.zeros(0, np.float64)
             kc_trace_bins = np.zeros(0, np.float32)
+            step_signals = np.zeros(0, np.float32)
         start = time.perf_counter()
         result = self.lib.simulate_reward(
             self.n, self.ptr, self.post, self.weights, len(self.sensory), self.sensory, rates, bin_steps,
@@ -331,7 +344,7 @@ class RewardEngine:
             native_pulse_dans, len(sample), sample, bin_steps, counts, voltage, trace, population,
             dan_counts, compartment_counts,
             int(record), n_groups, groups, signal_bins, kc_signal_bins, rule_bins, kc_trace_bins,
-            DAN_REFERENCE_MODES[self.dan_reference],
+            DAN_REFERENCE_MODES[self.dan_reference], self.plastic_mask, step_signals,
         )
         if result:
             raise RuntimeError('Native reward simulation failed.')
@@ -355,8 +368,8 @@ class RewardEngine:
             'wall_seconds': time.perf_counter() - start,
             'instrumentation': dict(
                 signal_bins=signal_bins, kc_signal_bins=kc_signal_bins, rule_bins=rule_bins,
-                kc_trace_bins=kc_trace_bins, plastic_groups=groups,
-                layout=dict(signal_bins=['dan_mean_spikes', 'dan_trace_end', 'dan_signal_after_reference',
+                kc_trace_bins=kc_trace_bins, step_signals=step_signals, plastic_groups=groups,
+                layout=dict(step_signals=['kc_spikes', 'dan_mean_spikes_per_compartment...'],signal_bins=['dan_mean_spikes', 'dan_trace_end', 'dan_signal_after_reference',
                                          'reference_per_step'],
                             kc_signal_bins=['kc_spikes', 'kc_trace_mass_end'],
                             rule_bins=['term_dbar_k', 'term_kbar_d', 'applied', 'clipped_low', 'clipped_high',

@@ -451,3 +451,46 @@ def test_record_accepts_an_explicit_group_count_and_rejects_a_short_one():
     assert wide['instrumentation']['rule_bins'][0, 1, 5] == 1 and not wide['instrumentation']['rule_bins'][:, [0, 2], :].any()
     with pytest.raises(ValueError):
         reward_engine().run(exact_schedule(1), bin_ms=0.2, record=True, plastic_groups=np.array([1], np.int32), n_groups=1)
+
+
+# --- per-step population event recording (SCI-001 follow-up) ---
+
+def test_recording_includes_per_step_population_events():
+    result = reward_engine(n_dan=2).run(exact_schedule(6, 0, 3), bin_ms=0.2, teaching_pulses=[(1.0, 0)], record=True)
+    steps = result['instrumentation']['step_signals']
+
+    assert steps.shape == (6, 2)                                   # KC spikes, then one column per compartment
+    np.testing.assert_array_equal(steps[:, 0], [1, 0, 0, 1, 0, 0])
+    np.testing.assert_array_equal(steps[:, 1], [0, 0, 0, 0, 0, 0.5])  # one of two DANs fired: compartment mean
+
+
+# --- Stage C: plasticity mask; excluded edges transmit normally but never update ---
+
+def masked_engine(mask, **kwargs):
+    # KC 0 -> neurons 2 and 3 through two strong edges; DAN 1 teaches compartment 0 for both edges.
+    return RewardEngine(
+        np.array([0, 2, 2, 2, 2], np.int64), np.array([2, 3], np.int32), np.array([800.0, 800.0], np.float32),
+        np.array([0]), np.array([0]), np.array([1]), np.array([0]), np.array([0, 1]), np.array([0, 0]), np.array([0, 0]),
+        n_compartments=1, tau_ms=10, learning_rate=1.0, gain_bounds=(0.5, 1.5), plastic_mask=mask, **kwargs,
+    )
+
+
+def test_masked_edge_keeps_transmitting_and_never_updates():
+    engine = masked_engine(np.array([1, 0], np.uint8))
+    learned = engine.run(exact_schedule(10, 0), bin_ms=0.2, teaching_pulses=[(1.0, 0)], record=True,
+                         plastic_groups=np.array([0, 1], np.int32))
+    later = engine.run(exact_schedule(10, 0), bin_ms=0.2, plasticity=False)
+
+    np.testing.assert_allclose(learned['gains'], [0.5, 1.0], atol=1e-7)     # masked edge untouched
+    assert learned['counts'][3] == 1 and learned['counts'][2] == 0          # masked edge drives its target at full strength;
+    assert later['counts'][3] == 1 and later['counts'][2] == 0             # the depressed sibling (0.5 before delivery) does not
+    assert not learned['instrumentation']['rule_bins'][:, 1, :5].any()    # no rule terms recorded on the masked edge
+    assert learned['instrumentation']['rule_bins'][:, 1, 5].sum() == 1     # its KC event is still counted
+    np.testing.assert_array_equal(engine.plastic_mask, [1, 0])
+
+
+def test_mask_defaults_to_all_eligible_and_is_validated():
+    assert masked_engine(None).plastic_mask.tolist() == [1, 1]
+    for bad in (np.array([1]), np.array([1, 2]), np.array([1.0, 0.5]), np.array([[1, 0]])):
+        with pytest.raises(ValueError):
+            masked_engine(bad)

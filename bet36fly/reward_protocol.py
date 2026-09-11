@@ -12,6 +12,48 @@ import numpy as np
 # receives a quarter of the KC contacts per cell that MBON11 does and stays near 0 Hz at
 # every non-runaway drive, whereas MBON09 responds at rates comparable to MBON11.
 COMPARTMENTS = (('home', 'PPL101', 'MBON11'), ('away', 'PAM12', 'MBON09'))
+KC_CLASSES = ('gamma', 'apbp', 'ab', 'other')
+MASK_POLICIES = ('all', 'gamma')
+
+
+def kc_class(type_label):
+    """Coarse Kenyon-cell class from the released type label; anything else (including blank) is 'other'."""
+    name = str(type_label)
+    if name.startswith("KCa'b'"):
+        return 'apbp'
+    if name.startswith('KCg'):
+        return 'gamma'
+    if name.startswith('KCab'):
+        return 'ab'
+    return 'other'
+
+
+def eligibility_mask(kc_types, plastic_kc, plastic_compartments, *, away_policy):
+    """Per-edge 0/1 plasticity eligibility from verified KC type labels.
+
+    Home (compartment 0) is never filtered: MBON11 receives substantial alpha/beta and
+    alpha-prime/beta-prime input. The away compartment (1) keeps every edge under 'all' and only
+    edges whose KC label starts with 'KCg' under 'gamma', the documented approximation for the
+    PAM12 / MBON09 (gamma3) channel. Excluded edges keep transmitting; only their updates stop.
+    """
+    types = np.asarray(kc_types).astype(str)
+    pk, pc = np.asarray(plastic_kc), np.asarray(plastic_compartments)
+    if (away_policy not in MASK_POLICIES or pk.shape != pc.shape or pk.ndim != 1
+            or pk.size and (pk.min() < 0 or pk.max() >= len(types))):
+        raise ValueError('eligibility_mask needs a known policy and edge KC indices inside the label table.')
+    classes = np.array([kc_class(t) for t in types[pk]]) if pk.size else np.zeros(0, str)
+    mask = np.ones(len(pk), np.uint8)
+    if away_policy == 'gamma':
+        mask[(pc == 1) & (classes != 'gamma')] = 0
+    audit = {}
+    for label, c in (('home', 0), ('away', 1)):
+        edges = pc == c
+        policy = away_policy if c == 1 else 'all'
+        audit[label] = dict(policy=policy, eligible_edges=int(mask[edges].sum()),
+                            excluded_edges=int(edges.sum() - mask[edges].sum()),
+                            by_class={k: int(np.count_nonzero(edges & (classes == k))) for k in KC_CLASSES},
+                            ambiguous_labels=sorted({str(t) for t in types[pk[edges & (classes == 'other')]]}))
+    return mask, audit
 
 
 def file_hash(path):
@@ -175,17 +217,23 @@ def make_circuit(root, protocol, *, n_features=16):
     edges, kcs, compartments = plastic_mapping(ptr, post, arrays['kc'], outputs)
     if not np.all(weights[edges] > 0):
         raise ValueError('The selected KC-to-MBON plastic support must be excitatory.')
+    # Eligibility from the raw released type labels of the KC rows (body-ID aligned through `ids`).
+    kc_types = raw.iloc[arrays['kc']]['type'].fillna('').to_numpy()
+    mask, mask_audit = eligibility_mask(kc_types, kcs, compartments,
+                                        away_policy=protocol.get('away_plasticity_mask', 'all'))
     for c, annotation in enumerate(annotations):
         annotation['plastic_edges'] = int((compartments == c).sum())
+        annotation['eligible_edges'] = int(mask[compartments == c].sum())
     engine = RewardEngine(ptr, post, weights, arrays['sensory'], arrays['kc'], np.asarray(dans),
                           np.asarray(dcomp), edges, kcs, compartments, n_compartments=2,
                           tau_ms=protocol['tau_ms'], learning_rate=protocol['learning_rate'],
                           gain_bounds=tuple(protocol['gain_bounds']),
                           plasticity_onset_ms=protocol['plasticity_onset_ms'],
                           dan_baseline_window_ms=protocol['dan_baseline_window_ms'],
-                          dan_reference=protocol.get('dan_reference', 'tonic-baseline'))
+                          dan_reference=protocol.get('dan_reference', 'tonic-baseline'),
+                          plastic_mask=mask)
     anatomy = dict(neurons=len(ids), kc=len(arrays['kc']), dans=len(dans), plastic_edges=len(edges),
-                   dan_reference=engine.dan_reference,
+                   dan_reference=engine.dan_reference, plasticity_mask=mask_audit,
                    compartments=annotations, dopamine_only_fast_outputs_zeroed=len(dopamine_only),
                    kc_input_gain=protocol['kc_input_gain'], sensory_input_gain=protocol['sensory_input_gain'],
                    apl_output_gain=protocol['apl_output_gain'], apl_body_ids=ids[apl].tolist(),
