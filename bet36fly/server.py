@@ -1,6 +1,8 @@
 """Local spectator API and built frontend, with no wagering/account endpoints."""
 from __future__ import annotations
 
+import json
+
 from contextlib import asynccontextmanager
 from pathlib import Path
 import threading
@@ -14,6 +16,7 @@ from starlette.middleware.trustedhost import TrustedHostMiddleware
 from .connectome import ROOT
 from .runtime import Runtime, read_json
 from .experiments import list_experiments, read_experiment, resolve_artifact
+from .reward_diagnostic import EVIDENCE_NOTE, list_diagnostics, read_diagnostic
 
 
 def follow_sources(runtime, stop, interval_seconds=900):
@@ -117,6 +120,17 @@ def create_app(root=ROOT, warm_on_start=True):
             return FileResponse(path, filename=path.name)
         except (ValueError, OSError) as exc:
             raise HTTPException(404, str(exc)) from exc
+
+    @app.get('/api/reward-diagnostics')
+    def reward_diagnostics():
+        return {'diagnostics': list_diagnostics(root), 'evidence_note': EVIDENCE_NOTE}
+
+    @app.get('/api/reward-diagnostics/{run_id}')
+    def reward_diagnostic(run_id: str):
+        try:
+            return read_diagnostic(root, run_id)
+        except (ValueError, FileNotFoundError, OSError, json.JSONDecodeError):
+            raise HTTPException(404, 'Unknown diagnostic run.')
 
     @app.get('/api/ledger')
     def ledger():

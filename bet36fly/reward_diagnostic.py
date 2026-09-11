@@ -5,7 +5,14 @@ candidate-rule-spec-v1.1.md. All comparisons use compartment gain SUMS on both s
 """
 from __future__ import annotations
 
+import json
+from pathlib import Path
+
 import numpy as np
+
+from .experiments import IDENTIFIER, safe_directory
+
+EVIDENCE_NOTE = 'docs/evidence/reward-repair-phase1.md'
 
 PHASES = ('pre_onset', 'stimulus_plastic', 'post_stimulus')
 COMPARTMENT_OF = {'home': 0, 'away': 1}
@@ -161,3 +168,59 @@ def evaluate_cumulative(trajectory, *, mean_effect, ratio=4.0):
         per.append(dict(compartment=c, final_sum=final, limit=limit, passed=bool(abs(final) <= limit)))
     return dict(passed=all(p['passed'] for p in per), per_compartment=per,
                 trajectory=[[float(x) for x in row] for row in path])
+
+
+# --- read-only registry of stored diagnostic panels (served by the API; never the npz arrays) ---
+
+def _load_summary(directory):
+    summary = json.loads((directory / 'summary.json').read_text())
+    if summary.get('run_id') != directory.name:
+        raise ValueError('Diagnostic identity mismatch.')
+    return summary
+
+
+def _compact(summary, has_attribution):
+    criteria = summary.get('criteria', {})
+    protocol = summary.get('identity', {}).get('protocol', {})
+    return dict(
+        run_id=summary['run_id'], rule=summary.get('rule'), created_at=summary.get('created_at'),
+        dan_reference=protocol.get('dan_reference'), away_plasticity_mask=protocol.get('away_plasticity_mask'),
+        panel_complete=bool(summary.get('panel_complete', False)), panel_note=summary.get('panel_note'),
+        all_passed=bool(summary.get('all_passed', False)),
+        criteria={name: bool(value.get('passed', False)) for name, value in criteria.items()},
+        untaught_guard={key: {k: value.get(k) for k in ('mean', 'sd', 'limit', 'passed')}
+                        for key, value in criteria.get('untaught_guard', {}).get('evaluations', {}).items()},
+        teaching_specific={key: {k: value.get(k) for k in ('mean_effect', 'mean_untaught', 'required_magnitude', 'passed')}
+                           for key, value in criteria.get('teaching_specific', {}).get('evaluations', {}).items()},
+        has_attribution=has_attribution,
+        native_binary_sha256=summary.get('native_binary', {}).get('sha256'),
+        source_unchanged_during_run=summary.get('source_unchanged_during_run'),
+        plastic_edges=summary.get('anatomy', {}).get('plastic_edges'),
+        eligible_edges=summary.get('anatomy', {}).get('eligible_edges'),
+    )
+
+
+def list_diagnostics(root):
+    directory = Path(root) / 'output/diagnostics'
+    if not directory.exists():
+        return []
+    entries = []
+    for child in directory.iterdir():
+        if not child.is_dir() or not IDENTIFIER.fullmatch(child.name):
+            continue
+        try:
+            summary = _load_summary(child)
+        except (ValueError, OSError):
+            continue
+        entries.append(_compact(summary, (child / 'attribution.json').is_file()))
+    return sorted(entries, key=lambda e: (e['created_at'] or '', e['run_id']), reverse=True)
+
+
+def read_diagnostic(root, run_id):
+    directory = safe_directory(Path(root) / 'output/diagnostics', run_id)
+    if not directory.is_dir():
+        raise FileNotFoundError(run_id)
+    summary = _load_summary(directory)
+    attribution_path = directory / 'attribution.json'
+    attribution = json.loads(attribution_path.read_text()) if attribution_path.is_file() else None
+    return dict(summary=summary, attribution=attribution)
