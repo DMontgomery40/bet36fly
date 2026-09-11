@@ -131,3 +131,33 @@ def test_evaluate_panel_without_expected_games_is_marked_incomplete_not_passed()
     assert result['complete'] is False
     assert result['criteria']['teaching_specific']['passed'] is False
     assert 'incomplete' in result['criteria']['teaching_specific']['note']
+
+
+# --- DIAG-002: the panel protocol must follow the requested rule and mask, never inherited fields ---
+
+from bet36fly.reward_diagnostic import panel_protocol  # noqa: E402
+
+
+@pytest.mark.parametrize('inherited_mask', [None, 'all', 'gamma'])
+@pytest.mark.parametrize('inherited_reference', [None, 'none', 'tonic-baseline'])
+@pytest.mark.parametrize('rule, expected_reference', [('legacy', 'tonic-baseline'), ('candidate', 'none')])
+@pytest.mark.parametrize('away_mask', ['all', 'gamma'])
+def test_panel_protocol_overrides_inherited_rule_and_mask(inherited_mask, inherited_reference, rule, expected_reference, away_mask):
+    base = {'seed': 42, 'tau_ms': 500.0}
+    if inherited_mask is not None:
+        base['away_plasticity_mask'] = inherited_mask
+    if inherited_reference is not None:
+        base['dan_reference'] = inherited_reference
+    protocol = panel_protocol(base, rule, away_mask)
+
+    assert protocol['dan_reference'] == expected_reference
+    assert protocol['away_plasticity_mask'] == away_mask
+    assert protocol['seed'] == 42 and protocol['tau_ms'] == 500.0
+    assert 'away_plasticity_mask' not in base or base['away_plasticity_mask'] == inherited_mask   # input untouched
+
+
+def test_panel_protocol_rejects_unknown_rule_or_mask():
+    with pytest.raises(ValueError):
+        panel_protocol({}, 'moving-average', 'all')
+    with pytest.raises(ValueError):
+        panel_protocol({}, 'candidate', 'alpha')

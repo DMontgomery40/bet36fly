@@ -13,6 +13,19 @@ SEED_SETS = ('base', 'alt')
 CONDITIONS = ('frozen', 'untaught', 'home', 'away')
 
 
+RULE_REFERENCE = {'legacy': 'tonic-baseline', 'candidate': 'none'}
+MASK_POLICIES = ('all', 'gamma')
+
+
+def panel_protocol(base, rule, away_mask):
+    """Protocol for one panel run: the requested rule and mask always win over inherited fields."""
+    if rule not in RULE_REFERENCE:
+        raise ValueError(f'rule must be one of {sorted(RULE_REFERENCE)}.')
+    if away_mask not in MASK_POLICIES:
+        raise ValueError(f'away_mask must be one of {MASK_POLICIES}.')
+    return dict(base, dan_reference=RULE_REFERENCE[rule], away_plasticity_mask=away_mask)
+
+
 class PanelIncomplete(ValueError):
     """The rows do not form the exact predeclared matrix; no criterion may be reported as passed."""
 

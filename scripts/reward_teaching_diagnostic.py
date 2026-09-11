@@ -25,7 +25,8 @@ from bet36fly.connectome import ROOT  # noqa: E402
 from bet36fly.experiment import atomic_json, utcnow  # noqa: E402
 from bet36fly.reward_brain import RewardEngine  # noqa: E402
 from bet36fly.reward_diagnostic import (  # noqa: E402
-    COMPARTMENT_OF, PHASES, compartment_sums, evaluate_cumulative, evaluate_panel, phase_sums,
+    COMPARTMENT_OF, PHASES, RULE_REFERENCE, compartment_sums, evaluate_cumulative, evaluate_panel,
+    panel_protocol, phase_sums,
 )
 from bet36fly.reward_protocol import file_hash, make_circuit  # noqa: E402
 
@@ -48,20 +49,6 @@ def kc_class(type_name):
     return 'other'
 
 
-def rule_protocol(protocol, rule, away_mask):
-    if rule == 'legacy':
-        out = dict(protocol)
-    elif rule == 'candidate':
-        if 'dan_reference' not in inspect.signature(RewardEngine.__init__).parameters:
-            raise SystemExit('The candidate rule is not implemented in this revision; refusing to mislabel a legacy run.')
-        out = dict(protocol, dan_reference='none')
-    else:
-        raise SystemExit(f'Unknown rule {rule}')
-    if away_mask != 'all':
-        out['away_plasticity_mask'] = away_mask
-    return out
-
-
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--rule', choices=('legacy', 'candidate'), required=True)
@@ -76,7 +63,9 @@ def main():
 
     started = time.time()
     base_protocol = json.loads((args.pilot / 'source/protocol.json').read_text())
-    protocol = rule_protocol(base_protocol, args.rule, args.away_mask)
+    if 'dan_reference' not in inspect.signature(RewardEngine.__init__).parameters:
+        raise SystemExit('This revision has no dan_reference mode; refusing to run a mislabeled panel.')
+    protocol = panel_protocol(base_protocol, args.rule, args.away_mask)
     inputs = np.load(args.pilot / 'source/inputs.npz', allow_pickle=False)
     X, src, cal = inputs['X'], inputs['source_indices'], inputs['calibration_indices']
     mean, std = inputs['input_mean'], inputs['input_std']
@@ -101,8 +90,12 @@ def main():
     print(f'[{run_id}] building circuit', flush=True)
     engine, anatomy, outputs, dcomp, kc, sensory, encode = make_circuit(ROOT, protocol, n_features=X.shape[1])
     native_binary = dict(path=str(engine.lib._name), sha256=file_hash(engine.lib._name))
-    if engine.dan_reference != {'legacy': 'tonic-baseline', 'candidate': 'none'}[args.rule]:
+    if engine.dan_reference != RULE_REFERENCE[args.rule]:
         raise SystemExit(f'Engine reference mode {engine.dan_reference} does not match --rule {args.rule}.')
+    audit = anatomy['plasticity_mask']
+    if audit['away']['policy'] != args.away_mask or audit['home']['policy'] != 'all' or (
+            args.away_mask == 'all' and int(engine.plastic_mask.sum()) != len(engine.plastic_mask)):
+        raise SystemExit(f'Built eligibility {audit} does not match --away-mask {args.away_mask}.')
     ids = np.load(ROOT / 'data/brain/ids.npy')
     nodes = feather.read_table(ROOT / 'data/brain/nodes.feather', columns=['bodyId', 'type']).to_pandas()
     types = nodes.set_index('bodyId').reindex(ids)['type'].fillna('').to_numpy()
