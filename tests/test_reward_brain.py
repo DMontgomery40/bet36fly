@@ -441,3 +441,12 @@ def test_recorded_groups_split_edges_and_count_clipping():
 def test_record_rejects_misaligned_groups(groups):
     with pytest.raises(ValueError):
         reward_engine().run(exact_schedule(1), bin_ms=0.2, record=True, plastic_groups=groups)
+
+
+def test_record_accepts_an_explicit_group_count_and_rejects_a_short_one():
+    wide = reward_engine().run(exact_schedule(2, 0), bin_ms=0.2, record=True,
+                               plastic_groups=np.array([1], np.int32), n_groups=3)
+    assert wide['instrumentation']['rule_bins'].shape == (2, 3, 7)
+    assert wide['instrumentation']['rule_bins'][0, 1, 5] == 1 and not wide['instrumentation']['rule_bins'][:, [0, 2], :].any()
+    with pytest.raises(ValueError):
+        reward_engine().run(exact_schedule(1), bin_ms=0.2, record=True, plastic_groups=np.array([1], np.int32), n_groups=1)

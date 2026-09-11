@@ -212,6 +212,7 @@ class RewardEngine:
         sample=None,
         record=False,
         plastic_groups=None,
+        n_groups=None,
     ):
         if (
             not isinstance(seed, (int, np.integer))
@@ -255,7 +256,13 @@ class RewardEngine:
             groups = _integer_array(plastic_groups, np.int32, 'plastic_groups')
         if groups.shape != (n_plastic,) or (groups.size and groups.min() < 0):
             raise ValueError('plastic_groups must give one nonnegative group id per plastic edge.')
-        n_groups = int(groups.max()) + 1 if groups.size else 1
+        inferred = int(groups.max()) + 1 if groups.size else 1
+        if n_groups is None:
+            n_groups = inferred
+        elif (not isinstance(n_groups, (int, np.integer)) or isinstance(n_groups, (bool, np.bool_))
+              or n_groups < inferred or n_groups > np.iinfo(np.int32).max):
+            raise ValueError('n_groups must be an integer at least one more than the largest group id.')
+        n_groups = int(n_groups)
         n_bins = rates.shape[0]
         if record and (n_bins * n_groups * RULE_WIDTH > _MAX_TRACE_VALUES
                        or n_bins * max(len(self.kc_indices), 1) > _MAX_TRACE_VALUES):
