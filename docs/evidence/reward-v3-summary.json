@@ -1,0 +1,4470 @@
+{
+ "schema_version": 1,
+ "recorded_at": "2026-09-11T12:21:11.234504+00:00",
+ "experiment_id": "reward-v3-84fc629bc8045cbff7e0",
+ "status": "complete",
+ "wall_seconds": 227.05567920813337,
+ "scope": "One-seed reused-development experiment; no prediction superiority, biological validation or bookmaker edge.",
+ "identity": {
+  "protocol": {
+   "schema_version": 1,
+   "seed": 42,
+   "train_n": 64,
+   "validation_n": 32,
+   "calibration_n": 16,
+   "duration_ms": 400.0,
+   "stimulus_ms": 300.0,
+   "teaching_ms": 310.0,
+   "bin_ms": 10.0,
+   "teaching_pulse_count": 4,
+   "teaching_interval_ms": 20.0,
+   "global_weight_scale": 0.5,
+   "tau_ms": 500.0,
+   "learning_rate": 0.0005,
+   "gain_bounds": [
+    0.5,
+    1.5
+   ],
+   "wall_seconds": 900.0,
+   "min_kc_active_fraction": 0.001,
+   "max_kc_active_fraction": 0.85,
+   "max_mbon_hz": 400.0,
+   "arms": [
+    "paired",
+    "shuffled",
+    "frozen"
+   ]
+  },
+  "source_hashes": {
+   "data": "cc8774378e32c8336e72c21fbf654c5cb808afe26fe0c7392d559d494d43c413",
+   "games": "63bd414dedf18db4c28d5c82d52cc2ea91a0091333a8e790791240436b01d840"
+  },
+  "code_hashes": {
+   "reward_lif.cpp": "a5cb077e07b17fc29adb6d39bb7629c353f69cb073c6778bc73a42b00cf73ee3",
+   "reward_brain.py": "283065502b89d87cfff0a99a006479a370d0109467bb364da334b4931e94cca4",
+   "reward_protocol.py": "77ed970dcb9f81c19065bc4caa64064c4975ff9b6cadedf5de90a33aab9b40c8",
+   "reward_experiment.py": "ea3d4cdb2ad17874a46cc345e90962c66346090e4dc4271dd4b3cc5a154e7846",
+   "brain.py": "34029e85c4487eabc6fb0f0ea3cca07b8b75de9864edc7c9fd435b7834bcfa14",
+   "learning.py": "ddeb82479f10e89625632cf84ea58461ba9600be6517022fc91ff383f0928ab8"
+  },
+  "graph_hashes": {
+   "counts.npy": "4a11faf9771fc3d5a5ff78ae7620ec1ce400f52d099ff657f0342cfc7a519f6b",
+   "ids.npy": "ab90597b7b0ce07cbc22cb39a65b70bea2ac73cc7fd225951bd9d73f2fc8dd3f",
+   "in_degree.npy": "494f13b315b23acb9962e214de0676e647893597614ad146483308e16a09716d",
+   "indptr.npy": "fe43420f11e6242a11f8199ae7f097cab4b8a6db181d36f2a46b9e46670acbb4",
+   "kc.npy": "97a570aafa089f93e642b2bb07e3a3322dabb14c3c7dd431f0c8d2b3b7951fdd",
+   "mbon.npy": "87d555e02d4cf2d661d9676b937a31b29cacf60a7edc85c8c08edc8312530f83",
+   "post.npy": "ce20f7433f78442c717ad2a7b5394cf4a3b109d990b4be0788040b7b0f4ed150",
+   "sensory.npy": "ed574f42559455069679f8ce3b339395efa9398ec13e199eab47959533370805",
+   "signs.npy": "4a0725e94d5014b2f17a70e3bdef3f7d843c0e81a8f22a33284aa10d8d62dab5"
+  },
+  "node_annotations_sha256": "d706a6dd5ec1dc17cfba2e8f439232723af81729bf1d0c17bf0cc73860a9c867",
+  "raw_annotations_sha256": "2177e246113e4cfbf1e7772ec37c6da1955ff22e8063d0b1f833101f99a9a3b2"
+ },
+ "report_sha256": "25568e42d4198f06de686251943eba6364d6855bbe0c90f1bf12c7df8e5ed813",
+ "protected_inputs_unchanged": true,
+ "reward": {
+  "scope": "reused-development-pilot",
+  "rule": "event-biphasic-kc-dan-v1",
+  "note": "Artificial sports-to-neuron and outcome-to-DAN mappings; fixed readout. This tests on-circuit associative learning, not biological RPE or betting edge.",
+  "train_n": 64,
+  "validation_n": 32,
+  "calibration_n": 16,
+  "embargoed_training_labels": 21,
+  "anatomy": {
+   "neurons": 166700,
+   "kc": 4064,
+   "dans": 17,
+   "plastic_edges": 7835,
+   "compartments": [
+    {
+     "label": "home",
+     "dan_type": "PPL101",
+     "mbon_type": "MBON11",
+     "dans": 2,
+     "mbons": 2,
+     "dan_body_ids": [
+      11327,
+      11900
+     ],
+     "mbon_body_ids": [
+      10704,
+      11402
+     ],
+     "dan_instances": [
+      "PPL101(y1ped)_R",
+      "PPL101(y1ped)_L"
+     ],
+     "mbon_instances": [
+      "MBON11(y1pedc>a/B)_L",
+      "MBON11(y1pedc>a/B)_R"
+     ],
+     "plastic_edges": 4184
+    },
+    {
+     "label": "away",
+     "dan_type": "PAM11",
+     "mbon_type": "MBON07",
+     "dans": 15,
+     "mbons": 4,
+     "dan_body_ids": [
+      114661,
+      119763,
+      137539,
+      138822,
+      139706,
+      145749,
+      147857,
+      157016,
+      204930,
+      215931,
+      224500,
+      238644,
+      273182,
+      319321,
+      520616
+     ],
+     "mbon_body_ids": [
+      12859,
+      15626,
+      18603,
+      515338
+     ],
+     "dan_instances": [
+      "PAM11(a1)_R",
+      "PAM11(a1)_L",
+      "PAM11(a1)_R",
+      "PAM11(a1)_L",
+      "PAM11(a1)_R",
+      "PAM11(a1)_L",
+      "PAM11(a1)_L",
+      "PAM11(a1)_L",
+      "PAM11(a1)_L",
+      "PAM11(a1)_R",
+      "PAM11(a1)_R",
+      "PAM11(a1)_R",
+      "PAM11(a1)_L",
+      "PAM11(a1)_R",
+      "PAM11(a1)_L"
+     ],
+     "mbon_instances": [
+      "MBON07(a1)_R",
+      "MBON07(a1)_L",
+      "MBON07(a1)_L",
+      "MBON07(a1)_R"
+     ],
+     "plastic_edges": 3651
+    }
+   ],
+   "dopamine_only_fast_outputs_zeroed": 392,
+   "mapping": "type-instance-compartment-proxy; pairwise contacts lack exact synaptic location",
+   "graph_hashes": {
+    "ids": "ab90597b7b0ce07cbc22cb39a65b70bea2ac73cc7fd225951bd9d73f2fc8dd3f",
+    "indptr": "fe43420f11e6242a11f8199ae7f097cab4b8a6db181d36f2a46b9e46670acbb4",
+    "post": "ce20f7433f78442c717ad2a7b5394cf4a3b109d990b4be0788040b7b0f4ed150",
+    "counts": "4a11faf9771fc3d5a5ff78ae7620ec1ce400f52d099ff657f0342cfc7a519f6b",
+    "signs": "4a0725e94d5014b2f17a70e3bdef3f7d843c0e81a8f22a33284aa10d8d62dab5",
+    "sensory": "ed574f42559455069679f8ce3b339395efa9398ec13e199eab47959533370805",
+    "kc": "97a570aafa089f93e642b2bb07e3a3322dabb14c3c7dd431f0c8d2b3b7951fdd",
+    "mbon": "87d555e02d4cf2d661d9676b937a31b29cacf60a7edc85c8c08edc8312530f83"
+   },
+   "annotations_sha256": "2177e246113e4cfbf1e7772ec37c6da1955ff22e8063d0b1f833101f99a9a3b2"
+  },
+  "activity_gate": {
+   "status": "passed",
+   "kc_active_fraction": 0.7381120816929134,
+   "max_mbon_hz": 368.33333333333337,
+   "input_discrimination": true,
+   "teaching_responsive": [
+    true,
+    true
+   ],
+   "teaching_compartment_spikes": [
+    70,
+    127
+   ],
+   "message": "Inputs alter output with a common random seed; both teaching populations respond; activity is inside numerical guards."
+  },
+  "calibration_completed": 16,
+  "fixed_readout": {
+   "method": "negative-standardized-log1p-MBON-rate-plus-smoothed-training-prior",
+   "mean": [
+    5.89418784756116,
+    5.410254173013484
+   ],
+   "scale": [
+    0.05,
+    0.05
+   ],
+   "prior": [
+    0.48484848484848486,
+    0.5151515151515151
+   ]
+  },
+  "fixed_readout_sha256": "5eb1a5009bfa90122397a5752e8ea3b2047eb5735e1bc52a67fca35e411d9731",
+  "prior_metrics": {
+   "n": 32,
+   "accuracy": 0.375,
+   "log_loss": 0.701184606045536,
+   "brier": 0.5080348943985308,
+   "ece": 0.14015151515151514,
+   "calibration": [
+    {
+     "lower": 0.5,
+     "n": 32,
+     "confidence": 0.5151515151515151,
+     "accuracy": 0.375
+    }
+   ]
+  },
+  "outcome": {
+   "status": "descriptive",
+   "message": "Completed fixed-readout development comparison; one seed and 32 or fewer reused validation games cannot establish predictive superiority.",
+   "paired_minus_frozen_log_loss": 1.749211933405093,
+   "paired_minus_shuffled_log_loss": -0.01700457125836774
+  }
+ },
+ "jobs": [
+  {
+   "variant": "paired",
+   "seed": 42,
+   "status": "complete",
+   "wall_seconds": 70.83056512498297,
+   "metrics": {
+    "validation": {
+     "baseball": {
+      "n": 32,
+      "accuracy": 0.375,
+      "log_loss": 2.504442099505674,
+      "brier": 1.2040074394242999,
+      "ece": 0.6061756274792027,
+      "calibration": [
+       {
+        "lower": 0.9,
+        "n": 32,
+        "confidence": 0.9811756274792027,
+        "accuracy": 0.375
+       }
+      ]
+     }
+    }
+   },
+   "class_confusion": [
+    [
+     0,
+     20
+    ],
+    [
+     0,
+     12
+    ]
+   ],
+   "reward_evidence": {
+    "changed_edges": 6459,
+    "gain_min": 0.5,
+    "gain_max": 1.5,
+    "gain_mean": 0.8754945993423462,
+    "lower_bound_fraction": 0.010593490746649649,
+    "upper_bound_fraction": 0.00025526483726866624,
+    "kc_active_fraction": 0.7365011380413387,
+    "dan_spikes": 43050,
+    "dan_compartment_spikes": [
+     18299,
+     24751
+    ],
+    "mbon_mean_hz": 257.70833333333337
+   },
+   "evaluation_gains_unchanged": true,
+   "fixed_readout_sha256": "5eb1a5009bfa90122397a5752e8ea3b2047eb5735e1bc52a67fca35e411d9731"
+  },
+  {
+   "variant": "shuffled",
+   "seed": 42,
+   "status": "complete",
+   "wall_seconds": 70.47419095900841,
+   "metrics": {
+    "validation": {
+     "baseball": {
+      "n": 32,
+      "accuracy": 0.375,
+      "log_loss": 2.5214466707640417,
+      "brier": 1.2052907529200227,
+      "ece": 0.606491946214252,
+      "calibration": [
+       {
+        "lower": 0.9,
+        "n": 32,
+        "confidence": 0.981491946214252,
+        "accuracy": 0.375
+       }
+      ]
+     }
+    }
+   },
+   "class_confusion": [
+    [
+     0,
+     20
+    ],
+    [
+     0,
+     12
+    ]
+   ],
+   "reward_evidence": {
+    "changed_edges": 6459,
+    "gain_min": 0.5,
+    "gain_max": 1.5,
+    "gain_mean": 0.8785086274147034,
+    "lower_bound_fraction": 0.0192724952137843,
+    "upper_bound_fraction": 0.001021059349074665,
+    "kc_active_fraction": 0.7368048720472441,
+    "dan_spikes": 43030,
+    "dan_compartment_spikes": [
+     18294,
+     24736
+    ],
+    "mbon_mean_hz": 255.88541666666669
+   },
+   "evaluation_gains_unchanged": true,
+   "fixed_readout_sha256": "5eb1a5009bfa90122397a5752e8ea3b2047eb5735e1bc52a67fca35e411d9731"
+  },
+  {
+   "variant": "frozen",
+   "seed": 42,
+   "status": "complete",
+   "wall_seconds": 70.96385420882143,
+   "metrics": {
+    "validation": {
+     "baseball": {
+      "n": 32,
+      "accuracy": 0.375,
+      "log_loss": 0.7552301661005809,
+      "brier": 0.5607324396529823,
+      "ece": 0.1806511685775251,
+      "calibration": [
+       {
+        "lower": 0.5,
+        "n": 25,
+        "confidence": 0.5375312580012467,
+        "accuracy": 0.44
+       },
+       {
+        "lower": 0.6,
+        "n": 7,
+        "confidence": 0.6203651349213767,
+        "accuracy": 0.14285714285714285
+       }
+      ]
+     }
+    }
+   },
+   "class_confusion": [
+    [
+     7,
+     13
+    ],
+    [
+     7,
+     5
+    ]
+   ],
+   "reward_evidence": {
+    "changed_edges": 0,
+    "gain_min": 1.0,
+    "gain_max": 1.0,
+    "gain_mean": 1.0,
+    "lower_bound_fraction": 0.0,
+    "upper_bound_fraction": 0.0,
+    "kc_active_fraction": 0.7366203248031495,
+    "dan_spikes": 42749,
+    "dan_compartment_spikes": [
+     18291,
+     24458
+    ],
+    "mbon_mean_hz": 292.98177083333337
+   },
+   "evaluation_gains_unchanged": true,
+   "fixed_readout_sha256": "5eb1a5009bfa90122397a5752e8ea3b2047eb5735e1bc52a67fca35e411d9731"
+  }
+ ],
+ "saved_artifact_diagnostics": {
+  "paired_vs_frozen_changed_prediction_rows": 32,
+  "paired_vs_shuffled_changed_prediction_rows": 10,
+  "paired_shuffled_gain_correlation": 0.9852171971867348,
+  "paired_shuffled_gain_mean_absolute_difference": 0.02679058164358139,
+  "first_last_training_trials": {
+   "paired": [
+    {
+     "trial": 1,
+     "gain_mean": 0.9986239671707153,
+     "dan_spikes": 692,
+     "dan_compartment_spikes": [
+      286,
+      406
+     ],
+     "home_response": 363.33333333333337,
+     "away_response": 225.0
+    },
+    {
+     "trial": 64,
+     "gain_mean": 0.8754945993423462,
+     "dan_spikes": 653,
+     "dan_compartment_spikes": [
+      287,
+      366
+     ],
+     "home_response": 361.6666666666667,
+     "away_response": 120.0
+    }
+   ],
+   "shuffled": [
+    {
+     "trial": 1,
+     "gain_mean": 1.0001428127288818,
+     "dan_spikes": 657,
+     "dan_compartment_spikes": [
+      288,
+      369
+     ],
+     "home_response": 363.33333333333337,
+     "away_response": 225.0
+    },
+    {
+     "trial": 64,
+     "gain_mean": 0.8785086274147034,
+     "dan_spikes": 653,
+     "dan_compartment_spikes": [
+      287,
+      366
+     ],
+     "home_response": 361.6666666666667,
+     "away_response": 123.33333333333334
+    }
+   ],
+   "frozen": [
+    {
+     "trial": 1,
+     "gain_mean": 1.0,
+     "dan_spikes": 690,
+     "dan_compartment_spikes": [
+      286,
+      404
+     ],
+     "home_response": 363.33333333333337,
+     "away_response": 225.0
+    },
+    {
+     "trial": 64,
+     "gain_mean": 1.0,
+     "dan_spikes": 648,
+     "dan_compartment_spikes": [
+      287,
+      361
+     ],
+     "home_response": 365.0,
+     "away_response": 223.33333333333337
+    }
+   ]
+  }
+ },
+ "scale_probes": {
+  "probe-scale-0.25.json": {
+   "id": "reward-v3-intake-20260911",
+   "checked_at": "2026-09-11T09:37:19.891321+00:00",
+   "source_game": "baseball:mlb:777387",
+   "duration_ms": 300.0,
+   "wall_seconds": 0.37330845813266933,
+   "kc_active_fraction": 0.11934055118110236,
+   "kc_mean_hz": 2.3892717361450195,
+   "dan_spikes": [
+    11,
+    10,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "mbon_rates_hz": [
+    [
+     0.0,
+     36.666664123535156
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "spikes": 54420,
+   "protocol": {
+    "global_weight_scale": 0.25,
+    "tau_ms": 500.0,
+    "learning_rate": 0.0005,
+    "gain_bounds": [
+     0.5,
+     1.5
+    ]
+   }
+  },
+  "probe-scale-0.5.json": {
+   "id": "reward-v3-intake-20260911",
+   "checked_at": "2026-09-11T09:37:19.286528+00:00",
+   "source_game": "baseball:mlb:777387",
+   "duration_ms": 300.0,
+   "wall_seconds": 0.5376964590977877,
+   "kc_active_fraction": 0.7468011811023622,
+   "kc_mean_hz": 55.624176025390625,
+   "dan_spikes": [
+    105,
+    105,
+    25,
+    24,
+    23,
+    21,
+    0,
+    30,
+    18,
+    0,
+    31,
+    29,
+    17,
+    7,
+    0,
+    21,
+    32
+   ],
+   "mbon_rates_hz": [
+    [
+     343.33331298828125,
+     380.0
+    ],
+    [
+     243.3333282470703,
+     193.3333282470703,
+     206.66665649414062,
+     270.0
+    ]
+   ],
+   "spikes": 221871,
+   "protocol": {
+    "global_weight_scale": 0.5,
+    "tau_ms": 500.0,
+    "learning_rate": 0.0005,
+    "gain_bounds": [
+     0.5,
+     1.5
+    ]
+   }
+  },
+  "probe.json": {
+   "id": "reward-v3-intake-20260911",
+   "checked_at": "2026-09-11T09:35:01.057929+00:00",
+   "source_game": "baseball:mlb:777387",
+   "duration_ms": 300.0,
+   "wall_seconds": 0.9198364168405533,
+   "setup_seconds": 0.6670504172798246,
+   "neurons": 166700,
+   "plastic_edges": 7835,
+   "kc_active_fraction": 0.9384842519685039,
+   "kc_mean_hz": 196.0687255859375,
+   "dan_spikes": [
+    129,
+    129,
+    82,
+    83,
+    76,
+    72,
+    25,
+    86,
+    69,
+    33,
+    87,
+    87,
+    74,
+    55,
+    11,
+    76,
+    90
+   ],
+   "mbon_rates_hz": [
+    [
+     423.33331298828125,
+     430.0
+    ],
+    [
+     393.33331298828125,
+     383.33331298828125,
+     386.6666564941406,
+     416.6666564941406
+    ]
+   ],
+   "spikes": 656070,
+   "population_bins": [
+    114,
+    5456,
+    18160,
+    22214,
+    21805,
+    22607,
+    22872,
+    23119,
+    23509,
+    23995,
+    23695,
+    23413,
+    23308,
+    23875,
+    23701,
+    23474,
+    23632,
+    23499,
+    23665,
+    23422,
+    23568,
+    23580,
+    23733,
+    23795,
+    23417,
+    23241,
+    23535,
+    24030,
+    23764,
+    23872
+   ],
+   "gains_unchanged": true,
+   "protocol": {
+    "global_weight_scale": 1.0,
+    "tau_ms": 500.0,
+    "learning_rate": 0.0005,
+    "gain_bounds": [
+     0.5,
+     1.5
+    ]
+   }
+  }
+ },
+ "historical_access": {
+  "events_checked_at": "2026-09-11T09:28:41.919663Z",
+  "events_http_status": 200,
+  "event_count": 3,
+  "odds_checked_at": "2026-09-11T09:50:50.632274Z",
+  "odds_http_status": 200,
+  "event_id": 70504944,
+  "league": "usa-nba",
+  "bookmaker": "Bet365",
+  "market": "ML",
+  "provider_updated_at": "2026-05-12T23:59:03.65Z",
+  "event_start": "2026-05-13T00:00:00Z",
+  "limitation": "One NBA closing quote confirms bounded access, not MLB coverage, bulk entitlement or a tick archive."
+ },
+ "browser_acceptance": {
+  "checked_at": "2026-09-11T12:27:42.715Z",
+  "experiment": "reward-v3-84fc629bc8045cbff7e0",
+  "status": "complete",
+  "active_v1": "20260910T232621Z",
+  "v2_status": "paused",
+  "v2_jobs": {
+   "complete": 13,
+   "cancelled": 8,
+   "paused": 3
+  },
+  "arms": [
+   "paired",
+   "shuffled",
+   "frozen"
+  ],
+  "downloads": [
+   {
+    "label": "Activity and teaching response checks",
+    "bytes": 11192,
+    "hash_matches": true
+   },
+   {
+    "label": "Readout",
+    "bytes": 249,
+    "hash_matches": true
+   },
+   {
+    "label": "Paired gains and matched predictions",
+    "bytes": 214524,
+    "hash_matches": true
+   },
+   {
+    "label": "Shuffled gains and matched predictions",
+    "bytes": 214524,
+    "hash_matches": true
+   },
+   {
+    "label": "Frozen gains and matched predictions",
+    "bytes": 214524,
+    "hash_matches": true
+   },
+   {
+    "label": "Protocol",
+    "bytes": 548,
+    "hash_matches": true
+   },
+   {
+    "label": "Anatomy",
+    "bytes": 2498,
+    "hash_matches": true
+   },
+   {
+    "label": "Complete measured reward experiment report",
+    "bytes": 69843,
+    "hash_matches": true
+   }
+  ],
+  "scenarios": [
+   {
+    "mode": "loading",
+    "verified": true,
+    "source": "isolated browser response fixture"
+   },
+   {
+    "mode": "empty",
+    "verified": true,
+    "source": "isolated browser response fixture"
+   },
+   {
+    "mode": "error",
+    "verified": true,
+    "source": "isolated browser response fixture"
+   },
+   {
+    "mode": "running",
+    "verified": true,
+    "source": "isolated browser response fixture"
+   },
+   {
+    "mode": "failed",
+    "verified": true,
+    "source": "isolated browser response fixture"
+   },
+   {
+    "mode": "budget_stopped",
+    "verified": true,
+    "source": "isolated browser response fixture"
+   }
+  ],
+  "desktop": {
+   "width": 1440,
+   "height": 1100
+  },
+  "mobile": {
+   "width": 390,
+   "height": 844,
+   "horizontal_page_overflow": false,
+   "tested_widths": [
+    320,
+    390,
+    540,
+    720,
+    1024
+   ]
+  },
+  "errors": [],
+  "evidence_sha256": "f2f243d2ecb119c16ed76b2ca77d5384967e1b967814c658226913d07202500b"
+ },
+ "phasic_followup": {
+  "recorded_at": "2026-09-11T13:25:30.048269+00:00",
+  "diagnosis": {
+   "method": "Instrumented single trials on the frozen schema-1 circuit (game index 4362, seed 42+index, weight scale 0.5), all 4,064 KCs and 17 DANs sampled per 10 ms bin; gains reset before each probe.",
+   "kc_active_fraction_per_bin_during_stimulus": 0.564,
+   "kc_active_fraction_per_bin_after_stimulus_offset": 0.565,
+   "ppl101_hz_during_stimulus": 350,
+   "ppl101_hz_after_offset": 380,
+   "pam11_hz_during_stimulus": 59,
+   "pam11_hz_after_offset": 67,
+   "no_teaching_gain_drift_per_trial": {
+    "home_compartment": 0.0106,
+    "away_compartment": -0.0038
+   },
+   "teaching_specific_gain_change_per_trial": {
+    "home_teaching_on_home_compartment": -0.007,
+    "away_teaching_on_away_compartment": -0.0123
+   },
+   "teaching_evoked_dan_spikes_bins_31_38": {
+    "home": [
+     62,
+     60
+    ],
+    "away": [
+     119,
+     81
+    ]
+   },
+   "no_teaching_drift_vector_correlation_between_two_games": 0.474,
+   "active_kc_set_jaccard_between_training_games": [
+    0.989,
+    0.984,
+    0.982
+   ],
+   "mechanism": "The schema-1 rule multiplied raw DAN spikes. With tonic firing, a KC burst is potentiated immediately by the accumulated dopamine trace while the compensating depression accrues only after the trial ends (tau 500 ms versus 100 ms remaining), so every trial moved gains independently of teaching. Because the active KC set was nearly identical across games, teaching-specific depression also acted on the same synapses for every game. The fixed readout (scale 0.05, clip 4) converted the shared away-compartment depression into 98% away predictions."
+  },
+  "weight_scale_sweep": {
+   "columns": [
+    "global_weight_scale",
+    "w_syn_mv",
+    "kc_active_fraction_stimulus",
+    "kc_mean_hz",
+    "kc_spikes_per_bin_after_offset",
+    "ppl101_hz",
+    "pam11_hz",
+    "mbon11_hz",
+    "mbon07_hz",
+    "kc_set_jaccard_mean"
+   ],
+   "rows": [
+    [
+     0.5,
+     0.1375,
+     0.74,
+     54,
+     2409,
+     350,
+     59,
+     363,
+     225,
+     0.985
+    ],
+    [
+     0.4,
+     0.11,
+     0.5,
+     21,
+     925,
+     237,
+     5,
+     265,
+     83,
+     0.978
+    ],
+    [
+     0.3,
+     0.0825,
+     0.23,
+     5.9,
+     258,
+     90,
+     0,
+     107,
+     0,
+     0.94
+    ],
+    [
+     0.25,
+     0.0688,
+     0.12,
+     2.4,
+     108,
+     33,
+     0,
+     20,
+     0,
+     0.91
+    ],
+    [
+     0.2,
+     0.055,
+     0.03,
+     0.5,
+     24,
+     0,
+     0,
+     0,
+     0,
+     0.87
+    ],
+    [
+     0.15,
+     0.0413,
+     0.001,
+     0.0,
+     0.3,
+     0,
+     0,
+     0,
+     0,
+     0.53
+    ]
+   ],
+   "note": "Whole-network population spikes per 10 ms bin after stimulus offset stayed at 868 (scale 0.15) to 7,984 (scale 0.5): the graph never returns to rest in this uniform LIF regime."
+  },
+  "kc_input_gain_sweep": {
+   "columns": [
+    "global_weight_scale",
+    "kc_input_gain",
+    "kc_active_fraction_stimulus",
+    "kc_mean_hz",
+    "ppl101_hz",
+    "pam11_hz",
+    "mbon11_hz",
+    "mbon07_hz",
+    "kc_set_jaccard_mean"
+   ],
+   "rows": [
+    [
+     0.5,
+     0.25,
+     0.058,
+     1.1,
+     27,
+     0,
+     0,
+     0,
+     0.888
+    ],
+    [
+     0.5,
+     0.1,
+     0.0,
+     0.0,
+     0,
+     0,
+     0,
+     0,
+     null
+    ],
+    [
+     0.4,
+     0.25,
+     0.008,
+     0.1,
+     0,
+     0,
+     0,
+     0,
+     0.837
+    ],
+    [
+     0.3,
+     0.5,
+     0.028,
+     0.5,
+     0,
+     0,
+     0,
+     0,
+     0.941
+    ]
+   ],
+   "note": "Scratch measurement on four training games; scaling only the synapses onto Kenyon cells. Sparse KC activity silences both readout MBONs and leaves the active KC set 84-94% shared between games."
+  },
+  "schema_2_changes": [
+   "Kernel: plasticity and eligibility traces start at plasticity_onset_ms; each compartment's tonic DAN rate over the preceding dan_baseline_window_ms is subtracted in both rule terms (phasic drive).",
+   "Gate: each teaching population must evoke at least min_teaching_evoked_fraction of its scheduled forced spikes above the same-seed unpulsed probe; calibration active-KC-set overlap must not exceed max_kc_code_overlap; tonic DAN rates and post-offset KC persistence are recorded.",
+   "Frontend: protocol assumptions, gate rows and per-compartment tonic/scheduled/evoked columns; the newest reward experiment opens first."
+  ],
+  "rerun": {
+   "experiment_id": "reward-v3-40d7263f0d2cc1974cf0",
+   "status": "failed",
+   "wall_seconds": 12.850316541967914,
+   "activity_gate": {
+    "status": "failed",
+    "kc_active_fraction": 0.7381120816929134,
+    "max_mbon_hz": 368.33333333333337,
+    "input_discrimination": true,
+    "teaching_responsive": [
+     false,
+     true
+    ],
+    "teaching_compartment_spikes": [
+     70,
+     127
+    ],
+    "teaching_scheduled_spikes": [
+     8,
+     60
+    ],
+    "teaching_evoked_spikes": [
+     2,
+     37
+    ],
+    "tonic_dan_hz": [
+     380.0,
+     66.08333587646484
+    ],
+    "kc_code_overlap": 0.9886238597574992,
+    "post_stimulus_kc_active_fraction": 0.7271161417322834,
+    "message": "No outcome-trained comparison ran: a teaching population evoked fewer spikes above its tonic rate than the declared margin; the active KC set is not game-specific (calibration overlap exceeds the guard)."
+   },
+   "jobs": [
+    {
+     "id": "paired",
+     "status": "failed",
+     "completed": 0
+    },
+    {
+     "id": "shuffled",
+     "status": "failed",
+     "completed": 0
+    },
+    {
+     "id": "frozen",
+     "status": "failed",
+     "completed": 0
+    }
+   ],
+   "protected_inputs_unchanged": true,
+   "code_hashes": {
+    "reward_lif.cpp": "ae78961d9bd14c909f7379aec3b0cb20b964729f57a69ec21ecb0c1ec16ab154",
+    "reward_brain.py": "4154bd270226341ce2c396a8f5345e522ac5b5cb05a083db803219cd8475817e",
+    "reward_protocol.py": "c2942791aa35a2285ae2cee176951b08660c1d459fc573a145557e639800bbb4",
+    "reward_experiment.py": "3dd76991df9d56cb458ac73c140263df1ab2987a2f97c5eb53d65643127f0929",
+    "brain.py": "34029e85c4487eabc6fb0f0ea3cca07b8b75de9864edc7c9fd435b7834bcfa14",
+    "learning.py": "ddeb82479f10e89625632cf84ea58461ba9600be6517022fc91ff383f0928ab8"
+   }
+  },
+  "browser_acceptance": {
+   "checked_at": "2026-09-11T13:24:03.410Z",
+   "url": "http://127.0.0.1:8765/#training",
+   "experiment": "reward-v3-84fc629bc8045cbff7e0",
+   "status": "complete",
+   "gated_experiment": "reward-v3-40d7263f0d2cc1974cf0",
+   "gated_status": "failed",
+   "gate_message": "No outcome-trained comparison ran: a teaching population evoked fewer spikes above its tonic rate than the declared margin; the active KC set is not game-specific (calibration overlap exceeds the guard).",
+   "active_v1": "20260910T232621Z",
+   "v2_status": "paused",
+   "v2_jobs": {
+    "complete": 13,
+    "cancelled": 8,
+    "paused": 3
+   },
+   "arms": [
+    "paired",
+    "shuffled",
+    "frozen"
+   ],
+   "downloads": [
+    {
+     "label": "Activity and teaching response checks",
+     "bytes": 11192,
+     "hash_matches": true
+    },
+    {
+     "label": "Readout",
+     "bytes": 249,
+     "hash_matches": true
+    },
+    {
+     "label": "Paired gains and matched predictions",
+     "bytes": 214524,
+     "hash_matches": true
+    },
+    {
+     "label": "Shuffled gains and matched predictions",
+     "bytes": 214524,
+     "hash_matches": true
+    },
+    {
+     "label": "Frozen gains and matched predictions",
+     "bytes": 214524,
+     "hash_matches": true
+    },
+    {
+     "label": "Protocol",
+     "bytes": 548,
+     "hash_matches": true
+    },
+    {
+     "label": "Anatomy",
+     "bytes": 2498,
+     "hash_matches": true
+    },
+    {
+     "label": "Complete measured reward experiment report",
+     "bytes": 69843,
+     "hash_matches": true
+    }
+   ],
+   "scenarios": [
+    {
+     "mode": "loading",
+     "verified": true,
+     "source": "isolated browser response fixture"
+    },
+    {
+     "mode": "empty",
+     "verified": true,
+     "source": "isolated browser response fixture"
+    },
+    {
+     "mode": "error",
+     "verified": true,
+     "source": "isolated browser response fixture"
+    },
+    {
+     "mode": "running",
+     "verified": true,
+     "source": "isolated browser response fixture"
+    },
+    {
+     "mode": "failed",
+     "verified": true,
+     "source": "isolated browser response fixture"
+    },
+    {
+     "mode": "budget_stopped",
+     "verified": true,
+     "source": "isolated browser response fixture"
+    }
+   ],
+   "desktop": {
+    "width": 1440,
+    "height": 1100
+   },
+   "mobile": {
+    "width": 390,
+    "height": 844,
+    "horizontal_page_overflow": false,
+    "tested_widths": [
+     320,
+     390,
+     540,
+     720,
+     1024
+    ]
+   },
+   "errors": [],
+   "screenshots": [
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/browser/reward-v3-phasic/bet36fly-reward-desktop.png",
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/browser/reward-v3-phasic/bet36fly-reward-arm.png",
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/browser/reward-v3-phasic/bet36fly-reward-mobile.png",
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/browser/reward-v3-phasic/bet36fly-reward-mobile-arm.png"
+   ]
+  }
+ },
+ "schema_3_calibration": {
+  "recorded_at": "2026-09-11T13:54:24.067521+00:00",
+  "method": "Scratch sweeps on the first four of the frozen calibration games (train_n 64, validation_n 32, calibration_n 4 selection), 400 ms trials with 300 ms glomerular-tuning-v1 stimulus, all KCs, selected DANs and readout MBONs sampled per 10 ms bin, plasticity off; same metric definitions as the runner gate. Away compartment PAM11/MBON07 unless stated.",
+  "columns": [
+   "global_weight_scale",
+   "kc_input_gain",
+   "apl_output_gain",
+   "encoder_peak_hz",
+   "kc_active_fraction_stimulus",
+   "kc_active_mean_hz",
+   "kc_active_fraction_after_offset",
+   "mbon_home_hz",
+   "mbon_away_hz",
+   "mbon_home_min_hz",
+   "mbon_away_min_hz",
+   "dan_home_hz",
+   "dan_away_hz",
+   "tonic_dan_hz",
+   "kc_set_jaccard_mean",
+   "port_set_jaccard_mean",
+   "population_spikes_per_bin_after_offset"
+  ],
+  "old_ports_all_gains_1_antennal_lobe_reverberating": {
+   "note": "Glomerular encoder, sensory_input_gain 1 (antennal lobe intact), apl_output_gain 1. Whole-network spikes per 10 ms bin stayed at 3,300-7,900 regardless of peak rate and persisted after offset.",
+   "rows": [
+    [
+     0.5,
+     1.0,
+     1.0,
+     60.0,
+     0.7427,
+     73.79,
+     0.7144,
+     369.17,
+     226.25,
+     363.33,
+     217.5,
+     352.5,
+     60.94,
+     [
+      380.0,
+      65.67
+     ],
+     0.9773,
+     0.6301,
+     7802.1
+    ],
+    [
+     0.5,
+     1.0,
+     1.0,
+     100.0,
+     0.7542,
+     75.98,
+     0.7152,
+     372.08,
+     233.54,
+     368.33,
+     226.67,
+     356.67,
+     63.89,
+     [
+      382.5,
+      69.67
+     ],
+     0.9753,
+     0.6301,
+     7777.7
+    ],
+    [
+     0.5,
+     1.0,
+     1.0,
+     150.0,
+     0.7769,
+     79.53,
+     0.7267,
+     379.58,
+     246.88,
+     376.67,
+     239.17,
+     359.17,
+     68.94,
+     [
+      385.0,
+      76.0
+     ],
+     0.9776,
+     0.6301,
+     7921.0
+    ],
+    [
+     0.5,
+     0.5,
+     1.0,
+     60.0,
+     0.3907,
+     30.65,
+     0.3341,
+     215.83,
+     36.46,
+     206.67,
+     33.33,
+     201.67,
+     0.0,
+     [
+      227.5,
+      0.0
+     ],
+     0.9186,
+     0.6301,
+     5767.6
+    ],
+    [
+     0.5,
+     0.5,
+     1.0,
+     100.0,
+     0.4104,
+     31.25,
+     0.3353,
+     223.75,
+     41.25,
+     213.33,
+     35.0,
+     210.83,
+     0.06,
+     [
+      232.5,
+      0.0
+     ],
+     0.9143,
+     0.6301,
+     5755.9
+    ],
+    [
+     0.5,
+     0.5,
+     1.0,
+     150.0,
+     0.4478,
+     32.52,
+     0.3493,
+     241.25,
+     52.5,
+     231.67,
+     40.83,
+     223.75,
+     0.67,
+     [
+      242.5,
+      0.67
+     ],
+     0.9105,
+     0.6301,
+     5847.3
+    ],
+    [
+     0.5,
+     0.25,
+     1.0,
+     60.0,
+     0.062,
+     18.03,
+     0.0488,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     27.5,
+     0.0,
+     [
+      25.0,
+      0.0
+     ],
+     0.835,
+     0.6301,
+     5080.7
+    ],
+    [
+     0.5,
+     0.25,
+     1.0,
+     100.0,
+     0.0695,
+     18.07,
+     0.0453,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     34.58,
+     0.0,
+     [
+      37.5,
+      0.0
+     ],
+     0.8184,
+     0.6301,
+     5127.9
+    ],
+    [
+     0.5,
+     0.25,
+     1.0,
+     150.0,
+     0.0834,
+     18.29,
+     0.0504,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     46.67,
+     0.0,
+     [
+      52.5,
+      0.0
+     ],
+     0.8158,
+     0.6301,
+     5192.9
+    ],
+    [
+     0.4,
+     1.0,
+     1.0,
+     60.0,
+     0.5139,
+     40.63,
+     0.4675,
+     265.0,
+     84.38,
+     261.67,
+     83.33,
+     239.17,
+     5.39,
+     [
+      262.5,
+      5.33
+     ],
+     0.9574,
+     0.6301,
+     4414.8
+    ],
+    [
+     0.4,
+     1.0,
+     1.0,
+     100.0,
+     0.5389,
+     42.85,
+     0.4712,
+     278.75,
+     94.58,
+     276.67,
+     90.0,
+     251.25,
+     7.72,
+     [
+      272.5,
+      8.33
+     ],
+     0.9493,
+     0.6301,
+     4416.8
+    ],
+    [
+     0.4,
+     1.0,
+     1.0,
+     150.0,
+     0.5655,
+     44.37,
+     0.4724,
+     288.75,
+     103.12,
+     281.67,
+     95.0,
+     261.67,
+     10.33,
+     [
+      285.0,
+      12.33
+     ],
+     0.9283,
+     0.6301,
+     4406.4
+    ],
+    [
+     0.4,
+     0.5,
+     1.0,
+     60.0,
+     0.1531,
+     20.96,
+     0.1187,
+     39.17,
+     0.0,
+     33.33,
+     0.0,
+     60.42,
+     0.0,
+     [
+      67.5,
+      0.0
+     ],
+     0.8759,
+     0.6301,
+     3599.4
+    ],
+    [
+     0.4,
+     0.5,
+     1.0,
+     100.0,
+     0.1734,
+     21.38,
+     0.1252,
+     54.58,
+     0.0,
+     48.33,
+     0.0,
+     69.58,
+     0.0,
+     [
+      77.5,
+      0.0
+     ],
+     0.8332,
+     0.6301,
+     3630.9
+    ],
+    [
+     0.4,
+     0.5,
+     1.0,
+     150.0,
+     0.197,
+     21.58,
+     0.1236,
+     70.0,
+     0.0,
+     63.33,
+     0.0,
+     79.17,
+     0.0,
+     [
+      87.5,
+      0.0
+     ],
+     0.7897,
+     0.6301,
+     3617.8
+    ],
+    [
+     0.4,
+     0.25,
+     1.0,
+     60.0,
+     0.0084,
+     12.15,
+     0.0053,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     [
+      0.0,
+      0.0
+     ],
+     0.8555,
+     0.6301,
+     3470.4
+    ],
+    [
+     0.4,
+     0.25,
+     1.0,
+     100.0,
+     0.0103,
+     13.06,
+     0.0058,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     [
+      0.0,
+      0.0
+     ],
+     0.7659,
+     0.6301,
+     3483.6
+    ],
+    [
+     0.4,
+     0.25,
+     1.0,
+     150.0,
+     0.0134,
+     12.06,
+     0.0057,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     [
+      0.0,
+      0.0
+     ],
+     0.6439,
+     0.6301,
+     3480.9
+    ],
+    [
+     0.3,
+     1.0,
+     1.0,
+     60.0,
+     0.2546,
+     25.89,
+     0.2068,
+     119.58,
+     0.62,
+     116.67,
+     0.0,
+     99.58,
+     0.0,
+     [
+      105.0,
+      0.0
+     ],
+     0.901,
+     0.6301,
+     2662.5
+    ],
+    [
+     0.3,
+     1.0,
+     1.0,
+     100.0,
+     0.2741,
+     26.36,
+     0.209,
+     130.42,
+     2.29,
+     128.33,
+     0.83,
+     108.75,
+     0.0,
+     [
+      117.5,
+      0.0
+     ],
+     0.8668,
+     0.6301,
+     2667.5
+    ],
+    [
+     0.3,
+     1.0,
+     1.0,
+     150.0,
+     0.3137,
+     26.75,
+     0.2098,
+     143.33,
+     6.25,
+     140.0,
+     3.33,
+     120.42,
+     0.0,
+     [
+      125.0,
+      0.0
+     ],
+     0.8429,
+     0.6301,
+     2665.8
+    ],
+    [
+     0.3,
+     0.5,
+     1.0,
+     60.0,
+     0.0343,
+     16.29,
+     0.0239,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     [
+      0.0,
+      0.0
+     ],
+     0.8171,
+     0.6301,
+     2409.4
+    ],
+    [
+     0.3,
+     0.5,
+     1.0,
+     100.0,
+     0.0407,
+     15.96,
+     0.0242,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     [
+      0.0,
+      0.0
+     ],
+     0.7536,
+     0.6301,
+     2410.5
+    ],
+    [
+     0.3,
+     0.5,
+     1.0,
+     150.0,
+     0.0502,
+     15.86,
+     0.0245,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     [
+      0.0,
+      0.0
+     ],
+     0.7266,
+     0.6301,
+     2408.2
+    ],
+    [
+     0.3,
+     0.25,
+     1.0,
+     60.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     [
+      0.0,
+      0.0
+     ],
+     1.0,
+     0.6301,
+     2389.4
+    ],
+    [
+     0.3,
+     0.25,
+     1.0,
+     100.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     [
+      0.0,
+      0.0
+     ],
+     1.0,
+     0.6301,
+     2391.7
+    ],
+    [
+     0.3,
+     0.25,
+     1.0,
+     150.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     [
+      0.0,
+      0.0
+     ],
+     1.0,
+     0.6301,
+     2392.9
+    ]
+   ]
+  },
+  "labeled_line_ports_kc_gain_at_most_1": {
+   "note": "sensory_input_gain 0: KCs nearly silent at every scale; 500-900 spikes per bin remain from antennal-lobe local neurons.",
+   "rows": [
+    [
+     0.5,
+     1.0,
+     1.0,
+     100.0,
+     0.0015,
+     4.23,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     [
+      0.0,
+      0.0
+     ],
+     0.029,
+     0.6301,
+     783.9
+    ],
+    [
+     0.5,
+     0.5,
+     1.0,
+     100.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     [
+      0.0,
+      0.0
+     ],
+     1.0,
+     0.6301,
+     777.7
+    ],
+    [
+     0.5,
+     0.25,
+     1.0,
+     100.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     [
+      0.0,
+      0.0
+     ],
+     1.0,
+     0.6301,
+     777.7
+    ],
+    [
+     0.4,
+     1.0,
+     1.0,
+     100.0,
+     0.0006,
+     3.33,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     [
+      0.0,
+      0.0
+     ],
+     0.0333,
+     0.6301,
+     646.4
+    ],
+    [
+     0.4,
+     0.5,
+     1.0,
+     100.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     [
+      0.0,
+      0.0
+     ],
+     1.0,
+     0.6301,
+     646.6
+    ],
+    [
+     0.4,
+     0.25,
+     1.0,
+     100.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     [
+      0.0,
+      0.0
+     ],
+     1.0,
+     0.6301,
+     646.6
+    ],
+    [
+     0.3,
+     1.0,
+     1.0,
+     100.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     [
+      0.0,
+      0.0
+     ],
+     1.0,
+     0.6301,
+     520.1
+    ],
+    [
+     0.3,
+     0.5,
+     1.0,
+     100.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     [
+      0.0,
+      0.0
+     ],
+     1.0,
+     0.6301,
+     520.1
+    ],
+    [
+     0.3,
+     0.25,
+     1.0,
+     100.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     [
+      0.0,
+      0.0
+     ],
+     1.0,
+     0.6301,
+     520.1
+    ],
+    [
+     0.2,
+     1.0,
+     1.0,
+     100.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     [
+      0.0,
+      0.0
+     ],
+     1.0,
+     0.6301,
+     357.6
+    ],
+    [
+     0.2,
+     0.5,
+     1.0,
+     100.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     [
+      0.0,
+      0.0
+     ],
+     1.0,
+     0.6301,
+     357.6
+    ],
+    [
+     0.2,
+     0.25,
+     1.0,
+     100.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     [
+      0.0,
+      0.0
+     ],
+     1.0,
+     0.6301,
+     357.6
+    ]
+   ]
+  },
+  "labeled_line_ports_kc_gain_above_1": {
+   "note": "sensory_input_gain 0, apl_output_gain 1: KCs recover at gain 2-3 and 200 Hz but both readout MBONs stay below 4 Hz because the two APL cells inhibit them more than the active KCs excite them.",
+   "rows": [
+    [
+     0.5,
+     1.5,
+     1.0,
+     100.0,
+     0.0118,
+     4.86,
+     0.0001,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     [
+      0.0,
+      0.0
+     ],
+     0.0948,
+     0.6301,
+     781.1
+    ],
+    [
+     0.5,
+     1.5,
+     1.0,
+     200.0,
+     0.0669,
+     8.63,
+     0.0023,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     [
+      0.0,
+      0.0
+     ],
+     0.2265,
+     0.6301,
+     814.7
+    ],
+    [
+     0.5,
+     2.0,
+     1.0,
+     100.0,
+     0.0254,
+     5.28,
+     0.0002,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     [
+      0.0,
+      0.0
+     ],
+     0.1395,
+     0.6301,
+     779.5
+    ],
+    [
+     0.5,
+     2.0,
+     1.0,
+     200.0,
+     0.0918,
+     10.33,
+     0.0039,
+     0.42,
+     0.42,
+     0.0,
+     0.0,
+     2.5,
+     0.0,
+     [
+      0.0,
+      0.0
+     ],
+     0.2492,
+     0.6301,
+     808.1
+    ],
+    [
+     0.5,
+     3.0,
+     1.0,
+     100.0,
+     0.0511,
+     6.44,
+     0.0007,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     [
+      0.0,
+      0.0
+     ],
+     0.1759,
+     0.6301,
+     778.5
+    ],
+    [
+     0.5,
+     3.0,
+     1.0,
+     200.0,
+     0.1318,
+     12.74,
+     0.0052,
+     2.08,
+     3.75,
+     0.0,
+     0.0,
+     15.0,
+     0.0,
+     [
+      10.0,
+      0.0
+     ],
+     0.2767,
+     0.6301,
+     829.4
+    ],
+    [
+     0.4,
+     1.5,
+     1.0,
+     100.0,
+     0.007,
+     4.51,
+     0.0001,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     [
+      0.0,
+      0.0
+     ],
+     0.0602,
+     0.6301,
+     650.3
+    ],
+    [
+     0.4,
+     1.5,
+     1.0,
+     200.0,
+     0.0565,
+     7.93,
+     0.002,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     [
+      0.0,
+      0.0
+     ],
+     0.2083,
+     0.6301,
+     658.1
+    ],
+    [
+     0.4,
+     2.0,
+     1.0,
+     100.0,
+     0.0194,
+     5.2,
+     0.0002,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     [
+      0.0,
+      0.0
+     ],
+     0.1212,
+     0.6301,
+     649.0
+    ],
+    [
+     0.4,
+     2.0,
+     1.0,
+     200.0,
+     0.0853,
+     9.61,
+     0.0031,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     [
+      0.0,
+      0.0
+     ],
+     0.2417,
+     0.6301,
+     659.5
+    ],
+    [
+     0.4,
+     3.0,
+     1.0,
+     100.0,
+     0.0459,
+     6.23,
+     0.001,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     [
+      0.0,
+      0.0
+     ],
+     0.1585,
+     0.6301,
+     650.0
+    ],
+    [
+     0.4,
+     3.0,
+     1.0,
+     200.0,
+     0.129,
+     12.02,
+     0.0055,
+     1.25,
+     2.08,
+     0.0,
+     0.0,
+     9.17,
+     0.0,
+     [
+      7.5,
+      0.0
+     ],
+     0.2783,
+     0.6301,
+     661.0
+    ],
+    [
+     0.3,
+     1.5,
+     1.0,
+     100.0,
+     0.0022,
+     4.49,
+     0.0001,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     [
+      0.0,
+      0.0
+     ],
+     0.0196,
+     0.6301,
+     519.0
+    ],
+    [
+     0.3,
+     1.5,
+     1.0,
+     200.0,
+     0.0395,
+     6.86,
+     0.0012,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     [
+      0.0,
+      0.0
+     ],
+     0.1594,
+     0.6301,
+     521.1
+    ],
+    [
+     0.3,
+     2.0,
+     1.0,
+     100.0,
+     0.0111,
+     4.76,
+     0.0001,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     [
+      0.0,
+      0.0
+     ],
+     0.0913,
+     0.6301,
+     518.6
+    ],
+    [
+     0.3,
+     2.0,
+     1.0,
+     200.0,
+     0.0723,
+     8.47,
+     0.0025,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     [
+      0.0,
+      0.0
+     ],
+     0.2238,
+     0.6301,
+     525.6
+    ],
+    [
+     0.3,
+     3.0,
+     1.0,
+     100.0,
+     0.04,
+     5.73,
+     0.0005,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     [
+      0.0,
+      0.0
+     ],
+     0.1514,
+     0.6301,
+     519.9
+    ],
+    [
+     0.3,
+     3.0,
+     1.0,
+     200.0,
+     0.1214,
+     10.98,
+     0.0054,
+     0.83,
+     0.62,
+     0.0,
+     0.0,
+     2.92,
+     0.0,
+     [
+      2.5,
+      0.0
+     ],
+     0.2697,
+     0.6301,
+     524.1
+    ]
+   ]
+  },
+  "apl_output_gain_joint_sweep": {
+   "note": "sensory_input_gain 0, peak 200 Hz. Lowering APL output below 0.25 or raising KC gain above 1.5 re-enters runaway because APL feedback is what sparsens the KCs.",
+   "rows": [
+    [
+     0.5,
+     1.0,
+     0.25,
+     200.0,
+     0.1882,
+     11.22,
+     0.0074,
+     65.83,
+     2.08,
+     53.33,
+     0.0,
+     56.67,
+     0.0,
+     [
+      50.0,
+      0.0
+     ],
+     0.3268,
+     0.6301,
+     899.2
+    ],
+    [
+     0.5,
+     1.0,
+     0.1,
+     200.0,
+     0.3164,
+     14.1,
+     0.0127,
+     129.17,
+     5.83,
+     96.67,
+     0.0,
+     114.58,
+     0.0,
+     [
+      105.0,
+      0.0
+     ],
+     0.4317,
+     0.6301,
+     832.4
+    ],
+    [
+     0.5,
+     1.5,
+     0.25,
+     200.0,
+     0.43,
+     29.43,
+     0.1309,
+     215.42,
+     25.21,
+     140.0,
+     0.83,
+     195.42,
+     2.22,
+     [
+      175.0,
+      2.0
+     ],
+     0.5182,
+     0.6301,
+     886.5
+    ],
+    [
+     0.5,
+     1.5,
+     0.1,
+     200.0,
+     0.7863,
+     76.25,
+     0.588,
+     390.0,
+     102.92,
+     376.67,
+     30.83,
+     360.0,
+     20.56,
+     [
+      390.0,
+      15.33
+     ],
+     0.7772,
+     0.6301,
+     2482.0
+    ],
+    [
+     0.5,
+     2.0,
+     0.25,
+     200.0,
+     0.7558,
+     109.04,
+     0.6371,
+     406.25,
+     145.83,
+     395.0,
+     45.0,
+     383.33,
+     45.39,
+     [
+      410.0,
+      25.67
+     ],
+     0.7583,
+     0.6301,
+     4181.5
+    ],
+    [
+     0.5,
+     2.0,
+     0.1,
+     200.0,
+     0.9998,
+     141.89,
+     0.9988,
+     425.0,
+     308.54,
+     416.67,
+     285.83,
+     392.5,
+     116.94,
+     [
+      412.5,
+      104.0
+     ],
+     0.9999,
+     0.6301,
+     7162.8
+    ],
+    [
+     0.5,
+     3.0,
+     0.25,
+     200.0,
+     0.9839,
+     206.62,
+     0.9788,
+     433.75,
+     355.63,
+     428.33,
+     340.83,
+     429.58,
+     162.94,
+     [
+      447.5,
+      166.67
+     ],
+     0.9678,
+     0.6301,
+     11254.8
+    ],
+    [
+     0.5,
+     3.0,
+     0.1,
+     200.0,
+     0.9999,
+     228.7,
+     0.9996,
+     435.42,
+     371.46,
+     433.33,
+     362.5,
+     433.33,
+     177.67,
+     [
+      455.0,
+      194.33
+     ],
+     0.9998,
+     0.6301,
+     12250.5
+    ],
+    [
+     0.4,
+     1.0,
+     0.25,
+     200.0,
+     0.1146,
+     9.06,
+     0.0035,
+     25.42,
+     0.0,
+     11.67,
+     0.0,
+     14.17,
+     0.0,
+     [
+      10.0,
+      0.0
+     ],
+     0.2545,
+     0.6301,
+     657.1
+    ],
+    [
+     0.4,
+     1.0,
+     0.1,
+     200.0,
+     0.1721,
+     10.4,
+     0.0063,
+     54.17,
+     0.62,
+     36.67,
+     0.0,
+     40.83,
+     0.0,
+     [
+      40.0,
+      0.0
+     ],
+     0.3189,
+     0.6301,
+     659.1
+    ],
+    [
+     0.4,
+     1.5,
+     0.25,
+     200.0,
+     0.2896,
+     14.05,
+     0.0122,
+     105.83,
+     6.25,
+     85.0,
+     0.0,
+     89.58,
+     0.0,
+     [
+      87.5,
+      0.0
+     ],
+     0.4171,
+     0.6301,
+     665.5
+    ],
+    [
+     0.4,
+     1.5,
+     0.1,
+     200.0,
+     0.5331,
+     41.32,
+     0.2415,
+     289.17,
+     20.62,
+     230.0,
+     0.83,
+     254.58,
+     0.72,
+     [
+      222.5,
+      0.33
+     ],
+     0.6965,
+     0.6301,
+     793.1
+    ],
+    [
+     0.4,
+     2.0,
+     0.25,
+     200.0,
+     0.5293,
+     51.67,
+     0.3011,
+     287.08,
+     37.71,
+     166.67,
+     2.5,
+     258.33,
+     5.22,
+     [
+      220.0,
+      4.33
+     ],
+     0.6143,
+     0.6301,
+     1016.0
+    ],
+    [
+     0.4,
+     2.0,
+     0.1,
+     200.0,
+     0.8655,
+     88.15,
+     0.7138,
+     389.17,
+     141.88,
+     378.33,
+     54.17,
+     359.58,
+     32.5,
+     [
+      387.5,
+      20.0
+     ],
+     0.8364,
+     0.6301,
+     3527.8
+    ],
+    [
+     0.4,
+     3.0,
+     0.25,
+     200.0,
+     0.9472,
+     148.96,
+     0.9323,
+     418.33,
+     275.21,
+     405.0,
+     210.83,
+     391.67,
+     102.11,
+     [
+      417.5,
+      80.33
+     ],
+     0.9436,
+     0.6301,
+     7228.4
+    ],
+    [
+     0.4,
+     3.0,
+     0.1,
+     200.0,
+     0.9999,
+     184.17,
+     0.9996,
+     426.25,
+     332.29,
+     421.67,
+     322.5,
+     395.42,
+     133.11,
+     [
+      417.5,
+      145.0
+     ],
+     0.9998,
+     0.6301,
+     9243.9
+    ],
+    [
+     0.5,
+     1.25,
+     0.5,
+     200.0,
+     0.1489,
+     10.57,
+     0.0063,
+     27.08,
+     1.67,
+     15.0,
+     0.0,
+     33.75,
+     0.0,
+     [
+      32.5,
+      0.0
+     ],
+     0.2829,
+     0.6301,
+     795.2
+    ],
+    [
+     0.5,
+     1.25,
+     0.35,
+     200.0,
+     0.2154,
+     12.63,
+     0.0084,
+     79.58,
+     3.54,
+     66.67,
+     0.0,
+     69.17,
+     0.0,
+     [
+      62.5,
+      0.0
+     ],
+     0.348,
+     0.6301,
+     796.3
+    ],
+    [
+     0.5,
+     1.25,
+     0.25,
+     200.0,
+     0.2915,
+     14.33,
+     0.0127,
+     116.25,
+     8.12,
+     96.67,
+     0.0,
+     105.83,
+     0.0,
+     [
+      100.0,
+      0.0
+     ],
+     0.4152,
+     0.6301,
+     803.7
+    ],
+    [
+     0.5,
+     1.5,
+     0.5,
+     200.0,
+     0.1906,
+     12.58,
+     0.0092,
+     54.58,
+     4.58,
+     40.0,
+     0.0,
+     55.42,
+     0.0,
+     [
+      42.5,
+      0.0
+     ],
+     0.3262,
+     0.6301,
+     817.6
+    ],
+    [
+     0.5,
+     1.5,
+     0.35,
+     200.0,
+     0.2889,
+     14.93,
+     0.0146,
+     113.75,
+     11.46,
+     95.0,
+     0.0,
+     102.5,
+     0.06,
+     [
+      100.0,
+      0.0
+     ],
+     0.4059,
+     0.6301,
+     842.0
+    ],
+    [
+     0.5,
+     1.5,
+     0.25,
+     200.0,
+     0.43,
+     29.43,
+     0.1309,
+     215.42,
+     25.21,
+     140.0,
+     0.83,
+     195.42,
+     2.22,
+     [
+      175.0,
+      2.0
+     ],
+     0.5182,
+     0.6301,
+     886.5
+    ],
+    [
+     0.5,
+     2.0,
+     0.5,
+     200.0,
+     0.2729,
+     16.54,
+     0.0148,
+     102.92,
+     21.25,
+     85.0,
+     0.0,
+     99.58,
+     1.5,
+     [
+      92.5,
+      2.0
+     ],
+     0.3831,
+     0.6301,
+     806.4
+    ],
+    [
+     0.5,
+     2.0,
+     0.35,
+     200.0,
+     0.5047,
+     43.65,
+     0.2523,
+     239.58,
+     64.38,
+     151.67,
+     4.17,
+     222.5,
+     14.72,
+     [
+      205.0,
+      12.33
+     ],
+     0.5179,
+     0.6301,
+     1563.4
+    ],
+    [
+     0.5,
+     2.0,
+     0.25,
+     200.0,
+     0.7558,
+     109.04,
+     0.6371,
+     406.25,
+     145.83,
+     395.0,
+     45.0,
+     383.33,
+     45.39,
+     [
+      410.0,
+      25.67
+     ],
+     0.7583,
+     0.6301,
+     4181.5
+    ]
+   ]
+  },
+  "away_compartment_candidates": {
+   "note": "Same drive grid with the away mapping moved to a matched PAM/MBON pair. MBON07 (alpha1) receives 22,840 KC contacts over four cells versus 41,460 over two cells for MBON11 and stayed at or near 0 Hz on at least one calibration game in every non-runaway setting.",
+   "PAM08_MBON05_gamma4": [
+    [
+     0.5,
+     1.0,
+     0.25,
+     150.0,
+     0.0904,
+     7.85,
+     0.0027,
+     17.08,
+     2.08,
+     6.67,
+     0.0,
+     10.0,
+     0.0,
+     [
+      7.5,
+      0.0
+     ],
+     0.2424,
+     0.6301,
+     787.2
+    ],
+    [
+     0.5,
+     1.0,
+     0.25,
+     200.0,
+     0.1882,
+     11.22,
+     0.0074,
+     65.83,
+     43.33,
+     53.33,
+     26.67,
+     56.67,
+     0.02,
+     [
+      50.0,
+      0.0
+     ],
+     0.3268,
+     0.6301,
+     899.2
+    ],
+    [
+     0.5,
+     1.0,
+     0.35,
+     150.0,
+     0.0657,
+     7.21,
+     0.0015,
+     3.33,
+     0.0,
+     0.0,
+     0.0,
+     2.08,
+     0.0,
+     [
+      2.5,
+      0.0
+     ],
+     0.211,
+     0.6301,
+     785.7
+    ],
+    [
+     0.5,
+     1.0,
+     0.35,
+     200.0,
+     0.1422,
+     10.12,
+     0.0046,
+     37.08,
+     7.92,
+     21.67,
+     3.33,
+     33.33,
+     0.0,
+     [
+      32.5,
+      0.0
+     ],
+     0.2838,
+     0.6301,
+     841.9
+    ],
+    [
+     0.5,
+     1.25,
+     0.25,
+     150.0,
+     0.1631,
+     9.88,
+     0.0046,
+     51.25,
+     29.58,
+     38.33,
+     18.33,
+     40.83,
+     0.0,
+     [
+      40.0,
+      0.0
+     ],
+     0.3095,
+     0.6301,
+     787.5
+    ],
+    [
+     0.5,
+     1.25,
+     0.25,
+     200.0,
+     0.2915,
+     14.33,
+     0.0127,
+     116.25,
+     107.92,
+     96.67,
+     78.33,
+     105.83,
+     2.15,
+     [
+      100.0,
+      1.2
+     ],
+     0.4152,
+     0.6301,
+     803.7
+    ],
+    [
+     0.5,
+     1.25,
+     0.35,
+     150.0,
+     0.1172,
+     8.89,
+     0.0035,
+     24.58,
+     0.83,
+     13.33,
+     0.0,
+     19.17,
+     0.0,
+     [
+      17.5,
+      0.0
+     ],
+     0.2687,
+     0.6301,
+     787.3
+    ],
+    [
+     0.5,
+     1.25,
+     0.35,
+     200.0,
+     0.2154,
+     12.63,
+     0.0084,
+     79.58,
+     37.5,
+     66.67,
+     23.33,
+     69.17,
+     0.02,
+     [
+      62.5,
+      0.0
+     ],
+     0.348,
+     0.6301,
+     796.3
+    ]
+   ],
+   "PAM12_MBON09_gamma3": [
+    [
+     0.5,
+     1.0,
+     0.25,
+     150.0,
+     0.0904,
+     7.85,
+     0.0027,
+     17.08,
+     22.5,
+     6.67,
+     15.0,
+     10.0,
+     0.0,
+     [
+      7.5,
+      0.0
+     ],
+     0.2424,
+     0.6301,
+     787.2
+    ],
+    [
+     0.5,
+     1.0,
+     0.25,
+     200.0,
+     0.1882,
+     11.22,
+     0.0074,
+     65.83,
+     65.21,
+     53.33,
+     54.17,
+     56.67,
+     0.0,
+     [
+      50.0,
+      0.0
+     ],
+     0.3268,
+     0.6301,
+     899.2
+    ],
+    [
+     0.5,
+     1.0,
+     0.35,
+     150.0,
+     0.0657,
+     7.21,
+     0.0015,
+     3.33,
+     9.79,
+     0.0,
+     6.67,
+     2.08,
+     0.0,
+     [
+      2.5,
+      0.0
+     ],
+     0.211,
+     0.6301,
+     785.7
+    ],
+    [
+     0.5,
+     1.0,
+     0.35,
+     200.0,
+     0.1422,
+     10.12,
+     0.0046,
+     37.08,
+     47.5,
+     21.67,
+     35.83,
+     33.33,
+     0.0,
+     [
+      32.5,
+      0.0
+     ],
+     0.2838,
+     0.6301,
+     841.9
+    ],
+    [
+     0.5,
+     1.25,
+     0.25,
+     150.0,
+     0.1631,
+     9.88,
+     0.0046,
+     51.25,
+     52.71,
+     38.33,
+     41.67,
+     40.83,
+     0.0,
+     [
+      40.0,
+      0.0
+     ],
+     0.3095,
+     0.6301,
+     787.5
+    ],
+    [
+     0.5,
+     1.25,
+     0.25,
+     200.0,
+     0.2915,
+     14.33,
+     0.0127,
+     116.25,
+     106.67,
+     96.67,
+     90.0,
+     105.83,
+     0.04,
+     [
+      100.0,
+      0.0
+     ],
+     0.4152,
+     0.6301,
+     803.7
+    ],
+    [
+     0.5,
+     1.25,
+     0.35,
+     150.0,
+     0.1172,
+     8.89,
+     0.0035,
+     24.58,
+     33.12,
+     13.33,
+     23.33,
+     19.17,
+     0.0,
+     [
+      17.5,
+      0.0
+     ],
+     0.2687,
+     0.6301,
+     787.3
+    ],
+    [
+     0.5,
+     1.25,
+     0.35,
+     200.0,
+     0.2154,
+     12.63,
+     0.0084,
+     79.58,
+     79.79,
+     66.67,
+     68.33,
+     69.17,
+     0.0,
+     [
+      62.5,
+      0.0
+     ],
+     0.348,
+     0.6301,
+     796.3
+    ]
+   ]
+  },
+  "diagnostics": {
+   "reverberation_scale_0.4_kc_gain_0.25_sensory_gain_1": "After offset 4,536 neurons fired 103,652 spikes in 100 ms; 3,735 central-brain intrinsic cells carried 94,842 of them. Top cells were ALPNs and antennal-lobe local neurons (lLN1_bc, lLN2P/2T/2X types) at 130-184 spikes per 300 ms, i.e. the refractory ceiling. lLN1_bc is labeled acetylcholine (ground truth) in the released neurotransmitter table; lLN2 types split 44 GABA / 40 acetylcholine.",
+   "residual_reverberation_sensory_gain_0_scale_0.5": "After offset 681 neurons fired 23,364 spikes in 100 ms, again antennal-lobe local neurons plus hygro/thermo receptor neurons; the KC, DAN and MBON populations were silent.",
+   "apl_drive_scale_0.5_kc_gain_3_peak_200_apl_gain_1": "APL cells 502 and 904 carry 102,263 and 107,649 outgoing contacts (95,542 and 100,658 onto KCs; 270+171 onto MBON11, 129+165 onto MBON07) and receive 108,338 and 102,014 contacts from KCs. They fired 2-3 spikes per 10 ms bin during the stimulus. Summed drive onto MBON11 over one trial: KCs +2,808 mV-spikes from 447 active KCs, APL -4,703; onto MBON07: KCs +1,265 from 213 KCs, APL -3,163.",
+   "kc_subtype_activity_scale_0.5_kc_gain_1_apl_0.25_peak_200": {
+    "KCg-m": 0.352,
+    "KCab-m": 0.202,
+    "KCab-c": 0.137,
+    "KCab-s": 0.098,
+    "KCa'b'-m": 0.11,
+    "KCg-d": 0.005,
+    "KCab-p": 0.004
+   },
+   "mbon_type_mean_hz_same_setting": {
+    "MBON01": 23.8,
+    "MBON05": 33.1,
+    "MBON07": 1.6,
+    "MBON09": 50.3,
+    "MBON11": 50.6,
+    "MBON12": 19.8,
+    "MBON32": 14.4
+   },
+   "dan_type_mean_hz_same_setting": {
+    "PPL101": 43.4,
+    "PPL103": 24.1,
+    "PPL202": 41.2,
+    "PAM08": 0.0,
+    "PAM12": 0.0,
+    "PAM10": 0.0
+   }
+  },
+  "decision": {
+   "encoder": "glomerular-tuning-v1",
+   "encoder_peak_hz": 150.0,
+   "encoder_tuning_width": 0.5,
+   "encoder_min_kc_contacts": 100.0,
+   "glomeruli": 64,
+   "ports_driven": 275,
+   "dropped_glomeruli": [
+    "M_adPNm5"
+   ],
+   "global_weight_scale": 0.5,
+   "kc_input_gain": 1.25,
+   "sensory_input_gain": 0.0,
+   "apl_output_gain": 0.25,
+   "away_compartment": "PAM12/MBON09 (gamma3)",
+   "home_compartment": "PPL101/MBON11 (gamma1pedc)",
+   "rationale": "Lowest KC density among settings where both readout MBONs exceeded 20 Hz on every calibration game, PAM12 was silent at baseline, PPL101 stayed far below its refractory ceiling, the network returned toward rest after offset and the four-game KC-set overlap was 0.31."
+  }
+ },
+ "schema_3_run": {
+  "experiment_id": "reward-v3-209f7c49983f5873f650",
+  "status": "complete",
+  "wall_seconds": 129.30154066695832,
+  "protected_inputs_unchanged": true,
+  "code_hashes": {
+   "reward_lif.cpp": "ae78961d9bd14c909f7379aec3b0cb20b964729f57a69ec21ecb0c1ec16ab154",
+   "reward_brain.py": "4154bd270226341ce2c396a8f5345e522ac5b5cb05a083db803219cd8475817e",
+   "reward_encoder.py": "178a36f388b0c0de34bc2a83a0b35eef806dafa98636aa2400e4b87931446285",
+   "reward_protocol.py": "6e13653d8805b0c0f661c3fb8e881cb58ca24f22b8db57cc44876a90fc63ed94",
+   "reward_experiment.py": "75d2db32ad7276e90c9eb3565a859ef9066ed8dfd5af0a93a22af2f9a515776c",
+   "learning.py": "ddeb82479f10e89625632cf84ea58461ba9600be6517022fc91ff383f0928ab8"
+  },
+  "protocol": {
+   "schema_version": 3,
+   "seed": 42,
+   "train_n": 64,
+   "validation_n": 32,
+   "calibration_n": 16,
+   "duration_ms": 400.0,
+   "stimulus_ms": 300.0,
+   "teaching_ms": 310.0,
+   "bin_ms": 10.0,
+   "plasticity_onset_ms": 100.0,
+   "dan_baseline_window_ms": 50.0,
+   "teaching_pulse_count": 4,
+   "teaching_interval_ms": 20.0,
+   "encoder": "glomerular-tuning-v1",
+   "encoder_peak_hz": 150.0,
+   "encoder_tuning_width": 0.5,
+   "encoder_min_kc_contacts": 100.0,
+   "kc_input_gain": 1.25,
+   "sensory_input_gain": 0.0,
+   "apl_output_gain": 0.25,
+   "global_weight_scale": 0.5,
+   "tau_ms": 500.0,
+   "learning_rate": 0.0005,
+   "gain_bounds": [
+    0.5,
+    1.5
+   ],
+   "wall_seconds": 900.0,
+   "min_kc_active_fraction": 0.001,
+   "max_kc_active_fraction": 0.85,
+   "max_mbon_hz": 400.0,
+   "min_teaching_evoked_fraction": 0.5,
+   "max_kc_code_overlap": 0.5,
+   "arms": [
+    "paired",
+    "shuffled",
+    "frozen"
+   ]
+  },
+  "anatomy": {
+   "neurons": 166700,
+   "kc": 4064,
+   "dans": 24,
+   "plastic_edges": 8866,
+   "compartments": [
+    {
+     "label": "home",
+     "dan_type": "PPL101",
+     "mbon_type": "MBON11",
+     "dans": 2,
+     "mbons": 2,
+     "dan_body_ids": [
+      11327,
+      11900
+     ],
+     "mbon_body_ids": [
+      10704,
+      11402
+     ],
+     "dan_instances": [
+      "PPL101(y1ped)_R",
+      "PPL101(y1ped)_L"
+     ],
+     "mbon_instances": [
+      "MBON11(y1pedc>a/B)_L",
+      "MBON11(y1pedc>a/B)_R"
+     ],
+     "plastic_edges": 4184
+    },
+    {
+     "label": "away",
+     "dan_type": "PAM12",
+     "mbon_type": "MBON09",
+     "dans": 22,
+     "mbons": 4,
+     "dan_body_ids": [
+      61360,
+      91391,
+      91875,
+      96571,
+      104460,
+      105447,
+      111665,
+      113001,
+      126900,
+      135171,
+      138585,
+      139280,
+      139378,
+      144625,
+      146418,
+      152428,
+      157257,
+      158917,
+      196622,
+      206851,
+      520384,
+      552362
+     ],
+     "mbon_body_ids": [
+      18713,
+      19267,
+      21242,
+      523060
+     ],
+     "dan_instances": [
+      "PAM12(y3)_L",
+      "PAM12(y3)_L",
+      "PAM12(y3)_L",
+      "PAM12(y3)_L",
+      "PAM12(y3)_L",
+      "PAM12(y3)_L",
+      "PAM12(y3)_R",
+      "PAM12(y3)_R",
+      "PAM12(y3)_L",
+      "PAM12(y3)_R",
+      "PAM12(y3)_L",
+      "PAM12(y3)_R",
+      "PAM12(y3)_R",
+      "PAM12(y3)_L",
+      "PAM12(y3)_R",
+      "PAM12(y3)_L",
+      "PAM12(y3)_L",
+      "PAM12(y3)_R",
+      "PAM12(y3)_R",
+      "PAM12(y3)_R",
+      "PAM12(y3)_R",
+      "PAM12(y3)_R"
+     ],
+     "mbon_instances": [
+      "MBON09(y3B'1)_L",
+      "MBON09(y3B'1)_L",
+      "MBON09(y3B'1)_R",
+      "MBON09(y3B'1)_R"
+     ],
+     "plastic_edges": 4682
+    }
+   ],
+   "dopamine_only_fast_outputs_zeroed": 392,
+   "kc_input_gain": 1.25,
+   "sensory_input_gain": 0.0,
+   "apl_output_gain": 0.25,
+   "apl_body_ids": [
+    10540,
+    10977
+   ],
+   "encoder": {
+    "encoder": "glomerular-tuning-v1",
+    "glomeruli": 64,
+    "centers_per_feature": 4,
+    "center_span": 1.5,
+    "floor_fraction": 0.05,
+    "ports_driven": 275,
+    "ports_total": 686,
+    "eligible_transmitter": "acetylcholine",
+    "min_kc_contacts": 100.0,
+    "dropped_glomeruli": [
+     "M_adPNm5"
+    ],
+    "features": [
+     {
+      "feature": 0,
+      "glomeruli": [
+       {
+        "type": "DA1_lPN",
+        "center": -1.5,
+        "cells": 13,
+        "kc_contacts": 10677.0
+       },
+       {
+        "type": "DM2_lPN",
+        "center": -0.5,
+        "cells": 4,
+        "kc_contacts": 12970.0
+       },
+       {
+        "type": "VA4_lPN",
+        "center": 0.5,
+        "cells": 2,
+        "kc_contacts": 7854.0
+       },
+       {
+        "type": "VM4_adPN",
+        "center": 1.5,
+        "cells": 2,
+        "kc_contacts": 4024.0
+       }
+      ]
+     },
+     {
+      "feature": 1,
+      "glomeruli": [
+       {
+        "type": "DA2_lPN",
+        "center": -1.5,
+        "cells": 10,
+        "kc_contacts": 3651.0
+       },
+       {
+        "type": "DM3_adPN",
+        "center": -0.5,
+        "cells": 2,
+        "kc_contacts": 6982.0
+       },
+       {
+        "type": "VA5_lPN",
+        "center": 0.5,
+        "cells": 6,
+        "kc_contacts": 7258.0
+       },
+       {
+        "type": "VM4_lvPN",
+        "center": 1.5,
+        "cells": 6,
+        "kc_contacts": 826.0
+       }
+      ]
+     },
+     {
+      "feature": 2,
+      "glomeruli": [
+       {
+        "type": "DA3_adPN",
+        "center": -1.5,
+        "cells": 4,
+        "kc_contacts": 619.0
+       },
+       {
+        "type": "DM4_adPN",
+        "center": -0.5,
+        "cells": 2,
+        "kc_contacts": 12314.0
+       },
+       {
+        "type": "VA6_adPN",
+        "center": 0.5,
+        "cells": 2,
+        "kc_contacts": 9366.0
+       },
+       {
+        "type": "VM5d_adPN",
+        "center": 1.5,
+        "cells": 12,
+        "kc_contacts": 10448.0
+       }
+      ]
+     },
+     {
+      "feature": 3,
+      "glomeruli": [
+       {
+        "type": "DA4l_adPN",
+        "center": -1.5,
+        "cells": 2,
+        "kc_contacts": 3434.0
+       },
+       {
+        "type": "DM5_lPN",
+        "center": -0.5,
+        "cells": 7,
+        "kc_contacts": 6149.0
+       },
+       {
+        "type": "VA7l_adPN",
+        "center": 0.5,
+        "cells": 2,
+        "kc_contacts": 3548.0
+       },
+       {
+        "type": "VM5v_adPN",
+        "center": 1.5,
+        "cells": 5,
+        "kc_contacts": 4143.0
+       }
+      ]
+     },
+     {
+      "feature": 4,
+      "glomeruli": [
+       {
+        "type": "DA4m_adPN",
+        "center": -1.5,
+        "cells": 2,
+        "kc_contacts": 1138.0
+       },
+       {
+        "type": "DM6_adPN",
+        "center": -0.5,
+        "cells": 7,
+        "kc_contacts": 10584.0
+       },
+       {
+        "type": "VA7m_lPN",
+        "center": 0.5,
+        "cells": 6,
+        "kc_contacts": 6479.0
+       },
+       {
+        "type": "VM6_adPN",
+        "center": 1.5,
+        "cells": 2,
+        "kc_contacts": 6678.0
+       }
+      ]
+     },
+     {
+      "feature": 5,
+      "glomeruli": [
+       {
+        "type": "DC1_adPN",
+        "center": -1.5,
+        "cells": 2,
+        "kc_contacts": 17443.0
+       },
+       {
+        "type": "DP1l_adPN",
+        "center": -0.5,
+        "cells": 2,
+        "kc_contacts": 11637.0
+       },
+       {
+        "type": "VC1_lPN",
+        "center": 0.5,
+        "cells": 2,
+        "kc_contacts": 4408.0
+       },
+       {
+        "type": "VM7d_adPN",
+        "center": 1.5,
+        "cells": 7,
+        "kc_contacts": 5371.0
+       }
+      ]
+     },
+     {
+      "feature": 6,
+      "glomeruli": [
+       {
+        "type": "DC2_adPN",
+        "center": -1.5,
+        "cells": 4,
+        "kc_contacts": 7547.0
+       },
+       {
+        "type": "DP1m_adPN",
+        "center": -0.5,
+        "cells": 2,
+        "kc_contacts": 20995.0
+       },
+       {
+        "type": "VC2_lPN",
+        "center": 0.5,
+        "cells": 2,
+        "kc_contacts": 5647.0
+       },
+       {
+        "type": "VM7v_adPN",
+        "center": 1.5,
+        "cells": 3,
+        "kc_contacts": 3169.0
+       }
+      ]
+     },
+     {
+      "feature": 7,
+      "glomeruli": [
+       {
+        "type": "DC3_adPN",
+        "center": -1.5,
+        "cells": 6,
+        "kc_contacts": 8418.0
+       },
+       {
+        "type": "D_adPN",
+        "center": -0.5,
+        "cells": 6,
+        "kc_contacts": 6600.0
+       },
+       {
+        "type": "VC3_adPN",
+        "center": 0.5,
+        "cells": 7,
+        "kc_contacts": 8462.0
+       },
+       {
+        "type": "VP1d+VP4_l2PN1",
+        "center": 1.5,
+        "cells": 2,
+        "kc_contacts": 5792.0
+       }
+      ]
+     },
+     {
+      "feature": 8,
+      "glomeruli": [
+       {
+        "type": "DC4_adPN",
+        "center": -1.5,
+        "cells": 2,
+        "kc_contacts": 2373.0
+       },
+       {
+        "type": "M_adPNm4",
+        "center": -0.5,
+        "cells": 2,
+        "kc_contacts": 764.0
+       },
+       {
+        "type": "VC4_adPN",
+        "center": 0.5,
+        "cells": 6,
+        "kc_contacts": 6219.0
+       },
+       {
+        "type": "VP1d_il2PN",
+        "center": 1.5,
+        "cells": 2,
+        "kc_contacts": 2393.0
+       }
+      ]
+     },
+     {
+      "feature": 9,
+      "glomeruli": [
+       {
+        "type": "DL1_adPN",
+        "center": -1.5,
+        "cells": 4,
+        "kc_contacts": 9689.0
+       },
+       {
+        "type": "M_adPNm8",
+        "center": -0.5,
+        "cells": 6,
+        "kc_contacts": 137.0
+       },
+       {
+        "type": "VC5_lvPN",
+        "center": 0.5,
+        "cells": 6,
+        "kc_contacts": 6949.0
+       },
+       {
+        "type": "VP1m+VP2_lvPN2",
+        "center": 1.5,
+        "cells": 8,
+        "kc_contacts": 157.0
+       }
+      ]
+     },
+     {
+      "feature": 10,
+      "glomeruli": [
+       {
+        "type": "DL2d_adPN",
+        "center": -1.5,
+        "cells": 9,
+        "kc_contacts": 7443.0
+       },
+       {
+        "type": "M_l2PNm16",
+        "center": -0.5,
+        "cells": 4,
+        "kc_contacts": 131.0
+       },
+       {
+        "type": "VL1_ilPN",
+        "center": 0.5,
+        "cells": 2,
+        "kc_contacts": 887.0
+       },
+       {
+        "type": "VP1m+VP5_ilPN",
+        "center": 1.5,
+        "cells": 2,
+        "kc_contacts": 2178.0
+       }
+      ]
+     },
+     {
+      "feature": 11,
+      "glomeruli": [
+       {
+        "type": "DL2v_adPN",
+        "center": -1.5,
+        "cells": 8,
+        "kc_contacts": 8567.0
+       },
+       {
+        "type": "M_lPNm11D",
+        "center": -0.5,
+        "cells": 12,
+        "kc_contacts": 779.0
+       },
+       {
+        "type": "VL2a_adPN",
+        "center": 0.5,
+        "cells": 2,
+        "kc_contacts": 7383.0
+       },
+       {
+        "type": "VP1m_l2PN",
+        "center": 1.5,
+        "cells": 2,
+        "kc_contacts": 4288.0
+       }
+      ]
+     },
+     {
+      "feature": 12,
+      "glomeruli": [
+       {
+        "type": "DL3_lPN",
+        "center": -1.5,
+        "cells": 11,
+        "kc_contacts": 2028.0
+       },
+       {
+        "type": "VA1d_adPN",
+        "center": -0.5,
+        "cells": 6,
+        "kc_contacts": 6820.0
+       },
+       {
+        "type": "VL2p_adPN",
+        "center": 0.5,
+        "cells": 2,
+        "kc_contacts": 8977.0
+       },
+       {
+        "type": "VP2_adPN",
+        "center": 1.5,
+        "cells": 1,
+        "kc_contacts": 1653.0
+       }
+      ]
+     },
+     {
+      "feature": 13,
+      "glomeruli": [
+       {
+        "type": "DL4_adPN",
+        "center": -1.5,
+        "cells": 2,
+        "kc_contacts": 1378.0
+       },
+       {
+        "type": "VA1v_adPN",
+        "center": -0.5,
+        "cells": 8,
+        "kc_contacts": 4359.0
+       },
+       {
+        "type": "VM1_lPN",
+        "center": 0.5,
+        "cells": 2,
+        "kc_contacts": 3659.0
+       },
+       {
+        "type": "VP3+VP1l_ivPN",
+        "center": 1.5,
+        "cells": 2,
+        "kc_contacts": 3422.0
+       }
+      ]
+     },
+     {
+      "feature": 14,
+      "glomeruli": [
+       {
+        "type": "DL5_adPN",
+        "center": -1.5,
+        "cells": 2,
+        "kc_contacts": 4164.0
+       },
+       {
+        "type": "VA2_adPN",
+        "center": -0.5,
+        "cells": 2,
+        "kc_contacts": 12214.0
+       },
+       {
+        "type": "VM2_adPN",
+        "center": 0.5,
+        "cells": 3,
+        "kc_contacts": 4462.0
+       },
+       {
+        "type": "VP5+Z_adPN",
+        "center": 1.5,
+        "cells": 2,
+        "kc_contacts": 396.0
+       }
+      ]
+     },
+     {
+      "feature": 15,
+      "glomeruli": [
+       {
+        "type": "DM1_lPN",
+        "center": -1.5,
+        "cells": 2,
+        "kc_contacts": 18007.0
+       },
+       {
+        "type": "VA3_adPN",
+        "center": -0.5,
+        "cells": 4,
+        "kc_contacts": 8993.0
+       },
+       {
+        "type": "VM3_adPN",
+        "center": 0.5,
+        "cells": 4,
+        "kc_contacts": 8168.0
+       },
+       {
+        "type": "V_ilPN",
+        "center": 1.5,
+        "cells": 2,
+        "kc_contacts": 6340.0
+       }
+      ]
+     }
+    ],
+    "peak_hz": 150.0,
+    "tuning_width": 0.5
+   },
+   "mapping": "type-instance-compartment-proxy; pairwise contacts lack exact synaptic location",
+   "annotations_sha256": "2177e246113e4cfbf1e7772ec37c6da1955ff22e8063d0b1f833101f99a9a3b2"
+  },
+  "activity_gate": {
+   "status": "passed",
+   "kc_active_fraction": 0.1596333661417323,
+   "max_mbon_hz": 73.33333333333334,
+   "input_discrimination": true,
+   "teaching_responsive": [
+    true,
+    true
+   ],
+   "teaching_compartment_spikes": [
+    8,
+    88
+   ],
+   "teaching_scheduled_spikes": [
+    8,
+    88
+   ],
+   "teaching_evoked_spikes": [
+    8,
+    88
+   ],
+   "tonic_dan_hz": [
+    43.75,
+    0.0
+   ],
+   "kc_code_overlap": 0.298087764077249,
+   "post_stimulus_kc_active_fraction": 0.004782849409448819,
+   "message": "Inputs alter output with a common random seed; both teaching populations evoke spikes above their tonic rate; the KC code differs between games; activity is inside numerical guards."
+  },
+  "fixed_readout": {
+   "method": "negative-standardized-log1p-MBON-rate-plus-smoothed-training-prior",
+   "mean": [
+    3.9260056492584425,
+    3.9869570537570893
+   ],
+   "scale": [
+    0.2678061104749591,
+    0.2267328891296825
+   ],
+   "prior": [
+    0.48484848484848486,
+    0.5151515151515151
+   ]
+  },
+  "prior_metrics": {
+   "n": 32,
+   "accuracy": 0.375,
+   "log_loss": 0.701184606045536,
+   "brier": 0.5080348943985308,
+   "ece": 0.14015151515151514,
+   "calibration": [
+    {
+     "lower": 0.5,
+     "n": 32,
+     "confidence": 0.5151515151515151,
+     "accuracy": 0.375
+    }
+   ]
+  },
+  "outcome": {
+   "status": "descriptive",
+   "message": "Completed fixed-readout development comparison; one seed and 32 or fewer reused validation games cannot establish predictive superiority.",
+   "paired_minus_frozen_log_loss": 0.2901312417528471,
+   "paired_minus_shuffled_log_loss": -0.012124759557000098
+  },
+  "jobs": {
+   "paired": {
+    "metrics": {
+     "n": 32,
+     "accuracy": 0.375,
+     "log_loss": 0.9737514600409214,
+     "brier": 0.7437130269506211,
+     "ece": 0.3760564148421781,
+     "calibration": [
+      {
+       "lower": 0.5,
+       "n": 1,
+       "confidence": 0.5151515151515152,
+       "accuracy": 0.0
+      },
+      {
+       "lower": 0.6,
+       "n": 3,
+       "confidence": 0.6490798625706141,
+       "accuracy": 0.3333333333333333
+      },
+      {
+       "lower": 0.7,
+       "n": 23,
+       "confidence": 0.7589095774306039,
+       "accuracy": 0.391304347826087
+      },
+      {
+       "lower": 0.8,
+       "n": 5,
+       "confidence": 0.8232987782364904,
+       "accuracy": 0.4
+      }
+     ]
+    },
+    "class_confusion": [
+     [
+      0,
+      20
+     ],
+     [
+      0,
+      12
+     ]
+    ],
+    "reward_evidence": {
+     "changed_edges": 5546,
+     "gain_min": 0.662708044052124,
+     "gain_max": 1.382982611656189,
+     "gain_mean": 0.9971225261688232,
+     "lower_bound_fraction": 0.0,
+     "upper_bound_fraction": 0.0,
+     "kc_active_fraction": 0.1570074126476378,
+     "dan_spikes": 4664,
+     "dan_compartment_spikes": [
+      1760,
+      2904
+     ],
+     "tonic_dan_hz": [
+      43.59375,
+      0.0
+     ],
+     "mbon_mean_hz": 51.91406250000001
+    },
+    "final_home_response_hz": 46.66666666666667,
+    "final_away_response_hz": 33.333333333333336
+   },
+   "shuffled": {
+    "metrics": {
+     "n": 32,
+     "accuracy": 0.375,
+     "log_loss": 0.9858762195979215,
+     "brier": 0.7534749428370262,
+     "ece": 0.37439011621429524,
+     "calibration": [
+      {
+       "lower": 0.5,
+       "n": 1,
+       "confidence": 0.5151515151515152,
+       "accuracy": 0.0
+      },
+      {
+       "lower": 0.6,
+       "n": 4,
+       "confidence": 0.6642496840533532,
+       "accuracy": 0.5
+      },
+      {
+       "lower": 0.7,
+       "n": 20,
+       "confidence": 0.7520639937668022,
+       "accuracy": 0.3
+      },
+      {
+       "lower": 0.8,
+       "n": 7,
+       "confidence": 0.8238647988794965,
+       "accuracy": 0.5714285714285714
+      }
+     ]
+    },
+    "class_confusion": [
+     [
+      0,
+      20
+     ],
+     [
+      0,
+      12
+     ]
+    ],
+    "reward_evidence": {
+     "changed_edges": 5544,
+     "gain_min": 0.6514235138893127,
+     "gain_max": 1.369093894958496,
+     "gain_mean": 0.997294545173645,
+     "lower_bound_fraction": 0.0,
+     "upper_bound_fraction": 0.0,
+     "kc_active_fraction": 0.15713044414370078,
+     "dan_spikes": 4662,
+     "dan_compartment_spikes": [
+      1758,
+      2904
+     ],
+     "tonic_dan_hz": [
+      43.4375,
+      0.0
+     ],
+     "mbon_mean_hz": 51.88151041666667
+    },
+    "final_home_response_hz": 46.66666666666667,
+    "final_away_response_hz": 35.0
+   },
+   "frozen": {
+    "metrics": {
+     "n": 32,
+     "accuracy": 0.5625,
+     "log_loss": 0.6836202182880743,
+     "brier": 0.49232502609087875,
+     "ece": 0.037977619136509454,
+     "calibration": [
+      {
+       "lower": 0.5,
+       "n": 26,
+       "confidence": 0.5447972579961344,
+       "accuracy": 0.5384615384615384
+      },
+      {
+       "lower": 0.6,
+       "n": 4,
+       "confidence": 0.6351945147935483,
+       "accuracy": 0.5
+      },
+      {
+       "lower": 0.7,
+       "n": 2,
+       "confidence": 0.7451114773526932,
+       "accuracy": 1.0
+      }
+     ]
+    },
+    "class_confusion": [
+     [
+      12,
+      8
+     ],
+     [
+      6,
+      6
+     ]
+    ],
+    "reward_evidence": {
+     "changed_edges": 0,
+     "gain_min": 1.0,
+     "gain_max": 1.0,
+     "gain_mean": 1.0,
+     "lower_bound_fraction": 0.0,
+     "upper_bound_fraction": 0.0,
+     "kc_active_fraction": 0.15668445497047245,
+     "dan_spikes": 4686,
+     "dan_compartment_spikes": [
+      1782,
+      2904
+     ],
+     "tonic_dan_hz": [
+      44.0625,
+      0.0
+     ],
+     "mbon_mean_hz": 51.39322916666667
+    },
+    "final_home_response_hz": 38.333333333333336,
+    "final_away_response_hz": 41.66666666666667
+   }
+  },
+  "gain_diagnosis": {
+   "home_compartment_edges": 4184,
+   "away_compartment_edges": 4682,
+   "paired_gain_mean_home_away": [
+    1.0219,
+    0.975
+   ],
+   "shuffled_gain_mean_home_away": [
+    1.0211,
+    0.976
+   ],
+   "paired_vs_shuffled_gain_correlation_home_away": [
+    0.989,
+    0.989
+   ],
+   "paired_minus_shuffled_abs_gain_difference_mean": 0.00343,
+   "paired_minus_one_abs_gain_mean": 0.02358,
+   "mean_p_away_on_validation": {
+    "paired": 0.751,
+    "shuffled": 0.749,
+    "frozen": 0.49
+   },
+   "rank_auc_p_away_vs_truth_32_games_descriptive_only": {
+    "paired": 0.554,
+    "shuffled": 0.483,
+    "frozen": 0.5
+   },
+   "ppl101_hz_per_cell_gate_probe": {
+    "0-50ms": 20.0,
+    "baseline_50-100ms": 30.0,
+    "100-200ms": 40.0,
+    "200-300ms": 55.0,
+    "post_300-400ms": 5.0
+   },
+   "training_mean_ppl101_spikes_per_10ms_bin_two_cells": "about 0.84 during 50-100 ms and 0.85 during 100-300 ms; the tonic estimate is unbiased on average but single-trial noisy with two cells",
+   "mechanism": "Learning now occurs on a circuit that passes every gate, but the gain change is dominated by a component shared between true and shuffled teaching: the away compartment (PAM12, silent unless taught) is depressed on the KC core that overlaps between games (mean Jaccard 0.30), and the home compartment (PPL101, about 44 Hz tonic from real KC-to-DAN edges) is potentiated by rule noise around a two-cell tonic estimate. The fixed readout is centered on the untrained circuit, so a shared shift of the taught MBONs reads as a class bias on every validation game. Teaching-specific gain differences exist but are seven times smaller than the shared component."
+  },
+  "browser_acceptance": {
+   "checked_at": "2026-09-11T13:55:02.355Z",
+   "url": "http://127.0.0.1:8765/#training",
+   "experiment": "reward-v3-209f7c49983f5873f650",
+   "status": "complete",
+   "encoder": "glomerular-tuning-v1",
+   "gate_status": "passed",
+   "gated_experiment": "reward-v3-40d7263f0d2cc1974cf0",
+   "gated_status": "failed",
+   "gate_message": "No outcome-trained comparison ran: a teaching population evoked fewer spikes above its tonic rate than the declared margin; the active KC set is not game-specific (calibration overlap exceeds the guard).",
+   "active_v1": "20260910T232621Z",
+   "v2_status": "paused",
+   "v2_jobs": {
+    "complete": 13,
+    "cancelled": 8,
+    "paused": 3
+   },
+   "arms": [
+    "paired",
+    "shuffled",
+    "frozen"
+   ],
+   "downloads": [
+    {
+     "label": "Activity and teaching response checks",
+     "bytes": 14804,
+     "hash_matches": true
+    },
+    {
+     "label": "Readout",
+     "bytes": 280,
+     "hash_matches": true
+    },
+    {
+     "label": "Paired gains and matched predictions",
+     "bytes": 292148,
+     "hash_matches": true
+    },
+    {
+     "label": "Shuffled gains and matched predictions",
+     "bytes": 292148,
+     "hash_matches": true
+    },
+    {
+     "label": "Frozen gains and matched predictions",
+     "bytes": 292148,
+     "hash_matches": true
+    },
+    {
+     "label": "Protocol",
+     "bytes": 896,
+     "hash_matches": true
+    },
+    {
+     "label": "Anatomy",
+     "bytes": 13610,
+     "hash_matches": true
+    },
+    {
+     "label": "Complete measured reward experiment report",
+     "bytes": 85082,
+     "hash_matches": true
+    }
+   ],
+   "scenarios": [
+    {
+     "mode": "loading",
+     "verified": true,
+     "source": "isolated browser response fixture"
+    },
+    {
+     "mode": "empty",
+     "verified": true,
+     "source": "isolated browser response fixture"
+    },
+    {
+     "mode": "error",
+     "verified": true,
+     "source": "isolated browser response fixture"
+    },
+    {
+     "mode": "running",
+     "verified": true,
+     "source": "isolated browser response fixture"
+    },
+    {
+     "mode": "failed",
+     "verified": true,
+     "source": "isolated browser response fixture"
+    },
+    {
+     "mode": "budget_stopped",
+     "verified": true,
+     "source": "isolated browser response fixture"
+    }
+   ],
+   "desktop": {
+    "width": 1440,
+    "height": 1100
+   },
+   "mobile": {
+    "width": 390,
+    "height": 844,
+    "horizontal_page_overflow": false,
+    "tested_widths": [
+     320,
+     390,
+     540,
+     720,
+     1024
+    ]
+   },
+   "errors": [],
+   "screenshots": [
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/browser/reward-v3-schema3/bet36fly-reward-gate-passed.png",
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/browser/reward-v3-schema3/bet36fly-reward-gate-failed.png",
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/browser/reward-v3-schema3/bet36fly-reward-desktop.png",
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/browser/reward-v3-schema3/bet36fly-reward-arm.png",
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/browser/reward-v3-schema3/bet36fly-reward-mobile.png",
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/browser/reward-v3-schema3/bet36fly-reward-mobile-arm.png"
+   ]
+  }
+ }
+}

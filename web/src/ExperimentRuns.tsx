@@ -50,7 +50,8 @@ export default function ExperimentRuns() {
   const [sport, setSport] = useState('soccer');
   const [split, setSplit] = useState('validation');
   useEffect(() => pollExperiments(setData, setError), []);
-  const experiment = data?.experiments.find(row => row.id === experimentId) ?? data?.experiments[0];
+  const experiments = data?.experiments.filter(row => row.kind !== 'dopamine-association') ?? [];
+  const experiment = experiments.find(row => row.id === experimentId) ?? experiments[0];
   const job = experiment?.jobs.find(row => row.id === jobId);
   const comparisons = experiment ? filteredComparisons(experiment, sport, split) : [];
   const paired = experiment?.paired?.comparisons.filter(row => row.sport === sport && row.split === split) || [];
@@ -58,10 +59,10 @@ export default function ExperimentRuns() {
     <p><strong>Active model: v1 {data?.active_v1?.run_id || 'unavailable'}</strong>{experiment?.selected_shadow && <> · Selected shadow: <strong>{experiment.selected_shadow.variant}</strong></>}</p>
     {error && <p className="error" role="alert">{data ? 'Showing last loaded results. ' : ''}{error}</p>}
     {!data && !error && <p role="status">Loading experiment registry…</p>}
-    {data && !data.experiments.length && <p>No v2 experiment has started.</p>}
+    {data && !experiments.length && <p>No v2 experiment has started.</p>}
     {experiment && <><p className="fine">Last update {date(experiment.updated_at)} · {experiment.status}{experiment.completion_scope === 'user-curtailed' ? ' · user-curtailed scope' : ''}</p>
       {!!experiment.execution_amendments?.length && <aside aria-label="Execution amendments" className="warning-text"><strong>{experiment.jobs.filter(row => row.status === 'complete').length} completed · {experiment.jobs.filter(row => row.status === 'cancelled').length} cancelled</strong>{experiment.execution_amendments.map(amendment => <p key={amendment.recorded_at}>{amendment.reason}</p>)}<p>Temporal comparisons have incomplete seed coverage. Stopping followed observed results; uncertainty intervals do not account for that decision. Only architectures with all three completed seeds can be selected.</p></aside>}
-      {data && data.experiments.length > 1 && <label>Experiment <select value={experiment.id} onChange={event => { setExperimentId(event.target.value); setJobId(''); }}>{data.experiments.map(row => <option key={row.id}>{row.id}</option>)}</select></label>}
+      {experiments.length > 1 && <label>Experiment <select value={experiment.id} onChange={event => { setExperimentId(event.target.value); setJobId(''); }}>{experiments.map(row => <option key={row.id}>{row.id}</option>)}</select></label>}
       <div className="table-scroll"><table className="experiment-table"><caption>Original fixed matrix · select a run to inspect measured evidence</caption><thead><tr><th>Variant / seed</th><th>Active parameters</th><th>Status</th><th>Phase / progress</th><th>Seconds</th><th>Validation loss</th></tr></thead><tbody>{experiment.jobs.map(row => <tr key={row.id} className={row.id === jobId ? 'selected-run' : ''}><td><button className="text-button" aria-pressed={row.id === jobId} onClick={() => setJobId(row.id)}>{row.variant} · {row.seed}</button></td><td>{number(row.active_parameters)}</td><td>{row.status}</td><td>{row.phase.replaceAll('-', ' ')}{row.total ? ` · ${number(row.completed)} / ${number(row.total)}` : ''}</td><td>{decimal(row.wall_seconds ?? row.elapsed_seconds, 1)}</td><td>{decimal(row.validation_loss)}</td></tr>)}</tbody></table></div>
       <div className="comparison-filters"><label>Comparison sport <select aria-label="Comparison sport" value={sport} onChange={event => setSport(event.target.value)}><option value="soccer">Soccer</option><option value="baseball">Baseball</option></select></label><label>Evaluation split <select aria-label="Evaluation split" value={split} onChange={event => setSplit(event.target.value)}><option value="validation">Validation · July–December 2025</option><option value="historical">Historical development benchmark · January–August 2026</option></select></label></div>
       {job && <JobDetail job={job} experiment={experiment} sport={sport} split={split}/>}

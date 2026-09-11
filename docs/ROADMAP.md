@@ -50,13 +50,15 @@ V2 prespecified three seeds and a probability ensemble. The paused execution cur
 
 ### 4. Improve learning inside the anatomical graph
 
+The separate [dopamine-association pilot](EXPERIMENT_REWARD.md) now implements local KC/DAN spike-timing updates on 8,866 existing KC-to-MBON edges, with persistent gains and a fixed readout. Paired, shuffled-teaching and frozen-synapse controls and their actual results appear in Training and the [evidence note](evidence/reward-v3-summary.md). It does not resume v2. Its numerical scales, two task-to-compartment mappings and modulation rule are engineered; receptor-specific dynamics and reward-prediction error remain future work.
+
 V2 compares 295 gains shared by supplied KC/MBON type pair with 61,210 independent gains, using the same frozen data and training budget. Gains remain shared across sports and hemispheres. Separate sport-specific gains, additional supported connections and learned time constants are possible later experiments; they are outside the fixed v2 matrix.
 
 A more ambitious route is to optimize a differentiable model of the actual neural dynamics and verify its gains in the full simulator. Lappalainen and colleagues showed that task optimization of connectome-constrained visual circuitry could predict measured fly neural responses. That supports the research method; it does not establish transfer to sports. [Lappalainen et al.](https://www.nature.com/articles/s41586-024-07939-3).
 
 Surrogate-gradient training is another candidate for handling the non-differentiability of spikes. It differs from our current rate-surrogate warm-up. Full-network training through time brings substantial memory and compute costs, so benchmark a constrained experiment before paying for large runs. [Neftci, Mostafa & Zenke](https://arxiv.org/abs/1901.09948).
 
-A reward-based experiment could adjust supported synapses using an outcome scoring rule and eligibility traces. It would be an explicitly designed learning rule unless independently matched to biological evidence. Start with probability quality as the objective: raw monetary reward mixes forecast quality, odds, stake policy and luck, making a poor initial teaching signal.
+The current pilot conveys the known outcome directly to a selected DAN population after the stimulus. A future reward-prediction-error experiment would additionally need an explicit prediction/error signal and validated timing. Probability quality is the initial task metric: raw monetary reward mixes forecast quality, odds, stake policy and luck. Neither the associative pilot nor a future feedback mechanism is evidence of betting performance by itself.
 
 ### 5. Test broader applications after the basics
 

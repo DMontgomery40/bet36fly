@@ -50,3 +50,43 @@
 @media (max-width: 720px) { .neuron-selector { grid-template-columns: 1fr; } .brain-legend { gap: .6rem; } .brain-inspector { max-height: 60vh; } .comparison-filters { display: grid; } .comparison-filters select { width: 100%; } .brain-key { top: 90px; } .brain-tooltip { max-height: 40vh; } }
 /* Hover/focus previews never intercept the control that pins their full content. */
 .brain-tooltip { pointer-events: none; }
+
+/* Bounded dopamine-association experiments stay separate from the original v2 matrix. */
+.reward-experiments { border-bottom: 1px solid var(--line); padding-bottom: 2rem; margin-bottom: 2rem; }
+.reward-experiments > .section-heading { align-items: flex-start; }
+.reward-experiments > .section-heading p { margin-top: .35rem; }
+.reward-status { display: inline-block; color: var(--lime); border: 1px solid #536447; border-radius: 999px; padding: .3rem .65rem; font: 11px/1.4 var(--mono); white-space: nowrap; }
+.reward-experiment-select { display: grid; gap: .4rem; width: min(100%, 520px); margin: 1rem 0; font-size: .82rem; }
+.reward-experiment-select select { min-height: 40px; background: #17211a; color: var(--white); border: 1px solid #647467; border-radius: 5px; padding: .45rem; }
+.reward-protocol, .reward-run-detail { margin: 1.5rem 0; padding: 1.1rem; border: 1px solid #3d4a40; border-radius: 8px; }
+.reward-protocol > h3, .reward-protocol > h4, .reward-run-detail h4 { margin: 0 0 .75rem; }
+.reward-protocol > h4, .reward-run-detail h4 { margin-top: 1.4rem; }
+.reward-counts { display: grid; grid-template-columns: repeat(4, minmax(120px, 1fr)); gap: .8rem; margin: 1rem 0; }
+.reward-counts div, .reward-readout dl div, .reward-evidence div { min-width: 0; }
+.reward-counts dt, .reward-readout dt, .reward-evidence dt { color: var(--sage); font-size: 11px; line-height: 1.5; }
+.reward-counts dd { margin: .25rem 0 0; color: var(--lime); font: 18px/1.4 var(--mono); }
+.reward-readout { margin-top: 1.25rem; padding: 1rem; background: #18221b; }
+.reward-readout dl { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
+.reward-readout dd { margin: .3rem 0 0; font: 11px/1.6 var(--mono); overflow-wrap: anywhere; }
+.reward-assumptions { margin: 1.2rem 0; padding: 1rem; border-left: 3px solid #667956; background: #18221b; }
+.reward-assumptions h4 { margin: 0 0 .6rem; }
+.reward-gates { display: grid; grid-template-columns: minmax(0, 1fr); gap: 1rem; margin-top: 1.2rem; }
+.reward-gates article { min-width: 0; background: #18221b; padding: 1rem; }
+.reward-gates h4 { margin: 0 0 .6rem; }
+.reward-gates dl { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .8rem; }
+.reward-gates dt { color: var(--sage); font-size: 11px; line-height: 1.5; }
+.reward-gates dd { margin: .25rem 0 0; font: 13px/1.5 var(--mono); }
+.reward-arm-table { min-width: 920px; }
+.reward-comparator { background: #1b2118; }
+.reward-row-message { display: block; max-width: 30ch; margin-top: .3rem; color: #d9bd83; font-size: 11px; }
+.reward-run-detail > .section-heading { align-items: center; }
+.reward-evidence { display: grid; grid-template-columns: repeat(4, minmax(120px, 1fr)); gap: .8rem 1.2rem; }
+.reward-evidence dd { margin: .25rem 0 0; font: 13px/1.5 var(--mono); }
+.reward-curve { margin-top: 1.5rem; }
+.reward-curve svg { display: block; width: 100%; height: auto; max-height: 220px; border: 1px solid var(--line); background: #121812; }
+.reward-curve svg text { fill: var(--sage); font: 10px var(--mono); }
+.reward-gain-line { fill: none; stroke: var(--lime); stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.reward-gain-point { fill: var(--lime); }
+.reward-experiments button:focus-visible, .reward-experiments select:focus-visible, .reward-experiments summary:focus-visible { outline: 2px solid #f1d076; outline-offset: 3px; }
+@media(max-width:720px){.reward-counts,.reward-readout dl,.reward-gates,.reward-evidence{grid-template-columns:repeat(2,minmax(0,1fr))}.reward-protocol,.reward-run-detail{padding:.9rem}.reward-experiments>.section-heading{display:grid}}
+@media(max-width:400px){.reward-counts,.reward-readout dl,.reward-gates,.reward-gates dl,.reward-evidence{grid-template-columns:minmax(0,1fr)}}

@@ -1,0 +1,356 @@
+import numpy as np
+import pytest
+
+from bet36fly.brain import LIFEngine
+from bet36fly.reward_brain import RewardEngine
+
+
+def reward_engine(*, n_dan=1, tau_ms=10.0, learning_rate=0.1, bounds=(0.5, 1.5), weight=1.0,
+                  plasticity_onset_ms=0.0, dan_baseline_window_ms=0.0):
+    n = n_dan + 2
+    return RewardEngine(
+        np.array([0, 1] + [1] * (n - 1), np.int64),
+        np.array([n - 1], np.int32),
+        np.array([weight], np.float32),
+        np.array([0], np.int32),
+        np.array([0], np.int32),
+        np.arange(1, 1 + n_dan, dtype=np.int32),
+        np.zeros(n_dan, np.int32),
+        np.array([0], np.int64),
+        np.array([0], np.int32),
+        np.array([0], np.int32),
+        n_compartments=1,
+        tau_ms=tau_ms,
+        learning_rate=learning_rate,
+        gain_bounds=bounds,
+        plasticity_onset_ms=plasticity_onset_ms,
+        dan_baseline_window_ms=dan_baseline_window_ms,
+    )
+
+
+def exact_schedule(steps, *kc_spike_steps):
+    schedule = np.zeros((steps, 1), np.float32)
+    schedule[list(kc_spike_steps), 0] = 5000
+    return schedule
+
+
+def test_disabled_reward_engine_matches_v1_for_constant_schedule():
+    ptr = np.array([0, 1, 2, 2], np.int64)
+    post = np.array([1, 2], np.int32)
+    weights = np.array([160, 160], np.float32)
+    sensory = np.array([0], np.int32)
+    sample = np.arange(3, dtype=np.int32)
+    expected = LIFEngine(ptr, post, weights, sensory).run(
+        np.array([200], np.float32), duration_ms=20, seed=3, sample=sample, bin_ms=4
+    )
+    engine = RewardEngine(
+        ptr,
+        post,
+        weights,
+        sensory,
+        np.array([], np.int32),
+        np.array([], np.int32),
+        np.array([], np.int32),
+        np.array([], np.int64),
+        np.array([], np.int32),
+        np.array([], np.int32),
+        n_compartments=1,
+    )
+    actual = engine.run(
+        np.full((5, 1), 200, np.float32), bin_ms=4, seed=3, plasticity=False, sample=sample
+    )
+
+    for key in ('counts', 'voltage', 'trace', 'population'):
+        np.testing.assert_array_equal(actual[key], expected[key])
+    np.testing.assert_array_equal(actual['trace'].sum(axis=0), actual['counts'])
+    assert actual['population'].sum() == actual['counts'].sum()
+
+
+def test_hand_calculated_kc_then_dan_pulse_depresses_gain():
+    engine = reward_engine()
+    result = engine.run(exact_schedule(6, 0), bin_ms=0.2, teaching_pulses=[(1.0, 0)])
+
+    assert result['dan_counts'].tolist() == [1]
+    assert result['gains'][0] == pytest.approx(1 - 0.1 * np.exp(-0.1), abs=2e-7)
+    np.testing.assert_array_equal(result['gain_delta'], result['gains'] - 1)
+
+
+def test_dan_then_kc_has_opposite_sign_and_coincident_spikes_are_neutral():
+    forward = reward_engine().run(
+        exact_schedule(6, 5), bin_ms=0.2, teaching_pulses=[(0.0, 0)]
+    )
+    backward = reward_engine().run(
+        exact_schedule(6, 0), bin_ms=0.2, teaching_pulses=[(1.0, 0)]
+    )
+    coincident = reward_engine().run(
+        exact_schedule(1, 0), bin_ms=0.2, teaching_pulses=[(0.0, 0)]
+    )
+
+    assert forward['gains'][0] > 1
+    assert backward['gains'][0] < 1
+    assert coincident['gains'][0] == 1
+
+
+def test_missing_kc_or_missing_dan_activity_cannot_change_gain():
+    dan_only = reward_engine().run(
+        exact_schedule(6), bin_ms=0.2, teaching_pulses=[(1.0, 0)]
+    )
+    kc_only = reward_engine().run(exact_schedule(6, 0), bin_ms=0.2)
+
+    assert dan_only['gains'][0] == 1
+    assert kc_only['gains'][0] == 1
+
+
+def test_dan_population_is_mean_normalized():
+    one = reward_engine(n_dan=1).run(
+        exact_schedule(6, 5), bin_ms=0.2, teaching_pulses=[(0.0, 0)]
+    )
+    two = reward_engine(n_dan=2).run(
+        exact_schedule(6, 5), bin_ms=0.2, teaching_pulses=[(0.0, 0), (0.0, 1)]
+    )
+    half = reward_engine(n_dan=2).run(
+        exact_schedule(6, 5), bin_ms=0.2, teaching_pulses=[(0.0, 0)]
+    )
+
+    assert two['gains'][0] == pytest.approx(one['gains'][0], abs=2e-7)
+    assert half['gains'][0] - 1 == pytest.approx((one['gains'][0] - 1) / 2, abs=2e-7)
+    np.testing.assert_array_equal(two['compartment_dan_counts'], [2])
+
+
+def test_traces_reset_but_gains_persist_and_frozen_probes_are_immutable():
+    engine = reward_engine()
+    learned = engine.run(exact_schedule(6, 5), bin_ms=0.2, teaching_pulses=[(0.0, 0)])
+    saved = learned['gains'].copy()
+    no_reward = engine.run(exact_schedule(6, 0), bin_ms=0.2)
+    probe = engine.run(
+        exact_schedule(6, 0), bin_ms=0.2, teaching_pulses=[(1.0, 0)], plasticity=False
+    )
+
+    np.testing.assert_array_equal(no_reward['gains'], saved)
+    np.testing.assert_array_equal(probe['gains'], saved)
+    np.testing.assert_array_equal(engine.gains, saved)
+    assert not np.shares_memory(learned['gains'], engine.gains)
+
+
+def test_gain_changes_affect_sparse_propagation_during_and_after_learning():
+    frozen = reward_engine(learning_rate=1, weight=800).run(
+        exact_schedule(10, 0), bin_ms=0.2, teaching_pulses=[(1.0, 0)], plasticity=False
+    )
+    engine = reward_engine(learning_rate=1, weight=800)
+    learning = engine.run(
+        exact_schedule(10, 0), bin_ms=0.2, teaching_pulses=[(1.0, 0)]
+    )
+    later = engine.run(exact_schedule(10, 0), bin_ms=0.2, plasticity=False)
+
+    assert learning['gains'][0] == 0.5
+    assert frozen['counts'][-1] == 1
+    assert learning['counts'][-1] == 0
+    assert later['counts'][-1] == 0
+
+
+def test_updates_are_bounded_local_and_do_not_mutate_graph_arrays():
+    ptr = np.array([0, 2, 2, 2, 2], np.int64)
+    post = np.array([2, 3], np.int32)
+    weights = np.array([1, -2], np.float32)
+    engine = RewardEngine(
+        ptr, post, weights, np.array([0]), np.array([0]), np.array([1]), np.array([0]),
+        np.array([0, 1]), np.array([0, 0]), np.array([0, 1]), n_compartments=2,
+        tau_ms=10, learning_rate=10, gain_bounds=(0.75, 1.25), gains=np.array([1.1, 0.9]),
+    )
+    result = engine.run(exact_schedule(6, 5), bin_ms=0.2, teaching_pulses=[(0.0, 0)])
+
+    np.testing.assert_array_equal(ptr, [0, 2, 2, 2, 2])
+    np.testing.assert_array_equal(post, [2, 3])
+    np.testing.assert_array_equal(weights, [1, -2])
+    np.testing.assert_array_equal(engine.weights, [1, -2])
+    np.testing.assert_allclose(result['gains'], [1.25, 0.9], atol=1e-7)
+
+
+def test_scheduled_counts_and_sampled_bins_are_exact_without_all_neuron_trace():
+    engine = reward_engine()
+    result = engine.run(exact_schedule(4, 0, 2, 3), bin_ms=0.2, sample=np.array([0, 1]))
+
+    np.testing.assert_array_equal(result['counts'][:2], [3, 0])
+    np.testing.assert_array_equal(result['trace'][:, 0], [1, 0, 1, 1])
+    np.testing.assert_array_equal(result['trace'].sum(axis=0), result['counts'][[0, 1]])
+    assert result['trace'].shape == (4, 2)
+    assert 'spike_bins' not in result
+
+
+def test_teaching_pulses_report_actual_spikes_and_respect_dan_refractory():
+    result = reward_engine().run(
+        exact_schedule(10), bin_ms=0.2, teaching_pulses=[(0.0, 0), (1.0, 0)]
+    )
+
+    np.testing.assert_array_equal(result['pulse_times_ms'], [0, 1])
+    np.testing.assert_array_equal(result['pulse_dan_indices'], [0, 0])
+    np.testing.assert_array_equal(result['dan_counts'], [1])
+
+
+@pytest.mark.parametrize(
+    'mutation',
+    [
+        {'plastic_edge_indices': np.array([0.5])},
+        {'post': np.array([2**32], np.uint64)},
+        {'plastic_edge_indices': np.array([1])},
+        {'plastic_kc_indices': np.array([1])},
+        {'kc_indices': np.array([1])},
+        {'plastic_compartments': np.array([1])},
+        {'dan_compartments': np.array([1])},
+        {'dan_indices': np.array([0])},
+        {'gain_bounds': (0, 1)},
+        {'tau_ms': 0},
+        {'learning_rate': 0},
+        {'learning_rate': -1},
+        {'learning_rate': 1e100},
+        {'gains': np.array([1.6])},
+    ],
+)
+def test_constructor_rejects_invalid_indices_shapes_and_config(mutation):
+    args = dict(
+        ptr=np.array([0, 1, 1, 1]), post=np.array([2]), weights=np.array([1.0]),
+        sensory=np.array([0]), kc_indices=np.array([0]), dan_indices=np.array([1]),
+        dan_compartments=np.array([0]), plastic_edge_indices=np.array([0]),
+        plastic_kc_indices=np.array([0]), plastic_compartments=np.array([0]),
+        n_compartments=1,
+    )
+    args.update(mutation)
+    with pytest.raises(ValueError):
+        RewardEngine(**args)
+
+
+@pytest.mark.parametrize(
+    ('schedule', 'kwargs'),
+    [
+        (np.zeros(1), {}),
+        (np.zeros((1, 2)), {}),
+        (np.array([[np.nan]]), {}),
+        (np.array([[-1.0]]), {}),
+        (np.array([[5000.1]]), {}),
+        (np.zeros((1, 1)), {'dt': 0.1}),
+        (np.zeros((1, 1)), {'bin_ms': 0.3}),
+        (np.zeros((1, 1)), {'teaching_pulses': [(0.1, 0)]}),
+        (np.zeros((1, 1)), {'teaching_pulses': [(0.0, 1)]}),
+        (np.zeros((1, 1)), {'sample': np.array([0.5])}),
+        (np.zeros((1, 1)), {'sample': np.array([2**32], np.uint64)}),
+        (np.zeros((1, 1)), {'seed': 1.5}),
+        (np.zeros((1, 1)), {'seed': -1}),
+        (np.zeros((1, 1)), {'plasticity': 1}),
+        (np.zeros((50_001, 1)), {}),
+    ],
+)
+def test_run_rejects_malformed_or_unsafe_schedules(schedule, kwargs):
+    with pytest.raises(ValueError):
+        reward_engine().run(schedule, **kwargs)
+
+
+def test_external_gain_restore_is_validated_before_native_execution():
+    engine = reward_engine()
+    engine.gains[:] = np.nan
+    with pytest.raises(ValueError):
+        engine.run(exact_schedule(1), bin_ms=0.2)
+
+
+@pytest.mark.parametrize(
+    'replacement',
+    [np.array([1.0], np.float64), np.array([0.4], np.float32), np.ones(2, np.float32)],
+)
+def test_replacing_gain_storage_with_an_invalid_checkpoint_is_rejected(replacement):
+    engine = reward_engine()
+    engine.gains = replacement
+    with pytest.raises(ValueError):
+        engine.run(exact_schedule(1), bin_ms=0.2)
+
+
+def test_graph_inputs_are_snapshotted_read_only_while_gains_remain_writable():
+    ptr = np.array([0, 1, 1, 1], np.int64)
+    post = np.array([2], np.int32)
+    weights = np.array([1.0], np.float32)
+    engine = RewardEngine(
+        ptr, post, weights, np.array([0]), np.array([0]), np.array([1]), np.array([0]),
+        np.array([0]), np.array([0]), np.array([0]), n_compartments=1,
+    )
+    ptr[-1] = 0
+    post[0] = 1
+    weights[0] = 9
+
+    np.testing.assert_array_equal(engine.ptr, [0, 1, 1, 1])
+    np.testing.assert_array_equal(engine.post, [2])
+    np.testing.assert_array_equal(engine.weights, [1])
+    with pytest.raises(ValueError):
+        engine.weights[0] = 2
+    engine.gains[:] = 1.25
+    np.testing.assert_array_equal(engine.gains, [1.25])
+
+
+def tonic_train(periods, period_ms=4.8):
+    # 4.8 ms spacing is well outside the 2.2 ms refractory period, so every pulse spikes.
+    return [(period_ms * k, 0) for k in range(periods)]
+
+
+def slow_engine(**kwargs):
+    # Trace time constant far above the tonic period, as in the sports protocol (500 ms vs ~2.5 ms).
+    return reward_engine(tau_ms=100.0, learning_rate=0.001, **kwargs)
+
+
+def test_tonic_dan_firing_alone_does_not_move_gains_after_baseline_subtraction():
+    # A KC burst late in the trial: the raw rule potentiates it immediately from the tonic
+    # dopamine trace, and the compensating depression is cut off by the trial end.
+    burst = range(2300, 2324)
+    raw = slow_engine().run(exact_schedule(2400, *burst), bin_ms=0.2, teaching_pulses=tonic_train(100))
+    phasic = slow_engine(plasticity_onset_ms=9.6, dan_baseline_window_ms=4.8).run(
+        exact_schedule(2400, *burst), bin_ms=0.2, teaching_pulses=tonic_train(100)
+    )
+
+    assert raw['dan_counts'].tolist() == [100]
+    assert phasic['dan_counts'].tolist() == [100]
+    assert raw['gains'][0] - 1 > 0.3
+    assert phasic['gains'][0] == pytest.approx(1, abs=0.02)
+    assert phasic['compartment_tonic_hz'].tolist() == pytest.approx([1000 / 4.8])
+    assert raw['compartment_tonic_hz'].tolist() == [0]
+
+
+def test_phasic_dan_pulse_above_tonic_baseline_still_depresses_eligible_kc_edges():
+    # Same tonic train plus one extra pulse 3.2 ms after the burst, halfway between tonic pulses.
+    burst = range(2300, 2324)
+    tonic = tonic_train(100)
+    without = slow_engine(plasticity_onset_ms=9.6, dan_baseline_window_ms=4.8).run(
+        exact_schedule(2400, *burst), bin_ms=0.2, teaching_pulses=tonic
+    )
+    with_pulse = slow_engine(plasticity_onset_ms=9.6, dan_baseline_window_ms=4.8).run(
+        exact_schedule(2400, *burst), bin_ms=0.2, teaching_pulses=tonic + [(4.8 * 97.5, 0)]
+    )
+
+    assert without['dan_counts'].tolist() == [100]
+    assert with_pulse['dan_counts'].tolist() == [101]
+    assert with_pulse['gains'][0] < without['gains'][0] - 0.01
+
+
+def test_kc_spikes_before_plasticity_onset_carry_no_eligibility():
+    engine = reward_engine(plasticity_onset_ms=9.6, dan_baseline_window_ms=4.8)
+    early = engine.run(exact_schedule(60, 2), bin_ms=0.2, teaching_pulses=[(10.6, 0)])
+    late = reward_engine(plasticity_onset_ms=9.6, dan_baseline_window_ms=4.8).run(
+        exact_schedule(60, 49), bin_ms=0.2, teaching_pulses=[(10.6, 0)]
+    )
+
+    assert early['gains'][0] == 1
+    assert late['gains'][0] == pytest.approx(1 - 0.1 * np.exp(-4 * 0.2 / 10), abs=2e-7)
+
+
+@pytest.mark.parametrize('kwargs', [
+    {'plasticity_onset_ms': -1},
+    {'plasticity_onset_ms': 1, 'dan_baseline_window_ms': 2},
+    {'dan_baseline_window_ms': -0.2},
+    {'plasticity_onset_ms': 0.3},
+    {'plasticity_onset_ms': float('nan')},
+])
+def test_constructor_rejects_invalid_onset_and_baseline_window(kwargs):
+    with pytest.raises(ValueError):
+        reward_engine(**kwargs)
+
+
+def test_run_rejects_plasticity_onset_at_or_after_trial_end():
+    engine = reward_engine(plasticity_onset_ms=1.2, dan_baseline_window_ms=0.4)
+    with pytest.raises(ValueError):
+        engine.run(exact_schedule(6), bin_ms=0.2)
+    assert engine.run(exact_schedule(7), bin_ms=0.2)['compartment_tonic_hz'].tolist() == [0]

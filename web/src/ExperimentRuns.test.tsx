@@ -61,3 +61,19 @@ it('shows explicit curtailed scope and excludes cancelled metrics from compariso
   expect(tree.find(e => e.props['aria-label'] === 'Execution amendments')).toBeDefined();
   expect(filteredComparisons(data.experiments[0], 'soccer', 'validation')[0].seeds).toHaveLength(0);
 });
+
+it('keeps dopamine-association experiments out of the original v2 matrix and its empty state', () => {
+  const reward = {
+    ...experiment('complete'), id: 'reward-v3-real', kind: 'dopamine-association',
+    jobs: [{ ...experiment('complete').jobs[0], id: 'paired', variant: 'paired' }],
+  } as Experiment;
+  const mixed = index('complete');
+  mixed.experiments = [reward, experiment('complete')];
+  render(); host.receive!(mixed); let tree = elements(render());
+  expect(tree.some(e => e.type === 'button' && String(e.props.children).includes('paired'))).toBe(false);
+  expect(tree.some(e => e.type === 'button' && String(e.props.children).includes('bio-shared-temporal'))).toBe(true);
+
+  host.receive!({ ...mixed, experiments: [reward] }); tree = elements(render());
+  expect(tree.some(e => e.type === 'p' && e.props.children === 'No v2 experiment has started.')).toBe(true);
+  expect(tree.some(e => e.props.className === 'experiment-table')).toBe(false);
+});

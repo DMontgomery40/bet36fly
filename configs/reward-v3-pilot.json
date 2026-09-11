@@ -1,0 +1,40 @@
+{
+  "schema_version": 3,
+  "seed": 42,
+  "train_n": 64,
+  "validation_n": 32,
+  "calibration_n": 16,
+  "duration_ms": 400.0,
+  "stimulus_ms": 300.0,
+  "teaching_ms": 310.0,
+  "bin_ms": 10.0,
+  "plasticity_onset_ms": 100.0,
+  "dan_baseline_window_ms": 50.0,
+  "teaching_pulse_count": 4,
+  "teaching_interval_ms": 20.0,
+  "encoder": "glomerular-tuning-v1",
+  "encoder_peak_hz": 150.0,
+  "encoder_tuning_width": 0.5,
+  "encoder_min_kc_contacts": 100.0,
+  "kc_input_gain": 1.25,
+  "sensory_input_gain": 0.0,
+  "apl_output_gain": 0.25,
+  "global_weight_scale": 0.5,
+  "tau_ms": 500.0,
+  "learning_rate": 0.0005,
+  "gain_bounds": [
+    0.5,
+    1.5
+  ],
+  "wall_seconds": 900.0,
+  "min_kc_active_fraction": 0.001,
+  "max_kc_active_fraction": 0.85,
+  "max_mbon_hz": 400.0,
+  "min_teaching_evoked_fraction": 0.5,
+  "max_kc_code_overlap": 0.5,
+  "arms": [
+    "paired",
+    "shuffled",
+    "frozen"
+  ]
+}

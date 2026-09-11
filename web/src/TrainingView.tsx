@@ -1,4 +1,5 @@
 import ExperimentRuns from './ExperimentRuns';
+import RewardExperiments from './RewardExperiments';
 import Curve from './Curve';
 import { controlRows } from './controls';
 import { date, decimal, number, percent } from './data';
@@ -12,7 +13,7 @@ export default function TrainingView({ data, error, loading }: { data: Training 
   const report = data?.report;
   const controls = controlRows(report?.controls || {});
   return <section className="training-view"><div className="page-heading"><h1>What has it learned?</h1><p>Validation, historical development comparisons, and fresh shadow forecasts.</p></div>
-    <ExperimentRuns/><h2>Archived v1 training reference · active checkpoint</h2>
+    <RewardExperiments/><ExperimentRuns/><h2>Archived v1 training reference · active checkpoint</h2>
     {error && <p role="alert" className="error">{data ? 'Showing last loaded training data. ' : ''}{error}</p>}
     {loading && !data ? <p className="empty">Loading the experiment…</p> : <TrainingProgress progress={data?.progress}/>}
     <div className="training-charts"><Curve curve={report?.curve || data?.progress.curve || []} title={report ? 'Readout learning' : 'Current training stage'}/>{report && <Curve curve={report.plasticity_curve || []} title="Anatomical synapse learning"/>}</div>

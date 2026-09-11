@@ -54,7 +54,7 @@ Runs the real checkpoint through the complete LIF graph and creates/idempotently
 
 Returns `{"experiments":[Experiment],"active_v1":null|CurrentModelPointer,"prospective":Prospective}`. Entries are full atomic manifests, not fabricated summary rows. The active pointer is read separately from the local artifact `output/current-model.json`; the per-experiment `active_v1` is the pointer frozen at experiment creation.
 
-`Experiment` includes:
+The original schema-2 v2 `Experiment` includes:
 
 - `id`, `schema_version:2`, `status`, `created_at`, `updated_at`, and `completed_at` after finalization.
 - `identity`, resolved `protocol`, `protocol_sha256`, `source_hashes`, `graph_hashes`, `code_hashes`, and frozen `active_v1`.
@@ -73,6 +73,40 @@ Final `comparison` entries contain `variant`, `sport`, `split`, `seeds:[Metrics 
 The existing Training tab renders this tracker before the archived v1 report. It polls every five seconds while any job is running and thirty seconds otherwise, preserving the last loaded data on a fetch failure. Run selection exposes measured curves/checkpoints/activity, failure text and downloads. Sport and split selectors label January–August 2026 **Historical development benchmark**. Validation alone chooses the shadow candidate.
 
 ## GET /api/experiments/{experiment_id}
+
+The same read-only registry also serves schema-3 manifests with
+`kind: dopamine-association`. These are rendered in a separate Training panel,
+excluded from the v2 tracker, and have no activation route. Their `identity`
+contains source/code/graph hashes and the resolved protocol. `reward` contains
+anatomy, fixed readout, calibration progress, activity gate, fixed-prior metrics
+and descriptive outcome. Gate fields include `kc_active_fraction`,
+`max_mbon_hz`, `input_discrimination`, `teaching_responsive`,
+`teaching_compartment_spikes`, `teaching_scheduled_spikes`,
+`teaching_evoked_spikes`, `tonic_dan_hz`, `kc_code_overlap` and
+`post_stimulus_kc_active_fraction`. The per-compartment arrays follow anatomical
+compartment order, home then away. A failed gate's `message` names every failed
+guard. Schema-2 protocols add `plasticity_onset_ms`, `dan_baseline_window_ms`,
+`min_teaching_evoked_fraction` and `max_kc_code_overlap`; job `reward_evidence`
+adds `tonic_dan_hz`. Schema-3 protocols add `encoder` (`glomerular-tuning-v1`),
+`encoder_peak_hz`, `encoder_tuning_width`, `encoder_min_kc_contacts`,
+`kc_input_gain`, `sensory_input_gain` and `apl_output_gain`; `reward.encoder`
+names the encoder and `reward.anatomy` adds `kc_input_gain`,
+`sensory_input_gain`, `apl_output_gain`, `apl_body_ids` and an `encoder` summary
+(`glomeruli`, `centers_per_feature`, `center_span`, `floor_fraction`,
+`ports_driven`, `ports_total`, `eligible_transmitter`, `min_kc_contacts`,
+`dropped_glomeruli`, `peak_hz`, `tuning_width` and per-feature `features[]`
+with `glomeruli[] {type, center, cells, kc_contacts}`). Missing evidence remains
+unavailable.
+
+Reward jobs use `paired|shuffled|frozen` variants and `queued|running|complete|failed|budget_stopped`
+statuses. Progress counts training plus evaluation trials. Completed jobs carry
+`metrics.validation.baseball`, `class_confusion` (home/away truth rows and
+home/away prediction columns), `reward_curve`, `reward_evidence`, and
+`evaluation_gains_unchanged`. Evidence includes changed edges, gain bounds,
+activity and separate DAN compartment totals. A stopped job has no completed
+metrics. Registered downloads include per-DAN time bins, gains, matched
+predictions, calibration probes, frozen protocol and report; the existing
+allowlist/hash checks apply. See [the reward protocol](EXPERIMENT_REWARD.md).
 
 Returns the registry-resolved full manifest with `prospective` attached. Only identifiers matching the registry’s bounded alphanumeric/underscore/hyphen form are accepted. The manifest must remain under the experiment root and its stored ID must match the request. Unknown, invalid or escaping IDs return JSON `detail` with HTTP 404. Attached prospective status describes the currently frozen shadow candidate, which may differ from the experiment being inspected.
 
