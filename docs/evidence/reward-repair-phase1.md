@@ -23,8 +23,9 @@ from blank gains; compartment gain sums):
 - Recorded terms: the whole untaught home change sits in the post-offset window, where PPL101
   falls to about 3 Hz against a 38.75 Hz reference measured during the stimulus, so
   `-Kbar * (D - ref)` is positive. Home teaching pulses raised PPL101 to 43 Hz, about the
-  reference, and contributed -0.007 in that window: legacy "home teaching" was the removal of
-  the artifact, not depression.
+  reference, and contributed -0.007 in that window. The legacy matched teaching effect
+  (about -2.3 relative to untaught) is a real negative change, but it consisted of cancelling
+  much of the untaught artifact rather than depressing the exposed synapses below their start.
 
 ## The candidate rule (schema 4, `dan_reference: none`)
 
@@ -41,9 +42,10 @@ Same panel, `diag-candidate-a85a3469301d`, frozen criteria (spec v1.1, section 5
 | Sensory-noise invariance (port spike bins) | pass |
 
 Attribution of the untaught home change (`attribution-diag-candidate-a85a3469301d.json`):
-onset-adjacent bins -0.020; steady stimulus bins -0.118 (the two terms cancel to a few percent);
-post-offset -0.127, all in the first 10 ms after offset, reproduced exactly from the recorded
-eligibility mass and DAN events (-0.2055 predicted vs -0.2066 recorded for the `-Kbar*D` term).
+onset-adjacent bins -0.020; later stimulus bins -0.118 (the two terms cancel to a few percent);
+post-offset -0.127, all in the first 10 ms after offset, predicted approximately at 10 ms
+resolution from the recorded eligibility mass and DAN events (-0.2055 predicted vs -0.2066
+recorded for the `-Kbar*D` term; the per-step check below is exact).
 Normalized cross-correlation between KC and PPL101 spikes per 10 ms bin: +0.49 at lag 0, +0.29
 with the DAN one bin later, +0.09 one bin earlier. PPL101 receives 24,068 of its 39,125 input
 contacts directly from Kenyon cells (13,836 from KCg-m), one from the sensory ports and 925 from

@@ -37,7 +37,8 @@ stimulus because the Kenyon cells drive it directly, and falls to about 3 Hz
 after stimulus offset, so the subtracted signal turned negative after 300 ms and
 potentiated every home synapse with residual eligibility on every untaught or
 away-taught trial (about +2 gain-sum per trial), while home teaching pulses only
-restored the reference rate and netted almost nothing. The schema-4 rule removes
+restored the reference rate: the matched home teaching effect was real (about
+-2.3 relative to untaught) but consisted of cancelling much of that artifact. The schema-4 rule removes
 that artifact by construction. The first pilot (schema 1) had fed raw DAN spikes
 into the rule under a saturated circuit (PPL101 near its refractory ceiling,
 56 percent of KCs firing in every bin); the drift seen there belonged to that
@@ -124,9 +125,9 @@ leak; no bound hits; bounded cumulative untaught change; bit-identical repeats;
 identical sensory noise across conditions. The untaught operational guard
 failed on home: the small untaught change is consistently negative (14 of 16
 trials). Its recorded terms place half of it in the 10 ms after stimulus offset
-(residual PPL101 firing against still-high KC eligibility, reproduced exactly
-from the recorded eligibility mass) and half inside the stimulus, where the two
-rule terms cancel to a few percent; a direct KC to PPL101 pathway in the graph
+(residual PPL101 firing against still-high KC eligibility, reproduced from the
+recorded per-step eligibility mass and DAN events) and half in the later part of
+the stimulus, where the two rule terms cancel to a few percent; a direct KC to PPL101 pathway in the graph
 (24,068 contacts) is a candidate explanation consistent with the observed lag
 asymmetry, not an established cause. This is an open finding (SCI-001) under
 review; conditioning, reversal and readout centering have not been run.
