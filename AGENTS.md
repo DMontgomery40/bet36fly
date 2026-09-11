@@ -8,10 +8,10 @@
 
 ## Where the work stands
 
-- Active line of work: on-circuit dopamine learning, branch `feat/bet36fly-dopamine-learning`. Protocol schema 3: glomerular identity encoder, labeled-line ALPN ports, APL output gain 0.25, KC input gain 1.25, home = PPL101 / MBON11, away = PAM12 / MBON09. Design in `docs/EXPERIMENT_REWARD.md`; measured results and sweep records in `docs/evidence/reward-v3-summary.md`.
+- Active line of work: on-circuit dopamine learning, branch `feat/bet36fly-dopamine-learning`. Protocol schema 3: glomerular identity encoder, labeled-line ALPN ports, APL output gain 0.25, KC input gain 1.25, home = PPL101 / MBON11, away = PAM12 / MBON09. David accepted these on 2026-09-11 as engineered teaching channels with a fixed readout, not as a natural reward/punishment pair; the away-side plasticity mask is to be restricted to supported gamma KC inputs, and home is not to be gamma-filtered by analogy. Design in `docs/EXPERIMENT_REWARD.md`; measured results and sweep records in `docs/evidence/reward-v3-summary.md`.
 - The v1 checkpoint and the v2 decoder experiments are historical. `docs/EXPERIMENT_V2.md` and `docs/evidence/v2-development-summary.md` record why they stalled (input saturation; every neural model at the base rate). Do not resume them.
 - The drive gains were set by sweeps and are not the current blocker. Do not retune them. APL output below 0.25 or KC input above 1.5 at weight scale 0.5 re-enters runaway.
-- Open problems are the fixed readout's centering and the depression of the KC core shared across games. The reward summary and the memory handoff list the next steps in order.
+- Open problem is the learning mechanism itself: the dopamine rule and its trace semantics, then the away plasticity mask, then conditioning and reversal with proper controls. Readout centering is evaluated only after those gates pass. Encoder redesign, closing-odds scoring and larger sports pilots are deferred.
 - Every code or protocol change produces a new experiment identity. Never rerun an existing identity and report it as new.
 
 ## Sources
