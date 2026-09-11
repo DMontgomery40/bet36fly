@@ -1,15 +1,16 @@
 const { chromium } = require('playwright');
 const fs = require('fs'), assert = require('assert/strict'), crypto = require('crypto'), path = require('path');
 const output = path.resolve(process.argv[2] || 'output/browser/reward-v3');
+const base = process.env.BET36FLY_BASE_URL || 'http://127.0.0.1:8765';
 fs.mkdirSync(output, {recursive:true});
 (async () => {
  const browser = await chromium.launch({headless:true});
  const page = await browser.newPage({viewport:{width:1440,height:1100}});
  const errors=[];page.on('pageerror',e=>errors.push(e.message));
- await page.goto('http://127.0.0.1:8765/#training');
+ await page.goto(base+'/#training');
  const panel=page.getByRole('region',{name:'On-circuit reward learning experiments'});
  await panel.getByText('Common-seed input discrimination',{exact:true}).waitFor();
- const state=await page.request.get('http://127.0.0.1:8765/api/experiments').then(r=>r.json());
+ const state=await page.request.get(base+'/api/experiments').then(r=>r.json());
  const rewards=state.experiments.filter(x=>x.kind==='dopamine-association');
  const completed=rewards.filter(x=>x.status==='complete');
  const reward=completed[completed.length-1];
@@ -57,7 +58,7 @@ fs.mkdirSync(output, {recursive:true});
  await panel.getByRole('region',{name:'Selected reward arm details'}).screenshot({path:path.join(output,'bet36fly-reward-arm.png')});
  const downloads=[];
  for(const artifact of Object.values(reward.artifacts)) {
-  const response=await page.request.get('http://127.0.0.1:8765'+artifact.url);
+  const response=await page.request.get(base+artifact.url);
   assert.equal(response.status(),200);
   const content=await response.body();
   assert.equal(crypto.createHash('sha256').update(content).digest('hex'),artifact.sha256);
@@ -92,7 +93,7 @@ fs.mkdirSync(output, {recursive:true});
    }
    await route.fulfill({status:200,contentType:'application/json',body:JSON.stringify(data)});
   });
-  await test.goto('http://127.0.0.1:8765/#training',{waitUntil:'domcontentloaded'});
+  await test.goto(base+'/#training',{waitUntil:'domcontentloaded'});
   const area=test.getByRole('region',{name:'On-circuit reward learning experiments'});
   const wanted=mode==='loading'?'Loading reward experiment registry…':mode==='empty'?'No dopamine-association experiment has started.':mode==='error'?'Browser acceptance simulated registry failure':'Browser acceptance fixture: '+mode;
   await area.getByText(wanted,{exact:false}).first().waitFor();

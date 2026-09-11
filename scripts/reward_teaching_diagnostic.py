@@ -232,7 +232,7 @@ def main():
                    cumulative_rows=cumulative_rows, wall_seconds=time.time() - started)
     np.savez(out / 'trials.npz', **retained, cumulative_final_gains=final_gains, blank_gains=blank,
              plastic_compartments=pc, plastic_kc_indices=pk, plastic_groups=groups, kc_classes=classes,
-             dan_compartments=dcomp, sampled=sampled)
+             plastic_mask=engine.plastic_mask.copy(), dan_compartments=dcomp, sampled=sampled)
     atomic_json(out / 'summary.json', summary)
     if args.evidence:
         args.evidence.mkdir(parents=True, exist_ok=True)
