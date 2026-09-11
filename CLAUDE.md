@@ -1,9 +1,5 @@
-# CRITICAL REMINDER: THIS IS A BIOLOGICAL FRUIT-FLY SIMULATION, NOT AN LLM
+# bet36fly
 
-> **NEVER FORGET THE BIOLOGY. This project uses the new September 2026 Google Research/HHMI Janelia male fruit-fly connectome release. Read the upstream documentation and check current research and community findings—even information shared within the last hour—before making relevant design decisions or claims.**
-
-The shared project instructions below are mandatory. They distinguish the biological wiring, implemented simulation mechanisms, and engineered sports interfaces, and require explicit consideration of biological reward learning rather than default LLM assumptions.
-
-**Backend changes must be reflected in the frontend in the same task. Update affected contracts, controls, displays and explanations, and verify the visible workflow before declaring completion.**
+A spiking simulation of the male fruit-fly brain, wired from the MaleCNS v1.0 connectome (Google Research / HHMI Janelia, announced 2026-09-03), used as a sports-outcome learner. It is not a language model and it is not a classifier with a fitted decoder. Learning happens inside the circuit through a dopamine rule at Kenyon-cell-to-MBON synapses.
 
 @AGENTS.md

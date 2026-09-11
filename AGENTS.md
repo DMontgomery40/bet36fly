@@ -1,32 +1,31 @@
-# CRITICAL PROJECT IDENTITY: THIS IS NOT AN LLM
+# Working rules for bet36fly
 
-> **NEVER FORGET: BET36FLY IS A SIMULATION OF A BIOLOGICAL FRUIT-FLY NEURAL CIRCUIT, BUILT ON REAL CONNECTOME DATA. IT IS NOT A LARGE LANGUAGE MODEL.**
->
-> **READ THE UPSTREAM BRAIN DOCUMENTATION AND CHECK CURRENT FINDINGS BEFORE MAKING BIOLOGICAL OR ARCHITECTURAL CLAIMS. DO NOT SUBSTITUTE GENERIC LLM ASSUMPTIONS FOR UNDERSTANDING THIS SYSTEM.**
+## Identity
 
-## Mandatory: backend and frontend must stay in sync
+- The circuit is the male CNS connectome. `docs/connectome-source-lock.json` pins the exact v1.0 files. Do not confuse it with the older female FlyWire datasets or with any Google language model.
+- Reason in neurons, spikes, anatomical connectivity, neuromodulators and biological learning rules. The sports encoder and the MBON readout are engineered interfaces around the circuit. A conventional feature baseline is a comparator; improving it says nothing about the fly.
+- Keep three things separate in every claim: biology documented in real flies, information present in the released dataset, and mechanisms implemented in this simulator. Inspect the code before saying a mechanism exists, is absent, cannot work, or explains a result. An unimplemented mechanism is a gap, not evidence against the biological approach.
 
-**A backend change is not complete until the frontend accurately reflects the resulting behavior and capabilities. Deliver both together.**
+## Where the work stands
 
-- Trace every backend change through its API contracts, frontend types/data handling, controls, status displays, charts, results and explanatory text. Update every affected surface in the same task.
-- Expose relevant new capabilities and results in the existing user workflow. Do not leave working backend functionality hidden behind an outdated frontend or display stale model, training, experiment or prediction information.
-- Verify the affected browser workflow against the backend, including applicable loading, empty, error and completed states. Backend tests and a successful frontend build alone do not establish that the visible experience works.
-- For internal changes with no frontend impact, verify that the existing frontend remains accurate and compatible; do not invent cosmetic changes. Report any unfinished frontend work explicitly instead of claiming the change is complete.
+- Active line of work: on-circuit dopamine learning, branch `feat/bet36fly-dopamine-learning`. Protocol schema 3: glomerular identity encoder, labeled-line ALPN ports, APL output gain 0.25, KC input gain 1.25, home = PPL101 / MBON11, away = PAM12 / MBON09. Design in `docs/EXPERIMENT_REWARD.md`; measured results and sweep records in `docs/evidence/reward-v3-summary.md`.
+- The v1 checkpoint and the v2 decoder experiments are historical. `docs/EXPERIMENT_V2.md` and `docs/evidence/v2-development-summary.md` record why they stalled (input saturation; every neural model at the base rate). Do not resume them.
+- The drive gains were set by sweeps and are not the current blocker. Do not retune them. APL output below 0.25 or KC input above 1.5 at weight scale 0.5 re-enters runaway.
+- Open problems are the fixed readout's centering and the depression of the KC core shared across games. The reward summary and the memory handoff list the next steps in order.
+- Every code or protocol change produces a new experiment identity. Never rerun an existing identity and report it as new.
 
-## Start from the biological system
+## Sources
 
-- The project's anatomical foundation is the male fruit-fly brain and central nervous system connectome announced by Google Research, HHMI Janelia and collaborators on **September 3, 2026**. This was a new release when this project began. Keep its identity and release date explicit; do not confuse it with older female FlyWire datasets or a Google language model. [Official Google release](https://research.google/blog/a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain/).
-- Reason about neurons, spikes, anatomical connectivity, sensory encoding, neural readouts and biological learning mechanisms. The sports encoder and decoder are engineered interfaces around that circuit. A conventional feature baseline is a comparator; improving it alone does not demonstrate an improvement to the fly.
-- When considering learning, explicitly investigate dopamine and other neuromodulators, receptor-dependent effects, mushroom-body circuits, synaptic plasticity, eligibility traces and reinforcement mechanisms where relevant. Do not dismiss biological reward learning or reduce the user's request to LLM training or merely fitting an external betting policy.
-- Distinguish **biology documented in real flies**, **information present in the released dataset**, and **mechanisms actually implemented in this simulator**. The wiring map does not automatically implement every biological process. Inspect the relevant code before saying a mechanism exists, is absent, cannot work, or explains a result. An omitted mechanism is an implementation gap, not evidence that the biological approach fails.
+- Before substantive decisions about neural dynamics, learning, stimulation, readouts, or explanations of a failed run, read the primary sources: the [male CNS resource](https://male-cns.janelia.org/), the [Shiu reference simulator](https://github.com/philshiu/Drosophila_brain_model), and the links in `docs/MODEL_CARD.md` and `docs/FLY_GUIDE.md`. Check for current releases, issues and community results; new information can be recent.
+- Record URL, version and date checked in `docs/evidence`. Distinguish a community report from an inspected implementation from a reproduced result. The peer-reviewed anchors are Shiu et al. 2024 (female FlyWire) and the mushroom-body learning literature. No peer-reviewed LIF work on the male CNS exists yet; days-old hobby repos are starting points to verify on our own simulator, not authorities.
+- Keep checks targeted and bounded. This does not authorize continuous polling, account changes, or unbounded research.
 
-## Treat upstream knowledge as actively evolving
+## Backend and frontend together
 
-Before substantive decisions about neural dynamics, learning, stimulation, readouts, or explanations of experimental failure:
+A backend change is not complete until the frontend reflects it. Trace each change through the API contract (`docs/api-contract.md`), frontend types, controls, status displays, charts, results and explanatory text, and update every affected surface in the same task. Verify the browser workflow against the backend, including loading, empty, error and completed states. Backend tests and a green build do not establish that the visible experience works. For internal changes with no frontend impact, confirm the existing frontend is still accurate; do not invent cosmetic changes.
 
-1. Read the relevant official Google/Janelia release and dataset documentation, original model papers, and upstream implementation documentation/code. Verify which dataset, model and version a claim concerns. Start with the [male CNS resource](https://male-cns.janelia.org/), [published reference simulator](https://github.com/philshiu/Drosophila_brain_model), and the source links in `docs/MODEL_CARD.md` and `docs/FLY_GUIDE.md`.
-2. Check current releases, commits, issues, discussions, and relevant public research/community forums or channels for successful approaches, failures, corrections and known limitations. Useful information may have appeared **today or within the last hour**. Do not rely solely on model training knowledge, old summaries, or an earlier session's search.
-3. Record source URLs, versions and the date/time checked. Distinguish a community report from an inspected implementation and a reproduced result. Prefer primary evidence and reproducible experiments; do not present an anecdote as established success or claim to have read inaccessible channels.
-4. Keep checks targeted and bounded. Reuse verified findings while fresh; refresh them when a new decision depends on current information. This instruction does not authorize continuous polling, account changes, external messages, or unbounded research.
+## Verification and git
 
-**Carry this biological identity and source-checking requirement into every relevant handoff. Never silently turn this project into a generic LLM or classifier exercise.**
+- `make verify` runs pytest, Ruff, vitest and the vite build. Rebuild `web` before any browser check. The reward-panel browser check is `scripts/verify_reward_browser.cjs` (Playwright).
+- State what ran, what passed and what is unverified when finishing.
+- Commit locally on the working branch. David decides when to push.
