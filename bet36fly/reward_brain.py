@@ -20,6 +20,7 @@ from .connectome import ROOT
 _BUILD_LOCK = threading.Lock()
 _MAX_SCHEDULE_VALUES = 50_000_000
 _MAX_TRACE_VALUES = 50_000_000
+SIGNAL_WIDTH, KC_SIGNAL_WIDTH, RULE_WIDTH = 4, 2, 7
 
 
 def _native_library():
@@ -41,6 +42,7 @@ def _native_library():
     i32 = np.ctypeslib.ndpointer(dtype=np.int32, flags='C_CONTIGUOUS')
     i64 = np.ctypeslib.ndpointer(dtype=np.int64, flags='C_CONTIGUOUS')
     f32 = np.ctypeslib.ndpointer(dtype=np.float32, flags='C_CONTIGUOUS')
+    f64 = np.ctypeslib.ndpointer(dtype=np.float64, flags='C_CONTIGUOUS')
     lib.simulate_reward.argtypes = [
         ctypes.c_int, i64, i32, f32, ctypes.c_int, i32, f32, ctypes.c_int,
         ctypes.c_int, ctypes.c_float, ctypes.c_uint64, ctypes.c_int, i32,
@@ -49,6 +51,7 @@ def _native_library():
         ctypes.c_int, ctypes.c_int, f32,
         ctypes.c_int, i32, i32, ctypes.c_int, i32, ctypes.c_int,
         i32, f32, i32, i32, i32, i32,
+        ctypes.c_int, ctypes.c_int, i32, f64, f64, f64, f32,
     ]
     lib.simulate_reward.restype = ctypes.c_int
     return lib
@@ -207,12 +210,15 @@ class RewardEngine:
         seed=42,
         plasticity=True,
         sample=None,
+        record=False,
+        plastic_groups=None,
     ):
         if (
             not isinstance(seed, (int, np.integer))
             or isinstance(seed, (bool, np.bool_))
             or not 0 <= int(seed) <= np.iinfo(np.uint64).max
             or not isinstance(plasticity, (bool, np.bool_))
+            or not isinstance(record, (bool, np.bool_))
         ):
             raise ValueError('seed must be an unsigned 64-bit integer and plasticity must be boolean.')
         rates = np.ascontiguousarray(rate_schedule, dtype=np.float32)
@@ -242,6 +248,18 @@ class RewardEngine:
             or rates.shape[0] * len(sample) > _MAX_TRACE_VALUES
         ):
             raise ValueError('Invalid or excessively large sampled trace request.')
+        n_plastic = len(self.plastic_edge_indices)
+        if plastic_groups is None:
+            groups = np.zeros(n_plastic, np.int32)
+        else:
+            groups = _integer_array(plastic_groups, np.int32, 'plastic_groups')
+        if groups.shape != (n_plastic,) or (groups.size and groups.min() < 0):
+            raise ValueError('plastic_groups must give one nonnegative group id per plastic edge.')
+        n_groups = int(groups.max()) + 1 if groups.size else 1
+        n_bins = rates.shape[0]
+        if record and (n_bins * n_groups * RULE_WIDTH > _MAX_TRACE_VALUES
+                       or n_bins * max(len(self.kc_indices), 1) > _MAX_TRACE_VALUES):
+            raise ValueError('Excessively large instrumentation request.')
         pulses = np.asarray(teaching_pulses)
         if pulses.size == 0:
             pulses = np.empty((0, 2), np.float64)
@@ -276,6 +294,16 @@ class RewardEngine:
         tonic = np.zeros(self.n_compartments, np.float32)
         gains_before = self.gains.copy()
         native_gains = self.gains if plasticity else self.gains.copy()
+        if record:
+            signal_bins = np.zeros((n_bins, self.n_compartments, SIGNAL_WIDTH), np.float64)
+            kc_signal_bins = np.zeros((n_bins, KC_SIGNAL_WIDTH), np.float64)
+            rule_bins = np.zeros((n_bins, n_groups, RULE_WIDTH), np.float64)
+            kc_trace_bins = np.zeros((n_bins, len(self.kc_indices)), np.float32)
+        else:
+            signal_bins = np.zeros(0, np.float64)
+            kc_signal_bins = np.zeros(0, np.float64)
+            rule_bins = np.zeros(0, np.float64)
+            kc_trace_bins = np.zeros(0, np.float32)
         start = time.perf_counter()
         result = self.lib.simulate_reward(
             self.n, self.ptr, self.post, self.weights, len(self.sensory), self.sensory, rates, bin_steps,
@@ -287,6 +315,7 @@ class RewardEngine:
             tonic, len(pulse_steps), native_pulse_steps,
             native_pulse_dans, len(sample), sample, bin_steps, counts, voltage, trace, population,
             dan_counts, compartment_counts,
+            int(record), n_groups, groups, signal_bins, kc_signal_bins, rule_bins, kc_trace_bins,
         )
         if result:
             raise RuntimeError('Native reward simulation failed.')
@@ -308,4 +337,13 @@ class RewardEngine:
             'dt': dt,
             'bin_ms': float(bin_ms),
             'wall_seconds': time.perf_counter() - start,
+            'instrumentation': dict(
+                signal_bins=signal_bins, kc_signal_bins=kc_signal_bins, rule_bins=rule_bins,
+                kc_trace_bins=kc_trace_bins, plastic_groups=groups,
+                layout=dict(signal_bins=['dan_mean_spikes', 'dan_trace_end', 'dan_signal_after_reference',
+                                         'reference_per_step'],
+                            kc_signal_bins=['kc_spikes', 'kc_trace_mass_end'],
+                            rule_bins=['term_dbar_k', 'term_kbar_d', 'applied', 'clipped_low', 'clipped_high',
+                                       'kc_events_on_edges', 'kbar_mass_on_edges_end']),
+            ) if record else None,
         }

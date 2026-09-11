@@ -354,3 +354,90 @@ def test_run_rejects_plasticity_onset_at_or_after_trial_end():
     with pytest.raises(ValueError):
         engine.run(exact_schedule(6), bin_ms=0.2)
     assert engine.run(exact_schedule(7), bin_ms=0.2)['compartment_tonic_hz'].tolist() == [0]
+
+
+# --- Stage A instrumentation: recording-only buffers must not alter dynamics ---
+
+RECORD_KEYS = ('counts', 'voltage', 'trace', 'population', 'dan_counts', 'compartment_dan_counts',
+               'compartment_tonic_hz', 'gains', 'gain_delta')
+
+
+@pytest.mark.parametrize('plasticity', [True, False])
+def test_recording_does_not_change_dynamics_or_gains(plasticity):
+    burst = range(2300, 2324)
+    kwargs = dict(bin_ms=0.2, teaching_pulses=tonic_train(100), plasticity=plasticity, sample=np.array([0, 1]))
+    plain = slow_engine(plasticity_onset_ms=9.6, dan_baseline_window_ms=4.8).run(
+        exact_schedule(2400, *burst), **kwargs
+    )
+    recorded = slow_engine(plasticity_onset_ms=9.6, dan_baseline_window_ms=4.8).run(
+        exact_schedule(2400, *burst), record=True, **kwargs
+    )
+
+    for key in RECORD_KEYS:
+        np.testing.assert_array_equal(recorded[key], plain[key], err_msg=key)
+    assert plain['instrumentation'] is None
+    rec = recorded['instrumentation']
+    assert rec['signal_bins'].shape == (2400, 1, 4)
+    assert rec['kc_signal_bins'].shape == (2400, 2)
+    assert rec['rule_bins'].shape == (2400, 1, 7)
+    assert rec['kc_trace_bins'].shape == (2400, 1)
+    assert np.isfinite(rec['rule_bins']).all() and np.isfinite(rec['signal_bins']).all()
+    assert rec['rule_bins'][:, 0, 2].sum() == pytest.approx(float(recorded['gain_delta'][0]), abs=1e-6)
+    assert rec['kc_signal_bins'][:, 0].sum() == recorded['counts'][0]
+    assert rec['signal_bins'][:, 0, 0].sum() == recorded['dan_counts'][0]
+    if not plasticity:
+        assert not rec['rule_bins'][:, :, :3].any()
+
+
+def test_recorded_rule_terms_match_hand_calculation():
+    engine = reward_engine()
+    result = engine.run(exact_schedule(6, 0), bin_ms=0.2, teaching_pulses=[(1.0, 0)], record=True)
+    rec = result['instrumentation']
+    decay = np.exp(-5 * 0.2 / 10)
+
+    # KC spike at step 0, DAN spike at step 5 (one bin per step).
+    np.testing.assert_array_equal(rec['kc_signal_bins'][:, 0], [1, 0, 0, 0, 0, 0])
+    np.testing.assert_array_equal(rec['signal_bins'][:, 0, 0], [0, 0, 0, 0, 0, 1])
+    assert rec['kc_trace_bins'][0, 0] == pytest.approx(1.0)
+    assert rec['kc_trace_bins'][5, 0] == pytest.approx(decay, abs=1e-6)
+    assert rec['kc_signal_bins'][5, 1] == pytest.approx(decay, abs=1e-6)
+    assert rec['signal_bins'][5, 0, 1] == pytest.approx(1.0)          # Dbar after the DAN spike
+    assert rec['signal_bins'][5, 0, 3] == 0                           # no reference without a baseline window
+    assert rec['rule_bins'][5, 0, 0] == 0                             # Dbar*K term: no KC spike at step 5
+    assert rec['rule_bins'][5, 0, 1] == pytest.approx(-0.1 * decay, abs=1e-6)   # -Kbar*D term
+    assert rec['rule_bins'][5, 0, 2] == pytest.approx(float(result['gain_delta'][0]), abs=1e-7)
+    np.testing.assert_array_equal(rec['rule_bins'][:, 0, 3:5], 0)     # nothing clipped
+    np.testing.assert_array_equal(rec['rule_bins'][:, 0, 5], [1, 0, 0, 0, 0, 0])   # KC events on edges
+    assert rec['rule_bins'][:5, 0, :3].sum() == 0
+    np.testing.assert_array_equal(rec['plastic_groups'], [0])
+
+
+def test_recorded_groups_split_edges_and_count_clipping():
+    ptr = np.array([0, 2, 2, 2, 2], np.int64)
+    post = np.array([2, 3], np.int32)
+    engine = RewardEngine(
+        ptr, post, np.array([1, -2], np.float32), np.array([0]), np.array([0]), np.array([1]), np.array([0]),
+        np.array([0, 1]), np.array([0, 0]), np.array([0, 1]), n_compartments=2,
+        tau_ms=10, learning_rate=10, gain_bounds=(0.75, 1.25), gains=np.array([1.1, 0.9]),
+    )
+    result = engine.run(exact_schedule(6, 5), bin_ms=0.2, teaching_pulses=[(0.0, 0)], record=True,
+                        plastic_groups=np.array([3, 1], np.int32))
+    rec = result['instrumentation']
+    attempted = 10 * np.exp(-5 * 0.2 / 10)
+
+    assert rec['rule_bins'].shape == (6, 4, 7)
+    assert rec['rule_bins'][5, 3, 0] == pytest.approx(attempted, abs=1e-5)
+    assert rec['rule_bins'][5, 3, 2] == pytest.approx(1.25 - 1.1, abs=1e-6)
+    assert rec['rule_bins'][5, 3, 4] == 1 and rec['rule_bins'][5, 3, 3] == 0
+    assert rec['rule_bins'][5, 3, 6] == pytest.approx(1.0)   # Kbar mass at bin end includes this step's KC spike
+    assert rec['rule_bins'][5, 1, 6] == pytest.approx(1.0)   # edge 1 shares the KC but sits in group 1
+    assert not rec['rule_bins'][:, [0, 2], :].any()
+    assert rec['rule_bins'][5, 1, 5] == 1                     # the shared KC's spike is an event on edge 1 too
+    assert not rec['rule_bins'][:, 1, :5].any()               # but no rule term reaches the DAN-less compartment
+    np.testing.assert_allclose(result['gains'], [1.25, 0.9], atol=1e-7)
+
+
+@pytest.mark.parametrize('groups', [np.array([0, 0]), np.array([-1]), np.array([0.5]), np.array([2**40])])
+def test_record_rejects_misaligned_groups(groups):
+    with pytest.raises(ValueError):
+        reward_engine().run(exact_schedule(1), bin_ms=0.2, record=True, plastic_groups=groups)
