@@ -95,8 +95,18 @@ names the encoder and `reward.anatomy` adds `kc_input_gain`,
 (`glomeruli`, `centers_per_feature`, `center_span`, `floor_fraction`,
 `ports_driven`, `ports_total`, `eligible_transmitter`, `min_kc_contacts`,
 `dropped_glomeruli`, `peak_hz`, `tuning_width` and per-feature `features[]`
-with `glomeruli[] {type, center, cells, kc_contacts}`). Missing evidence remains
-unavailable.
+with `glomeruli[] {type, center, cells, kc_contacts}`). Schema-4 protocols add
+`dan_reference` (`none`: the raw compartment-mean DAN spike count enters both
+rule terms; `tonic-baseline`: the schema-2/3 subtraction, kept for comparison)
+and `away_plasticity_mask` (`all` or `gamma`); `reward.rule` names the
+implemented rule (`event-biphasic-kc-dan-raw-v3` or
+`event-biphasic-kc-dan-phasic-v2`), `reward.dan_reference` and
+`reward.away_plasticity_mask` echo the protocol, `reward.anatomy.dan_reference`
+records the engine mode, `reward.anatomy.plasticity_mask` holds a `home` and an
+`away` audit (`policy`, `eligible_edges`, `excluded_edges`, `by_class {gamma,
+apbp, ab, other}`, `ambiguous_labels[]`) and each compartment adds
+`eligible_edges`. `tonic_dan_hz` is measured in both modes and subtracted only
+under `tonic-baseline`. Missing evidence remains unavailable.
 
 Reward jobs use `paired|shuffled|frozen` variants and `queued|running|complete|failed|budget_stopped`
 statuses. Progress counts training plus evaluation trials. Completed jobs carry

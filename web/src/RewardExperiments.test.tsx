@@ -238,3 +238,31 @@ it('shows the glomerular identity encoder, its feature map and the KC input gain
   expect(legacyHtml).not.toContain('Cell-type input gains');
   expect(legacyHtml).not.toContain('Feature-to-glomerulus map');
 });
+
+it('names the raw dopamine reference and the away eligibility mask of a schema-4 run', () => {
+  const raw = reward();
+  raw.protocol = { ...raw.protocol, dan_reference: 'none', away_plasticity_mask: 'gamma' };
+  raw.reward!.dan_reference = 'none';
+  raw.reward!.away_plasticity_mask = 'gamma';
+  raw.reward!.anatomy!.plasticity_mask = {
+    home: { policy: 'all', eligible_edges: 51, excluded_edges: 0, by_class: { gamma: 20, apbp: 5, ab: 26, other: 0 }, ambiguous_labels: [] },
+    away: { policy: 'gamma', eligible_edges: 28, excluded_edges: 12, by_class: { gamma: 28, apbp: 10, ab: 1, other: 1 }, ambiguous_labels: [''] },
+  };
+  raw.reward!.anatomy!.compartments = raw.reward!.anatomy!.compartments.map((c, i) => ({ ...c, eligible_edges: i ? 28 : 51 }));
+  const html = view(index([raw]), '', 'paired');
+  expect(html).toContain('Raw dopamine drive');
+  expect(html).toContain('measured and reported, not subtracted');
+  expect(html).not.toContain('tonic firing carries no teaching');
+  expect(html).toContain('Away eligibility mask (gamma)');
+  expect(html).toContain('28 of 40 away edges may update');
+  expect(html).toContain('12 excluded: 10 alpha-prime/beta-prime, 1 alpha/beta, 1 unclassified');
+  expect(html).toContain('excluded edges keep transmitting');
+  expect(html).toContain('Home is not filtered (51 of 51)');
+  expect(html).toContain('<dt>Plastic edges (eligible / listed)</dt><dd>79 / 91</dd>');
+  const legacyRule = reward();
+  legacyRule.protocol = { ...legacyRule.protocol, dan_reference: 'tonic-baseline', away_plasticity_mask: 'all' };
+  const legacyHtml = view(index([legacyRule]), '', 'paired');
+  expect(legacyHtml).toContain('Phasic dopamine drive');
+  expect(legacyHtml).not.toContain('Away eligibility mask');
+  expect(legacyHtml).toContain('<dt>Eligible graph edges</dt><dd>91</dd>');
+});

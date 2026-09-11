@@ -56,7 +56,7 @@ def _native_library():
         ctypes.c_int, i32, i32, ctypes.c_int, i32, ctypes.c_int,
         i32, f32, i32, i32, i32, i32,
         ctypes.c_int, ctypes.c_int, i32, f64, f64, f64, f32,
-        ctypes.c_int, u8, f32,
+        ctypes.c_int, u8, f32, f32,
     ]
     lib.simulate_reward.restype = ctypes.c_int
     return lib
@@ -283,8 +283,10 @@ class RewardEngine:
             raise ValueError('n_groups must be an integer at least one more than the largest group id.')
         n_groups = int(n_groups)
         n_bins = rates.shape[0]
+        steps_total = n_bins * bin_steps
         if record and (n_bins * n_groups * RULE_WIDTH > _MAX_TRACE_VALUES
-                       or n_bins * max(len(self.kc_indices), 1) > _MAX_TRACE_VALUES):
+                       or n_bins * max(len(self.kc_indices), 1) > _MAX_TRACE_VALUES
+                       or steps_total * n_groups * 2 > _MAX_TRACE_VALUES):
             raise ValueError('Excessively large instrumentation request.')
         pulses = np.asarray(teaching_pulses)
         if pulses.size == 0:
@@ -325,8 +327,10 @@ class RewardEngine:
             kc_signal_bins = np.zeros((n_bins, KC_SIGNAL_WIDTH), np.float64)
             rule_bins = np.zeros((n_bins, n_groups, RULE_WIDTH), np.float64)
             kc_trace_bins = np.zeros((n_bins, len(self.kc_indices)), np.float32)
-            step_signals = np.zeros((steps, 1 + self.n_compartments), np.float32)
+            step_signals = np.zeros((steps, 1 + 2 * self.n_compartments), np.float32)
+            step_rule = np.zeros((steps, n_groups, 2), np.float32)
         else:
+            step_rule = np.zeros(0, np.float32)
             signal_bins = np.zeros(0, np.float64)
             kc_signal_bins = np.zeros(0, np.float64)
             rule_bins = np.zeros(0, np.float64)
@@ -344,7 +348,7 @@ class RewardEngine:
             native_pulse_dans, len(sample), sample, bin_steps, counts, voltage, trace, population,
             dan_counts, compartment_counts,
             int(record), n_groups, groups, signal_bins, kc_signal_bins, rule_bins, kc_trace_bins,
-            DAN_REFERENCE_MODES[self.dan_reference], self.plastic_mask, step_signals,
+            DAN_REFERENCE_MODES[self.dan_reference], self.plastic_mask, step_signals, step_rule,
         )
         if result:
             raise RuntimeError('Native reward simulation failed.')
@@ -368,8 +372,10 @@ class RewardEngine:
             'wall_seconds': time.perf_counter() - start,
             'instrumentation': dict(
                 signal_bins=signal_bins, kc_signal_bins=kc_signal_bins, rule_bins=rule_bins,
-                kc_trace_bins=kc_trace_bins, step_signals=step_signals, plastic_groups=groups,
-                layout=dict(step_signals=['kc_spikes', 'dan_mean_spikes_per_compartment...'],signal_bins=['dan_mean_spikes', 'dan_trace_end', 'dan_signal_after_reference',
+                kc_trace_bins=kc_trace_bins, step_signals=step_signals, step_rule=step_rule,
+                plastic_groups=groups,
+                layout=dict(step_signals=['kc_spikes', 'dan_mean_spikes per compartment', 'dan_trace_as_used per compartment'],
+                            step_rule=['kc_impulses_on_eligible_edges', 'kbar_mass_on_eligible_edges_as_used'],signal_bins=['dan_mean_spikes', 'dan_trace_end', 'dan_signal_after_reference',
                                          'reference_per_step'],
                             kc_signal_bins=['kc_spikes', 'kc_trace_mass_end'],
                             rule_bins=['term_dbar_k', 'term_kbar_d', 'applied', 'clipped_low', 'clipped_high',

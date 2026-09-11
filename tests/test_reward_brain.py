@@ -455,13 +455,38 @@ def test_record_accepts_an_explicit_group_count_and_rejects_a_short_one():
 
 # --- per-step population event recording (SCI-001 follow-up) ---
 
-def test_recording_includes_per_step_population_events():
-    result = reward_engine(n_dan=2).run(exact_schedule(6, 0, 3), bin_ms=0.2, teaching_pulses=[(1.0, 0)], record=True)
-    steps = result['instrumentation']['step_signals']
+def test_recording_includes_per_step_population_events_and_eligibility():
+    # KC spikes at steps 0 and 3; one of two DANs fires at step 1. Trace columns hold the values the
+    # update USED at that step (after the step-start decay, before the step's own increments).
+    result = reward_engine(n_dan=2).run(exact_schedule(6, 0, 3), bin_ms=0.2, teaching_pulses=[(0.2, 0)], record=True)
+    rec = result['instrumentation']
+    steps, rule = rec['step_signals'], rec['step_rule']
+    decay = np.exp(-0.2 / 10)
 
-    assert steps.shape == (6, 2)                                   # KC spikes, then one column per compartment
+    assert steps.shape == (6, 3)                                   # KC spikes, D per compartment, Dbar used
     np.testing.assert_array_equal(steps[:, 0], [1, 0, 0, 1, 0, 0])
-    np.testing.assert_array_equal(steps[:, 1], [0, 0, 0, 0, 0, 0.5])  # one of two DANs fired: compartment mean
+    np.testing.assert_array_equal(steps[:, 1], [0, 0.5, 0, 0, 0, 0])  # one of two DANs fired: compartment mean
+    np.testing.assert_allclose(steps[:, 2], [0, 0, 0.5 * decay, 0.5 * decay ** 2, 0.5 * decay ** 3, 0.5 * decay ** 4], rtol=1e-5)
+    assert rule.shape == (6, 1, 2)                                 # per group: KC impulses on eligible edges, Kbar mass used
+    np.testing.assert_array_equal(rule[:, 0, 0], [1, 0, 0, 1, 0, 0])
+    mass = [0, decay, decay ** 2, decay ** 3, (decay ** 3 + 1) * decay, (decay ** 3 + 1) * decay ** 2]
+    np.testing.assert_allclose(rule[:, 0, 1], mass, rtol=1e-5)
+    assert result['gains'][0] == pytest.approx(1 + 0.1 * 0.5 * decay ** 2 - 0.1 * 0.5 * decay, abs=1e-6)
+
+
+def test_per_step_series_reconstruct_the_applied_change_exactly():
+    # Sum over the eligible edges of a group: eta * (Dbar_used(t) * impulses(t) - mass_used(t) * D(t)).
+    engine = reward_engine(tau_ms=10.0, learning_rate=0.01)
+    result = engine.run(exact_schedule(60, 2, 7, 9, 30, 31, 45), bin_ms=0.2,
+                        teaching_pulses=[(0.8, 0), (4.0, 0), (6.6, 0), (9.2, 0)], record=True)
+    rec = result['instrumentation']
+    steps, rule = rec['step_signals'], rec['step_rule']
+    reconstructed = 0.01 * (steps[:, 2] * rule[:, 0, 0] - rule[:, 0, 1] * steps[:, 1]).sum()
+
+    assert result['dan_counts'][0] == 4
+    assert reconstructed == pytest.approx(float(result['gain_delta'][0]), abs=1e-6)
+    assert reconstructed == pytest.approx(rec['rule_bins'][:, 0, 2].sum(), abs=1e-6)
+    assert reconstructed != 0
 
 
 # --- Stage C: plasticity mask; excluded edges transmit normally but never update ---
@@ -486,6 +511,7 @@ def test_masked_edge_keeps_transmitting_and_never_updates():
     assert later['counts'][3] == 1 and later['counts'][2] == 0             # the depressed sibling (0.5 before delivery) does not
     assert not learned['instrumentation']['rule_bins'][:, 1, :5].any()    # no rule terms recorded on the masked edge
     assert learned['instrumentation']['rule_bins'][:, 1, 5].sum() == 1     # its KC event is still counted
+    assert not learned['instrumentation']['step_rule'][:, 1, :].any()     # but it carries no eligible impulse or mass
     np.testing.assert_array_equal(engine.plastic_mask, [1, 0])
 
 

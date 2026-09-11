@@ -21,7 +21,12 @@ struct Random {
 //                                        edges clipped low, edges clipped high, KC events on group edges,
 //                                        sum of Kbar over group edges at bin end}
 //   kc_trace_bins[bin][kc]            = KC trace at bin end
-//   step_signals[step][1 + compartments] = {KC spikes this step, compartment-mean DAN spikes this step}
+//   step_signals[step][1 + 2*compartments] = {KC spikes this step, compartment-mean DAN spikes this step
+//                                             per compartment, DAN trace AS USED by this step's update}
+//   step_rule[step][group][2]         = {KC impulses summed over the group's ELIGIBLE edges this step,
+//                                        Kbar mass over the group's eligible edges AS USED by the update}
+//   "As used" = after the step-start decay, before the step's own increments, so the summed
+//   attempted update of every group is exactly eta * (Dbar_used * impulses - mass_used * D).
 // plastic_mask[k] == 0 marks a listed edge that transmits with its current gain but never updates
 // (Stage C anatomical eligibility); its KC events are still counted in rule_bins column 5.
 enum { SIGNAL_WIDTH = 4, KC_SIGNAL_WIDTH = 2, RULE_WIDTH = 7 };
@@ -42,7 +47,7 @@ extern "C" int simulate_reward(
     int32_t* dan_counts, int32_t* compartment_dan_counts,
     int record, int n_groups, const int32_t* plastic_groups,
     double* signal_bins, double* kc_signal_bins, double* rule_bins, float* kc_trace_bins,
-    int dan_reference_mode, const uint8_t* plastic_mask, float* step_signals
+    int dan_reference_mode, const uint8_t* plastic_mask, float* step_signals, float* step_rule
 ) {
     try {
         Random rng{seed ? seed : 1};
@@ -125,7 +130,7 @@ extern "C" int simulate_reward(
                         : 0.0f;
                 }
             if (record) {
-                float* step_row = step_signals + size_t(t) * (1 + n_compartments);
+                float* step_row = step_signals + size_t(t) * (1 + 2 * n_compartments);
                 for (int compartment=0; compartment<n_compartments; ++compartment) {
                     const int population_size = dan_population_size[compartment];
                     const double mean_spikes = population_size ? double(dan_spikes[compartment]) / population_size : 0.0;
@@ -147,8 +152,13 @@ extern "C" int simulate_reward(
                     if (record) {
                         signal_acc[compartment * SIGNAL_WIDTH + 2] += phasic[compartment];
                         signal_acc[compartment * SIGNAL_WIDTH + 3] = reference;
+                        step_signals[size_t(t) * (1 + 2 * n_compartments) + 1 + n_compartments + compartment] = dan_trace[compartment];
                     }
                 }
+                if (record)
+                    for (int k=0; k<n_plastic; ++k)
+                        if (plastic_mask[k])
+                            step_rule[(size_t(t) * n_groups + plastic_groups[k]) * 2 + 1] += kc_trace[plastic_kc[k]];
                 for (int k=0; k<n_plastic; ++k) {
                     const int compartment = plastic_compartments[k];
                     const int kc = plastic_kc[k];
@@ -157,6 +167,7 @@ extern "C" int simulate_reward(
                         if (record) rule_acc[size_t(plastic_groups[k]) * RULE_WIDTH + 5] += kc_spike;
                         continue;
                     }
+                    if (record) step_rule[(size_t(t) * n_groups + plastic_groups[k]) * 2 + 0] += kc_spike;
                     const float delta = learning_rate
                         * (dan_trace[compartment] * kc_spike - kc_trace[kc] * phasic[compartment]);
                     const float before = gains[k];

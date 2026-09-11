@@ -17,17 +17,31 @@ inspired by mushroom-body learning research. Receptor-dependent chemistry,
 precise synaptic compartment localization and biological reward-prediction error
 are not reconstructed. [Detailed design and native contract](superpowers/specs/2026-09-11-dopamine-learning-design.md).
 
-The dopamine drive in the rule is phasic (schema 2). Each trial, plasticity and
-its eligibility traces start at a declared onset (100 ms). The 50 ms window that
-ends at the onset measures each compartment's tonic DAN rate, and that rate is
-subtracted from the DAN population signal in both rule terms. Tonic firing then
-carries no teaching, and only deviations from it, such as the outcome pulses,
-move gains. This stands in for the adaptive dopamine baseline reported in real
-flies (Rajagopalan et al. 2023; Bennett et al. 2021), not for its circuitry.
-The first pilot (schema 1) fed raw DAN spikes into the rule; with PPL101 firing
-near its refractory ceiling and PAM11 at tens of hertz without any teaching, the
-gains drifted identically in the paired and shuffled arms, and the fixed readout
-turned that shared drift into all-away predictions.
+The dopamine drive in the rule is the raw compartment-mean DAN spike count
+(schema 4, `dan_reference: none`). Each trial, plasticity and its eligibility
+traces start at a declared onset (100 ms); the gain of edge KC j to a MBON of
+compartment c changes at each step by
+`eta * (Dbar_c * K_j - Kbar_j * D_c)`, where K_j is the KC spike indicator, D_c
+the compartment-mean DAN spike indicator, and the bars are exponential traces
+(tau 500 ms) that exclude the current step. KC before DAN depresses, DAN before
+KC potentiates, same-step events are neutral. This is the form of the inspected
+upstream rule (Jiang and Litwin-Kumar 2021, `runmodel.py`, pinned in
+`docs/evidence/reward-repair-phase1.md`). The 50 ms window before the onset
+still measures each compartment's tonic DAN rate, which is reported but not
+subtracted.
+
+Schemas 2 and 3 subtracted that tonic rate in both terms (`dan_reference:
+tonic-baseline`, still selectable for comparison). On the calibrated circuit
+that reference was stimulus-driven: PPL101 fires at about 38 Hz during the
+stimulus because the Kenyon cells drive it directly, and falls to about 3 Hz
+after stimulus offset, so the subtracted signal turned negative after 300 ms and
+potentiated every home synapse with residual eligibility on every untaught or
+away-taught trial (about +2 gain-sum per trial), while home teaching pulses only
+restored the reference rate and netted almost nothing. The schema-4 rule removes
+that artifact by construction. The first pilot (schema 1) had fed raw DAN spikes
+into the rule under a saturated circuit (PPL101 near its refractory ceiling,
+56 percent of KCs firing in every bin); the drift seen there belonged to that
+circuit state, not to the rule form.
 
 Schema 3 replaces the sensory interface and calibrates the drive. The v1/v2
 encoder drove the same 32 ALPN ports for every game and only varied their rates,
@@ -88,6 +102,34 @@ response-to-label coefficient optimization. True-outcome teaching is compared
 with shuffled teaching, frozen gains, and the prior. The data and single seed
 make this a development experiment; it cannot establish a bookmaker edge.
 
+Plasticity eligibility (schema 4, `away_plasticity_mask`) is a per-edge mask
+built from the released KC type labels. Under `gamma` the PAM12 / MBON09
+channel updates only edges from gamma Kenyon cells (the documented compartment
+approximation for gamma3); excluded alpha-prime/beta-prime and alpha/beta edges
+keep transmitting at their current gain and never update. Home is never
+filtered, because MBON11 receives substantial alpha/beta and
+alpha-prime/beta-prime input. The audit of edge counts by class is recorded in
+the anatomy. The current default is `all`; the gamma restriction is a separate,
+separately identified change.
+
+**Mechanism status (2026-09-11, phase 1 of the reward repair).** On the frozen
+diagnostic panel (8 calibration games, two seed sets, frozen / untaught /
+home-taught / away-taught from blank gains; criteria predeclared before the
+candidate ran) the schema-4 rule passed six of seven criteria: teaching-specific
+effects of about -2.3 (home) and -3.6 (away) gain-sum per taught trial against
+untaught changes of -0.29 (home) and exactly 0 (away); no cross-compartment
+leak; no bound hits; bounded cumulative untaught change; bit-identical repeats;
+identical sensory noise across conditions. The untaught operational guard
+failed on home: the small untaught change is consistently negative (14 of 16
+trials). Its recorded terms place half of it in the 10 ms after stimulus offset
+(residual PPL101 firing against still-high KC eligibility, reproduced exactly
+from the recorded eligibility mass) and half inside the stimulus, where the two
+rule terms cancel to a few percent; a direct KC to PPL101 pathway in the graph
+(24,068 contacts) is a candidate explanation consistent with the observed lag
+asymmetry, not an established cause. This is an open finding (SCI-001) under
+review; conditioning, reversal and readout centering have not been run.
+Evidence: `docs/evidence/reward-repair-phase1.md`.
+
 Open **Training → On-circuit reward learning**. Inspect each arm's progress,
 scores, confusion table, gain curve, DAN response and downloads. The active v1
 identity and original v2 tracker remain visible. The API reads saved manifests;
@@ -96,8 +138,11 @@ the UI has no training, activation or promotion button.
 From the repository root, the reproducible entry point is:
 
 ```sh
-.venv/bin/python -m bet36fly.reward_experiment --protocol configs/reward-v3-pilot.json
+.venv/bin/python -m bet36fly.reward_experiment --protocol configs/reward-v4-candidate.json
 ```
+
+`configs/reward-v3-pilot.json` is the historical schema-3 protocol; the runner
+now requires schema 4, and no schema-4 sports pilot has been run.
 
 A matching experiment identity cannot be resumed or rerun automatically. The 900-second
 budget is checked before and after native trials and before success. A native
