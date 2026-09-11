@@ -86,12 +86,23 @@ def test_reward_diagnostics_are_listed_newest_first_and_served_read_only(tmp_pat
     _diagnostic(tmp_path, 'diag-legacy-1111aaaa', rule='legacy', created_at='2026-09-11T15:30:00+00:00')
     _diagnostic(tmp_path, 'diag-candidate-2222bbbb', rule='candidate', created_at='2026-09-11T15:50:00+00:00')
     _diagnostic(tmp_path, 'diag-candidate-3333cccc-INCOMPLETE', rule='candidate', created_at='2026-09-11T15:55:00+00:00', complete=False, attribution=False)
+    early = _diagnostic(tmp_path, 'diag-legacy-0000eeee', rule='legacy', created_at='2026-09-11T15:20:00+00:00')
+    import json as _json
+    early_path = tmp_path / 'output/diagnostics/diag-legacy-0000eeee/summary.json'
+    for key in ('panel_complete', 'panel_note', 'all_passed'):
+        early.pop(key)
+    early['identity']['protocol'] = {}                  # schema-3 base protocol: no reference or mask fields
+    early_path.write_text(_json.dumps(early))
     bad = tmp_path / 'output/diagnostics/diag-broken'
     bad.mkdir()
     (bad / 'summary.json').write_text('{not json')
     with TestClient(create_app(root=tmp_path, warm_on_start=False)) as client:
         listing = client.get('/api/reward-diagnostics').json()
-        assert [d['run_id'] for d in listing['diagnostics']] == ['diag-candidate-3333cccc-INCOMPLETE', 'diag-candidate-2222bbbb', 'diag-legacy-1111aaaa']
+        assert [d['run_id'] for d in listing['diagnostics']] == ['diag-candidate-3333cccc-INCOMPLETE', 'diag-candidate-2222bbbb', 'diag-legacy-1111aaaa', 'diag-legacy-0000eeee']
+        oldest = listing['diagnostics'][3]
+        assert oldest['panel_complete'] is None and oldest['all_passed'] is False       # not recorded by that script version
+        assert oldest['dan_reference'] == 'tonic-baseline' and oldest['away_plasticity_mask'] == 'all'   # implied by rule / absence
+        assert listing['diagnostics'][2]['dan_reference'] == 'tonic-baseline'
         entry = listing['diagnostics'][1]
         assert entry['rule'] == 'candidate' and entry['dan_reference'] == 'none' and entry['away_plasticity_mask'] == 'all'
         assert entry['panel_complete'] is True and entry['all_passed'] is False and entry['has_attribution'] is True

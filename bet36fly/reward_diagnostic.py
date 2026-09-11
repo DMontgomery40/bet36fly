@@ -182,10 +182,16 @@ def _load_summary(directory):
 def _compact(summary, has_attribution):
     criteria = summary.get('criteria', {})
     protocol = summary.get('identity', {}).get('protocol', {})
+    rule = summary.get('rule')
+    # Runs written before the fields existed: the rule implies the reference (legacy = tonic-baseline,
+    # candidate = none), an absent mask field means every edge was eligible, and completeness is
+    # reported as null ("not recorded") rather than guessed.
+    complete = summary.get('panel_complete')
     return dict(
-        run_id=summary['run_id'], rule=summary.get('rule'), created_at=summary.get('created_at'),
-        dan_reference=protocol.get('dan_reference'), away_plasticity_mask=protocol.get('away_plasticity_mask'),
-        panel_complete=bool(summary.get('panel_complete', False)), panel_note=summary.get('panel_note'),
+        run_id=summary['run_id'], rule=rule, created_at=summary.get('created_at'),
+        dan_reference=protocol.get('dan_reference') or RULE_REFERENCE.get(rule),
+        away_plasticity_mask=protocol.get('away_plasticity_mask') or 'all',
+        panel_complete=None if complete is None else bool(complete), panel_note=summary.get('panel_note'),
         all_passed=bool(summary.get('all_passed', False)),
         criteria={name: bool(value.get('passed', False)) for name, value in criteria.items()},
         untaught_guard={key: {k: value.get(k) for k in ('mean', 'sd', 'limit', 'passed')}

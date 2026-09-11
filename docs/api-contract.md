@@ -88,7 +88,11 @@ per-seed-set evaluations (`mean`, `sd`, `limit`, `passed`; `mean_effect`,
 `native_binary_sha256`, `source_unchanged_during_run`, `plastic_edges` and
 `eligible_edges`. Directories with an unreadable or mismatched `summary.json`
 are skipped. An absent or empty directory yields an empty list. A run whose
-`panel_complete` is false is a debug panel and can never be a gate result.
+`panel_complete` is false is a debug panel and can never be a gate result;
+`null` means the run predates that field (completeness not recorded). For runs
+written before schema 4, `dan_reference` is implied by the rule (`legacy` =
+`tonic-baseline`, `candidate` = `none`) and an absent mask field is reported
+as `all`.
 
 ## GET /api/reward-diagnostics/{run_id}
 
