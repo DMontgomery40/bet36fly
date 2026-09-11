@@ -48,7 +48,30 @@ Normalized cross-correlation between KC and PPL101 spikes per 10 ms bin: +0.49 a
 with the DAN one bin later, +0.09 one bin earlier. PPL101 receives 24,068 of its 39,125 input
 contacts directly from Kenyon cells (13,836 from KCg-m), one from the sensory ports and 925 from
 MBONs; a direct KC-to-DAN lag is a candidate explanation consistent with the asymmetry, not an
-established cause. Finding SCI-001 is open; the per-step follow-up is recorded below when done.
+established cause. Finding SCI-001 is open.
+
+Per-step follow-up (`attribution-diag-candidate-b57b80fdcdfc.json`, same 16 untaught realizations,
+0.2 ms resolution over eligible home edges): the summed update reconstructs from the recorded
+per-step DAN trace, eligible-edge KC impulses and eligibility mass to 1e-5. By phase: 100-130 ms
+-0.020; 130-300 ms -0.118 (terms +3.105 and -3.223); 300-400 ms -0.127, with the last DAN event at
+297 ms on average (max 305) and the last KC impulse at 304 ms (max 305), so nothing fires after
+that. The KC-impulse/DAN normalized cross-correlation is small everywhere (max 0.037) with its
+peak 3 ms after the KC side. Descriptive surrogates that alter only the DAN series inside the
+plastic window: actual -0.265 (13 of 16 negative); DAN series advanced 5 ms -0.068, advanced
+20 ms -0.013; delayed 5 ms -0.216, delayed 20 ms -0.199; time-reversed +0.214; every DAN event
+jittered within 5 ms -0.253 (14 of 16 negative). Read as sensitivity, not proof: the residual is
+tied to the order of the DAN activity relative to the KC activity at the 5 to 20 ms scale, not to
+fine timing at the synaptic delay and not to reference, truncation or reset. SCI-001 stays open.
+
+## Away eligibility mask (Stage C verification, `diag-candidate-maskgamma-ebe453ac10f5`)
+
+Same panel with `away_plasticity_mask: gamma`: 7,423 of 8,866 edges eligible; home 4,184 of 4,184;
+away 3,239 gamma edges kept, 1,443 excluded (1,438 alpha-prime/beta-prime, 5 alpha/beta), no
+ambiguous labels. Across all 64 trials no excluded edge changed and their cumulative gains stayed
+at 1.0; the gamma-edge update on away-taught trials is identical to the unmasked run (-3.405 per
+trial), the excluded classes go from -0.181 and -0.002 to 0, and every MBON stimulus response and
+sensory spike pattern is identical to the unmasked run (transmission preserved). The criteria are
+unchanged: SCI-001 still fails on home, which the mask does not touch.
 
 ## Software delivered in this phase
 
@@ -62,4 +85,6 @@ established cause. Finding SCI-001 is open; the per-step follow-up is recorded b
 - `scripts/reward_teaching_diagnostic.py` (frozen panel, completeness-checked, never overwrites),
   `scripts/reward_residual_attribution.py`.
 
-No sports pilot, conditioning, reversal or readout centering has been run under schema 4.
+No sports pilot, conditioning, reversal or readout centering has been run under schema 4. The
+away mask is verified as software and anatomy (edge counts and update magnitudes above); its
+protocol default stays `all` until the mechanism finding is closed.

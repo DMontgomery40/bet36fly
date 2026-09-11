@@ -110,7 +110,9 @@ keep transmitting at their current gain and never update. Home is never
 filtered, because MBON11 receives substantial alpha/beta and
 alpha-prime/beta-prime input. The audit of edge counts by class is recorded in
 the anatomy. The current default is `all`; the gamma restriction is a separate,
-separately identified change.
+separately identified change, verified on the diagnostic panel (excluded edges
+never update, transmission identical, gamma updates identical to the unmasked
+run; numbers in the evidence note).
 
 **Mechanism status (2026-09-11, phase 1 of the reward repair).** On the frozen
 diagnostic panel (8 calibration games, two seed sets, frozen / untaught /

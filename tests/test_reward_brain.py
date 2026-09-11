@@ -520,3 +520,34 @@ def test_mask_defaults_to_all_eligible_and_is_validated():
     for bad in (np.array([1]), np.array([1, 2]), np.array([1.0, 0.5]), np.array([[1, 0]])):
         with pytest.raises(ValueError):
             masked_engine(bad)
+
+
+def test_per_step_impulses_weight_unequal_edge_multiplicity_and_masks(tmp_path):
+    # Reviewer reproducer (Codex review 0014): two KCs with 2 and 3 eligible-or-masked edges in ONE group.
+    # KC0 -> neurons 3,4 ; KC1 -> neurons 3,4,5 ; DAN at neuron 2; plasticity from 5 ms; raw reference.
+    for mask in ([1, 0, 1, 1, 0], [1, 1, 1, 1, 1], [0, 0, 0, 0, 0]):
+        engine = RewardEngine(
+            np.array([0, 2, 5, 5, 5, 5, 5]), np.array([3, 4, 3, 4, 5]), np.full(5, .1, np.float32),
+            np.array([0, 1]), np.array([0, 1]), np.array([2]), np.array([0]), np.arange(5),
+            np.array([0, 0, 1, 1, 1]), np.zeros(5, int), n_compartments=1, tau_ms=10., learning_rate=.01,
+            gain_bounds=(.01, 10.), plasticity_onset_ms=5., dan_reference='none', plastic_mask=np.array(mask),
+        )
+        rates = np.zeros((100, 2), np.float32)
+        rates[[0, 12, 30, 60], 0] = 5000
+        rates[[1, 12, 35, 70], 1] = 5000
+        result = engine.run(rates, bin_ms=.2, teaching_pulses=[(6., 0), (13., 0)], sample=np.arange(6), record=True)
+        rec = result['instrumentation']
+        kc = result['trace'][:, :2].astype(float)
+        kc[:25] = 0                                             # events before the 5 ms onset carry nothing
+        weighted = kc @ np.array([sum(mask[:2]), sum(mask[2:])])
+        steps = np.arange(100)
+        event_steps = np.flatnonzero(weighted)
+        lag = steps[:, None] - event_steps[None, :]
+        expected_mass = (np.exp(-np.maximum(lag, 0) * .2 / 10.) * (lag > 0) * weighted[event_steps]).sum(1)
+
+        np.testing.assert_array_equal(rec['step_rule'][:, 0, 0], weighted)
+        np.testing.assert_allclose(rec['step_rule'][:, 0, 1], expected_mass, rtol=2e-6, atol=1e-6)
+        np.testing.assert_array_equal(result['gains'][np.array(mask) == 0], 1.0)
+        reconstructed = .01 * (rec['step_signals'][:, 2].astype(float) * weighted
+                               - rec['step_rule'][:, 0, 1].astype(float) * rec['step_signals'][:, 1]).sum()
+        assert abs(reconstructed - rec['rule_bins'][:, 0, :2].sum()) < 1e-7
