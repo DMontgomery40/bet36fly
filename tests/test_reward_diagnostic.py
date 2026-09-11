@@ -41,7 +41,7 @@ def panel(untaught_home, taught_home, *, untaught_away=0.0, taught_away=-1.0, le
 
 def test_legacy_like_panel_fails_the_teaching_specific_criterion_for_home():
     # Untaught home drift +0.8 against home teaching totalling -1.4: effect -2.2 is not 3x the drift.
-    result = evaluate_panel(panel(0.8, -2.2))
+    result = evaluate_panel(panel(0.8, -2.2), expected_games=list(range(8)))
 
     assert result['criteria']['teaching_specific']['passed'] is False
     home_base = result['criteria']['teaching_specific']['evaluations']['home/base']
@@ -56,7 +56,7 @@ def test_candidate_like_panel_passes_and_reports_every_game():
     for row in rows:                       # alternate the sign of the untaught noise across games
         if row['condition'] != 'frozen':
             row['applied'] = row['applied'] + (0.05 if row['game'] % 2 else -0.05)
-    result = evaluate_panel(rows)
+    result = evaluate_panel(rows, expected_games=list(range(8)))
 
     assert result['criteria']['teaching_specific']['passed'] is True
     assert result['criteria']['untaught_guard']['passed'] is True
@@ -71,15 +71,15 @@ def test_seed_sets_are_not_pooled():
     for row in rows:                       # opposite systematic biases in the two seed sets
         if row['condition'] in ('untaught', 'home', 'away'):
             row['applied'] = row['applied'] + (0.6 if row['seed_set'] == 'base' else -0.6)
-    result = evaluate_panel(rows)
+    result = evaluate_panel(rows, expected_games=list(range(8)))
 
     assert result['criteria']['untaught_guard']['passed'] is False
     assert result['criteria']['teaching_specific']['evaluations']['home/base']['passed'] is False
 
 
 def test_cross_compartment_leak_and_bound_hits_fail_their_guards():
-    leaky = evaluate_panel(panel(0.0, -1.0, leak=0.2))
-    clipped = evaluate_panel(panel(0.0, -1.0, clipped=1))
+    leaky = evaluate_panel(panel(0.0, -1.0, leak=0.2), expected_games=list(range(8)))
+    clipped = evaluate_panel(panel(0.0, -1.0, clipped=1), expected_games=list(range(8)))
 
     assert leaky['criteria']['cross_compartment']['passed'] is False
     assert leaky['criteria']['cross_compartment']['evaluations']['home_teaching_into_away/base']['leak'] == pytest.approx(0.2)
@@ -95,3 +95,39 @@ def test_cumulative_uses_compartment_gain_sums_on_both_sides():
     assert passing['passed'] is True and passing['per_compartment'][0]['limit'] == pytest.approx(4.8)
     assert failing['passed'] is False and failing['per_compartment'][0]['final_sum'] == pytest.approx(4.0)
     assert len(passing['trajectory']) == 16
+
+
+# --- DIAG-001: the evaluator must refuse an incomplete or malformed predeclared matrix ---
+
+from bet36fly.reward_diagnostic import PanelIncomplete, check_panel_complete  # noqa: E402
+
+
+def test_complete_panel_passes_the_completeness_check():
+    rows = panel(0.0, -1.0)
+    report = check_panel_complete(rows, expected_games=list(range(8)))
+    assert report == dict(games=8, seed_sets=['base', 'alt'], conditions=4, rows=64)
+
+
+@pytest.mark.parametrize('mutate, reason', [
+    (lambda rows: [r for r in rows if r['seed_set'] == 'base'], 'seed set'),
+    (lambda rows: [r for r in rows if r['condition'] != 'away'], 'condition'),
+    (lambda rows: [r for r in rows if r['game'] != 3], 'game'),
+    (lambda rows: rows + [rows[0]], 'duplicate'),
+    (lambda rows: [], 'empty'),
+    (lambda rows: [dict(r, applied=[float('nan'), 0.0]) if r['condition'] == 'home' and r['game'] == 1 else r for r in rows], 'finite'),
+    (lambda rows: [dict(r, applied=[0.0]) if r['condition'] == 'home' and r['game'] == 1 else r for r in rows], 'two'),
+])
+def test_incomplete_or_malformed_panels_are_rejected(mutate, reason):
+    rows = mutate(panel(0.0, -1.0))
+    with pytest.raises(PanelIncomplete, match=reason):
+        check_panel_complete(rows, expected_games=list(range(8)))
+    with pytest.raises(PanelIncomplete):
+        evaluate_panel(rows, expected_games=list(range(8)))
+
+
+def test_evaluate_panel_without_expected_games_is_marked_incomplete_not_passed():
+    base_only = [r for r in panel(0.0, -1.0) if r['seed_set'] == 'base']
+    result = evaluate_panel(base_only)
+    assert result['complete'] is False
+    assert result['criteria']['teaching_specific']['passed'] is False
+    assert 'incomplete' in result['criteria']['teaching_specific']['note']

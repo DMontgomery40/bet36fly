@@ -32,6 +32,7 @@ from bet36fly.reward_protocol import file_hash, make_circuit  # noqa: E402
 PILOT = '/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/experiments/reward-v3-209f7c49983f5873f650'
 KC_CLASSES = ('gamma', 'apbp', 'ab', 'other')
 CONDITIONS = ('frozen', 'untaught', 'home', 'away')
+FROZEN_PANEL_GAMES, FROZEN_CUMULATIVE_GAMES = 8, 16
 ALT_SEED_OFFSET = 1_000_000
 RULE_TERMS = ('term_dbar_k', 'term_kbar_d', 'applied', 'clipped_low', 'clipped_high', 'kc_events', 'kbar_mass_end')
 
@@ -74,19 +75,29 @@ def main():
     inputs = np.load(args.pilot / 'source/inputs.npz', allow_pickle=False)
     X, src, cal = inputs['X'], inputs['source_indices'], inputs['calibration_indices']
     mean, std = inputs['input_mean'], inputs['input_std']
-    code = {name: file_hash(Path(__file__).resolve().parents[1] / 'bet36fly' / name)
-            for name in ('reward_lif.cpp', 'reward_brain.py', 'reward_protocol.py', 'reward_encoder.py', 'reward_diagnostic.py')}
-    code['reward_teaching_diagnostic.py'] = file_hash(Path(__file__).resolve())
+    def code_hashes():
+        hashes = {name: file_hash(Path(__file__).resolve().parents[1] / 'bet36fly' / name)
+                  for name in ('reward_lif.cpp', 'reward_brain.py', 'reward_protocol.py', 'reward_encoder.py', 'reward_diagnostic.py')}
+        hashes['reward_teaching_diagnostic.py'] = file_hash(Path(__file__).resolve())
+        return hashes
+
+    code = code_hashes()
+    panel_complete = args.games == FROZEN_PANEL_GAMES and args.cumulative_games == FROZEN_CUMULATIVE_GAMES
     identity = dict(rule=args.rule, protocol=protocol, pilot=args.pilot.name, games=args.games,
                     cumulative_games=args.cumulative_games, alt_seed_offset=ALT_SEED_OFFSET, code_hashes=code,
                     inputs_sha256=file_hash(args.pilot / 'source/inputs.npz'))
     run_id = f'diag-{args.rule}-' + hashlib.sha256(json.dumps(identity, sort_keys=True).encode()).hexdigest()[:12]
+    if not panel_complete:
+        run_id += '-INCOMPLETE'
     out = args.out / run_id
     if out.exists():
         raise SystemExit(f'{out} exists; a changed input or code produces a new identity, reruns are not repeated.')
     out.mkdir(parents=True)
     print(f'[{run_id}] building circuit', flush=True)
     engine, anatomy, outputs, dcomp, kc, sensory, encode = make_circuit(ROOT, protocol, n_features=X.shape[1])
+    native_binary = dict(path=str(engine.lib._name), sha256=file_hash(engine.lib._name))
+    if engine.dan_reference != {'legacy': 'tonic-baseline', 'candidate': 'none'}[args.rule]:
+        raise SystemExit(f'Engine reference mode {engine.dan_reference} does not match --rule {args.rule}.')
     ids = np.load(ROOT / 'data/brain/ids.npy')
     nodes = feather.read_table(ROOT / 'data/brain/nodes.feather', columns=['bodyId', 'type']).to_pandas()
     types = nodes.set_index('bodyId').reindex(ids)['type'].fillna('').to_numpy()
@@ -159,7 +170,8 @@ def main():
             wall_seconds=float(result['wall_seconds']),
         )
 
-    rows, gain_deltas, repeat_check, sensory_check = [], {}, {}, {}
+    rows, retained, repeat_check, sensory_check = [], {}, {}, {}
+    gain_deltas = {}
     panel_games = [int(i) for i in cal[:args.games]]
     total = len(panel_games) * 2 * len(CONDITIONS)
     done = 0
@@ -172,7 +184,17 @@ def main():
                 summary = summarize(result)
                 hashes[condition] = summary['sensory_bins_sha256']
                 rows.append(dict(game=game, seed_set=seed_set, seed=seed, condition=condition, **summary))
+                key = f'{game}__{seed_set}__{condition}'
                 gain_deltas[f'{game}/{seed_set}/{condition}'] = result['gain_delta'].copy()
+                rec = result['instrumentation']
+                retained[f'{key}__gain_delta'] = result['gain_delta'].copy()
+                retained[f'{key}__rule_bins'] = rec['rule_bins']
+                retained[f'{key}__signal_bins'] = rec['signal_bins']
+                retained[f'{key}__kc_signal_bins'] = rec['kc_signal_bins']
+                retained[f'{key}__dan_bins'] = result['trace'][:, dan_slice].copy()
+                if game == panel_games[0]:
+                    retained[f'{key}__kc_trace_bins'] = rec['kc_trace_bins']
+                    retained[f'{key}__sampled_bins'] = result['trace'].copy()
                 done += 1
             sensory_check[f'{game}/{seed_set}'] = len(set(hashes.values())) == 1
             print(f'[{run_id}] {done}/{total} game {game} {seed_set}: ' + ' '.join(
@@ -188,20 +210,28 @@ def main():
         cumulative_rows.append(dict(game=game, applied=[float(x) for x in compartment_sums(result['gain_delta'], pc, 2)],
                                     cumulative=[float(x) for x in trajectory[-1]]))
     final_gains = engine.gains.copy()
-    panel = evaluate_panel([dict(game=r['game'], seed_set=r['seed_set'], condition=r['condition'], applied=r['applied'], clipped=r['clipped']) for r in rows])
+    panel = evaluate_panel([dict(game=r['game'], seed_set=r['seed_set'], condition=r['condition'], applied=r['applied'], clipped=r['clipped']) for r in rows],
+                           expected_games=panel_games)
+    code_after = code_hashes()
+    source_unchanged = code_after == code and file_hash(engine.lib._name) == native_binary['sha256']
     cumulative = evaluate_cumulative(np.array(trajectory), mean_effect=np.array(panel['mean_effect_by_compartment']))
     criteria = dict(panel['criteria'], cumulative=cumulative,
                     bit_identical_repeat=dict(passed=all(repeat_check.values()), by_condition=repeat_check),
                     sensory_noise_invariance=dict(passed=all(sensory_check.values()), by_trial=sensory_check))
     summary = dict(run_id=run_id, rule=args.rule, created_at=utcnow(), identity=identity, root=str(ROOT),
+                   native_binary=native_binary, source_unchanged_during_run=source_unchanged,
+                   panel_complete=panel_complete,
+                   panel_note=('frozen v1.1 panel: 8 games x 2 seed sets x 4 conditions + 16-trial cumulative' if panel_complete
+                               else 'INCOMPLETE debug panel; not a gate result'),
                    anatomy=dict(plastic_edges=int(len(pc)), group_labels=group_labels, group_edges=group_edges,
                                 dan_populations=[int(np.count_nonzero(dcomp == c)) for c in range(2)],
                                 compartments=[dict(label=c['label'], dan_type=c['dan_type'], mbon_type=c['mbon_type']) for c in anatomy['compartments']]),
                    panel_games=panel_games, rows=rows, effects=panel['rows'], criteria=criteria,
-                   all_passed=all(v['passed'] for v in criteria.values()),
+                   all_passed=panel_complete and source_unchanged and all(v['passed'] for v in criteria.values()),
                    cumulative_rows=cumulative_rows, wall_seconds=time.time() - started)
-    np.savez(out / 'trials.npz', **{k.replace('/', '__'): v for k, v in gain_deltas.items()},
-             cumulative_final_gains=final_gains, blank_gains=blank, plastic_compartments=pc, plastic_groups=groups)
+    np.savez(out / 'trials.npz', **retained, cumulative_final_gains=final_gains, blank_gains=blank,
+             plastic_compartments=pc, plastic_kc_indices=pk, plastic_groups=groups, kc_classes=classes,
+             dan_compartments=dcomp, sampled=sampled)
     atomic_json(out / 'summary.json', summary)
     if args.evidence:
         args.evidence.mkdir(parents=True, exist_ok=True)

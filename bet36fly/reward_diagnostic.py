@@ -10,6 +10,40 @@ import numpy as np
 PHASES = ('pre_onset', 'stimulus_plastic', 'post_stimulus')
 COMPARTMENT_OF = {'home': 0, 'away': 1}
 SEED_SETS = ('base', 'alt')
+CONDITIONS = ('frozen', 'untaught', 'home', 'away')
+
+
+class PanelIncomplete(ValueError):
+    """The rows do not form the exact predeclared matrix; no criterion may be reported as passed."""
+
+
+def check_panel_complete(rows, *, expected_games, seed_sets=SEED_SETS, conditions=CONDITIONS):
+    """Require every (game, seed set, condition) exactly once with finite two-component applied sums."""
+    rows = list(rows)
+    if not rows:
+        raise PanelIncomplete('empty panel')
+    keys = [(r['game'], r['seed_set'], r['condition']) for r in rows]
+    if len(set(keys)) != len(keys):
+        raise PanelIncomplete('duplicate rows for the same game, seed set and condition')
+    present_seed_sets = {k[1] for k in keys}
+    present_conditions = {k[2] for k in keys}
+    present_games = {k[0] for k in keys}
+    if set(seed_sets) - present_seed_sets:
+        raise PanelIncomplete(f'missing seed set {sorted(set(seed_sets) - present_seed_sets)}')
+    if set(conditions) - present_conditions:
+        raise PanelIncomplete(f'missing condition {sorted(set(conditions) - present_conditions)}')
+    if set(expected_games) - present_games:
+        raise PanelIncomplete(f'missing game {sorted(set(expected_games) - present_games)}')
+    expected = {(g, s, c) for g in expected_games for s in seed_sets for c in conditions}
+    if set(keys) != expected:
+        raise PanelIncomplete('rows do not match the expected game x seed set x condition matrix')
+    for row in rows:
+        applied = np.asarray(row['applied'], dtype=np.float64)
+        if applied.shape != (2,):
+            raise PanelIncomplete('applied must have two components (home, away)')
+        if not np.isfinite(applied).all():
+            raise PanelIncomplete('non-finite applied values')
+    return dict(games=len(expected_games), seed_sets=list(seed_sets), conditions=len(conditions), rows=len(rows))
 
 
 def phase_sums(rule_bins, *, bin_ms, onset_ms, stimulus_ms):
@@ -34,13 +68,19 @@ def _mean(values):
     return float(np.mean(values)) if len(values) else float('nan')
 
 
-def evaluate_panel(rows, *, effect_ratio=3.0, guard_ratio=0.5, leak_ratio=0.05):
+def evaluate_panel(rows, *, expected_games=None, effect_ratio=3.0, guard_ratio=0.5, leak_ratio=0.05):
     """Evaluate criteria 1, 2, 3 and 5 on single-trial panel rows.
 
     Each row: game, seed_set, condition in {frozen, untaught, home, away}, applied (per-compartment
     gain sums), clipped (count of bound hits). Taught rows gain an 'effect' entry (taught - untaught
-    for the same game and seed set).
+    for the same game and seed set). Without ``expected_games`` the panel is evaluated descriptively
+    and every criterion is reported as not passed and incomplete; with it, the exact matrix is
+    enforced by ``check_panel_complete`` before any criterion is computed.
     """
+    rows = list(rows)
+    complete = expected_games is not None
+    if complete:
+        check_panel_complete(rows, expected_games=expected_games)
     table = {}
     for row in rows:
         table[(row['game'], row['seed_set'], row['condition'])] = np.asarray(row['applied'], dtype=np.float64)
@@ -87,8 +127,12 @@ def evaluate_panel(rows, *, effect_ratio=3.0, guard_ratio=0.5, leak_ratio=0.05):
         cross_compartment=dict(passed=all(v['passed'] for v in cross.values()), evaluations=cross),
         no_bound_hits=dict(passed=clipped_total == 0, clipped_total=clipped_total),
     )
+    if not complete:
+        for value in criteria.values():
+            value['passed'] = False
+            value['note'] = 'incomplete panel: evaluated descriptively without a declared matrix; not a gate result'
     overall_effect = [_mean([mean_effect[(label, s)] for s in seed_sets]) for label in COMPARTMENT_OF]
-    return dict(rows=out_rows, games=games, seed_sets=seed_sets, criteria=criteria,
+    return dict(rows=out_rows, games=games, seed_sets=seed_sets, complete=complete, criteria=criteria,
                 mean_effect_by_compartment=overall_effect)
 
 
