@@ -21,6 +21,9 @@ _BUILD_LOCK = threading.Lock()
 _MAX_SCHEDULE_VALUES = 50_000_000
 _MAX_TRACE_VALUES = 50_000_000
 SIGNAL_WIDTH, KC_SIGNAL_WIDTH, RULE_WIDTH = 4, 2, 7
+# 'none': the candidate rule, raw compartment-mean DAN spikes in both terms (upstream form).
+# 'tonic-baseline': the schema-2/3 legacy rule, tonic rate over dan_baseline_window_ms subtracted.
+DAN_REFERENCE_MODES = {'none': 0, 'tonic-baseline': 1}
 
 
 def _native_library():
@@ -52,6 +55,7 @@ def _native_library():
         ctypes.c_int, i32, i32, ctypes.c_int, i32, ctypes.c_int,
         i32, f32, i32, i32, i32, i32,
         ctypes.c_int, ctypes.c_int, i32, f64, f64, f64, f32,
+        ctypes.c_int,
     ]
     lib.simulate_reward.restype = ctypes.c_int
     return lib
@@ -90,6 +94,7 @@ class RewardEngine:
         gains=None,
         plasticity_onset_ms=0.0,
         dan_baseline_window_ms=0.0,
+        dan_reference='none',
     ):
         self.ptr = _integer_array(ptr, np.int64, 'ptr')
         self.post = _integer_array(post, np.int32, 'post')
@@ -114,6 +119,8 @@ class RewardEngine:
         native_float_values = np.array([tau_ms, learning_rate, *bounds.ravel()], dtype=np.float64)
         native_float_limit = np.finfo(np.float32).max
         native_float_floor = float(np.nextafter(np.float32(0), np.float32(1)))
+        if dan_reference not in DAN_REFERENCE_MODES:
+            raise ValueError(f'dan_reference must be one of {sorted(DAN_REFERENCE_MODES)}.')
         if (
             self.weights.ndim != 1
             or self.n < 1
@@ -171,6 +178,7 @@ class RewardEngine:
         self.gain_bounds = (float(bounds[0]), float(bounds[1]))
         self.plasticity_onset_ms = float(timing[0])
         self.dan_baseline_window_ms = float(timing[1])
+        self.dan_reference = str(dan_reference)
         self._onset_steps = int(np.rint(timing_steps[0]))
         self._baseline_steps = int(np.rint(timing_steps[1]))
         if gains is None:
@@ -323,6 +331,7 @@ class RewardEngine:
             native_pulse_dans, len(sample), sample, bin_steps, counts, voltage, trace, population,
             dan_counts, compartment_counts,
             int(record), n_groups, groups, signal_bins, kc_signal_bins, rule_bins, kc_trace_bins,
+            DAN_REFERENCE_MODES[self.dan_reference],
         )
         if result:
             raise RuntimeError('Native reward simulation failed.')

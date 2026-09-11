@@ -6,7 +6,7 @@ from bet36fly.reward_brain import RewardEngine
 
 
 def reward_engine(*, n_dan=1, tau_ms=10.0, learning_rate=0.1, bounds=(0.5, 1.5), weight=1.0,
-                  plasticity_onset_ms=0.0, dan_baseline_window_ms=0.0):
+                  plasticity_onset_ms=0.0, dan_baseline_window_ms=0.0, dan_reference='tonic-baseline'):
     n = n_dan + 2
     return RewardEngine(
         np.array([0, 1] + [1] * (n - 1), np.int64),
@@ -25,6 +25,7 @@ def reward_engine(*, n_dan=1, tau_ms=10.0, learning_rate=0.1, bounds=(0.5, 1.5),
         gain_bounds=bounds,
         plasticity_onset_ms=plasticity_onset_ms,
         dan_baseline_window_ms=dan_baseline_window_ms,
+        dan_reference=dan_reference,
     )
 
 

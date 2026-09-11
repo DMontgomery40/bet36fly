@@ -38,7 +38,8 @@ extern "C" int simulate_reward(
     int32_t* counts, float* voltages, int32_t* trace, int32_t* population,
     int32_t* dan_counts, int32_t* compartment_dan_counts,
     int record, int n_groups, const int32_t* plastic_groups,
-    double* signal_bins, double* kc_signal_bins, double* rule_bins, float* kc_trace_bins
+    double* signal_bins, double* kc_signal_bins, double* rule_bins, float* kc_trace_bins,
+    int dan_reference_mode
 ) {
     try {
         Random rng{seed ? seed : 1};
@@ -51,8 +52,11 @@ extern "C" int simulate_reward(
         std::vector<int> ready(n, 0), sample_index(n, -1), kc_index(n, -1), dan_index(n, -1);
         std::vector<int> edge_plastic(ptr[n], -1), dan_population_size(n_compartments, 0);
         std::vector<float> kc_trace(n_kc, 0.0f), dan_trace(n_compartments, 0.0f);
-        // Phasic modulation is measured against the compartment's own tonic rate,
-        // sampled in the window that ends at the declared plasticity onset.
+        // dan_reference_mode 1 (legacy, schema 2/3): the DAN signal is the compartment-mean spike
+        // count minus its own tonic rate sampled in the window ending at the plasticity onset.
+        // dan_reference_mode 0 (candidate): the raw nonnegative compartment-mean spike count, as in
+        // the upstream rule; the tonic rate is still measured and reported but never subtracted.
+        const bool subtract_reference = dan_reference_mode == 1;
         std::vector<float> dan_baseline(n_compartments, 0.0f), phasic(n_compartments, 0.0f);
         std::vector<int> dan_spikes(n_compartments, 0), baseline_spikes(n_compartments, 0);
         std::vector<unsigned char> spiked(n, 0);
@@ -128,12 +132,13 @@ extern "C" int simulate_reward(
             if (learning) {
                 for (int compartment=0; compartment<n_compartments; ++compartment) {
                     const int population_size = dan_population_size[compartment];
+                    const float reference = subtract_reference ? dan_baseline[compartment] : 0.0f;
                     phasic[compartment] = population_size
-                        ? float(dan_spikes[compartment]) / population_size - dan_baseline[compartment]
+                        ? float(dan_spikes[compartment]) / population_size - reference
                         : 0.0f;
                     if (record) {
                         signal_acc[compartment * SIGNAL_WIDTH + 2] += phasic[compartment];
-                        signal_acc[compartment * SIGNAL_WIDTH + 3] = dan_baseline[compartment];
+                        signal_acc[compartment * SIGNAL_WIDTH + 3] = reference;
                     }
                 }
                 for (int k=0; k<n_plastic; ++k) {

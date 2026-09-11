@@ -182,8 +182,10 @@ def make_circuit(root, protocol, *, n_features=16):
                           tau_ms=protocol['tau_ms'], learning_rate=protocol['learning_rate'],
                           gain_bounds=tuple(protocol['gain_bounds']),
                           plasticity_onset_ms=protocol['plasticity_onset_ms'],
-                          dan_baseline_window_ms=protocol['dan_baseline_window_ms'])
+                          dan_baseline_window_ms=protocol['dan_baseline_window_ms'],
+                          dan_reference=protocol.get('dan_reference', 'tonic-baseline'))
     anatomy = dict(neurons=len(ids), kc=len(arrays['kc']), dans=len(dans), plastic_edges=len(edges),
+                   dan_reference=engine.dan_reference,
                    compartments=annotations, dopamine_only_fast_outputs_zeroed=len(dopamine_only),
                    kc_input_gain=protocol['kc_input_gain'], sensory_input_gain=protocol['sensory_input_gain'],
                    apl_output_gain=protocol['apl_output_gain'], apl_body_ids=ids[apl].tolist(),
