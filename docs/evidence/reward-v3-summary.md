@@ -1,5 +1,11 @@
 # MaleCNS dopamine-association pilot: measured outcome
 
+**Reading this historical record:** the [September 12 UTC reassessment](../../wiki/reassessment.md)
+adds the later rule diagnosis and separate repair-worktree status. SCI-001 remains
+open. Earlier suggestions below to prioritize readout centering are superseded:
+resolve the rule/trace semantics and away mask, then controlled acquisition and
+reversal, before centering. The reported run identities and measurements remain unchanged.
+
 The new learning mechanism changed the simulated circuit, but this configuration
 made its sports probabilities worse. Both trained arms selected away on every
 validation game. The frozen graph and fixed prior were substantially better.
@@ -155,8 +161,10 @@ A rank-based score, which ignores global shifts, gives 0.554 (paired), 0.483
 **What this establishes.** The encoder now yields a game-specific KC code, the
 drive keeps DANs and MBONs in a usable range, and dopamine-gated learning changes
 real KC-to-MBON gains on a gated circuit. It does not establish learning that
-improves prediction. The next problems are the readout's absolute centering and
-the shared-core depression, not the sensory interface.
+improves prediction. The next problems identified at that time were the readout's
+absolute centering and shared-core depression. Subsequent rule diagnostics changed
+that priority: the learning mechanism and controlled conditioning come before
+centering. See the [current assessment](../../wiki/reassessment.md).
 
 **Software and browser acceptance for schema 3.** `make verify` and the
 Playwright script pass; the script now opens the newest (schema-3, passed-gate)

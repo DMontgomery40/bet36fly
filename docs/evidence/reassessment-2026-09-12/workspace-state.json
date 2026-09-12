@@ -1,0 +1,51 @@
+{
+  "checked_utc": "2026-09-12",
+  "main_branch": "feat/bet36fly-dopamine-learning",
+  "main_commit": "daaf080030e23180fe1851b919e56e36a2a9c2ff",
+  "repair_commit": "81037f15118c1d9857e78aa579292e9a46327c09",
+  "repair_status": "?? .venv",
+  "snapshots": [
+    {
+      "source": ".worktrees/reward-repair-phase1/docs/evidence/reward-repair-phase1.md",
+      "snapshot": "repair-phase1.md",
+      "sha256": "a29016a1360825c4f89a74ad5cb5ccb447855d00f449a3943c96be82491daad5"
+    },
+    {
+      "source": "output/collaboration/reward-repair/HANDOFF_CURRENT.md",
+      "snapshot": "repair-handoff.md",
+      "sha256": "dabf5765e7fa7f645440f011bc8f5d84acd9253c84ad1f4f59bdbc87b07b62a1"
+    },
+    {
+      "source": ".worktrees/reward-repair-phase1/bet36fly/reward_protocol.py",
+      "snapshot": "repair-reward_protocol.py.txt",
+      "sha256": "0fd139f3213ff716e8e6108124ddcd0e32235d7324e62a0aba21813b228473e9"
+    },
+    {
+      "source": ".worktrees/reward-repair-phase1/bet36fly/reward_lif.cpp",
+      "snapshot": "repair-reward_lif.cpp.txt",
+      "sha256": "9b9dfb95deb74e37acbd3b569dce2b4b7aa28e1dec8b57579b19a86bc9d379e4"
+    }
+  ],
+  "protected_files": [
+    {
+      "path": "output/current-model.json",
+      "sha256": "975badb63a16ca1b24291a741b6818f1d83776b51adb18b18c6f0902b3a18b21"
+    },
+    {
+      "path": "output/experiments/reward-v3-209f7c49983f5873f650/manifest.json",
+      "sha256": "3ca0ed70b742ebad3b34b4ecc6690b55e96f3833ee5df34920a6648e950b8ff5"
+    },
+    {
+      "path": "output/experiments/reward-v3-40d7263f0d2cc1974cf0/manifest.json",
+      "sha256": "356dd3b8491f82b18162164d73f0e789ea1dfe133a1fe7e4c194bcd336932af3"
+    },
+    {
+      "path": "output/experiments/reward-v3-84fc629bc8045cbff7e0/manifest.json",
+      "sha256": "8c18807bc1a72d9f52cca44595380f88de7410cf14f3fbd2dcb9ee54449f7ecf"
+    },
+    {
+      "path": "output/experiments/v2-24a83145c27ab220116e/manifest.json",
+      "sha256": "063b048f94014028b5cb81483a6f538601b51edf94dba0a70dd57ecd219b6030"
+    }
+  ]
+}

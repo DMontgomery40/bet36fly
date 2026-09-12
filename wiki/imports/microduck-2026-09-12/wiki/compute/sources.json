@@ -1,0 +1,182 @@
+[
+  {
+    "id": "nv-acquisition",
+    "title": "NVIDIA to Acquire Hugging Face",
+    "url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/",
+    "retrieved": "2026-09-12",
+    "published": "2026-09-03",
+    "kind": "corporate-announcement",
+    "evidence": "Confirmed public acquisition agreement; ecosystem commitments, not closing."
+  },
+  {
+    "id": "nv-sec",
+    "title": "NVIDIA Form 8-K September 2 event",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000078/nvda-20260902.htm",
+    "retrieved": "2026-09-12",
+    "published": "2026-09-03",
+    "kind": "regulatory-filing",
+    "evidence": "Definitive agreement September 2; expected H1 2027 close subject to approvals. Strongest transaction-stage evidence."
+  },
+  {
+    "id": "hf-jobs",
+    "title": "Hugging Face Jobs",
+    "url": "https://huggingface.co/docs/hub/jobs",
+    "retrieved": "2026-09-12",
+    "published": null,
+    "kind": "official-docs",
+    "evidence": "CLI, Python and HTTP execution; seconds wording conflicts with dedicated billing page."
+  },
+  {
+    "id": "hf-quickstart",
+    "title": "Jobs Quickstart",
+    "url": "https://huggingface.co/docs/hub/jobs-quickstart",
+    "retrieved": "2026-09-12",
+    "published": null,
+    "kind": "official-docs",
+    "evidence": "Signed-in web Jobs page can create/manage; CLI auth and timeout; Ctrl+C detaches logs."
+  },
+  {
+    "id": "hf-price",
+    "title": "Jobs Pricing and Billing",
+    "url": "https://huggingface.co/docs/hub/jobs-pricing",
+    "retrieved": "2026-09-12",
+    "published": null,
+    "kind": "official-docs",
+    "evidence": "Public GPU rate table; positive credit balance; minute billing; namespace attribution. Mutable pricing."
+  },
+  {
+    "id": "hf-auth",
+    "title": "Authentication reference",
+    "url": "https://huggingface.co/docs/huggingface_hub/package_reference/authentication",
+    "retrieved": "2026-09-12",
+    "published": null,
+    "kind": "official-docs",
+    "evidence": "Browser device-code OAuth is supported default when no token supplied; personal token alternative."
+  },
+  {
+    "id": "hf-cli",
+    "title": "CLI reference",
+    "url": "https://huggingface.co/docs/huggingface_hub/package_reference/cli",
+    "retrieved": "2026-09-12",
+    "published": null,
+    "kind": "official-docs",
+    "evidence": "whoami and CLI auth commands; installed version may differ."
+  },
+  {
+    "id": "hf-config",
+    "title": "Jobs Configuration",
+    "url": "https://huggingface.co/docs/hub/jobs-configuration",
+    "retrieved": "2026-09-12",
+    "published": null,
+    "kind": "official-docs",
+    "evidence": "Volumes, namespace, secret passing and authenticated exposed HTTP ports; not proof of WebRTC support."
+  },
+  {
+    "id": "hf-manage",
+    "title": "Manage Jobs",
+    "url": "https://huggingface.co/docs/hub/jobs-manage",
+    "retrieved": "2026-09-12",
+    "published": null,
+    "kind": "official-docs",
+    "evidence": "Ephemeral filesystem; durable outputs and retained logs; completion is not persistence proof."
+  },
+  {
+    "id": "hf-guide",
+    "title": "Run and manage Jobs",
+    "url": "https://huggingface.co/docs/huggingface_hub/guides/jobs",
+    "retrieved": "2026-09-12",
+    "published": null,
+    "kind": "official-docs",
+    "evidence": "Python run_job and UV execution; multiple workload types."
+  },
+  {
+    "id": "hf-spaces",
+    "title": "Spaces Overview",
+    "url": "https://huggingface.co/docs/hub/spaces-overview",
+    "retrieved": "2026-09-12",
+    "published": null,
+    "kind": "official-docs",
+    "evidence": "Gradio, Docker, static HTML application surfaces."
+  },
+  {
+    "id": "hf-pypi",
+    "title": "huggingface_hub PyPI",
+    "url": "https://pypi.org/project/huggingface-hub/",
+    "retrieved": "2026-09-12",
+    "published": "2026-09-10",
+    "kind": "package-registry",
+    "evidence": "Latest release 1.31.0; artifact publication record, not local installed version."
+  },
+  {
+    "id": "brev-quick",
+    "title": "Brev Quickstart",
+    "url": "https://docs.nvidia.com/brev/getting-started/quickstart",
+    "retrieved": "2026-09-12",
+    "published": null,
+    "kind": "official-docs",
+    "evidence": "Multi-provider GPU machines; browser console and browser-based CLI login."
+  },
+  {
+    "id": "brev-console",
+    "title": "Brev Console Reference",
+    "url": "https://docs.nvidia.com/brev/guides/console-reference",
+    "retrieved": "2026-09-12",
+    "published": null,
+    "kind": "official-docs",
+    "evidence": "Create/access console; billing, stop/storage distinction and credit exhaustion lifecycle."
+  },
+  {
+    "id": "brev-launch",
+    "title": "Brev Launchables",
+    "url": "https://docs.nvidia.com/brev/concepts/launchables",
+    "retrieved": "2026-09-12",
+    "published": null,
+    "kind": "official-docs",
+    "evidence": "Hardware/software/source/network recipes, runtime modes, deploy-time secret scope."
+  },
+  {
+    "id": "brev-search",
+    "title": "Brev Search and Discovery",
+    "url": "https://docs.nvidia.com/brev/cli/search-discovery",
+    "retrieved": "2026-09-12",
+    "published": null,
+    "kind": "official-docs",
+    "evidence": "Read-only discovery command, rates and filters; output examples are not live quotes."
+  },
+  {
+    "id": "brev-gpus",
+    "title": "Brev GPU Types",
+    "url": "https://docs.nvidia.com/brev/reference/gpu-types",
+    "retrieved": "2026-09-12",
+    "published": "2026-04-06",
+    "kind": "official-docs",
+    "evidence": "Catalog updated timestamp; some memory labels differ from other provider specs. Verify actual allocation."
+  },
+  {
+    "id": "halos-brev",
+    "title": "Deploy Halos on NVIDIA Brev",
+    "url": "https://docs.nvidia.com/halos-outside-in/latest/getting-started/brev-launchable.html",
+    "retrieved": "2026-09-12",
+    "published": null,
+    "kind": "official-docs",
+    "evidence": "Documented Isaac Sim SIL notebook deployment precedent; not a connectome template."
+  },
+  {
+    "id": "isaac-req",
+    "title": "Isaac Sim Requirements",
+    "url": "https://docs.isaacsim.omniverse.nvidia.com/latest/installation/requirements.html",
+    "retrieved": "2026-09-12",
+    "published": "2026-09-10",
+    "kind": "official-docs",
+    "evidence": "A100/H100 excluded without RT cores; Linux container and training memory requirements."
+  },
+  {
+    "id": "isaac-stream",
+    "title": "Isaac Sim Livestream Clients",
+    "url": "https://docs.isaacsim.omniverse.nvidia.com/latest/installation/manual_livestream_clients.html",
+    "retrieved": "2026-09-12",
+    "published": null,
+    "kind": "official-docs",
+    "evidence": "NVENC, native/web viewer, media endpoints security requirements and A100 limitation."
+  }
+]

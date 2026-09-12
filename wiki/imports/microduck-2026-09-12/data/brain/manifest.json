@@ -1,0 +1,46 @@
+{
+  "dataset": "MaleCNS v1.0",
+  "release": "2026-06-08",
+  "publication": "2026-09-03",
+  "source": "https://male-cns.janelia.org/download/",
+  "license": "CC-BY-4.0",
+  "attribution": "Berg et al.; HHMI Janelia, Cambridge, MRC LMB and Google Research",
+  "node_policy": "All non-glial objects with an assigned neuronal superclass.",
+  "edge_policy": "Every released edge among retained neurons; no extra threshold; self edges retained.",
+  "excluded_policy": "Edges incident to unresolved fragments/non-retained objects; counted, not hidden.",
+  "sign_assumption": "ACh excitatory; GABA/glutamate/histamine inhibitory; ambiguous +1.",
+  "biological_dynamics_validated": false,
+  "stats": {
+    "source_edges": 151856684,
+    "source_contacts": 311833243,
+    "excluded_edges": 126273746,
+    "excluded_contacts": 187655626,
+    "weak_edges": 10299701,
+    "self_edges": 101,
+    "neurons": 166700,
+    "edges": 25582938,
+    "contacts": 124177617,
+    "kenyon_cells": 4064,
+    "mushroom_body_outputs": 97,
+    "sensory_ports": 686,
+    "plastic_edges": 61210,
+    "uncertain_transmitter_neurons": 3718
+  },
+  "source_hashes": {
+    "annotations.feather": {
+      "url": "https://storage.googleapis.com/flyem-male-cns/v1.0/connectome-data/flat-connectome/body-annotations-male-cns-v1.0-minconf-0.5.feather",
+      "bytes": 14483314,
+      "sha256": "2177e246113e4cfbf1e7772ec37c6da1955ff22e8063d0b1f833101f99a9a3b2"
+    },
+    "neurotransmitters.feather": {
+      "url": "https://storage.googleapis.com/flyem-male-cns/v1.0/connectome-data/flat-connectome/body-neurotransmitters-male-cns-v1.0.feather",
+      "bytes": 43282834,
+      "sha256": "95c9289220663abeb3409f3ad9e5a7f8a53f8093f5139d15502cd08da8879621"
+    },
+    "connectome-weights.feather": {
+      "url": "https://storage.googleapis.com/flyem-male-cns/v1.0/connectome-data/flat-connectome/connectome-weights-male-cns-v1.0-minconf-0.5.feather",
+      "bytes": 1051241946,
+      "sha256": "e35da783d1c686b2b58b3b87cd6a403ae43bfcfba8bff28e08ef752c1a56afc1"
+    }
+  }
+}

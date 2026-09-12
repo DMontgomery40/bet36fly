@@ -9,6 +9,10 @@ __pycache__/
 data/
 output/
 research/
+# Small, source-attributed wiki tables and immutable research snapshots are documentation.
+!/wiki/cells/data/
+!/wiki/imports/microduck-2026-09-12/data/
+!/wiki/imports/microduck-2026-09-12/research/
 web/node_modules/
 web/dist/
 .superpowers/

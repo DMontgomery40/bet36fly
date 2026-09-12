@@ -1,0 +1,878 @@
+{
+  "schema": 1,
+  "dataset": "MaleCNS v1.0",
+  "license": "CC-BY-4.0",
+  "attribution": "Berg et al.; HHMI Janelia, Cambridge, MRC LMB and Google Research",
+  "scope": "Anatomical table export; no neural activity measured and no plasticity enabled.",
+  "neuron_count": 166700,
+  "cell_rows": 5243,
+  "kenyon_cells": 4064,
+  "sensory_ports": 686,
+  "mbon_cells": 97,
+  "annotated_dan_cells": 340,
+  "pure_dopamine_cells": 392,
+  "dan_and_pure_dopamine_cells": 338,
+  "apl_cells": 2,
+  "selected_reward_support_edges": 8866,
+  "repair_gamma_eligible_edges": 7423,
+  "encoder": {
+    "encoder": "glomerular-tuning-v1",
+    "glomeruli": 64,
+    "centers_per_feature": 4,
+    "center_span": 1.5,
+    "floor_fraction": 0.05,
+    "ports_driven": 275,
+    "ports_total": 686,
+    "eligible_transmitter": "acetylcholine",
+    "min_kc_contacts": 100.0,
+    "dropped_glomeruli": [
+      "M_adPNm5"
+    ],
+    "features": [
+      {
+        "feature": 0,
+        "glomeruli": [
+          {
+            "type": "DA1_lPN",
+            "center": -1.5,
+            "cells": 13,
+            "kc_contacts": 10677.0
+          },
+          {
+            "type": "DM2_lPN",
+            "center": -0.5,
+            "cells": 4,
+            "kc_contacts": 12970.0
+          },
+          {
+            "type": "VA4_lPN",
+            "center": 0.5,
+            "cells": 2,
+            "kc_contacts": 7854.0
+          },
+          {
+            "type": "VM4_adPN",
+            "center": 1.5,
+            "cells": 2,
+            "kc_contacts": 4024.0
+          }
+        ]
+      },
+      {
+        "feature": 1,
+        "glomeruli": [
+          {
+            "type": "DA2_lPN",
+            "center": -1.5,
+            "cells": 10,
+            "kc_contacts": 3651.0
+          },
+          {
+            "type": "DM3_adPN",
+            "center": -0.5,
+            "cells": 2,
+            "kc_contacts": 6982.0
+          },
+          {
+            "type": "VA5_lPN",
+            "center": 0.5,
+            "cells": 6,
+            "kc_contacts": 7258.0
+          },
+          {
+            "type": "VM4_lvPN",
+            "center": 1.5,
+            "cells": 6,
+            "kc_contacts": 826.0
+          }
+        ]
+      },
+      {
+        "feature": 2,
+        "glomeruli": [
+          {
+            "type": "DA3_adPN",
+            "center": -1.5,
+            "cells": 4,
+            "kc_contacts": 619.0
+          },
+          {
+            "type": "DM4_adPN",
+            "center": -0.5,
+            "cells": 2,
+            "kc_contacts": 12314.0
+          },
+          {
+            "type": "VA6_adPN",
+            "center": 0.5,
+            "cells": 2,
+            "kc_contacts": 9366.0
+          },
+          {
+            "type": "VM5d_adPN",
+            "center": 1.5,
+            "cells": 12,
+            "kc_contacts": 10448.0
+          }
+        ]
+      },
+      {
+        "feature": 3,
+        "glomeruli": [
+          {
+            "type": "DA4l_adPN",
+            "center": -1.5,
+            "cells": 2,
+            "kc_contacts": 3434.0
+          },
+          {
+            "type": "DM5_lPN",
+            "center": -0.5,
+            "cells": 7,
+            "kc_contacts": 6149.0
+          },
+          {
+            "type": "VA7l_adPN",
+            "center": 0.5,
+            "cells": 2,
+            "kc_contacts": 3548.0
+          },
+          {
+            "type": "VM5v_adPN",
+            "center": 1.5,
+            "cells": 5,
+            "kc_contacts": 4143.0
+          }
+        ]
+      },
+      {
+        "feature": 4,
+        "glomeruli": [
+          {
+            "type": "DA4m_adPN",
+            "center": -1.5,
+            "cells": 2,
+            "kc_contacts": 1138.0
+          },
+          {
+            "type": "DM6_adPN",
+            "center": -0.5,
+            "cells": 7,
+            "kc_contacts": 10584.0
+          },
+          {
+            "type": "VA7m_lPN",
+            "center": 0.5,
+            "cells": 6,
+            "kc_contacts": 6479.0
+          },
+          {
+            "type": "VM6_adPN",
+            "center": 1.5,
+            "cells": 2,
+            "kc_contacts": 6678.0
+          }
+        ]
+      },
+      {
+        "feature": 5,
+        "glomeruli": [
+          {
+            "type": "DC1_adPN",
+            "center": -1.5,
+            "cells": 2,
+            "kc_contacts": 17443.0
+          },
+          {
+            "type": "DP1l_adPN",
+            "center": -0.5,
+            "cells": 2,
+            "kc_contacts": 11637.0
+          },
+          {
+            "type": "VC1_lPN",
+            "center": 0.5,
+            "cells": 2,
+            "kc_contacts": 4408.0
+          },
+          {
+            "type": "VM7d_adPN",
+            "center": 1.5,
+            "cells": 7,
+            "kc_contacts": 5371.0
+          }
+        ]
+      },
+      {
+        "feature": 6,
+        "glomeruli": [
+          {
+            "type": "DC2_adPN",
+            "center": -1.5,
+            "cells": 4,
+            "kc_contacts": 7547.0
+          },
+          {
+            "type": "DP1m_adPN",
+            "center": -0.5,
+            "cells": 2,
+            "kc_contacts": 20995.0
+          },
+          {
+            "type": "VC2_lPN",
+            "center": 0.5,
+            "cells": 2,
+            "kc_contacts": 5647.0
+          },
+          {
+            "type": "VM7v_adPN",
+            "center": 1.5,
+            "cells": 3,
+            "kc_contacts": 3169.0
+          }
+        ]
+      },
+      {
+        "feature": 7,
+        "glomeruli": [
+          {
+            "type": "DC3_adPN",
+            "center": -1.5,
+            "cells": 6,
+            "kc_contacts": 8418.0
+          },
+          {
+            "type": "D_adPN",
+            "center": -0.5,
+            "cells": 6,
+            "kc_contacts": 6600.0
+          },
+          {
+            "type": "VC3_adPN",
+            "center": 0.5,
+            "cells": 7,
+            "kc_contacts": 8462.0
+          },
+          {
+            "type": "VP1d+VP4_l2PN1",
+            "center": 1.5,
+            "cells": 2,
+            "kc_contacts": 5792.0
+          }
+        ]
+      },
+      {
+        "feature": 8,
+        "glomeruli": [
+          {
+            "type": "DC4_adPN",
+            "center": -1.5,
+            "cells": 2,
+            "kc_contacts": 2373.0
+          },
+          {
+            "type": "M_adPNm4",
+            "center": -0.5,
+            "cells": 2,
+            "kc_contacts": 764.0
+          },
+          {
+            "type": "VC4_adPN",
+            "center": 0.5,
+            "cells": 6,
+            "kc_contacts": 6219.0
+          },
+          {
+            "type": "VP1d_il2PN",
+            "center": 1.5,
+            "cells": 2,
+            "kc_contacts": 2393.0
+          }
+        ]
+      },
+      {
+        "feature": 9,
+        "glomeruli": [
+          {
+            "type": "DL1_adPN",
+            "center": -1.5,
+            "cells": 4,
+            "kc_contacts": 9689.0
+          },
+          {
+            "type": "M_adPNm8",
+            "center": -0.5,
+            "cells": 6,
+            "kc_contacts": 137.0
+          },
+          {
+            "type": "VC5_lvPN",
+            "center": 0.5,
+            "cells": 6,
+            "kc_contacts": 6949.0
+          },
+          {
+            "type": "VP1m+VP2_lvPN2",
+            "center": 1.5,
+            "cells": 8,
+            "kc_contacts": 157.0
+          }
+        ]
+      },
+      {
+        "feature": 10,
+        "glomeruli": [
+          {
+            "type": "DL2d_adPN",
+            "center": -1.5,
+            "cells": 9,
+            "kc_contacts": 7443.0
+          },
+          {
+            "type": "M_l2PNm16",
+            "center": -0.5,
+            "cells": 4,
+            "kc_contacts": 131.0
+          },
+          {
+            "type": "VL1_ilPN",
+            "center": 0.5,
+            "cells": 2,
+            "kc_contacts": 887.0
+          },
+          {
+            "type": "VP1m+VP5_ilPN",
+            "center": 1.5,
+            "cells": 2,
+            "kc_contacts": 2178.0
+          }
+        ]
+      },
+      {
+        "feature": 11,
+        "glomeruli": [
+          {
+            "type": "DL2v_adPN",
+            "center": -1.5,
+            "cells": 8,
+            "kc_contacts": 8567.0
+          },
+          {
+            "type": "M_lPNm11D",
+            "center": -0.5,
+            "cells": 12,
+            "kc_contacts": 779.0
+          },
+          {
+            "type": "VL2a_adPN",
+            "center": 0.5,
+            "cells": 2,
+            "kc_contacts": 7383.0
+          },
+          {
+            "type": "VP1m_l2PN",
+            "center": 1.5,
+            "cells": 2,
+            "kc_contacts": 4288.0
+          }
+        ]
+      },
+      {
+        "feature": 12,
+        "glomeruli": [
+          {
+            "type": "DL3_lPN",
+            "center": -1.5,
+            "cells": 11,
+            "kc_contacts": 2028.0
+          },
+          {
+            "type": "VA1d_adPN",
+            "center": -0.5,
+            "cells": 6,
+            "kc_contacts": 6820.0
+          },
+          {
+            "type": "VL2p_adPN",
+            "center": 0.5,
+            "cells": 2,
+            "kc_contacts": 8977.0
+          },
+          {
+            "type": "VP2_adPN",
+            "center": 1.5,
+            "cells": 1,
+            "kc_contacts": 1653.0
+          }
+        ]
+      },
+      {
+        "feature": 13,
+        "glomeruli": [
+          {
+            "type": "DL4_adPN",
+            "center": -1.5,
+            "cells": 2,
+            "kc_contacts": 1378.0
+          },
+          {
+            "type": "VA1v_adPN",
+            "center": -0.5,
+            "cells": 8,
+            "kc_contacts": 4359.0
+          },
+          {
+            "type": "VM1_lPN",
+            "center": 0.5,
+            "cells": 2,
+            "kc_contacts": 3659.0
+          },
+          {
+            "type": "VP3+VP1l_ivPN",
+            "center": 1.5,
+            "cells": 2,
+            "kc_contacts": 3422.0
+          }
+        ]
+      },
+      {
+        "feature": 14,
+        "glomeruli": [
+          {
+            "type": "DL5_adPN",
+            "center": -1.5,
+            "cells": 2,
+            "kc_contacts": 4164.0
+          },
+          {
+            "type": "VA2_adPN",
+            "center": -0.5,
+            "cells": 2,
+            "kc_contacts": 12214.0
+          },
+          {
+            "type": "VM2_adPN",
+            "center": 0.5,
+            "cells": 3,
+            "kc_contacts": 4462.0
+          },
+          {
+            "type": "VP5+Z_adPN",
+            "center": 1.5,
+            "cells": 2,
+            "kc_contacts": 396.0
+          }
+        ]
+      },
+      {
+        "feature": 15,
+        "glomeruli": [
+          {
+            "type": "DM1_lPN",
+            "center": -1.5,
+            "cells": 2,
+            "kc_contacts": 18007.0
+          },
+          {
+            "type": "VA3_adPN",
+            "center": -0.5,
+            "cells": 4,
+            "kc_contacts": 8993.0
+          },
+          {
+            "type": "VM3_adPN",
+            "center": 0.5,
+            "cells": 4,
+            "kc_contacts": 8168.0
+          },
+          {
+            "type": "V_ilPN",
+            "center": 1.5,
+            "cells": 2,
+            "kc_contacts": 6340.0
+          }
+        ]
+      }
+    ]
+  },
+  "kc_types": [
+    {
+      "type": "KC",
+      "family": "other",
+      "cells": 2,
+      "home_edges": 0,
+      "home_contacts": 0,
+      "home_repair_eligible": 0,
+      "away_edges": 0,
+      "away_contacts": 0,
+      "away_repair_eligible": 0
+    },
+    {
+      "type": "KCa'b'-ap1",
+      "family": "apbp",
+      "cells": 199,
+      "home_edges": 111,
+      "home_contacts": 163,
+      "home_repair_eligible": 111,
+      "away_edges": 440,
+      "away_contacts": 5667,
+      "away_repair_eligible": 0
+    },
+    {
+      "type": "KCa'b'-ap2",
+      "family": "apbp",
+      "cells": 291,
+      "home_edges": 107,
+      "home_contacts": 175,
+      "home_repair_eligible": 107,
+      "away_edges": 583,
+      "away_contacts": 7548,
+      "away_repair_eligible": 0
+    },
+    {
+      "type": "KCa'b'-m",
+      "family": "apbp",
+      "cells": 205,
+      "home_edges": 98,
+      "home_contacts": 152,
+      "home_repair_eligible": 98,
+      "away_edges": 415,
+      "away_contacts": 6102,
+      "away_repair_eligible": 0
+    },
+    {
+      "type": "KCab-c",
+      "family": "ab",
+      "cells": 488,
+      "home_edges": 529,
+      "home_contacts": 2591,
+      "home_repair_eligible": 529,
+      "away_edges": 0,
+      "away_contacts": 0,
+      "away_repair_eligible": 0
+    },
+    {
+      "type": "KCab-m",
+      "family": "ab",
+      "cells": 536,
+      "home_edges": 702,
+      "home_contacts": 4142,
+      "home_repair_eligible": 702,
+      "away_edges": 3,
+      "away_contacts": 3,
+      "away_repair_eligible": 0
+    },
+    {
+      "type": "KCab-p",
+      "family": "ab",
+      "cells": 129,
+      "home_edges": 128,
+      "home_contacts": 558,
+      "home_repair_eligible": 128,
+      "away_edges": 0,
+      "away_contacts": 0,
+      "away_repair_eligible": 0
+    },
+    {
+      "type": "KCab-s",
+      "family": "ab",
+      "cells": 657,
+      "home_edges": 924,
+      "home_contacts": 5859,
+      "home_repair_eligible": 924,
+      "away_edges": 2,
+      "away_contacts": 2,
+      "away_repair_eligible": 0
+    },
+    {
+      "type": "KCg",
+      "family": "gamma",
+      "cells": 1,
+      "home_edges": 1,
+      "home_contacts": 24,
+      "home_repair_eligible": 1,
+      "away_edges": 2,
+      "away_contacts": 47,
+      "away_repair_eligible": 2
+    },
+    {
+      "type": "KCg-d",
+      "family": "gamma",
+      "cells": 206,
+      "home_edges": 206,
+      "home_contacts": 3273,
+      "home_repair_eligible": 206,
+      "away_edges": 419,
+      "away_contacts": 6038,
+      "away_repair_eligible": 419
+    },
+    {
+      "type": "KCg-m",
+      "family": "gamma",
+      "cells": 1342,
+      "home_edges": 1368,
+      "home_contacts": 24213,
+      "home_repair_eligible": 1368,
+      "away_edges": 2800,
+      "away_contacts": 37578,
+      "away_repair_eligible": 2800
+    },
+    {
+      "type": "KCg-s1",
+      "family": "gamma",
+      "cells": 2,
+      "home_edges": 3,
+      "home_contacts": 138,
+      "home_repair_eligible": 3,
+      "away_edges": 4,
+      "away_contacts": 293,
+      "away_repair_eligible": 4
+    },
+    {
+      "type": "KCg-s2",
+      "family": "gamma",
+      "cells": 2,
+      "home_edges": 2,
+      "home_contacts": 92,
+      "home_repair_eligible": 2,
+      "away_edges": 5,
+      "away_contacts": 153,
+      "away_repair_eligible": 5
+    },
+    {
+      "type": "KCg-s3",
+      "family": "gamma",
+      "cells": 2,
+      "home_edges": 2,
+      "home_contacts": 49,
+      "home_repair_eligible": 2,
+      "away_edges": 4,
+      "away_contacts": 84,
+      "away_repair_eligible": 4
+    },
+    {
+      "type": "KCg-s4",
+      "family": "gamma",
+      "cells": 2,
+      "home_edges": 3,
+      "home_contacts": 31,
+      "home_repair_eligible": 3,
+      "away_edges": 5,
+      "away_contacts": 64,
+      "away_repair_eligible": 5
+    }
+  ],
+  "targets": {
+    "PPL101": {
+      "body_ids": [
+        11327,
+        11900
+      ],
+      "instances": [
+        "PPL101(y1ped)_R",
+        "PPL101(y1ped)_L"
+      ],
+      "transmitters": [
+        "dopamine"
+      ],
+      "incoming_edges": 7279,
+      "incoming_contacts": 39125,
+      "kc_incoming_edges": 6168,
+      "kc_incoming_contacts": 24068
+    },
+    "PAM12": {
+      "body_ids": [
+        61360,
+        91391,
+        91875,
+        96571,
+        104460,
+        105447,
+        111665,
+        113001,
+        126900,
+        135171,
+        138585,
+        139280,
+        139378,
+        144625,
+        146418,
+        152428,
+        157257,
+        158917,
+        196622,
+        206851,
+        520384,
+        552362
+      ],
+      "instances": [
+        "PAM12(y3)_L",
+        "PAM12(y3)_L",
+        "PAM12(y3)_L",
+        "PAM12(y3)_L",
+        "PAM12(y3)_L",
+        "PAM12(y3)_L",
+        "PAM12(y3)_R",
+        "PAM12(y3)_R",
+        "PAM12(y3)_L",
+        "PAM12(y3)_R",
+        "PAM12(y3)_L",
+        "PAM12(y3)_R",
+        "PAM12(y3)_R",
+        "PAM12(y3)_L",
+        "PAM12(y3)_R",
+        "PAM12(y3)_L",
+        "PAM12(y3)_L",
+        "PAM12(y3)_R",
+        "PAM12(y3)_R",
+        "PAM12(y3)_R",
+        "PAM12(y3)_R",
+        "PAM12(y3)_R"
+      ],
+      "transmitters": [
+        "dopamine"
+      ],
+      "incoming_edges": 10828,
+      "incoming_contacts": 18156,
+      "kc_incoming_edges": 8105,
+      "kc_incoming_contacts": 11034
+    },
+    "PAM11": {
+      "body_ids": [
+        114661,
+        119763,
+        137539,
+        138822,
+        139706,
+        145749,
+        147857,
+        157016,
+        204930,
+        215931,
+        224500,
+        238644,
+        273182,
+        319321,
+        520616
+      ],
+      "instances": [
+        "PAM11(a1)_R",
+        "PAM11(a1)_L",
+        "PAM11(a1)_R",
+        "PAM11(a1)_L",
+        "PAM11(a1)_R",
+        "PAM11(a1)_L",
+        "PAM11(a1)_L",
+        "PAM11(a1)_L",
+        "PAM11(a1)_L",
+        "PAM11(a1)_R",
+        "PAM11(a1)_R",
+        "PAM11(a1)_R",
+        "PAM11(a1)_L",
+        "PAM11(a1)_R",
+        "PAM11(a1)_L"
+      ],
+      "transmitters": [
+        "dopamine"
+      ],
+      "incoming_edges": 9653,
+      "incoming_contacts": 15860,
+      "kc_incoming_edges": 7513,
+      "kc_incoming_contacts": 10723
+    },
+    "MBON11": {
+      "body_ids": [
+        10704,
+        11402
+      ],
+      "instances": [
+        "MBON11(y1pedc>a/B)_L",
+        "MBON11(y1pedc>a/B)_R"
+      ],
+      "transmitters": [
+        "gaba"
+      ],
+      "incoming_edges": 4493,
+      "incoming_contacts": 46865,
+      "kc_incoming_edges": 4184,
+      "kc_incoming_contacts": 41460
+    },
+    "MBON09": {
+      "body_ids": [
+        18713,
+        19267,
+        21242,
+        523060
+      ],
+      "instances": [
+        "MBON09(y3B'1)_L",
+        "MBON09(y3B'1)_L",
+        "MBON09(y3B'1)_R",
+        "MBON09(y3B'1)_R"
+      ],
+      "transmitters": [
+        "gaba"
+      ],
+      "incoming_edges": 5426,
+      "incoming_contacts": 72167,
+      "kc_incoming_edges": 4682,
+      "kc_incoming_contacts": 63579
+    },
+    "MBON07": {
+      "body_ids": [
+        12859,
+        15626,
+        18603,
+        515338
+      ],
+      "instances": [
+        "MBON07(a1)_R",
+        "MBON07(a1)_L",
+        "MBON07(a1)_L",
+        "MBON07(a1)_R"
+      ],
+      "transmitters": [
+        "glutamate"
+      ],
+      "incoming_edges": 4081,
+      "incoming_contacts": 26936,
+      "kc_incoming_edges": 3651,
+      "kc_incoming_contacts": 22840
+    },
+    "APL": {
+      "body_ids": [
+        10540,
+        10977
+      ],
+      "instances": [
+        "APL_R",
+        "APL_L"
+      ],
+      "transmitters": [
+        "gaba"
+      ],
+      "incoming_edges": 6185,
+      "incoming_contacts": 234025,
+      "kc_incoming_edges": 4693,
+      "kc_incoming_contacts": 210352
+    }
+  },
+  "source_sha256": {
+    "data/brain/ids.npy": "ab90597b7b0ce07cbc22cb39a65b70bea2ac73cc7fd225951bd9d73f2fc8dd3f",
+    "data/brain/indptr.npy": "fe43420f11e6242a11f8199ae7f097cab4b8a6db181d36f2a46b9e46670acbb4",
+    "data/brain/post.npy": "ce20f7433f78442c717ad2a7b5394cf4a3b109d990b4be0788040b7b0f4ed150",
+    "data/brain/counts.npy": "4a11faf9771fc3d5a5ff78ae7620ec1ce400f52d099ff657f0342cfc7a519f6b",
+    "data/brain/signs.npy": "4a0725e94d5014b2f17a70e3bdef3f7d843c0e81a8f22a33284aa10d8d62dab5",
+    "data/brain/sensory.npy": "ed574f42559455069679f8ce3b339395efa9398ec13e199eab47959533370805",
+    "data/brain/kc.npy": "97a570aafa089f93e642b2bb07e3a3322dabb14c3c7dd431f0c8d2b3b7951fdd",
+    "data/brain/mbon.npy": "87d555e02d4cf2d661d9676b937a31b29cacf60a7edc85c8c08edc8312530f83",
+    "data/brain/nodes.feather": "d706a6dd5ec1dc17cfba2e8f439232723af81729bf1d0c17bf0cc73860a9c867",
+    "data/brain/manifest.json": "9b98aae608bd8a5050c1dad1b1e9975bcd845333ffdf2e6a811b105d3ffc7159",
+    "data/raw/annotations.feather": "2177e246113e4cfbf1e7772ec37c6da1955ff22e8063d0b1f833101f99a9a3b2",
+    "docs/connectome-source-lock.json": "df59963b365e4b70450a0ec3861bb845420d660a142cc2c43ad958a9f7767567",
+    "configs/reward-v3-pilot.json": "c1e969f5d4f586b789bf4bf9235e8071f2734759b3e22f30ad1d01f9fc4be193",
+    "bet36fly/reward_encoder.py": "178a36f388b0c0de34bc2a83a0b35eef806dafa98636aa2400e4b87931446285",
+    "bet36fly/reward_protocol.py": "6e13653d8805b0c0f661c3fb8e881cb58ca24f22b8db57cc44876a90fc63ed94",
+    "scripts/export_fly_cell_atlas.py": "08733c833ac82823ab217bfc1e420d2002b3bdf6b252b419b528ac4a9206a5ff"
+  }
+}

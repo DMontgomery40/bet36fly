@@ -1,0 +1,10 @@
+{
+  "id": "karpathy-llm-wiki",
+  "title": "LLM Wiki",
+  "url": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f",
+  "published": "2026-04-04",
+  "retrieved": "2026-09-12",
+  "kind": "author-methodology",
+  "archive_kind": "source-pointer",
+  "note": "Original author guidance inspected; compiled workflow lives in wiki/SCHEMA.md. No full article copied."
+}

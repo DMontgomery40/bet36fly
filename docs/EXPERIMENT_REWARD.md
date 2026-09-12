@@ -1,5 +1,12 @@
 # On-circuit dopamine-association experiment
 
+**Status checked September 12, 2026 UTC:** this document describes the schema-3
+implementation in the working checkout. The separate repair worktree contains
+raw-D and gamma-mask options, but its untaught-home guard (SCI-001) still fails.
+Read the [current reassessment](../wiki/reassessment.md), [cell atlas](../wiki/cells/index.md)
+and [preserved repair evidence](evidence/reassessment-2026-09-12/index.md).
+The later four-arm handoff is a specification, not a completed repaired pilot.
+
 This separate experiment adds learning inside the full 166,700-neuron MaleCNS
 graph. It uses 4,064 Kenyon cells, 24 selected dopamine neurons and 8,866 existing
 KC-to-MBON edges. It leaves the active v1 checkpoint and paused v2 artifacts
@@ -7,7 +14,7 @@ unchanged. [Measured results and sources](evidence/reward-v3-summary.md).
 
 Actual KC and DAN spikes update bounded synaptic gains using exponential timing
 traces. Gains persist between trials; membrane state and traces reset. PPL101 /
-MBON11 (γ1pedc) is assigned to home outcomes and PAM12 / MBON09 (γ3) to away
+MBON11 (γ1pedc>α/β) is assigned to home outcomes and PAM12 (γ3) / MBON09 (γ3β′1) to away
 outcomes. The away mapping was PAM11 / MBON07 (α1) in schemas 1 and 2; with
 labeled-line sensory drive the α1 output receives about a quarter of the KC
 contacts per cell that MBON11 does and stayed near 0 Hz at every non-runaway
@@ -20,10 +27,12 @@ are not reconstructed. [Detailed design and native contract](superpowers/specs/2
 The dopamine drive in the rule is phasic (schema 2). Each trial, plasticity and
 its eligibility traces start at a declared onset (100 ms). The 50 ms window that
 ends at the onset measures each compartment's tonic DAN rate, and that rate is
-subtracted from the DAN population signal in both rule terms. Tonic firing then
-carries no teaching, and only deviations from it, such as the outcome pulses,
-move gains. This stands in for the adaptive dopamine baseline reported in real
-flies (Rajagopalan et al. 2023; Bennett et al. 2021), not for its circuitry.
+subtracted from the DAN population signal in both rule terms. This signed proxy
+was intended to suppress tonic drift, but the later diagnostic found positive
+gain updates after stimulus offset when activity fell below the earlier reference.
+It cannot be described as making untaught activity neutral. The original motivation
+was adaptive dopamine baselines discussed in fly research and models, not a
+reconstruction of their circuitry. [Exact rule and limitations](../wiki/learning-rule.md).
 The first pilot (schema 1) fed raw DAN spikes into the rule; with PPL101 firing
 near its refractory ceiling and PAM11 at tens of hertz without any teaching, the
 gains drifted identically in the paired and shuffled arms, and the fixed readout

@@ -1,0 +1,14 @@
+{
+  "checked_utc": "2026-09-12T04:27:02.427Z",
+  "url": "http://127.0.0.1:8765/#training",
+  "title": "BET36FLY — Connectome observatory",
+  "corrected_explanation": true,
+  "old_overclaim_absent": true,
+  "selected_arm": "shuffled",
+  "viewports": [
+    1440,
+    390
+  ],
+  "console_errors_or_warnings": [],
+  "framework_overlay": false
+}

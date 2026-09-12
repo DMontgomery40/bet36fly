@@ -1,0 +1,146 @@
+[
+  {
+    "id": "MC-HOME",
+    "title": "MaleCNS project",
+    "url": "https://male-cns.janelia.org/",
+    "retrieved": "2026-09-12",
+    "version_or_date": "Live project chronology",
+    "kind": "primary-source",
+    "note": "Publication date, collaboration, license pointer."
+  },
+  {
+    "id": "MC-RELEASE",
+    "title": "Release notes",
+    "url": "https://male-cns.janelia.org/release/",
+    "retrieved": "2026-09-12",
+    "version_or_date": "v1.0 June 8, 2026",
+    "kind": "primary-source",
+    "note": "Dataset version date and documented changes."
+  },
+  {
+    "id": "MC-DATA",
+    "title": "Download documentation",
+    "url": "https://male-cns.janelia.org/download/",
+    "retrieved": "2026-09-12",
+    "version_or_date": "v1.0",
+    "kind": "primary-source",
+    "note": "Raw table semantics and access."
+  },
+  {
+    "id": "MC-OVERVIEW",
+    "title": "Janelia overview",
+    "url": "https://www.janelia.org/project-team/flyem/male-cns-connectome",
+    "retrieved": "2026-09-12",
+    "version_or_date": "Current project description",
+    "kind": "primary-source",
+    "note": "Anatomical coverage and intact neck."
+  },
+  {
+    "id": "MC-GOOGLE",
+    "title": "Google announcement",
+    "url": "https://www.research.google/blog/a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain/",
+    "retrieved": "2026-09-12",
+    "version_or_date": "September 3, 2026",
+    "kind": "primary-source",
+    "note": "Rounded public counts and publication context."
+  },
+  {
+    "id": "MC-PAPER",
+    "title": "Berg et al., Cell",
+    "url": "https://doi.org/10.1016/j.cell.2026.08.015",
+    "retrieved": "2026-09-12",
+    "version_or_date": "September 3, 2026",
+    "kind": "primary-source",
+    "note": "Canonical publication pointer; full text failed to open in this pass."
+  },
+  {
+    "id": "FW-PAPER",
+    "title": "Dorkenwald et al., Nature",
+    "url": "https://www.nature.com/articles/s41586-024-07558-y",
+    "retrieved": "2026-09-12",
+    "version_or_date": "October 2, 2024",
+    "kind": "primary-source",
+    "note": "Female brain counts and source boundary."
+  },
+  {
+    "id": "FGM-PAPER",
+    "title": "Jin et al., arXiv",
+    "url": "https://arxiv.org/html/2602.17997v1",
+    "retrieved": "2026-09-12",
+    "version_or_date": "v1, February 20, 2026",
+    "kind": "primary-source",
+    "note": "Architecture, signs, imitation initialization and PPO."
+  },
+  {
+    "id": "FGM-SITE",
+    "title": "FlyGM author site",
+    "url": "https://lnsgroup.cc/research/FlyGM/",
+    "retrieved": "2026-09-12",
+    "version_or_date": "Live September 12 UTC",
+    "kind": "primary-source",
+    "note": "Code availability and method discrepancy."
+  },
+  {
+    "id": "EON-TECH",
+    "title": "Eon technical account",
+    "url": "https://eon.systems/updates/embodied-brain-emulation",
+    "retrieved": "2026-09-12",
+    "version_or_date": "March 10, 2026",
+    "kind": "primary-source",
+    "note": "Actual integration and stated limitations."
+  },
+  {
+    "id": "EON-UPDATE",
+    "title": "Eon perspective",
+    "url": "https://eon.systems/updates/more-flies-are-getting-uploaded",
+    "retrieved": "2026-09-12",
+    "version_or_date": "September 11, 2026",
+    "kind": "primary-source",
+    "note": "Latest author account; not a new peer-reviewed result."
+  },
+  {
+    "id": "NMF-PAPER",
+    "title": "NeuroMechFly v2",
+    "url": "https://www.nature.com/articles/s41592-024-02497-y",
+    "retrieved": "2026-09-12",
+    "version_or_date": "2024",
+    "kind": "primary-source",
+    "note": "Sensorimotor and controller framework."
+  },
+  {
+    "id": "FB-CODE",
+    "title": "Flybody official README",
+    "url": "https://github.com/TuragaLab/flybody/blob/main/README.md",
+    "retrieved": "2026-09-12",
+    "version_or_date": "Live main",
+    "kind": "primary-source",
+    "note": "Body assets, optional ML and distributed training interfaces."
+  },
+  {
+    "id": "CC-BY",
+    "title": "Creative Commons deed",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "retrieved": "2026-09-12",
+    "version_or_date": "4.0",
+    "kind": "primary-source",
+    "note": "Dataset license terms summary."
+  },
+  {
+    "id": "LOCAL-MANIFEST",
+    "title": "Local manifest",
+    "url": "../../data/brain/manifest.json",
+    "retrieved": "2026-09-12",
+    "version_or_date": "Existing local build",
+    "kind": "local-artifact",
+    "note": "Counts, retention policy, source hashes and explicit assumptions."
+  },
+  {
+    "id": "LOCAL-IMPORTER",
+    "title": "Local importer",
+    "url": "../../flybrain/connectome.py",
+    "retrieved": "2026-09-12",
+    "version_or_date": "Read during research pass",
+    "kind": "local-artifact",
+    "note": "Actual retention, ALPN selection, sign rules and CSR orientation."
+  }
+]

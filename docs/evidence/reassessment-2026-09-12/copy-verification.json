@@ -1,0 +1,20 @@
+{
+  "checked_utc": "2026-09-12T04:28:58.050309+00:00",
+  "copied_wiki_files": 38,
+  "copied_files": 59,
+  "copied_bytes": 515176,
+  "all_copies_match_source_and_manifest": true,
+  "licensed_upstream_snapshot_hashes_verified": 15,
+  "authored_pages_with_metadata": 17,
+  "copied_compiled_pages": 34,
+  "all_compiled_pages_reachable_from_index": true,
+  "local_link_targets_checked": 520,
+  "broken_local_links": [],
+  "source_records": 15,
+  "unique_atlas_cells": 5243,
+  "reward_edges": 8866,
+  "gamma_policy_eligible_edges": 7423,
+  "protected_hashes_unchanged": 5,
+  "repair_snapshots_unchanged": true,
+  "excluded_link_scope": "Original upstream excerpts in imported research/raw; individually archived files do not form a complete upstream repository."
+}

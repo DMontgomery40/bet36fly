@@ -1,0 +1,184 @@
+[
+  {
+    "id": "community-01",
+    "title": "Official Microduck runtime",
+    "url": "https://github.com/pollen-robotics/microduck/blob/main/README.md",
+    "retrieved": "2026-09-12",
+    "kind": "primary-project-documentation"
+  },
+  {
+    "id": "community-02",
+    "title": "Microduck RL",
+    "url": "https://github.com/pollen-robotics/microduck_rl",
+    "retrieved": "2026-09-12",
+    "kind": "primary-project-documentation"
+  },
+  {
+    "id": "community-03",
+    "title": "Official browser simulator",
+    "url": "https://huggingface.co/spaces/pollen-robotics/microduck-simulator/blob/main/README.md",
+    "retrieved": "2026-09-12",
+    "kind": "primary-project-documentation"
+  },
+  {
+    "id": "community-04",
+    "title": "Flamingo",
+    "url": "https://huggingface.co/RemiFabre/microduck-flamingo-cycle",
+    "retrieved": "2026-09-12",
+    "kind": "primary-model-card"
+  },
+  {
+    "id": "community-05",
+    "title": "Collision Flamingo II",
+    "url": "https://huggingface.co/Teethyfish/microduck-collision-flamingo-ii",
+    "retrieved": "2026-09-12",
+    "kind": "primary-model-card"
+  },
+  {
+    "id": "community-06",
+    "title": "Tricks",
+    "url": "https://huggingface.co/langli11/microduck-tricks",
+    "retrieved": "2026-09-12",
+    "kind": "primary-model-card"
+  },
+  {
+    "id": "community-07",
+    "title": "Basketball",
+    "url": "https://huggingface.co/HannesVonEssen/microduck-basketball",
+    "retrieved": "2026-09-12",
+    "kind": "primary-model-card"
+  },
+  {
+    "id": "community-08",
+    "title": "Beak throw",
+    "url": "https://huggingface.co/q2p/microduck-beak-throw",
+    "retrieved": "2026-09-12",
+    "kind": "primary-model-card"
+  },
+  {
+    "id": "community-09",
+    "title": "Stilts",
+    "url": "https://huggingface.co/HannesVonEssen/microduck-stilts",
+    "retrieved": "2026-09-12",
+    "kind": "primary-model-card"
+  },
+  {
+    "id": "community-10",
+    "title": "Swing",
+    "url": "https://huggingface.co/HannesVonEssen/microduck-swing",
+    "retrieved": "2026-09-12",
+    "kind": "primary-model-card"
+  },
+  {
+    "id": "community-11",
+    "title": "microduck-mcp",
+    "url": "https://github.com/joeynyc/microduck-mcp",
+    "retrieved": "2026-09-12",
+    "kind": "primary-project-documentation"
+  },
+  {
+    "id": "community-12",
+    "title": "quackd",
+    "url": "https://github.com/rokbenko/quackd",
+    "retrieved": "2026-09-12",
+    "kind": "primary-project-documentation"
+  },
+  {
+    "id": "community-13",
+    "title": "specs-microduck",
+    "url": "https://github.com/kgediya/specs-microduck",
+    "retrieved": "2026-09-12",
+    "kind": "primary-project-documentation"
+  },
+  {
+    "id": "community-14",
+    "title": "Microfly README",
+    "url": "https://huggingface.co/spaces/lvwerra/microfly/blob/main/README.md",
+    "retrieved": "2026-09-12",
+    "kind": "primary-project-documentation"
+  },
+  {
+    "id": "community-15",
+    "title": "Microfly validation",
+    "url": "https://huggingface.co/spaces/lvwerra/microfly/blob/main/VALIDATION.md",
+    "retrieved": "2026-09-12",
+    "kind": "primary-project-documentation"
+  },
+  {
+    "id": "community-16",
+    "title": "Flyhard core",
+    "url": "https://github.com/MarkUnthank/flyhard/blob/bad2131a35518944834531f53be004e9f1b9eecb/src/flyhard/connectome.py",
+    "retrieved": "2026-09-12",
+    "kind": "primary-code"
+  },
+  {
+    "id": "community-17",
+    "title": "Flyhard policy",
+    "url": "https://github.com/MarkUnthank/flyhard/blob/bad2131a35518944834531f53be004e9f1b9eecb/src/flyhard/motor_policy.py",
+    "retrieved": "2026-09-12",
+    "kind": "primary-code"
+  },
+  {
+    "id": "community-18",
+    "title": "Flyhard pilot",
+    "url": "https://github.com/MarkUnthank/flyhard/blob/main/docs/pilot-2026-09-09.md",
+    "retrieved": "2026-09-12",
+    "kind": "primary-project-documentation"
+  },
+  {
+    "id": "community-19",
+    "title": "Flyhard connected CARLA",
+    "url": "https://github.com/MarkUnthank/flyhard/blob/main/docs/carla-video-2026-09-09.md",
+    "retrieved": "2026-09-12",
+    "kind": "primary-project-documentation"
+  },
+  {
+    "id": "community-20",
+    "title": "DOOMFLY",
+    "url": "https://github.com/nftechie/doomfly",
+    "retrieved": "2026-09-12",
+    "kind": "primary-project-documentation"
+  },
+  {
+    "id": "community-21",
+    "title": "Fly64",
+    "url": "https://github.com/ornata/fly",
+    "retrieved": "2026-09-12",
+    "kind": "primary-project-documentation"
+  },
+  {
+    "id": "community-22",
+    "title": "Flybywire",
+    "url": "https://github.com/Flybywirerh/Flybywire",
+    "retrieved": "2026-09-12",
+    "kind": "primary-project-documentation"
+  },
+  {
+    "id": "community-23",
+    "title": "Flybywire training",
+    "url": "https://github.com/Flybywirerh/Flybywire/blob/main/docs/BRAIN_AND_TRAINING.md",
+    "retrieved": "2026-09-12",
+    "kind": "primary-project-documentation"
+  },
+  {
+    "id": "community-24",
+    "title": "FlyBrain",
+    "url": "https://github.com/snedea/flybrain",
+    "retrieved": "2026-09-12",
+    "kind": "primary-project-documentation"
+  },
+  {
+    "id": "community-25",
+    "title": "Desktop fly",
+    "url": "https://github.com/DenisSergeevitch/desktop-fly",
+    "retrieved": "2026-09-12",
+    "kind": "primary-project-documentation"
+  },
+  {
+    "id": "community-26",
+    "title": "Awesome Microduck",
+    "url": "https://github.com/joeynyc/awesome-microduck",
+    "retrieved": "2026-09-12",
+    "kind": "community-discovery-index"
+  }
+]

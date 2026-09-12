@@ -132,7 +132,9 @@ it('shows the phasic-baseline protocol, declared gate margins and code-specifici
   expect(html).toContain('Phasic dopamine drive');
   expect(html).toContain('start 100 ms into each trial');
   expect(html).toContain('preceding 50 ms');
-  expect(html).toContain('tonic firing carries no teaching');
+  expect(html).toContain('signed baseline subtraction can change gains without teaching');
+  expect(html).toContain('It does not establish cue-specific learning');
+  expect(html).not.toContain('tonic firing carries no teaching');
   expect(html).toContain('at least 50.0% of its scheduled forced spikes');
   expect(html).toContain('overlap at most 50.0% between calibration games');
   expect(html).toContain('<dt>KC set overlap between calibration games</dt><dd>31.0%</dd>');

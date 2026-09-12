@@ -1,0 +1,140 @@
+{
+  "schema": 1,
+  "sources": [
+    {
+      "id": "MCNS-HOME",
+      "title": "MaleCNS project",
+      "url": "https://male-cns.janelia.org/",
+      "version": "v1.0; publication 2026-09-03",
+      "checked_utc": "2026-09-12",
+      "inspection": "Official page inspected; release chronology, project identity and license.",
+      "limit": "Not a dynamics validation."
+    },
+    {
+      "id": "MCNS-RELEASE",
+      "title": "MaleCNS release notes",
+      "url": "https://male-cns.janelia.org/release/",
+      "version": "v1.0 2026-06-08",
+      "checked_utc": "2026-09-12",
+      "inspection": "Retrieved directly after web-tool open failed; v1.0 is latest entry on inspected page.",
+      "limit": "v0.9 day differs between home and release notes."
+    },
+    {
+      "id": "MCNS-DOWNLOAD",
+      "title": "MaleCNS download schema",
+      "url": "https://male-cns.janelia.org/download/",
+      "version": "v1.0",
+      "checked_utc": "2026-09-12",
+      "inspection": "Official schema inspected; local source lock and retained graph used.",
+      "limit": "No re-download or full re-import of the 1.1 GB raw weight table."
+    },
+    {
+      "id": "ASO-2014",
+      "title": "The neuronal architecture of the mushroom body provides a logic for associative learning",
+      "url": "https://elifesciences.org/articles/04577",
+      "version": "2014 version of record",
+      "checked_utc": "2026-09-12",
+      "inspection": "Primary anatomy text, Table 1 and Figure 8 inspected for territories and nomenclature.",
+      "limit": "Anatomical study counts are not MaleCNS sample counts."
+    },
+    {
+      "id": "CARON-2013",
+      "title": "Random convergence of olfactory inputs in the Drosophila mushroom body",
+      "url": "https://www.nature.com/articles/nature12063",
+      "version": "2013; doi:10.1038/nature12063",
+      "checked_utc": "2026-09-12",
+      "inspection": "Primary manuscript abstract and indexed primary PDF excerpts.",
+      "limit": "Direct PMC open challenged; not a complete full-text reread."
+    },
+    {
+      "id": "HIGE-2015",
+      "title": "Heterosynaptic Plasticity Underlies Aversive Olfactory Learning in Drosophila",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26637800/",
+      "version": "2015; doi:10.1016/j.neuron.2015.11.003",
+      "checked_utc": "2026-09-12",
+      "inspection": "Primary abstract and indexed author manuscript excerpts.",
+      "limit": "PMC direct open challenged; no experiment reproduced."
+    },
+    {
+      "id": "HANDLER-2019",
+      "title": "Distinct Dopamine Receptor Pathways Underlie the Temporal Sensitivity of Associative Learning",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31230716/",
+      "version": "2019; doi:10.1016/j.cell.2019.05.040",
+      "checked_utc": "2026-09-12",
+      "inspection": "Primary abstract and indexed publisher results/discussion.",
+      "limit": "PMC challenged and publisher direct open failed; no experimental replay."
+    },
+    {
+      "id": "AMIN-2020",
+      "title": "Localized inhibition in the Drosophila mushroom body",
+      "url": "https://elifesciences.org/articles/56954",
+      "version": "2020 version of record",
+      "checked_utc": "2026-09-12",
+      "inspection": "Primary eLife indexed abstract and introduction on localized non-spiking APL inhibition.",
+      "limit": "Direct page/figures open failed; no claim of full-text retrieval."
+    },
+    {
+      "id": "SHIU-2024",
+      "title": "A Drosophila computational brain model reveals sensorimotor processing",
+      "url": "https://www.nature.com/articles/s41586-024-07763-9",
+      "version": "2024 version of record",
+      "checked_utc": "2026-09-12",
+      "inspection": "Primary paper page checked as the female-FlyWire LIF anchor.",
+      "limit": "Reference experiment not reproduced on MaleCNS."
+    },
+    {
+      "id": "SHIU-CODE",
+      "title": "Drosophila_brain_model model.py",
+      "url": "https://github.com/philshiu/Drosophila_brain_model/blob/91bdd1e7dcf193f3e7ca5a8933497fcef63b7960/model.py",
+      "version": "91bdd1e7dcf193f3e7ca5a8933497fcef63b7960",
+      "checked_utc": "2026-09-12",
+      "inspection": "Entire raw model.py read; current head, open issues and releases queried.",
+      "limit": "No releases returned; one open clustering question listed. Bounded check only."
+    },
+    {
+      "id": "JIANG-2021",
+      "title": "Models of heterogeneous dopamine signaling in an insect learning and memory center",
+      "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009205",
+      "version": "2021 version of record",
+      "checked_utc": "2026-09-12",
+      "inspection": "Primary model architecture and plasticity discussion inspected.",
+      "limit": "Task-optimized rate model differs from the local spike model."
+    },
+    {
+      "id": "JIANG-CODE",
+      "title": "Mushroom body model runmodel.py",
+      "url": "https://github.com/alitwinkumar/jiang_litwin-kumar_mb_rnn/blob/a16f86a3e9e476eff6860c3c0e0e1bbe729d7f85/runmodel.py",
+      "version": "a16f86a3e9e476eff6860c3c0e0e1bbe729d7f85",
+      "checked_utc": "2026-09-12",
+      "inspection": "Entire raw runmodel.py read and current head checked.",
+      "limit": "Rule structure inspected, not original training reproduced."
+    },
+    {
+      "id": "BENNETT-2021",
+      "title": "Learning with reinforcement prediction errors in a model of the Drosophila mushroom body",
+      "url": "https://www.nature.com/articles/s41467-021-22592-4",
+      "version": "2021 version of record",
+      "checked_utc": "2026-09-12",
+      "inspection": "Primary abstract/model framing on feedback-generated reinforcement prediction errors.",
+      "limit": "No automatic inference that anatomical feedback implements that computation here."
+    },
+    {
+      "id": "FLYHARD",
+      "title": "Flyhard",
+      "url": "https://github.com/MarkUnthank/flyhard/tree/bad2131a35518944834531f53be004e9f1b9eecb",
+      "version": "bad2131a35518944834531f53be004e9f1b9eecb",
+      "checked_utc": "2026-09-12",
+      "inspection": "Primary entry point and GitHub head refreshed; imported wiki code analysis read.",
+      "limit": "Imported implementation inspection and author reports not independently replayed here."
+    },
+    {
+      "id": "DOOMFLY",
+      "title": "DOOMFLY",
+      "url": "https://github.com/nftechie/doomfly/tree/71ecf53d78eaffaf1a57ed7b0ccf5d458abc9f33",
+      "version": "71ecf53d78eaffaf1a57ed7b0ccf5d458abc9f33",
+      "checked_utc": "2026-09-12",
+      "inspection": "Primary entry point and GitHub head refreshed; imported status read.",
+      "limit": "No game or learning reproduction."
+    }
+  ]
+}

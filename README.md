@@ -1,5 +1,7 @@
 # BET36FLY
 
+Read the [fly cell and circuit wiki](wiki/index.md) for the [current reassessment](wiki/reassessment.md), exact neuron identities, learning-rule limits, and the copied Microduck fly research. The working checkout is schema 3; the raw-dopamine repair remains in a separate worktree and has not passed SCI-001. No repaired learning or sports-success claim is established.
+
 A working paper-sports experiment driven by the **actual MaleCNS v1.0 fly connectome**: 166,700 modeled neurons, 25,582,938 directed connections and 124,177,617 synaptic contacts. The full spiking network runs on CPU. Real training modifies existing anatomical synapses and fits a readout to its recorded spikes. No language model selects the games.
 
 Phase 1 covers Premier League soccer and MLB baseball. It fetches current fixtures, publishes model probabilities and unfilled paper picks, shows recorded neural activity, tracks the outcomes of saved pregame picks, and reports a chronological backtest. The bet365 account/API, fills, bet settlement and player props are deferred to phase 2.

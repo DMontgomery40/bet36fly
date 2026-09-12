@@ -1,0 +1,86 @@
+[
+  {
+    "id": "shiu-head",
+    "url": "https://api.github.com/repos/philshiu/Drosophila_brain_model/commits/main",
+    "checked_utc": "2026-09-12",
+    "status": 200,
+    "sha256": "14be7663ea5dea9098ea43a97bb35ed2e3ef540f0ac4f4a97304d363e4f1a2ac",
+    "revision": "91bdd1e7dcf193f3e7ca5a8933497fcef63b7960",
+    "date": "2024-09-14T13:47:44Z",
+    "title": "Update Readme.md"
+  },
+  {
+    "id": "shiu-releases",
+    "url": "https://api.github.com/repos/philshiu/Drosophila_brain_model/releases?per_page=2",
+    "checked_utc": "2026-09-12",
+    "status": 200,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "items": []
+  },
+  {
+    "id": "shiu-issues",
+    "url": "https://api.github.com/repos/philshiu/Drosophila_brain_model/issues?state=open&per_page=5",
+    "checked_utc": "2026-09-12",
+    "status": 200,
+    "sha256": "d013a36a23ccd69c47fe66ec60f603d4d681a71471cd47abca0dfda68894904b",
+    "items": [
+      {
+        "html_url": "https://github.com/philshiu/Drosophila_brain_model/issues/9",
+        "title": "Question about Clustering Analysis in Extended Data Figure",
+        "updated_at": "2025-12-07T13:04:49Z"
+      }
+    ]
+  },
+  {
+    "id": "jiang-head",
+    "url": "https://api.github.com/repos/alitwinkumar/jiang_litwin-kumar_mb_rnn/commits/main",
+    "checked_utc": "2026-09-12",
+    "status": 200,
+    "sha256": "0e12f4bff0893128910b2830308b6dcd0fe81c60e40518345c726e3153875705",
+    "revision": "a16f86a3e9e476eff6860c3c0e0e1bbe729d7f85",
+    "date": "2021-06-22T20:06:41Z",
+    "title": "Update README.md"
+  },
+  {
+    "id": "flyhard-head",
+    "url": "https://api.github.com/repos/MarkUnthank/flyhard/commits/main",
+    "checked_utc": "2026-09-12",
+    "status": 200,
+    "sha256": "df2e902a32376c66cd5b44591045d31b85b84530111e5fb99e3e3af2ee3e2316",
+    "revision": "bad2131a35518944834531f53be004e9f1b9eecb",
+    "date": "2026-09-11T22:51:56Z",
+    "title": "Merge pull request #32 from MarkUnthank/claude/sponsor-disclaimer-crypto-only"
+  },
+  {
+    "id": "doomfly-head",
+    "url": "https://api.github.com/repos/nftechie/doomfly/commits/main",
+    "checked_utc": "2026-09-12",
+    "status": 200,
+    "sha256": "faf89737e9f2ac49478378d420d20cea17bfa62808ef5babcbb0eeeac88a103c",
+    "revision": "71ecf53d78eaffaf1a57ed7b0ccf5d458abc9f33",
+    "date": "2026-09-09T15:11:10Z",
+    "title": "Fix spectator pistol orientation and barrel-mounted flash"
+  },
+  {
+    "id": "shiu-model",
+    "url": "https://raw.githubusercontent.com/philshiu/Drosophila_brain_model/main/model.py",
+    "checked_utc": "2026-09-12",
+    "status": 200,
+    "sha256": "fc45837d7122c6ce2a7f3f2f23c515992e4b232aadb919efabb72337fac88e4e"
+  },
+  {
+    "id": "jiang-rule",
+    "url": "https://raw.githubusercontent.com/alitwinkumar/jiang_litwin-kumar_mb_rnn/main/runmodel.py",
+    "checked_utc": "2026-09-12",
+    "status": 200,
+    "sha256": "782b8bd04436052f1ebec44399e7d0bce06ff2093d7ac65b363ab5d04cd17039"
+  },
+  {
+    "id": "malecns-release",
+    "url": "https://male-cns.janelia.org/release/",
+    "checked_utc": "2026-09-12",
+    "status": 200,
+    "sha256": "b2a4d40f0ae376f8c887cfbdbbc3dd10a6a165380b658fce8a20fd153a0a16aa",
+    "inspection": "v1.0 listed June 8, 2026, minor proofreading and annotation refinement; v0.9 listed October 5, 2025."
+  }
+]

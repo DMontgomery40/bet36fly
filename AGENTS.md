@@ -16,6 +16,8 @@
 
 ## Sources
 
+- Start cell- and mechanism-specific work with [the fly wiki](wiki/index.md), its [cell atlas](wiki/cells/index.md), and the dated [reassessment](wiki/reassessment.md). Recheck current code and artifacts before relying on its status snapshot. The copied Microduck pages are research sources, not this project's working instructions.
+
 - Before substantive decisions about neural dynamics, learning, stimulation, readouts, or explanations of a failed run, read the primary sources: the [male CNS resource](https://male-cns.janelia.org/), the [Shiu reference simulator](https://github.com/philshiu/Drosophila_brain_model), and the links in `docs/MODEL_CARD.md` and `docs/FLY_GUIDE.md`. Check for current releases, issues and community results; new information can be recent.
 - Record URL, version and date checked in `docs/evidence`. Distinguish a community report from an inspected implementation from a reproduced result. The peer-reviewed anchors are Shiu et al. 2024 (female FlyWire) and the mushroom-body learning literature. No peer-reviewed LIF work on the male CNS exists yet; days-old hobby repos are starting points to verify on our own simulator, not authorities.
 - Keep checks targeted and bounded. This does not authorize continuous polling, account changes, or unbounded research.

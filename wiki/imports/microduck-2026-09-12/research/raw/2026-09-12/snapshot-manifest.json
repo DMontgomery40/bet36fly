@@ -1,0 +1,167 @@
+[
+  {
+    "id": "microduck_rl-README.md",
+    "title": "pollen-robotics/microduck_rl: README.md",
+    "url": "https://github.com/pollen-robotics/microduck_rl/blob/53b8971b61baf5b7f3c16d135dd7cac37623de4b/README.md",
+    "revision": "53b8971b61baf5b7f3c16d135dd7cac37623de4b",
+    "retrieved": "2026-09-12",
+    "kind": "licensed-source-snapshot",
+    "license": "Apache-2.0",
+    "archive_path": "research/raw/2026-09-12/microduck_rl/README.md",
+    "sha256": "b5e606efe7ff71f4f6324820b36152d401a0b1be6e2f908bbaca01ffee81638d"
+  },
+  {
+    "id": "microduck_rl-LICENSE",
+    "title": "pollen-robotics/microduck_rl: LICENSE",
+    "url": "https://github.com/pollen-robotics/microduck_rl/blob/53b8971b61baf5b7f3c16d135dd7cac37623de4b/LICENSE",
+    "revision": "53b8971b61baf5b7f3c16d135dd7cac37623de4b",
+    "retrieved": "2026-09-12",
+    "kind": "licensed-source-snapshot",
+    "license": "Apache-2.0",
+    "archive_path": "research/raw/2026-09-12/microduck_rl/LICENSE",
+    "sha256": "2d3fd9ffffa70a4307498ec630b14a6b4731e010f8ddda92686eaf65733c2dfe"
+  },
+  {
+    "id": "microduck_rl-pyproject.toml",
+    "title": "pollen-robotics/microduck_rl: pyproject.toml",
+    "url": "https://github.com/pollen-robotics/microduck_rl/blob/53b8971b61baf5b7f3c16d135dd7cac37623de4b/pyproject.toml",
+    "revision": "53b8971b61baf5b7f3c16d135dd7cac37623de4b",
+    "retrieved": "2026-09-12",
+    "kind": "licensed-source-snapshot",
+    "license": "Apache-2.0",
+    "archive_path": "research/raw/2026-09-12/microduck_rl/pyproject.toml",
+    "sha256": "e4f73a9f9aff14826463aee558f53900307ba973a287fb3bfc27a8954a131026"
+  },
+  {
+    "id": "microduck_rl-src-mjlab_microduck-export.py",
+    "title": "pollen-robotics/microduck_rl: src/mjlab_microduck/export.py",
+    "url": "https://github.com/pollen-robotics/microduck_rl/blob/53b8971b61baf5b7f3c16d135dd7cac37623de4b/src/mjlab_microduck/export.py",
+    "revision": "53b8971b61baf5b7f3c16d135dd7cac37623de4b",
+    "retrieved": "2026-09-12",
+    "kind": "licensed-source-snapshot",
+    "license": "Apache-2.0",
+    "archive_path": "research/raw/2026-09-12/microduck_rl/src/mjlab_microduck/export.py",
+    "sha256": "ef4d851eee70ce0d1c896a0be14fd4a936a0d17e83649dfd572a5282ffcdf5b9"
+  },
+  {
+    "id": "microduck_rl-src-mjlab_microduck-sim-body_server.py",
+    "title": "pollen-robotics/microduck_rl: src/mjlab_microduck/sim/body_server.py",
+    "url": "https://github.com/pollen-robotics/microduck_rl/blob/53b8971b61baf5b7f3c16d135dd7cac37623de4b/src/mjlab_microduck/sim/body_server.py",
+    "revision": "53b8971b61baf5b7f3c16d135dd7cac37623de4b",
+    "retrieved": "2026-09-12",
+    "kind": "licensed-source-snapshot",
+    "license": "Apache-2.0",
+    "archive_path": "research/raw/2026-09-12/microduck_rl/src/mjlab_microduck/sim/body_server.py",
+    "sha256": "2040c827628c33fee998944bce1fcd456c4b993802bb473f016681688bff7b08"
+  },
+  {
+    "id": "microduck_rl-src-mjlab_microduck-sim-camera.py",
+    "title": "pollen-robotics/microduck_rl: src/mjlab_microduck/sim/camera.py",
+    "url": "https://github.com/pollen-robotics/microduck_rl/blob/53b8971b61baf5b7f3c16d135dd7cac37623de4b/src/mjlab_microduck/sim/camera.py",
+    "revision": "53b8971b61baf5b7f3c16d135dd7cac37623de4b",
+    "retrieved": "2026-09-12",
+    "kind": "licensed-source-snapshot",
+    "license": "Apache-2.0",
+    "archive_path": "research/raw/2026-09-12/microduck_rl/src/mjlab_microduck/sim/camera.py",
+    "sha256": "5f2e6c83b33e594583cbd5f3e003c3b8bb77f7a0e7b734d86ba0b2c821eaed71"
+  },
+  {
+    "id": "microduck_rl-src-mjlab_microduck-tasks-microduck_velocity_env_cfg.py",
+    "title": "pollen-robotics/microduck_rl: src/mjlab_microduck/tasks/microduck_velocity_env_cfg.py",
+    "url": "https://github.com/pollen-robotics/microduck_rl/blob/53b8971b61baf5b7f3c16d135dd7cac37623de4b/src/mjlab_microduck/tasks/microduck_velocity_env_cfg.py",
+    "revision": "53b8971b61baf5b7f3c16d135dd7cac37623de4b",
+    "retrieved": "2026-09-12",
+    "kind": "licensed-source-snapshot",
+    "license": "Apache-2.0",
+    "archive_path": "research/raw/2026-09-12/microduck_rl/src/mjlab_microduck/tasks/microduck_velocity_env_cfg.py",
+    "sha256": "75a0430b814ac7495eb237ab806fbd4dd10309b9fd3027ac3eee3c2e3c5a944a"
+  },
+  {
+    "id": "microduck_rl-src-mjlab_microduck-tasks-microduck_ground_pick_env_cfg.py",
+    "title": "pollen-robotics/microduck_rl: src/mjlab_microduck/tasks/microduck_ground_pick_env_cfg.py",
+    "url": "https://github.com/pollen-robotics/microduck_rl/blob/53b8971b61baf5b7f3c16d135dd7cac37623de4b/src/mjlab_microduck/tasks/microduck_ground_pick_env_cfg.py",
+    "revision": "53b8971b61baf5b7f3c16d135dd7cac37623de4b",
+    "retrieved": "2026-09-12",
+    "kind": "licensed-source-snapshot",
+    "license": "Apache-2.0",
+    "archive_path": "research/raw/2026-09-12/microduck_rl/src/mjlab_microduck/tasks/microduck_ground_pick_env_cfg.py",
+    "sha256": "9b68951e2c84fdccb5894701efa97e060438eb56c956a34c65e844ba3fa6185e"
+  },
+  {
+    "id": "microduck_rl-src-mjlab_microduck-tasks-microduck_ball_kick_env_cfg.py",
+    "title": "pollen-robotics/microduck_rl: src/mjlab_microduck/tasks/microduck_ball_kick_env_cfg.py",
+    "url": "https://github.com/pollen-robotics/microduck_rl/blob/53b8971b61baf5b7f3c16d135dd7cac37623de4b/src/mjlab_microduck/tasks/microduck_ball_kick_env_cfg.py",
+    "revision": "53b8971b61baf5b7f3c16d135dd7cac37623de4b",
+    "retrieved": "2026-09-12",
+    "kind": "licensed-source-snapshot",
+    "license": "Apache-2.0",
+    "archive_path": "research/raw/2026-09-12/microduck_rl/src/mjlab_microduck/tasks/microduck_ball_kick_env_cfg.py",
+    "sha256": "313180628c0d0364ea6d0f1843e7e3e10b76585491b90b0c1f0e301d9e5fd30c"
+  },
+  {
+    "id": "microduck-runtime-README.md",
+    "title": "pollen-robotics/microduck: README.md",
+    "url": "https://github.com/pollen-robotics/microduck/blob/6507d2e960417aaa4ecd38eccf59b2dcf586ecd2/README.md",
+    "revision": "6507d2e960417aaa4ecd38eccf59b2dcf586ecd2",
+    "retrieved": "2026-09-12",
+    "kind": "licensed-source-snapshot",
+    "license": "Apache-2.0",
+    "archive_path": "research/raw/2026-09-12/microduck-runtime/README.md",
+    "sha256": "688c04bbb8e9b677c6ce65a1d76597488a02098ad5d69939a8a1d52f7b05698f"
+  },
+  {
+    "id": "microduck-runtime-LICENSE",
+    "title": "pollen-robotics/microduck: LICENSE",
+    "url": "https://github.com/pollen-robotics/microduck/blob/6507d2e960417aaa4ecd38eccf59b2dcf586ecd2/LICENSE",
+    "revision": "6507d2e960417aaa4ecd38eccf59b2dcf586ecd2",
+    "retrieved": "2026-09-12",
+    "kind": "licensed-source-snapshot",
+    "license": "Apache-2.0",
+    "archive_path": "research/raw/2026-09-12/microduck-runtime/LICENSE",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+  },
+  {
+    "id": "microduck-runtime-docs-recurrent-policies.md",
+    "title": "pollen-robotics/microduck: docs/recurrent-policies.md",
+    "url": "https://github.com/pollen-robotics/microduck/blob/6507d2e960417aaa4ecd38eccf59b2dcf586ecd2/docs/recurrent-policies.md",
+    "revision": "6507d2e960417aaa4ecd38eccf59b2dcf586ecd2",
+    "retrieved": "2026-09-12",
+    "kind": "licensed-source-snapshot",
+    "license": "Apache-2.0",
+    "archive_path": "research/raw/2026-09-12/microduck-runtime/docs/recurrent-policies.md",
+    "sha256": "863cebeb5cf98fbb13ee5458b8460bf0962e8a732904d8b07021e2365fa00beb"
+  },
+  {
+    "id": "microduck-runtime-docs-policy-manifest.md",
+    "title": "pollen-robotics/microduck: docs/policy-manifest.md",
+    "url": "https://github.com/pollen-robotics/microduck/blob/6507d2e960417aaa4ecd38eccf59b2dcf586ecd2/docs/policy-manifest.md",
+    "revision": "6507d2e960417aaa4ecd38eccf59b2dcf586ecd2",
+    "retrieved": "2026-09-12",
+    "kind": "licensed-source-snapshot",
+    "license": "Apache-2.0",
+    "archive_path": "research/raw/2026-09-12/microduck-runtime/docs/policy-manifest.md",
+    "sha256": "483f6493b50d94b4b7befd341caf446a7e50df0de0fdfbf58c3b3bf0817fc3d5"
+  },
+  {
+    "id": "microduck-runtime-docs-robot-simulation.md",
+    "title": "pollen-robotics/microduck: docs/robot/simulation.md",
+    "url": "https://github.com/pollen-robotics/microduck/blob/6507d2e960417aaa4ecd38eccf59b2dcf586ecd2/docs/robot/simulation.md",
+    "revision": "6507d2e960417aaa4ecd38eccf59b2dcf586ecd2",
+    "retrieved": "2026-09-12",
+    "kind": "licensed-source-snapshot",
+    "license": "Apache-2.0",
+    "archive_path": "research/raw/2026-09-12/microduck-runtime/docs/robot/simulation.md",
+    "sha256": "7f24d8e7885aa2d6b2151ddee2c789dbb7be43c15e172b4998769b35daacdf7a"
+  },
+  {
+    "id": "microduck-runtime-docs-design-architecture.md",
+    "title": "pollen-robotics/microduck: docs/design/architecture.md",
+    "url": "https://github.com/pollen-robotics/microduck/blob/6507d2e960417aaa4ecd38eccf59b2dcf586ecd2/docs/design/architecture.md",
+    "revision": "6507d2e960417aaa4ecd38eccf59b2dcf586ecd2",
+    "retrieved": "2026-09-12",
+    "kind": "licensed-source-snapshot",
+    "license": "Apache-2.0",
+    "archive_path": "research/raw/2026-09-12/microduck-runtime/docs/design/architecture.md",
+    "sha256": "313bc1d1900da2f68f4d6473ff9a7f4901d466336ab06d87bc4dec2e109f76c5"
+  }
+]
