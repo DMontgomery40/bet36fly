@@ -7,6 +7,7 @@ from __future__ import annotations
 
 import ctypes
 import hashlib
+import math
 import platform
 import subprocess
 import threading
@@ -24,6 +25,42 @@ SIGNAL_WIDTH, KC_SIGNAL_WIDTH, RULE_WIDTH = 4, 2, 7
 # 'none': the candidate rule, raw compartment-mean DAN spikes in both terms (upstream form).
 # 'tonic-baseline': the schema-2/3 legacy rule, tonic rate over dan_baseline_window_ms subtracted.
 DAN_REFERENCE_MODES = {'none': 0, 'tonic-baseline': 1}
+LEARNING_RULES = {'event': 0, 'rate-bridge-v1': 1}
+BRIDGE_FIELDS = ['positive_integral', 'negative_integral', 'attempted', 'double_applied',
+                 'published_applied', 'bound_low', 'bound_high', 'q_used']
+
+
+def _validate_bridge_config(h, tau_e, tau_r, eta):
+    """Supported finite numerical domain; near-equal filters are explicitly unsupported."""
+    try:
+        if (any(isinstance(x, (bool, np.bool_)) for x in (h, tau_e, tau_r, eta))
+                or not all(math.isfinite(x) for x in (h, tau_e, tau_r, eta))
+                or not 0 < tau_r < tau_e or h <= 0 or eta < 0):
+            raise ValueError
+        r, e = 1/tau_r, 1/tau_e
+        if not math.isfinite(r) or not math.isfinite(e) or (r-e)/r < 1e-6:
+            raise ValueError
+        a = -math.expm1(-(r+e)*h)/(r+e)
+        c = (-math.expm1(-2*r*h)/(2*r)-a)/(e-r)
+        coupling = math.exp(-e*h)*math.expm1((e-r)*h)/(e-r)
+        maximum_rate = r / -math.expm1(-h*r)
+        maximum_trace = min(tau_e, 10000.) * maximum_rate
+        derived = [r, e, 1-(tau_r/tau_e)**2, a, c, coupling,
+                   maximum_rate**2, maximum_rate*maximum_trace, 1/(r+e), 1/(2*r*(r+e))]
+        if not all(math.isfinite(x) and x > 0 for x in derived):
+            raise ValueError
+        # Follow the native multiplication order, including true-area cross terms,
+        # and bound grouped accumulation, not merely the unscaled rate factors.
+        scale = eta*(1-(tau_r/tau_e)**2)
+        for area, cross in ((a, c), (1/(r+e), 1/(2*r*(r+e)))):
+            main = area*maximum_trace*maximum_rate
+            common = cross*maximum_rate*maximum_rate
+            products = [main, common, main+common, 2*maximum_trace*maximum_rate,
+                        scale*(main+common), scale*area*(2*maximum_trace*maximum_rate)]
+            if not all(math.isfinite(x) and math.isfinite(x*_MAX_TRACE_VALUES) for x in products):
+                raise ValueError
+    except (ValueError, OverflowError, ZeroDivisionError):
+        raise ValueError('Unsupported bridge numerical domain: finite coefficients and reciprocal gap >= 1e-6 required.') from None
 
 
 def _native_library():
@@ -57,8 +94,12 @@ def _native_library():
         i32, f32, i32, i32, i32, i32,
         ctypes.c_int, ctypes.c_int, i32, f64, f64, f64, f32,
         ctypes.c_int, u8, f32, f32,
+        ctypes.c_int, f64, f64, f64, f64, f64, f64,
     ]
     lib.simulate_reward.restype = ctypes.c_int
+    lib.replay_reward_bridge.argtypes = [ctypes.c_int]*5 + [f64, f64, i32, i32, i32, u8, f32,
+        ctypes.c_float, ctypes.c_float, f64, ctypes.c_int, f64, f64, f64, f64]
+    lib.replay_reward_bridge.restype = ctypes.c_int
     return lib
 
 
@@ -70,6 +111,50 @@ def _integer_array(value, dtype, name):
     if raw.size and (raw.min() < limits.min or raw.max() > limits.max):
         raise ValueError(f'{name} contains an index outside its native integer range.')
     return np.array(raw, dtype=dtype, order='C', copy=True)
+
+
+def _bridge_signal_replay(kc_events, dan_events, *, dt=.2, tau_ms=500., rate_tau_ms=100.,
+                          learning_rate=.0005, gains=(1.,), gain_bounds=(.5, 1.5),
+                          plastic_kc=(0,), plastic_compartments=(0,), plastic_mask=(1,),
+                          plastic_groups=(0,), onset_steps=0):
+    """Private deterministic seam for production integrator tests, never a CNS runner."""
+    _validate_bridge_config(dt, tau_ms, rate_tau_ms, learning_rate)
+    kc, dan = [np.ascontiguousarray(x, dtype=np.float64) for x in (kc_events, dan_events)]
+    pk, pc, groups = [_integer_array(x, np.int32, name) for x, name in
+                      ((plastic_kc, 'plastic_kc'), (plastic_compartments, 'plastic_compartments'),
+                       (plastic_groups, 'plastic_groups'))]
+    mask = np.asarray(plastic_mask)
+    gain = np.array(gains, dtype=np.float32, copy=True)
+    bounds = np.asarray(gain_bounds, np.float64)
+    if (kc.ndim != 2 or dan.ndim != 2 or kc.shape[0] != dan.shape[0] or not len(kc)
+            or not kc.shape[1] or not dan.shape[1] or len(kc)*dt > 10000
+            or not np.isfinite(kc).all() or not np.isfinite(dan).all()
+            or not np.isin(kc, [0, 1]).all() or np.any(dan < 0) or np.any(dan > 1)
+            or gain.ndim != 1 or pk.shape != gain.shape or pc.shape != gain.shape or groups.shape != gain.shape
+            or mask.shape != gain.shape or mask.dtype.kind not in 'iub' or not np.isin(mask, [0, 1]).all()
+            or np.any(pk < 0) or np.any(pk >= kc.shape[1]) or np.any(pc < 0) or np.any(pc >= dan.shape[1])
+            or np.any(groups < 0) or bounds.shape != (2,) or not np.isfinite(bounds).all()
+            or not 0 < bounds[0] <= bounds[1] or bounds[1] > np.finfo(np.float32).max
+            or bounds[0] < float(np.nextafter(np.float32(0), np.float32(1)))
+            or not np.isfinite(gain).all() or np.any(gain < bounds[0]) or np.any(gain > bounds[1])
+            or not isinstance(onset_steps, (int, np.integer)) or isinstance(onset_steps, (bool, np.bool_))
+            or not 0 <= onset_steps < len(kc)):
+        raise ValueError('Invalid bridge replay inputs.')
+    ng = int(groups.max())+1 if len(groups) else 1
+    values = kc.size+dan.size+len(kc)*(2*dan.shape[1]+10*ng)+8*ng
+    if values > _MAX_TRACE_VALUES:
+        raise ValueError('Excessively large bridge replay request.')
+    if not np.array_equal(bounds, bounds.astype(np.float32).astype(np.float64)):
+        raise ValueError('Bridge bounds must be exactly representable as float32.')
+    signals, used, rule, tail = (np.zeros(shape, np.float64) for shape in
+                                ((len(kc), dan.shape[1], 2), (len(kc), ng, 2), (len(kc), ng, 8), (ng, 8)))
+    config = np.array([dt, tau_ms, rate_tau_ms, learning_rate], np.float64)
+    status = _native_library().replay_reward_bridge(len(kc), kc.shape[1], dan.shape[1], len(gain), ng,
+        kc, dan, pk, pc, groups, np.ascontiguousarray(mask, np.uint8), gain, *bounds, config,
+        int(onset_steps), signals, used, rule, tail)
+    if status:
+        raise RuntimeError('Native bridge replay failed.')
+    return dict(gains=gain, bridge_signals=signals, bridge_kc_used=used, bridge_rule=rule, bridge_tail=tail)
 
 
 class RewardEngine:
@@ -97,6 +182,8 @@ class RewardEngine:
         dan_baseline_window_ms=0.0,
         dan_reference='none',
         plastic_mask=None,
+        learning_rule='event',
+        rate_tau_ms=100.0,
     ):
         self.ptr = _integer_array(ptr, np.int64, 'ptr')
         self.post = _integer_array(post, np.int32, 'post')
@@ -123,6 +210,11 @@ class RewardEngine:
         native_float_floor = float(np.nextafter(np.float32(0), np.float32(1)))
         if dan_reference not in DAN_REFERENCE_MODES:
             raise ValueError(f'dan_reference must be one of {sorted(DAN_REFERENCE_MODES)}.')
+        if (learning_rule not in LEARNING_RULES or not np.isfinite(rate_tau_ms) or rate_tau_ms <= 0
+                or learning_rule == 'rate-bridge-v1' and (dan_reference != 'none' or rate_tau_ms >= tau_ms)):
+            raise ValueError('Invalid learning_rule/rate_tau_ms; bridge requires raw DAN and 0 < rate tau < eligibility tau.')
+        if learning_rule == 'rate-bridge-v1':
+            _validate_bridge_config(.2, tau_ms, rate_tau_ms, learning_rate)
         if (
             self.weights.ndim != 1
             or self.n < 1
@@ -167,6 +259,8 @@ class RewardEngine:
             or np.intersect1d(self.sensory, self.dan_indices).size
         ):
             raise ValueError('Invalid reward graph or learning configuration.')
+        if learning_rule == 'rate-bridge-v1' and not np.array_equal(bounds, bounds.astype(np.float32).astype(np.float64)):
+            raise ValueError('Bridge bounds must be exactly representable as float32.')
         if plastic_mask is None:
             mask = np.ones(len(self.plastic_edge_indices), np.uint8)
         else:
@@ -190,6 +284,8 @@ class RewardEngine:
         self.plasticity_onset_ms = float(timing[0])
         self.dan_baseline_window_ms = float(timing[1])
         self.dan_reference = str(dan_reference)
+        self.learning_rule = learning_rule
+        self.rate_tau_ms = float(rate_tau_ms)
         self._onset_steps = int(np.rint(timing_steps[0]))
         self._baseline_steps = int(np.rint(timing_steps[1]))
         if gains is None:
@@ -288,6 +384,15 @@ class RewardEngine:
                        or n_bins * max(len(self.kc_indices), 1) > _MAX_TRACE_VALUES
                        or steps_total * n_groups * 2 > _MAX_TRACE_VALUES):
             raise ValueError('Excessively large instrumentation request.')
+        bridge = self.learning_rule == 'rate-bridge-v1'
+        bridge_values = (steps_total * (2*self.n_compartments + 10*n_groups)
+                         + n_bins*len(self.kc_indices)*2 + n_groups*8)
+        # Include common/legacy scratch buffers used by the shared electrical ABI.
+        bridge_values += (n_bins*(self.n_compartments*SIGNAL_WIDTH + KC_SIGNAL_WIDTH + n_groups*RULE_WIDTH
+                                 + len(self.kc_indices))
+                          + steps_total*(1 + 2*self.n_compartments + 2*n_groups))
+        if record and bridge and bridge_values > _MAX_TRACE_VALUES:
+            raise ValueError('Excessively large bridge instrumentation request.')
         pulses = np.asarray(teaching_pulses)
         if pulses.size == 0:
             pulses = np.empty((0, 2), np.float64)
@@ -322,6 +427,15 @@ class RewardEngine:
         tonic = np.zeros(self.n_compartments, np.float32)
         gains_before = self.gains.copy()
         native_gains = self.gains if plasticity else self.gains.copy()
+        bridge_config = np.array([dt, self.tau_ms, self.rate_tau_ms,
+                                  self.learning_rate if plasticity else 0.0], np.float64)
+        def bridge_buffer(shape):
+            return np.zeros(shape if record and bridge else 0, np.float64)
+        bridge_signals = bridge_buffer((steps, self.n_compartments, 2))
+        bridge_kc_bins = bridge_buffer((n_bins, len(self.kc_indices), 2))
+        bridge_kc_used = bridge_buffer((steps, n_groups, 2))
+        bridge_rule = bridge_buffer((steps, n_groups, 8))
+        bridge_tail = bridge_buffer((n_groups, 8))
         if record:
             signal_bins = np.zeros((n_bins, self.n_compartments, SIGNAL_WIDTH), np.float64)
             kc_signal_bins = np.zeros((n_bins, KC_SIGNAL_WIDTH), np.float64)
@@ -349,9 +463,29 @@ class RewardEngine:
             dan_counts, compartment_counts,
             int(record), n_groups, groups, signal_bins, kc_signal_bins, rule_bins, kc_trace_bins,
             DAN_REFERENCE_MODES[self.dan_reference], self.plastic_mask, step_signals, step_rule,
+            LEARNING_RULES[self.learning_rule], bridge_config, bridge_signals, bridge_kc_bins,
+            bridge_kc_used, bridge_rule, bridge_tail,
         )
         if result:
             raise RuntimeError('Native reward simulation failed.')
+        bridge_recording = dict(
+            learning_rule=self.learning_rule, layout_version='rate-bridge-v1/1',
+            bridge_signals=bridge_signals, bridge_kc_bins=bridge_kc_bins, bridge_kc_used=bridge_kc_used,
+            bridge_rule=bridge_rule, bridge_tail=bridge_tail, plastic_groups=groups,
+            plastic_compartments=self.plastic_compartments.copy(),
+            step_signals=step_signals, signal_bins=signal_bins, kc_signal_bins=kc_signal_bins,
+            event_rule_applicable=False,
+            layout=dict(bridge_signals=['dan_rate_after_injection', 'dan_eligibility_prior'],
+                        bridge_kc_bins=['kc_rate_bin_end', 'kc_eligibility_bin_end'],
+                        bridge_kc_used=['eligible_edge_kc_rate_mass', 'eligible_edge_kc_eligibility_mass'],
+                        bridge_rule=BRIDGE_FIELDS, bridge_tail=BRIDGE_FIELDS,
+                        step_signals=['kc_spikes', 'dan_mean_spikes per compartment', 'unused zeros'],
+                        signal_bins=['dan_mean_spikes', 'unused zero', 'raw_dan_spikes', 'zero_reference'],
+                        kc_signal_bins=['kc_spikes', 'unused zero']),
+            config=dict(h_ms=dt, tau_ms=self.tau_ms, rate_tau_ms=self.rate_tau_ms,
+                        effective_eta=bridge_config[3], normalization=1-(self.rate_tau_ms/self.tau_ms)**2,
+                        tail='analytic_no_new_event_tail', checkpoint='float32; double remainder discarded'),
+        ) if record and bridge else None
         return {
             'counts': counts,
             'rates': counts.astype(np.float32) * (1000 / duration_ms),
@@ -370,7 +504,7 @@ class RewardEngine:
             'dt': dt,
             'bin_ms': float(bin_ms),
             'wall_seconds': time.perf_counter() - start,
-            'instrumentation': dict(
+            'instrumentation': bridge_recording if bridge else dict(
                 signal_bins=signal_bins, kc_signal_bins=kc_signal_bins, rule_bins=rule_bins,
                 kc_trace_bins=kc_trace_bins, step_signals=step_signals, step_rule=step_rule,
                 plastic_groups=groups,

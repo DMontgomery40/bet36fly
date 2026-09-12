@@ -163,6 +163,150 @@ def test_panel_protocol_rejects_unknown_rule_or_mask():
         panel_protocol({}, 'candidate', 'alpha')
 
 
+def test_bridge_panel_protocol_fixed_candidate_and_event_override():
+    base = dict(seed=42, tau_ms=500., learning_rate=.0005, gain_bounds=[.5, 1.5],
+                learning_rule='rate-bridge-v1', rate_tau_ms=100.)
+    bridge = panel_protocol(base, 'rate-bridge-v1', 'gamma')
+    assert bridge['learning_rule'] == 'rate-bridge-v1' and bridge['rate_tau_ms'] == 100
+    assert bridge['dan_reference'] == 'none'
+    assert panel_protocol(base, 'candidate', 'gamma')['learning_rule'] == 'event'
+    for key, wrong in [('tau_ms', 400), ('learning_rate', .0001), ('rate_tau_ms', 20)]:
+        with pytest.raises(ValueError, match='fixed'):
+            panel_protocol(base | {key: wrong}, 'rate-bridge-v1', 'gamma')
+
+
+@pytest.mark.parametrize('where', ['finite', 'tail'])
+def test_bridge_phase_accounting_includes_tail_applied_and_bound_counts(where):
+    from bet36fly.reward_diagnostic import bridge_phase_evidence
+    from bet36fly.reward_brain import BRIDGE_FIELDS
+    rule, tail = np.zeros((4, 2, 8)), np.zeros((2, 8))
+    row = rule[2, 0] if where == 'finite' else tail[0]
+    row[:5] = [.25, -.5, -.25, -.25, -.25]
+    row[5] = 1
+    result = dict(gain_delta=np.array([-.25, 0]), instrumentation=dict(
+        learning_rule='rate-bridge-v1', layout_version='rate-bridge-v1/1',
+        bridge_rule=rule, bridge_tail=tail, layout={'bridge_rule': BRIDGE_FIELDS, 'bridge_tail': BRIDGE_FIELDS}))
+    evidence = bridge_phase_evidence(result, np.array([0, 1]), [0, 1],
+                                     dt=.2, onset_ms=.2, stimulus_ms=.6)
+    assert evidence['recorded_applied'] == [-.25, 0]
+    assert evidence['clipped'] == 1
+    assert evidence['tail_bound_observations'] == int(where == 'tail')
+    assert evidence['bridge_totals'][0]['published_applied'] == -.25
+    assert 'analytic_no_new_event_tail' in evidence['phases']
+    del result['instrumentation']['bridge_tail']
+    with pytest.raises(ValueError):
+        bridge_phase_evidence(result, [0, 1], [0, 1], dt=.2, onset_ms=.2, stimulus_ms=.6)
+
+
+def test_event_attribution_refuses_bridge_before_reading_or_writing_arrays(tmp_path, monkeypatch):
+    import json
+    import sys
+    from scripts import reward_residual_attribution as attribution
+    (tmp_path / 'summary.json').write_text(json.dumps({'identity': {'protocol': {'learning_rule': 'rate-bridge-v1'}}}))
+    monkeypatch.setattr(sys, 'argv', ['attribution', str(tmp_path)])
+    with pytest.raises(ValueError, match='event'):
+        attribution.main()
+    assert sorted(p.name for p in tmp_path.iterdir()) == ['summary.json']
+
+
+def test_bridge_cli_tiny_native_matrix_retains_tail_identity_and_all_recordings(tmp_path, monkeypatch):
+    """Exercise real CLI orchestration on six neurons; never load the full graph."""
+    import json
+    import pandas as pd
+    import pyarrow as pa
+    from scripts import reward_teaching_diagnostic as cli
+    from bet36fly.reward_brain import RewardEngine
+    frozen = frozen_graph(tmp_path)
+    pilot = tmp_path / 'pilot'
+    (pilot / 'source').mkdir(parents=True)
+    (pilot / 'manifest.json').write_text(json.dumps({'identity': frozen}))
+    protocol = dict(seed=42, tau_ms=500., learning_rate=.0005, gain_bounds=[.5, 1.5],
+                    duration_ms=400., bin_ms=10., stimulus_ms=300., plasticity_onset_ms=100.,
+                    teaching_ms=310., teaching_interval_ms=20., teaching_pulse_count=4)
+    (pilot / 'source/protocol.json').write_text(json.dumps(protocol))
+    np.savez(pilot / 'source/inputs.npz', **diagnostic_inputs())
+    monkeypatch.setattr(cli, 'ROOT', tmp_path)
+    original_load = np.load
+    monkeypatch.setattr(cli.np, 'load', lambda path, *a, **kw: np.arange(6) if str(path).endswith('data/brain/ids.npy')
+                        else original_load(path, *a, **kw))
+    monkeypatch.setattr(cli.feather, 'read_table', lambda *a, **kw: pa.Table.from_pandas(
+        pd.DataFrame({'bodyId': np.arange(6), 'type': ['ALPN', 'KCg', 'PPL101', 'PAM12', 'MBON11', 'MBON09']})))
+    def tiny_circuit(root, p, **kwargs):
+        obj = RewardEngine(np.array([0, 1, 3, 3, 3, 3, 3]), np.array([1, 4, 5]), np.array([800., 1., 1.]),
+            np.array([0]), np.array([1]), np.array([2, 3]), np.array([0, 1]), np.array([1, 2]),
+            np.array([0, 0]), np.array([0, 1]), n_compartments=2, tau_ms=500., learning_rate=.0005,
+            learning_rule=p['learning_rule'], rate_tau_ms=p['rate_tau_ms'], dan_reference=p['dan_reference'],
+            plasticity_onset_ms=100.)
+        anatomy = dict(plasticity_mask={'home': {'policy': 'all'}, 'away': {'policy': 'gamma'}},
+                       compartments=[dict(label=x, dan_type=d, mbon_type=m) for x, d, m in
+                                     [('home', 'PPL101', 'MBON11'), ('away', 'PAM12', 'MBON09')]])
+        return obj, anatomy, [np.array([4]), np.array([5])], np.array([0, 1]), np.array([1]), np.array([0]), lambda x: np.array([100.])
+    monkeypatch.setattr(cli, 'make_circuit', tiny_circuit)
+    receipt, out = tmp_path / 'freeze.json', tmp_path / 'diagnostics'
+    args = ['--rule', 'rate-bridge-v1', '--away-mask', 'gamma', '--pilot', str(pilot),
+            '--preregistration', str(receipt), '--out', str(out)]
+    assert cli.main([*args, '--preregister-only']) == 0
+    document = json.loads(receipt.read_text())
+    assert document['identity']['bridge_contract']['config']['normalization'] == .96
+    assert cli.main(args) == 0
+    run = out / document['run_id']
+    summary = json.loads((run / 'summary.json').read_text())
+    assert summary['all_passed'] and summary['panel_complete']
+    assert len(summary['rows']) == 64 and len(summary['cumulative_rows']) == 16
+    from bet36fly.reward_protocol import file_hash
+    for name in ('trials.npz', 'recording-layout.json', 'replay-evidence.json'):
+        assert summary['artifacts'][name]['sha256'] == file_hash(run / name)
+        assert summary['artifacts'][name]['bytes'] == (run / name).stat().st_size
+    replays = json.loads((run / 'replay-evidence.json').read_text())
+    assert set(replays) == {'frozen', 'untaught', 'home', 'away'}
+    for evidence in replays.values():
+        assert evidence['original'] == evidence['repeat']
+        assert 'counts' in evidence['original'] and 'instrumentation/bridge_tail' in evidence['repeat']
+    for row in summary['rows'] + summary['cumulative_rows']:
+        assert 'analytic_no_new_event_tail' in row['phases']
+        assert row['clipped'] == row['electrical_bound_observations']+row['tail_bound_observations']
+    with original_load(run / 'trials.npz') as retained:
+        assert any(name.endswith('__bridge_tail') for name in retained.files)
+        assert any(name.startswith('cumulative_') and name.endswith('__bridge_rule') for name in retained.files)
+        assert not any(name.endswith('__rule_bins') or name.endswith('__step_rule') for name in retained.files)
+        assert sum(name.endswith('__sensory_bins') for name in retained.files) == 64
+        for game in summary['panel_games']:
+            for seed_set in ('base', 'alt'):
+                sensory = [retained[f'{game}__{seed_set}__{condition}__sensory_bins']
+                           for condition in ('frozen', 'untaught', 'home', 'away')]
+                assert all(np.array_equal(sensory[0], item) for item in sensory[1:])
+    assert json.loads((run / 'recording-layout.json').read_text())['learning_rule'] == 'rate-bridge-v1'
+
+
+@pytest.mark.parametrize('defect', ['missing', 'shape', 'nonfinite', 'negative_count', 'fractional_count',
+                                   'decomposition', 'checkpoint', 'layout', 'wrong_rule'])
+def test_bridge_phase_evidence_fails_closed_for_malformed_or_contradictory_recordings(defect):
+    from bet36fly.reward_diagnostic import bridge_phase_evidence
+    from bet36fly.reward_brain import BRIDGE_FIELDS
+    rec = dict(learning_rule='rate-bridge-v1', layout_version='rate-bridge-v1/1',
+               bridge_rule=np.zeros((4, 2, 8)), bridge_tail=np.zeros((2, 8)),
+               layout={'bridge_rule': BRIDGE_FIELDS, 'bridge_tail': BRIDGE_FIELDS})
+    result = dict(gain_delta=np.zeros(2), instrumentation=rec)
+    if defect == 'missing':
+        del rec['bridge_rule']
+    elif defect == 'shape':
+        rec['bridge_tail'] = np.zeros((1, 8))
+    elif defect == 'nonfinite':
+        rec['bridge_tail'][0, 0] = np.nan
+    elif defect in ('negative_count', 'fractional_count'):
+        rec['bridge_tail'][0, 5] = -1 if defect == 'negative_count' else .5
+    elif defect == 'decomposition':
+        rec['bridge_rule'][0, 0, 2] = 1
+    elif defect == 'checkpoint':
+        result['gain_delta'][0] = 1
+    elif defect == 'layout':
+        rec['layout_version'] = 'unknown'
+    else:
+        rec['learning_rule'] = 'event'
+    with pytest.raises(ValueError):
+        bridge_phase_evidence(result, [0, 1], [0, 1], dt=.2, onset_ms=.2, stimulus_ms=.6)
+
+
 @pytest.mark.parametrize('trajectory', [np.empty((0, 2)), np.zeros((1, 2)), np.zeros((15, 2)),
                                         np.zeros((17, 2)), np.full((16, 2), np.nan),
                                         np.full((16, 2), np.inf)])

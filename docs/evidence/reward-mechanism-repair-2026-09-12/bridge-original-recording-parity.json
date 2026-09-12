@@ -1,0 +1,3345 @@
+{
+  "original": "diag-rate-bridge-v1-maskgamma-1b233bc75647",
+  "recording_followup": "diag-rate-bridge-v1-maskgamma-de050d773763",
+  "native_binary_unchanged": true,
+  "shared_array_count": 817,
+  "all_shared_arrays_byte_identical": true,
+  "criteria_identical": true,
+  "added_array_count": 64,
+  "added_arrays": [
+    "4362__alt__away__sensory_bins",
+    "4362__alt__frozen__sensory_bins",
+    "4362__alt__home__sensory_bins",
+    "4362__alt__untaught__sensory_bins",
+    "4362__base__away__sensory_bins",
+    "4362__base__frozen__sensory_bins",
+    "4362__base__home__sensory_bins",
+    "4362__base__untaught__sensory_bins",
+    "4366__alt__away__sensory_bins",
+    "4366__alt__frozen__sensory_bins",
+    "4366__alt__home__sensory_bins",
+    "4366__alt__untaught__sensory_bins",
+    "4366__base__away__sensory_bins",
+    "4366__base__frozen__sensory_bins",
+    "4366__base__home__sensory_bins",
+    "4366__base__untaught__sensory_bins",
+    "4370__alt__away__sensory_bins",
+    "4370__alt__frozen__sensory_bins",
+    "4370__alt__home__sensory_bins",
+    "4370__alt__untaught__sensory_bins",
+    "4370__base__away__sensory_bins",
+    "4370__base__frozen__sensory_bins",
+    "4370__base__home__sensory_bins",
+    "4370__base__untaught__sensory_bins",
+    "4374__alt__away__sensory_bins",
+    "4374__alt__frozen__sensory_bins",
+    "4374__alt__home__sensory_bins",
+    "4374__alt__untaught__sensory_bins",
+    "4374__base__away__sensory_bins",
+    "4374__base__frozen__sensory_bins",
+    "4374__base__home__sensory_bins",
+    "4374__base__untaught__sensory_bins",
+    "4378__alt__away__sensory_bins",
+    "4378__alt__frozen__sensory_bins",
+    "4378__alt__home__sensory_bins",
+    "4378__alt__untaught__sensory_bins",
+    "4378__base__away__sensory_bins",
+    "4378__base__frozen__sensory_bins",
+    "4378__base__home__sensory_bins",
+    "4378__base__untaught__sensory_bins",
+    "4383__alt__away__sensory_bins",
+    "4383__alt__frozen__sensory_bins",
+    "4383__alt__home__sensory_bins",
+    "4383__alt__untaught__sensory_bins",
+    "4383__base__away__sensory_bins",
+    "4383__base__frozen__sensory_bins",
+    "4383__base__home__sensory_bins",
+    "4383__base__untaught__sensory_bins",
+    "4387__alt__away__sensory_bins",
+    "4387__alt__frozen__sensory_bins",
+    "4387__alt__home__sensory_bins",
+    "4387__alt__untaught__sensory_bins",
+    "4387__base__away__sensory_bins",
+    "4387__base__frozen__sensory_bins",
+    "4387__base__home__sensory_bins",
+    "4387__base__untaught__sensory_bins",
+    "4391__alt__away__sensory_bins",
+    "4391__alt__frozen__sensory_bins",
+    "4391__alt__home__sensory_bins",
+    "4391__alt__untaught__sensory_bins",
+    "4391__base__away__sensory_bins",
+    "4391__base__frozen__sensory_bins",
+    "4391__base__home__sensory_bins",
+    "4391__base__untaught__sensory_bins"
+  ],
+  "shared_arrays": [
+    {
+      "name": "4362__base__frozen__gain_delta",
+      "sha256": "f641e8ed2dc7007cb6576f7d04822219bf2fd02c0ca421c189155e86335baa0b"
+    },
+    {
+      "name": "4362__base__frozen__gains",
+      "sha256": "e6cb0830b4841cb8f58bc4a8c76b552f5b1f8def40464661e9d6acc572204a5e"
+    },
+    {
+      "name": "4362__base__frozen__bridge_rule",
+      "sha256": "e40a0fa8e3a80971c401ef6b2a94697dc78d4701efc91d93ffdb7f16f61bc358"
+    },
+    {
+      "name": "4362__base__frozen__bridge_tail",
+      "sha256": "d313b1ec5d780e0b583f4599b232af7fb4b814cab4a2a729a7df4ffbeeac26c7"
+    },
+    {
+      "name": "4362__base__frozen__bridge_signals",
+      "sha256": "d85fd8a923be1e5e4220d0c9badb484ba920a8aa292aa85384f4c479807a52cb"
+    },
+    {
+      "name": "4362__base__frozen__bridge_kc_bins",
+      "sha256": "923b9e4f67f5bb3a4c903fe017cb112a4964ea737beda531658081d496565073"
+    },
+    {
+      "name": "4362__base__frozen__bridge_kc_used",
+      "sha256": "b185b44ff3b75dbf2d3def2e7e2c476c3bf2012caee18ff7d0e80ecce2fde977"
+    },
+    {
+      "name": "4362__base__frozen__signal_bins",
+      "sha256": "013beabee0394e1be845e4b5f1132fa782961d931da5d92fa2311243be1ceaf6"
+    },
+    {
+      "name": "4362__base__frozen__kc_signal_bins",
+      "sha256": "4c6ad7ce31f94d3b3bc97f10e43000ed7ff23e6de33e6ed775727d935cf777c1"
+    },
+    {
+      "name": "4362__base__frozen__dan_bins",
+      "sha256": "bbb7104a5b21ee00839c9c84c7733687a8f11a5ccaabadd722043e411b59a403"
+    },
+    {
+      "name": "4362__base__frozen__step_signals",
+      "sha256": "8c41bacadc5af75236d7ac17ac0ada80ed8579dff9941f088a4e43bfa09004e9"
+    },
+    {
+      "name": "4362__base__frozen__sampled_bins",
+      "sha256": "d9ef01675dceca43a3e418bbbd8e4692d30677414b779880e9539fdcdceedb0e"
+    },
+    {
+      "name": "4362__base__untaught__gain_delta",
+      "sha256": "ab6bcd3a27c7cb84cc152e59a09ca6c833d7b8a7872a24b0f8a4b89481ba34dd"
+    },
+    {
+      "name": "4362__base__untaught__gains",
+      "sha256": "afbe2316a497356064dc94142aea1da7b1536b4d54f2158acf36828b54f14879"
+    },
+    {
+      "name": "4362__base__untaught__bridge_rule",
+      "sha256": "fb585aa3279157117e6b58f508ab11eb6132b04069ea3991f2d1f3c656acb19a"
+    },
+    {
+      "name": "4362__base__untaught__bridge_tail",
+      "sha256": "c7acec5b2c5f64d654868e423053ad960e925086c37ed1dd0f27c37d80977550"
+    },
+    {
+      "name": "4362__base__untaught__bridge_signals",
+      "sha256": "d85fd8a923be1e5e4220d0c9badb484ba920a8aa292aa85384f4c479807a52cb"
+    },
+    {
+      "name": "4362__base__untaught__bridge_kc_bins",
+      "sha256": "923b9e4f67f5bb3a4c903fe017cb112a4964ea737beda531658081d496565073"
+    },
+    {
+      "name": "4362__base__untaught__bridge_kc_used",
+      "sha256": "b185b44ff3b75dbf2d3def2e7e2c476c3bf2012caee18ff7d0e80ecce2fde977"
+    },
+    {
+      "name": "4362__base__untaught__signal_bins",
+      "sha256": "013beabee0394e1be845e4b5f1132fa782961d931da5d92fa2311243be1ceaf6"
+    },
+    {
+      "name": "4362__base__untaught__kc_signal_bins",
+      "sha256": "4c6ad7ce31f94d3b3bc97f10e43000ed7ff23e6de33e6ed775727d935cf777c1"
+    },
+    {
+      "name": "4362__base__untaught__dan_bins",
+      "sha256": "bbb7104a5b21ee00839c9c84c7733687a8f11a5ccaabadd722043e411b59a403"
+    },
+    {
+      "name": "4362__base__untaught__step_signals",
+      "sha256": "8c41bacadc5af75236d7ac17ac0ada80ed8579dff9941f088a4e43bfa09004e9"
+    },
+    {
+      "name": "4362__base__untaught__sampled_bins",
+      "sha256": "d9ef01675dceca43a3e418bbbd8e4692d30677414b779880e9539fdcdceedb0e"
+    },
+    {
+      "name": "4362__base__home__gain_delta",
+      "sha256": "16a4963447870dfed39470bb5c48c710e796cfd21437174466eec1f8d3f41124"
+    },
+    {
+      "name": "4362__base__home__gains",
+      "sha256": "ef107e20132d66ba442d2082d3caee7e09aabbd53086ebd41de6bd7e49b35cd4"
+    },
+    {
+      "name": "4362__base__home__bridge_rule",
+      "sha256": "ccdd21b166d4a9e12e5dc214d58348e08ab6a57a61a44afa29b754c4496c1659"
+    },
+    {
+      "name": "4362__base__home__bridge_tail",
+      "sha256": "17e3a9aa1eb1303e7a0cd2fbe8e09117c9d849a83be70e01023e0298d6717c04"
+    },
+    {
+      "name": "4362__base__home__bridge_signals",
+      "sha256": "825d714b86a3e74fdfdc2082fc947fd376c511a98b5bdfa0bbcb357373dd9a94"
+    },
+    {
+      "name": "4362__base__home__bridge_kc_bins",
+      "sha256": "923b9e4f67f5bb3a4c903fe017cb112a4964ea737beda531658081d496565073"
+    },
+    {
+      "name": "4362__base__home__bridge_kc_used",
+      "sha256": "b185b44ff3b75dbf2d3def2e7e2c476c3bf2012caee18ff7d0e80ecce2fde977"
+    },
+    {
+      "name": "4362__base__home__signal_bins",
+      "sha256": "e2fd667b357f9500ce9a5c3be2f7bd3787f4e0bf2cf41afbe30b13c7869f842d"
+    },
+    {
+      "name": "4362__base__home__kc_signal_bins",
+      "sha256": "4c6ad7ce31f94d3b3bc97f10e43000ed7ff23e6de33e6ed775727d935cf777c1"
+    },
+    {
+      "name": "4362__base__home__dan_bins",
+      "sha256": "e3f9efa46520e1e9f1bd6b8c4428b2adb2bded8110e3caf6eee1f66589219180"
+    },
+    {
+      "name": "4362__base__home__step_signals",
+      "sha256": "c2285194266e103fb990000cc233cabb1db11ae4f90ecc56af7668589088629c"
+    },
+    {
+      "name": "4362__base__home__sampled_bins",
+      "sha256": "7781a294fd23b7e826cdef44e87956eed4fafddc5a47619b1248a2707822754e"
+    },
+    {
+      "name": "4362__base__away__gain_delta",
+      "sha256": "5cfa1c4513b1dffe70bfadc28f41296157aedee7cadc4c856e5feea15d47cc0f"
+    },
+    {
+      "name": "4362__base__away__gains",
+      "sha256": "66f49220d9727df8cd69c25c5b1e5851e88f6305411f99a3046fe23c097ac935"
+    },
+    {
+      "name": "4362__base__away__bridge_rule",
+      "sha256": "79a36c37d2133112482029d6655a3ae2f4f4f377bffa623e341daccec67cba85"
+    },
+    {
+      "name": "4362__base__away__bridge_tail",
+      "sha256": "fdaf510304c783f3d0f87677c56ff7c738bd039b4f2f0d244a11662912a90237"
+    },
+    {
+      "name": "4362__base__away__bridge_signals",
+      "sha256": "e50c6d8b2d76d8c2fc6b901cd6e8ebfb3e8dea4035933e158bc3568308db52f5"
+    },
+    {
+      "name": "4362__base__away__bridge_kc_bins",
+      "sha256": "923b9e4f67f5bb3a4c903fe017cb112a4964ea737beda531658081d496565073"
+    },
+    {
+      "name": "4362__base__away__bridge_kc_used",
+      "sha256": "b185b44ff3b75dbf2d3def2e7e2c476c3bf2012caee18ff7d0e80ecce2fde977"
+    },
+    {
+      "name": "4362__base__away__signal_bins",
+      "sha256": "3dacaed6ae46af4a5dce155a6b35c334a4c0ff575ae1e60940e48bfd14639d10"
+    },
+    {
+      "name": "4362__base__away__kc_signal_bins",
+      "sha256": "4c6ad7ce31f94d3b3bc97f10e43000ed7ff23e6de33e6ed775727d935cf777c1"
+    },
+    {
+      "name": "4362__base__away__dan_bins",
+      "sha256": "25b2703a7c38e143a5c1a458ae544a8ee6ad4bd1fd18668e1250d2a3fac1dc52"
+    },
+    {
+      "name": "4362__base__away__step_signals",
+      "sha256": "d3ac3d5957aaf41d242c61da773c31b30829df519951e04342155df962a60d15"
+    },
+    {
+      "name": "4362__base__away__sampled_bins",
+      "sha256": "39df4b8bcde97e233fb5e4a480367c1434c22e9845bc30b03c00be39287d1b6a"
+    },
+    {
+      "name": "4362__alt__frozen__gain_delta",
+      "sha256": "f641e8ed2dc7007cb6576f7d04822219bf2fd02c0ca421c189155e86335baa0b"
+    },
+    {
+      "name": "4362__alt__frozen__gains",
+      "sha256": "e6cb0830b4841cb8f58bc4a8c76b552f5b1f8def40464661e9d6acc572204a5e"
+    },
+    {
+      "name": "4362__alt__frozen__bridge_rule",
+      "sha256": "ce5bb56c9ecf8e093b80a5e5bba671839d23bf56843122ed177cf3bf9cff2547"
+    },
+    {
+      "name": "4362__alt__frozen__bridge_tail",
+      "sha256": "8ebc338eb72bd12bede1f634a0668a463d89f0000641ea7ab9c26ac45ae429d3"
+    },
+    {
+      "name": "4362__alt__frozen__bridge_signals",
+      "sha256": "6d897011f76efa86d299d6d2562f24dffdc9fe775f9a874454308bb156f5c266"
+    },
+    {
+      "name": "4362__alt__frozen__bridge_kc_bins",
+      "sha256": "ccef42387b0b31f7e6706e4e25583ca7a4380e76dc174ba4d6bc24f8f7a8efb6"
+    },
+    {
+      "name": "4362__alt__frozen__bridge_kc_used",
+      "sha256": "3b701982117af9c2c88b8a7f4427e2b7c9de9338808cb2621ece9a446f8638be"
+    },
+    {
+      "name": "4362__alt__frozen__signal_bins",
+      "sha256": "751dcbfe06751da55d9f73ad50af06f676feb47667894a9c55632fbdb45cccff"
+    },
+    {
+      "name": "4362__alt__frozen__kc_signal_bins",
+      "sha256": "c38c658caa6ae554293fb99e31bfa8fbf5f3d1d78078ca6298ebba1ff8d4ef11"
+    },
+    {
+      "name": "4362__alt__frozen__dan_bins",
+      "sha256": "288080a9bac7a04c7cc93aa739a15f97b72ef4294359141fbe343b1d172c3f78"
+    },
+    {
+      "name": "4362__alt__frozen__step_signals",
+      "sha256": "6ade1343d53958c44c765ec672eff04e01440ff030e34f0b6688871453f66368"
+    },
+    {
+      "name": "4362__alt__frozen__sampled_bins",
+      "sha256": "6cc00a07b1a61a0db897e9814e272a3906c9268a4f44e9c4baa2a988bc5e5e8d"
+    },
+    {
+      "name": "4362__alt__untaught__gain_delta",
+      "sha256": "9eef907f17abbcc799dd9d5df81d97bda4d55ba67b65f6b04a7202cff687515c"
+    },
+    {
+      "name": "4362__alt__untaught__gains",
+      "sha256": "301a1242810d4174657929125022d0becedaab30521d4f93076bd839733fa937"
+    },
+    {
+      "name": "4362__alt__untaught__bridge_rule",
+      "sha256": "06ac19f04c883b647c3c85a381e271011598216658910ea7ac7f30986a23f63e"
+    },
+    {
+      "name": "4362__alt__untaught__bridge_tail",
+      "sha256": "09e87b88be069b4c0be2ca0306a81e29e5d104d46c7c82f3a49681208ac362d3"
+    },
+    {
+      "name": "4362__alt__untaught__bridge_signals",
+      "sha256": "6d897011f76efa86d299d6d2562f24dffdc9fe775f9a874454308bb156f5c266"
+    },
+    {
+      "name": "4362__alt__untaught__bridge_kc_bins",
+      "sha256": "ccef42387b0b31f7e6706e4e25583ca7a4380e76dc174ba4d6bc24f8f7a8efb6"
+    },
+    {
+      "name": "4362__alt__untaught__bridge_kc_used",
+      "sha256": "3b701982117af9c2c88b8a7f4427e2b7c9de9338808cb2621ece9a446f8638be"
+    },
+    {
+      "name": "4362__alt__untaught__signal_bins",
+      "sha256": "751dcbfe06751da55d9f73ad50af06f676feb47667894a9c55632fbdb45cccff"
+    },
+    {
+      "name": "4362__alt__untaught__kc_signal_bins",
+      "sha256": "c38c658caa6ae554293fb99e31bfa8fbf5f3d1d78078ca6298ebba1ff8d4ef11"
+    },
+    {
+      "name": "4362__alt__untaught__dan_bins",
+      "sha256": "288080a9bac7a04c7cc93aa739a15f97b72ef4294359141fbe343b1d172c3f78"
+    },
+    {
+      "name": "4362__alt__untaught__step_signals",
+      "sha256": "6ade1343d53958c44c765ec672eff04e01440ff030e34f0b6688871453f66368"
+    },
+    {
+      "name": "4362__alt__untaught__sampled_bins",
+      "sha256": "6cc00a07b1a61a0db897e9814e272a3906c9268a4f44e9c4baa2a988bc5e5e8d"
+    },
+    {
+      "name": "4362__alt__home__gain_delta",
+      "sha256": "d264be7a73b64710cf3ce250b7de0073abc2b79197e6a467368c6ed03e38a5cf"
+    },
+    {
+      "name": "4362__alt__home__gains",
+      "sha256": "b1cb37f15a232dc005ae9c04680aa9a1a34b7da0167890adbaf9005096671098"
+    },
+    {
+      "name": "4362__alt__home__bridge_rule",
+      "sha256": "c65c4512796b0f57d2b9f2f6c7e8f1ce3b51128e6b59ade6b67b10431169084c"
+    },
+    {
+      "name": "4362__alt__home__bridge_tail",
+      "sha256": "aae748c82ea4109431242f29cceee8370a29a1a57114e7ff271db4e5a5850013"
+    },
+    {
+      "name": "4362__alt__home__bridge_signals",
+      "sha256": "5015a14e8dea08a71e19a4e9a6e3e8a9f5226a67eb4fa9d418d9af21f8e75f41"
+    },
+    {
+      "name": "4362__alt__home__bridge_kc_bins",
+      "sha256": "ccef42387b0b31f7e6706e4e25583ca7a4380e76dc174ba4d6bc24f8f7a8efb6"
+    },
+    {
+      "name": "4362__alt__home__bridge_kc_used",
+      "sha256": "3b701982117af9c2c88b8a7f4427e2b7c9de9338808cb2621ece9a446f8638be"
+    },
+    {
+      "name": "4362__alt__home__signal_bins",
+      "sha256": "3c627fbba020bcb0ca0cd6561046129282ae3ec89dfafa142f9dbb5b70f7c714"
+    },
+    {
+      "name": "4362__alt__home__kc_signal_bins",
+      "sha256": "c38c658caa6ae554293fb99e31bfa8fbf5f3d1d78078ca6298ebba1ff8d4ef11"
+    },
+    {
+      "name": "4362__alt__home__dan_bins",
+      "sha256": "1e134f63c8d9a4b9c4b33007b0ff2b165a93a253b4a50494cb5afaa6ba2522b2"
+    },
+    {
+      "name": "4362__alt__home__step_signals",
+      "sha256": "403c5e9f6e40b187330ed8bdac9204acd15c7ac73ceefeb7223d15db13341799"
+    },
+    {
+      "name": "4362__alt__home__sampled_bins",
+      "sha256": "49899e945168944e4ab41c0643e0a778833567d0d0e29987d9ed9ccc8641545d"
+    },
+    {
+      "name": "4362__alt__away__gain_delta",
+      "sha256": "33cdb0680b1e87b44660a6588be2978cd4f11116e4b82479e90b04d8a1ac629d"
+    },
+    {
+      "name": "4362__alt__away__gains",
+      "sha256": "178ee7adc0bf0e95e32210cf3267e48f1b5f5fd202f92738794d7e58fa0791ef"
+    },
+    {
+      "name": "4362__alt__away__bridge_rule",
+      "sha256": "7cd4471537484b0b2eef5a5901bd6a9ceeee64735cacf7b106e2467d424844d1"
+    },
+    {
+      "name": "4362__alt__away__bridge_tail",
+      "sha256": "8da11c6579a51f5a3e2aed7b188bc6b15ac83b14f167765df147d7dd9232374b"
+    },
+    {
+      "name": "4362__alt__away__bridge_signals",
+      "sha256": "c1a4590d5f496f7bce8c3a977e17d7999469dda1c6e4f35ac1f0ca4efac0831f"
+    },
+    {
+      "name": "4362__alt__away__bridge_kc_bins",
+      "sha256": "ccef42387b0b31f7e6706e4e25583ca7a4380e76dc174ba4d6bc24f8f7a8efb6"
+    },
+    {
+      "name": "4362__alt__away__bridge_kc_used",
+      "sha256": "3b701982117af9c2c88b8a7f4427e2b7c9de9338808cb2621ece9a446f8638be"
+    },
+    {
+      "name": "4362__alt__away__signal_bins",
+      "sha256": "df5f2580bdcf2121bfc0f506fe0f87f4864344a16c4e411681e4c71ac39b9e8b"
+    },
+    {
+      "name": "4362__alt__away__kc_signal_bins",
+      "sha256": "c38c658caa6ae554293fb99e31bfa8fbf5f3d1d78078ca6298ebba1ff8d4ef11"
+    },
+    {
+      "name": "4362__alt__away__dan_bins",
+      "sha256": "796c9bef3b34fbf636a49f48892d02366e091593a56901fcd5014ceeb5cb6b88"
+    },
+    {
+      "name": "4362__alt__away__step_signals",
+      "sha256": "129a8d454463cc28636e2e632f5d9cdca9ac2389224caa86863021cb95964983"
+    },
+    {
+      "name": "4362__alt__away__sampled_bins",
+      "sha256": "e0bde186750050607fc979b04a39b31d5ae49d509a4d8caadad177f15a0a0f66"
+    },
+    {
+      "name": "4366__base__frozen__gain_delta",
+      "sha256": "f641e8ed2dc7007cb6576f7d04822219bf2fd02c0ca421c189155e86335baa0b"
+    },
+    {
+      "name": "4366__base__frozen__gains",
+      "sha256": "e6cb0830b4841cb8f58bc4a8c76b552f5b1f8def40464661e9d6acc572204a5e"
+    },
+    {
+      "name": "4366__base__frozen__bridge_rule",
+      "sha256": "5feb0941953858805c211e769a29709c26fad31ca4df25f3f51e6d4e46c9f0db"
+    },
+    {
+      "name": "4366__base__frozen__bridge_tail",
+      "sha256": "b540b46a37b8fefe85f1b6f47529b4094f081e8a1385a9415c4f28208a238f2b"
+    },
+    {
+      "name": "4366__base__frozen__bridge_signals",
+      "sha256": "20af41442380733c592642e5cfad66408424f3aca7073dfbdecbfffac9840721"
+    },
+    {
+      "name": "4366__base__frozen__bridge_kc_bins",
+      "sha256": "1d047fe832f5653395ad25275d08bac0e7c5a6af4bddb80176d788dcf797817a"
+    },
+    {
+      "name": "4366__base__frozen__bridge_kc_used",
+      "sha256": "0b075fe32fb37965b6cbda278ca5677393f5d33f031f70835dbac4a1a5d699ec"
+    },
+    {
+      "name": "4366__base__frozen__signal_bins",
+      "sha256": "52f113740d8d4b9d1691721fe8122331b0f1cb59d4aa832fb43dfc8d7a3e67fe"
+    },
+    {
+      "name": "4366__base__frozen__kc_signal_bins",
+      "sha256": "3222dbb975cc0b472cc93dfaacf80b6afd7c68c1ec10cf2b86c37d7707c98310"
+    },
+    {
+      "name": "4366__base__frozen__dan_bins",
+      "sha256": "11b3cb592d8055ae9e4486a88daa80572dd2cacafcb16884aaf64718eacabf46"
+    },
+    {
+      "name": "4366__base__frozen__step_signals",
+      "sha256": "b53f44dcd4b3e5086f0f8b39ff1426ca344fdf7a71e0cfef35d2fd781abd4f0a"
+    },
+    {
+      "name": "4366__base__untaught__gain_delta",
+      "sha256": "e84201a44241cf241dd403140d303c2b7d30dcfee56f7cd0ca2c1430a357f812"
+    },
+    {
+      "name": "4366__base__untaught__gains",
+      "sha256": "ffd98bfb5a27dcc0344f2575cfba336df443e08c0d285f6ae04e7444a56007d2"
+    },
+    {
+      "name": "4366__base__untaught__bridge_rule",
+      "sha256": "49c2e0a4a679345b4ecbf4ce9a6bec656fc517608c384849be49785078e948cb"
+    },
+    {
+      "name": "4366__base__untaught__bridge_tail",
+      "sha256": "ec264e5607edbc4aed6385f7f1078cc67805a452a40df52e5fd76a5de6c65eee"
+    },
+    {
+      "name": "4366__base__untaught__bridge_signals",
+      "sha256": "20af41442380733c592642e5cfad66408424f3aca7073dfbdecbfffac9840721"
+    },
+    {
+      "name": "4366__base__untaught__bridge_kc_bins",
+      "sha256": "1d047fe832f5653395ad25275d08bac0e7c5a6af4bddb80176d788dcf797817a"
+    },
+    {
+      "name": "4366__base__untaught__bridge_kc_used",
+      "sha256": "0b075fe32fb37965b6cbda278ca5677393f5d33f031f70835dbac4a1a5d699ec"
+    },
+    {
+      "name": "4366__base__untaught__signal_bins",
+      "sha256": "52f113740d8d4b9d1691721fe8122331b0f1cb59d4aa832fb43dfc8d7a3e67fe"
+    },
+    {
+      "name": "4366__base__untaught__kc_signal_bins",
+      "sha256": "3222dbb975cc0b472cc93dfaacf80b6afd7c68c1ec10cf2b86c37d7707c98310"
+    },
+    {
+      "name": "4366__base__untaught__dan_bins",
+      "sha256": "11b3cb592d8055ae9e4486a88daa80572dd2cacafcb16884aaf64718eacabf46"
+    },
+    {
+      "name": "4366__base__untaught__step_signals",
+      "sha256": "b53f44dcd4b3e5086f0f8b39ff1426ca344fdf7a71e0cfef35d2fd781abd4f0a"
+    },
+    {
+      "name": "4366__base__home__gain_delta",
+      "sha256": "6d6d1ad2c629933f2260ed5db9906d102b8171951be4e28e668d13815d3d0e75"
+    },
+    {
+      "name": "4366__base__home__gains",
+      "sha256": "fa17a8c8cbc8dd134ae2c1feb6d0ba014a9fbc0e65f8eff8184425ab2d7a500a"
+    },
+    {
+      "name": "4366__base__home__bridge_rule",
+      "sha256": "578244124c6aab4d16c3d5808dbadc8b69beb9a00b5afd50b7e4cb4654164726"
+    },
+    {
+      "name": "4366__base__home__bridge_tail",
+      "sha256": "f5b41a36d6a71ff00233274eb74d0782597af69e1023255eed5d1d2b83ac1976"
+    },
+    {
+      "name": "4366__base__home__bridge_signals",
+      "sha256": "a00bd6454782a3f882f6779f738351c7e042cdbdaad43e214f9522993894a08a"
+    },
+    {
+      "name": "4366__base__home__bridge_kc_bins",
+      "sha256": "1d047fe832f5653395ad25275d08bac0e7c5a6af4bddb80176d788dcf797817a"
+    },
+    {
+      "name": "4366__base__home__bridge_kc_used",
+      "sha256": "0b075fe32fb37965b6cbda278ca5677393f5d33f031f70835dbac4a1a5d699ec"
+    },
+    {
+      "name": "4366__base__home__signal_bins",
+      "sha256": "7246bf84e5bb08eacc5715f595287465521efc7ba69f7fc3f9ed42ff3ae32678"
+    },
+    {
+      "name": "4366__base__home__kc_signal_bins",
+      "sha256": "3222dbb975cc0b472cc93dfaacf80b6afd7c68c1ec10cf2b86c37d7707c98310"
+    },
+    {
+      "name": "4366__base__home__dan_bins",
+      "sha256": "f64c02342a36764944e2453ab3ac7a2ba52a6bfdc0e1405564cfd58f98069eb4"
+    },
+    {
+      "name": "4366__base__home__step_signals",
+      "sha256": "f2ab661eb6a2d3e8a605cd4913235096fd8c88f5fe8ff10b3e0b9e76a76e9a07"
+    },
+    {
+      "name": "4366__base__away__gain_delta",
+      "sha256": "ac03acf33764a8b8c471c83e63f4fbb00acd73dc7a8d15ed29b09347c7442a9a"
+    },
+    {
+      "name": "4366__base__away__gains",
+      "sha256": "4238b58ee13d7940142a17cc547fa65bc07d1e086751f61aa5860f97f950bd88"
+    },
+    {
+      "name": "4366__base__away__bridge_rule",
+      "sha256": "b02abcdf0d85bc12e307ceba140467403650beb8d144768314e7831ce83c5f33"
+    },
+    {
+      "name": "4366__base__away__bridge_tail",
+      "sha256": "b16f3086f9d4ad7ec9249e04f36f3481935c8ac547e9a17afc152e74589b8bcf"
+    },
+    {
+      "name": "4366__base__away__bridge_signals",
+      "sha256": "4e1fc67c6e9d5103396613ae39eba7fbeb834df1525fdeb5fb02e4deb9767184"
+    },
+    {
+      "name": "4366__base__away__bridge_kc_bins",
+      "sha256": "1d047fe832f5653395ad25275d08bac0e7c5a6af4bddb80176d788dcf797817a"
+    },
+    {
+      "name": "4366__base__away__bridge_kc_used",
+      "sha256": "0b075fe32fb37965b6cbda278ca5677393f5d33f031f70835dbac4a1a5d699ec"
+    },
+    {
+      "name": "4366__base__away__signal_bins",
+      "sha256": "bae90d219b017365865cbdafa8f9cda26ac042c5fffeedcf33c259de276706af"
+    },
+    {
+      "name": "4366__base__away__kc_signal_bins",
+      "sha256": "3222dbb975cc0b472cc93dfaacf80b6afd7c68c1ec10cf2b86c37d7707c98310"
+    },
+    {
+      "name": "4366__base__away__dan_bins",
+      "sha256": "8f339c296d42d62940e7784b56c147f40b44c757e7d9dba9e2aaeba4b9eb12a9"
+    },
+    {
+      "name": "4366__base__away__step_signals",
+      "sha256": "3e34f24a7a741581007eb8f9f2c518799eeb9b6dfb03e99a16489b77312d9ad1"
+    },
+    {
+      "name": "4366__alt__frozen__gain_delta",
+      "sha256": "f641e8ed2dc7007cb6576f7d04822219bf2fd02c0ca421c189155e86335baa0b"
+    },
+    {
+      "name": "4366__alt__frozen__gains",
+      "sha256": "e6cb0830b4841cb8f58bc4a8c76b552f5b1f8def40464661e9d6acc572204a5e"
+    },
+    {
+      "name": "4366__alt__frozen__bridge_rule",
+      "sha256": "03c60b4d894565dd142bb1f59413f115be2419c2d3e9ed1620200867d496e17a"
+    },
+    {
+      "name": "4366__alt__frozen__bridge_tail",
+      "sha256": "0c8a96a7c539d26b886fdd87bd118dae8fda506a3c9be42bdb88cd89546c32e6"
+    },
+    {
+      "name": "4366__alt__frozen__bridge_signals",
+      "sha256": "407bffda2ef2107ea2abbc2ee6ef09dfd1ab0ba3c9ff2d3057bd479e90ccecc2"
+    },
+    {
+      "name": "4366__alt__frozen__bridge_kc_bins",
+      "sha256": "a429cfa97c2d960dcb22028415a8079e5f2ec344e3752a7f98e2444645cbf95c"
+    },
+    {
+      "name": "4366__alt__frozen__bridge_kc_used",
+      "sha256": "2c12cb47886ceb69b40663932b64d74a3b9581da29b825feac3181d4b688d9a1"
+    },
+    {
+      "name": "4366__alt__frozen__signal_bins",
+      "sha256": "cfd3957923d241172f907d954d9b75133a16e6d0d4c08641caec952e3ae67078"
+    },
+    {
+      "name": "4366__alt__frozen__kc_signal_bins",
+      "sha256": "dbe6590022682adb8ae9a8df39d1bf24370f2f1ddb1b33bd55dcd8f120dec34f"
+    },
+    {
+      "name": "4366__alt__frozen__dan_bins",
+      "sha256": "b583efc330985c90e278895260d43cb9edb686620168c34867f58f67ad590996"
+    },
+    {
+      "name": "4366__alt__frozen__step_signals",
+      "sha256": "78bd731c98fd4a35787d59864ab52de526850ace799d820ba2db6f83c30014df"
+    },
+    {
+      "name": "4366__alt__untaught__gain_delta",
+      "sha256": "33945a72c00068fa889045e3e002fba11755b8830412b59a13c813745f4d9172"
+    },
+    {
+      "name": "4366__alt__untaught__gains",
+      "sha256": "f33b024ab35ded0e9c6a38d22cd353f86f6a13869ef5ccdd7b5614fe31d9ed42"
+    },
+    {
+      "name": "4366__alt__untaught__bridge_rule",
+      "sha256": "917c87c7a7d9b2bc571d58fca2f927a5cc80b98bf981a2405390b7073edd8adf"
+    },
+    {
+      "name": "4366__alt__untaught__bridge_tail",
+      "sha256": "d204988dd068ee4e4c197f4ea874161089fdb40256ac068424368ac00ace5d21"
+    },
+    {
+      "name": "4366__alt__untaught__bridge_signals",
+      "sha256": "407bffda2ef2107ea2abbc2ee6ef09dfd1ab0ba3c9ff2d3057bd479e90ccecc2"
+    },
+    {
+      "name": "4366__alt__untaught__bridge_kc_bins",
+      "sha256": "a429cfa97c2d960dcb22028415a8079e5f2ec344e3752a7f98e2444645cbf95c"
+    },
+    {
+      "name": "4366__alt__untaught__bridge_kc_used",
+      "sha256": "2c12cb47886ceb69b40663932b64d74a3b9581da29b825feac3181d4b688d9a1"
+    },
+    {
+      "name": "4366__alt__untaught__signal_bins",
+      "sha256": "cfd3957923d241172f907d954d9b75133a16e6d0d4c08641caec952e3ae67078"
+    },
+    {
+      "name": "4366__alt__untaught__kc_signal_bins",
+      "sha256": "dbe6590022682adb8ae9a8df39d1bf24370f2f1ddb1b33bd55dcd8f120dec34f"
+    },
+    {
+      "name": "4366__alt__untaught__dan_bins",
+      "sha256": "b583efc330985c90e278895260d43cb9edb686620168c34867f58f67ad590996"
+    },
+    {
+      "name": "4366__alt__untaught__step_signals",
+      "sha256": "78bd731c98fd4a35787d59864ab52de526850ace799d820ba2db6f83c30014df"
+    },
+    {
+      "name": "4366__alt__home__gain_delta",
+      "sha256": "471592aab5dbbd897acef630fae5717a903b39ef8d940e68e0663af4b9a35ec7"
+    },
+    {
+      "name": "4366__alt__home__gains",
+      "sha256": "d9864c404df84dc46c3dc57e5cdba00ba7caa69f8dbaff6c8b4fc64b70f8fde6"
+    },
+    {
+      "name": "4366__alt__home__bridge_rule",
+      "sha256": "d8c5bb803d84e9a8bca3179929263c029dc4222c22ab6a30e4bc88e1888a710a"
+    },
+    {
+      "name": "4366__alt__home__bridge_tail",
+      "sha256": "55f92e11c539a2d13af0157a560e7e13f4ae2a181365ac5ec93512aafa4d9d9e"
+    },
+    {
+      "name": "4366__alt__home__bridge_signals",
+      "sha256": "7c8862fe140e8c30248d32cdd4c082d7d5bbe217378699b45177ab2801bec09e"
+    },
+    {
+      "name": "4366__alt__home__bridge_kc_bins",
+      "sha256": "a429cfa97c2d960dcb22028415a8079e5f2ec344e3752a7f98e2444645cbf95c"
+    },
+    {
+      "name": "4366__alt__home__bridge_kc_used",
+      "sha256": "2c12cb47886ceb69b40663932b64d74a3b9581da29b825feac3181d4b688d9a1"
+    },
+    {
+      "name": "4366__alt__home__signal_bins",
+      "sha256": "51c4ef34db0ae5505282c11f34960d91d6b920ca17a754891f213350ad7465af"
+    },
+    {
+      "name": "4366__alt__home__kc_signal_bins",
+      "sha256": "dbe6590022682adb8ae9a8df39d1bf24370f2f1ddb1b33bd55dcd8f120dec34f"
+    },
+    {
+      "name": "4366__alt__home__dan_bins",
+      "sha256": "cd33c3c1bf9e0816e3e4d606a7e7c9741108a241cc33efa804f124d12a6196ad"
+    },
+    {
+      "name": "4366__alt__home__step_signals",
+      "sha256": "0246ae936a18ee472a7323344aea0b6069c1fe6511fbcd0bc1e3865378ddf563"
+    },
+    {
+      "name": "4366__alt__away__gain_delta",
+      "sha256": "8be0a3ae74b92f74e8450df05140d7e1c9a16188e3abfb819e05ed158755fc25"
+    },
+    {
+      "name": "4366__alt__away__gains",
+      "sha256": "bb652cd44f7a190252a363b4ad6de1dee67a28a689d4436a5a2c9ff11dab78c5"
+    },
+    {
+      "name": "4366__alt__away__bridge_rule",
+      "sha256": "0db83c6020c1a33186f49d7700c9db0f4a8f29bd77278ff002b09320dae6ff80"
+    },
+    {
+      "name": "4366__alt__away__bridge_tail",
+      "sha256": "7f651c71c8a526af5c07bf0f9d00ad7493b347c0ef0db03b0acc33dd0a08aaf0"
+    },
+    {
+      "name": "4366__alt__away__bridge_signals",
+      "sha256": "18a54d5023a17a2ce142731e8e18b05165e0778ae7fe68fe708db3a1d683973a"
+    },
+    {
+      "name": "4366__alt__away__bridge_kc_bins",
+      "sha256": "a429cfa97c2d960dcb22028415a8079e5f2ec344e3752a7f98e2444645cbf95c"
+    },
+    {
+      "name": "4366__alt__away__bridge_kc_used",
+      "sha256": "2c12cb47886ceb69b40663932b64d74a3b9581da29b825feac3181d4b688d9a1"
+    },
+    {
+      "name": "4366__alt__away__signal_bins",
+      "sha256": "2c6865cc32f3b0478b69aa636a85978c937adc24ae3560770caf8abe47d66b89"
+    },
+    {
+      "name": "4366__alt__away__kc_signal_bins",
+      "sha256": "dbe6590022682adb8ae9a8df39d1bf24370f2f1ddb1b33bd55dcd8f120dec34f"
+    },
+    {
+      "name": "4366__alt__away__dan_bins",
+      "sha256": "f3fce18d4cbb68c31788af6f4de6e881e566142e5d99c31c5046f38f3c9a5d44"
+    },
+    {
+      "name": "4366__alt__away__step_signals",
+      "sha256": "055e062f53d6eb8eca5d7d6562bc69af14d05320febc0c93e92bde681358ff0d"
+    },
+    {
+      "name": "4370__base__frozen__gain_delta",
+      "sha256": "f641e8ed2dc7007cb6576f7d04822219bf2fd02c0ca421c189155e86335baa0b"
+    },
+    {
+      "name": "4370__base__frozen__gains",
+      "sha256": "e6cb0830b4841cb8f58bc4a8c76b552f5b1f8def40464661e9d6acc572204a5e"
+    },
+    {
+      "name": "4370__base__frozen__bridge_rule",
+      "sha256": "36dfd30b7548da7f019e06b94c7596151884e715e4df2b66d1d8ccd06e95d0c2"
+    },
+    {
+      "name": "4370__base__frozen__bridge_tail",
+      "sha256": "7d1c15f4377c66f5bea4258ad754b434a4acbf4039d11651ad44d18a0892f92b"
+    },
+    {
+      "name": "4370__base__frozen__bridge_signals",
+      "sha256": "2db1c4a4d5ef435e873cd6c9bdb74f8395e4f0d77743f1a6148e6009397ce813"
+    },
+    {
+      "name": "4370__base__frozen__bridge_kc_bins",
+      "sha256": "222260b5d03bea5e1f20e6e8a5cf8a727fa4768714f039a8a6245c3c437177e1"
+    },
+    {
+      "name": "4370__base__frozen__bridge_kc_used",
+      "sha256": "68ad685499e8337b13c87c9f1c39cb1f68b9ec3bacddb6ebb6877d3e57807144"
+    },
+    {
+      "name": "4370__base__frozen__signal_bins",
+      "sha256": "2ce91a53358224fb012299e6a785688dafe48ee0dec277d5d0e84034c7c4e2c0"
+    },
+    {
+      "name": "4370__base__frozen__kc_signal_bins",
+      "sha256": "3675bf83c985a1fce76ef4c8d00ede0a800206e384beaa2651a491c7fc5f7f07"
+    },
+    {
+      "name": "4370__base__frozen__dan_bins",
+      "sha256": "928183883bee0049476515c234f01fbdee344ea544972ccbb477a754c63748ef"
+    },
+    {
+      "name": "4370__base__frozen__step_signals",
+      "sha256": "229abe3162afca1aca5975a801a7d5c9115798082fa6e8362cd9e3440141aa7e"
+    },
+    {
+      "name": "4370__base__untaught__gain_delta",
+      "sha256": "0f691f5bca4cf586098952478457a5ead8773519f120bdab26f61e290085f050"
+    },
+    {
+      "name": "4370__base__untaught__gains",
+      "sha256": "06f5841db4033837c37224d71f4d496ed08f52159ce6b7354cfacff5dbee05ff"
+    },
+    {
+      "name": "4370__base__untaught__bridge_rule",
+      "sha256": "5fc66555a94de77627a2239d9add3915838582da5b16c90ad7db027596b8212c"
+    },
+    {
+      "name": "4370__base__untaught__bridge_tail",
+      "sha256": "c79c72a6a21f8086c30ea0273c4f7df8b407f8e43545cb946d0f53713bac09a6"
+    },
+    {
+      "name": "4370__base__untaught__bridge_signals",
+      "sha256": "2db1c4a4d5ef435e873cd6c9bdb74f8395e4f0d77743f1a6148e6009397ce813"
+    },
+    {
+      "name": "4370__base__untaught__bridge_kc_bins",
+      "sha256": "222260b5d03bea5e1f20e6e8a5cf8a727fa4768714f039a8a6245c3c437177e1"
+    },
+    {
+      "name": "4370__base__untaught__bridge_kc_used",
+      "sha256": "68ad685499e8337b13c87c9f1c39cb1f68b9ec3bacddb6ebb6877d3e57807144"
+    },
+    {
+      "name": "4370__base__untaught__signal_bins",
+      "sha256": "2ce91a53358224fb012299e6a785688dafe48ee0dec277d5d0e84034c7c4e2c0"
+    },
+    {
+      "name": "4370__base__untaught__kc_signal_bins",
+      "sha256": "3675bf83c985a1fce76ef4c8d00ede0a800206e384beaa2651a491c7fc5f7f07"
+    },
+    {
+      "name": "4370__base__untaught__dan_bins",
+      "sha256": "928183883bee0049476515c234f01fbdee344ea544972ccbb477a754c63748ef"
+    },
+    {
+      "name": "4370__base__untaught__step_signals",
+      "sha256": "229abe3162afca1aca5975a801a7d5c9115798082fa6e8362cd9e3440141aa7e"
+    },
+    {
+      "name": "4370__base__home__gain_delta",
+      "sha256": "0e09a09bd4974941b0f8b7bd4f8311091b3fe5141fe7e1bff05839bbb95cc427"
+    },
+    {
+      "name": "4370__base__home__gains",
+      "sha256": "ba1b4de974c90ac46dad03dc25fcae9a65d5773f51ef70274a1befaad42d479f"
+    },
+    {
+      "name": "4370__base__home__bridge_rule",
+      "sha256": "84b387cbdc24f3a4baa4ab3078aae61b329fb4945be91d615380d752c630ff7d"
+    },
+    {
+      "name": "4370__base__home__bridge_tail",
+      "sha256": "1eb0fc54e21f54cf59af31d2b85cccc48463ee34847c6a7f227361af30ea6aec"
+    },
+    {
+      "name": "4370__base__home__bridge_signals",
+      "sha256": "481610293e7439e32fd16d10e70d9b9c7ac99d8a8b1cf2d24ba994e6db710415"
+    },
+    {
+      "name": "4370__base__home__bridge_kc_bins",
+      "sha256": "222260b5d03bea5e1f20e6e8a5cf8a727fa4768714f039a8a6245c3c437177e1"
+    },
+    {
+      "name": "4370__base__home__bridge_kc_used",
+      "sha256": "68ad685499e8337b13c87c9f1c39cb1f68b9ec3bacddb6ebb6877d3e57807144"
+    },
+    {
+      "name": "4370__base__home__signal_bins",
+      "sha256": "556a60b586f9f4602b76c9f9286798201b8d631228b6d13e2f0ee86af6dee75b"
+    },
+    {
+      "name": "4370__base__home__kc_signal_bins",
+      "sha256": "3675bf83c985a1fce76ef4c8d00ede0a800206e384beaa2651a491c7fc5f7f07"
+    },
+    {
+      "name": "4370__base__home__dan_bins",
+      "sha256": "7ccbfa8220e8de68294b04da375ad2b95c2742a4256d52f9f882d3b82332858d"
+    },
+    {
+      "name": "4370__base__home__step_signals",
+      "sha256": "4c6fcee1505ed7b36154af04db239c57a9224e29f0b44ebd4f550151ab37d2bc"
+    },
+    {
+      "name": "4370__base__away__gain_delta",
+      "sha256": "77f486fe76cbc858eae645668e8942b065162353a2e94c46f963236772c3279f"
+    },
+    {
+      "name": "4370__base__away__gains",
+      "sha256": "355e2856b688c0044496dc9daec035b91ac165a5695297d612cad011ae8bbc40"
+    },
+    {
+      "name": "4370__base__away__bridge_rule",
+      "sha256": "5f908d6a3446df4831f402f54220612386b5bcf7417787c376175648318c77ae"
+    },
+    {
+      "name": "4370__base__away__bridge_tail",
+      "sha256": "18d460400d4a3840ecd097195a5501fa9623acaa001067429ffcea405a5fe353"
+    },
+    {
+      "name": "4370__base__away__bridge_signals",
+      "sha256": "cac32bca53bf8d76a82951fabd0ee06bef4691bd9270466de49882b7b7c32ac6"
+    },
+    {
+      "name": "4370__base__away__bridge_kc_bins",
+      "sha256": "222260b5d03bea5e1f20e6e8a5cf8a727fa4768714f039a8a6245c3c437177e1"
+    },
+    {
+      "name": "4370__base__away__bridge_kc_used",
+      "sha256": "68ad685499e8337b13c87c9f1c39cb1f68b9ec3bacddb6ebb6877d3e57807144"
+    },
+    {
+      "name": "4370__base__away__signal_bins",
+      "sha256": "2097dfbefbb571c91c6ebb241f35ad297ee150924abedf5c6e2a4c8df18e2286"
+    },
+    {
+      "name": "4370__base__away__kc_signal_bins",
+      "sha256": "3675bf83c985a1fce76ef4c8d00ede0a800206e384beaa2651a491c7fc5f7f07"
+    },
+    {
+      "name": "4370__base__away__dan_bins",
+      "sha256": "05dacbc336f1fdd4dd8d457b1d8f22f845b8e3026f8f0484e52706c14bbbbf95"
+    },
+    {
+      "name": "4370__base__away__step_signals",
+      "sha256": "ef0bc5fc9b9aeb1977c2139263aec25ae75d9924f8a4728bf4442a8662657e1d"
+    },
+    {
+      "name": "4370__alt__frozen__gain_delta",
+      "sha256": "f641e8ed2dc7007cb6576f7d04822219bf2fd02c0ca421c189155e86335baa0b"
+    },
+    {
+      "name": "4370__alt__frozen__gains",
+      "sha256": "e6cb0830b4841cb8f58bc4a8c76b552f5b1f8def40464661e9d6acc572204a5e"
+    },
+    {
+      "name": "4370__alt__frozen__bridge_rule",
+      "sha256": "3b703f76117f877892d337db2e00c69efc4b00d127a6b319a79d4950488ffae8"
+    },
+    {
+      "name": "4370__alt__frozen__bridge_tail",
+      "sha256": "3fac36ce62504fbce56960813517d5fd7544ea38d28aa2520f1fc854b5a6c502"
+    },
+    {
+      "name": "4370__alt__frozen__bridge_signals",
+      "sha256": "7ad2335fdf425829d86021cb91352d95a6712fd658bffa521240f3a605448192"
+    },
+    {
+      "name": "4370__alt__frozen__bridge_kc_bins",
+      "sha256": "31beeb526e6581395bc29dcf8903c871e2ff42d3674613714d7694030112bc1e"
+    },
+    {
+      "name": "4370__alt__frozen__bridge_kc_used",
+      "sha256": "047984cafa9df4717afc840380eeae685d9bbc3ec67ccac7b60b4e694be33aff"
+    },
+    {
+      "name": "4370__alt__frozen__signal_bins",
+      "sha256": "95c95451be6d66adef288fafca0b3d3358b7d21af7397e95fe0263a79fd08020"
+    },
+    {
+      "name": "4370__alt__frozen__kc_signal_bins",
+      "sha256": "9ed2f444f0947beccbf5aa3bfbbf310aff73e775a17c7c4aac7f3a997200256b"
+    },
+    {
+      "name": "4370__alt__frozen__dan_bins",
+      "sha256": "9ce88b0a4a49dfaa6503490085851f8d1a9b5d2e7692508d54261f3703d823bd"
+    },
+    {
+      "name": "4370__alt__frozen__step_signals",
+      "sha256": "d6ce2c0878177e2bc82af09955ab263e649743045e674f4145f8e48436a96050"
+    },
+    {
+      "name": "4370__alt__untaught__gain_delta",
+      "sha256": "5b1c7cd198a2a81655c9d57167fe186e421f9dc02e3f14e785272a5df37447d9"
+    },
+    {
+      "name": "4370__alt__untaught__gains",
+      "sha256": "408027892935c303565191ac6c05661e7cee83f4c9c6376e8289980b5f3e6241"
+    },
+    {
+      "name": "4370__alt__untaught__bridge_rule",
+      "sha256": "d013fae4295027e0acce7c7a46c5fd26e1487492cc8d5d1c1cc0248af890fb42"
+    },
+    {
+      "name": "4370__alt__untaught__bridge_tail",
+      "sha256": "f63e47c7e676f4825e6a703f2894f342bdfc297e8cc2f24f11866d7fbb3979f8"
+    },
+    {
+      "name": "4370__alt__untaught__bridge_signals",
+      "sha256": "7ad2335fdf425829d86021cb91352d95a6712fd658bffa521240f3a605448192"
+    },
+    {
+      "name": "4370__alt__untaught__bridge_kc_bins",
+      "sha256": "31beeb526e6581395bc29dcf8903c871e2ff42d3674613714d7694030112bc1e"
+    },
+    {
+      "name": "4370__alt__untaught__bridge_kc_used",
+      "sha256": "047984cafa9df4717afc840380eeae685d9bbc3ec67ccac7b60b4e694be33aff"
+    },
+    {
+      "name": "4370__alt__untaught__signal_bins",
+      "sha256": "95c95451be6d66adef288fafca0b3d3358b7d21af7397e95fe0263a79fd08020"
+    },
+    {
+      "name": "4370__alt__untaught__kc_signal_bins",
+      "sha256": "9ed2f444f0947beccbf5aa3bfbbf310aff73e775a17c7c4aac7f3a997200256b"
+    },
+    {
+      "name": "4370__alt__untaught__dan_bins",
+      "sha256": "9ce88b0a4a49dfaa6503490085851f8d1a9b5d2e7692508d54261f3703d823bd"
+    },
+    {
+      "name": "4370__alt__untaught__step_signals",
+      "sha256": "d6ce2c0878177e2bc82af09955ab263e649743045e674f4145f8e48436a96050"
+    },
+    {
+      "name": "4370__alt__home__gain_delta",
+      "sha256": "862488c7ab646b80bf4edfa4c88ca87882b8bba9c7f3b22a726a5ea09643e25f"
+    },
+    {
+      "name": "4370__alt__home__gains",
+      "sha256": "f73303b5909bcbf81b198c99b531e6e7a11beee899305594fffd2d6ca1934a33"
+    },
+    {
+      "name": "4370__alt__home__bridge_rule",
+      "sha256": "76384ce81585a5e4392b3b33435c45e58688e8c47b00fd076551cce1a63bd4a9"
+    },
+    {
+      "name": "4370__alt__home__bridge_tail",
+      "sha256": "2543ddf70ec6c27a3000b24432f8906738fd1c1b5d52551f48c849968d858036"
+    },
+    {
+      "name": "4370__alt__home__bridge_signals",
+      "sha256": "6cbde0ecd0f24d3b91caadd35c910739cd79651e6b45f87e0730cf8f6e5e9518"
+    },
+    {
+      "name": "4370__alt__home__bridge_kc_bins",
+      "sha256": "31beeb526e6581395bc29dcf8903c871e2ff42d3674613714d7694030112bc1e"
+    },
+    {
+      "name": "4370__alt__home__bridge_kc_used",
+      "sha256": "047984cafa9df4717afc840380eeae685d9bbc3ec67ccac7b60b4e694be33aff"
+    },
+    {
+      "name": "4370__alt__home__signal_bins",
+      "sha256": "0f365694ee758a021c0d02846591108c9dd149a3ffa0e5f91dbda0222c12cbd9"
+    },
+    {
+      "name": "4370__alt__home__kc_signal_bins",
+      "sha256": "9ed2f444f0947beccbf5aa3bfbbf310aff73e775a17c7c4aac7f3a997200256b"
+    },
+    {
+      "name": "4370__alt__home__dan_bins",
+      "sha256": "e31c234bbdc49487aecb2b58f704e9b35aa0144f276260d66aec9b769c309623"
+    },
+    {
+      "name": "4370__alt__home__step_signals",
+      "sha256": "fff8bf31d0970717523b331ee3e3745fbc7cfd085f87b36e373b010bec51ff47"
+    },
+    {
+      "name": "4370__alt__away__gain_delta",
+      "sha256": "e87a831c0be22cc9fe07a410d95470953205de1b3192b12a525aebf748caeda1"
+    },
+    {
+      "name": "4370__alt__away__gains",
+      "sha256": "e22b5ec1681368ba911e84e736b7e40ae55c4f1d72deb454b00b9c92c97e1dd7"
+    },
+    {
+      "name": "4370__alt__away__bridge_rule",
+      "sha256": "f407d827e1eb64c9249cea26485ecf1a531c6a27f3e5a8ac9f84539f273aaea9"
+    },
+    {
+      "name": "4370__alt__away__bridge_tail",
+      "sha256": "07682e7de960aa6e9fa0c0a75a70ddc0f59d14e019b7c04896c35ec292c279bc"
+    },
+    {
+      "name": "4370__alt__away__bridge_signals",
+      "sha256": "c870e8c7abca7e91f0b667318b629086cadd44e27d25ffec57755a276dd89eed"
+    },
+    {
+      "name": "4370__alt__away__bridge_kc_bins",
+      "sha256": "31beeb526e6581395bc29dcf8903c871e2ff42d3674613714d7694030112bc1e"
+    },
+    {
+      "name": "4370__alt__away__bridge_kc_used",
+      "sha256": "047984cafa9df4717afc840380eeae685d9bbc3ec67ccac7b60b4e694be33aff"
+    },
+    {
+      "name": "4370__alt__away__signal_bins",
+      "sha256": "3201732ae97d8358ac3fc1753d1b142c9e6621e80481c519408bbab43d144f8e"
+    },
+    {
+      "name": "4370__alt__away__kc_signal_bins",
+      "sha256": "9ed2f444f0947beccbf5aa3bfbbf310aff73e775a17c7c4aac7f3a997200256b"
+    },
+    {
+      "name": "4370__alt__away__dan_bins",
+      "sha256": "d1d5e98242fd31ea1c85c51ea7b57475b94382a103b24fe58dd812bc60107cd9"
+    },
+    {
+      "name": "4370__alt__away__step_signals",
+      "sha256": "72a58583379999340d7055c6dc76df60b8dfb0bf19ad9e6031199269b171357a"
+    },
+    {
+      "name": "4374__base__frozen__gain_delta",
+      "sha256": "f641e8ed2dc7007cb6576f7d04822219bf2fd02c0ca421c189155e86335baa0b"
+    },
+    {
+      "name": "4374__base__frozen__gains",
+      "sha256": "e6cb0830b4841cb8f58bc4a8c76b552f5b1f8def40464661e9d6acc572204a5e"
+    },
+    {
+      "name": "4374__base__frozen__bridge_rule",
+      "sha256": "3c42d091794c402fcb165381208a85c9ff8e9e76124e23f53af36fccbf817295"
+    },
+    {
+      "name": "4374__base__frozen__bridge_tail",
+      "sha256": "468ebc7ef45c105796effccc55276331bbe65e702141f7a9a68de6c1ad9bc217"
+    },
+    {
+      "name": "4374__base__frozen__bridge_signals",
+      "sha256": "292afb1d7e92f2576df0346e63e595386f5a3491176978dd6ff116cf04fca9ea"
+    },
+    {
+      "name": "4374__base__frozen__bridge_kc_bins",
+      "sha256": "9e35a5f8794acef2139ae1aa2319ba1dedfd4c1b65cc1aeb00b02455d907cd4a"
+    },
+    {
+      "name": "4374__base__frozen__bridge_kc_used",
+      "sha256": "5b83fea2d8d4cd0fb600a562b29aae5779bee2a2bc2551d233cb16fbcb90e68c"
+    },
+    {
+      "name": "4374__base__frozen__signal_bins",
+      "sha256": "bb976a861bce9140664e5dd878f96ddbcfec8df4bc5ca8b4fdcd4891ab036971"
+    },
+    {
+      "name": "4374__base__frozen__kc_signal_bins",
+      "sha256": "e8f22ffda2bd3d290996d3cb73f80b00f5095fba6650996300afb426d26d3e23"
+    },
+    {
+      "name": "4374__base__frozen__dan_bins",
+      "sha256": "005cf39bf36740d425360f2fa9bfade6edeb228ea5523cf963ddc61f89b712b1"
+    },
+    {
+      "name": "4374__base__frozen__step_signals",
+      "sha256": "a68854fbd82b513c3f313fdcf02ff44c5318955faa7816330a9de9e49a781a1f"
+    },
+    {
+      "name": "4374__base__untaught__gain_delta",
+      "sha256": "f05835641dc37d1f7996dc26ebc11d1c0e44a1dd66e0e8f66b083b734b6ce5e0"
+    },
+    {
+      "name": "4374__base__untaught__gains",
+      "sha256": "cd9666e5663142a581a85a2239908c58493836ce95eb6733a7dc78ab5511f00e"
+    },
+    {
+      "name": "4374__base__untaught__bridge_rule",
+      "sha256": "0d4480d994ab13c5eddaa135c6f5fdea18a3b871084705b1da0e0c2f002bb7ad"
+    },
+    {
+      "name": "4374__base__untaught__bridge_tail",
+      "sha256": "0ea0cc4ff30192baa9b12448b6211f624c83f2918e3f97e4fe9c9a2be58566f6"
+    },
+    {
+      "name": "4374__base__untaught__bridge_signals",
+      "sha256": "292afb1d7e92f2576df0346e63e595386f5a3491176978dd6ff116cf04fca9ea"
+    },
+    {
+      "name": "4374__base__untaught__bridge_kc_bins",
+      "sha256": "9e35a5f8794acef2139ae1aa2319ba1dedfd4c1b65cc1aeb00b02455d907cd4a"
+    },
+    {
+      "name": "4374__base__untaught__bridge_kc_used",
+      "sha256": "5b83fea2d8d4cd0fb600a562b29aae5779bee2a2bc2551d233cb16fbcb90e68c"
+    },
+    {
+      "name": "4374__base__untaught__signal_bins",
+      "sha256": "bb976a861bce9140664e5dd878f96ddbcfec8df4bc5ca8b4fdcd4891ab036971"
+    },
+    {
+      "name": "4374__base__untaught__kc_signal_bins",
+      "sha256": "e8f22ffda2bd3d290996d3cb73f80b00f5095fba6650996300afb426d26d3e23"
+    },
+    {
+      "name": "4374__base__untaught__dan_bins",
+      "sha256": "005cf39bf36740d425360f2fa9bfade6edeb228ea5523cf963ddc61f89b712b1"
+    },
+    {
+      "name": "4374__base__untaught__step_signals",
+      "sha256": "a68854fbd82b513c3f313fdcf02ff44c5318955faa7816330a9de9e49a781a1f"
+    },
+    {
+      "name": "4374__base__home__gain_delta",
+      "sha256": "afce14e22b15b7fff3d08d4c7e96a81b071b83412eb31a50be184208f88db203"
+    },
+    {
+      "name": "4374__base__home__gains",
+      "sha256": "8f29d1f9c3d5d2fc47f483924c49a4b2a4e697633ff0a7ce2995aaf00491c22f"
+    },
+    {
+      "name": "4374__base__home__bridge_rule",
+      "sha256": "2495120b6f4c524d1f3cb1d22af7f5ba910c45976f478e34963f4673812dba3f"
+    },
+    {
+      "name": "4374__base__home__bridge_tail",
+      "sha256": "e70450864660cf138de0cb98deed828c387b925374e7b1a05fc6fc0cb84440e0"
+    },
+    {
+      "name": "4374__base__home__bridge_signals",
+      "sha256": "db3fde6d558bd2ba7eae3e83a29466fc1e9db8bd6380c8c4a09e32a1b72a98b2"
+    },
+    {
+      "name": "4374__base__home__bridge_kc_bins",
+      "sha256": "9e35a5f8794acef2139ae1aa2319ba1dedfd4c1b65cc1aeb00b02455d907cd4a"
+    },
+    {
+      "name": "4374__base__home__bridge_kc_used",
+      "sha256": "5b83fea2d8d4cd0fb600a562b29aae5779bee2a2bc2551d233cb16fbcb90e68c"
+    },
+    {
+      "name": "4374__base__home__signal_bins",
+      "sha256": "e20341d71eb5c769da6b0aa3fd17184b455a12b24e32b10843994f54a6ec4029"
+    },
+    {
+      "name": "4374__base__home__kc_signal_bins",
+      "sha256": "e8f22ffda2bd3d290996d3cb73f80b00f5095fba6650996300afb426d26d3e23"
+    },
+    {
+      "name": "4374__base__home__dan_bins",
+      "sha256": "86c9be66b664bc8efb2f665d713fa62514ba3e1d4cfb446c4ba81d46c3712a63"
+    },
+    {
+      "name": "4374__base__home__step_signals",
+      "sha256": "eb1118349026594787c24a4253a56b092fa448809b6dc2df9499207a0bb0c935"
+    },
+    {
+      "name": "4374__base__away__gain_delta",
+      "sha256": "0ec4f8d62b3f03fd76a04f3995838fdcf2e903da1871a140ee2b11eb995a27d5"
+    },
+    {
+      "name": "4374__base__away__gains",
+      "sha256": "2d58a53356c0f0001d6ddbdbe145a4d559f198a96d4fb8168ae4b050149a4730"
+    },
+    {
+      "name": "4374__base__away__bridge_rule",
+      "sha256": "ca4a2ede3320b0a9f4ab4bca51d120f1815d4385e5d3b5da2eb418e756591af0"
+    },
+    {
+      "name": "4374__base__away__bridge_tail",
+      "sha256": "af2413df9756071efe12108fd373b2a6107a561e239bb57f7e286ba053821138"
+    },
+    {
+      "name": "4374__base__away__bridge_signals",
+      "sha256": "9cd5649d5f206e29697a6f71494fe56c2682199021e8fcecd0dca24e4b9a9ee9"
+    },
+    {
+      "name": "4374__base__away__bridge_kc_bins",
+      "sha256": "9e35a5f8794acef2139ae1aa2319ba1dedfd4c1b65cc1aeb00b02455d907cd4a"
+    },
+    {
+      "name": "4374__base__away__bridge_kc_used",
+      "sha256": "5b83fea2d8d4cd0fb600a562b29aae5779bee2a2bc2551d233cb16fbcb90e68c"
+    },
+    {
+      "name": "4374__base__away__signal_bins",
+      "sha256": "93925f84791ba6ed712788f3447e794e3f67cc87c87402da1fbdd81219e26e8c"
+    },
+    {
+      "name": "4374__base__away__kc_signal_bins",
+      "sha256": "e8f22ffda2bd3d290996d3cb73f80b00f5095fba6650996300afb426d26d3e23"
+    },
+    {
+      "name": "4374__base__away__dan_bins",
+      "sha256": "664597eb8675291cef06da931a48fbd79c1b1d26260df6093041827908041f24"
+    },
+    {
+      "name": "4374__base__away__step_signals",
+      "sha256": "d835dea0b30776ca1a651170ff6455f6123d3bbf3d19ad2569feeab915e79f4a"
+    },
+    {
+      "name": "4374__alt__frozen__gain_delta",
+      "sha256": "f641e8ed2dc7007cb6576f7d04822219bf2fd02c0ca421c189155e86335baa0b"
+    },
+    {
+      "name": "4374__alt__frozen__gains",
+      "sha256": "e6cb0830b4841cb8f58bc4a8c76b552f5b1f8def40464661e9d6acc572204a5e"
+    },
+    {
+      "name": "4374__alt__frozen__bridge_rule",
+      "sha256": "3797144818adf231ed256673ba0301b7cbbcbec38d5376fdac4749282c5874ce"
+    },
+    {
+      "name": "4374__alt__frozen__bridge_tail",
+      "sha256": "44b21128f723cbc9eb24a8a5d99840aa0cc0b49f45c477b45ed788c75e45161d"
+    },
+    {
+      "name": "4374__alt__frozen__bridge_signals",
+      "sha256": "a3b78dbddcf722fadeed8024da39272abcd538d53beb09669f23fb334b893831"
+    },
+    {
+      "name": "4374__alt__frozen__bridge_kc_bins",
+      "sha256": "81e1e59e48dca3018dd0d36bd59dece0710826f38f54af29b684e3a33d952ffd"
+    },
+    {
+      "name": "4374__alt__frozen__bridge_kc_used",
+      "sha256": "3ad0b069bc202900e2726f5279b962ba8551a56d0f67beac5c560e3bf3065a78"
+    },
+    {
+      "name": "4374__alt__frozen__signal_bins",
+      "sha256": "546f47095f96b0cd9173354061773a0e58735c8da4435e296b6ebbd3806468af"
+    },
+    {
+      "name": "4374__alt__frozen__kc_signal_bins",
+      "sha256": "2503960f6d66b0ccd7f64b47a21994eb519d963ece8077f81f34c6d85f0d9f6e"
+    },
+    {
+      "name": "4374__alt__frozen__dan_bins",
+      "sha256": "f4b3a6f0d45ad8b1be639a5b9b8897bfeb6171d1c334da960165e73aa66d646c"
+    },
+    {
+      "name": "4374__alt__frozen__step_signals",
+      "sha256": "dda5183ab856199cb3faa7f322084da91598d1fce467d9ae46aa1ecde54e97af"
+    },
+    {
+      "name": "4374__alt__untaught__gain_delta",
+      "sha256": "6597dfed2b5831973df80136955461242056b4d5238115986ff526b059acc127"
+    },
+    {
+      "name": "4374__alt__untaught__gains",
+      "sha256": "f969e37c480aea7420edacf228fd74ca2a8b5724dcca9b331f68a7788077e399"
+    },
+    {
+      "name": "4374__alt__untaught__bridge_rule",
+      "sha256": "e0798297c51369b9d534c84b7ecfdc97f7987131876ab9aae3a7b3126c7e0a8c"
+    },
+    {
+      "name": "4374__alt__untaught__bridge_tail",
+      "sha256": "3b282052d90da616dfb4721c19d9f9a6150ef6dd961e1828748e2a50fbd35191"
+    },
+    {
+      "name": "4374__alt__untaught__bridge_signals",
+      "sha256": "a3b78dbddcf722fadeed8024da39272abcd538d53beb09669f23fb334b893831"
+    },
+    {
+      "name": "4374__alt__untaught__bridge_kc_bins",
+      "sha256": "81e1e59e48dca3018dd0d36bd59dece0710826f38f54af29b684e3a33d952ffd"
+    },
+    {
+      "name": "4374__alt__untaught__bridge_kc_used",
+      "sha256": "3ad0b069bc202900e2726f5279b962ba8551a56d0f67beac5c560e3bf3065a78"
+    },
+    {
+      "name": "4374__alt__untaught__signal_bins",
+      "sha256": "546f47095f96b0cd9173354061773a0e58735c8da4435e296b6ebbd3806468af"
+    },
+    {
+      "name": "4374__alt__untaught__kc_signal_bins",
+      "sha256": "2503960f6d66b0ccd7f64b47a21994eb519d963ece8077f81f34c6d85f0d9f6e"
+    },
+    {
+      "name": "4374__alt__untaught__dan_bins",
+      "sha256": "f4b3a6f0d45ad8b1be639a5b9b8897bfeb6171d1c334da960165e73aa66d646c"
+    },
+    {
+      "name": "4374__alt__untaught__step_signals",
+      "sha256": "dda5183ab856199cb3faa7f322084da91598d1fce467d9ae46aa1ecde54e97af"
+    },
+    {
+      "name": "4374__alt__home__gain_delta",
+      "sha256": "fe9975cf68a85923215d3586ded28a11feeef7ec7930ff1173d5434285c5c188"
+    },
+    {
+      "name": "4374__alt__home__gains",
+      "sha256": "32bb33c0af116342a32d8f862f2d0d1e0fc752f9221612da27c59ef79dfd8cb4"
+    },
+    {
+      "name": "4374__alt__home__bridge_rule",
+      "sha256": "1ff4c843d18a18fa8983c3e19d52ff147e2da4e5c5f5a0ca6e66e6dc3be14423"
+    },
+    {
+      "name": "4374__alt__home__bridge_tail",
+      "sha256": "08cfc031656dc76c41d6d4a49aead670e14dc8fe6d3b6b5a9dcf1c29c29bd17f"
+    },
+    {
+      "name": "4374__alt__home__bridge_signals",
+      "sha256": "6d92c8743afcbd600be94b24b3f1e7c06e94899a4d7167f40894dc01b6686683"
+    },
+    {
+      "name": "4374__alt__home__bridge_kc_bins",
+      "sha256": "81e1e59e48dca3018dd0d36bd59dece0710826f38f54af29b684e3a33d952ffd"
+    },
+    {
+      "name": "4374__alt__home__bridge_kc_used",
+      "sha256": "3ad0b069bc202900e2726f5279b962ba8551a56d0f67beac5c560e3bf3065a78"
+    },
+    {
+      "name": "4374__alt__home__signal_bins",
+      "sha256": "758f0b5b7531a9824438507cae9f1ccba56c9ecb089335c565d18745ecdf5576"
+    },
+    {
+      "name": "4374__alt__home__kc_signal_bins",
+      "sha256": "2503960f6d66b0ccd7f64b47a21994eb519d963ece8077f81f34c6d85f0d9f6e"
+    },
+    {
+      "name": "4374__alt__home__dan_bins",
+      "sha256": "d7bf57b3e5615f50d14ea95b1315fa9c547a94bd23911158ad17767d1d4d8262"
+    },
+    {
+      "name": "4374__alt__home__step_signals",
+      "sha256": "81f70a3bc997046c6916be7e1e26009eb88dc61c68a8b32ad02a85fea7c31a69"
+    },
+    {
+      "name": "4374__alt__away__gain_delta",
+      "sha256": "0bca78db0f269b2c8e035c0af92e56ba4a665c6d9f4430fd599cbdeee74c4796"
+    },
+    {
+      "name": "4374__alt__away__gains",
+      "sha256": "bff228c2bb97a904d43f7db93be802cccaaa429f9841c0af968f26bc4fac0a09"
+    },
+    {
+      "name": "4374__alt__away__bridge_rule",
+      "sha256": "6df82839ce43fa4d3cb00915886fcca03a7bdcd2969f4b087e6d0c0a86d6e3f7"
+    },
+    {
+      "name": "4374__alt__away__bridge_tail",
+      "sha256": "587ccba1fc365e0c79199e65141f8762e3d3690b19198d442a4de2430cb75a64"
+    },
+    {
+      "name": "4374__alt__away__bridge_signals",
+      "sha256": "6c87731fd8c11e5d452999b1591eb3946f87c0a7a9a84e878c307349fb08efcb"
+    },
+    {
+      "name": "4374__alt__away__bridge_kc_bins",
+      "sha256": "81e1e59e48dca3018dd0d36bd59dece0710826f38f54af29b684e3a33d952ffd"
+    },
+    {
+      "name": "4374__alt__away__bridge_kc_used",
+      "sha256": "3ad0b069bc202900e2726f5279b962ba8551a56d0f67beac5c560e3bf3065a78"
+    },
+    {
+      "name": "4374__alt__away__signal_bins",
+      "sha256": "1143348a70a7ea620e408b8443d9af9d5a5ae494cc88b879ba527f34d49c4528"
+    },
+    {
+      "name": "4374__alt__away__kc_signal_bins",
+      "sha256": "2503960f6d66b0ccd7f64b47a21994eb519d963ece8077f81f34c6d85f0d9f6e"
+    },
+    {
+      "name": "4374__alt__away__dan_bins",
+      "sha256": "867d58b246a60ab0c34b72b169f2985d282bb7fc824a85cef6f89d40285224dc"
+    },
+    {
+      "name": "4374__alt__away__step_signals",
+      "sha256": "7d8b8ebc64d763bb366745c7960631377d3e0ba22a3997f7ef0748091626980c"
+    },
+    {
+      "name": "4378__base__frozen__gain_delta",
+      "sha256": "f641e8ed2dc7007cb6576f7d04822219bf2fd02c0ca421c189155e86335baa0b"
+    },
+    {
+      "name": "4378__base__frozen__gains",
+      "sha256": "e6cb0830b4841cb8f58bc4a8c76b552f5b1f8def40464661e9d6acc572204a5e"
+    },
+    {
+      "name": "4378__base__frozen__bridge_rule",
+      "sha256": "c256c9a56eeb1574cc99cfe5dde16678d8da833c61a28b2e417d229087cce8df"
+    },
+    {
+      "name": "4378__base__frozen__bridge_tail",
+      "sha256": "fe446a1dea8f2f5e69873d5dda9aba3cd749559b40335fdbb5dca9975e5b6777"
+    },
+    {
+      "name": "4378__base__frozen__bridge_signals",
+      "sha256": "b08d41b42b032a6fceb4dd8d4519099b566efd50d7157ebd10b93ee179dc1ff0"
+    },
+    {
+      "name": "4378__base__frozen__bridge_kc_bins",
+      "sha256": "520989a26bd6ad2a43c968a56d8769d628cb67dd089da760aa85d10b9221434c"
+    },
+    {
+      "name": "4378__base__frozen__bridge_kc_used",
+      "sha256": "189929c8b842c49aa399c6ee9699e527350dfcff297c6c8ed235c1b7594fc2f9"
+    },
+    {
+      "name": "4378__base__frozen__signal_bins",
+      "sha256": "2141278b283a81830aab380c2792edbe5f5e3ba508f23e7c95b9b225f49bbdfd"
+    },
+    {
+      "name": "4378__base__frozen__kc_signal_bins",
+      "sha256": "12b1fe3e811ec964be1937282c54efe9209fa729502242cf73606096e5b55d25"
+    },
+    {
+      "name": "4378__base__frozen__dan_bins",
+      "sha256": "db3e949e0f88698a2197400ebc097fa22532a481fdd5893938e14b3ec3cef770"
+    },
+    {
+      "name": "4378__base__frozen__step_signals",
+      "sha256": "cea7c5aa28e9bd30e70d87fd52826c1924014a02abc42d8811e646d42dbc971b"
+    },
+    {
+      "name": "4378__base__untaught__gain_delta",
+      "sha256": "04fcc19781d13a14a2cc0bd98be54a4aa1b7ba1e4b7132f7f2ea6ead73152895"
+    },
+    {
+      "name": "4378__base__untaught__gains",
+      "sha256": "57981b2deb64b13e15a5aca28df7e85a0ecb442e92242d0d6f581f61edde2380"
+    },
+    {
+      "name": "4378__base__untaught__bridge_rule",
+      "sha256": "958355152a66fc2fba24c0bac9f8267eb1b2d6c57d396b5816174ae0b153bcbf"
+    },
+    {
+      "name": "4378__base__untaught__bridge_tail",
+      "sha256": "2f98af10603fe30f42e1e195d5516bd7774e6b0a431c000807bc097000bd314c"
+    },
+    {
+      "name": "4378__base__untaught__bridge_signals",
+      "sha256": "00aa6258502054fdd218f9d3455e3f4be4b7b4ad5874feaf73860f8a6c16cdcc"
+    },
+    {
+      "name": "4378__base__untaught__bridge_kc_bins",
+      "sha256": "4fed6224d2075d9b346cf17f13382ca9d490b0e3a086adbbf66e57dc3cce663c"
+    },
+    {
+      "name": "4378__base__untaught__bridge_kc_used",
+      "sha256": "abefbaf3ace4e3f2537ccd02664f071287168600a6decc31b3316df2b16db547"
+    },
+    {
+      "name": "4378__base__untaught__signal_bins",
+      "sha256": "2141278b283a81830aab380c2792edbe5f5e3ba508f23e7c95b9b225f49bbdfd"
+    },
+    {
+      "name": "4378__base__untaught__kc_signal_bins",
+      "sha256": "3609913af0a3f06d52ab25d2ab97b8b086ef1af8e271ec8b57c21060b6ce06c2"
+    },
+    {
+      "name": "4378__base__untaught__dan_bins",
+      "sha256": "db3e949e0f88698a2197400ebc097fa22532a481fdd5893938e14b3ec3cef770"
+    },
+    {
+      "name": "4378__base__untaught__step_signals",
+      "sha256": "d079f9a1d7edf9d434536964e5a19970aabda298f335fe9824750ee59acfe385"
+    },
+    {
+      "name": "4378__base__home__gain_delta",
+      "sha256": "09480677cbb83b89490ed7fbd6ffb00c874b35fb1c53c7dfebfcd2dec850339e"
+    },
+    {
+      "name": "4378__base__home__gains",
+      "sha256": "909b50f40a289546789ed64be91660a6f61a3af5ac7af67db97bce80e9131c74"
+    },
+    {
+      "name": "4378__base__home__bridge_rule",
+      "sha256": "46e3714b868cfbd8425027038407d07ab4a306c471d4dc2e6fe878695c8bdcf7"
+    },
+    {
+      "name": "4378__base__home__bridge_tail",
+      "sha256": "9f56870aa2f409d1f2f73de69af744d28a2c9f729942d2d7798c9b9b43c5e138"
+    },
+    {
+      "name": "4378__base__home__bridge_signals",
+      "sha256": "4b9d9d4d4c436fb1b234a052512f22347fd2a6603d671a229048142acf5bb21b"
+    },
+    {
+      "name": "4378__base__home__bridge_kc_bins",
+      "sha256": "4fed6224d2075d9b346cf17f13382ca9d490b0e3a086adbbf66e57dc3cce663c"
+    },
+    {
+      "name": "4378__base__home__bridge_kc_used",
+      "sha256": "abefbaf3ace4e3f2537ccd02664f071287168600a6decc31b3316df2b16db547"
+    },
+    {
+      "name": "4378__base__home__signal_bins",
+      "sha256": "2c60c52807af1d74e42a07bb5d48516ebbe0ed1eb8003400acfe631e2772cfab"
+    },
+    {
+      "name": "4378__base__home__kc_signal_bins",
+      "sha256": "3609913af0a3f06d52ab25d2ab97b8b086ef1af8e271ec8b57c21060b6ce06c2"
+    },
+    {
+      "name": "4378__base__home__dan_bins",
+      "sha256": "3942cdbc2fd9e3fd63cf3d1e387b9d1563d65a5ac74f5d6c1ac150ecb7e0ed7b"
+    },
+    {
+      "name": "4378__base__home__step_signals",
+      "sha256": "9ab11ff028cdfbc353e16dcd1f0cd754daf969ea53cb12c0dcddee59012418a2"
+    },
+    {
+      "name": "4378__base__away__gain_delta",
+      "sha256": "73f539efdb45e3f4984a9fff3c922508f353528f97eda21e4d18b24c5cf185a7"
+    },
+    {
+      "name": "4378__base__away__gains",
+      "sha256": "6ff2bfd6bef682bf2b86e7f1bbf672563838190aa14cc4f3171ca1f8bb658d9e"
+    },
+    {
+      "name": "4378__base__away__bridge_rule",
+      "sha256": "41889e08853e61e4cc2fdfcf783e99827f31511bf4745916f36dbd20cf506f39"
+    },
+    {
+      "name": "4378__base__away__bridge_tail",
+      "sha256": "e82dcfc755684cca5589f8905b8799e111abc70d12a2aca462d76faa02f0c3ef"
+    },
+    {
+      "name": "4378__base__away__bridge_signals",
+      "sha256": "9d6f0cca810078c17a14f1c6c7a1c0988b477c581be070ac68f7fc1ecf26da11"
+    },
+    {
+      "name": "4378__base__away__bridge_kc_bins",
+      "sha256": "4fed6224d2075d9b346cf17f13382ca9d490b0e3a086adbbf66e57dc3cce663c"
+    },
+    {
+      "name": "4378__base__away__bridge_kc_used",
+      "sha256": "abefbaf3ace4e3f2537ccd02664f071287168600a6decc31b3316df2b16db547"
+    },
+    {
+      "name": "4378__base__away__signal_bins",
+      "sha256": "623fd08b8bfc8d34db0b6be0f66b3fd83085501d10610653f82d84b0532b22e4"
+    },
+    {
+      "name": "4378__base__away__kc_signal_bins",
+      "sha256": "3609913af0a3f06d52ab25d2ab97b8b086ef1af8e271ec8b57c21060b6ce06c2"
+    },
+    {
+      "name": "4378__base__away__dan_bins",
+      "sha256": "015bc50132185bddc3934f4040c726d911057b0ee1225ef00b87c07aaf925534"
+    },
+    {
+      "name": "4378__base__away__step_signals",
+      "sha256": "2b2e23e8cf217ebe69851ffbb063cafbc9b9ff1eb50fc600644e3ebbd8da14f8"
+    },
+    {
+      "name": "4378__alt__frozen__gain_delta",
+      "sha256": "f641e8ed2dc7007cb6576f7d04822219bf2fd02c0ca421c189155e86335baa0b"
+    },
+    {
+      "name": "4378__alt__frozen__gains",
+      "sha256": "e6cb0830b4841cb8f58bc4a8c76b552f5b1f8def40464661e9d6acc572204a5e"
+    },
+    {
+      "name": "4378__alt__frozen__bridge_rule",
+      "sha256": "5e8068d63e8b8bc204393e697af1dd5b910be6c054ce899eb8bf5f71ff9d834e"
+    },
+    {
+      "name": "4378__alt__frozen__bridge_tail",
+      "sha256": "fed20cd5b4da863095f4f4fc3332090aca57099f53fe7098211f5a4873674cc6"
+    },
+    {
+      "name": "4378__alt__frozen__bridge_signals",
+      "sha256": "1deab7ce9062701b86b1fd189fde4f05dfb4cd74c1e3fea0dfa3f4ff10cb4593"
+    },
+    {
+      "name": "4378__alt__frozen__bridge_kc_bins",
+      "sha256": "7cc0757389c0619566d7d6fdf59e79a144af8fd9068c119d6de257c00ba6a07b"
+    },
+    {
+      "name": "4378__alt__frozen__bridge_kc_used",
+      "sha256": "eb577311ceac284e2694d47a9778cb11305a1bf335d23dbb9d1cd462746dd02c"
+    },
+    {
+      "name": "4378__alt__frozen__signal_bins",
+      "sha256": "f8d504e54d20135f13e3b8ed55169c946fc4e149a07e6adced571a5e66c4ac07"
+    },
+    {
+      "name": "4378__alt__frozen__kc_signal_bins",
+      "sha256": "c516cb7f8274d4592d842373affd11d25d391e018fe9557085b1936f142eba7b"
+    },
+    {
+      "name": "4378__alt__frozen__dan_bins",
+      "sha256": "bdd7dc1a2d48fa8505857f107e399174e5bee1d7d99a1d077b25358ec93e0b48"
+    },
+    {
+      "name": "4378__alt__frozen__step_signals",
+      "sha256": "1102a397e8183a5f1f2cc1aa16ab806b81ba06a1d0ab697b9731d3dd24220ce3"
+    },
+    {
+      "name": "4378__alt__untaught__gain_delta",
+      "sha256": "31dce72de3bccd07b4061c0b19222eb3e31625e83bda18e5da81e0314edc0065"
+    },
+    {
+      "name": "4378__alt__untaught__gains",
+      "sha256": "8a2f898dc4f85f159c392b008d619e7819a3d85d7372bf9b9ed7c5835a7cd6f0"
+    },
+    {
+      "name": "4378__alt__untaught__bridge_rule",
+      "sha256": "86ac3952e2a021ce7bc6674e74340ec0109b79fc6ab20616ab8ab6d28d7d6a2b"
+    },
+    {
+      "name": "4378__alt__untaught__bridge_tail",
+      "sha256": "06d9a31ea99db6a41c3d2ac143b644448b41328da6a28c29ea3765e06e598865"
+    },
+    {
+      "name": "4378__alt__untaught__bridge_signals",
+      "sha256": "1deab7ce9062701b86b1fd189fde4f05dfb4cd74c1e3fea0dfa3f4ff10cb4593"
+    },
+    {
+      "name": "4378__alt__untaught__bridge_kc_bins",
+      "sha256": "7cc0757389c0619566d7d6fdf59e79a144af8fd9068c119d6de257c00ba6a07b"
+    },
+    {
+      "name": "4378__alt__untaught__bridge_kc_used",
+      "sha256": "eb577311ceac284e2694d47a9778cb11305a1bf335d23dbb9d1cd462746dd02c"
+    },
+    {
+      "name": "4378__alt__untaught__signal_bins",
+      "sha256": "f8d504e54d20135f13e3b8ed55169c946fc4e149a07e6adced571a5e66c4ac07"
+    },
+    {
+      "name": "4378__alt__untaught__kc_signal_bins",
+      "sha256": "c516cb7f8274d4592d842373affd11d25d391e018fe9557085b1936f142eba7b"
+    },
+    {
+      "name": "4378__alt__untaught__dan_bins",
+      "sha256": "bdd7dc1a2d48fa8505857f107e399174e5bee1d7d99a1d077b25358ec93e0b48"
+    },
+    {
+      "name": "4378__alt__untaught__step_signals",
+      "sha256": "1102a397e8183a5f1f2cc1aa16ab806b81ba06a1d0ab697b9731d3dd24220ce3"
+    },
+    {
+      "name": "4378__alt__home__gain_delta",
+      "sha256": "250e4c7e6f9c4c2b7df501f4158dc61541ffb21e3053b28f3105098dd3798be0"
+    },
+    {
+      "name": "4378__alt__home__gains",
+      "sha256": "c4504d83535763584af52a6f36602688fbb49decd0129de65e08f93d123818bf"
+    },
+    {
+      "name": "4378__alt__home__bridge_rule",
+      "sha256": "f9e9452d0c8594770274659c65ab247f05dec808dc1f8eee4e5c4c4ce0586b6b"
+    },
+    {
+      "name": "4378__alt__home__bridge_tail",
+      "sha256": "59427c47b49a3cfe5d02b0cc609f41ea44609b9112a3013d3bd24e6d8656def3"
+    },
+    {
+      "name": "4378__alt__home__bridge_signals",
+      "sha256": "1c5c45ea52eeec37f4aa1caabd8bd0de6fac05eb37e830410138dbfd991887a4"
+    },
+    {
+      "name": "4378__alt__home__bridge_kc_bins",
+      "sha256": "7cc0757389c0619566d7d6fdf59e79a144af8fd9068c119d6de257c00ba6a07b"
+    },
+    {
+      "name": "4378__alt__home__bridge_kc_used",
+      "sha256": "eb577311ceac284e2694d47a9778cb11305a1bf335d23dbb9d1cd462746dd02c"
+    },
+    {
+      "name": "4378__alt__home__signal_bins",
+      "sha256": "ce80c46528fe2d3e149acf1ad0049dc0b24f56931befaeb978426493acbc6d55"
+    },
+    {
+      "name": "4378__alt__home__kc_signal_bins",
+      "sha256": "c516cb7f8274d4592d842373affd11d25d391e018fe9557085b1936f142eba7b"
+    },
+    {
+      "name": "4378__alt__home__dan_bins",
+      "sha256": "957610490dc7e626746dcf40d1601b674758a6678fe4a42f16c2c1087216004c"
+    },
+    {
+      "name": "4378__alt__home__step_signals",
+      "sha256": "a6d37163f94d1e694d0927e8b53a5fd38e60c3f52503f17f4eee338c4e982197"
+    },
+    {
+      "name": "4378__alt__away__gain_delta",
+      "sha256": "ee60188bc7360e402a89b111c13ac0c4944f9b168c862c6b75bc869996f99803"
+    },
+    {
+      "name": "4378__alt__away__gains",
+      "sha256": "72c5f4b1f969afee9c561c05d6d02c3a63d139f5d2053244d824ddab1dc58003"
+    },
+    {
+      "name": "4378__alt__away__bridge_rule",
+      "sha256": "51cb2483324afc37a528fb6584ac74fda6d3a3e36bbed25fdfafc12e1115dcea"
+    },
+    {
+      "name": "4378__alt__away__bridge_tail",
+      "sha256": "7740bd55186ed59e6a875f8b0c1af66eac5103414396bb35842aa70205d835fe"
+    },
+    {
+      "name": "4378__alt__away__bridge_signals",
+      "sha256": "effc2289c3c7aa5bea95122f9fb7351a77271a3426e2916ab4c024a1622f3b8f"
+    },
+    {
+      "name": "4378__alt__away__bridge_kc_bins",
+      "sha256": "7cc0757389c0619566d7d6fdf59e79a144af8fd9068c119d6de257c00ba6a07b"
+    },
+    {
+      "name": "4378__alt__away__bridge_kc_used",
+      "sha256": "eb577311ceac284e2694d47a9778cb11305a1bf335d23dbb9d1cd462746dd02c"
+    },
+    {
+      "name": "4378__alt__away__signal_bins",
+      "sha256": "73584706f40dd4ddb72e682e9033379e4283ccd844fc6cfd46808dea5e57b47d"
+    },
+    {
+      "name": "4378__alt__away__kc_signal_bins",
+      "sha256": "c516cb7f8274d4592d842373affd11d25d391e018fe9557085b1936f142eba7b"
+    },
+    {
+      "name": "4378__alt__away__dan_bins",
+      "sha256": "30056aa6193bbf7580ca5a1f75d86162d34625c931249dd839939770892e9e39"
+    },
+    {
+      "name": "4378__alt__away__step_signals",
+      "sha256": "0558d932ddbdf51ae8e0b56c84b49c3aee7c6c2f9dafb99d682944d8fbe04fb5"
+    },
+    {
+      "name": "4383__base__frozen__gain_delta",
+      "sha256": "f641e8ed2dc7007cb6576f7d04822219bf2fd02c0ca421c189155e86335baa0b"
+    },
+    {
+      "name": "4383__base__frozen__gains",
+      "sha256": "e6cb0830b4841cb8f58bc4a8c76b552f5b1f8def40464661e9d6acc572204a5e"
+    },
+    {
+      "name": "4383__base__frozen__bridge_rule",
+      "sha256": "d6bfa3cf675b4335c5bafb3b23a321e74570132cda7bc6a107a5b9a533c67890"
+    },
+    {
+      "name": "4383__base__frozen__bridge_tail",
+      "sha256": "3a6d58f0fb425fe4cdc85160dad0b3bc8009b4e025b2306bf179f15c10540f0f"
+    },
+    {
+      "name": "4383__base__frozen__bridge_signals",
+      "sha256": "f238a897303d875f367d8850c25cafbbc1c9ff3bf6610ad66fdfd66d2c8e7548"
+    },
+    {
+      "name": "4383__base__frozen__bridge_kc_bins",
+      "sha256": "2d92f3eab681926c97df816f7bf63e4a128c19db4ed3e755961583dd2d07c96b"
+    },
+    {
+      "name": "4383__base__frozen__bridge_kc_used",
+      "sha256": "f46883db041faa12565380981459428831c186e1c0d5b77cfe9e5919975514dd"
+    },
+    {
+      "name": "4383__base__frozen__signal_bins",
+      "sha256": "02f6f37b53749f25e92a82110a1731b455c650875ac7e84cdba7fc627bd9045a"
+    },
+    {
+      "name": "4383__base__frozen__kc_signal_bins",
+      "sha256": "8e0ceba87dc54ae506248b0c2047a75c9c84fca181e495ad8319520393ef3656"
+    },
+    {
+      "name": "4383__base__frozen__dan_bins",
+      "sha256": "1c49d643f6067be7389191eb6f2e0de167b632ba869101ceb669b4b621cd0b47"
+    },
+    {
+      "name": "4383__base__frozen__step_signals",
+      "sha256": "56b7b4214ad4909505d46f7e909e27c14a616ae3c63de9deb46ae7a87025d5e2"
+    },
+    {
+      "name": "4383__base__untaught__gain_delta",
+      "sha256": "3269512e433abeb0567746530d759bae4b773b0a7583eb47d3b8700cb4f1c68b"
+    },
+    {
+      "name": "4383__base__untaught__gains",
+      "sha256": "25bcae36f64dc1dcce5feb681ed6cd3d66e8bf045b4656fde9da8fe2055146ea"
+    },
+    {
+      "name": "4383__base__untaught__bridge_rule",
+      "sha256": "7f922d56763c65ddba9681ef2f20ea5b44bac76437b6f21741be4ecfe9dac08a"
+    },
+    {
+      "name": "4383__base__untaught__bridge_tail",
+      "sha256": "bfd6401bb40d439b3d38fb5fc9e815eca51f0e7c4c92214d6f16b972c9271337"
+    },
+    {
+      "name": "4383__base__untaught__bridge_signals",
+      "sha256": "f238a897303d875f367d8850c25cafbbc1c9ff3bf6610ad66fdfd66d2c8e7548"
+    },
+    {
+      "name": "4383__base__untaught__bridge_kc_bins",
+      "sha256": "2d92f3eab681926c97df816f7bf63e4a128c19db4ed3e755961583dd2d07c96b"
+    },
+    {
+      "name": "4383__base__untaught__bridge_kc_used",
+      "sha256": "f46883db041faa12565380981459428831c186e1c0d5b77cfe9e5919975514dd"
+    },
+    {
+      "name": "4383__base__untaught__signal_bins",
+      "sha256": "02f6f37b53749f25e92a82110a1731b455c650875ac7e84cdba7fc627bd9045a"
+    },
+    {
+      "name": "4383__base__untaught__kc_signal_bins",
+      "sha256": "8e0ceba87dc54ae506248b0c2047a75c9c84fca181e495ad8319520393ef3656"
+    },
+    {
+      "name": "4383__base__untaught__dan_bins",
+      "sha256": "1c49d643f6067be7389191eb6f2e0de167b632ba869101ceb669b4b621cd0b47"
+    },
+    {
+      "name": "4383__base__untaught__step_signals",
+      "sha256": "56b7b4214ad4909505d46f7e909e27c14a616ae3c63de9deb46ae7a87025d5e2"
+    },
+    {
+      "name": "4383__base__home__gain_delta",
+      "sha256": "4033e530a9cb88b3e35517d1b07676e90710383338056aec4b0b36957ce43a5e"
+    },
+    {
+      "name": "4383__base__home__gains",
+      "sha256": "e5b32a2dfd9fff830d60965802db930d3b9e9c6be30992fb83f494d4d08cd82e"
+    },
+    {
+      "name": "4383__base__home__bridge_rule",
+      "sha256": "188562295e2b2f397f04a825c41dbf6e5dac328bd8fa6563e5a51344b5cb1fd6"
+    },
+    {
+      "name": "4383__base__home__bridge_tail",
+      "sha256": "60fdd1a232e8718049ba14aecbe7d23b676b82d305bdb6a70a2e9f8073588f60"
+    },
+    {
+      "name": "4383__base__home__bridge_signals",
+      "sha256": "10b56d5075d9da1d81bac50a1e4dd44a144c46362efb13392e60da33abd78f11"
+    },
+    {
+      "name": "4383__base__home__bridge_kc_bins",
+      "sha256": "2d92f3eab681926c97df816f7bf63e4a128c19db4ed3e755961583dd2d07c96b"
+    },
+    {
+      "name": "4383__base__home__bridge_kc_used",
+      "sha256": "f46883db041faa12565380981459428831c186e1c0d5b77cfe9e5919975514dd"
+    },
+    {
+      "name": "4383__base__home__signal_bins",
+      "sha256": "fe92832e1f455aab2c9dfa0d26009168f2583d3fced6ff672d4b00b66691e162"
+    },
+    {
+      "name": "4383__base__home__kc_signal_bins",
+      "sha256": "8e0ceba87dc54ae506248b0c2047a75c9c84fca181e495ad8319520393ef3656"
+    },
+    {
+      "name": "4383__base__home__dan_bins",
+      "sha256": "2fcad76bb8f3d96f63804211bab82403d0bfce6c95745ae3e5eceeb7cc4de55e"
+    },
+    {
+      "name": "4383__base__home__step_signals",
+      "sha256": "b46fb402f8edd14f30ba8cadb40bf33a2394659e512aaff43979f32b6cde594c"
+    },
+    {
+      "name": "4383__base__away__gain_delta",
+      "sha256": "d657d12e48f2485fe00cb8c7e7d20b0de0c1998202a1b826026ec3c0b17226b3"
+    },
+    {
+      "name": "4383__base__away__gains",
+      "sha256": "5baad9966ce07956b7ab28c9b517a2e28c24b89f0399de15b8a4d71fdc589cd2"
+    },
+    {
+      "name": "4383__base__away__bridge_rule",
+      "sha256": "2ba5b905ccde3e74122325895ecfd7807890ce0b724c9a8308181b0f3d9ffcd1"
+    },
+    {
+      "name": "4383__base__away__bridge_tail",
+      "sha256": "7bbe33daf7b7247b4fddacc62ce5589d31b0e383bbddd49bbd4daa4d0449de30"
+    },
+    {
+      "name": "4383__base__away__bridge_signals",
+      "sha256": "799df33e3a6a30d47daa8672e5baf3a39152efa6749d5665c202ed9d719ba9d0"
+    },
+    {
+      "name": "4383__base__away__bridge_kc_bins",
+      "sha256": "2d92f3eab681926c97df816f7bf63e4a128c19db4ed3e755961583dd2d07c96b"
+    },
+    {
+      "name": "4383__base__away__bridge_kc_used",
+      "sha256": "f46883db041faa12565380981459428831c186e1c0d5b77cfe9e5919975514dd"
+    },
+    {
+      "name": "4383__base__away__signal_bins",
+      "sha256": "5de6d0a7c6f33606a030847f3236a5fb983e63c9c94bdf3b4763a133fccfd56f"
+    },
+    {
+      "name": "4383__base__away__kc_signal_bins",
+      "sha256": "8e0ceba87dc54ae506248b0c2047a75c9c84fca181e495ad8319520393ef3656"
+    },
+    {
+      "name": "4383__base__away__dan_bins",
+      "sha256": "8cc7ce1e4be36d45c98d6f85c1dfe250c136e8cbf239d070d6f9a235950def6c"
+    },
+    {
+      "name": "4383__base__away__step_signals",
+      "sha256": "572e1b81dd25279092e710f67874ae7a70d7608f2b0252daa53a5fed36ab80de"
+    },
+    {
+      "name": "4383__alt__frozen__gain_delta",
+      "sha256": "f641e8ed2dc7007cb6576f7d04822219bf2fd02c0ca421c189155e86335baa0b"
+    },
+    {
+      "name": "4383__alt__frozen__gains",
+      "sha256": "e6cb0830b4841cb8f58bc4a8c76b552f5b1f8def40464661e9d6acc572204a5e"
+    },
+    {
+      "name": "4383__alt__frozen__bridge_rule",
+      "sha256": "27068829338f467a5dd5f083d5a36357a30778061d810efab4820bb938698b9e"
+    },
+    {
+      "name": "4383__alt__frozen__bridge_tail",
+      "sha256": "d157feb5283e1ab4a1f90a72f30d1f5734fc35e68ad68935e2854983e05b498c"
+    },
+    {
+      "name": "4383__alt__frozen__bridge_signals",
+      "sha256": "2a5a5939f45b9756f8c042090bd9930547a5594f5e65187eb6b8b3365788bc75"
+    },
+    {
+      "name": "4383__alt__frozen__bridge_kc_bins",
+      "sha256": "13f8dcd25810c21c1707e6ba6fd8d221bd1fbad8748baeb2f92cbab477026e76"
+    },
+    {
+      "name": "4383__alt__frozen__bridge_kc_used",
+      "sha256": "ea00a80dde9910ae250524349a4ab03a05e160617eedbd37ad96ad918a880b95"
+    },
+    {
+      "name": "4383__alt__frozen__signal_bins",
+      "sha256": "b9cc3fc37778c6069780ac96496ffb1739351b4a338c39917d4e33e81d90304b"
+    },
+    {
+      "name": "4383__alt__frozen__kc_signal_bins",
+      "sha256": "dc84025320c470f13bb4aa33393bc5ba85cd2161dc308d6b8799580983406fcb"
+    },
+    {
+      "name": "4383__alt__frozen__dan_bins",
+      "sha256": "f904090ca865cf72607151748e23553ff5d0ad4e5a1722aba109ce9e8c696a94"
+    },
+    {
+      "name": "4383__alt__frozen__step_signals",
+      "sha256": "687c28204757ab644245df966730f010929381cfeec8bbc49e07dbebacb0e027"
+    },
+    {
+      "name": "4383__alt__untaught__gain_delta",
+      "sha256": "14243039ce1303bc84e452c82e95c9d9a34b61ce72c504313b9b904361ff7f10"
+    },
+    {
+      "name": "4383__alt__untaught__gains",
+      "sha256": "5e958e83e8e2437e9121e88e3b3589f814095f21d80be018e7c682df823b1d48"
+    },
+    {
+      "name": "4383__alt__untaught__bridge_rule",
+      "sha256": "daf799e92a308b62579a1bd82cf27b04a79b7123bec4456f0afae1a18e3fa80f"
+    },
+    {
+      "name": "4383__alt__untaught__bridge_tail",
+      "sha256": "8b183caebaba90bfd53417818aa9e8467875346505f58811273bebe09940fe4d"
+    },
+    {
+      "name": "4383__alt__untaught__bridge_signals",
+      "sha256": "2a5a5939f45b9756f8c042090bd9930547a5594f5e65187eb6b8b3365788bc75"
+    },
+    {
+      "name": "4383__alt__untaught__bridge_kc_bins",
+      "sha256": "13f8dcd25810c21c1707e6ba6fd8d221bd1fbad8748baeb2f92cbab477026e76"
+    },
+    {
+      "name": "4383__alt__untaught__bridge_kc_used",
+      "sha256": "ea00a80dde9910ae250524349a4ab03a05e160617eedbd37ad96ad918a880b95"
+    },
+    {
+      "name": "4383__alt__untaught__signal_bins",
+      "sha256": "b9cc3fc37778c6069780ac96496ffb1739351b4a338c39917d4e33e81d90304b"
+    },
+    {
+      "name": "4383__alt__untaught__kc_signal_bins",
+      "sha256": "dc84025320c470f13bb4aa33393bc5ba85cd2161dc308d6b8799580983406fcb"
+    },
+    {
+      "name": "4383__alt__untaught__dan_bins",
+      "sha256": "f904090ca865cf72607151748e23553ff5d0ad4e5a1722aba109ce9e8c696a94"
+    },
+    {
+      "name": "4383__alt__untaught__step_signals",
+      "sha256": "687c28204757ab644245df966730f010929381cfeec8bbc49e07dbebacb0e027"
+    },
+    {
+      "name": "4383__alt__home__gain_delta",
+      "sha256": "24da983073eaf679da0d94feb2290cfc56ef5f271832e0a69e5f3e7c592984c5"
+    },
+    {
+      "name": "4383__alt__home__gains",
+      "sha256": "baad58c6cc23a322c77c1e15c509beac9152afc244d0eb17a130f22859e51f41"
+    },
+    {
+      "name": "4383__alt__home__bridge_rule",
+      "sha256": "988348f7a7d9216b5a5a313072270bcf099d3bb88c6c02949614353f2cab7271"
+    },
+    {
+      "name": "4383__alt__home__bridge_tail",
+      "sha256": "7c069250579120d526f40b0bf62d38d775a78d07e861d1fc9a60b49aafcdfcb0"
+    },
+    {
+      "name": "4383__alt__home__bridge_signals",
+      "sha256": "cd293b3c18598088e5fa57f5cae0069e8e5ef8fac5c04e337773e1785fb6bfa4"
+    },
+    {
+      "name": "4383__alt__home__bridge_kc_bins",
+      "sha256": "13f8dcd25810c21c1707e6ba6fd8d221bd1fbad8748baeb2f92cbab477026e76"
+    },
+    {
+      "name": "4383__alt__home__bridge_kc_used",
+      "sha256": "ea00a80dde9910ae250524349a4ab03a05e160617eedbd37ad96ad918a880b95"
+    },
+    {
+      "name": "4383__alt__home__signal_bins",
+      "sha256": "962c8114bbabe4e7985e239c1632bef2b9101f5ef080cbd6b841889f01732197"
+    },
+    {
+      "name": "4383__alt__home__kc_signal_bins",
+      "sha256": "dc84025320c470f13bb4aa33393bc5ba85cd2161dc308d6b8799580983406fcb"
+    },
+    {
+      "name": "4383__alt__home__dan_bins",
+      "sha256": "3aaa332ef366dc124506766064760918eff697dd16ca7a03d1c8528cef5276a0"
+    },
+    {
+      "name": "4383__alt__home__step_signals",
+      "sha256": "e2f930adad25bf2fd254e5cbd56980721924035f1911d1aed2f5f1c081901d3c"
+    },
+    {
+      "name": "4383__alt__away__gain_delta",
+      "sha256": "22e8aa694f6eeb05848882703cd7d06ec5575b02a00a3c1682991e7e501d1c8b"
+    },
+    {
+      "name": "4383__alt__away__gains",
+      "sha256": "d41edb20fb9db71d7de13b18796cf8fcb3d28ffae2930ec21ba8ada8a4c69a4b"
+    },
+    {
+      "name": "4383__alt__away__bridge_rule",
+      "sha256": "7e5340026f9ecb639cbf62f434e25831cf8c9517c6fe5c51dc48971647498ba4"
+    },
+    {
+      "name": "4383__alt__away__bridge_tail",
+      "sha256": "f87668f321e9d3660ec53c8465873609a1dc54a7bbb52626034d2803be4f6c1c"
+    },
+    {
+      "name": "4383__alt__away__bridge_signals",
+      "sha256": "c52b643e10edf371b0bd34e71c3b60fd5c1c692dd55a80bd46c0dab1d8307d7f"
+    },
+    {
+      "name": "4383__alt__away__bridge_kc_bins",
+      "sha256": "13f8dcd25810c21c1707e6ba6fd8d221bd1fbad8748baeb2f92cbab477026e76"
+    },
+    {
+      "name": "4383__alt__away__bridge_kc_used",
+      "sha256": "ea00a80dde9910ae250524349a4ab03a05e160617eedbd37ad96ad918a880b95"
+    },
+    {
+      "name": "4383__alt__away__signal_bins",
+      "sha256": "5f3acc8a13e7df72e0645b58ade6df19e11f44f85705c82291c47fe6242d46b5"
+    },
+    {
+      "name": "4383__alt__away__kc_signal_bins",
+      "sha256": "dc84025320c470f13bb4aa33393bc5ba85cd2161dc308d6b8799580983406fcb"
+    },
+    {
+      "name": "4383__alt__away__dan_bins",
+      "sha256": "1a4f9f25d8da018888c929f2540c1dd6b61a2ef701f1fa1d4a526d06e02b892d"
+    },
+    {
+      "name": "4383__alt__away__step_signals",
+      "sha256": "c3181c88c521486934eba6d502e90d52e4a6709869b2251a746ebdc9834ca273"
+    },
+    {
+      "name": "4387__base__frozen__gain_delta",
+      "sha256": "f641e8ed2dc7007cb6576f7d04822219bf2fd02c0ca421c189155e86335baa0b"
+    },
+    {
+      "name": "4387__base__frozen__gains",
+      "sha256": "e6cb0830b4841cb8f58bc4a8c76b552f5b1f8def40464661e9d6acc572204a5e"
+    },
+    {
+      "name": "4387__base__frozen__bridge_rule",
+      "sha256": "d39a90f195015cc6f21ccfeb3d52393b57e039a8be953dbea8721710d1ed78a9"
+    },
+    {
+      "name": "4387__base__frozen__bridge_tail",
+      "sha256": "60f2df16d86e0bd3e4e00b7e0ae0793fe147328302e0672d7e8ce332ba20fb7b"
+    },
+    {
+      "name": "4387__base__frozen__bridge_signals",
+      "sha256": "1792f6ae659090ac0feb957168c25f940eeba360510b37552a73398bac9c9548"
+    },
+    {
+      "name": "4387__base__frozen__bridge_kc_bins",
+      "sha256": "3b045312ec98775de7d537b01a0f04ba4c72d477d06e4c0ba3fae2a31fc2df42"
+    },
+    {
+      "name": "4387__base__frozen__bridge_kc_used",
+      "sha256": "e980550d63d1441945d65a627f7cb268cb48a89e32cf882328bd55d15aa5947e"
+    },
+    {
+      "name": "4387__base__frozen__signal_bins",
+      "sha256": "1fed34e85e4e1aa07bd0665421fd755942225eac953aa0033629271a58182e12"
+    },
+    {
+      "name": "4387__base__frozen__kc_signal_bins",
+      "sha256": "4b469688556ab6b8df26ffa4011fa4284cc39d49051a8fdc12c003e8f502acbc"
+    },
+    {
+      "name": "4387__base__frozen__dan_bins",
+      "sha256": "37759baf94d5164a11a4f542900cef3655ae38ae5f44e1a2b39b97fba7393df1"
+    },
+    {
+      "name": "4387__base__frozen__step_signals",
+      "sha256": "9adbe46827dcb61f677ac046b2da0a31e07d5e09211df6cb27c6e374f6ed553e"
+    },
+    {
+      "name": "4387__base__untaught__gain_delta",
+      "sha256": "395ca612114a07d86fa8e83234f6115c5c7b7531a33f86cc2be137593253e42c"
+    },
+    {
+      "name": "4387__base__untaught__gains",
+      "sha256": "d7a2b1dda1bdd8eb66c64ceeaaeb35bb268d7361d35d6257bbd7c8ed274ce117"
+    },
+    {
+      "name": "4387__base__untaught__bridge_rule",
+      "sha256": "a96c8924e04c05e9ef877b40ff6210d6ceb2f0b2525d85b2c6cfddedd123892b"
+    },
+    {
+      "name": "4387__base__untaught__bridge_tail",
+      "sha256": "4dd8c6b67a4151a47100816a79b67897d683d1f9d0108f2e4ca974ff7c620866"
+    },
+    {
+      "name": "4387__base__untaught__bridge_signals",
+      "sha256": "3dfa3151da3c5b71f6baeef338aa41fd69b9ddd1a82c04f99b59ee67930d8874"
+    },
+    {
+      "name": "4387__base__untaught__bridge_kc_bins",
+      "sha256": "0105fdecd0f88fd74943d8f9de38304c653b3a8a0e94f8b9cf73102ffeb5438b"
+    },
+    {
+      "name": "4387__base__untaught__bridge_kc_used",
+      "sha256": "25062f394140267de9206e39aa4e4bcb78d0bddcaf99d1aff35b9e5e33d84749"
+    },
+    {
+      "name": "4387__base__untaught__signal_bins",
+      "sha256": "1fed34e85e4e1aa07bd0665421fd755942225eac953aa0033629271a58182e12"
+    },
+    {
+      "name": "4387__base__untaught__kc_signal_bins",
+      "sha256": "0aef3e7a9a8a9f95d89881eb64755336d67426a9589dec1dc549deadf6a4d18f"
+    },
+    {
+      "name": "4387__base__untaught__dan_bins",
+      "sha256": "37759baf94d5164a11a4f542900cef3655ae38ae5f44e1a2b39b97fba7393df1"
+    },
+    {
+      "name": "4387__base__untaught__step_signals",
+      "sha256": "3f2ebd9aceb332e0626a2e39d161f0d26b05e4b7ad56bad3831f3301bd1b86ab"
+    },
+    {
+      "name": "4387__base__home__gain_delta",
+      "sha256": "26349f77311e7911f234b898f6bcf706c11bcf292af707152036e8735d7a96ea"
+    },
+    {
+      "name": "4387__base__home__gains",
+      "sha256": "af29d1c48b3734579635549f36cd0a03827f708512ce0c76d6febaf1c74447e8"
+    },
+    {
+      "name": "4387__base__home__bridge_rule",
+      "sha256": "5c5339ca967a850ae6a9f4f3140fb2c5f5a84447f813859a90ee5ca90473917a"
+    },
+    {
+      "name": "4387__base__home__bridge_tail",
+      "sha256": "325c651e30c978774e3f4ca16fdbd1f9545c18ccbd427bfd9b3590bc9be3689d"
+    },
+    {
+      "name": "4387__base__home__bridge_signals",
+      "sha256": "3325c704f6571706df1015c5f0149e3d22da6c28b11cfb9e67ce0147e3b7994b"
+    },
+    {
+      "name": "4387__base__home__bridge_kc_bins",
+      "sha256": "0105fdecd0f88fd74943d8f9de38304c653b3a8a0e94f8b9cf73102ffeb5438b"
+    },
+    {
+      "name": "4387__base__home__bridge_kc_used",
+      "sha256": "25062f394140267de9206e39aa4e4bcb78d0bddcaf99d1aff35b9e5e33d84749"
+    },
+    {
+      "name": "4387__base__home__signal_bins",
+      "sha256": "509e31f7bc0790cfea4b503aa458b3101ef46ed1fa3ee5b484af68b3f95754bd"
+    },
+    {
+      "name": "4387__base__home__kc_signal_bins",
+      "sha256": "0aef3e7a9a8a9f95d89881eb64755336d67426a9589dec1dc549deadf6a4d18f"
+    },
+    {
+      "name": "4387__base__home__dan_bins",
+      "sha256": "6c7d791535f5865e3a1005265b32aee1a1e0c3a9130c81ea1c5d42ecca000ff2"
+    },
+    {
+      "name": "4387__base__home__step_signals",
+      "sha256": "942e33c1845cfc78a00610d0780adf5ddb6d4c3c680c830687a12a2da7f2475b"
+    },
+    {
+      "name": "4387__base__away__gain_delta",
+      "sha256": "097f482e9dd82a6db64fe01c0ecad01606ee6f50956fbeb07d63c4ee3e9040a0"
+    },
+    {
+      "name": "4387__base__away__gains",
+      "sha256": "6cc49b76ddcf44cbc131466060491ff7799e5618f3b13bb9c165862889eacecc"
+    },
+    {
+      "name": "4387__base__away__bridge_rule",
+      "sha256": "bd84fa4db22e8aac854be2c32f9e81b96f4e50ae19e8930911592f966c07d2c5"
+    },
+    {
+      "name": "4387__base__away__bridge_tail",
+      "sha256": "6416b45832acedaae55b01ef63844285afdc5bbf3225855e2c1ac38743d0a3b4"
+    },
+    {
+      "name": "4387__base__away__bridge_signals",
+      "sha256": "86e674e4d88ad352ccc932d4b97b360f0beb93f85ccbdcb31dd8ff54c4f7bfe8"
+    },
+    {
+      "name": "4387__base__away__bridge_kc_bins",
+      "sha256": "0105fdecd0f88fd74943d8f9de38304c653b3a8a0e94f8b9cf73102ffeb5438b"
+    },
+    {
+      "name": "4387__base__away__bridge_kc_used",
+      "sha256": "25062f394140267de9206e39aa4e4bcb78d0bddcaf99d1aff35b9e5e33d84749"
+    },
+    {
+      "name": "4387__base__away__signal_bins",
+      "sha256": "34498b30388afefebdbd0237800ae68dd0e4635518f8b5efc26ac34053afeb6a"
+    },
+    {
+      "name": "4387__base__away__kc_signal_bins",
+      "sha256": "0aef3e7a9a8a9f95d89881eb64755336d67426a9589dec1dc549deadf6a4d18f"
+    },
+    {
+      "name": "4387__base__away__dan_bins",
+      "sha256": "71fe17bc17da80c4ceba316e9c4e6043e5db806d19d7d84dabded09ef2dea313"
+    },
+    {
+      "name": "4387__base__away__step_signals",
+      "sha256": "5b2170891a91ab00e6a41cfae35833238f86b8d4c1f0fc8c11fa3456a7a37919"
+    },
+    {
+      "name": "4387__alt__frozen__gain_delta",
+      "sha256": "f641e8ed2dc7007cb6576f7d04822219bf2fd02c0ca421c189155e86335baa0b"
+    },
+    {
+      "name": "4387__alt__frozen__gains",
+      "sha256": "e6cb0830b4841cb8f58bc4a8c76b552f5b1f8def40464661e9d6acc572204a5e"
+    },
+    {
+      "name": "4387__alt__frozen__bridge_rule",
+      "sha256": "09e9d27b2abc6b81b0706510bbb829ede6fb726e6bd833d50825309b9cf1c8f3"
+    },
+    {
+      "name": "4387__alt__frozen__bridge_tail",
+      "sha256": "b32387d0ed0a478b33d557773fb7f08e505f5a00c0706c8957e5d7e3870ad0d2"
+    },
+    {
+      "name": "4387__alt__frozen__bridge_signals",
+      "sha256": "e93282f84b17134a1947465801d36ec4f06dc4b8c438d47174cc73c1b23287da"
+    },
+    {
+      "name": "4387__alt__frozen__bridge_kc_bins",
+      "sha256": "c4e369ff1ce1f9e2f3021f4f8a6ec29afd5b7cb6f84b4e6b26d3b23d56bf02f2"
+    },
+    {
+      "name": "4387__alt__frozen__bridge_kc_used",
+      "sha256": "c8f51c136093fa51e9358e21606c5768c6d3d3e0f7d5653e6c21075a0b496760"
+    },
+    {
+      "name": "4387__alt__frozen__signal_bins",
+      "sha256": "fcaf45cd47f9985d73478ea7e2a99f656eb626b662800341a67b6a6622a2425a"
+    },
+    {
+      "name": "4387__alt__frozen__kc_signal_bins",
+      "sha256": "176b19e172112cfe625e01da14d7249b581d61cda04dee35d0d95c8031ef96f6"
+    },
+    {
+      "name": "4387__alt__frozen__dan_bins",
+      "sha256": "574bf65ba0e7d6074f7b6f6b3a22d8e968c028c9b59b6830e33b9aa609d51b58"
+    },
+    {
+      "name": "4387__alt__frozen__step_signals",
+      "sha256": "3be28fb14809c85a1d0471d7b30b3f91812f16e8662a2c9f3043d10ba892168f"
+    },
+    {
+      "name": "4387__alt__untaught__gain_delta",
+      "sha256": "067d8832f483e85cf90ab9fc87ff52f2a7402abf2184aee9261a97f4f0b54902"
+    },
+    {
+      "name": "4387__alt__untaught__gains",
+      "sha256": "9da06f55218f2f4eb782594c2da05f213a9b58ac1746c3d86c32cf27e47670c5"
+    },
+    {
+      "name": "4387__alt__untaught__bridge_rule",
+      "sha256": "af14987480025cbc57eec9af39138254f839f3d683149e1a437f3da672a44c4b"
+    },
+    {
+      "name": "4387__alt__untaught__bridge_tail",
+      "sha256": "5a31e5ef12e2db4aa928766891d8e4bf755530c74a74261ddf28cb6864aceb8c"
+    },
+    {
+      "name": "4387__alt__untaught__bridge_signals",
+      "sha256": "e93282f84b17134a1947465801d36ec4f06dc4b8c438d47174cc73c1b23287da"
+    },
+    {
+      "name": "4387__alt__untaught__bridge_kc_bins",
+      "sha256": "c4e369ff1ce1f9e2f3021f4f8a6ec29afd5b7cb6f84b4e6b26d3b23d56bf02f2"
+    },
+    {
+      "name": "4387__alt__untaught__bridge_kc_used",
+      "sha256": "c8f51c136093fa51e9358e21606c5768c6d3d3e0f7d5653e6c21075a0b496760"
+    },
+    {
+      "name": "4387__alt__untaught__signal_bins",
+      "sha256": "fcaf45cd47f9985d73478ea7e2a99f656eb626b662800341a67b6a6622a2425a"
+    },
+    {
+      "name": "4387__alt__untaught__kc_signal_bins",
+      "sha256": "176b19e172112cfe625e01da14d7249b581d61cda04dee35d0d95c8031ef96f6"
+    },
+    {
+      "name": "4387__alt__untaught__dan_bins",
+      "sha256": "574bf65ba0e7d6074f7b6f6b3a22d8e968c028c9b59b6830e33b9aa609d51b58"
+    },
+    {
+      "name": "4387__alt__untaught__step_signals",
+      "sha256": "3be28fb14809c85a1d0471d7b30b3f91812f16e8662a2c9f3043d10ba892168f"
+    },
+    {
+      "name": "4387__alt__home__gain_delta",
+      "sha256": "bf4c9317818cded830aef50f1395d4ebbf4b792bb85348539a6f44a5fd4cc59b"
+    },
+    {
+      "name": "4387__alt__home__gains",
+      "sha256": "56d4650a4d86ce3698432dfc6ec6130f8119ee1a9969a49d4ad101324ad1b267"
+    },
+    {
+      "name": "4387__alt__home__bridge_rule",
+      "sha256": "6c102f1dfe0a3f3521b3bdb9dc52b7e3fb5edb43c2d304156fd62dfe7bb57999"
+    },
+    {
+      "name": "4387__alt__home__bridge_tail",
+      "sha256": "679f9b223d4b60150f69243bdf1793429d8e15342e3f92ad880fad1cfcc3931e"
+    },
+    {
+      "name": "4387__alt__home__bridge_signals",
+      "sha256": "0a3f9f9737973338d2cbfaea0103effba062974b90d9940d22ed678f76ed9801"
+    },
+    {
+      "name": "4387__alt__home__bridge_kc_bins",
+      "sha256": "c4e369ff1ce1f9e2f3021f4f8a6ec29afd5b7cb6f84b4e6b26d3b23d56bf02f2"
+    },
+    {
+      "name": "4387__alt__home__bridge_kc_used",
+      "sha256": "c8f51c136093fa51e9358e21606c5768c6d3d3e0f7d5653e6c21075a0b496760"
+    },
+    {
+      "name": "4387__alt__home__signal_bins",
+      "sha256": "6599578f7350a53be5a87c0d8ddc264e401c9204c22a0ef7ebad9684aba40657"
+    },
+    {
+      "name": "4387__alt__home__kc_signal_bins",
+      "sha256": "176b19e172112cfe625e01da14d7249b581d61cda04dee35d0d95c8031ef96f6"
+    },
+    {
+      "name": "4387__alt__home__dan_bins",
+      "sha256": "fe188befcfb0c4fc35c49fdd5ae6db9199753c23d658642ada23c384892816f0"
+    },
+    {
+      "name": "4387__alt__home__step_signals",
+      "sha256": "02bf02ea4998e07a2d256e837dc2d9425bfac498d0726ca2d9a18d71c9d34db4"
+    },
+    {
+      "name": "4387__alt__away__gain_delta",
+      "sha256": "c357f17f3c2fcc90f08604b0259ba60341ef9b07702ce57426099b28f4e90256"
+    },
+    {
+      "name": "4387__alt__away__gains",
+      "sha256": "20d01794c5941345a9e69a9752e50eb5e6882c52f0e0d1f0f0e695647e7d8eb2"
+    },
+    {
+      "name": "4387__alt__away__bridge_rule",
+      "sha256": "fc7eb395d4fc85c586e2c17f00d41048411a43f9541f69de4a3d58eb04454259"
+    },
+    {
+      "name": "4387__alt__away__bridge_tail",
+      "sha256": "c99d1f6ad7833a54448cb886cd5580a704978ea73bccc9fa7a094052fb6f8731"
+    },
+    {
+      "name": "4387__alt__away__bridge_signals",
+      "sha256": "def2893bf97a2936ed680d1123e8c19760ad6dc86bc7914e8d88f038b2da4c2b"
+    },
+    {
+      "name": "4387__alt__away__bridge_kc_bins",
+      "sha256": "c4e369ff1ce1f9e2f3021f4f8a6ec29afd5b7cb6f84b4e6b26d3b23d56bf02f2"
+    },
+    {
+      "name": "4387__alt__away__bridge_kc_used",
+      "sha256": "c8f51c136093fa51e9358e21606c5768c6d3d3e0f7d5653e6c21075a0b496760"
+    },
+    {
+      "name": "4387__alt__away__signal_bins",
+      "sha256": "cb0da376f6c9ed0b7c8a4628aa7094ff98206f84b599ad478b38d9485988b98f"
+    },
+    {
+      "name": "4387__alt__away__kc_signal_bins",
+      "sha256": "176b19e172112cfe625e01da14d7249b581d61cda04dee35d0d95c8031ef96f6"
+    },
+    {
+      "name": "4387__alt__away__dan_bins",
+      "sha256": "cd00255e4c515eca3ed039554e00e60b7bc526aadab093105c7592ddd41b8de6"
+    },
+    {
+      "name": "4387__alt__away__step_signals",
+      "sha256": "d4e9d3188f4c09c744974f0810a6e4f7fb1c1a10b7230700165f6dc931e64498"
+    },
+    {
+      "name": "4391__base__frozen__gain_delta",
+      "sha256": "f641e8ed2dc7007cb6576f7d04822219bf2fd02c0ca421c189155e86335baa0b"
+    },
+    {
+      "name": "4391__base__frozen__gains",
+      "sha256": "e6cb0830b4841cb8f58bc4a8c76b552f5b1f8def40464661e9d6acc572204a5e"
+    },
+    {
+      "name": "4391__base__frozen__bridge_rule",
+      "sha256": "6e786629a78aaa087f6633b4a2ecf99be9df95113d27512bed398c712db74571"
+    },
+    {
+      "name": "4391__base__frozen__bridge_tail",
+      "sha256": "8acde33c4331875e189fc10f4501dc6151eb61be5b45369bcb45014c3a5a423a"
+    },
+    {
+      "name": "4391__base__frozen__bridge_signals",
+      "sha256": "323ca6a361c5657cb4696fa8e69c9be0b1f1da93320db474b56d0f3104652f48"
+    },
+    {
+      "name": "4391__base__frozen__bridge_kc_bins",
+      "sha256": "68e8a53d0f0f583faa0a64aec1a4febea3a959314699b72128552419e9cef5c6"
+    },
+    {
+      "name": "4391__base__frozen__bridge_kc_used",
+      "sha256": "5e517fb18e51c021cb3a9aada77c105d22a6fdbb95f7cca1e763c614aab56ae2"
+    },
+    {
+      "name": "4391__base__frozen__signal_bins",
+      "sha256": "2913bd4adb6c4d0579c81e6dae4e2b273f9fc54cb1cc97ed4f7013f1c00a27eb"
+    },
+    {
+      "name": "4391__base__frozen__kc_signal_bins",
+      "sha256": "4ac45234ef74f4738121d8ec367d8db68552af69080bc0c4461ac327f78ad10e"
+    },
+    {
+      "name": "4391__base__frozen__dan_bins",
+      "sha256": "8bcfb919131b81a6d84d1f1c3a19f322b426ad08566ea2e99eb67d0c6844be25"
+    },
+    {
+      "name": "4391__base__frozen__step_signals",
+      "sha256": "45d8c7d494724fc2e16b2dc7dbf93ec2ff0d8d656a4e94013dd40acfcc56b2ee"
+    },
+    {
+      "name": "4391__base__untaught__gain_delta",
+      "sha256": "180fabb68f0363dedb0c28db911db5c165584f57410b60f5bcdca8a41f9e403b"
+    },
+    {
+      "name": "4391__base__untaught__gains",
+      "sha256": "09e54a8e1cf13b860741e68f989c97a7b38d233a2b03f1cd25590f15d2f2d0a0"
+    },
+    {
+      "name": "4391__base__untaught__bridge_rule",
+      "sha256": "777cd7ed8abb93fc8ca3db1d0ec8906fdc3f65a75b3099e070f9294dd9080f01"
+    },
+    {
+      "name": "4391__base__untaught__bridge_tail",
+      "sha256": "0f01ef041029fbcb61991164ad82c8a1e36d7a3ad89b804e1d738ba99c8bae95"
+    },
+    {
+      "name": "4391__base__untaught__bridge_signals",
+      "sha256": "323ca6a361c5657cb4696fa8e69c9be0b1f1da93320db474b56d0f3104652f48"
+    },
+    {
+      "name": "4391__base__untaught__bridge_kc_bins",
+      "sha256": "68e8a53d0f0f583faa0a64aec1a4febea3a959314699b72128552419e9cef5c6"
+    },
+    {
+      "name": "4391__base__untaught__bridge_kc_used",
+      "sha256": "5e517fb18e51c021cb3a9aada77c105d22a6fdbb95f7cca1e763c614aab56ae2"
+    },
+    {
+      "name": "4391__base__untaught__signal_bins",
+      "sha256": "2913bd4adb6c4d0579c81e6dae4e2b273f9fc54cb1cc97ed4f7013f1c00a27eb"
+    },
+    {
+      "name": "4391__base__untaught__kc_signal_bins",
+      "sha256": "4ac45234ef74f4738121d8ec367d8db68552af69080bc0c4461ac327f78ad10e"
+    },
+    {
+      "name": "4391__base__untaught__dan_bins",
+      "sha256": "8bcfb919131b81a6d84d1f1c3a19f322b426ad08566ea2e99eb67d0c6844be25"
+    },
+    {
+      "name": "4391__base__untaught__step_signals",
+      "sha256": "45d8c7d494724fc2e16b2dc7dbf93ec2ff0d8d656a4e94013dd40acfcc56b2ee"
+    },
+    {
+      "name": "4391__base__home__gain_delta",
+      "sha256": "ca76dcddcda882a759d5afd196f9cd4f1239eb9e41eb599de3af6f09a23be949"
+    },
+    {
+      "name": "4391__base__home__gains",
+      "sha256": "1e2b0c75eac6ab61a40ad45ba2f4270ffaa59b651e2aea3c9a33cc3be621828f"
+    },
+    {
+      "name": "4391__base__home__bridge_rule",
+      "sha256": "abdb6220604a46265b2d4be4c30364e3006e6d1fe1598b50980e6c870d76c8d7"
+    },
+    {
+      "name": "4391__base__home__bridge_tail",
+      "sha256": "28d583e49d01012c8338a38e115f766974b0b19032fb983887a1146c79402f8e"
+    },
+    {
+      "name": "4391__base__home__bridge_signals",
+      "sha256": "eb5fdbdd3771e9a0326845c635fa414d8c59a1b1eeef10365c4553ea71009705"
+    },
+    {
+      "name": "4391__base__home__bridge_kc_bins",
+      "sha256": "68e8a53d0f0f583faa0a64aec1a4febea3a959314699b72128552419e9cef5c6"
+    },
+    {
+      "name": "4391__base__home__bridge_kc_used",
+      "sha256": "5e517fb18e51c021cb3a9aada77c105d22a6fdbb95f7cca1e763c614aab56ae2"
+    },
+    {
+      "name": "4391__base__home__signal_bins",
+      "sha256": "fdab2ccd88414118cf73d6fcc806315021703988595dd673bd2d6e59918aacb4"
+    },
+    {
+      "name": "4391__base__home__kc_signal_bins",
+      "sha256": "4ac45234ef74f4738121d8ec367d8db68552af69080bc0c4461ac327f78ad10e"
+    },
+    {
+      "name": "4391__base__home__dan_bins",
+      "sha256": "98016060d320f5bd4fdeb7b47930741d725926a44e844ff5d2ff15de2a3a9509"
+    },
+    {
+      "name": "4391__base__home__step_signals",
+      "sha256": "db14d128673e3456c867ca234c2a723893aa750c13c761942e95ff22ea5a3f74"
+    },
+    {
+      "name": "4391__base__away__gain_delta",
+      "sha256": "cb70eb4276f3e5bde12b14e51978cf1c796c1476f3a261cc1e64542d898084df"
+    },
+    {
+      "name": "4391__base__away__gains",
+      "sha256": "c9b79ad345d1e0e2e7dbc1a2729ef2b4f84e7b33b4ac3689147c9524fa1a288f"
+    },
+    {
+      "name": "4391__base__away__bridge_rule",
+      "sha256": "2ba41c31721818a60c10e098c4910f4263610ecab08a119708bcdd6503ab852a"
+    },
+    {
+      "name": "4391__base__away__bridge_tail",
+      "sha256": "5667cb659679f2cd01a165d85802569924848465ec1eeef0d03eed4cbf7f566e"
+    },
+    {
+      "name": "4391__base__away__bridge_signals",
+      "sha256": "d2d34d6a695600809fe3a30c2722c1842f06113d758ff2d110ad61eb3bb32e0a"
+    },
+    {
+      "name": "4391__base__away__bridge_kc_bins",
+      "sha256": "68e8a53d0f0f583faa0a64aec1a4febea3a959314699b72128552419e9cef5c6"
+    },
+    {
+      "name": "4391__base__away__bridge_kc_used",
+      "sha256": "5e517fb18e51c021cb3a9aada77c105d22a6fdbb95f7cca1e763c614aab56ae2"
+    },
+    {
+      "name": "4391__base__away__signal_bins",
+      "sha256": "0a526d861ed1a785ee76b11eca6e9e47bdb027a4ea4aea198841483b955c9687"
+    },
+    {
+      "name": "4391__base__away__kc_signal_bins",
+      "sha256": "4ac45234ef74f4738121d8ec367d8db68552af69080bc0c4461ac327f78ad10e"
+    },
+    {
+      "name": "4391__base__away__dan_bins",
+      "sha256": "59f18ec652c098667c53ad938460a1ba92279b00194241390491cb1222ee5798"
+    },
+    {
+      "name": "4391__base__away__step_signals",
+      "sha256": "7a5339eff084d282ea955991c8daf6719fec17d1bf6e40a77f64dd0beeb0fd94"
+    },
+    {
+      "name": "4391__alt__frozen__gain_delta",
+      "sha256": "f641e8ed2dc7007cb6576f7d04822219bf2fd02c0ca421c189155e86335baa0b"
+    },
+    {
+      "name": "4391__alt__frozen__gains",
+      "sha256": "e6cb0830b4841cb8f58bc4a8c76b552f5b1f8def40464661e9d6acc572204a5e"
+    },
+    {
+      "name": "4391__alt__frozen__bridge_rule",
+      "sha256": "3e49a92a327153d7234df6771b4f93d062277f47f302485e546c3c93b3769071"
+    },
+    {
+      "name": "4391__alt__frozen__bridge_tail",
+      "sha256": "6f22fe20b523356c9ae7e9e6ae74e2964cff75329ea06755be04a640ff8683bd"
+    },
+    {
+      "name": "4391__alt__frozen__bridge_signals",
+      "sha256": "db8280c5baa6ec2dc0df6c75729d8f4925cf10630d56ddb7b5e79bfd0f4059d4"
+    },
+    {
+      "name": "4391__alt__frozen__bridge_kc_bins",
+      "sha256": "b74da9471b6e81adc0e5c1c8733dd2dd7da3e9593e904cf06317a430e232f232"
+    },
+    {
+      "name": "4391__alt__frozen__bridge_kc_used",
+      "sha256": "17c506887df167de95e1e541d955c7836461dc5c84ac919ae3850ed97d816a4e"
+    },
+    {
+      "name": "4391__alt__frozen__signal_bins",
+      "sha256": "60ec3c0a155c7547ccfa3ffe797214c851420d1bfc52eb8bcea09a3dc1587eb6"
+    },
+    {
+      "name": "4391__alt__frozen__kc_signal_bins",
+      "sha256": "56e7552208159f0ab5ee97235e29d76c968f6cb3406e3cc9901d80e04483a13d"
+    },
+    {
+      "name": "4391__alt__frozen__dan_bins",
+      "sha256": "80a2039634c2ccdb841fbb1d89d0d99128659cbe61f6908b653116e6955f0629"
+    },
+    {
+      "name": "4391__alt__frozen__step_signals",
+      "sha256": "502ffaf5f7882a0961c88c1eadbc2010572b00c566356eeacc2337e82b44834c"
+    },
+    {
+      "name": "4391__alt__untaught__gain_delta",
+      "sha256": "38eae74b94468c5bd9b48bfefb0ff9723b31bb33085128e3e708562a4f20dc49"
+    },
+    {
+      "name": "4391__alt__untaught__gains",
+      "sha256": "d20b25efe9aa3d1e2b53d45074d62c3eec91a62bb57851414604daf1c1ff3b9f"
+    },
+    {
+      "name": "4391__alt__untaught__bridge_rule",
+      "sha256": "9501e1ed02857c0e2b755a83e8bbcd7a1b683c6636b4825b12ee40f075e98898"
+    },
+    {
+      "name": "4391__alt__untaught__bridge_tail",
+      "sha256": "fea243ac3ae1b5a01f6a34a51d92210cb5ebf2da043a63524409c55261fe0c93"
+    },
+    {
+      "name": "4391__alt__untaught__bridge_signals",
+      "sha256": "db8280c5baa6ec2dc0df6c75729d8f4925cf10630d56ddb7b5e79bfd0f4059d4"
+    },
+    {
+      "name": "4391__alt__untaught__bridge_kc_bins",
+      "sha256": "b74da9471b6e81adc0e5c1c8733dd2dd7da3e9593e904cf06317a430e232f232"
+    },
+    {
+      "name": "4391__alt__untaught__bridge_kc_used",
+      "sha256": "17c506887df167de95e1e541d955c7836461dc5c84ac919ae3850ed97d816a4e"
+    },
+    {
+      "name": "4391__alt__untaught__signal_bins",
+      "sha256": "60ec3c0a155c7547ccfa3ffe797214c851420d1bfc52eb8bcea09a3dc1587eb6"
+    },
+    {
+      "name": "4391__alt__untaught__kc_signal_bins",
+      "sha256": "56e7552208159f0ab5ee97235e29d76c968f6cb3406e3cc9901d80e04483a13d"
+    },
+    {
+      "name": "4391__alt__untaught__dan_bins",
+      "sha256": "80a2039634c2ccdb841fbb1d89d0d99128659cbe61f6908b653116e6955f0629"
+    },
+    {
+      "name": "4391__alt__untaught__step_signals",
+      "sha256": "502ffaf5f7882a0961c88c1eadbc2010572b00c566356eeacc2337e82b44834c"
+    },
+    {
+      "name": "4391__alt__home__gain_delta",
+      "sha256": "8f070919be7bdabe35b2d487e62d20a4ecb256ec13e0746bbb545879a1d83a5d"
+    },
+    {
+      "name": "4391__alt__home__gains",
+      "sha256": "1efaea1c50d04c676b6fd91208b55942c23b5b131cd8746b794158a2168a8f54"
+    },
+    {
+      "name": "4391__alt__home__bridge_rule",
+      "sha256": "6e3fc599e0862cdaea8831e7904c1b4d08fdd2f66131790410fb4741fd2be3f8"
+    },
+    {
+      "name": "4391__alt__home__bridge_tail",
+      "sha256": "40f16abe971137262617aa58825c966a59e14f3be292fcf315dfec876d0e1185"
+    },
+    {
+      "name": "4391__alt__home__bridge_signals",
+      "sha256": "df655e44eee225b2afb68eba62a8fc31bacb0c03b6e4e413818ccab9a1b7ddca"
+    },
+    {
+      "name": "4391__alt__home__bridge_kc_bins",
+      "sha256": "b74da9471b6e81adc0e5c1c8733dd2dd7da3e9593e904cf06317a430e232f232"
+    },
+    {
+      "name": "4391__alt__home__bridge_kc_used",
+      "sha256": "17c506887df167de95e1e541d955c7836461dc5c84ac919ae3850ed97d816a4e"
+    },
+    {
+      "name": "4391__alt__home__signal_bins",
+      "sha256": "a80dd2759335d85d9ff01ebbf9f521521b7ee169412395c830529d6842a960b0"
+    },
+    {
+      "name": "4391__alt__home__kc_signal_bins",
+      "sha256": "56e7552208159f0ab5ee97235e29d76c968f6cb3406e3cc9901d80e04483a13d"
+    },
+    {
+      "name": "4391__alt__home__dan_bins",
+      "sha256": "a1f67bff978986cc7a4a1c8c6298bdd3e255cbcbe1b758af913f1da9bf3b3092"
+    },
+    {
+      "name": "4391__alt__home__step_signals",
+      "sha256": "356ce672014945621c43284e463cdbc9fd5d24b17d79527e4346232729a9430e"
+    },
+    {
+      "name": "4391__alt__away__gain_delta",
+      "sha256": "c537e8291bb818e8ba17d211ed7b7343f810df1a45a2426c99e08b47f1ef6897"
+    },
+    {
+      "name": "4391__alt__away__gains",
+      "sha256": "01193779fe0b246f76ffdab457679a5da7fb307d488d37c4305d6d5dbd76014e"
+    },
+    {
+      "name": "4391__alt__away__bridge_rule",
+      "sha256": "98636647d8611741c76ec6e3decc4f784dce3f7e141b95f40d384e2840ae7f96"
+    },
+    {
+      "name": "4391__alt__away__bridge_tail",
+      "sha256": "f80ead643f7621ccf6250359831ac32d6a2ac53cff56fd9353d41001bbdd7f49"
+    },
+    {
+      "name": "4391__alt__away__bridge_signals",
+      "sha256": "927f0de60131985893c0f95d1f393b2e4ad87b37bc627b9cebc63ff6ce329b4b"
+    },
+    {
+      "name": "4391__alt__away__bridge_kc_bins",
+      "sha256": "b74da9471b6e81adc0e5c1c8733dd2dd7da3e9593e904cf06317a430e232f232"
+    },
+    {
+      "name": "4391__alt__away__bridge_kc_used",
+      "sha256": "17c506887df167de95e1e541d955c7836461dc5c84ac919ae3850ed97d816a4e"
+    },
+    {
+      "name": "4391__alt__away__signal_bins",
+      "sha256": "8398c463bf90421c6eded47b2990bc896e0c00d383bde38cdebad47e94923985"
+    },
+    {
+      "name": "4391__alt__away__kc_signal_bins",
+      "sha256": "56e7552208159f0ab5ee97235e29d76c968f6cb3406e3cc9901d80e04483a13d"
+    },
+    {
+      "name": "4391__alt__away__dan_bins",
+      "sha256": "abcdc56cfba826d66270902bb74298f90a0c74a8709d57fc8d49821742e7fad1"
+    },
+    {
+      "name": "4391__alt__away__step_signals",
+      "sha256": "42b7b19b768ed0ee33a6bede39150256679126e56e2f08f22aba9a832fc1aa3a"
+    },
+    {
+      "name": "cumulative_4362__gains",
+      "sha256": "afbe2316a497356064dc94142aea1da7b1536b4d54f2158acf36828b54f14879"
+    },
+    {
+      "name": "cumulative_4362__bridge_rule",
+      "sha256": "fb585aa3279157117e6b58f508ab11eb6132b04069ea3991f2d1f3c656acb19a"
+    },
+    {
+      "name": "cumulative_4362__bridge_tail",
+      "sha256": "c7acec5b2c5f64d654868e423053ad960e925086c37ed1dd0f27c37d80977550"
+    },
+    {
+      "name": "cumulative_4362__bridge_signals",
+      "sha256": "d85fd8a923be1e5e4220d0c9badb484ba920a8aa292aa85384f4c479807a52cb"
+    },
+    {
+      "name": "cumulative_4362__bridge_kc_bins",
+      "sha256": "923b9e4f67f5bb3a4c903fe017cb112a4964ea737beda531658081d496565073"
+    },
+    {
+      "name": "cumulative_4362__bridge_kc_used",
+      "sha256": "b185b44ff3b75dbf2d3def2e7e2c476c3bf2012caee18ff7d0e80ecce2fde977"
+    },
+    {
+      "name": "cumulative_4366__gains",
+      "sha256": "cba80a0a5ca7cccecf176a000fab2d7bf823cc98b026437cc17f4134030fd3f2"
+    },
+    {
+      "name": "cumulative_4366__bridge_rule",
+      "sha256": "ed8e09553ce9539d88fd75ac52592bc56b63a69d0da448dd3a28ebfe7e6c6e73"
+    },
+    {
+      "name": "cumulative_4366__bridge_tail",
+      "sha256": "fcb34c7d37aa29fb03bd82546b592a726e1b3654fe84d2209c7bc052338b4493"
+    },
+    {
+      "name": "cumulative_4366__bridge_signals",
+      "sha256": "9457d27b466b8dd90bc21ee0868889a05bdbfde01f5c16317c5503e8e14ddb50"
+    },
+    {
+      "name": "cumulative_4366__bridge_kc_bins",
+      "sha256": "f43bdfa2b3d7e2389b0afa22c5cbef53a2498c90098d77c20acbae63cd6a2db4"
+    },
+    {
+      "name": "cumulative_4366__bridge_kc_used",
+      "sha256": "cd435daa0fec1a9e08299d0efc79f7db06d3de221bbcdeb3a4f03c6d25f0b734"
+    },
+    {
+      "name": "cumulative_4370__gains",
+      "sha256": "abba88b804b123d576b2b9c16af0ac884881148cb6bce1b9dea09077e4961f6f"
+    },
+    {
+      "name": "cumulative_4370__bridge_rule",
+      "sha256": "276f1d9f3dfe902b4b174e5641694be3ecd1e8f572189e380385c9d9ca41690a"
+    },
+    {
+      "name": "cumulative_4370__bridge_tail",
+      "sha256": "3c5c910420f28ce74e26cd83c6f6b01c5afa38071f504100c41f1b07e29b02ab"
+    },
+    {
+      "name": "cumulative_4370__bridge_signals",
+      "sha256": "2193298c74434e72f5556016f8b842f3093c77493d7dd1660e29b324e20b3459"
+    },
+    {
+      "name": "cumulative_4370__bridge_kc_bins",
+      "sha256": "d8d815af249108661632c1d27efac7feca7de1bbfa306d1c53f996acaf13d19c"
+    },
+    {
+      "name": "cumulative_4370__bridge_kc_used",
+      "sha256": "4fab70e916c011fe37bb9398bdc6723a9f898818f950f8311a78704b56ac7b02"
+    },
+    {
+      "name": "cumulative_4374__gains",
+      "sha256": "d0e266f1881bcce223ff8358eb486c18a43e35dfd8a46507529e1f468fc5cb79"
+    },
+    {
+      "name": "cumulative_4374__bridge_rule",
+      "sha256": "9be88c6e89542c09b62277e7980835a28240efb70ac5a1c85d6b56f4d10657bd"
+    },
+    {
+      "name": "cumulative_4374__bridge_tail",
+      "sha256": "2cb76f19043e832a420b38a6eb6b78b3fd162e93bd1b451f67000c73866892e1"
+    },
+    {
+      "name": "cumulative_4374__bridge_signals",
+      "sha256": "292afb1d7e92f2576df0346e63e595386f5a3491176978dd6ff116cf04fca9ea"
+    },
+    {
+      "name": "cumulative_4374__bridge_kc_bins",
+      "sha256": "9e35a5f8794acef2139ae1aa2319ba1dedfd4c1b65cc1aeb00b02455d907cd4a"
+    },
+    {
+      "name": "cumulative_4374__bridge_kc_used",
+      "sha256": "5b83fea2d8d4cd0fb600a562b29aae5779bee2a2bc2551d233cb16fbcb90e68c"
+    },
+    {
+      "name": "cumulative_4378__gains",
+      "sha256": "5a914ffe5dc4a3356ab5301814e0774f0a1de891d2a0c6250685102b5a22433c"
+    },
+    {
+      "name": "cumulative_4378__bridge_rule",
+      "sha256": "1da5e2e3ed3cd727718e197c6cb22ad9aab9d67652613a04ebd78c66ed5a65fc"
+    },
+    {
+      "name": "cumulative_4378__bridge_tail",
+      "sha256": "1337e24285ce3a099590ffb3f55fe414c65f624b0e17a80d5a4cff125c5c88f3"
+    },
+    {
+      "name": "cumulative_4378__bridge_signals",
+      "sha256": "c007d05395c797d13b96162db42dfc2607c10df02e69ff76fc5d06917f3afff9"
+    },
+    {
+      "name": "cumulative_4378__bridge_kc_bins",
+      "sha256": "fb7c0124f219889dfd32798d6c0d641c10b5e381db371a50b67902dec3b85781"
+    },
+    {
+      "name": "cumulative_4378__bridge_kc_used",
+      "sha256": "6757906d0d7019483f02124b28de6bdb82687df056481a8572d279b2fdd0aea5"
+    },
+    {
+      "name": "cumulative_4383__gains",
+      "sha256": "e805bcb2d3987c62501776e98d85396e474fc524c5c80d01ddc244a3705d3c77"
+    },
+    {
+      "name": "cumulative_4383__bridge_rule",
+      "sha256": "20f500358b6b2571de86081b2272acd589c946726e1ef363e0ec8312640fc295"
+    },
+    {
+      "name": "cumulative_4383__bridge_tail",
+      "sha256": "1691c2479c33e7141df7984dff3a166bb0bd433ca4287e7cd89ad53cbba9c396"
+    },
+    {
+      "name": "cumulative_4383__bridge_signals",
+      "sha256": "5b191c95d48f0ec689c72a731f7b9f547ed3933ca7388269684085ce61584f15"
+    },
+    {
+      "name": "cumulative_4383__bridge_kc_bins",
+      "sha256": "bb12dca01bec77816ed9ca85e10c4eaf05e847cb2fba47afac09920641913f27"
+    },
+    {
+      "name": "cumulative_4383__bridge_kc_used",
+      "sha256": "88168b767c2849ff05a47f23ed27a4f7d85fcb2aff84d7551f5c16de12218a18"
+    },
+    {
+      "name": "cumulative_4387__gains",
+      "sha256": "35dac88fffb7088df66e390bb8d65e284fe99b50870e83dbc0b27d7b69a20719"
+    },
+    {
+      "name": "cumulative_4387__bridge_rule",
+      "sha256": "ebc83057be5381df17761f1203245d082bfc23358282e0490538e6b2753883fc"
+    },
+    {
+      "name": "cumulative_4387__bridge_tail",
+      "sha256": "1aa1b4aadc30c7f6c08a8b516a1dd145f0c5a1c1022861e1c6496508a0dc52aa"
+    },
+    {
+      "name": "cumulative_4387__bridge_signals",
+      "sha256": "ed0165ecb1adafaf094211121c6702ada0049ed1984f2ca130b60499a8139a8f"
+    },
+    {
+      "name": "cumulative_4387__bridge_kc_bins",
+      "sha256": "6dd96580a38e960d55a17ae4fa2e7d246071b1fa90781ce1d77dd81ac19d4394"
+    },
+    {
+      "name": "cumulative_4387__bridge_kc_used",
+      "sha256": "a4ad7050d5e151624078cb68ff4211bf9154f2770570a7b380e29e23ad0abb57"
+    },
+    {
+      "name": "cumulative_4391__gains",
+      "sha256": "e939bfc79dfe1b387566830556e3f7a5a3c5d469149bfbe3685c82d9511f9735"
+    },
+    {
+      "name": "cumulative_4391__bridge_rule",
+      "sha256": "e1dfed71a824376ab242841c560b6bd11a689ad610926e198f4af1b6c38c05c1"
+    },
+    {
+      "name": "cumulative_4391__bridge_tail",
+      "sha256": "51aeabe2a7af7c3e881a8ece28b49887755cde1509934238ae3a6930f908f2bb"
+    },
+    {
+      "name": "cumulative_4391__bridge_signals",
+      "sha256": "73a8f6a35f0da5263b149758ff13ed926810fcc621ab6537bc74b008e7eb1ea2"
+    },
+    {
+      "name": "cumulative_4391__bridge_kc_bins",
+      "sha256": "7b59a91ead92f79cbe1cab546761c9abd628d3866b2d1c65cb3ec617cbe069e7"
+    },
+    {
+      "name": "cumulative_4391__bridge_kc_used",
+      "sha256": "9fddbe6b17e6fc2de2d4250be3719121045fd227fa475e10ce72d5339d161da7"
+    },
+    {
+      "name": "cumulative_4395__gains",
+      "sha256": "ae29c6a5d95cec7e1fcbc4e527dc27c549e90da1499de1c1948849ddee2995f8"
+    },
+    {
+      "name": "cumulative_4395__bridge_rule",
+      "sha256": "2006d30be85b25265ff2ee8ab9d9e59c7719aa0c18fe0be71b4e69d329e40c49"
+    },
+    {
+      "name": "cumulative_4395__bridge_tail",
+      "sha256": "df3dabe1c253e034c0a8a0099eaad8f673832055f05557c6f8c899cc1cbbb53a"
+    },
+    {
+      "name": "cumulative_4395__bridge_signals",
+      "sha256": "19527437ddf934976152426b8ab1884eee7754260dde21180886820a3da432c1"
+    },
+    {
+      "name": "cumulative_4395__bridge_kc_bins",
+      "sha256": "aaf418f2e60b4bf42bfe8a98fc120516023f4ac4b7abed9e62309785ee86f4a0"
+    },
+    {
+      "name": "cumulative_4395__bridge_kc_used",
+      "sha256": "4c85b5a0651868cb87b798d1bc1a99bc2927450ecacf8c655c42623516f00c16"
+    },
+    {
+      "name": "cumulative_4399__gains",
+      "sha256": "f612785493e985e415a07dd39fc54cc7fa29d6ca818f33d3a00b87e806e6fede"
+    },
+    {
+      "name": "cumulative_4399__bridge_rule",
+      "sha256": "0c96293a3c85c3baa55dcff598070d76427d9a59cdb267cae831124b462300c2"
+    },
+    {
+      "name": "cumulative_4399__bridge_tail",
+      "sha256": "dc29c0aafb39511c842c5ab6132b7f4834f021bcc2d16ddeb96c0cdc00e9d83d"
+    },
+    {
+      "name": "cumulative_4399__bridge_signals",
+      "sha256": "53b0fbb9fd1c2f8c32381be91a18e5f184fc9398b1bf47cd5b9972f1c2a0d9c6"
+    },
+    {
+      "name": "cumulative_4399__bridge_kc_bins",
+      "sha256": "11710e9605a6d090ee924f36100347df4947adb4e84f5e8506590478a9684f34"
+    },
+    {
+      "name": "cumulative_4399__bridge_kc_used",
+      "sha256": "a452e355e7d66328437d3195c483d33b29cdd166abc421dcfefdff9d91995b82"
+    },
+    {
+      "name": "cumulative_4404__gains",
+      "sha256": "2204b6b70bf34655f29ffa3b19d8eb4bf96cab0dd8fb0122a8d1b47091befb25"
+    },
+    {
+      "name": "cumulative_4404__bridge_rule",
+      "sha256": "162c7b899640893b78ba5b2232e5a21cfc46b4b49a744c0a7084e5cadd030297"
+    },
+    {
+      "name": "cumulative_4404__bridge_tail",
+      "sha256": "6f75c9e4d3f52e428e36019f6c9ba786e2128498d2b44149701f33056c887735"
+    },
+    {
+      "name": "cumulative_4404__bridge_signals",
+      "sha256": "cdd906a66a68db24bb65e6639a082ce86cce87b735c08655abe280b28deb707b"
+    },
+    {
+      "name": "cumulative_4404__bridge_kc_bins",
+      "sha256": "e4b6ab8eb94b2ced302201d4b1967a127fd55a9bc35fc2c9f3081bf390b6c1ce"
+    },
+    {
+      "name": "cumulative_4404__bridge_kc_used",
+      "sha256": "876b61b2ff2338beef6d55cd09d27fdbb03c4d4321a65caa5b481c3713c7d3bf"
+    },
+    {
+      "name": "cumulative_4408__gains",
+      "sha256": "936007e9853d56516c66dc4c383510a741d257b8ca9a3231d43a90bd6105a881"
+    },
+    {
+      "name": "cumulative_4408__bridge_rule",
+      "sha256": "51d2064273a85ff66f63942be64699303800fa82f15c13a8c840969f7fdda3f7"
+    },
+    {
+      "name": "cumulative_4408__bridge_tail",
+      "sha256": "633354f26d39e7a14ca4c69dff334fc6e9d93c74553ddc662ea467e16e1624a8"
+    },
+    {
+      "name": "cumulative_4408__bridge_signals",
+      "sha256": "f2f35419bf26fc4b4b36abc91946380a15edc3db4fa520803cae15dba8fe80aa"
+    },
+    {
+      "name": "cumulative_4408__bridge_kc_bins",
+      "sha256": "1ba6c4ff8a17fc8617311bb614ac1b629a1e15d8659530a257962daa5f5dc659"
+    },
+    {
+      "name": "cumulative_4408__bridge_kc_used",
+      "sha256": "20889a774e2eddedb9053e563e90270d4d3cd7a74549ff0829f1ce3374c56611"
+    },
+    {
+      "name": "cumulative_4412__gains",
+      "sha256": "1ddb136f6a621301f446c06ccb7320dd19c64a4d461de425d7d987f87f3db011"
+    },
+    {
+      "name": "cumulative_4412__bridge_rule",
+      "sha256": "828c7065703c6cf2d8c3adb1f1be86615bd711de87aebd492356a9bfff1be5b7"
+    },
+    {
+      "name": "cumulative_4412__bridge_tail",
+      "sha256": "0097d86b9b7f5f2b1327698c92f4952e0d00c1fdb72af6e6c4aa6e045de4cd3e"
+    },
+    {
+      "name": "cumulative_4412__bridge_signals",
+      "sha256": "bf01023542432c9c3fa91124550169987feb48ce4501a97cb4ffff89bdb5a80a"
+    },
+    {
+      "name": "cumulative_4412__bridge_kc_bins",
+      "sha256": "26380a6ba0df7cda2bcea31d9f5c6afe7303c2825d531da6c89a43448c42d016"
+    },
+    {
+      "name": "cumulative_4412__bridge_kc_used",
+      "sha256": "da2336ff3db3dd06d067692a48cf834c2c09afea2ec082ae20e292fc5aa5b7ac"
+    },
+    {
+      "name": "cumulative_4416__gains",
+      "sha256": "43a6496d47287dc2bc418854d3b2382ab3257007a7d27c973448786836e73aa1"
+    },
+    {
+      "name": "cumulative_4416__bridge_rule",
+      "sha256": "df5ec99c76f44cb86a0ef0022157b534111bb6d19d28ef3811cdb784949247a0"
+    },
+    {
+      "name": "cumulative_4416__bridge_tail",
+      "sha256": "95c264d7750631771cff2511557cd97558f9281aab83210eab8ba96c3f63435c"
+    },
+    {
+      "name": "cumulative_4416__bridge_signals",
+      "sha256": "5142580a99809fa6b63e24fb91a4f783859cbb2d683bfb1eb49255dba564d95b"
+    },
+    {
+      "name": "cumulative_4416__bridge_kc_bins",
+      "sha256": "211304c06109d275ec661e77e35cc867fae54b713b6b5f1fdff25f543cc0d7ef"
+    },
+    {
+      "name": "cumulative_4416__bridge_kc_used",
+      "sha256": "8445e0220bbae20880a05350eee74a87ee35ac9e57e0a7139d1540876293c5f7"
+    },
+    {
+      "name": "cumulative_4420__gains",
+      "sha256": "4507f4acb8ee2f9a059203568519add9dad7d4f8b1c7b8f859582dce62cac909"
+    },
+    {
+      "name": "cumulative_4420__bridge_rule",
+      "sha256": "cbee5451bd0fa47c9f7625b5177a2fbbcf705cc2e736c90bbfad98cd10a3c2f0"
+    },
+    {
+      "name": "cumulative_4420__bridge_tail",
+      "sha256": "3f8da8b120edb36c12a1eaf51f702ff22628f4ad14c3930d2ee8a5a0a50bed87"
+    },
+    {
+      "name": "cumulative_4420__bridge_signals",
+      "sha256": "bd34f9e0265029e6958e72bc92d8684e53bc6d174309269d365f77237feed6c6"
+    },
+    {
+      "name": "cumulative_4420__bridge_kc_bins",
+      "sha256": "b293d582b1dd19490cb966802fb35403634da9b657c195d6df5c9c9d42fbfd4b"
+    },
+    {
+      "name": "cumulative_4420__bridge_kc_used",
+      "sha256": "5323125e21ed30d2fd35cd75d5622a0789e8a4fe4042e3319c1159f4de709b4d"
+    },
+    {
+      "name": "cumulative_4425__gains",
+      "sha256": "0090080c5fc0f4365d8fd7f3ef8e1f31a5ed21fb6657fa38f4e6782a14bbb4bd"
+    },
+    {
+      "name": "cumulative_4425__bridge_rule",
+      "sha256": "8956e9f8000cd9b253112e85664a384a234f7febf0bf8840a984bc91286b9066"
+    },
+    {
+      "name": "cumulative_4425__bridge_tail",
+      "sha256": "4e9bcd6a0e3bcad8267492235c6040cbae023c994110b43cc76f50129bdf55f9"
+    },
+    {
+      "name": "cumulative_4425__bridge_signals",
+      "sha256": "c45c2a20f0262a65e8a5fa9792cc460df349fceb18eda4e21a244d207fd49c5a"
+    },
+    {
+      "name": "cumulative_4425__bridge_kc_bins",
+      "sha256": "6b17760f64a4c94ff5947d3050d7beea28d35bf7dd4d9044829ec5e70aa78a3b"
+    },
+    {
+      "name": "cumulative_4425__bridge_kc_used",
+      "sha256": "27152321b32192cd7f489cf8c3cca2d73101a9fbfed07ecf8c81b608c4b65911"
+    },
+    {
+      "name": "cumulative_final_gains",
+      "sha256": "0090080c5fc0f4365d8fd7f3ef8e1f31a5ed21fb6657fa38f4e6782a14bbb4bd"
+    },
+    {
+      "name": "blank_gains",
+      "sha256": "e6cb0830b4841cb8f58bc4a8c76b552f5b1f8def40464661e9d6acc572204a5e"
+    },
+    {
+      "name": "plastic_compartments",
+      "sha256": "5e41a545bdfd13aadb4a9d6a0eb0de421d8b36460fd1e9dccfbf0f001e095a3f"
+    },
+    {
+      "name": "plastic_kc_indices",
+      "sha256": "9cab1618c27af53d1bae1c5964f5963789f57867bb5e63eee9b58ed14b191c85"
+    },
+    {
+      "name": "plastic_groups",
+      "sha256": "958a66b6c5494776d7f75f0e82adc08d323a9d3e0ccca4a75891969640a0ebca"
+    },
+    {
+      "name": "kc_classes",
+      "sha256": "f2d5d6e7280f48d6c674993bf518ad7b9ae1753ed16535bbe996c184ebd73d3c"
+    },
+    {
+      "name": "plastic_mask",
+      "sha256": "6ca501a48beba5b5ff82d7ba583501e3d0eae8da72d395c2b1a32f849d92484a"
+    },
+    {
+      "name": "dan_compartments",
+      "sha256": "47c40d17d83b074658ca32bc9ff98aae5915134bc8af85ab99e4dc6ac7eafc9d"
+    },
+    {
+      "name": "sampled",
+      "sha256": "ebecab105c22bb43d6e2f6ed4cfb27a25062ffa013299cd082d7a399b87f0dbd"
+    }
+  ]
+}

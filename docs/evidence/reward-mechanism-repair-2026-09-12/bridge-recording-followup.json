@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-09-12T05:55:57.102725+00:00",
+  "run_id": "diag-rate-bridge-v1-maskgamma-1b233bc75647",
+  "execution": "completed-original-panel",
+  "stored_verdict": "all-seven-passed",
+  "source_unchanged_during_run": true,
+  "summary_sha256": "132a7d7be6ffbd3d733159f917f625476acc4fd753258a3a81215f36230b787b",
+  "retention_limitation": "Actual complete numeric replay fingerprints were compared during execution but not retained; sensory histories were retained only for the first cue. These computed verdicts are preserved. A recording-only follow-up will retain complete audit inputs and artifact hashes under new identities; the equations, parameters and thresholds will not change.",
+  "superseded_unrun_receipt": "bridge-heldout-preregistration.json",
+  "superseded_unrun_identity": "diag-rate-bridge-v1-maskgamma-5e557f8ada07",
+  "later_verification": "Compare all shared numerical arrays between original recording revisions. Do not label the repeated original or already-used second panel unseen."
+}

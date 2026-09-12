@@ -1,6 +1,6 @@
 # Dopamine mechanism repair — September 12, 2026
 
-**Status: corrected raw-event rule fails held-out qualification; conditioning is on hold.** The refractory handling repair passed the original seven diagnostic criteria, but its independent held-out panel failed the untaught-home guard. Cue-specific acquisition, reversal and improved sports prediction remain unestablished. The preregistered rate-bridge hypothesis is the next candidate, without changing diagnostic thresholds.
+**Status: scientific HOLD; the rate bridge still fails the second panel's untaught-home guard.** Both the corrected raw-event rule and the subsequent rate bridge pass the original panel but fail the previously frozen second panel. The rate bridge reduces the measured drift without satisfying the unchanged guard. Numerical implementation tests pass; cue-specific acquisition, reversal and improved sports prediction remain unestablished. Conditioning has not run.
 
 ## Confirmed correction
 
@@ -14,7 +14,7 @@ Local merge `e385050` retained the phase-1 rule instrumentation and away eligibi
 
 Home untaught gain sums still averaged −0.183 and −0.188, with standard deviations 0.668 and 0.525. The guard compares each absolute mean with half its standard deviation; passing it does not mean zero spontaneous change. Matched teaching effects averaged approximately −3.18 home and −4.54 away, so passing was not achieved by suppressing all learning. Cumulative home change was −3.883. [Actual graph and annotation checks against the frozen historical inputs](corrected-event-inputs.json).
 
-The held-out panel and controlled acquisition/reversal must pass separately. The [rate bridge](rate-bridge-preregistration.md) remains an unimplemented conditional hypothesis. The [conditioning protocol](conditioning-preregistration.md) and [pre-run addendum](conditioning-prerun-addendum.md) were frozen before any conditioning measurements. The addendum makes probe timing, selectivity, controls and call arithmetic explicit; both document hashes belong in the conditioning identity.
+The second panel and controlled acquisition/reversal must pass separately. The [rate bridge](rate-bridge-preregistration.md) was a conditional hypothesis frozen before these measurements; its implementation and first result are described below. The [conditioning protocol](conditioning-preregistration.md) and [pre-run addendum](conditioning-prerun-addendum.md) were frozen before any conditioning measurements. The addendum makes probe timing, selectivity, controls and call arithmetic explicit; both document hashes belong in the conditioning identity.
 
 ## Complete bound reporting and held-out result
 
@@ -24,7 +24,27 @@ The new [original panel `29c766f95f82`](panel-diag-candidate-maskgamma-29c766f95
 
 The [held-out panel `e3d8898dc68a`](panel-diag-candidate-maskgamma-e3d8898dc68a.json) is complete and source-stable. It uses the remaining eight calibration cues and the separately declared fresh noise. Six criteria passed; the untaught guard failed for home/base: mean −0.515622884, SD 0.979555768, permitted absolute mean 0.489777884. Home/alternate and both away guard cells passed. Cumulative home drift was −5.747775733, within its 13.795605525 relative limit. Zero bound contacts were recorded. The failure remains a failure even though it is close to its threshold.
 
-No conditioning run was launched after this result. The smaller correction is insufficient for qualification; the already frozen rate bridge will be implemented and checked against independent numerical oracles before new circuit panels. The failed raw-event result must remain visible alongside any later candidate.
+No conditioning run was launched after this result. The smaller correction was insufficient for qualification; the already frozen rate bridge was then implemented and checked against independent numerical oracles before its first circuit panel. The failed raw-event result remains visible alongside the later candidate.
+
+## Rate bridge numerical verification and first panel
+
+The [implementation contract](rate-bridge-implementation-contract.md) fixes the 100 ms rate filter, 500 ms eligibility filter, learning rate 0.0005 and normalization 0.96. Exact interval integration uses a double-precision gain accumulator, float32 transmission/checkpoints and a separately recorded analytic no-new-event tail. That continuation changes gains after the electrical endpoint; it does not simulate additional neural activity. The [independent reference audit](bridge-reference-audit.md) checks the mathematics without importing the simulator.
+
+The implementation passed 477 focused tests and the complete repository gate: 804 Python tests, 66 frontend tests, Ruff and the build. Independent review checked the source equations, signed timing, population normalization, masks, clipping, resets, small updates, recording and native integration. These establish numerical behavior, not biological learning.
+
+The first [full-circuit bridge panel `1b233bc75647`](panel-diag-rate-bridge-v1-maskgamma-1b233bc75647.json) completed in 51 seconds with unchanged source and all seven criteria passing. Home untaught sums averaged −0.103840373 and −0.060988627, within respective limits 0.128355080 and 0.131732571. Matched teaching sums averaged about −1.91 home and −2.74 away; cumulative home change was −1.533297837. No electrical or tail bound contact was observed.
+
+The runner compared complete numerical replay fingerprints during this run but did not save those comparisons' inputs. The [recording follow-up](bridge-recording-followup.json) preserves the result and extends retained fingerprints, sensory histories and artifact hashes before the final qualification pair. It changes no equations, parameters or thresholds. The first held-out bridge receipt remains unrun and superseded; the second cue/seed panel has already been used for the raw rule and must not be described as newly unseen data.
+
+## Bridge qualification with independently checked artifacts
+
+The final [original panel `de050d773763`](panel-diag-rate-bridge-v1-maskgamma-de050d773763.json) passes all seven criteria. [All 817 shared arrays are byte-identical](bridge-original-recording-parity.json) to the first bridge recording; the only added arrays are 64 sensory histories. Native source and binary are unchanged. The [independent artifact audit](bridge-original-independent-audit.json) recomputes the criteria from saved gains, complete matrices, electrical/tail records, sensory histories and persisted replay fingerprints.
+
+The final [second panel `dea14759e9ca`](panel-diag-rate-bridge-v1-maskgamma-dea14759e9ca.json) completed in 46 seconds with unchanged source. Its [independent audit](bridge-heldout-independent-audit.json) reproduces the failure: home/base untaught mean −0.272640035 exceeds the absolute limit 0.240845235 (SD 0.481690471). Home/alternate passes at −0.074156590 with limit 0.101465835; both away cells remain zero. Matched teaching remains present, averaging approximately −2.04 home and −2.88 away across noise sets. Cumulative home change is −2.884238005 and passes its relative limit. All six other criteria pass; no electrical or analytic-tail bound contact is recorded.
+
+[Independent numerical/code review](rate-bridge-independent-review.md), the [implementation report](rate-bridge-implementation-report.md), and the [artifact reanalysis script](verify_bridge_artifacts.py) preserve their respective scopes. Saved replay fingerprints permit an independent equality comparison; original gain, sampled trace and bridge arrays are additionally matched to their recorded fingerprints. The artifact audit is an offline reanalysis, not a new circuit experiment.
+
+The bridge is therefore insufficient for qualification. The next bounded investigation attributes the residual to actual cell classes, phases and recorded signals and rechecks primary mechanism evidence. No diagnostic threshold, drive gain or home eligibility policy is changed to remove this failure. Acquisition and reversal remain gated.
 
 ## Preserved evidence and execution exception
 

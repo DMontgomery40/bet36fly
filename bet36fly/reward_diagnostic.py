@@ -20,7 +20,7 @@ SEED_SETS = ('base', 'alt')
 CONDITIONS = ('frozen', 'untaught', 'home', 'away')
 
 
-RULE_REFERENCE = {'legacy': 'tonic-baseline', 'candidate': 'none'}
+RULE_REFERENCE = {'legacy': 'tonic-baseline', 'candidate': 'none', 'rate-bridge-v1': 'none'}
 MASK_POLICIES = ('all', 'gamma')
 
 
@@ -30,7 +30,55 @@ def panel_protocol(base, rule, away_mask):
         raise ValueError(f'rule must be one of {sorted(RULE_REFERENCE)}.')
     if away_mask not in MASK_POLICIES:
         raise ValueError(f'away_mask must be one of {MASK_POLICIES}.')
-    return dict(base, dan_reference=RULE_REFERENCE[rule], away_plasticity_mask=away_mask)
+    if rule == 'rate-bridge-v1':
+        if (base.get('tau_ms') != 500. or base.get('learning_rate') != .0005
+                or base.get('rate_tau_ms', 100.) != 100. or away_mask != 'gamma'
+                or list(base.get('gain_bounds', [])) != [.5, 1.5]):
+            raise ValueError('The fixed bridge candidate requires tau500/rate100/eta.0005, gamma away and bounds.5/1.5.')
+        return dict(base, dan_reference='none', away_plasticity_mask=away_mask,
+                    learning_rule=rule, rate_tau_ms=100., bridge_normalization=.96,
+                    bridge_tail='analytic_no_new_event_tail', bridge_layout='rate-bridge-v1/1')
+    return dict(base, dan_reference=RULE_REFERENCE[rule], away_plasticity_mask=away_mask,
+                learning_rule='event')
+
+
+def bridge_phase_evidence(result, plastic_compartments, group_compartments, *, dt, onset_ms, stimulus_ms):
+    """Reconcile actual bridge checkpoint changes including the separately recorded tail."""
+    from .reward_brain import BRIDGE_FIELDS
+    try:
+        rec = result['instrumentation']
+        rules, tail = np.asarray(rec['bridge_rule']), np.asarray(rec['bridge_tail'])
+        gc = np.asarray(group_compartments)
+        if (rec['learning_rule'] != 'rate-bridge-v1' or rec['layout_version'] != 'rate-bridge-v1/1'
+                or rec['layout']['bridge_rule'] != BRIDGE_FIELDS or rec['layout']['bridge_tail'] != BRIDGE_FIELDS
+                or rules.ndim != 3 or rules.shape[2] != 8 or tail.shape != rules.shape[1:]
+                or gc.shape != (rules.shape[1],) or gc.dtype.kind not in 'iu'
+                or np.any(gc < 0) or np.any(gc > 1)
+                or not np.isfinite(rules).all() or not np.isfinite(tail).all()):
+            raise ValueError('Invalid bridge recording layout, shape or finite values.')
+    except (KeyError, TypeError) as exc:
+        raise ValueError('Missing explicit bridge recording evidence.') from exc
+    for values in (rules, tail):
+        counts = values[..., 5:7]
+        if np.any(counts < 0) or not np.equal(counts, np.rint(counts)).all():
+            raise ValueError('Invalid bridge bound counts.')
+        if not np.allclose(values[..., 0]+values[..., 1], values[..., 2], rtol=1e-8, atol=1e-11):
+            raise ValueError('Bridge true term decomposition is inconsistent.')
+    phases = phase_sums(rules, bin_ms=dt, onset_ms=onset_ms, stimulus_ms=stimulus_ms)
+    phases['analytic_no_new_event_tail'] = tail
+    total = rules.sum(0)+tail
+    recorded = [float(total[gc == c, 4].sum()) for c in range(2)]
+    applied = compartment_sums(result['gain_delta'], plastic_compartments, 2)
+    if not np.allclose(recorded, applied, atol=1e-6, rtol=0):
+        raise ValueError('Bridge published changes plus tail disagree with the checkpoint.')
+    return dict(recorded_applied=recorded, clipped=int(total[:, 5:7].sum()),
+                electrical_bound_observations=int(rules[..., 5:7].sum()),
+                tail_bound_observations=int(tail[..., 5:7].sum()),
+                phases={phase: [{name: float(row[i]) for i, name in enumerate(BRIDGE_FIELDS)}
+                                for row in values] for phase, values in phases.items()},
+                bridge_totals=[dict({name: float(row[i]) for i, name in enumerate(BRIDGE_FIELDS)},
+                                    clipping_discrepancy=float(row[3]-row[2]),
+                                    final_rounding_discrepancy=float(row[4]-row[3])) for row in total])
 
 
 class PanelIncomplete(ValueError):

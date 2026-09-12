@@ -1,0 +1,8 @@
+{
+  "status": "frozen-before-bridge-implementation-and-measurement",
+  "frozen_utc": "2026-09-12T05:36:38.593884+00:00",
+  "path": "docs/evidence/reward-mechanism-repair-2026-09-12/rate-bridge-implementation-contract.md",
+  "sha256": "c35484a6a6f1a1405d79ec7673810887edd5744373e7519f0d35358f0588a71e",
+  "parent_preregistration_sha256": "ab7c640f3bfbc74845ff2759421b8b2de91d6411b9a6685acd3a62d1147508e3",
+  "trigger": "Corrected raw-event previously frozen panel e3d8898dc68a failed home/base untaught guard; thresholds and candidate parameters unchanged."
+}

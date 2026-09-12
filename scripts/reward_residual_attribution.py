@@ -60,6 +60,8 @@ def main():
     args = parser.parse_args()
     summary = json.loads((args.run / 'summary.json').read_text())
     protocol = summary['identity']['protocol']
+    if protocol.get('learning_rule', 'event') != 'event':
+        raise ValueError('This attribution implements only event rules; bridge arrays require their explicit integral/tail accounting.')
     z = np.load(args.run / 'trials.npz')
     bin_ms, dt = protocol['bin_ms'], 0.2
     onset_bin, offset_bin = int(round(protocol['plasticity_onset_ms'] / bin_ms)), int(round(protocol['stimulus_ms'] / bin_ms))

@@ -1,0 +1,613 @@
+{
+  "status": "preregistered-not-run",
+  "created_at": "2026-09-12T05:53:57.889561+00:00",
+  "run_id": "diag-rate-bridge-v1-maskgamma-1b233bc75647",
+  "identity": {
+    "rule": "rate-bridge-v1",
+    "protocol": {
+      "schema_version": 3,
+      "seed": 42,
+      "train_n": 64,
+      "validation_n": 32,
+      "calibration_n": 16,
+      "duration_ms": 400.0,
+      "stimulus_ms": 300.0,
+      "teaching_ms": 310.0,
+      "bin_ms": 10.0,
+      "plasticity_onset_ms": 100.0,
+      "dan_baseline_window_ms": 50.0,
+      "teaching_pulse_count": 4,
+      "teaching_interval_ms": 20.0,
+      "encoder": "glomerular-tuning-v1",
+      "encoder_peak_hz": 150.0,
+      "encoder_tuning_width": 0.5,
+      "encoder_min_kc_contacts": 100.0,
+      "kc_input_gain": 1.25,
+      "sensory_input_gain": 0.0,
+      "apl_output_gain": 0.25,
+      "global_weight_scale": 0.5,
+      "tau_ms": 500.0,
+      "learning_rate": 0.0005,
+      "gain_bounds": [
+        0.5,
+        1.5
+      ],
+      "wall_seconds": 900.0,
+      "min_kc_active_fraction": 0.001,
+      "max_kc_active_fraction": 0.85,
+      "max_mbon_hz": 400.0,
+      "min_teaching_evoked_fraction": 0.5,
+      "max_kc_code_overlap": 0.5,
+      "arms": [
+        "paired",
+        "shuffled",
+        "frozen"
+      ],
+      "dan_reference": "none",
+      "away_plasticity_mask": "gamma",
+      "learning_rule": "rate-bridge-v1",
+      "rate_tau_ms": 100.0,
+      "bridge_normalization": 0.96,
+      "bridge_tail": "analytic_no_new_event_tail",
+      "bridge_layout": "rate-bridge-v1/1"
+    },
+    "pilot": "reward-v3-209f7c49983f5873f650",
+    "games": 8,
+    "cumulative_games": 16,
+    "alt_seed_offset": 1000000,
+    "code_hashes": {
+      "reward_lif.cpp": "e7dbb0aa8f95873036415581e94de45c237941f05642ccc90812c1be1119be37",
+      "reward_brain.py": "5a6d67d38d226c6792c4f11430610772894ea3e9ae9593c2d215cfd7eaa0a6d5",
+      "reward_protocol.py": "e1a315f991debb677fca30f6e821a657135adccf032ad26054a00ed7688dc1bb",
+      "reward_encoder.py": "178a36f388b0c0de34bc2a83a0b35eef806dafa98636aa2400e4b87931446285",
+      "reward_diagnostic.py": "59feb14834813fa6793f0f97a8e4c208fd85494b383e9fa5875efe5b21189c99",
+      "reward_teaching_diagnostic.py": "b69f972f5c1e72ae5244fc4504b6cd7c5ff3fe79383d77ce3dc93ec3f56dff94"
+    },
+    "inputs_sha256": "b35d49dbbf361d0b32b7cb8fb278419ca3ed8930a35850d0f571a2f8b3b4cd35",
+    "pilot_manifest_sha256": "3ca0ed70b742ebad3b34b4ecc6690b55e96f3833ee5df34920a6648e950b8ff5",
+    "pilot_protocol_sha256": "c1e969f5d4f586b789bf4bf9235e8071f2734759b3e22f30ad1d01f9fc4be193",
+    "graph_hashes": {
+      "data/brain/counts.npy": "4a11faf9771fc3d5a5ff78ae7620ec1ce400f52d099ff657f0342cfc7a519f6b",
+      "data/brain/ids.npy": "ab90597b7b0ce07cbc22cb39a65b70bea2ac73cc7fd225951bd9d73f2fc8dd3f",
+      "data/brain/in_degree.npy": "494f13b315b23acb9962e214de0676e647893597614ad146483308e16a09716d",
+      "data/brain/indptr.npy": "fe43420f11e6242a11f8199ae7f097cab4b8a6db181d36f2a46b9e46670acbb4",
+      "data/brain/kc.npy": "97a570aafa089f93e642b2bb07e3a3322dabb14c3c7dd431f0c8d2b3b7951fdd",
+      "data/brain/mbon.npy": "87d555e02d4cf2d661d9676b937a31b29cacf60a7edc85c8c08edc8312530f83",
+      "data/brain/post.npy": "ce20f7433f78442c717ad2a7b5394cf4a3b109d990b4be0788040b7b0f4ed150",
+      "data/brain/sensory.npy": "ed574f42559455069679f8ce3b339395efa9398ec13e199eab47959533370805",
+      "data/brain/signs.npy": "4a0725e94d5014b2f17a70e3bdef3f7d843c0e81a8f22a33284aa10d8d62dab5",
+      "data/brain/nodes.feather": "d706a6dd5ec1dc17cfba2e8f439232723af81729bf1d0c17bf0cc73860a9c867",
+      "data/raw/annotations.feather": "2177e246113e4cfbf1e7772ec37c6da1955ff22e8063d0b1f833101f99a9a3b2"
+    },
+    "selection": {
+      "panel_kind": "original",
+      "panel_offset": 0,
+      "seed_offset": 0,
+      "alt_seed_offset": 1000000,
+      "calibration_games": [
+        4362,
+        4366,
+        4370,
+        4374,
+        4378,
+        4383,
+        4387,
+        4391,
+        4395,
+        4399,
+        4404,
+        4408,
+        4412,
+        4416,
+        4420,
+        4425
+      ],
+      "panel_games": [
+        4362,
+        4366,
+        4370,
+        4374,
+        4378,
+        4383,
+        4387,
+        4391
+      ],
+      "cumulative_games": [
+        4362,
+        4366,
+        4370,
+        4374,
+        4378,
+        4383,
+        4387,
+        4391,
+        4395,
+        4399,
+        4404,
+        4408,
+        4412,
+        4416,
+        4420,
+        4425
+      ],
+      "expected_panel": [
+        {
+          "game": 4362,
+          "seed_set": "base",
+          "seed": 4404,
+          "condition": "frozen"
+        },
+        {
+          "game": 4362,
+          "seed_set": "base",
+          "seed": 4404,
+          "condition": "untaught"
+        },
+        {
+          "game": 4362,
+          "seed_set": "base",
+          "seed": 4404,
+          "condition": "home"
+        },
+        {
+          "game": 4362,
+          "seed_set": "base",
+          "seed": 4404,
+          "condition": "away"
+        },
+        {
+          "game": 4362,
+          "seed_set": "alt",
+          "seed": 1004404,
+          "condition": "frozen"
+        },
+        {
+          "game": 4362,
+          "seed_set": "alt",
+          "seed": 1004404,
+          "condition": "untaught"
+        },
+        {
+          "game": 4362,
+          "seed_set": "alt",
+          "seed": 1004404,
+          "condition": "home"
+        },
+        {
+          "game": 4362,
+          "seed_set": "alt",
+          "seed": 1004404,
+          "condition": "away"
+        },
+        {
+          "game": 4366,
+          "seed_set": "base",
+          "seed": 4408,
+          "condition": "frozen"
+        },
+        {
+          "game": 4366,
+          "seed_set": "base",
+          "seed": 4408,
+          "condition": "untaught"
+        },
+        {
+          "game": 4366,
+          "seed_set": "base",
+          "seed": 4408,
+          "condition": "home"
+        },
+        {
+          "game": 4366,
+          "seed_set": "base",
+          "seed": 4408,
+          "condition": "away"
+        },
+        {
+          "game": 4366,
+          "seed_set": "alt",
+          "seed": 1004408,
+          "condition": "frozen"
+        },
+        {
+          "game": 4366,
+          "seed_set": "alt",
+          "seed": 1004408,
+          "condition": "untaught"
+        },
+        {
+          "game": 4366,
+          "seed_set": "alt",
+          "seed": 1004408,
+          "condition": "home"
+        },
+        {
+          "game": 4366,
+          "seed_set": "alt",
+          "seed": 1004408,
+          "condition": "away"
+        },
+        {
+          "game": 4370,
+          "seed_set": "base",
+          "seed": 4412,
+          "condition": "frozen"
+        },
+        {
+          "game": 4370,
+          "seed_set": "base",
+          "seed": 4412,
+          "condition": "untaught"
+        },
+        {
+          "game": 4370,
+          "seed_set": "base",
+          "seed": 4412,
+          "condition": "home"
+        },
+        {
+          "game": 4370,
+          "seed_set": "base",
+          "seed": 4412,
+          "condition": "away"
+        },
+        {
+          "game": 4370,
+          "seed_set": "alt",
+          "seed": 1004412,
+          "condition": "frozen"
+        },
+        {
+          "game": 4370,
+          "seed_set": "alt",
+          "seed": 1004412,
+          "condition": "untaught"
+        },
+        {
+          "game": 4370,
+          "seed_set": "alt",
+          "seed": 1004412,
+          "condition": "home"
+        },
+        {
+          "game": 4370,
+          "seed_set": "alt",
+          "seed": 1004412,
+          "condition": "away"
+        },
+        {
+          "game": 4374,
+          "seed_set": "base",
+          "seed": 4416,
+          "condition": "frozen"
+        },
+        {
+          "game": 4374,
+          "seed_set": "base",
+          "seed": 4416,
+          "condition": "untaught"
+        },
+        {
+          "game": 4374,
+          "seed_set": "base",
+          "seed": 4416,
+          "condition": "home"
+        },
+        {
+          "game": 4374,
+          "seed_set": "base",
+          "seed": 4416,
+          "condition": "away"
+        },
+        {
+          "game": 4374,
+          "seed_set": "alt",
+          "seed": 1004416,
+          "condition": "frozen"
+        },
+        {
+          "game": 4374,
+          "seed_set": "alt",
+          "seed": 1004416,
+          "condition": "untaught"
+        },
+        {
+          "game": 4374,
+          "seed_set": "alt",
+          "seed": 1004416,
+          "condition": "home"
+        },
+        {
+          "game": 4374,
+          "seed_set": "alt",
+          "seed": 1004416,
+          "condition": "away"
+        },
+        {
+          "game": 4378,
+          "seed_set": "base",
+          "seed": 4420,
+          "condition": "frozen"
+        },
+        {
+          "game": 4378,
+          "seed_set": "base",
+          "seed": 4420,
+          "condition": "untaught"
+        },
+        {
+          "game": 4378,
+          "seed_set": "base",
+          "seed": 4420,
+          "condition": "home"
+        },
+        {
+          "game": 4378,
+          "seed_set": "base",
+          "seed": 4420,
+          "condition": "away"
+        },
+        {
+          "game": 4378,
+          "seed_set": "alt",
+          "seed": 1004420,
+          "condition": "frozen"
+        },
+        {
+          "game": 4378,
+          "seed_set": "alt",
+          "seed": 1004420,
+          "condition": "untaught"
+        },
+        {
+          "game": 4378,
+          "seed_set": "alt",
+          "seed": 1004420,
+          "condition": "home"
+        },
+        {
+          "game": 4378,
+          "seed_set": "alt",
+          "seed": 1004420,
+          "condition": "away"
+        },
+        {
+          "game": 4383,
+          "seed_set": "base",
+          "seed": 4425,
+          "condition": "frozen"
+        },
+        {
+          "game": 4383,
+          "seed_set": "base",
+          "seed": 4425,
+          "condition": "untaught"
+        },
+        {
+          "game": 4383,
+          "seed_set": "base",
+          "seed": 4425,
+          "condition": "home"
+        },
+        {
+          "game": 4383,
+          "seed_set": "base",
+          "seed": 4425,
+          "condition": "away"
+        },
+        {
+          "game": 4383,
+          "seed_set": "alt",
+          "seed": 1004425,
+          "condition": "frozen"
+        },
+        {
+          "game": 4383,
+          "seed_set": "alt",
+          "seed": 1004425,
+          "condition": "untaught"
+        },
+        {
+          "game": 4383,
+          "seed_set": "alt",
+          "seed": 1004425,
+          "condition": "home"
+        },
+        {
+          "game": 4383,
+          "seed_set": "alt",
+          "seed": 1004425,
+          "condition": "away"
+        },
+        {
+          "game": 4387,
+          "seed_set": "base",
+          "seed": 4429,
+          "condition": "frozen"
+        },
+        {
+          "game": 4387,
+          "seed_set": "base",
+          "seed": 4429,
+          "condition": "untaught"
+        },
+        {
+          "game": 4387,
+          "seed_set": "base",
+          "seed": 4429,
+          "condition": "home"
+        },
+        {
+          "game": 4387,
+          "seed_set": "base",
+          "seed": 4429,
+          "condition": "away"
+        },
+        {
+          "game": 4387,
+          "seed_set": "alt",
+          "seed": 1004429,
+          "condition": "frozen"
+        },
+        {
+          "game": 4387,
+          "seed_set": "alt",
+          "seed": 1004429,
+          "condition": "untaught"
+        },
+        {
+          "game": 4387,
+          "seed_set": "alt",
+          "seed": 1004429,
+          "condition": "home"
+        },
+        {
+          "game": 4387,
+          "seed_set": "alt",
+          "seed": 1004429,
+          "condition": "away"
+        },
+        {
+          "game": 4391,
+          "seed_set": "base",
+          "seed": 4433,
+          "condition": "frozen"
+        },
+        {
+          "game": 4391,
+          "seed_set": "base",
+          "seed": 4433,
+          "condition": "untaught"
+        },
+        {
+          "game": 4391,
+          "seed_set": "base",
+          "seed": 4433,
+          "condition": "home"
+        },
+        {
+          "game": 4391,
+          "seed_set": "base",
+          "seed": 4433,
+          "condition": "away"
+        },
+        {
+          "game": 4391,
+          "seed_set": "alt",
+          "seed": 1004433,
+          "condition": "frozen"
+        },
+        {
+          "game": 4391,
+          "seed_set": "alt",
+          "seed": 1004433,
+          "condition": "untaught"
+        },
+        {
+          "game": 4391,
+          "seed_set": "alt",
+          "seed": 1004433,
+          "condition": "home"
+        },
+        {
+          "game": 4391,
+          "seed_set": "alt",
+          "seed": 1004433,
+          "condition": "away"
+        }
+      ],
+      "expected_cumulative": [
+        {
+          "game": 4362,
+          "seed": 4404
+        },
+        {
+          "game": 4366,
+          "seed": 4408
+        },
+        {
+          "game": 4370,
+          "seed": 4412
+        },
+        {
+          "game": 4374,
+          "seed": 4416
+        },
+        {
+          "game": 4378,
+          "seed": 4420
+        },
+        {
+          "game": 4383,
+          "seed": 4425
+        },
+        {
+          "game": 4387,
+          "seed": 4429
+        },
+        {
+          "game": 4391,
+          "seed": 4433
+        },
+        {
+          "game": 4395,
+          "seed": 4437
+        },
+        {
+          "game": 4399,
+          "seed": 4441
+        },
+        {
+          "game": 4404,
+          "seed": 4446
+        },
+        {
+          "game": 4408,
+          "seed": 4450
+        },
+        {
+          "game": 4412,
+          "seed": 4454
+        },
+        {
+          "game": 4416,
+          "seed": 4458
+        },
+        {
+          "game": 4420,
+          "seed": 4462
+        },
+        {
+          "game": 4425,
+          "seed": 4467
+        }
+      ]
+    },
+    "panel_kind": "original",
+    "bridge_contract": {
+      "documents": {
+        "rate-bridge-preregistration.md": "ab7c640f3bfbc74845ff2759421b8b2de91d6411b9a6685acd3a62d1147508e3",
+        "rate-bridge-implementation-contract.md": "c35484a6a6f1a1405d79ec7673810887edd5744373e7519f0d35358f0588a71e"
+      },
+      "layout": "rate-bridge-v1/1",
+      "config": {
+        "h_ms": 0.2,
+        "tau_ms": 500.0,
+        "rate_tau_ms": 100.0,
+        "eta": 0.0005,
+        "normalization": 0.96
+      },
+      "tail": "analytic_no_new_event_tail",
+      "state": "zero onset/trial states; double within-trial accumulation; float32 publication/checkpoint; discard remainder"
+    }
+  },
+  "criteria": {
+    "teaching_effect_ratio": 3.0,
+    "untaught_sd_ratio": 0.5,
+    "cross_compartment_ratio": 0.05,
+    "cumulative_effect_ratio": 4.0,
+    "no_bound_hits": true,
+    "bit_identical_repeat": true,
+    "sensory_noise_invariance": true
+  }
+}

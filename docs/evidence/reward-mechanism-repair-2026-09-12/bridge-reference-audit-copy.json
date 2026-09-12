@@ -1,0 +1,23 @@
+{
+  "purpose": "Independent reference-only mathematics, before the rate-bridge circuit panels. No production simulator imported or neural circuit run.",
+  "files": [
+    {
+      "source": "output/collaboration/reward-mechanism-repair/bridge-reference-audit.md",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/bridge-reference-audit.md",
+      "bytes": 9017,
+      "sha256": "d13b3574b32d4fc8239b852b868f06f59e987bbf411454f497b167500d24ec40"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/bridge-reference-audit.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/bridge-reference-audit.py",
+      "bytes": 8658,
+      "sha256": "ec734469c2f6b3814e514a16903097b1198d8c3c65b70d6b9d71e904a357d2e4"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/bridge-reference-audit.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/bridge-reference-audit.json",
+      "bytes": 9584,
+      "sha256": "09c55e47314f076128ba1647806cc6d2e1ae98a93929370792e01491fc6f91d3"
+    }
+  ]
+}

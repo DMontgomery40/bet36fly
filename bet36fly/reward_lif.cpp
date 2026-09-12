@@ -3,7 +3,85 @@
 #include <algorithm>
 #include <cmath>
 #include <cstdint>
+#include <memory>
 #include <vector>
+
+// Exact continuous signal integration, shared by the electrical engine and a
+// private event-replay test seam. No RNG, voltage, or recording state is used here.
+struct RateBridge {
+    int nk, nc, np, ng;
+    const int32_t *pk, *pc, *groups;
+    const uint8_t* mask;
+    float* published;
+    double h, r, e, eta, norm, ar, ae, A, C, coupling, low, high;
+    std::vector<double> rk, ek, rd, ed, gain;
+    RateBridge(int nk_, int nc_, int np_, int ng_, const int32_t* pk_, const int32_t* pc_,
+               const int32_t* groups_, const uint8_t* mask_, float* published_,
+               const double* config, float low_, float high_)
+        : nk(nk_), nc(nc_), np(np_), ng(ng_), pk(pk_), pc(pc_), groups(groups_), mask(mask_),
+          published(published_), h(config[0]), r(1/config[2]), e(1/config[1]), eta(config[3]),
+          norm(1-std::pow(config[2]/config[1], 2)), ar(std::exp(-r*h)), ae(std::exp(-e*h)),
+          A(-std::expm1(-(r+e)*h)/(r+e)),
+          C((-std::expm1(-2*r*h)/(2*r)-A)/(e-r)),
+          coupling(ae*std::expm1((e-r)*h)/(e-r)), low(low_), high(high_),
+          rk(nk,0), ek(nk,0), rd(nc,0), ed(nc,0), gain(np,0) {
+        for (int k=0;k<np;++k) gain[k]=published[k];
+    }
+    void update(double a, double c, double* out) {
+        for (int k=0;k<np;++k) {
+            if (!mask[k]) continue;
+            int j=pk[k], d=pc[k];
+            double q=ed[d]*rk[j]-ek[j]*rd[d];
+            double delta=eta*norm*a*q, before=gain[k], fbefore=published[k];
+            double proposed=before+delta;
+            gain[k]=std::clamp(proposed,low,high);
+            published[k]=float(gain[k]);
+            if (out) {
+                double* row=out+size_t(groups[k])*8;
+                double common=c*rd[d]*rk[j];
+                row[0]+=eta*norm*(a*ed[d]*rk[j]+common);
+                row[1]-=eta*norm*(a*ek[j]*rd[d]+common);
+                row[2]+=delta;
+                row[3]+=gain[k]-before;
+                row[4]+=double(published[k])-fbefore;
+                row[5]+=(proposed<=low || double(published[k])<=low) ? 1.0 : 0.0;
+                row[6]+=(proposed>=high || double(published[k])>=high) ? 1.0 : 0.0;
+                row[7]+=q;
+            }
+        }
+    }
+    void interval(const double* kc, const double* dan, double* signals, double* used, double* rule) {
+        for (int j=0;j<nk;++j) rk[j]+=kc[j]*r;
+        for (int d=0;d<nc;++d) {
+            rd[d]+=dan[d]*r;
+            if (signals) { signals[2*d]=rd[d]; signals[2*d+1]=ed[d]; }
+        }
+        if (used) for (int k=0;k<np;++k) if (mask[k]) {
+            used[2*groups[k]]+=rk[pk[k]];
+            used[2*groups[k]+1]+=ek[pk[k]];
+        }
+        update(A,C,rule);
+        for (int j=0;j<nk;++j) { ek[j]=ae*ek[j]+coupling*rk[j]; rk[j]*=ar; }
+        for (int d=0;d<nc;++d) { ed[d]=ae*ed[d]+coupling*rd[d]; rd[d]*=ar; }
+    }
+    void tail(double* out) { update(1/(r+e),1/(2*r*(r+e)),out); }
+};
+
+// Private deterministic signal-only seam. Public LIF dt remains fixed at 0.2 ms.
+extern "C" int replay_reward_bridge(
+    int steps,int nk,int nc,int np,int ng,const double* kc,const double* dan,
+    const int32_t* pk,const int32_t* pc,const int32_t* groups,const uint8_t* mask,
+    float* gains,float low,float high,const double* config,int onset,
+    double* signals,double* used,double* rule,double* tail) {
+    try {
+        RateBridge bridge(nk,nc,np,ng,pk,pc,groups,mask,gains,config,low,high);
+        for (int t=onset;t<steps;++t)
+            bridge.interval(kc+size_t(t)*nk,dan+size_t(t)*nc,
+                            signals+size_t(t)*nc*2,used+size_t(t)*ng*2,rule+size_t(t)*ng*8);
+        bridge.tail(tail);
+        return 0;
+    } catch (...) { return 1; }
+}
 
 struct Random {
     uint64_t state;
@@ -47,7 +125,10 @@ extern "C" int simulate_reward(
     int32_t* dan_counts, int32_t* compartment_dan_counts,
     int record, int n_groups, const int32_t* plastic_groups,
     double* signal_bins, double* kc_signal_bins, double* rule_bins, float* kc_trace_bins,
-    int dan_reference_mode, const uint8_t* plastic_mask, float* step_signals, float* step_rule
+    int dan_reference_mode, const uint8_t* plastic_mask, float* step_signals, float* step_rule,
+    int learning_mode, const double* bridge_config,
+    double* bridge_signals, double* bridge_kc_bins, double* bridge_kc_used,
+    double* bridge_rule, double* bridge_tail
 ) {
     try {
         Random rng{seed ? seed : 1};
@@ -74,6 +155,14 @@ extern "C" int simulate_reward(
         std::vector<double> rule_acc(record ? size_t(n_groups) * RULE_WIDTH : 0, 0.0);
         std::vector<double> signal_acc(record ? size_t(n_compartments) * SIGNAL_WIDTH : 0, 0.0);
         double kc_spike_acc = 0.0;
+        std::unique_ptr<RateBridge> bridge;
+        std::vector<double> bridge_kc_events, bridge_dan_events;
+        if (learning_mode == 1) {
+            bridge=std::make_unique<RateBridge>(n_kc,n_compartments,n_plastic,n_groups,
+                plastic_kc,plastic_compartments,plastic_groups,plastic_mask,gains,bridge_config,gain_min,gain_max);
+            bridge_kc_events.resize(n_kc);
+            bridge_dan_events.resize(n_compartments);
+        }
         for (int k=0; k<n_input; ++k) is_input[inputs[k]] = 1;
         for (int k=0; k<n_sample; ++k) sample_index[sample[k]] = k;
         for (int k=0; k<n_kc; ++k) kc_index[kc_indices[k]] = k;
@@ -162,6 +251,15 @@ extern "C" int simulate_reward(
                         step_signals[size_t(t) * (1 + 2 * n_compartments) + 1 + n_compartments + compartment] = dan_trace[compartment];
                     }
                 }
+                if (bridge) {
+                    for (int k=0;k<n_kc;++k) bridge_kc_events[k]=spiked[kc_indices[k]] ? 1.0 : 0.0;
+                    for (int d=0;d<n_compartments;++d)
+                        bridge_dan_events[d]=dan_population_size[d] ? double(dan_spikes[d])/dan_population_size[d] : 0.0;
+                    bridge->interval(bridge_kc_events.data(),bridge_dan_events.data(),
+                        record ? bridge_signals+size_t(t)*n_compartments*2 : nullptr,
+                        record ? bridge_kc_used+size_t(t)*n_groups*2 : nullptr,
+                        record ? bridge_rule+size_t(t)*n_groups*8 : nullptr);
+                } else {
                 if (record)
                     for (int k=0; k<n_plastic; ++k)
                         if (plastic_mask[k])
@@ -196,6 +294,7 @@ extern "C" int simulate_reward(
                     if (spiked[kc_indices[k]]) kc_trace[k] += 1.0f;
                 for (int compartment=0; compartment<n_compartments; ++compartment)
                     dan_trace[compartment] += phasic[compartment];
+                }
             }
             const int bin = t / bin_steps;
             auto& later = events[(t + delay) % (delay + 1)];
@@ -211,6 +310,10 @@ extern "C" int simulate_reward(
                 ready[i] = t + (is_input[i] ? 0 : refractory);
             }
             if (record && (t + 1) % bin_steps == 0) {
+                if (bridge) for (int k=0;k<n_kc;++k) {
+                    bridge_kc_bins[(size_t(bin)*n_kc+k)*2]=bridge->rk[k];
+                    bridge_kc_bins[(size_t(bin)*n_kc+k)*2+1]=bridge->ek[k];
+                }
                 for (int compartment=0; compartment<n_compartments; ++compartment) {
                     double* out = signal_bins + (size_t(bin) * n_compartments + compartment) * SIGNAL_WIDTH;
                     out[0] = signal_acc[compartment * SIGNAL_WIDTH + 0];
@@ -236,6 +339,7 @@ extern "C" int simulate_reward(
                 kc_spike_acc = 0.0;
             }
         }
+        if (bridge) bridge->tail(record ? bridge_tail : nullptr);
         for (int k=0; k<n_dan; ++k)
             compartment_dan_counts[dan_compartments[k]] += dan_counts[k];
         for (int compartment=0; compartment<n_compartments; ++compartment)

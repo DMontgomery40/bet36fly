@@ -1,0 +1,17 @@
+[
+  {
+    "source": "output/collaboration/reward-mechanism-repair/verify_bridge_artifacts.py",
+    "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/verify_bridge_artifacts.py",
+    "sha256": "8000cd025a11c90dab2cb956a195a72e90770d2f7e57172465cc93cdb1ed56c6"
+  },
+  {
+    "source": ".superpowers/sdd/2026-09-12-reward-mechanism-repair/task-2b-report.md",
+    "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/rate-bridge-implementation-report.md",
+    "sha256": "36702ac792440790ac93c4ee908fa6be9c5697f3171695597122b2d848debaba"
+  },
+  {
+    "source": ".superpowers/sdd/2026-09-12-reward-mechanism-repair/task-2b-review.md",
+    "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/rate-bridge-independent-review.md",
+    "sha256": "e7373b8a5ac6efa4631a262ae3d297a6807d39567fe3a6dc8f292a32bea180c6"
+  }
+]

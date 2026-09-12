@@ -1,0 +1,60 @@
+{
+  "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+  "summary_sha256": "d01e398ecebbaa2dfbedabcb27ff1765b6ddf1a1742632456dd4a3bb995307fe",
+  "artifacts": {
+    "trials.npz": {
+      "sha256": "21b144ef18a2d636fc969489f07a8f45c688e98dbd9d52cd647d018f1e13f495",
+      "bytes": 337415396
+    },
+    "recording-layout.json": {
+      "sha256": "9c92f372e4a7ae74932c42a63bd02b01cc1eaeb8f1cba46d4db5eb6b43a362d7",
+      "bytes": 1585
+    },
+    "replay-evidence.json": {
+      "sha256": "bb2e24dc52c3d07332fc0f06cb8bf29f6ff2a78a8c61bd2ebf3efdd85bb9aefa",
+      "bytes": 32741
+    }
+  },
+  "criteria": {
+    "teaching_specific": true,
+    "untaught_guard": false,
+    "cross_compartment": true,
+    "no_bound_hits": true,
+    "cumulative": true,
+    "bit_identical_repeat": true,
+    "sensory_noise_invariance": true
+  },
+  "independently_recomputed": true,
+  "complete_panel_rows": 64,
+  "complete_cumulative_rows": 16,
+  "replay_scope": "Persisted full-array fingerprints compared; retained original gain/trace/bridge arrays also matched to original fingerprints.",
+  "sensory_groups": 16,
+  "bound_observations": 0,
+  "max_publication_reconciliation_error": 0.0,
+  "metrics": {
+    "home/base": {
+      "mean_untaught": -0.27264003455638885,
+      "guard_limit": 0.24084523542329467,
+      "mean_teaching": -2.1936396658420563
+    },
+    "away/base": {
+      "mean_untaught": 0.0,
+      "guard_limit": 0.0,
+      "mean_teaching": -3.063413918018341
+    },
+    "home/alt": {
+      "mean_untaught": -0.07415658980607986,
+      "guard_limit": 0.10146583493638162,
+      "mean_teaching": -1.882061816751957
+    },
+    "away/alt": {
+      "mean_untaught": 0.0,
+      "guard_limit": 0.0,
+      "mean_teaching": -2.6900311335921288
+    }
+  },
+  "cumulative_final": [
+    -2.8842380046844482,
+    0.0
+  ]
+}
