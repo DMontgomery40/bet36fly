@@ -1,9 +1,11 @@
 const { chromium } = require('playwright');
 const fs = require('fs'), assert = require('assert/strict'), crypto = require('crypto'), path = require('path');
+const { verifyReadOnlyServer } = require('./verification_server_guard.cjs');
 const output = path.resolve(process.argv[2] || 'output/browser/reward-v3');
 const base = process.env.BET36FLY_BASE_URL || 'http://127.0.0.1:8765';
-fs.mkdirSync(output, {recursive:true});
 (async () => {
+ const verification=await verifyReadOnlyServer(base);
+ fs.mkdirSync(output, {recursive:true});
  const browser = await chromium.launch({headless:true});
  const page = await browser.newPage({viewport:{width:1440,height:1100}});
  const errors=[];page.on('pageerror',e=>errors.push(e.message));
@@ -133,7 +135,7 @@ fs.mkdirSync(output, {recursive:true});
  scenarios.push({mode:'raw-gamma',verified:true,source:'isolated browser response fixture; no measured candidate result'});
  await candidate.close();
  assert.deepEqual(errors,[]);
- const evidence={checked_at:new Date().toISOString(),url:page.url(),experiment:reward.id,status:reward.status,encoder:reward.protocol.encoder,gate_status:reward.reward.activity_gate.status,gated_experiment:gated.id,gated_status:gated.status,gate_message:gated.reward.activity_gate.message,active_v1:state.active_v1.run_id,v2_status:v2.status,v2_jobs:v2.jobs.reduce((a,j)=>(a[j.status]=(a[j.status]||0)+1,a),{}),arms,downloads,scenarios,desktop:{width:1440,height:1100},mobile:{width:390,height:844,horizontal_page_overflow:false,tested_widths:widths},errors,screenshots:[path.join(output,'bet36fly-reward-gate-passed.png'),path.join(output,'bet36fly-reward-gate-failed.png'),path.join(output,'bet36fly-reward-desktop.png'),path.join(output,'bet36fly-reward-arm.png'),path.join(output,'bet36fly-reward-mobile.png'),path.join(output,'bet36fly-reward-mobile-arm.png')]};
+ const evidence={checked_at:new Date().toISOString(),url:page.url(),verification,experiment:reward.id,status:reward.status,encoder:reward.protocol.encoder,gate_status:reward.reward.activity_gate.status,gated_experiment:gated.id,gated_status:gated.status,gate_message:gated.reward.activity_gate.message,active_v1:state.active_v1.run_id,v2_status:v2.status,v2_jobs:v2.jobs.reduce((a,j)=>(a[j.status]=(a[j.status]||0)+1,a),{}),arms,downloads,scenarios,desktop:{width:1440,height:1100},mobile:{width:390,height:844,horizontal_page_overflow:false,tested_widths:widths},errors,screenshots:[path.join(output,'bet36fly-reward-gate-passed.png'),path.join(output,'bet36fly-reward-gate-failed.png'),path.join(output,'bet36fly-reward-desktop.png'),path.join(output,'bet36fly-reward-arm.png'),path.join(output,'bet36fly-reward-mobile.png'),path.join(output,'bet36fly-reward-mobile-arm.png')]};
  fs.writeFileSync(path.join(output,'bet36fly-reward-browser-evidence.json'),JSON.stringify(evidence,null,2));
  console.log(JSON.stringify(evidence));
  await browser.close();

@@ -1,4 +1,4 @@
-.PHONY: setup brain fetch train serve verify
+.PHONY: setup brain fetch train serve serve-verify verify
 
 setup:
 	uv sync
@@ -15,6 +15,9 @@ train:
 
 serve:
 	.venv/bin/python -m uvicorn bet36fly.server:app --host 127.0.0.1 --port 8765
+
+serve-verify:
+	PYTHONDONTWRITEBYTECODE=1 .venv/bin/python -m uvicorn bet36fly.server:create_verification_app --factory --host 127.0.0.1 --port 8765
 
 verify:
 	.venv/bin/python -m pytest -q

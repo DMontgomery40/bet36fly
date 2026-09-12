@@ -126,22 +126,46 @@ def brain_geometry(path=ROOT / 'data/brain', sample_size=2500):
 
 
 class Runtime:
-    def __init__(self, root=ROOT):
-        self.root = root
+    def __init__(self, root=ROOT, *, read_only=False):
+        self.root = Path(root)
+        self.read_only = read_only
         self.lock = threading.RLock()
-        self.ledger = PickLedger(root / 'data/picks.sqlite3')
-        self.shadow = ShadowRuntime(root)
+        self.ledger = PickLedger(self.root / 'data/picks.sqlite3', read_only=read_only)
+        self.shadow = ShadowRuntime(self.root, read_only=read_only)
         self.brain = None
         self.checkpoint = None
         self.model_pointer = None
         self.report = None
         self.snapshot = {'games': [], 'sources': [], 'updated_at': None}
         self.features = {}
-        self.refresh_state = {'status': 'idle', 'message': 'Public game sources ready.'}
+        self.refresh_state = ({'status': 'disabled', 'message': 'Read-only verification; source refresh is disabled.'}
+                              if read_only else {'status': 'idle', 'message': 'Public game sources ready.'})
         self.refresh_lock = threading.Lock()
         self.geometry_indices = None
         self.geometry = None
         self.reload_games()
+
+    def _stored_pointer(self):
+        pointer = read_json(self.root / 'output/current-model.json', None)
+        if pointer is None:
+            return None
+        if (not isinstance(pointer, dict) or not isinstance(pointer.get('run_id'), str)
+                or not pointer['run_id']):
+            raise ValueError('Stored current-model pointer has invalid shape.')
+        return pointer
+
+    def _stored_progress(self):
+        progress = read_json(self.root / 'output/training-progress.json',
+                             {'status': 'not_started', 'stage': 'not_started'})
+        if not isinstance(progress, dict):
+            raise ValueError('Stored training progress has invalid shape.')
+        return progress
+
+    def _stored_brain_stats(self):
+        manifest = read_json(self.root / 'data/brain/manifest.json', {'stats': {}})
+        if not isinstance(manifest, dict) or not isinstance(manifest.get('stats', {}), dict):
+            raise ValueError('Stored brain manifest has invalid shape.')
+        return manifest.get('stats', {})
 
     def reload_games(self):
         snapshot = read_json(self.root / 'data/sports/games.json', self.snapshot)
@@ -151,6 +175,8 @@ class Runtime:
             self.features = {g['id']: x for g, x in zip(built['games'], built['X'])}
 
     def ensure_model(self):
+        if self.read_only:
+            raise RuntimeError('Model loading is disabled in read-only verification mode.')
         pointer = read_json(self.root / 'output/current-model.json', None)
         if pointer is None:
             return False
@@ -188,7 +214,10 @@ class Runtime:
 
     def games(self, sport='all'):
         with self.lock:
-            run_id = self.model_pointer['run_id'] if self.model_pointer else None
+            pointer = self.model_pointer
+            if self.read_only:
+                pointer = self._stored_pointer()
+            run_id = pointer['run_id'] if pointer else None
             latest = self.ledger.latest(run_id) if run_id else {}
             result = []
             for g in upcoming_games(self.snapshot['games'], sport=sport):
@@ -209,6 +238,8 @@ class Runtime:
             return result
 
     def predict(self, game_id, *, trace=True):
+        if self.read_only:
+            raise RuntimeError('Prediction is disabled in read-only verification mode.')
         if not self.ensure_model():
             raise RuntimeError('The real neural checkpoint is still training.')
         with self.lock:
@@ -246,6 +277,8 @@ class Runtime:
             return result
 
     def warm_picks(self):
+        if self.read_only:
+            raise RuntimeError('Pick warming is disabled in read-only verification mode.')
         if not self.ensure_model():
             return 0
         games = self.games()
@@ -260,6 +293,8 @@ class Runtime:
         return total
 
     def refresh(self):
+        if self.read_only:
+            raise RuntimeError('Source refresh is disabled in read-only verification mode.')
         if not self.refresh_lock.acquire(blocking=False):
             return False
         self.refresh_state = {'status': 'running', 'message': 'Fetching current public game sources.'}
@@ -285,6 +320,15 @@ class Runtime:
         return True
 
     def status(self):
+        if self.read_only:
+            pointer = self._stored_pointer()
+            return {'app': 'BET36FLY', 'mode': 'paper', 'verification_mode': True,
+                    'evidence_mode': 'stored-metadata-only', 'model_ready': False, 'run_id': None,
+                    'stored_run_id': pointer['run_id'] if pointer else None,
+                    'runtime': 'CPU', 'brain': self._stored_brain_stats(),
+                    'training': self._stored_progress(),
+                    'refresh': self.refresh_state, 'updated_at': self.snapshot['updated_at'],
+                    'sources': self.sources()}
         ready = self.ensure_model()
         manifest = read_json(self.root / 'data/brain/manifest.json', {'stats': {}})
         return {'app': 'BET36FLY', 'mode': 'paper', 'model_ready': ready,
@@ -292,3 +336,26 @@ class Runtime:
                 'brain': manifest['stats'], 'training': read_json(self.root / 'output/training-progress.json',
                                                                 {'status': 'not_started', 'stage': 'not_started'}),
                 'refresh': self.refresh_state, 'updated_at': self.snapshot['updated_at'], 'sources': self.sources()}
+
+    def training_payload(self):
+        progress = self._stored_progress() if self.read_only else read_json(
+            self.root / 'output/training-progress.json', {'status': 'not_started', 'stage': 'not_started'})
+        if not self.read_only:
+            self.ensure_model()
+            return {'progress': progress, 'report': self.report}
+        pointer = self._stored_pointer()
+        report = None
+        if pointer and pointer.get('report'):
+            if not isinstance(pointer['report'], str):
+                raise ValueError('Stored current-model pointer has invalid shape.')
+            report_path = Path(pointer['report'])
+            if not report_path.is_absolute():
+                report_path = self.root / report_path
+            report_path = report_path.resolve()
+            if not report_path.is_relative_to(self.root.resolve()):
+                raise ValueError('Stored model report escapes the project root.')
+            report = read_json(report_path, None)
+            if not isinstance(report, dict):
+                raise ValueError('Stored training report has invalid shape.')
+        return {'progress': progress, 'report': report, 'verification_mode': True,
+                'evidence_mode': 'stored-metadata-only'}

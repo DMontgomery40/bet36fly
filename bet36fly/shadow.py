@@ -11,7 +11,7 @@ import numpy as np
 
 from .connectome import digest
 from .desk import resolved_result, timestamp
-from .ledger import fixture_identity
+from .ledger import ReadOnlyDatabaseError, _read_only_sqlite, fixture_identity
 from .learning import metrics
 
 THRESHOLDS = {'soccer': 100, 'baseball': 1000}
@@ -34,8 +34,11 @@ def eligible(game, now):
 
 
 class ShadowLedger:
-    def __init__(self, path):
+    def __init__(self, path, *, read_only=False):
         self.path = Path(path)
+        self.read_only = read_only
+        if read_only:
+            return
         self.path.parent.mkdir(parents=True, exist_ok=True)
         with self.connect() as db:
             db.execute('CREATE TABLE IF NOT EXISTS forecasts (id TEXT PRIMARY KEY, model TEXT, sport TEXT, payload TEXT)')
@@ -43,16 +46,27 @@ class ShadowLedger:
             db.execute('CREATE TABLE IF NOT EXISTS cohorts (model TEXT, sport TEXT, payload TEXT, PRIMARY KEY(model,sport))')
 
     def connect(self):
+        if self.read_only:
+            return _read_only_sqlite(self.path)
         return sqlite3.connect(self.path, timeout=30)
 
     def forecasts(self, model=None):
-        with self.connect() as db:
-            rows = db.execute('SELECT payload FROM forecasts WHERE model=? ORDER BY id', (model,)) if model else db.execute(
-                'SELECT payload FROM forecasts ORDER BY id')
-            return [json.loads(r[0]) for r in rows]
+        if self.read_only and not self.path.exists():
+            return []
+        try:
+            with self.connect() as db:
+                rows = db.execute('SELECT payload FROM forecasts WHERE model=? ORDER BY id', (model,)) if model else db.execute(
+                    'SELECT payload FROM forecasts ORDER BY id')
+                return [json.loads(r[0]) for r in rows]
+        except (sqlite3.Error, json.JSONDecodeError) as exc:
+            if self.read_only:
+                raise ReadOnlyDatabaseError(f'Read-only shadow ledger unavailable: {exc}') from exc
+            raise
 
     def capture(self, game, features, *, pointer, predict, baseline_predict, current_fixture,
                 clock=lambda: datetime.now(timezone.utc), feature_timestamp=None):
+        if self.read_only:
+            raise ReadOnlyDatabaseError('Read-only shadow ledger cannot capture forecasts.')
         now = clock()
         if now < timestamp(pointer['activated_at']) or not eligible(game, now):
             return None
@@ -93,6 +107,8 @@ class ShadowLedger:
             return json.loads(db.execute('SELECT payload FROM forecasts WHERE id=?', (key,)).fetchone()[0])
 
     def score(self, games, *, model, now=None, thresholds=None):
+        if self.read_only:
+            raise ReadOnlyDatabaseError('Read-only shadow ledger cannot score forecasts.')
         now, thresholds = now or datetime.now(timezone.utc), thresholds or THRESHOLDS
         current = {g['id']: g for g in games}
         with self.connect() as db:
@@ -140,9 +156,17 @@ class ShadowLedger:
         thresholds = thresholds or THRESHOLDS
         forecasts = self.forecasts(model)
         ids = {r['id'] for r in forecasts}
-        with self.connect() as db:
-            scores = [json.loads(r[1]) for r in db.execute('SELECT id,payload FROM scores') if r[0] in ids]
-            cohorts = {r[0]: json.loads(r[1]) for r in db.execute('SELECT sport,payload FROM cohorts WHERE model=?', (model,))}
+        if self.read_only and not self.path.exists():
+            scores, cohorts = [], {}
+        else:
+            try:
+                with self.connect() as db:
+                    scores = [json.loads(r[1]) for r in db.execute('SELECT id,payload FROM scores') if r[0] in ids]
+                    cohorts = {r[0]: json.loads(r[1]) for r in db.execute('SELECT sport,payload FROM cohorts WHERE model=?', (model,))}
+            except (sqlite3.Error, json.JSONDecodeError) as exc:
+                if self.read_only:
+                    raise ReadOnlyDatabaseError(f'Read-only shadow ledger unavailable: {exc}') from exc
+                raise
         result = {'model': model, 'forecasts': len(forecasts), 'sports': {},
                   'note': 'Interim results are descriptive. First fixed cohorts: 100 soccer and 1,000 baseball completed eligible fixtures.'}
         for sport, threshold in thresholds.items():
@@ -165,15 +189,18 @@ class ShadowLedger:
 
 
 class ShadowRuntime:
-    def __init__(self, root):
+    def __init__(self, root, *, read_only=False):
         self.root = Path(root)
+        self.read_only = read_only
         self.pointer = None
         self.candidates = []
         self.baseline = None
-        self.ledger = ShadowLedger(self.root / 'data/v2-shadow.sqlite3')
+        self.ledger = ShadowLedger(self.root / 'data/v2-shadow.sqlite3', read_only=read_only)
         self.error = None
 
     def ensure(self):
+        if self.read_only:
+            raise RuntimeError('Shadow model loading is disabled in read-only verification mode.')
         from .experiment_v2 import load_candidate
         path = self.root / 'output/v2-shadow.json'
         if not path.exists():
@@ -191,6 +218,8 @@ class ShadowRuntime:
         return True
 
     def refresh(self, runtime):
+        if self.read_only:
+            raise RuntimeError('Shadow refresh is disabled in read-only verification mode.')
         from .experiment_v2 import baseline_probability
         try:
             if not self.ensure():

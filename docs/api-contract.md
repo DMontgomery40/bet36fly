@@ -2,6 +2,37 @@
 
 All endpoints are same-origin under `/api`. The production FastAPI process serves the built React app. Phase 1 is paper picks only; no account or monetary balance UI. Missing data is an explicit empty/error/loading state, never seeded values.
 
+## Read-only verification server
+
+Start browser QA with `make serve-verify`. This uses the explicit factory
+`bet36fly.server:create_verification_app --factory`; importing the server module
+does not construct a Runtime, open SQLite, start source-following threads or load
+the neural model. The normal `make serve` behavior is unchanged.
+
+Every response from this server carries
+`X-BET36FLY-Verification: read-only`. `GET /api/status` also returns
+`verification_mode:true`, `evidence_mode:"stored-metadata-only"`,
+`model_ready:false`, `run_id:null`, and nullable `stored_run_id`. The stored run
+identity is evidence metadata; it does not mean inference is ready. `GET
+/api/training` reads the saved progress and report without loading a checkpoint
+and adds the same verification/evidence fields. The frontend displays a
+read-only notice and disables refresh and neural inference. Its refresh status is
+`disabled`; normal mode continues to use `idle|running|complete|failed`.
+
+Only GET, HEAD and OPTIONS reach routing in verification mode. Every other HTTP
+method returns 405 with `Allow: GET, HEAD, OPTIONS` before request bodies or
+handlers are evaluated. The pick and shadow ledgers use SQLite `mode=ro`, do not
+create missing files or schemas, and reject writes in their direct APIs. Missing
+ledgers produce honest empty histories. Corrupt/schema-invalid or symbolic-link ledgers, WAL-mode
+database headers, and journal/WAL/SHM sidecars return an explicit unavailable
+error because opening those files cannot support this server's no-write claim.
+This guard assumes the ledger files remain stable between the header/sidecar
+check and SQLite open; it is not an absolute no-write proof against a concurrent
+external process changing journal mode. Concurrent-writer QA requires a separately
+reviewed isolated snapshot or filesystem enforcement.
+The verification browser script checks both the exact header and status field,
+with redirects disabled, before it launches Chromium.
+
 V1 remains the active model. The v2 registry, shadow status and anatomy-inspection payloads below are implemented; the matrix is paused at 13 completed jobs, eight user-cancelled temporal jobs and three unfinished whole-trial jobs. The completed decoder-only diagnostic and bounded stronger-L2 extension are separate CLI/artifact workflows; they do not change model pointers or resume the matrix. Their reports are linked from the guide/model card rather than being represented as a completed neural matrix run. Cancellation handling is implemented without rewriting the frozen protocol. Running-state desktop/mobile browser acceptance has passed. `/api/training` remains backward compatible for the original v1 report.
 
 ## GET /api/status
@@ -9,6 +40,8 @@ V1 remains the active model. The v2 registry, shadow status and anatomy-inspecti
 ```json
 {"app":"BET36FLY","mode":"paper","model_ready":true,"run_id":"20260910T...Z","runtime":"CPU","brain":{"neurons":166700,"edges":25582938,"contacts":124177617,"plastic_edges":61210},"training":{"status":"running|complete|failed|not_started","stage":"initial_full_brain","completed":20,"total":8000,"curve":[]},"refresh":{"status":"idle|running|complete|failed","message":"..."},"updated_at":"ISO UTC","sources":[{"name":"...","status":"fresh|stale|failed","fetched_at":"ISO","error":null}]}
 ```
+
+Normal mode omits `verification_mode`, `evidence_mode`, and `stored_run_id`.
 
 ## GET /api/games?sport=all|soccer|baseball
 
@@ -48,7 +81,7 @@ Runs the real checkpoint through the complete LIF graph and creates/idempotently
 
 ## GET /api/training
 
-`{"progress":{...},"report":null|Report}`. Report has `run_id,created_at,runtime,wall_seconds,brain,splits,training_method,selected_epoch,curve:[{"epoch":1,"train_loss":1.1,"validation_loss":1.2}],plasticity_curve:[same],plasticity:{changed_synapses,actual_changed_graph_edges,min_gain,max_gain,selected_epoch},metrics:{soccer:Metrics,baseball:Metrics},controls:{train_frequency_prior:{soccer:Metrics,baseball:Metrics},pregame_feature_logistic:{...},frozen_connectome_trained_readout:{...},shuffled_readout_labels_on_trained_wiring:{...},silenced_connectome_fixed_readout:{...}},neural_evidence:{...},limitations:[string]`. Metrics: `n,accuracy,log_loss,brier,ece,calibration:[{lower,n,confidence,accuracy}]`. Display train/validation curves, held-out score comparison table, split counts and plain scientific limitations. Do not imply improvement when baselines win. No fake training start button. The real CLI command can appear in Methods, not primary product flow.
+`{"progress":{...},"report":null|Report}`. Verification mode adds `verification_mode:true` and `evidence_mode:"stored-metadata-only"`. Report has `run_id,created_at,runtime,wall_seconds,brain,splits,training_method,selected_epoch,curve:[{"epoch":1,"train_loss":1.1,"validation_loss":1.2}],plasticity_curve:[same],plasticity:{changed_synapses,actual_changed_graph_edges,min_gain,max_gain,selected_epoch},metrics:{soccer:Metrics,baseball:Metrics},controls:{train_frequency_prior:{soccer:Metrics,baseball:Metrics},pregame_feature_logistic:{...},frozen_connectome_trained_readout:{...},shuffled_readout_labels_on_trained_wiring:{...},silenced_connectome_fixed_readout:{...}},neural_evidence:{...},limitations:[string]`. Metrics: `n,accuracy,log_loss,brier,ece,calibration:[{lower,n,confidence,accuracy}]`. Display train/validation curves, held-out score comparison table, split counts and plain scientific limitations. Do not imply improvement when baselines win. No fake training start button. The real CLI command can appear in Methods, not primary product flow.
 
 ## GET /api/experiments
 

@@ -36,6 +36,11 @@ function findGames(node: ReactNode): ReactElement<Parameters<typeof GamesView>[0
   if (element.type === GamesView) return element as ReactElement<Parameters<typeof GamesView>[0]>;
   for (const child of [element.props.children].flat(Infinity) as ReactNode[]) { const match = findGames(child); if (match) return match; }
 }
+function elements(node: ReactNode): ReactElement<{ children?: ReactNode; [key: string]: unknown }>[] {
+  if (!node || typeof node !== 'object' || !('type' in node)) return [];
+  const element = node as ReactElement<{ children?: ReactNode; [key: string]: unknown }>;
+  return [element, ...([element.props.children].flat(Infinity) as ReactNode[]).flatMap(elements)];
+}
 function renderGames() { host.cursor = 0; return findGames(App())!.props; }
 beforeEach(() => {
   host.state = []; host.cursor = 0; host.request.mockReset();
@@ -85,4 +90,37 @@ it('the fourth tab renders the real forward record and preserves the existing ro
   host.cursor = 0; visit(App());
   expect(components).toContain(DeskView);
   expect(components).not.toContain(GamesView);
+});
+
+it('shows verification mode and disables every neural or refresh mutation', async () => {
+  host.resources['/api/status'].data = {
+    model_ready: false,
+    verification_mode: true,
+    refresh: { status: 'disabled', message: 'Read-only verification; source refresh is disabled.' },
+  };
+  host.cursor = 0;
+  const tree = App();
+  const all = elements(tree);
+  const notice = all.find(element => element.props.className === 'notice verification-notice');
+  expect(notice).toBeDefined();
+  expect(JSON.stringify(notice?.props.children)).toContain('Read-only verification');
+  const refresh = all.find(element => element.type === 'button' && element.props.className === 'refresh');
+  expect(refresh?.props.disabled).toBe(true);
+  (refresh?.props.onClick as () => void)();
+  const games = findGames(tree)!;
+  expect(games.props.modelReady).toBe(false);
+  games.props.onPredict(game);
+  await Promise.resolve();
+  expect(host.request).not.toHaveBeenCalled();
+});
+
+it('keeps refresh disabled until server mode is known', async () => {
+  host.resources['/api/status'].data = null;
+  host.cursor = 0;
+  const all = elements(App());
+  const refresh = all.find(element => element.type === 'button' && element.props.className === 'refresh');
+  expect(refresh?.props.disabled).toBe(true);
+  (refresh?.props.onClick as () => void)();
+  await Promise.resolve();
+  expect(host.request).not.toHaveBeenCalled();
 });

@@ -1,0 +1,556 @@
+{
+  "checked_at": "2026-09-12T06:34:11.759Z",
+  "base": "http://127.0.0.1:50116",
+  "marker": {
+    "verification_mode": true,
+    "marker": "read-only"
+  },
+  "surfaces": [
+    {
+      "tab": "observatory",
+      "refresh_disabled": true,
+      "neural_controls": [
+        {
+          "label": "Watch brain for Nottingham Forest at Aston Villa",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Brentford at AFC Bournemouth",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Hull City at Chelsea",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Ipswich Town at Crystal Palace",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Fulham at Liverpool",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Everton at Tottenham Hotspur",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Colorado Rockies at Detroit Tigers",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for New York Mets at New York Yankees",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Pittsburgh Pirates at Chicago Cubs",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Arsenal at Sunderland",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Baltimore Orioles at Toronto Blue Jays",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Los Angeles Angels at Washington Nationals",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for San Diego Padres at San Francisco Giants",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Cleveland Guardians at Minnesota Twins",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Los Angeles Dodgers at Miami Marlins",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Kansas City Royals at Boston Red Sox",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Houston Astros at Tampa Bay Rays",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Cincinnati Reds at Milwaukee Brewers",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Chicago White Sox at St. Louis Cardinals",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Philadelphia Phillies at Atlanta Braves",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Texas Rangers at Arizona Diamondbacks",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Seattle Mariners at Athletics",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Brighton & Hove Albion at Coventry City",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Manchester City at Manchester United",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Colorado Rockies at Detroit Tigers",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Los Angeles Angels at Washington Nationals",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for New York Mets at New York Yankees",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Kansas City Royals at Boston Red Sox",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Philadelphia Phillies at Atlanta Braves",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Baltimore Orioles at Toronto Blue Jays",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Houston Astros at Tampa Bay Rays",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Los Angeles Dodgers at Miami Marlins",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Cleveland Guardians at Minnesota Twins",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Cincinnati Reds at Milwaukee Brewers",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Chicago White Sox at St. Louis Cardinals",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Pittsburgh Pirates at Chicago Cubs",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Seattle Mariners at Athletics",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Texas Rangers at Arizona Diamondbacks",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for San Diego Padres at San Francisco Giants",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Newcastle United at Leeds United",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Chicago White Sox at Cleveland Guardians",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Los Angeles Dodgers at Cincinnati Reds",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Detroit Tigers at Toronto Blue Jays",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Baltimore Orioles at New York Mets",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for New York Yankees at Minnesota Twins",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Atlanta Braves at Chicago Cubs",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for San Francisco Giants at St. Louis Cardinals",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for San Diego Padres at Colorado Rockies",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Seattle Mariners at Los Angeles Angels",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Miami Marlins at Arizona Diamondbacks",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Athletics at Tampa Bay Rays",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Milwaukee Brewers at Pittsburgh Pirates",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Chicago White Sox at Cleveland Guardians",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Los Angeles Dodgers at Cincinnati Reds",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Philadelphia Phillies at Washington Nationals",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Detroit Tigers at Toronto Blue Jays",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Baltimore Orioles at New York Mets",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for New York Yankees at Minnesota Twins",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Atlanta Braves at Chicago Cubs",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for San Francisco Giants at St. Louis Cardinals",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Boston Red Sox at Texas Rangers",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Kansas City Royals at Houston Astros",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for San Diego Padres at Colorado Rockies",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Seattle Mariners at Los Angeles Angels",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Miami Marlins at Arizona Diamondbacks",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Chicago White Sox at Cleveland Guardians",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for San Francisco Giants at St. Louis Cardinals",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for New York Yankees at Minnesota Twins",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Detroit Tigers at Toronto Blue Jays",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Athletics at Tampa Bay Rays",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Milwaukee Brewers at Pittsburgh Pirates",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Los Angeles Dodgers at Cincinnati Reds",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Philadelphia Phillies at Washington Nationals",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Baltimore Orioles at New York Mets",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Atlanta Braves at Chicago Cubs",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Boston Red Sox at Texas Rangers",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Kansas City Royals at Houston Astros",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for San Diego Padres at Colorado Rockies",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Seattle Mariners at Los Angeles Angels",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Miami Marlins at Arizona Diamondbacks",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Milwaukee Brewers at Pittsburgh Pirates",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Los Angeles Dodgers at Cincinnati Reds",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Athletics at Tampa Bay Rays",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for San Diego Padres at Colorado Rockies",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Philadelphia Phillies at New York Mets",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Kansas City Royals at Houston Astros",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Detroit Tigers at Chicago White Sox",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Boston Red Sox at Texas Rangers",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Minnesota Twins at Los Angeles Angels",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Chelsea at Brentford",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Kansas City Royals at Pittsburgh Pirates",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Chicago Cubs at Cincinnati Reds",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Milwaukee Brewers at Baltimore Orioles",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Boston Red Sox at Tampa Bay Rays",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Athletics at Cleveland Guardians",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Philadelphia Phillies at New York Mets",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Detroit Tigers at Chicago White Sox",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Toronto Blue Jays at Texas Rangers",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Atlanta Braves at Houston Astros",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Seattle Mariners at Colorado Rockies",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Washington Nationals at St. Louis Cardinals",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Minnesota Twins at Los Angeles Angels",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Miami Marlins at San Diego Padres",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for New York Yankees at Arizona Diamondbacks",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for San Francisco Giants at Los Angeles Dodgers",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Aston Villa at Tottenham Hotspur",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Arsenal at Brighton & Hove Albion",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Ipswich Town at Everton",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Hull City at Newcastle United",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Coventry City at Nottingham Forest",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Milwaukee Brewers at Baltimore Orioles",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Boston Red Sox at Tampa Bay Rays",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Philadelphia Phillies at New York Mets",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Athletics at Cleveland Guardians",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Kansas City Royals at Pittsburgh Pirates",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Chicago Cubs at Cincinnati Reds",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Toronto Blue Jays at Texas Rangers",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Atlanta Braves at Houston Astros",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Detroit Tigers at Chicago White Sox",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Washington Nationals at St. Louis Cardinals",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Seattle Mariners at Colorado Rockies",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for New York Yankees at Arizona Diamondbacks",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Miami Marlins at San Diego Padres",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for San Francisco Giants at Los Angeles Dodgers",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Minnesota Twins at Los Angeles Angels",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Liverpool at AFC Bournemouth",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Crystal Palace at Leeds United",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Sunderland at Manchester City",
+          "disabled": true
+        },
+        {
+          "label": "Watch brain for Manchester United at Fulham",
+          "disabled": true
+        }
+      ]
+    },
+    {
+      "tab": "desk",
+      "refresh_disabled": true,
+      "neural_controls": [
+        {
+          "label": "Run brain now",
+          "disabled": true
+        },
+        {
+          "label": "Watch this pick: Nottingham Forest at Aston Villa",
+          "disabled": true
+        },
+        {
+          "label": "Watch this pick: Brentford at AFC Bournemouth",
+          "disabled": true
+        },
+        {
+          "label": "Watch this pick: Hull City at Chelsea",
+          "disabled": true
+        }
+      ]
+    }
+  ],
+  "mutations": [],
+  "errors": []
+}

@@ -26,19 +26,22 @@ export default function App() {
   const training = useResource<Training>('/api/training', 6000);
   const ledger = useResource<Ledger>('/api/ledger', 12000);
   const desk = useResource<Desk>('/api/desk', 12000);
+  const verificationMode = status.data?.verification_mode === true;
   const refreshing = refreshRequested || status.data?.refresh.status === 'running';
-  const modelReady = status.data?.model_ready === true;
+  const modelReady = status.data?.model_ready === true && !verificationMode;
   useEffect(() => { const listener = () => setTab(initialTab()); window.addEventListener('hashchange', listener); return () => window.removeEventListener('hashchange', listener); }, []);
   useEffect(() => {
     if (status.data?.refresh.status === 'complete' || status.data?.refresh.status === 'failed') { void games.reload(); void ledger.reload(); void desk.reload(); }
   }, [status.data?.refresh.status, games.reload, ledger.reload, desk.reload]);
   async function refresh() {
+    if (verificationMode || !status.data) return;
     setRefreshRequested(true); setActionError('');
     try { await request('/api/refresh', { method: 'POST' }); await status.reload(); await Promise.all([games.reload(), ledger.reload(), desk.reload()]); }
     catch (error) { setActionError(error instanceof Error ? error.message : 'Refresh failed.'); }
     finally { setRefreshRequested(false); }
   }
   async function predict(game: Game) {
+    if (verificationMode) return;
     setBusyId(game.id); setActionError('');
     try { const result = await request<Inference>(`/api/predict/${encodeURIComponent(game.id)}`, { method: 'POST' }); setInference(result); if (window.innerWidth <= 720) requestAnimationFrame(() => document.querySelector(window.location.hash === '#desk' ? '.desk-neural' : '.brain-section')?.scrollIntoView({ behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth', block: 'start' })); await Promise.all([games.reload(), ledger.reload(), desk.reload()]); }
     catch (error) { setActionError(error instanceof Error ? error.message : 'Inference failed.'); }
@@ -46,8 +49,9 @@ export default function App() {
   }
   const report = training.data?.report;
   const sources = games.data?.sources?.length ? games.data.sources : status.data?.sources || [];
-  return <><a className="skip-link" href="#content">Skip to content</a><header className="header"><a className="brand" href="#observatory" aria-label="BET36FLY observatory">BET<span>36</span>FLY</a><div className="brand-description">Fruit fly connectome<br/>sports experiment</div><nav aria-label="Main navigation">{([{ id: 'observatory', name: 'Observatory' }, { id: 'training', name: 'Training' }, { id: 'ledger', name: 'Pick ledger' }, { id: 'desk', name: 'Fly’s desk' }] as const).map(item => <a key={item.id} href={`#${item.id}`} aria-current={tab === item.id ? 'page' : undefined}>{item.name}</a>)}</nav><div className="header-actions"><span className="paper"><i/>Paper mode</span><button className="refresh" disabled={refreshing} onClick={() => void refresh()}><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6v5h-5M20 11a8 8 0 1 0-1 6M20 6l-2 2"/></svg>{refreshing ? 'Refreshing…' : 'Refresh games'}</button></div><time className="updated" dateTime={status.data?.updated_at}>{status.data?.updated_at ? date(status.data.updated_at) : 'Connecting…'}</time></header>
+  return <><a className="skip-link" href="#content">Skip to content</a><header className="header"><a className="brand" href="#observatory" aria-label="BET36FLY observatory">BET<span>36</span>FLY</a><div className="brand-description">Fruit fly connectome<br/>sports experiment</div><nav aria-label="Main navigation">{([{ id: 'observatory', name: 'Observatory' }, { id: 'training', name: 'Training' }, { id: 'ledger', name: 'Pick ledger' }, { id: 'desk', name: 'Fly’s desk' }] as const).map(item => <a key={item.id} href={`#${item.id}`} aria-current={tab === item.id ? 'page' : undefined}>{item.name}</a>)}</nav><div className="header-actions"><span className="paper"><i/>Paper mode</span><button className="refresh" disabled={refreshing || verificationMode || !status.data} onClick={() => void refresh()}><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6v5h-5M20 11a8 8 0 1 0-1 6M20 6l-2 2"/></svg>{refreshing ? 'Refreshing…' : 'Refresh games'}</button></div><time className="updated" dateTime={status.data?.updated_at}>{status.data?.updated_at ? date(status.data.updated_at) : 'Connecting…'}</time></header>
     <main id="content">
+      {verificationMode && <p className="notice verification-notice" role="status"><strong>Read-only verification</strong> · Viewing stored evidence only. Source refresh and neural inference are disabled.</p>}
       {status.error && <div className="error" role="alert">{status.data ? 'Connection interrupted. Displayed data may be stale. ' : 'Cannot connect to the experiment. '}{status.error}<button className="small" onClick={() => { void status.reload(); void games.reload(); void training.reload(); void ledger.reload(); void desk.reload(); }}>Reconnect</button></div>}
       {actionError && <div className="error" role="alert">{actionError}<button className="small" onClick={() => setActionError('')}>Dismiss</button></div>}
       {(refreshing || status.data?.refresh.status === 'failed') && <p className={refreshing ? 'notice' : 'error'} role="status">{status.data?.refresh.message || (refreshing ? 'Refreshing public schedules and computing paper picks…' : 'Game refresh failed. Please retry.')}</p>}

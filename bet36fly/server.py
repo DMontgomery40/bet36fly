@@ -15,6 +15,7 @@ from starlette.middleware.trustedhost import TrustedHostMiddleware
 
 from .connectome import ROOT
 from .runtime import Runtime, read_json
+from .ledger import ReadOnlyDatabaseError
 from .experiments import list_experiments, read_experiment, resolve_artifact
 from .reward_diagnostic import EVIDENCE_NOTE, list_diagnostics, read_diagnostic
 
@@ -34,59 +35,85 @@ def follow_sources(runtime, stop, interval_seconds=900):
         stop.wait(10)
 
 
-def create_app(root=ROOT, warm_on_start=True):
+def create_app(root=ROOT, warm_on_start=True, *, read_only=False):
     root = Path(root)
-    runtime = Runtime(root)
     stop = threading.Event()
+    runtime_lock = threading.Lock()
+
+    def get_runtime():
+        runtime = getattr(app.state, 'runtime', None)
+        if runtime is None:
+            with runtime_lock:
+                runtime = getattr(app.state, 'runtime', None)
+                if runtime is None:
+                    runtime = Runtime(root, read_only=read_only)
+                    app.state.runtime = runtime
+        return runtime
 
     @asynccontextmanager
     async def lifespan(app):
-        if warm_on_start:
+        runtime = get_runtime()
+        if warm_on_start and not read_only:
             threading.Thread(target=follow_sources, args=(runtime, stop), daemon=True,
                              name='public-source-followup').start()
         yield
         stop.set()
 
     app = FastAPI(title='BET36FLY', version='0.1.0', lifespan=lifespan)
-    app.state.runtime = runtime
+    app.state.get_runtime = get_runtime
+    app.state.verification_mode = read_only
     app.add_middleware(TrustedHostMiddleware, allowed_hosts=['127.0.0.1', 'localhost', 'testserver'])
+
+    @app.exception_handler(ReadOnlyDatabaseError)
+    async def read_only_database_unavailable(_request: Request, exc: ReadOnlyDatabaseError):
+        return JSONResponse({'detail': str(exc)}, status_code=503)
 
     @app.middleware('http')
     async def local_mutations(request: Request, call_next):
-        origin = request.headers.get('origin')
-        if request.method not in ('GET', 'HEAD', 'OPTIONS') and origin:
-            parsed = urlparse(origin)
-            if parsed.scheme not in ('http', 'https') or parsed.netloc != request.headers.get('host'):
-                return JSONResponse({'detail': 'Only this local app can request neural work.'}, status_code=403)
-        response = await call_next(request)
+        if read_only and request.method not in ('GET', 'HEAD', 'OPTIONS'):
+            response = JSONResponse({'detail': 'Verification mode is read-only.'}, status_code=405)
+            response.headers['Allow'] = 'GET, HEAD, OPTIONS'
+        else:
+            origin = request.headers.get('origin')
+            if request.method not in ('GET', 'HEAD', 'OPTIONS') and origin:
+                parsed = urlparse(origin)
+                if parsed.scheme not in ('http', 'https') or parsed.netloc != request.headers.get('host'):
+                    response = JSONResponse({'detail': 'Only this local app can request neural work.'}, status_code=403)
+                else:
+                    response = await call_next(request)
+            else:
+                response = await call_next(request)
         if request.url.path.startswith('/api/'):
             response.headers['Cache-Control'] = 'no-store'
+        if read_only:
+            response.headers['X-BET36FLY-Verification'] = 'read-only'
         response.headers['X-Content-Type-Options'] = 'nosniff'
         return response
 
     @app.get('/api/status')
     def status():
         try:
-            return runtime.status()
+            return get_runtime().status()
         except (ValueError, OSError) as exc:
             raise HTTPException(503, str(exc)) from exc
 
     @app.get('/api/games')
     def games(sport: Literal['all', 'soccer', 'baseball'] = 'all'):
+        runtime = get_runtime()
         return {'games': runtime.games(sport), 'updated_at': runtime.snapshot['updated_at'],
                 'sources': runtime.sources()}
 
     @app.get('/api/brain')
     def brain():
         try:
-            return runtime.get_geometry()
+            return get_runtime().get_geometry()
         except FileNotFoundError as exc:
             raise HTTPException(503, 'Official connectome data has not been prepared yet.') from exc
 
     @app.post('/api/predict/{game_id}')
     def predict(game_id: str):
         try:
-            return runtime.predict(game_id)
+            return get_runtime().predict(game_id)
         except LookupError as exc:
             raise HTTPException(404, str(exc)) from exc
         except (RuntimeError, ValueError) as exc:
@@ -94,13 +121,14 @@ def create_app(root=ROOT, warm_on_start=True):
 
     @app.get('/api/training')
     def training():
-        runtime.ensure_model()
-        return {'progress': read_json(root / 'output/training-progress.json',
-                                      {'status': 'not_started', 'stage': 'not_started'}),
-                'report': runtime.report}
+        try:
+            return get_runtime().training_payload()
+        except (ValueError, OSError) as exc:
+            raise HTTPException(503, str(exc)) from exc
 
     @app.get('/api/experiments')
     def experiments():
+        runtime = get_runtime()
         return {'experiments': list_experiments(root / 'output/experiments'),
                 'active_v1': read_json(root / 'output/current-model.json', None),
                 'prospective': runtime.shadow.status()}
@@ -108,6 +136,7 @@ def create_app(root=ROOT, warm_on_start=True):
     @app.get('/api/experiments/{experiment_id}')
     def experiment_detail(experiment_id: str):
         try:
+            runtime = get_runtime()
             return dict(read_experiment(root / 'output/experiments', experiment_id),
                         prospective=runtime.shadow.status())
         except (ValueError, OSError) as exc:
@@ -134,20 +163,23 @@ def create_app(root=ROOT, warm_on_start=True):
 
     @app.get('/api/ledger')
     def ledger():
+        runtime = get_runtime()
         picks = runtime.ledger.all()
         return {'picks': picks, 'count': len(picks)}
 
     @app.get('/api/ledger/export')
     def export():
+        runtime = get_runtime()
         return Response(runtime.ledger.export_csv(), media_type='text/csv',
                         headers={'Content-Disposition': 'attachment; filename="bet36fly-paper-picks.csv"'})
 
     @app.get('/api/desk')
     def desk(sport: Literal['all', 'soccer', 'baseball'] = 'all'):
-        return runtime.desk(sport)
+        return get_runtime().desk(sport)
 
     @app.post('/api/refresh')
     def refresh():
+        runtime = get_runtime()
         if not runtime.refresh():
             raise HTTPException(409, 'A fixture refresh is already running.')
         return {'status': 'running'}
@@ -173,6 +205,11 @@ def create_app(root=ROOT, warm_on_start=True):
                             'The spectator frontend has not been built yet.</p>', status_code=503)
 
     return app
+
+
+def create_verification_app(root=ROOT):
+    """Build the explicit read-only QA application without import-time work."""
+    return create_app(root=root, warm_on_start=False, read_only=True)
 
 
 app = create_app()

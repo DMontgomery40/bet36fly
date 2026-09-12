@@ -28,6 +28,6 @@ A backend change is not complete until the frontend reflects it. Trace each chan
 
 ## Verification and git
 
-- `make verify` runs pytest, Ruff, vitest and the vite build. Rebuild `web` before any browser check. The reward-panel browser check is `scripts/verify_reward_browser.cjs` (Playwright).
+- `make verify` runs pytest, Ruff, vitest and the vite build. Rebuild `web` before any browser check. Start QA with `make serve-verify`; the reward-panel browser check is `scripts/verify_reward_browser.cjs` (Playwright) and refuses an unmarked normal server before launching Chromium.
 - State what ran, what passed and what is unverified when finishing.
 - Commit locally on the working branch. David decides when to push.

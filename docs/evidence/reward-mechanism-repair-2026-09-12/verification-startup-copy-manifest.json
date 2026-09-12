@@ -1,0 +1,70 @@
+{
+  "copied_at": "2026-09-12T06:35:40.174556+00:00",
+  "copies": [
+    {
+      "source": ".superpowers/sdd/2026-09-12-reward-mechanism-repair/task-4a-report.md",
+      "copy": "verification-startup-implementation-report.md",
+      "bytes": 4583,
+      "sha256": "3b83323bef2c199cb568aaa2872155c948a80b488fa51bb63c86a2e6c9edb803"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/task4a-verify.txt",
+      "copy": "verification-startup-verify.txt",
+      "bytes": 2763,
+      "sha256": "7c25b2a7d8683a44d03584b1bc9f78c628ca1fab502d646ef26453bc3026a236"
+    },
+    {
+      "source": "output/browser/reward-mechanism-task4a/bet36fly-reward-browser-evidence.json",
+      "copy": "verification-startup-browser.json",
+      "bytes": 3574,
+      "sha256": "ccef280c02b2a6b3ffd145c2c6885a98088c5e5ad9450b6cec1f853101be6891"
+    },
+    {
+      "source": "output/browser/reward-mechanism-task4a/read-only-controls.json",
+      "copy": "verification-startup-controls.json",
+      "bytes": 16589,
+      "sha256": "31e36db66e688f1d4b96df5eb9cd767ebdfb88e1c890db94a6c65c40a49149aa"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/task4a-qa-before.json",
+      "copy": "verification-startup-file-baseline.json",
+      "bytes": 230156,
+      "sha256": "515a9ab46e2f23b388f1b29b281708d32267bf246b3b76fd510c064d2c467687"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/task4a-qa-after-requests.json",
+      "copy": "verification-startup-files-after-requests.json",
+      "bytes": 281,
+      "sha256": "41ec8abba0d3ea5938a97a79d4d25bfc701a24921d6c56e2c49fc9fe3b003d37"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/task4a-qa-after-shutdown.json",
+      "copy": "verification-startup-files-after-shutdown.json",
+      "bytes": 281,
+      "sha256": "3042272c6500c13640b576d85119ffad97ed4a9c862dc304ac4c906c7d1032ac"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/verify_qa_files.py",
+      "copy": "verify_qa_files.py",
+      "bytes": 2951,
+      "sha256": "e6f98fd05b728a5edaa5a4a3a652be9a08da1f8714b27eaaff0d0e3ca8dd8dfa"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/verify_readonly_ui.cjs",
+      "copy": "verify_readonly_ui.cjs",
+      "bytes": 2276,
+      "sha256": "54448457162712ac19862c5cab86b32e7764b07c28f4ef9037241843ac3f892a"
+    }
+  ],
+  "copy_not_cut": true,
+  "qa_server": {
+    "factory": "bet36fly.server:create_verification_app",
+    "host": "127.0.0.1",
+    "requested_port": 0,
+    "bound_port": 50116,
+    "process_id": 57842,
+    "shutdown_exit_code": 0,
+    "bytecode_writes_disabled": true
+  },
+  "scope": "Task4A safe startup and historical UI behavior, not mechanism qualification or conditioning."
+}
