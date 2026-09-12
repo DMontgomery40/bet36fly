@@ -86,3 +86,34 @@ def test_plastic_mapping_uses_only_existing_kc_to_declared_mbon_edges():
     np.testing.assert_array_equal(compartments, [0, 1, 0])
     with pytest.raises(ValueError):
         plastic_mapping(ptr, post, np.array([0, 1]), [np.array([2]), np.array([2])])
+
+
+# --- Stage C: away-side eligibility mask from verified KC type labels ---
+
+from bet36fly.reward_protocol import eligibility_mask  # noqa: E402
+
+
+def test_gamma_policy_restricts_away_to_gamma_kcs_and_never_filters_home():
+    kc_types = np.array(['KCg-m', "KCa'b'-ap1", 'KCab-s', '', 'KCg-d'])
+    plastic_kc = np.array([0, 1, 2, 3, 4, 0, 1, 3])
+    compartments = np.array([1, 1, 1, 1, 1, 0, 0, 0])
+
+    mask, audit = eligibility_mask(kc_types, plastic_kc, compartments, away_policy='gamma')
+
+    np.testing.assert_array_equal(mask, [1, 0, 0, 0, 1, 1, 1, 1])
+    assert mask.dtype == np.uint8
+    assert audit['away'] == {'policy': 'gamma', 'eligible_edges': 2, 'excluded_edges': 3,
+                             'by_class': {'gamma': 2, 'apbp': 1, 'ab': 1, 'other': 1}, 'ambiguous_labels': ['']}
+    assert audit['home'] == {'policy': 'all', 'eligible_edges': 3, 'excluded_edges': 0,
+                             'by_class': {'gamma': 1, 'apbp': 1, 'ab': 0, 'other': 1}, 'ambiguous_labels': ['']}
+
+
+def test_all_policy_keeps_every_edge_and_unknown_policy_is_rejected():
+    kc_types = np.array(['KCg-m', "KCa'b'-ap1"])
+    mask, audit = eligibility_mask(kc_types, np.array([0, 1]), np.array([1, 1]), away_policy='all')
+    np.testing.assert_array_equal(mask, [1, 1])
+    assert audit['away']['excluded_edges'] == 0
+    with pytest.raises(ValueError):
+        eligibility_mask(kc_types, np.array([0, 1]), np.array([1, 1]), away_policy='alpha')
+    with pytest.raises(ValueError):
+        eligibility_mask(kc_types, np.array([0, 5]), np.array([1, 1]), away_policy='gamma')

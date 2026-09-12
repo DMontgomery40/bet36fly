@@ -72,6 +72,37 @@ Final `comparison` entries contain `variant`, `sport`, `split`, `seeds:[Metrics 
 
 The existing Training tab renders this tracker before the archived v1 report. It polls every five seconds while any job is running and thirty seconds otherwise, preserving the last loaded data on a fetch failure. Run selection exposes measured curves/checkpoints/activity, failure text and downloads. Sport and split selectors label January–August 2026 **Historical development benchmark**. Validation alone chooses the shadow candidate.
 
+## GET /api/reward-diagnostics
+
+Read-only registry of the stored reward-rule diagnostic panels written by
+`scripts/reward_teaching_diagnostic.py` under `output/diagnostics/<run_id>/`.
+Returns `diagnostics[]` newest first (by `created_at`) and `evidence_note`
+(`docs/evidence/reward-repair-phase1.md`). Each entry carries `run_id`, `rule`
+(`legacy` or `candidate`), `dan_reference`, `away_plasticity_mask`,
+`created_at`, `panel_complete`, `panel_note`, `all_passed`, `criteria` (name to
+boolean for `teaching_specific`, `untaught_guard`, `cross_compartment`,
+`no_bound_hits`, `cumulative`, `bit_identical_repeat`,
+`sensory_noise_invariance`), `untaught_guard` and `teaching_specific`
+per-seed-set evaluations (`mean`, `sd`, `limit`, `passed`; `mean_effect`,
+`mean_untaught`, `required_magnitude`, `passed`), `has_attribution`,
+`native_binary_sha256`, `source_unchanged_during_run`, `plastic_edges` and
+`eligible_edges`. Directories with an unreadable or mismatched `summary.json`
+are skipped. An absent or empty directory yields an empty list. A run whose
+`panel_complete` is false is a debug panel and can never be a gate result;
+`null` means the run predates that field (completeness not recorded). For runs
+written before schema 4, `dan_reference` is implied by the rule (`legacy` =
+`tonic-baseline`, `candidate` = `none`) and an absent mask field is reported
+as `all`.
+
+## GET /api/reward-diagnostics/{run_id}
+
+`summary` is the full stored `summary.json` (identity, anatomy, criteria with
+every game and seed set, per-trial rows and phase terms, cumulative rows) and
+`attribution` is `attribution.json` when present, otherwise `null`. Unknown,
+malformed or escaping identifiers return 404. The raw `trials.npz` arrays are
+never served. These panels are development diagnostics of the learning
+mechanism, not sports results; a failed criterion is reported as failed.
+
 ## GET /api/experiments/{experiment_id}
 
 The same read-only registry also serves schema-3 manifests with
@@ -95,8 +126,18 @@ names the encoder and `reward.anatomy` adds `kc_input_gain`,
 (`glomeruli`, `centers_per_feature`, `center_span`, `floor_fraction`,
 `ports_driven`, `ports_total`, `eligible_transmitter`, `min_kc_contacts`,
 `dropped_glomeruli`, `peak_hz`, `tuning_width` and per-feature `features[]`
-with `glomeruli[] {type, center, cells, kc_contacts}`). Missing evidence remains
-unavailable.
+with `glomeruli[] {type, center, cells, kc_contacts}`). Schema-4 protocols add
+`dan_reference` (`none`: the raw compartment-mean DAN spike count enters both
+rule terms; `tonic-baseline`: the schema-2/3 subtraction, kept for comparison)
+and `away_plasticity_mask` (`all` or `gamma`); `reward.rule` names the
+implemented rule (`event-biphasic-kc-dan-raw-v3` or
+`event-biphasic-kc-dan-phasic-v2`), `reward.dan_reference` and
+`reward.away_plasticity_mask` echo the protocol, `reward.anatomy.dan_reference`
+records the engine mode, `reward.anatomy.plasticity_mask` holds a `home` and an
+`away` audit (`policy`, `eligible_edges`, `excluded_edges`, `by_class {gamma,
+apbp, ab, other}`, `ambiguous_labels[]`) and each compartment adds
+`eligible_edges`. `tonic_dan_hz` is measured in both modes and subtracted only
+under `tonic-baseline`. Missing evidence remains unavailable.
 
 Reward jobs use `paired|shuffled|frozen` variants and `queued|running|complete|failed|budget_stopped`
 statuses. Progress counts training plus evaluation trials. Completed jobs carry

@@ -1,15 +1,16 @@
 const { chromium } = require('playwright');
 const fs = require('fs'), assert = require('assert/strict'), crypto = require('crypto'), path = require('path');
 const output = path.resolve(process.argv[2] || 'output/browser/reward-v3');
+const base = process.env.BET36FLY_BASE_URL || 'http://127.0.0.1:8765';
 fs.mkdirSync(output, {recursive:true});
 (async () => {
  const browser = await chromium.launch({headless:true});
  const page = await browser.newPage({viewport:{width:1440,height:1100}});
  const errors=[];page.on('pageerror',e=>errors.push(e.message));
- await page.goto('http://127.0.0.1:8765/#training');
+ await page.goto(base+'/#training');
  const panel=page.getByRole('region',{name:'On-circuit reward learning experiments'});
  await panel.getByText('Common-seed input discrimination',{exact:true}).waitFor();
- const state=await page.request.get('http://127.0.0.1:8765/api/experiments').then(r=>r.json());
+ const state=await page.request.get(base+'/api/experiments').then(r=>r.json());
  const rewards=state.experiments.filter(x=>x.kind==='dopamine-association');
  const completed=rewards.filter(x=>x.status==='complete');
  const reward=completed[completed.length-1];
@@ -57,7 +58,7 @@ fs.mkdirSync(output, {recursive:true});
  await panel.getByRole('region',{name:'Selected reward arm details'}).screenshot({path:path.join(output,'bet36fly-reward-arm.png')});
  const downloads=[];
  for(const artifact of Object.values(reward.artifacts)) {
-  const response=await page.request.get('http://127.0.0.1:8765'+artifact.url);
+  const response=await page.request.get(base+artifact.url);
   assert.equal(response.status(),200);
   const content=await response.body();
   assert.equal(crypto.createHash('sha256').update(content).digest('hex'),artifact.sha256);
@@ -92,7 +93,7 @@ fs.mkdirSync(output, {recursive:true});
    }
    await route.fulfill({status:200,contentType:'application/json',body:JSON.stringify(data)});
   });
-  await test.goto('http://127.0.0.1:8765/#training',{waitUntil:'domcontentloaded'});
+  await test.goto(base+'/#training',{waitUntil:'domcontentloaded'});
   const area=test.getByRole('region',{name:'On-circuit reward learning experiments'});
   const wanted=mode==='loading'?'Loading reward experiment registry…':mode==='empty'?'No dopamine-association experiment has started.':mode==='error'?'Browser acceptance simulated registry failure':'Browser acceptance fixture: '+mode;
   await area.getByText(wanted,{exact:false}).first().waitFor();
@@ -100,6 +101,37 @@ fs.mkdirSync(output, {recursive:true});
   scenarios.push({mode,verified:true,source:'isolated browser response fixture'});
   await test.close();
  }
+ // No schema-4 sports run exists. Exercise the integrated raw/mask display with
+ // an explicitly labeled response fixture, never by inventing a saved result.
+ const candidate=await browser.newPage({viewport:{width:1440,height:1100}});
+ candidate.on('pageerror',e=>errors.push('raw-gamma: '+e.message));
+ await candidate.route('**/api/experiments',async route=>{
+  const data=JSON.parse(JSON.stringify(state));
+  data.experiments=data.experiments.filter(x=>x.kind!=='dopamine-association'||x.id===reward.id);
+  const exp=data.experiments.find(x=>x.id===reward.id);
+  exp.status='incomplete';
+  exp.protocol.dan_reference='none'; exp.protocol.away_plasticity_mask='gamma';
+  exp.reward.rule='raw-event-biphasic-kc-dan (browser fixture)';
+  exp.reward.scope='Browser response fixture only';
+  exp.reward.note='Synthetic display coverage; no candidate learning result is recorded.';
+  delete exp.reward.activity_gate; delete exp.reward.fixed_readout; delete exp.reward.prior_metrics;
+  exp.reward.anatomy.plasticity_mask={
+   home:{policy:'all',eligible_edges:4184,excluded_edges:0,by_class:{gamma:0,apbp:0,ab:0,other:0}},
+   away:{policy:'gamma',eligible_edges:3239,excluded_edges:1443,by_class:{gamma:3239,apbp:1443,ab:0,other:0}},
+  };
+  exp.reward.outcome={status:'incomplete',message:'Browser response fixture only: raw-D/gamma display, no measured candidate result.'};
+  exp.jobs=[]; exp.artifacts={};
+  await route.fulfill({status:200,contentType:'application/json',body:JSON.stringify(data)});
+ });
+ await candidate.goto(base+'/#training');
+ const candidatePanel=candidate.getByRole('region',{name:'On-circuit reward learning experiments'});
+ await candidatePanel.getByText('Raw dopamine drive (schema 4):',{exact:true}).waitFor();
+ const candidateText=await candidatePanel.innerText();
+ for(const wanted of ['event-based approximation','Away eligibility mask (gamma)','3,239 of 4,682','Home is not filtered (4,184 of 4,184)','excluded edges keep transmitting','Browser response fixture only']) assert.ok(candidateText.includes(wanted),`raw/gamma fixture lacks: ${wanted}`);
+ assert.ok(!candidateText.includes('tonic firing carries no teaching'));
+ await candidatePanel.screenshot({path:path.join(output,'bet36fly-reward-raw-gamma-fixture.png')});
+ scenarios.push({mode:'raw-gamma',verified:true,source:'isolated browser response fixture; no measured candidate result'});
+ await candidate.close();
  assert.deepEqual(errors,[]);
  const evidence={checked_at:new Date().toISOString(),url:page.url(),experiment:reward.id,status:reward.status,encoder:reward.protocol.encoder,gate_status:reward.reward.activity_gate.status,gated_experiment:gated.id,gated_status:gated.status,gate_message:gated.reward.activity_gate.message,active_v1:state.active_v1.run_id,v2_status:v2.status,v2_jobs:v2.jobs.reduce((a,j)=>(a[j.status]=(a[j.status]||0)+1,a),{}),arms,downloads,scenarios,desktop:{width:1440,height:1100},mobile:{width:390,height:844,horizontal_page_overflow:false,tested_widths:widths},errors,screenshots:[path.join(output,'bet36fly-reward-gate-passed.png'),path.join(output,'bet36fly-reward-gate-failed.png'),path.join(output,'bet36fly-reward-desktop.png'),path.join(output,'bet36fly-reward-arm.png'),path.join(output,'bet36fly-reward-mobile.png'),path.join(output,'bet36fly-reward-mobile-arm.png')]};
  fs.writeFileSync(path.join(output,'bet36fly-reward-browser-evidence.json'),JSON.stringify(evidence,null,2));

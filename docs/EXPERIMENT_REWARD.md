@@ -1,11 +1,16 @@
 # On-circuit dopamine-association experiment
 
-**Status checked September 12, 2026 UTC:** this document describes the schema-3
-implementation in the working checkout. The separate repair worktree contains
-raw-D and gamma-mask options, but its untaught-home guard (SCI-001) still fails.
+**Status checked September 12, 2026 UTC:** the working checkout now includes the retained phase-1
+raw-D and gamma-mask options. Their historical untaught-home guard (SCI-001) still
+fails; the refractory input repair below has not established a scientific pass.
 Read the [current reassessment](../wiki/reassessment.md), [cell atlas](../wiki/cells/index.md)
 and [preserved repair evidence](evidence/reassessment-2026-09-12/index.md).
 The later four-arm handoff is a specification, not a completed repaired pilot.
+`configs/reward-v4-candidate.json` is a historical, unrun candidate with the old
+three-arm/all-away-input protocol; it is not approved for execution.
+The reward kernel now rejects instantaneous input during target refractory;
+[the exact timing contract and regression scope](evidence/reward-refractory-contract-2026-09-12.md)
+distinguish this correction from the unchanged historical v1 behavior.
 
 This separate experiment adds learning inside the full 166,700-neuron MaleCNS
 graph. It uses 4,064 Kenyon cells, 24 selected dopamine neurons and 8,866 existing
@@ -24,7 +29,18 @@ inspired by mushroom-body learning research. Receptor-dependent chemistry,
 precise synaptic compartment localization and biological reward-prediction error
 are not reconstructed. [Detailed design and native contract](superpowers/specs/2026-09-11-dopamine-learning-design.md).
 
-The dopamine drive in the rule is phasic (schema 2). Each trial, plasticity and
+The integrated phase-1 candidate adds raw compartment-mean DAN spikes
+(`dan_reference: none`) and immutable anatomical eligibility masks. Its per-step
+rule is `eta * (Dbar_c * K_j - Kbar_j * D_c)`, with exponential traces excluding
+the current step. KC before DAN depresses, DAN before KC potentiates, and isolated
+same-step pairs are neutral. This is an event-based approximation to the inspected
+Jiang and Litwin-Kumar rate rule, not an established spike-to-rate equivalence.
+The tonic rate remains reported but is not subtracted. Removing that subtraction
+removes its signed-reference contribution; residual untaught-home depression
+still fails SCI-001. [Preserved phase-1 evidence](evidence/reward-repair-phase1.md).
+
+Schemas 2 and 3 use a signed phasic dopamine proxy (`dan_reference: tonic-baseline`),
+still selectable for historical comparison. Each trial, plasticity and
 its eligibility traces start at a declared onset (100 ms). The 50 ms window that
 ends at the onset measures each compartment's tonic DAN rate, and that rate is
 subtracted from the DAN population signal in both rule terms. This signed proxy
@@ -97,16 +113,47 @@ response-to-label coefficient optimization. True-outcome teaching is compared
 with shuffled teaching, frozen gains, and the prior. The data and single seed
 make this a development experiment; it cannot establish a bookmaker edge.
 
+Plasticity eligibility (schema 4, `away_plasticity_mask`) is a per-edge mask
+built from the released KC type labels. Under `gamma` the PAM12 / MBON09
+channel updates only edges from gamma Kenyon cells (the documented compartment
+approximation for gamma3); excluded alpha-prime/beta-prime and alpha/beta edges
+keep transmitting at their current gain and never update. Home is never
+filtered, because MBON11 receives substantial alpha/beta and
+alpha-prime/beta-prime input. The audit of edge counts by class is recorded in
+the anatomy. The current default is `all`; the gamma restriction is a separate,
+separately identified change, verified on the diagnostic panel (excluded edges
+never update, transmission identical, gamma updates identical to the unmasked
+run; numbers in the evidence note).
+
+**Mechanism status (2026-09-11, phase 1 of the reward repair).** On the frozen
+diagnostic panel (8 calibration games, two seed sets, frozen / untaught /
+home-taught / away-taught from blank gains; criteria predeclared before the
+candidate ran) the schema-4 rule passed six of seven criteria: teaching-specific
+effects of about -2.3 (home) and -3.6 (away) gain-sum per taught trial against
+untaught changes of -0.29 (home) and exactly 0 (away); no cross-compartment
+leak; no bound hits; bounded cumulative untaught change; bit-identical repeats;
+identical sensory noise across conditions. The untaught operational guard
+failed on home: the small untaught change is consistently negative (14 of 16
+trials). Its recorded terms place half of it in the 10 ms after stimulus offset
+(residual PPL101 firing against still-high KC eligibility, reproduced from the
+recorded per-step eligibility mass and DAN events) and half in the later part of
+the stimulus, where the two rule terms cancel to a few percent; a direct KC to PPL101 pathway in the graph
+(24,068 contacts) is a candidate explanation consistent with the observed lag
+asymmetry, not an established cause. This is an open finding (SCI-001) under
+review; conditioning, reversal and readout centering have not been run.
+Evidence: `docs/evidence/reward-repair-phase1.md`.
+
 Open **Training → On-circuit reward learning**. Inspect each arm's progress,
 scores, confusion table, gain curve, DAN response and downloads. The active v1
 identity and original v2 tracker remain visible. The API reads saved manifests;
 the UI has no training, activation or promotion button.
 
-From the repository root, the reproducible entry point is:
+The historical candidate configuration is retained for provenance only. Do not
+execute `configs/reward-v4-candidate.json`: its three-arm protocol and all-input
+away default predate the accepted gamma restriction and later four-arm handoff.
 
-```sh
-.venv/bin/python -m bet36fly.reward_experiment --protocol configs/reward-v3-pilot.json
-```
+`configs/reward-v3-pilot.json` is the historical schema-3 protocol; the runner
+now requires schema 4, and no schema-4 sports pilot has been run.
 
 A matching experiment identity cannot be resumed or rerun automatically. The 900-second
 budget is checked before and after native trials and before success. A native

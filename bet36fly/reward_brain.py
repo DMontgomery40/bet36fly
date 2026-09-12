@@ -20,6 +20,10 @@ from .connectome import ROOT
 _BUILD_LOCK = threading.Lock()
 _MAX_SCHEDULE_VALUES = 50_000_000
 _MAX_TRACE_VALUES = 50_000_000
+SIGNAL_WIDTH, KC_SIGNAL_WIDTH, RULE_WIDTH = 4, 2, 7
+# 'none': the candidate rule, raw compartment-mean DAN spikes in both terms (upstream form).
+# 'tonic-baseline': the schema-2/3 legacy rule, tonic rate over dan_baseline_window_ms subtracted.
+DAN_REFERENCE_MODES = {'none': 0, 'tonic-baseline': 1}
 
 
 def _native_library():
@@ -41,6 +45,8 @@ def _native_library():
     i32 = np.ctypeslib.ndpointer(dtype=np.int32, flags='C_CONTIGUOUS')
     i64 = np.ctypeslib.ndpointer(dtype=np.int64, flags='C_CONTIGUOUS')
     f32 = np.ctypeslib.ndpointer(dtype=np.float32, flags='C_CONTIGUOUS')
+    f64 = np.ctypeslib.ndpointer(dtype=np.float64, flags='C_CONTIGUOUS')
+    u8 = np.ctypeslib.ndpointer(dtype=np.uint8, flags='C_CONTIGUOUS')
     lib.simulate_reward.argtypes = [
         ctypes.c_int, i64, i32, f32, ctypes.c_int, i32, f32, ctypes.c_int,
         ctypes.c_int, ctypes.c_float, ctypes.c_uint64, ctypes.c_int, i32,
@@ -49,6 +55,8 @@ def _native_library():
         ctypes.c_int, ctypes.c_int, f32,
         ctypes.c_int, i32, i32, ctypes.c_int, i32, ctypes.c_int,
         i32, f32, i32, i32, i32, i32,
+        ctypes.c_int, ctypes.c_int, i32, f64, f64, f64, f32,
+        ctypes.c_int, u8, f32, f32,
     ]
     lib.simulate_reward.restype = ctypes.c_int
     return lib
@@ -87,6 +95,8 @@ class RewardEngine:
         gains=None,
         plasticity_onset_ms=0.0,
         dan_baseline_window_ms=0.0,
+        dan_reference='none',
+        plastic_mask=None,
     ):
         self.ptr = _integer_array(ptr, np.int64, 'ptr')
         self.post = _integer_array(post, np.int32, 'post')
@@ -111,6 +121,8 @@ class RewardEngine:
         native_float_values = np.array([tau_ms, learning_rate, *bounds.ravel()], dtype=np.float64)
         native_float_limit = np.finfo(np.float32).max
         native_float_floor = float(np.nextafter(np.float32(0), np.float32(1)))
+        if dan_reference not in DAN_REFERENCE_MODES:
+            raise ValueError(f'dan_reference must be one of {sorted(DAN_REFERENCE_MODES)}.')
         if (
             self.weights.ndim != 1
             or self.n < 1
@@ -155,6 +167,15 @@ class RewardEngine:
             or np.intersect1d(self.sensory, self.dan_indices).size
         ):
             raise ValueError('Invalid reward graph or learning configuration.')
+        if plastic_mask is None:
+            mask = np.ones(len(self.plastic_edge_indices), np.uint8)
+        else:
+            raw_mask = np.asarray(plastic_mask)
+            if (raw_mask.shape != self.plastic_edge_indices.shape or raw_mask.dtype.kind not in 'iub'
+                    or not np.isin(raw_mask, [0, 1]).all()):
+                raise ValueError('plastic_mask must hold one 0/1 eligibility flag per plastic edge.')
+            mask = np.array(raw_mask, dtype=np.uint8, order='C', copy=True)
+        self.plastic_mask = mask
         if len(self.plastic_edge_indices):
             plastic_sources = np.searchsorted(
                 self.ptr, self.plastic_edge_indices, side='right'
@@ -168,6 +189,7 @@ class RewardEngine:
         self.gain_bounds = (float(bounds[0]), float(bounds[1]))
         self.plasticity_onset_ms = float(timing[0])
         self.dan_baseline_window_ms = float(timing[1])
+        self.dan_reference = str(dan_reference)
         self._onset_steps = int(np.rint(timing_steps[0]))
         self._baseline_steps = int(np.rint(timing_steps[1]))
         if gains is None:
@@ -179,7 +201,7 @@ class RewardEngine:
         for array in (
             self.ptr, self.post, self.weights, self.sensory, self.kc_indices, self.dan_indices,
             self.dan_compartments, self.plastic_edge_indices, self.plastic_kc_indices,
-            self.plastic_compartments,
+            self.plastic_compartments, self.plastic_mask,
         ):
             array.setflags(write=False)
         self.lib = _native_library()
@@ -207,12 +229,16 @@ class RewardEngine:
         seed=42,
         plasticity=True,
         sample=None,
+        record=False,
+        plastic_groups=None,
+        n_groups=None,
     ):
         if (
             not isinstance(seed, (int, np.integer))
             or isinstance(seed, (bool, np.bool_))
             or not 0 <= int(seed) <= np.iinfo(np.uint64).max
             or not isinstance(plasticity, (bool, np.bool_))
+            or not isinstance(record, (bool, np.bool_))
         ):
             raise ValueError('seed must be an unsigned 64-bit integer and plasticity must be boolean.')
         rates = np.ascontiguousarray(rate_schedule, dtype=np.float32)
@@ -242,6 +268,26 @@ class RewardEngine:
             or rates.shape[0] * len(sample) > _MAX_TRACE_VALUES
         ):
             raise ValueError('Invalid or excessively large sampled trace request.')
+        n_plastic = len(self.plastic_edge_indices)
+        if plastic_groups is None:
+            groups = np.zeros(n_plastic, np.int32)
+        else:
+            groups = _integer_array(plastic_groups, np.int32, 'plastic_groups')
+        if groups.shape != (n_plastic,) or (groups.size and groups.min() < 0):
+            raise ValueError('plastic_groups must give one nonnegative group id per plastic edge.')
+        inferred = int(groups.max()) + 1 if groups.size else 1
+        if n_groups is None:
+            n_groups = inferred
+        elif (not isinstance(n_groups, (int, np.integer)) or isinstance(n_groups, (bool, np.bool_))
+              or n_groups < inferred or n_groups > np.iinfo(np.int32).max):
+            raise ValueError('n_groups must be an integer at least one more than the largest group id.')
+        n_groups = int(n_groups)
+        n_bins = rates.shape[0]
+        steps_total = n_bins * bin_steps
+        if record and (n_bins * n_groups * RULE_WIDTH > _MAX_TRACE_VALUES
+                       or n_bins * max(len(self.kc_indices), 1) > _MAX_TRACE_VALUES
+                       or steps_total * n_groups * 2 > _MAX_TRACE_VALUES):
+            raise ValueError('Excessively large instrumentation request.')
         pulses = np.asarray(teaching_pulses)
         if pulses.size == 0:
             pulses = np.empty((0, 2), np.float64)
@@ -276,6 +322,20 @@ class RewardEngine:
         tonic = np.zeros(self.n_compartments, np.float32)
         gains_before = self.gains.copy()
         native_gains = self.gains if plasticity else self.gains.copy()
+        if record:
+            signal_bins = np.zeros((n_bins, self.n_compartments, SIGNAL_WIDTH), np.float64)
+            kc_signal_bins = np.zeros((n_bins, KC_SIGNAL_WIDTH), np.float64)
+            rule_bins = np.zeros((n_bins, n_groups, RULE_WIDTH), np.float64)
+            kc_trace_bins = np.zeros((n_bins, len(self.kc_indices)), np.float32)
+            step_signals = np.zeros((steps, 1 + 2 * self.n_compartments), np.float32)
+            step_rule = np.zeros((steps, n_groups, 2), np.float32)
+        else:
+            step_rule = np.zeros(0, np.float32)
+            signal_bins = np.zeros(0, np.float64)
+            kc_signal_bins = np.zeros(0, np.float64)
+            rule_bins = np.zeros(0, np.float64)
+            kc_trace_bins = np.zeros(0, np.float32)
+            step_signals = np.zeros(0, np.float32)
         start = time.perf_counter()
         result = self.lib.simulate_reward(
             self.n, self.ptr, self.post, self.weights, len(self.sensory), self.sensory, rates, bin_steps,
@@ -287,6 +347,8 @@ class RewardEngine:
             tonic, len(pulse_steps), native_pulse_steps,
             native_pulse_dans, len(sample), sample, bin_steps, counts, voltage, trace, population,
             dan_counts, compartment_counts,
+            int(record), n_groups, groups, signal_bins, kc_signal_bins, rule_bins, kc_trace_bins,
+            DAN_REFERENCE_MODES[self.dan_reference], self.plastic_mask, step_signals, step_rule,
         )
         if result:
             raise RuntimeError('Native reward simulation failed.')
@@ -308,4 +370,15 @@ class RewardEngine:
             'dt': dt,
             'bin_ms': float(bin_ms),
             'wall_seconds': time.perf_counter() - start,
+            'instrumentation': dict(
+                signal_bins=signal_bins, kc_signal_bins=kc_signal_bins, rule_bins=rule_bins,
+                kc_trace_bins=kc_trace_bins, step_signals=step_signals, step_rule=step_rule,
+                plastic_groups=groups,
+                layout=dict(step_signals=['kc_spikes', 'dan_mean_spikes per compartment', 'dan_trace_as_used per compartment'],
+                            step_rule=['kc_impulses_on_eligible_edges', 'kbar_mass_on_eligible_edges_as_used'],signal_bins=['dan_mean_spikes', 'dan_trace_end', 'dan_signal_after_reference',
+                                         'reference_per_step'],
+                            kc_signal_bins=['kc_spikes', 'kc_trace_mass_end'],
+                            rule_bins=['term_dbar_k', 'term_kbar_d', 'applied', 'clipped_low', 'clipped_high',
+                                       'kc_events_on_edges', 'kbar_mass_on_edges_end']),
+            ) if record else None,
         }

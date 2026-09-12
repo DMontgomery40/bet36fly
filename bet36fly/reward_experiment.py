@@ -14,16 +14,18 @@ from .connectome import ROOT
 from .experiment import atomic_json, utcnow
 from .experiments import Registry, writer_lock
 from .learning import metrics
+from .reward_brain import DAN_REFERENCE_MODES
 from .reward_encoder import ENCODER_NAME
-from .reward_protocol import decode, file_hash, fit_fixed_readout, make_circuit, select_rows
+from .reward_protocol import MASK_POLICIES, decode, file_hash, fit_fixed_readout, make_circuit, select_rows
 
 SOURCE_ID = 'v2-24a83145c27ab220116e'
 
 
 def default_protocol():
-    return dict(schema_version=3, seed=42, train_n=64, validation_n=32, calibration_n=16,
+    return dict(schema_version=4, seed=42, train_n=64, validation_n=32, calibration_n=16,
                 duration_ms=400., stimulus_ms=300., teaching_ms=310., bin_ms=10.,
                 plasticity_onset_ms=100., dan_baseline_window_ms=50.,
+                dan_reference='none', away_plasticity_mask='all',
                 teaching_pulse_count=4, teaching_interval_ms=20.,
                 encoder=ENCODER_NAME, encoder_peak_hz=150., encoder_tuning_width=.5,
                 encoder_min_kc_contacts=100., kc_input_gain=1.25, sensory_input_gain=0., apl_output_gain=.25,
@@ -37,17 +39,22 @@ def validate_protocol(protocol):
     expected = default_protocol()
     if set(protocol) != set(expected):
         raise ValueError('Protocol fields must match the versioned reward schema.')
-    if protocol['arms'] != expected['arms'] or protocol['schema_version'] != 3:
-        raise ValueError('The bounded pilot requires schema 3 with paired, shuffled and frozen arms.')
+    if protocol['arms'] != expected['arms'] or protocol['schema_version'] != 4:
+        raise ValueError('The bounded pilot requires schema 4 with paired, shuffled and frozen arms.')
     if protocol['encoder'] != ENCODER_NAME:
-        raise ValueError('Schema 3 fixes the glomerular identity encoder.')
+        raise ValueError('Schema 4 fixes the glomerular identity encoder.')
+    if protocol['dan_reference'] not in DAN_REFERENCE_MODES:
+        raise ValueError(f'dan_reference must be one of {sorted(DAN_REFERENCE_MODES)}.')
+    if protocol['away_plasticity_mask'] not in MASK_POLICIES:
+        raise ValueError(f'away_plasticity_mask must be one of {MASK_POLICIES}.')
     integer_fields = ('seed', 'train_n', 'validation_n', 'calibration_n', 'teaching_pulse_count')
     for key in integer_fields:
         value = protocol[key]
         if not isinstance(value, int) or isinstance(value, bool) or value < (0 if key == 'seed' else 1):
             raise ValueError(f'Invalid {key}.')
     nonnegative_fields = ('plasticity_onset_ms', 'dan_baseline_window_ms', 'encoder_min_kc_contacts', 'sensory_input_gain', 'apl_output_gain')
-    for key in set(expected) - set(integer_fields) - {'arms', 'gain_bounds', 'schema_version', 'encoder'}:
+    for key in set(expected) - set(integer_fields) - {'arms', 'gain_bounds', 'schema_version', 'encoder',
+                                                       'dan_reference', 'away_plasticity_mask'}:
         value = protocol[key]
         floor = 0 if key in nonnegative_fields else None
         if (not isinstance(value, (int, float)) or isinstance(value, bool) or not np.isfinite(value)
@@ -116,20 +123,28 @@ def run_experiment(root=ROOT, protocol=None, *, circuit_factory=make_circuit):
     protected = [p for p in (root / 'output/current-model.json', source.parent / 'manifest.json',
                              data_file, games_file) if p.exists()]
     before = {str(p.relative_to(root)): file_hash(p) for p in protected}
-    initial = dict(id=identifier, schema_version=3, kind='dopamine-association', status='running',
+    rule_name = 'event-biphasic-kc-dan-raw-v3' if protocol['dan_reference'] == 'none' else 'event-biphasic-kc-dan-phasic-v2'
+    rule_note = ('Dopamine drive is the raw compartment-mean DAN spike count in both rule terms (upstream form); '
+                 'each compartment\'s tonic rate before the plasticity onset is measured and reported, not subtracted.'
+                 if protocol['dan_reference'] == 'none' else
+                 'Dopamine drive is phasic: each compartment\'s tonic rate, measured before the declared plasticity '
+                 'onset, is subtracted in both rule terms (legacy schema-2/3 rule, kept for comparison).')
+    mask_note = ('Away-side plasticity is restricted to gamma-KC inputs of MBON09; excluded edges keep transmitting. '
+                 if protocol['away_plasticity_mask'] == 'gamma' else 'Every listed KC-to-MBON edge is plastic. ')
+    initial = dict(id=identifier, schema_version=4, kind='dopamine-association', status='running',
                    created_at=utcnow(), identity=identity, protocol=protocol, artifacts={}, selected_shadow=None,
                    jobs=[dict(id=arm, variant=arm, seed=protocol['seed'], status='queued', phase='queued',
                               gain_parameters=0, decoder_parameters=0, active_parameters=0,
                               completed=0, total=protocol['train_n'] + protocol['validation_n'])
                          for arm in protocol['arms']],
-                   reward=dict(scope='reused-development-pilot', rule='event-biphasic-kc-dan-phasic-v2',
+                   reward=dict(scope='reused-development-pilot', rule=rule_name,
+                               dan_reference=protocol['dan_reference'],
+                               away_plasticity_mask=protocol['away_plasticity_mask'],
                                encoder=protocol['encoder'],
                                note='Artificial sports-to-glomerulus and outcome-to-DAN mappings; fixed readout. '
                                     'Each feature drives its own tuned set of annotated ALPN glomeruli, so which '
-                                    'ports fire depends on the game. Dopamine drive is phasic: each compartment\'s '
-                                    'tonic rate, measured before the declared plasticity onset, is subtracted in '
-                                    'both rule terms. This tests on-circuit associative learning, not biological '
-                                    'RPE or betting edge.',
+                                    'ports fire depends on the game. ' + rule_note + ' ' + mask_note +
+                                    'This tests on-circuit associative learning, not biological RPE or betting edge.',
                                train_n=protocol['train_n'], validation_n=protocol['validation_n'],
                                calibration_n=protocol['calibration_n'], embargoed_training_labels=rows['embargoed']))
 

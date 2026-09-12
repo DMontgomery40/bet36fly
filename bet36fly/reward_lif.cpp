@@ -13,6 +13,24 @@ struct Random {
     }
 };
 
+// Instrumentation layout (filled only when record != 0; recording never alters dynamics):
+//   signal_bins[bin][compartment][4]  = {sum of compartment-mean DAN spikes, DAN trace at bin end,
+//                                        sum of the reference-subtracted DAN signal, reference per step}
+//   kc_signal_bins[bin][2]            = {KC spikes in bin, sum of KC traces at bin end}
+//   rule_bins[bin][group][7]          = {sum eta*Dbar*K, sum -eta*Kbar*D, applied gain change,
+//                                        edges clipped low, edges clipped high, KC events on group edges,
+//                                        sum of Kbar over group edges at bin end}
+//   kc_trace_bins[bin][kc]            = KC trace at bin end
+//   step_signals[step][1 + 2*compartments] = {KC spikes this step, compartment-mean DAN spikes this step
+//                                             per compartment, DAN trace AS USED by this step's update}
+//   step_rule[step][group][2]         = {KC impulses summed over the group's ELIGIBLE edges this step,
+//                                        Kbar mass over the group's eligible edges AS USED by the update}
+//   "As used" = after the step-start decay, before the step's own increments, so the summed
+//   attempted update of every group is exactly eta * (Dbar_used * impulses - mass_used * D).
+// plastic_mask[k] == 0 marks a listed edge that transmits with its current gain but never updates
+// (Stage C anatomical eligibility); its KC events are still counted in rule_bins column 5.
+enum { SIGNAL_WIDTH = 4, KC_SIGNAL_WIDTH = 2, RULE_WIDTH = 7 };
+
 extern "C" int simulate_reward(
     int n, const int64_t* ptr, const int32_t* post, const float* weights,
     int n_input, const int32_t* inputs, const float* rates, int rate_bin_steps,
@@ -26,7 +44,10 @@ extern "C" int simulate_reward(
     int n_pulses, const int32_t* pulse_steps, const int32_t* pulse_dans,
     int n_sample, const int32_t* sample, int bin_steps,
     int32_t* counts, float* voltages, int32_t* trace, int32_t* population,
-    int32_t* dan_counts, int32_t* compartment_dan_counts
+    int32_t* dan_counts, int32_t* compartment_dan_counts,
+    int record, int n_groups, const int32_t* plastic_groups,
+    double* signal_bins, double* kc_signal_bins, double* rule_bins, float* kc_trace_bins,
+    int dan_reference_mode, const uint8_t* plastic_mask, float* step_signals, float* step_rule
 ) {
     try {
         Random rng{seed ? seed : 1};
@@ -39,13 +60,20 @@ extern "C" int simulate_reward(
         std::vector<int> ready(n, 0), sample_index(n, -1), kc_index(n, -1), dan_index(n, -1);
         std::vector<int> edge_plastic(ptr[n], -1), dan_population_size(n_compartments, 0);
         std::vector<float> kc_trace(n_kc, 0.0f), dan_trace(n_compartments, 0.0f);
-        // Phasic modulation is measured against the compartment's own tonic rate,
-        // sampled in the window that ends at the declared plasticity onset.
+        // dan_reference_mode 1 (legacy, schema 2/3): the DAN signal is the compartment-mean spike
+        // count minus its own tonic rate sampled in the window ending at the plasticity onset.
+        // dan_reference_mode 0 (candidate): the raw nonnegative compartment-mean spike count, as in
+        // the upstream rule; the tonic rate is still measured and reported but never subtracted.
+        const bool subtract_reference = dan_reference_mode == 1;
         std::vector<float> dan_baseline(n_compartments, 0.0f), phasic(n_compartments, 0.0f);
         std::vector<int> dan_spikes(n_compartments, 0), baseline_spikes(n_compartments, 0);
         std::vector<unsigned char> spiked(n, 0);
         std::vector<unsigned char> is_input(n, 0);
         std::vector<std::vector<int>> events(delay + 1);
+        // Per-bin accumulators for the optional instrumentation.
+        std::vector<double> rule_acc(record ? size_t(n_groups) * RULE_WIDTH : 0, 0.0);
+        std::vector<double> signal_acc(record ? size_t(n_compartments) * SIGNAL_WIDTH : 0, 0.0);
+        double kc_spike_acc = 0.0;
         for (int k=0; k<n_input; ++k) is_input[inputs[k]] = 1;
         for (int k=0; k<n_sample; ++k) sample_index[sample[k]] = k;
         for (int k=0; k<n_kc; ++k) kc_index[kc_indices[k]] = k;
@@ -64,9 +92,13 @@ extern "C" int simulate_reward(
             auto& due = events[t % (delay + 1)];
             for (int pre : due)
                 for (int64_t edge=ptr[pre]; edge<ptr[pre+1]; ++edge) {
+                    const int target = post[edge];
+                    // Both state variables are clamped during refractory: an arriving
+                    // synaptic impulse is discarded, never stored until release.
+                    if (t < ready[target]) continue;
                     const int plastic = edge_plastic[edge];
                     const float gain = plastic >= 0 ? gains[plastic] : 1.0f;
-                    g[post[edge]] += weights[edge] * gain;
+                    g[target] += weights[edge] * gain;
                 }
             due.clear();
             for (int i=0; i<n; ++i) {
@@ -79,7 +111,10 @@ extern "C" int simulate_reward(
             for (int k=0; k<n_input; ++k)
                 if (rng.uniform() < step_rates[k] * dt / 1000.0f) v[inputs[k]] += 68.75f;
             while (pulse_cursor < n_pulses && pulse_steps[pulse_cursor] == t) {
-                v[dan_indices[pulse_dans[pulse_cursor]]] += 68.75f;
+                const int target = dan_indices[pulse_dans[pulse_cursor]];
+                // Teaching pulses are instantaneous, with the same clamped-voltage
+                // contract. Retain this engine's inclusive release (t == ready).
+                if (t >= ready[target]) v[target] += 68.75f;
                 ++pulse_cursor;
             }
             std::fill(spiked.begin(), spiked.end(), 0);
@@ -101,20 +136,59 @@ extern "C" int simulate_reward(
                         ? float(baseline_spikes[compartment]) / (float(baseline_steps) * population_size)
                         : 0.0f;
                 }
+            if (record) {
+                float* step_row = step_signals + size_t(t) * (1 + 2 * n_compartments);
+                for (int compartment=0; compartment<n_compartments; ++compartment) {
+                    const int population_size = dan_population_size[compartment];
+                    const double mean_spikes = population_size ? double(dan_spikes[compartment]) / population_size : 0.0;
+                    signal_acc[compartment * SIGNAL_WIDTH + 0] += mean_spikes;
+                    step_row[1 + compartment] = float(mean_spikes);
+                }
+                double kc_now = 0.0;
+                for (int k=0; k<n_kc; ++k) kc_now += spiked[kc_indices[k]] ? 1.0 : 0.0;
+                kc_spike_acc += kc_now;
+                step_row[0] = float(kc_now);
+            }
             if (learning) {
                 for (int compartment=0; compartment<n_compartments; ++compartment) {
                     const int population_size = dan_population_size[compartment];
+                    const float reference = subtract_reference ? dan_baseline[compartment] : 0.0f;
                     phasic[compartment] = population_size
-                        ? float(dan_spikes[compartment]) / population_size - dan_baseline[compartment]
+                        ? float(dan_spikes[compartment]) / population_size - reference
                         : 0.0f;
+                    if (record) {
+                        signal_acc[compartment * SIGNAL_WIDTH + 2] += phasic[compartment];
+                        signal_acc[compartment * SIGNAL_WIDTH + 3] = reference;
+                        step_signals[size_t(t) * (1 + 2 * n_compartments) + 1 + n_compartments + compartment] = dan_trace[compartment];
+                    }
                 }
+                if (record)
+                    for (int k=0; k<n_plastic; ++k)
+                        if (plastic_mask[k])
+                            step_rule[(size_t(t) * n_groups + plastic_groups[k]) * 2 + 1] += kc_trace[plastic_kc[k]];
                 for (int k=0; k<n_plastic; ++k) {
                     const int compartment = plastic_compartments[k];
                     const int kc = plastic_kc[k];
                     const float kc_spike = spiked[kc_indices[kc]] ? 1.0f : 0.0f;
+                    if (!plastic_mask[k]) {
+                        if (record) rule_acc[size_t(plastic_groups[k]) * RULE_WIDTH + 5] += kc_spike;
+                        continue;
+                    }
+                    if (record) step_rule[(size_t(t) * n_groups + plastic_groups[k]) * 2 + 0] += kc_spike;
                     const float delta = learning_rate
                         * (dan_trace[compartment] * kc_spike - kc_trace[kc] * phasic[compartment]);
-                    gains[k] = std::clamp(gains[k] + delta, gain_min, gain_max);
+                    const float before = gains[k];
+                    const float proposed = before + delta;
+                    gains[k] = std::clamp(proposed, gain_min, gain_max);
+                    if (record) {
+                        double* acc = rule_acc.data() + size_t(plastic_groups[k]) * RULE_WIDTH;
+                        acc[0] += double(learning_rate) * double(dan_trace[compartment]) * double(kc_spike);
+                        acc[1] -= double(learning_rate) * double(kc_trace[kc]) * double(phasic[compartment]);
+                        acc[2] += double(gains[k]) - double(before);
+                        if (proposed < gain_min) acc[3] += 1.0;
+                        if (proposed > gain_max) acc[4] += 1.0;
+                        acc[5] += kc_spike;
+                    }
                 }
                 for (int k=0; k<n_kc; ++k)
                     if (spiked[kc_indices[k]]) kc_trace[k] += 1.0f;
@@ -133,6 +207,31 @@ extern "C" int simulate_reward(
                 later.push_back(i);
                 v[i] = 0.0f; g[i] = 0.0f;
                 ready[i] = t + (is_input[i] ? 0 : refractory);
+            }
+            if (record && (t + 1) % bin_steps == 0) {
+                for (int compartment=0; compartment<n_compartments; ++compartment) {
+                    double* out = signal_bins + (size_t(bin) * n_compartments + compartment) * SIGNAL_WIDTH;
+                    out[0] = signal_acc[compartment * SIGNAL_WIDTH + 0];
+                    out[1] = dan_trace[compartment];
+                    out[2] = signal_acc[compartment * SIGNAL_WIDTH + 2];
+                    out[3] = signal_acc[compartment * SIGNAL_WIDTH + 3];
+                }
+                double kc_mass = 0.0;
+                for (int k=0; k<n_kc; ++k) {
+                    kc_mass += kc_trace[k];
+                    kc_trace_bins[size_t(bin) * n_kc + k] = kc_trace[k];
+                }
+                kc_signal_bins[size_t(bin) * KC_SIGNAL_WIDTH + 0] = kc_spike_acc;
+                kc_signal_bins[size_t(bin) * KC_SIGNAL_WIDTH + 1] = kc_mass;
+                for (int k=0; k<n_plastic; ++k)
+                    rule_acc[size_t(plastic_groups[k]) * RULE_WIDTH + 6] += kc_trace[plastic_kc[k]];
+                for (int group=0; group<n_groups; ++group)
+                    for (int term=0; term<RULE_WIDTH; ++term)
+                        rule_bins[(size_t(bin) * n_groups + group) * RULE_WIDTH + term] =
+                            rule_acc[size_t(group) * RULE_WIDTH + term];
+                std::fill(rule_acc.begin(), rule_acc.end(), 0.0);
+                std::fill(signal_acc.begin(), signal_acc.end(), 0.0);
+                kc_spike_acc = 0.0;
             }
         }
         for (int k=0; k<n_dan; ++k)

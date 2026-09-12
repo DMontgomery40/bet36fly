@@ -27,7 +27,8 @@ def circuit(root, protocol, **_):
                           n_compartments=2, tau_ms=protocol['tau_ms'],
                           learning_rate=protocol['learning_rate'], gain_bounds=protocol['gain_bounds'],
                           plasticity_onset_ms=protocol['plasticity_onset_ms'],
-                          dan_baseline_window_ms=protocol['dan_baseline_window_ms'])
+                          dan_baseline_window_ms=protocol['dan_baseline_window_ms'],
+                          dan_reference=protocol['dan_reference'])
     def encode(features):
         # Both fake ports stay driven for every game so the shared-code guard can be exercised.
         return (150 + 20 * np.tanh(np.array([features[0], -features[0]]) / 2)).astype(np.float32)
@@ -70,7 +71,9 @@ def test_real_native_runner_freezes_controls_and_preserves_prior_experiment(tmp_
     assert gate['teaching_scheduled_spikes'] == [1, 1] and gate['teaching_evoked_spikes'] == [1, 1]
     assert gate['tonic_dan_hz'] == [0, 0] and gate['kc_code_overlap'] == 1.0
     assert 0 <= gate['post_stimulus_kc_active_fraction'] <= 1
-    assert result['reward']['rule'] == 'event-biphasic-kc-dan-phasic-v2'
+    assert result['reward']['rule'] == 'event-biphasic-kc-dan-raw-v3'
+    assert result['reward']['dan_reference'] == 'none'
+    assert result['reward']['away_plasticity_mask'] == 'all'
     assert result['reward']['encoder'] == 'glomerular-tuning-v1'
     assert 'reward_encoder.py' in result['identity']['code_hashes']
     assert (tmp_path / 'output/experiments' / result['id'] / 'source/reward_encoder.py').exists()
@@ -155,7 +158,9 @@ def test_input_discrimination_uses_common_randomness_not_seed_variation(tmp_path
                                          ('dan_baseline_window_ms', 150.), ('dan_baseline_window_ms', -1.),
                                          ('min_teaching_evoked_fraction', 0), ('min_teaching_evoked_fraction', 1.5),
                                          ('max_kc_code_overlap', 0), ('max_kc_code_overlap', 1.5),
-                                         ('schema_version', 1), ('schema_version', 2),
+                                         ('schema_version', 1), ('schema_version', 2), ('schema_version', 3),
+                                         ('dan_reference', 'moving-average'), ('dan_reference', None),
+                                         ('away_plasticity_mask', 'alpha'),
                                          ('encoder', 'opponent-channels'), ('encoder_peak_hz', 0),
                                          ('encoder_peak_hz', 5000.), ('encoder_tuning_width', 0),
                                          ('encoder_min_kc_contacts', -1.), ('kc_input_gain', 0),
@@ -167,9 +172,12 @@ def test_invalid_protocol_rejected_before_native_work(field, value):
         validate_protocol(dict(default_protocol(), **{field: value}))
 
 
-def test_default_protocol_declares_phasic_baseline_and_code_specificity_guards():
+def test_default_protocol_declares_raw_dan_reference_and_code_specificity_guards():
     protocol = validate_protocol(default_protocol())
-    assert protocol['schema_version'] == 3
+    assert protocol['schema_version'] == 4
+    assert protocol['dan_reference'] == 'none'
+    assert protocol['away_plasticity_mask'] == 'all'
+    assert validate_protocol(dict(default_protocol(), dan_reference='tonic-baseline', away_plasticity_mask='gamma'))
     assert protocol['encoder'] == 'glomerular-tuning-v1'
     assert protocol['encoder_peak_hz'] > 0 and protocol['encoder_tuning_width'] > 0
     assert protocol['encoder_min_kc_contacts'] >= 0 and protocol['kc_input_gain'] > 0
