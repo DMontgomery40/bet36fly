@@ -18,7 +18,7 @@ struct Random {
 //                                        sum of the reference-subtracted DAN signal, reference per step}
 //   kc_signal_bins[bin][2]            = {KC spikes in bin, sum of KC traces at bin end}
 //   rule_bins[bin][group][7]          = {sum eta*Dbar*K, sum -eta*Kbar*D, applied gain change,
-//                                        edges clipped low, edges clipped high, KC events on group edges,
+//                                        at/beyond low bound, at/beyond high bound, KC events on group edges,
 //                                        sum of Kbar over group edges at bin end}
 //   kc_trace_bins[bin][kc]            = KC trace at bin end
 //   step_signals[step][1 + 2*compartments] = {KC spikes this step, compartment-mean DAN spikes this step
@@ -185,8 +185,10 @@ extern "C" int simulate_reward(
                         acc[0] += double(learning_rate) * double(dan_trace[compartment]) * double(kc_spike);
                         acc[1] -= double(learning_rate) * double(kc_trace[kc]) * double(phasic[compartment]);
                         acc[2] += double(gains[k]) - double(before);
-                        if (proposed < gain_min) acc[3] += 1.0;
-                        if (proposed > gain_max) acc[4] += 1.0;
+                        // Inclusive observations include exact contact and dwelling, even
+                        // with zero learning. Historical clipped_* layout names are retained.
+                        if (proposed <= gain_min) acc[3] += 1.0;
+                        if (proposed >= gain_max) acc[4] += 1.0;
                         acc[5] += kc_spike;
                     }
                 }

@@ -1,0 +1,592 @@
+{
+  "status": "preregistered-not-run",
+  "created_at": "2026-09-12T05:16:14.644366+00:00",
+  "run_id": "diag-candidate-maskgamma-ee89fe032a62",
+  "identity": {
+    "rule": "candidate",
+    "protocol": {
+      "schema_version": 3,
+      "seed": 42,
+      "train_n": 64,
+      "validation_n": 32,
+      "calibration_n": 16,
+      "duration_ms": 400.0,
+      "stimulus_ms": 300.0,
+      "teaching_ms": 310.0,
+      "bin_ms": 10.0,
+      "plasticity_onset_ms": 100.0,
+      "dan_baseline_window_ms": 50.0,
+      "teaching_pulse_count": 4,
+      "teaching_interval_ms": 20.0,
+      "encoder": "glomerular-tuning-v1",
+      "encoder_peak_hz": 150.0,
+      "encoder_tuning_width": 0.5,
+      "encoder_min_kc_contacts": 100.0,
+      "kc_input_gain": 1.25,
+      "sensory_input_gain": 0.0,
+      "apl_output_gain": 0.25,
+      "global_weight_scale": 0.5,
+      "tau_ms": 500.0,
+      "learning_rate": 0.0005,
+      "gain_bounds": [
+        0.5,
+        1.5
+      ],
+      "wall_seconds": 900.0,
+      "min_kc_active_fraction": 0.001,
+      "max_kc_active_fraction": 0.85,
+      "max_mbon_hz": 400.0,
+      "min_teaching_evoked_fraction": 0.5,
+      "max_kc_code_overlap": 0.5,
+      "arms": [
+        "paired",
+        "shuffled",
+        "frozen"
+      ],
+      "dan_reference": "none",
+      "away_plasticity_mask": "gamma"
+    },
+    "pilot": "reward-v3-209f7c49983f5873f650",
+    "games": 8,
+    "cumulative_games": 16,
+    "alt_seed_offset": 1000000,
+    "code_hashes": {
+      "reward_lif.cpp": "8e223c3326f0bb997750716644ac9ab929bea4980f5bb083cf4075e14a588080",
+      "reward_brain.py": "5d780b0765458cab93a898c920cd2ceedd7932a3355c037a23065de552058944",
+      "reward_protocol.py": "0fd139f3213ff716e8e6108124ddcd0e32235d7324e62a0aba21813b228473e9",
+      "reward_encoder.py": "178a36f388b0c0de34bc2a83a0b35eef806dafa98636aa2400e4b87931446285",
+      "reward_diagnostic.py": "dfded860f64eda9546ac143a05a030689353747b08fc7a22abe3e69795add528",
+      "reward_teaching_diagnostic.py": "0c39fa71e087c74ffff6a0a44a5c6c31633a5946bf84970b96ef36f2976d7dc0"
+    },
+    "inputs_sha256": "b35d49dbbf361d0b32b7cb8fb278419ca3ed8930a35850d0f571a2f8b3b4cd35",
+    "pilot_manifest_sha256": "3ca0ed70b742ebad3b34b4ecc6690b55e96f3833ee5df34920a6648e950b8ff5",
+    "pilot_protocol_sha256": "c1e969f5d4f586b789bf4bf9235e8071f2734759b3e22f30ad1d01f9fc4be193",
+    "graph_hashes": {
+      "data/brain/counts.npy": "4a11faf9771fc3d5a5ff78ae7620ec1ce400f52d099ff657f0342cfc7a519f6b",
+      "data/brain/ids.npy": "ab90597b7b0ce07cbc22cb39a65b70bea2ac73cc7fd225951bd9d73f2fc8dd3f",
+      "data/brain/in_degree.npy": "494f13b315b23acb9962e214de0676e647893597614ad146483308e16a09716d",
+      "data/brain/indptr.npy": "fe43420f11e6242a11f8199ae7f097cab4b8a6db181d36f2a46b9e46670acbb4",
+      "data/brain/kc.npy": "97a570aafa089f93e642b2bb07e3a3322dabb14c3c7dd431f0c8d2b3b7951fdd",
+      "data/brain/mbon.npy": "87d555e02d4cf2d661d9676b937a31b29cacf60a7edc85c8c08edc8312530f83",
+      "data/brain/post.npy": "ce20f7433f78442c717ad2a7b5394cf4a3b109d990b4be0788040b7b0f4ed150",
+      "data/brain/sensory.npy": "ed574f42559455069679f8ce3b339395efa9398ec13e199eab47959533370805",
+      "data/brain/signs.npy": "4a0725e94d5014b2f17a70e3bdef3f7d843c0e81a8f22a33284aa10d8d62dab5",
+      "data/brain/nodes.feather": "d706a6dd5ec1dc17cfba2e8f439232723af81729bf1d0c17bf0cc73860a9c867",
+      "data/raw/annotations.feather": "2177e246113e4cfbf1e7772ec37c6da1955ff22e8063d0b1f833101f99a9a3b2"
+    },
+    "selection": {
+      "panel_kind": "held-out",
+      "panel_offset": 8,
+      "seed_offset": 2000000,
+      "alt_seed_offset": 1000000,
+      "calibration_games": [
+        4362,
+        4366,
+        4370,
+        4374,
+        4378,
+        4383,
+        4387,
+        4391,
+        4395,
+        4399,
+        4404,
+        4408,
+        4412,
+        4416,
+        4420,
+        4425
+      ],
+      "panel_games": [
+        4395,
+        4399,
+        4404,
+        4408,
+        4412,
+        4416,
+        4420,
+        4425
+      ],
+      "cumulative_games": [
+        4362,
+        4366,
+        4370,
+        4374,
+        4378,
+        4383,
+        4387,
+        4391,
+        4395,
+        4399,
+        4404,
+        4408,
+        4412,
+        4416,
+        4420,
+        4425
+      ],
+      "expected_panel": [
+        {
+          "game": 4395,
+          "seed_set": "base",
+          "seed": 2004437,
+          "condition": "frozen"
+        },
+        {
+          "game": 4395,
+          "seed_set": "base",
+          "seed": 2004437,
+          "condition": "untaught"
+        },
+        {
+          "game": 4395,
+          "seed_set": "base",
+          "seed": 2004437,
+          "condition": "home"
+        },
+        {
+          "game": 4395,
+          "seed_set": "base",
+          "seed": 2004437,
+          "condition": "away"
+        },
+        {
+          "game": 4395,
+          "seed_set": "alt",
+          "seed": 3004437,
+          "condition": "frozen"
+        },
+        {
+          "game": 4395,
+          "seed_set": "alt",
+          "seed": 3004437,
+          "condition": "untaught"
+        },
+        {
+          "game": 4395,
+          "seed_set": "alt",
+          "seed": 3004437,
+          "condition": "home"
+        },
+        {
+          "game": 4395,
+          "seed_set": "alt",
+          "seed": 3004437,
+          "condition": "away"
+        },
+        {
+          "game": 4399,
+          "seed_set": "base",
+          "seed": 2004441,
+          "condition": "frozen"
+        },
+        {
+          "game": 4399,
+          "seed_set": "base",
+          "seed": 2004441,
+          "condition": "untaught"
+        },
+        {
+          "game": 4399,
+          "seed_set": "base",
+          "seed": 2004441,
+          "condition": "home"
+        },
+        {
+          "game": 4399,
+          "seed_set": "base",
+          "seed": 2004441,
+          "condition": "away"
+        },
+        {
+          "game": 4399,
+          "seed_set": "alt",
+          "seed": 3004441,
+          "condition": "frozen"
+        },
+        {
+          "game": 4399,
+          "seed_set": "alt",
+          "seed": 3004441,
+          "condition": "untaught"
+        },
+        {
+          "game": 4399,
+          "seed_set": "alt",
+          "seed": 3004441,
+          "condition": "home"
+        },
+        {
+          "game": 4399,
+          "seed_set": "alt",
+          "seed": 3004441,
+          "condition": "away"
+        },
+        {
+          "game": 4404,
+          "seed_set": "base",
+          "seed": 2004446,
+          "condition": "frozen"
+        },
+        {
+          "game": 4404,
+          "seed_set": "base",
+          "seed": 2004446,
+          "condition": "untaught"
+        },
+        {
+          "game": 4404,
+          "seed_set": "base",
+          "seed": 2004446,
+          "condition": "home"
+        },
+        {
+          "game": 4404,
+          "seed_set": "base",
+          "seed": 2004446,
+          "condition": "away"
+        },
+        {
+          "game": 4404,
+          "seed_set": "alt",
+          "seed": 3004446,
+          "condition": "frozen"
+        },
+        {
+          "game": 4404,
+          "seed_set": "alt",
+          "seed": 3004446,
+          "condition": "untaught"
+        },
+        {
+          "game": 4404,
+          "seed_set": "alt",
+          "seed": 3004446,
+          "condition": "home"
+        },
+        {
+          "game": 4404,
+          "seed_set": "alt",
+          "seed": 3004446,
+          "condition": "away"
+        },
+        {
+          "game": 4408,
+          "seed_set": "base",
+          "seed": 2004450,
+          "condition": "frozen"
+        },
+        {
+          "game": 4408,
+          "seed_set": "base",
+          "seed": 2004450,
+          "condition": "untaught"
+        },
+        {
+          "game": 4408,
+          "seed_set": "base",
+          "seed": 2004450,
+          "condition": "home"
+        },
+        {
+          "game": 4408,
+          "seed_set": "base",
+          "seed": 2004450,
+          "condition": "away"
+        },
+        {
+          "game": 4408,
+          "seed_set": "alt",
+          "seed": 3004450,
+          "condition": "frozen"
+        },
+        {
+          "game": 4408,
+          "seed_set": "alt",
+          "seed": 3004450,
+          "condition": "untaught"
+        },
+        {
+          "game": 4408,
+          "seed_set": "alt",
+          "seed": 3004450,
+          "condition": "home"
+        },
+        {
+          "game": 4408,
+          "seed_set": "alt",
+          "seed": 3004450,
+          "condition": "away"
+        },
+        {
+          "game": 4412,
+          "seed_set": "base",
+          "seed": 2004454,
+          "condition": "frozen"
+        },
+        {
+          "game": 4412,
+          "seed_set": "base",
+          "seed": 2004454,
+          "condition": "untaught"
+        },
+        {
+          "game": 4412,
+          "seed_set": "base",
+          "seed": 2004454,
+          "condition": "home"
+        },
+        {
+          "game": 4412,
+          "seed_set": "base",
+          "seed": 2004454,
+          "condition": "away"
+        },
+        {
+          "game": 4412,
+          "seed_set": "alt",
+          "seed": 3004454,
+          "condition": "frozen"
+        },
+        {
+          "game": 4412,
+          "seed_set": "alt",
+          "seed": 3004454,
+          "condition": "untaught"
+        },
+        {
+          "game": 4412,
+          "seed_set": "alt",
+          "seed": 3004454,
+          "condition": "home"
+        },
+        {
+          "game": 4412,
+          "seed_set": "alt",
+          "seed": 3004454,
+          "condition": "away"
+        },
+        {
+          "game": 4416,
+          "seed_set": "base",
+          "seed": 2004458,
+          "condition": "frozen"
+        },
+        {
+          "game": 4416,
+          "seed_set": "base",
+          "seed": 2004458,
+          "condition": "untaught"
+        },
+        {
+          "game": 4416,
+          "seed_set": "base",
+          "seed": 2004458,
+          "condition": "home"
+        },
+        {
+          "game": 4416,
+          "seed_set": "base",
+          "seed": 2004458,
+          "condition": "away"
+        },
+        {
+          "game": 4416,
+          "seed_set": "alt",
+          "seed": 3004458,
+          "condition": "frozen"
+        },
+        {
+          "game": 4416,
+          "seed_set": "alt",
+          "seed": 3004458,
+          "condition": "untaught"
+        },
+        {
+          "game": 4416,
+          "seed_set": "alt",
+          "seed": 3004458,
+          "condition": "home"
+        },
+        {
+          "game": 4416,
+          "seed_set": "alt",
+          "seed": 3004458,
+          "condition": "away"
+        },
+        {
+          "game": 4420,
+          "seed_set": "base",
+          "seed": 2004462,
+          "condition": "frozen"
+        },
+        {
+          "game": 4420,
+          "seed_set": "base",
+          "seed": 2004462,
+          "condition": "untaught"
+        },
+        {
+          "game": 4420,
+          "seed_set": "base",
+          "seed": 2004462,
+          "condition": "home"
+        },
+        {
+          "game": 4420,
+          "seed_set": "base",
+          "seed": 2004462,
+          "condition": "away"
+        },
+        {
+          "game": 4420,
+          "seed_set": "alt",
+          "seed": 3004462,
+          "condition": "frozen"
+        },
+        {
+          "game": 4420,
+          "seed_set": "alt",
+          "seed": 3004462,
+          "condition": "untaught"
+        },
+        {
+          "game": 4420,
+          "seed_set": "alt",
+          "seed": 3004462,
+          "condition": "home"
+        },
+        {
+          "game": 4420,
+          "seed_set": "alt",
+          "seed": 3004462,
+          "condition": "away"
+        },
+        {
+          "game": 4425,
+          "seed_set": "base",
+          "seed": 2004467,
+          "condition": "frozen"
+        },
+        {
+          "game": 4425,
+          "seed_set": "base",
+          "seed": 2004467,
+          "condition": "untaught"
+        },
+        {
+          "game": 4425,
+          "seed_set": "base",
+          "seed": 2004467,
+          "condition": "home"
+        },
+        {
+          "game": 4425,
+          "seed_set": "base",
+          "seed": 2004467,
+          "condition": "away"
+        },
+        {
+          "game": 4425,
+          "seed_set": "alt",
+          "seed": 3004467,
+          "condition": "frozen"
+        },
+        {
+          "game": 4425,
+          "seed_set": "alt",
+          "seed": 3004467,
+          "condition": "untaught"
+        },
+        {
+          "game": 4425,
+          "seed_set": "alt",
+          "seed": 3004467,
+          "condition": "home"
+        },
+        {
+          "game": 4425,
+          "seed_set": "alt",
+          "seed": 3004467,
+          "condition": "away"
+        }
+      ],
+      "expected_cumulative": [
+        {
+          "game": 4362,
+          "seed": 2004404
+        },
+        {
+          "game": 4366,
+          "seed": 2004408
+        },
+        {
+          "game": 4370,
+          "seed": 2004412
+        },
+        {
+          "game": 4374,
+          "seed": 2004416
+        },
+        {
+          "game": 4378,
+          "seed": 2004420
+        },
+        {
+          "game": 4383,
+          "seed": 2004425
+        },
+        {
+          "game": 4387,
+          "seed": 2004429
+        },
+        {
+          "game": 4391,
+          "seed": 2004433
+        },
+        {
+          "game": 4395,
+          "seed": 2004437
+        },
+        {
+          "game": 4399,
+          "seed": 2004441
+        },
+        {
+          "game": 4404,
+          "seed": 2004446
+        },
+        {
+          "game": 4408,
+          "seed": 2004450
+        },
+        {
+          "game": 4412,
+          "seed": 2004454
+        },
+        {
+          "game": 4416,
+          "seed": 2004458
+        },
+        {
+          "game": 4420,
+          "seed": 2004462
+        },
+        {
+          "game": 4425,
+          "seed": 2004467
+        }
+      ]
+    },
+    "panel_kind": "held-out"
+  },
+  "criteria": {
+    "teaching_effect_ratio": 3.0,
+    "untaught_sd_ratio": 0.5,
+    "cross_compartment_ratio": 0.05,
+    "cumulative_effect_ratio": 4.0,
+    "no_bound_hits": true,
+    "bit_identical_repeat": true,
+    "sensory_noise_invariance": true
+  }
+}

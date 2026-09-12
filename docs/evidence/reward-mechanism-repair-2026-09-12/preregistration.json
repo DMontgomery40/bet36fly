@@ -1,0 +1,14 @@
+{
+  "frozen_utc": "2026-09-12T04:50:13.542149+00:00",
+  "state": "proposed-before-candidate-replay",
+  "document": "rate-bridge-preregistration.md",
+  "sha256": "ab7c640f3bfbc74845ff2759421b8b2de91d6411b9a6685acd3a62d1147508e3",
+  "baseline_commit": "26c3e9f6ae2ce58ca5131150375ef373047c50c3",
+  "baseline_verify": {
+    "pytest": 379,
+    "vitest": 65,
+    "ruff": "passed",
+    "build": "passed"
+  },
+  "priority": "Fix and measure confirmed refractory defects first; bridge is a separately testable candidate, not a presumed solution."
+}

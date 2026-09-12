@@ -1,0 +1,16 @@
+{
+  "status": "frozen-before-conditioning-implementation-and-measurement",
+  "frozen_utc": "2026-09-12T05:18:21.625471+00:00",
+  "original_protocol": {
+    "path": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-preregistration.md",
+    "sha256": "748df593f6fde4f0b9f613a75a75e69870901a6c673a635b968d50c40c9ea053"
+  },
+  "addendum": {
+    "path": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-prerun-addendum.md",
+    "sha256": "a1b796a0bff96c4e11c02f9fb6bbd0039e0b16dce61a1532ccded367e698d95f"
+  },
+  "planned_full_engine_calls": 1632,
+  "hard_max_engine_calls": 1640,
+  "hard_max_wall_seconds": 1200,
+  "reason_for_count_correction": "Matched 800 ms unit/parent reversal probes and explicit selected replays omitted from original arithmetic. Frozen before all conditioning data; cues, training exposure and thresholds unchanged."
+}

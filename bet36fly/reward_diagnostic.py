@@ -37,9 +37,131 @@ class PanelIncomplete(ValueError):
     """The rows do not form the exact predeclared matrix; no criterion may be reported as passed."""
 
 
+GRAPH_FILES = ('counts.npy', 'ids.npy', 'in_degree.npy', 'indptr.npy', 'kc.npy',
+               'mbon.npy', 'post.npy', 'sensory.npy', 'signs.npy')
+
+
+def _integer(value, name, *, minimum=0, maximum=2**64 - 1):
+    if isinstance(value, (bool, np.bool_)) or not isinstance(value, (int, np.integer)) or not minimum <= value <= maximum:
+        raise ValueError(f'{name} must be an integer in [{minimum}, {maximum}].')
+    return int(value)
+
+
+def _indices(values, name):
+    array = np.asarray(values)
+    if array.ndim != 1 or array.dtype.kind not in 'iu' or not len(array) or np.any(array < 0):
+        raise ValueError(f'{name} must be a nonempty vector of nonnegative integer IDs.')
+    if len(np.unique(array)) != len(array):
+        raise ValueError(f'{name} contains duplicate IDs.')
+    return [int(x) for x in array]
+
+
+def select_panel(inputs, *, seed, panel_offset=0, seed_offset=0, games=8,
+                 cumulative_games=16, panel_kind=None):
+    """Validate the complete frozen calibration source before selecting an outcome-blind panel."""
+    panel_offset = _integer(panel_offset, 'panel_offset', maximum=15)
+    seed_offset = _integer(seed_offset, 'seed_offset')
+    seed = _integer(seed, 'seed')
+    games = _integer(games, 'games', minimum=1, maximum=8)
+    cumulative_games = _integer(cumulative_games, 'cumulative_games', minimum=1, maximum=16)
+    required = {'X', 'source_indices', 'calibration_indices', 'input_mean', 'input_std'}
+    if not required.issubset(inputs.keys()):
+        raise ValueError(f'Missing diagnostic input arrays: {sorted(required - set(inputs.keys()))}')
+    source = _indices(inputs['source_indices'], 'source_indices')
+    calibration = _indices(inputs['calibration_indices'], 'calibration_indices')
+    x, mean, std = (np.asarray(inputs[k]) for k in ('X', 'input_mean', 'input_std'))
+    if (x.ndim != 2 or x.shape[0] != len(source) or not x.shape[1]
+            or mean.shape != (x.shape[1],) or std.shape != mean.shape
+            or any(a.dtype.kind not in 'fiu' or not np.isfinite(a).all() for a in (x, mean, std))
+            or np.any(std <= 0)):
+        raise ValueError('Features, finite mean and positive standard deviation must align with source IDs.')
+    if len(calibration) != 16 or not set(calibration).issubset(source):
+        raise ValueError('Exactly 16 unique calibration IDs must resolve in source_indices.')
+    if panel_offset + games > len(calibration):
+        raise ValueError('Panel selector extends past the calibration inputs.')
+    _integer(seed + seed_offset + 1_000_000 + max(calibration), 'maximum trial seed')
+    canonical = ('original' if (panel_offset, seed_offset, games, cumulative_games) == (0, 0, 8, 16)
+                 else 'held-out' if (panel_offset, seed_offset, games, cumulative_games) == (8, 2_000_000, 8, 16)
+                 else 'debug')
+    if panel_kind is not None and (panel_kind not in ('original', 'held-out', 'debug')
+                                   or panel_kind != 'debug' and panel_kind != canonical):
+        raise ValueError('panel_kind does not match its preregistered selectors.')
+    chosen = calibration[panel_offset:panel_offset + games]
+    cumulative = calibration[:cumulative_games]
+    return dict(panel_kind=panel_kind or canonical, panel_offset=panel_offset, seed_offset=seed_offset,
+                alt_seed_offset=1_000_000, calibration_games=calibration, panel_games=chosen,
+                cumulative_games=cumulative,
+                expected_panel=[dict(game=g, seed_set=s, seed=seed + seed_offset + g + offset, condition=c)
+                                for g in chosen for s, offset in (('base', 0), ('alt', 1_000_000))
+                                for c in CONDITIONS],
+                expected_cumulative=[dict(game=g, seed=seed + seed_offset + g) for g in cumulative])
+
+
+def verify_graph_inputs(root, frozen_identity):
+    """Bind every graph/annotation file actually consumed to the historical pilot's hashes."""
+    from .reward_protocol import file_hash
+    root = Path(root)
+    try:
+        expected = {f'data/brain/{name}': frozen_identity['graph_hashes'][name] for name in GRAPH_FILES}
+        expected['data/brain/nodes.feather'] = frozen_identity['node_annotations_sha256']
+        expected['data/raw/annotations.feather'] = frozen_identity['raw_annotations_sha256']
+    except (KeyError, TypeError) as exc:
+        raise ValueError('Frozen pilot is missing graph or annotation hashes.') from exc
+    actual = {}
+    for relative, reference in expected.items():
+        if not isinstance(reference, str) or len(reference) != 64 or any(c not in '0123456789abcdef' for c in reference):
+            raise ValueError(f'Invalid frozen hash for {relative}.')
+        try:
+            actual[relative] = file_hash(root / relative)
+        except OSError as exc:
+            raise ValueError(f'Missing graph input: {relative}.') from exc
+        if actual[relative] != reference:
+            raise ValueError(f'Graph input hash mismatch: {relative}.')
+    return actual
+
+
+def check_diagnostic_complete(rows, cumulative_rows, selection):
+    """Check actual identities/counts and finite results, not requested CLI counts."""
+    check_panel_complete(rows, expected_games=selection['panel_games'])
+    fields = ('game', 'seed_set', 'seed', 'condition')
+    try:
+        for row in rows:
+            _integer(row['clipped'], 'panel clipped')
+        actual = [tuple(r[k] for k in fields) for r in rows]
+        expected = [tuple(r[k] for k in fields) for r in selection['expected_panel']]
+        if len(actual) != len(expected) or set(actual) != set(expected):
+            raise PanelIncomplete('Panel rows disagree with preregistered source IDs or seeds.')
+        actual_cumulative = [(r['game'], r['seed']) for r in cumulative_rows]
+        expected_cumulative = [(r['game'], r['seed']) for r in selection['expected_cumulative']]
+        if actual_cumulative != expected_cumulative or len(set(actual_cumulative)) != len(actual_cumulative):
+            raise PanelIncomplete('Cumulative rows disagree with preregistered sequence or seeds.')
+        for row in cumulative_rows:
+            try:
+                _integer(row['clipped'], 'cumulative clipped')
+            except ValueError as exc:
+                raise PanelIncomplete(str(exc)) from exc
+            for field in ('applied', 'cumulative'):
+                values = np.asarray(row[field], dtype=float)
+                if values.shape != (2,) or not np.isfinite(values).all():
+                    raise PanelIncomplete('Cumulative values must have two finite components.')
+        # Compare the two independently recorded gain-sum views. This is a
+        # numerical consistency tolerance, not a change to the scientific guard.
+        running = np.cumsum([r['applied'] for r in cumulative_rows], axis=0, dtype=np.float64)
+        if not np.allclose(running, [r['cumulative'] for r in cumulative_rows], rtol=0, atol=1e-6):
+            raise PanelIncomplete('Cumulative values disagree with the applied running sum (atol=1e-6).')
+    except (KeyError, TypeError) as exc:
+        raise PanelIncomplete('Missing or malformed diagnostic row fields.') from exc
+    return (selection['panel_kind'] in ('original', 'held-out') and len(rows) == 64
+            and len(cumulative_rows) == 16)
+
+
 def check_panel_complete(rows, *, expected_games, seed_sets=SEED_SETS, conditions=CONDITIONS):
     """Require every (game, seed set, condition) exactly once with finite two-component applied sums."""
     rows = list(rows)
+    try:
+        expected_games = _indices(expected_games, 'expected_games')
+    except ValueError as exc:
+        raise PanelIncomplete(str(exc)) from exc
     if not rows:
         raise PanelIncomplete('empty panel')
     keys = [(r['game'], r['seed_set'], r['condition']) for r in rows]
@@ -58,6 +180,10 @@ def check_panel_complete(rows, *, expected_games, seed_sets=SEED_SETS, condition
     if set(keys) != expected:
         raise PanelIncomplete('rows do not match the expected game x seed set x condition matrix')
     for row in rows:
+        try:
+            _integer(row.get('clipped', 0), 'clipped')
+        except ValueError as exc:
+            raise PanelIncomplete(str(exc)) from exc
         applied = np.asarray(row['applied'], dtype=np.float64)
         if applied.shape != (2,):
             raise PanelIncomplete('applied must have two components (home, away)')
@@ -156,12 +282,40 @@ def evaluate_panel(rows, *, expected_games=None, effect_ratio=3.0, guard_ratio=0
                 mean_effect_by_compartment=overall_effect)
 
 
-def evaluate_cumulative(trajectory, *, mean_effect, ratio=4.0):
+def evaluate_bound_hits(panel_rows, cumulative_rows, final_gains, *, gain_bounds, plastic_mask):
+    """No eligible at/beyond-bound observations in either panel, or in the saved final gains.
+
+    For this native source version the historical ``clipped`` fields also include
+    exact equality/dwelling. Counts are observations, not distinct edges or arrivals.
+    """
+    try:
+        panel_count = sum(_integer(r['clipped'], 'panel clipped') for r in panel_rows)
+        cumulative_count = sum(_integer(r['clipped'], 'cumulative clipped') for r in cumulative_rows)
+    except (KeyError, TypeError) as exc:
+        raise ValueError('Explicit bound evidence is required on every panel and cumulative row.') from exc
+    gains, bounds, mask = np.asarray(final_gains), np.asarray(gain_bounds), np.asarray(plastic_mask)
+    if (gains.ndim != 1 or bounds.shape != (2,) or mask.shape != gains.shape
+            or not np.isfinite(gains).all() or not np.isfinite(bounds).all()
+            or not 0 < bounds[0] <= bounds[1] or not np.isin(mask, [0, 1]).all()):
+        raise ValueError('Bound check needs finite gains/bounds and an aligned binary eligibility mask.')
+    eligible = gains[mask.astype(bool)]
+    final_count = int(np.count_nonzero((eligible <= bounds[0]) | (eligible >= bounds[1])))
+    return dict(passed=panel_count + cumulative_count + final_count == 0,
+                clipped_total=panel_count + cumulative_count,
+                panel_observations=panel_count, cumulative_observations=cumulative_count,
+                final_eligible_edges_at_or_beyond_bounds=final_count,
+                semantics='inclusive at-or-beyond-bound observations; exact equality and dwelling included')
+
+
+def evaluate_cumulative(trajectory, *, mean_effect, ratio=4.0, expected_trials=16):
     """Criterion 4: |sum_c(g_after - g_initial)| <= ratio * |mean matched effect_c|, gain sums both sides."""
     path = np.asarray(trajectory, dtype=np.float64)
     effect = np.asarray(mean_effect, dtype=np.float64)
-    if path.ndim != 2 or path.shape[1] != effect.shape[0]:
-        raise ValueError('trajectory must be [trials, compartments] aligned with mean_effect.')
+    expected_trials = _integer(expected_trials, 'expected_trials', minimum=1, maximum=16)
+    if (path.shape != (expected_trials, 2) or effect.shape != (2,)
+            or not np.isfinite(path).all() or not np.isfinite(effect).all()
+            or not np.isfinite(ratio) or ratio <= 0):
+        raise ValueError('trajectory must contain the expected finite two-compartment trials and effects.')
     per = []
     for c in range(path.shape[1]):
         final, limit = float(path[-1, c]), float(ratio * abs(effect[c]))

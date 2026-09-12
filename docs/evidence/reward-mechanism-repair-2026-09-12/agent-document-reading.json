@@ -1,0 +1,428 @@
+{
+  "documents": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "67305dbabcfa6a4fe55963c0328d3afe72c26e02d1f75a9e97b0dbb15726c2a4",
+      "bytes": 4642
+    },
+    {
+      "path": "README.md",
+      "sha256": "310ab7d89cb0d25a2372aea4b59aed649a68377693af85d1d46c69b2fcababbc",
+      "bytes": 14890
+    },
+    {
+      "path": "docs/CONFIDENCE_AND_DRAWS.md",
+      "sha256": "423034743ee26bf9a1259a4d4efd829e58008136e0a3b9bdae9e32045cf67af5",
+      "bytes": 13777
+    },
+    {
+      "path": "docs/EXPERIMENT_REWARD.md",
+      "sha256": "f7db40b73cd5d530ca6ba794b978a39d26e52f1f9045fdfa3a8f156c20ad56ed",
+      "bytes": 7622
+    },
+    {
+      "path": "docs/EXPERIMENT_V2.md",
+      "sha256": "2896620f40417db4f098f08f949b53fef676034f06b3e6b761be5a7cdc20445f",
+      "bytes": 4375
+    },
+    {
+      "path": "docs/FLY_GUIDE.md",
+      "sha256": "7b739b8595e602f4cc3cdf9c29e2489282083293566793cc2faae6837d46463f",
+      "bytes": 24468
+    },
+    {
+      "path": "docs/MODEL_CARD.md",
+      "sha256": "3bbbe3a340253438441dbfc56a01eea8c1d64990c5fc6ad1b562f91e333cb1b9",
+      "bytes": 27797
+    },
+    {
+      "path": "docs/ROADMAP.md",
+      "sha256": "dd05b86ec014c11403ae4de9cb3300a1b47fb31dd13bedc2b24b699ef1359e4b",
+      "bytes": 16026
+    },
+    {
+      "path": "docs/api-contract.md",
+      "sha256": "45517d03ede126170f75fb017e20844d021f0b03de2d99ee1f2a8892074105d5",
+      "bytes": 20124
+    },
+    {
+      "path": "docs/design/fly-desk-verification.md",
+      "sha256": "f7e8cb59332da9b5c0084b06dd5e4081ba7793107ef40f20aaf5aadb0621b86e",
+      "bytes": 6069
+    },
+    {
+      "path": "docs/evidence/reassessment-2026-09-12/index.md",
+      "sha256": "bfd7dc0a21d55f698c8c0345fee2bd8652934279249c7a491b5295f81af11a3c",
+      "bytes": 1741
+    },
+    {
+      "path": "docs/evidence/reassessment-2026-09-12/repair-handoff.md",
+      "sha256": "dabf5765e7fa7f645440f011bc8f5d84acd9253c84ad1f4f59bdbc87b07b62a1",
+      "bytes": 5526
+    },
+    {
+      "path": "docs/evidence/reassessment-2026-09-12/repair-phase1.md",
+      "sha256": "a29016a1360825c4f89a74ad5cb5ccb447855d00f449a3943c96be82491daad5",
+      "bytes": 6457
+    },
+    {
+      "path": "docs/evidence/reward-v3-summary.md",
+      "sha256": "4a9ca4c6d737f7302584f10786b3867f9fae1849af8a3546474ea525dc526710",
+      "bytes": 19990
+    },
+    {
+      "path": "docs/evidence/v2-development-summary.md",
+      "sha256": "1e323a640ee34b5fe1757c6321def30aee929792607d3fad8581239e8740e090",
+      "bytes": 5625
+    },
+    {
+      "path": "docs/sports-data.md",
+      "sha256": "309961febe6205595dc6a196ab287d8810a07b2a1b738c9f3c54fb4d47a34a9e",
+      "bytes": 3667
+    },
+    {
+      "path": "docs/superpowers/plans/2026-09-10-bet36fly.md",
+      "sha256": "e68a78a0f73d30aff14604ed7d03cd89c57a8f9beb3ba5b0c34780d4d0295d8e",
+      "bytes": 3348
+    },
+    {
+      "path": "docs/superpowers/plans/2026-09-11-dopamine-learning.md",
+      "sha256": "3f96b056ffc8b7ff4b2d9e0248bd7ed4e901692e0af19dfb006f9662a705cd0f",
+      "bytes": 2975
+    },
+    {
+      "path": "docs/superpowers/specs/2026-09-10-bet36fly-design.md",
+      "sha256": "511810d2c98db69d128d0541b85388f28b590797b92f0cad9b1d1a69b5518d31",
+      "bytes": 3597
+    },
+    {
+      "path": "docs/superpowers/specs/2026-09-11-dopamine-learning-design.md",
+      "sha256": "dba7ca6c9b34615a6a44ba517d88a0bef9fc6361cbb19f6ddb307c27840e823c",
+      "bytes": 8613
+    },
+    {
+      "path": "wiki/SCHEMA.md",
+      "sha256": "d8e787e3a9e9e46f363b68b04d659b47319cabbd885cabd0245faa1f7714e56a",
+      "bytes": 2097
+    },
+    {
+      "path": "wiki/cells/alpn.md",
+      "sha256": "98f3fa94f0575d4cc3b44f761f0359cd1d1423741f1beec40cccdda57fff37b0",
+      "bytes": 3054
+    },
+    {
+      "path": "wiki/cells/apl.md",
+      "sha256": "90a633e7a6b28aa20a3f775e4c552d0ab9537950a6ada041cf13d7c0f69e3a99",
+      "bytes": 2125
+    },
+    {
+      "path": "wiki/cells/dopamine.md",
+      "sha256": "e7a121fdd4f37bea2896f7802761d5ec6066d6c1cc2a89ce80e5806656ee2546",
+      "bytes": 3875
+    },
+    {
+      "path": "wiki/cells/identities.md",
+      "sha256": "af5e1142bcfaea5ec17c3f41c5e2cd3ff3517359b8ce890a24292c52cd425b5a",
+      "bytes": 5302
+    },
+    {
+      "path": "wiki/cells/index.md",
+      "sha256": "29d9d5f1611c102c204641fe89e7f51d8bfcbdbfe00687b5462f9deafb952793",
+      "bytes": 3157
+    },
+    {
+      "path": "wiki/cells/kenyon-cells.md",
+      "sha256": "a51404474afc6342d8b20fbd59bdf7027408827030b8ae03f798ecb1537cd8db",
+      "bytes": 3608
+    },
+    {
+      "path": "wiki/cells/mbons.md",
+      "sha256": "ab14f38e2f6e284351742946865fcb6b1124ba25487c0513abe136f3bf19a223",
+      "bytes": 3112
+    },
+    {
+      "path": "wiki/cells/neurochemistry.md",
+      "sha256": "d796cb57a26ecad74d4518cde8458717c05521f12a7be7d5a10f7e1a4358e4f6",
+      "bytes": 3156
+    },
+    {
+      "path": "wiki/community.md",
+      "sha256": "221bf43749b150750a2c669c8482f8915db0bef4ae595171a62aecfdd9c7b63f",
+      "bytes": 3335
+    },
+    {
+      "path": "wiki/evidence-gates.md",
+      "sha256": "00abf51be685a4c1067b0a7dda9c93c8f5da68c8addd1c7ed41c5404dbcd33a8",
+      "bytes": 4271
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/README.md",
+      "sha256": "51121084b6f0d945e0221e327140e0f283c7dfaf417809bdd6acadb7d76d91bc",
+      "bytes": 1683
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/research/raw/2026-09-12/microduck-runtime/README.md",
+      "sha256": "688c04bbb8e9b677c6ce65a1d76597488a02098ad5d69939a8a1d52f7b05698f",
+      "bytes": 5131
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/research/raw/2026-09-12/microduck-runtime/docs/design/architecture.md",
+      "sha256": "313bc1d1900da2f68f4d6473ff9a7f4901d466336ab06d87bc4dec2e109f76c5",
+      "bytes": 36328
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/research/raw/2026-09-12/microduck-runtime/docs/policy-manifest.md",
+      "sha256": "483f6493b50d94b4b7befd341caf446a7e50df0de0fdfbf58c3b3bf0817fc3d5",
+      "bytes": 7508
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/research/raw/2026-09-12/microduck-runtime/docs/recurrent-policies.md",
+      "sha256": "863cebeb5cf98fbb13ee5458b8460bf0962e8a732904d8b07021e2365fa00beb",
+      "bytes": 4461
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/research/raw/2026-09-12/microduck-runtime/docs/robot/simulation.md",
+      "sha256": "7f24d8e7885aa2d6b2151ddee2c789dbb7be43c15e172b4998769b35daacdf7a",
+      "bytes": 10254
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/research/raw/2026-09-12/microduck_rl/README.md",
+      "sha256": "b5e606efe7ff71f4f6324820b36152d401a0b1be6e2f908bbaca01ffee81638d",
+      "bytes": 13267
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/research/raw/index.md",
+      "sha256": "f7500261fc342b067c40f371c8b859ae52a9ea82d4a28c69fc7d3c96284c2feb",
+      "bytes": 1971
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/SCHEMA.md",
+      "sha256": "496209f8585ab0ae2a0d1dad4048353dae7d53b516d90d37ae4152807bbfcd31",
+      "bytes": 5188
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/community/claims-map.md",
+      "sha256": "3a4bd710d39011b4551a90c43ff9f7fa720e65a23e18252fd93ab4897aae87e2",
+      "bytes": 5933
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/community/fly-ecosystem.md",
+      "sha256": "defacabdc3994fe469dfc63c6f572df370bb6c7aaeb8f6825092c1b8a57408c3",
+      "bytes": 5570
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/community/flyhard.md",
+      "sha256": "f5e93a0907bb47542602f139e80e5c76e779a94118e5363b2e86d6ede31e688a",
+      "bytes": 5851
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/community/index.md",
+      "sha256": "45b10fa000066cb1f58e5e40211f01e6f1f925a3d30d6a9520e908e9b6a81a66",
+      "bytes": 3546
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/community/joint-projects.md",
+      "sha256": "e30fd98938ae81687969cc0d4a29961d25b167f083cb22c42d5b64fa3dc66453",
+      "bytes": 5592
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/community/microduck-ecosystem.md",
+      "sha256": "35d8411198b054c61ccd657ad4926e7a37e0bd5f3ae08df9ec084e0776732f0e",
+      "bytes": 6199
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/community/sources.md",
+      "sha256": "215134bcf75aa9f642731f214a11d37afde54078059744cb8320c7c990998bf0",
+      "bytes": 6492
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/community/tools-and-distribution.md",
+      "sha256": "237abf9ce9f64fac3d95e206e5f72b2fb0de76247cb94f8d1752b7dc7823f06c",
+      "bytes": 5143
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/compute/brev.md",
+      "sha256": "e9e0dc41bd69cf50bec0d83f2ee070f2eb2998d5d24e7e357127d9e9d5100860",
+      "bytes": 3960
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/compute/gpu-selection.md",
+      "sha256": "05d50e0e903f2899ef6a103c53420ce039f7f8e850dc790d094dbd3dbacdb7d9",
+      "bytes": 4612
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/compute/hugging-face.md",
+      "sha256": "7d20b1d739f701d597ef11e24f99df15e581efa387724c3d28f4b045621393cd",
+      "bytes": 4762
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/compute/index.md",
+      "sha256": "36306ddbb62fbadfc054b0fe9789fb9407fd28921e942d4e32667414f2d188da",
+      "bytes": 3691
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/compute/ownership.md",
+      "sha256": "c0c54ab6009dde1a3465b4db513fb2f4e6b62b1bf6be7030f6319a572a2db92c",
+      "bytes": 3106
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/compute/run-contract.md",
+      "sha256": "8da9ebd726d022218d74e0e95827a37526670df0e961cc5660c5a22c3c666607",
+      "bytes": 4406
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/compute/sources.md",
+      "sha256": "033890187235e741fb896c7f9f821de695bf84cd1be2d8c8640bccb25be9beeb",
+      "bytes": 6097
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/connectome/brain-body-interface.md",
+      "sha256": "d72d5e81dfbf3280f3b52bb2971d177727235efbe85624d621f7cfc762ac848f",
+      "bytes": 8984
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/connectome/embodiment-research.md",
+      "sha256": "5a6107f646f85708b5f9dceb884e1f99a5eea6a3043452c3ee90fb0166d329c4",
+      "bytes": 6756
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/connectome/index.md",
+      "sha256": "c89df465d9e8b58e568216e10adb48e9fa5be6ce1168f2b1d7bdb3fa21aa930e",
+      "bytes": 3568
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/connectome/malecns-release.md",
+      "sha256": "decff1224415ffb99e46973d8795596564ed3e27d34374b1ee7af482a2c2ab72",
+      "bytes": 5816
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/connectome/sources.md",
+      "sha256": "3ce73e4e729c32be9536f7d5fea62b43a969db164523e3360f73cfd877a37791",
+      "bytes": 4274
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/index.md",
+      "sha256": "c384e548e7b714247a6893f29e1563b55f3e36215744f8abb14857b1cb321a6a",
+      "bytes": 3409
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/log.md",
+      "sha256": "910cbfa59e36ac2211e447e75058c1838cc9af074c61afd311221019dea6ace4",
+      "bytes": 2023
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/microduck/index.md",
+      "sha256": "a8d182c29a0f1e748173c49996e51589b1bb84f63de838ec5db53eaf0b90d3c8",
+      "bytes": 1696
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/microduck/pickup-mechanics.md",
+      "sha256": "12cb353aed23313dc0f815affb4cadea71325eefba10a0605f3b8905ec669fc5",
+      "bytes": 6092
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/microduck/runtime.md",
+      "sha256": "23ee03308018c60109dad2b5e7c68b373fb8ebc22dafefea8cbad8c5db1d0ff3",
+      "bytes": 6254
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/microduck/simulators.md",
+      "sha256": "500176c44d1b79bc0d7d82b37870a1e54223fb946e4f1897eed40d62f359a1bb",
+      "bytes": 6569
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/microduck/sources.md",
+      "sha256": "aca088ee8a9e154bb1a1abcc081a7bc89039d3fa3059895511e0572fa100885e",
+      "bytes": 4820
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/microduck/trainer.md",
+      "sha256": "724321bbf0ee5356c02c9c3d2cab82915875113e5a3d1f8c4173365bc28e7c62",
+      "bytes": 6983
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/overview.md",
+      "sha256": "e9aa1ecfeb820b360bc6851e4b884c7d2b5b9a215225d9480b35401490d350de",
+      "bytes": 4860
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/synthesis/hazard-evaluation.md",
+      "sha256": "8c6a94c28a8bf80712c329c8e26af1c767c97dcfcc693da15a49b18b9c0ddcac",
+      "bytes": 7196
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/synthesis/open-questions.md",
+      "sha256": "bb4bdbbb45f4a3fcd35fc64f326a5dc98b44f09f2206f0a8f3d1e82b15433906",
+      "bytes": 4554
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/synthesis/training-and-deployment.md",
+      "sha256": "1497b865a157c9ec3edb079d9154e78d5b60eae4cbdc56d1c11124ecd0c76ddc",
+      "bytes": 7552
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/verification.md",
+      "sha256": "8d1a1ba10a3575cceab76d2279fe05bbcf235703a4219691fb7263d4e0f4c129",
+      "bytes": 3833
+    },
+    {
+      "path": "wiki/index.md",
+      "sha256": "935de94e5a5d281f00ce43e0048775a04fbaaa88d2c90a51f6a4a25472c7a8ba",
+      "bytes": 3241
+    },
+    {
+      "path": "wiki/learning-rule.md",
+      "sha256": "4b0182790d07b0cf99adad2140d18d421c551e9d4cba992f2d0e18ef5552cec9",
+      "bytes": 4945
+    },
+    {
+      "path": "wiki/log.md",
+      "sha256": "5d7ac8d62d304944305eda8c3fdccda9c9f5506a08dbbae6f4662d70716f85cb",
+      "bytes": 1072
+    },
+    {
+      "path": "wiki/reassessment.md",
+      "sha256": "210f0b7bf669f7776a092e8fbec63e5042d3dd458e28f772a001272619168b81",
+      "bytes": 7249
+    },
+    {
+      "path": "wiki/sources.md",
+      "sha256": "fb430bd8ce84202bd371ee0ccf5c5fd69b2f367fcb11b776b4cedb5ef5c07a54",
+      "bytes": 4298
+    },
+    {
+      "path": "wiki/verification.md",
+      "sha256": "0d50a3a07e87dec3a23c0e94a1bb69b7cb5b9ff5414728b2f0d2a2f70f4f7ea8",
+      "bytes": 5108
+    },
+    {
+      "path": "output/collaboration/reward-repair/evidence/candidate-rule-spec-v1.1.md",
+      "sha256": "01023ac61cbb23a7a0d6445989dc00c639ce81a08aa683b66a3062f70ef23725",
+      "bytes": 4570
+    },
+    {
+      "path": ".worktrees/reward-repair-phase1/docs/evidence/reward-repair-phase1.md",
+      "sha256": "a29016a1360825c4f89a74ad5cb5ccb447855d00f449a3943c96be82491daad5",
+      "bytes": 6457
+    }
+  ],
+  "chunks": 28,
+  "receipts": [
+    {
+      "role": "kernel/test",
+      "receipt": "kernel-audit-reading.md",
+      "sha256": "5eefe6afd9df5dd0665c3752ff922b3b7194277b7719e499b6b4c50b91a444e8"
+    },
+    {
+      "role": "sources",
+      "receipt": "mechanism-sources-reading.md",
+      "sha256": "8d67b88f2dd2616f091ab3167cbcac393b2d0d3c75bcc52765f19ff2f100b995"
+    },
+    {
+      "role": "conditioning/frontend",
+      "receipt": "conditioning-reading.md",
+      "sha256": "6b991edcec441ff4ab1df0449efbeeec8f0030b049888c1486c62ad69251d803"
+    }
+  ],
+  "scope": "All initial81Markdown documents read by each agent; later changed docs are read at task/review boundaries."
+}

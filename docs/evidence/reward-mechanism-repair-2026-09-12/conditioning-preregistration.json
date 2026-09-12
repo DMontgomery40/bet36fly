@@ -1,0 +1,8 @@
+{
+  "state": "preregistered-before-conditioning",
+  "frozen_utc": "2026-09-12T04:58:56.831550+00:00",
+  "document": "conditioning-preregistration.md",
+  "sha256": "748df593f6fde4f0b9f613a75a75e69870901a6c673a635b968d50c40c9ea053",
+  "source_report": "output/collaboration/reward-mechanism-repair/conditioning-report.md",
+  "source_sha256": "0d1718adb57b24fc863abafcb234dac64ccb31227ce92263bcce9f20ba56964c"
+}

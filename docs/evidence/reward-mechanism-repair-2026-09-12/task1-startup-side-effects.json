@@ -1,0 +1,530 @@
+{
+  "files": {
+    "data/sports/games.json": {
+      "sha256": "90484d2bc74b9dcc3b21a71c6cc1782dd7de8da7e6fae79192ae780d786e1987",
+      "bytes": 5667820,
+      "mtime_utc": "2026-09-12T04:54:40.125810+00:00"
+    },
+    "data/sports/dataset.npz": {
+      "sha256": "352f5429b0670af9d048f8bc1d47c6030fb40ae9f37d7acaac82730e5d24de7f",
+      "bytes": 206508,
+      "mtime_utc": "2026-09-12T04:54:40.145367+00:00"
+    },
+    "data/sports/dataset-games.json": {
+      "sha256": "44ad9adb45c9062058f35c06c9f7088996afd22b20a41e5986c4356da78761d8",
+      "bytes": 5663775,
+      "mtime_utc": "2026-09-12T04:54:40.200469+00:00"
+    },
+    "data/sports/raw/20260912T045440Z-mlb-live-5bc6069e6eae.json": {
+      "sha256": "2ca0b6cdf9927e884667f5f60840f47d59bf30dc481d7b51fbb23b8a5c30327e",
+      "bytes": 384111,
+      "mtime_utc": "2026-09-12T04:54:40.005965+00:00"
+    },
+    "data/sports/raw/20260912T045439Z-espn-epl-live-9e0d57b7f1bf.json": {
+      "sha256": "2c73c4c9a299ac59473ebdd1ab3889672c75d8f3acef71338adbfbdcb8f537a1",
+      "bytes": 461467,
+      "mtime_utc": "2026-09-12T04:54:39.999367+00:00"
+    },
+    "data/picks.sqlite3": {
+      "sha256": "4dfe8b5436560e2f7e5cd8141b46c70775a45df12aa7947e42fa53ce65794986",
+      "bytes": 266240,
+      "mtime_utc": "2026-09-12T04:54:54.092493+00:00"
+    },
+    "output/current-model.json": {
+      "sha256": "975badb63a16ca1b24291a741b6818f1d83776b51adb18b18c6f0902b3a18b21",
+      "bytes": 345,
+      "mtime_utc": "2026-09-10T23:37:37.864823+00:00"
+    }
+  },
+  "new_picks_in_startup_window": [
+    {
+      "id": "f6aac5f1b2aa89928408bf4b",
+      "created_at": "2026-09-12T04:54:40.440474+00:00",
+      "game_id": "baseball:mlb:824465",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "277ea525334f465f4e8bf1a2",
+      "created_at": "2026-09-12T04:54:40.605192+00:00",
+      "game_id": "baseball:mlb:822765",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "b0325dfa56fa78253e2f3e33",
+      "created_at": "2026-09-12T04:54:40.777533+00:00",
+      "game_id": "baseball:mlb:823575",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "1d874f799f5403c5d2d2b521",
+      "created_at": "2026-09-12T04:54:40.943653+00:00",
+      "game_id": "baseball:mlb:823656",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "0a5f999315e975fc98ae67b9",
+      "created_at": "2026-09-12T04:54:41.109977+00:00",
+      "game_id": "baseball:mlb:824629",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "d65ef46b1055c7d10fb9ce1b",
+      "created_at": "2026-09-12T04:54:41.272737+00:00",
+      "game_id": "baseball:mlb:824308",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "a746ee7d4009443553b50872",
+      "created_at": "2026-09-12T04:54:41.438187+00:00",
+      "game_id": "baseball:mlb:823981",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "49ddb42bf9c85ac067a676ad",
+      "created_at": "2026-09-12T04:54:41.605629+00:00",
+      "game_id": "baseball:mlb:825034",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "02d1b0d0998d902fdbac94b8",
+      "created_at": "2026-09-12T04:54:41.772127+00:00",
+      "game_id": "baseball:mlb:822925",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "a8356470d15566e6c5642349",
+      "created_at": "2026-09-12T04:54:41.938094+00:00",
+      "game_id": "baseball:mlb:823333",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "3fbf6e70ddfbb0e2c90edd5b",
+      "created_at": "2026-09-12T04:54:42.105552+00:00",
+      "game_id": "baseball:mlb:824384",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "dafdac2fbcac56b797d0d998",
+      "created_at": "2026-09-12T04:54:42.281569+00:00",
+      "game_id": "baseball:mlb:824466",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "8acad559d3669f2958bef180",
+      "created_at": "2026-09-12T04:54:42.442544+00:00",
+      "game_id": "baseball:mlb:822683",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "0e1a6451e69b537cdf424e31",
+      "created_at": "2026-09-12T04:54:42.602978+00:00",
+      "game_id": "baseball:mlb:822762",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "30439cd46e959ba9f907d7ab",
+      "created_at": "2026-09-12T04:54:42.779806+00:00",
+      "game_id": "baseball:mlb:823574",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "398e6dcff979d145a579a2e5",
+      "created_at": "2026-09-12T04:54:42.951316+00:00",
+      "game_id": "baseball:mlb:823654",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "4951b9be57ee0b30c596b1e1",
+      "created_at": "2026-09-12T04:54:43.125211+00:00",
+      "game_id": "baseball:mlb:824627",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "966bfa4010ac9ded5f4ce5ef",
+      "created_at": "2026-09-12T04:54:43.317208+00:00",
+      "game_id": "baseball:mlb:823007",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "c551fadd41dec4a53fde7b8d",
+      "created_at": "2026-09-12T04:54:43.491718+00:00",
+      "game_id": "baseball:mlb:822849",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "1953f12a2f31c6677abcb10f",
+      "created_at": "2026-09-12T04:54:43.658085+00:00",
+      "game_id": "baseball:mlb:824143",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "c53b649c82e21873359a8a0e",
+      "created_at": "2026-09-12T04:54:43.821015+00:00",
+      "game_id": "baseball:mlb:824307",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "eec664c0f26a971250b58837",
+      "created_at": "2026-09-12T04:54:43.979055+00:00",
+      "game_id": "baseball:mlb:823980",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "0dc739d0e7ce081d60205b2b",
+      "created_at": "2026-09-12T04:54:44.141789+00:00",
+      "game_id": "baseball:mlb:825030",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "9c605a82b4185895523b0753",
+      "created_at": "2026-09-12T04:54:44.305918+00:00",
+      "game_id": "baseball:mlb:824382",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "f9a49bf849d043b72fe5fe7b",
+      "created_at": "2026-09-12T04:54:44.465711+00:00",
+      "game_id": "baseball:mlb:823004",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "d1b49ec74bf4b0a7ecc8b526",
+      "created_at": "2026-09-12T04:54:44.626832+00:00",
+      "game_id": "baseball:mlb:823655",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "15546997d2a95b6de8e069a3",
+      "created_at": "2026-09-12T04:54:44.788339+00:00",
+      "game_id": "baseball:mlb:822763",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "5575026141b3948e86ce5fa7",
+      "created_at": "2026-09-12T04:54:44.953583+00:00",
+      "game_id": "baseball:mlb:822926",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "b22670e1f09c1d6cc10d395c",
+      "created_at": "2026-09-12T04:54:45.123093+00:00",
+      "game_id": "baseball:mlb:823332",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "68729c400510bc995885b4a4",
+      "created_at": "2026-09-12T04:54:45.291023+00:00",
+      "game_id": "baseball:mlb:824467",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "cd61d134c1fbef2133c2fa7f",
+      "created_at": "2026-09-12T04:54:45.460226+00:00",
+      "game_id": "baseball:mlb:822680",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "23cc92e6fc6de94be431af30",
+      "created_at": "2026-09-12T04:54:45.631374+00:00",
+      "game_id": "baseball:mlb:823576",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "903d733e047d7f36bfee3fbd",
+      "created_at": "2026-09-12T04:54:45.805128+00:00",
+      "game_id": "baseball:mlb:824626",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "d4978516f7a691372f6e7743",
+      "created_at": "2026-09-12T04:54:45.979444+00:00",
+      "game_id": "baseball:mlb:822846",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "97fab95276ff4bb0de7318cc",
+      "created_at": "2026-09-12T04:54:46.148566+00:00",
+      "game_id": "baseball:mlb:824140",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "8710cb15be77968e7d9a9597",
+      "created_at": "2026-09-12T04:54:46.318852+00:00",
+      "game_id": "baseball:mlb:824306",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "280adb85209e348f8372f558",
+      "created_at": "2026-09-12T04:54:46.504874+00:00",
+      "game_id": "baseball:mlb:823979",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "8488d5a8a0feeaf4dffeb37b",
+      "created_at": "2026-09-12T04:54:46.695646+00:00",
+      "game_id": "baseball:mlb:825031",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "4f94b4f723df12ae5bcbf25c",
+      "created_at": "2026-09-12T04:54:46.876630+00:00",
+      "game_id": "baseball:mlb:823334",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "5e42e2c8df32bac6fc51b44f",
+      "created_at": "2026-09-12T04:54:47.049929+00:00",
+      "game_id": "baseball:mlb:824464",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "47c1423de3b470dc0efed931",
+      "created_at": "2026-09-12T04:54:47.227626+00:00",
+      "game_id": "baseball:mlb:822924",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "87694d57d9afbc757d40be80",
+      "created_at": "2026-09-12T04:54:47.393573+00:00",
+      "game_id": "baseball:mlb:824305",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "1e49982a9d8f9df2a82b5b73",
+      "created_at": "2026-09-12T04:54:47.576667+00:00",
+      "game_id": "baseball:mlb:823573",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "b390d9d1518d5981b645099d",
+      "created_at": "2026-09-12T04:54:47.763548+00:00",
+      "game_id": "baseball:mlb:824141",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "c67641c1712473a341bfb787",
+      "created_at": "2026-09-12T04:54:47.935526+00:00",
+      "game_id": "baseball:mlb:824548",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "514abd8086e4639a734d8e6f",
+      "created_at": "2026-09-12T04:54:48.103279+00:00",
+      "game_id": "baseball:mlb:822845",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "3c96677b04e554c84ef1ee75",
+      "created_at": "2026-09-12T04:54:48.267649+00:00",
+      "game_id": "baseball:mlb:823978",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "b84f1fe781149e81f81da295",
+      "created_at": "2026-09-12T04:54:48.441361+00:00",
+      "game_id": "baseball:mlb:823331",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "9ce8c13c99298c117feaa781",
+      "created_at": "2026-09-12T04:54:48.606439+00:00",
+      "game_id": "baseball:mlb:824463",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "a3c22f6bff9929d42234c72b",
+      "created_at": "2026-09-12T04:54:48.780323+00:00",
+      "game_id": "baseball:mlb:824790",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "d0888bf4ce9aa499a213e165",
+      "created_at": "2026-09-12T04:54:48.957194+00:00",
+      "game_id": "baseball:mlb:822923",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "a33fc52d8ea7789c2174d075",
+      "created_at": "2026-09-12T04:54:49.127456+00:00",
+      "game_id": "baseball:mlb:824383",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "451e55ed48c9b7758782cdc8",
+      "created_at": "2026-09-12T04:54:49.299005+00:00",
+      "game_id": "baseball:mlb:823572",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "9cf132d534bbe93253e88620",
+      "created_at": "2026-09-12T04:54:49.466953+00:00",
+      "game_id": "baseball:mlb:824547",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "0d08aee8456bfbd47ca8a608",
+      "created_at": "2026-09-12T04:54:49.639071+00:00",
+      "game_id": "baseball:mlb:822847",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "1cdf9893ee7387c0f3f98529",
+      "created_at": "2026-09-12T04:54:49.806947+00:00",
+      "game_id": "baseball:mlb:824138",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "6372b929251086ec1f4748c8",
+      "created_at": "2026-09-12T04:54:49.963725+00:00",
+      "game_id": "baseball:mlb:824303",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "e0313bc7ec625d12c55eb8fb",
+      "created_at": "2026-09-12T04:54:50.135128+00:00",
+      "game_id": "baseball:mlb:823005",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "8e9e3cbbff04d50d823ab0dc",
+      "created_at": "2026-09-12T04:54:50.311808+00:00",
+      "game_id": "baseball:mlb:823977",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "6dd08db94f13da896da699bf",
+      "created_at": "2026-09-12T04:54:50.489518+00:00",
+      "game_id": "baseball:mlb:823252",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "1a80ee66e165ae1c55154289",
+      "created_at": "2026-09-12T04:54:50.662793+00:00",
+      "game_id": "baseball:mlb:825032",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "b7c78c74bbea7bbd4ce2b82d",
+      "created_at": "2026-09-12T04:54:50.837546+00:00",
+      "game_id": "baseball:mlb:823898",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "9c621c9229d82e0edae4061a",
+      "created_at": "2026-09-12T04:54:51.008799+00:00",
+      "game_id": "baseball:mlb:824788",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "f37213e92b36d289d59ae8fa",
+      "created_at": "2026-09-12T04:54:51.187533+00:00",
+      "game_id": "baseball:mlb:822921",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "03b889644cf736906d08c42d",
+      "created_at": "2026-09-12T04:54:51.370997+00:00",
+      "game_id": "baseball:mlb:823571",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "d146174f9906006089339ed8",
+      "created_at": "2026-09-12T04:54:51.541773+00:00",
+      "game_id": "baseball:mlb:824380",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "7420ee91c0b7ff76edd5e78c",
+      "created_at": "2026-09-12T04:54:51.727748+00:00",
+      "game_id": "baseball:mlb:823330",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "830a87e24a2f79a25e1f6530",
+      "created_at": "2026-09-12T04:54:51.915961+00:00",
+      "game_id": "baseball:mlb:824461",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "d517d12844eaafc4ca6df898",
+      "created_at": "2026-09-12T04:54:52.083577+00:00",
+      "game_id": "baseball:mlb:822843",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "a494a2cd16b42dc5cdd5dbfd",
+      "created_at": "2026-09-12T04:54:52.262194+00:00",
+      "game_id": "baseball:mlb:824137",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "017b0e5dea9a321b898ea772",
+      "created_at": "2026-09-12T04:54:52.426803+00:00",
+      "game_id": "baseball:mlb:824545",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "10649cbe279c935fc7e19602",
+      "created_at": "2026-09-12T04:54:52.591594+00:00",
+      "game_id": "baseball:mlb:823003",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "b871f03b004c2fb18f7fc100",
+      "created_at": "2026-09-12T04:54:52.754662+00:00",
+      "game_id": "baseball:mlb:824304",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "3cfcd17f108e874d483a31e1",
+      "created_at": "2026-09-12T04:54:52.933570+00:00",
+      "game_id": "baseball:mlb:825029",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "6e71156a69c8faecfd7c5d3f",
+      "created_at": "2026-09-12T04:54:53.101304+00:00",
+      "game_id": "baseball:mlb:823249",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "f2b7445623e41fcad2a82722",
+      "created_at": "2026-09-12T04:54:53.273796+00:00",
+      "game_id": "baseball:mlb:823899",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "d0c023a0af9450f7fc0bef35",
+      "created_at": "2026-09-12T04:54:53.434371+00:00",
+      "game_id": "baseball:mlb:823976",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "1afc417c1edafa04ed21af7e",
+      "created_at": "2026-09-12T04:54:53.596340+00:00",
+      "game_id": "soccer:epl:2026-09-20:bournemouth:liverpool",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "c8f181a7fcb3751d6eb1c31f",
+      "created_at": "2026-09-12T04:54:53.764578+00:00",
+      "game_id": "soccer:epl:2026-09-20:leeds:crystal-palace",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "1ef124b57f1d4895b2867f96",
+      "created_at": "2026-09-12T04:54:53.928359+00:00",
+      "game_id": "soccer:epl:2026-09-20:man-city:sunderland",
+      "run_id": "20260910T232621Z"
+    },
+    {
+      "id": "5396872efd08e82d2a684032",
+      "created_at": "2026-09-12T04:54:54.091766+00:00",
+      "game_id": "soccer:epl:2026-09-20:fulham:man-united",
+      "run_id": "20260910T232621Z"
+    }
+  ],
+  "n_new_picks": 81,
+  "note": "Default server:app startup mistakenly enabled follow_sources. Server stopped; no rollback attempted. Timestamps and rows establish side effects, not a before/after byte diff without a baseline.",
+  "warm_disabled_final_browser_hashes_unchanged": true
+}

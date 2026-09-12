@@ -1,0 +1,60 @@
+{
+  "purpose": "Immutable historical copies for main read-only evidence registry; no rerun, no relabeling, originals unchanged.",
+  "source_worktree_commit": "81037f15118c1d9857e78aa579292e9a46327c09",
+  "files": [
+    {
+      "source": ".worktrees/reward-repair-phase1/output/diagnostics/diag-legacy-8f4fa1fdc488/summary.json",
+      "copy": "output/diagnostics/diag-legacy-8f4fa1fdc488/summary.json",
+      "sha256": "367ab30a9c733262a28937aedb68b1dbea0833729dd5357d8c2ae6504343b3e8",
+      "bytes": 568104
+    },
+    {
+      "source": ".worktrees/reward-repair-phase1/output/diagnostics/diag-legacy-8f4fa1fdc488/trials.npz",
+      "copy": "output/diagnostics/diag-legacy-8f4fa1fdc488/trials.npz",
+      "sha256": "865b9b516618906deef25bb32ab53c6f181577c9f20429ea919e112539d80e78",
+      "bytes": 2429660
+    },
+    {
+      "source": ".worktrees/reward-repair-phase1/output/diagnostics/diag-candidate-b57b80fdcdfc/attribution.json",
+      "copy": "output/diagnostics/diag-candidate-b57b80fdcdfc/attribution.json",
+      "sha256": "ccb5a74c4bf47a629b8de17c28638378cd4611a68d87ef7d87adb44677813f8a",
+      "bytes": 30098
+    },
+    {
+      "source": ".worktrees/reward-repair-phase1/output/diagnostics/diag-candidate-b57b80fdcdfc/summary.json",
+      "copy": "output/diagnostics/diag-candidate-b57b80fdcdfc/summary.json",
+      "sha256": "c221f24a166a4e896d0ea126bb32f445f17db1b6e3fe074a091bc740f2e52000",
+      "bytes": 565474
+    },
+    {
+      "source": ".worktrees/reward-repair-phase1/output/diagnostics/diag-candidate-b57b80fdcdfc/trials.npz",
+      "copy": "output/diagnostics/diag-candidate-b57b80fdcdfc/trials.npz",
+      "sha256": "358c2d12a3247083bc4f9768c74043fd53e2646f6cb09abca99ba95d145557a5",
+      "bytes": 26327714
+    },
+    {
+      "source": ".worktrees/reward-repair-phase1/output/diagnostics/diag-candidate-maskgamma-ebe453ac10f5/plastic_mask.npy",
+      "copy": "output/diagnostics/diag-candidate-maskgamma-ebe453ac10f5/plastic_mask.npy",
+      "sha256": "172914f227538a4639e97dcf0bef13a6ff444697bdc87de8e5477bd06cab9b3f",
+      "bytes": 8994
+    },
+    {
+      "source": ".worktrees/reward-repair-phase1/output/diagnostics/diag-candidate-maskgamma-ebe453ac10f5/plastic_mask.sidecar.json",
+      "copy": "output/diagnostics/diag-candidate-maskgamma-ebe453ac10f5/plastic_mask.sidecar.json",
+      "sha256": "e29c7fca868f1f39561f46d7f1e39db5f5a8f76f43de8f40c15f575a44a6100a",
+      "bytes": 540
+    },
+    {
+      "source": ".worktrees/reward-repair-phase1/output/diagnostics/diag-candidate-maskgamma-ebe453ac10f5/summary.json",
+      "copy": "output/diagnostics/diag-candidate-maskgamma-ebe453ac10f5/summary.json",
+      "sha256": "dd91d97069d70c7f35d9c3151e0a195312b17ac8336a2e0d5f3322932e33d69f",
+      "bytes": 564689
+    },
+    {
+      "source": ".worktrees/reward-repair-phase1/output/diagnostics/diag-candidate-maskgamma-ebe453ac10f5/trials.npz",
+      "copy": "output/diagnostics/diag-candidate-maskgamma-ebe453ac10f5/trials.npz",
+      "sha256": "fdfbbaa58590669d086675fc1c56b52a0b0eea9b2ac9697cf574f988f6b9b665",
+      "bytes": 26327714
+    }
+  ]
+}

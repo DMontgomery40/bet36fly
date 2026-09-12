@@ -26,14 +26,13 @@ from bet36fly.experiment import atomic_json, utcnow  # noqa: E402
 from bet36fly.reward_brain import RewardEngine  # noqa: E402
 from bet36fly.reward_diagnostic import (  # noqa: E402
     COMPARTMENT_OF, PHASES, RULE_REFERENCE, compartment_sums, evaluate_cumulative, evaluate_panel,
-    panel_protocol, phase_sums,
+    check_diagnostic_complete, evaluate_bound_hits, panel_protocol, phase_sums, select_panel, verify_graph_inputs,
 )
 from bet36fly.reward_protocol import file_hash, make_circuit  # noqa: E402
 
 PILOT = '/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/experiments/reward-v3-209f7c49983f5873f650'
 KC_CLASSES = ('gamma', 'apbp', 'ab', 'other')
 CONDITIONS = ('frozen', 'untaught', 'home', 'away')
-FROZEN_PANEL_GAMES, FROZEN_CUMULATIVE_GAMES = 8, 16
 ALT_SEED_OFFSET = 1_000_000
 RULE_TERMS = ('term_dbar_k', 'term_kbar_d', 'applied', 'clipped_low', 'clipped_high', 'kc_events', 'kbar_mass_end')
 
@@ -49,25 +48,62 @@ def kc_class(type_name):
     return 'other'
 
 
-def main():
+def freeze_preregistration(path, identity, run_id):
+    """Create the pre-execution selection receipt exclusively; an existing different freeze is an error."""
+    document = dict(status='preregistered-not-run', created_at=utcnow(), run_id=run_id, identity=identity,
+                    criteria=dict(teaching_effect_ratio=3.0, untaught_sd_ratio=0.5,
+                                  cross_compartment_ratio=0.05, cumulative_effect_ratio=4.0,
+                                  no_bound_hits=True, bit_identical_repeat=True, sensory_noise_invariance=True))
+    path = Path(path)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    if path.exists():
+        existing = json.loads(path.read_text())
+        if (existing.get('identity') != identity or existing.get('run_id') != run_id
+                or existing.get('criteria') != document['criteria']
+                or existing.get('status') != document['status']):
+            raise ValueError('Preregistration differs; preserve it and use a new identity/path.')
+        return existing
+    with path.open('x') as stream:
+        json.dump(document, stream, indent=2, allow_nan=False)
+        stream.write('\n')
+    return document
+
+
+def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--rule', choices=('legacy', 'candidate'), required=True)
     parser.add_argument('--away-mask', choices=('all', 'gamma'), default='all')
     parser.add_argument('--pilot', type=Path, default=Path(PILOT))
     parser.add_argument('--games', type=int, default=8)
+    parser.add_argument('--panel-offset', type=int, default=0)
+    parser.add_argument('--seed-offset', type=int, default=0)
+    parser.add_argument('--panel-kind', choices=('original', 'held-out', 'debug'), default=None)
+    parser.add_argument('--preregistration', type=Path, help='immutable pre-execution selection and input identity receipt')
+    parser.add_argument('--preregister-only', action='store_true', help='freeze inputs/selectors without building or running the circuit')
     parser.add_argument('--cumulative-games', type=int, default=16)
     parser.add_argument('--out', type=Path, default=ROOT / 'output/diagnostics')
     parser.add_argument('--evidence', type=Path, default=None, help='directory to receive a copy of summary.json')
     parser.add_argument('--cancel-file', type=Path, default=None)
-    args = parser.parse_args()
+    args = parser.parse_args(argv)
+    if args.preregister_only and not args.preregistration:
+        parser.error('--preregister-only requires --preregistration')
 
     started = time.time()
     base_protocol = json.loads((args.pilot / 'source/protocol.json').read_text())
     if 'dan_reference' not in inspect.signature(RewardEngine.__init__).parameters:
         raise SystemExit('This revision has no dan_reference mode; refusing to run a mislabeled panel.')
     protocol = panel_protocol(base_protocol, args.rule, args.away_mask)
-    inputs = np.load(args.pilot / 'source/inputs.npz', allow_pickle=False)
-    X, src, cal = inputs['X'], inputs['source_indices'], inputs['calibration_indices']
+    with np.load(args.pilot / 'source/inputs.npz', allow_pickle=False) as stored:
+        inputs = {name: stored[name] for name in stored.files}
+    selection = select_panel(inputs, seed=protocol['seed'], panel_offset=args.panel_offset,
+                             seed_offset=args.seed_offset, games=args.games, cumulative_games=args.cumulative_games,
+                             panel_kind=args.panel_kind)
+    if selection['panel_kind'] == 'held-out' and not args.preregistration:
+        parser.error('held-out panels require an explicit --preregistration receipt')
+    manifest_path = args.pilot / 'manifest.json'
+    manifest = json.loads(manifest_path.read_text())
+    graph_hashes = verify_graph_inputs(ROOT, manifest['identity'])
+    X, src = inputs['X'], inputs['source_indices']
     mean, std = inputs['input_mean'], inputs['input_std']
     def code_hashes():
         hashes = {name: file_hash(Path(__file__).resolve().parents[1] / 'bet36fly' / name)
@@ -76,17 +112,31 @@ def main():
         return hashes
 
     code = code_hashes()
-    panel_complete = args.games == FROZEN_PANEL_GAMES and args.cumulative_games == FROZEN_CUMULATIVE_GAMES
     identity = dict(rule=args.rule, protocol=protocol, pilot=args.pilot.name, games=args.games,
                     cumulative_games=args.cumulative_games, alt_seed_offset=ALT_SEED_OFFSET, code_hashes=code,
-                    inputs_sha256=file_hash(args.pilot / 'source/inputs.npz'))
+                    inputs_sha256=file_hash(args.pilot / 'source/inputs.npz'),
+                    pilot_manifest_sha256=file_hash(manifest_path),
+                    pilot_protocol_sha256=file_hash(args.pilot / 'source/protocol.json'),
+                    graph_hashes=graph_hashes, selection=selection, panel_kind=selection['panel_kind'])
     run_id = f'diag-{args.rule}' + ('' if args.away_mask == 'all' else f'-mask{args.away_mask}') + '-' + hashlib.sha256(json.dumps(identity, sort_keys=True).encode()).hexdigest()[:12]
-    if not panel_complete:
+    if selection['panel_kind'] == 'debug':
         run_id += '-INCOMPLETE'
     out = args.out / run_id
     if out.exists():
         raise SystemExit(f'{out} exists; a changed input or code produces a new identity, reruns are not repeated.')
+    if args.preregister_only:
+        freeze_preregistration(args.preregistration, identity, run_id)
+        print(f'[{run_id}] preregistered only -> {args.preregistration}; circuit not built or run', flush=True)
+        return 0
+    if selection['panel_kind'] == 'held-out' and not args.preregistration.is_file():
+        parser.error('held-out receipt must already exist; run --preregister-only before independent review')
+    if args.preregistration:
+        freeze_preregistration(args.preregistration, identity, run_id)
     out.mkdir(parents=True)
+    if not args.preregistration:
+        freeze_preregistration(out / 'preregistration.json', identity, run_id)
+    if args.preregistration:
+        atomic_json(out / 'preregistration.json', json.loads(args.preregistration.read_text()))
     print(f'[{run_id}] building circuit', flush=True)
     engine, anatomy, outputs, dcomp, kc, sensory, encode = make_circuit(ROOT, protocol, n_features=X.shape[1])
     native_binary = dict(path=str(engine.lib._name), sha256=file_hash(engine.lib._name))
@@ -170,12 +220,12 @@ def main():
 
     rows, retained, repeat_check, sensory_check = [], {}, {}, {}
     gain_deltas = {}
-    panel_games = [int(i) for i in cal[:args.games]]
+    panel_games = selection['panel_games']
     total = len(panel_games) * 2 * len(CONDITIONS)
     done = 0
     for game in panel_games:
         for seed_set in ('base', 'alt'):
-            seed = protocol['seed'] + game + (ALT_SEED_OFFSET if seed_set == 'alt' else 0)
+            seed = protocol['seed'] + args.seed_offset + game + (ALT_SEED_OFFSET if seed_set == 'alt' else 0)
             hashes = {}
             for condition in CONDITIONS:
                 result = run(game, seed, condition, learn=condition != 'frozen')
@@ -200,28 +250,45 @@ def main():
             print(f'[{run_id}] {done}/{total} game {game} {seed_set}: ' + ' '.join(
                 f"{r['condition']}={r['applied'][0]:+.3f}/{r['applied'][1]:+.3f}" for r in rows[-4:]), flush=True)
     for condition in CONDITIONS:
-        result = run(panel_games[0], protocol['seed'] + panel_games[0], condition, learn=condition != 'frozen')
+        result = run(panel_games[0], protocol['seed'] + args.seed_offset + panel_games[0], condition, learn=condition != 'frozen')
         repeat_check[condition] = bool(np.array_equal(result['gains'] - blank, gain_deltas[f'{panel_games[0]}/base/{condition}']))
     engine.gains[:] = blank
     trajectory, cumulative_rows = [], []
-    for game in [int(i) for i in cal[:args.cumulative_games]]:
-        result = run(game, protocol['seed'] + game, 'untaught', learn=True, reset=False)
+    for expected in selection['expected_cumulative']:
+        game, seed = expected['game'], expected['seed']
+        result = run(game, seed, 'untaught', learn=True, reset=False)
         trajectory.append(compartment_sums(engine.gains - blank, pc, 2))
-        cumulative_rows.append(dict(game=game, applied=[float(x) for x in compartment_sums(result['gain_delta'], pc, 2)],
+        cumulative_rows.append(dict(game=game, seed=seed,
+                                    clipped=int(result['instrumentation']['rule_bins'][:, :, 3:5].sum()), applied=[float(x) for x in compartment_sums(result['gain_delta'], pc, 2)],
                                     cumulative=[float(x) for x in trajectory[-1]]))
     final_gains = engine.gains.copy()
+    panel_complete = check_diagnostic_complete(rows, cumulative_rows, selection)
     panel = evaluate_panel([dict(game=r['game'], seed_set=r['seed_set'], condition=r['condition'], applied=r['applied'], clipped=r['clipped']) for r in rows],
                            expected_games=panel_games)
     code_after = code_hashes()
-    source_unchanged = code_after == code and file_hash(engine.lib._name) == native_binary['sha256']
-    cumulative = evaluate_cumulative(np.array(trajectory), mean_effect=np.array(panel['mean_effect_by_compartment']))
+    try:
+        graph_unchanged = verify_graph_inputs(ROOT, manifest['identity']) == graph_hashes
+    except ValueError:
+        graph_unchanged = False
+    source_unchanged = (code_after == code and file_hash(engine.lib._name) == native_binary['sha256']
+                        and graph_unchanged and file_hash(manifest_path) == identity['pilot_manifest_sha256']
+                        and file_hash(args.pilot / 'source/inputs.npz') == identity['inputs_sha256']
+                        and file_hash(args.pilot / 'source/protocol.json') == identity['pilot_protocol_sha256'])
+    cumulative = evaluate_cumulative(np.array(trajectory), mean_effect=np.array(panel['mean_effect_by_compartment']),
+                                     expected_trials=len(selection['expected_cumulative']))
     criteria = dict(panel['criteria'], cumulative=cumulative,
                     bit_identical_repeat=dict(passed=all(repeat_check.values()), by_condition=repeat_check),
                     sensory_noise_invariance=dict(passed=all(sensory_check.values()), by_trial=sensory_check))
+    criteria['no_bound_hits'] = evaluate_bound_hits(rows, cumulative_rows, final_gains,
+                                                   gain_bounds=protocol['gain_bounds'], plastic_mask=engine.plastic_mask)
+    if not panel_complete:
+        for value in criteria.values():
+            value['passed'] = False
+            value['note'] = 'INCOMPLETE debug panel; not a gate result'
     summary = dict(run_id=run_id, rule=args.rule, created_at=utcnow(), identity=identity, root=str(ROOT),
                    native_binary=native_binary, source_unchanged_during_run=source_unchanged,
-                   panel_complete=panel_complete,
-                   panel_note=('frozen v1.1 panel: 8 games x 2 seed sets x 4 conditions + 16-trial cumulative' if panel_complete
+                   panel_complete=panel_complete, panel_kind=selection['panel_kind'],
+                   panel_note=(f"{selection['panel_kind']} v1.1 panel: 8 games x 2 seed sets x 4 conditions + 16-trial cumulative" if panel_complete
                                else 'INCOMPLETE debug panel; not a gate result'),
                    anatomy=dict(plastic_edges=int(len(pc)), group_labels=group_labels, group_edges=group_edges,
                                 plasticity_mask=anatomy.get('plasticity_mask'), eligible_edges=int(engine.plastic_mask.sum()),

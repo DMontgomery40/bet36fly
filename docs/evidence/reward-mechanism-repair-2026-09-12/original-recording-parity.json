@@ -1,0 +1,11 @@
+{
+  "old_run": "diag-candidate-maskgamma-a4e0db0de471",
+  "new_run": "diag-candidate-maskgamma-29c766f95f82",
+  "comparison": "Every retained numerical array and metadata array in both trial archives compared with numpy.array_equal",
+  "arrays_compared": 473,
+  "mismatches": [],
+  "all_recorded_arrays_identical": true,
+  "old_archive_sha256": "5cb0922355d8ba4b94154534817ccdec1dbb1658e2203e11649513490d5e01ef",
+  "new_archive_sha256": "5cb0922355d8ba4b94154534817ccdec1dbb1658e2203e11649513490d5e01ef",
+  "note": "Native change affects inclusive bound observations only. Both runs report zero; all retained arrays are compared without altering either artifact."
+}

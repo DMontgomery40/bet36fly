@@ -664,3 +664,62 @@ def test_per_step_impulses_weight_unequal_edge_multiplicity_and_masks(tmp_path):
         reconstructed = .01 * (rec['step_signals'][:, 2].astype(float) * weighted
                                - rec['step_rule'][:, 0, 1].astype(float) * rec['step_signals'][:, 1]).sum()
         assert abs(reconstructed - rec['rule_bins'][:, 0, :2].sum()) < 1e-7
+
+
+@pytest.mark.parametrize('n_dan', [1, 2, 22])
+@pytest.mark.parametrize('lag_ms', [-1000, -500, -100, -50, 0, 50, 100, 500, 1000])
+def test_raw_rule_preserves_independent_long_lag_pair_effect_at_production_tau(n_dan, lag_ms):
+    # Positive lag means KC first. This analytic oracle is independent of the
+    # native recurrence and uses the production tau/eta, including 22-cell PAM.
+    lag_steps = round(abs(lag_ms) / 0.2)
+    kc_step, dan_step = (0, lag_steps) if lag_ms >= 0 else (lag_steps, 0)
+    eta, tau = 0.0005, 500.0
+    result = reward_engine(n_dan=n_dan, tau_ms=tau, learning_rate=eta, dan_reference='none').run(
+        exact_schedule(lag_steps + 15, kc_step), bin_ms=0.2,
+        teaching_pulses=[(dan_step * 0.2, d) for d in range(n_dan)], sample=np.array([0, 1]),
+    )
+    expected = -np.sign(lag_ms) * eta * np.exp(-abs(lag_ms) / tau)
+    actual = float(result['gains'][0]) - 1
+    # Float gains have ~1e-7 resolution; even the 1000ms effect is >6e-5.
+    assert actual == pytest.approx(expected, abs=1e-7)
+    if lag_ms:
+        assert np.sign(actual) == np.sign(expected)
+        assert abs(actual) >= 0.99 * abs(expected)
+    else:
+        assert actual == 0
+    assert np.flatnonzero(result['trace'][:, 0]).tolist() == [kc_step]
+    assert np.flatnonzero(result['trace'][:, 1]).tolist() == [dan_step]
+    np.testing.assert_array_equal(result['dan_counts'], np.ones(n_dan, dtype=int))
+
+
+@pytest.mark.parametrize('side', ['lower', 'upper'])
+@pytest.mark.parametrize('eta', [0.25, 0.5])
+def test_bound_observations_record_touch_then_recovery_without_changing_dynamics(side, eta):
+    # A very long eligibility tau makes the native float decay exactly one.
+    # eta=.25 therefore touches an exactly representable bound without overshoot;
+    # eta=.5 exercises strict clipping. A later opposite event recovers inward.
+    pulses = [(1.0, 0)] if side == 'lower' else [(0.0, 0), (3.0, 0)]
+    schedule = exact_schedule(30, 0, 10) if side == 'lower' else exact_schedule(30, 5)
+    results = []
+    for record in (False, True):
+        result = reward_engine(tau_ms=1e9, learning_rate=eta, bounds=(0.75, 1.25)).run(
+            schedule, bin_ms=0.2, teaching_pulses=pulses, record=record, sample=np.arange(3),
+        )
+        results.append(result)
+    rec = results[1]['instrumentation']['rule_bins']
+    column = 3 if side == 'lower' else 4
+    assert rec[5, 0, column] == 1
+    if eta == 0.25:
+        assert 0.75 < results[1]['gains'][0] < 1.25
+        assert rec[-1, 0, column] == 0
+    for key in ('gains', 'gain_delta', 'counts', 'trace', 'voltage', 'population'):
+        np.testing.assert_array_equal(results[0][key], results[1][key])
+
+
+@pytest.mark.parametrize('bound,column', [(0.75, 3), (1.25, 4)])
+def test_bound_observations_include_frozen_dwelling_at_boundary(bound, column):
+    engine = reward_engine(bounds=(0.75, 1.25))
+    engine.gains[:] = bound
+    result = engine.run(exact_schedule(20), bin_ms=0.2, record=True, plasticity=False)
+    assert result['gains'][0] == bound
+    np.testing.assert_array_equal(result['instrumentation']['rule_bins'][:, 0, column], 1)

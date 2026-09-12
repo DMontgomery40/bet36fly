@@ -1,0 +1,71 @@
+{
+  "historical_pilot": "reward-v3-209f7c49983f5873f650",
+  "files": [
+    {
+      "path": "data/brain/counts.npy",
+      "sha256": "4a11faf9771fc3d5a5ff78ae7620ec1ce400f52d099ff657f0342cfc7a519f6b",
+      "matches_frozen": true
+    },
+    {
+      "path": "data/brain/ids.npy",
+      "sha256": "ab90597b7b0ce07cbc22cb39a65b70bea2ac73cc7fd225951bd9d73f2fc8dd3f",
+      "matches_frozen": true
+    },
+    {
+      "path": "data/brain/in_degree.npy",
+      "sha256": "494f13b315b23acb9962e214de0676e647893597614ad146483308e16a09716d",
+      "matches_frozen": true
+    },
+    {
+      "path": "data/brain/indptr.npy",
+      "sha256": "fe43420f11e6242a11f8199ae7f097cab4b8a6db181d36f2a46b9e46670acbb4",
+      "matches_frozen": true
+    },
+    {
+      "path": "data/brain/kc.npy",
+      "sha256": "97a570aafa089f93e642b2bb07e3a3322dabb14c3c7dd431f0c8d2b3b7951fdd",
+      "matches_frozen": true
+    },
+    {
+      "path": "data/brain/mbon.npy",
+      "sha256": "87d555e02d4cf2d661d9676b937a31b29cacf60a7edc85c8c08edc8312530f83",
+      "matches_frozen": true
+    },
+    {
+      "path": "data/brain/post.npy",
+      "sha256": "ce20f7433f78442c717ad2a7b5394cf4a3b109d990b4be0788040b7b0f4ed150",
+      "matches_frozen": true
+    },
+    {
+      "path": "data/brain/sensory.npy",
+      "sha256": "ed574f42559455069679f8ce3b339395efa9398ec13e199eab47959533370805",
+      "matches_frozen": true
+    },
+    {
+      "path": "data/brain/signs.npy",
+      "sha256": "4a0725e94d5014b2f17a70e3bdef3f7d843c0e81a8f22a33284aa10d8d62dab5",
+      "matches_frozen": true
+    },
+    {
+      "path": "data/brain/nodes.feather",
+      "sha256": "d706a6dd5ec1dc17cfba2e8f439232723af81729bf1d0c17bf0cc73860a9c867",
+      "matches_frozen": true
+    },
+    {
+      "path": "data/raw/annotations.feather",
+      "sha256": "2177e246113e4cfbf1e7772ec37c6da1955ff22e8063d0b1f833101f99a9a3b2",
+      "matches_frozen": true
+    },
+    {
+      "path": "output/experiments/reward-v3-209f7c49983f5873f650/source/inputs.npz",
+      "sha256": "b35d49dbbf361d0b32b7cb8fb278419ca3ed8930a35850d0f571a2f8b3b4cd35",
+      "matches_frozen": null
+    },
+    {
+      "path": "output/experiments/reward-v3-209f7c49983f5873f650/source/protocol.json",
+      "sha256": "c1e969f5d4f586b789bf4bf9235e8071f2734759b3e22f30ad1d01f9fc4be193",
+      "matches_frozen": null
+    }
+  ],
+  "source": "Frozen historical pilot inputs; live refreshed sports data are not read."
+}
