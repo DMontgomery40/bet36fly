@@ -1,0 +1,21 @@
+{
+  "purpose": "Fixed-parameter inspection, no optimizer, no BET36FLY data",
+  "fit_run": "output/collaboration/reward-mechanism-repair/kc-external-refit-992cef6fb05bfdb63d2b",
+  "fit_input_sha256": "1f7f2e3d6b43d5c9a64206a1246bb41f8f528778914bc82f918a5d7984d70567",
+  "curves_sha256": "6fd2f7f68abdb2a9a3ea6cc04cd41f2774cca5bfdfea51884584d3920a4e4647",
+  "samples": 499,
+  "fit_samples": 259,
+  "postoffset_role": "Used by initial decay estimates; not an independent held-out validation set",
+  "populations": {
+    "WT": {
+      "weighted_squared_residual": 1164.11488859057,
+      "parameter_L1_penalty": 71.9580425279928,
+      "SE_scaled_RMS": 2.120059451878713
+    },
+    "KD": {
+      "weighted_squared_residual": 156.6239306151413,
+      "parameter_L1_penalty": 13.777856061607203,
+      "SE_scaled_RMS": 0.7776410488333685
+    }
+  }
+}

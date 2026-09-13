@@ -1,0 +1,67 @@
+{
+  "run_id": "kc-external-refit-992cef6fb05bfdb63d2b",
+  "created_at_utc": "2026-09-13T09:13:43.962980+00:00",
+  "identity": {
+    "kind": "external-kc-calcium-scipy-refit-v1",
+    "source_commit": "f0ee2079dae6761cc2d07f04e96e76e2654b6e3c",
+    "bindings": [
+      {
+        "path": "output/collaboration/reward-mechanism-repair/kc_external_calibration.py",
+        "bytes": 20427,
+        "sha256": "eee18c7dab90513f0f93c1d1bd799995d366fef2d832b755a4a3b3d52b22440c"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/test_kc_external_calibration.py",
+        "bytes": 12440,
+        "sha256": "ac42c1fa0a3a352ddc03d1b1f0e73d25b2406b6d15c4bb8e457bde3c0e567bd9"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/kc-local-calcium-candidate-contract-2026-09-13.md",
+        "bytes": 6058,
+        "sha256": "342c25f8bc8342d2e987de1fd4565672a04b114a13cbc357b61319421934bf3b"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-primary-source-2026-09-13/calcium-workbook-inventory.json",
+        "bytes": 69141,
+        "sha256": "af1109cad767745802ff4fae62088e4c49e9eb05b5c9d68f013c2c7aa968f166"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-primary-source-2026-09-13/upstream/data/gamma_mch_responses_manoim_supplement.xlsx",
+        "bytes": 28573,
+        "sha256": "f92ab807009e2e8160fbc8c6c100731012052843484de6c796c7faf673712a1d"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-primary-source-2026-09-13/upstream/codes/fit_rate_model_to_data.py",
+        "bytes": 14966,
+        "sha256": "d76911cff9468883fc2bbc3c8f7647e7f3935acf5d51bda6ddb877a451986142"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-primary-source-2026-09-13/upstream/codes/fit_functions.py",
+        "bytes": 8059,
+        "sha256": "ca238b5d6acaa40ba7bcee650ab6697872263dd69b1ebc082b27779ae67cbc5b"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-primary-source-2026-09-13/upstream/codes/KC_population_calcium_rate_model_functions.py",
+        "bytes": 14812,
+        "sha256": "bc36f741ab7773b5f9dc298ab9610ce915067a2cc82ea73e947174ee155b3f05"
+      }
+    ],
+    "settings": {
+      "maxfun_per_stage": 3000,
+      "maxiter": 500,
+      "whole_process_timeout_seconds": 120,
+      "stages": [
+        "two postoffset decay initializers sharing one evaluation budget",
+        "KD",
+        "WT"
+      ],
+      "seed": 666,
+      "source_hz": 30,
+      "L1_penalty": 3.885,
+      "optimizer": "scipy physical-coordinate L-BFGS-B",
+      "restarts": 0,
+      "threads": 1
+    },
+    "scope": "External WT/KD source objective only, no BET36FLY outcomes or candidate evaluation"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "run_id": "kc-external-refit-992cef6fb05bfdb63d2b",
+  "status": "completed",
+  "exit_code": 0,
+  "elapsed_seconds": 2.324874582933262,
+  "hard_timeout_seconds": 120,
+  "timeout_enforced_by": "parent subprocess.run timeout; direct child reaped",
+  "no_restart": true,
+  "bindings_unchanged": true
+}

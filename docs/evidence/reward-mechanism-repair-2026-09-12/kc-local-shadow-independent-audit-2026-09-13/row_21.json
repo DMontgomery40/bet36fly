@@ -1,0 +1,30 @@
+{
+  "index": 21,
+  "selector": {
+    "panel": 1,
+    "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+    "game": 4404,
+    "seed_set": "alt",
+    "seed": 3004446
+  },
+  "local_max_absolute_errors": {
+    "source_frame_counts": 0.0,
+    "local_frame_states": 8.881784197001252e-16,
+    "local_susceptibility": 9.992007221626409e-16,
+    "raw_event_totals": 0.0,
+    "weighted_event_totals": 1.7763568394002505e-15,
+    "weighted_post_onset_totals": 2.6645352591003757e-15,
+    "endpoint_kc": 1.2789769243681803e-13,
+    "endpoint_dan": 1.163513729807164e-13
+  },
+  "bound_contacts": 0,
+  "status": "passed",
+  "max_absolute_errors": {
+    "double_gains": 5.995204332975845e-15,
+    "electrical_double_gains": 5.773159728050814e-15
+  },
+  "float32_mismatch_indices": {
+    "gains": [],
+    "electrical_gains": []
+  }
+}

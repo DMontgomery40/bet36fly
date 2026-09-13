@@ -1,0 +1,18 @@
+{
+  "run_id": "kc-local-shadow-6734494c82c54702ead0",
+  "started_at_utc": "2026-09-13T09:45:46.055702+00:00",
+  "wall_cap_seconds": 1200,
+  "plan_sha256": "f6fc6a21e4ef5d51cd2d3454bbe2c53ebd8715c7c153b1cba3f9f39e4de27377",
+  "command": [
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/.venv/bin/python",
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/run_kc_local_shadow.py",
+    "--run",
+    "--plan",
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/kc-local-shadow-frozen-2026-09-13.json"
+  ],
+  "restarts": 0,
+  "status": "child_exited",
+  "returncode": 0,
+  "elapsed_seconds": 16.02569704200141,
+  "plan_unchanged": true
+}

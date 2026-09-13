@@ -1,5 +1,60 @@
 # Continue the dopamine mechanism repair
 
+## Active continuation boundary: September 13, 2026, 09:51 UTC
+
+Continue the existing full repair goal, which remains active and incomplete.
+The [KC-local calcium mapping](evidence/reward-mechanism-repair-2026-09-12/kc-local-calcium-shadow-result-2026-09-13.md)
+has now been implemented outside production, tested and rejected. Do not
+restart its fit, screen or audit, or select replacement constants against
+the result. Inspect Git for the local checkpoint following `b86405d`; nothing
+has been pushed or promoted. The production rule and model pointer remain
+unchanged, and both live qualification panels plus controlled acquisition
+and reversal are still required for the complete objective.
+
+The single external fit `kc-external-refit-992cef6fb05bfdb63d2b` completed in
+2.324875 seconds and was independently reproduced against the pinned primary
+source. The WT standard-error-weighted RMS residual is 2.12006. The frozen
+mapping explicitly chose one frame spike as one source-input unit, the
+source's 30 Hz old-state C/L/a/I clock, incoming normalized KC contacts,
+pan-KC scope and held L/C susceptibility before both existing bridge filters.
+The population fit does not identify those transfer assumptions. No shock
+gate or depression-only source learning law was imported.
+
+The single screen `kc-local-shadow-6734494c82c54702ead0` completed all 32
+histories in 16.025697 seconds under its 1,200-second external cap. The frozen
+plan binds 106 files / 219,720,936 bytes and has SHA256
+`f6fc6a21e4ef5d51cd2d3454bbe2c53ebd8715c7c153b1cba3f9f39e4de27377`.
+All four home guards fail; second/base absolute mean 0.360410362482 exceeds its
+0.279657483200 limit. All four away groups remain zero. Every home trial
+becomes more depressive, despite lower weighted KC event mass. No bound or
+local-state admissibility failure occurred.
+
+The [independent audit](evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-independent-result-2026-09-13.md)
+completed once in 3.303564 seconds under its 120-second cap. All source-frame
+counts and local states agree within the frozen tolerances, all final and
+electrical float32 gains match exactly, and all eight exact-integer guards
+agree. The largest double-gain error is 9.33e-15; there are no rounding
+ambiguities. Root also inspected all saved arrays and joined every KC to its
+body ID/type in the [4,064-cell table](evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-cell-summary-2026-09-13.csv).
+
+Preparation passed 566 distinct synthetic cases. The repository gate passed
+4,055 Python tests, 85 frontend tests, Ruff and Vite, with two existing Python
+warnings. Canonical-copy verification and final protection receipts record
+the subsequent file checks. No production/API/UI modification or new browser
+claim. Producer process `83778` is terminal and closed; the audit child also
+exited zero and was reaped. The copied Microduck wiki and all originals remain
+intact. Current agents have completed their calculation assignments; check
+their status and current doc deltas before further substantive work.
+
+This failure rejects the specific local-calcium-to-susceptibility transfer,
+not the reported biological signaling. The next bounded mechanism decision
+must confront the distinction before proposing a new candidate. Do not turn
+another passed software suite into a learning claim, repeat broad source
+collection without a concrete question, or revive any rejected hypothesis by
+onset/tau/learning-rate/bound/threshold tuning. Keep one production writer and
+require every working agent to personally read all narrative docs/wiki and
+new deltas. The earlier boundaries below remain historical records.
+
 ## Active continuation boundary: September 13, 2026, 08:51 UTC
 
 Continue the existing full repair goal, which remains active and incomplete.

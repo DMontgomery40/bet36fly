@@ -1,0 +1,60 @@
+{
+  "audit": {
+    "kc": 4064,
+    "directed_pairs": 642932,
+    "contacts": 1153844,
+    "excluded_self_pairs": 1,
+    "excluded_self_contacts": 1,
+    "empty_recipient_rows": 0,
+    "orientation": "recipient rows, presynaptic columns",
+    "normalization": "incoming contact sum; empty rows remain zero"
+  },
+  "source_files": [
+    {
+      "path": "data/brain/ids.npy",
+      "bytes": 1333728,
+      "sha256": "ab90597b7b0ce07cbc22cb39a65b70bea2ac73cc7fd225951bd9d73f2fc8dd3f"
+    },
+    {
+      "path": "data/brain/indptr.npy",
+      "bytes": 1333736,
+      "sha256": "fe43420f11e6242a11f8199ae7f097cab4b8a6db181d36f2a46b9e46670acbb4"
+    },
+    {
+      "path": "data/brain/post.npy",
+      "bytes": 102331880,
+      "sha256": "ce20f7433f78442c717ad2a7b5394cf4a3b109d990b4be0788040b7b0f4ed150"
+    },
+    {
+      "path": "data/brain/counts.npy",
+      "bytes": 102331880,
+      "sha256": "4a11faf9771fc3d5a5ff78ae7620ec1ce400f52d099ff657f0342cfc7a519f6b"
+    },
+    {
+      "path": "data/brain/kc.npy",
+      "bytes": 16384,
+      "sha256": "97a570aafa089f93e642b2bb07e3a3322dabb14c3c7dd431f0c8d2b3b7951fdd"
+    }
+  ],
+  "implementation": {
+    "path": "output/collaboration/reward-mechanism-repair/kc_local_anatomy.py",
+    "bytes": 3301,
+    "sha256": "c0f4298b2fcd571590edf7a43dd9454d9f1d1919da25ddc811d21fd25cfbfb56"
+  },
+  "saved": [
+    {
+      "path": "output/collaboration/reward-mechanism-repair/kc-local-anatomy-2026-09-13/adjacency.npz",
+      "bytes": 1475689,
+      "sha256": "facb34fef3e971577b598cee71c33609968a2ce4d59870a20fccccb8f4076e59"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/kc-local-anatomy-2026-09-13/identities.npz",
+      "bytes": 14424,
+      "sha256": "c86cde04612b09c745d4331b9d10bccb21e628aaf11ff681de098ff885927e8d"
+    }
+  ],
+  "elapsed_seconds": 1.4610315000172704,
+  "circuit_runs": 0,
+  "scope": "Anatomical support only; no candidate or saved-history evaluation",
+  "preflight_correction": "First extraction rejected float32 integral contact storage before creating output. Added float32/float64 equivalence and fractional/nonfinite/overflow rejection tests; all 23 pass."
+}

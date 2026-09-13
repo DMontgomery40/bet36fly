@@ -1,0 +1,211 @@
+{
+  "agent": "/root/delivered_arrivals",
+  "created_at_utc": "2026-09-13T09:56:52.489278+00:00",
+  "status": "passed_no_material_mismatch",
+  "scope": "Preservation and saved-result claims only; no audit/candidate rerun.",
+  "prior_reading_receipt": {
+    "path": "output/collaboration/reward-mechanism-repair/kc-local-shadow-independent-actual-reading-receipt-2026-09-13.json",
+    "bytes": 46722,
+    "sha256": "4e3a19876e99d135f4ae2a17685da2257d0b4fefa0b65747fa28a8aca0582596"
+  },
+  "narrative_reading": {
+    "current_count": 176,
+    "unchanged_from_prior": 161,
+    "new_or_changed": 15,
+    "deltas": [
+      {
+        "path": "AGENTS.md",
+        "bytes": 6559,
+        "sha256": "5977d1824326e231ae2a5a117382f386c5cb7f729adc7c95722dae6f32292fe6",
+        "reading": "Full current AGENTS or complete diff against independently hash-confirmed personally read HEAD version; final corrections read again."
+      },
+      {
+        "path": "docs/REWARD_REPAIR_HANDOFF.md",
+        "bytes": 50039,
+        "sha256": "15693ad39c7bd7cd4d2118e9b151076532b01a9f6af8e85207f3ad022c667f3f",
+        "reading": "Full current AGENTS or complete diff against independently hash-confirmed personally read HEAD version; final corrections read again."
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/index.md",
+        "bytes": 21885,
+        "sha256": "bf6785fc91fd9760db3ca1ade833a1457cd0ecd60393efe56abd1dcce0df06d2",
+        "reading": "Full current AGENTS or complete diff against independently hash-confirmed personally read HEAD version; final corrections read again."
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-external-calibration-preparation-2026-09-13.md",
+        "bytes": 8153,
+        "sha256": "d5d874ff3024f504be1cf020abe86827865dedcdea7d3713ece83534b0b1b16e",
+        "reading": "Exact SHA/byte alias of personally read original in prior chain.",
+        "personally_read_source": "output/collaboration/reward-mechanism-repair/kc-external-calibration-preparation-2026-09-13.md"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-external-refit-independent-audit-2026-09-13.md",
+        "bytes": 4423,
+        "sha256": "08af49719e9f14a47224b69da3f70859b733151e6d71ac462f47c1161a6203dd",
+        "reading": "Exact SHA/byte alias of personally read original in prior chain.",
+        "personally_read_source": "output/collaboration/reward-mechanism-repair/kc-external-refit-independent-audit-2026-09-13.md"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-calcium-candidate-contract-2026-09-13.md",
+        "bytes": 6058,
+        "sha256": "342c25f8bc8342d2e987de1fd4565672a04b114a13cbc357b61319421934bf3b",
+        "reading": "Exact SHA/byte alias of personally read original in prior chain.",
+        "personally_read_source": "output/collaboration/reward-mechanism-repair/kc-local-calcium-candidate-contract-2026-09-13.md"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-calcium-independent-contract-review-2026-09-13.md",
+        "bytes": 11985,
+        "sha256": "e8f8f33ddfe2385055ed15ec8655b23b9d47e8c1e193951cdf3d8a69aae06e00",
+        "reading": "Exact SHA/byte alias of personally read original in prior chain.",
+        "personally_read_source": "output/collaboration/reward-mechanism-repair/kc-local-calcium-independent-contract-review-2026-09-13.md"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-calcium-preparation-root-2026-09-13.md",
+        "bytes": 3737,
+        "sha256": "e40fddd2024360ae7a4bf9dd528a10d8384f3fc5429a4bb98f5b19aef1878e66",
+        "reading": "Exact SHA/byte alias of personally read original in prior chain.",
+        "personally_read_source": "output/collaboration/reward-mechanism-repair/kc-local-calcium-preparation-root-2026-09-13.md"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-calcium-shadow-result-2026-09-13.md",
+        "bytes": 5494,
+        "sha256": "30e5d37efed7a30bc1830d5e5470e6a723c86f22441de90bc3d54beb3c9a36e7",
+        "reading": "Full newly added narrative personally read."
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-independent-audit-contract-2026-09-13.md",
+        "bytes": 3850,
+        "sha256": "39d8941eb2e424baa83f86d2fc1c2fa36cd4483952824077d7b5138960877e24",
+        "reading": "Exact SHA/byte alias of personally read original in prior chain.",
+        "personally_read_source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-independent-audit-contract-2026-09-13.md"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-independent-result-2026-09-13.md",
+        "bytes": 3812,
+        "sha256": "27a33afad196361f0b6e095c16016e4028f5331b7aa0828ae8a9722993a16894",
+        "reading": "Exact SHA/byte alias of personally read original in prior chain.",
+        "personally_read_source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-independent-result-2026-09-13.md"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-runner-preparation-evidence-ui-2026-09-13.md",
+        "bytes": 2962,
+        "sha256": "c04ed6e538cd3a9fa79c87a1f15c9e7e40b5c491179f5abffc6146f7fdcf97c4",
+        "reading": "Full newly added narrative personally read."
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-state-integration-evidence-ui-2026-09-13.md",
+        "bytes": 5356,
+        "sha256": "4089c0468dd406aedf5d3dc911648de024823ad0ab533cbcbd1cbc30bedb3efa",
+        "reading": "Exact SHA/byte alias of personally read original in prior chain.",
+        "personally_read_source": "output/collaboration/reward-mechanism-repair/kc-local-state-integration-evidence-ui-2026-09-13.md"
+      },
+      {
+        "path": "wiki/cells/kc-lateral-signaling.md",
+        "bytes": 6664,
+        "sha256": "9b18da86eebfda219e363535d55f8616f5fa2af3a67647473430ca2bc95b08f4",
+        "reading": "Full current AGENTS or complete diff against independently hash-confirmed personally read HEAD version; final corrections read again."
+      },
+      {
+        "path": "wiki/reassessment.md",
+        "bytes": 13046,
+        "sha256": "3edb7c91ffe4f205ecaf2910aceb4e174d3e9bc65020257870637e50f31cf637",
+        "reading": "Full current AGENTS or complete diff against independently hash-confirmed personally read HEAD version; final corrections read again."
+      }
+    ],
+    "inventory_sha256": "1a3f6aaeebd3130f4d6623ad3570e23878fc4db3b053e088b635689188e0dc02"
+  },
+  "canonical_copy": {
+    "manifest": {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-canonical-copy-2026-09-13.json",
+      "bytes": 57405,
+      "sha256": "4afd419d35a16fc0c61ff91386633ed9aac39aba7520dad58c419f022aa34e75"
+    },
+    "original_receipt": {
+      "path": "output/collaboration/reward-mechanism-repair/kc-local-canonical-copy-2026-09-13.json",
+      "bytes": 57405,
+      "sha256": "4afd419d35a16fc0c61ff91386633ed9aac39aba7520dad58c419f022aa34e75"
+    },
+    "entries_checked": 164,
+    "bytes_each_side": 25775898,
+    "source_and_copy_hashes_all_match": true,
+    "originals_retained": true,
+    "unique_sources": 164,
+    "unique_destinations": 164
+  },
+  "prior_canonical_preservation": {
+    "reference_git_commit": "b86405d7c0118c0c3117f13e0da2e24cd7f57a2c",
+    "unchanged_files": 884,
+    "unchanged_bytes": 63056474,
+    "intended_modified_narrative": "docs/evidence/reward-mechanism-repair-2026-09-12/index.md",
+    "missing_files": [],
+    "unexpected_changed_files": []
+  },
+  "saved_result_claim_checks": {
+    "audit_rows": 32,
+    "numerical_rows_passed": 32,
+    "home_guard_failures": 4,
+    "away_guard_passes": 4,
+    "bound_contacts": 0,
+    "rounding_ambiguities": 0,
+    "final_and_electrical_f32_values_exact": 567424,
+    "all_32_home_sums_more_depressive": true,
+    "all_4682_away_final_edges_exact_one_every_row": true,
+    "cell_table_rows": 4064,
+    "all_cell_ids_indices_types_instances_families_match": true,
+    "numeric_fields_each_cell_reconciled": 7,
+    "raw_events": 87617,
+    "weighted_event_mass": 85814.81289861491,
+    "original_home_gain_sum": -4.093005001544952,
+    "candidate_home_gain_sum": -6.733399927616119,
+    "qualification": false,
+    "conditioning_runs": 0
+  },
+  "reviewed_final_narrative_corrections": [
+    "Handoff now compares absolute mean with positive guard limit.",
+    "Reassessment identifies independently fitted source-model parameters, without implying the transfer map was calibrated.",
+    "Evidence index scopes absent geometry-derived candidate to the contact-geometry work."
+  ],
+  "evidence": [
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-calcium-shadow-result-2026-09-13.md",
+      "bytes": 5494,
+      "sha256": "30e5d37efed7a30bc1830d5e5470e6a723c86f22441de90bc3d54beb3c9a36e7"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-cell-summary-2026-09-13.csv",
+      "bytes": 369519,
+      "sha256": "beb4ae1684bf655ef7542a024746e843c4f1324188218e3bedb1bfd63f3cdabc"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-descriptive-attribution-2026-09-13.json",
+      "bytes": 102353,
+      "sha256": "68170a49990a8d73469dee79976396c6ea8ed8fb97f555fcb2e6fafa779e32f9"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-independent-result-2026-09-13.md",
+      "bytes": 3812,
+      "sha256": "27a33afad196361f0b6e095c16016e4028f5331b7aa0828ae8a9722993a16894"
+    }
+  ],
+  "root_owned_checks": {
+    "protection_receipt_read": {
+      "path": "output/collaboration/reward-mechanism-repair/kc-local-protected-final-2026-09-13.json",
+      "bytes": 789,
+      "sha256": "ac2dff7cab7d2cf14dd4d557f49194ec5ef26a96f5a958fc4f69c10cbf437b9d"
+    },
+    "reported_protected_files": 791,
+    "reported_protected_bytes": 5497884387,
+    "reported_inventory_entries": 934,
+    "reported_copied_tests": 566,
+    "independently_rerun_by_this_review": false
+  },
+  "actions": {
+    "actual_audit_reruns": 0,
+    "candidate_reruns": 0,
+    "native_calls": 0,
+    "network_requests": 0,
+    "production_edits": 0,
+    "bound_artifact_edits": 0
+  },
+  "findings": []
+}

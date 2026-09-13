@@ -1,0 +1,82 @@
+{
+  "created_at_utc": "2026-09-13T09:56:39.291937+00:00",
+  "agent": "/root/evidence_ui",
+  "status": "passed_readonly_closeout_review",
+  "head_before_root_commit": "b86405d7c0118c0c3117f13e0da2e24cd7f57a2c",
+  "reading": {
+    "prior_receipt": "kc-local-shadow-runner-reading-evidence-ui-2026-09-13.json",
+    "prior_sha256": "24affcaa97332c1f45870b7036c35c968af513443cac659c43a43dcff92ad15f",
+    "current_narratives": 176,
+    "new_or_changed_full_reads": 12,
+    "unread_deltas": 0,
+    "inventory_sha256": "fa448c574ff2cb9b4c840ca81cd4adfd4826c18884465dc4dfe5d4584dfce33e",
+    "method": "Prior166 personal full readings plus exact-byte canonical aliases; all12 new/changed narratives read fully, including full769-line handoff and final three corrected paragraphs.",
+    "new_read_hashes": {
+      "AGENTS.md": "5977d1824326e231ae2a5a117382f386c5cb7f729adc7c95722dae6f32292fe6",
+      "docs/REWARD_REPAIR_HANDOFF.md": "15693ad39c7bd7cd4d2118e9b151076532b01a9f6af8e85207f3ad022c667f3f",
+      "docs/evidence/reward-mechanism-repair-2026-09-12/index.md": "bf6785fc91fd9760db3ca1ade833a1457cd0ecd60393efe56abd1dcce0df06d2",
+      "docs/evidence/reward-mechanism-repair-2026-09-12/kc-external-calibration-preparation-2026-09-13.md": "d5d874ff3024f504be1cf020abe86827865dedcdea7d3713ece83534b0b1b16e",
+      "docs/evidence/reward-mechanism-repair-2026-09-12/kc-external-refit-independent-audit-2026-09-13.md": "08af49719e9f14a47224b69da3f70859b733151e6d71ac462f47c1161a6203dd",
+      "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-calcium-independent-contract-review-2026-09-13.md": "e8f8f33ddfe2385055ed15ec8655b23b9d47e8c1e193951cdf3d8a69aae06e00",
+      "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-calcium-preparation-root-2026-09-13.md": "e40fddd2024360ae7a4bf9dd528a10d8384f3fc5429a4bb98f5b19aef1878e66",
+      "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-calcium-shadow-result-2026-09-13.md": "30e5d37efed7a30bc1830d5e5470e6a723c86f22441de90bc3d54beb3c9a36e7",
+      "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-independent-audit-contract-2026-09-13.md": "39d8941eb2e424baa83f86d2fc1c2fa36cd4483952824077d7b5138960877e24",
+      "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-independent-result-2026-09-13.md": "27a33afad196361f0b6e095c16016e4028f5331b7aa0828ae8a9722993a16894",
+      "wiki/cells/kc-lateral-signaling.md": "9b18da86eebfda219e363535d55f8616f5fa2af3a67647473430ca2bc95b08f4",
+      "wiki/reassessment.md": "3edb7c91ffe4f205ecaf2910aceb4e174d3e9bc65020257870637e50f31cf637"
+    }
+  },
+  "review": {
+    "candidate": "kc-local-shadow-6734494c82c54702ead0",
+    "producer": "32/32 complete once; screen reject; no bound or invalid-state outcome",
+    "independent": "32/32 numerical rows passed; no F32 mismatches; max F64 gain error9.325873406851315e-15; max state error1.3322676295501878e-15",
+    "scientific": "All four home guards fail; all four away eight-tuples zero/pass. Numerical agreement does not qualify this mapping or the live circuit.",
+    "production": "API/types/Training and native code match their prior inspected identities. Diagnostic reader scans output/diagnostics, not offline study directories; only event/rate-bridge production evidence is recognized. Training separates validated diagnostics, gated conditioning and historical sports. No local-calcium production or conditioning claim is introduced.",
+    "runner": "Re-read final cap/finalization block; frozen producer hash remains37d0c3047d256d16289c4061eb6eb0b9dbef20413ef1b8fbecb0afdb329f68f7. No terminal-error markers in completed producer or audit.",
+    "wording_findings_resolved": [
+      "Evidence index now limits the unrun candidate statement to retrieved contact geometry.",
+      "New handoff now compares absolute mean0.360410362482 with limit0.279657483200.",
+      "Reassessment distinguishes independently fitted source-model parameters from the engineering mapping."
+    ],
+    "remaining_actionable_findings": []
+  },
+  "production_hashes": {
+    "bet36fly/reward_lif.cpp": "e7dbb0aa8f95873036415581e94de45c237941f05642ccc90812c1be1119be37",
+    "bet36fly/reward_evidence.py": "bb36ad4ee0dfd73bb7e01e9c67bb2ca833015828fe91b20b22a85516c1adab0e",
+    "bet36fly/conditioning.py": "45785e34d05b7129878c0fbc07a08bc48b8696353b2013fff10dbad635677e34",
+    "bet36fly/conditioning_runner.py": "78128541cca1513a6cef50e2107d365c7ab68588bab795100c5f52e2396ce0fd",
+    "docs/api-contract.md": "23cd9e1d39bb6c22fa55325998a705187d7efde264c933c952446bdcbc79c9d4",
+    "web/src/types.ts": "7b060b6af6fd88d1462092a89e10825380d045dc3127097fc6d9661797395439",
+    "web/src/RewardEvidence.tsx": "604285fe82998e7042b9025fd1367c2f45f347aa863e4e7d2978c08fb4f31898",
+    "web/src/TrainingView.tsx": "450827c9d596c18537d2c853cd1d8decb694e1a7120c327862237723fc1c42f7"
+  },
+  "saved_verification": {
+    "canonical_tests": 566,
+    "canonical_seconds": 4.0,
+    "canonical_ruff": "passed",
+    "standard_python": 4055,
+    "standard_warnings": 2,
+    "frontend": 85,
+    "ruff_vite": "passed",
+    "protected_files": 791,
+    "protected_bytes": 5497884387,
+    "protected_inventory": 934,
+    "protected_drift": 0
+  },
+  "source_receipts": {
+    "kc-local-shadow-6734494c82c54702ead0/summary.json": "c10bff236d6d59f9389c2bb276feb2321a1919dda18bc2b5422b836221bdd879",
+    "kc-local-shadow-6734494c82c54702ead0/completion.json": "8a5a3c6bf0d83c125e98990577ee8bffc44bbea5587b586def8d15d60db2ea50",
+    "kc-local-shadow-independent-audit-2026-09-13/audit.json": "eb01dbf79ee32ec39a0a1bf3a4c40a4dd543f2950688067a40e98f40f412a47b",
+    "kc-local-canonical-tests-2026-09-13.txt": "5e2a6905cf25b82c7ff2e56d6c731d10e0c77be83269dbb3fd9173c93ccfc755",
+    "kc-local-protected-final-2026-09-13.json": "ac2dff7cab7d2cf14dd4d557f49194ec5ef26a96f5a958fc4f69c10cbf437b9d"
+  },
+  "this_review_calls": {
+    "native": 0,
+    "network": 0,
+    "fit": 0,
+    "candidate": 0,
+    "browser": 0,
+    "test_reruns": 0
+  },
+  "goal": "Remains active; both complete live qualification panels and controlled acquisition/reversal still required."
+}

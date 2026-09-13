@@ -1,0 +1,993 @@
+{
+  "copied_at_utc": "2026-09-13T09:51:15.041579+00:00",
+  "method": "copy2; byte equality; originals retained; no existing canonical evidence overwritten",
+  "new_files": 164,
+  "new_bytes": 25775898,
+  "already_identical": 43,
+  "files": [
+    {
+      "source": "output/collaboration/reward-mechanism-repair/audit_kc_external_refit.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/audit_kc_external_refit.py",
+      "bytes": 14095,
+      "sha256": "7516c62f13fc5f4f930a4ba8a3f9e9be708c2445a7e7b60b681e5cc3dfa98071"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/audit_kc_local_shadow.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/audit_kc_local_shadow.py",
+      "bytes": 30648,
+      "sha256": "7f039067e17351b59772e875638e3c7e74331765df5aa20e9828c9a73a75a386"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-external-calibration-preparation-2026-09-13.md",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-external-calibration-preparation-2026-09-13.md",
+      "bytes": 8153,
+      "sha256": "d5d874ff3024f504be1cf020abe86827865dedcdea7d3713ece83534b0b1b16e"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-external-calibration-preparation-reading-receipt-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-external-calibration-preparation-reading-receipt-2026-09-13.json",
+      "bytes": 57205,
+      "sha256": "4e3b12df2952a62c0aadaea54e07ca7858bb2462effc894bfabfa105e7e8b509"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-external-refit-992cef6fb05bfdb63d2b/execution.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-external-refit-992cef6fb05bfdb63d2b/execution.json",
+      "bytes": 302,
+      "sha256": "3c5d0d50850299a095146c5c3ad3883990de97103281022667a500214560ac84"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-external-refit-992cef6fb05bfdb63d2b/plan.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-external-refit-992cef6fb05bfdb63d2b/plan.json",
+      "bytes": 2844,
+      "sha256": "d59bb5a6428af71fb8c8925b437470baeeda568daab0ac605ddebaaa365453e9"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-external-refit-992cef6fb05bfdb63d2b/result/calibration.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-external-refit-992cef6fb05bfdb63d2b/result/calibration.npz",
+      "bytes": 41538,
+      "sha256": "1f7f2e3d6b43d5c9a64206a1246bb41f8f528778914bc82f918a5d7984d70567"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-external-refit-992cef6fb05bfdb63d2b/result/events.jsonl",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-external-refit-992cef6fb05bfdb63d2b/result/events.jsonl",
+      "bytes": 1817,
+      "sha256": "05a32f731b377e4eab2ed0d2e0d194dd5dc01a6a231c60b94f1954429aa058f5"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-external-refit-992cef6fb05bfdb63d2b/result/status.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-external-refit-992cef6fb05bfdb63d2b/result/status.json",
+      "bytes": 4626,
+      "sha256": "04b32497805700638bb9a740101329b4409826ccc09c0a7e03ccedf635dbee47"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-external-refit-992cef6fb05bfdb63d2b/stdout.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-external-refit-992cef6fb05bfdb63d2b/stdout.txt",
+      "bytes": 310,
+      "sha256": "2cdd402e574b88bda068b142818b86ac4fe1d2bf40ac7d8ea0a6fdaad1092c1b"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-external-refit-independent-audit-2026-09-13/audit.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-external-refit-independent-audit-2026-09-13/audit.json",
+      "bytes": 14513,
+      "sha256": "8777e4380a38f9137955a4d3c5c2b8c0ebbdcd9be3036ee7529df16468d869fc"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-external-refit-independent-audit-2026-09-13/comparison.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-external-refit-independent-audit-2026-09-13/comparison.npz",
+      "bytes": 21006,
+      "sha256": "03ef187dd5f1c685950fd06c35e6a7a3451d3cab672b20d81385ffe0839ba6c0"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-external-refit-independent-audit-2026-09-13.md",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-external-refit-independent-audit-2026-09-13.md",
+      "bytes": 4423,
+      "sha256": "08af49719e9f14a47224b69da3f70859b733151e6d71ac462f47c1161a6203dd"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-external-refit-independent-reading-receipt-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-external-refit-independent-reading-receipt-2026-09-13.json",
+      "bytes": 38985,
+      "sha256": "1366f37b4081ae01b1b029d82f32e4200aae7b2525fd7e6b5c88cc9f34e92632"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-external-refit-inspection-2026-09-13/calcium-fit.svg",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-external-refit-inspection-2026-09-13/calcium-fit.svg",
+      "bytes": 47713,
+      "sha256": "2a0ec98352d9f9e27da01a6fce96252985d5fa3480d558aecd60a4d9d37e1c84"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-external-refit-inspection-2026-09-13/curves.csv",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-external-refit-inspection-2026-09-13/curves.csv",
+      "bytes": 62707,
+      "sha256": "6fd2f7f68abdb2a9a3ea6cc04cd41f2774cca5bfdfea51884584d3920a4e4647"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-external-refit-inspection-2026-09-13/inspection.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-external-refit-inspection-2026-09-13/inspection.json",
+      "bytes": 844,
+      "sha256": "5117a843710f90b46c27b36475b3ef7ba6083f6bc80fe62f7289c99f94b08ef5"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-anatomy-2026-09-13/adjacency.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-anatomy-2026-09-13/adjacency.npz",
+      "bytes": 1475689,
+      "sha256": "facb34fef3e971577b598cee71c33609968a2ce4d59870a20fccccb8f4076e59"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-anatomy-2026-09-13/audit.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-anatomy-2026-09-13/audit.json",
+      "bytes": 2147,
+      "sha256": "3c00f285385f456462de644edfd0de7edbec3b559c074ef8495cb0c00efd7c51"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-anatomy-2026-09-13/identities.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-anatomy-2026-09-13/identities.npz",
+      "bytes": 14424,
+      "sha256": "c86cde04612b09c745d4331b9d10bccb21e628aaf11ff681de098ff885927e8d"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-bridge-composition-receipt-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-bridge-composition-receipt-2026-09-13.json",
+      "bytes": 4119,
+      "sha256": "daa6f6eba7b39b3ba3bbf4578e16e179cf5dc104ea9d6a9e5c51a264bcf7001c"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-calcium-candidate-contract-2026-09-13.md",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-calcium-candidate-contract-2026-09-13.md",
+      "bytes": 6058,
+      "sha256": "342c25f8bc8342d2e987de1fd4565672a04b114a13cbc357b61319421934bf3b"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-calcium-independent-contract-review-2026-09-13.md",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-calcium-independent-contract-review-2026-09-13.md",
+      "bytes": 11985,
+      "sha256": "e8f8f33ddfe2385055ed15ec8655b23b9d47e8c1e193951cdf3d8a69aae06e00"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-calcium-independent-preparation-receipt-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-calcium-independent-preparation-receipt-2026-09-13.json",
+      "bytes": 48099,
+      "sha256": "ec1b4d1723258901fe58968b1b01802431f5e9c18fc48ea3d9b9b2286bcb878f"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-calcium-preparation-root-2026-09-13.md",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-calcium-preparation-root-2026-09-13.md",
+      "bytes": 3737,
+      "sha256": "e40fddd2024360ae7a4bf9dd528a10d8384f3fc5429a4bb98f5b19aef1878e66"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-calcium-shadow-result-2026-09-13.md",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-calcium-shadow-result-2026-09-13.md",
+      "bytes": 5494,
+      "sha256": "30e5d37efed7a30bc1830d5e5470e6a723c86f22441de90bc3d54beb3c9a36e7"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-make-verify-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-make-verify-2026-09-13.txt",
+      "bytes": 6295,
+      "sha256": "ee04de7a8e94d329ebcff9b8a3d26102e8542341f1a8ddc5e8ab77b5fe1058f0"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-protected-after-verify-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-protected-after-verify-2026-09-13.json",
+      "bytes": 384,
+      "sha256": "6d9a8b8c7430d43a962c8b368b87910e3624db52aa89b22d18974b2e725799da"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-root-preparation-tests-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-root-preparation-tests-2026-09-13.txt",
+      "bytes": 660,
+      "sha256": "3ea6c494c150922202c0d34d5a3ec600c911a7369f866c31c99751d80c2fe10e"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/attempts.jsonl",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-6734494c82c54702ead0/attempts.jsonl",
+      "bytes": 8928,
+      "sha256": "20f1c11b090a362e04a2ce7bc8fa8e86e35fb14784d7b6319ce9ee1e0f57591d"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/completion.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-6734494c82c54702ead0/completion.json",
+      "bytes": 261,
+      "sha256": "8a5a3c6bf0d83c125e98990577ee8bffc44bbea5587b586def8d15d60db2ea50"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/identity.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-6734494c82c54702ead0/identity.json",
+      "bytes": 32649,
+      "sha256": "f6fc6a21e4ef5d51cd2d3454bbe2c53ebd8715c7c153b1cba3f9f39e4de27377"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/row_00.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-6734494c82c54702ead0/row_00.json",
+      "bytes": 987,
+      "sha256": "3456b619feb299000cffa6f32bb6c38a0c0a7b83a637f19442bd0bd174dadda7"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/row_01.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-6734494c82c54702ead0/row_01.json",
+      "bytes": 992,
+      "sha256": "1c5f9b7c6278e09dedb26c06d0c8f587bc5b845f0b3e472184c197c6f0f30264"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/row_02.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-6734494c82c54702ead0/row_02.json",
+      "bytes": 957,
+      "sha256": "5b7a35ce8e620a116923285e0003f766e15e8ed4d331049699fe32ef76a2c1c4"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/row_03.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-6734494c82c54702ead0/row_03.json",
+      "bytes": 963,
+      "sha256": "e3802bab5068fb034b5d45f14f2c37544112593871245b950fe5231da7a05519"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/row_04.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-6734494c82c54702ead0/row_04.json",
+      "bytes": 980,
+      "sha256": "7c77c61c6aa3fd633d5f63a5321ec72cd66031ad74cce449a301c8fb8ea42595"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/row_05.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-6734494c82c54702ead0/row_05.json",
+      "bytes": 952,
+      "sha256": "9dc950a9e1726601aea4bb61015ad5666564ebad704e55af1b7a7de7026421ad"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/row_06.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-6734494c82c54702ead0/row_06.json",
+      "bytes": 959,
+      "sha256": "049bd326281418eec0e161f3b950f85f777691dfea67c441fbfe904fc2c3d324"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/row_07.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-6734494c82c54702ead0/row_07.json",
+      "bytes": 962,
+      "sha256": "b53a8f7e03647c1be4cf15704224722504d272418adcc71163cb1db10b0fb4db"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/row_08.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-6734494c82c54702ead0/row_08.json",
+      "bytes": 992,
+      "sha256": "6888ddfed331055d80da2ef6d20fba1530ce3e480ca63435902df5e1e2d68287"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/row_09.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-6734494c82c54702ead0/row_09.json",
+      "bytes": 992,
+      "sha256": "62a363fa5cf5ac84c40be9a0d5d7e4bbba50aa8cb3e4e2e56f62fb237a70b042"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/row_10.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-6734494c82c54702ead0/row_10.json",
+      "bytes": 949,
+      "sha256": "3929ce80c4122d163666fbe5d06d561258239d8f421056b5d527d7add38cd8cd"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/row_11.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-6734494c82c54702ead0/row_11.json",
+      "bytes": 936,
+      "sha256": "eefbe6c6e5e53b6466c16f600230a380cb20dade81714d933e278cd0a5727443"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/row_12.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-6734494c82c54702ead0/row_12.json",
+      "bytes": 989,
+      "sha256": "d2d6148020fca9e4f748ef9036cb77a41de7948f8b59bd1b3e9a35adb7ce40c6"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/row_13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-6734494c82c54702ead0/row_13.json",
+      "bytes": 992,
+      "sha256": "3be56054c41c2eb9aeec9aadf5c61c46fda48daa0db06c33335f9bf1515563f8"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/row_14.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-6734494c82c54702ead0/row_14.json",
+      "bytes": 994,
+      "sha256": "1dd982b5f6b5c948d5bba89c1c542ad60a90df6e132a754643cef27f579ac6b5"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/row_15.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-6734494c82c54702ead0/row_15.json",
+      "bytes": 979,
+      "sha256": "68a1dacae33efe823192a1c3acec6c42c6d93591bfdb2bc8c66abd0be49cb361"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/row_16.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-6734494c82c54702ead0/row_16.json",
+      "bytes": 993,
+      "sha256": "b5b5fa2a8f18be2a50df255dda414b2c774608ce01bf07b32ba2cd7fe771a119"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/row_17.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-6734494c82c54702ead0/row_17.json",
+      "bytes": 980,
+      "sha256": "2766d77ca66636787bc01dd664992366b5b0eaba7be6756a2bbd37c732a2d308"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/row_18.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-6734494c82c54702ead0/row_18.json",
+      "bytes": 949,
+      "sha256": "5132def8d22412f651e6fdded105a0b434082ed09721a830babe9a7e4ed7ede2"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/row_19.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-6734494c82c54702ead0/row_19.json",
+      "bytes": 953,
+      "sha256": "1ba78631a5bd897ac0083b51c2870f1b60990291f055c915623ea7a31d52aa4f"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/row_20.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-6734494c82c54702ead0/row_20.json",
+      "bytes": 980,
+      "sha256": "8a3ba87cebb488ecfa0f3840d8c095f546fa8ad254c74461552ecd30ee52d6ad"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/row_21.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-6734494c82c54702ead0/row_21.json",
+      "bytes": 984,
+      "sha256": "65248ce63d27827844c544b565f290666c942a76e5a1a0a8904d247c351f51db"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/row_22.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-6734494c82c54702ead0/row_22.json",
+      "bytes": 993,
+      "sha256": "a6ffc060c43d8f31279fdef3f6189ecd4d5d51c0ac6ea12157bba42966984832"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/row_23.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-6734494c82c54702ead0/row_23.json",
+      "bytes": 990,
+      "sha256": "2c1e2ebf4de45181fb11c492840ff6b9790c970ce5fd2dc68ab50cdfeb8a1d16"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/row_24.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-6734494c82c54702ead0/row_24.json",
+      "bytes": 991,
+      "sha256": "09c162ba2e5a6883185d92a32859c5f6e0c9b9749b1bbfc8f11b8bf8c7e7bc3f"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/row_25.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-6734494c82c54702ead0/row_25.json",
+      "bytes": 995,
+      "sha256": "e6fee01e9677faf2842cf9a0014256fc0ad5d4982bb5765451c47df6230e9f64"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/row_26.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-6734494c82c54702ead0/row_26.json",
+      "bytes": 950,
+      "sha256": "3359092bcf0ea1e27afdb90bb6c586aba43629c07550b6215e68fab819ab9e1b"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/row_27.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-6734494c82c54702ead0/row_27.json",
+      "bytes": 966,
+      "sha256": "72466087b5c66adee9a6a686cd719eef7c9396b3631bd9027958ab9c88472d32"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/row_28.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-6734494c82c54702ead0/row_28.json",
+      "bytes": 935,
+      "sha256": "4b6a0c3594654f7e03f7d8b924dbf02d5fba98effe18b58a9a322018542bfd2d"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/row_29.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-6734494c82c54702ead0/row_29.json",
+      "bytes": 951,
+      "sha256": "e39b94d08cde3058663bbf381989f29341c4c3e229152c49d658892a9ea0d9cb"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/row_30.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-6734494c82c54702ead0/row_30.json",
+      "bytes": 979,
+      "sha256": "5009e5c68c9fab36dcd0759f4e6f862710d98900d7b48ab0de2197a9c29060ae"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/row_31.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-6734494c82c54702ead0/row_31.json",
+      "bytes": 993,
+      "sha256": "9e4dfaeafc257dcba1c3adfbc6ea8d40e8eb298f4c5ea9a8a81a8dc94f7e2647"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/shadow_00.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-6734494c82c54702ead0/shadow_00.npz",
+      "bytes": 673235,
+      "sha256": "1aefe20b44a2504e6eade57bebdc4a69c14a86a534c234711d9b3155077365db"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/shadow_01.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-6734494c82c54702ead0/shadow_01.npz",
+      "bytes": 650663,
+      "sha256": "3304c05a62405f34f20933c93f050f8cc2dedf1e6b368f54081cdcf0ac06c4cf"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/shadow_02.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-6734494c82c54702ead0/shadow_02.npz",
+      "bytes": 575306,
+      "sha256": "292c82aeb4447e85fbc0cab796955860148d2479bd4757759c6520ba54f2f72f"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/shadow_03.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-6734494c82c54702ead0/shadow_03.npz",
+      "bytes": 595323,
+      "sha256": "af5382036fdbf7e337fb19fb6418bb93f4e901978928ebb0f626cab5a8e516a4"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/shadow_04.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-6734494c82c54702ead0/shadow_04.npz",
+      "bytes": 807517,
+      "sha256": "b64dbaa07ca68808252f52551f6abbce730238b8333113c28f706ac1b69ece7a"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/shadow_05.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-6734494c82c54702ead0/shadow_05.npz",
+      "bytes": 814916,
+      "sha256": "75225ba4801cbcae185be119b6bb7d03bce7d4501e224c32e7678a521547bd75"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/shadow_06.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-6734494c82c54702ead0/shadow_06.npz",
+      "bytes": 544416,
+      "sha256": "097f03f1d9df302567e78848603265273a0bfbca853105c718c253fdea2898d9"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/shadow_07.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-6734494c82c54702ead0/shadow_07.npz",
+      "bytes": 542267,
+      "sha256": "5e6be7b9e3ccd1719d8cf0784370fae51580b9353d360a591d4aca3966970222"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/shadow_08.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-6734494c82c54702ead0/shadow_08.npz",
+      "bytes": 752883,
+      "sha256": "db6dd1da394e5e1521d83cafc8686d88ce378b3765ba21585aaf4463865d4876"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/shadow_09.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-6734494c82c54702ead0/shadow_09.npz",
+      "bytes": 709227,
+      "sha256": "01191bf5e37f1e62e043a5086c2451a4ecbef87444279713b7bb4a4bc11feb6f"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/shadow_10.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-6734494c82c54702ead0/shadow_10.npz",
+      "bytes": 855826,
+      "sha256": "64cd6f7f200f6e582a4f3cb89a2a950bd3cc3717f601258dbe0e9b2b2530f9b9"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/shadow_11.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-6734494c82c54702ead0/shadow_11.npz",
+      "bytes": 843481,
+      "sha256": "8dc155e2585d9be57d31ba7d6e8059dcc6b1e4c9d2b2009d56979808b343e14f"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/shadow_12.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-6734494c82c54702ead0/shadow_12.npz",
+      "bytes": 694648,
+      "sha256": "d0782d5da9f2b9b141f8c2196f51abbb59dfb8ab7068277feaa7dec4f279d390"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/shadow_13.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-6734494c82c54702ead0/shadow_13.npz",
+      "bytes": 690468,
+      "sha256": "b31cd59b5d786e154631e3e68f6a8ee481f21b850ba11e0237c154ea3b291413"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/shadow_14.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-6734494c82c54702ead0/shadow_14.npz",
+      "bytes": 618195,
+      "sha256": "3641831fb972220f0e987d883d89042f41af9d2e8e20cda7db7d64839b716f42"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/shadow_15.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-6734494c82c54702ead0/shadow_15.npz",
+      "bytes": 638520,
+      "sha256": "1c5995e0131067e946a94c985f7a97ab3ca441c3055d21d3e8f5949f7ab85e24"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/shadow_16.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-6734494c82c54702ead0/shadow_16.npz",
+      "bytes": 672668,
+      "sha256": "0a686295d8450fb6abd7fe3fb4e0224f9a4501e0f5a32a3fa70efe39228f9d8a"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/shadow_17.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-6734494c82c54702ead0/shadow_17.npz",
+      "bytes": 688468,
+      "sha256": "9ed0011abca140a72d3cf6f9de0d6f7366e9003867f183d233c1596bc8e57cbe"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/shadow_18.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-6734494c82c54702ead0/shadow_18.npz",
+      "bytes": 734182,
+      "sha256": "92e70aaa251983a2b0401a086ca4b9c3dcb4428708124af3db6d3290312780a5"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/shadow_19.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-6734494c82c54702ead0/shadow_19.npz",
+      "bytes": 758955,
+      "sha256": "caa5e74fa356e27a77b0e71bcd67ac9aa072a5613917cf10d20d43b1ad705660"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/shadow_20.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-6734494c82c54702ead0/shadow_20.npz",
+      "bytes": 634037,
+      "sha256": "ec5a4a8caf5586681af05c29b1973e5923d6a5ec2e2dfad3ac9f275a954e8bc5"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/shadow_21.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-6734494c82c54702ead0/shadow_21.npz",
+      "bytes": 625593,
+      "sha256": "b21a1fd3e787be72f9365c055f14501877799a303dda8a50b28faf2f283549b3"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/shadow_22.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-6734494c82c54702ead0/shadow_22.npz",
+      "bytes": 639195,
+      "sha256": "74f31031a50e68a44a289b16a81fc2f248f75a45b1ec4ae37c55c6f55d98d457"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/shadow_23.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-6734494c82c54702ead0/shadow_23.npz",
+      "bytes": 625912,
+      "sha256": "b1afe9e554a9c8138cf8f49b811e83baee8214acdf5f7d8643e1013b7e2982e4"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/shadow_24.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-6734494c82c54702ead0/shadow_24.npz",
+      "bytes": 655616,
+      "sha256": "36e3039b5664b867332e21097681efa3805eab3bf1e65cc50bac57d8a06509ca"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/shadow_25.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-6734494c82c54702ead0/shadow_25.npz",
+      "bytes": 647156,
+      "sha256": "5aebbef031a51d80ac15e980c1a18cf4b68cbd9babb128e2f2d454dc9827674d"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/shadow_26.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-6734494c82c54702ead0/shadow_26.npz",
+      "bytes": 717110,
+      "sha256": "8869fc8c6448c4252c7f773126e3b63482f029cb4212cc42491ec6ba7559e056"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/shadow_27.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-6734494c82c54702ead0/shadow_27.npz",
+      "bytes": 647979,
+      "sha256": "7335caf0f621c731258da695f76c03c2e49fcc0d8b107aaa3ab3366b61e5e5a6"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/shadow_28.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-6734494c82c54702ead0/shadow_28.npz",
+      "bytes": 950384,
+      "sha256": "f5fe06b9db17d1792c7c61d59a3494db1dfc6ac26dd556f515fee52659e59aa1"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/shadow_29.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-6734494c82c54702ead0/shadow_29.npz",
+      "bytes": 888742,
+      "sha256": "a801134cf9fb8951736bf32ee947aaf2e44daeaa6afb4ea9d7231345c8f77041"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/shadow_30.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-6734494c82c54702ead0/shadow_30.npz",
+      "bytes": 675165,
+      "sha256": "ab51426a8586faddaf672257ac7ac2fc682333ccdce7eb728034e3e2eeba5663"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/shadow_31.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-6734494c82c54702ead0/shadow_31.npz",
+      "bytes": 670603,
+      "sha256": "ad4c4e5978390c2fd671246a943178bd34b322826d8037530c8e7f3ed9cadf93"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/summary.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-6734494c82c54702ead0/summary.json",
+      "bytes": 7496,
+      "sha256": "c10bff236d6d59f9389c2bb276feb2321a1919dda18bc2b5422b836221bdd879"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-cell-summary-2026-09-13.csv",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-cell-summary-2026-09-13.csv",
+      "bytes": 369519,
+      "sha256": "beb4ae1684bf655ef7542a024746e843c4f1324188218e3bedb1bfd63f3cdabc"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-descriptive-attribution-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-descriptive-attribution-2026-09-13.json",
+      "bytes": 102353,
+      "sha256": "68170a49990a8d73469dee79976396c6ea8ed8fb97f555fcb2e6fafa779e32f9"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-execution-2026-09-13/execution.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-execution-2026-09-13/execution.json",
+      "bytes": 740,
+      "sha256": "ece734f877ad21733e7344525815ad590d3bc8d8c4dda5d0e25ce51653e39a88"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-execution-2026-09-13/stdout.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-execution-2026-09-13/stdout.txt",
+      "bytes": 3317,
+      "sha256": "437582963f8c6dff02d620a15e18d0e2451bc1b55f4e9721f89190bac8653ace"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-frozen-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-frozen-2026-09-13.json",
+      "bytes": 32649,
+      "sha256": "f6fc6a21e4ef5d51cd2d3454bbe2c53ebd8715c7c153b1cba3f9f39e4de27377"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-independent-actual-reading-receipt-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-independent-actual-reading-receipt-2026-09-13.json",
+      "bytes": 46722,
+      "sha256": "4e3a19876e99d135f4ae2a17685da2257d0b4fefa0b65747fa28a8aca0582596"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-independent-audit-2026-09-13/audit.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-independent-audit-2026-09-13/audit.json",
+      "bytes": 44643,
+      "sha256": "eb01dbf79ee32ec39a0a1bf3a4c40a4dd543f2950688067a40e98f40f412a47b"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-independent-audit-2026-09-13/comparison.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-independent-audit-2026-09-13/comparison.npz",
+      "bytes": 677423,
+      "sha256": "c5a910be62c9700a3c5bb1243eaf9c832123c0dfb666a88872d02721d18eaac9"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-independent-audit-2026-09-13/row_00.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-independent-audit-2026-09-13/row_00.json",
+      "bytes": 821,
+      "sha256": "b7f895357938938aaf3f71b3b00cdf2bd5a40ac83829f5bb4ae6d13990457998"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-independent-audit-2026-09-13/row_01.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-independent-audit-2026-09-13/row_01.json",
+      "bytes": 825,
+      "sha256": "9142a0c0ad294984dd4e6f5ee7bab38f33d6cb2efc37ed0c7b44473348c589e6"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-independent-audit-2026-09-13/row_02.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-independent-audit-2026-09-13/row_02.json",
+      "bytes": 818,
+      "sha256": "02410e523a4f344a922aa2f089f1cb8081e6611ecfdd557ac34c0982a5fd3c28"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-independent-audit-2026-09-13/row_03.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-independent-audit-2026-09-13/row_03.json",
+      "bytes": 824,
+      "sha256": "4d688fc073910f1260e1f134297345a2a14518190d7215cca2def139601a192c"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-independent-audit-2026-09-13/row_04.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-independent-audit-2026-09-13/row_04.json",
+      "bytes": 822,
+      "sha256": "9210e32842fa6561c485140499985327745394a3dd2e5c77cc382d6b71da0c4c"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-independent-audit-2026-09-13/row_05.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-independent-audit-2026-09-13/row_05.json",
+      "bytes": 824,
+      "sha256": "391589ac75c0b30297bdad09f7ea36d1f6c7a6454e1320e99bd85692968c1ae3"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-independent-audit-2026-09-13/row_06.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-independent-audit-2026-09-13/row_06.json",
+      "bytes": 819,
+      "sha256": "08e10f9e31af155be3bb5ce6209f5ea2140fb56926e614874daf18058d324407"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-independent-audit-2026-09-13/row_07.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-independent-audit-2026-09-13/row_07.json",
+      "bytes": 820,
+      "sha256": "96a9b4589254848ac5ab62e4ff0c3bc4da74288993180901d747014df4097f07"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-independent-audit-2026-09-13/row_08.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-independent-audit-2026-09-13/row_08.json",
+      "bytes": 819,
+      "sha256": "8df869115b56b7f2711d921d1b01aec3d0cc3a8255bc572cf35c5504150d6f52"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-independent-audit-2026-09-13/row_09.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-independent-audit-2026-09-13/row_09.json",
+      "bytes": 824,
+      "sha256": "7b9003ff833f05034c8901a0d49a2bbc93949456896332c5fea51dafb64c2069"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-independent-audit-2026-09-13/row_10.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-independent-audit-2026-09-13/row_10.json",
+      "bytes": 822,
+      "sha256": "088f7ff577030f09718c54b5eef959580665012d6ec9957ad2eb94197c64f199"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-independent-audit-2026-09-13/row_11.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-independent-audit-2026-09-13/row_11.json",
+      "bytes": 824,
+      "sha256": "f1d5819f6e08a62fa53aea33c7784531a425d44bbcdf9bace2ed52cad0405c84"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-independent-audit-2026-09-13/row_12.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-independent-audit-2026-09-13/row_12.json",
+      "bytes": 820,
+      "sha256": "e000235d5fb7f369716453c2932bd9fdd36030b649df09c6190a8f7ed2ddb58f"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-independent-audit-2026-09-13/row_13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-independent-audit-2026-09-13/row_13.json",
+      "bytes": 826,
+      "sha256": "c7a917d7d5e17236d3ca6d8241b56b6bb54d653e8bb207e2905bb93e237fa26d"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-independent-audit-2026-09-13/row_14.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-independent-audit-2026-09-13/row_14.json",
+      "bytes": 823,
+      "sha256": "51971c902f15d39095f7a96d2136be337430b3a45c72ac43dc770b4d5dd5987d"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-independent-audit-2026-09-13/row_15.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-independent-audit-2026-09-13/row_15.json",
+      "bytes": 824,
+      "sha256": "aadfcbdd7e34074f6e2bb7aad6870dc0bd30c11758f848aa3c766ba97464d7d9"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-independent-audit-2026-09-13/row_16.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-independent-audit-2026-09-13/row_16.json",
+      "bytes": 825,
+      "sha256": "c9ba3aacd76adbb46f932d3e60e0e743d4721ca80a95be1679d01bd307c5ede5"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-independent-audit-2026-09-13/row_17.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-independent-audit-2026-09-13/row_17.json",
+      "bytes": 822,
+      "sha256": "2d2cde6c8c5068303046dabbff7ff2abc7a5314515311b2600af3a03b6605a19"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-independent-audit-2026-09-13/row_18.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-independent-audit-2026-09-13/row_18.json",
+      "bytes": 825,
+      "sha256": "d2d5cce30c6861cba637c0586925e7ee5d4d951acb134038b18351eff30c35f6"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-independent-audit-2026-09-13/row_19.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-independent-audit-2026-09-13/row_19.json",
+      "bytes": 827,
+      "sha256": "79fe30d278b8afaaf8e61ec93771896df1b8d6886a9ca9c6ca3cf054c6d559be"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-independent-audit-2026-09-13/row_20.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-independent-audit-2026-09-13/row_20.json",
+      "bytes": 828,
+      "sha256": "d388bc3c1589013735fd3065e3bcaf60ba9946dbb95ee81b6e5510d8788f6626"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-independent-audit-2026-09-13/row_21.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-independent-audit-2026-09-13/row_21.json",
+      "bytes": 825,
+      "sha256": "d7da776b7f2e593946e8222965236f30b65d188d3719f19ff50a36178c3c8366"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-independent-audit-2026-09-13/row_22.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-independent-audit-2026-09-13/row_22.json",
+      "bytes": 826,
+      "sha256": "b623aee14b8c229446532163afc0a7b9dbe37712433d8a4853f4e7ef550b96c0"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-independent-audit-2026-09-13/row_23.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-independent-audit-2026-09-13/row_23.json",
+      "bytes": 824,
+      "sha256": "bb909cc3eb7fb4ff28abab2f76a80191410e6e35368801d6ee6a6d76030a3782"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-independent-audit-2026-09-13/row_24.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-independent-audit-2026-09-13/row_24.json",
+      "bytes": 825,
+      "sha256": "e46af88342080e4486b448c6bd5403f538a08bd3c55b86bf55f22ff9b2e317bc"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-independent-audit-2026-09-13/row_25.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-independent-audit-2026-09-13/row_25.json",
+      "bytes": 825,
+      "sha256": "4aa8ee9da1eeaacfffce2d75a61902c7ddffc2d5d801b24a5eb79cebd4595845"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-independent-audit-2026-09-13/row_26.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-independent-audit-2026-09-13/row_26.json",
+      "bytes": 828,
+      "sha256": "99ab9a71bf8b87d6b8a762bbc91f61809fe63a926e6461be668ccf3315d6304e"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-independent-audit-2026-09-13/row_27.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-independent-audit-2026-09-13/row_27.json",
+      "bytes": 827,
+      "sha256": "8072f39e07e56f78a58c5ce09382c0b3ed60e0bc3a260f48fc97532451024a24"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-independent-audit-2026-09-13/row_28.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-independent-audit-2026-09-13/row_28.json",
+      "bytes": 827,
+      "sha256": "bf0fca0e84707790bcacc5288a2e681d68b11bdeeb63454d3b891421bbbe5ff2"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-independent-audit-2026-09-13/row_29.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-independent-audit-2026-09-13/row_29.json",
+      "bytes": 823,
+      "sha256": "fc2f2b0d3a093e448e17648bd3911f22869bc1937ae4f7fb3441198a23c4b1ee"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-independent-audit-2026-09-13/row_30.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-independent-audit-2026-09-13/row_30.json",
+      "bytes": 826,
+      "sha256": "fe38ed56d36b51597d37befb1f28d24dd4038851e8f6db70260b93e988adb450"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-independent-audit-2026-09-13/row_31.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-independent-audit-2026-09-13/row_31.json",
+      "bytes": 825,
+      "sha256": "d80c9696575e1e5bc150e9b3c870d96eb91863e76d417d242c505796b19cd91c"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-independent-audit-contract-2026-09-13.md",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-independent-audit-contract-2026-09-13.md",
+      "bytes": 3850,
+      "sha256": "39d8941eb2e424baa83f86d2fc1c2fa36cd4483952824077d7b5138960877e24"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-independent-audit-execution-2026-09-13/execution.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-independent-audit-execution-2026-09-13/execution.json",
+      "bytes": 988,
+      "sha256": "d7b95d688a05eb0a6ba42f9b96f44bffd6411d4a55296093370d878a13e3ce42"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-independent-audit-execution-2026-09-13/start.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-independent-audit-execution-2026-09-13/start.json",
+      "bytes": 872,
+      "sha256": "105fba60ccd4e0c4c991bc2bc345c76107148dfb6897d163920723175b9efcd6"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-independent-audit-execution-2026-09-13/stdout.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-independent-audit-execution-2026-09-13/stdout.txt",
+      "bytes": 1653,
+      "sha256": "d12ea9cded5d096a2c325d234dc746ea9ece7e95e158b7a6a3068f8d7eca1e6e"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-independent-preparation-reading-receipt-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-independent-preparation-reading-receipt-2026-09-13.json",
+      "bytes": 37762,
+      "sha256": "972601721a83eaa11f46a7a39dc6ec037871dd03ab9b5e6ffb7b635aa55decff"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-independent-result-2026-09-13.md",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-independent-result-2026-09-13.md",
+      "bytes": 3812,
+      "sha256": "27a33afad196361f0b6e095c16016e4028f5331b7aa0828ae8a9722993a16894"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-preparation-tests-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-preparation-tests-2026-09-13.txt",
+      "bytes": 500,
+      "sha256": "f2d8278ea4ae69272937ee9ebc95e9865ddb293f738e1ea1dee0c4a65ee376a7"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-root-prerun-review-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-root-prerun-review-2026-09-13.json",
+      "bytes": 3094,
+      "sha256": "b350207db64cd664e6f55005fd906d6a3285a214a5515c0e707e7766a669ea0d"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-runner-preparation-evidence-ui-2026-09-13.md",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-runner-preparation-evidence-ui-2026-09-13.md",
+      "bytes": 2962,
+      "sha256": "c04ed6e538cd3a9fa79c87a1f15c9e7e40b5c491179f5abffc6146f7fdcf97c4"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-runner-reading-evidence-ui-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-runner-reading-evidence-ui-2026-09-13.json",
+      "bytes": 5452,
+      "sha256": "24affcaa97332c1f45870b7036c35c968af513443cac659c43a43dcff92ad15f"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-shadow-runner-tests-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-runner-tests-2026-09-13.txt",
+      "bytes": 340,
+      "sha256": "997ba1f042207806b6062739c372300098688971776b9e9a2eb08f4b9c6b1bc4"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-state-evidence-ui-tests-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-state-evidence-ui-tests-2026-09-13.txt",
+      "bytes": 711,
+      "sha256": "aa9327a83836383b2ce1b0b69d3bf699fac202cdcd6e20a93c9086656600ac5f"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-state-integration-evidence-ui-2026-09-13.md",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-state-integration-evidence-ui-2026-09-13.md",
+      "bytes": 5356,
+      "sha256": "4089c0468dd406aedf5d3dc911648de024823ad0ab533cbcbd1cbc30bedb3efa"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-local-state-integration-reading-evidence-ui-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-state-integration-reading-evidence-ui-2026-09-13.json",
+      "bytes": 4645,
+      "sha256": "5b7a31c89c41d574ce0a346c50a460d7aa8c3b755d3b95ff1afa59949f5e302d"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc_external_calibration.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc_external_calibration.py",
+      "bytes": 20427,
+      "sha256": "eee18c7dab90513f0f93c1d1bd799995d366fef2d832b755a4a3b3d52b22440c"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc_local_anatomy.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc_local_anatomy.py",
+      "bytes": 3301,
+      "sha256": "c0f4298b2fcd571590edf7a43dd9454d9f1d1919da25ddc811d21fd25cfbfb56"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc_local_state_evidence_ui.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc_local_state_evidence_ui.py",
+      "bytes": 8092,
+      "sha256": "45a5229ec7c408b8042c32555de4511e5d4158bf67df4996dbfea2533b6c5383"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc_weighted_bridge_replay.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc_weighted_bridge_replay.py",
+      "bytes": 6626,
+      "sha256": "08ec9ec468f9bfc0ccee2ca1dad41e5273cf589a6be087a1baac9724768105b7"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/run_kc_local_shadow.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/run_kc_local_shadow.py",
+      "bytes": 37128,
+      "sha256": "37d0c3047d256d16289c4061eb6eb0b9dbef20413ef1b8fbecb0afdb329f68f7"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/test_audit_kc_local_shadow.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/test_audit_kc_local_shadow.py",
+      "bytes": 9430,
+      "sha256": "c97656fd49004feac85748cfa7f7f62639bc2e839fd4c5f2a2aa19e34ce1861d"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/test_kc_external_calibration.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/test_kc_external_calibration.py",
+      "bytes": 12440,
+      "sha256": "ac42c1fa0a3a352ddc03d1b1f0e73d25b2406b6d15c4bb8e457bde3c0e567bd9"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/test_kc_local_anatomy.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/test_kc_local_anatomy.py",
+      "bytes": 3401,
+      "sha256": "d73b25ae5af70b93e8f9c52fffbf9db2e8e68bbb8abcb19575486a79cbcbba36"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/test_kc_local_bridge_composition.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/test_kc_local_bridge_composition.py",
+      "bytes": 6921,
+      "sha256": "e4189bedc26d53b82ccfa3aa1d43e5b4c1cc0de492ca07c825bff4ec9400e13f"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/test_kc_local_clock_independent.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/test_kc_local_clock_independent.py",
+      "bytes": 5879,
+      "sha256": "f083ca4bea8b5846e01468547020807406bc9e9fa43af0390214b8c24275acf3"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/test_kc_local_state_evidence_ui.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/test_kc_local_state_evidence_ui.py",
+      "bytes": 13504,
+      "sha256": "206d58f180fdb1198fdd9bcf6903a415a87b496e76efdd91d0d4e8d842a6dd23"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/test_kc_weighted_bridge_replay.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/test_kc_weighted_bridge_replay.py",
+      "bytes": 10428,
+      "sha256": "ed0237e8e64d6c91a041107e685cd02038cbc07270a32901285f9dea15fffbbe"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/test_run_kc_local_shadow.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/test_run_kc_local_shadow.py",
+      "bytes": 12628,
+      "sha256": "917500b34c7882cd2007de0069f79132b9015c0f377436747afb9b3e7e8459f9"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "checked_at_utc": "2026-09-13T09:18:43.122166+00:00",
+  "baseline": "output/collaboration/reward-mechanism-repair/weight-state-protected-before-2026-09-13.json",
+  "baseline_sha256": "d9e4138924451490dabe75042991dcac1a698989b4711e25a93df9093f696d1a",
+  "files": 791,
+  "bytes": 5497884387,
+  "changed": [],
+  "added": [],
+  "removed": [],
+  "elapsed_seconds": 2.719965459080413
+}

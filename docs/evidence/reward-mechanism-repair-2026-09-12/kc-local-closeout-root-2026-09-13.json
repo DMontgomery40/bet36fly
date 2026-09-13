@@ -1,0 +1,79 @@
+{
+  "checked_at_utc": "2026-09-13T10:03:26.530362+00:00",
+  "source_checkpoint": "b86405d7c0118c0c3117f13e0da2e24cd7f57a2c",
+  "candidate": "kc-local-shadow-6734494c82c54702ead0",
+  "candidate_status": "rejected: four home guards fail,32/32 home sums become more depressive",
+  "independent_numerical_audit": "passed,32rows,567424 final/electrical F32 values exact,zero bounds/ambiguities",
+  "copy_verification": {
+    "new_canonical_files_excluding_this_receipt": 173,
+    "new_bytes_excluding_this_receipt": 25872144,
+    "all_originals_present_and_byte_equal": true,
+    "initial_inventory": {
+      "path": "output/collaboration/reward-mechanism-repair/kc-local-canonical-copy-2026-09-13.json",
+      "bytes": 57405,
+      "sha256": "4afd419d35a16fc0c61ff91386633ed9aac39aba7520dad58c419f022aa34e75"
+    }
+  },
+  "final_reviews": [
+    {
+      "path": "output/collaboration/reward-mechanism-repair/kc-local-final-reading-review-evidence-ui-2026-09-13.json",
+      "bytes": 6095,
+      "sha256": "5476c6dc1e5bc1b1b2d66839ed6a65d375d4b57d51922b5ee86d7c974680db3b"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/kc-local-final-copy-reading-review-delivered-arrivals-2026-09-13.json",
+      "bytes": 10453,
+      "sha256": "35980095f6272676f429bfdd69d0f3f975ff5fe943686d4903d471ed0c369fa9"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/kc-local-final-scientific-reading-review-2026-09-13.json",
+      "bytes": 19775,
+      "sha256": "68439f5a89a346cb7cf661d3bc52e87b1c8ce0531a35c3b840bb67c4154569f4"
+    }
+  ],
+  "verification": [
+    {
+      "path": "output/collaboration/reward-mechanism-repair/kc-local-canonical-tests-2026-09-13.txt",
+      "bytes": 660,
+      "sha256": "5e2a6905cf25b82c7ff2e56d6c731d10e0c77be83269dbb3fd9173c93ccfc755"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/kc-local-canonical-ruff-2026-09-13.txt",
+      "bytes": 19,
+      "sha256": "82b3e6a6c090a57601d22943bd23fca9218d1031dbe5a7b754092f9a156b4f18"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/kc-local-make-verify-2026-09-13.txt",
+      "bytes": 6295,
+      "sha256": "ee04de7a8e94d329ebcff9b8a3d26102e8542341f1a8ddc5e8ab77b5fe1058f0"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/kc-local-protected-final-2026-09-13.json",
+      "bytes": 789,
+      "sha256": "ac2dff7cab7d2cf14dd4d557f49194ec5ef26a96f5a958fc4f69c10cbf437b9d"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/kc-local-git-whitespace-2026-09-13.json",
+      "bytes": 665,
+      "sha256": "71f80c1480df7ba3a51850a1214e856878f21a8bc1ce50d08f6f274be9fe28e8"
+    }
+  ],
+  "verification_result": {
+    "copied_tests": 566,
+    "standard_python": 4055,
+    "standard_frontend": 85,
+    "existing_python_warnings": 2,
+    "ruff": "passed",
+    "vite": "passed",
+    "protected_files": 791,
+    "protected_bytes": 5497884387,
+    "protected_inventory_entries": 934,
+    "protected_changes": 0,
+    "git_whitespace": "Passed with standard CSV CRLF recognized; original evidence bytes preserved"
+  },
+  "narratives": "All three delegated agents personally reconciled complete current docs/wiki with their full-reading chains and final deltas; no unresolved review finding.",
+  "production_and_frontend": "Unchanged; no live local-calcium candidate, conditioning or reversal. Existing API/Training remains accurate. No new browser claim.",
+  "goal": "Active and incomplete; this is a local evidence checkpoint, not successful repair or promotion.",
+  "push": false,
+  "processes": "External fit,32-history producer,independent audit,canonical tests and final protection checks are terminal; all owned direct children reaped."
+}

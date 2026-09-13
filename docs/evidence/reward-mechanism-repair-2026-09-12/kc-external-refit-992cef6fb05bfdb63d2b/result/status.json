@@ -1,0 +1,195 @@
+{
+  "schema": "external-kc-calcium-scipy-refit-v1",
+  "status": "completed",
+  "started_at_utc": "2026-09-13T09:13:44.198562+00:00",
+  "source_commit": "f0ee2079dae6761cc2d07f04e96e76e2654b6e3c",
+  "optimizer_reproduction": "direct physical-coordinate source-objective re-fit",
+  "versions": {
+    "python": "3.12.9 (main, Mar 17 2025, 21:36:21) [Clang 20.1.0 ]",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1"
+  },
+  "settings": {
+    "maxfun_per_stage": 3000,
+    "maxiter": 500,
+    "seconds": 120.0,
+    "seed": 666,
+    "dt_seconds": 0.03333333333333333,
+    "penalty": 3.885,
+    "method": "L-BFGS-B",
+    "options": {
+      "ftol": 2.220446049250313e-09,
+      "gtol": 1e-05,
+      "eps": 1e-08,
+      "maxls": 20
+    }
+  },
+  "stages": [
+    {
+      "stage": "decay_initialization",
+      "population": "KD",
+      "parameters": [
+        1.9255808029105697,
+        0.7129606052778139,
+        0.11358919848452062
+      ],
+      "initial": [
+        1.5,
+        0.843204333333333,
+        0.0
+      ],
+      "success": true,
+      "solver_status": 2,
+      "message": "`ftol` termination condition is satisfied.",
+      "nfev_reported": 6,
+      "points": 233
+    },
+    {
+      "stage": "decay_initialization",
+      "population": "WT",
+      "parameters": [
+        1.4249361413655144,
+        0.3503595726837941,
+        0.06663487593812877
+      ],
+      "initial": [
+        1.5,
+        0.410630357142857,
+        0.0
+      ],
+      "success": true,
+      "solver_status": 2,
+      "message": "`ftol` termination condition is satisfied.",
+      "nfev_reported": 6,
+      "points": 235
+    },
+    {
+      "stage": "KD",
+      "parameters": [
+        0.5689403898537341,
+        0.17465212894258308,
+        2.072004315465028,
+        0.7308268624200457
+      ],
+      "objective": 170.4017866767485,
+      "success": true,
+      "solver_status": 0,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "nfev_reported": 210,
+      "actual_objective_calls": 210,
+      "iterations": 29,
+      "initial": [
+        1.675258472138042,
+        0.2,
+        2.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          0.0,
+          null
+        ],
+        [
+          0.0,
+          null
+        ],
+        [
+          0.0,
+          null
+        ],
+        [
+          0.0,
+          null
+        ]
+      ]
+    },
+    {
+      "stage": "WT",
+      "parameters": [
+        0.9369799650706675,
+        16.145628741932804,
+        1.2741348968749928,
+        0.16527506484555154
+      ],
+      "objective": 1236.0729311185628,
+      "success": true,
+      "solver_status": 0,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "nfev_reported": 245,
+      "actual_objective_calls": 245,
+      "iterations": 32,
+      "initial": [
+        1.5,
+        15.0,
+        0.5,
+        0.03
+      ],
+      "bounds": [
+        [
+          0.0,
+          null
+        ],
+        [
+          0.0,
+          null
+        ],
+        [
+          1e-05,
+          null
+        ],
+        [
+          1e-05,
+          null
+        ]
+      ]
+    }
+  ],
+  "stage": "final_source_recheck",
+  "elapsed_seconds": 2.0583816671278328,
+  "stage_evaluations": 245,
+  "input_bindings": [
+    {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-primary-source-2026-09-13/calcium-workbook-inventory.json",
+      "bytes": 69141,
+      "sha256": "af1109cad767745802ff4fae62088e4c49e9eb05b5c9d68f013c2c7aa968f166"
+    },
+    {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-primary-source-2026-09-13/upstream/data/gamma_mch_responses_manoim_supplement.xlsx",
+      "bytes": 28573,
+      "sha256": "f92ab807009e2e8160fbc8c6c100731012052843484de6c796c7faf673712a1d"
+    }
+  ],
+  "population_sha256": "98b15e2996a31e8dd69a38d2d6ac163a7657f3b914abdafe77c9c5c2e5b7e5a4",
+  "stage_initial": [
+    1.5,
+    15.0,
+    0.5,
+    0.03
+  ],
+  "last_evaluation": {
+    "parameters": [
+      0.9369799650706675,
+      16.145628741932804,
+      1.2741348968749928,
+      0.16527507484555154
+    ],
+    "parameters_finite": true,
+    "value": 1236.0729311186928,
+    "finite": true
+  },
+  "parameters": {
+    "KD": {
+      "tauKCdec": 0.5689403898537341,
+      "tauinp": 0.17465212894258308,
+      "tauadapt": 2.072004315465028,
+      "adaptscale": 0.7308268624200457
+    },
+    "WT": {
+      "tauinh": 0.9369799650706675,
+      "inhfactor": 16.145628741932804,
+      "infp": 1.2741348968749928,
+      "slf": 0.16527506484555154
+    },
+    "bline": 0.0
+  }
+}

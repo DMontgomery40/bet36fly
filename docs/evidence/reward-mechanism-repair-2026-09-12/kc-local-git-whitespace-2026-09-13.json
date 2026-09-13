@@ -1,0 +1,18 @@
+{
+  "default_check_exit": 2,
+  "default_check_findings": [
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-external-refit-inspection-2026-09-13/curves.csv",
+      "reason": "trailing whitespace.",
+      "lines": 500
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-cell-summary-2026-09-13.csv",
+      "reason": "trailing whitespace.",
+      "lines": 4065
+    }
+  ],
+  "csv_aware_check_exit": 0,
+  "csv_aware_output": "",
+  "reason": "Python csv.writer produced standard CRLF records. Preserve original and already hashed copied bytes; recognize CR as end-of-line for the Git whitespace check."
+}

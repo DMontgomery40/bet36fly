@@ -1,0 +1,3 @@
+/Users/davidmontgomery/Documents/ChatGPT/bet36fly/.venv/lib/python3.12/site-packages/scipy/optimize/_numdiff.py:710: RuntimeWarning: invalid value encountered in subtract
+  df = [f_eval - f0 for f_eval in f_evals]
+{"status": "completed", "stage": "final_source_recheck", "elapsed_seconds": 2.0583816671278328}

@@ -1,0 +1,24 @@
+{
+  "started_at_utc": "2026-09-13T09:47:06.208600+00:00",
+  "command": [
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/.venv/bin/python",
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_kc_local_shadow.py",
+    "--run",
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0",
+    "--output",
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/kc-local-shadow-independent-audit-2026-09-13"
+  ],
+  "hard_timeout_seconds": 120,
+  "restarts": 0,
+  "threads": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+  },
+  "script_sha256": "7f039067e17351b59772e875638e3c7e74331765df5aa20e9828c9a73a75a386",
+  "status": "child_exited",
+  "returncode": 0,
+  "elapsed_seconds": 3.3035642909817398,
+  "script_unchanged": true
+}

@@ -1,0 +1,307 @@
+{
+  "run_id": "kc-local-shadow-6734494c82c54702ead0",
+  "status": "computed",
+  "error": null,
+  "attempted": 32,
+  "completed": 32,
+  "saved": [
+    {
+      "file": "shadow_00.npz",
+      "bytes": 673235,
+      "sha256": "1aefe20b44a2504e6eade57bebdc4a69c14a86a534c234711d9b3155077365db"
+    },
+    {
+      "file": "shadow_01.npz",
+      "bytes": 650663,
+      "sha256": "3304c05a62405f34f20933c93f050f8cc2dedf1e6b368f54081cdcf0ac06c4cf"
+    },
+    {
+      "file": "shadow_02.npz",
+      "bytes": 575306,
+      "sha256": "292c82aeb4447e85fbc0cab796955860148d2479bd4757759c6520ba54f2f72f"
+    },
+    {
+      "file": "shadow_03.npz",
+      "bytes": 595323,
+      "sha256": "af5382036fdbf7e337fb19fb6418bb93f4e901978928ebb0f626cab5a8e516a4"
+    },
+    {
+      "file": "shadow_04.npz",
+      "bytes": 807517,
+      "sha256": "b64dbaa07ca68808252f52551f6abbce730238b8333113c28f706ac1b69ece7a"
+    },
+    {
+      "file": "shadow_05.npz",
+      "bytes": 814916,
+      "sha256": "75225ba4801cbcae185be119b6bb7d03bce7d4501e224c32e7678a521547bd75"
+    },
+    {
+      "file": "shadow_06.npz",
+      "bytes": 544416,
+      "sha256": "097f03f1d9df302567e78848603265273a0bfbca853105c718c253fdea2898d9"
+    },
+    {
+      "file": "shadow_07.npz",
+      "bytes": 542267,
+      "sha256": "5e6be7b9e3ccd1719d8cf0784370fae51580b9353d360a591d4aca3966970222"
+    },
+    {
+      "file": "shadow_08.npz",
+      "bytes": 752883,
+      "sha256": "db6dd1da394e5e1521d83cafc8686d88ce378b3765ba21585aaf4463865d4876"
+    },
+    {
+      "file": "shadow_09.npz",
+      "bytes": 709227,
+      "sha256": "01191bf5e37f1e62e043a5086c2451a4ecbef87444279713b7bb4a4bc11feb6f"
+    },
+    {
+      "file": "shadow_10.npz",
+      "bytes": 855826,
+      "sha256": "64cd6f7f200f6e582a4f3cb89a2a950bd3cc3717f601258dbe0e9b2b2530f9b9"
+    },
+    {
+      "file": "shadow_11.npz",
+      "bytes": 843481,
+      "sha256": "8dc155e2585d9be57d31ba7d6e8059dcc6b1e4c9d2b2009d56979808b343e14f"
+    },
+    {
+      "file": "shadow_12.npz",
+      "bytes": 694648,
+      "sha256": "d0782d5da9f2b9b141f8c2196f51abbb59dfb8ab7068277feaa7dec4f279d390"
+    },
+    {
+      "file": "shadow_13.npz",
+      "bytes": 690468,
+      "sha256": "b31cd59b5d786e154631e3e68f6a8ee481f21b850ba11e0237c154ea3b291413"
+    },
+    {
+      "file": "shadow_14.npz",
+      "bytes": 618195,
+      "sha256": "3641831fb972220f0e987d883d89042f41af9d2e8e20cda7db7d64839b716f42"
+    },
+    {
+      "file": "shadow_15.npz",
+      "bytes": 638520,
+      "sha256": "1c5995e0131067e946a94c985f7a97ab3ca441c3055d21d3e8f5949f7ab85e24"
+    },
+    {
+      "file": "shadow_16.npz",
+      "bytes": 672668,
+      "sha256": "0a686295d8450fb6abd7fe3fb4e0224f9a4501e0f5a32a3fa70efe39228f9d8a"
+    },
+    {
+      "file": "shadow_17.npz",
+      "bytes": 688468,
+      "sha256": "9ed0011abca140a72d3cf6f9de0d6f7366e9003867f183d233c1596bc8e57cbe"
+    },
+    {
+      "file": "shadow_18.npz",
+      "bytes": 734182,
+      "sha256": "92e70aaa251983a2b0401a086ca4b9c3dcb4428708124af3db6d3290312780a5"
+    },
+    {
+      "file": "shadow_19.npz",
+      "bytes": 758955,
+      "sha256": "caa5e74fa356e27a77b0e71bcd67ac9aa072a5613917cf10d20d43b1ad705660"
+    },
+    {
+      "file": "shadow_20.npz",
+      "bytes": 634037,
+      "sha256": "ec5a4a8caf5586681af05c29b1973e5923d6a5ec2e2dfad3ac9f275a954e8bc5"
+    },
+    {
+      "file": "shadow_21.npz",
+      "bytes": 625593,
+      "sha256": "b21a1fd3e787be72f9365c055f14501877799a303dda8a50b28faf2f283549b3"
+    },
+    {
+      "file": "shadow_22.npz",
+      "bytes": 639195,
+      "sha256": "74f31031a50e68a44a289b16a81fc2f248f75a45b1ec4ae37c55c6f55d98d457"
+    },
+    {
+      "file": "shadow_23.npz",
+      "bytes": 625912,
+      "sha256": "b1afe9e554a9c8138cf8f49b811e83baee8214acdf5f7d8643e1013b7e2982e4"
+    },
+    {
+      "file": "shadow_24.npz",
+      "bytes": 655616,
+      "sha256": "36e3039b5664b867332e21097681efa3805eab3bf1e65cc50bac57d8a06509ca"
+    },
+    {
+      "file": "shadow_25.npz",
+      "bytes": 647156,
+      "sha256": "5aebbef031a51d80ac15e980c1a18cf4b68cbd9babb128e2f2d454dc9827674d"
+    },
+    {
+      "file": "shadow_26.npz",
+      "bytes": 717110,
+      "sha256": "8869fc8c6448c4252c7f773126e3b63482f029cb4212cc42491ec6ba7559e056"
+    },
+    {
+      "file": "shadow_27.npz",
+      "bytes": 647979,
+      "sha256": "7335caf0f621c731258da695f76c03c2e49fcc0d8b107aaa3ab3366b61e5e5a6"
+    },
+    {
+      "file": "shadow_28.npz",
+      "bytes": 950384,
+      "sha256": "f5fe06b9db17d1792c7c61d59a3494db1dfc6ac26dd556f515fee52659e59aa1"
+    },
+    {
+      "file": "shadow_29.npz",
+      "bytes": 888742,
+      "sha256": "a801134cf9fb8951736bf32ee947aaf2e44daeaa6afb4ea9d7231345c8f77041"
+    },
+    {
+      "file": "shadow_30.npz",
+      "bytes": 675165,
+      "sha256": "ab51426a8586faddaf672257ac7ac2fc682333ccdce7eb728034e3e2eeba5663"
+    },
+    {
+      "file": "shadow_31.npz",
+      "bytes": 670603,
+      "sha256": "ad4c4e5978390c2fd671246a943178bd34b322826d8037530c8e7f3ed9cadf93"
+    }
+  ],
+  "elapsed_seconds": 15.820329292211682,
+  "native_calls": 0,
+  "circuit_calls": 0,
+  "network_requests": 0,
+  "guards": {
+    "0/base/home": {
+      "ticks": [
+        -1856490,
+        -426536,
+        1426682,
+        -2406200,
+        -11867252,
+        -3256012,
+        -5124009,
+        -1410604
+      ],
+      "point_pass": false,
+      "mean": -0.1856716051697731,
+      "sample_sd": 0.24001388334886042,
+      "limit": 0.12000694167443021
+    },
+    "0/base/away": {
+      "ticks": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "point_pass": true,
+      "mean": 0.0,
+      "sample_sd": 0.0,
+      "limit": 0.0
+    },
+    "0/alt/home": {
+      "ticks": [
+        -1965630,
+        1651027,
+        -3812596,
+        -3389657,
+        -4813625,
+        4821455,
+        -6308430,
+        -4962060
+      ],
+      "point_pass": false,
+      "mean": -0.13991829752922058,
+      "sample_sd": 0.22457047208901645,
+      "limit": 0.11228523604450823
+    },
+    "0/alt/away": {
+      "ticks": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "point_pass": true,
+      "mean": 0.0,
+      "sample_sd": 0.0,
+      "limit": 0.0
+    },
+    "1/base/home": {
+      "ticks": [
+        -8871780,
+        -5316926,
+        1801596,
+        -2418223,
+        -1199908,
+        -1348914,
+        -27928435,
+        -3090870
+      ],
+      "point_pass": false,
+      "mean": -0.3604103624820709,
+      "sample_sd": 0.559314966400428,
+      "limit": 0.279657483200214
+    },
+    "1/base/away": {
+      "ticks": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "point_pass": true,
+      "mean": 0.0,
+      "sample_sd": 0.0,
+      "limit": 0.0
+    },
+    "1/alt/home": {
+      "ticks": [
+        -2430677,
+        1310775,
+        -6899453,
+        -5049371,
+        -4109811,
+        1627130,
+        -2948027,
+        -2394874
+      ],
+      "point_pass": false,
+      "mean": -0.15567472577095032,
+      "sample_sd": 0.17467573944792156,
+      "limit": 0.08733786972396078
+    },
+    "1/alt/away": {
+      "ticks": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "point_pass": true,
+      "mean": 0.0,
+      "sample_sd": 0.0,
+      "limit": 0.0
+    }
+  },
+  "bound_contacts": 0,
+  "screen": "reject",
+  "qualification": "not qualified; fixed untaught histories only",
+  "numerical_audit": "pending independent saved-artifact audit"
+}

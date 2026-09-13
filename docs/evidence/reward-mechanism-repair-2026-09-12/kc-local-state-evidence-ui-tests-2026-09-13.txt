@@ -1,0 +1,13 @@
+COMMAND ['.venv/bin/python', '-m', 'pytest', '-q', 'output/collaboration/reward-mechanism-repair/test_kc_local_state_evidence_ui.py', 'output/collaboration/reward-mechanism-repair/test_kc_local_clock_independent.py']
+........................................................................ [ 48%]
+........................................................................ [ 96%]
+.....                                                                    [100%]
+149 passed in 0.85s
+
+
+EXIT 0
+COMMAND ['.venv/bin/ruff', 'check', 'output/collaboration/reward-mechanism-repair/kc_local_state_evidence_ui.py', 'output/collaboration/reward-mechanism-repair/test_kc_local_state_evidence_ui.py']
+All checks passed!
+
+
+EXIT 0

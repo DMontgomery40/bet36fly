@@ -1,0 +1,46 @@
+{
+  "panel": 0,
+  "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+  "game": 4378,
+  "seed_set": "alt",
+  "seed": 1004420,
+  "index": 9,
+  "fields": [
+    "positive",
+    "negative",
+    "attempted",
+    "applied_double",
+    "applied_published",
+    "low_count",
+    "high_count",
+    "absolute_area"
+  ],
+  "bound_contacts": 0,
+  "local_source_frames": 12,
+  "subtypes": {
+    "gamma": {
+      "kcs": 1557,
+      "raw_events": 2325,
+      "weighted_events": 2274.571716400328,
+      "min_susceptibility": 0.0
+    },
+    "apbp": {
+      "kcs": 695,
+      "raw_events": 77,
+      "weighted_events": 76.77214822591756,
+      "min_susceptibility": 0.6709238247445738
+    },
+    "ab": {
+      "kcs": 1810,
+      "raw_events": 475,
+      "weighted_events": 473.1654945740054,
+      "min_susceptibility": 0.3662946304239342
+    },
+    "other": {
+      "kcs": 2,
+      "raw_events": 4,
+      "weighted_events": 3.9707563070145824,
+      "min_susceptibility": 0.11679661105513856
+    }
+  }
+}

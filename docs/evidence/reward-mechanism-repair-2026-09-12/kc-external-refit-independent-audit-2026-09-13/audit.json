@@ -1,0 +1,261 @@
+{
+  "status": "passed_fixed_parameter_source_reproduction",
+  "checked_at_utc": "2026-09-13T09:20:31.216636+00:00",
+  "run_id": "kc-external-refit-992cef6fb05bfdb63d2b",
+  "comparisons": {
+    "KD": {
+      "points": 259,
+      "units": 700,
+      "observed_units": 140,
+      "weighted_squared_error": 156.62393061514132,
+      "L1_penalty": 13.777856061607203,
+      "total_source_objective": 170.40178667674851,
+      "reported_objective": 170.4017866767485,
+      "objective_absolute_error": 2.842170943040401e-14,
+      "mean_max_absolute_error": 8.881784197001252e-16,
+      "weighted_residual_RMS": 0.7776410488333686,
+      "activity_residual_RMSE": 0.030544344441809982,
+      "max_absolute_weighted_residual": 2.762791530936483
+    },
+    "WT": {
+      "points": 259,
+      "units": 700,
+      "observed_units": 140,
+      "weighted_squared_error": 1164.11488859057,
+      "L1_penalty": 71.9580425279928,
+      "total_source_objective": 1236.0729311185626,
+      "reported_objective": 1236.0729311185628,
+      "objective_absolute_error": 2.2737367544323206e-13,
+      "mean_max_absolute_error": 4.440892098500626e-16,
+      "weighted_residual_RMS": 2.120059451878713,
+      "activity_residual_RMSE": 0.03688715289125013,
+      "max_absolute_weighted_residual": 17.6533508128471
+    }
+  },
+  "admissibility": {
+    "finite_nonnegative_parameters": true,
+    "positive_time_divisors_and_sigmoid_slope": true,
+    "tau_adapt_at_least_source_step": true,
+    "tau_inh_at_least_source_step": true,
+    "min_external_KD_A": 0.8769478555061994,
+    "min_external_WT_A": 0.8769478555061994,
+    "external_WT_L_le_C": true,
+    "external_states_nonnegative": true,
+    "scope": "Static fitted-parameter conditions and this external259-sample input only; every future candidate update still requires its own A>=0 and state checks."
+  },
+  "input_snapshot": [
+    {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-primary-source-2026-09-13/calcium-workbook-inventory.json",
+      "bytes": 69141,
+      "sha256": "af1109cad767745802ff4fae62088e4c49e9eb05b5c9d68f013c2c7aa968f166"
+    },
+    {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-primary-source-2026-09-13/upstream/LICENSE",
+      "bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-primary-source-2026-09-13/upstream/README.md",
+      "bytes": 2534,
+      "sha256": "9aab77612444818422e9c693210933db3e71404b3c02dd2b9b2576f4a41be52a"
+    },
+    {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-primary-source-2026-09-13/upstream/codes/KC_population_calcium_rate_model_functions.py",
+      "bytes": 14812,
+      "sha256": "bc36f741ab7773b5f9dc298ab9610ce915067a2cc82ea73e947174ee155b3f05"
+    },
+    {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-primary-source-2026-09-13/upstream/codes/fit_functions.py",
+      "bytes": 8059,
+      "sha256": "ca238b5d6acaa40ba7bcee650ab6697872263dd69b1ebc082b27779ae67cbc5b"
+    },
+    {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-primary-source-2026-09-13/upstream/codes/fit_rate_model_to_data.py",
+      "bytes": 14966,
+      "sha256": "d76911cff9468883fc2bbc3c8f7647e7f3935acf5d51bda6ddb877a451986142"
+    },
+    {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-primary-source-2026-09-13/upstream/codes/inter_odor_activity_correlation_sparseness.py",
+      "bytes": 18847,
+      "sha256": "8d845b1e0b4b5022cbc9b58a405e19a6425103c68763671eef5ff0ccc6e9385d"
+    },
+    {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-primary-source-2026-09-13/upstream/codes/learning_rate_screening_mbon_normalized.py",
+      "bytes": 21092,
+      "sha256": "c4896407ae554027df56c756ffbe65b65a52754602431d9d9d29b360ae37847d"
+    },
+    {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-primary-source-2026-09-13/upstream/codes/plot_correlation_different_overlaps.py",
+      "bytes": 2816,
+      "sha256": "3cc8f529b6d05a563693082f0a3ba47e24f16f0a08302abb77669b69faedb03c"
+    },
+    {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-primary-source-2026-09-13/upstream/codes/plot_valences_normalized_mbon.py",
+      "bytes": 4100,
+      "sha256": "f3f69ba8a321923cd4db99447b595361f255551e959e45643656cf7d7c0b75ea"
+    },
+    {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-primary-source-2026-09-13/upstream/codes/plotting_related_functions.py",
+      "bytes": 2223,
+      "sha256": "6c1a90fc63ee5191b98f10b26e677875886b32e58e2570cbf07106257775b9e3"
+    },
+    {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-primary-source-2026-09-13/upstream/codes/rate_model_get_summed_KC_activity_different_model_variants.py",
+      "bytes": 7494,
+      "sha256": "7e3fbc9e10a274a0fc21e02519e28bbeae7120341842b1004279f7061569b5d0"
+    },
+    {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-primary-source-2026-09-13/upstream/codes/rate_model_odor_stimulation_activity_histograms.py",
+      "bytes": 10647,
+      "sha256": "05321af2f710248c70bb5092b5d32971cbfbea12519517036e34f70d103fab5e"
+    },
+    {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-primary-source-2026-09-13/upstream/data/gamma_mch_responses_manoim_supplement.xlsx",
+      "bytes": 28573,
+      "sha256": "f92ab807009e2e8160fbc8c6c100731012052843484de6c796c7faf673712a1d"
+    },
+    {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-primary-source-2026-09-13/upstream/requirements.txt",
+      "bytes": 137,
+      "sha256": "a0d908097bebe43faa2aaccd53ca7ebbab713f3c71cfed51783dbf5080252801"
+    },
+    {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/kc-external-refit-992cef6fb05bfdb63d2b/execution.json",
+      "bytes": 302,
+      "sha256": "3c5d0d50850299a095146c5c3ad3883990de97103281022667a500214560ac84"
+    },
+    {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/kc-external-refit-992cef6fb05bfdb63d2b/plan.json",
+      "bytes": 2844,
+      "sha256": "d59bb5a6428af71fb8c8925b437470baeeda568daab0ac605ddebaaa365453e9"
+    },
+    {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/kc-external-refit-992cef6fb05bfdb63d2b/result/calibration.npz",
+      "bytes": 41538,
+      "sha256": "1f7f2e3d6b43d5c9a64206a1246bb41f8f528778914bc82f918a5d7984d70567"
+    },
+    {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/kc-external-refit-992cef6fb05bfdb63d2b/result/events.jsonl",
+      "bytes": 1817,
+      "sha256": "05a32f731b377e4eab2ed0d2e0d194dd5dc01a6a231c60b94f1954429aa058f5"
+    },
+    {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/kc-external-refit-992cef6fb05bfdb63d2b/result/status.json",
+      "bytes": 4626,
+      "sha256": "04b32497805700638bb9a740101329b4409826ccc09c0a7e03ccedf635dbee47"
+    },
+    {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/kc-lateral-primary-source-2026-09-13/upstream/LICENSE",
+      "bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/kc-lateral-primary-source-2026-09-13/upstream/README.md",
+      "bytes": 2534,
+      "sha256": "9aab77612444818422e9c693210933db3e71404b3c02dd2b9b2576f4a41be52a"
+    },
+    {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/kc-lateral-primary-source-2026-09-13/upstream/codes/KC_population_calcium_rate_model_functions.py",
+      "bytes": 14812,
+      "sha256": "bc36f741ab7773b5f9dc298ab9610ce915067a2cc82ea73e947174ee155b3f05"
+    },
+    {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/kc-lateral-primary-source-2026-09-13/upstream/codes/fit_functions.py",
+      "bytes": 8059,
+      "sha256": "ca238b5d6acaa40ba7bcee650ab6697872263dd69b1ebc082b27779ae67cbc5b"
+    },
+    {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/kc-lateral-primary-source-2026-09-13/upstream/codes/fit_rate_model_to_data.py",
+      "bytes": 14966,
+      "sha256": "d76911cff9468883fc2bbc3c8f7647e7f3935acf5d51bda6ddb877a451986142"
+    },
+    {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/kc-lateral-primary-source-2026-09-13/upstream/codes/inter_odor_activity_correlation_sparseness.py",
+      "bytes": 18847,
+      "sha256": "8d845b1e0b4b5022cbc9b58a405e19a6425103c68763671eef5ff0ccc6e9385d"
+    },
+    {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/kc-lateral-primary-source-2026-09-13/upstream/codes/learning_rate_screening_mbon_normalized.py",
+      "bytes": 21092,
+      "sha256": "c4896407ae554027df56c756ffbe65b65a52754602431d9d9d29b360ae37847d"
+    },
+    {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/kc-lateral-primary-source-2026-09-13/upstream/codes/plot_correlation_different_overlaps.py",
+      "bytes": 2816,
+      "sha256": "3cc8f529b6d05a563693082f0a3ba47e24f16f0a08302abb77669b69faedb03c"
+    },
+    {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/kc-lateral-primary-source-2026-09-13/upstream/codes/plot_valences_normalized_mbon.py",
+      "bytes": 4100,
+      "sha256": "f3f69ba8a321923cd4db99447b595361f255551e959e45643656cf7d7c0b75ea"
+    },
+    {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/kc-lateral-primary-source-2026-09-13/upstream/codes/plotting_related_functions.py",
+      "bytes": 2223,
+      "sha256": "6c1a90fc63ee5191b98f10b26e677875886b32e58e2570cbf07106257775b9e3"
+    },
+    {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/kc-lateral-primary-source-2026-09-13/upstream/codes/rate_model_get_summed_KC_activity_different_model_variants.py",
+      "bytes": 7494,
+      "sha256": "7e3fbc9e10a274a0fc21e02519e28bbeae7120341842b1004279f7061569b5d0"
+    },
+    {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/kc-lateral-primary-source-2026-09-13/upstream/codes/rate_model_odor_stimulation_activity_histograms.py",
+      "bytes": 10647,
+      "sha256": "05321af2f710248c70bb5092b5d32971cbfbea12519517036e34f70d103fab5e"
+    },
+    {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/kc-lateral-primary-source-2026-09-13/upstream/data/gamma_mch_responses_manoim_supplement.xlsx",
+      "bytes": 28573,
+      "sha256": "f92ab807009e2e8160fbc8c6c100731012052843484de6c796c7faf673712a1d"
+    },
+    {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/kc-lateral-primary-source-2026-09-13/upstream/requirements.txt",
+      "bytes": 137,
+      "sha256": "a0d908097bebe43faa2aaccd53ca7ebbab713f3c71cfed51783dbf5080252801"
+    },
+    {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/kc-local-calcium-candidate-contract-2026-09-13.md",
+      "bytes": 6058,
+      "sha256": "342c25f8bc8342d2e987de1fd4565672a04b114a13cbc357b61319421934bf3b"
+    },
+    {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/kc_external_calibration.py",
+      "bytes": 20427,
+      "sha256": "eee18c7dab90513f0f93c1d1bd799995d366fef2d832b755a4a3b3d52b22440c"
+    },
+    {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_kc_external_calibration.py",
+      "bytes": 12440,
+      "sha256": "ac42c1fa0a3a352ddc03d1b1f0e73d25b2406b6d15c4bb8e457bde3c0e567bd9"
+    }
+  ],
+  "all_snapshot_bytes_unchanged": true,
+  "source_original_and_copy_files_verified_each": 14,
+  "independent_workbook_XML_rows_compared": 499,
+  "source_forward_calls": 4,
+  "optimizer_calls": 0,
+  "gradient_calls": 0,
+  "candidate_or_native_calls": 0,
+  "solver_report": {
+    "run_id": "kc-external-refit-992cef6fb05bfdb63d2b",
+    "status": "completed",
+    "exit_code": 0,
+    "elapsed_seconds": 2.324874582933262,
+    "hard_timeout_seconds": 120,
+    "timeout_enforced_by": "parent subprocess.run timeout; direct child reaped",
+    "no_restart": true,
+    "bindings_unchanged": true
+  },
+  "interpretation": "Reported solver termination and exact source-objective reproduction; neither global optimality nor measured biological calibration is established.",
+  "numeric_comparison": {
+    "path": "output/collaboration/reward-mechanism-repair/kc-external-refit-independent-audit-2026-09-13/comparison.npz",
+    "bytes": 21006,
+    "sha256": "03ef187dd5f1c685950fd06c35e6a7a3451d3cab672b20d81385ffe0839ba6c0"
+  },
+  "audit_source": {
+    "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_kc_external_refit.py",
+    "bytes": 14095,
+    "sha256": "7516c62f13fc5f4f930a4ba8a3f9e9be708c2445a7e7b60b681e5cc3dfa98071"
+  }
+}

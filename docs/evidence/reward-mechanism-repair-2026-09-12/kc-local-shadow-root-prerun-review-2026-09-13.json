@@ -1,0 +1,79 @@
+{
+  "checked_at_utc": "2026-09-13T09:45:25.717091+00:00",
+  "reviewer": "/root",
+  "status": "approved_for_one_fixed_history_screen",
+  "scope": "Personally reviewed local operator, anatomy, weighted bridge, external fit and independent source audit, runner and independent history auditor. Synthetic tests precede all candidate histories.",
+  "tests": {
+    "candidate_fit_anatomy_runner": 532,
+    "independent_history_auditor": 34,
+    "total_distinct": 566,
+    "standard_python": 4055,
+    "standard_frontend": 85,
+    "ruff": "passed",
+    "vite": "passed"
+  },
+  "contracts": [
+    {
+      "path": "output/collaboration/reward-mechanism-repair/kc-local-calcium-candidate-contract-2026-09-13.md",
+      "bytes": 6058,
+      "sha256": "342c25f8bc8342d2e987de1fd4565672a04b114a13cbc357b61319421934bf3b"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/kc-local-shadow-independent-audit-contract-2026-09-13.md",
+      "bytes": 3850,
+      "sha256": "39d8941eb2e424baa83f86d2fc1c2fa36cd4483952824077d7b5138960877e24"
+    }
+  ],
+  "code": [
+    {
+      "path": "output/collaboration/reward-mechanism-repair/run_kc_local_shadow.py",
+      "bytes": 37128,
+      "sha256": "37d0c3047d256d16289c4061eb6eb0b9dbef20413ef1b8fbecb0afdb329f68f7"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/audit_kc_local_shadow.py",
+      "bytes": 30648,
+      "sha256": "7f039067e17351b59772e875638e3c7e74331765df5aa20e9828c9a73a75a386"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/test_audit_kc_local_shadow.py",
+      "bytes": 9430,
+      "sha256": "c97656fd49004feac85748cfa7f7f62639bc2e839fd4c5f2a2aa19e34ce1861d"
+    }
+  ],
+  "review_material": [
+    {
+      "path": "output/collaboration/reward-mechanism-repair/kc-local-calcium-preparation-root-2026-09-13.md",
+      "bytes": 3737,
+      "sha256": "e40fddd2024360ae7a4bf9dd528a10d8384f3fc5429a4bb98f5b19aef1878e66"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/kc-local-shadow-runner-reading-evidence-ui-2026-09-13.json",
+      "bytes": 5452,
+      "sha256": "24affcaa97332c1f45870b7036c35c968af513443cac659c43a43dcff92ad15f"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/kc-local-shadow-independent-preparation-reading-receipt-2026-09-13.json",
+      "bytes": 37762,
+      "sha256": "972601721a83eaa11f46a7a39dc6ec037871dd03ab9b5e6ffb7b635aa55decff"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/kc-external-refit-independent-audit-2026-09-13.md",
+      "bytes": 4423,
+      "sha256": "08af49719e9f14a47224b69da3f70859b733151e6d71ac462f47c1161a6203dd"
+    }
+  ],
+  "execution": {
+    "attempts": 1,
+    "histories": 32,
+    "external_watchdog_seconds": 1200,
+    "restart": false
+  },
+  "subsequent_audit": {
+    "attempts": 1,
+    "rows": 32,
+    "external_watchdog_seconds": 120,
+    "only_after_complete_producer": true
+  },
+  "qualification": "Not established. Eight unchanged guards are an early rejection screen; both complete live panels and frozen conditioning/reversal still required."
+}

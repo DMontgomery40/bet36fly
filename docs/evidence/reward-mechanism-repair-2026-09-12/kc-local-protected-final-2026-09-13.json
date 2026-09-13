@@ -1,0 +1,15 @@
+{
+  "checked_at_utc": "2026-09-13T09:55:00.434482+00:00",
+  "baseline": "output/collaboration/reward-mechanism-repair/weight-state-protected-before-2026-09-13.json",
+  "baseline_sha256": "d9e4138924451490dabe75042991dcac1a698989b4711e25a93df9093f696d1a",
+  "files": 791,
+  "bytes": 5497884387,
+  "inventory_entries": 934,
+  "changed": [],
+  "missing": [],
+  "added": [],
+  "removed": [],
+  "elapsed_seconds": 2.690459208097309,
+  "coverage": "All791 baseline file hashes, including22 explicit output files outside the directory inventory; current-model pointer included. Directory inventory checked separately.",
+  "preceding_partial_check": "kc-local-protected-after-screen-2026-09-13.json covered769 directory-scope files only; this final check includes every explicit baseline file."
+}

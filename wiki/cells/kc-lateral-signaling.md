@@ -1,7 +1,7 @@
 ---
 type: cell-mechanism
 updated: 2026-09-13
-status: source-inspected-not-implemented
+status: offline-candidate-rejected
 ---
 # Local signaling between Kenyon cells
 
@@ -11,6 +11,18 @@ KC signaling and supplies a public calcium model. It gives us a concrete
 mechanism to investigate, while leaving its transfer to the named MaleCNS
 cells unresolved. [Primary paper](https://doi.org/10.1016/j.cub.2026.01.014),
 [source and compartment review](../../docs/evidence/reward-mechanism-repair-2026-09-12/handler-kc-switch-model-transfer-review-2026-09-13.md).
+
+The subsequent [explicit local-calcium mapping](../../docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-calcium-shadow-result-2026-09-13.md)
+was implemented outside production and tested on all 32 saved histories.
+It fails all four home guard groups, with every home trial becoming more
+depressive. An independent calculation reproduces every final and electrical
+float32 gain exactly. This rejects that mapping; it does not refute the
+reported muscarinic physiology. The current reward kernel remains unchanged.
+
+The [4,064-cell result table](../../docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-shadow-cell-summary-2026-09-13.csv)
+provides each KC's body ID, type, instance, eligible edge counts, event
+attenuation and original/candidate home gain sums. Gamma, alpha/beta,
+alpha-prime/beta-prime and the two other cells remain separately visible.
 
 ## What is present in this circuit
 
@@ -80,11 +92,14 @@ which clock it uses and how it continues after input stops. Fast cholinergic
 transmission and muscarinic modulation must remain distinguishable.
 
 The original 499-row WT/knockdown workbook has been fully inventoried and
-preserved with the pinned code and license. It can support an external-data
-reproduction; its normalized population calcium does not itself measure a
-spike-to-local-calcium transfer for each named cell. No external-data fit,
-new MaleCNS candidate, conditioning or reversal was run for this source audit.
-The failed untaught-home qualification remains unresolved.
+preserved with the pinned code and license. The later bounded external fit
+reproduces the source model numerically, while its WT residuals remain uneven
+(standard-error-weighted RMS 2.12006). It does not measure a spike-to-local-
+calcium transfer for each named cell. The tested engineering mapping used
+one completed-frame spike as one source-input unit, incoming normalized
+contacts and held L/C as plasticity susceptibility at the source's 30 Hz
+clock. These choices and their pan-KC extrapolation were declared before the
+failed screen. No conditioning or reversal ran; qualification remains unmet.
 
 The [identifiability analysis](../../docs/evidence/reward-mechanism-repair-2026-09-12/kc-calcium-transfer-identifiability-2026-09-13.md)
 makes that limitation exact: `tau_input` divides input amplitude; it is not

@@ -1,0 +1,782 @@
+{
+  "identity": {
+    "analysis": "kc-local-shadow-v1",
+    "bindings": [
+      {
+        "path": "output/collaboration/reward-mechanism-repair/run_kc_local_shadow.py",
+        "bytes": 37128,
+        "sha256": "37d0c3047d256d16289c4061eb6eb0b9dbef20413ef1b8fbecb0afdb329f68f7"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/test_run_kc_local_shadow.py",
+        "bytes": 12628,
+        "sha256": "917500b34c7882cd2007de0069f79132b9015c0f377436747afb9b3e7e8459f9"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/kc_local_state_evidence_ui.py",
+        "bytes": 8092,
+        "sha256": "45a5229ec7c408b8042c32555de4511e5d4158bf67df4996dbfea2533b6c5383"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/test_kc_local_state_evidence_ui.py",
+        "bytes": 13504,
+        "sha256": "206d58f180fdb1198fdd9bcf6903a415a87b496e76efdd91d0d4e8d842a6dd23"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/test_kc_local_clock_independent.py",
+        "bytes": 5879,
+        "sha256": "f083ca4bea8b5846e01468547020807406bc9e9fa43af0390214b8c24275acf3"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/kc_weighted_bridge_replay.py",
+        "bytes": 6626,
+        "sha256": "08ec9ec468f9bfc0ccee2ca1dad41e5273cf589a6be087a1baac9724768105b7"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/test_kc_weighted_bridge_replay.py",
+        "bytes": 10428,
+        "sha256": "ed0237e8e64d6c91a041107e685cd02038cbc07270a32901285f9dea15fffbbe"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/rate_adaptation_shadow.py",
+        "bytes": 34964,
+        "sha256": "bad6425c1b54b0f48b04b8238be3e426372d3a8a128838bb2260f9d93b5652e8"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/weight_state_guard_reference.py",
+        "bytes": 7515,
+        "sha256": "1257fb71083151aabd6726430d62102347cf5cac131c8e99edcfbae3786283f4"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/kc_local_anatomy.py",
+        "bytes": 3301,
+        "sha256": "c0f4298b2fcd571590edf7a43dd9454d9f1d1919da25ddc811d21fd25cfbfb56"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/test_kc_local_anatomy.py",
+        "bytes": 3401,
+        "sha256": "d73b25ae5af70b93e8f9c52fffbf9db2e8e68bbb8abcb19575486a79cbcbba36"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/test_kc_local_bridge_composition.py",
+        "bytes": 6921,
+        "sha256": "e4189bedc26d53b82ccfa3aa1d43e5b4c1cc0de492ca07c825bff4ec9400e13f"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/audit_kc_local_shadow.py",
+        "bytes": 30648,
+        "sha256": "7f039067e17351b59772e875638e3c7e74331765df5aa20e9828c9a73a75a386"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/test_audit_kc_local_shadow.py",
+        "bytes": 9430,
+        "sha256": "c97656fd49004feac85748cfa7f7f62639bc2e839fd4c5f2a2aa19e34ce1861d"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/kc-local-shadow-independent-audit-contract-2026-09-13.md",
+        "bytes": 3850,
+        "sha256": "39d8941eb2e424baa83f86d2fc1c2fa36cd4483952824077d7b5138960877e24"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/kc-local-calcium-candidate-contract-2026-09-13.md",
+        "bytes": 6058,
+        "sha256": "342c25f8bc8342d2e987de1fd4565672a04b114a13cbc357b61319421934bf3b"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/onset-capture-preregistration.samples.npz",
+        "bytes": 214204,
+        "sha256": "5f2414ffe5cab3d99cc1c1f0e91071df1f48721a7709816e90360af8b41074b3"
+      },
+      {
+        "path": "wiki/cells/data/neurons.csv",
+        "bytes": 455856,
+        "sha256": "b129852f530f6f48c5e8e9e37df4e414e958c5af40e2ec6cd5a7d28cbf31283c"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/summary.json",
+        "bytes": 650399,
+        "sha256": "244b4dcc1aa40b8c0c7be068bf7e66f8e369921f1005dd474ca37f9460dabb1b"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/capture-receipt.json",
+        "bytes": 14517,
+        "sha256": "9aeea0c9227bf9ad4326277c39eb47966d5ab95ba6870bb3720f0d9b278788fc"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_00.npz",
+        "bytes": 304208,
+        "sha256": "4a438a1d4a9f3f04006ff540a61710ae494609516af5ad4fd60a7b7c5495439c"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_01.npz",
+        "bytes": 261004,
+        "sha256": "7b240f79326ce2eae6f39bd915b79f87620010a42819e0456ddfe93b8f13c9d0"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_02.npz",
+        "bytes": 246748,
+        "sha256": "5a52ef4192a5c3451c87b5a4e68d71634ed364f91f51791e58bf1981ca7e53bd"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_03.npz",
+        "bytes": 253126,
+        "sha256": "9f5bd6d632bfba279c0d8d0544b128ce5a88f8d706e6d7873b6f3eb3ae21079c"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_04.npz",
+        "bytes": 293592,
+        "sha256": "ac307e48234934babd39c0a6455cb072a521d6732873cf0e5163111cc8fe43dc"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_05.npz",
+        "bytes": 288644,
+        "sha256": "076ed8ef037a4a8ac17c9234d93cbebe3b19f14d4a34aee353e18b501c20c48c"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_06.npz",
+        "bytes": 250474,
+        "sha256": "bf1ecf62af1de626bcac4f358a665b2cf4b8f36fe3af0cb57760d91a0b5347e0"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_07.npz",
+        "bytes": 250524,
+        "sha256": "32fd4c05763c3080baad1ca0055e8b75335bb26e97115f04c6347bcb49582a1b"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_08.npz",
+        "bytes": 278486,
+        "sha256": "9f53e482a23d2f6aa14ebbc510aeb3e41f833a24491b4fe60f4284303c11bb6c"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_09.npz",
+        "bytes": 268165,
+        "sha256": "05dc4b454c6b4ef233452769ff96d3d03ed79596c90b09f847b3c31c39c30de2"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_10.npz",
+        "bytes": 297885,
+        "sha256": "b32ce1bef5e7b70375a6bd74d62034ebaf2f9aa4c797f0062350092950b960df"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_11.npz",
+        "bytes": 323946,
+        "sha256": "07ac0e2d1d2c34d00de827a5b96a024679642d06e442296b77fd1b8303a207e0"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_12.npz",
+        "bytes": 258583,
+        "sha256": "912a3e7580e7f7b08e3daaa16deaa0a18e4640587f592f0d62315e9596b766b4"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_13.npz",
+        "bytes": 265942,
+        "sha256": "9e83d9c5b2e7ee323e216fa8f15e363f046f50a8818131fd0e3429f1ba7da84a"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_14.npz",
+        "bytes": 246273,
+        "sha256": "1f362a2786326b960809c0a6abeeba3824851b63e5dfe41bce22eb936ae58935"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_15.npz",
+        "bytes": 259666,
+        "sha256": "a40c7d22af553478d802691e0bb390713e0625ab3d40ca9379139893b9dd1a99"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_16.npz",
+        "bytes": 259158,
+        "sha256": "00408ac82dd08534809801425ef9be3869b732d7dcacbe440cc9548fd29b6b05"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_17.npz",
+        "bytes": 264010,
+        "sha256": "47afab8b93f0ed827546d0b7fe624ae0d7a383576d14734dfe77321489263f5d"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_18.npz",
+        "bytes": 287419,
+        "sha256": "872d849d813cf56649044329aed3aa527b323e6cba63d7be30c9ce39b554cacc"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_19.npz",
+        "bytes": 274964,
+        "sha256": "fec4a8b1d82e2b4668438a9c7fe010cc06575eb416fe061b3f04074ab7023337"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_20.npz",
+        "bytes": 241766,
+        "sha256": "d2a5e5f42be0ba28342afc4e5b3f5fbf338893e09018577d414aad02b06f8f81"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_21.npz",
+        "bytes": 241190,
+        "sha256": "43c6dca974fb8b04673f992abc4c6a2e50ed9d9697637f408d00798b7f8c4433"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_22.npz",
+        "bytes": 273136,
+        "sha256": "07e21bed4584c9c6fab689c488bceeef1561f93df6b2d71d866d4ce72e47b6d8"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_23.npz",
+        "bytes": 263986,
+        "sha256": "bc9b5c3466e0a9a73599dbfd4276c1ff1d0b0703e007be6c5afa317ce6341fc9"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_24.npz",
+        "bytes": 318898,
+        "sha256": "d311d3a997ac06302cb1471817d2828f56d1a9824cc565a5d0f6390925cda876"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_25.npz",
+        "bytes": 276663,
+        "sha256": "bcdf73a09d7a638d1d13ad4421dd1547daa888fde3003b360a068f4aa54c44ef"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_26.npz",
+        "bytes": 284242,
+        "sha256": "4bfd5cfd1dea0fff8a72743b4af592f758afc9753b0bda2c1405cb04f1f48538"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_27.npz",
+        "bytes": 278629,
+        "sha256": "43f6d5d956ec9c93f075a81163825129829be8a02ce9c41a579de7096a1c52cf"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_28.npz",
+        "bytes": 309040,
+        "sha256": "b018679072496893290fb66ed610a3dcb04eb7252f5b2e2b5c073b9357f7e344"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_29.npz",
+        "bytes": 288384,
+        "sha256": "4fd3f67362ed8feca0dd2da2f53b882aaefdb8880b4b6962aa08a8702b9df6da"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_30.npz",
+        "bytes": 265261,
+        "sha256": "baf87916b22976fd62bfa5e5d576288c390ea102a32a31ba8a5cc19aa342b6f2"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_31.npz",
+        "bytes": 264598,
+        "sha256": "66799429f280fe90da61c7ecd5cb47544793d61ffc2dd109af0a362040257157"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/kc-local-anatomy-2026-09-13/adjacency.npz",
+        "bytes": 1475689,
+        "sha256": "facb34fef3e971577b598cee71c33609968a2ce4d59870a20fccccb8f4076e59"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/kc-local-anatomy-2026-09-13/identities.npz",
+        "bytes": 14424,
+        "sha256": "c86cde04612b09c745d4331b9d10bccb21e628aaf11ff681de098ff885927e8d"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/kc-local-anatomy-2026-09-13/audit.json",
+        "bytes": 2147,
+        "sha256": "3c00f285385f456462de644edfd0de7edbec3b559c074ef8495cb0c00efd7c51"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/kc-external-refit-992cef6fb05bfdb63d2b/plan.json",
+        "bytes": 2844,
+        "sha256": "d59bb5a6428af71fb8c8925b437470baeeda568daab0ac605ddebaaa365453e9"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/kc-external-refit-992cef6fb05bfdb63d2b/execution.json",
+        "bytes": 302,
+        "sha256": "3c5d0d50850299a095146c5c3ad3883990de97103281022667a500214560ac84"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/kc-external-refit-992cef6fb05bfdb63d2b/stdout.txt",
+        "bytes": 310,
+        "sha256": "2cdd402e574b88bda068b142818b86ac4fe1d2bf40ac7d8ea0a6fdaad1092c1b"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/kc-external-refit-992cef6fb05bfdb63d2b/result/status.json",
+        "bytes": 4626,
+        "sha256": "04b32497805700638bb9a740101329b4409826ccc09c0a7e03ccedf635dbee47"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/kc-external-refit-992cef6fb05bfdb63d2b/result/events.jsonl",
+        "bytes": 1817,
+        "sha256": "05a32f731b377e4eab2ed0d2e0d194dd5dc01a6a231c60b94f1954429aa058f5"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/kc-external-refit-992cef6fb05bfdb63d2b/result/calibration.npz",
+        "bytes": 41538,
+        "sha256": "1f7f2e3d6b43d5c9a64206a1246bb41f8f528778914bc82f918a5d7984d70567"
+      },
+      {
+        "path": "bet36fly/reward_lif.cpp",
+        "bytes": 19913,
+        "sha256": "e7dbb0aa8f95873036415581e94de45c237941f05642ccc90812c1be1119be37"
+      },
+      {
+        "path": "docs/connectome-source-lock.json",
+        "bytes": 866,
+        "sha256": "df59963b365e4b70450a0ec3861bb845420d660a142cc2c43ad958a9f7767567"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/kc-external-refit-independent-audit-2026-09-13/audit.json",
+        "bytes": 14513,
+        "sha256": "8777e4380a38f9137955a4d3c5c2b8c0ebbdcd9be3036ee7529df16468d869fc"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/kc-external-refit-independent-audit-2026-09-13/comparison.npz",
+        "bytes": 21006,
+        "sha256": "03ef187dd5f1c685950fd06c35e6a7a3451d3cab672b20d81385ffe0839ba6c0"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/kc-local-shadow-root-prerun-review-2026-09-13.json",
+        "bytes": 3094,
+        "sha256": "b350207db64cd664e6f55005fd906d6a3285a214a5515c0e707e7766a669ea0d"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/kc-local-calcium-preparation-root-2026-09-13.md",
+        "bytes": 3737,
+        "sha256": "e40fddd2024360ae7a4bf9dd528a10d8384f3fc5429a4bb98f5b19aef1878e66"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/kc-local-shadow-runner-reading-evidence-ui-2026-09-13.json",
+        "bytes": 5452,
+        "sha256": "24affcaa97332c1f45870b7036c35c968af513443cac659c43a43dcff92ad15f"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/kc-local-shadow-independent-preparation-reading-receipt-2026-09-13.json",
+        "bytes": 37762,
+        "sha256": "972601721a83eaa11f46a7a39dc6ec037871dd03ab9b5e6ffb7b635aa55decff"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/kc-external-refit-independent-audit-2026-09-13.md",
+        "bytes": 4423,
+        "sha256": "08af49719e9f14a47224b69da3f70859b733151e6d71ac462f47c1161a6203dd"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/kc_external_calibration.py",
+        "bytes": 20427,
+        "sha256": "eee18c7dab90513f0f93c1d1bd799995d366fef2d832b755a4a3b3d52b22440c"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/test_kc_external_calibration.py",
+        "bytes": 12440,
+        "sha256": "ac42c1fa0a3a352ddc03d1b1f0e73d25b2406b6d15c4bb8e457bde3c0e567bd9"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-primary-source-2026-09-13/calcium-workbook-inventory.json",
+        "bytes": 69141,
+        "sha256": "af1109cad767745802ff4fae62088e4c49e9eb05b5c9d68f013c2c7aa968f166"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-primary-source-2026-09-13/upstream/data/gamma_mch_responses_manoim_supplement.xlsx",
+        "bytes": 28573,
+        "sha256": "f92ab807009e2e8160fbc8c6c100731012052843484de6c796c7faf673712a1d"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-primary-source-2026-09-13/upstream/codes/fit_rate_model_to_data.py",
+        "bytes": 14966,
+        "sha256": "d76911cff9468883fc2bbc3c8f7647e7f3935acf5d51bda6ddb877a451986142"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-primary-source-2026-09-13/upstream/codes/fit_functions.py",
+        "bytes": 8059,
+        "sha256": "ca238b5d6acaa40ba7bcee650ab6697872263dd69b1ebc082b27779ae67cbc5b"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-primary-source-2026-09-13/upstream/codes/KC_population_calcium_rate_model_functions.py",
+        "bytes": 14812,
+        "sha256": "bc36f741ab7773b5f9dc298ab9610ce915067a2cc82ea73e947174ee155b3f05"
+      },
+      {
+        "path": "data/brain/ids.npy",
+        "bytes": 1333728,
+        "sha256": "ab90597b7b0ce07cbc22cb39a65b70bea2ac73cc7fd225951bd9d73f2fc8dd3f"
+      },
+      {
+        "path": "data/brain/indptr.npy",
+        "bytes": 1333736,
+        "sha256": "fe43420f11e6242a11f8199ae7f097cab4b8a6db181d36f2a46b9e46670acbb4"
+      },
+      {
+        "path": "data/brain/post.npy",
+        "bytes": 102331880,
+        "sha256": "ce20f7433f78442c717ad2a7b5394cf4a3b109d990b4be0788040b7b0f4ed150"
+      },
+      {
+        "path": "data/brain/counts.npy",
+        "bytes": 102331880,
+        "sha256": "4a11faf9771fc3d5a5ff78ae7620ec1ce400f52d099ff657f0342cfc7a519f6b"
+      },
+      {
+        "path": "data/brain/kc.npy",
+        "bytes": 16384,
+        "sha256": "97a570aafa089f93e642b2bb07e3a3322dabb14c3c7dd431f0c8d2b3b7951fdd"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-primary-source-2026-09-13/upstream/LICENSE",
+        "bytes": 35149,
+        "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-primary-source-2026-09-13/upstream/README.md",
+        "bytes": 2534,
+        "sha256": "9aab77612444818422e9c693210933db3e71404b3c02dd2b9b2576f4a41be52a"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-primary-source-2026-09-13/upstream/codes/inter_odor_activity_correlation_sparseness.py",
+        "bytes": 18847,
+        "sha256": "8d845b1e0b4b5022cbc9b58a405e19a6425103c68763671eef5ff0ccc6e9385d"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-primary-source-2026-09-13/upstream/codes/learning_rate_screening_mbon_normalized.py",
+        "bytes": 21092,
+        "sha256": "c4896407ae554027df56c756ffbe65b65a52754602431d9d9d29b360ae37847d"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-primary-source-2026-09-13/upstream/codes/plot_correlation_different_overlaps.py",
+        "bytes": 2816,
+        "sha256": "3cc8f529b6d05a563693082f0a3ba47e24f16f0a08302abb77669b69faedb03c"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-primary-source-2026-09-13/upstream/codes/plot_valences_normalized_mbon.py",
+        "bytes": 4100,
+        "sha256": "f3f69ba8a321923cd4db99447b595361f255551e959e45643656cf7d7c0b75ea"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-primary-source-2026-09-13/upstream/codes/plotting_related_functions.py",
+        "bytes": 2223,
+        "sha256": "6c1a90fc63ee5191b98f10b26e677875886b32e58e2570cbf07106257775b9e3"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-primary-source-2026-09-13/upstream/codes/rate_model_get_summed_KC_activity_different_model_variants.py",
+        "bytes": 7494,
+        "sha256": "7e3fbc9e10a274a0fc21e02519e28bbeae7120341842b1004279f7061569b5d0"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-primary-source-2026-09-13/upstream/codes/rate_model_odor_stimulation_activity_histograms.py",
+        "bytes": 10647,
+        "sha256": "05321af2f710248c70bb5092b5d32971cbfbea12519517036e34f70d103fab5e"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-primary-source-2026-09-13/upstream/requirements.txt",
+        "bytes": 137,
+        "sha256": "a0d908097bebe43faa2aaccd53ca7ebbab713f3c71cfed51783dbf5080252801"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/kc-lateral-primary-source-2026-09-13/upstream/LICENSE",
+        "bytes": 35149,
+        "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/kc-lateral-primary-source-2026-09-13/upstream/README.md",
+        "bytes": 2534,
+        "sha256": "9aab77612444818422e9c693210933db3e71404b3c02dd2b9b2576f4a41be52a"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/kc-lateral-primary-source-2026-09-13/upstream/codes/KC_population_calcium_rate_model_functions.py",
+        "bytes": 14812,
+        "sha256": "bc36f741ab7773b5f9dc298ab9610ce915067a2cc82ea73e947174ee155b3f05"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/kc-lateral-primary-source-2026-09-13/upstream/codes/fit_functions.py",
+        "bytes": 8059,
+        "sha256": "ca238b5d6acaa40ba7bcee650ab6697872263dd69b1ebc082b27779ae67cbc5b"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/kc-lateral-primary-source-2026-09-13/upstream/codes/fit_rate_model_to_data.py",
+        "bytes": 14966,
+        "sha256": "d76911cff9468883fc2bbc3c8f7647e7f3935acf5d51bda6ddb877a451986142"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/kc-lateral-primary-source-2026-09-13/upstream/codes/inter_odor_activity_correlation_sparseness.py",
+        "bytes": 18847,
+        "sha256": "8d845b1e0b4b5022cbc9b58a405e19a6425103c68763671eef5ff0ccc6e9385d"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/kc-lateral-primary-source-2026-09-13/upstream/codes/learning_rate_screening_mbon_normalized.py",
+        "bytes": 21092,
+        "sha256": "c4896407ae554027df56c756ffbe65b65a52754602431d9d9d29b360ae37847d"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/kc-lateral-primary-source-2026-09-13/upstream/codes/plot_correlation_different_overlaps.py",
+        "bytes": 2816,
+        "sha256": "3cc8f529b6d05a563693082f0a3ba47e24f16f0a08302abb77669b69faedb03c"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/kc-lateral-primary-source-2026-09-13/upstream/codes/plot_valences_normalized_mbon.py",
+        "bytes": 4100,
+        "sha256": "f3f69ba8a321923cd4db99447b595361f255551e959e45643656cf7d7c0b75ea"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/kc-lateral-primary-source-2026-09-13/upstream/codes/plotting_related_functions.py",
+        "bytes": 2223,
+        "sha256": "6c1a90fc63ee5191b98f10b26e677875886b32e58e2570cbf07106257775b9e3"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/kc-lateral-primary-source-2026-09-13/upstream/codes/rate_model_get_summed_KC_activity_different_model_variants.py",
+        "bytes": 7494,
+        "sha256": "7e3fbc9e10a274a0fc21e02519e28bbeae7120341842b1004279f7061569b5d0"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/kc-lateral-primary-source-2026-09-13/upstream/codes/rate_model_odor_stimulation_activity_histograms.py",
+        "bytes": 10647,
+        "sha256": "05321af2f710248c70bb5092b5d32971cbfbea12519517036e34f70d103fab5e"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/kc-lateral-primary-source-2026-09-13/upstream/data/gamma_mch_responses_manoim_supplement.xlsx",
+        "bytes": 28573,
+        "sha256": "f92ab807009e2e8160fbc8c6c100731012052843484de6c796c7faf673712a1d"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/kc-lateral-primary-source-2026-09-13/upstream/requirements.txt",
+        "bytes": 137,
+        "sha256": "a0d908097bebe43faa2aaccd53ca7ebbab713f3c71cfed51783dbf5080252801"
+      }
+    ],
+    "rows": [
+      {
+        "panel": 0,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+        "game": 4362,
+        "seed_set": "base",
+        "seed": 4404
+      },
+      {
+        "panel": 0,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+        "game": 4362,
+        "seed_set": "alt",
+        "seed": 1004404
+      },
+      {
+        "panel": 0,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+        "game": 4366,
+        "seed_set": "base",
+        "seed": 4408
+      },
+      {
+        "panel": 0,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+        "game": 4366,
+        "seed_set": "alt",
+        "seed": 1004408
+      },
+      {
+        "panel": 0,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+        "game": 4370,
+        "seed_set": "base",
+        "seed": 4412
+      },
+      {
+        "panel": 0,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+        "game": 4370,
+        "seed_set": "alt",
+        "seed": 1004412
+      },
+      {
+        "panel": 0,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+        "game": 4374,
+        "seed_set": "base",
+        "seed": 4416
+      },
+      {
+        "panel": 0,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+        "game": 4374,
+        "seed_set": "alt",
+        "seed": 1004416
+      },
+      {
+        "panel": 0,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+        "game": 4378,
+        "seed_set": "base",
+        "seed": 4420
+      },
+      {
+        "panel": 0,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+        "game": 4378,
+        "seed_set": "alt",
+        "seed": 1004420
+      },
+      {
+        "panel": 0,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+        "game": 4383,
+        "seed_set": "base",
+        "seed": 4425
+      },
+      {
+        "panel": 0,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+        "game": 4383,
+        "seed_set": "alt",
+        "seed": 1004425
+      },
+      {
+        "panel": 0,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+        "game": 4387,
+        "seed_set": "base",
+        "seed": 4429
+      },
+      {
+        "panel": 0,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+        "game": 4387,
+        "seed_set": "alt",
+        "seed": 1004429
+      },
+      {
+        "panel": 0,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+        "game": 4391,
+        "seed_set": "base",
+        "seed": 4433
+      },
+      {
+        "panel": 0,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+        "game": 4391,
+        "seed_set": "alt",
+        "seed": 1004433
+      },
+      {
+        "panel": 1,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+        "game": 4395,
+        "seed_set": "base",
+        "seed": 2004437
+      },
+      {
+        "panel": 1,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+        "game": 4395,
+        "seed_set": "alt",
+        "seed": 3004437
+      },
+      {
+        "panel": 1,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+        "game": 4399,
+        "seed_set": "base",
+        "seed": 2004441
+      },
+      {
+        "panel": 1,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+        "game": 4399,
+        "seed_set": "alt",
+        "seed": 3004441
+      },
+      {
+        "panel": 1,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+        "game": 4404,
+        "seed_set": "base",
+        "seed": 2004446
+      },
+      {
+        "panel": 1,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+        "game": 4404,
+        "seed_set": "alt",
+        "seed": 3004446
+      },
+      {
+        "panel": 1,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+        "game": 4408,
+        "seed_set": "base",
+        "seed": 2004450
+      },
+      {
+        "panel": 1,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+        "game": 4408,
+        "seed_set": "alt",
+        "seed": 3004450
+      },
+      {
+        "panel": 1,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+        "game": 4412,
+        "seed_set": "base",
+        "seed": 2004454
+      },
+      {
+        "panel": 1,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+        "game": 4412,
+        "seed_set": "alt",
+        "seed": 3004454
+      },
+      {
+        "panel": 1,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+        "game": 4416,
+        "seed_set": "base",
+        "seed": 2004458
+      },
+      {
+        "panel": 1,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+        "game": 4416,
+        "seed_set": "alt",
+        "seed": 3004458
+      },
+      {
+        "panel": 1,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+        "game": 4420,
+        "seed_set": "base",
+        "seed": 2004462
+      },
+      {
+        "panel": 1,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+        "game": 4420,
+        "seed_set": "alt",
+        "seed": 3004462
+      },
+      {
+        "panel": 1,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+        "game": 4425,
+        "seed_set": "base",
+        "seed": 2004467
+      },
+      {
+        "panel": 1,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+        "game": 4425,
+        "seed_set": "alt",
+        "seed": 3004467
+      }
+    ],
+    "wall_cap_seconds": 1200,
+    "helper_evaluations": 32,
+    "circuit_calls": 0,
+    "network_requests": 0,
+    "source_hz": 30,
+    "native_hz": 5000,
+    "fit_identity": "kc-external-refit-992cef6fb05bfdb63d2b",
+    "phase_fields": [
+      "positive",
+      "negative",
+      "attempted",
+      "applied_double",
+      "applied_published",
+      "low_count",
+      "high_count",
+      "absolute_area"
+    ]
+  },
+  "run_id": "kc-local-shadow-6734494c82c54702ead0",
+  "prepared_at": "2026-09-13T09:45:26.059078+00:00"
+}

@@ -15,7 +15,12 @@ of local KC signaling. The current graph has 642,933 KC→KC pairs but no such
 receptor state. Inspection of the primary model found an explicit shock gate
 and clock-dependent inhibition semantics, so its reported learning cannot be
 transferred directly. The source code and complete external calcium workbook
-are preserved; no new candidate or successful qualification follows from them.
+are preserved. A subsequent explicit engineering mapping used independently
+fitted source-model parameters and was tested once on all 32 saved histories.
+Its independent numerical audit
+passes, but every home guard group fails and all 32 home trials become more
+depressive. [Complete result and individual-cell table](../docs/evidence/reward-mechanism-repair-2026-09-12/kc-local-calcium-shadow-result-2026-09-13.md).
+The local mapping is rejected and is not a production mechanism.
 
 The retained repair was merged in `e385050`; it is now in this checkout.
 Refractory input banking was fixed, the away gamma mask is implemented, and
@@ -31,6 +36,7 @@ untaught-home guard. [Complete repair evidence](../docs/evidence/reward-mechanis
 | Fixed-history shadow `4343c21535c43f42` | Retaining pre-100 ms history worsens home/base to −0.481926; 30/32 home trials worsen | Reject the onset-history-only hypothesis |
 | Fixed rate-adaptation shadow `5165a92674683bf2b872` | Second/base home mean +2.638301; absolute limit 1.113472; all four home groups fail | Reject this fixed adaptation hypothesis |
 | Fixed gain-dependent shadow `de1ab218973eb3ecd3d3` | Second/base home mean −0.268755; absolute limit 0.235695; 128 independent references agree | Reject this specified gain-dependent hypothesis |
+| Fixed KC-local calcium shadow `6734494c82c54702ead0` | Second/base home mean −0.360410; absolute limit 0.279657; all four home groups fail with exact independent float32 endpoint agreement | Reject this specified local-calcium mapping |
 | Conditioning and reversal | Not run; entry gate remains unmet | No learned-association or reversal claim |
 
 The shadow used the actual recorded spikes and never transmitted its alternative

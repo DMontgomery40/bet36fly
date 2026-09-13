@@ -2,6 +2,17 @@
 
 **Status: scientific HOLD; the rate bridge still fails the second panel's untaught-home guard.** Both the corrected raw-event rule and the subsequent rate bridge pass the original panel but fail the previously frozen second panel. The rate bridge reduces the measured drift without satisfying the unchanged guard. Numerical implementation tests pass; cue-specific acquisition, reversal and improved sports prediction remain unestablished. Conditioning has not run.
 
+The later [KC-local calcium candidate](kc-local-calcium-shadow-result-2026-09-13.md)
+is also rejected. Its single external fit and 566 synthetic preparation tests
+preceded one complete 32-history screen. All four home guard groups fail;
+every home trial becomes more depressive. The [independent audit](kc-local-shadow-independent-result-2026-09-13.md)
+reproduces all 567,424 final/electrical float32 gains exactly, with no bounds
+or numerical ambiguities. The [4,064-cell table](kc-local-shadow-cell-summary-2026-09-13.csv)
+links the measured effects to individual body IDs and types. Code, source,
+fit, anatomy and result artifacts were copied into this repository with their
+originals retained. No new production rule, live qualification or conditioning
+result follows from this calculation.
+
 The later [KC muscarinic source/model review](handler-kc-switch-model-transfer-review-2026-09-13.md)
 and [independent coupling analysis](learning-coupling-mathematical-source-review-2026-09-13.md)
 identify a concrete local-state hypothesis, along with two barriers to direct
@@ -180,7 +191,8 @@ of all PPL101 outputs or MBON11 inputs. Its coordinates could describe contact
 geometry without a distance cutoff or exposure weights. The subsequent
 [complete metadata inventory](partners-metadata-v2-result-2026-09-13.md) measures
 the body predicate scan's unread buffers at 2,013,351,963 bytes. No body-value
-scan, selected-row export or local plasticity candidate has been executed.
+scan, selected-row export or plasticity candidate derived from that contact
+geometry has been executed.
 The separately completed [fixed rate-adaptation screen](rate-adaptation-shadow-result.md)
 completed all 32 declared saved histories in 50.4832 seconds, with zero circuit
 calls and unchanged inputs. It failed all four home guards through excessive

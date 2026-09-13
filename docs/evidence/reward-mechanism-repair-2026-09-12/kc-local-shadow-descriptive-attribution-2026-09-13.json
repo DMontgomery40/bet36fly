@@ -1,0 +1,3349 @@
+{
+  "run_id": "kc-local-shadow-6734494c82c54702ead0",
+  "checked_at_utc": "2026-09-13T09:48:01.203413+00:00",
+  "scope": "Descriptive summary of all retained arrays only; no replay, fit, native calculation or causal attribution.",
+  "bindings": [
+    {
+      "path": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/shadow_00.npz",
+      "sha256": "1aefe20b44a2504e6eade57bebdc4a69c14a86a534c234711d9b3155077365db",
+      "bytes": 673235
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/shadow_01.npz",
+      "sha256": "3304c05a62405f34f20933c93f050f8cc2dedf1e6b368f54081cdcf0ac06c4cf",
+      "bytes": 650663
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/shadow_02.npz",
+      "sha256": "292c82aeb4447e85fbc0cab796955860148d2479bd4757759c6520ba54f2f72f",
+      "bytes": 575306
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/shadow_03.npz",
+      "sha256": "af5382036fdbf7e337fb19fb6418bb93f4e901978928ebb0f626cab5a8e516a4",
+      "bytes": 595323
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/shadow_04.npz",
+      "sha256": "b64dbaa07ca68808252f52551f6abbce730238b8333113c28f706ac1b69ece7a",
+      "bytes": 807517
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/shadow_05.npz",
+      "sha256": "75225ba4801cbcae185be119b6bb7d03bce7d4501e224c32e7678a521547bd75",
+      "bytes": 814916
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/shadow_06.npz",
+      "sha256": "097f03f1d9df302567e78848603265273a0bfbca853105c718c253fdea2898d9",
+      "bytes": 544416
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/shadow_07.npz",
+      "sha256": "5e6be7b9e3ccd1719d8cf0784370fae51580b9353d360a591d4aca3966970222",
+      "bytes": 542267
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/shadow_08.npz",
+      "sha256": "db6dd1da394e5e1521d83cafc8686d88ce378b3765ba21585aaf4463865d4876",
+      "bytes": 752883
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/shadow_09.npz",
+      "sha256": "01191bf5e37f1e62e043a5086c2451a4ecbef87444279713b7bb4a4bc11feb6f",
+      "bytes": 709227
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/shadow_10.npz",
+      "sha256": "64cd6f7f200f6e582a4f3cb89a2a950bd3cc3717f601258dbe0e9b2b2530f9b9",
+      "bytes": 855826
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/shadow_11.npz",
+      "sha256": "8dc155e2585d9be57d31ba7d6e8059dcc6b1e4c9d2b2009d56979808b343e14f",
+      "bytes": 843481
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/shadow_12.npz",
+      "sha256": "d0782d5da9f2b9b141f8c2196f51abbb59dfb8ab7068277feaa7dec4f279d390",
+      "bytes": 694648
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/shadow_13.npz",
+      "sha256": "b31cd59b5d786e154631e3e68f6a8ee481f21b850ba11e0237c154ea3b291413",
+      "bytes": 690468
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/shadow_14.npz",
+      "sha256": "3641831fb972220f0e987d883d89042f41af9d2e8e20cda7db7d64839b716f42",
+      "bytes": 618195
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/shadow_15.npz",
+      "sha256": "1c5995e0131067e946a94c985f7a97ab3ca441c3055d21d3e8f5949f7ab85e24",
+      "bytes": 638520
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/shadow_16.npz",
+      "sha256": "0a686295d8450fb6abd7fe3fb4e0224f9a4501e0f5a32a3fa70efe39228f9d8a",
+      "bytes": 672668
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/shadow_17.npz",
+      "sha256": "9ed0011abca140a72d3cf6f9de0d6f7366e9003867f183d233c1596bc8e57cbe",
+      "bytes": 688468
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/shadow_18.npz",
+      "sha256": "92e70aaa251983a2b0401a086ca4b9c3dcb4428708124af3db6d3290312780a5",
+      "bytes": 734182
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/shadow_19.npz",
+      "sha256": "caa5e74fa356e27a77b0e71bcd67ac9aa072a5613917cf10d20d43b1ad705660",
+      "bytes": 758955
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/shadow_20.npz",
+      "sha256": "ec5a4a8caf5586681af05c29b1973e5923d6a5ec2e2dfad3ac9f275a954e8bc5",
+      "bytes": 634037
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/shadow_21.npz",
+      "sha256": "b21a1fd3e787be72f9365c055f14501877799a303dda8a50b28faf2f283549b3",
+      "bytes": 625593
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/shadow_22.npz",
+      "sha256": "74f31031a50e68a44a289b16a81fc2f248f75a45b1ec4ae37c55c6f55d98d457",
+      "bytes": 639195
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/shadow_23.npz",
+      "sha256": "b1afe9e554a9c8138cf8f49b811e83baee8214acdf5f7d8643e1013b7e2982e4",
+      "bytes": 625912
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/shadow_24.npz",
+      "sha256": "36e3039b5664b867332e21097681efa3805eab3bf1e65cc50bac57d8a06509ca",
+      "bytes": 655616
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/shadow_25.npz",
+      "sha256": "5aebbef031a51d80ac15e980c1a18cf4b68cbd9babb128e2f2d454dc9827674d",
+      "bytes": 647156
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/shadow_26.npz",
+      "sha256": "8869fc8c6448c4252c7f773126e3b63482f029cb4212cc42491ec6ba7559e056",
+      "bytes": 717110
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/shadow_27.npz",
+      "sha256": "7335caf0f621c731258da695f76c03c2e49fcc0d8b107aaa3ab3366b61e5e5a6",
+      "bytes": 647979
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/shadow_28.npz",
+      "sha256": "f5fe06b9db17d1792c7c61d59a3494db1dfc6ac26dd556f515fee52659e59aa1",
+      "bytes": 950384
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/shadow_29.npz",
+      "sha256": "a801134cf9fb8951736bf32ee947aaf2e44daeaa6afb4ea9d7231345c8f77041",
+      "bytes": 888742
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/shadow_30.npz",
+      "sha256": "ab51426a8586faddaf672257ac7ac2fc682333ccdce7eb728034e3e2eeba5663",
+      "bytes": 675165
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/kc-local-shadow-6734494c82c54702ead0/shadow_31.npz",
+      "sha256": "ad4c4e5978390c2fd671246a943178bd34b322826d8037530c8e7f3ed9cadf93",
+      "bytes": 670603
+    }
+  ],
+  "rows": [
+    {
+      "index": 0,
+      "selector": {
+        "panel": 0,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+        "game": 4362,
+        "seed_set": "base",
+        "seed": 4404
+      },
+      "home_difference_from_original": -0.07324981689453125,
+      "subtypes": {
+        "gamma": {
+          "kcs": 1557,
+          "raw_events": 2095,
+          "weighted_events": 2035.7763173204635,
+          "min_susceptibility": 0.0,
+          "home_edges": 1585,
+          "home_original_gain_sum": -0.031996309757232666,
+          "home_candidate_gain_sum": -0.10186368227005005,
+          "home_phase_positive": [
+            0.0016079901915723033,
+            1.0731081893492775,
+            1.6222023204616054,
+            1.0521369783324988
+          ],
+          "home_phase_negative": [
+            -0.0019747439349203583,
+            -1.0732788485272335,
+            -1.6931694193809628,
+            -1.0824960484537856
+          ]
+        },
+        "apbp": {
+          "kcs": 695,
+          "raw_events": 108,
+          "weighted_events": 107.5161195823236,
+          "min_susceptibility": 0.5418801097290495,
+          "home_edges": 316,
+          "home_original_gain_sum": -0.005725860595703125,
+          "home_candidate_gain_sum": -0.006013274192810059,
+          "home_phase_positive": [
+            2.7993127408072676e-05,
+            0.033353401854805405,
+            0.042466366283138504,
+            0.02753417411409134
+          ],
+          "home_phase_negative": [
+            -2.9219028995657274e-05,
+            -0.030239541312717617,
+            -0.04884381261064959,
+            -0.030282934861885484
+          ]
+        },
+        "ab": {
+          "kcs": 1810,
+          "raw_events": 366,
+          "weighted_events": 363.7939661385649,
+          "min_susceptibility": 0.4410077613338,
+          "home_edges": 2283,
+          "home_original_gain_sum": 0.0003165602684020996,
+          "home_candidate_gain_sum": -0.002778470516204834,
+          "home_phase_positive": [
+            0.0003247405895322462,
+            0.23683145397166297,
+            0.3829233248044191,
+            0.24834404844314387
+          ],
+          "home_phase_negative": [
+            -0.0003907713978871214,
+            -0.24040619542018024,
+            -0.3823514072141971,
+            -0.24805358189135873
+          ]
+        },
+        "other": {
+          "kcs": 2,
+          "raw_events": 3,
+          "weighted_events": 2.891917351454038,
+          "min_susceptibility": 0.7418505551528275,
+          "home_edges": 0,
+          "home_original_gain_sum": 0.0,
+          "home_candidate_gain_sum": 0.0,
+          "home_phase_positive": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "home_phase_negative": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "minimum_old_state_coefficient": 0.9326170006796601
+    },
+    {
+      "index": 1,
+      "selector": {
+        "panel": 0,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+        "game": 4362,
+        "seed_set": "alt",
+        "seed": 1004404
+      },
+      "home_difference_from_original": -0.04579514265060425,
+      "subtypes": {
+        "gamma": {
+          "kcs": 1557,
+          "raw_events": 1860,
+          "weighted_events": 1820.9861028248652,
+          "min_susceptibility": 0.0,
+          "home_edges": 1585,
+          "home_original_gain_sum": -0.05225050449371338,
+          "home_candidate_gain_sum": -0.09489691257476807,
+          "home_phase_positive": [
+            0.0014543243769294264,
+            0.8924206122960819,
+            0.9688052423734781,
+            0.5979451742810453
+          ],
+          "home_phase_negative": [
+            -0.001174632147632245,
+            -0.8930401147069721,
+            -1.0353800350811455,
+            -0.6259277079788765
+          ]
+        },
+        "apbp": {
+          "kcs": 695,
+          "raw_events": 99,
+          "weighted_events": 98.65595010478702,
+          "min_susceptibility": 0.6334567366437546,
+          "home_edges": 316,
+          "home_original_gain_sum": 0.0021630525588989258,
+          "home_candidate_gain_sum": 0.0019795894622802734,
+          "home_phase_positive": [
+            3.517778468628407e-05,
+            0.02683841685626992,
+            0.02964895262979175,
+            0.018271348967330098
+          ],
+          "home_phase_negative": [
+            -2.5244796157412063e-05,
+            -0.02404476115740617,
+            -0.030226152754980206,
+            -0.01851817242021481
+          ]
+        },
+        "ab": {
+          "kcs": 1810,
+          "raw_events": 323,
+          "weighted_events": 320.97140353936504,
+          "min_susceptibility": 0.3330284236515172,
+          "home_edges": 2283,
+          "home_original_gain_sum": -0.021278083324432373,
+          "home_candidate_gain_sum": -0.02424335479736328,
+          "home_phase_positive": [
+            0.00034403331596060213,
+            0.17807078854362005,
+            0.1973950496294634,
+            0.12178643833256794
+          ],
+          "home_phase_negative": [
+            -0.0002796836626997058,
+            -0.1845519313324865,
+            -0.2099313727756388,
+            -0.12707675778377114
+          ]
+        },
+        "other": {
+          "kcs": 2,
+          "raw_events": 4,
+          "weighted_events": 3.817285843227137,
+          "min_susceptibility": 0.7553973423128075,
+          "home_edges": 0,
+          "home_original_gain_sum": 0.0,
+          "home_candidate_gain_sum": 0.0,
+          "home_phase_positive": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "home_phase_negative": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "minimum_old_state_coefficient": 0.9329164644465935
+    },
+    {
+      "index": 2,
+      "selector": {
+        "panel": 0,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+        "game": 4366,
+        "seed_set": "base",
+        "seed": 4408
+      },
+      "home_difference_from_original": -0.014825522899627686,
+      "subtypes": {
+        "gamma": {
+          "kcs": 1557,
+          "raw_events": 1259,
+          "weighted_events": 1238.7581746881256,
+          "min_susceptibility": 0.0,
+          "home_edges": 1585,
+          "home_original_gain_sum": -0.024373114109039307,
+          "home_candidate_gain_sum": -0.03763788938522339,
+          "home_phase_positive": [
+            3.7455731660113775e-05,
+            0.4212449612857888,
+            0.5542708955322919,
+            0.34701848590534395
+          ],
+          "home_phase_negative": [
+            -0.0001328824011029328,
+            -0.43945462521878953,
+            -0.5678554321290771,
+            -0.3527674947894426
+          ]
+        },
+        "apbp": {
+          "kcs": 695,
+          "raw_events": 80,
+          "weighted_events": 79.8634902083588,
+          "min_susceptibility": 0.8348159724522346,
+          "home_edges": 316,
+          "home_original_gain_sum": 0.0030027031898498535,
+          "home_candidate_gain_sum": 0.0029630661010742188,
+          "home_phase_positive": [
+            6.82414704842057e-07,
+            0.012625432221003022,
+            0.018728007780811396,
+            0.01172009332849272
+          ],
+          "home_phase_negative": [
+            -4.997965371759087e-06,
+            -0.012018169373733092,
+            -0.01707867208727043,
+            -0.011009208597909576
+          ]
+        },
+        "ab": {
+          "kcs": 1810,
+          "raw_events": 296,
+          "weighted_events": 294.57924791015,
+          "min_susceptibility": 0.5678460917141108,
+          "home_edges": 2283,
+          "home_original_gain_sum": 0.010772407054901123,
+          "home_candidate_gain_sum": 0.009251296520233154,
+          "home_phase_positive": [
+            1.0656473174926678e-05,
+            0.11914070437033504,
+            0.17699274771375814,
+            0.11080956597449317
+          ],
+          "home_phase_negative": [
+            -3.1252032872683754e-05,
+            -0.12527557295529207,
+            -0.16624896280285345,
+            -0.1061465937597002
+          ]
+        },
+        "other": {
+          "kcs": 2,
+          "raw_events": 0,
+          "weighted_events": 0.0,
+          "min_susceptibility": 1.0,
+          "home_edges": 0,
+          "home_original_gain_sum": 0.0,
+          "home_candidate_gain_sum": 0.0,
+          "home_phase_positive": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "home_phase_negative": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "minimum_old_state_coefficient": 0.9331335643431511
+    },
+    {
+      "index": 3,
+      "selector": {
+        "panel": 0,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+        "game": 4366,
+        "seed_set": "alt",
+        "seed": 1004408
+      },
+      "home_difference_from_original": -0.019415676593780518,
+      "subtypes": {
+        "gamma": {
+          "kcs": 1557,
+          "raw_events": 1293,
+          "weighted_events": 1275.3592381667959,
+          "min_susceptibility": 0.0,
+          "home_edges": 1585,
+          "home_original_gain_sum": 0.09556418657302856,
+          "home_candidate_gain_sum": 0.07801157236099243,
+          "home_phase_positive": [
+            0.0017766235788065942,
+            0.5255877080075387,
+            0.4180456794016592,
+            0.24124641419393378
+          ],
+          "home_phase_negative": [
+            -0.0016551908393063997,
+            -0.4736738081380712,
+            -0.4000459095833086,
+            -0.2332689344018701
+          ]
+        },
+        "apbp": {
+          "kcs": 695,
+          "raw_events": 85,
+          "weighted_events": 84.88024219864243,
+          "min_susceptibility": 0.7236606916294208,
+          "home_edges": 316,
+          "home_original_gain_sum": 0.0010311603546142578,
+          "home_candidate_gain_sum": 0.0009273886680603027,
+          "home_phase_positive": [
+            4.953240033887036e-05,
+            0.012199070895648059,
+            0.011781647773389416,
+            0.006847696257093672
+          ],
+          "home_phase_negative": [
+            -3.9308130493430105e-05,
+            -0.013456257133314909,
+            -0.010292188960994497,
+            -0.00616287391615832
+          ]
+        },
+        "ab": {
+          "kcs": 1810,
+          "raw_events": 290,
+          "weighted_events": 288.54802143208593,
+          "min_susceptibility": 0.4515767951238797,
+          "home_edges": 2283,
+          "home_original_gain_sum": 0.021229207515716553,
+          "home_candidate_gain_sum": 0.019469916820526123,
+          "home_phase_positive": [
+            0.00046347574013332873,
+            0.13955043294345051,
+            0.11146856493807578,
+            0.06429613211300826
+          ],
+          "home_phase_negative": [
+            -0.00038572535867241974,
+            -0.12706180364689212,
+            -0.10666921698002668,
+            -0.062191884023159685
+          ]
+        },
+        "other": {
+          "kcs": 2,
+          "raw_events": 0,
+          "weighted_events": 0.0,
+          "min_susceptibility": 1.0,
+          "home_edges": 0,
+          "home_original_gain_sum": 0.0,
+          "home_candidate_gain_sum": 0.0,
+          "home_phase_positive": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "home_phase_negative": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "minimum_old_state_coefficient": 0.9327015472930322
+    },
+    {
+      "index": 4,
+      "selector": {
+        "panel": 0,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+        "game": 4370,
+        "seed_set": "base",
+        "seed": 4412
+      },
+      "home_difference_from_original": -0.1694585084915161,
+      "subtypes": {
+        "gamma": {
+          "kcs": 1557,
+          "raw_events": 2310,
+          "weighted_events": 2247.9252259943214,
+          "min_susceptibility": 0.0,
+          "home_edges": 1585,
+          "home_original_gain_sum": 0.1377217173576355,
+          "home_candidate_gain_sum": 0.04102832078933716,
+          "home_phase_positive": [
+            0.0017254605461299384,
+            1.7139726764836933,
+            2.244794038834752,
+            1.4201836488565032
+          ],
+          "home_phase_negative": [
+            -0.0015389434778990648,
+            -1.6051335057944578,
+            -2.2899928348446146,
+            -1.4429814643438053
+          ]
+        },
+        "apbp": {
+          "kcs": 695,
+          "raw_events": 160,
+          "weighted_events": 158.80072468404015,
+          "min_susceptibility": 0.3534707076696492,
+          "home_edges": 316,
+          "home_original_gain_sum": 0.013958752155303955,
+          "home_candidate_gain_sum": 0.012726843357086182,
+          "home_phase_positive": [
+            5.5881505420678524e-05,
+            0.06319624536930399,
+            0.09097579979200436,
+            0.05753577301412873
+          ],
+          "home_phase_negative": [
+            -4.1425200066545454e-05,
+            -0.05763833443470796,
+            -0.08588239652332548,
+            -0.05547499380075331
+          ]
+        },
+        "ab": {
+          "kcs": 1810,
+          "raw_events": 1351,
+          "weighted_events": 1321.2009719852633,
+          "min_susceptibility": 0.0,
+          "home_edges": 2283,
+          "home_original_gain_sum": 0.10281491279602051,
+          "home_candidate_gain_sum": 0.03128170967102051,
+          "home_phase_positive": [
+            0.0013343910305287253,
+            1.1853907784291258,
+            1.6846011505076781,
+            1.0657333721274396
+          ],
+          "home_phase_negative": [
+            -0.0012870991531008084,
+            -1.194133108376739,
+            -1.6549964804545976,
+            -1.055361126739311
+          ]
+        },
+        "other": {
+          "kcs": 2,
+          "raw_events": 3,
+          "weighted_events": 2.8341872315910694,
+          "min_susceptibility": 0.41069465416857054,
+          "home_edges": 0,
+          "home_original_gain_sum": 0.0,
+          "home_candidate_gain_sum": 0.0,
+          "home_phase_positive": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "home_phase_negative": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "minimum_old_state_coefficient": 0.9321212926454626
+    },
+    {
+      "index": 5,
+      "selector": {
+        "panel": 0,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+        "game": 4370,
+        "seed_set": "alt",
+        "seed": 1004412
+      },
+      "home_difference_from_original": -0.11939859390258789,
+      "subtypes": {
+        "gamma": {
+          "kcs": 1557,
+          "raw_events": 2094,
+          "weighted_events": 2045.4676854381769,
+          "min_susceptibility": 0.0,
+          "home_edges": 1585,
+          "home_original_gain_sum": -0.13234347105026245,
+          "home_candidate_gain_sum": -0.2033892273902893,
+          "home_phase_positive": [
+            0.0012588625084073602,
+            1.539751477689406,
+            1.8575933751686202,
+            1.1632876072699516
+          ],
+          "home_phase_negative": [
+            -0.0010165620716527314,
+            -1.5620889047073419,
+            -1.9824332341701225,
+            -1.2197422664355921
+          ]
+        },
+        "apbp": {
+          "kcs": 695,
+          "raw_events": 192,
+          "weighted_events": 190.15110454144036,
+          "min_susceptibility": 0.15186413107192373,
+          "home_edges": 316,
+          "home_original_gain_sum": 0.018073856830596924,
+          "home_candidate_gain_sum": 0.016488850116729736,
+          "home_phase_positive": [
+            7.675286867663221e-05,
+            0.05939766629691356,
+            0.08702801323739245,
+            0.05452453971003474
+          ],
+          "home_phase_negative": [
+            -7.932706188681426e-05,
+            -0.05529093410188429,
+            -0.0783189617405635,
+            -0.05084899907830159
+          ]
+        },
+        "ab": {
+          "kcs": 1810,
+          "raw_events": 1456,
+          "weighted_events": 1430.7335920674986,
+          "min_susceptibility": 0.0,
+          "home_edges": 2283,
+          "home_original_gain_sum": 0.006419777870178223,
+          "home_candidate_gain_sum": -0.040348052978515625,
+          "home_phase_positive": [
+            0.0011564263199828958,
+            1.4568761641961536,
+            1.7767846632433681,
+            1.11240002046302
+          ],
+          "home_phase_negative": [
+            -0.0009803907788570618,
+            -1.395635320911823,
+            -1.846061239574558,
+            -1.1448895066085023
+          ]
+        },
+        "other": {
+          "kcs": 2,
+          "raw_events": 0,
+          "weighted_events": 0.0,
+          "min_susceptibility": 1.0,
+          "home_edges": 0,
+          "home_original_gain_sum": 0.0,
+          "home_candidate_gain_sum": 0.0,
+          "home_phase_positive": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "home_phase_negative": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "minimum_old_state_coefficient": 0.9316369420871264
+    },
+    {
+      "index": 6,
+      "selector": {
+        "panel": 0,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+        "game": 4374,
+        "seed_set": "base",
+        "seed": 4416
+      },
+      "home_difference_from_original": -0.008512914180755615,
+      "subtypes": {
+        "gamma": {
+          "kcs": 1557,
+          "raw_events": 1047,
+          "weighted_events": 1031.3820205973445,
+          "min_susceptibility": 0.0,
+          "home_edges": 1585,
+          "home_original_gain_sum": -0.07586562633514404,
+          "home_candidate_gain_sum": -0.08359146118164062,
+          "home_phase_positive": [
+            0.0,
+            0.2213712234080941,
+            0.30973048323130015,
+            0.1975579627365239
+          ],
+          "home_phase_negative": [
+            0.0,
+            -0.2611403649343657,
+            -0.34041563356983207,
+            -0.21069528337520327
+          ]
+        },
+        "apbp": {
+          "kcs": 695,
+          "raw_events": 49,
+          "weighted_events": 48.90772740112513,
+          "min_susceptibility": 0.790762609049138,
+          "home_edges": 316,
+          "home_original_gain_sum": -0.0036517977714538574,
+          "home_candidate_gain_sum": -0.0036760568618774414,
+          "home_phase_positive": [
+            0.0,
+            0.006849359567979247,
+            0.008232253724514204,
+            0.005247429433757743
+          ],
+          "home_phase_negative": [
+            0.0,
+            -0.007877229929918935,
+            -0.010082701326728451,
+            -0.006044995963306471
+          ]
+        },
+        "ab": {
+          "kcs": 1810,
+          "raw_events": 246,
+          "weighted_events": 244.9885666820515,
+          "min_susceptibility": 0.4500281025893261,
+          "home_edges": 2283,
+          "home_original_gain_sum": -0.055390357971191406,
+          "home_candidate_gain_sum": -0.056153178215026855,
+          "home_phase_positive": [
+            0.0,
+            0.06488090752452265,
+            0.08116193966760236,
+            0.05185576517381384
+          ],
+          "home_phase_negative": [
+            0.0,
+            -0.08941741501596698,
+            -0.10331400582839001,
+            -0.061320292048126786
+          ]
+        },
+        "other": {
+          "kcs": 2,
+          "raw_events": 0,
+          "weighted_events": 0.0,
+          "min_susceptibility": 1.0,
+          "home_edges": 0,
+          "home_original_gain_sum": 0.0,
+          "home_candidate_gain_sum": 0.0,
+          "home_phase_positive": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "home_phase_negative": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "minimum_old_state_coefficient": 0.9353045284112261
+    },
+    {
+      "index": 7,
+      "selector": {
+        "panel": 0,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+        "game": 4374,
+        "seed_set": "alt",
+        "seed": 1004416
+      },
+      "home_difference_from_original": -0.003598928451538086,
+      "subtypes": {
+        "gamma": {
+          "kcs": 1557,
+          "raw_events": 1000,
+          "weighted_events": 987.2522551551796,
+          "min_susceptibility": 0.0,
+          "home_edges": 1585,
+          "home_original_gain_sum": -0.1601390838623047,
+          "home_candidate_gain_sum": -0.16335618495941162,
+          "home_phase_positive": [
+            0.0005516385001830236,
+            0.18696585715025715,
+            0.274160037763768,
+            0.18146725608028288
+          ],
+          "home_phase_negative": [
+            -0.0007796081044904692,
+            -0.23916282167669806,
+            -0.35177315603262893,
+            -0.21478617605316258
+          ]
+        },
+        "apbp": {
+          "kcs": 695,
+          "raw_events": 64,
+          "weighted_events": 63.92724863193891,
+          "min_susceptibility": 0.7637285884473816,
+          "home_edges": 316,
+          "home_original_gain_sum": -0.006505310535430908,
+          "home_candidate_gain_sum": -0.006508469581604004,
+          "home_phase_positive": [
+            2.0397595460394444e-05,
+            0.0064453961751708005,
+            0.00925461067081199,
+            0.006118869363799594
+          ],
+          "home_phase_negative": [
+            -4.302428148376128e-05,
+            -0.008598074125278752,
+            -0.012282564578536086,
+            -0.0074239561368199345
+          ]
+        },
+        "ab": {
+          "kcs": 1810,
+          "raw_events": 235,
+          "weighted_events": 234.06384719973806,
+          "min_susceptibility": 0.6637891950322105,
+          "home_edges": 2283,
+          "home_original_gain_sum": -0.03179597854614258,
+          "home_candidate_gain_sum": -0.032174646854400635,
+          "home_phase_positive": [
+            0.00016398212943626348,
+            0.0554604021317425,
+            0.087782926887056,
+            0.058104557474241765
+          ],
+          "home_phase_negative": [
+            -0.0002532518496826251,
+            -0.06550878563315303,
+            -0.10321253271832827,
+            -0.0647116440245425
+          ]
+        },
+        "other": {
+          "kcs": 2,
+          "raw_events": 0,
+          "weighted_events": 0.0,
+          "min_susceptibility": 1.0,
+          "home_edges": 0,
+          "home_original_gain_sum": 0.0,
+          "home_candidate_gain_sum": 0.0,
+          "home_phase_positive": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "home_phase_negative": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "minimum_old_state_coefficient": 0.934971431259533
+    },
+    {
+      "index": 8,
+      "selector": {
+        "panel": 0,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+        "game": 4378,
+        "seed_set": "base",
+        "seed": 4420
+      },
+      "home_difference_from_original": -0.07232469320297241,
+      "subtypes": {
+        "gamma": {
+          "kcs": 1557,
+          "raw_events": 2306,
+          "weighted_events": 2256.6863852956913,
+          "min_susceptibility": 0.0,
+          "home_edges": 1585,
+          "home_original_gain_sum": -0.30344319343566895,
+          "home_candidate_gain_sum": -0.36982226371765137,
+          "home_phase_positive": [
+            0.0023187227472524817,
+            1.683237067347065,
+            1.9731925578839224,
+            1.230836324605015
+          ],
+          "home_phase_negative": [
+            -0.0025011292725708586,
+            -1.7869885022857641,
+            -2.1567622308553447,
+            -1.313155466018574
+          ]
+        },
+        "apbp": {
+          "kcs": 695,
+          "raw_events": 105,
+          "weighted_events": 104.82789042545556,
+          "min_susceptibility": 0.4206116432451058,
+          "home_edges": 316,
+          "home_original_gain_sum": -0.008991479873657227,
+          "home_candidate_gain_sum": -0.009107828140258789,
+          "home_phase_positive": [
+            5.396088364565332e-05,
+            0.04878580440448981,
+            0.05718307757225534,
+            0.035675431396468095
+          ],
+          "home_phase_negative": [
+            -6.102006401569544e-05,
+            -0.05081334470484552,
+            -0.06206451837109897,
+            -0.037867203052087545
+          ]
+        },
+        "ab": {
+          "kcs": 1810,
+          "raw_events": 682,
+          "weighted_events": 678.8627349837252,
+          "min_susceptibility": 0.1192088819941192,
+          "home_edges": 2283,
+          "home_original_gain_sum": -0.32258397340774536,
+          "home_candidate_gain_sum": -0.3284132480621338,
+          "home_phase_positive": [
+            0.0008536096517019716,
+            0.7267475558835658,
+            0.7534183059501334,
+            0.4702942197108988
+          ],
+          "home_phase_negative": [
+            -0.0013054080831847472,
+            -0.8113738174080057,
+            -0.9226268485946479,
+            -0.5444212488947148
+          ]
+        },
+        "other": {
+          "kcs": 2,
+          "raw_events": 3,
+          "weighted_events": 2.9476359805036565,
+          "min_susceptibility": 0.8993087606670724,
+          "home_edges": 0,
+          "home_original_gain_sum": 0.0,
+          "home_candidate_gain_sum": 0.0,
+          "home_phase_positive": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "home_phase_negative": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "minimum_old_state_coefficient": 0.9334733579732243
+    },
+    {
+      "index": 9,
+      "selector": {
+        "panel": 0,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+        "game": 4378,
+        "seed_set": "alt",
+        "seed": 1004420
+      },
+      "home_difference_from_original": -0.07541912794113159,
+      "subtypes": {
+        "gamma": {
+          "kcs": 1557,
+          "raw_events": 2325,
+          "weighted_events": 2274.571716400328,
+          "min_susceptibility": 0.0,
+          "home_edges": 1585,
+          "home_original_gain_sum": -0.11068993806838989,
+          "home_candidate_gain_sum": -0.18276703357696533,
+          "home_phase_positive": [
+            0.004132430181018323,
+            1.781509406378147,
+            1.9965825219199518,
+            1.2293326163117806
+          ],
+          "home_phase_negative": [
+            -0.004309309461505088,
+            -1.8041996595254448,
+            -2.1079844958458276,
+            -1.277831723366888
+          ]
+        },
+        "apbp": {
+          "kcs": 695,
+          "raw_events": 77,
+          "weighted_events": 76.77214822591756,
+          "min_susceptibility": 0.6709238247445738,
+          "home_edges": 316,
+          "home_original_gain_sum": 0.0016927123069763184,
+          "home_candidate_gain_sum": 0.0015972256660461426,
+          "home_phase_positive": [
+            6.853236299778019e-05,
+            0.04232535663165592,
+            0.04708358782897034,
+            0.028975858497849536
+          ],
+          "home_phase_negative": [
+            -5.8239647175924405e-05,
+            -0.038871022179106346,
+            -0.04837386029353491,
+            -0.029552828046647626
+          ]
+        },
+        "ab": {
+          "kcs": 1810,
+          "raw_events": 475,
+          "weighted_events": 473.1654945740054,
+          "min_susceptibility": 0.3662946304239342,
+          "home_edges": 2283,
+          "home_original_gain_sum": -0.10249805450439453,
+          "home_candidate_gain_sum": -0.10574460029602051,
+          "home_phase_positive": [
+            0.001295971294568166,
+            0.5066322485442925,
+            0.5479209737655928,
+            0.33734654057691316
+          ],
+          "home_phase_negative": [
+            -0.001406517437776006,
+            -0.5336622225460007,
+            -0.6027384015604341,
+            -0.36113301793332325
+          ]
+        },
+        "other": {
+          "kcs": 2,
+          "raw_events": 4,
+          "weighted_events": 3.9707563070145824,
+          "min_susceptibility": 0.11679661105513856,
+          "home_edges": 0,
+          "home_original_gain_sum": 0.0,
+          "home_candidate_gain_sum": 0.0,
+          "home_phase_positive": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "home_phase_negative": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "minimum_old_state_coefficient": 0.9330824250074847
+    },
+    {
+      "index": 10,
+      "selector": {
+        "panel": 0,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+        "game": 4383,
+        "seed_set": "base",
+        "seed": 4425
+      },
+      "home_difference_from_original": -0.21486437320709229,
+      "subtypes": {
+        "gamma": {
+          "kcs": 1557,
+          "raw_events": 2517,
+          "weighted_events": 2436.1769741656803,
+          "min_susceptibility": 0.0,
+          "home_edges": 1585,
+          "home_original_gain_sum": -0.043691039085388184,
+          "home_candidate_gain_sum": -0.1571204662322998,
+          "home_phase_positive": [
+            0.0016358026551997842,
+            1.835787524964108,
+            2.135880776736175,
+            1.3170873896495576
+          ],
+          "home_phase_negative": [
+            -0.0018612190292211102,
+            -1.875260914397972,
+            -2.218135789100556,
+            -1.3522535540314993
+          ]
+        },
+        "apbp": {
+          "kcs": 695,
+          "raw_events": 247,
+          "weighted_events": 243.1184451419545,
+          "min_susceptibility": 0.04204555473627412,
+          "home_edges": 316,
+          "home_original_gain_sum": 0.0042264461517333984,
+          "home_candidate_gain_sum": 0.0007308721542358398,
+          "home_phase_positive": [
+            0.0001024583640409375,
+            0.07481466374106792,
+            0.09042297543961116,
+            0.05579129070220542
+          ],
+          "home_phase_negative": [
+            -0.00011694230158620545,
+            -0.07412431156523515,
+            -0.09040880067094738,
+            -0.05575034342172934
+          ]
+        },
+        "ab": {
+          "kcs": 1810,
+          "raw_events": 1454,
+          "weighted_events": 1407.368754711672,
+          "min_susceptibility": 0.0,
+          "home_edges": 2283,
+          "home_original_gain_sum": 0.06025552749633789,
+          "home_candidate_gain_sum": -0.037683844566345215,
+          "home_phase_positive": [
+            0.0016058772314638662,
+            1.3119445322730117,
+            1.5545944051151175,
+            0.9585471413892219
+          ],
+          "home_phase_negative": [
+            -0.0019114860309977515,
+            -1.3100014570648555,
+            -1.5821733992060347,
+            -0.9702894277070958
+          ]
+        },
+        "other": {
+          "kcs": 2,
+          "raw_events": 0,
+          "weighted_events": 0.0,
+          "min_susceptibility": 1.0,
+          "home_edges": 0,
+          "home_original_gain_sum": 0.0,
+          "home_candidate_gain_sum": 0.0,
+          "home_phase_positive": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "home_phase_negative": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "minimum_old_state_coefficient": 0.9322921179403911
+    },
+    {
+      "index": 11,
+      "selector": {
+        "panel": 0,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+        "game": 4383,
+        "seed_set": "alt",
+        "seed": 1004425
+      },
+      "home_difference_from_original": -0.2229946255683899,
+      "subtypes": {
+        "gamma": {
+          "kcs": 1557,
+          "raw_events": 2517,
+          "weighted_events": 2442.9909552237405,
+          "min_susceptibility": 0.0,
+          "home_edges": 1585,
+          "home_original_gain_sum": 0.19576936960220337,
+          "home_candidate_gain_sum": 0.06882971525192261,
+          "home_phase_positive": [
+            0.0022742429128867533,
+            1.8921214719097712,
+            2.280267694885441,
+            1.4071116580745624
+          ],
+          "home_phase_negative": [
+            -0.0015693057547302802,
+            -1.8415603469056216,
+            -2.268457841567352,
+            -1.4013592937422332
+          ]
+        },
+        "apbp": {
+          "kcs": 695,
+          "raw_events": 284,
+          "weighted_events": 280.91340982242764,
+          "min_susceptibility": 0.0,
+          "home_edges": 316,
+          "home_original_gain_sum": -0.012861371040344238,
+          "home_candidate_gain_sum": -0.015643000602722168,
+          "home_phase_positive": [
+            0.00018597895629085228,
+            0.11808946588179219,
+            0.1415264213707392,
+            0.08728459820542432
+          ],
+          "home_phase_negative": [
+            -0.00012909980289998918,
+            -0.12709797674695678,
+            -0.14620693271352703,
+            -0.08929542579047249
+          ]
+        },
+        "ab": {
+          "kcs": 1810,
+          "raw_events": 1519,
+          "weighted_events": 1483.562626575389,
+          "min_susceptibility": 0.0,
+          "home_edges": 2283,
+          "home_original_gain_sum": 0.32746773958206177,
+          "home_candidate_gain_sum": 0.23419439792633057,
+          "home_phase_positive": [
+            0.0021978548483114796,
+            1.4605570282006681,
+            2.0550839423213025,
+            1.2684586085614704
+          ],
+          "home_phase_negative": [
+            -0.0012279394205215368,
+            -1.511798882723605,
+            -1.8568645491116669,
+            -1.1822135919007601
+          ]
+        },
+        "other": {
+          "kcs": 2,
+          "raw_events": 0,
+          "weighted_events": 0.0,
+          "min_susceptibility": 1.0,
+          "home_edges": 0,
+          "home_original_gain_sum": 0.0,
+          "home_candidate_gain_sum": 0.0,
+          "home_phase_positive": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "home_phase_negative": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "minimum_old_state_coefficient": 0.9311996069244424
+    },
+    {
+      "index": 12,
+      "selector": {
+        "panel": 0,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+        "game": 4387,
+        "seed_set": "base",
+        "seed": 4429
+      },
+      "home_difference_from_original": -0.06674939393997192,
+      "subtypes": {
+        "gamma": {
+          "kcs": 1557,
+          "raw_events": 2409,
+          "weighted_events": 2359.1370286138826,
+          "min_susceptibility": 0.0,
+          "home_edges": 1585,
+          "home_original_gain_sum": -0.16658484935760498,
+          "home_candidate_gain_sum": -0.23051422834396362,
+          "home_phase_positive": [
+            0.002490896268122009,
+            1.762933489649911,
+            1.631158869957129,
+            0.9757595482298794
+          ],
+          "home_phase_negative": [
+            -0.0022422805907997474,
+            -1.8153585108963317,
+            -1.755792616518446,
+            -1.0294640061519686
+          ]
+        },
+        "apbp": {
+          "kcs": 695,
+          "raw_events": 51,
+          "weighted_events": 50.90507950395369,
+          "min_susceptibility": 0.4387344864381006,
+          "home_edges": 316,
+          "home_original_gain_sum": -0.009607374668121338,
+          "home_candidate_gain_sum": -0.00959867238998413,
+          "home_phase_positive": [
+            4.4516237478067395e-05,
+            0.011591699128571224,
+            0.012961844681355018,
+            0.007749680983582442
+          ],
+          "home_phase_negative": [
+            -3.035193746813016e-05,
+            -0.019093550879768613,
+            -0.0144349266291406,
+            -0.008387589828979634
+          ]
+        },
+        "ab": {
+          "kcs": 1810,
+          "raw_events": 309,
+          "weighted_events": 307.540345274137,
+          "min_susceptibility": 0.4524071259880572,
+          "home_edges": 2283,
+          "home_original_gain_sum": -0.0624731183052063,
+          "home_candidate_gain_sum": -0.06530183553695679,
+          "home_phase_positive": [
+            0.0004464167096737326,
+            0.32310855159141727,
+            0.28941630780916483,
+            0.17303741188888094
+          ],
+          "home_phase_negative": [
+            -0.0003727227056507632,
+            -0.3410509938492737,
+            -0.322516238475389,
+            -0.18737075782311932
+          ]
+        },
+        "other": {
+          "kcs": 2,
+          "raw_events": 4,
+          "weighted_events": 3.980520677215046,
+          "min_susceptibility": 0.9497842400370382,
+          "home_edges": 0,
+          "home_original_gain_sum": 0.0,
+          "home_candidate_gain_sum": 0.0,
+          "home_phase_positive": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "home_phase_negative": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "minimum_old_state_coefficient": 0.9326492854364329
+    },
+    {
+      "index": 13,
+      "selector": {
+        "panel": 0,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+        "game": 4387,
+        "seed_set": "alt",
+        "seed": 1004429
+      },
+      "home_difference_from_original": -0.08414185047149658,
+      "subtypes": {
+        "gamma": {
+          "kcs": 1557,
+          "raw_events": 2390,
+          "weighted_events": 2335.608876253288,
+          "min_susceptibility": 0.0,
+          "home_edges": 1585,
+          "home_original_gain_sum": -0.23474019765853882,
+          "home_candidate_gain_sum": -0.3161451816558838,
+          "home_phase_positive": [
+            0.0030886043964359704,
+            1.6717976766757356,
+            1.7222014244876571,
+            1.0501704670583343
+          ],
+          "home_phase_negative": [
+            -0.0036582902211727344,
+            -1.7736169373662671,
+            -1.872035912615514,
+            -1.1140920658281017
+          ]
+        },
+        "apbp": {
+          "kcs": 695,
+          "raw_events": 70,
+          "weighted_events": 69.83555338361165,
+          "min_susceptibility": 0.7152938703159067,
+          "home_edges": 316,
+          "home_original_gain_sum": -0.00777667760848999,
+          "home_candidate_gain_sum": -0.007943451404571533,
+          "home_phase_positive": [
+            7.090850126934047e-05,
+            0.030347382078303446,
+            0.03110364230362202,
+            0.01900053636718081
+          ],
+          "home_phase_negative": [
+            -0.00010242851851965813,
+            -0.03350289663790134,
+            -0.03445271033967449,
+            -0.02040775063756168
+          ]
+        },
+        "ab": {
+          "kcs": 1810,
+          "raw_events": 289,
+          "weighted_events": 287.87311460113114,
+          "min_susceptibility": 0.5790938932673955,
+          "home_edges": 2283,
+          "home_original_gain_sum": -0.04935300350189209,
+          "home_candidate_gain_sum": -0.05192309617996216,
+          "home_phase_positive": [
+            0.0006689525347991388,
+            0.2631722347185719,
+            0.3034126089443027,
+            0.1849579667180823
+          ],
+          "home_phase_negative": [
+            -0.0008985270128339931,
+            -0.3035936892837232,
+            -0.3113418145489073,
+            -0.18830075324584064
+          ]
+        },
+        "other": {
+          "kcs": 2,
+          "raw_events": 3,
+          "weighted_events": 2.933450306862878,
+          "min_susceptibility": 0.9316973395709945,
+          "home_edges": 0,
+          "home_original_gain_sum": 0.0,
+          "home_candidate_gain_sum": 0.0,
+          "home_phase_positive": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "home_phase_negative": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "minimum_old_state_coefficient": 0.9326649724463809
+    },
+    {
+      "index": 14,
+      "selector": {
+        "panel": 0,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+        "game": 4391,
+        "seed_set": "base",
+        "seed": 4433
+      },
+      "home_difference_from_original": -0.03466463088989258,
+      "subtypes": {
+        "gamma": {
+          "kcs": 1557,
+          "raw_events": 1681,
+          "weighted_events": 1647.4482764351897,
+          "min_susceptibility": 0.0,
+          "home_edges": 1585,
+          "home_original_gain_sum": -0.042427003383636475,
+          "home_candidate_gain_sum": -0.07524585723876953,
+          "home_phase_positive": [
+            0.0004988131143657284,
+            0.7598238126190049,
+            1.003308277115583,
+            0.6345307296529384
+          ],
+          "home_phase_negative": [
+            -0.0007439927799083053,
+            -0.7715800169675745,
+            -1.0477139712725905,
+            -0.6533700699532713
+          ]
+        },
+        "apbp": {
+          "kcs": 695,
+          "raw_events": 108,
+          "weighted_events": 107.4543335695499,
+          "min_susceptibility": 0.48174627542384807,
+          "home_edges": 316,
+          "home_original_gain_sum": -0.009639501571655273,
+          "home_candidate_gain_sum": -0.010217666625976562,
+          "home_phase_positive": [
+            3.93950622895572e-05,
+            0.03526478178528607,
+            0.0446099136981226,
+            0.02820829989402576
+          ],
+          "home_phase_negative": [
+            -4.5741452431400715e-05,
+            -0.038590452049849726,
+            -0.049428613291958856,
+            -0.030275235941995153
+          ]
+        },
+        "ab": {
+          "kcs": 1810,
+          "raw_events": 221,
+          "weighted_events": 220.19660234925288,
+          "min_susceptibility": 0.13005646298944434,
+          "home_edges": 2283,
+          "home_original_gain_sum": 0.002652585506439209,
+          "home_candidate_gain_sum": 0.0013849735260009766,
+          "home_phase_positive": [
+            0.00015529858458004895,
+            0.1270949684100916,
+            0.18967872970144742,
+            0.12001073061976197
+          ],
+          "home_phase_negative": [
+            -0.00018715508980348352,
+            -0.13445964645830513,
+            -0.18360645615686216,
+            -0.11730164360233418
+          ]
+        },
+        "other": {
+          "kcs": 2,
+          "raw_events": 5,
+          "weighted_events": 4.985231677862055,
+          "min_susceptibility": 0.9714605096991371,
+          "home_edges": 0,
+          "home_original_gain_sum": 0.0,
+          "home_candidate_gain_sum": 0.0,
+          "home_phase_positive": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "home_phase_negative": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "minimum_old_state_coefficient": 0.9324187131502549
+    },
+    {
+      "index": 15,
+      "selector": {
+        "panel": 0,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+        "game": 4391,
+        "seed_set": "alt",
+        "seed": 1004433
+      },
+      "home_difference_from_original": -0.060673415660858154,
+      "subtypes": {
+        "gamma": {
+          "kcs": 1557,
+          "raw_events": 2028,
+          "weighted_events": 1979.7442574722718,
+          "min_susceptibility": 0.0,
+          "home_edges": 1585,
+          "home_original_gain_sum": -0.2511862516403198,
+          "home_candidate_gain_sum": -0.3084203004837036,
+          "home_phase_positive": [
+            0.0008294692812932944,
+            1.1529406627567838,
+            1.50895354149408,
+            0.9626808025039422
+          ],
+          "home_phase_negative": [
+            -0.0010593319149648924,
+            -1.2254706569573903,
+            -1.6737073058298635,
+            -1.0335869334252077
+          ]
+        },
+        "apbp": {
+          "kcs": 695,
+          "raw_events": 118,
+          "weighted_events": 116.31650083212872,
+          "min_susceptibility": 0.0,
+          "home_edges": 316,
+          "home_original_gain_sum": -0.00840139389038086,
+          "home_candidate_gain_sum": -0.01080232858657837,
+          "home_phase_positive": [
+            2.9922344851876607e-05,
+            0.027606626529135217,
+            0.038957618231896245,
+            0.024856229904760857
+          ],
+          "home_phase_negative": [
+            -6.026488829863176e-05,
+            -0.033127987942327936,
+            -0.04262962635765923,
+            -0.0264348246451473
+          ]
+        },
+        "ab": {
+          "kcs": 1810,
+          "raw_events": 218,
+          "weighted_events": 217.17848676741778,
+          "min_susceptibility": 0.6550595023375584,
+          "home_edges": 2283,
+          "home_original_gain_sum": 0.024499237537384033,
+          "home_candidate_gain_sum": 0.023460805416107178,
+          "home_phase_positive": [
+            7.439488911477031e-05,
+            0.17679199928844844,
+            0.23208910127735066,
+            0.14804444867130925
+          ],
+          "home_phase_negative": [
+            -0.0001106514949350773,
+            -0.14589041819146795,
+            -0.23726317026002247,
+            -0.15027453842754865
+          ]
+        },
+        "other": {
+          "kcs": 2,
+          "raw_events": 6,
+          "weighted_events": 5.98354861731155,
+          "min_susceptibility": 0.9676305775172339,
+          "home_edges": 0,
+          "home_original_gain_sum": 0.0,
+          "home_candidate_gain_sum": 0.0,
+          "home_phase_positive": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "home_phase_negative": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "minimum_old_state_coefficient": 0.932279260581524
+    },
+    {
+      "index": 16,
+      "selector": {
+        "panel": 1,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+        "game": 4395,
+        "seed_set": "base",
+        "seed": 2004437
+      },
+      "home_difference_from_original": -0.0668681263923645,
+      "subtypes": {
+        "gamma": {
+          "kcs": 1557,
+          "raw_events": 2346,
+          "weighted_events": 2291.465497652909,
+          "min_susceptibility": 0.0,
+          "home_edges": 1585,
+          "home_original_gain_sum": -0.2792823910713196,
+          "home_candidate_gain_sum": -0.34464770555496216,
+          "home_phase_positive": [
+            0.004289172238210904,
+            1.6225797680528211,
+            1.5840198354631545,
+            0.9679119382864549
+          ],
+          "home_phase_negative": [
+            -0.004011634422064733,
+            -1.6590277345304139,
+            -1.799195838334008,
+            -1.0612133376679147
+          ]
+        },
+        "apbp": {
+          "kcs": 695,
+          "raw_events": 57,
+          "weighted_events": 56.94259256093033,
+          "min_susceptibility": 0.7031023670934037,
+          "home_edges": 316,
+          "home_original_gain_sum": -0.025164484977722168,
+          "home_candidate_gain_sum": -0.02517843246459961,
+          "home_phase_positive": [
+            0.0001354988470541494,
+            0.02018680079570141,
+            0.01597550010302608,
+            0.009759408044479782
+          ],
+          "home_phase_negative": [
+            -0.00015450009854033295,
+            -0.03150909236577158,
+            -0.025637126984071525,
+            -0.013934770248962825
+          ]
+        },
+        "ab": {
+          "kcs": 1810,
+          "raw_events": 260,
+          "weighted_events": 259.17226344388615,
+          "min_susceptibility": 0.4116919406000327,
+          "home_edges": 2283,
+          "home_original_gain_sum": -0.1574842929840088,
+          "home_candidate_gain_sum": -0.15897315740585327,
+          "home_phase_positive": [
+            0.0009673023766942676,
+            0.24966312517813669,
+            0.21739314069211668,
+            0.13280512988031534
+          ],
+          "home_phase_negative": [
+            -0.0007797510147872907,
+            -0.30551766069807235,
+            -0.289499727667361,
+            -0.1640049678560337
+          ]
+        },
+        "other": {
+          "kcs": 2,
+          "raw_events": 4,
+          "weighted_events": 3.982821007676182,
+          "min_susceptibility": 0.9200224781093352,
+          "home_edges": 0,
+          "home_original_gain_sum": 0.0,
+          "home_candidate_gain_sum": 0.0,
+          "home_phase_positive": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "home_phase_negative": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "minimum_old_state_coefficient": 0.9316532464339129
+    },
+    {
+      "index": 17,
+      "selector": {
+        "panel": 1,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+        "game": 4395,
+        "seed_set": "alt",
+        "seed": 3004437
+      },
+      "home_difference_from_original": -0.09392726421356201,
+      "subtypes": {
+        "gamma": {
+          "kcs": 1557,
+          "raw_events": 2502,
+          "weighted_events": 2429.2382958722483,
+          "min_susceptibility": 0.0,
+          "home_edges": 1585,
+          "home_original_gain_sum": -0.0959596037864685,
+          "home_candidate_gain_sum": -0.18584179878234863,
+          "home_phase_positive": [
+            0.0026336794194047786,
+            1.5142157862403653,
+            1.8462083131526223,
+            1.153181517345994
+          ],
+          "home_phase_negative": [
+            -0.002920078499469806,
+            -1.554922310550932,
+            -1.9480820717812575,
+            -1.1961574115573717
+          ]
+        },
+        "apbp": {
+          "kcs": 695,
+          "raw_events": 59,
+          "weighted_events": 58.77303046606244,
+          "min_susceptibility": 0.4957794915336997,
+          "home_edges": 316,
+          "home_original_gain_sum": 0.01049816608428955,
+          "home_candidate_gain_sum": 0.01024484634399414,
+          "home_phase_positive": [
+            3.907953515157403e-05,
+            0.01772820450926106,
+            0.03298462589097856,
+            0.02060864718762978
+          ],
+          "home_phase_negative": [
+            -5.907445671133935e-05,
+            -0.018101516490424418,
+            -0.025565072938646922,
+            -0.017390148527294553
+          ]
+        },
+        "ab": {
+          "kcs": 1810,
+          "raw_events": 313,
+          "weighted_events": 310.80632479291467,
+          "min_susceptibility": 0.45682386111274137,
+          "home_edges": 2283,
+          "home_original_gain_sum": 0.03450906276702881,
+          "home_candidate_gain_sum": 0.030717313289642334,
+          "home_phase_positive": [
+            0.00031956941567442133,
+            0.23846038201630065,
+            0.30743343197886935,
+            0.19184039504320233
+          ],
+          "home_phase_negative": [
+            -0.0004007325130650045,
+            -0.21833360901714752,
+            -0.2999916239420582,
+            -0.18861009941259516
+          ]
+        },
+        "other": {
+          "kcs": 2,
+          "raw_events": 1,
+          "weighted_events": 1.0,
+          "min_susceptibility": 0.7170043301986955,
+          "home_edges": 0,
+          "home_original_gain_sum": 0.0,
+          "home_candidate_gain_sum": 0.0,
+          "home_phase_positive": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "home_phase_negative": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "minimum_old_state_coefficient": 0.93103803758506
+    },
+    {
+      "index": 18,
+      "selector": {
+        "panel": 1,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+        "game": 4399,
+        "seed_set": "base",
+        "seed": 2004441
+      },
+      "home_difference_from_original": -0.0828554630279541,
+      "subtypes": {
+        "gamma": {
+          "kcs": 1557,
+          "raw_events": 1759,
+          "weighted_events": 1723.2020931053075,
+          "min_susceptibility": 0.0,
+          "home_edges": 1585,
+          "home_original_gain_sum": -0.014372944831848145,
+          "home_candidate_gain_sum": -0.06864875555038452,
+          "home_phase_positive": [
+            0.001298131194449115,
+            1.196812335278499,
+            1.4572384692561577,
+            0.91455248990631
+          ],
+          "home_phase_negative": [
+            -0.0008979528940103849,
+            -1.1684285316856993,
+            -1.5255477093391807,
+            -0.9436748398993825
+          ]
+        },
+        "apbp": {
+          "kcs": 695,
+          "raw_events": 143,
+          "weighted_events": 142.2761100081628,
+          "min_susceptibility": 0.4520159582940843,
+          "home_edges": 316,
+          "home_original_gain_sum": -0.001681506633758545,
+          "home_candidate_gain_sum": -0.0024791955947875977,
+          "home_phase_positive": [
+            8.288409443609673e-05,
+            0.039411813654539336,
+            0.051047001436927204,
+            0.03199408130968683
+          ],
+          "home_phase_negative": [
+            -4.515095640552392e-05,
+            -0.04052944816041448,
+            -0.05201251074284777,
+            -0.03242817284843687
+          ]
+        },
+        "ab": {
+          "kcs": 1810,
+          "raw_events": 989,
+          "weighted_events": 975.731283679063,
+          "min_susceptibility": 0.0,
+          "home_edges": 2283,
+          "home_original_gain_sum": -0.21800357103347778,
+          "home_candidate_gain_sum": -0.24578553438186646,
+          "home_phase_positive": [
+            0.0010239267694512947,
+            0.8749145962182571,
+            1.0197569683769097,
+            0.6397124270830612
+          ],
+          "home_phase_negative": [
+            -0.0006973464678095417,
+            -0.9457754248174527,
+            -1.142220135337267,
+            -0.6925009161770945
+          ]
+        },
+        "other": {
+          "kcs": 2,
+          "raw_events": 0,
+          "weighted_events": 0.0,
+          "min_susceptibility": 1.0,
+          "home_edges": 0,
+          "home_original_gain_sum": 0.0,
+          "home_candidate_gain_sum": 0.0,
+          "home_phase_positive": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "home_phase_negative": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "minimum_old_state_coefficient": 0.9330358435067975
+    },
+    {
+      "index": 19,
+      "selector": {
+        "panel": 1,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+        "game": 4399,
+        "seed_set": "alt",
+        "seed": 3004441
+      },
+      "home_difference_from_original": -0.11295956373214722,
+      "subtypes": {
+        "gamma": {
+          "kcs": 1557,
+          "raw_events": 1776,
+          "weighted_events": 1728.3773260123603,
+          "min_susceptibility": 0.0,
+          "home_edges": 1585,
+          "home_original_gain_sum": 0.026730239391326904,
+          "home_candidate_gain_sum": -0.038158953189849854,
+          "home_phase_positive": [
+            0.002592348557192023,
+            0.9725474984023795,
+            1.322265626053422,
+            0.8439858477643054
+          ],
+          "home_phase_negative": [
+            -0.0024971073991010223,
+            -0.9472991970874742,
+            -1.3657145569738276,
+            -0.8640393970788433
+          ]
+        },
+        "apbp": {
+          "kcs": 695,
+          "raw_events": 160,
+          "weighted_events": 159.34502848758353,
+          "min_susceptibility": 0.31322337841367304,
+          "home_edges": 316,
+          "home_original_gain_sum": -0.027487337589263916,
+          "home_candidate_gain_sum": -0.027875065803527832,
+          "home_phase_positive": [
+            0.00019855428635043917,
+            0.04339684719634278,
+            0.04838798770037849,
+            0.03086983897225925
+          ],
+          "home_phase_negative": [
+            -0.00022891730185465063,
+            -0.05124842635103616,
+            -0.06230456550899073,
+            -0.03694631895042609
+          ]
+        },
+        "ab": {
+          "kcs": 1810,
+          "raw_events": 1033,
+          "weighted_events": 1011.4456715362047,
+          "min_susceptibility": 0.0,
+          "home_edges": 2283,
+          "home_original_gain_sum": 0.19184494018554688,
+          "home_candidate_gain_sum": 0.14416229724884033,
+          "home_phase_positive": [
+            0.002297602802635978,
+            0.7355359403214222,
+            1.16544931875157,
+            0.7441898857316211
+          ],
+          "home_phase_negative": [
+            -0.002075061081162537,
+            -0.71637948395942,
+            -1.0777120855961926,
+            -0.7071436173383363
+          ]
+        },
+        "other": {
+          "kcs": 2,
+          "raw_events": 0,
+          "weighted_events": 0.0,
+          "min_susceptibility": 1.0,
+          "home_edges": 0,
+          "home_original_gain_sum": 0.0,
+          "home_candidate_gain_sum": 0.0,
+          "home_phase_positive": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "home_phase_negative": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "minimum_old_state_coefficient": 0.9332756980896355
+    },
+    {
+      "index": 20,
+      "selector": {
+        "panel": 1,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+        "game": 4404,
+        "seed_set": "base",
+        "seed": 2004446
+      },
+      "home_difference_from_original": -0.04237395524978638,
+      "subtypes": {
+        "gamma": {
+          "kcs": 1557,
+          "raw_events": 1360,
+          "weighted_events": 1332.586922068954,
+          "min_susceptibility": 0.0,
+          "home_edges": 1585,
+          "home_original_gain_sum": 0.054722607135772705,
+          "home_candidate_gain_sum": 0.024116933345794678,
+          "home_phase_positive": [
+            0.0011843680913989916,
+            0.6407271457930543,
+            0.7899304299611032,
+            0.49550365538349816
+          ],
+          "home_phase_negative": [
+            -0.0009172539196072229,
+            -0.6053979519383907,
+            -0.7958700346642571,
+            -0.5010435275944213
+          ]
+        },
+        "apbp": {
+          "kcs": 695,
+          "raw_events": 123,
+          "weighted_events": 121.69299550087501,
+          "min_susceptibility": 0.547126928429076,
+          "home_edges": 316,
+          "home_original_gain_sum": 0.011058330535888672,
+          "home_candidate_gain_sum": 0.01011437177658081,
+          "home_phase_positive": [
+            6.690085658030719e-05,
+            0.028625531602063266,
+            0.04096921532255522,
+            0.025723559169424086
+          ],
+          "home_phase_negative": [
+            -5.691523559035323e-05,
+            -0.02517524494841962,
+            -0.036243133133782156,
+            -0.023795686956897596
+          ]
+        },
+        "ab": {
+          "kcs": 1810,
+          "raw_events": 563,
+          "weighted_events": 555.8587030844184,
+          "min_susceptibility": 0.19288583912048446,
+          "home_edges": 2283,
+          "home_original_gain_sum": 0.08397650718688965,
+          "home_candidate_gain_sum": 0.07315218448638916,
+          "home_phase_positive": [
+            0.00032589511841235694,
+            0.36533873137516465,
+            0.4511848670605327,
+            0.28314987811621034
+          ],
+          "home_phase_negative": [
+            -0.00017027405826866392,
+            -0.30907990133463165,
+            -0.43842781781551265,
+            -0.279168536225014
+          ]
+        },
+        "other": {
+          "kcs": 2,
+          "raw_events": 1,
+          "weighted_events": 1.0,
+          "min_susceptibility": 0.8246501226512756,
+          "home_edges": 0,
+          "home_original_gain_sum": 0.0,
+          "home_candidate_gain_sum": 0.0,
+          "home_phase_positive": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "home_phase_negative": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "minimum_old_state_coefficient": 0.9315627024930583
+    },
+    {
+      "index": 21,
+      "selector": {
+        "panel": 1,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+        "game": 4404,
+        "seed_set": "alt",
+        "seed": 3004446
+      },
+      "home_difference_from_original": -0.019144713878631592,
+      "subtypes": {
+        "gamma": {
+          "kcs": 1557,
+          "raw_events": 1258,
+          "weighted_events": 1242.0630656604249,
+          "min_susceptibility": 0.0018830585725954903,
+          "home_edges": 1585,
+          "home_original_gain_sum": -0.09635186195373535,
+          "home_candidate_gain_sum": -0.11112016439437866,
+          "home_phase_positive": [
+            0.00018256159002311934,
+            0.6013387275588687,
+            0.7135192467774574,
+            0.4420164089117814
+          ],
+          "home_phase_negative": [
+            -0.00033595777389001697,
+            -0.6448944956268131,
+            -0.7607358018910507,
+            -0.4622108313350182
+          ]
+        },
+        "apbp": {
+          "kcs": 695,
+          "raw_events": 140,
+          "weighted_events": 139.49724965203384,
+          "min_susceptibility": 0.5966420485317728,
+          "home_edges": 316,
+          "home_original_gain_sum": -0.021397411823272705,
+          "home_candidate_gain_sum": -0.021536052227020264,
+          "home_phase_positive": [
+            1.7383757767085373e-05,
+            0.03292690546619722,
+            0.03248986956790767,
+            0.02011694574858445
+          ],
+          "home_phase_negative": [
+            -2.9173568382731563e-05,
+            -0.04049921592694431,
+            -0.04223961942101225,
+            -0.024319212348840498
+          ]
+        },
+        "ab": {
+          "kcs": 1810,
+          "raw_events": 603,
+          "weighted_events": 599.4814702322506,
+          "min_susceptibility": 0.21868796683383193,
+          "home_edges": 2283,
+          "home_original_gain_sum": -0.2743454575538635,
+          "home_candidate_gain_sum": -0.27858322858810425,
+          "home_phase_positive": [
+            0.0002051489989772878,
+            0.442048842603844,
+            0.4420381304170971,
+            0.2737817002362125
+          ],
+          "home_phase_negative": [
+            -0.0002934784455694329,
+            -0.5413586490301284,
+            -0.5672942645046383,
+            -0.32771095071767936
+          ]
+        },
+        "other": {
+          "kcs": 2,
+          "raw_events": 1,
+          "weighted_events": 1.0,
+          "min_susceptibility": 1.0,
+          "home_edges": 0,
+          "home_original_gain_sum": 0.0,
+          "home_candidate_gain_sum": 0.0,
+          "home_phase_positive": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "home_phase_negative": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "minimum_old_state_coefficient": 0.9330290613230204
+    },
+    {
+      "index": 22,
+      "selector": {
+        "panel": 1,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+        "game": 4408,
+        "seed_set": "base",
+        "seed": 2004450
+      },
+      "home_difference_from_original": -0.06380307674407959,
+      "subtypes": {
+        "gamma": {
+          "kcs": 1557,
+          "raw_events": 2127,
+          "weighted_events": 2077.8650849218316,
+          "min_susceptibility": 0.0,
+          "home_edges": 1585,
+          "home_original_gain_sum": -0.07841038703918457,
+          "home_candidate_gain_sum": -0.13949483633041382,
+          "home_phase_positive": [
+            0.0015151434434519774,
+            1.2640531825412293,
+            1.6366256166895023,
+            1.0347682150108115
+          ],
+          "home_phase_negative": [
+            -0.0010857937758914685,
+            -1.2851097010701382,
+            -1.7189343718640426,
+            -1.0713276380620806
+          ]
+        },
+        "apbp": {
+          "kcs": 695,
+          "raw_events": 82,
+          "weighted_events": 81.72064536030359,
+          "min_susceptibility": 0.6504736747463278,
+          "home_edges": 316,
+          "home_original_gain_sum": -0.0071485042572021484,
+          "home_candidate_gain_sum": -0.007506191730499268,
+          "home_phase_positive": [
+            5.2406835170483734e-05,
+            0.026947050071214833,
+            0.03533324536015669,
+            0.02231312545619364
+          ],
+          "home_phase_negative": [
+            -2.0512151829546514e-05,
+            -0.03039994708345272,
+            -0.03815774733716413,
+            -0.02357382112778214
+          ]
+        },
+        "ab": {
+          "kcs": 1810,
+          "raw_events": 299,
+          "weighted_events": 297.6740468470002,
+          "min_susceptibility": 0.5523915285635137,
+          "home_edges": 2283,
+          "home_original_gain_sum": 0.005224645137786865,
+          "home_candidate_gain_sum": 0.0028637051582336426,
+          "home_phase_positive": [
+            0.0002599099531381084,
+            0.2317953497176488,
+            0.3212331439786983,
+            0.20297997974638332
+          ],
+          "home_phase_negative": [
+            -0.00012409520621993017,
+            -0.23192069862270917,
+            -0.3190501812359357,
+            -0.20230980275976776
+          ]
+        },
+        "other": {
+          "kcs": 2,
+          "raw_events": 7,
+          "weighted_events": 6.960656308644464,
+          "min_susceptibility": 0.9486210029443277,
+          "home_edges": 0,
+          "home_original_gain_sum": 0.0,
+          "home_candidate_gain_sum": 0.0,
+          "home_phase_positive": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "home_phase_negative": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "minimum_old_state_coefficient": 0.9314312346818971
+    },
+    {
+      "index": 23,
+      "selector": {
+        "panel": 1,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+        "game": 4408,
+        "seed_set": "alt",
+        "seed": 3004450
+      },
+      "home_difference_from_original": -0.037371814250946045,
+      "subtypes": {
+        "gamma": {
+          "kcs": 1557,
+          "raw_events": 1919,
+          "weighted_events": 1878.216945816845,
+          "min_susceptibility": 0.0,
+          "home_edges": 1585,
+          "home_original_gain_sum": -0.2447643280029297,
+          "home_candidate_gain_sum": -0.28088557720184326,
+          "home_phase_positive": [
+            0.0011066447410930538,
+            0.8355136366362843,
+            1.0800708478119458,
+            0.6958982312213255
+          ],
+          "home_phase_negative": [
+            -0.001397124980052186,
+            -0.8995577105866468,
+            -1.2248371415941246,
+            -0.7676833695516327
+          ]
+        },
+        "apbp": {
+          "kcs": 695,
+          "raw_events": 64,
+          "weighted_events": 63.9071107236729,
+          "min_susceptibility": 0.7597537382963976,
+          "home_edges": 316,
+          "home_original_gain_sum": -0.006588339805603027,
+          "home_candidate_gain_sum": -0.006597280502319336,
+          "home_phase_positive": [
+            2.3350024902352917e-05,
+            0.01295315383294646,
+            0.015589767195277774,
+            0.01003385590899773
+          ],
+          "home_phase_negative": [
+            -3.233223026308218e-05,
+            -0.01454512760630289,
+            -0.01897242601317958,
+            -0.011647529857817831
+          ]
+        },
+        "ab": {
+          "kcs": 1810,
+          "raw_events": 232,
+          "weighted_events": 231.11174837173854,
+          "min_susceptibility": 0.6045277907556358,
+          "home_edges": 2283,
+          "home_original_gain_sum": -0.012241482734680176,
+          "home_candidate_gain_sum": -0.013483107089996338,
+          "home_phase_positive": [
+            0.0001337829844897922,
+            0.1366659924532647,
+            0.1824715332710273,
+            0.11749625028496397
+          ],
+          "home_phase_negative": [
+            -0.0001868875037495873,
+            -0.13124398965560607,
+            -0.1945884014449415,
+            -0.1242312312346359
+          ]
+        },
+        "other": {
+          "kcs": 2,
+          "raw_events": 8,
+          "weighted_events": 7.97992483422159,
+          "min_susceptibility": 0.9744134504698471,
+          "home_edges": 0,
+          "home_original_gain_sum": 0.0,
+          "home_candidate_gain_sum": 0.0,
+          "home_phase_positive": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "home_phase_negative": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "minimum_old_state_coefficient": 0.9331672600030595
+    },
+    {
+      "index": 24,
+      "selector": {
+        "panel": 1,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+        "game": 4412,
+        "seed_set": "base",
+        "seed": 2004454
+      },
+      "home_difference_from_original": -0.07823562622070312,
+      "subtypes": {
+        "gamma": {
+          "kcs": 1557,
+          "raw_events": 2400,
+          "weighted_events": 2341.288482652904,
+          "min_susceptibility": 0.0,
+          "home_edges": 1585,
+          "home_original_gain_sum": 0.044686198234558105,
+          "home_candidate_gain_sum": -0.03128272294998169,
+          "home_phase_positive": [
+            0.0020612446335747828,
+            1.545752471357948,
+            1.9049491999386043,
+            1.182452651934699
+          ],
+          "home_phase_negative": [
+            -0.0016069027328655377,
+            -1.5387412839080148,
+            -1.9322797604211175,
+            -1.1938706713924925
+          ]
+        },
+        "apbp": {
+          "kcs": 695,
+          "raw_events": 77,
+          "weighted_events": 76.69889044418593,
+          "min_susceptibility": 0.6020006349934854,
+          "home_edges": 316,
+          "home_original_gain_sum": -0.019041776657104492,
+          "home_candidate_gain_sum": -0.01922065019607544,
+          "home_phase_positive": [
+            1.6658111750291535e-05,
+            0.029858474966485974,
+            0.0283892745632742,
+            0.017614291377557965
+          ],
+          "home_phase_negative": [
+            -1.6835834523240326e-06,
+            -0.03578467171802597,
+            -0.03769009395078037,
+            -0.021623063218477106
+          ]
+        },
+        "ab": {
+          "kcs": 1810,
+          "raw_events": 266,
+          "weighted_events": 264.8239775576144,
+          "min_susceptibility": 0.5103925984277472,
+          "home_edges": 2283,
+          "home_original_gain_sum": -0.018928885459899902,
+          "home_candidate_gain_sum": -0.021016716957092285,
+          "home_phase_positive": [
+            0.00033998033969071797,
+            0.24574439964183167,
+            0.2957145091090442,
+            0.18358824612544766
+          ],
+          "home_phase_negative": [
+            -0.00034168120802082803,
+            -0.24994372963686237,
+            -0.30751979053188133,
+            -0.1885985964630614
+          ]
+        },
+        "other": {
+          "kcs": 2,
+          "raw_events": 4,
+          "weighted_events": 3.91616435446608,
+          "min_susceptibility": 0.8895055881915799,
+          "home_edges": 0,
+          "home_original_gain_sum": 0.0,
+          "home_candidate_gain_sum": 0.0,
+          "home_phase_positive": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "home_phase_negative": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "minimum_old_state_coefficient": 0.9315627024930583
+    },
+    {
+      "index": 25,
+      "selector": {
+        "panel": 1,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+        "game": 4412,
+        "seed_set": "alt",
+        "seed": 3004454
+      },
+      "home_difference_from_original": -0.05547267198562622,
+      "subtypes": {
+        "gamma": {
+          "kcs": 1557,
+          "raw_events": 2134,
+          "weighted_events": 2081.8824140777233,
+          "min_susceptibility": 0.0,
+          "home_edges": 1585,
+          "home_original_gain_sum": -0.18554264307022095,
+          "home_candidate_gain_sum": -0.23891443014144897,
+          "home_phase_positive": [
+            0.0015900361185227023,
+            1.0231415253910947,
+            1.2791558758602803,
+            0.8096825435751849
+          ],
+          "home_phase_negative": [
+            -0.0020138383003448722,
+            -1.0810798926526426,
+            -1.402422858718303,
+            -0.8669680359129015
+          ]
+        },
+        "apbp": {
+          "kcs": 695,
+          "raw_events": 60,
+          "weighted_events": 59.703341774164315,
+          "min_susceptibility": 0.6579952882531814,
+          "home_edges": 316,
+          "home_original_gain_sum": 0.0005249977111816406,
+          "home_candidate_gain_sum": 0.00032401084899902344,
+          "home_phase_positive": [
+            3.2945738665692883e-06,
+            0.016385138378391857,
+            0.023457677866533484,
+            0.0148428922831096
+          ],
+          "home_phase_negative": [
+            -5.268040780041737e-07,
+            -0.016730923746601213,
+            -0.022943411021791763,
+            -0.014690222457273734
+          ]
+        },
+        "ab": {
+          "kcs": 1810,
+          "raw_events": 241,
+          "weighted_events": 239.76243648340463,
+          "min_susceptibility": 0.5503132900418348,
+          "home_edges": 2283,
+          "home_original_gain_sum": -0.004473507404327393,
+          "home_candidate_gain_sum": -0.006373405456542969,
+          "home_phase_positive": [
+            0.0002593389895456106,
+            0.13895781947701025,
+            0.19606540393406668,
+            0.12425115276810536
+          ],
+          "home_phase_negative": [
+            -0.000359759873361476,
+            -0.1453418039028593,
+            -0.1956662737767527,
+            -0.12453993052132424
+          ]
+        },
+        "other": {
+          "kcs": 2,
+          "raw_events": 3,
+          "weighted_events": 2.9729575253559974,
+          "min_susceptibility": 0.9150464886591909,
+          "home_edges": 0,
+          "home_original_gain_sum": 0.0,
+          "home_candidate_gain_sum": 0.0,
+          "home_phase_positive": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "home_phase_negative": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "minimum_old_state_coefficient": 0.9325630624208315
+    },
+    {
+      "index": 26,
+      "selector": {
+        "panel": 1,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+        "game": 4416,
+        "seed_set": "base",
+        "seed": 2004458
+      },
+      "home_difference_from_original": -0.05025976896286011,
+      "subtypes": {
+        "gamma": {
+          "kcs": 1557,
+          "raw_events": 1747,
+          "weighted_events": 1711.9501200671884,
+          "min_susceptibility": 0.0,
+          "home_edges": 1585,
+          "home_original_gain_sum": -0.006340444087982178,
+          "home_candidate_gain_sum": -0.04628092050552368,
+          "home_phase_positive": [
+            0.003712090914936832,
+            1.045311288644636,
+            1.144327454205045,
+            0.7041551722937381
+          ],
+          "home_phase_negative": [
+            -0.0025416770061018907,
+            -1.0106066452658218,
+            -1.2018882374387578,
+            -0.7287513293500271
+          ]
+        },
+        "apbp": {
+          "kcs": 695,
+          "raw_events": 150,
+          "weighted_events": 149.2977347487532,
+          "min_susceptibility": 0.5439576958107823,
+          "home_edges": 316,
+          "home_original_gain_sum": -0.008288085460662842,
+          "home_candidate_gain_sum": -0.008694887161254883,
+          "home_phase_positive": [
+            9.435768520272832e-05,
+            0.0502442502768841,
+            0.04675932995894908,
+            0.028767423959622316
+          ],
+          "home_phase_negative": [
+            -4.681586421008463e-05,
+            -0.047075945283600935,
+            -0.05508590391302215,
+            -0.032351602244894924
+          ]
+        },
+        "ab": {
+          "kcs": 1810,
+          "raw_events": 661,
+          "weighted_events": 654.7033830570949,
+          "min_susceptibility": 0.0,
+          "home_edges": 2283,
+          "home_original_gain_sum": -0.015513241291046143,
+          "home_candidate_gain_sum": -0.025425732135772705,
+          "home_phase_positive": [
+            0.0016290444351117373,
+            0.4488116143867823,
+            0.5139355788504639,
+            0.31665241671672056
+          ],
+          "home_phase_negative": [
+            -0.001068348062078379,
+            -0.4542733978921833,
+            -0.5285459214674604,
+            -0.3225676210638627
+          ]
+        },
+        "other": {
+          "kcs": 2,
+          "raw_events": 0,
+          "weighted_events": 0.0,
+          "min_susceptibility": 1.0,
+          "home_edges": 0,
+          "home_original_gain_sum": 0.0,
+          "home_candidate_gain_sum": 0.0,
+          "home_phase_positive": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "home_phase_negative": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "minimum_old_state_coefficient": 0.9338859386254438
+    },
+    {
+      "index": 27,
+      "selector": {
+        "panel": 1,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+        "game": 4416,
+        "seed_set": "alt",
+        "seed": 3004458
+      },
+      "home_difference_from_original": -0.027848124504089355,
+      "subtypes": {
+        "gamma": {
+          "kcs": 1557,
+          "raw_events": 1387,
+          "weighted_events": 1361.8088374033607,
+          "min_susceptibility": 0.0,
+          "home_edges": 1585,
+          "home_original_gain_sum": -0.04829549789428711,
+          "home_candidate_gain_sum": -0.06807297468185425,
+          "home_phase_positive": [
+            0.0015603680012052897,
+            0.5481605695757432,
+            0.655116513941341,
+            0.401385975441888
+          ],
+          "home_phase_negative": [
+            -0.0010715906567152717,
+            -0.5949370154960281,
+            -0.6704733171990089,
+            -0.40781457607760985
+          ]
+        },
+        "apbp": {
+          "kcs": 695,
+          "raw_events": 108,
+          "weighted_events": 107.42595674313188,
+          "min_susceptibility": 0.5922793899138536,
+          "home_edges": 316,
+          "home_original_gain_sum": -0.0007492899894714355,
+          "home_candidate_gain_sum": -0.0011788606643676758,
+          "home_phase_positive": [
+            0.00014625101313302,
+            0.021162561638014724,
+            0.033723326250748996,
+            0.020695282395115536
+          ],
+          "home_phase_negative": [
+            -0.00010379045523232676,
+            -0.02794145361429996,
+            -0.02986295729054078,
+            -0.018997971951969377
+          ]
+        },
+        "ab": {
+          "kcs": 1810,
+          "raw_events": 575,
+          "weighted_events": 568.0860994749787,
+          "min_susceptibility": 0.23958168964250517,
+          "home_edges": 2283,
+          "home_original_gain_sum": 0.17387741804122925,
+          "home_candidate_gain_sum": 0.16623634099960327,
+          "home_phase_positive": [
+            0.0007197829856786038,
+            0.28836585653761126,
+            0.451427054499262,
+            0.2767153415030162
+          ],
+          "home_phase_negative": [
+            -0.0005047475764489079,
+            -0.2593490503373947,
+            -0.35584300309002914,
+            -0.23529501165854266
+          ]
+        },
+        "other": {
+          "kcs": 2,
+          "raw_events": 0,
+          "weighted_events": 0.0,
+          "min_susceptibility": 1.0,
+          "home_edges": 0,
+          "home_original_gain_sum": 0.0,
+          "home_candidate_gain_sum": 0.0,
+          "home_phase_positive": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "home_phase_negative": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "minimum_old_state_coefficient": 0.9338154901752896
+    },
+    {
+      "index": 28,
+      "selector": {
+        "panel": 1,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+        "game": 4420,
+        "seed_set": "base",
+        "seed": 2004462
+      },
+      "home_difference_from_original": -0.2872728109359741,
+      "subtypes": {
+        "gamma": {
+          "kcs": 1557,
+          "raw_events": 3397,
+          "weighted_events": 3303.0660553322577,
+          "min_susceptibility": 0.0,
+          "home_edges": 1585,
+          "home_original_gain_sum": -0.26933401823043823,
+          "home_candidate_gain_sum": -0.454792320728302,
+          "home_phase_positive": [
+            0.005537343802655458,
+            4.024226800822566,
+            4.429470895571087,
+            2.7349592935636178
+          ],
+          "home_phase_negative": [
+            -0.006834359501241835,
+            -4.047702761480474,
+            -4.721167382311403,
+            -2.8732808022595084
+          ]
+        },
+        "apbp": {
+          "kcs": 695,
+          "raw_events": 231,
+          "weighted_events": 229.5098844973913,
+          "min_susceptibility": 0.0,
+          "home_edges": 316,
+          "home_original_gain_sum": -0.04268157482147217,
+          "home_candidate_gain_sum": -0.04483687877655029,
+          "home_phase_positive": [
+            0.0002508510793369371,
+            0.16424313504327187,
+            0.1716345001319053,
+            0.10584282469042422
+          ],
+          "home_phase_negative": [
+            -0.00029241781521805664,
+            -0.17549232757225597,
+            -0.19463818853895404,
+            -0.11638532719845983
+          ]
+        },
+        "ab": {
+          "kcs": 1810,
+          "raw_events": 1920,
+          "weighted_events": 1882.41072565694,
+          "min_susceptibility": 0.0,
+          "home_edges": 2283,
+          "home_original_gain_sum": -1.0653760433197021,
+          "home_candidate_gain_sum": -1.1650352478027344,
+          "home_phase_positive": [
+            0.005214284287110678,
+            3.2070051344197816,
+            3.1827497221454086,
+            1.9636188149579397
+          ],
+          "home_phase_negative": [
+            -0.005025233647351087,
+            -3.4967012375218607,
+            -3.786399624635314,
+            -2.235497579115574
+          ]
+        },
+        "other": {
+          "kcs": 2,
+          "raw_events": 0,
+          "weighted_events": 0.0,
+          "min_susceptibility": 1.0,
+          "home_edges": 0,
+          "home_original_gain_sum": 0.0,
+          "home_candidate_gain_sum": 0.0,
+          "home_phase_positive": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "home_phase_negative": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "minimum_old_state_coefficient": 0.9322658535551457
+    },
+    {
+      "index": 29,
+      "selector": {
+        "panel": 1,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+        "game": 4420,
+        "seed_set": "alt",
+        "seed": 3004462
+      },
+      "home_difference_from_original": -0.26499879360198975,
+      "subtypes": {
+        "gamma": {
+          "kcs": 1557,
+          "raw_events": 2947,
+          "weighted_events": 2854.781587018989,
+          "min_susceptibility": 0.0,
+          "home_edges": 1585,
+          "home_original_gain_sum": -0.15184539556503296,
+          "home_candidate_gain_sum": -0.3210960626602173,
+          "home_phase_positive": [
+            0.0031348842968920002,
+            2.63720346016812,
+            3.1502439688078288,
+            1.9797781395576695
+          ],
+          "home_phase_negative": [
+            -0.002460324157452234,
+            -2.626991258685059,
+            -3.3729346791979653,
+            -2.0890703155345722
+          ]
+        },
+        "apbp": {
+          "kcs": 695,
+          "raw_events": 183,
+          "weighted_events": 181.7070020175647,
+          "min_susceptibility": 0.42814377236902507,
+          "home_edges": 316,
+          "home_original_gain_sum": 0.021292269229888916,
+          "home_candidate_gain_sum": 0.019643127918243408,
+          "home_phase_positive": [
+            0.00017221110882375613,
+            0.1073864583414795,
+            0.14598400513550472,
+            0.09166729021219554
+          ],
+          "home_phase_negative": [
+            -0.00013576648972606366,
+            -0.09823788442868736,
+            -0.13827176214812398,
+            -0.08892127236539
+          ]
+        },
+        "ab": {
+          "kcs": 1810,
+          "raw_events": 1577,
+          "weighted_events": 1541.2058950069247,
+          "min_susceptibility": 0.0,
+          "home_edges": 2283,
+          "home_original_gain_sum": 0.2198358178138733,
+          "home_candidate_gain_sum": 0.12573683261871338,
+          "home_phase_positive": [
+            0.0032151580462313777,
+            2.019394098890584,
+            2.5676994596622067,
+            1.6129537752763874
+          ],
+          "home_phase_negative": [
+            -0.0029216472987224854,
+            -1.8806772861885477,
+            -2.5696829142492605,
+            -1.6242438989208536
+          ]
+        },
+        "other": {
+          "kcs": 2,
+          "raw_events": 0,
+          "weighted_events": 0.0,
+          "min_susceptibility": 1.0,
+          "home_edges": 0,
+          "home_original_gain_sum": 0.0,
+          "home_candidate_gain_sum": 0.0,
+          "home_phase_positive": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "home_phase_negative": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "minimum_old_state_coefficient": 0.9325216418051784
+    },
+    {
+      "index": 30,
+      "selector": {
+        "panel": 1,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+        "game": 4425,
+        "seed_set": "base",
+        "seed": 2004467
+      },
+      "home_difference_from_original": -0.03049379587173462,
+      "subtypes": {
+        "gamma": {
+          "kcs": 1557,
+          "raw_events": 1652,
+          "weighted_events": 1625.696811196824,
+          "min_susceptibility": 0.0,
+          "home_edges": 1585,
+          "home_original_gain_sum": 0.03143310546875,
+          "home_candidate_gain_sum": 0.004812836647033691,
+          "home_phase_positive": [
+            0.0022649888600481745,
+            1.135003501921147,
+            1.089620965263706,
+            0.6562298769293345
+          ],
+          "home_phase_negative": [
+            -0.002258289875079839,
+            -1.0623183964494025,
+            -1.1352460149740242,
+            -0.6784826408978861
+          ]
+        },
+        "apbp": {
+          "kcs": 695,
+          "raw_events": 121,
+          "weighted_events": 120.61782072129952,
+          "min_susceptibility": 0.622759605523937,
+          "home_edges": 316,
+          "home_original_gain_sum": -0.010867476463317871,
+          "home_candidate_gain_sum": -0.01094043254852295,
+          "home_phase_positive": [
+            5.141871100289388e-05,
+            0.038698952914631914,
+            0.033817138809791994,
+            0.020358921456213538
+          ],
+          "home_phase_negative": [
+            -6.22042192781632e-05,
+            -0.0411411592757553,
+            -0.03967878886889171,
+            -0.0229844236902311
+          ]
+        },
+        "ab": {
+          "kcs": 1810,
+          "raw_events": 487,
+          "weighted_events": 484.6485552471003,
+          "min_susceptibility": 0.3242537836668283,
+          "home_edges": 2283,
+          "home_original_gain_sum": -0.17430204153060913,
+          "home_candidate_gain_sum": -0.17810261249542236,
+          "home_phase_positive": [
+            0.0011268642976072982,
+            0.46371925540942155,
+            0.40387228020343235,
+            0.24316978075098436
+          ],
+          "home_phase_negative": [
+            -0.0009939839029397823,
+            -0.5234411066083481,
+            -0.4858518451027177,
+            -0.27970352502008533
+          ]
+        },
+        "other": {
+          "kcs": 2,
+          "raw_events": 4,
+          "weighted_events": 4.0,
+          "min_susceptibility": 0.9820849798155235,
+          "home_edges": 0,
+          "home_original_gain_sum": 0.0,
+          "home_candidate_gain_sum": 0.0,
+          "home_phase_positive": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "home_phase_negative": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "minimum_old_state_coefficient": 0.9318002984458928
+    },
+    {
+      "index": 31,
+      "selector": {
+        "panel": 1,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+        "game": 4425,
+        "seed_set": "alt",
+        "seed": 3004467
+      },
+      "home_difference_from_original": -0.040422141551971436,
+      "subtypes": {
+        "gamma": {
+          "kcs": 1557,
+          "raw_events": 1664,
+          "weighted_events": 1633.2878906725398,
+          "min_susceptibility": 0.0,
+          "home_edges": 1585,
+          "home_original_gain_sum": -0.10110455751419067,
+          "home_candidate_gain_sum": -0.13459992408752441,
+          "home_phase_positive": [
+            0.0008124285680748258,
+            0.8360545013492833,
+            1.0165026459551054,
+            0.6402281443030274
+          ],
+          "home_phase_negative": [
+            -0.0009325379503119488,
+            -0.8573875759076818,
+            -1.0934340051086522,
+            -0.676442802475063
+          ]
+        },
+        "apbp": {
+          "kcs": 695,
+          "raw_events": 121,
+          "weighted_events": 120.274055026827,
+          "min_susceptibility": 0.5872909600317628,
+          "home_edges": 316,
+          "home_original_gain_sum": 0.0014951229095458984,
+          "home_candidate_gain_sum": 0.0009810924530029297,
+          "home_phase_positive": [
+            2.4949275732783863e-05,
+            0.02774497895462053,
+            0.035610024249818246,
+            0.02239919269790266
+          ],
+          "home_phase_negative": [
+            -1.3057190030693127e-05,
+            -0.02634813358699806,
+            -0.03582735259786607,
+            -0.02260976741728659
+          ]
+        },
+        "ab": {
+          "kcs": 1810,
+          "raw_events": 513,
+          "weighted_events": 506.8639356494868,
+          "min_susceptibility": 0.07921003013352579,
+          "home_edges": 2283,
+          "home_original_gain_sum": -0.0027140378952026367,
+          "home_candidate_gain_sum": -0.009126782417297363,
+          "home_phase_positive": [
+            0.0002707863493566444,
+            0.3243030273647604,
+            0.38939031964566506,
+            0.24522845192451373
+          ],
+          "home_phase_negative": [
+            -0.0003357910863596089,
+            -0.3027147787018647,
+            -0.4100045759251824,
+            -0.2552636060943026
+          ]
+        },
+        "other": {
+          "kcs": 2,
+          "raw_events": 5,
+          "weighted_events": 4.957207110425127,
+          "min_susceptibility": 0.9157749745817454,
+          "home_edges": 0,
+          "home_original_gain_sum": 0.0,
+          "home_candidate_gain_sum": 0.0,
+          "home_phase_positive": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "home_phase_negative": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "minimum_old_state_coefficient": 0.9313500059168573
+    }
+  ],
+  "aggregate": {
+    "gamma": {
+      "kcs": 1557,
+      "home_edges": 1585,
+      "raw_events": 63506,
+      "weighted_events": 62032.04891957801,
+      "attenuated_event_mass": 1473.95108042199,
+      "fraction_attenuated": 0.023209635001763453,
+      "original_home_sum": -2.6147072315216064,
+      "candidate_home_sum": -4.571808457374573
+    },
+    "apbp": {
+      "kcs": 695,
+      "home_edges": 316,
+      "raw_events": 3776,
+      "weighted_events": 3752.235416990598,
+      "attenuated_event_mass": 23.76458300940203,
+      "fraction_attenuated": 0.006293586602066216,
+      "original_home_sum": -0.15523898601531982,
+      "candidate_home_sum": -0.1768333911895752
+    },
+    "ab": {
+      "kcs": 1810,
+      "home_edges": 2283,
+      "raw_events": 20262,
+      "weighted_events": 19958.41429691247,
+      "attenuated_event_mass": 303.5857030875304,
+      "fraction_attenuated": 0.014983007752814649,
+      "original_home_sum": -1.3230587840080261,
+      "candidate_home_sum": -1.9847580790519714
+    },
+    "other": {
+      "kcs": 2,
+      "home_edges": 0,
+      "raw_events": 73,
+      "weighted_events": 72.11426513383145,
+      "attenuated_event_mass": 0.8857348661685478,
+      "fraction_attenuated": 0.012133354331075997,
+      "original_home_sum": 0.0,
+      "candidate_home_sum": 0.0
+    }
+  },
+  "home_trials_more_negative_than_original": 32,
+  "minimum_old_state_coefficient": 0.93103803758506
+}

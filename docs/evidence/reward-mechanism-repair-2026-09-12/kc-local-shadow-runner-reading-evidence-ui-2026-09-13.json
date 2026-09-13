@@ -1,0 +1,127 @@
+{
+  "created_at_utc": "2026-09-13T09:31:32.613611+00:00",
+  "agent": "/root/evidence_ui",
+  "head": "b86405d7c0118c0c3117f13e0da2e24cd7f57a2c",
+  "prior_personal_reading_chain": {
+    "path": "output/collaboration/reward-mechanism-repair/kc-local-state-integration-reading-evidence-ui-2026-09-13.json",
+    "bytes": 4645,
+    "sha256": "5b7a31c89c41d574ce0a346c50a460d7aa8c3b755d3b95ff1afa59949f5e302d"
+  },
+  "current_narratives": 166,
+  "unread_narrative_deltas": 0,
+  "narrative_inventory_sha256": "0b73440433f9bca6461445414bec1f0d662f0f3ac66a177a4c9ba55fcbe3e8ff",
+  "coverage": "All166 current AGENTS/README/docs/wiki narrative contents match my prior full reading chain; new output contract/audit material listed below personally read in full. The runner report is newly authored.",
+  "new_fully_read": [
+    {
+      "path": "output/collaboration/reward-mechanism-repair/kc-local-calcium-candidate-contract-2026-09-13.md",
+      "bytes": 6058,
+      "sha256": "342c25f8bc8342d2e987de1fd4565672a04b114a13cbc357b61319421934bf3b"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/kc-local-shadow-independent-audit-contract-2026-09-13.md",
+      "bytes": 3284,
+      "sha256": "4e9f301a03d1d83b88143bc6ff4307a238487b41dd593db3974cb1c5772e0c84"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/run_weight_state_shadow.py",
+      "bytes": 21831,
+      "sha256": "6e403b91f2fcdbe7578d744f5be5c7fa1d66700a37cff44697e239bb86b01ecd"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/kc_weighted_bridge_replay.py",
+      "bytes": 6626,
+      "sha256": "08ec9ec468f9bfc0ccee2ca1dad41e5273cf589a6be087a1baac9724768105b7"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/test_kc_local_bridge_composition.py",
+      "bytes": 6921,
+      "sha256": "e4189bedc26d53b82ccfa3aa1d43e5b4c1cc0de492ca07c825bff4ec9400e13f"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/kc-local-anatomy-2026-09-13/audit.json",
+      "bytes": 2147,
+      "sha256": "3c00f285385f456462de644edfd0de7edbec3b559c074ef8495cb0c00efd7c51"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/kc-external-refit-992cef6fb05bfdb63d2b/plan.json",
+      "bytes": 2844,
+      "sha256": "d59bb5a6428af71fb8c8925b437470baeeda568daab0ac605ddebaaa365453e9"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/kc-external-refit-992cef6fb05bfdb63d2b/execution.json",
+      "bytes": 302,
+      "sha256": "3c5d0d50850299a095146c5c3ad3883990de97103281022667a500214560ac84"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/kc-external-refit-992cef6fb05bfdb63d2b/result/status.json",
+      "bytes": 4626,
+      "sha256": "04b32497805700638bb9a740101329b4409826ccc09c0a7e03ccedf635dbee47"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/kc-external-refit-independent-audit-2026-09-13/audit.json",
+      "bytes": 14513,
+      "sha256": "8777e4380a38f9137955a4d3c5c2b8c0ebbdcd9be3036ee7529df16468d869fc"
+    }
+  ],
+  "partial_source_reads": [
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate_adaptation_shadow.py",
+      "scope": "Imports and safe_npz complete implementation; earlier full reading in frozen adaptation work"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/kc_external_calibration.py",
+      "scope": "Fit persistence/artifact/stage sections, not re-reading entire helper in this task"
+    }
+  ],
+  "release": [
+    {
+      "path": "output/collaboration/reward-mechanism-repair/run_kc_local_shadow.py",
+      "bytes": 37128,
+      "sha256": "37d0c3047d256d16289c4061eb6eb0b9dbef20413ef1b8fbecb0afdb329f68f7"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/test_run_kc_local_shadow.py",
+      "bytes": 12628,
+      "sha256": "917500b34c7882cd2007de0069f79132b9015c0f377436747afb9b3e7e8459f9"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/kc-local-shadow-runner-tests-2026-09-13.txt",
+      "bytes": 340,
+      "sha256": "997ba1f042207806b6062739c372300098688971776b9e9a2eb08f4b9c6b1bc4"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/kc-local-shadow-preparation-tests-2026-09-13.txt",
+      "bytes": 500,
+      "sha256": "f2d8278ea4ae69272937ee9ebc95e9865ddb293f738e1ea1dee0c4a65ee376a7"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/kc-local-shadow-runner-preparation-evidence-ui-2026-09-13.md",
+      "bytes": 2962,
+      "sha256": "c04ed6e538cd3a9fa79c87a1f15c9e7e40b5c491179f5abffc6146f7fdcf97c4"
+    }
+  ],
+  "verification": {
+    "runner": 228,
+    "runner_seconds": 1.43,
+    "combined": 428,
+    "combined_seconds": 3.08,
+    "ruff": "passed",
+    "root_owns_standard_gate": true
+  },
+  "input_only_preflight": {
+    "fit_parent_child_audit": "validated without optimizer or candidate call",
+    "kc_class_counts": {
+      "gamma": 1557,
+      "apbp": 695,
+      "ab": 1810,
+      "other": 2
+    },
+    "capture_selectors": 32,
+    "no_capture_candidate_evaluation": true
+  },
+  "actual_prepare_calls": 0,
+  "actual_saved_history_evaluations": 0,
+  "native_network_fit_browser_calls": 0,
+  "production_edits": 0,
+  "review_scope": "Runner source and tests frozen for root lifecycle review; independent saved-result auditor remains preparation-only. All final live circuit qualification and conditioning gates remain required."
+}
