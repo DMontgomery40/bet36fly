@@ -1,0 +1,41 @@
+{
+  "checked_at_utc": "2026-09-13T08:57:35.137597+00:00",
+  "copies": [
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-lateral-evidence-ui-closeout-review-2026-09-13.md",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-evidence-ui-closeout-review-2026-09-13.md",
+      "bytes": 2647,
+      "sha256": "15c57ff44fed599658468e621f8e63be6abf8a91b672c934168ae2bd94a195e5",
+      "original_preserved": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-lateral-evidence-ui-closeout-reading-supplement-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-evidence-ui-closeout-reading-supplement-2026-09-13.json",
+      "bytes": 75493,
+      "sha256": "f87d37b06ce97da39db56fce50be205caecddadd69aa9390ecfc36a47256aa30",
+      "original_preserved": true
+    }
+  ],
+  "whitespace_check": {
+    "status": "Five upstream trailing-whitespace lines preserved byte for byte; changed files outside upstream pass",
+    "observations": [
+      "docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-primary-source-2026-09-13/upstream/README.md:8: trailing whitespace.",
+      "docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-primary-source-2026-09-13/upstream/codes/KC_population_calcium_rate_model_functions.py:190: trailing whitespace.",
+      "docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-primary-source-2026-09-13/upstream/codes/KC_population_calcium_rate_model_functions.py:192: trailing whitespace.",
+      "docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-primary-source-2026-09-13/upstream/codes/KC_population_calcium_rate_model_functions.py:228: trailing whitespace.",
+      "docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-primary-source-2026-09-13/upstream/codes/KC_population_calcium_rate_model_functions.py:283: trailing whitespace."
+    ],
+    "upstream_sha256": {
+      "docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-primary-source-2026-09-13/upstream/README.md": "9aab77612444818422e9c693210933db3e71404b3c02dd2b9b2576f4a41be52a",
+      "docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-primary-source-2026-09-13/upstream/codes/KC_population_calcium_rate_model_functions.py": "bc36f741ab7773b5f9dc298ab9610ce915067a2cc82ea73e947174ee155b3f05"
+    },
+    "filtered_exit_code": 0
+  },
+  "staging_correction": {
+    "path": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-primary-source-2026-09-13/upstream/data/gamma_mch_responses_manoim_supplement.xlsx",
+    "bytes": 28573,
+    "git_blob": "d86b517498f8a63d7aef652815e20144c21cdbea",
+    "sha256": "f92ab807009e2e8160fbc8c6c100731012052843484de6c796c7faf673712a1d",
+    "reason": "Generic data-directory ignore omitted the copied primary calibration workbook from normal git add; stage this exact source fixture explicitly."
+  }
+}

@@ -1,0 +1,1325 @@
+{
+  "created_at_utc": "2026-09-13T08:34:05.257941+00:00",
+  "agent": "evidence_ui",
+  "scope": "Bounded read-only conditioning/qualification semantics and current KC-to-KC implementation audit",
+  "git_head": "ab0f80f883b1c11877a294a6385934c88d4b1dfa",
+  "git_status_at_close": "",
+  "previous_reading_chain": {
+    "path": "output/collaboration/reward-mechanism-repair/evidence-ui-weight-state-closeout-reading-2026-09-13.json",
+    "bytes": 86588,
+    "sha256": "e3f7a538528e5e498d005da097c7facb6a6242d8e15872bb54e39685c9c6b180"
+  },
+  "prior_authored_read_review": {
+    "path": "output/collaboration/reward-mechanism-repair/evidence-ui-weight-state-closeout-review-2026-09-13.md",
+    "bytes": 2414,
+    "sha256": "611b55b328a10e135222d66877223e344fd38bd229c7ebe4ddabf32542abdcd1"
+  },
+  "narrative_count": 156,
+  "new_unread_narrative_deltas": 0,
+  "fully_reread_current_conditioning_contracts": [
+    "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-implementation-contract.md",
+    "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-preregistration.md",
+    "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-prerun-addendum.md"
+  ],
+  "narratives": [
+    {
+      "path": "AGENTS.md",
+      "bytes": 6056,
+      "sha256": "d85e1ed0c3f8c2dd594b8b1aa935f8fca0b10395715fa988d7a449be3257d12c",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "AGENTS.md"
+    },
+    {
+      "path": "README.md",
+      "bytes": 15752,
+      "sha256": "07cce9023a321e0a13585f63fac4f16310550319e460faa7e09081414de8903c",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "README.md"
+    },
+    {
+      "path": "docs/CONFIDENCE_AND_DRAWS.md",
+      "bytes": 13777,
+      "sha256": "423034743ee26bf9a1259a4d4efd829e58008136e0a3b9bdae9e32045cf67af5",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/CONFIDENCE_AND_DRAWS.md"
+    },
+    {
+      "path": "docs/EXPERIMENT_REWARD.md",
+      "bytes": 12817,
+      "sha256": "43cb79dfecff00d5ae4aa1421009f65fc91c8aa486e3bb0a1d8452fa720b435c",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/EXPERIMENT_REWARD.md"
+    },
+    {
+      "path": "docs/EXPERIMENT_V2.md",
+      "bytes": 4375,
+      "sha256": "2896620f40417db4f098f08f949b53fef676034f06b3e6b761be5a7cdc20445f",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/EXPERIMENT_V2.md"
+    },
+    {
+      "path": "docs/FLY_GUIDE.md",
+      "bytes": 25741,
+      "sha256": "44a14be8f42b7447ba2f9610c8a9a79204abeb1cacfe8cfba4586dd029e75c09",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/FLY_GUIDE.md"
+    },
+    {
+      "path": "docs/MODEL_CARD.md",
+      "bytes": 28377,
+      "sha256": "bf6c3a779ca4aebc284d5ed9e8ac3ba9a9b98e474432d2741797be1003a5a66c",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/MODEL_CARD.md"
+    },
+    {
+      "path": "docs/REWARD_REPAIR_HANDOFF.md",
+      "bytes": 42473,
+      "sha256": "36fe0899ae6404bcf785ffce0817bfe30809bb68fdfdfd12169c6d0876502bf9",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/REWARD_REPAIR_HANDOFF.md"
+    },
+    {
+      "path": "docs/ROADMAP.md",
+      "bytes": 16026,
+      "sha256": "dd05b86ec014c11403ae4de9cb3300a1b47fb31dd13bedc2b24b699ef1359e4b",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/ROADMAP.md"
+    },
+    {
+      "path": "docs/api-contract.md",
+      "bytes": 30619,
+      "sha256": "23cd9e1d39bb6c22fa55325998a705187d7efde264c933c952446bdcbc79c9d4",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/api-contract.md"
+    },
+    {
+      "path": "docs/design/fly-desk-verification.md",
+      "bytes": 6069,
+      "sha256": "f7e8cb59332da9b5c0084b06dd5e4081ba7793107ef40f20aaf5aadb0621b86e",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/design/fly-desk-verification.md"
+    },
+    {
+      "path": "docs/evidence/reassessment-2026-09-12/index.md",
+      "bytes": 1741,
+      "sha256": "bfd7dc0a21d55f698c8c0345fee2bd8652934279249c7a491b5295f81af11a3c",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reassessment-2026-09-12/index.md"
+    },
+    {
+      "path": "docs/evidence/reassessment-2026-09-12/repair-handoff.md",
+      "bytes": 5526,
+      "sha256": "dabf5765e7fa7f645440f011bc8f5d84acd9253c84ad1f4f59bdbc87b07b62a1",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reassessment-2026-09-12/repair-handoff.md"
+    },
+    {
+      "path": "docs/evidence/reassessment-2026-09-12/repair-phase1.md",
+      "bytes": 6457,
+      "sha256": "a29016a1360825c4f89a74ad5cb5ccb447855d00f449a3943c96be82491daad5",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-repair-phase1.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/bridge-reference-audit.md",
+      "bytes": 9017,
+      "sha256": "d13b3574b32d4fc8239b852b868f06f59e987bbf411454f497b167500d24ec40",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-mechanism-repair-2026-09-12/bridge-reference-audit.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/bridge-residual-attribution.md",
+      "bytes": 9938,
+      "sha256": "9c6d99b94c4135ba665485b7823dcbe56da39b191527ddf3525047d269aa4f2c",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-mechanism-repair-2026-09-12/bridge-residual-attribution.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-acceptance-2026-09-13.md",
+      "bytes": 6342,
+      "sha256": "52bc4091af427da392f6819b042e6ce7fdc78653b9e8c7056842092aa085fece",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-acceptance-2026-09-13.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-draft-review.md",
+      "bytes": 2923,
+      "sha256": "57d2ccbcd14994544be893d12f9bd375404c7a423d0e941dca23a3d6df0503a0",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-draft-review.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-implementation-contract.md",
+      "bytes": 7374,
+      "sha256": "2b26b2f9e45a2f4f664eb2d3684a4265281f082b8af576303ccf086da0c04937",
+      "coverage": "Personally fully reread current contents during this audit",
+      "prior_read_path": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-implementation-contract.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-independent-review-2026-09-13.md",
+      "bytes": 6606,
+      "sha256": "b3dbcd88348468a7a6c99886de627f2bc3b2d3a03d2bbc2577416551001fecd8",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-independent-review-2026-09-13.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-preregistration.md",
+      "bytes": 10696,
+      "sha256": "748df593f6fde4f0b9f613a75a75e69870901a6c673a635b968d50c40c9ea053",
+      "coverage": "Personally fully reread current contents during this audit",
+      "prior_read_path": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-preregistration.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-prerun-addendum.md",
+      "bytes": 19618,
+      "sha256": "a1b796a0bff96c4e11c02f9fb6bbd0039e0b16dce61a1532ccded367e698d95f",
+      "coverage": "Personally fully reread current contents during this audit",
+      "prior_read_path": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-prerun-addendum.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-reading.md",
+      "bytes": 2919,
+      "sha256": "6b991edcec441ff4ab1df0449efbeeec8f0030b049888c1486c62ad69251d803",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-reading.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/delivered-arrivals-resumed-evidence-review-final.md",
+      "bytes": 4602,
+      "sha256": "34f22b52816eee21803aac90666924143079e4053eecc2f5c619d8ff3649d8a1",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-mechanism-repair-2026-09-12/delivered-arrivals-resumed-evidence-review-final.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/delivered-arrivals-resumed-evidence-review.md",
+      "bytes": 4366,
+      "sha256": "fed04c0f1a38cc78d5005a489057891a0625cec51bedbb32d39885ca67f5e6ef",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-mechanism-repair-2026-09-12/delivered-arrivals-resumed-evidence-review.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/delivered-arrivals-resumed-reading-receipt.md",
+      "bytes": 1958,
+      "sha256": "0d6f572838286f8665ccca77547b678363892f50b6a9c88e611ef69e6847ab29",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-mechanism-repair-2026-09-12/delivered-arrivals-resumed-reading-receipt.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/delivered-arrivals-resumed-report.md",
+      "bytes": 8564,
+      "sha256": "46ca82464a519b5e01d6ce72cdb9ae5e3ce2e416b230009016c2c343961afeee",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-mechanism-repair-2026-09-12/delivered-arrivals-resumed-report.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/dopamine-receptor-state-decision-2026-09-13.md",
+      "bytes": 13820,
+      "sha256": "63cdc757527e4692bb2e29405ea74276cc38006ac1bb6217bba32f469b94b3c7",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-mechanism-repair-2026-09-12/dopamine-receptor-state-decision-2026-09-13.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/dopamine-signal-sources-resumed.md",
+      "bytes": 21098,
+      "sha256": "3eb2b28f996b1972444e50676ffcf29aa907a24ef39082f7c6a8883a62bb67b5",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-mechanism-repair-2026-09-12/dopamine-signal-sources-resumed.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/dopamine-weight-state-decision-2026-09-13.md",
+      "bytes": 12399,
+      "sha256": "04bde338649936357cafd4858ed216c1e4d00d5856f11e0a9029850b086e22c7",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-mechanism-repair-2026-09-12/dopamine-weight-state-decision-2026-09-13.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/evidence-ui-resumed-reading.md",
+      "bytes": 4755,
+      "sha256": "7a2eb1f7c70cf7c5732f16559784bcaa3ca29e0823117799c07508ad91d79abb",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-mechanism-repair-2026-09-12/evidence-ui-resumed-reading.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/evidence-ui-weight-state-closeout-review-2026-09-13.md",
+      "bytes": 2414,
+      "sha256": "611b55b328a10e135222d66877223e344fd38bd229c7ebe4ddabf32542abdcd1",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "output/collaboration/reward-mechanism-repair/evidence-ui-weight-state-closeout-review-2026-09-13.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/heldout-panel-contract.md",
+      "bytes": 4575,
+      "sha256": "5e3a8a7649a04783ee266e4431ab36d6676e1588bab7704939458ba4b03bf972",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-mechanism-repair-2026-09-12/heldout-panel-contract.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/inclusive-bound-observations.md",
+      "bytes": 3598,
+      "sha256": "2c9b5a1a78f55517951c518af21d807ff8703e3ceb95db5dbc9ec91f8f494939",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-mechanism-repair-2026-09-12/inclusive-bound-observations.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/index.md",
+      "bytes": 20316,
+      "sha256": "cbac324c0cd6db08f18a96583ecd29479e41b61ee7dce50cdd882127cbc4f496",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-mechanism-repair-2026-09-12/index.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/kernel-audit-reading.md",
+      "bytes": 2990,
+      "sha256": "5eefe6afd9df5dd0665c3752ff922b3b7194277b7719e499b6b4c50b91a444e8",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-mechanism-repair-2026-09-12/kernel-audit-reading.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/localization-access-report.md",
+      "bytes": 5692,
+      "sha256": "4685344d29e410936f3d1091df4d4f881efb31d4665c3706147a5d09425ac82f",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-mechanism-repair-2026-09-12/localization-access-report.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/localization-batch-metadata-report-2026-09-13.md",
+      "bytes": 7326,
+      "sha256": "96210d5c8f9ea49092bf55930d1ddcf6878fcd57b2bb0e236783b7cb0813f09c",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-mechanism-repair-2026-09-12/localization-batch-metadata-report-2026-09-13.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/localization-neuprint-ipv4-report-2026-09-13.md",
+      "bytes": 6529,
+      "sha256": "14dd6bf1226d6ab1d81d87b38ec8a33052d9662e18b58aa6bb24619bdf422c1e",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-mechanism-repair-2026-09-12/localization-neuprint-ipv4-report-2026-09-13.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/localization-next-decision-synthesis-2026-09-13.md",
+      "bytes": 9532,
+      "sha256": "75e5c63009a61344623c16672fe15ad1e4b938634523d6808ef2b8c33d8e8772",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-mechanism-repair-2026-09-12/localization-next-decision-synthesis-2026-09-13.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/localization-range-report-2026-09-13.md",
+      "bytes": 10088,
+      "sha256": "3e62b7f039c3796daa9a9ebc4e9d2ec9dfc3ceced9f89b84bb44cd10b40d63e6",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-mechanism-repair-2026-09-12/localization-range-report-2026-09-13.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/mechanism-sources-reading.md",
+      "bytes": 2057,
+      "sha256": "8d67b88f2dd2616f091ab3167cbcac393b2d0d3c75bcc52765f19ff2f100b995",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-mechanism-repair-2026-09-12/mechanism-sources-reading.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/onset-capture-implementation-report.md",
+      "bytes": 7031,
+      "sha256": "619d06fb1882401662900f3cebe9f1ec98796582a86e222d29a96569ff4c9cd2",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-mechanism-repair-2026-09-12/onset-capture-implementation-report.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/onset-capture-independent-audit.md",
+      "bytes": 7650,
+      "sha256": "fcad93d1cd712a8a14d392af8af2abd830d700ef4b51722b333d3d0cf8666327",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-mechanism-repair-2026-09-12/onset-capture-independent-audit.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/onset-capture-review.md",
+      "bytes": 8126,
+      "sha256": "e28f682289e59cbfb7256ec80ee11b6549e94f5edfa9a4f8ec9fca0784fe970c",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-mechanism-repair-2026-09-12/onset-capture-review.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/onset-history-investigation-preregistration.md",
+      "bytes": 16642,
+      "sha256": "ca01c345c6c28ba2879b7cf05a6d1b2b802392f0067862e701a69da5778a5ad5",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-mechanism-repair-2026-09-12/onset-history-investigation-preregistration.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/onset-history-result.md",
+      "bytes": 3970,
+      "sha256": "f31c91cae10eb144242060ea6f253fefd0be194ffeca9a4ab747686c48780198",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-mechanism-repair-2026-09-12/onset-history-result.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/onset-reference-audit.md",
+      "bytes": 4729,
+      "sha256": "66b1c226e89f33eca314ea10aa58066e7066ecc951af56865e913ab190f2c9fb",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-mechanism-repair-2026-09-12/onset-reference-audit.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/partners-metadata-independent-review-2026-09-13.md",
+      "bytes": 7888,
+      "sha256": "a335bf5ea204b5c1e00b2e2b8a7a11b8f6bec4b51e5f1b745256bc7ca06cd69c",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-mechanism-repair-2026-09-12/partners-metadata-independent-review-2026-09-13.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/partners-metadata-independent-v2-review-2026-09-13.md",
+      "bytes": 4486,
+      "sha256": "6e167407a8ac2e186e55f2c046305318695b4e213ddf3e87aaf5c1d47a772bba",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-mechanism-repair-2026-09-12/partners-metadata-independent-v2-review-2026-09-13.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/partners-metadata-preparation-2026-09-13.md",
+      "bytes": 8560,
+      "sha256": "23d54cc86d24484580cecf09e0ae9d593e698f410ad605adcc84b6234191f2bb",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-mechanism-repair-2026-09-12/partners-metadata-preparation-2026-09-13.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/partners-metadata-v1-result-2026-09-13.md",
+      "bytes": 2732,
+      "sha256": "bf3434cbbe8c644a0108776328065ce95683b2607f3f6f2b9e3eb3e9bd3b8be0",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-mechanism-repair-2026-09-12/partners-metadata-v1-result-2026-09-13.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/partners-metadata-v2-preparation-2026-09-13.md",
+      "bytes": 2980,
+      "sha256": "989f97a26f431c3b4582f8c3908b9a6c06071433a7e90c20154487fc1fa6cbb5",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-mechanism-repair-2026-09-12/partners-metadata-v2-preparation-2026-09-13.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/partners-metadata-v2-result-2026-09-13.md",
+      "bytes": 5215,
+      "sha256": "991345101cb44eaaae25b8423111b0f434d1d0b92881013e5ada13c013cd6771",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-mechanism-repair-2026-09-12/partners-metadata-v2-result-2026-09-13.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/partners-metadata-v2-source-contract-2026-09-13.md",
+      "bytes": 2227,
+      "sha256": "84ae3be7689af573e48b6b2d6c52ab7d1eb7772dc048aefad1f05db67d8a4480",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-mechanism-repair-2026-09-12/partners-metadata-v2-source-contract-2026-09-13.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-input-audit.md",
+      "bytes": 9511,
+      "sha256": "c1e7fc21c9b634f83ee0d2419d680c31316d0cc1462f9ab44f206f2b27f22b52",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-input-audit.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-preregistration-2026-09-13.md",
+      "bytes": 4709,
+      "sha256": "21ecea16776bc35677415b131cc5b050cdf44f18613d1d9fa147e20ba2480b5d",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-preregistration-2026-09-13.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-result-2026-09-13.md",
+      "bytes": 3902,
+      "sha256": "c7c44e72a83ae49a67d70e96c242e94c5ce44059a7acf8f53af66673e7bb1693",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-result-2026-09-13.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/rate-adaptation-boundary-review.md",
+      "bytes": 6658,
+      "sha256": "d10fc863ea702da52a3f7281a3a506ff37119b0cd9e86cc6cf324233029607d6",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-mechanism-repair-2026-09-12/rate-adaptation-boundary-review.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/rate-adaptation-reference-contract.md",
+      "bytes": 10643,
+      "sha256": "16b5275212cbd3c1ef458d40aa365f969f82e3fd4fb00165f91a5edafe5d2984",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-mechanism-repair-2026-09-12/rate-adaptation-reference-contract.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/rate-adaptation-reference-review.md",
+      "bytes": 6078,
+      "sha256": "c891b741c75002c6dfa6bfb142f7689f4087cedfb825b8ae6ee27339a14b6a59",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-mechanism-repair-2026-09-12/rate-adaptation-reference-review.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/rate-adaptation-reference-saved-audit-report.md",
+      "bytes": 8238,
+      "sha256": "c4808e1f57fb74adbd3c5e3c1dfb625ddbe4436d34de5ddf06a3316550036c3d",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-mechanism-repair-2026-09-12/rate-adaptation-reference-saved-audit-report.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/rate-adaptation-shadow-preregistration.md",
+      "bytes": 10905,
+      "sha256": "ae155b68517f734021ff7e31bf1fa45c31b95196cbc3432cd4304ec9c17fa88a",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-mechanism-repair-2026-09-12/rate-adaptation-shadow-preregistration.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/rate-adaptation-shadow-reading.md",
+      "bytes": 2883,
+      "sha256": "e35a325b2c56d24a06b5539c82fff91829be58fc74d562d62c2422c7b853e5a4",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-mechanism-repair-2026-09-12/rate-adaptation-shadow-reading.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/rate-adaptation-shadow-result.md",
+      "bytes": 7892,
+      "sha256": "6572d4287893e355a0a8deba6cf71836a505f9eef17afe36701fd9c488caffd8",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-mechanism-repair-2026-09-12/rate-adaptation-shadow-result.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/rate-adaptation-shadow-writer-report.md",
+      "bytes": 5028,
+      "sha256": "997bb4722d827b6cc975d35e4c360487f097c12db1fa4314fb849ae7831b8746",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-mechanism-repair-2026-09-12/rate-adaptation-shadow-writer-report.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/rate-bridge-implementation-contract.md",
+      "bytes": 16356,
+      "sha256": "c35484a6a6f1a1405d79ec7673810887edd5744373e7519f0d35358f0588a71e",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-mechanism-repair-2026-09-12/rate-bridge-implementation-contract.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/rate-bridge-implementation-report.md",
+      "bytes": 16959,
+      "sha256": "36702ac792440790ac93c4ee908fa6be9c5697f3171695597122b2d848debaba",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-mechanism-repair-2026-09-12/rate-bridge-implementation-report.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/rate-bridge-independent-review.md",
+      "bytes": 15645,
+      "sha256": "e7373b8a5ac6efa4631a262ae3d297a6807d39567fe3a6dc8f292a32bea180c6",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-mechanism-repair-2026-09-12/rate-bridge-independent-review.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/rate-bridge-preregistration.md",
+      "bytes": 21674,
+      "sha256": "ab7c640f3bfbc74845ff2759421b8b2de91d6411b9a6685acd3a62d1147508e3",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-mechanism-repair-2026-09-12/rate-bridge-preregistration.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/task-1-review.md",
+      "bytes": 10201,
+      "sha256": "332946abd91c9d7e219d01eda2a59686a8291de9ed3e2cdca03a35558a4581ce",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-mechanism-repair-2026-09-12/task-1-review.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/task-2-review.md",
+      "bytes": 7984,
+      "sha256": "f2e7d38a9ddea91e0eb92ddce9b8d714cd773211680a2d06d778496d0b563c46",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-mechanism-repair-2026-09-12/task-2-review.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/task4b-acceptance.md",
+      "bytes": 4262,
+      "sha256": "60f9b9ebd5a353cb0a2b558d6fe9ec4a668eda23efe67411995eea1722b4898b",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-mechanism-repair-2026-09-12/task4b-acceptance.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/task4b-evidence-ui-report.md",
+      "bytes": 6426,
+      "sha256": "c2caf6a88da15371f9b8fc2005a639ffb67f07dc87cda2860bf5a823f0202456",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-mechanism-repair-2026-09-12/task4b-evidence-ui-report.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/tonic-burst-dopamine-quantitative-source-check-2026-09-13.md",
+      "bytes": 6659,
+      "sha256": "343fe850c71d5ea5493e0d05e38c4e9c2b6a739cc09b3808d550473bdc739054",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-mechanism-repair-2026-09-12/tonic-burst-dopamine-quantitative-source-check-2026-09-13.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/verification-startup-acceptance.md",
+      "bytes": 2670,
+      "sha256": "8045126fdbf04a0e5ca6709ddf76cc083acc2f09e6c63ae9e13f943daa3505a4",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-mechanism-repair-2026-09-12/verification-startup-acceptance.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/verification-startup-implementation-report.md",
+      "bytes": 4583,
+      "sha256": "3b83323bef2c199cb568aaa2872155c948a80b488fa51bb63c86a2e6c9edb803",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-mechanism-repair-2026-09-12/verification-startup-implementation-report.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/verification-startup-incident.md",
+      "bytes": 1600,
+      "sha256": "dbeece86a1af44981eb520a8de54772eb81cdb8cdb90470f7036b2671c42653d",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-mechanism-repair-2026-09-12/verification-startup-incident.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-dependent-helper-preparation-2026-09-13.md",
+      "bytes": 8686,
+      "sha256": "07edf9abfc7fa8338aa809ab9ca202c7104c462cd671eca2e117511ba04041a5",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-dependent-helper-preparation-2026-09-13.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-evidence-ui-review-2026-09-13.md",
+      "bytes": 3327,
+      "sha256": "a924cb1ad0ce3934a1df0581d90de33b3df85eb6eb5d6a3d543dd30aea4d8218",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-evidence-ui-review-2026-09-13.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-exact-guard-contract-2026-09-13.md",
+      "bytes": 6586,
+      "sha256": "658d1ecd6773ee93a3ca8cd2f976aea00492a73a5a16252a07840a0a9fec2c85",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-exact-guard-contract-2026-09-13.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-reference-contract-2026-09-13.md",
+      "bytes": 6784,
+      "sha256": "d40251beae7b1e880f6e6e8ad0e1067f735eacfcec7e07ecfe6a2e372179b713",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-reference-contract-2026-09-13.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-independent-audit-report-2026-09-13.md",
+      "bytes": 7612,
+      "sha256": "6e52d184bdc71b425f27b44501c9ecd4f8fc4aafa0e5b0245506eb24d740ec50",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-independent-audit-report-2026-09-13.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-preregistration-2026-09-13.md",
+      "bytes": 9336,
+      "sha256": "7cc902cfaee01a40bd69828953016c9a4ca6ea3cd64a0a9a3e0c6516dd669b10",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-preregistration-2026-09-13.md"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-result-2026-09-13.md",
+      "bytes": 6892,
+      "sha256": "ba3b6e4bcd779f88a05ac4705da8bebe307f878748c2178c153f23b4aaa7fca3",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-result-2026-09-13.md"
+    },
+    {
+      "path": "docs/evidence/reward-refractory-contract-2026-09-12.md",
+      "bytes": 4446,
+      "sha256": "628dca723466c07a85211b859829a6d7d266d2b33d73d8f5ca866e7b388973f8",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-refractory-contract-2026-09-12.md"
+    },
+    {
+      "path": "docs/evidence/reward-repair-phase1.md",
+      "bytes": 6457,
+      "sha256": "a29016a1360825c4f89a74ad5cb5ccb447855d00f449a3943c96be82491daad5",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-repair-phase1.md"
+    },
+    {
+      "path": "docs/evidence/reward-v3-summary.md",
+      "bytes": 19990,
+      "sha256": "4a9ca4c6d737f7302584f10786b3867f9fae1849af8a3546474ea525dc526710",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/reward-v3-summary.md"
+    },
+    {
+      "path": "docs/evidence/v2-development-summary.md",
+      "bytes": 5625,
+      "sha256": "1e323a640ee34b5fe1757c6321def30aee929792607d3fad8581239e8740e090",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/evidence/v2-development-summary.md"
+    },
+    {
+      "path": "docs/sports-data.md",
+      "bytes": 3667,
+      "sha256": "309961febe6205595dc6a196ab287d8810a07b2a1b738c9f3c54fb4d47a34a9e",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/sports-data.md"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-09-10-bet36fly.md",
+      "bytes": 3348,
+      "sha256": "e68a78a0f73d30aff14604ed7d03cd89c57a8f9beb3ba5b0c34780d4d0295d8e",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/superpowers/plans/2026-09-10-bet36fly.md"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-09-11-dopamine-learning.md",
+      "bytes": 2975,
+      "sha256": "3f96b056ffc8b7ff4b2d9e0248bd7ed4e901692e0af19dfb006f9662a705cd0f",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/superpowers/plans/2026-09-11-dopamine-learning.md"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-09-12-reward-mechanism-repair.md",
+      "bytes": 9796,
+      "sha256": "27c4dddba17f908bf75a5bcbd9ba77debca065c18287c97ad704dc584a21633c",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/superpowers/plans/2026-09-12-reward-mechanism-repair.md"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-09-10-bet36fly-design.md",
+      "bytes": 3597,
+      "sha256": "511810d2c98db69d128d0541b85388f28b590797b92f0cad9b1d1a69b5518d31",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/superpowers/specs/2026-09-10-bet36fly-design.md"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-09-11-dopamine-learning-design.md",
+      "bytes": 8613,
+      "sha256": "dba7ca6c9b34615a6a44ba517d88a0bef9fc6361cbb19f6ddb307c27840e823c",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "docs/superpowers/specs/2026-09-11-dopamine-learning-design.md"
+    },
+    {
+      "path": "wiki/SCHEMA.md",
+      "bytes": 2097,
+      "sha256": "d8e787e3a9e9e46f363b68b04d659b47319cabbd885cabd0245faa1f7714e56a",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "wiki/SCHEMA.md"
+    },
+    {
+      "path": "wiki/cells/alpn.md",
+      "bytes": 3054,
+      "sha256": "98f3fa94f0575d4cc3b44f761f0359cd1d1423741f1beec40cccdda57fff37b0",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "wiki/cells/alpn.md"
+    },
+    {
+      "path": "wiki/cells/apl.md",
+      "bytes": 2125,
+      "sha256": "90a633e7a6b28aa20a3f775e4c552d0ab9537950a6ada041cf13d7c0f69e3a99",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "wiki/cells/apl.md"
+    },
+    {
+      "path": "wiki/cells/dopamine.md",
+      "bytes": 9582,
+      "sha256": "bfb10eacb5a811fcfbab63a9725b079b33c81f0207432a34c1a0c043a8b2ce0f",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "wiki/cells/dopamine.md"
+    },
+    {
+      "path": "wiki/cells/identities.md",
+      "bytes": 5302,
+      "sha256": "af5e1142bcfaea5ec17c3f41c5e2cd3ff3517359b8ce890a24292c52cd425b5a",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "wiki/cells/identities.md"
+    },
+    {
+      "path": "wiki/cells/index.md",
+      "bytes": 3656,
+      "sha256": "4dfe6117329a6c4ec7817c3717e27e8602e453f335ba6d43927fecf00fe22c68",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "wiki/cells/index.md"
+    },
+    {
+      "path": "wiki/cells/kenyon-cells.md",
+      "bytes": 3608,
+      "sha256": "a51404474afc6342d8b20fbd59bdf7027408827030b8ae03f798ecb1537cd8db",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "wiki/cells/kenyon-cells.md"
+    },
+    {
+      "path": "wiki/cells/mbons.md",
+      "bytes": 3112,
+      "sha256": "ab14f38e2f6e284351742946865fcb6b1124ba25487c0513abe136f3bf19a223",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "wiki/cells/mbons.md"
+    },
+    {
+      "path": "wiki/cells/neurochemistry.md",
+      "bytes": 3156,
+      "sha256": "d796cb57a26ecad74d4518cde8458717c05521f12a7be7d5a10f7e1a4358e4f6",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "wiki/cells/neurochemistry.md"
+    },
+    {
+      "path": "wiki/cells/ppl101-inputs.md",
+      "bytes": 7189,
+      "sha256": "2a687d33e28fdba253643c9f5c1c727f891bf3ac256b001a5c5065035df90496",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "wiki/cells/ppl101-inputs.md"
+    },
+    {
+      "path": "wiki/cells/synapse-localization.md",
+      "bytes": 7059,
+      "sha256": "1ddaacce6a657b4a93191f377a334d2a533df0df0706cf3086950372bb9c780f",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "wiki/cells/synapse-localization.md"
+    },
+    {
+      "path": "wiki/community.md",
+      "bytes": 3335,
+      "sha256": "221bf43749b150750a2c669c8482f8915db0bef4ae595171a62aecfdd9c7b63f",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "wiki/community.md"
+    },
+    {
+      "path": "wiki/evidence-gates.md",
+      "bytes": 5206,
+      "sha256": "a583336d170ad578764c3132798385e94a0bedd7e25c683b8250f8006bd01649",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "wiki/evidence-gates.md"
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/README.md",
+      "bytes": 1683,
+      "sha256": "51121084b6f0d945e0221e327140e0f283c7dfaf417809bdd6acadb7d76d91bc",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "wiki/imports/microduck-2026-09-12/README.md"
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/research/raw/2026-09-12/microduck-runtime/README.md",
+      "bytes": 5131,
+      "sha256": "688c04bbb8e9b677c6ce65a1d76597488a02098ad5d69939a8a1d52f7b05698f",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "wiki/imports/microduck-2026-09-12/research/raw/2026-09-12/microduck-runtime/README.md"
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/research/raw/2026-09-12/microduck-runtime/docs/design/architecture.md",
+      "bytes": 36328,
+      "sha256": "313bc1d1900da2f68f4d6473ff9a7f4901d466336ab06d87bc4dec2e109f76c5",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "wiki/imports/microduck-2026-09-12/research/raw/2026-09-12/microduck-runtime/docs/design/architecture.md"
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/research/raw/2026-09-12/microduck-runtime/docs/policy-manifest.md",
+      "bytes": 7508,
+      "sha256": "483f6493b50d94b4b7befd341caf446a7e50df0de0fdfbf58c3b3bf0817fc3d5",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "wiki/imports/microduck-2026-09-12/research/raw/2026-09-12/microduck-runtime/docs/policy-manifest.md"
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/research/raw/2026-09-12/microduck-runtime/docs/recurrent-policies.md",
+      "bytes": 4461,
+      "sha256": "863cebeb5cf98fbb13ee5458b8460bf0962e8a732904d8b07021e2365fa00beb",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "wiki/imports/microduck-2026-09-12/research/raw/2026-09-12/microduck-runtime/docs/recurrent-policies.md"
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/research/raw/2026-09-12/microduck-runtime/docs/robot/simulation.md",
+      "bytes": 10254,
+      "sha256": "7f24d8e7885aa2d6b2151ddee2c789dbb7be43c15e172b4998769b35daacdf7a",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "wiki/imports/microduck-2026-09-12/research/raw/2026-09-12/microduck-runtime/docs/robot/simulation.md"
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/research/raw/2026-09-12/microduck_rl/README.md",
+      "bytes": 13267,
+      "sha256": "b5e606efe7ff71f4f6324820b36152d401a0b1be6e2f908bbaca01ffee81638d",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "wiki/imports/microduck-2026-09-12/research/raw/2026-09-12/microduck_rl/README.md"
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/research/raw/index.md",
+      "bytes": 1971,
+      "sha256": "f7500261fc342b067c40f371c8b859ae52a9ea82d4a28c69fc7d3c96284c2feb",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "wiki/imports/microduck-2026-09-12/research/raw/index.md"
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/SCHEMA.md",
+      "bytes": 5188,
+      "sha256": "496209f8585ab0ae2a0d1dad4048353dae7d53b516d90d37ae4152807bbfcd31",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "wiki/imports/microduck-2026-09-12/wiki/SCHEMA.md"
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/community/claims-map.md",
+      "bytes": 5933,
+      "sha256": "3a4bd710d39011b4551a90c43ff9f7fa720e65a23e18252fd93ab4897aae87e2",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "wiki/imports/microduck-2026-09-12/wiki/community/claims-map.md"
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/community/fly-ecosystem.md",
+      "bytes": 5570,
+      "sha256": "defacabdc3994fe469dfc63c6f572df370bb6c7aaeb8f6825092c1b8a57408c3",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "wiki/imports/microduck-2026-09-12/wiki/community/fly-ecosystem.md"
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/community/flyhard.md",
+      "bytes": 5851,
+      "sha256": "f5e93a0907bb47542602f139e80e5c76e779a94118e5363b2e86d6ede31e688a",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "wiki/imports/microduck-2026-09-12/wiki/community/flyhard.md"
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/community/index.md",
+      "bytes": 3546,
+      "sha256": "45b10fa000066cb1f58e5e40211f01e6f1f925a3d30d6a9520e908e9b6a81a66",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "wiki/imports/microduck-2026-09-12/wiki/community/index.md"
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/community/joint-projects.md",
+      "bytes": 5592,
+      "sha256": "e30fd98938ae81687969cc0d4a29961d25b167f083cb22c42d5b64fa3dc66453",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "wiki/imports/microduck-2026-09-12/wiki/community/joint-projects.md"
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/community/microduck-ecosystem.md",
+      "bytes": 6199,
+      "sha256": "35d8411198b054c61ccd657ad4926e7a37e0bd5f3ae08df9ec084e0776732f0e",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "wiki/imports/microduck-2026-09-12/wiki/community/microduck-ecosystem.md"
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/community/sources.md",
+      "bytes": 6492,
+      "sha256": "215134bcf75aa9f642731f214a11d37afde54078059744cb8320c7c990998bf0",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "wiki/imports/microduck-2026-09-12/wiki/community/sources.md"
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/community/tools-and-distribution.md",
+      "bytes": 5143,
+      "sha256": "237abf9ce9f64fac3d95e206e5f72b2fb0de76247cb94f8d1752b7dc7823f06c",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "wiki/imports/microduck-2026-09-12/wiki/community/tools-and-distribution.md"
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/compute/brev.md",
+      "bytes": 3960,
+      "sha256": "e9e0dc41bd69cf50bec0d83f2ee070f2eb2998d5d24e7e357127d9e9d5100860",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "wiki/imports/microduck-2026-09-12/wiki/compute/brev.md"
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/compute/gpu-selection.md",
+      "bytes": 4612,
+      "sha256": "05d50e0e903f2899ef6a103c53420ce039f7f8e850dc790d094dbd3dbacdb7d9",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "wiki/imports/microduck-2026-09-12/wiki/compute/gpu-selection.md"
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/compute/hugging-face.md",
+      "bytes": 4762,
+      "sha256": "7d20b1d739f701d597ef11e24f99df15e581efa387724c3d28f4b045621393cd",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "wiki/imports/microduck-2026-09-12/wiki/compute/hugging-face.md"
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/compute/index.md",
+      "bytes": 3691,
+      "sha256": "36306ddbb62fbadfc054b0fe9789fb9407fd28921e942d4e32667414f2d188da",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "wiki/imports/microduck-2026-09-12/wiki/compute/index.md"
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/compute/ownership.md",
+      "bytes": 3106,
+      "sha256": "c0c54ab6009dde1a3465b4db513fb2f4e6b62b1bf6be7030f6319a572a2db92c",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "wiki/imports/microduck-2026-09-12/wiki/compute/ownership.md"
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/compute/run-contract.md",
+      "bytes": 4406,
+      "sha256": "8da9ebd726d022218d74e0e95827a37526670df0e961cc5660c5a22c3c666607",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "wiki/imports/microduck-2026-09-12/wiki/compute/run-contract.md"
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/compute/sources.md",
+      "bytes": 6097,
+      "sha256": "033890187235e741fb896c7f9f821de695bf84cd1be2d8c8640bccb25be9beeb",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "wiki/imports/microduck-2026-09-12/wiki/compute/sources.md"
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/connectome/brain-body-interface.md",
+      "bytes": 8984,
+      "sha256": "d72d5e81dfbf3280f3b52bb2971d177727235efbe85624d621f7cfc762ac848f",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "wiki/imports/microduck-2026-09-12/wiki/connectome/brain-body-interface.md"
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/connectome/embodiment-research.md",
+      "bytes": 6756,
+      "sha256": "5a6107f646f85708b5f9dceb884e1f99a5eea6a3043452c3ee90fb0166d329c4",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "wiki/imports/microduck-2026-09-12/wiki/connectome/embodiment-research.md"
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/connectome/index.md",
+      "bytes": 3568,
+      "sha256": "c89df465d9e8b58e568216e10adb48e9fa5be6ce1168f2b1d7bdb3fa21aa930e",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "wiki/imports/microduck-2026-09-12/wiki/connectome/index.md"
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/connectome/malecns-release.md",
+      "bytes": 5816,
+      "sha256": "decff1224415ffb99e46973d8795596564ed3e27d34374b1ee7af482a2c2ab72",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "wiki/imports/microduck-2026-09-12/wiki/connectome/malecns-release.md"
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/connectome/sources.md",
+      "bytes": 4274,
+      "sha256": "3ce73e4e729c32be9536f7d5fea62b43a969db164523e3360f73cfd877a37791",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "wiki/imports/microduck-2026-09-12/wiki/connectome/sources.md"
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/index.md",
+      "bytes": 3409,
+      "sha256": "c384e548e7b714247a6893f29e1563b55f3e36215744f8abb14857b1cb321a6a",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "wiki/imports/microduck-2026-09-12/wiki/index.md"
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/log.md",
+      "bytes": 2023,
+      "sha256": "910cbfa59e36ac2211e447e75058c1838cc9af074c61afd311221019dea6ace4",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "wiki/imports/microduck-2026-09-12/wiki/log.md"
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/microduck/index.md",
+      "bytes": 1696,
+      "sha256": "a8d182c29a0f1e748173c49996e51589b1bb84f63de838ec5db53eaf0b90d3c8",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "wiki/imports/microduck-2026-09-12/wiki/microduck/index.md"
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/microduck/pickup-mechanics.md",
+      "bytes": 6092,
+      "sha256": "12cb353aed23313dc0f815affb4cadea71325eefba10a0605f3b8905ec669fc5",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "wiki/imports/microduck-2026-09-12/wiki/microduck/pickup-mechanics.md"
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/microduck/runtime.md",
+      "bytes": 6254,
+      "sha256": "23ee03308018c60109dad2b5e7c68b373fb8ebc22dafefea8cbad8c5db1d0ff3",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "wiki/imports/microduck-2026-09-12/wiki/microduck/runtime.md"
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/microduck/simulators.md",
+      "bytes": 6569,
+      "sha256": "500176c44d1b79bc0d7d82b37870a1e54223fb946e4f1897eed40d62f359a1bb",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "wiki/imports/microduck-2026-09-12/wiki/microduck/simulators.md"
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/microduck/sources.md",
+      "bytes": 4820,
+      "sha256": "aca088ee8a9e154bb1a1abcc081a7bc89039d3fa3059895511e0572fa100885e",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "wiki/imports/microduck-2026-09-12/wiki/microduck/sources.md"
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/microduck/trainer.md",
+      "bytes": 6983,
+      "sha256": "724321bbf0ee5356c02c9c3d2cab82915875113e5a3d1f8c4173365bc28e7c62",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "wiki/imports/microduck-2026-09-12/wiki/microduck/trainer.md"
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/overview.md",
+      "bytes": 4860,
+      "sha256": "e9aa1ecfeb820b360bc6851e4b884c7d2b5b9a215225d9480b35401490d350de",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "wiki/imports/microduck-2026-09-12/wiki/overview.md"
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/synthesis/hazard-evaluation.md",
+      "bytes": 7196,
+      "sha256": "8c6a94c28a8bf80712c329c8e26af1c767c97dcfcc693da15a49b18b9c0ddcac",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "wiki/imports/microduck-2026-09-12/wiki/synthesis/hazard-evaluation.md"
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/synthesis/open-questions.md",
+      "bytes": 4554,
+      "sha256": "bb4bdbbb45f4a3fcd35fc64f326a5dc98b44f09f2206f0a8f3d1e82b15433906",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "wiki/imports/microduck-2026-09-12/wiki/synthesis/open-questions.md"
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/synthesis/training-and-deployment.md",
+      "bytes": 7552,
+      "sha256": "1497b865a157c9ec3edb079d9154e78d5b60eae4cbdc56d1c11124ecd0c76ddc",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "wiki/imports/microduck-2026-09-12/wiki/synthesis/training-and-deployment.md"
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/verification.md",
+      "bytes": 3833,
+      "sha256": "8d1a1ba10a3575cceab76d2279fe05bbcf235703a4219691fb7263d4e0f4c129",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "wiki/imports/microduck-2026-09-12/wiki/verification.md"
+    },
+    {
+      "path": "wiki/index.md",
+      "bytes": 3774,
+      "sha256": "51c2bc21e484977d1bd89a9f0d0b4c8f846ca10458a8da1222d81233779286e2",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "wiki/index.md"
+    },
+    {
+      "path": "wiki/learning-rule.md",
+      "bytes": 9133,
+      "sha256": "1a069655f29b98413829dba6463d12ea0756fed84626edd0f9ec1702594ef9d3",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "wiki/learning-rule.md"
+    },
+    {
+      "path": "wiki/log.md",
+      "bytes": 2758,
+      "sha256": "1adb2f50315ac1157e3e2e73c1cc1f28509b2ee8eb9164152cc297546689ea6b",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "wiki/log.md"
+    },
+    {
+      "path": "wiki/reassessment.md",
+      "bytes": 11861,
+      "sha256": "5b6abbeb4b97d8c2719dedac1c35b74a6c2797d758ca1c2949f4861952dd954c",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "wiki/reassessment.md"
+    },
+    {
+      "path": "wiki/sources.md",
+      "bytes": 4298,
+      "sha256": "fb430bd8ce84202bd371ee0ccf5c5fd69b2f367fcb11b776b4cedb5ef5c07a54",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "wiki/sources.md"
+    },
+    {
+      "path": "wiki/verification.md",
+      "bytes": 7838,
+      "sha256": "4e8cb2ab1761a48f0253d876d6a93b44d62a5253ac4492c0910f7e8db4441a25",
+      "coverage": "Current bytes equal personally fully read contents in bound reading chain (exact-content deduplication)",
+      "prior_read_path": "wiki/verification.md"
+    }
+  ],
+  "inspected_code_and_tests": [
+    {
+      "path": "bet36fly/conditioning.py",
+      "bytes": 57629,
+      "sha256": "45785e34d05b7129878c0fbc07a08bc48b8696353b2013fff10dbad635677e34",
+      "reading": "Full file"
+    },
+    {
+      "path": "bet36fly/conditioning_runner.py",
+      "bytes": 45519,
+      "sha256": "78128541cca1513a6cef50e2107d365c7ab68588bab795100c5f52e2396ce0fd",
+      "reading": "Full file"
+    },
+    {
+      "path": "bet36fly/conditioning_evidence.py",
+      "bytes": 17721,
+      "sha256": "00203f34eb3b5a5261502fc34e952e5abbb40c41029ada8ce125b327ee738a7c",
+      "reading": "Full file"
+    },
+    {
+      "path": "bet36fly/reward_evidence.py",
+      "bytes": 39260,
+      "sha256": "bb36ad4ee0dfd73bb7e01e9c67bb2ca833015828fe91b20b22a85516c1adab0e",
+      "reading": "Full file"
+    },
+    {
+      "path": "bet36fly/reward_brain.py",
+      "bytes": 28621,
+      "sha256": "5a6d67d38d226c6792c4f11430610772894ea3e9ae9593c2d215cfd7eaa0a6d5",
+      "reading": "Full file, truncated output passages separately reread"
+    },
+    {
+      "path": "bet36fly/reward_lif.cpp",
+      "bytes": 19913,
+      "sha256": "e7dbb0aa8f95873036415581e94de45c237941f05642ccc90812c1be1119be37",
+      "reading": "Full file"
+    },
+    {
+      "path": "bet36fly/reward_protocol.py",
+      "bytes": 15356,
+      "sha256": "e1a315f991debb677fca30f6e821a657135adccf032ad26054a00ed7688dc1bb",
+      "reading": "Full file"
+    },
+    {
+      "path": "bet36fly/reward_diagnostic.py",
+      "bytes": 25196,
+      "sha256": "59feb14834813fa6793f0f97a8e4c208fd85494b383e9fa5875efe5b21189c99",
+      "reading": "Full file"
+    },
+    {
+      "path": "bet36fly/connectome.py",
+      "bytes": 7912,
+      "sha256": "f350c9f318a1cf7219e3ba5ce144ea7458d69e6decb4b2425a634a9d002a79fb",
+      "reading": "Full file"
+    },
+    {
+      "path": "scripts/reward_teaching_diagnostic.py",
+      "bytes": 24888,
+      "sha256": "d18df419fe4c78001019d6feadff5b6c37df2de69f7e278d46d3cf02bc539598",
+      "reading": "Lines170-325; identity/control callpath also searched"
+    },
+    {
+      "path": "tests/test_conditioning.py",
+      "bytes": 10314,
+      "sha256": "3b9842d0eae6e79f4428729fa2aefbe8fdd7176d52eac176235b542f29d6e60e",
+      "reading": "Full file"
+    },
+    {
+      "path": "tests/test_conditioning_runner.py",
+      "bytes": 18150,
+      "sha256": "589670ba192b289d1e067e41e59ed4c45349b3809a63951a1bf4ebdf85609f3c",
+      "reading": "Full file"
+    },
+    {
+      "path": "tests/test_conditioning_independent_exact_arithmetic.py",
+      "bytes": 10658,
+      "sha256": "52daaad44566939b0b689255393e9593ae171ae28689cfe1229ddca4e825ca55",
+      "reading": "Full file"
+    },
+    {
+      "path": "tests/test_reward_rule_reference.py",
+      "bytes": 7345,
+      "sha256": "7b0655af7064bbd420740c91b6187537efa51aaa409f94b31198602445dd67a8",
+      "reading": "Lines1-160"
+    },
+    {
+      "path": "tests/test_reward_rate_bridge.py",
+      "bytes": 16068,
+      "sha256": "f759030dc47f6a2824540c5365ce00dbfdcd9b2ccab2794731d9713f4bf947e1",
+      "reading": "Lines270-325"
+    },
+    {
+      "path": "tests/test_reward_diagnostic.py",
+      "bytes": 31089,
+      "sha256": "0b9909b78ce50ab78fb3e639f70d031c5a3b9a8da62c1eb3a26dc155b3b98328",
+      "reading": "Lines1-125; complete function/parameter inventory searched"
+    },
+    {
+      "path": "tests/test_reward_evidence.py",
+      "bytes": 17836,
+      "sha256": "1cb165de6c2fdd01d1a5fe7ab3c59eecb6b4d146c07cea931fe2b04356754809",
+      "reading": "Lines1-95; complete function/parameter inventory searched"
+    },
+    {
+      "path": "tests/test_conditioning_independent_qualification.py",
+      "bytes": 901,
+      "sha256": "3bb2cb252cc23045638f24b562acff7530cc2ed0c1aaa271a1c601def5941d03",
+      "reading": "Full file"
+    },
+    {
+      "path": "tests/test_connectome.py",
+      "bytes": 1771,
+      "sha256": "5823585346e496d14f81454ef87d94f55ea4ce8632ac8e82a4cd922334c0c2b0",
+      "reading": "Full file"
+    },
+    {
+      "path": "tests/test_reward_encoder.py",
+      "bytes": 5799,
+      "sha256": "499d344c1c0fa330c53517aaaf2cc061bad64fc27f9009973fb14d579cee54c6",
+      "reading": "Lines80-120; complete function/parameter inventory searched"
+    }
+  ],
+  "read_only_graph_inventory_inputs": [
+    {
+      "path": "data/brain/ids.npy",
+      "bytes": 1333728,
+      "sha256": "ab90597b7b0ce07cbc22cb39a65b70bea2ac73cc7fd225951bd9d73f2fc8dd3f"
+    },
+    {
+      "path": "data/brain/indptr.npy",
+      "bytes": 1333736,
+      "sha256": "fe43420f11e6242a11f8199ae7f097cab4b8a6db181d36f2a46b9e46670acbb4"
+    },
+    {
+      "path": "data/brain/post.npy",
+      "bytes": 102331880,
+      "sha256": "ce20f7433f78442c717ad2a7b5394cf4a3b109d990b4be0788040b7b0f4ed150"
+    },
+    {
+      "path": "data/brain/counts.npy",
+      "bytes": 102331880,
+      "sha256": "4a11faf9771fc3d5a5ff78ae7620ec1ce400f52d099ff657f0342cfc7a519f6b"
+    },
+    {
+      "path": "data/brain/signs.npy",
+      "bytes": 166828,
+      "sha256": "4a0725e94d5014b2f17a70e3bdef3f7d843c0e81a8f22a33284aa10d8d62dab5"
+    },
+    {
+      "path": "data/brain/kc.npy",
+      "bytes": 16384,
+      "sha256": "97a570aafa089f93e642b2bb07e3a3322dabb14c3c7dd431f0c8d2b3b7951fdd"
+    },
+    {
+      "path": "data/brain/sensory.npy",
+      "bytes": 2872,
+      "sha256": "ed574f42559455069679f8ce3b339395efa9398ec13e199eab47959533370805"
+    },
+    {
+      "path": "data/brain/nodes.feather",
+      "bytes": 6210474,
+      "sha256": "d706a6dd5ec1dc17cfba2e8f439232723af81729bf1d0c17bf0cc73860a9c867"
+    }
+  ],
+  "read_only_graph_inventory": {
+    "kcs": 4064,
+    "all_kc_annotation": "acetylcholine",
+    "stored_kc_signs": [
+      1
+    ],
+    "kc_to_kc_directed_pairs": 642933,
+    "kc_to_kc_contacts": 1153845,
+    "self_pairs": 1,
+    "kc_sensory_overlap": 0,
+    "calculation": "Iterate retained KC outgoing CSR rows; select destinations in retained KC membership; sum counts in float64 (all integer contact values); body-ID align node annotations. No make_circuit or native call."
+  },
+  "report": {
+    "path": "output/collaboration/reward-mechanism-repair/conditioning-contract-evidence-ui-audit-2026-09-13.md",
+    "bytes": 9484,
+    "sha256": "4e7e6c6b291dc77a9e582385926cee24273e071bbc0b549ae8ca455ee916091b"
+  },
+  "actionable_new_implementation_findings": [],
+  "scope_findings": [
+    "Current trial state resets and 100ms signal onset are explicit, gains persist separately per arm.",
+    "Responses are fixed within-MBON cue-window counts; exact arithmetic preserves frozen ratio boundaries.",
+    "Untaught diagnostics are separate plasticity-on circuit calls; common sensory randomness is intentional.",
+    "Half-SD untaught drift gate is a scientific acceptance requirement, not a theorem for endogenous correlated activity.",
+    "New learning rules or complete raw archive formats require explicit new validator/identity support.",
+    "Current KC-to-KC ACh edges use fixed positive fast-sign proxy without muscarinic/target-voltage receptor modulation."
+  ],
+  "tests_executed": 0,
+  "native_calls": 0,
+  "network_requests": 0,
+  "circuit_or_shadow_evaluations": 0,
+  "browser_or_server_actions": 0,
+  "production_changes": false,
+  "shared_narrative_changes": false,
+  "only_created_files": [
+    "conditioning-contract-evidence-ui-audit-2026-09-13.md",
+    "conditioning-contract-evidence-ui-reading-2026-09-13.json"
+  ],
+  "scientific_status": "Goal active; qualification and actual conditioning remain unresolved. No new mechanism or gate change proposed by this audit.",
+  "limitations": [
+    "No current test rerun; inspected actual tests and source.",
+    "No new primary-source browsing; source agents own the new muscarinic paper review.",
+    "Read-only graph contact inventory does not decode synapse bodies or positions, infer receptor expression, or predict response to adding a receptor mechanism."
+  ]
+}

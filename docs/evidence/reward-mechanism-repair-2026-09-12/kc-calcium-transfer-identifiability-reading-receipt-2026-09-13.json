@@ -1,0 +1,75 @@
+{
+  "agent": "dopamine_sources",
+  "checked_at_utc": "2026-09-13T08:47:14.096701+00:00",
+  "status": "complete_bounded_offline_identifiability_review",
+  "note": {
+    "path": "output/collaboration/reward-mechanism-repair/kc-calcium-transfer-identifiability-2026-09-13.md",
+    "bytes": 11365,
+    "sha256": "18f1c1abbbfbf02cda9718e44965b9fdf807015556732935093a3fa6bd22deec"
+  },
+  "prior_complete_reading_receipt": {
+    "path": "output/collaboration/reward-mechanism-repair/learning-coupling-mathematical-source-reading-receipt-2026-09-13.json",
+    "bytes": 48087,
+    "sha256": "260688551e1402dd2bcdc9c371575c8e230178a59f7e5ce30c094997506aab52"
+  },
+  "current_docs_wiki_hash_reconciliation": {
+    "count": 160,
+    "new_unread_deltas": [],
+    "method": "All current docs/wiki whole-file hashes match personally read coverage in preserved prior receipt."
+  },
+  "new_personal_read": [
+    {
+      "path": "output/collaboration/reward-mechanism-repair/kc-lateral-primary-source-2026-09-13/upstream/codes/fit_rate_model_to_data.py",
+      "bytes": 14966,
+      "sha256": "d76911cff9468883fc2bbc3c8f7647e7f3935acf5d51bda6ddb877a451986142"
+    }
+  ],
+  "reread_full": [
+    {
+      "path": "output/collaboration/reward-mechanism-repair/kc-lateral-primary-source-2026-09-13/upstream/codes/fit_functions.py",
+      "bytes": 8059,
+      "sha256": "ca238b5d6acaa40ba7bcee650ab6697872263dd69b1ebc082b27779ae67cbc5b"
+    }
+  ],
+  "source_fitter_git_blob_sha1": "9473d239549daea849835a8ed3bf651989fee29f",
+  "source_version": "f0ee2079dae6761cc2d07f04e96e76e2654b6e3c",
+  "source_url": "https://github.com/nawrotlab/KC_KC_lateral_interactions/tree/f0ee2079dae6761cc2d07f04e96e76e2654b6e3c",
+  "source_inspection_date": "2026-09-13",
+  "workbook_inspection": {
+    "inventory": {
+      "path": "output/collaboration/reward-mechanism-repair/kc-lateral-primary-source-2026-09-13/calcium-workbook-inventory.json",
+      "bytes": 69141,
+      "sha256": "af1109cad767745802ff4fae62088e4c49e9eb05b5c9d68f013c2c7aa968f166"
+    },
+    "original": {
+      "path": "output/collaboration/reward-mechanism-repair/kc-lateral-primary-source-2026-09-13/upstream/data/gamma_mch_responses_manoim_supplement.xlsx",
+      "bytes": 28573,
+      "sha256": "f92ab807009e2e8160fbc8c6c100731012052843484de6c796c7faf673712a1d"
+    },
+    "method": "Read inventory schema; programmatically parsed every recorded row, checked headers,499data rows,1996finite numeric values,no formula cells; independently rehashed original workbook. Parent read original workbook with openpyxl; this agent did not rerun that parser or claim personal visual reading of all cells.",
+    "residuals_or_model_evaluations": 0
+  },
+  "conclusions": [
+    "Source tauinp is a forcing-amplitude divisor, not a separate input-filter state.",
+    "For u=q*r, positive joint rescaling of q and tauinp leaves trajectories invariant; source odor amplitude conventions do not identify q for real spikes.",
+    "Physical calcium scaling and per-cell correspondence are not identified by normalized population means.",
+    "A fixed30Hz source module is mathematically possible; a continuous embedding requires explicit assumptions and is not uniquely identified by sampled endpoints.",
+    "Next action is an explicit input/observation/clock/local-coupling contract, separate from external-fit reproduction, with no use of failed BET36FLY outcomes to set values."
+  ],
+  "checks": {
+    "equivalence_derivations": "analytic; no numerical source-model run",
+    "workbook_structure_and_source_identity": "pass",
+    "new_source_semantic_tests": "none; parent owns separate source-semantic suite",
+    "standard_repository_gate": "root ownership; no production/application changes by this review"
+  },
+  "scope": {
+    "network_calls": 0,
+    "fits": 0,
+    "residual_analyses": 0,
+    "downloaded_code_executions": 0,
+    "actual_saved_history_evaluations": 0,
+    "native_or_circuit_calls": 0,
+    "new_parameter_choices": 0,
+    "production_or_shared_narrative_edits": 0
+  }
+}

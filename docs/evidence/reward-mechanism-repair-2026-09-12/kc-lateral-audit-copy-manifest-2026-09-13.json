@@ -1,0 +1,66 @@
+{
+  "checked_at_utc": "2026-09-13T08:50:59.000263+00:00",
+  "originals_preserved": true,
+  "copies": [
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-lateral-evidence-ui-independent-review-2026-09-13.md",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-evidence-ui-independent-review-2026-09-13.md",
+      "bytes": 6701,
+      "sha256": "2103fde74c3c6777c87f13aa2f3bb47460f34fe08f2b18e90d6c726426473fd9"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-lateral-evidence-ui-reading-review-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-evidence-ui-reading-review-2026-09-13.json",
+      "bytes": 74203,
+      "sha256": "bd9bb0bc55f564f282acc6cd2cbbcdb662b3714daf1237c84484e5af0fbc2646"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/test_kc_lateral_evidence_ui_independent.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/test_kc_lateral_evidence_ui_independent.py",
+      "bytes": 9195,
+      "sha256": "272e10406a95f7c5ebc2d91ed8c99fba1a50404b7130150d2a55bdc01d508d61"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-lateral-evidence-ui-synthetic-tests-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-evidence-ui-synthetic-tests-2026-09-13.txt",
+      "bytes": 568,
+      "sha256": "989eb50c963d702924cb92f71ea9733a1e8a8928738f3a2dc4aa1f2b809f4b17"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-calcium-transfer-identifiability-2026-09-13.md",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-calcium-transfer-identifiability-2026-09-13.md",
+      "bytes": 11365,
+      "sha256": "18f1c1abbbfbf02cda9718e44965b9fdf807015556732935093a3fa6bd22deec"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-calcium-transfer-identifiability-reading-receipt-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-calcium-transfer-identifiability-reading-receipt-2026-09-13.json",
+      "bytes": 4012,
+      "sha256": "9a7e6a0d3ce0548789b64903e77cca2dbdd5b672da0c693d9828dfbd70f3290f"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-lateral-make-verify-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-make-verify-2026-09-13.txt",
+      "bytes": 6295,
+      "sha256": "1443f2f94c0f112bc0173df538154fa5d7ab75508fb67206d989b31dfd4e3db5"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-lateral-protected-after-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-protected-after-2026-09-13.json",
+      "bytes": 542,
+      "sha256": "65538607703c178041e64fe728a0eddb8b9009f24fbe5743cadb4f08d86e2c17"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-lateral-root-source-refresh-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-root-source-refresh-2026-09-13.json",
+      "bytes": 2867,
+      "sha256": "86795033b6770ba8304ab16ac636b7e99cbb5c06b30412cef3f52c0b966a05ea"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-lateral-source-audit-result-2026-09-13.md",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-source-audit-result-2026-09-13.md",
+      "bytes": 5013,
+      "sha256": "9cfa2b04571dda3efe3f924889702afc915fa51ca840f378752c4dbf7b556aef"
+    }
+  ]
+}

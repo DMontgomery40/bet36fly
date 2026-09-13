@@ -1,0 +1,13 @@
+{
+  "checked_at_utc": "2026-09-13T08:34:01.604215+00:00",
+  "all_14_files_byte_and_git_hash_verified": true,
+  "bytes": 171449,
+  "download_process": "terminal exit 0; handle 64222 closed",
+  "requested_seconds_cap": 120,
+  "recorded_elapsed_seconds": 225.68834870797582,
+  "time_budget_status": "exceeded; requested Python SIGALRM did not enforce its 120-second bound",
+  "original_receipt_preserved": true,
+  "no_retry_or_additional_download": true,
+  "source_inspection_not_experiment": true,
+  "scientific_candidate_evaluated": false
+}

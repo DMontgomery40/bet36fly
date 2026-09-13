@@ -1,0 +1,29 @@
+{
+  "checked_at_utc": "2026-09-13T08:52:56.881906+00:00",
+  "status": "pass",
+  "exact_source_copy_pairs": 43,
+  "copied_bytes": 633576,
+  "originals_preserved": true,
+  "local_narrative_links_checked": 180,
+  "missing_links": [],
+  "copied_tests": {
+    "total": 226,
+    "source_function_tests": 139,
+    "analytic_tests": 87,
+    "elapsed_seconds": 0.51
+  },
+  "make_verify": {
+    "terminal_exit_code": 0,
+    "python_tests": 4055,
+    "existing_warnings": 2,
+    "frontend_tests": 85,
+    "ruff": "pass",
+    "vite": "pass",
+    "log": "kc-lateral-make-verify-2026-09-13.txt"
+  },
+  "protected_receipt": "kc-lateral-protected-after-2026-09-13.json",
+  "candidate_or_fit_run": false,
+  "production_api_ui_changed": false,
+  "source_acquisition_time_cap": "exceeded; separate original budget receipt preserved",
+  "scope": "Preparation/source audit checkpoint, not completion of repair goal"
+}

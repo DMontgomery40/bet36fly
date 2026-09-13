@@ -1,0 +1,9 @@
+{
+  "checked_at_utc": "2026-09-13T08:29:09.199575+00:00",
+  "url": "https://api.github.com/repos/nawrotlab/KC_KC_lateral_interactions/git/trees/f0ee2079dae6761cc2d07f04e96e76e2654b6e3c?recursive=1",
+  "http_status": 200,
+  "bytes": 5697,
+  "sha256": "2b8a8b811e63840b6203a2d6bf5224c8c909da4212f7fc193197025b2e1aaa9f",
+  "commit": "f0ee2079dae6761cc2d07f04e96e76e2654b6e3c",
+  "executed_source_code": false
+}

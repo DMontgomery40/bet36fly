@@ -2,6 +2,16 @@
 
 **Status: scientific HOLD; the rate bridge still fails the second panel's untaught-home guard.** Both the corrected raw-event rule and the subsequent rate bridge pass the original panel but fail the previously frozen second panel. The rate bridge reduces the measured drift without satisfying the unchanged guard. Numerical implementation tests pass; cue-specific acquisition, reversal and improved sports prediction remain unestablished. Conditioning has not run.
 
+The later [KC muscarinic source/model review](handler-kc-switch-model-transfer-review-2026-09-13.md)
+and [independent coupling analysis](learning-coupling-mathematical-source-review-2026-09-13.md)
+identify a concrete local-state hypothesis, along with two barriers to direct
+transfer: an external-shock dopamine gate and timestep-dependent inhibition.
+The [current code/conditioning audit](conditioning-contract-evidence-ui-audit-2026-09-13.md)
+found no new reset/sign/control defect and confirms the receptor state is
+unimplemented. The [synthetic source audit](kc-lateral-source-audit-protocol-2026-09-13.md)
+does not fit or evaluate a new MaleCNS mechanism. See the
+[cell-specific explanation](../../../wiki/cells/kc-lateral-signaling.md).
+
 The September 13 [individual PPL101 signal analysis](ppl101-signal-basis-result-2026-09-13.md)
 reproduces all 32 canonical home gain vectors and leaves local routing
 unresolved; its necessary bounds establish no passing map. The separate

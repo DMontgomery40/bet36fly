@@ -9,6 +9,14 @@ status: learning-unvalidated
 
 ## Current account — September 13 UTC
 
+A later [KC lateral-signaling source audit](cells/kc-lateral-signaling.md)
+adds a specific missing physiological representation: muscarinic modulation
+of local KC signaling. The current graph has 642,933 KC→KC pairs but no such
+receptor state. Inspection of the primary model found an explicit shock gate
+and clock-dependent inhibition semantics, so its reported learning cannot be
+transferred directly. The source code and complete external calcium workbook
+are preserved; no new candidate or successful qualification follows from them.
+
 The retained repair was merged in `e385050`; it is now in this checkout.
 Refractory input banking was fixed, the away gamma mask is implemented, and
 `rate-bridge-v1` has independent numerical tests. None of those software results

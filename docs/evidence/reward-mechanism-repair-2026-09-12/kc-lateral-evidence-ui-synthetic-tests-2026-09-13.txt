@@ -1,0 +1,12 @@
+COMMAND ['.venv/bin/python', '-m', 'pytest', '-q', 'output/collaboration/reward-mechanism-repair/test_kc_lateral_source_contract.py', 'output/collaboration/reward-mechanism-repair/test_kc_lateral_evidence_ui_independent.py']
+........................................................................ [ 51%]
+...................................................................      [100%]
+139 passed in 0.14s
+
+
+EXIT 0
+COMMAND ['.venv/bin/ruff', 'check', 'output/collaboration/reward-mechanism-repair/test_kc_lateral_evidence_ui_independent.py']
+All checks passed!
+
+
+EXIT 0

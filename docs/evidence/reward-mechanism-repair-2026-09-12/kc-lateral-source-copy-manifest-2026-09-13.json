@@ -1,0 +1,180 @@
+{
+  "checked_at_utc": "2026-09-13T08:42:30.495803+00:00",
+  "source_files_preserved": true,
+  "copies": [
+    {
+      "source": "output/collaboration/reward-mechanism-repair/test_kc_lateral_source_contract.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/test_kc_lateral_source_contract.py",
+      "bytes": 6066,
+      "sha256": "93006340bde3e0e65b36119637af3b9dc2a9fd535dbf2f9be6ccb3fbb0d34b59"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-lateral-source-audit-protocol-2026-09-13.md",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-source-audit-protocol-2026-09-13.md",
+      "bytes": 2927,
+      "sha256": "fc2eee9573bed39c517c0a79233f65215cbc0ccf025285d089ef928903973186"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/conditioning-contract-evidence-ui-audit-2026-09-13.md",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-contract-evidence-ui-audit-2026-09-13.md",
+      "bytes": 9484,
+      "sha256": "4e7e6c6b291dc77a9e582385926cee24273e071bbc0b549ae8ca455ee916091b"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/conditioning-contract-evidence-ui-reading-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-contract-evidence-ui-reading-2026-09-13.json",
+      "bytes": 74185,
+      "sha256": "8766a8f09cb74f1a536c6a5b454eee3ee6f81d117c3fede5b8dab41c05c29994"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/handler-kc-switch-model-transfer-review-2026-09-13.md",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/handler-kc-switch-model-transfer-review-2026-09-13.md",
+      "bytes": 13318,
+      "sha256": "26eb4bbc4d863eeffa53c455317fd26c76be26f14171a09242ea15aba63c5be7"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/handler-kc-switch-source-reading-receipt-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/handler-kc-switch-source-reading-receipt-2026-09-13.json",
+      "bytes": 63205,
+      "sha256": "a9f7cd4b7d2e30091fceecf80859ec822bd1e41a01c09e4538288b668638c2fd"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-lateral-primary-source-2026-09-13/calcium-workbook-inventory.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-primary-source-2026-09-13/calcium-workbook-inventory.json",
+      "bytes": 69141,
+      "sha256": "af1109cad767745802ff4fae62088e4c49e9eb05b5c9d68f013c2c7aa968f166"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-lateral-primary-source-2026-09-13/commit-receipt.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-primary-source-2026-09-13/commit-receipt.json",
+      "bytes": 464,
+      "sha256": "5cb77241ee74c8a7ed22f7b328efd319149d6966eea9c06f478fc9d144cfc3b3"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-lateral-primary-source-2026-09-13/commit.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-primary-source-2026-09-13/commit.json",
+      "bytes": 5711,
+      "sha256": "184adfd38aa9b8edf41ea698dd44f4bcf90f58443eaa373e2f2665b452e5da77"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-lateral-primary-source-2026-09-13/download-budget-review.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-primary-source-2026-09-13/download-budget-review.json",
+      "bytes": 540,
+      "sha256": "d355b339d335bdec25c1b30accc2912613b9a1bddaa90fc4438e011f1e29dd4b"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-lateral-primary-source-2026-09-13/download-plan.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-primary-source-2026-09-13/download-plan.json",
+      "bytes": 4726,
+      "sha256": "e07011d7fe398004e6d283c4f5ecd5e1639275168b175c83e90badf58792daea"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-lateral-primary-source-2026-09-13/download-receipt.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-primary-source-2026-09-13/download-receipt.json",
+      "bytes": 5937,
+      "sha256": "12c87a740b0e3f89c61fffbe193dba4a5874e85f7cd138a59d53732341572632"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-lateral-primary-source-2026-09-13/downloads.jsonl",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-primary-source-2026-09-13/downloads.jsonl",
+      "bytes": 5096,
+      "sha256": "b637ec6bb3b244fcd7c48acba340d6eec0e3391a4371effa30e4c9c131417ff9"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-lateral-primary-source-2026-09-13/tree-receipt.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-primary-source-2026-09-13/tree-receipt.json",
+      "bytes": 408,
+      "sha256": "f302b63d4b3bf6228b72e30643c440e127d9465083cab26be18e846d8f454d2f"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-lateral-primary-source-2026-09-13/tree.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-primary-source-2026-09-13/tree.json",
+      "bytes": 5697,
+      "sha256": "2b8a8b811e63840b6203a2d6bf5224c8c909da4212f7fc193197025b2e1aaa9f"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-lateral-primary-source-2026-09-13/upstream/LICENSE",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-primary-source-2026-09-13/upstream/LICENSE",
+      "bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-lateral-primary-source-2026-09-13/upstream/README.md",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-primary-source-2026-09-13/upstream/README.md",
+      "bytes": 2534,
+      "sha256": "9aab77612444818422e9c693210933db3e71404b3c02dd2b9b2576f4a41be52a"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-lateral-primary-source-2026-09-13/upstream/codes/KC_population_calcium_rate_model_functions.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-primary-source-2026-09-13/upstream/codes/KC_population_calcium_rate_model_functions.py",
+      "bytes": 14812,
+      "sha256": "bc36f741ab7773b5f9dc298ab9610ce915067a2cc82ea73e947174ee155b3f05"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-lateral-primary-source-2026-09-13/upstream/codes/fit_functions.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-primary-source-2026-09-13/upstream/codes/fit_functions.py",
+      "bytes": 8059,
+      "sha256": "ca238b5d6acaa40ba7bcee650ab6697872263dd69b1ebc082b27779ae67cbc5b"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-lateral-primary-source-2026-09-13/upstream/codes/fit_rate_model_to_data.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-primary-source-2026-09-13/upstream/codes/fit_rate_model_to_data.py",
+      "bytes": 14966,
+      "sha256": "d76911cff9468883fc2bbc3c8f7647e7f3935acf5d51bda6ddb877a451986142"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-lateral-primary-source-2026-09-13/upstream/codes/inter_odor_activity_correlation_sparseness.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-primary-source-2026-09-13/upstream/codes/inter_odor_activity_correlation_sparseness.py",
+      "bytes": 18847,
+      "sha256": "8d845b1e0b4b5022cbc9b58a405e19a6425103c68763671eef5ff0ccc6e9385d"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-lateral-primary-source-2026-09-13/upstream/codes/learning_rate_screening_mbon_normalized.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-primary-source-2026-09-13/upstream/codes/learning_rate_screening_mbon_normalized.py",
+      "bytes": 21092,
+      "sha256": "c4896407ae554027df56c756ffbe65b65a52754602431d9d9d29b360ae37847d"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-lateral-primary-source-2026-09-13/upstream/codes/plot_correlation_different_overlaps.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-primary-source-2026-09-13/upstream/codes/plot_correlation_different_overlaps.py",
+      "bytes": 2816,
+      "sha256": "3cc8f529b6d05a563693082f0a3ba47e24f16f0a08302abb77669b69faedb03c"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-lateral-primary-source-2026-09-13/upstream/codes/plot_valences_normalized_mbon.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-primary-source-2026-09-13/upstream/codes/plot_valences_normalized_mbon.py",
+      "bytes": 4100,
+      "sha256": "f3f69ba8a321923cd4db99447b595361f255551e959e45643656cf7d7c0b75ea"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-lateral-primary-source-2026-09-13/upstream/codes/plotting_related_functions.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-primary-source-2026-09-13/upstream/codes/plotting_related_functions.py",
+      "bytes": 2223,
+      "sha256": "6c1a90fc63ee5191b98f10b26e677875886b32e58e2570cbf07106257775b9e3"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-lateral-primary-source-2026-09-13/upstream/codes/rate_model_get_summed_KC_activity_different_model_variants.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-primary-source-2026-09-13/upstream/codes/rate_model_get_summed_KC_activity_different_model_variants.py",
+      "bytes": 7494,
+      "sha256": "7e3fbc9e10a274a0fc21e02519e28bbeae7120341842b1004279f7061569b5d0"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-lateral-primary-source-2026-09-13/upstream/codes/rate_model_odor_stimulation_activity_histograms.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-primary-source-2026-09-13/upstream/codes/rate_model_odor_stimulation_activity_histograms.py",
+      "bytes": 10647,
+      "sha256": "05321af2f710248c70bb5092b5d32971cbfbea12519517036e34f70d103fab5e"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-lateral-primary-source-2026-09-13/upstream/data/gamma_mch_responses_manoim_supplement.xlsx",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-primary-source-2026-09-13/upstream/data/gamma_mch_responses_manoim_supplement.xlsx",
+      "bytes": 28573,
+      "sha256": "f92ab807009e2e8160fbc8c6c100731012052843484de6c796c7faf673712a1d"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/kc-lateral-primary-source-2026-09-13/upstream/requirements.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/kc-lateral-primary-source-2026-09-13/upstream/requirements.txt",
+      "bytes": 137,
+      "sha256": "a0d908097bebe43faa2aaccd53ca7ebbab713f3c71cfed51783dbf5080252801"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "checked_at_utc": "2026-09-13T08:46:35.343643+00:00",
+  "scope": "Targeted current primary-source discovery and source inspection; no model or body-column scan",
+  "sources": [
+    {
+      "url": "https://male-cns.janelia.org/",
+      "observed": "Home lists v1.0 June8 2026 release and September3 2026 Cell publication of the connectome resource. This is not a MaleCNS LIF-learning paper."
+    },
+    {
+      "url": "https://male-cns.janelia.org/release/",
+      "version": "v1.0 June8 2026",
+      "observed": "Latest release listed; prior v0.9 also listed. Exact existing source lock remains unchanged."
+    },
+    {
+      "url": "https://github.com/philshiu/Drosophila_brain_model",
+      "version": "Current main README,47commits displayed; implementation not repinned by this refresh",
+      "observed": "FlyWire630 reference with783 instructions; no new reward mechanism inferred from README."
+    },
+    {
+      "url": "https://github.com/philshiu/Drosophila_brain_model/issues",
+      "observed": "One open issue, number9, clustering-analysis question fromDecember7 2025; issue body not reviewed."
+    },
+    {
+      "url": "https://arrow.apache.org/docs/format/Columnar.html",
+      "version": "Documentation25.0.1; format1.5",
+      "observed": "General format/primitive-array and buffer metadata text inspected. No new body decoder or scan implemented."
+    },
+    {
+      "url": "https://doi.org/10.1016/j.cub.2026.01.014",
+      "version": "Current Biology36(4),954-967.e4; February23 2026 issue, February4 online",
+      "observed": "Indexed primary narrative read; direct PMC challenged. Source agent records physiological and supplementary-access scope separately."
+    },
+    {
+      "url": "https://github.com/nawrotlab/KC_KC_lateral_interactions",
+      "version": "f0ee2079dae6761cc2d07f04e96e76e2654b6e3c",
+      "observed": "Public primary model pinned through API;14 source/license/calibration files downloaded and Git-blob/SHA256 verified. Separate acquisition receipt records exceeded time cap."
+    }
+  ],
+  "access_limits": [
+    "Guessed MaleCNS release-notes URL failed; followed official homepage release link successfully.",
+    "GitHub API open through web tool failed; bounded direct API reads subsequently succeeded.",
+    "Direct PMC article required a browser challenge; no bypass attempted. Indexed primary source and public authors code inspected."
+  ],
+  "root_reading": [
+    "Current AGENTS and full latest handoff boundary rechecked.",
+    "Complete core,fit_functions and fit_rate_model_to_data scripts read; independent reviewer read complete learning driver.",
+    "Complete499-row public workbook read via bundledopenpyxl; no fitting or plotting execution.",
+    "Root source-semantic test and all newly written cell narratives read."
+  ],
+  "scientific_candidate_evaluated": false,
+  "production_modified": false
+}

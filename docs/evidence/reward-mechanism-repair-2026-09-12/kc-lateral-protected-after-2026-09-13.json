@@ -1,0 +1,12 @@
+{
+  "checked_at_utc": "2026-09-13T08:45:48.000761+00:00",
+  "baseline": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-protected-before-2026-09-13.json",
+  "baseline_confirmed_unchanged_at_prior_checkpoint": true,
+  "files_checked": 791,
+  "bytes_checked": 5497884387,
+  "file_changes": {},
+  "added_entries": [],
+  "removed_entries": [],
+  "passed": true,
+  "scope": "Protected production/data/historical experiment/byte-exact Microduck copies versus prior checkpoint; new source-audit output is outside protected scopes."
+}

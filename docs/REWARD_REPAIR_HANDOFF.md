@@ -1,5 +1,63 @@
 # Continue the dopamine mechanism repair
 
+## Active continuation boundary: September 13, 2026, 08:51 UTC
+
+Continue the existing full repair goal, which remains active and incomplete.
+Inspect Git for the local source-audit checkpoint following `ab0f80f`; nothing
+was pushed or promoted. No new candidate, external calcium fit, full-CNS
+conditioning or reversal ran. The failed qualification pair and accepted
+interfaces, gains, masks and criteria remain unchanged.
+
+The new [KC lateral source audit](evidence/reward-mechanism-repair-2026-09-12/kc-lateral-source-audit-result-2026-09-13.md)
+identifies a concrete local-state mechanism from Current Biology 2026,
+DOI `10.1016/j.cub.2026.01.014`. The authors' model is pinned at
+`nawrotlab/KC_KC_lateral_interactions@f0ee2079dae6761cc2d07f04e96e76e2654b6e3c`.
+All fourteen source/license/calibration files (171,449 bytes) and the complete
+499-row WT/knockdown workbook are preserved in repository evidence with their
+originals intact. No model driver was executed. The source download completed
+but exceeded its requested 120-second cap (225.688 seconds); its budget
+exception is preserved, and process `64222` is terminal and closed.
+
+The [cell-specific page](../wiki/cells/kc-lateral-signaling.md) records 642,933
+KC→KC pairs / 1,153,845 contacts, all currently represented by positive fast
+weights. No muscarinic receptor or separate local KC calcium state exists.
+The [conditioning/code audit](evidence/reward-mechanism-repair-2026-09-12/conditioning-contract-evidence-ui-audit-2026-09-13.md)
+found no new reset, response-sign or independent-control bug. This distinguishes
+an unimplemented physiological mechanism from another arithmetic repair.
+
+Direct transfer of the new source model is not justified. Its inhibition
+multiplies stored state each step, so fitted 30 Hz and learning 10 ms clocks
+are not interchangeable with our 0.2 ms kernel. Its new DAN drive is gated by
+external shock, its weight rule is depression-only, and its noisy fitting
+demonstration scales noise twice. Those choices are preserved and tested;
+do not import the shock gate as a solution to endogenous untaught drift.
+
+The [calcium identifiability note](evidence/reward-mechanism-repair-2026-09-12/kc-calcium-transfer-identifiability-2026-09-13.md)
+states the next decision precisely. A dimensionless local-state engineering
+map is mathematically possible. Specify its input/observation scale, affected
+output (axon release, calcium, cAMP or plasticity), lateral anatomical support,
+clock, initialization and continuation before a candidate run. `tau_input`
+is an amplitude divisor, not a separate input filter; the source population
+fit cannot identify a per-spike calcium scale. An optional bounded external-fit
+reproduction must remain separate from choosing that map. This is not a
+reason to repeat an open-ended receptor search or copy fitted values silently.
+No new mapping or numerical candidate was selected by this audit.
+
+Fresh verification passed: `make verify` (4,055 Python tests, two existing
+warnings; 85 frontend tests; Ruff and Vite), plus all 226 new cases from their
+copied evidence location (139 source-function cases and 87 analytic cases).
+All 791 protected files / 5,497,884,387 bytes and their full inventory match
+the prior checkpoint. No production/API/UI change or new browser claim.
+Verification process `22253` and protection check `67601` are terminal and
+closed. Current source/mathematical assignments are complete; check agent
+status before dispatching the next bounded specification/implementation.
+
+Keep the full objective: a source-grounded mechanism must pass both complete
+qualification panels and the frozen acquisition/reversal controls. Keep one
+production writer, and have every working agent personally read all narrative
+docs/wiki and new deltas. The new source and passing tests do not qualify the
+circuit. All rejected identities below remain preserved and rejected.
+
 ## Active continuation boundary: September 13, 2026, 08:14 UTC
 
 Continue the existing full repair goal. It remains active and incomplete.

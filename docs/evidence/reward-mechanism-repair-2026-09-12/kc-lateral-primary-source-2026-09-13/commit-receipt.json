@@ -1,0 +1,11 @@
+{
+  "checked_at_utc": "2026-09-13T08:28:47.725309+00:00",
+  "url": "https://api.github.com/repos/nawrotlab/KC_KC_lateral_interactions/commits/master",
+  "http_status": 200,
+  "bytes": 5711,
+  "sha256": "184adfd38aa9b8edf41ea698dd44f4bcf90f58443eaa373e2f2665b452e5da77",
+  "commit": "f0ee2079dae6761cc2d07f04e96e76e2654b6e3c",
+  "prior_sandbox_attempt": "DNS failed before response; no payload",
+  "downloaded_source_code": false,
+  "executed_source_code": false
+}

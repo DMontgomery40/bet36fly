@@ -1,0 +1,24 @@
+{
+  "checked_at_utc": "2026-09-13T08:44:34.621250+00:00",
+  "originals_preserved": true,
+  "copies": [
+    {
+      "source": "output/collaboration/reward-mechanism-repair/learning-coupling-mathematical-source-review-2026-09-13.md",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/learning-coupling-mathematical-source-review-2026-09-13.md",
+      "bytes": 20715,
+      "sha256": "5810f6dcaa74360a23b1b005241a1cdd603a15cdd0e7c629f5c0e773c78601a5"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/test_learning_coupling_invariants_2026_09_13.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/test_learning_coupling_invariants_2026_09_13.py",
+      "bytes": 5319,
+      "sha256": "f915ed30f5f2f2de8d6aa47eeeedae44c4ae16e62c7366a1eae9119495b95df4"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/learning-coupling-mathematical-source-reading-receipt-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/learning-coupling-mathematical-source-reading-receipt-2026-09-13.json",
+      "bytes": 48087,
+      "sha256": "260688551e1402dd2bcdc9c371575c8e230178a59f7e5ce30c094997506aab52"
+    }
+  ]
+}

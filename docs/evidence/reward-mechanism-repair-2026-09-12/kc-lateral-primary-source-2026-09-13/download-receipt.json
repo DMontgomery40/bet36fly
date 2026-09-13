@@ -1,0 +1,109 @@
+{
+  "checked_at_utc": "2026-09-13T08:33:26.040620+00:00",
+  "status": "complete",
+  "commit": "f0ee2079dae6761cc2d07f04e96e76e2654b6e3c",
+  "requests": 14,
+  "bytes": 171449,
+  "elapsed_seconds": 225.68834870797582,
+  "executed_source_code": false,
+  "files": [
+    {
+      "url": "https://raw.githubusercontent.com/nawrotlab/KC_KC_lateral_interactions/f0ee2079dae6761cc2d07f04e96e76e2654b6e3c/LICENSE",
+      "path": "LICENSE",
+      "bytes": 35149,
+      "git_blob_sha": "f288702d2fa16d3cdf0035b15a9fcbc552cd88e7",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/nawrotlab/KC_KC_lateral_interactions/f0ee2079dae6761cc2d07f04e96e76e2654b6e3c/README.md",
+      "path": "README.md",
+      "bytes": 2534,
+      "git_blob_sha": "2df5ba135624d5dd4de41ee69ddd6aa411a21e12",
+      "sha256": "9aab77612444818422e9c693210933db3e71404b3c02dd2b9b2576f4a41be52a"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/nawrotlab/KC_KC_lateral_interactions/f0ee2079dae6761cc2d07f04e96e76e2654b6e3c/codes/KC_population_calcium_rate_model_functions.py",
+      "path": "codes/KC_population_calcium_rate_model_functions.py",
+      "bytes": 14812,
+      "git_blob_sha": "dd9df93bd1d1656f934f3258bd1694d9322e5778",
+      "sha256": "bc36f741ab7773b5f9dc298ab9610ce915067a2cc82ea73e947174ee155b3f05"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/nawrotlab/KC_KC_lateral_interactions/f0ee2079dae6761cc2d07f04e96e76e2654b6e3c/codes/fit_functions.py",
+      "path": "codes/fit_functions.py",
+      "bytes": 8059,
+      "git_blob_sha": "a6aa50641bdcbc72b6599895d62899a0ed9267bd",
+      "sha256": "ca238b5d6acaa40ba7bcee650ab6697872263dd69b1ebc082b27779ae67cbc5b"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/nawrotlab/KC_KC_lateral_interactions/f0ee2079dae6761cc2d07f04e96e76e2654b6e3c/codes/fit_rate_model_to_data.py",
+      "path": "codes/fit_rate_model_to_data.py",
+      "bytes": 14966,
+      "git_blob_sha": "9473d239549daea849835a8ed3bf651989fee29f",
+      "sha256": "d76911cff9468883fc2bbc3c8f7647e7f3935acf5d51bda6ddb877a451986142"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/nawrotlab/KC_KC_lateral_interactions/f0ee2079dae6761cc2d07f04e96e76e2654b6e3c/codes/inter_odor_activity_correlation_sparseness.py",
+      "path": "codes/inter_odor_activity_correlation_sparseness.py",
+      "bytes": 18847,
+      "git_blob_sha": "1ba29f2150905c1b53ff3611c4627bd442101ae4",
+      "sha256": "8d845b1e0b4b5022cbc9b58a405e19a6425103c68763671eef5ff0ccc6e9385d"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/nawrotlab/KC_KC_lateral_interactions/f0ee2079dae6761cc2d07f04e96e76e2654b6e3c/codes/learning_rate_screening_mbon_normalized.py",
+      "path": "codes/learning_rate_screening_mbon_normalized.py",
+      "bytes": 21092,
+      "git_blob_sha": "519932ec75a7de6758d02f1a345a566bff7e3fd4",
+      "sha256": "c4896407ae554027df56c756ffbe65b65a52754602431d9d9d29b360ae37847d"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/nawrotlab/KC_KC_lateral_interactions/f0ee2079dae6761cc2d07f04e96e76e2654b6e3c/codes/plot_correlation_different_overlaps.py",
+      "path": "codes/plot_correlation_different_overlaps.py",
+      "bytes": 2816,
+      "git_blob_sha": "5f82958a1b45c3eadc66576901531fb914f46aaa",
+      "sha256": "3cc8f529b6d05a563693082f0a3ba47e24f16f0a08302abb77669b69faedb03c"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/nawrotlab/KC_KC_lateral_interactions/f0ee2079dae6761cc2d07f04e96e76e2654b6e3c/codes/plot_valences_normalized_mbon.py",
+      "path": "codes/plot_valences_normalized_mbon.py",
+      "bytes": 4100,
+      "git_blob_sha": "3f2855d506e3ce7879566c50b8155ee2d6f850b2",
+      "sha256": "f3f69ba8a321923cd4db99447b595361f255551e959e45643656cf7d7c0b75ea"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/nawrotlab/KC_KC_lateral_interactions/f0ee2079dae6761cc2d07f04e96e76e2654b6e3c/codes/plotting_related_functions.py",
+      "path": "codes/plotting_related_functions.py",
+      "bytes": 2223,
+      "git_blob_sha": "111175cf749cb865002abacc96a3f7c310ac7b23",
+      "sha256": "6c1a90fc63ee5191b98f10b26e677875886b32e58e2570cbf07106257775b9e3"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/nawrotlab/KC_KC_lateral_interactions/f0ee2079dae6761cc2d07f04e96e76e2654b6e3c/codes/rate_model_get_summed_KC_activity_different_model_variants.py",
+      "path": "codes/rate_model_get_summed_KC_activity_different_model_variants.py",
+      "bytes": 7494,
+      "git_blob_sha": "0f405a3df2863f88ff58abf63f13e29251288303",
+      "sha256": "7e3fbc9e10a274a0fc21e02519e28bbeae7120341842b1004279f7061569b5d0"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/nawrotlab/KC_KC_lateral_interactions/f0ee2079dae6761cc2d07f04e96e76e2654b6e3c/codes/rate_model_odor_stimulation_activity_histograms.py",
+      "path": "codes/rate_model_odor_stimulation_activity_histograms.py",
+      "bytes": 10647,
+      "git_blob_sha": "e984ac8ac215e5763b3bc2932501708625a09095",
+      "sha256": "05321af2f710248c70bb5092b5d32971cbfbea12519517036e34f70d103fab5e"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/nawrotlab/KC_KC_lateral_interactions/f0ee2079dae6761cc2d07f04e96e76e2654b6e3c/data/gamma_mch_responses_manoim_supplement.xlsx",
+      "path": "data/gamma_mch_responses_manoim_supplement.xlsx",
+      "bytes": 28573,
+      "git_blob_sha": "d86b517498f8a63d7aef652815e20144c21cdbea",
+      "sha256": "f92ab807009e2e8160fbc8c6c100731012052843484de6c796c7faf673712a1d"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/nawrotlab/KC_KC_lateral_interactions/f0ee2079dae6761cc2d07f04e96e76e2654b6e3c/requirements.txt",
+      "path": "requirements.txt",
+      "bytes": 137,
+      "git_blob_sha": "5d2730207b0ebced97a18928c51b5caf724aa1c9",
+      "sha256": "a0d908097bebe43faa2aaccd53ca7ebbab713f3c71cfed51783dbf5080252801"
+    }
+  ]
+}
