@@ -5,6 +5,10 @@ status: active
 ---
 # Wiki change log
 
+## 2026-09-13 — bounded sensory calibration
+
+Exported 475 exact anatomical candidate rows and 523 directed projection pairs; checked source hashes and retained graph accounting. Recomputed ten original measurement groups and identified the new Tastekin molecular map as the next bounded extraction. Added a zero-call unresolved assay decision and independent-quality sports contract. No simulator interface, model pointer or legacy result changed. [Evidence and verification](../docs/evidence/natural-sensory-calibration-2026-09-13/index.md).
+
 ## 2026-09-13 — natural sensory reorientation
 
 Read the complete 64-file wiki snapshot, including imported research; audited current code and the serial learning-repair boundary. Added a [canonical direction](../docs/PROJECT_DIRECTION.md), [continuation prompt](../docs/NATURAL_SENSORY_HANDOFF.md), [measured sensory-rate page](natural-sensory-inputs.md) and [source/reading/annotation evidence](../docs/evidence/natural-sensory-reorientation-2026-09-13/index.md). Scoped the old frozen interface and guards to their experiment, retained negative results, and synchronized entry-point docs and shared agent rules. The new priority is a bounded natural sensory-response assay, with both-good matchup inputs and explicit encoder-only attribution. No new sensory runtime, neural run or checkpoint promotion occurred. Imported files remain immutable. [Checks](../docs/evidence/natural-sensory-reorientation-2026-09-13/verification.md).

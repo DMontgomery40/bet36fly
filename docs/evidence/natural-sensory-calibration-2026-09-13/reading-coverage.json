@@ -1,0 +1,219 @@
+{
+  "scope": "Complete 23 authored wiki Markdown files and 10 relevant imported narrative files read; remaining robot/compute imports not claimed. Existing source-ledger and source-lock inspected. Truncated authored sections reread.",
+  "files": [
+    {
+      "path": "wiki/SCHEMA.md",
+      "sha256": "e454b898a6a2d85391910ee8b4660087f21f2db104371c885376988b04b9f226",
+      "bytes": 2694,
+      "read": "full"
+    },
+    {
+      "path": "wiki/cells/alpn.md",
+      "sha256": "ca3b061756db82714b9ca27e056d166fbf707bc6ebe002ccbf91a2f8214a9dd0",
+      "bytes": 3246,
+      "read": "full"
+    },
+    {
+      "path": "wiki/cells/apl.md",
+      "sha256": "90a633e7a6b28aa20a3f775e4c552d0ab9537950a6ada041cf13d7c0f69e3a99",
+      "bytes": 2125,
+      "read": "full"
+    },
+    {
+      "path": "wiki/cells/cyclic-nucleotide-plasticity.md",
+      "sha256": "a8ae8a2df1444dd1148dda09a0ee51f9de966bc10138cc32d6dfc0ca9a92be8a",
+      "bytes": 4955,
+      "read": "full"
+    },
+    {
+      "path": "wiki/cells/dopamine-receptor-signaling.md",
+      "sha256": "f33567b2f715ddac736bdc57a1549113222a5d445c268b9161caeff13801e215",
+      "bytes": 9202,
+      "read": "full"
+    },
+    {
+      "path": "wiki/cells/dopamine.md",
+      "sha256": "2200a9893f27e1c5852b874e4c5c9494e58b47cc1e8065a55b6910a35df0d9e8",
+      "bytes": 10345,
+      "read": "full"
+    },
+    {
+      "path": "wiki/cells/identities.md",
+      "sha256": "af5e1142bcfaea5ec17c3f41c5e2cd3ff3517359b8ce890a24292c52cd425b5a",
+      "bytes": 5302,
+      "read": "full"
+    },
+    {
+      "path": "wiki/cells/index.md",
+      "sha256": "5a346be511dc778650858154e6b2257860340dee57a0314677acef0b8d74b035",
+      "bytes": 4085,
+      "read": "full"
+    },
+    {
+      "path": "wiki/cells/kc-lateral-signaling.md",
+      "sha256": "9b18da86eebfda219e363535d55f8616f5fa2af3a67647473430ca2bc95b08f4",
+      "bytes": 6664,
+      "read": "full"
+    },
+    {
+      "path": "wiki/cells/kenyon-cells.md",
+      "sha256": "a51404474afc6342d8b20fbd59bdf7027408827030b8ae03f798ecb1537cd8db",
+      "bytes": 3608,
+      "read": "full"
+    },
+    {
+      "path": "wiki/cells/mbons.md",
+      "sha256": "ab14f38e2f6e284351742946865fcb6b1124ba25487c0513abe136f3bf19a223",
+      "bytes": 3112,
+      "read": "full"
+    },
+    {
+      "path": "wiki/cells/neurochemistry.md",
+      "sha256": "d796cb57a26ecad74d4518cde8458717c05521f12a7be7d5a10f7e1a4358e4f6",
+      "bytes": 3156,
+      "read": "full"
+    },
+    {
+      "path": "wiki/cells/ppl101-inputs.md",
+      "sha256": "2a687d33e28fdba253643c9f5c1c727f891bf3ac256b001a5c5065035df90496",
+      "bytes": 7189,
+      "read": "full"
+    },
+    {
+      "path": "wiki/cells/synapse-localization.md",
+      "sha256": "1ddaacce6a657b4a93191f377a334d2a533df0df0706cf3086950372bb9c780f",
+      "bytes": 7059,
+      "read": "full"
+    },
+    {
+      "path": "wiki/community.md",
+      "sha256": "221bf43749b150750a2c669c8482f8915db0bef4ae595171a62aecfdd9c7b63f",
+      "bytes": 3335,
+      "read": "full"
+    },
+    {
+      "path": "wiki/evidence-gates.md",
+      "sha256": "992d9bc720ba9819c91b23c14dfd0f49c23b82af58d948e05c1d03cb96dbfd3a",
+      "bytes": 5874,
+      "read": "full"
+    },
+    {
+      "path": "wiki/index.md",
+      "sha256": "4fa36b3364e95748a155dccd80bbcd46620dbf6474084f8da0e2edb04f4096fa",
+      "bytes": 4314,
+      "read": "full"
+    },
+    {
+      "path": "wiki/learning-rule.md",
+      "sha256": "a2cdaebe1fec714200daba114d0b9ba6502aab5914677659a9c6d7dafe5ffd93",
+      "bytes": 9373,
+      "read": "full"
+    },
+    {
+      "path": "wiki/log.md",
+      "sha256": "1d84ce45c71da979de6a4d7bbf9abbf2782467d7939c8d54be1a601facba7931",
+      "bytes": 3693,
+      "read": "full"
+    },
+    {
+      "path": "wiki/natural-sensory-inputs.md",
+      "sha256": "02d5ff37b00b9a864b88e7e0b52b3889001e9d6e8ed6b10f2a7925563bb66868",
+      "bytes": 8694,
+      "read": "full"
+    },
+    {
+      "path": "wiki/reassessment.md",
+      "sha256": "2648537ca9227dd1159443dc93748a1dbb1ea852a5e439190336e8af5bd24d87",
+      "bytes": 17680,
+      "read": "full"
+    },
+    {
+      "path": "wiki/sources.md",
+      "sha256": "4c9d79d5ceb5bf1b7850be281cbb8a434b812d6ca031e3b2cd047d0999cae2d2",
+      "bytes": 4808,
+      "read": "full"
+    },
+    {
+      "path": "wiki/verification.md",
+      "sha256": "76631f6f67a1602e8f863ae9c31669d0162e2458bb986e6b2f73ce4ca287ac34",
+      "bytes": 8299,
+      "read": "full"
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/README.md",
+      "sha256": "51121084b6f0d945e0221e327140e0f283c7dfaf417809bdd6acadb7d76d91bc",
+      "bytes": 1683,
+      "read": "full"
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/connectome/brain-body-interface.md",
+      "sha256": "d72d5e81dfbf3280f3b52bb2971d177727235efbe85624d621f7cfc762ac848f",
+      "bytes": 8984,
+      "read": "full"
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/connectome/embodiment-research.md",
+      "sha256": "5a6107f646f85708b5f9dceb884e1f99a5eea6a3043452c3ee90fb0166d329c4",
+      "bytes": 6756,
+      "read": "full"
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/connectome/index.md",
+      "sha256": "c89df465d9e8b58e568216e10adb48e9fa5be6ce1168f2b1d7bdb3fa21aa930e",
+      "bytes": 3568,
+      "read": "full"
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/connectome/malecns-release.md",
+      "sha256": "decff1224415ffb99e46973d8795596564ed3e27d34374b1ee7af482a2c2ab72",
+      "bytes": 5816,
+      "read": "full"
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/connectome/sources.md",
+      "sha256": "3ce73e4e729c32be9536f7d5fea62b43a969db164523e3360f73cfd877a37791",
+      "bytes": 4274,
+      "read": "full"
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/community/fly-ecosystem.md",
+      "sha256": "defacabdc3994fe469dfc63c6f572df370bb6c7aaeb8f6825092c1b8a57408c3",
+      "bytes": 5570,
+      "read": "full"
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/community/flyhard.md",
+      "sha256": "f5e93a0907bb47542602f139e80e5c76e779a94118e5363b2e86d6ede31e688a",
+      "bytes": 5851,
+      "read": "full"
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/community/joint-projects.md",
+      "sha256": "e30fd98938ae81687969cc0d4a29961d25b167f083cb22c42d5b64fa3dc66453",
+      "bytes": 5592,
+      "read": "full"
+    },
+    {
+      "path": "wiki/imports/microduck-2026-09-12/wiki/synthesis/training-and-deployment.md",
+      "sha256": "1497b865a157c9ec3edb079d9154e78d5b60eae4cbdc56d1c11124ecd0c76ddc",
+      "bytes": 7552,
+      "read": "full"
+    }
+  ],
+  "additions_since_prior": [
+    "wiki/natural-sensory-inputs.md"
+  ],
+  "changed_since_prior": [
+    "wiki/reassessment.md",
+    "wiki/sources.md",
+    "wiki/SCHEMA.md",
+    "wiki/learning-rule.md",
+    "wiki/evidence-gates.md",
+    "wiki/verification.md",
+    "wiki/log.md",
+    "wiki/index.md",
+    "wiki/cells/alpn.md",
+    "wiki/cells/dopamine-receptor-signaling.md",
+    "wiki/cells/cyclic-nucleotide-plasticity.md"
+  ]
+}

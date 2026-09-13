@@ -1,3 +1,15 @@
+# Current handoff: finish the exact sensory contract
+
+Latest checkpoint: [September 13 calibration](evidence/natural-sensory-calibration-2026-09-13/index.md). The bounded first phase ended at the explicitly permitted unresolved-contract endpoint. An offline exporter preserves exact candidate anatomy; **zero sensory neural calls ran**. Do not restart the completed broad audit or resume legacy dopamine repair.
+
+Read the current authored wiki and relevant primary research as required by AGENTS.md. Reconcile current code and pointers. The new source lead is Tastekin et al., Cell 2026, DOI 10.1016/j.cell.2026.08.016: its primary abstract reports molecular GRN identity mapping, but its subtype table/full text was inaccessible in the bounded check. Next retrieve that exact package and its directly relevant physiology, verify specimen/release and body IDs, and decide whether sweet/water/bitter baselines and schedules can be bound. If still unresolved, record precise remaining gaps and stop. The ORN fallback has 83 VA2 and 48 DA2 candidates with native PN contacts, but lacks a complete valence/mixture rate contract.
+
+Preserve the [frozen zero-call decision](evidence/natural-sensory-calibration-2026-09-13/assay-decision.md). Any resolved protocol gets a new identity before implementation or a run. The [prepared sports contract](evidence/natural-sensory-calibration-2026-09-13/sports-contract.md) uses symmetric independent qualities and an explicitly external comparison; it is not implemented. V1 remains active, v2 paused, and legacy failures remain rejected. Do not push or deploy.
+
+## Original direction prompt — retained context
+
+The following prompt remains the objective and scope; its first bounded calibration phase has reached the checkpoint above.
+
 # Handoff prompt: restore the natural fly task
 
 Paste the following into the continuing Codex task. This prompt changes the research priority; it does not claim that earlier failures have been repaired.

@@ -5,6 +5,10 @@ status: checked-with-access-limits
 ---
 # Primary sources and evidence boundaries
 
+## Calibration source addition — September 13
+
+The [new ledger](../docs/evidence/natural-sensory-calibration-2026-09-13/source-ledger.json) adds Benton Dataset EV1 receptor/glomerulus mapping and the Tastekin Cell 2026 molecular-connectome lead. It records original-method rate checks, current Shiu code and bounded access failures. The abstract is not a retrieved subtype table; the community report is not a reproduced result.
+
 The September 13 [natural sensory source ledger](../docs/evidence/natural-sensory-reorientation-2026-09-13/sources.json) adds measured taste/odor responses, complete selected workbook-group extraction, candidate MaleCNS sensory/output IDs and refreshed upstream checks. The [sensory page](natural-sensory-inputs.md) distinguishes measured Hz from artificial model stimulation, records the excluded workbook discrepancy and labels provisional DoOR transfer. The older source checks below remain dated records.
 
 Checked September 12, 2026 UTC (September 11 America/Denver). The [machine-readable ledger](../docs/evidence/reassessment-2026-09-12/sources.json) records the URL, version, inspection scope and limitation for each new reference. [GitHub/release checks](../docs/evidence/reassessment-2026-09-12/upstream-checks.json) include returned revisions and content hashes. Source availability is distinct from reproduction.

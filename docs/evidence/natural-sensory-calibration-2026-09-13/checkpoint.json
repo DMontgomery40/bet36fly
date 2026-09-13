@@ -1,0 +1,18 @@
+{
+  "identity": "sensory-calibration-355e1f3d476830f4",
+  "status": "unresolved_cell_rate_contract",
+  "neural_calls": 0,
+  "simulated_ms": 0,
+  "base_commit": "ea377fd59f7595bee78f89063e115996b6296292",
+  "artifact_sha256": {
+    "anatomy.json": "8d7d497bd0922ceed91e05d6d71279b2849492271a71d6cd8ce2f2a475efaa8a",
+    "crosswalk.csv": "4e401352127472dd97584363ed6332cdd11a09845874b72ff68ed882e1c30c2c",
+    "projection-edges.csv": "a04e7fd9c9c4e4f1287289b4b3a3f9a510dbbdec4cdd10f2e949e33f3da75a69",
+    "calibration.json": "9a6b2e2fff4e0b8d30be5400d063cc9f3eec54fe7c583168eb51547e2e351230",
+    "source-ledger.json": "303fe268bb6f370d7378396136f2f0e4d545b625c8f5d384e9bd8ee031ff9b9d",
+    "assay-decision.md": "620cd710d97109b8f635ecbeb87c5fdf1b9fe05231740abf4f41e606a48af2ef",
+    "sports-contract.md": "f76072ba7b216a6c41d53b16e4d20a4da63164fc23a7b09e0ae17147a23dd467",
+    "benton-ev1.xlsx": "0b0e76250bcbca8c5acc3c0ba1cc9634060d7f992cc5979d710c9fff3613d49d",
+    "../../../scripts/export_sensory_crosswalk.py": "ab7385eff53219c25c8a1c6fba8576a65d50afba6175e0898a6b3d0bc74b1def"
+  }
+}

@@ -1,0 +1,821 @@
+{
+  "crosswalk_rows": 475,
+  "dataset": "MaleCNS v1.0",
+  "direct_projection_support": {
+    "ORN_DA2": {
+      "candidate_output_type": "DA2_lPN",
+      "contacts": 4671,
+      "directed_pairs": 374,
+      "input_cells_with_direct_contact": 48,
+      "interpretation": "anatomical transmission support, not observed activity or valence",
+      "output_body_ids": [
+        18416,
+        18776,
+        19339,
+        20105,
+        20311,
+        20995,
+        21876,
+        23958,
+        26423,
+        34301
+      ]
+    },
+    "ORN_VA2": {
+      "candidate_output_type": "VA2_adPN",
+      "contacts": 13092,
+      "directed_pairs": 149,
+      "input_cells_with_direct_contact": 83,
+      "interpretation": "anatomical transmission support, not observed activity or valence",
+      "output_body_ids": [
+        10390,
+        10561
+      ]
+    }
+  },
+  "feeding_output_candidates": [
+    10331,
+    16949
+  ],
+  "graph": {
+    "contacts": 124177617,
+    "directed_pairs": 25582938,
+    "neurons": 166700
+  },
+  "gustatory_cells": 1428,
+  "gustatory_groups": [
+    {
+      "cells": 11,
+      "receptor_type": "",
+      "subclass": "labellar bristle",
+      "type": "LB1a"
+    },
+    {
+      "cells": 6,
+      "receptor_type": "",
+      "subclass": "labellar bristle",
+      "type": "LB1b"
+    },
+    {
+      "cells": 16,
+      "receptor_type": "",
+      "subclass": "labellar bristle",
+      "type": "LB1c"
+    },
+    {
+      "cells": 5,
+      "receptor_type": "",
+      "subclass": "labellar bristle",
+      "type": "LB1d"
+    },
+    {
+      "cells": 18,
+      "receptor_type": "",
+      "subclass": "labellar bristle",
+      "type": "LB1e"
+    },
+    {
+      "cells": 1,
+      "receptor_type": "",
+      "subclass": "",
+      "type": "LB1e"
+    },
+    {
+      "cells": 4,
+      "receptor_type": "",
+      "subclass": "labellar bristle",
+      "type": "LB2a"
+    },
+    {
+      "cells": 2,
+      "receptor_type": "",
+      "subclass": "labellar bristle",
+      "type": "LB2b"
+    },
+    {
+      "cells": 1,
+      "receptor_type": "",
+      "subclass": "",
+      "type": "LB2b"
+    },
+    {
+      "cells": 6,
+      "receptor_type": "",
+      "subclass": "labellar bristle",
+      "type": "LB2c"
+    },
+    {
+      "cells": 4,
+      "receptor_type": "",
+      "subclass": "labellar bristle",
+      "type": "LB2d"
+    },
+    {
+      "cells": 1,
+      "receptor_type": "",
+      "subclass": "",
+      "type": "LB2d"
+    },
+    {
+      "cells": 1,
+      "receptor_type": "",
+      "subclass": "labellar bristle",
+      "type": "LB3"
+    },
+    {
+      "cells": 17,
+      "receptor_type": "",
+      "subclass": "labellar bristle",
+      "type": "LB3a"
+    },
+    {
+      "cells": 11,
+      "receptor_type": "",
+      "subclass": "labellar bristle",
+      "type": "LB3b"
+    },
+    {
+      "cells": 23,
+      "receptor_type": "",
+      "subclass": "labellar bristle",
+      "type": "LB3c"
+    },
+    {
+      "cells": 26,
+      "receptor_type": "",
+      "subclass": "labellar bristle",
+      "type": "LB3d"
+    },
+    {
+      "cells": 4,
+      "receptor_type": "",
+      "subclass": "labellar bristle",
+      "type": "LB4a"
+    },
+    {
+      "cells": 7,
+      "receptor_type": "",
+      "subclass": "labellar bristle",
+      "type": "LB4b"
+    },
+    {
+      "cells": 1,
+      "receptor_type": "",
+      "subclass": "",
+      "type": "LB4b"
+    },
+    {
+      "cells": 25,
+      "receptor_type": "",
+      "subclass": "leg bristle",
+      "type": "LgAG1"
+    },
+    {
+      "cells": 11,
+      "receptor_type": "",
+      "subclass": "leg bristle",
+      "type": "LgAG2"
+    },
+    {
+      "cells": 7,
+      "receptor_type": "",
+      "subclass": "leg bristle",
+      "type": "LgAG3"
+    },
+    {
+      "cells": 8,
+      "receptor_type": "",
+      "subclass": "leg bristle",
+      "type": "LgAG4"
+    },
+    {
+      "cells": 4,
+      "receptor_type": "",
+      "subclass": "leg bristle",
+      "type": "LgAG5"
+    },
+    {
+      "cells": 4,
+      "receptor_type": "",
+      "subclass": "leg bristle",
+      "type": "LgAG6"
+    },
+    {
+      "cells": 5,
+      "receptor_type": "",
+      "subclass": "leg bristle",
+      "type": "LgAG7"
+    },
+    {
+      "cells": 9,
+      "receptor_type": "",
+      "subclass": "leg bristle",
+      "type": "LgAG8"
+    },
+    {
+      "cells": 3,
+      "receptor_type": "",
+      "subclass": "leg bristle",
+      "type": "LgAG9"
+    },
+    {
+      "cells": 136,
+      "receptor_type": "putative_ppk23",
+      "subclass": "leg bristle",
+      "type": "LgLG1a"
+    },
+    {
+      "cells": 134,
+      "receptor_type": "putative_ppk25",
+      "subclass": "leg bristle",
+      "type": "LgLG1b"
+    },
+    {
+      "cells": 129,
+      "receptor_type": "putative_IR52b",
+      "subclass": "leg bristle",
+      "type": "LgLG2"
+    },
+    {
+      "cells": 162,
+      "receptor_type": "",
+      "subclass": "leg bristle",
+      "type": "LgLG3"
+    },
+    {
+      "cells": 42,
+      "receptor_type": "",
+      "subclass": "leg bristle",
+      "type": "LgLG4"
+    },
+    {
+      "cells": 13,
+      "receptor_type": "putative_ppk25",
+      "subclass": "leg bristle",
+      "type": "LgLG5"
+    },
+    {
+      "cells": 16,
+      "receptor_type": "putative_ppk23",
+      "subclass": "leg bristle",
+      "type": "LgLG6"
+    },
+    {
+      "cells": 21,
+      "receptor_type": "putative_ppk23",
+      "subclass": "leg bristle",
+      "type": "LgLG7"
+    },
+    {
+      "cells": 14,
+      "receptor_type": "putative_ppk25",
+      "subclass": "leg bristle",
+      "type": "LgLG8"
+    },
+    {
+      "cells": 2,
+      "receptor_type": "",
+      "subclass": "pharyngeal sensillum",
+      "type": "PhG10"
+    },
+    {
+      "cells": 2,
+      "receptor_type": "",
+      "subclass": "pharyngeal sensillum",
+      "type": "PhG11"
+    },
+    {
+      "cells": 2,
+      "receptor_type": "",
+      "subclass": "pharyngeal sensillum",
+      "type": "PhG12"
+    },
+    {
+      "cells": 2,
+      "receptor_type": "",
+      "subclass": "pharyngeal sensillum",
+      "type": "PhG13"
+    },
+    {
+      "cells": 2,
+      "receptor_type": "",
+      "subclass": "pharyngeal sensillum",
+      "type": "PhG14"
+    },
+    {
+      "cells": 2,
+      "receptor_type": "",
+      "subclass": "pharyngeal sensillum",
+      "type": "PhG15"
+    },
+    {
+      "cells": 2,
+      "receptor_type": "",
+      "subclass": "pharyngeal sensillum",
+      "type": "PhG16"
+    },
+    {
+      "cells": 2,
+      "receptor_type": "",
+      "subclass": "pharyngeal sensillum",
+      "type": "PhG1a"
+    },
+    {
+      "cells": 2,
+      "receptor_type": "",
+      "subclass": "pharyngeal sensillum",
+      "type": "PhG1b"
+    },
+    {
+      "cells": 4,
+      "receptor_type": "",
+      "subclass": "pharyngeal sensillum",
+      "type": "PhG1c"
+    },
+    {
+      "cells": 4,
+      "receptor_type": "",
+      "subclass": "pharyngeal sensillum",
+      "type": "PhG2"
+    },
+    {
+      "cells": 2,
+      "receptor_type": "",
+      "subclass": "pharyngeal sensillum",
+      "type": "PhG3"
+    },
+    {
+      "cells": 4,
+      "receptor_type": "",
+      "subclass": "pharyngeal sensillum",
+      "type": "PhG4"
+    },
+    {
+      "cells": 2,
+      "receptor_type": "",
+      "subclass": "pharyngeal sensillum",
+      "type": "PhG5"
+    },
+    {
+      "cells": 2,
+      "receptor_type": "",
+      "subclass": "pharyngeal sensillum",
+      "type": "PhG6"
+    },
+    {
+      "cells": 4,
+      "receptor_type": "",
+      "subclass": "pharyngeal sensillum",
+      "type": "PhG7"
+    },
+    {
+      "cells": 4,
+      "receptor_type": "",
+      "subclass": "pharyngeal sensillum",
+      "type": "PhG8"
+    },
+    {
+      "cells": 4,
+      "receptor_type": "",
+      "subclass": "pharyngeal sensillum",
+      "type": "PhG9"
+    },
+    {
+      "cells": 8,
+      "receptor_type": "",
+      "subclass": "leg bristle",
+      "type": "SNch05"
+    },
+    {
+      "cells": 7,
+      "receptor_type": "",
+      "subclass": "leg bristle",
+      "type": "SNxxxx"
+    },
+    {
+      "cells": 96,
+      "receptor_type": "putative_IR52b",
+      "subclass": "wing bristle",
+      "type": "WG1"
+    },
+    {
+      "cells": 97,
+      "receptor_type": "",
+      "subclass": "wing bristle",
+      "type": "WG2"
+    },
+    {
+      "cells": 96,
+      "receptor_type": "putative_ppk25",
+      "subclass": "wing bristle",
+      "type": "WG3"
+    },
+    {
+      "cells": 96,
+      "receptor_type": "putative_ppk23",
+      "subclass": "wing bristle",
+      "type": "WG4"
+    },
+    {
+      "cells": 50,
+      "receptor_type": "",
+      "subclass": "taste peg",
+      "type": "claw_tpGRN"
+    },
+    {
+      "cells": 10,
+      "receptor_type": "",
+      "subclass": "taste peg",
+      "type": "dorsal_tpGRN"
+    },
+    {
+      "cells": 2,
+      "receptor_type": "",
+      "subclass": "labellar bristle",
+      "type": ""
+    },
+    {
+      "cells": 10,
+      "receptor_type": "",
+      "subclass": "leg bristle",
+      "type": ""
+    }
+  ],
+  "hashes": {
+    "data/brain/counts.npy": "4a11faf9771fc3d5a5ff78ae7620ec1ce400f52d099ff657f0342cfc7a519f6b",
+    "data/brain/ids.npy": "ab90597b7b0ce07cbc22cb39a65b70bea2ac73cc7fd225951bd9d73f2fc8dd3f",
+    "data/brain/indptr.npy": "fe43420f11e6242a11f8199ae7f097cab4b8a6db181d36f2a46b9e46670acbb4",
+    "data/brain/nodes.feather": "d706a6dd5ec1dc17cfba2e8f439232723af81729bf1d0c17bf0cc73860a9c867",
+    "data/brain/post.npy": "ce20f7433f78442c717ad2a7b5394cf4a3b109d990b4be0788040b7b0f4ed150",
+    "data/brain/signs.npy": "4a0725e94d5014b2f17a70e3bdef3f7d843c0e81a8f22a33284aa10d8d62dab5",
+    "docs/connectome-source-lock.json": "df59963b365e4b70450a0ec3861bb845420d660a142cc2c43ad958a9f7767567"
+  },
+  "labellar_candidates": 167,
+  "labellar_receptor_annotations_present": 0,
+  "limitation": "No gustatory functional subtype assigned; no physiological rate schedule or valence readout approved.",
+  "neural_calls": 0,
+  "odor_candidates": {
+    "ORN_DA2": {
+      "body_ids": [
+        172880,
+        174893,
+        203780,
+        209821,
+        215972,
+        218171,
+        218595,
+        220042,
+        220439,
+        226284,
+        228191,
+        232071,
+        232258,
+        233434,
+        236826,
+        246999,
+        254179,
+        262942,
+        263393,
+        267704,
+        269412,
+        300339,
+        304961,
+        316830,
+        318116,
+        324311,
+        358056,
+        398670,
+        422690,
+        527558,
+        536983,
+        569720,
+        919212,
+        923628,
+        955499,
+        956014,
+        956031,
+        338402819,
+        374381048,
+        503560891,
+        505547930,
+        525888732,
+        545354175,
+        639917279,
+        739955728,
+        877969460,
+        903163222,
+        949563824
+      ],
+      "cells": 48,
+      "root_side_counts": {
+        "L": 21,
+        "R": 20,
+        "unknown": 7
+      }
+    },
+    "ORN_DM1": {
+      "body_ids": [
+        60498,
+        105395,
+        116618,
+        119181,
+        123123,
+        141372,
+        150947,
+        153046,
+        157520,
+        160357,
+        160643,
+        161922,
+        162611,
+        167640,
+        170403,
+        173031,
+        173387,
+        173751,
+        176260,
+        179108,
+        180317,
+        181207,
+        181625,
+        182888,
+        183425,
+        184230,
+        186397,
+        187949,
+        189075,
+        189518,
+        189605,
+        190032,
+        190294,
+        191144,
+        192631,
+        195280,
+        202140,
+        202705,
+        204248,
+        207430,
+        210364,
+        217507,
+        218745,
+        220183,
+        221747,
+        222974,
+        226920,
+        240470,
+        258551,
+        260128,
+        279476,
+        296449,
+        353891,
+        363119,
+        416090,
+        436473,
+        532745,
+        536451,
+        541552,
+        551768,
+        556859,
+        564451,
+        900877,
+        902023,
+        922590,
+        925639,
+        212945075,
+        222256845,
+        499769368,
+        526888712,
+        648510281,
+        742571852,
+        802014155,
+        821459348
+      ],
+      "cells": 74,
+      "root_side_counts": {
+        "L": 35,
+        "R": 39
+      }
+    },
+    "ORN_DM2": {
+      "body_ids": [
+        80841,
+        160483,
+        161413,
+        165693,
+        171120,
+        171505,
+        172518,
+        179677,
+        181265,
+        182016,
+        182050,
+        183950,
+        185543,
+        186942,
+        188609,
+        190785,
+        194695,
+        201965,
+        203339,
+        204061,
+        204282,
+        207784,
+        208069,
+        213319,
+        217529,
+        227459,
+        247784,
+        284316,
+        286134,
+        328160,
+        383889,
+        390433,
+        424866,
+        463132,
+        464464,
+        497471,
+        519243,
+        552780,
+        563826,
+        565132,
+        916720,
+        920378,
+        925495,
+        174589841,
+        214557957,
+        243668978,
+        265477191,
+        372015670,
+        379897969,
+        743179180,
+        747796417,
+        805975280,
+        860366351,
+        915599549
+      ],
+      "cells": 54,
+      "root_side_counts": {
+        "L": 24,
+        "R": 29,
+        "unknown": 1
+      }
+    },
+    "ORN_DM5": {
+      "body_ids": [
+        211550,
+        212619,
+        214030,
+        220921,
+        221071,
+        224955,
+        225286,
+        229473,
+        230774,
+        232380,
+        235920,
+        359193,
+        399456,
+        461592,
+        462384,
+        499904,
+        564905,
+        925419,
+        925494,
+        926063,
+        934798,
+        956021,
+        265556305,
+        279849129,
+        301173705,
+        371094763,
+        433710777,
+        616249897,
+        627676426,
+        642929787,
+        649610769,
+        752011430,
+        756497609,
+        831767234,
+        925096963
+      ],
+      "cells": 35,
+      "root_side_counts": {
+        "L": 10,
+        "R": 18,
+        "unknown": 7
+      }
+    },
+    "ORN_VA2": {
+      "body_ids": [
+        18147,
+        75421,
+        120627,
+        135957,
+        137788,
+        138423,
+        141308,
+        141661,
+        142962,
+        145253,
+        145847,
+        148445,
+        153849,
+        154416,
+        156151,
+        158617,
+        158649,
+        159524,
+        162635,
+        163657,
+        164269,
+        164384,
+        165341,
+        169187,
+        169422,
+        170322,
+        170735,
+        170950,
+        173912,
+        174237,
+        178532,
+        179786,
+        180465,
+        180771,
+        183973,
+        184468,
+        184729,
+        186029,
+        186200,
+        188007,
+        189355,
+        190954,
+        192555,
+        194874,
+        198139,
+        199488,
+        202321,
+        204881,
+        205907,
+        210853,
+        212914,
+        214857,
+        214895,
+        226401,
+        235199,
+        250249,
+        255283,
+        255865,
+        276359,
+        301799,
+        308608,
+        369074,
+        414342,
+        521420,
+        544744,
+        551689,
+        555881,
+        561669,
+        569249,
+        569993,
+        569995,
+        921954,
+        925375,
+        925376,
+        925694,
+        956071,
+        237355379,
+        282395216,
+        442779736,
+        616971586,
+        676893250,
+        683472058,
+        907638584
+      ],
+      "cells": 83,
+      "root_side_counts": {
+        "L": 33,
+        "R": 41,
+        "unknown": 9
+      }
+    }
+  },
+  "schema_version": 1,
+  "source_lock": {
+    "annotations.feather": {
+      "bytes": 14483314,
+      "sha256": "2177e246113e4cfbf1e7772ec37c6da1955ff22e8063d0b1f833101f99a9a3b2",
+      "url": "https://storage.googleapis.com/flyem-male-cns/v1.0/connectome-data/flat-connectome/body-annotations-male-cns-v1.0-minconf-0.5.feather"
+    },
+    "connectome-weights.feather": {
+      "bytes": 1051241946,
+      "sha256": "e35da783d1c686b2b58b3b87cd6a403ae43bfcfba8bff28e08ef752c1a56afc1",
+      "url": "https://storage.googleapis.com/flyem-male-cns/v1.0/connectome-data/flat-connectome/connectome-weights-male-cns-v1.0-minconf-0.5.feather"
+    },
+    "neurotransmitters.feather": {
+      "bytes": 43282834,
+      "sha256": "95c9289220663abeb3409f3ad9e5a7f8a53f8093f5139d15502cd08da8879621",
+      "url": "https://storage.googleapis.com/flyem-male-cns/v1.0/connectome-data/flat-connectome/body-neurotransmitters-male-cns-v1.0.feather"
+    }
+  },
+  "stage": "anatomical_crosswalk_rate_contract_unresolved"
+}

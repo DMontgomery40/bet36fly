@@ -1,5 +1,9 @@
 # BET36FLY model card
 
+## Natural sensory calibration checkpoint — September 13
+
+The [bounded calibration](evidence/natural-sensory-calibration-2026-09-13/index.md) exports exact candidate cell IDs and native ORN-to-PN contact support. Taste subtype mapping and absolute sensory schedules remain unresolved. Zero sensory neural calls ran; no natural-response, feeding or two-source choice claim is established. This adds an offline anatomy exporter and evidence, with no production/API/frontend behavior change.
+
 BET36FLY uses the actual MaleCNS v1.0 neuronal connectome from HHMI Janelia, Google Research and collaborators. Its sports behavior is an experimental engineering application, not a behavior reported or validated by those researchers. It contains no language model deciding the picks and no randomly generated substitute brain.
 
 ## Current model and experiment status

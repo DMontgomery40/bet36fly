@@ -5,6 +5,10 @@ status: sources-inspected-assay-not-implemented
 ---
 # Fruit, sugar water and aversive inputs
 
+## Calibration checkpoint — September 13
+
+The [bounded calibration checkpoint](../docs/evidence/natural-sensory-calibration-2026-09-13/index.md) exports exact candidate cells and directed projection support. All 167 labellar candidates lack receptor annotations; 83 ORN_VA2 and 48 ORN_DA2 cells have verified native PN contacts. The newly identified Tastekin Cell 2026 molecular map is the next targeted extraction. Baselines, temporal schedules and taste subtype binding remain unresolved. **No new sensory assay ran.** [Rate contract and finite stop](../docs/evidence/natural-sensory-calibration-2026-09-13/assay-decision.md), [two-source/sports contract](../docs/evidence/natural-sensory-calibration-2026-09-13/sports-contract.md).
+
 The [current direction](../docs/PROJECT_DIRECTION.md) is to establish a natural sensory-response assay before returning to sports learning. There is no single “Hz into the fly brain” for fruit or sugar water. A defensible input is a stimulus-specific pattern over identified sensory neurons, with a dose, baseline, onset, duration and uncertainty. This page records actual measurements and separates them from simulator settings.
 
 ## Measured taste and odor responses

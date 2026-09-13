@@ -1,0 +1,77 @@
+{
+  "date_checked": "2026-09-13",
+  "extends": "../natural-sensory-reorientation-2026-09-13/sources.json",
+  "sources": [
+    {
+      "id": "malecns",
+      "url": "https://male-cns.janelia.org/",
+      "version": "v1.0; local docs/connectome-source-lock.json",
+      "date_checked": "2026-09-13",
+      "inspection": "Current resource and all three locked local raw hashes; complete retained graph arrays and relevant raw annotation fields",
+      "limitation": "Anatomy does not specify absolute physiology; no release replacement"
+    },
+    {
+      "id": "tastekin",
+      "url": "https://www.janelia.org/publication/the-complete-gustatory-connectome-of-adult-drosophila-reveals-how-taste-guides-feeding",
+      "version": "Cell 2026; DOI 10.1016/j.cell.2026.08.016; PMID 42691996",
+      "date_checked": "2026-09-13",
+      "inspection": "Primary abstract and publication index; molecular identities and feeding circuits reported",
+      "limitation": "Full text/supplement not obtained: Cell 403, bioRxiv full 429/JATS 403, Europe PMC repository PDF 403. No subtype table extracted"
+    },
+    {
+      "id": "tastekin-preprint",
+      "url": "https://doi.org/10.1101/2025.08.25.671814",
+      "version": "v1 2025-08-25; v2 2025-12-13",
+      "date_checked": "2026-09-13",
+      "inspection": "bioRxiv API version metadata; Europe PMC PPR1072256 record",
+      "limitation": "Metadata is not full-text inspection"
+    },
+    {
+      "id": "benton",
+      "url": "https://doi.org/10.1038/s44319-025-00476-8",
+      "version": "2025; Dataset EV1",
+      "date_checked": "2026-09-13",
+      "inspection": "Article text and original workbook; all 141 worksheet rows scanned, selected rows 14/15/19/20/23 inspected including notes",
+      "limitation": "Population estimates are cross-study; no per-cell rate or valence decoder. Parenthesized receptor genes have no known functional contribution in that neuron; the Or33a note has an ab4A/ab4B inconsistency, so the row identity and article context are retained"
+    },
+    {
+      "id": "zhao",
+      "url": "https://doi.org/10.1038/s41467-022-35527-4",
+      "version": "2022; Fig 7 control groups",
+      "date_checked": "2026-09-13",
+      "inspection": "Original electrophysiology methods reread; 10 previously extracted source numeric vectors independently recomputed",
+      "limitation": "Original workbook visual inspection belongs to prior checkpoint. Delta responses do not supply absolute baseline, waveform or native specimen transfer"
+    },
+    {
+      "id": "shiu-paper",
+      "url": "https://doi.org/10.1038/s41586-024-07763-9",
+      "version": "2024",
+      "date_checked": "2026-09-13",
+      "inspection": "Primary model/stimulation/feeding methods",
+      "limitation": "Female FlyWire; sugar 10\u2013200 Hz and water 20\u2013260 Hz are model sweeps; MN9 readout cannot simply establish MaleCNS behavior"
+    },
+    {
+      "id": "shiu-code",
+      "url": "https://github.com/philshiu/Drosophila_brain_model",
+      "version": "91bdd1e7dcf193f3e7ca5a8933497fcef63b7960",
+      "date_checked": "2026-09-13",
+      "inspection": "Full model.py; current main SHA, releases (empty), open issue 9 clustering question",
+      "limitation": "Inspected implementation, not reproduced here"
+    },
+    {
+      "id": "community-flycoin",
+      "url": "https://github.com/ad7584/flycoin/blob/main/README.md",
+      "version": "README checked 2026-09-13",
+      "date_checked": "2026-09-13",
+      "inspection": "Author report of MaleCNS LB screening and explicit lack of subtype ground truth",
+      "limitation": "README only; not independently inspected implementation or reproduced result; outcome-based sweet assignment does not resolve identity"
+    }
+  ],
+  "workbook": {
+    "file": "benton-ev1.xlsx",
+    "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs44319-025-00476-8/MediaObjects/44319_2025_476_MOESM2_ESM.xlsx",
+    "sha256": "0b0e76250bcbca8c5acc3c0ba1cc9634060d7f992cc5979d710c9fff3613d49d"
+  },
+  "retrieval_log": "retrievals.json",
+  "search_boundary": "Targeted primary package and directly relevant physiology/reference checks; no claim of exhaustive absence of published MaleCNS work"
+}

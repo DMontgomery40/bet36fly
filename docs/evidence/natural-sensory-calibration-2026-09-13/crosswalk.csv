@@ -1,0 +1,476 @@
+body_id,graph_index,type,class,superclass,instance,root_side,soma_side,entry_nerve,exit_nerve,subclass,receptor_type_annotation,flywire_type_annotation,status_label,transmitter,candidate_receptor,candidate_sensillum_neuron,benton_ev1_row,binding_status
+10331,306,MN9,,cb_motor,MN9_L,,L,,PhN,pm,,CB0701,Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+10390,360,VA2_adPN,ALPN,cb_intrinsic,VA2_adPN_R,,R,,,,,VA2_adPN,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+10561,522,VA2_adPN,ALPN,cb_intrinsic,VA2_adPN_L,,L,,,,,VA2_adPN,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+16949,6367,MN9,,cb_motor,MN9_R,,R,,PhN,pm,,CB0701,RT Hard to trace,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+18147,7438,ORN_VA2,olfactory,cb_sensory,ORN_VA2_R,R,,AN,,,,ORN_VA2,Prelim Roughly traced,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+18416,7679,DA2_lPN,ALPN,cb_intrinsic,DA2_lPN_R,,R,,,,,DA2_lPN,Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+18776,8001,DA2_lPN,ALPN,cb_intrinsic,DA2_lPN_L,,L,,,,,DA2_lPN,Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+19339,8504,DA2_lPN,ALPN,cb_intrinsic,DA2_lPN_L,,L,,,,,DA2_lPN,Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+20105,9188,DA2_lPN,ALPN,cb_intrinsic,DA2_lPN_L,,L,,,,,DA2_lPN,Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+20311,9370,DA2_lPN,ALPN,cb_intrinsic,DA2_lPN_R,,R,,,,,DA2_lPN,Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+20995,9975,DA2_lPN,ALPN,cb_intrinsic,DA2_lPN_L,,L,,,,,DA2_lPN,Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+21876,10769,DA2_lPN,ALPN,cb_intrinsic,DA2_lPN_R,,R,,,,,DA2_lPN,Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+23958,12644,DA2_lPN,ALPN,cb_intrinsic,DA2_lPN_R,,R,,,,,DA2_lPN,Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+26423,14839,DA2_lPN,ALPN,cb_intrinsic,DA2_lPN_L,,L,,,,,DA2_lPN,Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+33339,20948,LB3d,gustatory,cb_sensory,LB3d_R,R,,MxLbN,,labellar bristle,,LB3,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+34301,21802,DA2_lPN,ALPN,cb_intrinsic,DA2_lPN_R,,R,,,,,DA2_lPN,Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+44816,31084,LB1e,gustatory,cb_sensory,LB1e_R,R,,MxLbN,,labellar bristle,,LB1e,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+54104,39104,LB1d,gustatory,cb_sensory,LB1d_L,L,,MxLbN,,labellar bristle,,"LB1a,LB1d",Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+60498,44502,ORN_DM1,olfactory,cb_sensory,ORN_DM1_R,R,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+71254,53327,LB3b,gustatory,cb_sensory,LB3b_L,L,,MxLbN,,labellar bristle,,LB3,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+72047,53975,LB4b,gustatory,cb_sensory,LB4b_R,R,,MxLbN,,labellar bristle,,LB3,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+72059,53985,LB3c,gustatory,cb_sensory,LB3c_R,R,,MxLbN,,labellar bristle,,LB3,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+75421,56673,ORN_VA2,olfactory,cb_sensory,ORN_VA2_R,R,,AN,,,,ORN_VA2,Prelim Roughly traced,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+77868,58651,LB2a,gustatory,cb_sensory,LB2a_L,L,,MxLbN,,labellar bristle,,LB2a-b,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+78240,58943,LB3c,gustatory,cb_sensory,LB3c_L,L,,MxLbN,,labellar bristle,,LB3,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+80841,60996,ORN_DM2,olfactory,cb_sensory,ORN_DM2_R,R,,AN,,,,ORN_DM2,Prelim Roughly traced,acetylcholine,Or22a/(Or22b),ab3A,20,anatomy_candidate_only_not_a_calibrated_stimulus
+81741,61727,LB1c,gustatory,cb_sensory,LB1c_L,L,,MxLbN,,labellar bristle,,LB1c,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+85806,64943,LB3c,gustatory,cb_sensory,LB3c_L,L,,MxLbN,,labellar bristle,,LB3,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+92440,69922,LB3c,gustatory,cb_sensory,LB3c_R,R,,MxLbN,,labellar bristle,,LB3,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+93290,70578,LB3d,gustatory,cb_sensory,LB3d_L,L,,MxLbN,,labellar bristle,,LB3,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+101087,76346,LB3c,gustatory,cb_sensory,LB3c_R,R,,MxLbN,,labellar bristle,,LB3,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+105395,79492,ORN_DM1,olfactory,cb_sensory,ORN_DM1_L,L,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+107241,80798,LB1c,gustatory,cb_sensory,LB1c_R,R,,MxLbN,,labellar bristle,,LB1c,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+111660,83966,LB1e,gustatory,cb_sensory,LB1e_R,R,,MxLbN,,labellar bristle,,LB1e,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+114239,85801,LB2b,gustatory,cb_sensory,LB2b_R,R,,MxLbN,,labellar bristle,,LB2a-b,Prelim Roughly traced,unclear,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+115666,86786,LB1a,gustatory,cb_sensory,LB1a_R,R,,MxLbN,,labellar bristle,,"LB1a,LB1d",Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+116618,87435,ORN_DM1,olfactory,cb_sensory,ORN_DM1_R,R,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+119181,89199,ORN_DM1,olfactory,cb_sensory,ORN_DM1_R,R,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+120303,89918,LB3c,gustatory,cb_sensory,LB3c_R,R,,MxLbN,,labellar bristle,,LB3,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+120627,90137,ORN_VA2,olfactory,cb_sensory,ORN_VA2_R,R,,AN,,,,ORN_VA2,Prelim Roughly traced,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+122806,91592,LB4b,gustatory,cb_sensory,LB4b_R,R,,MxLbN,,labellar bristle,,LB3,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+123123,91799,ORN_DM1,olfactory,cb_sensory,ORN_DM1_R,R,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+125111,93091,LB1c,gustatory,cb_sensory,LB1c_L,L,,MxLbN,,labellar bristle,,LB1c,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+125405,93282,LB3d,gustatory,cb_sensory,LB3d_R,R,,MxLbN,,labellar bristle,,LB3,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+128129,94945,LB4b,gustatory,cb_sensory,LB4b_L,L,,MxLbN,,labellar bristle,,LB3,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+129171,95590,LB3d,gustatory,cb_sensory,LB3d_R,R,,MxLbN,,labellar bristle,,LB3,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+130693,96521,LB3d,gustatory,cb_sensory,LB3d_L,L,,MxLbN,,labellar bristle,,LB3,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+135957,99569,ORN_VA2,olfactory,cb_sensory,ORN_VA2_R,R,,AN,,,,ORN_VA2,Prelim Roughly traced,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+136183,99693,LB3a,gustatory,cb_sensory,LB3a_L,L,,MxLbN,,labellar bristle,,LB3,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+136276,99741,LB2c,gustatory,cb_sensory,LB2c_R,R,,MxLbN,,labellar bristle,,LB2c,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+137497,100398,LB1e,gustatory,cb_sensory,LB1e_L,L,,MxLbN,,labellar bristle,,LB1e,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+137788,100545,ORN_VA2,olfactory,cb_sensory,ORN_VA2_R,R,,AN,,,,ORN_VA2,Prelim Roughly traced,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+138423,100886,ORN_VA2,olfactory,cb_sensory,ORN_VA2_L,L,,AN,,,,ORN_VA2,Prelim Roughly traced,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+139178,101290,LB1d,gustatory,cb_sensory,LB1d_R,R,,MxLbN,,labellar bristle,,"LB1a,LB1d",Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+140015,101707,LB3c,gustatory,cb_sensory,LB3c_R,R,,MxLbN,,labellar bristle,,LB3,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+140619,102015,LB3a,gustatory,cb_sensory,LB3a_R,R,,MxLbN,,labellar bristle,,LB3,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+140851,102137,LB3d,gustatory,cb_sensory,LB3d_L,L,,MxLbN,,labellar bristle,,LB3,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+141308,102344,ORN_VA2,olfactory,cb_sensory,ORN_VA2_R,R,,AN,,,,ORN_VA2,Prelim Roughly traced,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+141372,102372,ORN_DM1,olfactory,cb_sensory,ORN_DM1_R,R,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+141661,102517,ORN_VA2,olfactory,cb_sensory,ORN_VA2_L,L,,AN,,,,ORN_VA2,Prelim Roughly traced,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+141663,102519,LB3a,gustatory,cb_sensory,LB3a_R,R,,MxLbN,,labellar bristle,,LB3,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+142827,103096,LB3c,gustatory,cb_sensory,LB3c_R,R,,MxLbN,,labellar bristle,,LB3,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+142962,103160,ORN_VA2,olfactory,cb_sensory,ORN_VA2_L,L,,AN,,,,ORN_VA2,Prelim Roughly traced,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+144334,103845,LB1a,gustatory,cb_sensory,LB1a_L,L,,MxLbN,,labellar bristle,,"LB1a,LB1d",Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+145253,104285,ORN_VA2,olfactory,cb_sensory,ORN_VA2_R,R,,AN,,,,ORN_VA2,Prelim Roughly traced,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+145847,104563,ORN_VA2,olfactory,cb_sensory,ORN_VA2_R,R,,AN,,,,ORN_VA2,RT Hard to trace,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+148445,105715,ORN_VA2,olfactory,cb_sensory,ORN_VA2_L,L,,AN,,,,ORN_VA2,Prelim Roughly traced,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+150947,106756,ORN_DM1,olfactory,cb_sensory,ORN_DM1_R,R,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+152400,107326,LB4b,gustatory,cb_sensory,LB4b_L,L,,MxLbN,,labellar bristle,,LB3,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+153046,107573,ORN_DM1,olfactory,cb_sensory,ORN_DM1_R,R,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+153849,107892,ORN_VA2,olfactory,cb_sensory,ORN_VA2_R,R,,AN,,,,ORN_VA2,Prelim Roughly traced,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+154359,108068,LB1e,gustatory,cb_sensory,LB1e_L,L,,MxLbN,,labellar bristle,,LB1e,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+154416,108091,ORN_VA2,olfactory,cb_sensory,ORN_VA2_L,L,,AN,,,,ORN_VA2,Prelim Roughly traced,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+154544,108143,LB1a,gustatory,cb_sensory,LB1a_R,R,,MxLbN,,labellar bristle,,"LB1a,LB1d",Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+156151,108732,ORN_VA2,olfactory,cb_sensory,ORN_VA2_R,R,,AN,,,,ORN_VA2,Prelim Roughly traced,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+157520,109198,ORN_DM1,olfactory,cb_sensory,ORN_DM1_R,R,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+158537,109558,LB3d,gustatory,cb_sensory,LB3d_R,R,,MxLbN,,labellar bristle,,LB3,Reviewed,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+158617,109587,ORN_VA2,olfactory,cb_sensory,ORN_VA2_L,L,,AN,,,,ORN_VA2,Prelim Roughly traced,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+158649,109601,ORN_VA2,olfactory,cb_sensory,ORN_VA2_R,R,,AN,,,,ORN_VA2,Prelim Roughly traced,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+159524,109897,ORN_VA2,olfactory,cb_sensory,ORN_VA2_R,R,,AN,,,,ORN_VA2,Prelim Roughly traced,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+159772,109991,LB3b,gustatory,cb_sensory,LB3b_L,L,,MxLbN,,labellar bristle,,LB3,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+160357,110176,ORN_DM1,olfactory,cb_sensory,ORN_DM1_R,R,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+160435,110207,LB3a,gustatory,cb_sensory,LB3a_L,L,,MxLbN,,labellar bristle,,LB3,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+160483,110224,ORN_DM2,olfactory,cb_sensory,ORN_DM2_R,R,,AN,,,,ORN_DM2,Prelim Roughly traced,acetylcholine,Or22a/(Or22b),ab3A,20,anatomy_candidate_only_not_a_calibrated_stimulus
+160643,110266,ORN_DM1,olfactory,cb_sensory,ORN_DM1_L,L,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+161413,110514,ORN_DM2,olfactory,cb_sensory,ORN_DM2_R,R,,AN,,,,ORN_DM2,Prelim Roughly traced,acetylcholine,Or22a/(Or22b),ab3A,20,anatomy_candidate_only_not_a_calibrated_stimulus
+161922,110659,ORN_DM1,olfactory,cb_sensory,ORN_DM1_R,R,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+162611,110852,ORN_DM1,olfactory,cb_sensory,ORN_DM1_L,L,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+162635,110865,ORN_VA2,olfactory,cb_sensory,ORN_VA2_R,R,,AN,,,,ORN_VA2,Prelim Roughly traced,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+163395,111073,LB1a,gustatory,cb_sensory,LB1a_R,R,,MxLbN,,labellar bristle,,"LB1a,LB1d",Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+163597,111142,LB3b,gustatory,cb_sensory,LB3b_R,R,,MxLbN,,labellar bristle,,LB3,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+163657,111167,ORN_VA2,olfactory,cb_sensory,ORN_VA2_R,R,,AN,,,,ORN_VA2,Prelim Roughly traced,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+164269,111348,ORN_VA2,olfactory,cb_sensory,ORN_VA2_R,R,,AN,,,,ORN_VA2,Prelim Roughly traced,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+164384,111382,ORN_VA2,olfactory,cb_sensory,ORN_VA2_R,R,,AN,,,,ORN_VA2,Prelim Roughly traced,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+165341,111667,ORN_VA2,olfactory,cb_sensory,ORN_VA2_L,L,,AN,,,,ORN_VA2,Prelim Roughly traced,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+165693,111765,ORN_DM2,olfactory,cb_sensory,ORN_DM2_R,R,,AN,,,,ORN_DM2,Prelim Roughly traced,acetylcholine,Or22a/(Or22b),ab3A,20,anatomy_candidate_only_not_a_calibrated_stimulus
+166190,111911,LB3a,gustatory,cb_sensory,LB3a_R,R,,MxLbN,,labellar bristle,,LB3,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+167640,112298,ORN_DM1,olfactory,cb_sensory,ORN_DM1_R,R,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+167663,112305,LB3a,gustatory,cb_sensory,LB3a_L,L,,MxLbN,,labellar bristle,,LB3,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+168492,112525,LB1a,gustatory,cb_sensory,LB1a_L,L,,MxLbN,,labellar bristle,,"LB1a,LB1d",Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+169187,112712,ORN_VA2,olfactory,cb_sensory,ORN_VA2_L,L,,AN,,,,ORN_VA2,Prelim Roughly traced,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+169422,112768,ORN_VA2,olfactory,cb_sensory,ORN_VA2_R,R,,AN,,,,ORN_VA2,Prelim Roughly traced,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+170322,112987,ORN_VA2,olfactory,cb_sensory,ORN_VA2_R,R,,AN,,,,ORN_VA2,Prelim Roughly traced,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+170403,113014,ORN_DM1,olfactory,cb_sensory,ORN_DM1_R,R,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+170735,113093,ORN_VA2,olfactory,cb_sensory,ORN_VA2_R,R,,AN,,,,ORN_VA2,Prelim Roughly traced,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+170950,113144,ORN_VA2,olfactory,cb_sensory,ORN_VA2_R,R,,AN,,,,ORN_VA2,Prelim Roughly traced,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+171120,113196,ORN_DM2,olfactory,cb_sensory,ORN_DM2_R,R,,AN,,,,ORN_DM2,Prelim Roughly traced,acetylcholine,Or22a/(Or22b),ab3A,20,anatomy_candidate_only_not_a_calibrated_stimulus
+171505,113283,ORN_DM2,olfactory,cb_sensory,ORN_DM2_R,R,,AN,,,,ORN_DM2,RT Hard to trace,acetylcholine,Or22a/(Or22b),ab3A,20,anatomy_candidate_only_not_a_calibrated_stimulus
+172518,113514,ORN_DM2,olfactory,cb_sensory,ORN_DM2_R,R,,AN,,,,ORN_DM2,Prelim Roughly traced,acetylcholine,Or22a/(Or22b),ab3A,20,anatomy_candidate_only_not_a_calibrated_stimulus
+172880,113602,ORN_DA2,olfactory,cb_sensory,ORN_DA2_L,L,,AN,,,,ORN_DA2,Prelim Roughly traced,acetylcholine,Or56a/(Or33a),ab4B,23,anatomy_candidate_only_not_a_calibrated_stimulus
+173031,113639,ORN_DM1,olfactory,cb_sensory,ORN_DM1_R,R,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+173387,113725,ORN_DM1,olfactory,cb_sensory,ORN_DM1_R,R,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+173462,113744,LB1a,gustatory,cb_sensory,LB1a_L,L,,MxLbN,,labellar bristle,,"LB1a,LB1d",Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+173751,113804,ORN_DM1,olfactory,cb_sensory,ORN_DM1_L,L,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+173912,113845,ORN_VA2,olfactory,cb_sensory,ORN_VA2_R,R,,AN,,,,ORN_VA2,Prelim Roughly traced,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+174237,113930,ORN_VA2,olfactory,cb_sensory,ORN_VA2_R,R,,AN,,,,ORN_VA2,Prelim Roughly traced,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+174893,114104,ORN_DA2,olfactory,cb_sensory,ORN_DA2_L,L,,AN,,,,ORN_DA2,Prelim Roughly traced,acetylcholine,Or56a/(Or33a),ab4B,23,anatomy_candidate_only_not_a_calibrated_stimulus
+175572,114261,LB1e,gustatory,cb_sensory,LB1e_L,L,,MxLbN,,labellar bristle,,LB1e,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+176260,114408,ORN_DM1,olfactory,cb_sensory,ORN_DM1_L,L,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+178321,114854,LB3d,gustatory,cb_sensory,LB3d_L,L,,MxLbN,,labellar bristle,,LB3,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+178532,114893,ORN_VA2,olfactory,cb_sensory,ORN_VA2_R,R,,AN,,,,ORN_VA2,Prelim Roughly traced,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+178913,114960,LB3a,gustatory,cb_sensory,LB3a_L,L,,MxLbN,,labellar bristle,,LB3,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+179108,115000,ORN_DM1,olfactory,cb_sensory,ORN_DM1_R,R,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+179677,115133,ORN_DM2,olfactory,cb_sensory,ORN_DM2_R,R,,AN,,,,ORN_DM2,Prelim Roughly traced,acetylcholine,Or22a/(Or22b),ab3A,20,anatomy_candidate_only_not_a_calibrated_stimulus
+179786,115159,ORN_VA2,olfactory,cb_sensory,ORN_VA2_R,R,,AN,,,,ORN_VA2,Prelim Roughly traced,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+180314,115256,LB3c,gustatory,cb_sensory,LB3c_L,L,,MxLbN,,labellar bristle,,LB3,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+180317,115257,ORN_DM1,olfactory,cb_sensory,ORN_DM1_L,L,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+180465,115290,ORN_VA2,olfactory,cb_sensory,ORN_VA2_R,R,,AN,,,,ORN_VA2,Prelim Roughly traced,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+180771,115344,ORN_VA2,olfactory,cb_sensory,ORN_VA2_unknown,unknown,,AN,,,,ORN_VA2,RT Hard to trace,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+181207,115424,ORN_DM1,olfactory,cb_sensory,ORN_DM1_R,R,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+181265,115434,ORN_DM2,olfactory,cb_sensory,ORN_DM2_R,R,,AN,,,,ORN_DM2,Prelim Roughly traced,acetylcholine,Or22a/(Or22b),ab3A,20,anatomy_candidate_only_not_a_calibrated_stimulus
+181625,115504,ORN_DM1,olfactory,cb_sensory,ORN_DM1_R,R,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+182016,115581,ORN_DM2,olfactory,cb_sensory,ORN_DM2_R,R,,AN,,,,ORN_DM2,Prelim Roughly traced,acetylcholine,Or22a/(Or22b),ab3A,20,anatomy_candidate_only_not_a_calibrated_stimulus
+182050,115594,ORN_DM2,olfactory,cb_sensory,ORN_DM2_R,R,,AN,,,,ORN_DM2,Prelim Roughly traced,acetylcholine,Or22a/(Or22b),ab3A,20,anatomy_candidate_only_not_a_calibrated_stimulus
+182888,115755,ORN_DM1,olfactory,cb_sensory,ORN_DM1_R,R,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+183061,115785,LB3a,gustatory,cb_sensory,LB3a_R,R,,MxLbN,,labellar bristle,,LB3,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+183084,115789,LB3b,gustatory,cb_sensory,LB3b_R,R,,MxLbN,,labellar bristle,,LB3,Reviewed,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+183425,115866,ORN_DM1,olfactory,cb_sensory,ORN_DM1_R,R,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+183950,115976,ORN_DM2,olfactory,cb_sensory,ORN_DM2_R,R,,AN,,,,ORN_DM2,Prelim Roughly traced,acetylcholine,Or22a/(Or22b),ab3A,20,anatomy_candidate_only_not_a_calibrated_stimulus
+183973,115980,ORN_VA2,olfactory,cb_sensory,ORN_VA2_unknown,unknown,,AN,,,,ORN_VA2,RT Hard to trace,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+184230,116031,ORN_DM1,olfactory,cb_sensory,ORN_DM1_R,R,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+184468,116089,ORN_VA2,olfactory,cb_sensory,ORN_VA2_L,L,,AN,,,,ORN_VA2,Prelim Roughly traced,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+184729,116147,ORN_VA2,olfactory,cb_sensory,ORN_VA2_R,R,,AN,,,,ORN_VA2,Prelim Roughly traced,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+185543,116314,ORN_DM2,olfactory,cb_sensory,ORN_DM2_L,L,,AN,,,,ORN_DM2,Prelim Roughly traced,acetylcholine,Or22a/(Or22b),ab3A,20,anatomy_candidate_only_not_a_calibrated_stimulus
+186029,116391,ORN_VA2,olfactory,cb_sensory,ORN_VA2_L,L,,AN,,,,ORN_VA2,RT Hard to trace,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+186200,116425,ORN_VA2,olfactory,cb_sensory,ORN_VA2_R,R,,AN,,,,ORN_VA2,Prelim Roughly traced,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+186397,116466,ORN_DM1,olfactory,cb_sensory,ORN_DM1_R,R,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+186942,116564,ORN_DM2,olfactory,cb_sensory,ORN_DM2_R,R,,AN,,,,ORN_DM2,Prelim Roughly traced,acetylcholine,Or22a/(Or22b),ab3A,20,anatomy_candidate_only_not_a_calibrated_stimulus
+187492,116661,LB3b,gustatory,cb_sensory,LB3b_R,R,,MxLbN,,labellar bristle,,LB3,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+187776,116710,LB3a,gustatory,cb_sensory,LB3a_L,L,,MxLbN,,labellar bristle,,LB3,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+187949,116731,ORN_DM1,olfactory,cb_sensory,ORN_DM1_R,R,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+188007,116748,ORN_VA2,olfactory,cb_sensory,ORN_VA2_R,R,,AN,,,,ORN_VA2,Prelim Roughly traced,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+188609,116876,ORN_DM2,olfactory,cb_sensory,ORN_DM2_R,R,,AN,,,,ORN_DM2,Prelim Roughly traced,acetylcholine,Or22a/(Or22b),ab3A,20,anatomy_candidate_only_not_a_calibrated_stimulus
+189075,116967,ORN_DM1,olfactory,cb_sensory,ORN_DM1_L,L,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+189355,117011,ORN_VA2,olfactory,cb_sensory,ORN_VA2_unknown,unknown,,AN,,,,ORN_VA2,RT Hard to trace,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+189518,117040,ORN_DM1,olfactory,cb_sensory,ORN_DM1_L,L,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+189605,117058,ORN_DM1,olfactory,cb_sensory,ORN_DM1_R,R,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+190032,117137,ORN_DM1,olfactory,cb_sensory,ORN_DM1_L,L,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+190294,117190,ORN_DM1,olfactory,cb_sensory,ORN_DM1_L,L,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+190769,117286,LB3c,gustatory,cb_sensory,LB3c_L,L,,MxLbN,,labellar bristle,,LB3,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+190785,117291,ORN_DM2,olfactory,cb_sensory,ORN_DM2_R,R,,AN,,,,ORN_DM2,Prelim Roughly traced,acetylcholine,Or22a/(Or22b),ab3A,20,anatomy_candidate_only_not_a_calibrated_stimulus
+190954,117320,ORN_VA2,olfactory,cb_sensory,ORN_VA2_R,R,,AN,,,,ORN_VA2,Prelim Roughly traced,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+191144,117348,ORN_DM1,olfactory,cb_sensory,ORN_DM1_R,R,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+192555,117628,ORN_VA2,olfactory,cb_sensory,ORN_VA2_R,R,,AN,,,,ORN_VA2,Prelim Roughly traced,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+192631,117646,ORN_DM1,olfactory,cb_sensory,ORN_DM1_R,R,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+194695,118025,ORN_DM2,olfactory,cb_sensory,ORN_DM2_R,R,,AN,,,,ORN_DM2,Prelim Roughly traced,acetylcholine,Or22a/(Or22b),ab3A,20,anatomy_candidate_only_not_a_calibrated_stimulus
+194874,118060,ORN_VA2,olfactory,cb_sensory,ORN_VA2_L,L,,AN,,,,ORN_VA2,Prelim Roughly traced,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+195280,118140,ORN_DM1,olfactory,cb_sensory,ORN_DM1_R,R,,AN,,,,ORN_DM1,Reviewed,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+198139,118621,ORN_VA2,olfactory,cb_sensory,ORN_VA2_L,L,,AN,,,,ORN_VA2,Prelim Roughly traced,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+199196,118791,LB3d,gustatory,cb_sensory,LB3d_R,R,,MxLbN,,labellar bristle,,LB3,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+199308,118810,LB3a,gustatory,cb_sensory,LB3a_R,R,,MxLbN,,labellar bristle,,LB3,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+199488,118844,ORN_VA2,olfactory,cb_sensory,ORN_VA2_L,L,,AN,,,,ORN_VA2,Prelim Roughly traced,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+200001,118935,LB1e,gustatory,cb_sensory,LB1e_L,L,,MxLbN,,labellar bristle,,LB1e,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+201075,119098,LB3d,gustatory,cb_sensory,LB3d_R,R,,MxLbN,,labellar bristle,,LB3,Reviewed,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+201965,119230,ORN_DM2,olfactory,cb_sensory,ORN_DM2_L,L,,AN,,,,ORN_DM2,Prelim Roughly traced,acetylcholine,Or22a/(Or22b),ab3A,20,anatomy_candidate_only_not_a_calibrated_stimulus
+202140,119257,ORN_DM1,olfactory,cb_sensory,ORN_DM1_R,R,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+202321,119289,ORN_VA2,olfactory,cb_sensory,ORN_VA2_R,R,,AN,,,,ORN_VA2,Prelim Roughly traced,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+202705,119342,ORN_DM1,olfactory,cb_sensory,ORN_DM1_R,R,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+202888,119373,LB3c,gustatory,cb_sensory,LB3c_R,R,,MxLbN,,labellar bristle,,LB3,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+203234,119419,LB3a,gustatory,cb_sensory,LB3a_L,L,,MxLbN,,labellar bristle,,LB3,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+203339,119435,ORN_DM2,olfactory,cb_sensory,ORN_DM2_R,R,,AN,,,,ORN_DM2,Prelim Roughly traced,acetylcholine,Or22a/(Or22b),ab3A,20,anatomy_candidate_only_not_a_calibrated_stimulus
+203780,119497,ORN_DA2,olfactory,cb_sensory,ORN_DA2_L,L,,AN,,,,ORN_DA2,Prelim Roughly traced,acetylcholine,Or56a/(Or33a),ab4B,23,anatomy_candidate_only_not_a_calibrated_stimulus
+204061,119532,ORN_DM2,olfactory,cb_sensory,ORN_DM2_R,R,,AN,,,,ORN_DM2,Prelim Roughly traced,acetylcholine,Or22a/(Or22b),ab3A,20,anatomy_candidate_only_not_a_calibrated_stimulus
+204248,119558,ORN_DM1,olfactory,cb_sensory,ORN_DM1_R,R,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+204282,119563,ORN_DM2,olfactory,cb_sensory,ORN_DM2_R,R,,AN,,,,ORN_DM2,Prelim Roughly traced,acetylcholine,Or22a/(Or22b),ab3A,20,anatomy_candidate_only_not_a_calibrated_stimulus
+204726,119618,LB3d,gustatory,cb_sensory,LB3d_L,L,,MxLbN,,labellar bristle,,LB3,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+204881,119640,ORN_VA2,olfactory,cb_sensory,ORN_VA2_unknown,unknown,,AN,,,,ORN_VA2,RT Hard to trace,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+205907,119804,ORN_VA2,olfactory,cb_sensory,ORN_VA2_L,L,,AN,,,,ORN_VA2,Prelim Roughly traced,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+207430,119990,ORN_DM1,olfactory,cb_sensory,ORN_DM1_R,R,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+207784,120048,ORN_DM2,olfactory,cb_sensory,ORN_DM2_R,R,,AN,,,,ORN_DM2,Prelim Roughly traced,acetylcholine,Or22a/(Or22b),ab3A,20,anatomy_candidate_only_not_a_calibrated_stimulus
+208069,120078,ORN_DM2,olfactory,cb_sensory,ORN_DM2_L,L,,AN,,,,ORN_DM2,Prelim Roughly traced,acetylcholine,Or22a/(Or22b),ab3A,20,anatomy_candidate_only_not_a_calibrated_stimulus
+208885,120175,LB1c,gustatory,cb_sensory,LB1c_R,R,,MxLbN,,labellar bristle,,LB1c,Reviewed,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+209155,120209,LB3b,gustatory,cb_sensory,LB3b_R,R,,MxLbN,,labellar bristle,,LB3,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+209688,120295,LB1e,gustatory,cb_sensory,LB1e_R,R,,MxLbN,,labellar bristle,,LB1e,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+209821,120311,ORN_DA2,olfactory,cb_sensory,ORN_DA2_R,R,,AN,,,,ORN_DA2,Prelim Roughly traced,acetylcholine,Or56a/(Or33a),ab4B,23,anatomy_candidate_only_not_a_calibrated_stimulus
+210344,120383,LB3d,gustatory,cb_sensory,LB3d_R,R,,MxLbN,,labellar bristle,,LB3,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+210364,120385,ORN_DM1,olfactory,cb_sensory,ORN_DM1_R,R,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+210853,120452,ORN_VA2,olfactory,cb_sensory,ORN_VA2_R,R,,AN,,,,ORN_VA2,Prelim Roughly traced,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+211550,120549,ORN_DM5,olfactory,cb_sensory,ORN_DM5_R,R,,AN,,,,ORN_DM5,Prelim Roughly traced,acetylcholine,Or85a/(Or33b),ab2B,19,anatomy_candidate_only_not_a_calibrated_stimulus
+212619,120675,ORN_DM5,olfactory,cb_sensory,ORN_DM5_R,R,,AN,,,,ORN_DM5,Prelim Roughly traced,acetylcholine,Or85a/(Or33b),ab2B,19,anatomy_candidate_only_not_a_calibrated_stimulus
+212914,120709,ORN_VA2,olfactory,cb_sensory,ORN_VA2_L,L,,AN,,,,ORN_VA2,Prelim Roughly traced,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+213319,120753,ORN_DM2,olfactory,cb_sensory,ORN_DM2_R,R,,AN,,,,ORN_DM2,Prelim Roughly traced,acetylcholine,Or22a/(Or22b),ab3A,20,anatomy_candidate_only_not_a_calibrated_stimulus
+214030,120832,ORN_DM5,olfactory,cb_sensory,ORN_DM5_R,R,,AN,,,,ORN_DM5,Prelim Roughly traced,acetylcholine,Or85a/(Or33b),ab2B,19,anatomy_candidate_only_not_a_calibrated_stimulus
+214857,120943,ORN_VA2,olfactory,cb_sensory,ORN_VA2_R,R,,AN,,,,ORN_VA2,Prelim Roughly traced,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+214895,120948,ORN_VA2,olfactory,cb_sensory,ORN_VA2_unknown,unknown,,AN,,,,ORN_VA2,RT Hard to trace,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+215556,121038,LB3c,gustatory,cb_sensory,LB3c_R,R,,MxLbN,,labellar bristle,,LB3,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+215972,121085,ORN_DA2,olfactory,cb_sensory,ORN_DA2_R,R,,AN,,,,ORN_DA2,Prelim Roughly traced,acetylcholine,Or56a/(Or33a),ab4B,23,anatomy_candidate_only_not_a_calibrated_stimulus
+217507,121237,ORN_DM1,olfactory,cb_sensory,ORN_DM1_R,R,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+217529,121241,ORN_DM2,olfactory,cb_sensory,ORN_DM2_R,R,,AN,,,,ORN_DM2,Prelim Roughly traced,acetylcholine,Or22a/(Or22b),ab3A,20,anatomy_candidate_only_not_a_calibrated_stimulus
+218171,121305,ORN_DA2,olfactory,cb_sensory,ORN_DA2_R,R,,AN,,,,ORN_DA2,RT Hard to trace,acetylcholine,Or56a/(Or33a),ab4B,23,anatomy_candidate_only_not_a_calibrated_stimulus
+218595,121349,ORN_DA2,olfactory,cb_sensory,ORN_DA2_R,R,,AN,,,,ORN_DA2,RT Hard to trace,acetylcholine,Or56a/(Or33a),ab4B,23,anatomy_candidate_only_not_a_calibrated_stimulus
+218745,121361,ORN_DM1,olfactory,cb_sensory,ORN_DM1_R,R,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+220042,121485,ORN_DA2,olfactory,cb_sensory,ORN_DA2_R,R,,AN,,,,ORN_DA2,Prelim Roughly traced,acetylcholine,Or56a/(Or33a),ab4B,23,anatomy_candidate_only_not_a_calibrated_stimulus
+220183,121507,ORN_DM1,olfactory,cb_sensory,ORN_DM1_L,L,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+220439,121529,ORN_DA2,olfactory,cb_sensory,ORN_DA2_R,R,,AN,,,,ORN_DA2,RT Hard to trace,acetylcholine,Or56a/(Or33a),ab4B,23,anatomy_candidate_only_not_a_calibrated_stimulus
+220921,121570,ORN_DM5,olfactory,cb_sensory,ORN_DM5_R,R,,AN,,,,ORN_DM5,Prelim Roughly traced,acetylcholine,Or85a/(Or33b),ab2B,19,anatomy_candidate_only_not_a_calibrated_stimulus
+221071,121588,ORN_DM5,olfactory,cb_sensory,ORN_DM5_R,R,,AN,,,,ORN_DM5,Prelim Roughly traced,acetylcholine,Or85a/(Or33b),ab2B,19,anatomy_candidate_only_not_a_calibrated_stimulus
+221747,121652,ORN_DM1,olfactory,cb_sensory,ORN_DM1_L,L,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+222974,121768,ORN_DM1,olfactory,cb_sensory,ORN_DM1_L,L,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+223836,121842,LB2c,gustatory,cb_sensory,LB2c_L,L,,MxLbN,,labellar bristle,,LB2c,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+224955,121947,ORN_DM5,olfactory,cb_sensory,ORN_DM5_R,R,,AN,,,,ORN_DM5,Prelim Roughly traced,acetylcholine,Or85a/(Or33b),ab2B,19,anatomy_candidate_only_not_a_calibrated_stimulus
+225286,121969,ORN_DM5,olfactory,cb_sensory,ORN_DM5_R,R,,AN,,,,ORN_DM5,Prelim Roughly traced,acetylcholine,Or85a/(Or33b),ab2B,19,anatomy_candidate_only_not_a_calibrated_stimulus
+226284,122033,ORN_DA2,olfactory,cb_sensory,ORN_DA2_unknown,unknown,,AN,,,,ORN_DA2,RT Hard to trace,acetylcholine,Or56a/(Or33a),ab4B,23,anatomy_candidate_only_not_a_calibrated_stimulus
+226401,122044,ORN_VA2,olfactory,cb_sensory,ORN_VA2_unknown,unknown,,AN,,,,ORN_VA2,RT Hard to trace,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+226920,122078,ORN_DM1,olfactory,cb_sensory,ORN_DM1_R,R,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+227459,122120,ORN_DM2,olfactory,cb_sensory,ORN_DM2_R,R,,AN,,,,ORN_DM2,RT Hard to trace,acetylcholine,Or22a/(Or22b),ab3A,20,anatomy_candidate_only_not_a_calibrated_stimulus
+228191,122167,ORN_DA2,olfactory,cb_sensory,ORN_DA2_R,R,,AN,,,,ORN_DA2,Prelim Roughly traced,acetylcholine,Or56a/(Or33a),ab4B,23,anatomy_candidate_only_not_a_calibrated_stimulus
+229473,122252,ORN_DM5,olfactory,cb_sensory,ORN_DM5_R,R,,AN,,,,ORN_DM5,Prelim Roughly traced,acetylcholine,Or85a/(Or33b),ab2B,19,anatomy_candidate_only_not_a_calibrated_stimulus
+230774,122338,ORN_DM5,olfactory,cb_sensory,ORN_DM5_R,R,,AN,,,,ORN_DM5,Prelim Roughly traced,acetylcholine,Or85a/(Or33b),ab2B,19,anatomy_candidate_only_not_a_calibrated_stimulus
+232071,122424,ORN_DA2,olfactory,cb_sensory,ORN_DA2_R,R,,AN,,,,ORN_DA2,Prelim Roughly traced,acetylcholine,Or56a/(Or33a),ab4B,23,anatomy_candidate_only_not_a_calibrated_stimulus
+232258,122433,ORN_DA2,olfactory,cb_sensory,ORN_DA2_unknown,unknown,,AN,,,,ORN_DA2,RT Hard to trace,acetylcholine,Or56a/(Or33a),ab4B,23,anatomy_candidate_only_not_a_calibrated_stimulus
+232380,122438,ORN_DM5,olfactory,cb_sensory,ORN_DM5_R,R,,AN,,,,ORN_DM5,Prelim Roughly traced,acetylcholine,Or85a/(Or33b),ab2B,19,anatomy_candidate_only_not_a_calibrated_stimulus
+232730,122455,LB1e,gustatory,cb_sensory,LB1e_L,L,,MxLbN,,labellar bristle,,LB1e,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+233434,122497,ORN_DA2,olfactory,cb_sensory,ORN_DA2_unknown,unknown,,AN,,,,ORN_DA2,RT Hard to trace,acetylcholine,Or56a/(Or33a),ab4B,23,anatomy_candidate_only_not_a_calibrated_stimulus
+235199,122599,ORN_VA2,olfactory,cb_sensory,ORN_VA2_unknown,unknown,,AN,,,,ORN_VA2,RT Hard to trace,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+235920,122636,ORN_DM5,olfactory,cb_sensory,ORN_DM5_R,R,,AN,,,,ORN_DM5,Prelim Roughly traced,acetylcholine,Or85a/(Or33b),ab2B,19,anatomy_candidate_only_not_a_calibrated_stimulus
+236475,122664,LB3d,gustatory,cb_sensory,LB3d_L,L,,MxLbN,,labellar bristle,,LB3,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+236826,122691,ORN_DA2,olfactory,cb_sensory,ORN_DA2_R,R,,AN,,,,ORN_DA2,RT Hard to trace,acetylcholine,Or56a/(Or33a),ab4B,23,anatomy_candidate_only_not_a_calibrated_stimulus
+240470,122850,ORN_DM1,olfactory,cb_sensory,ORN_DM1_R,R,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+246999,123125,ORN_DA2,olfactory,cb_sensory,ORN_DA2_L,L,,AN,,,,ORN_DA2,Prelim Roughly traced,acetylcholine,Or56a/(Or33a),ab4B,23,anatomy_candidate_only_not_a_calibrated_stimulus
+247784,123151,ORN_DM2,olfactory,cb_sensory,ORN_DM2_R,R,,AN,,,,ORN_DM2,Prelim Roughly traced,acetylcholine,Or22a/(Or22b),ab3A,20,anatomy_candidate_only_not_a_calibrated_stimulus
+250249,123247,ORN_VA2,olfactory,cb_sensory,ORN_VA2_R,R,,AN,,,,ORN_VA2,RT Hard to trace,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+253648,123362,LB2c,gustatory,cb_sensory,LB2c_R,R,,MxLbN,,labellar bristle,,LB2c,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+254179,123375,ORN_DA2,olfactory,cb_sensory,ORN_DA2_L,L,,AN,,,,ORN_DA2,Prelim Roughly traced,acetylcholine,Or56a/(Or33a),ab4B,23,anatomy_candidate_only_not_a_calibrated_stimulus
+255283,123401,ORN_VA2,olfactory,cb_sensory,ORN_VA2_L,L,,AN,,,,ORN_VA2,Prelim Roughly traced,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+255865,123416,ORN_VA2,olfactory,cb_sensory,ORN_VA2_L,L,,AN,,,,ORN_VA2,Prelim Roughly traced,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+256844,123442,LB1c,gustatory,cb_sensory,LB1c_R,R,,MxLbN,,labellar bristle,,LB1c,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+258551,123488,ORN_DM1,olfactory,cb_sensory,ORN_DM1_L,L,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+260128,123541,ORN_DM1,olfactory,cb_sensory,ORN_DM1_L,L,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+261048,123561,LB3d,gustatory,cb_sensory,LB3d_R,R,,MxLbN,,labellar bristle,,LB3,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+261450,123569,LB3c,gustatory,cb_sensory,LB3c_L,L,,MxLbN,,labellar bristle,,LB3,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+262567,123601,LB3c,gustatory,cb_sensory,LB3c_L,L,,MxLbN,,labellar bristle,,LB3,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+262942,123612,ORN_DA2,olfactory,cb_sensory,ORN_DA2_L,L,,AN,,,,ORN_DA2,Prelim Roughly traced,acetylcholine,Or56a/(Or33a),ab4B,23,anatomy_candidate_only_not_a_calibrated_stimulus
+263393,123627,ORN_DA2,olfactory,cb_sensory,ORN_DA2_R,R,,AN,,,,ORN_DA2,Prelim Roughly traced,acetylcholine,Or56a/(Or33a),ab4B,23,anatomy_candidate_only_not_a_calibrated_stimulus
+267704,123711,ORN_DA2,olfactory,cb_sensory,ORN_DA2_R,R,,AN,,,,ORN_DA2,Prelim Roughly traced,acetylcholine,Or56a/(Or33a),ab4B,23,anatomy_candidate_only_not_a_calibrated_stimulus
+269412,123754,ORN_DA2,olfactory,cb_sensory,ORN_DA2_R,R,,AN,,,,ORN_DA2,Prelim Roughly traced,acetylcholine,Or56a/(Or33a),ab4B,23,anatomy_candidate_only_not_a_calibrated_stimulus
+272263,123807,LB3b,gustatory,cb_sensory,LB3b_L,L,,MxLbN,,labellar bristle,,LB3,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+276359,123891,ORN_VA2,olfactory,cb_sensory,ORN_VA2_L,L,,AN,,,,ORN_VA2,Prelim Roughly traced,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+279476,123946,ORN_DM1,olfactory,cb_sensory,ORN_DM1_L,L,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+284316,124037,ORN_DM2,olfactory,cb_sensory,ORN_DM2_L,L,,AN,,,,ORN_DM2,Prelim Roughly traced,acetylcholine,Or22a/(Or22b),ab3A,20,anatomy_candidate_only_not_a_calibrated_stimulus
+286134,124073,ORN_DM2,olfactory,cb_sensory,ORN_DM2_L,L,,AN,,,,ORN_DM2,RT Hard to trace,acetylcholine,Or22a/(Or22b),ab3A,20,anatomy_candidate_only_not_a_calibrated_stimulus
+296449,124219,ORN_DM1,olfactory,cb_sensory,ORN_DM1_L,L,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+300339,124276,ORN_DA2,olfactory,cb_sensory,ORN_DA2_R,R,,AN,,,,ORN_DA2,RT Hard to trace,acetylcholine,Or56a/(Or33a),ab4B,23,anatomy_candidate_only_not_a_calibrated_stimulus
+301799,124301,ORN_VA2,olfactory,cb_sensory,ORN_VA2_L,L,,AN,,,,ORN_VA2,Prelim Roughly traced,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+304961,124349,ORN_DA2,olfactory,cb_sensory,ORN_DA2_R,R,,AN,,,,ORN_DA2,RT Hard to trace,acetylcholine,Or56a/(Or33a),ab4B,23,anatomy_candidate_only_not_a_calibrated_stimulus
+308608,124393,ORN_VA2,olfactory,cb_sensory,ORN_VA2_L,L,,AN,,,,ORN_VA2,Prelim Roughly traced,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+312102,124430,LB3d,gustatory,cb_sensory,LB3d_L,L,,MxLbN,,labellar bristle,,LB3,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+316830,124471,ORN_DA2,olfactory,cb_sensory,ORN_DA2_R,R,,AN,,,,ORN_DA2,Prelim Roughly traced,acetylcholine,Or56a/(Or33a),ab4B,23,anatomy_candidate_only_not_a_calibrated_stimulus
+317616,124477,LB3d,gustatory,cb_sensory,LB3d_L,L,,MxLbN,,labellar bristle,,LB3,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+318116,124481,ORN_DA2,olfactory,cb_sensory,ORN_DA2_L,L,,AN,,,,ORN_DA2,Prelim Roughly traced,acetylcholine,Or56a/(Or33a),ab4B,23,anatomy_candidate_only_not_a_calibrated_stimulus
+324311,124550,ORN_DA2,olfactory,cb_sensory,ORN_DA2_L,L,,AN,,,,ORN_DA2,Prelim Roughly traced,acetylcholine,Or56a/(Or33a),ab4B,23,anatomy_candidate_only_not_a_calibrated_stimulus
+328160,124592,ORN_DM2,olfactory,cb_sensory,ORN_DM2_L,L,,AN,,,,ORN_DM2,Prelim Roughly traced,acetylcholine,Or22a/(Or22b),ab3A,20,anatomy_candidate_only_not_a_calibrated_stimulus
+353891,124802,ORN_DM1,olfactory,cb_sensory,ORN_DM1_L,L,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+358056,124836,ORN_DA2,olfactory,cb_sensory,ORN_DA2_unknown,unknown,,AN,,,,ORN_DA2,RT Hard to trace,acetylcholine,Or56a/(Or33a),ab4B,23,anatomy_candidate_only_not_a_calibrated_stimulus
+359193,124845,ORN_DM5,olfactory,cb_sensory,ORN_DM5_R,R,,AN,,,,ORN_DM5,RT Hard to trace,acetylcholine,Or85a/(Or33b),ab2B,19,anatomy_candidate_only_not_a_calibrated_stimulus
+362381,124866,,gustatory,cb_sensory,,L,,MxLbN,,labellar bristle,,,Reviewed,unclear,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+363119,124872,ORN_DM1,olfactory,cb_sensory,ORN_DM1_L,L,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+369074,124908,ORN_VA2,olfactory,cb_sensory,ORN_VA2_L,L,,AN,,,,ORN_VA2,Prelim Roughly traced,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+374701,124936,LB3a,gustatory,cb_sensory,LB3a_R,R,,MxLbN,,labellar bristle,,LB3,Reviewed,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+375038,124940,LB1a,gustatory,cb_sensory,LB1a_R,R,,MxLbN,,labellar bristle,,"LB1a,LB1d",Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+383889,124995,ORN_DM2,olfactory,cb_sensory,ORN_DM2_L,L,,AN,,,,ORN_DM2,Prelim Roughly traced,acetylcholine,Or22a/(Or22b),ab3A,20,anatomy_candidate_only_not_a_calibrated_stimulus
+390433,125032,ORN_DM2,olfactory,cb_sensory,ORN_DM2_L,L,,AN,,,,ORN_DM2,Prelim Roughly traced,acetylcholine,Or22a/(Or22b),ab3A,20,anatomy_candidate_only_not_a_calibrated_stimulus
+398670,125083,ORN_DA2,olfactory,cb_sensory,ORN_DA2_L,L,,AN,,,,ORN_DA2,Prelim Roughly traced,acetylcholine,Or56a/(Or33a),ab4B,23,anatomy_candidate_only_not_a_calibrated_stimulus
+399456,125086,ORN_DM5,olfactory,cb_sensory,ORN_DM5_unknown,unknown,,AN,,,,ORN_DM5,RT Hard to trace,acetylcholine,Or85a/(Or33b),ab2B,19,anatomy_candidate_only_not_a_calibrated_stimulus
+414342,125159,ORN_VA2,olfactory,cb_sensory,ORN_VA2_L,L,,AN,,,,ORN_VA2,Prelim Roughly traced,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+416090,125166,ORN_DM1,olfactory,cb_sensory,ORN_DM1_L,L,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+422690,125205,ORN_DA2,olfactory,cb_sensory,ORN_DA2_R,R,,AN,,,,ORN_DA2,Prelim Roughly traced,acetylcholine,Or56a/(Or33a),ab4B,23,anatomy_candidate_only_not_a_calibrated_stimulus
+424866,125215,ORN_DM2,olfactory,cb_sensory,ORN_DM2_L,L,,AN,,,,ORN_DM2,Prelim Roughly traced,acetylcholine,Or22a/(Or22b),ab3A,20,anatomy_candidate_only_not_a_calibrated_stimulus
+436473,125280,ORN_DM1,olfactory,cb_sensory,ORN_DM1_L,L,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+461592,125373,ORN_DM5,olfactory,cb_sensory,ORN_DM5_R,R,,AN,,,,ORN_DM5,Prelim Roughly traced,acetylcholine,Or85a/(Or33b),ab2B,19,anatomy_candidate_only_not_a_calibrated_stimulus
+462384,125374,ORN_DM5,olfactory,cb_sensory,ORN_DM5_R,R,,AN,,,,ORN_DM5,Prelim Roughly traced,acetylcholine,Or85a/(Or33b),ab2B,19,anatomy_candidate_only_not_a_calibrated_stimulus
+463132,125378,ORN_DM2,olfactory,cb_sensory,ORN_DM2_L,L,,AN,,,,ORN_DM2,Prelim Roughly traced,acetylcholine,Or22a/(Or22b),ab3A,20,anatomy_candidate_only_not_a_calibrated_stimulus
+464464,125381,ORN_DM2,olfactory,cb_sensory,ORN_DM2_L,L,,AN,,,,ORN_DM2,RT Hard to trace,acetylcholine,Or22a/(Or22b),ab3A,20,anatomy_candidate_only_not_a_calibrated_stimulus
+497471,125488,ORN_DM2,olfactory,cb_sensory,ORN_DM2_L,L,,AN,,,,ORN_DM2,Prelim Roughly traced,acetylcholine,Or22a/(Or22b),ab3A,20,anatomy_candidate_only_not_a_calibrated_stimulus
+499904,125493,ORN_DM5,olfactory,cb_sensory,ORN_DM5_L,L,,AN,,,,ORN_DM5,Prelim Roughly traced,acetylcholine,Or85a/(Or33b),ab2B,19,anatomy_candidate_only_not_a_calibrated_stimulus
+511882,125808,LB1b,gustatory,cb_sensory,LB1b_L,L,,MxLbN,,labellar bristle,,LB1b,Reviewed,unclear,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+512551,126183,LB3c,gustatory,cb_sensory,LB3c_L,L,,MxLbN,,labellar bristle,,LB3,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+512552,126184,LB3d,gustatory,cb_sensory,LB3d_L,L,,MxLbN,,labellar bristle,,LB3,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+512913,126364,LB2a,gustatory,cb_sensory,LB2a_R,R,,MxLbN,,labellar bristle,,LB2a-b,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+514546,127283,LB1b,gustatory,cb_sensory,LB1b_R,R,,MxLbN,,labellar bristle,,LB1b,Prelim Roughly traced,unclear,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+514547,127284,LB1b,gustatory,cb_sensory,LB1b_L,L,,MxLbN,,labellar bristle,,LB1b,Prelim Roughly traced,unclear,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+515650,127907,LB4a,gustatory,cb_sensory,LB4a_R,R,,MxLbN,,labellar bristle,,LB4a,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+516216,128246,LB3d,gustatory,cb_sensory,LB3d_L,L,,MxLbN,,labellar bristle,,LB3,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+516217,128247,LB3c,gustatory,cb_sensory,LB3c_R,R,,MxLbN,,labellar bristle,,LB3,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+516218,128248,LB3d,gustatory,cb_sensory,LB3d_R,R,,MxLbN,,labellar bristle,,LB3,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+517255,128887,LB1c,gustatory,cb_sensory,LB1c_L,L,,MxLbN,,labellar bristle,,LB1c,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+517916,129247,LB2c,gustatory,cb_sensory,LB2c_L,L,,MxLbN,,labellar bristle,,LB2c,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+518112,129378,LB1c,gustatory,cb_sensory,LB1c_L,L,,MxLbN,,labellar bristle,,LB1c,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+518542,129625,LB3a,gustatory,cb_sensory,LB3a_R,R,,MxLbN,,labellar bristle,,LB3,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+519243,130065,ORN_DM2,olfactory,cb_sensory,ORN_DM2_R,R,,AN,,,,ORN_DM2,Prelim Roughly traced,acetylcholine,Or22a/(Or22b),ab3A,20,anatomy_candidate_only_not_a_calibrated_stimulus
+521420,131219,ORN_VA2,olfactory,cb_sensory,ORN_VA2_R,R,,AN,,,,ORN_VA2,Prelim Roughly traced,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+522746,131577,LB1c,gustatory,cb_sensory,LB1c_R,R,,MxLbN,,labellar bristle,,LB1c,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+522752,131580,LB1b,gustatory,cb_sensory,LB1b_R,R,,MxLbN,,labellar bristle,,LB1b,Prelim Roughly traced,unclear,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+522753,131581,LB1c,gustatory,cb_sensory,LB1c_L,L,,MxLbN,,labellar bristle,,LB1c,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+522754,131582,LB1c,gustatory,cb_sensory,LB1c_L,L,,MxLbN,,labellar bristle,,LB1c,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+522761,131588,LB1c,gustatory,cb_sensory,LB1c_R,R,,MxLbN,,labellar bristle,,LB1c,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+522762,131589,LB1b,gustatory,cb_sensory,LB1b_R,R,,MxLbN,,labellar bristle,,LB1b,Prelim Roughly traced,unclear,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+522841,131629,LB1c,gustatory,cb_sensory,LB1c_R,R,,MxLbN,,labellar bristle,,LB1c,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+527558,133658,ORN_DA2,olfactory,cb_sensory,ORN_DA2_R,R,,AN,,,,ORN_DA2,Prelim Roughly traced,acetylcholine,Or56a/(Or33a),ab4B,23,anatomy_candidate_only_not_a_calibrated_stimulus
+531237,134888,LB3c,gustatory,cb_sensory,LB3c_L,L,,MxLbN,,labellar bristle,,LB3,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+532745,135628,ORN_DM1,olfactory,cb_sensory,ORN_DM1_R,R,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+533618,136030,LB1c,gustatory,cb_sensory,LB1c_L,L,,MxLbN,,labellar bristle,,LB1c,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+534361,136425,LB1e,gustatory,cb_sensory,LB1e_R,R,,MxLbN,,labellar bristle,,LB1e,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+536451,137276,ORN_DM1,olfactory,cb_sensory,ORN_DM1_R,R,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+536983,137417,ORN_DA2,olfactory,cb_sensory,ORN_DA2_L,L,,AN,,,,ORN_DA2,RT Hard to trace,acetylcholine,Or56a/(Or33a),ab4B,23,anatomy_candidate_only_not_a_calibrated_stimulus
+538117,137770,LB4b,gustatory,cb_sensory,LB4b_R,R,,MxLbN,,labellar bristle,,LB3,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+541552,138385,ORN_DM1,olfactory,cb_sensory,ORN_DM1_L,L,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+544744,139746,ORN_VA2,olfactory,cb_sensory,ORN_VA2_R,R,,AN,,,,ORN_VA2,Prelim Roughly traced,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+549024,140976,LB1d,gustatory,cb_sensory,LB1d_R,R,,MxLbN,,labellar bristle,,"LB1a,LB1d",Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+550065,141302,LB3d,gustatory,cb_sensory,LB3d_R,R,,MxLbN,,labellar bristle,,LB3,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+551689,141873,ORN_VA2,olfactory,cb_sensory,ORN_VA2_R,R,,AN,,,,ORN_VA2,Prelim Roughly traced,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+551768,141887,ORN_DM1,olfactory,cb_sensory,ORN_DM1_L,L,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+552780,142110,ORN_DM2,olfactory,cb_sensory,ORN_DM2_R,R,,AN,,,,ORN_DM2,Prelim Roughly traced,acetylcholine,Or22a/(Or22b),ab3A,20,anatomy_candidate_only_not_a_calibrated_stimulus
+555881,142495,ORN_VA2,olfactory,cb_sensory,ORN_VA2_R,R,,AN,,,,ORN_VA2,Prelim Roughly traced,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+556797,142627,LB1a,gustatory,cb_sensory,LB1a_R,R,,MxLbN,,labellar bristle,,"LB1a,LB1d",Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+556859,142641,ORN_DM1,olfactory,cb_sensory,ORN_DM1_R,R,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+557646,142715,LB3b,gustatory,cb_sensory,LB3b_R,R,,MxLbN,,labellar bristle,,LB3,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+557937,142748,LB1a,gustatory,cb_sensory,LB1a_L,L,,MxLbN,,labellar bristle,,"LB1a,LB1d",Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+561669,143098,ORN_VA2,olfactory,cb_sensory,ORN_VA2_R,R,,AN,,,,ORN_VA2,Prelim Roughly traced,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+563826,143200,ORN_DM2,olfactory,cb_sensory,ORN_DM2_R,R,,AN,,,,ORN_DM2,Prelim Roughly traced,acetylcholine,Or22a/(Or22b),ab3A,20,anatomy_candidate_only_not_a_calibrated_stimulus
+564451,143236,ORN_DM1,olfactory,cb_sensory,ORN_DM1_L,L,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+564905,143271,ORN_DM5,olfactory,cb_sensory,ORN_DM5_R,R,,AN,,,,ORN_DM5,Prelim Roughly traced,acetylcholine,Or85a/(Or33b),ab2B,19,anatomy_candidate_only_not_a_calibrated_stimulus
+565132,143277,ORN_DM2,olfactory,cb_sensory,ORN_DM2_R,R,,AN,,,,ORN_DM2,Prelim Roughly traced,acetylcholine,Or22a/(Or22b),ab3A,20,anatomy_candidate_only_not_a_calibrated_stimulus
+569249,143477,ORN_VA2,olfactory,cb_sensory,ORN_VA2_R,R,,AN,,,,ORN_VA2,Prelim Roughly traced,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+569720,143498,ORN_DA2,olfactory,cb_sensory,ORN_DA2_R,R,,AN,,,,ORN_DA2,Prelim Roughly traced,acetylcholine,Or56a/(Or33a),ab4B,23,anatomy_candidate_only_not_a_calibrated_stimulus
+569993,143513,ORN_VA2,olfactory,cb_sensory,ORN_VA2_L,L,,AN,,,,ORN_VA2,Prelim Roughly traced,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+569995,143514,ORN_VA2,olfactory,cb_sensory,ORN_VA2_L,L,,AN,,,,ORN_VA2,Prelim Roughly traced,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+900877,160526,ORN_DM1,olfactory,cb_sensory,ORN_DM1_R,R,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+902023,160574,ORN_DM1,olfactory,cb_sensory,ORN_DM1_L,L,,AN,,,,ORN_DM1,RT Hard to trace,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+908743,162635,LB4a,gustatory,cb_sensory,LB4a_R,R,,MxLbN,,labellar bristle,,LB4a,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+908747,162638,LB1e,gustatory,cb_sensory,LB1e_L,L,,MxLbN,,labellar bristle,,LB1e,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+912379,163664,LB1b,gustatory,cb_sensory,LB1b_L,L,,MxLbN,,labellar bristle,,LB1b,Prelim Roughly traced,unclear,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+916720,163996,ORN_DM2,olfactory,cb_sensory,ORN_DM2_R,R,,AN,,,,ORN_DM2,Prelim Roughly traced,acetylcholine,Or22a/(Or22b),ab3A,20,anatomy_candidate_only_not_a_calibrated_stimulus
+916953,163998,LB3d,gustatory,cb_sensory,LB3d_R,R,,MxLbN,,labellar bristle,,LB3,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+917499,164005,LB4a,gustatory,cb_sensory,LB4a_L,L,,MxLbN,,labellar bristle,,LB4a,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+918869,164029,LB2d,gustatory,cb_sensory,LB2d_L,L,,MxLbN,,labellar bristle,,LB2d,Reviewed,unclear,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+919212,164037,ORN_DA2,olfactory,cb_sensory,ORN_DA2_L,L,,AN,,,,ORN_DA2,Prelim Roughly traced,acetylcholine,Or56a/(Or33a),ab4B,23,anatomy_candidate_only_not_a_calibrated_stimulus
+919429,164047,LB1e,gustatory,cb_sensory,LB1e_L,L,,MxLbN,,labellar bristle,,LB1e,Reviewed,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+920378,164079,ORN_DM2,olfactory,cb_sensory,ORN_DM2_L,L,,AN,,,,ORN_DM2,RT Hard to trace,acetylcholine,Or22a/(Or22b),ab3A,20,anatomy_candidate_only_not_a_calibrated_stimulus
+921954,164104,ORN_VA2,olfactory,cb_sensory,ORN_VA2_R,R,,AN,,,,ORN_VA2,RT Hard to trace,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+922590,164121,ORN_DM1,olfactory,cb_sensory,ORN_DM1_L,L,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+923024,164127,LB4b,gustatory,cb_sensory,LB4b_R,R,,,,,,LB3,Reviewed,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+923628,164142,ORN_DA2,olfactory,cb_sensory,ORN_DA2_L,L,,AN,,,,ORN_DA2,RT Hard to trace,acetylcholine,Or56a/(Or33a),ab4B,23,anatomy_candidate_only_not_a_calibrated_stimulus
+925375,164176,ORN_VA2,olfactory,cb_sensory,ORN_VA2_L,L,,AN,,,,ORN_VA2,Prelim Roughly traced,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+925376,164177,ORN_VA2,olfactory,cb_sensory,ORN_VA2_L,L,,AN,,,,ORN_VA2,Prelim Roughly traced,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+925419,164178,ORN_DM5,olfactory,cb_sensory,ORN_DM5_unknown,unknown,,AN,,,,ORN_DM5,RT Hard to trace,acetylcholine,Or85a/(Or33b),ab2B,19,anatomy_candidate_only_not_a_calibrated_stimulus
+925494,164182,ORN_DM5,olfactory,cb_sensory,ORN_DM5_unknown,unknown,,AN,,,,ORN_DM5,RT Hard to trace,acetylcholine,Or85a/(Or33b),ab2B,19,anatomy_candidate_only_not_a_calibrated_stimulus
+925495,164183,ORN_DM2,olfactory,cb_sensory,ORN_DM2_unknown,unknown,,AN,,,,ORN_DM2,Prelim Roughly traced,acetylcholine,Or22a/(Or22b),ab3A,20,anatomy_candidate_only_not_a_calibrated_stimulus
+925639,164190,ORN_DM1,olfactory,cb_sensory,ORN_DM1_L,L,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+925694,164193,ORN_VA2,olfactory,cb_sensory,ORN_VA2_L,L,,AN,,,,ORN_VA2,RT Hard to trace,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+926063,164204,ORN_DM5,olfactory,cb_sensory,ORN_DM5_R,R,,AN,,,,ORN_DM5,Prelim Roughly traced,acetylcholine,Or85a/(Or33b),ab2B,19,anatomy_candidate_only_not_a_calibrated_stimulus
+933317,164423,LB3c,gustatory,cb_sensory,LB3c_L,L,,MxLbN,,labellar bristle,,LB3,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+934798,164481,ORN_DM5,olfactory,cb_sensory,ORN_DM5_L,L,,AN,,,,ORN_DM5,RT Hard to trace,acetylcholine,Or85a/(Or33b),ab2B,19,anatomy_candidate_only_not_a_calibrated_stimulus
+942168,164783,LB3c,gustatory,cb_sensory,LB3c_R,R,,MxLbN,,labellar bristle,,LB3,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+955499,164954,ORN_DA2,olfactory,cb_sensory,ORN_DA2_R,R,,AN,,,,ORN_DA2,Reviewed,acetylcholine,Or56a/(Or33a),ab4B,23,anatomy_candidate_only_not_a_calibrated_stimulus
+956014,164965,ORN_DA2,olfactory,cb_sensory,ORN_DA2_unknown,unknown,,AN,,,,ORN_DA2,RT Hard to trace,acetylcholine,Or56a/(Or33a),ab4B,23,anatomy_candidate_only_not_a_calibrated_stimulus
+956021,164966,ORN_DM5,olfactory,cb_sensory,ORN_DM5_unknown,unknown,,AN,,,,ORN_DM5,RT Hard to trace,acetylcholine,Or85a/(Or33b),ab2B,19,anatomy_candidate_only_not_a_calibrated_stimulus
+956031,164969,ORN_DA2,olfactory,cb_sensory,ORN_DA2_L,L,,AN,,,,ORN_DA2,Reviewed,acetylcholine,Or56a/(Or33a),ab4B,23,anatomy_candidate_only_not_a_calibrated_stimulus
+956071,164972,ORN_VA2,olfactory,cb_sensory,ORN_VA2_L,L,,AN,,,,ORN_VA2,RT Hard to trace,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+957530,164995,LB3c,gustatory,cb_sensory,LB3c_R,R,,,,labellar bristle,,LB3,Reviewed,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+104287023,165023,,gustatory,cb_sensory,,R,,MxLbN,,labellar bristle,,LB3,Prelim Roughly traced,unclear,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+120770012,165078,LB2a,gustatory,cb_sensory,LB2a_R,R,,MxLbN,,labellar bristle,,LB2a-b,Reviewed,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+140334446,165129,LB1a,gustatory,cb_sensory,LB1a_L,L,,MxLbN,,labellar bristle,,"LB1a,LB1d",Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+144295263,165136,LB1a,gustatory,cb_sensory,LB1a_L,L,,MxLbN,,labellar bristle,,"LB1a,LB1d",Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+147619274,165147,LB3d,gustatory,cb_sensory,LB3d_R,R,,MxLbN,,labellar bristle,,LB3,Reviewed,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+158893964,165165,LB3c,gustatory,cb_sensory,LB3c_L,L,,MxLbN,,labellar bristle,,LB3,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+174444965,165186,LB3b,gustatory,cb_sensory,LB3b_L,L,,MxLbN,,labellar bristle,,LB3,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+174589841,165188,ORN_DM2,olfactory,cb_sensory,ORN_DM2_L,L,,AN,,,,ORN_DM2,Prelim Roughly traced,acetylcholine,Or22a/(Or22b),ab3A,20,anatomy_candidate_only_not_a_calibrated_stimulus
+212945075,165241,ORN_DM1,olfactory,cb_sensory,ORN_DM1_L,L,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+213650853,165245,LB3b,gustatory,cb_sensory,LB3b_R,R,,MxLbN,,labellar bristle,,LB3,Reviewed,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+214557957,165250,ORN_DM2,olfactory,cb_sensory,ORN_DM2_L,L,,AN,,,,ORN_DM2,Prelim Roughly traced,acetylcholine,Or22a/(Or22b),ab3A,20,anatomy_candidate_only_not_a_calibrated_stimulus
+214700177,165251,LB1e,gustatory,cb_sensory,LB1e_L,L,,MxLbN,,labellar bristle,,LB1e,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+222256845,165257,ORN_DM1,olfactory,cb_sensory,ORN_DM1_L,L,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+237355379,165274,ORN_VA2,olfactory,cb_sensory,ORN_VA2_unknown,unknown,,AN,,,,ORN_VA2,RT Hard to trace,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+243668978,165281,ORN_DM2,olfactory,cb_sensory,ORN_DM2_L,L,,AN,,,,ORN_DM2,Reviewed,acetylcholine,Or22a/(Or22b),ab3A,20,anatomy_candidate_only_not_a_calibrated_stimulus
+245892505,165284,LB3d,gustatory,cb_sensory,LB3d_R,R,,MxLbN,,labellar bristle,,LB3,Reviewed,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+265477191,165311,ORN_DM2,olfactory,cb_sensory,ORN_DM2_L,L,,AN,,,,ORN_DM2,RT Hard to trace,acetylcholine,Or22a/(Or22b),ab3A,20,anatomy_candidate_only_not_a_calibrated_stimulus
+265556305,165312,ORN_DM5,olfactory,cb_sensory,ORN_DM5_L,L,,AN,,,,ORN_DM5,Prelim Roughly traced,acetylcholine,Or85a/(Or33b),ab2B,19,anatomy_candidate_only_not_a_calibrated_stimulus
+279849129,165325,ORN_DM5,olfactory,cb_sensory,ORN_DM5_R,R,,AN,,,,ORN_DM5,RT Hard to trace,acetylcholine,Or85a/(Or33b),ab2B,19,anatomy_candidate_only_not_a_calibrated_stimulus
+282395216,165327,ORN_VA2,olfactory,cb_sensory,ORN_VA2_L,L,,AN,,,,ORN_VA2,RT Hard to trace,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+285495498,165331,LB2d,gustatory,cb_sensory,LB2d_L,L,,,,,,,Reviewed,unclear,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+301173705,165346,ORN_DM5,olfactory,cb_sensory,ORN_DM5_L,L,,AN,,,,ORN_DM5,RT Hard to trace,acetylcholine,Or85a/(Or33b),ab2B,19,anatomy_candidate_only_not_a_calibrated_stimulus
+304136793,165351,LB1c,gustatory,cb_sensory,LB1c_R,R,,MxLbN,,labellar bristle,,LB1c,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+324178811,165381,LB1c,gustatory,cb_sensory,LB1c_L,L,,MxLbN,,labellar bristle,,LB1c,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+338402819,165393,ORN_DA2,olfactory,cb_sensory,ORN_DA2_L,L,,AN,,,,ORN_DA2,Prelim Roughly traced,acetylcholine,Or56a/(Or33a),ab4B,23,anatomy_candidate_only_not_a_calibrated_stimulus
+338530985,165394,LB2d,gustatory,cb_sensory,LB2d_R,R,,MxLbN,,labellar bristle,,LB2d,Prelim Roughly traced,unclear,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+349137284,165413,LB3c,gustatory,cb_sensory,LB3c_L,L,,MxLbN,,labellar bristle,,LB3,Reviewed,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+371094763,165434,ORN_DM5,olfactory,cb_sensory,ORN_DM5_L,L,,AN,,,,ORN_DM5,RT Hard to trace,acetylcholine,Or85a/(Or33b),ab2B,19,anatomy_candidate_only_not_a_calibrated_stimulus
+372015670,165435,ORN_DM2,olfactory,cb_sensory,ORN_DM2_L,L,,AN,,,,ORN_DM2,Prelim Roughly traced,acetylcholine,Or22a/(Or22b),ab3A,20,anatomy_candidate_only_not_a_calibrated_stimulus
+374381048,165440,ORN_DA2,olfactory,cb_sensory,ORN_DA2_unknown,unknown,,AN,,,,ORN_DA2,RT Hard to trace,acetylcholine,Or56a/(Or33a),ab4B,23,anatomy_candidate_only_not_a_calibrated_stimulus
+379897969,165444,ORN_DM2,olfactory,cb_sensory,ORN_DM2_L,L,,AN,,,,ORN_DM2,Prelim Roughly traced,acetylcholine,Or22a/(Or22b),ab3A,20,anatomy_candidate_only_not_a_calibrated_stimulus
+388541892,165454,LB3a,gustatory,cb_sensory,LB3a_R,R,,MxLbN,,labellar bristle,,LB3,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+388968038,165456,LB4a,gustatory,cb_sensory,LB4a_L,L,,MxLbN,,labellar bristle,,LB4a,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+418840426,165486,LB1e,gustatory,cb_sensory,LB1e_L,L,,MxLbN,,labellar bristle,,LB1e,Reviewed,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+421193662,165488,LB2b,gustatory,cb_sensory,LB2b_R,R,,MxLbN,,labellar bristle,,LB2a-b,Prelim Roughly traced,unclear,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+422510463,165491,LB3d,gustatory,cb_sensory,LB3d_R,R,,MxLbN,,labellar bristle,,LB3,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+433710777,165501,ORN_DM5,olfactory,cb_sensory,ORN_DM5_L,L,,AN,,,,ORN_DM5,RT Hard to trace,acetylcholine,Or85a/(Or33b),ab2B,19,anatomy_candidate_only_not_a_calibrated_stimulus
+442779736,165509,ORN_VA2,olfactory,cb_sensory,ORN_VA2_L,L,,AN,,,,ORN_VA2,Prelim Roughly traced,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+456631823,165523,LB2c,gustatory,cb_sensory,LB2c_R,R,,MxLbN,,labellar bristle,,LB2c,Reviewed,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+456838775,165524,LB3a,gustatory,cb_sensory,LB3a_L,L,,MxLbN,,labellar bristle,,LB3,Reviewed,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+475202322,165540,LB3c,gustatory,cb_sensory,LB3c_L,L,,MxLbN,,labellar bristle,,LB3,PRT Orphan,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+491986845,165555,LB1e,gustatory,cb_sensory,LB1e_L,L,,MxLbN,,labellar bristle,,LB1e,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+499769368,165565,ORN_DM1,olfactory,cb_sensory,ORN_DM1_L,L,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+503560891,165569,ORN_DA2,olfactory,cb_sensory,ORN_DA2_L,L,,AN,,,,ORN_DA2,Prelim Roughly traced,acetylcholine,Or56a/(Or33a),ab4B,23,anatomy_candidate_only_not_a_calibrated_stimulus
+505547930,165571,ORN_DA2,olfactory,cb_sensory,ORN_DA2_L,L,,AN,,,,ORN_DA2,Prelim Roughly traced,acetylcholine,Or56a/(Or33a),ab4B,23,anatomy_candidate_only_not_a_calibrated_stimulus
+525888732,165596,ORN_DA2,olfactory,cb_sensory,ORN_DA2_unknown,unknown,,AN,,,,ORN_DA2,RT Hard to trace,acetylcholine,Or56a/(Or33a),ab4B,23,anatomy_candidate_only_not_a_calibrated_stimulus
+526888712,165597,ORN_DM1,olfactory,cb_sensory,ORN_DM1_L,L,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+545354175,165616,ORN_DA2,olfactory,cb_sensory,ORN_DA2_L,L,,AN,,,,ORN_DA2,Prelim Roughly traced,acetylcholine,Or56a/(Or33a),ab4B,23,anatomy_candidate_only_not_a_calibrated_stimulus
+551057545,165625,LB1e,gustatory,cb_sensory,LB1e_R,R,,MxLbN,,labellar bristle,,LB1e,Reviewed,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+553738738,165628,LB3a,gustatory,cb_sensory,LB3a_L,L,,MxLbN,,labellar bristle,,LB3,Reviewed,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+581710868,165657,LB3d,gustatory,cb_sensory,LB3d_L,L,,MxLbN,,labellar bristle,,LB3,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+602736959,165670,LB1d,gustatory,cb_sensory,LB1d_R,R,,MxLbN,,labellar bristle,,"LB1a,LB1d",Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+616249897,165685,ORN_DM5,olfactory,cb_sensory,ORN_DM5_L,L,,AN,,,,ORN_DM5,RT Hard to trace,acetylcholine,Or85a/(Or33b),ab2B,19,anatomy_candidate_only_not_a_calibrated_stimulus
+616971586,165687,ORN_VA2,olfactory,cb_sensory,ORN_VA2_L,L,,AN,,,,ORN_VA2,RT Hard to trace,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+627676426,165693,ORN_DM5,olfactory,cb_sensory,ORN_DM5_L,L,,AN,,,,ORN_DM5,RT Hard to trace,acetylcholine,Or85a/(Or33b),ab2B,19,anatomy_candidate_only_not_a_calibrated_stimulus
+633272971,165701,LB1e,gustatory,cb_sensory,LB1e_L,L,,MxLbN,,labellar bristle,,LB1e,Reviewed,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+639917279,165713,ORN_DA2,olfactory,cb_sensory,ORN_DA2_L,L,,AN,,,,ORN_DA2,Prelim Roughly traced,acetylcholine,Or56a/(Or33a),ab4B,23,anatomy_candidate_only_not_a_calibrated_stimulus
+642929787,165716,ORN_DM5,olfactory,cb_sensory,ORN_DM5_R,R,,AN,,,,ORN_DM5,Leaves,acetylcholine,Or85a/(Or33b),ab2B,19,anatomy_candidate_only_not_a_calibrated_stimulus
+648510281,165721,ORN_DM1,olfactory,cb_sensory,ORN_DM1_L,L,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+649610769,165723,ORN_DM5,olfactory,cb_sensory,ORN_DM5_unknown,unknown,,AN,,,,ORN_DM5,RT Hard to trace,acetylcholine,Or85a/(Or33b),ab2B,19,anatomy_candidate_only_not_a_calibrated_stimulus
+676893250,165752,ORN_VA2,olfactory,cb_sensory,ORN_VA2_L,L,,AN,,,,ORN_VA2,RT Hard to trace,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+683472058,165756,ORN_VA2,olfactory,cb_sensory,ORN_VA2_unknown,unknown,,AN,,,,ORN_VA2,RT Hard to trace,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+723961295,165806,LB2b,gustatory,cb_sensory,LB2b_L,L,,,,,,LB2a-b,Reviewed,unclear,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+739955728,165822,ORN_DA2,olfactory,cb_sensory,ORN_DA2_L,L,,AN,,,,ORN_DA2,RT Hard to trace,acetylcholine,Or56a/(Or33a),ab4B,23,anatomy_candidate_only_not_a_calibrated_stimulus
+742571852,165823,ORN_DM1,olfactory,cb_sensory,ORN_DM1_L,L,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+743179180,165824,ORN_DM2,olfactory,cb_sensory,ORN_DM2_L,L,,AN,,,,ORN_DM2,RT Hard to trace,acetylcholine,Or22a/(Or22b),ab3A,20,anatomy_candidate_only_not_a_calibrated_stimulus
+747796417,165830,ORN_DM2,olfactory,cb_sensory,ORN_DM2_L,L,,AN,,,,ORN_DM2,Prelim Roughly traced,acetylcholine,Or22a/(Or22b),ab3A,20,anatomy_candidate_only_not_a_calibrated_stimulus
+752011430,165834,ORN_DM5,olfactory,cb_sensory,ORN_DM5_unknown,unknown,,AN,,,,ORN_DM5,RT Hard to trace,acetylcholine,Or85a/(Or33b),ab2B,19,anatomy_candidate_only_not_a_calibrated_stimulus
+756497609,165836,ORN_DM5,olfactory,cb_sensory,ORN_DM5_L,L,,AN,,,,ORN_DM5,Prelim Roughly traced,acetylcholine,Or85a/(Or33b),ab2B,19,anatomy_candidate_only_not_a_calibrated_stimulus
+766547228,165851,LB3b,gustatory,cb_sensory,LB3b_L,L,,MxLbN,,labellar bristle,,LB3,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+772366874,165860,LB1c,gustatory,cb_sensory,LB1c_L,L,,MxLbN,,labellar bristle,,LB1c,Reviewed,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+786482749,165874,LB3a,gustatory,cb_sensory,LB3a_L,L,,MxLbN,,labellar bristle,,LB3,Reviewed,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+792429427,165882,LB1e,gustatory,cb_sensory,LB1e_R,R,,MxLbN,,labellar bristle,,LB1e,Reviewed,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+802014155,165895,ORN_DM1,olfactory,cb_sensory,ORN_DM1_L,L,,AN,,,,ORN_DM1,RT Hard to trace,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+805975280,165897,ORN_DM2,olfactory,cb_sensory,ORN_DM2_L,L,,AN,,,,ORN_DM2,Prelim Roughly traced,acetylcholine,Or22a/(Or22b),ab3A,20,anatomy_candidate_only_not_a_calibrated_stimulus
+816904261,165904,LB4b,gustatory,cb_sensory,LB4b_L,L,,MxLbN,,labellar bristle,,LB3,Reviewed,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+821459348,165911,ORN_DM1,olfactory,cb_sensory,ORN_DM1_L,L,,AN,,,,ORN_DM1,Prelim Roughly traced,acetylcholine,Or42b,ab1A,14,anatomy_candidate_only_not_a_calibrated_stimulus
+821826349,165914,LB2c,gustatory,cb_sensory,LB2c_L,L,,MxLbN,,labellar bristle,,LB2c,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+824721257,165917,LB2d,gustatory,cb_sensory,LB2d_L,L,,MxLbN,,labellar bristle,,LB2d,Prelim Roughly traced,unclear,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+831767234,165927,ORN_DM5,olfactory,cb_sensory,ORN_DM5_unknown,unknown,,AN,,,,ORN_DM5,Prelim Roughly traced,acetylcholine,Or85a/(Or33b),ab2B,19,anatomy_candidate_only_not_a_calibrated_stimulus
+850920533,165956,LB2d,gustatory,cb_sensory,LB2d_R,R,,MxLbN,,labellar bristle,,LB2d,Prelim Roughly traced,unclear,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+860366351,165962,ORN_DM2,olfactory,cb_sensory,ORN_DM2_L,L,,AN,,,,ORN_DM2,Prelim Roughly traced,acetylcholine,Or22a/(Or22b),ab3A,20,anatomy_candidate_only_not_a_calibrated_stimulus
+877969460,165981,ORN_DA2,olfactory,cb_sensory,ORN_DA2_L,L,,AN,,,,ORN_DA2,Prelim Roughly traced,acetylcholine,Or56a/(Or33a),ab4B,23,anatomy_candidate_only_not_a_calibrated_stimulus
+884238775,165993,LB4b,gustatory,cb_sensory,LB4b_L,L,,MxLbN,,labellar bristle,,LB3,Reviewed,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+885642755,165994,LB3d,gustatory,cb_sensory,LB3d_R,R,,MxLbN,,labellar bristle,,LB3,Reviewed,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+903163222,166012,ORN_DA2,olfactory,cb_sensory,ORN_DA2_R,R,,AN,,,,ORN_DA2,RT Hard to trace,acetylcholine,Or56a/(Or33a),ab4B,23,anatomy_candidate_only_not_a_calibrated_stimulus
+907638584,166016,ORN_VA2,olfactory,cb_sensory,ORN_VA2_L,L,,AN,,,,ORN_VA2,Prelim Roughly traced,acetylcholine,Or92a,ab1B,15,anatomy_candidate_only_not_a_calibrated_stimulus
+911389008,166027,LB1d,gustatory,cb_sensory,LB1d_R,R,,MxLbN,,labellar bristle,,"LB1a,LB1d",Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+912111327,166029,LB1e,gustatory,cb_sensory,LB1e_R,R,,MxLbN,,labellar bristle,,LB1e,Prelim Roughly traced,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+915599549,166032,ORN_DM2,olfactory,cb_sensory,ORN_DM2_L,L,,AN,,,,ORN_DM2,RT Hard to trace,acetylcholine,Or22a/(Or22b),ab3A,20,anatomy_candidate_only_not_a_calibrated_stimulus
+919015263,166036,LB2a,gustatory,cb_sensory,LB2a_L,L,,MxLbN,,labellar bristle,,LB2a-b,Reviewed,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+925096963,166042,ORN_DM5,olfactory,cb_sensory,ORN_DM5_L,L,,AN,,,,ORN_DM5,Prelim Roughly traced,acetylcholine,Or85a/(Or33b),ab2B,19,anatomy_candidate_only_not_a_calibrated_stimulus
+947005552,166060,LB1e,gustatory,cb_sensory,LB1e_R,R,,,,,,LB1e,Reviewed,acetylcholine,,,,anatomy_candidate_only_not_a_calibrated_stimulus
+949563824,166064,ORN_DA2,olfactory,cb_sensory,ORN_DA2_L,L,,AN,,,,ORN_DA2,Prelim Roughly traced,acetylcholine,Or56a/(Or33a),ab4B,23,anatomy_candidate_only_not_a_calibrated_stimulus
+1026733570,166169,LB3,gustatory,cb_sensory,LB3_L,L,,MxLbN,,labellar bristle,,LB3,Reviewed,unclear,,,,anatomy_candidate_only_not_a_calibrated_stimulus

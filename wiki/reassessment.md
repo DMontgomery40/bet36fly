@@ -5,6 +5,10 @@ status: natural-sensory-priority-legacy-learning-unvalidated
 ---
 # Where BET36FLY stands, and what went wrong
 
+## Latest calibration checkpoint
+
+The [September 13 calibration](../docs/evidence/natural-sensory-calibration-2026-09-13/index.md) adds exact anatomy and measurement contracts, with zero sensory neural calls. Taste modality identities and absolute rate schedules remain unresolved; the ORN fallback has verified anatomical projections but no demonstrated natural response or valence. The next bounded decision is the newly identified Tastekin molecular subtype table, not another legacy learning repair.
+
 **The immediate gap is a biologically grounded sensory task.** David's September 13 reorientation calls for food-related input patterns that represent two matchup opportunities, allowing both to be attractive. The legacy sports-to-ALPN type assignment has no fruit/sugar calibration. First demonstrate a finite plasticity-off natural-response assay; then distinguish two opportunities and evaluate pregame encoding. [Canonical direction](../docs/PROJECT_DIRECTION.md), [source rates and cell inventory](natural-sensory-inputs.md), [audit](../docs/evidence/natural-sensory-reorientation-2026-09-13/index.md), [handoff](../docs/NATURAL_SENSORY_HANDOFF.md).
 
 The drift was turning repair of a specific learning guard into the overall objective and freezing an arbitrary sensory interface indefinitely. Numerical/source-model verification remains useful, but it does not demonstrate the requested sensory behavior. Innate response does not require associative learning to qualify first. No natural-response assay ran in this documentation task, and no old failure was reclassified.

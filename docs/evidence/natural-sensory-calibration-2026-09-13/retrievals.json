@@ -1,0 +1,170 @@
+[
+  {
+    "name": "tastekin-v2",
+    "url": "https://www.biorxiv.org/content/10.1101/2025.08.25.671814v2.full",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "attempt_batch": "retrievals.json"
+  },
+  {
+    "name": "tastekin-cell",
+    "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)00943-8",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "attempt_batch": "retrievals.json"
+  },
+  {
+    "name": "tastekin-epmc",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42691996&format=json",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "attempt_batch": "retrievals.json"
+  },
+  {
+    "name": "shiu-head",
+    "url": "https://api.github.com/repos/philshiu/Drosophila_brain_model/commits/main",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "attempt_batch": "retrievals.json"
+  },
+  {
+    "name": "shiu-releases",
+    "url": "https://api.github.com/repos/philshiu/Drosophila_brain_model/releases",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "attempt_batch": "retrievals.json"
+  },
+  {
+    "name": "shiu-issues",
+    "url": "https://api.github.com/repos/philshiu/Drosophila_brain_model/issues?state=open&per_page=20",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "attempt_batch": "retrievals.json"
+  },
+  {
+    "name": "shiu-model",
+    "url": "https://raw.githubusercontent.com/philshiu/Drosophila_brain_model/91bdd1e7dcf193f3e7ca5a8933497fcef63b7960/model.py",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "attempt_batch": "retrievals.json"
+  },
+  {
+    "name": "malecns-release",
+    "url": "https://male-cns.janelia.org/release/",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "attempt_batch": "retrievals.json"
+  },
+  {
+    "name": "tastekin-v2",
+    "url": "https://www.biorxiv.org/content/10.1101/2025.08.25.671814v2.full",
+    "error": "HTTP Error 429: Too Many Requests",
+    "attempt_batch": "retrievals-network.json"
+  },
+  {
+    "name": "tastekin-cell",
+    "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)00943-8",
+    "error": "HTTP Error 403: Forbidden",
+    "attempt_batch": "retrievals-network.json"
+  },
+  {
+    "name": "tastekin-epmc",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42691996&format=json",
+    "status": 200,
+    "bytes": 1048,
+    "sha256": "e7dd2fb3cd0bec9fa9ee014f25c5847f0c227954556176835afc4582dd7edb85",
+    "attempt_batch": "retrievals-network.json"
+  },
+  {
+    "name": "shiu-head",
+    "url": "https://api.github.com/repos/philshiu/Drosophila_brain_model/commits/main",
+    "status": 200,
+    "bytes": 5623,
+    "sha256": "14be7663ea5dea9098ea43a97bb35ed2e3ef540f0ac4f4a97304d363e4f1a2ac",
+    "attempt_batch": "retrievals-network.json"
+  },
+  {
+    "name": "shiu-releases",
+    "url": "https://api.github.com/repos/philshiu/Drosophila_brain_model/releases",
+    "status": 200,
+    "bytes": 2,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "attempt_batch": "retrievals-network.json"
+  },
+  {
+    "name": "shiu-issues",
+    "url": "https://api.github.com/repos/philshiu/Drosophila_brain_model/issues?state=open&per_page=20",
+    "status": 200,
+    "bytes": 3494,
+    "sha256": "d013a36a23ccd69c47fe66ec60f603d4d681a71471cd47abca0dfda68894904b",
+    "attempt_batch": "retrievals-network.json"
+  },
+  {
+    "name": "shiu-model",
+    "url": "https://raw.githubusercontent.com/philshiu/Drosophila_brain_model/91bdd1e7dcf193f3e7ca5a8933497fcef63b7960/model.py",
+    "status": 200,
+    "bytes": 11900,
+    "sha256": "fc45837d7122c6ce2a7f3f2f23c515992e4b232aadb919efabb72337fac88e4e",
+    "attempt_batch": "retrievals-network.json"
+  },
+  {
+    "name": "malecns-release",
+    "url": "https://male-cns.janelia.org/release/",
+    "status": 200,
+    "bytes": 21431,
+    "sha256": "b2a4d40f0ae376f8c887cfbdbbc3dd10a6a165380b658fce8a20fd153a0a16aa",
+    "attempt_batch": "retrievals-network.json"
+  },
+  {
+    "name": "tastekin-api",
+    "url": "https://api.biorxiv.org/details/biorxiv/10.1101/2025.08.25.671814",
+    "status": 200,
+    "bytes": 5228,
+    "sha256": "3d6dde32ebd68a5678835bf5e62188e7588c986e58487d073adf3015b30a4a04",
+    "attempt_batch": "retrievals-final.json"
+  },
+  {
+    "name": "tastekin-preprint-index",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1101/2025.08.25.671814&format=json&resultType=core",
+    "status": 200,
+    "bytes": 6887,
+    "sha256": "5f1a9f1bc5682c276609547df87d03f5191cab8e19b3ef255b50add592618e56",
+    "attempt_batch": "retrievals-final.json"
+  },
+  {
+    "name": "benton-map",
+    "url": "https://link.springer.com/article/10.1038/s44319-025-00476-8",
+    "status": 200,
+    "bytes": 3038,
+    "sha256": "32ed63159c77e21ee19ca1b9aa3213ccf0218eb59539560b132a8e68ef0e18ea",
+    "attempt_batch": "retrievals-final.json",
+    "content_status": "challenge HTML, not paper text; paper passages separately inspected with web tool"
+  },
+  {
+    "name": "zhao-methods",
+    "url": "https://www.nature.com/articles/s41467-022-35527-4",
+    "status": 200,
+    "bytes": 3038,
+    "sha256": "32ed63159c77e21ee19ca1b9aa3213ccf0218eb59539560b132a8e68ef0e18ea",
+    "attempt_batch": "retrievals-final.json",
+    "content_status": "challenge HTML, not paper text; paper passages separately inspected with web tool"
+  },
+  {
+    "name": "hallem-paper",
+    "url": "https://www.cell.com/cell/fulltext/S0092-8674(06)00302-9",
+    "error": "HTTP Error 403: Forbidden",
+    "attempt_batch": "retrievals-final.json"
+  },
+  {
+    "name": "tastekin-open.pdf",
+    "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1072256&type=FILE&fileName=EMS208214-pdf.pdf&mimeType=application/pdf",
+    "error": "HTTP Error 403: Forbidden",
+    "attempt_batch": "retrievals-artifacts.json"
+  },
+  {
+    "name": "tastekin-source.xml",
+    "url": "https://www.biorxiv.org/content/early/2025/12/13/2025.08.25.671814.source.xml",
+    "error": "HTTP Error 403: Forbidden",
+    "attempt_batch": "retrievals-artifacts.json"
+  },
+  {
+    "name": "benton-ev1.xlsx",
+    "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs44319-025-00476-8/MediaObjects/44319_2025_476_MOESM2_ESM.xlsx",
+    "status": 200,
+    "bytes": 97614,
+    "sha256": "0b0e76250bcbca8c5acc3c0ba1cc9634060d7f992cc5979d710c9fff3613d49d",
+    "attempt_batch": "retrievals-artifacts.json"
+  }
+]

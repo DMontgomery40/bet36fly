@@ -5,6 +5,10 @@ status: dated-verification-records
 ---
 # Verification of this wiki integration
 
+## Sensory calibration checkpoint — September 13
+
+The [calibration verification record](../docs/evidence/natural-sensory-calibration-2026-09-13/verification.md) records exporter regression coverage, complete graph/hash checks, standard repository verification and guarded browser acceptance. These verify evidence tooling and the existing product; no natural sensory response has been measured.
+
 ## Natural sensory direction update — September 13
 
 The [reorientation verification record](../docs/evidence/natural-sensory-reorientation-2026-09-13/verification.md) covers the current documentation/rules change, measured-response arithmetic, local links, protected files and repository gate. Earlier software/browser checks below retain their dates and scope. The new natural sensory assay has not run; documentation verification does not establish physiology or choice behavior.

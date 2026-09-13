@@ -1,5 +1,9 @@
 # BET36FLY
 
+## Latest sensory checkpoint
+
+[Natural sensory calibration](docs/evidence/natural-sensory-calibration-2026-09-13/index.md) now records exact candidate cells, source measurements and native projections. The rate/cell contract remains unresolved, so no new sensory simulation ran. [Next bounded decision](docs/NATURAL_SENSORY_HANDOFF.md).
+
 **Current research direction, September 13:** represent matchup information as two food opportunities using calibrated fruit-odor or sweet/aversive taste patterns, establish the circuit's natural sensory response, then measure its contribution to matchup selection. Both teams can be attractive. Read the [canonical direction](docs/PROJECT_DIRECTION.md), [continuation prompt](docs/NATURAL_SENSORY_HANDOFF.md) and [measured sensory-rate evidence](wiki/natural-sensory-inputs.md). This is the next research task, not an implemented sensory encoder or a new active model.
 
 Read the [fly cell and circuit wiki](wiki/index.md) for the [reassessment](wiki/reassessment.md), exact neuron identities, learning-rule limits, and copied Microduck research. The legacy refractory correction, gamma away eligibility mask and rate bridge are integrated; qualification and subsequent fixed shadows failed. [Repair evidence](docs/evidence/reward-mechanism-repair-2026-09-12/index.md) retains SCI-001 HOLD. The new plasticity-off sensory assay does not depend on that learning repair. Conditioning and reversal remain unrun.

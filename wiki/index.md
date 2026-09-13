@@ -5,6 +5,10 @@ status: active
 ---
 # BET36FLY: cells, circuits, and learning
 
+## Latest evidence
+
+[Natural sensory calibration](../docs/evidence/natural-sensory-calibration-2026-09-13/index.md): exact cell candidates and projections exported; physiological drive unresolved; zero sensory neural calls. [Prepared two-source and sports contract](../docs/evidence/natural-sensory-calibration-2026-09-13/sports-contract.md).
+
 Start with the [current direction](../docs/PROJECT_DIRECTION.md), [reassessment](reassessment.md), and [natural sensory inputs](natural-sensory-inputs.md). David's September 13 reorientation puts a calibrated food-related sensory-response assay first, then two distinguishable matchup opportunities. Both teams can be attractive. This interface is not implemented. The [continuation prompt](../docs/NATURAL_SENSORY_HANDOFF.md) supersedes the old repair queue.
 
 A usable activity range and changing gains have been demonstrated in the legacy mushroom-body experiment; useful associative learning has not. This wiki connects MaleCNS cells to implemented mechanisms, measured failures and the evidence needed for the new sensory task.
