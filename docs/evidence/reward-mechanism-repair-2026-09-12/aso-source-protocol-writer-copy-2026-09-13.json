@@ -1,0 +1,61 @@
+{
+  "copied_at": "2026-09-13T14:45:59.305176+00:00",
+  "files": [
+    {
+      "source": "output/collaboration/reward-mechanism-repair/run_aso_source_protocol.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/run_aso_source_protocol.py",
+      "bytes": 16464,
+      "sha256": "da4389770e475089668568a0a51707b70e8f5f5cc600924cb25d94bfa7ef3fb2",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/test_run_aso_source_protocol.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/test_run_aso_source_protocol.py",
+      "bytes": 12265,
+      "sha256": "b5846aed80116d94e039426f22051d7a44594dda466340441ddcadabb8a8077b",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-writer-red-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-writer-red-2026-09-13.txt",
+      "bytes": 1085,
+      "sha256": "f678ecded54dd7a0a81d5264acfbb9e90c8d3da821140ae904fd89c50edcea82",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-writer-first-green-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-writer-first-green-2026-09-13.txt",
+      "bytes": 179,
+      "sha256": "69d65d2be49cc2d00b35c13de92cc7caff75a4db22e75c4e109fc4bd78f0fbdb",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-binding-red-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-binding-red-2026-09-13.txt",
+      "bytes": 1622,
+      "sha256": "07a3cc86840803a6abf1f1127ec6feada9effe605f0fa24a0ee156c3ae2daab2",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-writer-green-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-writer-green-2026-09-13.txt",
+      "bytes": 179,
+      "sha256": "aa09425627f3383c2d45b9c17fefad3e904c872a4c390da3f2489d5290a082ef",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-preparation-reading-evidence-ui-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-preparation-reading-evidence-ui-2026-09-13.json",
+      "bytes": 7834,
+      "sha256": "db13fe5e8730256d95cac589c96a7d19e30d76644951d4fd0215b433a75d42dc",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-make-verify-2026-09-13.log",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-make-verify-2026-09-13.log",
+      "bytes": 6297,
+      "sha256": "c9723c52de288feb7085153c865b9a174e12df02aa0f5625ec6cee92497ce120",
+      "original_retained": true
+    }
+  ]
+}

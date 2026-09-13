@@ -1,0 +1,475 @@
+{
+  "schema": 1,
+  "kind": "aso2019_source_equation_protocol",
+  "starting_commit": "7698c15",
+  "status": "frozen_before_implementation_or_execution",
+  "source_doi": "10.7554/eLife.49257",
+  "source_api_version": 3,
+  "source_pdf_sha256": "19fdc72e1175362926b56f2dad0f86d72b3c6036bbf1a876c6ee6fbc3008f5e4",
+  "unit": "seconds",
+  "initial_state": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "state_columns": [
+    "d",
+    "n",
+    "D",
+    "N"
+  ],
+  "kc_classes": [
+    "a_only",
+    "b_only",
+    "shared",
+    "neither"
+  ],
+  "pathways": [
+    {
+      "id": "both",
+      "da_enabled": true,
+      "no_enabled": true
+    },
+    {
+      "id": "da_only",
+      "da_enabled": true,
+      "no_enabled": false
+    },
+    {
+      "id": "no_only",
+      "da_enabled": false,
+      "no_enabled": true
+    },
+    {
+      "id": "neither",
+      "da_enabled": false,
+      "no_enabled": false
+    }
+  ],
+  "parameters": {
+    "A_D": 0.07166666666666667,
+    "A_N": 0.016,
+    "B_D": 0.004333333333333333,
+    "B_N": 0.0026666666666666666,
+    "tau_D": 30.0,
+    "tau_N": 600.0
+  },
+  "test_observations": [
+    "start",
+    "last_30s_start",
+    "end"
+  ],
+  "protocols": [
+    {
+      "id": "fig6_naive",
+      "source": "Figure6A/B naive comparator",
+      "duration_s": 900,
+      "odor_a_intervals_s": [],
+      "odor_b_intervals_s": [],
+      "dan_intervals_s": [],
+      "test_windows_s": [
+        [
+          840,
+          900
+        ]
+      ]
+    },
+    {
+      "id": "fig6_1x10s",
+      "source": "Figure6A first row",
+      "duration_s": 900,
+      "odor_a_intervals_s": [
+        [
+          60,
+          70
+        ]
+      ],
+      "odor_b_intervals_s": [
+        [
+          180,
+          190
+        ]
+      ],
+      "dan_intervals_s": [
+        [
+          60,
+          70
+        ]
+      ],
+      "test_windows_s": [
+        [
+          840,
+          900
+        ]
+      ]
+    },
+    {
+      "id": "fig6_1x60s",
+      "source": "Figure6A second row",
+      "duration_s": 900,
+      "odor_a_intervals_s": [
+        [
+          60,
+          120
+        ]
+      ],
+      "odor_b_intervals_s": [
+        [
+          180,
+          240
+        ]
+      ],
+      "dan_intervals_s": [
+        [
+          60,
+          120
+        ]
+      ],
+      "test_windows_s": [
+        [
+          840,
+          900
+        ]
+      ]
+    },
+    {
+      "id": "fig6_3x60s",
+      "source": "Figure6A third row",
+      "duration_s": 900,
+      "odor_a_intervals_s": [
+        [
+          60,
+          120
+        ],
+        [
+          300,
+          360
+        ],
+        [
+          540,
+          600
+        ]
+      ],
+      "odor_b_intervals_s": [
+        [
+          180,
+          240
+        ],
+        [
+          420,
+          480
+        ],
+        [
+          660,
+          720
+        ]
+      ],
+      "dan_intervals_s": [
+        [
+          60,
+          120
+        ],
+        [
+          300,
+          360
+        ],
+        [
+          540,
+          600
+        ]
+      ],
+      "test_windows_s": [
+        [
+          840,
+          900
+        ]
+      ]
+    },
+    {
+      "id": "fig7_reversal",
+      "source": "Figure7A; uniform minute grid, correcting duplicated20 axis label",
+      "duration_s": 1920,
+      "odor_a_intervals_s": [
+        [
+          60,
+          120
+        ],
+        [
+          420,
+          480
+        ],
+        [
+          660,
+          720
+        ],
+        [
+          1140,
+          1200
+        ],
+        [
+          1500,
+          1560
+        ],
+        [
+          1740,
+          1800
+        ]
+      ],
+      "odor_b_intervals_s": [
+        [
+          180,
+          240
+        ],
+        [
+          540,
+          600
+        ],
+        [
+          780,
+          840
+        ],
+        [
+          1020,
+          1080
+        ],
+        [
+          1380,
+          1440
+        ],
+        [
+          1620,
+          1680
+        ]
+      ],
+      "dan_intervals_s": [
+        [
+          60,
+          120
+        ],
+        [
+          420,
+          480
+        ],
+        [
+          660,
+          720
+        ],
+        [
+          1020,
+          1080
+        ],
+        [
+          1380,
+          1440
+        ],
+        [
+          1620,
+          1680
+        ]
+      ],
+      "test_windows_s": [
+        [
+          300,
+          360
+        ],
+        [
+          900,
+          960
+        ],
+        [
+          1260,
+          1320
+        ],
+        [
+          1860,
+          1920
+        ]
+      ]
+    },
+    {
+      "id": "fig7_odor_only",
+      "source": "Figure7A; uniform minute grid, correcting duplicated20 axis label",
+      "duration_s": 1920,
+      "odor_a_intervals_s": [
+        [
+          60,
+          120
+        ],
+        [
+          420,
+          480
+        ],
+        [
+          660,
+          720
+        ],
+        [
+          1140,
+          1200
+        ],
+        [
+          1500,
+          1560
+        ],
+        [
+          1740,
+          1800
+        ]
+      ],
+      "odor_b_intervals_s": [
+        [
+          180,
+          240
+        ],
+        [
+          540,
+          600
+        ],
+        [
+          780,
+          840
+        ],
+        [
+          1020,
+          1080
+        ],
+        [
+          1380,
+          1440
+        ],
+        [
+          1620,
+          1680
+        ]
+      ],
+      "dan_intervals_s": [
+        [
+          60,
+          120
+        ],
+        [
+          420,
+          480
+        ],
+        [
+          660,
+          720
+        ]
+      ],
+      "test_windows_s": [
+        [
+          300,
+          360
+        ],
+        [
+          900,
+          960
+        ],
+        [
+          1260,
+          1320
+        ],
+        [
+          1860,
+          1920
+        ]
+      ]
+    },
+    {
+      "id": "fig7_dan_only",
+      "source": "Figure7A; uniform minute grid, correcting duplicated20 axis label",
+      "duration_s": 1920,
+      "odor_a_intervals_s": [
+        [
+          60,
+          120
+        ],
+        [
+          420,
+          480
+        ],
+        [
+          660,
+          720
+        ]
+      ],
+      "odor_b_intervals_s": [
+        [
+          180,
+          240
+        ],
+        [
+          540,
+          600
+        ],
+        [
+          780,
+          840
+        ]
+      ],
+      "dan_intervals_s": [
+        [
+          60,
+          120
+        ],
+        [
+          420,
+          480
+        ],
+        [
+          660,
+          720
+        ],
+        [
+          1020,
+          1080
+        ],
+        [
+          1380,
+          1440
+        ],
+        [
+          1620,
+          1680
+        ]
+      ],
+      "test_windows_s": [
+        [
+          300,
+          360
+        ],
+        [
+          900,
+          960
+        ],
+        [
+          1260,
+          1320
+        ],
+        [
+          1860,
+          1920
+        ]
+      ]
+    }
+  ],
+  "expected_case_count": 28,
+  "model_conventions": {
+    "dan": "Continuous experimental activity envelope throughout each indicated stimulation bout, not literal LED pulses or somatic spikes.",
+    "kc": "a_only active for odorA; b_only for odorB; shared for either; neither inactive. Probe windows are passive observations with no DAN and no modeled additional odor drive.",
+    "persistence": "Four states persist across all intervals within a case. Every protocol/pathway case starts at zero; branch-null controls are absent from the beginning.",
+    "observations": "Samples at test start, final30second window start and test end. They are instantaneous model states/weights, not behavioral averages or PI.",
+    "clock": "Monotonic uniform minute grid in Figure7. Printed lower axis duplicates20; after that duplicate the declared times are1minute larger than printed labels.",
+    "population": "Four exposure classes, no sampled population, overlap fraction, softmax or sports readout.",
+    "scope": "Source-equation calculation with explicit figure interpretation; not source-author-code reproduction, behavioral fit, MaleCNS run or qualification."
+  },
+  "execution_limits": {
+    "producer_timeout_s": 30,
+    "independent_checker_timeout_s": 60,
+    "historical_runs": 0,
+    "native_calls": 0,
+    "parameter_searches": 0,
+    "reexecute_completed_identity": false
+  }
+}

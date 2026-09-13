@@ -1,0 +1,1095 @@
+{
+  "schema": 1,
+  "agent": "dopamine_sources",
+  "at_utc": "2026-09-13T14:55:59.058890+00:00",
+  "status": "saved_result_scientific_interpretation_review_pass",
+  "identity": "aso-source-protocol-e54b736d2730d5bc67a5",
+  "source_reading_chain": {
+    "path": "output/collaboration/reward-mechanism-repair/aso-da-no-finite-source-protocol-reading-dopamine-sources-2026-09-13.json",
+    "bytes": 8900,
+    "sha256": "d0704243afb25132907fc0b7e58e784b1ae34291527cd6b62345a363af406543"
+  },
+  "evidence": [
+    {
+      "path": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/status.json",
+      "bytes": 6498,
+      "sha256": "f4d4be977709607f80ebb28e35ada014d41bb29c3a126550d932943c1075b314"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/plan.json",
+      "bytes": 8254,
+      "sha256": "55f9ad550052125e2715003eb44d90f509fa55014144b872ca48812ba60d67a4"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-audit/audit.json",
+      "bytes": 51889,
+      "sha256": "2927c8c556843d9b5ef46fcbb9569bb7011393aa6121af097ed0e62e71125569"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-parent.json",
+      "bytes": 5857,
+      "sha256": "bda4d0bc91182bce01158beb30165d34eea4b0774b1e5431f48c7aeffb23090f"
+    }
+  ],
+  "coverage": {
+    "cases": 28,
+    "all_fifteen_parent_bindings_rehashed_unchanged": true,
+    "all_twenty_eight_source_arrays_rehashed_and_read": true,
+    "all_saved_states_and_weights_finite_in_component_domain": true,
+    "all_pathway_nulls_exact": true,
+    "all_naive_and_neither_weights_exactly_one": true,
+    "source_auditor_all_rows_passed": true,
+    "source_auditor_max_abs_error": 6.661338147750939e-16,
+    "saved_observation_weight_factorization_max_abs_error": 0.0
+  },
+  "cases": [
+    {
+      "index": 0,
+      "protocol": "fig6_naive",
+      "pathway": "both",
+      "binding": {
+        "path": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/00_fig6_naive_both.npz",
+        "bytes": 1754,
+        "sha256": "414397b541a85947e293dd424d635dbd65a6628c3165903f89191a8dc9bf8fa3"
+      },
+      "test_end_times_s": [
+        900.0
+      ],
+      "test_end_weights_a_b_shared_neither": [
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "test_end_a_minus_b": [
+        0.0
+      ],
+      "complete_array_finite_domain_null_checks": "passed"
+    },
+    {
+      "index": 1,
+      "protocol": "fig6_naive",
+      "pathway": "da_only",
+      "binding": {
+        "path": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/01_fig6_naive_da_only.npz",
+        "bytes": 1754,
+        "sha256": "414397b541a85947e293dd424d635dbd65a6628c3165903f89191a8dc9bf8fa3"
+      },
+      "test_end_times_s": [
+        900.0
+      ],
+      "test_end_weights_a_b_shared_neither": [
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "test_end_a_minus_b": [
+        0.0
+      ],
+      "complete_array_finite_domain_null_checks": "passed"
+    },
+    {
+      "index": 2,
+      "protocol": "fig6_naive",
+      "pathway": "no_only",
+      "binding": {
+        "path": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/02_fig6_naive_no_only.npz",
+        "bytes": 1754,
+        "sha256": "414397b541a85947e293dd424d635dbd65a6628c3165903f89191a8dc9bf8fa3"
+      },
+      "test_end_times_s": [
+        900.0
+      ],
+      "test_end_weights_a_b_shared_neither": [
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "test_end_a_minus_b": [
+        0.0
+      ],
+      "complete_array_finite_domain_null_checks": "passed"
+    },
+    {
+      "index": 3,
+      "protocol": "fig6_naive",
+      "pathway": "neither",
+      "binding": {
+        "path": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/03_fig6_naive_neither.npz",
+        "bytes": 1754,
+        "sha256": "414397b541a85947e293dd424d635dbd65a6628c3165903f89191a8dc9bf8fa3"
+      },
+      "test_end_times_s": [
+        900.0
+      ],
+      "test_end_weights_a_b_shared_neither": [
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "test_end_a_minus_b": [
+        0.0
+      ],
+      "complete_array_finite_domain_null_checks": "passed"
+    },
+    {
+      "index": 4,
+      "protocol": "fig6_1x10s",
+      "pathway": "both",
+      "binding": {
+        "path": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/04_fig6_1x10s_both.npz",
+        "bytes": 1985,
+        "sha256": "f7f85e305f4fd254f88dfd22b485ecbd1f1c703abb096ebf908bcb6331c24db9"
+      },
+      "test_end_times_s": [
+        900.0
+      ],
+      "test_end_weights_a_b_shared_neither": [
+        [
+          0.5426352059426379,
+          1.0,
+          0.5426352059426379,
+          1.0
+        ]
+      ],
+      "test_end_a_minus_b": [
+        -0.4573647940573621
+      ],
+      "complete_array_finite_domain_null_checks": "passed"
+    },
+    {
+      "index": 5,
+      "protocol": "fig6_1x10s",
+      "pathway": "da_only",
+      "binding": {
+        "path": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/05_fig6_1x10s_da_only.npz",
+        "bytes": 1905,
+        "sha256": "bd5f782103371fea0c2a70e7b1d5cd42f7a698ca250d6ec851e2da5fdcfe88cb"
+      },
+      "test_end_times_s": [
+        900.0
+      ],
+      "test_end_weights_a_b_shared_neither": [
+        [
+          0.48837747066659876,
+          1.0,
+          0.48837747066659876,
+          1.0
+        ]
+      ],
+      "test_end_a_minus_b": [
+        -0.5116225293334012
+      ],
+      "complete_array_finite_domain_null_checks": "passed"
+    },
+    {
+      "index": 6,
+      "protocol": "fig6_1x10s",
+      "pathway": "no_only",
+      "binding": {
+        "path": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/06_fig6_1x10s_no_only.npz",
+        "bytes": 1933,
+        "sha256": "8d84f8f3cf034e5350f8d349128824938ce73d5b8dad490cf617865cb88cf470"
+      },
+      "test_end_times_s": [
+        900.0
+      ],
+      "test_end_weights_a_b_shared_neither": [
+        [
+          1.1110979488918304,
+          1.0,
+          1.1110979488918304,
+          1.0
+        ]
+      ],
+      "test_end_a_minus_b": [
+        0.11109794889183044
+      ],
+      "complete_array_finite_domain_null_checks": "passed"
+    },
+    {
+      "index": 7,
+      "protocol": "fig6_1x10s",
+      "pathway": "neither",
+      "binding": {
+        "path": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/07_fig6_1x10s_neither.npz",
+        "bytes": 1782,
+        "sha256": "2e897370aaf648a9b567733d105aa22369ac8147547a7b58a6fb84d52e940c3e"
+      },
+      "test_end_times_s": [
+        900.0
+      ],
+      "test_end_weights_a_b_shared_neither": [
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "test_end_a_minus_b": [
+        0.0
+      ],
+      "complete_array_finite_domain_null_checks": "passed"
+    },
+    {
+      "index": 8,
+      "protocol": "fig6_1x60s",
+      "pathway": "both",
+      "binding": {
+        "path": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/08_fig6_1x60s_both.npz",
+        "bytes": 1985,
+        "sha256": "6ef8cee9197b928e0055d3073bc16335c6befe307dc2f4c1a107e5d5c5e7bccd"
+      },
+      "test_end_times_s": [
+        900.0
+      ],
+      "test_end_weights_a_b_shared_neither": [
+        [
+          0.019787305682695613,
+          1.0,
+          0.019787305682695613,
+          1.0
+        ]
+      ],
+      "test_end_a_minus_b": [
+        -0.9802126943173044
+      ],
+      "complete_array_finite_domain_null_checks": "passed"
+    },
+    {
+      "index": 9,
+      "protocol": "fig6_1x60s",
+      "pathway": "da_only",
+      "binding": {
+        "path": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/09_fig6_1x60s_da_only.npz",
+        "bytes": 1907,
+        "sha256": "361a3c376e36ac783bb8a716cc294bdc4ce29ce4e7143a16324d1bb9fc8a57f7"
+      },
+      "test_end_times_s": [
+        900.0
+      ],
+      "test_end_weights_a_b_shared_neither": [
+        [
+          0.013568559013363957,
+          1.0,
+          0.013568559013363957,
+          1.0
+        ]
+      ],
+      "test_end_a_minus_b": [
+        -0.986431440986636
+      ],
+      "complete_array_finite_domain_null_checks": "passed"
+    },
+    {
+      "index": 10,
+      "protocol": "fig6_1x60s",
+      "pathway": "no_only",
+      "binding": {
+        "path": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/10_fig6_1x60s_no_only.npz",
+        "bytes": 1935,
+        "sha256": "df17de3f96b0bd7ef0459478cd5001c9f9128e2526d12ec0b5f928f38f62bba4"
+      },
+      "test_end_times_s": [
+        900.0
+      ],
+      "test_end_weights_a_b_shared_neither": [
+        [
+          1.4583203465605068,
+          1.0,
+          1.4583203465605068,
+          1.0
+        ]
+      ],
+      "test_end_a_minus_b": [
+        0.4583203465605068
+      ],
+      "complete_array_finite_domain_null_checks": "passed"
+    },
+    {
+      "index": 11,
+      "protocol": "fig6_1x60s",
+      "pathway": "neither",
+      "binding": {
+        "path": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/11_fig6_1x60s_neither.npz",
+        "bytes": 1781,
+        "sha256": "18257ee3006b41201d7517f0354cbef2357e4c1050c53472302cd67c17c414fc"
+      },
+      "test_end_times_s": [
+        900.0
+      ],
+      "test_end_weights_a_b_shared_neither": [
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "test_end_a_minus_b": [
+        0.0
+      ],
+      "complete_array_finite_domain_null_checks": "passed"
+    },
+    {
+      "index": 12,
+      "protocol": "fig6_3x60s",
+      "pathway": "both",
+      "binding": {
+        "path": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/12_fig6_3x60s_both.npz",
+        "bytes": 2275,
+        "sha256": "ef5be1762948cea723dc36759a0c6d84dbd7d2fd91162401c7f2dce2846b09f1"
+      },
+      "test_end_times_s": [
+        900.0
+      ],
+      "test_end_weights_a_b_shared_neither": [
+        [
+          4.106424967553525e-06,
+          1.0,
+          4.106424967553525e-06,
+          1.0
+        ]
+      ],
+      "test_end_a_minus_b": [
+        -0.9999958935750325
+      ],
+      "complete_array_finite_domain_null_checks": "passed"
+    },
+    {
+      "index": 13,
+      "protocol": "fig6_3x60s",
+      "pathway": "da_only",
+      "binding": {
+        "path": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/13_fig6_3x60s_da_only.npz",
+        "bytes": 2101,
+        "sha256": "8f047d68ef0b5f5203a790680c67fdf10aa1206cfdd0af337ff5cac5383e5d54"
+      },
+      "test_end_times_s": [
+        900.0
+      ],
+      "test_end_weights_a_b_shared_neither": [
+        [
+          2.5000013271769816e-06,
+          1.0,
+          2.5000013271769816e-06,
+          1.0
+        ]
+      ],
+      "test_end_a_minus_b": [
+        -0.9999974999986728
+      ],
+      "complete_array_finite_domain_null_checks": "passed"
+    },
+    {
+      "index": 14,
+      "protocol": "fig6_3x60s",
+      "pathway": "no_only",
+      "binding": {
+        "path": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/14_fig6_3x60s_no_only.npz",
+        "bytes": 2139,
+        "sha256": "21ae9c1b92136d80d9726f5f3858e07031a2a5af2fad13c223190058e45eeb7a"
+      },
+      "test_end_times_s": [
+        900.0
+      ],
+      "test_end_weights_a_b_shared_neither": [
+        [
+          1.642569115029442,
+          1.0,
+          1.642569115029442,
+          1.0
+        ]
+      ],
+      "test_end_a_minus_b": [
+        0.6425691150294419
+      ],
+      "complete_array_finite_domain_null_checks": "passed"
+    },
+    {
+      "index": 15,
+      "protocol": "fig6_3x60s",
+      "pathway": "neither",
+      "binding": {
+        "path": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/15_fig6_3x60s_neither.npz",
+        "bytes": 1821,
+        "sha256": "da8f09cab65887e9e20201044aad181787efcf905981403c1bcb15fca1d8872d"
+      },
+      "test_end_times_s": [
+        900.0
+      ],
+      "test_end_weights_a_b_shared_neither": [
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "test_end_a_minus_b": [
+        0.0
+      ],
+      "complete_array_finite_domain_null_checks": "passed"
+    },
+    {
+      "index": 16,
+      "protocol": "fig7_reversal",
+      "pathway": "both",
+      "binding": {
+        "path": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/16_fig7_reversal_both.npz",
+        "bytes": 3620,
+        "sha256": "c5572379f2d49d422f1d4b1d032f6091923c7d25b38b48a49690811e92289508"
+      },
+      "test_end_times_s": [
+        360.0,
+        960.0,
+        1320.0,
+        1920.0
+      ],
+      "test_end_weights_a_b_shared_neither": [
+        [
+          0.016736249602213316,
+          1.0,
+          0.016736249602213316,
+          1.0
+        ],
+        [
+          4.127194153920087e-06,
+          1.0,
+          4.127194153920087e-06,
+          1.0
+        ],
+        [
+          0.3955539471864755,
+          0.016736249602213316,
+          6.105774236386949e-08,
+          1.0
+        ],
+        [
+          0.9051296519394398,
+          4.127194153920087e-06,
+          1.2045102425496374e-11,
+          1.0
+        ]
+      ],
+      "test_end_a_minus_b": [
+        -0.9832637503977867,
+        -0.9999958728058461,
+        0.3788176975842622,
+        0.905125524745286
+      ],
+      "complete_array_finite_domain_null_checks": "passed"
+    },
+    {
+      "index": 17,
+      "protocol": "fig7_reversal",
+      "pathway": "da_only",
+      "binding": {
+        "path": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/17_fig7_reversal_da_only.npz",
+        "bytes": 2975,
+        "sha256": "85035b2f1b953ec468209b587bf45ca282f15186c123537f9d1107f2a2473e44"
+      },
+      "test_end_times_s": [
+        360.0,
+        960.0,
+        1320.0,
+        1920.0
+      ],
+      "test_end_weights_a_b_shared_neither": [
+        [
+          0.013644927358630321,
+          1.0,
+          0.013644927358630321,
+          1.0
+        ],
+        [
+          2.5124579474677944e-06,
+          1.0,
+          2.5124579474677944e-06,
+          1.0
+        ],
+        [
+          0.22891847410525124,
+          0.013644927358630321,
+          3.408580384611781e-08,
+          1.0
+        ],
+        [
+          0.5415761804527586,
+          2.5124579474677944e-06,
+          6.276312802810935e-12,
+          1.0
+        ]
+      ],
+      "test_end_a_minus_b": [
+        -0.9863550726413697,
+        -0.9999974875420525,
+        0.21527354674662091,
+        0.5415736679948111
+      ],
+      "complete_array_finite_domain_null_checks": "passed"
+    },
+    {
+      "index": 18,
+      "protocol": "fig7_reversal",
+      "pathway": "no_only",
+      "binding": {
+        "path": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/18_fig7_reversal_no_only.npz",
+        "bytes": 3138,
+        "sha256": "ab9beb482574523963485ebba0684f7be427b4df1de76628d081262c61a8775c"
+      },
+      "test_end_times_s": [
+        360.0,
+        960.0,
+        1320.0,
+        1920.0
+      ],
+      "test_end_weights_a_b_shared_neither": [
+        [
+          1.226554686758941,
+          1.0,
+          1.226554686758941,
+          1.0
+        ],
+        [
+          1.6426918341378491,
+          1.0,
+          1.6426918341378491,
+          1.0
+        ],
+        [
+          1.727924968627081,
+          1.226554686758941,
+          1.791295362712229,
+          1.0
+        ],
+        [
+          1.6712877792792695,
+          1.6426918341378491,
+          1.919136729466671,
+          1.0
+        ]
+      ],
+      "test_end_a_minus_b": [
+        0.22655468675894097,
+        0.6426918341378491,
+        0.50137028186814,
+        0.028595945141420387
+      ],
+      "complete_array_finite_domain_null_checks": "passed"
+    },
+    {
+      "index": 19,
+      "protocol": "fig7_reversal",
+      "pathway": "neither",
+      "binding": {
+        "path": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/19_fig7_reversal_neither.npz",
+        "bytes": 1934,
+        "sha256": "dc38ae08bf5b4dd34422c8c641e98219f898363a062b583fbdeb1ffd880453b7"
+      },
+      "test_end_times_s": [
+        360.0,
+        960.0,
+        1320.0,
+        1920.0
+      ],
+      "test_end_weights_a_b_shared_neither": [
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "test_end_a_minus_b": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "complete_array_finite_domain_null_checks": "passed"
+    },
+    {
+      "index": 20,
+      "protocol": "fig7_odor_only",
+      "pathway": "both",
+      "binding": {
+        "path": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/20_fig7_odor_only_both.npz",
+        "bytes": 2823,
+        "sha256": "8a3497f0858b6aa1acb429313b4a9f46acddd9c23714f8886eadfdccc0a74ab6"
+      },
+      "test_end_times_s": [
+        360.0,
+        960.0,
+        1320.0,
+        1920.0
+      ],
+      "test_end_weights_a_b_shared_neither": [
+        [
+          0.016736249602213316,
+          1.0,
+          0.016736249602213316,
+          1.0
+        ],
+        [
+          4.127194153920087e-06,
+          1.0,
+          4.127194153920087e-06,
+          1.0
+        ],
+        [
+          4.442976932972451e-06,
+          1.0,
+          4.442976932972451e-06,
+          1.0
+        ],
+        [
+          4.703977087203838e-06,
+          1.0,
+          4.703977087203838e-06,
+          1.0
+        ]
+      ],
+      "test_end_a_minus_b": [
+        -0.9832637503977867,
+        -0.9999958728058461,
+        -0.999995557023067,
+        -0.9999952960229128
+      ],
+      "complete_array_finite_domain_null_checks": "passed"
+    },
+    {
+      "index": 21,
+      "protocol": "fig7_odor_only",
+      "pathway": "da_only",
+      "binding": {
+        "path": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/21_fig7_odor_only_da_only.npz",
+        "bytes": 2373,
+        "sha256": "d7cc8af54e1a117527e98c712314213366cbc0c3fc6afa147d43b28d0e3a386e"
+      },
+      "test_end_times_s": [
+        360.0,
+        960.0,
+        1320.0,
+        1920.0
+      ],
+      "test_end_weights_a_b_shared_neither": [
+        [
+          0.013644927358630321,
+          1.0,
+          0.013644927358630321,
+          1.0
+        ],
+        [
+          2.5124579474677944e-06,
+          1.0,
+          2.5124579474677944e-06,
+          1.0
+        ],
+        [
+          2.4980504143012894e-06,
+          1.0,
+          2.4980504143012894e-06,
+          1.0
+        ],
+        [
+          2.4980503258165143e-06,
+          1.0,
+          2.4980503258165143e-06,
+          1.0
+        ]
+      ],
+      "test_end_a_minus_b": [
+        -0.9863550726413697,
+        -0.9999974875420525,
+        -0.9999975019495857,
+        -0.9999975019496742
+      ],
+      "complete_array_finite_domain_null_checks": "passed"
+    },
+    {
+      "index": 22,
+      "protocol": "fig7_odor_only",
+      "pathway": "no_only",
+      "binding": {
+        "path": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/22_fig7_odor_only_no_only.npz",
+        "bytes": 2621,
+        "sha256": "c0d782f093cd9ba77bd48ad5d6ff7a0b8c17feb22be5140cb852e4ba641c064a"
+      },
+      "test_end_times_s": [
+        360.0,
+        960.0,
+        1320.0,
+        1920.0
+      ],
+      "test_end_weights_a_b_shared_neither": [
+        [
+          1.226554686758941,
+          1.0,
+          1.226554686758941,
+          1.0
+        ],
+        [
+          1.6426918341378491,
+          1.0,
+          1.6426918341378491,
+          1.0
+        ],
+        [
+          1.7785777691020546,
+          1.0,
+          1.7785777691020546,
+          1.0
+        ],
+        [
+          1.8830593757819085,
+          1.0,
+          1.8830593757819085,
+          1.0
+        ]
+      ],
+      "test_end_a_minus_b": [
+        0.22655468675894097,
+        0.6426918341378491,
+        0.7785777691020546,
+        0.8830593757819085
+      ],
+      "complete_array_finite_domain_null_checks": "passed"
+    },
+    {
+      "index": 23,
+      "protocol": "fig7_odor_only",
+      "pathway": "neither",
+      "binding": {
+        "path": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/23_fig7_odor_only_neither.npz",
+        "bytes": 1931,
+        "sha256": "1f817e34e2b114bcf7570aa8d06fbf02f7e6ad57ea6adae565f28097afc60769"
+      },
+      "test_end_times_s": [
+        360.0,
+        960.0,
+        1320.0,
+        1920.0
+      ],
+      "test_end_weights_a_b_shared_neither": [
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "test_end_a_minus_b": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "complete_array_finite_domain_null_checks": "passed"
+    },
+    {
+      "index": 24,
+      "protocol": "fig7_dan_only",
+      "pathway": "both",
+      "binding": {
+        "path": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/24_fig7_dan_only_both.npz",
+        "bytes": 2845,
+        "sha256": "761761a42631912833dab4a2dd6e9a51ec8774e3d547e0ed5f4c9e4e6aecbb0f"
+      },
+      "test_end_times_s": [
+        360.0,
+        960.0,
+        1320.0,
+        1920.0
+      ],
+      "test_end_weights_a_b_shared_neither": [
+        [
+          0.016736249602213316,
+          1.0,
+          0.016736249602213316,
+          1.0
+        ],
+        [
+          4.127194153920087e-06,
+          1.0,
+          4.127194153920087e-06,
+          1.0
+        ],
+        [
+          0.39555394718647535,
+          1.0,
+          0.39555394718647535,
+          1.0
+        ],
+        [
+          0.9051296519394401,
+          1.0,
+          0.9051296519394401,
+          1.0
+        ]
+      ],
+      "test_end_a_minus_b": [
+        -0.9832637503977867,
+        -0.9999958728058461,
+        -0.6044460528135247,
+        -0.09487034806055994
+      ],
+      "complete_array_finite_domain_null_checks": "passed"
+    },
+    {
+      "index": 25,
+      "protocol": "fig7_dan_only",
+      "pathway": "da_only",
+      "binding": {
+        "path": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/25_fig7_dan_only_da_only.npz",
+        "bytes": 2506,
+        "sha256": "8939ff3086362b4e8798b0757d12d34781b681507cf79fb69721e6acbd07fbac"
+      },
+      "test_end_times_s": [
+        360.0,
+        960.0,
+        1320.0,
+        1920.0
+      ],
+      "test_end_weights_a_b_shared_neither": [
+        [
+          0.013644927358630321,
+          1.0,
+          0.013644927358630321,
+          1.0
+        ],
+        [
+          2.5124579474677944e-06,
+          1.0,
+          2.5124579474677944e-06,
+          1.0
+        ],
+        [
+          0.22891847410525112,
+          1.0,
+          0.22891847410525112,
+          1.0
+        ],
+        [
+          0.5415761804527586,
+          1.0,
+          0.5415761804527586,
+          1.0
+        ]
+      ],
+      "test_end_a_minus_b": [
+        -0.9863550726413697,
+        -0.9999974875420525,
+        -0.7710815258947489,
+        -0.45842381954724143
+      ],
+      "complete_array_finite_domain_null_checks": "passed"
+    },
+    {
+      "index": 26,
+      "protocol": "fig7_dan_only",
+      "pathway": "no_only",
+      "binding": {
+        "path": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/26_fig7_dan_only_no_only.npz",
+        "bytes": 2539,
+        "sha256": "f2aafe0f7ac8bfed0eafb8ef7d249c0fc6e67612fcfb979cf192d1d7c6983fe4"
+      },
+      "test_end_times_s": [
+        360.0,
+        960.0,
+        1320.0,
+        1920.0
+      ],
+      "test_end_weights_a_b_shared_neither": [
+        [
+          1.226554686758941,
+          1.0,
+          1.226554686758941,
+          1.0
+        ],
+        [
+          1.6426918341378491,
+          1.0,
+          1.6426918341378491,
+          1.0
+        ],
+        [
+          1.7279249686270812,
+          1.0,
+          1.7279249686270812,
+          1.0
+        ],
+        [
+          1.67128777927927,
+          1.0,
+          1.67128777927927,
+          1.0
+        ]
+      ],
+      "test_end_a_minus_b": [
+        0.22655468675894097,
+        0.6426918341378491,
+        0.7279249686270812,
+        0.67128777927927
+      ],
+      "complete_array_finite_domain_null_checks": "passed"
+    },
+    {
+      "index": 27,
+      "protocol": "fig7_dan_only",
+      "pathway": "neither",
+      "binding": {
+        "path": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/27_fig7_dan_only_neither.npz",
+        "bytes": 1904,
+        "sha256": "5cecdf01c95fa2dada082d542e8e42646feb7f12ba6f58177017aa28050064e7"
+      },
+      "test_end_times_s": [
+        360.0,
+        960.0,
+        1320.0,
+        1920.0
+      ],
+      "test_end_weights_a_b_shared_neither": [
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "test_end_a_minus_b": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "complete_array_finite_domain_null_checks": "passed"
+    }
+  ],
+  "interpretation": [
+    {
+      "claim": "Acquisition has opposite signs for isolated pathways, with faster near-saturation of DA-induced depression. Both-path acquisition stays depressive at the recorded endpoints.",
+      "scope": "Fixed source-equation component; not behavioral significance."
+    },
+    {
+      "claim": "Reversal changes the sign of A-only minus B-only weight contrast by Test3 when DA is present. NO-only contrast remains positive at Test4 end.",
+      "test4_end_a_minus_b": {
+        "both": 0.905125524745286,
+        "da_only": 0.5415736679948111,
+        "no_only": 0.028595945141420387
+      },
+      "scope": "The NO-only condition has not reversed this weight ordering by the final sampled time. No additional time or parameters chosen."
+    },
+    {
+      "claim": "Odor-only retains latent d/n but allows delayed expression; unchanged latent memory does not mean constant current weight.",
+      "no_only_a_weight_test2_test4": [
+        1.6426918341378491,
+        1.8830593757819085
+      ],
+      "scope": "No-DAN dynamics are exactly the component quiet mode; no claim of reproduced experimental lack of statistical change."
+    },
+    {
+      "claim": "DAN-only activation reduces latent NO while expressed NO can initially rise; a blanket immediate weight-recovery or erasure claim would be false.",
+      "no_only_a_weight_test2_test3_test4": [
+        1.6426918341378491,
+        1.7279249686270812,
+        1.67128777927927
+      ],
+      "scope": "Expected delayed-state behavior, not a numerical failure."
+    },
+    {
+      "claim": "With both pathways present, DAN-only A weight approaches baseline faster over this finite schedule than with DA alone.",
+      "test4_end_a_weight": {
+        "both": 0.9051296519394401,
+        "da_only": 0.5415761804527586
+      },
+      "scope": "Finite representative-KC weights under frozen conventions, not measured behavior or globally monotone recovery."
+    }
+  ],
+  "claim_limits": [
+    "All numbers refer to explicitly sampled endpoints, not test-window averages or experimental PI.",
+    "Continuous DAN envelopes and uniform-minute correction of duplicated20 remain declared source interpretations.",
+    "No population overlap, softmax or source-author execution is inferred.",
+    "NO-only delayed expression and persistent latent memory are consistent with the preregistered topology; numerical agreement alone is not biology validation.",
+    "No source rates, observations or scientific acceptance thresholds were adjusted after outcomes.",
+    "No MaleCNS, native learning qualification, conditioning or sports improvement was evaluated; current qualification remains failed."
+  ],
+  "operations": {
+    "model_or_source_protocol_reruns": 0,
+    "native_calls": 0,
+    "fits": 0,
+    "new_research": 0,
+    "saved_array_reads": 28,
+    "production_shared_docs_edits": 0,
+    "method": "Read all saved producer arrays and all28 existing independent audit row records, rehashed parent bindings and terminal artifacts, and performed descriptive arithmetic/domain checks on saved values only. No dynamics/helper imports."
+  },
+  "new_mechanistic_contradiction": false,
+  "material_cautions": "Do not summarize odor-only as constant weights, every DAN-only effect as immediate decay, or NO-only reversal as complete within this finite protocol.",
+  "final_shared_narrative_review": "Pending root final result/handoff delta; this receipt freezes saved-result interpretation only."
+}

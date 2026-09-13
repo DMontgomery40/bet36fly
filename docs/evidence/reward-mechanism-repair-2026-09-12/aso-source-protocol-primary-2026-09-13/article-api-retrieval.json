@@ -1,0 +1,8 @@
+{
+  "url": "https://api.elifesciences.org/articles/49257",
+  "checked_at": "2026-09-13T14:25:47.952268+00:00",
+  "http_status": 200,
+  "content_type": "application/vnd.elife.article-vor+json; version=8",
+  "bytes": 293591,
+  "sha256": "c2a504225b6b78feade1ad08f4da1beacc89fbde0406783038de5347da7ef521"
+}

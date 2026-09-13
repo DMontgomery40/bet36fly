@@ -1,0 +1,147 @@
+{
+  "schema": "aso-source-checker-preparation-record-v1",
+  "agent": "delivered_arrivals",
+  "created_at_utc": "2026-09-13T14:55:23.233504+00:00",
+  "status": "preparation_complete_late_receipt",
+  "timing_disclosure": "The code/test freeze and43passing toy tests were communicated before root dispatched the actual run. This receipt is written after root reported successful source/audit execution; it is not itself a pre-execution preregistration. The exact frozen plan and code were bound in the parent execution receipt.",
+  "release": [
+    {
+      "path": "output/collaboration/reward-mechanism-repair/audit_aso_source_protocol.py",
+      "bytes": 20747,
+      "sha256": "c8787bc4d51ced636296bf1f7033b53075692c52cfb547dc57e0679415da14fa"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/test_audit_aso_source_protocol.py",
+      "bytes": 16707,
+      "sha256": "9023e31087b1d9dd9d2181207e1a789f0b5133c77b41c79eefb0def28712e3d2"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/aso_da_no_reference.py",
+      "bytes": 4050,
+      "sha256": "9b162ab64f14ace56d10bbbb123219c7683a62c932e89996ca6e1018989d56d4"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/run_aso_source_protocol.py",
+      "bytes": 16464,
+      "sha256": "da4389770e475089668568a0a51707b70e8f5f5cc600924cb25d94bfa7ef3fb2"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/aso_da_no.py",
+      "bytes": 6257,
+      "sha256": "d43351281854ff2700c10b573a8c22a725f9fee226d083c6363e6436e1285111"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/aso-source-protocol-plan-2026-09-13.json",
+      "bytes": 8254,
+      "sha256": "55f9ad550052125e2715003eb44d90f509fa55014144b872ca48812ba60d67a4"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/aso-source-checker-release-tests-delivered-arrivals-2026-09-13.txt",
+      "bytes": 99,
+      "sha256": "8ef804cdf70b3b1e0d362428af9dd7435425ab2ceac9e20bc99115bc750d9de2"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/aso-source-checker-red-delivered-arrivals-2026-09-13.txt",
+      "bytes": 32209,
+      "sha256": "438daff03633a7156d288f8d4a089f3938f054dc49def74e064ba3726d505c3f"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/aso-da-no-protocol-independent-design-delivered-arrivals-2026-09-13.md",
+      "bytes": 13290,
+      "sha256": "3dbb5550cd825e4109fb6bf01eb15b50cf2fbd0d563ac7e59d1b5c0c913580de"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/aso-figure7-axis-audit-delivered-arrivals-2026-09-13.json",
+      "bytes": 8034,
+      "sha256": "99779202daf7ddb9daca2ec6dd913af957499ef9ee65b700415b7003b636003b"
+    }
+  ],
+  "tests": {
+    "count": 43,
+    "seconds": 0.28,
+    "exit_code": 0,
+    "ruff": "Both files pass",
+    "dynamics_scope": "Only short explicitly synthetic sequences. Real28-case schedule/shape test does not invoke dynamics.",
+    "coverage": [
+      "independent own schedule/class reconstruction",
+      "full state and weight arrays, exact null/initial/weight consistency",
+      "boundary observation convention and no producer-state reuse",
+      "nonzero-state delayed expression during DAN-only latent decline",
+      "NPY shape/dtype/payload checks before allocation",
+      "complete ordered artifact/status/hash agreement",
+      "wrong terminal/count/order/path/cap/identity fails before dynamics",
+      "retained partial references on a later malformed case",
+      "late consumed-artifact changes",
+      "final-persistence timeout rejected"
+    ]
+  },
+  "execution_contract": {
+    "command": [
+      ".venv/bin/python",
+      "output/collaboration/reward-mechanism-repair/audit_aso_source_protocol.py",
+      "--plan",
+      "output/collaboration/reward-mechanism-repair/aso-source-protocol-plan-2026-09-13.json",
+      "--result",
+      "<completed source directory>",
+      "--output",
+      "<exclusive audit directory>"
+    ],
+    "cap_s": 60,
+    "producer_cap_s": 30,
+    "parent_owns": "Direct-child timeout, exit/reaping and full primaryPDF/XML bindings",
+    "tolerance": "State/weight atol=rtol=1e-12 over whole trajectory; no per-segment allowance widening",
+    "output": "One cumulative audit.json plus one independent reference NPZ per case; no generic launcher",
+    "source_identity": "Matching output/canonical producer/checker aliases; immutable helper/reference checks. Source matrix is28cases and4KCclasses, no population/PI/quiet-limit extension."
+  },
+  "source_reading": {
+    "primary": "Copied Aso modeling Results/Methods/equations1-4, Fig6/7/8/supplement captions, olfactory-learning Methods",
+    "visual": "Personally viewed officialv3 PDF pages27,29,31,32; separately extracted Figure7 PDF tick coordinates",
+    "axis": "Printed16,17,18,19,20,20,...31. Root frozen corrected uniform16..32minute convention, not recovered author-code clock.",
+    "observations": "Instantaneous test start,last30sstart,end; no behavioral average or PI"
+  },
+  "reading": {
+    "prior_full_chain": {
+      "path": "output/collaboration/reward-mechanism-repair/aso-da-no-final-reading-review-delivered-arrivals-2026-09-13.json",
+      "bytes": 8430,
+      "sha256": "8a66e379d14aaacdfada86f4f8fcb03bb6494f1d8de9c9c55ba61b0b3340b503"
+    },
+    "current_narrative_count": 217,
+    "unchanged_from_prior": 212,
+    "personally_read_deltas": [
+      {
+        "path": "AGENTS.md",
+        "bytes": 8386,
+        "sha256": "3fe7ec026c125608c5ac03875da92ece520331c7a2b0f5a7e97c387054df8f1a",
+        "reading_method": "Complete current narrative personally read, or full AGENTS Git delta against personally read prior bytes; own canonical design is an exact already-read alias."
+      },
+      {
+        "path": "docs/NATURAL_SENSORY_HANDOFF.md",
+        "bytes": 8572,
+        "sha256": "77576d0bfb66b51c03ea65e7800f399e3be1997e1b59c0b1b3a6db0413c3aac3",
+        "reading_method": "Complete current narrative personally read, or full AGENTS Git delta against personally read prior bytes; own canonical design is an exact already-read alias."
+      },
+      {
+        "path": "docs/PROJECT_DIRECTION.md",
+        "bytes": 8110,
+        "sha256": "86c9c2fbddeea89e74a74ec0a509ee1dbc2a6e9d27ff2af9428e71374d7e453c",
+        "reading_method": "Complete current narrative personally read, or full AGENTS Git delta against personally read prior bytes; own canonical design is an exact already-read alias."
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-da-no-finite-source-protocol-dopamine-sources-2026-09-13.md",
+        "bytes": 8442,
+        "sha256": "510658ac87bb3eece60a2cf8065be1062998bb7966127d7eb1a64351975f7212",
+        "reading_method": "Complete current narrative personally read, or full AGENTS Git delta against personally read prior bytes; own canonical design is an exact already-read alias."
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-da-no-protocol-independent-design-delivered-arrivals-2026-09-13.md",
+        "bytes": 13290,
+        "sha256": "3dbb5550cd825e4109fb6bf01eb15b50cf2fbd0d563ac7e59d1b5c0c913580de",
+        "reading_method": "Complete current narrative personally read, or full AGENTS Git delta against personally read prior bytes; own canonical design is an exact already-read alias."
+      }
+    ],
+    "unread_paths": [],
+    "inventory_sha256": "04ccc46ef79c09da5a4b34da1322b732d8b0ebeb238c96dbbe27d1dd09db4f7a"
+  },
+  "direction_change": "Concurrent canonical AGENTS/PROJECT_DIRECTION/NATURAL_SENSORY_HANDOFF now prioritize the natural sensory assay. Complete this already-running bounded source-result review and preserve it; do not queue another molecular transfer.",
+  "remaining": "Actual saved-result inspection is a separate receipt. No code changes or reruns follow this freeze."
+}

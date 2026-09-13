@@ -1,0 +1,1108 @@
+{
+  "agent": "delivered_arrivals",
+  "consumed_files": {
+    "docs/evidence/reward-mechanism-repair-2026-09-12/aso-da-no-component-contract-2026-09-13.md": {
+      "bytes": 4535,
+      "sha256": "96116a7d1192634c89868192b17197dbfb92766a5ab1e45a8ad085d739f65a9a"
+    },
+    "docs/evidence/reward-mechanism-repair-2026-09-12/aso-da-no-finite-source-protocol-dopamine-sources-2026-09-13.md": {
+      "bytes": 8442,
+      "sha256": "510658ac87bb3eece60a2cf8065be1062998bb7966127d7eb1a64351975f7212"
+    },
+    "docs/evidence/reward-mechanism-repair-2026-09-12/aso-da-no-protocol-independent-design-delivered-arrivals-2026-09-13.md": {
+      "bytes": 13290,
+      "sha256": "3dbb5550cd825e4109fb6bf01eb15b50cf2fbd0d563ac7e59d1b5c0c913580de"
+    },
+    "docs/evidence/reward-mechanism-repair-2026-09-12/aso-figure7-axis-audit-delivered-arrivals-2026-09-13.json": {
+      "bytes": 8034,
+      "sha256": "99779202daf7ddb9daca2ec6dd913af957499ef9ee65b700415b7003b636003b"
+    },
+    "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-plan-2026-09-13.json": {
+      "bytes": 8254,
+      "sha256": "55f9ad550052125e2715003eb44d90f509fa55014144b872ca48812ba60d67a4"
+    },
+    "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-primary-2026-09-13/article-api.json": {
+      "bytes": 293591,
+      "sha256": "c2a504225b6b78feade1ad08f4da1beacc89fbde0406783038de5347da7ef521"
+    },
+    "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-primary-2026-09-13/elife-49257-figures-v3.pdf": {
+      "bytes": 5693198,
+      "sha256": "19fdc72e1175362926b56f2dad0f86d72b3c6036bbf1a876c6ee6fbc3008f5e4"
+    },
+    "docs/evidence/reward-mechanism-repair-2026-09-12/aso_da_no.py": {
+      "bytes": 6257,
+      "sha256": "d43351281854ff2700c10b573a8c22a725f9fee226d083c6363e6436e1285111"
+    },
+    "docs/evidence/reward-mechanism-repair-2026-09-12/aso_da_no_reference.py": {
+      "bytes": 4050,
+      "sha256": "9b162ab64f14ace56d10bbbb123219c7683a62c932e89996ca6e1018989d56d4"
+    },
+    "docs/evidence/reward-mechanism-repair-2026-09-12/audit_aso_source_protocol.py": {
+      "bytes": 20747,
+      "sha256": "c8787bc4d51ced636296bf1f7033b53075692c52cfb547dc57e0679415da14fa"
+    },
+    "docs/evidence/reward-mechanism-repair-2026-09-12/intracellular-primary-2026-09-13/PMC6948953.xml": {
+      "bytes": 362167,
+      "sha256": "7d99cb88bbfa1af65c13b82d4d5f4d2c06b212fda1f01f73d15b41db0551049a"
+    },
+    "docs/evidence/reward-mechanism-repair-2026-09-12/intracellular-primary-2026-09-13/PMC7581427.xml": {
+      "bytes": 8118,
+      "sha256": "95e5319db520c3eade785941412a461ac3f684e9e5dc03e700e3120a2fa994e4"
+    },
+    "docs/evidence/reward-mechanism-repair-2026-09-12/run_aso_source_protocol.py": {
+      "bytes": 16464,
+      "sha256": "da4389770e475089668568a0a51707b70e8f5f5cc600924cb25d94bfa7ef3fb2"
+    },
+    "docs/evidence/reward-mechanism-repair-2026-09-12/test_audit_aso_source_protocol.py": {
+      "bytes": 16707,
+      "sha256": "9023e31087b1d9dd9d2181207e1a789f0b5133c77b41c79eefb0def28712e3d2"
+    },
+    "docs/evidence/reward-mechanism-repair-2026-09-12/test_run_aso_source_protocol.py": {
+      "bytes": 12265,
+      "sha256": "b5846aed80116d94e039426f22051d7a44594dda466340441ddcadabb8a8077b"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-da-no-component-contract-2026-09-13.md": {
+      "bytes": 4535,
+      "sha256": "96116a7d1192634c89868192b17197dbfb92766a5ab1e45a8ad085d739f65a9a"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-da-no-finite-source-protocol-dopamine-sources-2026-09-13.md": {
+      "bytes": 8442,
+      "sha256": "510658ac87bb3eece60a2cf8065be1062998bb7966127d7eb1a64351975f7212"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-da-no-protocol-independent-design-delivered-arrivals-2026-09-13.md": {
+      "bytes": 13290,
+      "sha256": "3dbb5550cd825e4109fb6bf01eb15b50cf2fbd0d563ac7e59d1b5c0c913580de"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-figure7-axis-audit-delivered-arrivals-2026-09-13.json": {
+      "bytes": 8034,
+      "sha256": "99779202daf7ddb9daca2ec6dd913af957499ef9ee65b700415b7003b636003b"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-audit/audit.json": {
+      "bytes": 51889,
+      "sha256": "2927c8c556843d9b5ef46fcbb9569bb7011393aa6121af097ed0e62e71125569"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_00.npz": {
+      "bytes": 1754,
+      "sha256": "414397b541a85947e293dd424d635dbd65a6628c3165903f89191a8dc9bf8fa3"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_01.npz": {
+      "bytes": 1754,
+      "sha256": "414397b541a85947e293dd424d635dbd65a6628c3165903f89191a8dc9bf8fa3"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_02.npz": {
+      "bytes": 1754,
+      "sha256": "414397b541a85947e293dd424d635dbd65a6628c3165903f89191a8dc9bf8fa3"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_03.npz": {
+      "bytes": 1754,
+      "sha256": "414397b541a85947e293dd424d635dbd65a6628c3165903f89191a8dc9bf8fa3"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_04.npz": {
+      "bytes": 1985,
+      "sha256": "112b89f59260c85b71534c763684f237969115ce6c21b874a6bdacc18f194a25"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_05.npz": {
+      "bytes": 1905,
+      "sha256": "72640c47e8594e5f6dd7e80957e058b7f17364f8ef10fc11cc420d7e5498441e"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_06.npz": {
+      "bytes": 1933,
+      "sha256": "74240a8d568fdfd636cc838c70ec89d5ba02f261caa44b6d1dfa6587f5073ba2"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_07.npz": {
+      "bytes": 1782,
+      "sha256": "2e897370aaf648a9b567733d105aa22369ac8147547a7b58a6fb84d52e940c3e"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_08.npz": {
+      "bytes": 1985,
+      "sha256": "6ef8cee9197b928e0055d3073bc16335c6befe307dc2f4c1a107e5d5c5e7bccd"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_09.npz": {
+      "bytes": 1907,
+      "sha256": "361a3c376e36ac783bb8a716cc294bdc4ce29ce4e7143a16324d1bb9fc8a57f7"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_10.npz": {
+      "bytes": 1935,
+      "sha256": "df17de3f96b0bd7ef0459478cd5001c9f9128e2526d12ec0b5f928f38f62bba4"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_11.npz": {
+      "bytes": 1781,
+      "sha256": "18257ee3006b41201d7517f0354cbef2357e4c1050c53472302cd67c17c414fc"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_12.npz": {
+      "bytes": 2275,
+      "sha256": "e9815a49ae3595dc9a2676362a10457335de3db1443a8b574bc3c0f074fe5164"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_13.npz": {
+      "bytes": 2100,
+      "sha256": "04b82b985bcce2b7e5991015e84a7ddbdea6c35b72f0f6bb592db7ef8cc81760"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_14.npz": {
+      "bytes": 2139,
+      "sha256": "9f7ec79af90522d5a195c4cd1e3738bfb7e6bf616871e1575888a7ab86f2097d"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_15.npz": {
+      "bytes": 1821,
+      "sha256": "da8f09cab65887e9e20201044aad181787efcf905981403c1bcb15fca1d8872d"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_16.npz": {
+      "bytes": 3621,
+      "sha256": "0631343703938beb8c0a387fa539bb2b35704c47817fe54e81183fce5f8e9fa1"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_17.npz": {
+      "bytes": 2975,
+      "sha256": "b49d3285baffb390fd6a03f353fc53cf05738e6205c3a182ca090aec98bcce12"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_18.npz": {
+      "bytes": 3138,
+      "sha256": "950d122ae3ef6090f9954daf665c032479d3aa9c848eedabf50cc89f378d9397"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_19.npz": {
+      "bytes": 1934,
+      "sha256": "dc38ae08bf5b4dd34422c8c641e98219f898363a062b583fbdeb1ffd880453b7"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_20.npz": {
+      "bytes": 2823,
+      "sha256": "3271d2302c6c42ad3868939786684d20fc9cdc7161cb5d4cc3489d4f16a25214"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_21.npz": {
+      "bytes": 2373,
+      "sha256": "b04205a5dd1870660d222359ef2f5b899975e3907a7d5269c50a4c1a502e3fca"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_22.npz": {
+      "bytes": 2621,
+      "sha256": "962e326a8de78b04db10467615e21ca9b0e22a36ab668cb388013ef025d1f7e0"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_23.npz": {
+      "bytes": 1931,
+      "sha256": "1f817e34e2b114bcf7570aa8d06fbf02f7e6ad57ea6adae565f28097afc60769"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_24.npz": {
+      "bytes": 2845,
+      "sha256": "74d75ca10df55b77786b6d27eacc37f50978fc032dbd5cefed19b478abb5b8bb"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_25.npz": {
+      "bytes": 2506,
+      "sha256": "796a2d379059f5c1e82901a23e2ad2b199a5ca8174cc85d518cd6fef557c386b"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_26.npz": {
+      "bytes": 2539,
+      "sha256": "7bc8327c97b85264c0dda036f7bf57f245fec894fd833b3f6f21d84e4b50bdf9"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_27.npz": {
+      "bytes": 1904,
+      "sha256": "5cecdf01c95fa2dada082d542e8e42646feb7f12ba6f58177017aa28050064e7"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-independent.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-independent.stdout.txt": {
+      "bytes": 97,
+      "sha256": "3750fa3f41f445254baf858144dba61ae0ed5115eba440183fa6e717ff254354"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-parent.json": {
+      "bytes": 5857,
+      "sha256": "bda4d0bc91182bce01158beb30165d34eea4b0774b1e5431f48c7aeffb23090f"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-producer.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-producer.stdout.txt": {
+      "bytes": 67,
+      "sha256": "f9280893dc59e39feb75f06b2b9a2d11ea3d9f5c7933aba5da4f65c0c6a0568f"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/00_fig6_naive_both.npz": {
+      "bytes": 1754,
+      "sha256": "414397b541a85947e293dd424d635dbd65a6628c3165903f89191a8dc9bf8fa3"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/01_fig6_naive_da_only.npz": {
+      "bytes": 1754,
+      "sha256": "414397b541a85947e293dd424d635dbd65a6628c3165903f89191a8dc9bf8fa3"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/02_fig6_naive_no_only.npz": {
+      "bytes": 1754,
+      "sha256": "414397b541a85947e293dd424d635dbd65a6628c3165903f89191a8dc9bf8fa3"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/03_fig6_naive_neither.npz": {
+      "bytes": 1754,
+      "sha256": "414397b541a85947e293dd424d635dbd65a6628c3165903f89191a8dc9bf8fa3"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/04_fig6_1x10s_both.npz": {
+      "bytes": 1985,
+      "sha256": "f7f85e305f4fd254f88dfd22b485ecbd1f1c703abb096ebf908bcb6331c24db9"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/05_fig6_1x10s_da_only.npz": {
+      "bytes": 1905,
+      "sha256": "bd5f782103371fea0c2a70e7b1d5cd42f7a698ca250d6ec851e2da5fdcfe88cb"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/06_fig6_1x10s_no_only.npz": {
+      "bytes": 1933,
+      "sha256": "8d84f8f3cf034e5350f8d349128824938ce73d5b8dad490cf617865cb88cf470"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/07_fig6_1x10s_neither.npz": {
+      "bytes": 1782,
+      "sha256": "2e897370aaf648a9b567733d105aa22369ac8147547a7b58a6fb84d52e940c3e"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/08_fig6_1x60s_both.npz": {
+      "bytes": 1985,
+      "sha256": "6ef8cee9197b928e0055d3073bc16335c6befe307dc2f4c1a107e5d5c5e7bccd"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/09_fig6_1x60s_da_only.npz": {
+      "bytes": 1907,
+      "sha256": "361a3c376e36ac783bb8a716cc294bdc4ce29ce4e7143a16324d1bb9fc8a57f7"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/10_fig6_1x60s_no_only.npz": {
+      "bytes": 1935,
+      "sha256": "df17de3f96b0bd7ef0459478cd5001c9f9128e2526d12ec0b5f928f38f62bba4"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/11_fig6_1x60s_neither.npz": {
+      "bytes": 1781,
+      "sha256": "18257ee3006b41201d7517f0354cbef2357e4c1050c53472302cd67c17c414fc"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/12_fig6_3x60s_both.npz": {
+      "bytes": 2275,
+      "sha256": "ef5be1762948cea723dc36759a0c6d84dbd7d2fd91162401c7f2dce2846b09f1"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/13_fig6_3x60s_da_only.npz": {
+      "bytes": 2101,
+      "sha256": "8f047d68ef0b5f5203a790680c67fdf10aa1206cfdd0af337ff5cac5383e5d54"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/14_fig6_3x60s_no_only.npz": {
+      "bytes": 2139,
+      "sha256": "21ae9c1b92136d80d9726f5f3858e07031a2a5af2fad13c223190058e45eeb7a"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/15_fig6_3x60s_neither.npz": {
+      "bytes": 1821,
+      "sha256": "da8f09cab65887e9e20201044aad181787efcf905981403c1bcb15fca1d8872d"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/16_fig7_reversal_both.npz": {
+      "bytes": 3620,
+      "sha256": "c5572379f2d49d422f1d4b1d032f6091923c7d25b38b48a49690811e92289508"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/17_fig7_reversal_da_only.npz": {
+      "bytes": 2975,
+      "sha256": "85035b2f1b953ec468209b587bf45ca282f15186c123537f9d1107f2a2473e44"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/18_fig7_reversal_no_only.npz": {
+      "bytes": 3138,
+      "sha256": "ab9beb482574523963485ebba0684f7be427b4df1de76628d081262c61a8775c"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/19_fig7_reversal_neither.npz": {
+      "bytes": 1934,
+      "sha256": "dc38ae08bf5b4dd34422c8c641e98219f898363a062b583fbdeb1ffd880453b7"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/20_fig7_odor_only_both.npz": {
+      "bytes": 2823,
+      "sha256": "8a3497f0858b6aa1acb429313b4a9f46acddd9c23714f8886eadfdccc0a74ab6"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/21_fig7_odor_only_da_only.npz": {
+      "bytes": 2373,
+      "sha256": "d7cc8af54e1a117527e98c712314213366cbc0c3fc6afa147d43b28d0e3a386e"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/22_fig7_odor_only_no_only.npz": {
+      "bytes": 2621,
+      "sha256": "c0d782f093cd9ba77bd48ad5d6ff7a0b8c17feb22be5140cb852e4ba641c064a"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/23_fig7_odor_only_neither.npz": {
+      "bytes": 1931,
+      "sha256": "1f817e34e2b114bcf7570aa8d06fbf02f7e6ad57ea6adae565f28097afc60769"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/24_fig7_dan_only_both.npz": {
+      "bytes": 2845,
+      "sha256": "761761a42631912833dab4a2dd6e9a51ec8774e3d547e0ed5f4c9e4e6aecbb0f"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/25_fig7_dan_only_da_only.npz": {
+      "bytes": 2506,
+      "sha256": "8939ff3086362b4e8798b0757d12d34781b681507cf79fb69721e6acbd07fbac"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/26_fig7_dan_only_no_only.npz": {
+      "bytes": 2539,
+      "sha256": "f2aafe0f7ac8bfed0eafb8ef7d249c0fc6e67612fcfb979cf192d1d7c6983fe4"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/27_fig7_dan_only_neither.npz": {
+      "bytes": 1904,
+      "sha256": "5cecdf01c95fa2dada082d542e8e42646feb7f12ba6f58177017aa28050064e7"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/plan.json": {
+      "bytes": 8254,
+      "sha256": "55f9ad550052125e2715003eb44d90f509fa55014144b872ca48812ba60d67a4"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/status.json": {
+      "bytes": 6498,
+      "sha256": "f4d4be977709607f80ebb28e35ada014d41bb29c3a126550d932943c1075b314"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-source-protocol-plan-2026-09-13.json": {
+      "bytes": 8254,
+      "sha256": "55f9ad550052125e2715003eb44d90f509fa55014144b872ca48812ba60d67a4"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-source-protocol-primary-2026-09-13/article-api.json": {
+      "bytes": 293591,
+      "sha256": "c2a504225b6b78feade1ad08f4da1beacc89fbde0406783038de5347da7ef521"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-source-protocol-primary-2026-09-13/elife-49257-figures-v3.pdf": {
+      "bytes": 5693198,
+      "sha256": "19fdc72e1175362926b56f2dad0f86d72b3c6036bbf1a876c6ee6fbc3008f5e4"
+    },
+    "output/collaboration/reward-mechanism-repair/aso_da_no.py": {
+      "bytes": 6257,
+      "sha256": "d43351281854ff2700c10b573a8c22a725f9fee226d083c6363e6436e1285111"
+    },
+    "output/collaboration/reward-mechanism-repair/aso_da_no_reference.py": {
+      "bytes": 4050,
+      "sha256": "9b162ab64f14ace56d10bbbb123219c7683a62c932e89996ca6e1018989d56d4"
+    },
+    "output/collaboration/reward-mechanism-repair/audit_aso_source_protocol.py": {
+      "bytes": 20747,
+      "sha256": "c8787bc4d51ced636296bf1f7033b53075692c52cfb547dc57e0679415da14fa"
+    },
+    "output/collaboration/reward-mechanism-repair/intracellular-primary-2026-09-13/PMC6948953.xml": {
+      "bytes": 362167,
+      "sha256": "7d99cb88bbfa1af65c13b82d4d5f4d2c06b212fda1f01f73d15b41db0551049a"
+    },
+    "output/collaboration/reward-mechanism-repair/intracellular-primary-2026-09-13/PMC7581427.xml": {
+      "bytes": 8118,
+      "sha256": "95e5319db520c3eade785941412a461ac3f684e9e5dc03e700e3120a2fa994e4"
+    },
+    "output/collaboration/reward-mechanism-repair/run_aso_source_protocol.py": {
+      "bytes": 16464,
+      "sha256": "da4389770e475089668568a0a51707b70e8f5f5cc600924cb25d94bfa7ef3fb2"
+    },
+    "output/collaboration/reward-mechanism-repair/test_audit_aso_source_protocol.py": {
+      "bytes": 16707,
+      "sha256": "9023e31087b1d9dd9d2181207e1a789f0b5133c77b41c79eefb0def28712e3d2"
+    },
+    "output/collaboration/reward-mechanism-repair/test_run_aso_source_protocol.py": {
+      "bytes": 12265,
+      "sha256": "b5846aed80116d94e039426f22051d7a44594dda466340441ddcadabb8a8077b"
+    }
+  },
+  "coverage": {
+    "cases": 28,
+    "compared_values_per_side": 15600,
+    "domain_ranges": {
+      "states": [
+        0.0,
+        0.9999999999937598
+      ],
+      "weights": [
+        6.2762017805084724e-12,
+        1.9191367294666712
+      ]
+    },
+    "invariant_counts": {
+      "coactive_latent_cell_transitions": 272,
+      "dan_only_latent_cell_transitions": 368,
+      "factorization_values": 592,
+      "no_dan_latent_cell_transitions": 2336
+    },
+    "max_abs_error": 6.661338147750939e-16,
+    "max_abs_error_by_field": {
+      "observation_states": 3.3306690738754696e-16,
+      "observation_weights": 4.440892098500626e-16,
+      "segment_states": 3.3306690738754696e-16,
+      "segment_weights": 6.661338147750939e-16
+    },
+    "reference_arrays": 224,
+    "schedule_reconstruction": "Independently reconstructed only stimulus boundaries, four class Boolean inputs, right-side observation indices and instantaneous test timestamps from frozen plan; no state evolution recomputed.",
+    "source_arrays": 224,
+    "tolerance": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    },
+    "value_counts_by_field": {
+      "observation_segment_indices": 192,
+      "observation_states": 3072,
+      "observation_times_s": 192,
+      "observation_weights": 768,
+      "segment_inputs": 2976,
+      "segment_states": 6400,
+      "segment_times_s": 400,
+      "segment_weights": 1600
+    }
+  },
+  "created_at_utc": "2026-09-13T15:01:27.013087+00:00",
+  "findings": [],
+  "identity": "aso-source-protocol-e54b736d2730d5bc67a5",
+  "interpretation_limits": [
+    "Numerical pass verifies the declared source-equation protocol, continuous Boolean activity envelopes and explicitly corrected Figure7 clock. It is not an author-code or behavioral PI reproduction.",
+    "These are four analytical KC classes, not MaleCNS body histories; no neuronal learning, conditioning, natural sensory response, fit or dopamine-to-spike calibration is established.",
+    "The current natural sensory/food-choice direction supersedes further molecular-transfer work. This review closes an already completed bounded legacy calculation only."
+  ],
+  "invariants_checked": [
+    "Exact initial zero states and zero disabled pathways throughout.",
+    "Rested neither-KC class stays zero; no-pathway weights stay exactly one.",
+    "All saved states remain in [0,1], weights in [0,2], and every saved weight equals (1-D)*(1+N) exactly.",
+    "No-DAN segments hold latent states exactly; coactive latent states never fall and DAN-only latent states never rise. Expressed-state or combined-weight monotonicity was not imposed.",
+    "The both-pathway states factor into separate DA-only and NO-only states and the weights factor exactly for all saved segment and observation endpoints."
+  ],
+  "parent_binding": {
+    "bytes": 5857,
+    "sha256": "bda4d0bc91182bce01158beb30165d34eea4b0774b1e5431f48c7aeffb23090f"
+  },
+  "reading_status": "The earlier preparation receipt honestly records its post-execution timestamp. Final narrative reconciliation follows root closing changes; no unread text is represented as read here.",
+  "rows": [
+    {
+      "checked_values": 116,
+      "index": 0,
+      "max_abs_errors": {
+        "observation_states": 0.0,
+        "observation_weights": 0.0,
+        "segment_states": 0.0,
+        "segment_weights": 0.0
+      },
+      "passed": true,
+      "pathway_id": "both",
+      "protocol_id": "fig6_naive",
+      "reference_binding": {
+        "bytes": 1754,
+        "sha256": "414397b541a85947e293dd424d635dbd65a6628c3165903f89191a8dc9bf8fa3"
+      },
+      "reference_file": "reference_00.npz",
+      "source_binding": {
+        "bytes": 1754,
+        "sha256": "414397b541a85947e293dd424d635dbd65a6628c3165903f89191a8dc9bf8fa3"
+      },
+      "source_file": "00_fig6_naive_both.npz"
+    },
+    {
+      "checked_values": 116,
+      "index": 1,
+      "max_abs_errors": {
+        "observation_states": 0.0,
+        "observation_weights": 0.0,
+        "segment_states": 0.0,
+        "segment_weights": 0.0
+      },
+      "passed": true,
+      "pathway_id": "da_only",
+      "protocol_id": "fig6_naive",
+      "reference_binding": {
+        "bytes": 1754,
+        "sha256": "414397b541a85947e293dd424d635dbd65a6628c3165903f89191a8dc9bf8fa3"
+      },
+      "reference_file": "reference_01.npz",
+      "source_binding": {
+        "bytes": 1754,
+        "sha256": "414397b541a85947e293dd424d635dbd65a6628c3165903f89191a8dc9bf8fa3"
+      },
+      "source_file": "01_fig6_naive_da_only.npz"
+    },
+    {
+      "checked_values": 116,
+      "index": 2,
+      "max_abs_errors": {
+        "observation_states": 0.0,
+        "observation_weights": 0.0,
+        "segment_states": 0.0,
+        "segment_weights": 0.0
+      },
+      "passed": true,
+      "pathway_id": "no_only",
+      "protocol_id": "fig6_naive",
+      "reference_binding": {
+        "bytes": 1754,
+        "sha256": "414397b541a85947e293dd424d635dbd65a6628c3165903f89191a8dc9bf8fa3"
+      },
+      "reference_file": "reference_02.npz",
+      "source_binding": {
+        "bytes": 1754,
+        "sha256": "414397b541a85947e293dd424d635dbd65a6628c3165903f89191a8dc9bf8fa3"
+      },
+      "source_file": "02_fig6_naive_no_only.npz"
+    },
+    {
+      "checked_values": 116,
+      "index": 3,
+      "max_abs_errors": {
+        "observation_states": 0.0,
+        "observation_weights": 0.0,
+        "segment_states": 0.0,
+        "segment_weights": 0.0
+      },
+      "passed": true,
+      "pathway_id": "neither",
+      "protocol_id": "fig6_naive",
+      "reference_binding": {
+        "bytes": 1754,
+        "sha256": "414397b541a85947e293dd424d635dbd65a6628c3165903f89191a8dc9bf8fa3"
+      },
+      "reference_file": "reference_03.npz",
+      "source_binding": {
+        "bytes": 1754,
+        "sha256": "414397b541a85947e293dd424d635dbd65a6628c3165903f89191a8dc9bf8fa3"
+      },
+      "source_file": "03_fig6_naive_neither.npz"
+    },
+    {
+      "checked_values": 232,
+      "index": 4,
+      "max_abs_errors": {
+        "observation_states": 1.1102230246251565e-16,
+        "observation_weights": 1.1102230246251565e-16,
+        "segment_states": 1.1102230246251565e-16,
+        "segment_weights": 1.1102230246251565e-16
+      },
+      "passed": true,
+      "pathway_id": "both",
+      "protocol_id": "fig6_1x10s",
+      "reference_binding": {
+        "bytes": 1985,
+        "sha256": "112b89f59260c85b71534c763684f237969115ce6c21b874a6bdacc18f194a25"
+      },
+      "reference_file": "reference_04.npz",
+      "source_binding": {
+        "bytes": 1985,
+        "sha256": "f7f85e305f4fd254f88dfd22b485ecbd1f1c703abb096ebf908bcb6331c24db9"
+      },
+      "source_file": "04_fig6_1x10s_both.npz"
+    },
+    {
+      "checked_values": 232,
+      "index": 5,
+      "max_abs_errors": {
+        "observation_states": 1.1102230246251565e-16,
+        "observation_weights": 1.1102230246251565e-16,
+        "segment_states": 1.1102230246251565e-16,
+        "segment_weights": 1.1102230246251565e-16
+      },
+      "passed": true,
+      "pathway_id": "da_only",
+      "protocol_id": "fig6_1x10s",
+      "reference_binding": {
+        "bytes": 1905,
+        "sha256": "72640c47e8594e5f6dd7e80957e058b7f17364f8ef10fc11cc420d7e5498441e"
+      },
+      "reference_file": "reference_05.npz",
+      "source_binding": {
+        "bytes": 1905,
+        "sha256": "bd5f782103371fea0c2a70e7b1d5cd42f7a698ca250d6ec851e2da5fdcfe88cb"
+      },
+      "source_file": "05_fig6_1x10s_da_only.npz"
+    },
+    {
+      "checked_values": 232,
+      "index": 6,
+      "max_abs_errors": {
+        "observation_states": 1.3877787807814457e-17,
+        "observation_weights": 0.0,
+        "segment_states": 3.469446951953614e-18,
+        "segment_weights": 0.0
+      },
+      "passed": true,
+      "pathway_id": "no_only",
+      "protocol_id": "fig6_1x10s",
+      "reference_binding": {
+        "bytes": 1933,
+        "sha256": "74240a8d568fdfd636cc838c70ec89d5ba02f261caa44b6d1dfa6587f5073ba2"
+      },
+      "reference_file": "reference_06.npz",
+      "source_binding": {
+        "bytes": 1933,
+        "sha256": "8d84f8f3cf034e5350f8d349128824938ce73d5b8dad490cf617865cb88cf470"
+      },
+      "source_file": "06_fig6_1x10s_no_only.npz"
+    },
+    {
+      "checked_values": 232,
+      "index": 7,
+      "max_abs_errors": {
+        "observation_states": 0.0,
+        "observation_weights": 0.0,
+        "segment_states": 0.0,
+        "segment_weights": 0.0
+      },
+      "passed": true,
+      "pathway_id": "neither",
+      "protocol_id": "fig6_1x10s",
+      "reference_binding": {
+        "bytes": 1782,
+        "sha256": "2e897370aaf648a9b567733d105aa22369ac8147547a7b58a6fb84d52e940c3e"
+      },
+      "reference_file": "reference_07.npz",
+      "source_binding": {
+        "bytes": 1782,
+        "sha256": "2e897370aaf648a9b567733d105aa22369ac8147547a7b58a6fb84d52e940c3e"
+      },
+      "source_file": "07_fig6_1x10s_neither.npz"
+    },
+    {
+      "checked_values": 232,
+      "index": 8,
+      "max_abs_errors": {
+        "observation_states": 0.0,
+        "observation_weights": 0.0,
+        "segment_states": 0.0,
+        "segment_weights": 0.0
+      },
+      "passed": true,
+      "pathway_id": "both",
+      "protocol_id": "fig6_1x60s",
+      "reference_binding": {
+        "bytes": 1985,
+        "sha256": "6ef8cee9197b928e0055d3073bc16335c6befe307dc2f4c1a107e5d5c5e7bccd"
+      },
+      "reference_file": "reference_08.npz",
+      "source_binding": {
+        "bytes": 1985,
+        "sha256": "6ef8cee9197b928e0055d3073bc16335c6befe307dc2f4c1a107e5d5c5e7bccd"
+      },
+      "source_file": "08_fig6_1x60s_both.npz"
+    },
+    {
+      "checked_values": 232,
+      "index": 9,
+      "max_abs_errors": {
+        "observation_states": 0.0,
+        "observation_weights": 0.0,
+        "segment_states": 0.0,
+        "segment_weights": 0.0
+      },
+      "passed": true,
+      "pathway_id": "da_only",
+      "protocol_id": "fig6_1x60s",
+      "reference_binding": {
+        "bytes": 1907,
+        "sha256": "361a3c376e36ac783bb8a716cc294bdc4ce29ce4e7143a16324d1bb9fc8a57f7"
+      },
+      "reference_file": "reference_09.npz",
+      "source_binding": {
+        "bytes": 1907,
+        "sha256": "361a3c376e36ac783bb8a716cc294bdc4ce29ce4e7143a16324d1bb9fc8a57f7"
+      },
+      "source_file": "09_fig6_1x60s_da_only.npz"
+    },
+    {
+      "checked_values": 232,
+      "index": 10,
+      "max_abs_errors": {
+        "observation_states": 0.0,
+        "observation_weights": 0.0,
+        "segment_states": 0.0,
+        "segment_weights": 0.0
+      },
+      "passed": true,
+      "pathway_id": "no_only",
+      "protocol_id": "fig6_1x60s",
+      "reference_binding": {
+        "bytes": 1935,
+        "sha256": "df17de3f96b0bd7ef0459478cd5001c9f9128e2526d12ec0b5f928f38f62bba4"
+      },
+      "reference_file": "reference_10.npz",
+      "source_binding": {
+        "bytes": 1935,
+        "sha256": "df17de3f96b0bd7ef0459478cd5001c9f9128e2526d12ec0b5f928f38f62bba4"
+      },
+      "source_file": "10_fig6_1x60s_no_only.npz"
+    },
+    {
+      "checked_values": 232,
+      "index": 11,
+      "max_abs_errors": {
+        "observation_states": 0.0,
+        "observation_weights": 0.0,
+        "segment_states": 0.0,
+        "segment_weights": 0.0
+      },
+      "passed": true,
+      "pathway_id": "neither",
+      "protocol_id": "fig6_1x60s",
+      "reference_binding": {
+        "bytes": 1781,
+        "sha256": "18257ee3006b41201d7517f0354cbef2357e4c1050c53472302cd67c17c414fc"
+      },
+      "reference_file": "reference_11.npz",
+      "source_binding": {
+        "bytes": 1781,
+        "sha256": "18257ee3006b41201d7517f0354cbef2357e4c1050c53472302cd67c17c414fc"
+      },
+      "source_file": "11_fig6_1x60s_neither.npz"
+    },
+    {
+      "checked_values": 464,
+      "index": 12,
+      "max_abs_errors": {
+        "observation_states": 0.0,
+        "observation_weights": 0.0,
+        "segment_states": 1.1102230246251565e-16,
+        "segment_weights": 1.4409046872332354e-16
+      },
+      "passed": true,
+      "pathway_id": "both",
+      "protocol_id": "fig6_3x60s",
+      "reference_binding": {
+        "bytes": 2275,
+        "sha256": "e9815a49ae3595dc9a2676362a10457335de3db1443a8b574bc3c0f074fe5164"
+      },
+      "reference_file": "reference_12.npz",
+      "source_binding": {
+        "bytes": 2275,
+        "sha256": "ef5be1762948cea723dc36759a0c6d84dbd7d2fd91162401c7f2dce2846b09f1"
+      },
+      "source_file": "12_fig6_3x60s_both.npz"
+    },
+    {
+      "checked_values": 464,
+      "index": 13,
+      "max_abs_errors": {
+        "observation_states": 0.0,
+        "observation_weights": 0.0,
+        "segment_states": 1.1102230246251565e-16,
+        "segment_weights": 1.1102230246251565e-16
+      },
+      "passed": true,
+      "pathway_id": "da_only",
+      "protocol_id": "fig6_3x60s",
+      "reference_binding": {
+        "bytes": 2100,
+        "sha256": "04b82b985bcce2b7e5991015e84a7ddbdea6c35b72f0f6bb592db7ef8cc81760"
+      },
+      "reference_file": "reference_13.npz",
+      "source_binding": {
+        "bytes": 2101,
+        "sha256": "8f047d68ef0b5f5203a790680c67fdf10aa1206cfdd0af337ff5cac5383e5d54"
+      },
+      "source_file": "13_fig6_3x60s_da_only.npz"
+    },
+    {
+      "checked_values": 464,
+      "index": 14,
+      "max_abs_errors": {
+        "observation_states": 0.0,
+        "observation_weights": 0.0,
+        "segment_states": 5.551115123125783e-17,
+        "segment_weights": 0.0
+      },
+      "passed": true,
+      "pathway_id": "no_only",
+      "protocol_id": "fig6_3x60s",
+      "reference_binding": {
+        "bytes": 2139,
+        "sha256": "9f7ec79af90522d5a195c4cd1e3738bfb7e6bf616871e1575888a7ab86f2097d"
+      },
+      "reference_file": "reference_14.npz",
+      "source_binding": {
+        "bytes": 2139,
+        "sha256": "21ae9c1b92136d80d9726f5f3858e07031a2a5af2fad13c223190058e45eeb7a"
+      },
+      "source_file": "14_fig6_3x60s_no_only.npz"
+    },
+    {
+      "checked_values": 464,
+      "index": 15,
+      "max_abs_errors": {
+        "observation_states": 0.0,
+        "observation_weights": 0.0,
+        "segment_states": 0.0,
+        "segment_weights": 0.0
+      },
+      "passed": true,
+      "pathway_id": "neither",
+      "protocol_id": "fig6_3x60s",
+      "reference_binding": {
+        "bytes": 1821,
+        "sha256": "da8f09cab65887e9e20201044aad181787efcf905981403c1bcb15fca1d8872d"
+      },
+      "reference_file": "reference_15.npz",
+      "source_binding": {
+        "bytes": 1821,
+        "sha256": "da8f09cab65887e9e20201044aad181787efcf905981403c1bcb15fca1d8872d"
+      },
+      "source_file": "15_fig6_3x60s_neither.npz"
+    },
+    {
+      "checked_values": 1010,
+      "index": 16,
+      "max_abs_errors": {
+        "observation_states": 3.3306690738754696e-16,
+        "observation_weights": 3.3306690738754696e-16,
+        "segment_states": 3.3306690738754696e-16,
+        "segment_weights": 2.220446049250313e-16
+      },
+      "passed": true,
+      "pathway_id": "both",
+      "protocol_id": "fig7_reversal",
+      "reference_binding": {
+        "bytes": 3621,
+        "sha256": "0631343703938beb8c0a387fa539bb2b35704c47817fe54e81183fce5f8e9fa1"
+      },
+      "reference_file": "reference_16.npz",
+      "source_binding": {
+        "bytes": 3620,
+        "sha256": "c5572379f2d49d422f1d4b1d032f6091923c7d25b38b48a49690811e92289508"
+      },
+      "source_file": "16_fig7_reversal_both.npz"
+    },
+    {
+      "checked_values": 1010,
+      "index": 17,
+      "max_abs_errors": {
+        "observation_states": 2.220446049250313e-16,
+        "observation_weights": 2.220446049250313e-16,
+        "segment_states": 2.220446049250313e-16,
+        "segment_weights": 2.220446049250313e-16
+      },
+      "passed": true,
+      "pathway_id": "da_only",
+      "protocol_id": "fig7_reversal",
+      "reference_binding": {
+        "bytes": 2975,
+        "sha256": "b49d3285baffb390fd6a03f353fc53cf05738e6205c3a182ca090aec98bcce12"
+      },
+      "reference_file": "reference_17.npz",
+      "source_binding": {
+        "bytes": 2975,
+        "sha256": "85035b2f1b953ec468209b587bf45ca282f15186c123537f9d1107f2a2473e44"
+      },
+      "source_file": "17_fig7_reversal_da_only.npz"
+    },
+    {
+      "checked_values": 1010,
+      "index": 18,
+      "max_abs_errors": {
+        "observation_states": 3.3306690738754696e-16,
+        "observation_weights": 4.440892098500626e-16,
+        "segment_states": 3.3306690738754696e-16,
+        "segment_weights": 4.440892098500626e-16
+      },
+      "passed": true,
+      "pathway_id": "no_only",
+      "protocol_id": "fig7_reversal",
+      "reference_binding": {
+        "bytes": 3138,
+        "sha256": "950d122ae3ef6090f9954daf665c032479d3aa9c848eedabf50cc89f378d9397"
+      },
+      "reference_file": "reference_18.npz",
+      "source_binding": {
+        "bytes": 3138,
+        "sha256": "ab9beb482574523963485ebba0684f7be427b4df1de76628d081262c61a8775c"
+      },
+      "source_file": "18_fig7_reversal_no_only.npz"
+    },
+    {
+      "checked_values": 1010,
+      "index": 19,
+      "max_abs_errors": {
+        "observation_states": 0.0,
+        "observation_weights": 0.0,
+        "segment_states": 0.0,
+        "segment_weights": 0.0
+      },
+      "passed": true,
+      "pathway_id": "neither",
+      "protocol_id": "fig7_reversal",
+      "reference_binding": {
+        "bytes": 1934,
+        "sha256": "dc38ae08bf5b4dd34422c8c641e98219f898363a062b583fbdeb1ffd880453b7"
+      },
+      "reference_file": "reference_19.npz",
+      "source_binding": {
+        "bytes": 1934,
+        "sha256": "dc38ae08bf5b4dd34422c8c641e98219f898363a062b583fbdeb1ffd880453b7"
+      },
+      "source_file": "19_fig7_reversal_neither.npz"
+    },
+    {
+      "checked_values": 1010,
+      "index": 20,
+      "max_abs_errors": {
+        "observation_states": 1.1102230246251565e-16,
+        "observation_weights": 1.955324736759717e-16,
+        "segment_states": 1.1102230246251565e-16,
+        "segment_weights": 1.9339879768183812e-16
+      },
+      "passed": true,
+      "pathway_id": "both",
+      "protocol_id": "fig7_odor_only",
+      "reference_binding": {
+        "bytes": 2823,
+        "sha256": "3271d2302c6c42ad3868939786684d20fc9cdc7161cb5d4cc3489d4f16a25214"
+      },
+      "reference_file": "reference_20.npz",
+      "source_binding": {
+        "bytes": 2823,
+        "sha256": "8a3497f0858b6aa1acb429313b4a9f46acddd9c23714f8886eadfdccc0a74ab6"
+      },
+      "source_file": "20_fig7_odor_only_both.npz"
+    },
+    {
+      "checked_values": 1010,
+      "index": 21,
+      "max_abs_errors": {
+        "observation_states": 1.1102230246251565e-16,
+        "observation_weights": 1.1102230246251565e-16,
+        "segment_states": 1.1102230246251565e-16,
+        "segment_weights": 1.1102230246251565e-16
+      },
+      "passed": true,
+      "pathway_id": "da_only",
+      "protocol_id": "fig7_odor_only",
+      "reference_binding": {
+        "bytes": 2373,
+        "sha256": "b04205a5dd1870660d222359ef2f5b899975e3907a7d5269c50a4c1a502e3fca"
+      },
+      "reference_file": "reference_21.npz",
+      "source_binding": {
+        "bytes": 2373,
+        "sha256": "d7cc8af54e1a117527e98c712314213366cbc0c3fc6afa147d43b28d0e3a386e"
+      },
+      "source_file": "21_fig7_odor_only_da_only.npz"
+    },
+    {
+      "checked_values": 1010,
+      "index": 22,
+      "max_abs_errors": {
+        "observation_states": 1.1102230246251565e-16,
+        "observation_weights": 2.220446049250313e-16,
+        "segment_states": 1.1102230246251565e-16,
+        "segment_weights": 2.220446049250313e-16
+      },
+      "passed": true,
+      "pathway_id": "no_only",
+      "protocol_id": "fig7_odor_only",
+      "reference_binding": {
+        "bytes": 2621,
+        "sha256": "962e326a8de78b04db10467615e21ca9b0e22a36ab668cb388013ef025d1f7e0"
+      },
+      "reference_file": "reference_22.npz",
+      "source_binding": {
+        "bytes": 2621,
+        "sha256": "c0d782f093cd9ba77bd48ad5d6ff7a0b8c17feb22be5140cb852e4ba641c064a"
+      },
+      "source_file": "22_fig7_odor_only_no_only.npz"
+    },
+    {
+      "checked_values": 1010,
+      "index": 23,
+      "max_abs_errors": {
+        "observation_states": 0.0,
+        "observation_weights": 0.0,
+        "segment_states": 0.0,
+        "segment_weights": 0.0
+      },
+      "passed": true,
+      "pathway_id": "neither",
+      "protocol_id": "fig7_odor_only",
+      "reference_binding": {
+        "bytes": 1931,
+        "sha256": "1f817e34e2b114bcf7570aa8d06fbf02f7e6ad57ea6adae565f28097afc60769"
+      },
+      "reference_file": "reference_23.npz",
+      "source_binding": {
+        "bytes": 1931,
+        "sha256": "1f817e34e2b114bcf7570aa8d06fbf02f7e6ad57ea6adae565f28097afc60769"
+      },
+      "source_file": "23_fig7_odor_only_neither.npz"
+    },
+    {
+      "checked_values": 836,
+      "index": 24,
+      "max_abs_errors": {
+        "observation_states": 2.220446049250313e-16,
+        "observation_weights": 4.440892098500626e-16,
+        "segment_states": 3.3306690738754696e-16,
+        "segment_weights": 6.661338147750939e-16
+      },
+      "passed": true,
+      "pathway_id": "both",
+      "protocol_id": "fig7_dan_only",
+      "reference_binding": {
+        "bytes": 2845,
+        "sha256": "74d75ca10df55b77786b6d27eacc37f50978fc032dbd5cefed19b478abb5b8bb"
+      },
+      "reference_file": "reference_24.npz",
+      "source_binding": {
+        "bytes": 2845,
+        "sha256": "761761a42631912833dab4a2dd6e9a51ec8774e3d547e0ed5f4c9e4e6aecbb0f"
+      },
+      "source_file": "24_fig7_dan_only_both.npz"
+    },
+    {
+      "checked_values": 836,
+      "index": 25,
+      "max_abs_errors": {
+        "observation_states": 2.220446049250313e-16,
+        "observation_weights": 2.220446049250313e-16,
+        "segment_states": 3.3306690738754696e-16,
+        "segment_weights": 3.3306690738754696e-16
+      },
+      "passed": true,
+      "pathway_id": "da_only",
+      "protocol_id": "fig7_dan_only",
+      "reference_binding": {
+        "bytes": 2506,
+        "sha256": "796a2d379059f5c1e82901a23e2ad2b199a5ca8174cc85d518cd6fef557c386b"
+      },
+      "reference_file": "reference_25.npz",
+      "source_binding": {
+        "bytes": 2506,
+        "sha256": "8939ff3086362b4e8798b0757d12d34781b681507cf79fb69721e6acbd07fbac"
+      },
+      "source_file": "25_fig7_dan_only_da_only.npz"
+    },
+    {
+      "checked_values": 836,
+      "index": 26,
+      "max_abs_errors": {
+        "observation_states": 1.1102230246251565e-16,
+        "observation_weights": 2.220446049250313e-16,
+        "segment_states": 1.1102230246251565e-16,
+        "segment_weights": 2.220446049250313e-16
+      },
+      "passed": true,
+      "pathway_id": "no_only",
+      "protocol_id": "fig7_dan_only",
+      "reference_binding": {
+        "bytes": 2539,
+        "sha256": "7bc8327c97b85264c0dda036f7bf57f245fec894fd833b3f6f21d84e4b50bdf9"
+      },
+      "reference_file": "reference_26.npz",
+      "source_binding": {
+        "bytes": 2539,
+        "sha256": "f2aafe0f7ac8bfed0eafb8ef7d249c0fc6e67612fcfb979cf192d1d7c6983fe4"
+      },
+      "source_file": "26_fig7_dan_only_no_only.npz"
+    },
+    {
+      "checked_values": 836,
+      "index": 27,
+      "max_abs_errors": {
+        "observation_states": 0.0,
+        "observation_weights": 0.0,
+        "segment_states": 0.0,
+        "segment_weights": 0.0
+      },
+      "passed": true,
+      "pathway_id": "neither",
+      "protocol_id": "fig7_dan_only",
+      "reference_binding": {
+        "bytes": 1904,
+        "sha256": "5cecdf01c95fa2dada082d542e8e42646feb7f12ba6f58177017aa28050064e7"
+      },
+      "reference_file": "reference_27.npz",
+      "source_binding": {
+        "bytes": 1904,
+        "sha256": "5cecdf01c95fa2dada082d542e8e42646feb7f12ba6f58177017aa28050064e7"
+      },
+      "source_file": "27_fig7_dan_only_neither.npz"
+    }
+  ],
+  "schema": 1,
+  "scope": "Read-only saved-result closeout. No producer, checker, reference dynamics, source solver, native circuit, captured-history or optimization execution occurred in this review.",
+  "status": "passed",
+  "terminal_conjunction": {
+    "all_15_original_and_canonical_bindings_equal": true,
+    "all_28_source_and_reference_hashes_verified": true,
+    "all_consumed_bytes_unchanged_after_review": true,
+    "audit_parent_wall_seconds": 0.3336970000527799,
+    "both_exit_zero_and_reaped": true,
+    "both_stderr_empty": true,
+    "caps_seconds": [
+      30,
+      60
+    ],
+    "parent_and_children_completed": true,
+    "producer_parent_wall_seconds": 0.13743416592478752
+  }
+}

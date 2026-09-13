@@ -52,8 +52,13 @@ follows from reimplementing the equations.
 
 The [completed numerical checkpoint](../../docs/evidence/reward-mechanism-repair-2026-09-12/aso-da-no-component-checkpoint-2026-09-13.md)
 passes independent high-precision comparisons and state-boundary tests.
-It retains the source's rates and expression times. Source-protocol and
-MaleCNS experiments remain separate work.
+It retains the source's rates and expression times. The subsequent
+[finite source protocols](../../docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-result-2026-09-13.md)
+completed 28 cases with independent numerical agreement. NO-only reversal
+remained incomplete at the final sample; odor-only follow-up could still change
+expressed weights. These are source-equation results, not MaleCNS learning.
+The [current natural sensory direction](../../docs/PROJECT_DIRECTION.md)
+takes priority over further molecular transfers.
 
 ## Consequences for this repository
 

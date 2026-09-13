@@ -1,0 +1,149 @@
+{
+  "schema": 1,
+  "agent": "dopamine_sources",
+  "at_utc": "2026-09-13T14:36:54.923489+00:00",
+  "starting_commit": "7698c152825643f6b2dccd30d1903738a30d6c74",
+  "status": "finite_source_protocol_scientific_review_pass",
+  "report": {
+    "path": "output/collaboration/reward-mechanism-repair/aso-da-no-finite-source-protocol-dopamine-sources-2026-09-13.md",
+    "bytes": 8442,
+    "sha256": "510658ac87bb3eece60a2cf8065be1062998bb7966127d7eb1a64351975f7212"
+  },
+  "plan_personally_read_in_full": {
+    "path": "output/collaboration/reward-mechanism-repair/aso-source-protocol-plan-2026-09-13.json",
+    "bytes": 8254,
+    "sha256": "55f9ad550052125e2715003eb44d90f509fa55014144b872ca48812ba60d67a4"
+  },
+  "prior_complete_personal_reading_chain": {
+    "path": "output/collaboration/reward-mechanism-repair/aso-da-no-final-reading-claim-review-dopamine-sources-2026-09-13.json",
+    "bytes": 6509,
+    "sha256": "39bcf0a3b2361103e9f7a6dd08c67881d53623120fbcfbf77e416609945992b1"
+  },
+  "reading": {
+    "prior_narratives": 213,
+    "current_narratives": 215,
+    "unchanged_prior_personally_read": 213,
+    "current_inventory_sha256": "4f9921b4e81bcc22a4b764330d480e4f4c21e135d63f0e38aa5edc6b5546ef71",
+    "new_exact_personally_read_aliases": [
+      {
+        "personally_read_original": {
+          "path": "output/collaboration/reward-mechanism-repair/aso-da-no-finite-source-protocol-dopamine-sources-2026-09-13.md",
+          "bytes": 8442,
+          "sha256": "510658ac87bb3eece60a2cf8065be1062998bb7966127d7eb1a64351975f7212"
+        },
+        "canonical": {
+          "path": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-da-no-finite-source-protocol-dopamine-sources-2026-09-13.md",
+          "bytes": 8442,
+          "sha256": "510658ac87bb3eece60a2cf8065be1062998bb7966127d7eb1a64351975f7212"
+        }
+      },
+      {
+        "personally_read_original": {
+          "path": "output/collaboration/reward-mechanism-repair/aso-da-no-protocol-independent-design-delivered-arrivals-2026-09-13.md",
+          "bytes": 13290,
+          "sha256": "3dbb5550cd825e4109fb6bf01eb15b50cf2fbd0d563ac7e59d1b5c0c913580de"
+        },
+        "canonical": {
+          "path": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-da-no-protocol-independent-design-delivered-arrivals-2026-09-13.md",
+          "bytes": 13290,
+          "sha256": "3dbb5550cd825e4109fb6bf01eb15b50cf2fbd0d563ac7e59d1b5c0c913580de"
+        }
+      }
+    ],
+    "new_output_design_personally_read": {
+      "path": "output/collaboration/reward-mechanism-repair/aso-da-no-protocol-independent-design-delivered-arrivals-2026-09-13.md",
+      "bytes": 13290,
+      "sha256": "3dbb5550cd825e4109fb6bf01eb15b50cf2fbd0d563ac7e59d1b5c0c913580de"
+    },
+    "method": "Reconstructed prior213 inventory and matched own frozen digest, rehashed all current docs/wiki plus AGENTS and root README. All later narrative copies, if present, matched personally read originals. No manifest-only source reading credit.",
+    "unread_deltas": []
+  },
+  "primary_reading": {
+    "source_xml": {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/intracellular-primary-2026-09-13/PMC6948953.xml",
+      "bytes": 362167,
+      "sha256": "7d99cb88bbfa1af65c13b82d4d5f4d2c06b212fda1f01f73d15b41db0551049a"
+    },
+    "correction_xml": {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/intracellular-primary-2026-09-13/PMC7581427.xml",
+      "bytes": 8118,
+      "sha256": "95e5319db520c3eade785941412a461ac3f684e9e5dc03e700e3120a2fa994e4"
+    },
+    "full_text_scope": "Personally read entire copied manuscript human-readable XML: front, Introduction, all eight Results subsections and nested figure/supplement captions, Discussion, complete Methods, back-matter/data availability, all144 bibliographic entries, decision letter and author response; correction read in full. No claim of having obtained separate RNA-seq/reagent supplementary datasets.",
+    "figure_pages_personally_viewed": [
+      {
+        "path": "output/collaboration/reward-mechanism-repair/aso-source-protocol-primary-2026-09-13/page-27.png",
+        "bytes": 291256,
+        "sha256": "18d4963c023fbdc2866bd0650edac6bdbd0a2471ce269db1d6687dc659f151d4"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/aso-source-protocol-primary-2026-09-13/page-29.png",
+        "bytes": 204389,
+        "sha256": "ba21a2b2669dbb88c686fc56a3c5dc4020c19f933e9e1603c42651ce553b4548"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/aso-source-protocol-primary-2026-09-13/page-31.png",
+        "bytes": 275686,
+        "sha256": "ae313cacd787979408ec05a13c3fb19badfb7052c13fb7ac948aa0276048bb37"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/aso-source-protocol-primary-2026-09-13/page-32.png",
+        "bytes": 104832,
+        "sha256": "42f74ac36ff9da33306283f9502e11a0fa80178c2558be26da3ceed5b90e4334"
+      }
+    ],
+    "primary_pinning": [
+      {
+        "path": "output/collaboration/reward-mechanism-repair/aso-source-protocol-primary-2026-09-13/article-api.json",
+        "bytes": 293591,
+        "sha256": "c2a504225b6b78feade1ad08f4da1beacc89fbde0406783038de5347da7ef521"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/aso-source-protocol-primary-2026-09-13/article-api-retrieval.json",
+        "bytes": 304,
+        "sha256": "3ffc50e16f111d98e78889e0f12f2d0eddb535af38394d3320d38b849dc541ce"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/aso-source-protocol-primary-2026-09-13/elife-49257-figures-v3.pdf",
+        "bytes": 5693198,
+        "sha256": "19fdc72e1175362926b56f2dad0f86d72b3c6036bbf1a876c6ee6fbc3008f5e4"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/aso-source-protocol-primary-2026-09-13/figures-pdf-retrieval.json",
+        "bytes": 325,
+        "sha256": "01c5a5e6eb5e28679c6504c4c2cd105cd5a5d3723a97700b17c68954fdefef8b"
+      }
+    ],
+    "version": "Official article API version3; PDF CC-BY4.0. Root performed successful retrieval and rendering; this agent personally inspected four rendered pages and passively extracted Figure7 PDF labels."
+  },
+  "pre_outcome_choices_confirmed": [
+    "Seven protocols times four pathway settings; neither-pathway setting is additional analytical control.",
+    "Exact Figure6 half-open timing and common14\u201315min observation retained.",
+    "Figure7 uses declared uniform16\u201332min continuation correcting duplicated20 label, with three actual bouts per phase and no inter-bout resets.",
+    "Model DAN input is continuous bout envelope; physical thirty1s light pulses do not establish individual neuronal spikes or a calibrated activity duty cycle.",
+    "Four KC exposure classes avoid an invented population seed/overlap or softmax.",
+    "All test samples are instantaneous start,last30s-start,end states and weights, not behavioral averages/PI.",
+    "Published induction/reversal rates and30/600s expression constants unchanged. True quiet distinct from fitted background-DAN decay.",
+    "Excluded10x ambiguous final test and24h background/consolidation regimes; no400ms clock compression or MaleCNS transfer."
+  ],
+  "source_ambiguities_preserved": [
+    "Figure7 lower axis repeats20; uniform clock correction is explicit.",
+    "Figure8 supplement1 firsttwo/secondtwo pairing language conflicts with physical three-bout blocks; four observation groups are an interpretation.",
+    "Methods cites nonexistent Figure7F; Figure8C caption referencesFigure7 while fitting describesFigure6B.",
+    "Author model exact test-window readout and literal-light-to-effective-activity conversion are not specified; no author executable or raw behavioral PI table recovered."
+  ],
+  "operations": {
+    "source_model_runs": 0,
+    "neural_or_saved_history_runs": 0,
+    "fits": 0,
+    "new_parameters": 0,
+    "tests": 0,
+    "production_or_shared_narrative_edits": 0,
+    "web_actions": 2,
+    "web_action_outcome": "Direct PMC figure7/figure8 page opens both returned non-retryable safe-open errors, no content. Root independently retrieved official API/PDF. No additional retries.",
+    "passive_pdf_processing": "Attempted bundled pymupdf import unavailable; no installation. pdftotext bbox output had malformed XML; subsequent passive word-tag extraction confirmed duplicate axis labels. These were document-reading attempts, not source-model executions.",
+    "verification": "Static plan field/timing/parameter inspection, hash reconciliation and JSON validation only."
+  },
+  "findings": [],
+  "completion_boundary": "Cleared only the explicitly interpreted finite source-equation matrix before outcomes. Independent numerical comparison can validate its implementation; no behavioral reproduction, calibrated chemistry, learning qualification or source-author execution follows."
+}

@@ -1,0 +1,496 @@
+{
+  "copied_at": "2026-09-13T14:57:33.090990+00:00",
+  "identity": "aso-source-protocol-e54b736d2730d5bc67a5",
+  "files": [
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/00_fig6_naive_both.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-e54b736d2730d5bc67a5/00_fig6_naive_both.npz",
+      "bytes": 1754,
+      "sha256": "414397b541a85947e293dd424d635dbd65a6628c3165903f89191a8dc9bf8fa3",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/01_fig6_naive_da_only.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-e54b736d2730d5bc67a5/01_fig6_naive_da_only.npz",
+      "bytes": 1754,
+      "sha256": "414397b541a85947e293dd424d635dbd65a6628c3165903f89191a8dc9bf8fa3",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/02_fig6_naive_no_only.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-e54b736d2730d5bc67a5/02_fig6_naive_no_only.npz",
+      "bytes": 1754,
+      "sha256": "414397b541a85947e293dd424d635dbd65a6628c3165903f89191a8dc9bf8fa3",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/03_fig6_naive_neither.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-e54b736d2730d5bc67a5/03_fig6_naive_neither.npz",
+      "bytes": 1754,
+      "sha256": "414397b541a85947e293dd424d635dbd65a6628c3165903f89191a8dc9bf8fa3",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/04_fig6_1x10s_both.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-e54b736d2730d5bc67a5/04_fig6_1x10s_both.npz",
+      "bytes": 1985,
+      "sha256": "f7f85e305f4fd254f88dfd22b485ecbd1f1c703abb096ebf908bcb6331c24db9",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/05_fig6_1x10s_da_only.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-e54b736d2730d5bc67a5/05_fig6_1x10s_da_only.npz",
+      "bytes": 1905,
+      "sha256": "bd5f782103371fea0c2a70e7b1d5cd42f7a698ca250d6ec851e2da5fdcfe88cb",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/06_fig6_1x10s_no_only.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-e54b736d2730d5bc67a5/06_fig6_1x10s_no_only.npz",
+      "bytes": 1933,
+      "sha256": "8d84f8f3cf034e5350f8d349128824938ce73d5b8dad490cf617865cb88cf470",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/07_fig6_1x10s_neither.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-e54b736d2730d5bc67a5/07_fig6_1x10s_neither.npz",
+      "bytes": 1782,
+      "sha256": "2e897370aaf648a9b567733d105aa22369ac8147547a7b58a6fb84d52e940c3e",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/08_fig6_1x60s_both.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-e54b736d2730d5bc67a5/08_fig6_1x60s_both.npz",
+      "bytes": 1985,
+      "sha256": "6ef8cee9197b928e0055d3073bc16335c6befe307dc2f4c1a107e5d5c5e7bccd",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/09_fig6_1x60s_da_only.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-e54b736d2730d5bc67a5/09_fig6_1x60s_da_only.npz",
+      "bytes": 1907,
+      "sha256": "361a3c376e36ac783bb8a716cc294bdc4ce29ce4e7143a16324d1bb9fc8a57f7",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/10_fig6_1x60s_no_only.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-e54b736d2730d5bc67a5/10_fig6_1x60s_no_only.npz",
+      "bytes": 1935,
+      "sha256": "df17de3f96b0bd7ef0459478cd5001c9f9128e2526d12ec0b5f928f38f62bba4",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/11_fig6_1x60s_neither.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-e54b736d2730d5bc67a5/11_fig6_1x60s_neither.npz",
+      "bytes": 1781,
+      "sha256": "18257ee3006b41201d7517f0354cbef2357e4c1050c53472302cd67c17c414fc",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/12_fig6_3x60s_both.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-e54b736d2730d5bc67a5/12_fig6_3x60s_both.npz",
+      "bytes": 2275,
+      "sha256": "ef5be1762948cea723dc36759a0c6d84dbd7d2fd91162401c7f2dce2846b09f1",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/13_fig6_3x60s_da_only.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-e54b736d2730d5bc67a5/13_fig6_3x60s_da_only.npz",
+      "bytes": 2101,
+      "sha256": "8f047d68ef0b5f5203a790680c67fdf10aa1206cfdd0af337ff5cac5383e5d54",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/14_fig6_3x60s_no_only.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-e54b736d2730d5bc67a5/14_fig6_3x60s_no_only.npz",
+      "bytes": 2139,
+      "sha256": "21ae9c1b92136d80d9726f5f3858e07031a2a5af2fad13c223190058e45eeb7a",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/15_fig6_3x60s_neither.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-e54b736d2730d5bc67a5/15_fig6_3x60s_neither.npz",
+      "bytes": 1821,
+      "sha256": "da8f09cab65887e9e20201044aad181787efcf905981403c1bcb15fca1d8872d",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/16_fig7_reversal_both.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-e54b736d2730d5bc67a5/16_fig7_reversal_both.npz",
+      "bytes": 3620,
+      "sha256": "c5572379f2d49d422f1d4b1d032f6091923c7d25b38b48a49690811e92289508",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/17_fig7_reversal_da_only.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-e54b736d2730d5bc67a5/17_fig7_reversal_da_only.npz",
+      "bytes": 2975,
+      "sha256": "85035b2f1b953ec468209b587bf45ca282f15186c123537f9d1107f2a2473e44",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/18_fig7_reversal_no_only.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-e54b736d2730d5bc67a5/18_fig7_reversal_no_only.npz",
+      "bytes": 3138,
+      "sha256": "ab9beb482574523963485ebba0684f7be427b4df1de76628d081262c61a8775c",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/19_fig7_reversal_neither.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-e54b736d2730d5bc67a5/19_fig7_reversal_neither.npz",
+      "bytes": 1934,
+      "sha256": "dc38ae08bf5b4dd34422c8c641e98219f898363a062b583fbdeb1ffd880453b7",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/20_fig7_odor_only_both.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-e54b736d2730d5bc67a5/20_fig7_odor_only_both.npz",
+      "bytes": 2823,
+      "sha256": "8a3497f0858b6aa1acb429313b4a9f46acddd9c23714f8886eadfdccc0a74ab6",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/21_fig7_odor_only_da_only.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-e54b736d2730d5bc67a5/21_fig7_odor_only_da_only.npz",
+      "bytes": 2373,
+      "sha256": "d7cc8af54e1a117527e98c712314213366cbc0c3fc6afa147d43b28d0e3a386e",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/22_fig7_odor_only_no_only.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-e54b736d2730d5bc67a5/22_fig7_odor_only_no_only.npz",
+      "bytes": 2621,
+      "sha256": "c0d782f093cd9ba77bd48ad5d6ff7a0b8c17feb22be5140cb852e4ba641c064a",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/23_fig7_odor_only_neither.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-e54b736d2730d5bc67a5/23_fig7_odor_only_neither.npz",
+      "bytes": 1931,
+      "sha256": "1f817e34e2b114bcf7570aa8d06fbf02f7e6ad57ea6adae565f28097afc60769",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/24_fig7_dan_only_both.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-e54b736d2730d5bc67a5/24_fig7_dan_only_both.npz",
+      "bytes": 2845,
+      "sha256": "761761a42631912833dab4a2dd6e9a51ec8774e3d547e0ed5f4c9e4e6aecbb0f",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/25_fig7_dan_only_da_only.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-e54b736d2730d5bc67a5/25_fig7_dan_only_da_only.npz",
+      "bytes": 2506,
+      "sha256": "8939ff3086362b4e8798b0757d12d34781b681507cf79fb69721e6acbd07fbac",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/26_fig7_dan_only_no_only.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-e54b736d2730d5bc67a5/26_fig7_dan_only_no_only.npz",
+      "bytes": 2539,
+      "sha256": "f2aafe0f7ac8bfed0eafb8ef7d249c0fc6e67612fcfb979cf192d1d7c6983fe4",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/27_fig7_dan_only_neither.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-e54b736d2730d5bc67a5/27_fig7_dan_only_neither.npz",
+      "bytes": 1904,
+      "sha256": "5cecdf01c95fa2dada082d542e8e42646feb7f12ba6f58177017aa28050064e7",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/plan.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-e54b736d2730d5bc67a5/plan.json",
+      "bytes": 8254,
+      "sha256": "55f9ad550052125e2715003eb44d90f509fa55014144b872ca48812ba60d67a4",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/status.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-e54b736d2730d5bc67a5/status.json",
+      "bytes": 6498,
+      "sha256": "f4d4be977709607f80ebb28e35ada014d41bb29c3a126550d932943c1075b314",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-audit/audit.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-e54b736d2730d5bc67a5-audit/audit.json",
+      "bytes": 51889,
+      "sha256": "2927c8c556843d9b5ef46fcbb9569bb7011393aa6121af097ed0e62e71125569",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_00.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_00.npz",
+      "bytes": 1754,
+      "sha256": "414397b541a85947e293dd424d635dbd65a6628c3165903f89191a8dc9bf8fa3",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_01.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_01.npz",
+      "bytes": 1754,
+      "sha256": "414397b541a85947e293dd424d635dbd65a6628c3165903f89191a8dc9bf8fa3",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_02.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_02.npz",
+      "bytes": 1754,
+      "sha256": "414397b541a85947e293dd424d635dbd65a6628c3165903f89191a8dc9bf8fa3",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_03.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_03.npz",
+      "bytes": 1754,
+      "sha256": "414397b541a85947e293dd424d635dbd65a6628c3165903f89191a8dc9bf8fa3",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_04.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_04.npz",
+      "bytes": 1985,
+      "sha256": "112b89f59260c85b71534c763684f237969115ce6c21b874a6bdacc18f194a25",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_05.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_05.npz",
+      "bytes": 1905,
+      "sha256": "72640c47e8594e5f6dd7e80957e058b7f17364f8ef10fc11cc420d7e5498441e",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_06.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_06.npz",
+      "bytes": 1933,
+      "sha256": "74240a8d568fdfd636cc838c70ec89d5ba02f261caa44b6d1dfa6587f5073ba2",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_07.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_07.npz",
+      "bytes": 1782,
+      "sha256": "2e897370aaf648a9b567733d105aa22369ac8147547a7b58a6fb84d52e940c3e",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_08.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_08.npz",
+      "bytes": 1985,
+      "sha256": "6ef8cee9197b928e0055d3073bc16335c6befe307dc2f4c1a107e5d5c5e7bccd",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_09.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_09.npz",
+      "bytes": 1907,
+      "sha256": "361a3c376e36ac783bb8a716cc294bdc4ce29ce4e7143a16324d1bb9fc8a57f7",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_10.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_10.npz",
+      "bytes": 1935,
+      "sha256": "df17de3f96b0bd7ef0459478cd5001c9f9128e2526d12ec0b5f928f38f62bba4",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_11.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_11.npz",
+      "bytes": 1781,
+      "sha256": "18257ee3006b41201d7517f0354cbef2357e4c1050c53472302cd67c17c414fc",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_12.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_12.npz",
+      "bytes": 2275,
+      "sha256": "e9815a49ae3595dc9a2676362a10457335de3db1443a8b574bc3c0f074fe5164",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_13.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_13.npz",
+      "bytes": 2100,
+      "sha256": "04b82b985bcce2b7e5991015e84a7ddbdea6c35b72f0f6bb592db7ef8cc81760",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_14.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_14.npz",
+      "bytes": 2139,
+      "sha256": "9f7ec79af90522d5a195c4cd1e3738bfb7e6bf616871e1575888a7ab86f2097d",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_15.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_15.npz",
+      "bytes": 1821,
+      "sha256": "da8f09cab65887e9e20201044aad181787efcf905981403c1bcb15fca1d8872d",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_16.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_16.npz",
+      "bytes": 3621,
+      "sha256": "0631343703938beb8c0a387fa539bb2b35704c47817fe54e81183fce5f8e9fa1",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_17.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_17.npz",
+      "bytes": 2975,
+      "sha256": "b49d3285baffb390fd6a03f353fc53cf05738e6205c3a182ca090aec98bcce12",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_18.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_18.npz",
+      "bytes": 3138,
+      "sha256": "950d122ae3ef6090f9954daf665c032479d3aa9c848eedabf50cc89f378d9397",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_19.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_19.npz",
+      "bytes": 1934,
+      "sha256": "dc38ae08bf5b4dd34422c8c641e98219f898363a062b583fbdeb1ffd880453b7",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_20.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_20.npz",
+      "bytes": 2823,
+      "sha256": "3271d2302c6c42ad3868939786684d20fc9cdc7161cb5d4cc3489d4f16a25214",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_21.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_21.npz",
+      "bytes": 2373,
+      "sha256": "b04205a5dd1870660d222359ef2f5b899975e3907a7d5269c50a4c1a502e3fca",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_22.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_22.npz",
+      "bytes": 2621,
+      "sha256": "962e326a8de78b04db10467615e21ca9b0e22a36ab668cb388013ef025d1f7e0",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_23.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_23.npz",
+      "bytes": 1931,
+      "sha256": "1f817e34e2b114bcf7570aa8d06fbf02f7e6ad57ea6adae565f28097afc60769",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_24.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_24.npz",
+      "bytes": 2845,
+      "sha256": "74d75ca10df55b77786b6d27eacc37f50978fc032dbd5cefed19b478abb5b8bb",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_25.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_25.npz",
+      "bytes": 2506,
+      "sha256": "796a2d379059f5c1e82901a23e2ad2b199a5ca8174cc85d518cd6fef557c386b",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_26.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_26.npz",
+      "bytes": 2539,
+      "sha256": "7bc8327c97b85264c0dda036f7bf57f245fec894fd833b3f6f21d84e4b50bdf9",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_27.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-e54b736d2730d5bc67a5-audit/reference_27.npz",
+      "bytes": 1904,
+      "sha256": "5cecdf01c95fa2dada082d542e8e42646feb7f12ba6f58177017aa28050064e7",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-parent.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-e54b736d2730d5bc67a5-parent.json",
+      "bytes": 5857,
+      "sha256": "bda4d0bc91182bce01158beb30165d34eea4b0774b1e5431f48c7aeffb23090f",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-producer.stdout.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-e54b736d2730d5bc67a5-producer.stdout.txt",
+      "bytes": 67,
+      "sha256": "f9280893dc59e39feb75f06b2b9a2d11ea3d9f5c7933aba5da4f65c0c6a0568f",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-producer.stderr.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-e54b736d2730d5bc67a5-producer.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-independent.stdout.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-e54b736d2730d5bc67a5-independent.stdout.txt",
+      "bytes": 97,
+      "sha256": "3750fa3f41f445254baf858144dba61ae0ed5115eba440183fa6e717ff254354",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-independent.stderr.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-e54b736d2730d5bc67a5-independent.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-observations-2026-09-13.csv",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-observations-2026-09-13.csv",
+      "bytes": 66833,
+      "sha256": "d3fcd9d6ecb01e28ab723bc39316ac8e77a8af068fb879d90b81bcefb098d570",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-canonical-writer-tests-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-canonical-writer-tests-2026-09-13.txt",
+      "bytes": 179,
+      "sha256": "aa09425627f3383c2d45b9c17fefad3e904c872a4c390da3f2489d5290a082ef",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-canonical-checker-tests-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-canonical-checker-tests-2026-09-13.txt",
+      "bytes": 99,
+      "sha256": "3e88b93c3b6e7afd4fa9d97754a177622f88e346bd6cc8640510c1161e5d48b0",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-canonical-writer-ruff-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-canonical-writer-ruff-2026-09-13.txt",
+      "bytes": 19,
+      "sha256": "82b3e6a6c090a57601d22943bd23fca9218d1031dbe5a7b754092f9a156b4f18",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-canonical-checker-ruff-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-canonical-checker-ruff-2026-09-13.txt",
+      "bytes": 19,
+      "sha256": "82b3e6a6c090a57601d22943bd23fca9218d1031dbe5a7b754092f9a156b4f18",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-saved-interpretation-dopamine-sources-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-saved-interpretation-dopamine-sources-2026-09-13.json",
+      "bytes": 29976,
+      "sha256": "242803306a9a75b4fc1e1b0e663e158f9f992d3e0e0cb845aa994a684de50a71",
+      "original_retained": true
+    }
+  ]
+}

@@ -1,0 +1,1908 @@
+{
+  "atol": 1e-12,
+  "completed_case_count": 28,
+  "elapsed_seconds": 0.26206291606649756,
+  "error": null,
+  "expected_case_count": 28,
+  "input_identity": {
+    "helper_path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/docs/evidence/reward-mechanism-repair-2026-09-12/aso_da_no.py",
+    "helper_sha256": "d43351281854ff2700c10b573a8c22a725f9fee226d083c6363e6436e1285111",
+    "plan_path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-plan-2026-09-13.json",
+    "plan_sha256": "55f9ad550052125e2715003eb44d90f509fa55014144b872ca48812ba60d67a4",
+    "producer_path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/docs/evidence/reward-mechanism-repair-2026-09-12/run_aso_source_protocol.py",
+    "producer_sha256": "da4389770e475089668568a0a51707b70e8f5f5cc600924cb25d94bfa7ef3fb2"
+  },
+  "numerical_status": "passed",
+  "producer_snapshot": {
+    "00_fig6_naive_both.npz": {
+      "bytes": 1754,
+      "sha256": "414397b541a85947e293dd424d635dbd65a6628c3165903f89191a8dc9bf8fa3"
+    },
+    "01_fig6_naive_da_only.npz": {
+      "bytes": 1754,
+      "sha256": "414397b541a85947e293dd424d635dbd65a6628c3165903f89191a8dc9bf8fa3"
+    },
+    "02_fig6_naive_no_only.npz": {
+      "bytes": 1754,
+      "sha256": "414397b541a85947e293dd424d635dbd65a6628c3165903f89191a8dc9bf8fa3"
+    },
+    "03_fig6_naive_neither.npz": {
+      "bytes": 1754,
+      "sha256": "414397b541a85947e293dd424d635dbd65a6628c3165903f89191a8dc9bf8fa3"
+    },
+    "04_fig6_1x10s_both.npz": {
+      "bytes": 1985,
+      "sha256": "f7f85e305f4fd254f88dfd22b485ecbd1f1c703abb096ebf908bcb6331c24db9"
+    },
+    "05_fig6_1x10s_da_only.npz": {
+      "bytes": 1905,
+      "sha256": "bd5f782103371fea0c2a70e7b1d5cd42f7a698ca250d6ec851e2da5fdcfe88cb"
+    },
+    "06_fig6_1x10s_no_only.npz": {
+      "bytes": 1933,
+      "sha256": "8d84f8f3cf034e5350f8d349128824938ce73d5b8dad490cf617865cb88cf470"
+    },
+    "07_fig6_1x10s_neither.npz": {
+      "bytes": 1782,
+      "sha256": "2e897370aaf648a9b567733d105aa22369ac8147547a7b58a6fb84d52e940c3e"
+    },
+    "08_fig6_1x60s_both.npz": {
+      "bytes": 1985,
+      "sha256": "6ef8cee9197b928e0055d3073bc16335c6befe307dc2f4c1a107e5d5c5e7bccd"
+    },
+    "09_fig6_1x60s_da_only.npz": {
+      "bytes": 1907,
+      "sha256": "361a3c376e36ac783bb8a716cc294bdc4ce29ce4e7143a16324d1bb9fc8a57f7"
+    },
+    "10_fig6_1x60s_no_only.npz": {
+      "bytes": 1935,
+      "sha256": "df17de3f96b0bd7ef0459478cd5001c9f9128e2526d12ec0b5f928f38f62bba4"
+    },
+    "11_fig6_1x60s_neither.npz": {
+      "bytes": 1781,
+      "sha256": "18257ee3006b41201d7517f0354cbef2357e4c1050c53472302cd67c17c414fc"
+    },
+    "12_fig6_3x60s_both.npz": {
+      "bytes": 2275,
+      "sha256": "ef5be1762948cea723dc36759a0c6d84dbd7d2fd91162401c7f2dce2846b09f1"
+    },
+    "13_fig6_3x60s_da_only.npz": {
+      "bytes": 2101,
+      "sha256": "8f047d68ef0b5f5203a790680c67fdf10aa1206cfdd0af337ff5cac5383e5d54"
+    },
+    "14_fig6_3x60s_no_only.npz": {
+      "bytes": 2139,
+      "sha256": "21ae9c1b92136d80d9726f5f3858e07031a2a5af2fad13c223190058e45eeb7a"
+    },
+    "15_fig6_3x60s_neither.npz": {
+      "bytes": 1821,
+      "sha256": "da8f09cab65887e9e20201044aad181787efcf905981403c1bcb15fca1d8872d"
+    },
+    "16_fig7_reversal_both.npz": {
+      "bytes": 3620,
+      "sha256": "c5572379f2d49d422f1d4b1d032f6091923c7d25b38b48a49690811e92289508"
+    },
+    "17_fig7_reversal_da_only.npz": {
+      "bytes": 2975,
+      "sha256": "85035b2f1b953ec468209b587bf45ca282f15186c123537f9d1107f2a2473e44"
+    },
+    "18_fig7_reversal_no_only.npz": {
+      "bytes": 3138,
+      "sha256": "ab9beb482574523963485ebba0684f7be427b4df1de76628d081262c61a8775c"
+    },
+    "19_fig7_reversal_neither.npz": {
+      "bytes": 1934,
+      "sha256": "dc38ae08bf5b4dd34422c8c641e98219f898363a062b583fbdeb1ffd880453b7"
+    },
+    "20_fig7_odor_only_both.npz": {
+      "bytes": 2823,
+      "sha256": "8a3497f0858b6aa1acb429313b4a9f46acddd9c23714f8886eadfdccc0a74ab6"
+    },
+    "21_fig7_odor_only_da_only.npz": {
+      "bytes": 2373,
+      "sha256": "d7cc8af54e1a117527e98c712314213366cbc0c3fc6afa147d43b28d0e3a386e"
+    },
+    "22_fig7_odor_only_no_only.npz": {
+      "bytes": 2621,
+      "sha256": "c0d782f093cd9ba77bd48ad5d6ff7a0b8c17feb22be5140cb852e4ba641c064a"
+    },
+    "23_fig7_odor_only_neither.npz": {
+      "bytes": 1931,
+      "sha256": "1f817e34e2b114bcf7570aa8d06fbf02f7e6ad57ea6adae565f28097afc60769"
+    },
+    "24_fig7_dan_only_both.npz": {
+      "bytes": 2845,
+      "sha256": "761761a42631912833dab4a2dd6e9a51ec8774e3d547e0ed5f4c9e4e6aecbb0f"
+    },
+    "25_fig7_dan_only_da_only.npz": {
+      "bytes": 2506,
+      "sha256": "8939ff3086362b4e8798b0757d12d34781b681507cf79fb69721e6acbd07fbac"
+    },
+    "26_fig7_dan_only_no_only.npz": {
+      "bytes": 2539,
+      "sha256": "f2aafe0f7ac8bfed0eafb8ef7d249c0fc6e67612fcfb979cf192d1d7c6983fe4"
+    },
+    "27_fig7_dan_only_neither.npz": {
+      "bytes": 1904,
+      "sha256": "5cecdf01c95fa2dada082d542e8e42646feb7f12ba6f58177017aa28050064e7"
+    },
+    "plan.json": {
+      "bytes": 8254,
+      "sha256": "55f9ad550052125e2715003eb44d90f509fa55014144b872ca48812ba60d67a4"
+    },
+    "status.json": {
+      "bytes": 6498,
+      "sha256": "f4d4be977709607f80ebb28e35ada014d41bb29c3a126550d932943c1075b314"
+    }
+  },
+  "rows": [
+    {
+      "checked_values": 116,
+      "checks": {
+        "observation_segment_indices": {
+          "exact": true,
+          "passed": true,
+          "values": 3
+        },
+        "observation_states": {
+          "exact": false,
+          "max_abs_error": 0.0,
+          "passed": true,
+          "values": 48
+        },
+        "observation_times_s": {
+          "exact": true,
+          "passed": true,
+          "values": 3
+        },
+        "observation_weights": {
+          "exact": false,
+          "max_abs_error": 0.0,
+          "passed": true,
+          "values": 12
+        },
+        "segment_inputs": {
+          "exact": true,
+          "passed": true,
+          "values": 8
+        },
+        "segment_states": {
+          "exact": false,
+          "max_abs_error": 0.0,
+          "passed": true,
+          "values": 32
+        },
+        "segment_times_s": {
+          "exact": true,
+          "passed": true,
+          "values": 2
+        },
+        "segment_weights": {
+          "exact": false,
+          "max_abs_error": 0.0,
+          "passed": true,
+          "values": 8
+        }
+      },
+      "index": 0,
+      "passed": true,
+      "pathway_id": "both",
+      "protocol_id": "fig6_naive",
+      "reference_binding": {
+        "bytes": 1754,
+        "sha256": "414397b541a85947e293dd424d635dbd65a6628c3165903f89191a8dc9bf8fa3"
+      },
+      "reference_file": "reference_00.npz",
+      "source_binding": {
+        "bytes": 1754,
+        "sha256": "414397b541a85947e293dd424d635dbd65a6628c3165903f89191a8dc9bf8fa3"
+      },
+      "source_file": "00_fig6_naive_both.npz"
+    },
+    {
+      "checked_values": 116,
+      "checks": {
+        "observation_segment_indices": {
+          "exact": true,
+          "passed": true,
+          "values": 3
+        },
+        "observation_states": {
+          "exact": false,
+          "max_abs_error": 0.0,
+          "passed": true,
+          "values": 48
+        },
+        "observation_times_s": {
+          "exact": true,
+          "passed": true,
+          "values": 3
+        },
+        "observation_weights": {
+          "exact": false,
+          "max_abs_error": 0.0,
+          "passed": true,
+          "values": 12
+        },
+        "segment_inputs": {
+          "exact": true,
+          "passed": true,
+          "values": 8
+        },
+        "segment_states": {
+          "exact": false,
+          "max_abs_error": 0.0,
+          "passed": true,
+          "values": 32
+        },
+        "segment_times_s": {
+          "exact": true,
+          "passed": true,
+          "values": 2
+        },
+        "segment_weights": {
+          "exact": false,
+          "max_abs_error": 0.0,
+          "passed": true,
+          "values": 8
+        }
+      },
+      "index": 1,
+      "passed": true,
+      "pathway_id": "da_only",
+      "protocol_id": "fig6_naive",
+      "reference_binding": {
+        "bytes": 1754,
+        "sha256": "414397b541a85947e293dd424d635dbd65a6628c3165903f89191a8dc9bf8fa3"
+      },
+      "reference_file": "reference_01.npz",
+      "source_binding": {
+        "bytes": 1754,
+        "sha256": "414397b541a85947e293dd424d635dbd65a6628c3165903f89191a8dc9bf8fa3"
+      },
+      "source_file": "01_fig6_naive_da_only.npz"
+    },
+    {
+      "checked_values": 116,
+      "checks": {
+        "observation_segment_indices": {
+          "exact": true,
+          "passed": true,
+          "values": 3
+        },
+        "observation_states": {
+          "exact": false,
+          "max_abs_error": 0.0,
+          "passed": true,
+          "values": 48
+        },
+        "observation_times_s": {
+          "exact": true,
+          "passed": true,
+          "values": 3
+        },
+        "observation_weights": {
+          "exact": false,
+          "max_abs_error": 0.0,
+          "passed": true,
+          "values": 12
+        },
+        "segment_inputs": {
+          "exact": true,
+          "passed": true,
+          "values": 8
+        },
+        "segment_states": {
+          "exact": false,
+          "max_abs_error": 0.0,
+          "passed": true,
+          "values": 32
+        },
+        "segment_times_s": {
+          "exact": true,
+          "passed": true,
+          "values": 2
+        },
+        "segment_weights": {
+          "exact": false,
+          "max_abs_error": 0.0,
+          "passed": true,
+          "values": 8
+        }
+      },
+      "index": 2,
+      "passed": true,
+      "pathway_id": "no_only",
+      "protocol_id": "fig6_naive",
+      "reference_binding": {
+        "bytes": 1754,
+        "sha256": "414397b541a85947e293dd424d635dbd65a6628c3165903f89191a8dc9bf8fa3"
+      },
+      "reference_file": "reference_02.npz",
+      "source_binding": {
+        "bytes": 1754,
+        "sha256": "414397b541a85947e293dd424d635dbd65a6628c3165903f89191a8dc9bf8fa3"
+      },
+      "source_file": "02_fig6_naive_no_only.npz"
+    },
+    {
+      "checked_values": 116,
+      "checks": {
+        "observation_segment_indices": {
+          "exact": true,
+          "passed": true,
+          "values": 3
+        },
+        "observation_states": {
+          "exact": false,
+          "max_abs_error": 0.0,
+          "passed": true,
+          "values": 48
+        },
+        "observation_times_s": {
+          "exact": true,
+          "passed": true,
+          "values": 3
+        },
+        "observation_weights": {
+          "exact": false,
+          "max_abs_error": 0.0,
+          "passed": true,
+          "values": 12
+        },
+        "segment_inputs": {
+          "exact": true,
+          "passed": true,
+          "values": 8
+        },
+        "segment_states": {
+          "exact": false,
+          "max_abs_error": 0.0,
+          "passed": true,
+          "values": 32
+        },
+        "segment_times_s": {
+          "exact": true,
+          "passed": true,
+          "values": 2
+        },
+        "segment_weights": {
+          "exact": false,
+          "max_abs_error": 0.0,
+          "passed": true,
+          "values": 8
+        }
+      },
+      "index": 3,
+      "passed": true,
+      "pathway_id": "neither",
+      "protocol_id": "fig6_naive",
+      "reference_binding": {
+        "bytes": 1754,
+        "sha256": "414397b541a85947e293dd424d635dbd65a6628c3165903f89191a8dc9bf8fa3"
+      },
+      "reference_file": "reference_03.npz",
+      "source_binding": {
+        "bytes": 1754,
+        "sha256": "414397b541a85947e293dd424d635dbd65a6628c3165903f89191a8dc9bf8fa3"
+      },
+      "source_file": "03_fig6_naive_neither.npz"
+    },
+    {
+      "checked_values": 232,
+      "checks": {
+        "observation_segment_indices": {
+          "exact": true,
+          "passed": true,
+          "values": 3
+        },
+        "observation_states": {
+          "exact": false,
+          "max_abs_error": 1.1102230246251565e-16,
+          "passed": true,
+          "values": 48
+        },
+        "observation_times_s": {
+          "exact": true,
+          "passed": true,
+          "values": 3
+        },
+        "observation_weights": {
+          "exact": false,
+          "max_abs_error": 1.1102230246251565e-16,
+          "passed": true,
+          "values": 12
+        },
+        "segment_inputs": {
+          "exact": true,
+          "passed": true,
+          "values": 40
+        },
+        "segment_states": {
+          "exact": false,
+          "max_abs_error": 1.1102230246251565e-16,
+          "passed": true,
+          "values": 96
+        },
+        "segment_times_s": {
+          "exact": true,
+          "passed": true,
+          "values": 6
+        },
+        "segment_weights": {
+          "exact": false,
+          "max_abs_error": 1.1102230246251565e-16,
+          "passed": true,
+          "values": 24
+        }
+      },
+      "index": 4,
+      "passed": true,
+      "pathway_id": "both",
+      "protocol_id": "fig6_1x10s",
+      "reference_binding": {
+        "bytes": 1985,
+        "sha256": "112b89f59260c85b71534c763684f237969115ce6c21b874a6bdacc18f194a25"
+      },
+      "reference_file": "reference_04.npz",
+      "source_binding": {
+        "bytes": 1985,
+        "sha256": "f7f85e305f4fd254f88dfd22b485ecbd1f1c703abb096ebf908bcb6331c24db9"
+      },
+      "source_file": "04_fig6_1x10s_both.npz"
+    },
+    {
+      "checked_values": 232,
+      "checks": {
+        "observation_segment_indices": {
+          "exact": true,
+          "passed": true,
+          "values": 3
+        },
+        "observation_states": {
+          "exact": false,
+          "max_abs_error": 1.1102230246251565e-16,
+          "passed": true,
+          "values": 48
+        },
+        "observation_times_s": {
+          "exact": true,
+          "passed": true,
+          "values": 3
+        },
+        "observation_weights": {
+          "exact": false,
+          "max_abs_error": 1.1102230246251565e-16,
+          "passed": true,
+          "values": 12
+        },
+        "segment_inputs": {
+          "exact": true,
+          "passed": true,
+          "values": 40
+        },
+        "segment_states": {
+          "exact": false,
+          "max_abs_error": 1.1102230246251565e-16,
+          "passed": true,
+          "values": 96
+        },
+        "segment_times_s": {
+          "exact": true,
+          "passed": true,
+          "values": 6
+        },
+        "segment_weights": {
+          "exact": false,
+          "max_abs_error": 1.1102230246251565e-16,
+          "passed": true,
+          "values": 24
+        }
+      },
+      "index": 5,
+      "passed": true,
+      "pathway_id": "da_only",
+      "protocol_id": "fig6_1x10s",
+      "reference_binding": {
+        "bytes": 1905,
+        "sha256": "72640c47e8594e5f6dd7e80957e058b7f17364f8ef10fc11cc420d7e5498441e"
+      },
+      "reference_file": "reference_05.npz",
+      "source_binding": {
+        "bytes": 1905,
+        "sha256": "bd5f782103371fea0c2a70e7b1d5cd42f7a698ca250d6ec851e2da5fdcfe88cb"
+      },
+      "source_file": "05_fig6_1x10s_da_only.npz"
+    },
+    {
+      "checked_values": 232,
+      "checks": {
+        "observation_segment_indices": {
+          "exact": true,
+          "passed": true,
+          "values": 3
+        },
+        "observation_states": {
+          "exact": false,
+          "max_abs_error": 1.3877787807814457e-17,
+          "passed": true,
+          "values": 48
+        },
+        "observation_times_s": {
+          "exact": true,
+          "passed": true,
+          "values": 3
+        },
+        "observation_weights": {
+          "exact": false,
+          "max_abs_error": 0.0,
+          "passed": true,
+          "values": 12
+        },
+        "segment_inputs": {
+          "exact": true,
+          "passed": true,
+          "values": 40
+        },
+        "segment_states": {
+          "exact": false,
+          "max_abs_error": 3.469446951953614e-18,
+          "passed": true,
+          "values": 96
+        },
+        "segment_times_s": {
+          "exact": true,
+          "passed": true,
+          "values": 6
+        },
+        "segment_weights": {
+          "exact": false,
+          "max_abs_error": 0.0,
+          "passed": true,
+          "values": 24
+        }
+      },
+      "index": 6,
+      "passed": true,
+      "pathway_id": "no_only",
+      "protocol_id": "fig6_1x10s",
+      "reference_binding": {
+        "bytes": 1933,
+        "sha256": "74240a8d568fdfd636cc838c70ec89d5ba02f261caa44b6d1dfa6587f5073ba2"
+      },
+      "reference_file": "reference_06.npz",
+      "source_binding": {
+        "bytes": 1933,
+        "sha256": "8d84f8f3cf034e5350f8d349128824938ce73d5b8dad490cf617865cb88cf470"
+      },
+      "source_file": "06_fig6_1x10s_no_only.npz"
+    },
+    {
+      "checked_values": 232,
+      "checks": {
+        "observation_segment_indices": {
+          "exact": true,
+          "passed": true,
+          "values": 3
+        },
+        "observation_states": {
+          "exact": false,
+          "max_abs_error": 0.0,
+          "passed": true,
+          "values": 48
+        },
+        "observation_times_s": {
+          "exact": true,
+          "passed": true,
+          "values": 3
+        },
+        "observation_weights": {
+          "exact": false,
+          "max_abs_error": 0.0,
+          "passed": true,
+          "values": 12
+        },
+        "segment_inputs": {
+          "exact": true,
+          "passed": true,
+          "values": 40
+        },
+        "segment_states": {
+          "exact": false,
+          "max_abs_error": 0.0,
+          "passed": true,
+          "values": 96
+        },
+        "segment_times_s": {
+          "exact": true,
+          "passed": true,
+          "values": 6
+        },
+        "segment_weights": {
+          "exact": false,
+          "max_abs_error": 0.0,
+          "passed": true,
+          "values": 24
+        }
+      },
+      "index": 7,
+      "passed": true,
+      "pathway_id": "neither",
+      "protocol_id": "fig6_1x10s",
+      "reference_binding": {
+        "bytes": 1782,
+        "sha256": "2e897370aaf648a9b567733d105aa22369ac8147547a7b58a6fb84d52e940c3e"
+      },
+      "reference_file": "reference_07.npz",
+      "source_binding": {
+        "bytes": 1782,
+        "sha256": "2e897370aaf648a9b567733d105aa22369ac8147547a7b58a6fb84d52e940c3e"
+      },
+      "source_file": "07_fig6_1x10s_neither.npz"
+    },
+    {
+      "checked_values": 232,
+      "checks": {
+        "observation_segment_indices": {
+          "exact": true,
+          "passed": true,
+          "values": 3
+        },
+        "observation_states": {
+          "exact": false,
+          "max_abs_error": 0.0,
+          "passed": true,
+          "values": 48
+        },
+        "observation_times_s": {
+          "exact": true,
+          "passed": true,
+          "values": 3
+        },
+        "observation_weights": {
+          "exact": false,
+          "max_abs_error": 0.0,
+          "passed": true,
+          "values": 12
+        },
+        "segment_inputs": {
+          "exact": true,
+          "passed": true,
+          "values": 40
+        },
+        "segment_states": {
+          "exact": false,
+          "max_abs_error": 0.0,
+          "passed": true,
+          "values": 96
+        },
+        "segment_times_s": {
+          "exact": true,
+          "passed": true,
+          "values": 6
+        },
+        "segment_weights": {
+          "exact": false,
+          "max_abs_error": 0.0,
+          "passed": true,
+          "values": 24
+        }
+      },
+      "index": 8,
+      "passed": true,
+      "pathway_id": "both",
+      "protocol_id": "fig6_1x60s",
+      "reference_binding": {
+        "bytes": 1985,
+        "sha256": "6ef8cee9197b928e0055d3073bc16335c6befe307dc2f4c1a107e5d5c5e7bccd"
+      },
+      "reference_file": "reference_08.npz",
+      "source_binding": {
+        "bytes": 1985,
+        "sha256": "6ef8cee9197b928e0055d3073bc16335c6befe307dc2f4c1a107e5d5c5e7bccd"
+      },
+      "source_file": "08_fig6_1x60s_both.npz"
+    },
+    {
+      "checked_values": 232,
+      "checks": {
+        "observation_segment_indices": {
+          "exact": true,
+          "passed": true,
+          "values": 3
+        },
+        "observation_states": {
+          "exact": false,
+          "max_abs_error": 0.0,
+          "passed": true,
+          "values": 48
+        },
+        "observation_times_s": {
+          "exact": true,
+          "passed": true,
+          "values": 3
+        },
+        "observation_weights": {
+          "exact": false,
+          "max_abs_error": 0.0,
+          "passed": true,
+          "values": 12
+        },
+        "segment_inputs": {
+          "exact": true,
+          "passed": true,
+          "values": 40
+        },
+        "segment_states": {
+          "exact": false,
+          "max_abs_error": 0.0,
+          "passed": true,
+          "values": 96
+        },
+        "segment_times_s": {
+          "exact": true,
+          "passed": true,
+          "values": 6
+        },
+        "segment_weights": {
+          "exact": false,
+          "max_abs_error": 0.0,
+          "passed": true,
+          "values": 24
+        }
+      },
+      "index": 9,
+      "passed": true,
+      "pathway_id": "da_only",
+      "protocol_id": "fig6_1x60s",
+      "reference_binding": {
+        "bytes": 1907,
+        "sha256": "361a3c376e36ac783bb8a716cc294bdc4ce29ce4e7143a16324d1bb9fc8a57f7"
+      },
+      "reference_file": "reference_09.npz",
+      "source_binding": {
+        "bytes": 1907,
+        "sha256": "361a3c376e36ac783bb8a716cc294bdc4ce29ce4e7143a16324d1bb9fc8a57f7"
+      },
+      "source_file": "09_fig6_1x60s_da_only.npz"
+    },
+    {
+      "checked_values": 232,
+      "checks": {
+        "observation_segment_indices": {
+          "exact": true,
+          "passed": true,
+          "values": 3
+        },
+        "observation_states": {
+          "exact": false,
+          "max_abs_error": 0.0,
+          "passed": true,
+          "values": 48
+        },
+        "observation_times_s": {
+          "exact": true,
+          "passed": true,
+          "values": 3
+        },
+        "observation_weights": {
+          "exact": false,
+          "max_abs_error": 0.0,
+          "passed": true,
+          "values": 12
+        },
+        "segment_inputs": {
+          "exact": true,
+          "passed": true,
+          "values": 40
+        },
+        "segment_states": {
+          "exact": false,
+          "max_abs_error": 0.0,
+          "passed": true,
+          "values": 96
+        },
+        "segment_times_s": {
+          "exact": true,
+          "passed": true,
+          "values": 6
+        },
+        "segment_weights": {
+          "exact": false,
+          "max_abs_error": 0.0,
+          "passed": true,
+          "values": 24
+        }
+      },
+      "index": 10,
+      "passed": true,
+      "pathway_id": "no_only",
+      "protocol_id": "fig6_1x60s",
+      "reference_binding": {
+        "bytes": 1935,
+        "sha256": "df17de3f96b0bd7ef0459478cd5001c9f9128e2526d12ec0b5f928f38f62bba4"
+      },
+      "reference_file": "reference_10.npz",
+      "source_binding": {
+        "bytes": 1935,
+        "sha256": "df17de3f96b0bd7ef0459478cd5001c9f9128e2526d12ec0b5f928f38f62bba4"
+      },
+      "source_file": "10_fig6_1x60s_no_only.npz"
+    },
+    {
+      "checked_values": 232,
+      "checks": {
+        "observation_segment_indices": {
+          "exact": true,
+          "passed": true,
+          "values": 3
+        },
+        "observation_states": {
+          "exact": false,
+          "max_abs_error": 0.0,
+          "passed": true,
+          "values": 48
+        },
+        "observation_times_s": {
+          "exact": true,
+          "passed": true,
+          "values": 3
+        },
+        "observation_weights": {
+          "exact": false,
+          "max_abs_error": 0.0,
+          "passed": true,
+          "values": 12
+        },
+        "segment_inputs": {
+          "exact": true,
+          "passed": true,
+          "values": 40
+        },
+        "segment_states": {
+          "exact": false,
+          "max_abs_error": 0.0,
+          "passed": true,
+          "values": 96
+        },
+        "segment_times_s": {
+          "exact": true,
+          "passed": true,
+          "values": 6
+        },
+        "segment_weights": {
+          "exact": false,
+          "max_abs_error": 0.0,
+          "passed": true,
+          "values": 24
+        }
+      },
+      "index": 11,
+      "passed": true,
+      "pathway_id": "neither",
+      "protocol_id": "fig6_1x60s",
+      "reference_binding": {
+        "bytes": 1781,
+        "sha256": "18257ee3006b41201d7517f0354cbef2357e4c1050c53472302cd67c17c414fc"
+      },
+      "reference_file": "reference_11.npz",
+      "source_binding": {
+        "bytes": 1781,
+        "sha256": "18257ee3006b41201d7517f0354cbef2357e4c1050c53472302cd67c17c414fc"
+      },
+      "source_file": "11_fig6_1x60s_neither.npz"
+    },
+    {
+      "checked_values": 464,
+      "checks": {
+        "observation_segment_indices": {
+          "exact": true,
+          "passed": true,
+          "values": 3
+        },
+        "observation_states": {
+          "exact": false,
+          "max_abs_error": 0.0,
+          "passed": true,
+          "values": 48
+        },
+        "observation_times_s": {
+          "exact": true,
+          "passed": true,
+          "values": 3
+        },
+        "observation_weights": {
+          "exact": false,
+          "max_abs_error": 0.0,
+          "passed": true,
+          "values": 12
+        },
+        "segment_inputs": {
+          "exact": true,
+          "passed": true,
+          "values": 104
+        },
+        "segment_states": {
+          "exact": false,
+          "max_abs_error": 1.1102230246251565e-16,
+          "passed": true,
+          "values": 224
+        },
+        "segment_times_s": {
+          "exact": true,
+          "passed": true,
+          "values": 14
+        },
+        "segment_weights": {
+          "exact": false,
+          "max_abs_error": 1.4409046872332354e-16,
+          "passed": true,
+          "values": 56
+        }
+      },
+      "index": 12,
+      "passed": true,
+      "pathway_id": "both",
+      "protocol_id": "fig6_3x60s",
+      "reference_binding": {
+        "bytes": 2275,
+        "sha256": "e9815a49ae3595dc9a2676362a10457335de3db1443a8b574bc3c0f074fe5164"
+      },
+      "reference_file": "reference_12.npz",
+      "source_binding": {
+        "bytes": 2275,
+        "sha256": "ef5be1762948cea723dc36759a0c6d84dbd7d2fd91162401c7f2dce2846b09f1"
+      },
+      "source_file": "12_fig6_3x60s_both.npz"
+    },
+    {
+      "checked_values": 464,
+      "checks": {
+        "observation_segment_indices": {
+          "exact": true,
+          "passed": true,
+          "values": 3
+        },
+        "observation_states": {
+          "exact": false,
+          "max_abs_error": 0.0,
+          "passed": true,
+          "values": 48
+        },
+        "observation_times_s": {
+          "exact": true,
+          "passed": true,
+          "values": 3
+        },
+        "observation_weights": {
+          "exact": false,
+          "max_abs_error": 0.0,
+          "passed": true,
+          "values": 12
+        },
+        "segment_inputs": {
+          "exact": true,
+          "passed": true,
+          "values": 104
+        },
+        "segment_states": {
+          "exact": false,
+          "max_abs_error": 1.1102230246251565e-16,
+          "passed": true,
+          "values": 224
+        },
+        "segment_times_s": {
+          "exact": true,
+          "passed": true,
+          "values": 14
+        },
+        "segment_weights": {
+          "exact": false,
+          "max_abs_error": 1.1102230246251565e-16,
+          "passed": true,
+          "values": 56
+        }
+      },
+      "index": 13,
+      "passed": true,
+      "pathway_id": "da_only",
+      "protocol_id": "fig6_3x60s",
+      "reference_binding": {
+        "bytes": 2100,
+        "sha256": "04b82b985bcce2b7e5991015e84a7ddbdea6c35b72f0f6bb592db7ef8cc81760"
+      },
+      "reference_file": "reference_13.npz",
+      "source_binding": {
+        "bytes": 2101,
+        "sha256": "8f047d68ef0b5f5203a790680c67fdf10aa1206cfdd0af337ff5cac5383e5d54"
+      },
+      "source_file": "13_fig6_3x60s_da_only.npz"
+    },
+    {
+      "checked_values": 464,
+      "checks": {
+        "observation_segment_indices": {
+          "exact": true,
+          "passed": true,
+          "values": 3
+        },
+        "observation_states": {
+          "exact": false,
+          "max_abs_error": 0.0,
+          "passed": true,
+          "values": 48
+        },
+        "observation_times_s": {
+          "exact": true,
+          "passed": true,
+          "values": 3
+        },
+        "observation_weights": {
+          "exact": false,
+          "max_abs_error": 0.0,
+          "passed": true,
+          "values": 12
+        },
+        "segment_inputs": {
+          "exact": true,
+          "passed": true,
+          "values": 104
+        },
+        "segment_states": {
+          "exact": false,
+          "max_abs_error": 5.551115123125783e-17,
+          "passed": true,
+          "values": 224
+        },
+        "segment_times_s": {
+          "exact": true,
+          "passed": true,
+          "values": 14
+        },
+        "segment_weights": {
+          "exact": false,
+          "max_abs_error": 0.0,
+          "passed": true,
+          "values": 56
+        }
+      },
+      "index": 14,
+      "passed": true,
+      "pathway_id": "no_only",
+      "protocol_id": "fig6_3x60s",
+      "reference_binding": {
+        "bytes": 2139,
+        "sha256": "9f7ec79af90522d5a195c4cd1e3738bfb7e6bf616871e1575888a7ab86f2097d"
+      },
+      "reference_file": "reference_14.npz",
+      "source_binding": {
+        "bytes": 2139,
+        "sha256": "21ae9c1b92136d80d9726f5f3858e07031a2a5af2fad13c223190058e45eeb7a"
+      },
+      "source_file": "14_fig6_3x60s_no_only.npz"
+    },
+    {
+      "checked_values": 464,
+      "checks": {
+        "observation_segment_indices": {
+          "exact": true,
+          "passed": true,
+          "values": 3
+        },
+        "observation_states": {
+          "exact": false,
+          "max_abs_error": 0.0,
+          "passed": true,
+          "values": 48
+        },
+        "observation_times_s": {
+          "exact": true,
+          "passed": true,
+          "values": 3
+        },
+        "observation_weights": {
+          "exact": false,
+          "max_abs_error": 0.0,
+          "passed": true,
+          "values": 12
+        },
+        "segment_inputs": {
+          "exact": true,
+          "passed": true,
+          "values": 104
+        },
+        "segment_states": {
+          "exact": false,
+          "max_abs_error": 0.0,
+          "passed": true,
+          "values": 224
+        },
+        "segment_times_s": {
+          "exact": true,
+          "passed": true,
+          "values": 14
+        },
+        "segment_weights": {
+          "exact": false,
+          "max_abs_error": 0.0,
+          "passed": true,
+          "values": 56
+        }
+      },
+      "index": 15,
+      "passed": true,
+      "pathway_id": "neither",
+      "protocol_id": "fig6_3x60s",
+      "reference_binding": {
+        "bytes": 1821,
+        "sha256": "da8f09cab65887e9e20201044aad181787efcf905981403c1bcb15fca1d8872d"
+      },
+      "reference_file": "reference_15.npz",
+      "source_binding": {
+        "bytes": 1821,
+        "sha256": "da8f09cab65887e9e20201044aad181787efcf905981403c1bcb15fca1d8872d"
+      },
+      "source_file": "15_fig6_3x60s_neither.npz"
+    },
+    {
+      "checked_values": 1010,
+      "checks": {
+        "observation_segment_indices": {
+          "exact": true,
+          "passed": true,
+          "values": 12
+        },
+        "observation_states": {
+          "exact": false,
+          "max_abs_error": 3.3306690738754696e-16,
+          "passed": true,
+          "values": 192
+        },
+        "observation_times_s": {
+          "exact": true,
+          "passed": true,
+          "values": 12
+        },
+        "observation_weights": {
+          "exact": false,
+          "max_abs_error": 3.3306690738754696e-16,
+          "passed": true,
+          "values": 48
+        },
+        "segment_inputs": {
+          "exact": true,
+          "passed": true,
+          "values": 200
+        },
+        "segment_states": {
+          "exact": false,
+          "max_abs_error": 3.3306690738754696e-16,
+          "passed": true,
+          "values": 416
+        },
+        "segment_times_s": {
+          "exact": true,
+          "passed": true,
+          "values": 26
+        },
+        "segment_weights": {
+          "exact": false,
+          "max_abs_error": 2.220446049250313e-16,
+          "passed": true,
+          "values": 104
+        }
+      },
+      "index": 16,
+      "passed": true,
+      "pathway_id": "both",
+      "protocol_id": "fig7_reversal",
+      "reference_binding": {
+        "bytes": 3621,
+        "sha256": "0631343703938beb8c0a387fa539bb2b35704c47817fe54e81183fce5f8e9fa1"
+      },
+      "reference_file": "reference_16.npz",
+      "source_binding": {
+        "bytes": 3620,
+        "sha256": "c5572379f2d49d422f1d4b1d032f6091923c7d25b38b48a49690811e92289508"
+      },
+      "source_file": "16_fig7_reversal_both.npz"
+    },
+    {
+      "checked_values": 1010,
+      "checks": {
+        "observation_segment_indices": {
+          "exact": true,
+          "passed": true,
+          "values": 12
+        },
+        "observation_states": {
+          "exact": false,
+          "max_abs_error": 2.220446049250313e-16,
+          "passed": true,
+          "values": 192
+        },
+        "observation_times_s": {
+          "exact": true,
+          "passed": true,
+          "values": 12
+        },
+        "observation_weights": {
+          "exact": false,
+          "max_abs_error": 2.220446049250313e-16,
+          "passed": true,
+          "values": 48
+        },
+        "segment_inputs": {
+          "exact": true,
+          "passed": true,
+          "values": 200
+        },
+        "segment_states": {
+          "exact": false,
+          "max_abs_error": 2.220446049250313e-16,
+          "passed": true,
+          "values": 416
+        },
+        "segment_times_s": {
+          "exact": true,
+          "passed": true,
+          "values": 26
+        },
+        "segment_weights": {
+          "exact": false,
+          "max_abs_error": 2.220446049250313e-16,
+          "passed": true,
+          "values": 104
+        }
+      },
+      "index": 17,
+      "passed": true,
+      "pathway_id": "da_only",
+      "protocol_id": "fig7_reversal",
+      "reference_binding": {
+        "bytes": 2975,
+        "sha256": "b49d3285baffb390fd6a03f353fc53cf05738e6205c3a182ca090aec98bcce12"
+      },
+      "reference_file": "reference_17.npz",
+      "source_binding": {
+        "bytes": 2975,
+        "sha256": "85035b2f1b953ec468209b587bf45ca282f15186c123537f9d1107f2a2473e44"
+      },
+      "source_file": "17_fig7_reversal_da_only.npz"
+    },
+    {
+      "checked_values": 1010,
+      "checks": {
+        "observation_segment_indices": {
+          "exact": true,
+          "passed": true,
+          "values": 12
+        },
+        "observation_states": {
+          "exact": false,
+          "max_abs_error": 3.3306690738754696e-16,
+          "passed": true,
+          "values": 192
+        },
+        "observation_times_s": {
+          "exact": true,
+          "passed": true,
+          "values": 12
+        },
+        "observation_weights": {
+          "exact": false,
+          "max_abs_error": 4.440892098500626e-16,
+          "passed": true,
+          "values": 48
+        },
+        "segment_inputs": {
+          "exact": true,
+          "passed": true,
+          "values": 200
+        },
+        "segment_states": {
+          "exact": false,
+          "max_abs_error": 3.3306690738754696e-16,
+          "passed": true,
+          "values": 416
+        },
+        "segment_times_s": {
+          "exact": true,
+          "passed": true,
+          "values": 26
+        },
+        "segment_weights": {
+          "exact": false,
+          "max_abs_error": 4.440892098500626e-16,
+          "passed": true,
+          "values": 104
+        }
+      },
+      "index": 18,
+      "passed": true,
+      "pathway_id": "no_only",
+      "protocol_id": "fig7_reversal",
+      "reference_binding": {
+        "bytes": 3138,
+        "sha256": "950d122ae3ef6090f9954daf665c032479d3aa9c848eedabf50cc89f378d9397"
+      },
+      "reference_file": "reference_18.npz",
+      "source_binding": {
+        "bytes": 3138,
+        "sha256": "ab9beb482574523963485ebba0684f7be427b4df1de76628d081262c61a8775c"
+      },
+      "source_file": "18_fig7_reversal_no_only.npz"
+    },
+    {
+      "checked_values": 1010,
+      "checks": {
+        "observation_segment_indices": {
+          "exact": true,
+          "passed": true,
+          "values": 12
+        },
+        "observation_states": {
+          "exact": false,
+          "max_abs_error": 0.0,
+          "passed": true,
+          "values": 192
+        },
+        "observation_times_s": {
+          "exact": true,
+          "passed": true,
+          "values": 12
+        },
+        "observation_weights": {
+          "exact": false,
+          "max_abs_error": 0.0,
+          "passed": true,
+          "values": 48
+        },
+        "segment_inputs": {
+          "exact": true,
+          "passed": true,
+          "values": 200
+        },
+        "segment_states": {
+          "exact": false,
+          "max_abs_error": 0.0,
+          "passed": true,
+          "values": 416
+        },
+        "segment_times_s": {
+          "exact": true,
+          "passed": true,
+          "values": 26
+        },
+        "segment_weights": {
+          "exact": false,
+          "max_abs_error": 0.0,
+          "passed": true,
+          "values": 104
+        }
+      },
+      "index": 19,
+      "passed": true,
+      "pathway_id": "neither",
+      "protocol_id": "fig7_reversal",
+      "reference_binding": {
+        "bytes": 1934,
+        "sha256": "dc38ae08bf5b4dd34422c8c641e98219f898363a062b583fbdeb1ffd880453b7"
+      },
+      "reference_file": "reference_19.npz",
+      "source_binding": {
+        "bytes": 1934,
+        "sha256": "dc38ae08bf5b4dd34422c8c641e98219f898363a062b583fbdeb1ffd880453b7"
+      },
+      "source_file": "19_fig7_reversal_neither.npz"
+    },
+    {
+      "checked_values": 1010,
+      "checks": {
+        "observation_segment_indices": {
+          "exact": true,
+          "passed": true,
+          "values": 12
+        },
+        "observation_states": {
+          "exact": false,
+          "max_abs_error": 1.1102230246251565e-16,
+          "passed": true,
+          "values": 192
+        },
+        "observation_times_s": {
+          "exact": true,
+          "passed": true,
+          "values": 12
+        },
+        "observation_weights": {
+          "exact": false,
+          "max_abs_error": 1.955324736759717e-16,
+          "passed": true,
+          "values": 48
+        },
+        "segment_inputs": {
+          "exact": true,
+          "passed": true,
+          "values": 200
+        },
+        "segment_states": {
+          "exact": false,
+          "max_abs_error": 1.1102230246251565e-16,
+          "passed": true,
+          "values": 416
+        },
+        "segment_times_s": {
+          "exact": true,
+          "passed": true,
+          "values": 26
+        },
+        "segment_weights": {
+          "exact": false,
+          "max_abs_error": 1.9339879768183812e-16,
+          "passed": true,
+          "values": 104
+        }
+      },
+      "index": 20,
+      "passed": true,
+      "pathway_id": "both",
+      "protocol_id": "fig7_odor_only",
+      "reference_binding": {
+        "bytes": 2823,
+        "sha256": "3271d2302c6c42ad3868939786684d20fc9cdc7161cb5d4cc3489d4f16a25214"
+      },
+      "reference_file": "reference_20.npz",
+      "source_binding": {
+        "bytes": 2823,
+        "sha256": "8a3497f0858b6aa1acb429313b4a9f46acddd9c23714f8886eadfdccc0a74ab6"
+      },
+      "source_file": "20_fig7_odor_only_both.npz"
+    },
+    {
+      "checked_values": 1010,
+      "checks": {
+        "observation_segment_indices": {
+          "exact": true,
+          "passed": true,
+          "values": 12
+        },
+        "observation_states": {
+          "exact": false,
+          "max_abs_error": 1.1102230246251565e-16,
+          "passed": true,
+          "values": 192
+        },
+        "observation_times_s": {
+          "exact": true,
+          "passed": true,
+          "values": 12
+        },
+        "observation_weights": {
+          "exact": false,
+          "max_abs_error": 1.1102230246251565e-16,
+          "passed": true,
+          "values": 48
+        },
+        "segment_inputs": {
+          "exact": true,
+          "passed": true,
+          "values": 200
+        },
+        "segment_states": {
+          "exact": false,
+          "max_abs_error": 1.1102230246251565e-16,
+          "passed": true,
+          "values": 416
+        },
+        "segment_times_s": {
+          "exact": true,
+          "passed": true,
+          "values": 26
+        },
+        "segment_weights": {
+          "exact": false,
+          "max_abs_error": 1.1102230246251565e-16,
+          "passed": true,
+          "values": 104
+        }
+      },
+      "index": 21,
+      "passed": true,
+      "pathway_id": "da_only",
+      "protocol_id": "fig7_odor_only",
+      "reference_binding": {
+        "bytes": 2373,
+        "sha256": "b04205a5dd1870660d222359ef2f5b899975e3907a7d5269c50a4c1a502e3fca"
+      },
+      "reference_file": "reference_21.npz",
+      "source_binding": {
+        "bytes": 2373,
+        "sha256": "d7cc8af54e1a117527e98c712314213366cbc0c3fc6afa147d43b28d0e3a386e"
+      },
+      "source_file": "21_fig7_odor_only_da_only.npz"
+    },
+    {
+      "checked_values": 1010,
+      "checks": {
+        "observation_segment_indices": {
+          "exact": true,
+          "passed": true,
+          "values": 12
+        },
+        "observation_states": {
+          "exact": false,
+          "max_abs_error": 1.1102230246251565e-16,
+          "passed": true,
+          "values": 192
+        },
+        "observation_times_s": {
+          "exact": true,
+          "passed": true,
+          "values": 12
+        },
+        "observation_weights": {
+          "exact": false,
+          "max_abs_error": 2.220446049250313e-16,
+          "passed": true,
+          "values": 48
+        },
+        "segment_inputs": {
+          "exact": true,
+          "passed": true,
+          "values": 200
+        },
+        "segment_states": {
+          "exact": false,
+          "max_abs_error": 1.1102230246251565e-16,
+          "passed": true,
+          "values": 416
+        },
+        "segment_times_s": {
+          "exact": true,
+          "passed": true,
+          "values": 26
+        },
+        "segment_weights": {
+          "exact": false,
+          "max_abs_error": 2.220446049250313e-16,
+          "passed": true,
+          "values": 104
+        }
+      },
+      "index": 22,
+      "passed": true,
+      "pathway_id": "no_only",
+      "protocol_id": "fig7_odor_only",
+      "reference_binding": {
+        "bytes": 2621,
+        "sha256": "962e326a8de78b04db10467615e21ca9b0e22a36ab668cb388013ef025d1f7e0"
+      },
+      "reference_file": "reference_22.npz",
+      "source_binding": {
+        "bytes": 2621,
+        "sha256": "c0d782f093cd9ba77bd48ad5d6ff7a0b8c17feb22be5140cb852e4ba641c064a"
+      },
+      "source_file": "22_fig7_odor_only_no_only.npz"
+    },
+    {
+      "checked_values": 1010,
+      "checks": {
+        "observation_segment_indices": {
+          "exact": true,
+          "passed": true,
+          "values": 12
+        },
+        "observation_states": {
+          "exact": false,
+          "max_abs_error": 0.0,
+          "passed": true,
+          "values": 192
+        },
+        "observation_times_s": {
+          "exact": true,
+          "passed": true,
+          "values": 12
+        },
+        "observation_weights": {
+          "exact": false,
+          "max_abs_error": 0.0,
+          "passed": true,
+          "values": 48
+        },
+        "segment_inputs": {
+          "exact": true,
+          "passed": true,
+          "values": 200
+        },
+        "segment_states": {
+          "exact": false,
+          "max_abs_error": 0.0,
+          "passed": true,
+          "values": 416
+        },
+        "segment_times_s": {
+          "exact": true,
+          "passed": true,
+          "values": 26
+        },
+        "segment_weights": {
+          "exact": false,
+          "max_abs_error": 0.0,
+          "passed": true,
+          "values": 104
+        }
+      },
+      "index": 23,
+      "passed": true,
+      "pathway_id": "neither",
+      "protocol_id": "fig7_odor_only",
+      "reference_binding": {
+        "bytes": 1931,
+        "sha256": "1f817e34e2b114bcf7570aa8d06fbf02f7e6ad57ea6adae565f28097afc60769"
+      },
+      "reference_file": "reference_23.npz",
+      "source_binding": {
+        "bytes": 1931,
+        "sha256": "1f817e34e2b114bcf7570aa8d06fbf02f7e6ad57ea6adae565f28097afc60769"
+      },
+      "source_file": "23_fig7_odor_only_neither.npz"
+    },
+    {
+      "checked_values": 836,
+      "checks": {
+        "observation_segment_indices": {
+          "exact": true,
+          "passed": true,
+          "values": 12
+        },
+        "observation_states": {
+          "exact": false,
+          "max_abs_error": 2.220446049250313e-16,
+          "passed": true,
+          "values": 192
+        },
+        "observation_times_s": {
+          "exact": true,
+          "passed": true,
+          "values": 12
+        },
+        "observation_weights": {
+          "exact": false,
+          "max_abs_error": 4.440892098500626e-16,
+          "passed": true,
+          "values": 48
+        },
+        "segment_inputs": {
+          "exact": true,
+          "passed": true,
+          "values": 152
+        },
+        "segment_states": {
+          "exact": false,
+          "max_abs_error": 3.3306690738754696e-16,
+          "passed": true,
+          "values": 320
+        },
+        "segment_times_s": {
+          "exact": true,
+          "passed": true,
+          "values": 20
+        },
+        "segment_weights": {
+          "exact": false,
+          "max_abs_error": 6.661338147750939e-16,
+          "passed": true,
+          "values": 80
+        }
+      },
+      "index": 24,
+      "passed": true,
+      "pathway_id": "both",
+      "protocol_id": "fig7_dan_only",
+      "reference_binding": {
+        "bytes": 2845,
+        "sha256": "74d75ca10df55b77786b6d27eacc37f50978fc032dbd5cefed19b478abb5b8bb"
+      },
+      "reference_file": "reference_24.npz",
+      "source_binding": {
+        "bytes": 2845,
+        "sha256": "761761a42631912833dab4a2dd6e9a51ec8774e3d547e0ed5f4c9e4e6aecbb0f"
+      },
+      "source_file": "24_fig7_dan_only_both.npz"
+    },
+    {
+      "checked_values": 836,
+      "checks": {
+        "observation_segment_indices": {
+          "exact": true,
+          "passed": true,
+          "values": 12
+        },
+        "observation_states": {
+          "exact": false,
+          "max_abs_error": 2.220446049250313e-16,
+          "passed": true,
+          "values": 192
+        },
+        "observation_times_s": {
+          "exact": true,
+          "passed": true,
+          "values": 12
+        },
+        "observation_weights": {
+          "exact": false,
+          "max_abs_error": 2.220446049250313e-16,
+          "passed": true,
+          "values": 48
+        },
+        "segment_inputs": {
+          "exact": true,
+          "passed": true,
+          "values": 152
+        },
+        "segment_states": {
+          "exact": false,
+          "max_abs_error": 3.3306690738754696e-16,
+          "passed": true,
+          "values": 320
+        },
+        "segment_times_s": {
+          "exact": true,
+          "passed": true,
+          "values": 20
+        },
+        "segment_weights": {
+          "exact": false,
+          "max_abs_error": 3.3306690738754696e-16,
+          "passed": true,
+          "values": 80
+        }
+      },
+      "index": 25,
+      "passed": true,
+      "pathway_id": "da_only",
+      "protocol_id": "fig7_dan_only",
+      "reference_binding": {
+        "bytes": 2506,
+        "sha256": "796a2d379059f5c1e82901a23e2ad2b199a5ca8174cc85d518cd6fef557c386b"
+      },
+      "reference_file": "reference_25.npz",
+      "source_binding": {
+        "bytes": 2506,
+        "sha256": "8939ff3086362b4e8798b0757d12d34781b681507cf79fb69721e6acbd07fbac"
+      },
+      "source_file": "25_fig7_dan_only_da_only.npz"
+    },
+    {
+      "checked_values": 836,
+      "checks": {
+        "observation_segment_indices": {
+          "exact": true,
+          "passed": true,
+          "values": 12
+        },
+        "observation_states": {
+          "exact": false,
+          "max_abs_error": 1.1102230246251565e-16,
+          "passed": true,
+          "values": 192
+        },
+        "observation_times_s": {
+          "exact": true,
+          "passed": true,
+          "values": 12
+        },
+        "observation_weights": {
+          "exact": false,
+          "max_abs_error": 2.220446049250313e-16,
+          "passed": true,
+          "values": 48
+        },
+        "segment_inputs": {
+          "exact": true,
+          "passed": true,
+          "values": 152
+        },
+        "segment_states": {
+          "exact": false,
+          "max_abs_error": 1.1102230246251565e-16,
+          "passed": true,
+          "values": 320
+        },
+        "segment_times_s": {
+          "exact": true,
+          "passed": true,
+          "values": 20
+        },
+        "segment_weights": {
+          "exact": false,
+          "max_abs_error": 2.220446049250313e-16,
+          "passed": true,
+          "values": 80
+        }
+      },
+      "index": 26,
+      "passed": true,
+      "pathway_id": "no_only",
+      "protocol_id": "fig7_dan_only",
+      "reference_binding": {
+        "bytes": 2539,
+        "sha256": "7bc8327c97b85264c0dda036f7bf57f245fec894fd833b3f6f21d84e4b50bdf9"
+      },
+      "reference_file": "reference_26.npz",
+      "source_binding": {
+        "bytes": 2539,
+        "sha256": "f2aafe0f7ac8bfed0eafb8ef7d249c0fc6e67612fcfb979cf192d1d7c6983fe4"
+      },
+      "source_file": "26_fig7_dan_only_no_only.npz"
+    },
+    {
+      "checked_values": 836,
+      "checks": {
+        "observation_segment_indices": {
+          "exact": true,
+          "passed": true,
+          "values": 12
+        },
+        "observation_states": {
+          "exact": false,
+          "max_abs_error": 0.0,
+          "passed": true,
+          "values": 192
+        },
+        "observation_times_s": {
+          "exact": true,
+          "passed": true,
+          "values": 12
+        },
+        "observation_weights": {
+          "exact": false,
+          "max_abs_error": 0.0,
+          "passed": true,
+          "values": 48
+        },
+        "segment_inputs": {
+          "exact": true,
+          "passed": true,
+          "values": 152
+        },
+        "segment_states": {
+          "exact": false,
+          "max_abs_error": 0.0,
+          "passed": true,
+          "values": 320
+        },
+        "segment_times_s": {
+          "exact": true,
+          "passed": true,
+          "values": 20
+        },
+        "segment_weights": {
+          "exact": false,
+          "max_abs_error": 0.0,
+          "passed": true,
+          "values": 80
+        }
+      },
+      "index": 27,
+      "passed": true,
+      "pathway_id": "neither",
+      "protocol_id": "fig7_dan_only",
+      "reference_binding": {
+        "bytes": 1904,
+        "sha256": "5cecdf01c95fa2dada082d542e8e42646feb7f12ba6f58177017aa28050064e7"
+      },
+      "reference_file": "reference_27.npz",
+      "source_binding": {
+        "bytes": 1904,
+        "sha256": "5cecdf01c95fa2dada082d542e8e42646feb7f12ba6f58177017aa28050064e7"
+      },
+      "source_file": "27_fig7_dan_only_neither.npz"
+    }
+  ],
+  "rtol": 1e-12,
+  "schema": 1,
+  "scope": "Independent source-equation saved-state verification; not behavioral or learning qualification",
+  "status": "completed"
+}

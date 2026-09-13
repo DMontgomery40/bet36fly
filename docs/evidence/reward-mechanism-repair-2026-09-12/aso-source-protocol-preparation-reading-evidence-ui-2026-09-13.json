@@ -1,0 +1,145 @@
+{
+  "agent": "/root/evidence_ui",
+  "created_at_utc": "2026-09-13T14:45:29.441760+00:00",
+  "status": "runner_prepared_source_matrix_unrun",
+  "head": "7698c152825643f6b2dccd30d1903738a30d6c74",
+  "release": [
+    {
+      "path": "output/collaboration/reward-mechanism-repair/run_aso_source_protocol.py",
+      "bytes": 16464,
+      "sha256": "da4389770e475089668568a0a51707b70e8f5f5cc600924cb25d94bfa7ef3fb2"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/test_run_aso_source_protocol.py",
+      "bytes": 12265,
+      "sha256": "b5846aed80116d94e039426f22051d7a44594dda466340441ddcadabb8a8077b"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/aso_da_no.py",
+      "bytes": 6257,
+      "sha256": "d43351281854ff2700c10b573a8c22a725f9fee226d083c6363e6436e1285111"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/aso-source-protocol-plan-2026-09-13.json",
+      "bytes": 8254,
+      "sha256": "55f9ad550052125e2715003eb44d90f509fa55014144b872ca48812ba60d67a4"
+    }
+  ],
+  "validation": {
+    "passed": 87,
+    "seconds": 0.19,
+    "scope": "Toy schedules and injected persistence/identity failures only; official matrix is read as metadata and never numerically evaluated by these tests.",
+    "ruff": "Both writer files passed after formatting.",
+    "logs": [
+      {
+        "path": "output/collaboration/reward-mechanism-repair/aso-source-protocol-writer-red-2026-09-13.txt",
+        "bytes": 1085,
+        "sha256": "f678ecded54dd7a0a81d5264acfbb9e90c8d3da821140ae904fd89c50edcea82"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/aso-source-protocol-writer-first-green-2026-09-13.txt",
+        "bytes": 179,
+        "sha256": "69d65d2be49cc2d00b35c13de92cc7caff75a4db22e75c4e109fc4bd78f0fbdb"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/aso-source-protocol-binding-red-2026-09-13.txt",
+        "bytes": 1622,
+        "sha256": "07a3cc86840803a6abf1f1127ec6feada9effe605f0fa24a0ee156c3ae2daab2"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/aso-source-protocol-writer-green-2026-09-13.txt",
+        "bytes": 179,
+        "sha256": "aa09425627f3383c2d45b9c17fefad3e904c872a4c390da3f2489d5290a082ef"
+      }
+    ],
+    "preservation": "These are observed red/green test logs. Initial pre-fix producer bytes were not separately saved; no claim otherwise.",
+    "resolved_defect": "Parsed protocol values must match the bound frozen plan bytes before output creation or calculation; tested with actual plan metadata and forbidden numerical evaluation.",
+    "independent_review": "Separate saved-result checker under peer ownership; no actual result exists yet.",
+    "standard_verify": "Parent owns active standard gate and final canonical focused acceptance; no duplicate full suite here."
+  },
+  "contract": {
+    "case_order": "7 frozen protocols in declared order, each followed by both/da_only/no_only/neither:28 cases",
+    "classes": [
+      "a_only",
+      "b_only",
+      "shared",
+      "neither"
+    ],
+    "states": [
+      "d",
+      "n",
+      "D",
+      "N"
+    ],
+    "clock": "seconds; exact source rates/taus; stimulus-boundary integration from zero once per case; no reset between segments",
+    "observations": "test start/end-minus30/end; instantaneous finite states, no time-average or PI; right-sided containing-segment index with final endpoint clipped to last segment",
+    "trajectory_invariance": "Observations evaluated independently from saved containing-segment starts; their state is never fed back into the trajectory.",
+    "saved_arrays": "segment_times_s F64[n+1],segment_inputs bool[n,4,2],segment_states F64[n+1,4,4],segment_weights F64[n+1,4],observation_times_s F64[tests,3],observation_states F64[tests,3,4,4],observation_weights F64[tests,3,4],observation_segment_indices int64[tests,3]",
+    "lifecycle": "Exclusive directory, exact plan.json, one case NPZ at a time with reread/domain validation, ordered status/hash rows, durable failed status and prior completed cases. Root external30second cap plus child checks. No generic launcher.",
+    "source_interpretation": "Continuous experimental DAN activity envelopes; uniform Figure7 minute grid explicitly corrects duplicate20; both are declared conventions. Added neither-pathway and four-class representation are analytical controls, not additional biological experiments."
+  },
+  "reading": {
+    "prior": {
+      "path": "output/collaboration/reward-mechanism-repair/aso-da-no-final-reading-ui-review-evidence-ui-2026-09-13.json",
+      "bytes": 5552,
+      "sha256": "9e3f4ce6efd9f43a51879602a98d29693036fc339f61844bae3d57f8ec46e7f5"
+    },
+    "current_narrative_count": 215,
+    "same_hash_prior_count": 213,
+    "new_or_changed_fully_read": [
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-da-no-finite-source-protocol-dopamine-sources-2026-09-13.md",
+        "bytes": 8442,
+        "sha256": "510658ac87bb3eece60a2cf8065be1062998bb7966127d7eb1a64351975f7212"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-da-no-protocol-independent-design-delivered-arrivals-2026-09-13.md",
+        "bytes": 13290,
+        "sha256": "3dbb5550cd825e4109fb6bf01eb15b50cf2fbd0d563ac7e59d1b5c0c913580de"
+      }
+    ],
+    "inventory_sha256": "4f9921b4e81bcc22a4b764330d480e4f4c21e135d63f0e38aa5edc6b5546ef71",
+    "unread": [],
+    "primary_figures_personally_viewed": [
+      {
+        "path": "output/collaboration/reward-mechanism-repair/aso-source-protocol-primary-2026-09-13/page-27.png",
+        "bytes": 291256,
+        "sha256": "18d4963c023fbdc2866bd0650edac6bdbd0a2471ce269db1d6687dc659f151d4"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/aso-source-protocol-primary-2026-09-13/page-29.png",
+        "bytes": 204389,
+        "sha256": "ba21a2b2669dbb88c686fc56a3c5dc4020c19f933e9e1603c42651ce553b4548"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/aso-source-protocol-primary-2026-09-13/page-31.png",
+        "bytes": 275686,
+        "sha256": "ae313cacd787979408ec05a13c3fb19badfb7052c13fb7ac948aa0276048bb37"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/aso-source-protocol-primary-2026-09-13/page-32.png",
+        "bytes": 104832,
+        "sha256": "42f74ac36ff9da33306283f9502e11a0fa80178c2558be26da3ceed5b90e4334"
+      }
+    ],
+    "pdf_identity": {
+      "path": "output/collaboration/reward-mechanism-repair/aso-source-protocol-primary-2026-09-13/elife-49257-figures-v3.pdf",
+      "bytes": 5693198,
+      "sha256": "19fdc72e1175362926b56f2dad0f86d72b3c6036bbf1a876c6ee6fbc3008f5e4"
+    },
+    "scope": "All215 current narrative paths reconcile to completed prior213 personal reading plus both full final new reports. Read entire frozen JSON. Viewed actual Figure6/7/8/supplement renders; prior source Methods/correction reading retained. Final source report28cases/instantaneous observations supersedes its earlier12case/window-average recommendation."
+  },
+  "integration_continuity": {
+    "production_api_ui_changed_paths": [],
+    "remaining_obstacles": "Current native resets electrical/filter state and old bridge tail per call; checkpoints carry onlyF32gains. Four-state persistence, actual-spike mapping, finite observation, sourceweight-to-edgegain relation and compartment scope are not selected. Old .5/1.5 gain bounds, eta, onset, masks and quiet-tail formula are not imported.",
+    "status": "Current failed qualification/not_run_gate_failed remains accurate; no new browser or learning claim."
+  },
+  "execution": {
+    "official_28_case_matrix": 0,
+    "native_or_circuit": 0,
+    "saved_histories": 0,
+    "fit": 0,
+    "network": 0,
+    "production_edits": 0
+  }
+}

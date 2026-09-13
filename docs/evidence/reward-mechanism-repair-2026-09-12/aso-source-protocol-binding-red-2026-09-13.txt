@@ -1,0 +1,22 @@
+.F                                                                       [100%]
+=================================== FAILURES ===================================
+____ test_loaded_declaration_must_match_bound_plan_bytes_before_calculation ____
+
+api = <module 'run_aso_source_protocol' from '/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/run_aso_source_protocol.py'>
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1734/test_loaded_declaration_must_m0')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x10b6118b0>
+
+    def test_loaded_declaration_must_match_bound_plan_bytes_before_calculation(api,tmp_path,monkeypatch):
+        path=Path(__file__).with_name("aso-source-protocol-plan-2026-09-13.json")
+        p=api.load_frozen_plan(path);p["protocols"][0]["duration_s"]+=1
+        def forbidden(*args,**kwargs):
+            raise AssertionError("No source protocol calculation is authorized in this test")
+        monkeypatch.setattr(api,"calculate_case",forbidden)
+>       with pytest.raises(ValueError):api._run(p,tmp_path/'result',plan_path=path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE ValueError
+
+output/collaboration/reward-mechanism-repair/test_run_aso_source_protocol.py:220: Failed
+=========================== short test summary info ============================
+FAILED output/collaboration/reward-mechanism-repair/test_run_aso_source_protocol.py::test_loaded_declaration_must_match_bound_plan_bytes_before_calculation
+1 failed, 1 passed, 85 deselected in 4.24s

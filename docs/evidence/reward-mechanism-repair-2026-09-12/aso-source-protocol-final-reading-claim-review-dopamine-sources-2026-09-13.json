@@ -1,0 +1,205 @@
+{
+  "schema": 1,
+  "agent": "dopamine_sources",
+  "at_utc": "2026-09-13T15:10:35.930436+00:00",
+  "status": "passed",
+  "scope": "Read-only final scientific prose and narrative-reading closeout; goal paused. No source, neural, candidate, audit, fit, research or sensory execution.",
+  "prior_complete_personal_reading_receipt": {
+    "path": "output/collaboration/reward-mechanism-repair/aso-da-no-finite-source-protocol-reading-dopamine-sources-2026-09-13.json",
+    "bytes": 8900,
+    "sha256": "d0704243afb25132907fc0b7e58e784b1ae34291527cd6b62345a363af406543"
+  },
+  "reading": {
+    "prior_narratives": 215,
+    "current_narratives": 221,
+    "unchanged_personally_read_narratives": 196,
+    "changed_personally_read_deltas": 19,
+    "new_personally_read_full_narratives": 6,
+    "current_inventory_sha256": "2d0eb4e874782716f73639dff37d0b62f52fa2fbc71562d3a473cdb0aea770ab",
+    "personally_read_final_pages_or_deltas": [
+      {
+        "path": "AGENTS.md",
+        "bytes": 8386,
+        "sha256": "3fe7ec026c125608c5ac03875da92ece520331c7a2b0f5a7e97c387054df8f1a"
+      },
+      {
+        "path": "README.md",
+        "bytes": 16206,
+        "sha256": "145ab50bddd883bbb000f1b5cf4e76ef7a9ecd1372caa1f08c490b474edeab76"
+      },
+      {
+        "path": "docs/EXPERIMENT_REWARD.md",
+        "bytes": 13285,
+        "sha256": "568953ca9334fd6d70e7d0d5819be9e7579c7319cfba5e3ae18da86c1136f821"
+      },
+      {
+        "path": "docs/FLY_GUIDE.md",
+        "bytes": 26200,
+        "sha256": "8d02089c1c85a78453dbbb65492969d69830e5cfe533453f23bb394ac712750c"
+      },
+      {
+        "path": "docs/MODEL_CARD.md",
+        "bytes": 28836,
+        "sha256": "27263917e0a0f7979c0d9a8d81d293fbf68d3a348802bdb698362acbcb8fe773"
+      },
+      {
+        "path": "docs/NATURAL_SENSORY_HANDOFF.md",
+        "bytes": 8572,
+        "sha256": "77576d0bfb66b51c03ea65e7800f399e3be1997e1b59c0b1b3a6db0413c3aac3"
+      },
+      {
+        "path": "docs/PROJECT_DIRECTION.md",
+        "bytes": 8110,
+        "sha256": "86c9c2fbddeea89e74a74ec0a509ee1dbc2a6e9d27ff2af9428e71374d7e453c"
+      },
+      {
+        "path": "docs/REWARD_REPAIR_HANDOFF.md",
+        "bytes": 70947,
+        "sha256": "07ed3c37a4c904bac748ec25881c2251042e7c1713ce3b840717fd10d07fe7e7"
+      },
+      {
+        "path": "docs/ROADMAP.md",
+        "bytes": 16694,
+        "sha256": "1b16c5729c3926a5a6d2a187a27f0ece6b5e196355e57ad195d4c6925e51e58e"
+      },
+      {
+        "path": "docs/evidence/natural-sensory-reorientation-2026-09-13/index.md",
+        "bytes": 7013,
+        "sha256": "1acbd86661552d0224049ecf420c1133ea253ac435f198c32a1a2b0afcdb91a0"
+      },
+      {
+        "path": "docs/evidence/natural-sensory-reorientation-2026-09-13/verification.md",
+        "bytes": 2480,
+        "sha256": "76908f6947caa70a23498ece6dc8629c52e71a98c5c988f9fd2305bca5fc426f"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-result-2026-09-13.md",
+        "bytes": 9160,
+        "sha256": "30943d801c6f66978333256ccd1e316fcee266ff5b06f20c38deb474dd5d1067"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/index.md",
+        "bytes": 26865,
+        "sha256": "b2131a319ab6d81d5d461558e4a8338eda30e217f7d81b3d7f42a3412f1ab4ca"
+      },
+      {
+        "path": "wiki/SCHEMA.md",
+        "bytes": 2694,
+        "sha256": "e454b898a6a2d85391910ee8b4660087f21f2db104371c885376988b04b9f226"
+      },
+      {
+        "path": "wiki/cells/alpn.md",
+        "bytes": 3246,
+        "sha256": "ca3b061756db82714b9ca27e056d166fbf707bc6ebe002ccbf91a2f8214a9dd0"
+      },
+      {
+        "path": "wiki/cells/cyclic-nucleotide-plasticity.md",
+        "bytes": 4955,
+        "sha256": "a8ae8a2df1444dd1148dda09a0ee51f9de966bc10138cc32d6dfc0ca9a92be8a"
+      },
+      {
+        "path": "wiki/cells/dopamine-receptor-signaling.md",
+        "bytes": 9202,
+        "sha256": "f33567b2f715ddac736bdc57a1549113222a5d445c268b9161caeff13801e215"
+      },
+      {
+        "path": "wiki/evidence-gates.md",
+        "bytes": 5874,
+        "sha256": "992d9bc720ba9819c91b23c14dfd0f49c23b82af58d948e05c1d03cb96dbfd3a"
+      },
+      {
+        "path": "wiki/index.md",
+        "bytes": 4314,
+        "sha256": "4fa36b3364e95748a155dccd80bbcd46620dbf6474084f8da0e2edb04f4096fa"
+      },
+      {
+        "path": "wiki/learning-rule.md",
+        "bytes": 9373,
+        "sha256": "a2cdaebe1fec714200daba114d0b9ba6502aab5914677659a9c6d7dafe5ffd93"
+      },
+      {
+        "path": "wiki/log.md",
+        "bytes": 3693,
+        "sha256": "1d84ce45c71da979de6a4d7bbf9abbf2782467d7939c8d54be1a601facba7931"
+      },
+      {
+        "path": "wiki/natural-sensory-inputs.md",
+        "bytes": 8694,
+        "sha256": "02d5ff37b00b9a864b88e7e0b52b3889001e9d6e8ed6b10f2a7925563bb66868"
+      },
+      {
+        "path": "wiki/reassessment.md",
+        "bytes": 17680,
+        "sha256": "2648537ca9227dd1159443dc93748a1dbb1ea852a5e439190336e8af5bd24d87"
+      },
+      {
+        "path": "wiki/sources.md",
+        "bytes": 4808,
+        "sha256": "4c9d79d5ceb5bf1b7850be281cbb8a434b812d6ca031e3b2cd047d0999cae2d2"
+      },
+      {
+        "path": "wiki/verification.md",
+        "bytes": 8299,
+        "sha256": "76631f6f67a1602e8f863ae9c31669d0162e2458bb986e6b2f73ce4ca287ac34"
+      }
+    ],
+    "extra_personally_read": {
+      "path": "CLAUDE.md",
+      "bytes": 23,
+      "sha256": "d6303e7f16f15cca06e5029b6617e3e74f9fd25eb5947fe5374dd71dd3978d99"
+    },
+    "method": "Reconciled the complete actual-reading chain by exact hashes. Personally read all changed text against previously fully read pages; fully read all six new narratives. Root AGENTS, PROJECT_DIRECTION and NATURAL_SENSORY_HANDOFF were fully read earlier in this closeout at the same current hashes. The current expanded natural-sensory verification page and full Aso result were read before sealing. Inventory alone grants no reading credit.",
+    "unread_deltas": []
+  },
+  "saved_evidence_checked": [
+    {
+      "path": "output/collaboration/reward-mechanism-repair/aso-source-protocol-saved-interpretation-dopamine-sources-2026-09-13.json",
+      "bytes": 29976,
+      "sha256": "242803306a9a75b4fc1e1b0e663e158f9f992d3e0e0cb845aa994a684de50a71"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-observations-2026-09-13.csv",
+      "bytes": 66833,
+      "sha256": "d3fcd9d6ecb01e28ab723bc39316ac8e77a8af068fb879d90b81bcefb098d570"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-saved-review-delivered-arrivals-2026-09-13.json",
+      "bytes": 45483,
+      "sha256": "0a0e7f7dae4bc23f31af2c20ebc14977493427349f1b181814974623ff68e244"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-canonical-writer-tests-2026-09-13.txt",
+      "bytes": 179,
+      "sha256": "aa09425627f3383c2d45b9c17fefad3e904c872a4c390da3f2489d5290a082ef"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-canonical-checker-tests-2026-09-13.txt",
+      "bytes": 99,
+      "sha256": "3e88b93c3b6e7afd4fa9d97754a177622f88e346bd6cc8640510c1161e5d48b0"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-protected-2026-09-13.json",
+      "bytes": 353,
+      "sha256": "de6db40653bc8c8503fd55b92e153b367f72dbf458d5b37bb9fd6694e968814f"
+    }
+  ],
+  "claim_checks": {
+    "source_scope": "Correctly describes an equation reimplementation under an explicit Figure 7 axis correction and continuous activity envelopes, not executed author code, behavioral PI or measured spike transfer.",
+    "observations": "All 768 CSV rows have unique protocol/pathway/test/sample/class keys. Displayed acquisition values, all 12 reversal contrasts, follow-up examples and exact naive/neither nulls agree with saved CSV at the displayed nine-decimal precision. Only passive CSV arithmetic occurred.",
+    "scientific_cautions": "NO-only ordering has not reversed at the final sample. Odor-only preserves latent states while expression evolves; DAN-only NO expression initially rises. The final prose preserves each distinction.",
+    "numerical_evidence": "The retained independent saved review supports 28 cases, 15,600 paired saved values, maximum absolute error 6.661338147750939e-16, zero-initial/null domains and factorization. This review does not rerun that computation.",
+    "verification_attribution": "Read retained 87-runner and 43-checker test logs and 760-file/4,351,175,626-byte protection receipt. Full standard verification is attributed to root, not newly run by this reviewer.",
+    "biological_boundaries": "No claim of MaleCNS learning, conditioning, natural food response, NO assignment to PAM12 or repaired legacy qualification. Four classes remain analytical and instantaneous test samples remain distinct from behavioral window averages.",
+    "direction": "Natural sensory calibration is the documented future priority and remains unimplemented. This closeout starts no assay or molecular transfer while the goal is paused. Newly added sensory source claims were read for scope; no independent new source retrieval or source-data audit is represented.",
+    "closeout_inventory": "The final aggregate closeout JSON is parent-owned pending assembly of these receipts; it is not claimed completed by this review."
+  },
+  "findings": [],
+  "operations": {
+    "model_runs": 0,
+    "circuit_runs": 0,
+    "audit_reruns": 0,
+    "network_requests": 0,
+    "shared_document_edits": 0,
+    "new_file": "This unique output-only JSON; all existing receipts preserved."
+  }
+}

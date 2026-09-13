@@ -1,0 +1,62 @@
+{
+  "copied_at": "2026-09-13T14:36:23.072774+00:00",
+  "scope": "Frozen source plan, reviews and primary figure evidence before protocol execution; rendered PNG pages remain output-only intermediates.",
+  "files": [
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-plan-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-plan-2026-09-13.json",
+      "bytes": 8254,
+      "sha256": "55f9ad550052125e2715003eb44d90f509fa55014144b872ca48812ba60d67a4",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-da-no-finite-source-protocol-dopamine-sources-2026-09-13.md",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-da-no-finite-source-protocol-dopamine-sources-2026-09-13.md",
+      "bytes": 8442,
+      "sha256": "510658ac87bb3eece60a2cf8065be1062998bb7966127d7eb1a64351975f7212",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-da-no-protocol-independent-design-delivered-arrivals-2026-09-13.md",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-da-no-protocol-independent-design-delivered-arrivals-2026-09-13.md",
+      "bytes": 13290,
+      "sha256": "3dbb5550cd825e4109fb6bf01eb15b50cf2fbd0d563ac7e59d1b5c0c913580de",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-figure7-axis-audit-delivered-arrivals-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-figure7-axis-audit-delivered-arrivals-2026-09-13.json",
+      "bytes": 8034,
+      "sha256": "99779202daf7ddb9daca2ec6dd913af957499ef9ee65b700415b7003b636003b",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-primary-2026-09-13/article-api.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-primary-2026-09-13/article-api.json",
+      "bytes": 293591,
+      "sha256": "c2a504225b6b78feade1ad08f4da1beacc89fbde0406783038de5347da7ef521",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-primary-2026-09-13/article-api-retrieval.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-primary-2026-09-13/article-api-retrieval.json",
+      "bytes": 304,
+      "sha256": "3ffc50e16f111d98e78889e0f12f2d0eddb535af38394d3320d38b849dc541ce",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-primary-2026-09-13/elife-49257-figures-v3.pdf",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-primary-2026-09-13/elife-49257-figures-v3.pdf",
+      "bytes": 5693198,
+      "sha256": "19fdc72e1175362926b56f2dad0f86d72b3c6036bbf1a876c6ee6fbc3008f5e4",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-source-protocol-primary-2026-09-13/figures-pdf-retrieval.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-primary-2026-09-13/figures-pdf-retrieval.json",
+      "bytes": 325,
+      "sha256": "01c5a5e6eb5e28679c6504c4c2cd105cd5a5d3723a97700b17c68954fdefef8b",
+      "original_retained": true
+    }
+  ]
+}

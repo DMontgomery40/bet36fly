@@ -1,0 +1,127 @@
+{
+  "identity": "aso-source-protocol-e54b736d2730d5bc67a5",
+  "starting_commit": "7698c15",
+  "created_at": "2026-09-13T14:52:31.837296+00:00",
+  "scope": "Declared source-equation28-case matrix; no native/historical call, fit or behavioral PI.",
+  "bindings": {
+    "aso-source-protocol-plan-2026-09-13.json": {
+      "bytes": 8254,
+      "sha256": "55f9ad550052125e2715003eb44d90f509fa55014144b872ca48812ba60d67a4"
+    },
+    "run_aso_source_protocol.py": {
+      "bytes": 16464,
+      "sha256": "da4389770e475089668568a0a51707b70e8f5f5cc600924cb25d94bfa7ef3fb2"
+    },
+    "aso_da_no.py": {
+      "bytes": 6257,
+      "sha256": "d43351281854ff2700c10b573a8c22a725f9fee226d083c6363e6436e1285111"
+    },
+    "audit_aso_source_protocol.py": {
+      "bytes": 20747,
+      "sha256": "c8787bc4d51ced636296bf1f7033b53075692c52cfb547dc57e0679415da14fa"
+    },
+    "aso_da_no_reference.py": {
+      "bytes": 4050,
+      "sha256": "9b162ab64f14ace56d10bbbb123219c7683a62c932e89996ca6e1018989d56d4"
+    },
+    "test_run_aso_source_protocol.py": {
+      "bytes": 12265,
+      "sha256": "b5846aed80116d94e039426f22051d7a44594dda466340441ddcadabb8a8077b"
+    },
+    "test_audit_aso_source_protocol.py": {
+      "bytes": 16707,
+      "sha256": "9023e31087b1d9dd9d2181207e1a789f0b5133c77b41c79eefb0def28712e3d2"
+    },
+    "aso-da-no-component-contract-2026-09-13.md": {
+      "bytes": 4535,
+      "sha256": "96116a7d1192634c89868192b17197dbfb92766a5ab1e45a8ad085d739f65a9a"
+    },
+    "aso-da-no-finite-source-protocol-dopamine-sources-2026-09-13.md": {
+      "bytes": 8442,
+      "sha256": "510658ac87bb3eece60a2cf8065be1062998bb7966127d7eb1a64351975f7212"
+    },
+    "aso-da-no-protocol-independent-design-delivered-arrivals-2026-09-13.md": {
+      "bytes": 13290,
+      "sha256": "3dbb5550cd825e4109fb6bf01eb15b50cf2fbd0d563ac7e59d1b5c0c913580de"
+    },
+    "aso-figure7-axis-audit-delivered-arrivals-2026-09-13.json": {
+      "bytes": 8034,
+      "sha256": "99779202daf7ddb9daca2ec6dd913af957499ef9ee65b700415b7003b636003b"
+    },
+    "aso-source-protocol-primary-2026-09-13/article-api.json": {
+      "bytes": 293591,
+      "sha256": "c2a504225b6b78feade1ad08f4da1beacc89fbde0406783038de5347da7ef521"
+    },
+    "aso-source-protocol-primary-2026-09-13/elife-49257-figures-v3.pdf": {
+      "bytes": 5693198,
+      "sha256": "19fdc72e1175362926b56f2dad0f86d72b3c6036bbf1a876c6ee6fbc3008f5e4"
+    },
+    "intracellular-primary-2026-09-13/PMC6948953.xml": {
+      "bytes": 362167,
+      "sha256": "7d99cb88bbfa1af65c13b82d4d5f4d2c06b212fda1f01f73d15b41db0551049a"
+    },
+    "intracellular-primary-2026-09-13/PMC7581427.xml": {
+      "bytes": 8118,
+      "sha256": "95e5319db520c3eade785941412a461ac3f684e9e5dc03e700e3120a2fa994e4"
+    }
+  },
+  "status": "completed",
+  "executions": [
+    {
+      "role": "producer",
+      "command": [
+        "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/.venv/bin/python",
+        "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/docs/evidence/reward-mechanism-repair-2026-09-12/run_aso_source_protocol.py",
+        "--plan",
+        "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-plan-2026-09-13.json",
+        "--output",
+        "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5"
+      ],
+      "pid": 28497,
+      "returncode": 0,
+      "reaped": true,
+      "elapsed_seconds": 0.13743416592478752,
+      "timeout_seconds": 30,
+      "timed_out": false,
+      "stdout": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-producer.stdout.txt",
+      "stderr": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-producer.stderr.txt",
+      "inputs_unchanged": true
+    },
+    {
+      "role": "independent",
+      "command": [
+        "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/.venv/bin/python",
+        "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/docs/evidence/reward-mechanism-repair-2026-09-12/audit_aso_source_protocol.py",
+        "--plan",
+        "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-plan-2026-09-13.json",
+        "--result",
+        "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5",
+        "--output",
+        "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-audit"
+      ],
+      "pid": 28498,
+      "returncode": 0,
+      "reaped": true,
+      "elapsed_seconds": 0.3336970000527799,
+      "timeout_seconds": 60,
+      "timed_out": false,
+      "stdout": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-independent.stdout.txt",
+      "stderr": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-independent.stderr.txt",
+      "inputs_unchanged": true
+    }
+  ],
+  "result_path": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5",
+  "audit_path": "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-audit",
+  "finished_at": "2026-09-13T14:52:32.323880+00:00",
+  "inputs_unchanged": true,
+  "terminal_files": {
+    "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5/status.json": {
+      "bytes": 6498,
+      "sha256": "f4d4be977709607f80ebb28e35ada014d41bb29c3a126550d932943c1075b314"
+    },
+    "output/collaboration/reward-mechanism-repair/aso-source-protocol-e54b736d2730d5bc67a5-audit/audit.json": {
+      "bytes": 51889,
+      "sha256": "2927c8c556843d9b5ef46fcbb9569bb7011393aa6121af097ed0e62e71125569"
+    }
+  }
+}

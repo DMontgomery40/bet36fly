@@ -1,0 +1,244 @@
+{
+  "agent": "delivered_arrivals",
+  "claims_checked": [
+    "Every rounded Figure6 endpoint, Figure7 reversal table cell, and odor-only/DAN-only value in final result agrees with exact retained values.",
+    "NO-only reversal remains incomplete at the final sample. Odor-only latent states stay fixed while expression continues; DAN-only expressed NO can initially rise, so no immediate-erasure claim is made.",
+    "Initial/null states, [0,1] state domain, [0,2] weight domain, exact algebraic weight map, source schedules and pathway factorization passed complete saved-array review.",
+    "One producer and one independent execution completed28/28, exit0 and reaped, under30/60 seconds; no rerun.",
+    "Read root logs confirming87 runner/43 checker tests and full4055 Python,2 warnings,Ruff,103 frontend,Vite build. These are inherited executed checks, not new tests run by this saved-result review.",
+    "Read protected receipt reporting760 baseline files/4351175626 bytes unchanged; no independent whole-workspace protection claim.",
+    "The source result and wiki distinguish source equations from biology, retain fixed rates and declared Figure7 interpretation, preserve legacy scientific HOLD/masks/gains, and prioritize natural sensory work."
+  ],
+  "created_at_utc": "2026-09-13T15:08:06.059016+00:00",
+  "material_findings": [],
+  "observation_table": {
+    "all_case_test_sample_class_labels_and_order": "exact",
+    "canonical": {
+      "bytes": 66833,
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-observations-2026-09-13.csv",
+      "sha256": "d3fcd9d6ecb01e28ab723bc39316ac8e77a8af068fb879d90b81bcefb098d570"
+    },
+    "method": "All rows compared directly to hash-verified saved source observation arrays, including time,d,n,D,N,weight. No state trajectory or source helper evaluated.",
+    "numeric_values_compared_exactly": 4608,
+    "original": {
+      "bytes": 66833,
+      "path": "output/collaboration/reward-mechanism-repair/aso-source-protocol-observations-2026-09-13.csv",
+      "sha256": "d3fcd9d6ecb01e28ab723bc39316ac8e77a8af068fb879d90b81bcefb098d570"
+    },
+    "rows": 768
+  },
+  "operations": {
+    "earlier_receipt_edits": 0,
+    "fits": 0,
+    "native_calls": 0,
+    "production_or_shared_narrative_edits": 0,
+    "source_or_checker_or_reference_dynamics_runs": 0
+  },
+  "preservation": "Earlier frozen preparation and saved-review receipts are unchanged. Preparation receipt is transparently late; no pre-dispatch clearance is inferred from its timestamp.",
+  "reading": {
+    "concurrency_boundary": "Exact current snapshot includes the other writer completed natural-sensory verification note; future edits are outside this reading receipt.",
+    "current_narrative_count": 221,
+    "inventory_definition": "AGENTS.md, README.md, all docs/**/*.md and wiki/**/*.md. Exact byte aliases used only after actual prior reading.",
+    "inventory_sha256": "2d0eb4e874782716f73639dff37d0b62f52fa2fbc71562d3a473cdb0aea770ab",
+    "personally_read_deltas": [
+      {
+        "bytes": 16206,
+        "method": "Complete current Git delta personally read against exact previously read 7698c15 base.",
+        "path": "README.md",
+        "sha256": "145ab50bddd883bbb000f1b5cf4e76ef7a9ecd1372caa1f08c490b474edeab76"
+      },
+      {
+        "bytes": 13285,
+        "method": "Complete current Git delta personally read against exact previously read 7698c15 base.",
+        "path": "docs/EXPERIMENT_REWARD.md",
+        "sha256": "568953ca9334fd6d70e7d0d5819be9e7579c7319cfba5e3ae18da86c1136f821"
+      },
+      {
+        "bytes": 26200,
+        "method": "Complete current Git delta personally read against exact previously read 7698c15 base.",
+        "path": "docs/FLY_GUIDE.md",
+        "sha256": "8d02089c1c85a78453dbbb65492969d69830e5cfe533453f23bb394ac712750c"
+      },
+      {
+        "bytes": 28836,
+        "method": "Complete current Git delta personally read against exact previously read 7698c15 base.",
+        "path": "docs/MODEL_CARD.md",
+        "sha256": "27263917e0a0f7979c0d9a8d81d293fbf68d3a348802bdb698362acbcb8fe773"
+      },
+      {
+        "bytes": 70947,
+        "method": "Complete current Git delta personally read against exact previously read 7698c15 base.",
+        "path": "docs/REWARD_REPAIR_HANDOFF.md",
+        "sha256": "07ed3c37a4c904bac748ec25881c2251042e7c1713ce3b840717fd10d07fe7e7"
+      },
+      {
+        "bytes": 16694,
+        "method": "Complete current Git delta personally read against exact previously read 7698c15 base.",
+        "path": "docs/ROADMAP.md",
+        "sha256": "1b16c5729c3926a5a6d2a187a27f0ece6b5e196355e57ad195d4c6925e51e58e"
+      },
+      {
+        "bytes": 7013,
+        "method": "Complete new narrative personally read; shortened sensory page and completed verification page reread in full.",
+        "path": "docs/evidence/natural-sensory-reorientation-2026-09-13/index.md",
+        "sha256": "1acbd86661552d0224049ecf420c1133ea253ac435f198c32a1a2b0afcdb91a0"
+      },
+      {
+        "bytes": 2480,
+        "method": "Complete new narrative personally read; shortened sensory page and completed verification page reread in full.",
+        "path": "docs/evidence/natural-sensory-reorientation-2026-09-13/verification.md",
+        "sha256": "76908f6947caa70a23498ece6dc8629c52e71a98c5c988f9fd2305bca5fc426f"
+      },
+      {
+        "bytes": 9160,
+        "method": "Complete new narrative personally read; shortened sensory page and completed verification page reread in full.",
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-source-protocol-result-2026-09-13.md",
+        "sha256": "30943d801c6f66978333256ccd1e316fcee266ff5b06f20c38deb474dd5d1067"
+      },
+      {
+        "bytes": 26865,
+        "method": "Complete current Git delta personally read against exact previously read 7698c15 base.",
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/index.md",
+        "sha256": "b2131a319ab6d81d5d461558e4a8338eda30e217f7d81b3d7f42a3412f1ab4ca"
+      },
+      {
+        "bytes": 2694,
+        "method": "Complete current Git delta personally read against exact previously read 7698c15 base.",
+        "path": "wiki/SCHEMA.md",
+        "sha256": "e454b898a6a2d85391910ee8b4660087f21f2db104371c885376988b04b9f226"
+      },
+      {
+        "bytes": 3246,
+        "method": "Complete current Git delta personally read against exact previously read 7698c15 base.",
+        "path": "wiki/cells/alpn.md",
+        "sha256": "ca3b061756db82714b9ca27e056d166fbf707bc6ebe002ccbf91a2f8214a9dd0"
+      },
+      {
+        "bytes": 4955,
+        "method": "Complete current Git delta personally read against exact previously read 7698c15 base.",
+        "path": "wiki/cells/cyclic-nucleotide-plasticity.md",
+        "sha256": "a8ae8a2df1444dd1148dda09a0ee51f9de966bc10138cc32d6dfc0ca9a92be8a"
+      },
+      {
+        "bytes": 9202,
+        "method": "Complete current Git delta personally read against exact previously read 7698c15 base.",
+        "path": "wiki/cells/dopamine-receptor-signaling.md",
+        "sha256": "f33567b2f715ddac736bdc57a1549113222a5d445c268b9161caeff13801e215"
+      },
+      {
+        "bytes": 5874,
+        "method": "Complete current Git delta personally read against exact previously read 7698c15 base.",
+        "path": "wiki/evidence-gates.md",
+        "sha256": "992d9bc720ba9819c91b23c14dfd0f49c23b82af58d948e05c1d03cb96dbfd3a"
+      },
+      {
+        "bytes": 4314,
+        "method": "Complete current Git delta personally read against exact previously read 7698c15 base.",
+        "path": "wiki/index.md",
+        "sha256": "4fa36b3364e95748a155dccd80bbcd46620dbf6474084f8da0e2edb04f4096fa"
+      },
+      {
+        "bytes": 9373,
+        "method": "Complete current Git delta personally read against exact previously read 7698c15 base.",
+        "path": "wiki/learning-rule.md",
+        "sha256": "a2cdaebe1fec714200daba114d0b9ba6502aab5914677659a9c6d7dafe5ffd93"
+      },
+      {
+        "bytes": 3693,
+        "method": "Complete current Git delta personally read against exact previously read 7698c15 base.",
+        "path": "wiki/log.md",
+        "sha256": "1d84ce45c71da979de6a4d7bbf9abbf2782467d7939c8d54be1a601facba7931"
+      },
+      {
+        "bytes": 8694,
+        "method": "Complete new narrative personally read; shortened sensory page and completed verification page reread in full.",
+        "path": "wiki/natural-sensory-inputs.md",
+        "sha256": "02d5ff37b00b9a864b88e7e0b52b3889001e9d6e8ed6b10f2a7925563bb66868"
+      },
+      {
+        "bytes": 17680,
+        "method": "Complete current Git delta personally read against exact previously read 7698c15 base.",
+        "path": "wiki/reassessment.md",
+        "sha256": "2648537ca9227dd1159443dc93748a1dbb1ea852a5e439190336e8af5bd24d87"
+      },
+      {
+        "bytes": 4808,
+        "method": "Complete current Git delta personally read against exact previously read 7698c15 base.",
+        "path": "wiki/sources.md",
+        "sha256": "4c9d79d5ceb5bf1b7850be281cbb8a434b812d6ca031e3b2cd047d0999cae2d2"
+      },
+      {
+        "bytes": 8299,
+        "method": "Complete current Git delta personally read against exact previously read 7698c15 base.",
+        "path": "wiki/verification.md",
+        "sha256": "76631f6f67a1602e8f863ae9c31669d0162e2458bb986e6b2f73ce4ca287ac34"
+      }
+    ],
+    "prior_chain": [
+      {
+        "bytes": 55650,
+        "path": "output/collaboration/reward-mechanism-repair/aso-da-no-comparison-review-delivered-arrivals-2026-09-13.json",
+        "sha256": "eea82a0b15c1a7532e8fe7aea25b863799a42295d1742107f4b858a3a7499892"
+      },
+      {
+        "bytes": 8430,
+        "path": "output/collaboration/reward-mechanism-repair/aso-da-no-final-reading-review-delivered-arrivals-2026-09-13.json",
+        "sha256": "8a66e379d14aaacdfada86f4f8fcb03bb6494f1d8de9c9c55ba61b0b3340b503"
+      },
+      {
+        "bytes": 7889,
+        "path": "output/collaboration/reward-mechanism-repair/aso-source-checker-preparation-delivered-arrivals-2026-09-13.json",
+        "sha256": "768a926a2091829ad8c0cd4df82c4db9ba1ffd9480182997dd1bbb7fe11d9b7e"
+      }
+    ],
+    "unchanged_from_prior": 199,
+    "unread_paths": []
+  },
+  "remaining_assembly": "Root owns final closeout inventory/link assembly and canonical copy check. Its final closeout JSON was intentionally pending these receipts and is not represented here as already verified.",
+  "saved_recheck": {
+    "all_15_original_and_canonical_source_bindings_unchanged": true,
+    "all_94_prior_consumed_files_still_match": true,
+    "arrays_across_producer_and_reference": 448,
+    "atol": 1e-12,
+    "cases": 28,
+    "max_abs_error": 6.661338147750939e-16,
+    "paired_values_checked": 15600,
+    "rtol": 1e-12
+  },
+  "saved_review": {
+    "bytes": 45483,
+    "path": "output/collaboration/reward-mechanism-repair/aso-source-protocol-saved-review-delivered-arrivals-2026-09-13.json",
+    "sha256": "0a0e7f7dae4bc23f31af2c20ebc14977493427349f1b181814974623ff68e244"
+  },
+  "schema": 1,
+  "scientific_limits": [
+    "This is numerical source-equation verification, not author-code execution, behavioral PI, population fit, MaleCNS learning or natural food choice.",
+    "Continuous DAN envelopes and uniform-minute correction remain declared interpretations; no minute-to-millisecond compression or per-spike calibration was established.",
+    "No NO pathway is assigned to PAM12; no source parameter, native mask, accepted legacy gain or learning guard was changed. Native conditioning/reversal remains unrun.",
+    "The goal is paused and current natural-sensory direction supersedes further molecular transfers. This completed legacy checkpoint does not authorize a new assay."
+  ],
+  "scope": "Close the already completed bounded legacy source calculation; no further mechanism or assay execution. Only this unique receipt is written.",
+  "status": "final_saved_result_and_narrative_review_pass",
+  "verification_logs_read": [
+    {
+      "bytes": 179,
+      "path": "output/collaboration/reward-mechanism-repair/aso-source-protocol-canonical-writer-tests-2026-09-13.txt",
+      "sha256": "aa09425627f3383c2d45b9c17fefad3e904c872a4c390da3f2489d5290a082ef"
+    },
+    {
+      "bytes": 99,
+      "path": "output/collaboration/reward-mechanism-repair/aso-source-protocol-canonical-checker-tests-2026-09-13.txt",
+      "sha256": "3e88b93c3b6e7afd4fa9d97754a177622f88e346bd6cc8640510c1161e5d48b0"
+    },
+    {
+      "bytes": 6297,
+      "path": "output/collaboration/reward-mechanism-repair/aso-source-protocol-make-verify-2026-09-13.log",
+      "sha256": "c9723c52de288feb7085153c865b9a174e12df02aa0f5625ec6cee92497ce120"
+    },
+    {
+      "bytes": 353,
+      "path": "output/collaboration/reward-mechanism-repair/aso-source-protocol-protected-2026-09-13.json",
+      "sha256": "de6db40653bc8c8503fd55b92e153b367f72dbf458d5b37bb9fd6694e968814f"
+    }
+  ]
+}
