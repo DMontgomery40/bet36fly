@@ -1,0 +1,106 @@
+{
+  "agent": "dopamine_sources",
+  "checked_at_utc": "2026-09-13T06:40:50.752245+00:00",
+  "head": "b1c868147fcd115eba87366c9e2b41c6ef2b7adf",
+  "status": "bounded_source_decision_complete_no_quantitative_candidate_frozen",
+  "complete_prior_reading_chain": [
+    {
+      "path": "output/collaboration/reward-mechanism-repair/conditioning-final-source-claim-review-2026-09-13.json",
+      "bytes": 10279,
+      "sha256": "0b95b24a8b8450297b483a4514e00c651f603dda48ca3227cd0f2b94baae669d"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/localization-neuprint-ipv4-reading-and-audit-receipt-2026-09-13.json",
+      "bytes": 34528,
+      "sha256": "95c8ce1c8efd8f507a65c42829b0218ea3a1e599381c5d92abf2cf54d1c50115"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/localization-next-decision-reading-receipt-2026-09-13.json",
+      "bytes": 4666,
+      "sha256": "84f84bde4b162555690025396163236247115fce9fedfa964f1b394862f26288"
+    }
+  ],
+  "narrative_refresh_before_scientific_work": {
+    "paths_reconciled": 146,
+    "new_unread_deltas": [],
+    "method": "Compare current full repository narrative docs/wiki/root/previous hidden-document paths against personally read prior hashes; no changes found before or at final review boundary. Prior content readings retained; manifests were not substituted for an unread document."
+  },
+  "sources_reread": [
+    {
+      "path": "output/collaboration/reward-mechanism-repair/dopamine-signal-sources-resumed.md",
+      "bytes": 21098,
+      "sha256": "3eb2b28f996b1972444e50676ffcf29aa907a24ef39082f7c6a8883a62bb67b5"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/mechanism-sources-report.md",
+      "bytes": 21674,
+      "sha256": "ab7c640f3bfbc74845ff2759421b8b2de91d6411b9a6685acd3a62d1147508e3"
+    }
+  ],
+  "source_scope": "Six inspected primary-source entries re-read with prior full/targeted access limits. New bounded Handler/Hige indexed primary sections read personally; no complete Handler full-methods claim.",
+  "current_implementation_inspected": [
+    {
+      "path": "bet36fly/reward_lif.cpp",
+      "bytes": 19913,
+      "sha256": "e7dbb0aa8f95873036415581e94de45c237941f05642ccc90812c1be1119be37"
+    },
+    {
+      "path": "bet36fly/reward_protocol.py",
+      "bytes": 15356,
+      "sha256": "e1a315f991debb677fca30f6e821a657135adccf032ad26054a00ed7688dc1bb"
+    },
+    {
+      "path": "bet36fly/reward_brain.py",
+      "bytes": 28621,
+      "sha256": "5a6d67d38d226c6792c4f11430610772894ea3e9ae9593c2d215cfd7eaa0a6d5"
+    }
+  ],
+  "implementation_scope": "Native RateBridge and electrical event loop; complete protocol constructor/masks; engine constructor validation and run/checkpoint/native allocation boundaries. Kernel and protocol hashes match the previous inspected source receipt.",
+  "bounded_web_actions": [
+    {
+      "order": 1,
+      "action": "open",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9012144/",
+      "result": "Browser challenge only; no bypass or full article read."
+    },
+    {
+      "order": 2,
+      "action": "search_query",
+      "query": "\"PMC9012144\" \"IP3\" \"calcium\" \"DopR2\"",
+      "domains": [
+        "pmc.ncbi.nlm.nih.gov"
+      ],
+      "primary_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9012144/",
+      "version": "Cell2019 author manuscript; PMC available2022-04-15; fresh indexed retrieval2026-09-13",
+      "read": "Indexed Results and Figures5-7, selected reporter/plasticity analysis methods, including independent min/max reporter normalization in Figure5F and proposed IP3 order sensitivity. Full methods not claimed."
+    },
+    {
+      "order": 3,
+      "action": "search_query",
+      "query": "\"PMC4674068\" \"pairing\" \"postsynaptic\" \"backward\"",
+      "domains": [
+        "pmc.ncbi.nlm.nih.gov"
+      ],
+      "primary_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4674068/",
+      "version": "Neuron2015 author manuscript; PMC available2016-12-02; fresh indexed retrieval2026-09-13",
+      "read": "Indexed Results/Figures1-7 and relevant electrophysiology/odor-light pairing/analysis methods, exact\u03b31pedc backward condition and postsynaptic-spike block."
+    }
+  ],
+  "web_actions_used": 3,
+  "web_actions_authorized_maximum": 4,
+  "further_web_actions": 0,
+  "new_synapse_requests": 0,
+  "decision": "A minimal joint KC-local priming/inhibition state with distinct coincidence-related depression is a concrete omitted mechanism. Equations are uninstantiated coarse engineering topology, with input mappings, transition rates, branch conversions and cross-compartment transfer explicitly unresolved. Finite occupancy/reset is also an assumption, not source-established receptor kinetics.",
+  "parameter_provenance": "Existing circuit/encoder/learning rate/onset/protocol guards remain fixed. No existing100/500ms timescale silently relabeled as receptor kinetics; no new value assigned or fit.",
+  "report": {
+    "path": "output/collaboration/reward-mechanism-repair/dopamine-receptor-state-decision-2026-09-13.md",
+    "bytes": 13820,
+    "sha256": "63cdc757527e4692bb2e29405ea74276cc38006ac1bb6217bba32f469b94b3c7"
+  },
+  "new_simulation_or_native_calls": 0,
+  "candidate_implementations": 0,
+  "candidate_saved_history_evaluations": 0,
+  "production_edits": 0,
+  "prior_sources_reports_receipts_changed": false,
+  "verification": "Source/units/topology review and complete narrative-hash reconciliation only. No numerical implementation exists to test; not a scientific qualification or repaired learning claim."
+}

@@ -58,6 +58,15 @@ version preconditions on both files. The body values and coordinates remain
 unread. These first-batch buffer sizes cannot establish a global scan cost
 or an ordering that permits skipping other batches.
 
+The subsequent [complete-metadata v1 attempt](../../docs/evidence/reward-mechanism-repair-2026-09-12/partners-metadata-v1-result-2026-09-13.md)
+stopped on a client header-compatibility bug before reading a payload. Its
+failure is preserved. A separately reviewed [v2 metadata inventory](../../docs/evidence/reward-mechanism-repair-2026-09-12/partners-metadata-v2-preparation-2026-09-13.md)
+is underway at the September 13, 07:17 UTC continuation boundary. It requests
+only the 4,759 batch metadata messages to measure body-column transfer cost;
+it does not retrieve body IDs, coordinates or a local exposure model. Check
+the [current handoff](../../docs/REWARD_REPAIR_HANDOFF.md) for completion before
+using a complete scan cost.
+
 ## A complete home contact selection
 
 The [offline selection synthesis](../../docs/evidence/reward-mechanism-repair-2026-09-12/localization-next-decision-synthesis-2026-09-13.md)

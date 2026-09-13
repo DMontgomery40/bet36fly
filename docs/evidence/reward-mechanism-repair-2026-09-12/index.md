@@ -2,6 +2,23 @@
 
 **Status: scientific HOLD; the rate bridge still fails the second panel's untaught-home guard.** Both the corrected raw-event rule and the subsequent rate bridge pass the original panel but fail the previously frozen second panel. The rate bridge reduces the measured drift without satisfying the unchanged guard. Numerical implementation tests pass; cue-specific acquisition, reversal and improved sports prediction remain unestablished. Conditioning has not run.
 
+The September 13 [individual PPL101 signal analysis](ppl101-signal-basis-result-2026-09-13.md)
+reproduces all 32 canonical home gain vectors and leaves local routing
+unresolved; its necessary bounds establish no passing map. The separate
+[receptor-state decision](dopamine-receptor-state-decision-2026-09-13.md)
+records a source-supported signaling distinction and the quantitative
+assumptions still needed for a candidate. Neither changes the current rule
+or qualifies conditioning.
+
+The [complete-metadata v1 failure](partners-metadata-v1-result-2026-09-13.md)
+exposed a valid repeated-header case omitted by the synthetic tests. The
+[separate v2 correction](partners-metadata-v2-preparation-2026-09-13.md)
+has a documented field contract and independent regression coverage; its
+bounded execution is in progress at the latest dated
+[handoff](../../REWARD_REPAIR_HANDOFF.md). Neither metadata preparation nor
+the [new weight-state source hypothesis](dopamine-weight-state-decision-2026-09-13.md)
+establishes a local dopamine exposure law or a qualified learning mechanism.
+
 ## Confirmed correction
 
 Delayed recurrent input and instantaneous teaching pulses were being stored while their receiving neuron was refractory. That stored input could affect the neuron after release. The reward kernel now rejects those writes during refractoriness. The pinned Shiu implementation and Brian documentation support this behavior; the existing local discrete release boundary remains explicit. [Source contract and generalized regressions](../reward-refractory-contract-2026-09-12.md).

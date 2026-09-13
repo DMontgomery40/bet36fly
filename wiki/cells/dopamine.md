@@ -45,6 +45,19 @@ access and column identities, but no body-selection index or synapse locations.
 The [cell-specific localization page](synapse-localization.md) identifies the
 required bodies, columns and evidence limits.
 
+A later [individual-signal analysis](../../docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-result-2026-09-13.md)
+separates bodies 11327 and 11900 on all 32 saved untaught histories. Their
+signals differ in every trial, and their mean reproduces all original home
+gain bytes. Loose mathematical bounds do not exclude normalized local
+couplings, but do not establish a passing anatomical map. No alternative
+coupling was selected or fed back into the circuit.
+
+The [receptor-state review](../../docs/evidence/reward-mechanism-repair-2026-09-12/dopamine-receptor-state-decision-2026-09-13.md)
+distinguishes coincidence-related depression from order-dependent intracellular
+signaling. Its three-state topology is an uninstantiated engineering hypothesis;
+the inspected papers do not calibrate its kinetics for PPL101/MBON11 or
+PAM12/MBON09. The simulator still has no such receptor-state mechanism.
+
 The rectified-rate adaptation hypothesis was tested under a
 frozen numerical contract on all 32 saved histories and **rejected**. All four
 home guards failed through excessive potentiation; second/base mean was

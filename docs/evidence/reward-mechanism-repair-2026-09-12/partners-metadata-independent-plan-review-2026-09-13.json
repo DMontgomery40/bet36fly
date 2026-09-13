@@ -1,0 +1,37 @@
+{
+  "scope": "Independent full prepared-plan comparison and input-only canonical validation",
+  "network_requests": 0,
+  "native_circuit_calls": 0,
+  "release": {
+    "partners_metadata_inventory.py": "1f4394d5bc4621125709eb8c3a972ba0f25cc242424d0ed683c71d93657931ed",
+    "test_partners_metadata_inventory.py": "7923d3cb120f3f2d509a4966bcd334dd1ae1ba8c7944fece6f92fa0549f3415b",
+    "partners-metadata-plan-2026-09-13.json": "26309100ef7c6efd3bed12ce25409e353d369b50640d9f9703cad9e2587a7fea"
+  },
+  "plan_status_on_disk": "proposed",
+  "exact_ordered_requests": 4759,
+  "metadata_payload_bytes": 3045760,
+  "all_ranges_independently_compared": true,
+  "all_ranges_exclude_record_and_dictionary_bodies": true,
+  "source_bindings_rehashed": 12,
+  "limits": {
+    "concurrency": 1,
+    "header_bytes": 8388608,
+    "header_bytes_per_request": 8192,
+    "payload_bytes": 3045760,
+    "request_active_seconds": 14,
+    "request_wall_seconds": 15,
+    "requests": 4759,
+    "response_bytes": 11434368,
+    "total_wall_seconds": 1200
+  },
+  "object": {
+    "declared_rows": 311833243,
+    "etag": "\"58efcf712f8c4d4de5f2ad51e97def76\"",
+    "generation": "1780494942562468",
+    "object_bytes": 6777179098,
+    "url": "https://storage.googleapis.com/flyem-male-cns/v1.0/connectome-data/flat-connectome/syn-partners-male-cns-v1.0-minconf-0.5.feather"
+  },
+  "output_directory_exists": false,
+  "in_memory_status_only_validation_passed": true,
+  "execution_approval": false
+}

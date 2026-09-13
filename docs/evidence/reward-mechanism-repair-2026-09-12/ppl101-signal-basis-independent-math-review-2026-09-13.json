@@ -1,0 +1,74 @@
+{
+  "agent": "dopamine_sources",
+  "checked_at_utc": "2026-09-13T06:57:29.445407+00:00",
+  "status": "PASS pre-freeze independent mathematics review; no actual histories evaluated",
+  "reviewed_files": [
+    {
+      "path": "output/collaboration/reward-mechanism-repair/ppl101_signal_basis.py",
+      "bytes": 5378,
+      "sha256": "03c02ec31abea9bccb0be03df24841b5961716bc4bc3f011cd701618d7fbc79c"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/test_ppl101_signal_basis.py",
+      "bytes": 4735,
+      "sha256": "b88b8bd22e3584b6fe1417b11c9cc5267c57dcb037959aa5a45c8f5a87b1c677"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/run_ppl101_signal_basis.py",
+      "bytes": 7924,
+      "sha256": "6890986089358efb292e15e855dab711937d1da5739db56261c060412f31a8cf"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-preregistration-2026-09-13.md",
+      "bytes": 4709,
+      "sha256": "21ecea16776bc35677415b131cc5b050cdf44f18613d1d9fa147e20ba2480b5d"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/test_ppl101_signal_basis_independent_review.py",
+      "bytes": 3744,
+      "sha256": "7f69d76c23c3da37ce8487389486addbad12411b669dda9f7373270f05e271e5"
+    }
+  ],
+  "reading_coverage": {
+    "prior_receipt": {
+      "path": "output/collaboration/reward-mechanism-repair/dopamine-receptor-state-reading-receipt-2026-09-13.json",
+      "bytes": 5554,
+      "sha256": "f70213b88a6e54448f0e2c247c0a0a7021fa16210e8682b70403e7b31ea3cee8"
+    },
+    "root_docs_wiki_and_prior_narrative_paths_reconciled": 147,
+    "new_unread_deltas": [],
+    "new_preregistration_personally_read_in_full": true,
+    "helper_runner_and_both_test_files_personally_read_in_full": true
+  },
+  "independent_method": {
+    "continuous_product_checks": "70-digit mpmath improper quadrature of separately constructed exponential rate and eligibility impulse responses at 13 signed lags, including zero and near-zero; not implementation pair formula",
+    "convex_bounds": "For 3 synthetic eight-trial interval boxes, enumerate 256 vertices using exact Fraction pairwise sample variance, then compare conservative SD and absolute-mean fields with 70-digit square root",
+    "floating_point_checks": "float16/32/64 stored data produce identical float64 internal results; synthetic interior gains rounding to bounds are rejected; final F32 half-ULP checked throughout admissible range; gamma_1501 against exact rational expression"
+  },
+  "test_result": {
+    "command": ".venv/bin/python -m pytest -q output/collaboration/reward-mechanism-repair/test_ppl101_signal_basis_independent_review.py output/collaboration/reward-mechanism-repair/test_ppl101_signal_basis.py",
+    "passed": 102,
+    "independent_cases": 23,
+    "root_cases": 79,
+    "first_elapsed_seconds": 2.87,
+    "format_only_followup_rerun": true
+  },
+  "mathematical_findings": {
+    "pair_formula": "Correct. With C=eta*0.96*500/400, lag>=0 P=C*(500/600-1/2)*exp(-lag/100); N=-C*(500/600*exp(-lag/500)-1/2*exp(-lag/100)); negative lag exchanges magnitudes. Net=eta*sign(lag)*(exp(-abs(lag)/100)-exp(-abs(lag)/500)).",
+    "coincidence": "P=0.0002, N=-0.0002, net=0. Both areas retained.",
+    "linearity": "For fixed histories, constant nonnegative normalized per-edge DAN coefficients produce a convex combination of individual signed bases while gain bounds do not intervene. Allowing different coefficients on every trial enlarges the class; exclusion in this larger class excludes the fixed class.",
+    "sample_sd": "Sample SD is a convex centered Euclidean norm; a maximum over the trial box is attained at a vertex. All 256 vertices are evaluated.",
+    "prefix_margin": "P+abs(N)+2*AREA_ATOL+1.5*gamma_1501+2^-24<0.5 reserves opposing-product numerical allowance, double gain accumulation and inclusive F32 bound contact.",
+    "publication_envelope": "Per-trial expansion n_edges*(2^-24+AREA_ATOL+1.5*gamma_1501)+rho; internal cast float64. rho additionally lowers minimum absolute mean and raises maximum SD.",
+    "near_equality": "Exclusion compares minimum_absolute_mean_lower > 0.5*maximum_sample_sd_upper; equality remains inconclusive. Raw estimates are diagnostic, not conservative fields.",
+    "canonical_identity": "Runner enforces rtol=0 and explicit maximum error <=1e-10; all 32 final home gain vectors must match float32 publication.",
+    "limits": "Numerical allowances are declared comparison envelopes, not a formal arbitrary-prefix or interval-arithmetic proof. Canonical endpoint agreement does not itself prove arbitrary-prefix error. Passing the necessary bound does not construct an anatomical map; exclusion cannot rule out time-varying coupling, receptor dynamics, recurrently changed histories, or biological learning."
+  },
+  "actionable_findings_remaining": [],
+  "actual_saved_history_evaluations": 0,
+  "candidate_runs": 0,
+  "native_or_circuit_calls": 0,
+  "network_requests": 0,
+  "production_edits": 0,
+  "prior_frozen_artifacts_modified": false
+}

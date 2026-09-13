@@ -1,0 +1,457 @@
+{
+  "copied_at_utc": "2026-09-13T06:59:11.461586+00:00",
+  "copy_not_cut": true,
+  "copies": [
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101_signal_basis.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101_signal_basis.py",
+      "bytes": 5378,
+      "sha256": "03c02ec31abea9bccb0be03df24841b5961716bc4bc3f011cd701618d7fbc79c"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/run_ppl101_signal_basis.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/run_ppl101_signal_basis.py",
+      "bytes": 7924,
+      "sha256": "6890986089358efb292e15e855dab711937d1da5739db56261c060412f31a8cf"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/test_ppl101_signal_basis.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/test_ppl101_signal_basis.py",
+      "bytes": 4735,
+      "sha256": "b88b8bd22e3584b6fe1417b11c9cc5267c57dcb037959aa5a45c8f5a87b1c677"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/test_ppl101_signal_basis_independent_review.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/test_ppl101_signal_basis_independent_review.py",
+      "bytes": 3744,
+      "sha256": "7f69d76c23c3da37ce8487389486addbad12411b669dda9f7373270f05e271e5"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-preregistration-2026-09-13.md",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-preregistration-2026-09-13.md",
+      "bytes": 4709,
+      "sha256": "21ecea16776bc35677415b131cc5b050cdf44f18613d1d9fa147e20ba2480b5d"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-frozen-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-frozen-2026-09-13.json",
+      "bytes": 24431,
+      "sha256": "73fa39366eca8d978bf3e12e7d8f6f7efedf01978cb761c49e058ec51b1f1972"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-independent-math-review-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-independent-math-review-2026-09-13.json",
+      "bytes": 5040,
+      "sha256": "db6fd4df469678e1a179a12cfb5aca2ccdbff6e0d1146d813d189c713d92b166"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dopamine-receptor-state-decision-2026-09-13.md",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dopamine-receptor-state-decision-2026-09-13.md",
+      "bytes": 13820,
+      "sha256": "63cdc757527e4692bb2e29405ea74276cc38006ac1bb6217bba32f469b94b3c7"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dopamine-receptor-state-reading-receipt-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dopamine-receptor-state-reading-receipt-2026-09-13.json",
+      "bytes": 5554,
+      "sha256": "f70213b88a6e54448f0e2c247c0a0a7021fa16210e8682b70403e7b31ea3cee8"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-2c1e0eaa2d5834d76d56/basis_00.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-2c1e0eaa2d5834d76d56/basis_00.npz",
+      "bytes": 46881,
+      "sha256": "cc2b3345b69221fa306ca1160948f2924175174d1a0863319ab7850476c78159"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-2c1e0eaa2d5834d76d56/basis_01.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-2c1e0eaa2d5834d76d56/basis_01.npz",
+      "bytes": 43014,
+      "sha256": "ca2af385c499f2a4556976023d91576964c56d9ff758955077dc27a4f90e6c84"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-2c1e0eaa2d5834d76d56/basis_02.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-2c1e0eaa2d5834d76d56/basis_02.npz",
+      "bytes": 37713,
+      "sha256": "f9cdf2722a58a958321fe6a00326783900ae54c53773a6cabd0f713daaffd987"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-2c1e0eaa2d5834d76d56/basis_03.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-2c1e0eaa2d5834d76d56/basis_03.npz",
+      "bytes": 35962,
+      "sha256": "31bfd444eb76b1698d1d92b3556bf3f6696af6b727288f2ddaab968034160bff"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-2c1e0eaa2d5834d76d56/basis_04.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-2c1e0eaa2d5834d76d56/basis_04.npz",
+      "bytes": 60347,
+      "sha256": "7ea78b87dc1c10b56448e8e14a8e71daf91e522be6cdc41bdcd862329abd74b3"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-2c1e0eaa2d5834d76d56/basis_05.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-2c1e0eaa2d5834d76d56/basis_05.npz",
+      "bytes": 62849,
+      "sha256": "cead15e8eefca8deab18add558483f55e7248114783b6b9beed0a559f67e5b9a"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-2c1e0eaa2d5834d76d56/basis_06.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-2c1e0eaa2d5834d76d56/basis_06.npz",
+      "bytes": 33723,
+      "sha256": "23bcfff82cddbcbebd4d23f0f0bfba055d417c116637e21b65b9bda618784bf7"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-2c1e0eaa2d5834d76d56/basis_07.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-2c1e0eaa2d5834d76d56/basis_07.npz",
+      "bytes": 33857,
+      "sha256": "3bfe6b3090c6ddb474613e6a83806e1855b556505e4d3572bd3d99c93d1b6102"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-2c1e0eaa2d5834d76d56/basis_08.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-2c1e0eaa2d5834d76d56/basis_08.npz",
+      "bytes": 56437,
+      "sha256": "133bd89286d0c83e656d3402387be9107990195c1349cf64d6dbfc89d4ddcd0b"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-2c1e0eaa2d5834d76d56/basis_09.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-2c1e0eaa2d5834d76d56/basis_09.npz",
+      "bytes": 51440,
+      "sha256": "ce2b29523bf0a80866e4e62f4438d3de1a5407582a12d873e719e02eac4a9a17"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-2c1e0eaa2d5834d76d56/basis_10.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-2c1e0eaa2d5834d76d56/basis_10.npz",
+      "bytes": 62331,
+      "sha256": "5288ca1ab3940bea9775e70097299c1718c04eb25f9ad87d36e5e4420572f58d"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-2c1e0eaa2d5834d76d56/basis_11.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-2c1e0eaa2d5834d76d56/basis_11.npz",
+      "bytes": 63144,
+      "sha256": "1d4365e939cc8d10446164dfa95cbf77e19cfe2dae3328d3ba3450aabf55242a"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-2c1e0eaa2d5834d76d56/basis_12.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-2c1e0eaa2d5834d76d56/basis_12.npz",
+      "bytes": 48712,
+      "sha256": "fe91c2cb76c5a824fde1236411b7a1e4d7949634159939e1aca546d412fb569f"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-2c1e0eaa2d5834d76d56/basis_13.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-2c1e0eaa2d5834d76d56/basis_13.npz",
+      "bytes": 48845,
+      "sha256": "10ab719e03d49387442de40610861be612064e854ed21298d0d295edc7c30da1"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-2c1e0eaa2d5834d76d56/basis_14.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-2c1e0eaa2d5834d76d56/basis_14.npz",
+      "bytes": 41657,
+      "sha256": "0c54788dea1038d2a519c71ee04d346fede3350ba7d49e256262eb7cd48bd18a"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-2c1e0eaa2d5834d76d56/basis_15.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-2c1e0eaa2d5834d76d56/basis_15.npz",
+      "bytes": 45158,
+      "sha256": "e82651d79d233733af3b9bad2cb8adafc3a62a8c1c41640358166194435c7aa8"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-2c1e0eaa2d5834d76d56/basis_16.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-2c1e0eaa2d5834d76d56/basis_16.npz",
+      "bytes": 46601,
+      "sha256": "70a4b97ae06cf9967628b17c3ccd16c99565ba39572da2ece540d635d1c3c3f6"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-2c1e0eaa2d5834d76d56/basis_17.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-2c1e0eaa2d5834d76d56/basis_17.npz",
+      "bytes": 47652,
+      "sha256": "bfbf2d10937d37daa7c35ed4773095f5ddef9fd6fd6972eb4dd4476aa6a41726"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-2c1e0eaa2d5834d76d56/basis_18.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-2c1e0eaa2d5834d76d56/basis_18.npz",
+      "bytes": 54327,
+      "sha256": "45916cd3393932cb9a987bea58c9a6aaf7ff070ac2a1f955057e852c2b2956a4"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-2c1e0eaa2d5834d76d56/basis_19.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-2c1e0eaa2d5834d76d56/basis_19.npz",
+      "bytes": 55843,
+      "sha256": "1ab3a4b877bb1bf4aeee62b51cd8c5391f7cd2e10902024c590a2cb9794fe423"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-2c1e0eaa2d5834d76d56/basis_20.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-2c1e0eaa2d5834d76d56/basis_20.npz",
+      "bytes": 42517,
+      "sha256": "f13a4695aaf65bafc1420c8cc47948dea4cb2bc19dff7965ebc0ad8f9dd31cbc"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-2c1e0eaa2d5834d76d56/basis_21.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-2c1e0eaa2d5834d76d56/basis_21.npz",
+      "bytes": 43986,
+      "sha256": "7e25c040a61f1568072cb82a3c0b02b1ddedea5a890ad905eeed837f84b2c1cc"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-2c1e0eaa2d5834d76d56/basis_22.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-2c1e0eaa2d5834d76d56/basis_22.npz",
+      "bytes": 43816,
+      "sha256": "ab885974212272cd413c1d03de71683501ae8ca6577b42117f65183ac7167cff"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-2c1e0eaa2d5834d76d56/basis_23.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-2c1e0eaa2d5834d76d56/basis_23.npz",
+      "bytes": 41762,
+      "sha256": "2466e0a37ef83ee7f97f4d721d3fd307eafcd2f97d13411798fca20a5fb22712"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-2c1e0eaa2d5834d76d56/basis_24.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-2c1e0eaa2d5834d76d56/basis_24.npz",
+      "bytes": 45687,
+      "sha256": "35d9111a2439e95bdfe8f9534deb5bdb244a0f241be62757e66ff118d57cb08a"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-2c1e0eaa2d5834d76d56/basis_25.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-2c1e0eaa2d5834d76d56/basis_25.npz",
+      "bytes": 43094,
+      "sha256": "2e36f8263f87bc7f631853b0d9bf299145496d609afbeaf117801015388ed4f9"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-2c1e0eaa2d5834d76d56/basis_26.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-2c1e0eaa2d5834d76d56/basis_26.npz",
+      "bytes": 50316,
+      "sha256": "a62161afd44077f1fb86b84482fd9d96f61042e932c407a3d8c95cccbf792f81"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-2c1e0eaa2d5834d76d56/basis_27.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-2c1e0eaa2d5834d76d56/basis_27.npz",
+      "bytes": 44146,
+      "sha256": "05b6856ec9f88405f5d9aafaa4bfdbe4ee650aa1c609cdbebb39b535b9736191"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-2c1e0eaa2d5834d76d56/basis_28.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-2c1e0eaa2d5834d76d56/basis_28.npz",
+      "bytes": 78345,
+      "sha256": "863bf229fb2512be73063bf98cef206de6e0cdc8740d3db9bb30a5015ea15f23"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-2c1e0eaa2d5834d76d56/basis_29.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-2c1e0eaa2d5834d76d56/basis_29.npz",
+      "bytes": 71030,
+      "sha256": "3e21f117dadc43dc8125293917ce0b8912954cb54f3fd3cd8291e77c7d50c77a"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-2c1e0eaa2d5834d76d56/basis_30.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-2c1e0eaa2d5834d76d56/basis_30.npz",
+      "bytes": 48377,
+      "sha256": "e8521f4a22252f13bc7269016eacddae8442398bbda2328205a89f1f6d3c55df"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-2c1e0eaa2d5834d76d56/basis_31.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-2c1e0eaa2d5834d76d56/basis_31.npz",
+      "bytes": 45037,
+      "sha256": "67c32f6fa99196100baefc20e4d56ee596882de2c68927a0a08821088f2cc24f"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-2c1e0eaa2d5834d76d56/identity.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-2c1e0eaa2d5834d76d56/identity.json",
+      "bytes": 24431,
+      "sha256": "73fa39366eca8d978bf3e12e7d8f6f7efedf01978cb761c49e058ec51b1f1972"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-2c1e0eaa2d5834d76d56/row_00.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-2c1e0eaa2d5834d76d56/row_00.json",
+      "bytes": 566,
+      "sha256": "dacedd3a5823b38dec2e22ba0e19b655b67b8911d1fedb3dc0c354fa5a9f1d31"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-2c1e0eaa2d5834d76d56/row_01.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-2c1e0eaa2d5834d76d56/row_01.json",
+      "bytes": 567,
+      "sha256": "6787d9740aee6591224cdbba0715faf07c49595f7f91d16584779d9b804fc841"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-2c1e0eaa2d5834d76d56/row_02.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-2c1e0eaa2d5834d76d56/row_02.json",
+      "bytes": 563,
+      "sha256": "9f55dd4d99df8ea1d448588bb349ef36f14457291d06490ba7c6495f480dd292"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-2c1e0eaa2d5834d76d56/row_03.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-2c1e0eaa2d5834d76d56/row_03.json",
+      "bytes": 561,
+      "sha256": "f3a752054716fa005e7f8a4d340afc5fa8a6ba256fab62d14bf667495a04c5a9"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-2c1e0eaa2d5834d76d56/row_04.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-2c1e0eaa2d5834d76d56/row_04.json",
+      "bytes": 559,
+      "sha256": "4d405874541811f6d3edbc4325f351113132e186d32997f96406a5d712e43bd8"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-2c1e0eaa2d5834d76d56/row_05.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-2c1e0eaa2d5834d76d56/row_05.json",
+      "bytes": 564,
+      "sha256": "aec7477b28894ba022de36ace859a111fa7accccc54d566db28e8d9c522da1f8"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-2c1e0eaa2d5834d76d56/row_06.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-2c1e0eaa2d5834d76d56/row_06.json",
+      "bytes": 560,
+      "sha256": "e4e60b0bc4272682774bfc2d505a832d72538930a8ef2b5f85067995a5d560de"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-2c1e0eaa2d5834d76d56/row_07.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-2c1e0eaa2d5834d76d56/row_07.json",
+      "bytes": 563,
+      "sha256": "1e50b9f12900e5ebef22677d837aa9a101ba6cb0b4f4eba71532c9606ee53726"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-2c1e0eaa2d5834d76d56/row_08.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-2c1e0eaa2d5834d76d56/row_08.json",
+      "bytes": 560,
+      "sha256": "43b6933e9e90e5baf5e818a510e224f32b1d1ede81a90febaa9233a652a3e89e"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-2c1e0eaa2d5834d76d56/row_09.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-2c1e0eaa2d5834d76d56/row_09.json",
+      "bytes": 563,
+      "sha256": "c67d4a683492dd86b201c1f275713a508245a5c0128f4bbd828bb8da94c73639"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-2c1e0eaa2d5834d76d56/row_10.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-2c1e0eaa2d5834d76d56/row_10.json",
+      "bytes": 563,
+      "sha256": "2ebb062ac5c5a5b99a314da5c3c52a8c685defc7a817b460ac29a579425c5803"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-2c1e0eaa2d5834d76d56/row_11.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-2c1e0eaa2d5834d76d56/row_11.json",
+      "bytes": 559,
+      "sha256": "a2e7e52bda2dce3eb57a652c5000512b584202506632fa1513f1b795dddc4c19"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-2c1e0eaa2d5834d76d56/row_12.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-2c1e0eaa2d5834d76d56/row_12.json",
+      "bytes": 563,
+      "sha256": "8ef9221925d0e340bcc5f84f98c52fbcb939995217c3f8494afe3846280d28d8"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-2c1e0eaa2d5834d76d56/row_13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-2c1e0eaa2d5834d76d56/row_13.json",
+      "bytes": 563,
+      "sha256": "d1b8c3eea5a3cd0679b89019744ce6b475348a30653283e2333364b4c01a2113"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-2c1e0eaa2d5834d76d56/row_14.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-2c1e0eaa2d5834d76d56/row_14.json",
+      "bytes": 564,
+      "sha256": "96cf58566123da1740e73c98c1017d10c4d7d3a7ecfbdc37fd01721cefb29752"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-2c1e0eaa2d5834d76d56/row_15.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-2c1e0eaa2d5834d76d56/row_15.json",
+      "bytes": 566,
+      "sha256": "ff918a97c418024336168b3ce4f1de9651da80e5539aa94ebd20ecbd2515eea6"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-2c1e0eaa2d5834d76d56/row_16.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-2c1e0eaa2d5834d76d56/row_16.json",
+      "bytes": 564,
+      "sha256": "4668acca823bec87c81e547aa8a010cbae83f8bb8fca83347254d1a4c696fb8a"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-2c1e0eaa2d5834d76d56/row_17.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-2c1e0eaa2d5834d76d56/row_17.json",
+      "bytes": 566,
+      "sha256": "7c7e77c3a8a8b9d88e0360ec369e5e51a632243dd1b13a4f57164b6a0ee81929"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-2c1e0eaa2d5834d76d56/row_18.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-2c1e0eaa2d5834d76d56/row_18.json",
+      "bytes": 565,
+      "sha256": "8972c31a10df3549de26ff71ee7efd47f4be0532b234d58177743ef36c359592"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-2c1e0eaa2d5834d76d56/row_19.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-2c1e0eaa2d5834d76d56/row_19.json",
+      "bytes": 562,
+      "sha256": "d916b2187a7a4bb986d910f92cff6a0fcd450a2085d14a171efa67af8e51b8f4"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-2c1e0eaa2d5834d76d56/row_20.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-2c1e0eaa2d5834d76d56/row_20.json",
+      "bytes": 564,
+      "sha256": "5a91e7475d5e0edb78531c6137293721789f7d1daeebf237c54a4b56b2757a41"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-2c1e0eaa2d5834d76d56/row_21.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-2c1e0eaa2d5834d76d56/row_21.json",
+      "bytes": 564,
+      "sha256": "2a7c09a65967a3b83d2c66a4388ebefced3ea9fc8267947ef748bcb22481760c"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-2c1e0eaa2d5834d76d56/row_22.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-2c1e0eaa2d5834d76d56/row_22.json",
+      "bytes": 565,
+      "sha256": "9a7e024aed12eea5393e3a0b15309f75d3e6dc79b0c0a62f06c5b39ee2d738aa"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-2c1e0eaa2d5834d76d56/row_23.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-2c1e0eaa2d5834d76d56/row_23.json",
+      "bytes": 565,
+      "sha256": "9ee64423787815c9863e6cd116ad678a91ff69c70171d06b1e08d9b6bae47d32"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-2c1e0eaa2d5834d76d56/row_24.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-2c1e0eaa2d5834d76d56/row_24.json",
+      "bytes": 566,
+      "sha256": "c64c691753a4eab352d4a406c4985bb2dab1d929f5f152bc590e3de2b2e7b850"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-2c1e0eaa2d5834d76d56/row_25.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-2c1e0eaa2d5834d76d56/row_25.json",
+      "bytes": 564,
+      "sha256": "53acc6417a80fd8673b71f80cc345c0fbe3f4d613927f37911e37ec1b6c7ef7f"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-2c1e0eaa2d5834d76d56/row_26.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-2c1e0eaa2d5834d76d56/row_26.json",
+      "bytes": 568,
+      "sha256": "4c450a86be2513be1e1a49497aa3da722ce68de17b52b82982d0ee742f13731c"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-2c1e0eaa2d5834d76d56/row_27.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-2c1e0eaa2d5834d76d56/row_27.json",
+      "bytes": 559,
+      "sha256": "8f286e86619d0bbf2c45815911faa5198aee42f96c87974fc30c7638e59a7c53"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-2c1e0eaa2d5834d76d56/row_28.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-2c1e0eaa2d5834d76d56/row_28.json",
+      "bytes": 561,
+      "sha256": "5a2bb1aefe36a81a0fed71fe59745eb987fb02f184b7a0dd1fb8ba7455558ef1"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-2c1e0eaa2d5834d76d56/row_29.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-2c1e0eaa2d5834d76d56/row_29.json",
+      "bytes": 563,
+      "sha256": "2f300f13fc15f92f41d5e19dd36720c4e934e708c400f56bf64cabe67b776d04"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-2c1e0eaa2d5834d76d56/row_30.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-2c1e0eaa2d5834d76d56/row_30.json",
+      "bytes": 564,
+      "sha256": "213a7d02da35a25c5ce826bfdbe25236f283fe865d66b77c3f3b3c9172ff1bd7"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-2c1e0eaa2d5834d76d56/row_31.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-2c1e0eaa2d5834d76d56/row_31.json",
+      "bytes": 565,
+      "sha256": "303e26cfa991391e0d2a97f57852f120e506cf205b6bd94116277f75a3049c66"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-2c1e0eaa2d5834d76d56/summary.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-2c1e0eaa2d5834d76d56/summary.json",
+      "bytes": 26546,
+      "sha256": "0d61d73571fb768685b39e1568533be2d4e7ad29695147bd4ec3e149992dd28d"
+    }
+  ],
+  "original_capture_inputs": "The 73 frozen bindings retain original paths and hashes. Large previously captured inputs remain at their protected original locations; no circuit was rerun or capture archive modified."
+}

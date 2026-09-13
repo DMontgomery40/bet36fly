@@ -1,0 +1,10 @@
+.venv/bin/python -m pytest -q output/collaboration/reward-mechanism-repair/test_partners_metadata_inventory.py output/collaboration/reward-mechanism-repair/test_partners_metadata_independent.py output/collaboration/reward-mechanism-repair/test_partners_metadata_independent_client.py output/collaboration/reward-mechanism-repair/test_partners_metadata_independent_transport.py
+........................................................................ [ 12%]
+........................................................................ [ 25%]
+........................................................................ [ 38%]
+........................................................................ [ 50%]
+........................................................................ [ 63%]
+........................................................................ [ 76%]
+........................................................................ [ 89%]
+.............................................................            [100%]
+565 passed in 2.00s

@@ -1,0 +1,30 @@
+{
+  "checked_at_utc": "2026-09-13T07:20:50.201687+00:00",
+  "head": "b1c868147fcd115eba87366c9e2b41c6ef2b7adf",
+  "completed_copy_pairs": 118,
+  "completed_copy_bytes": 4900768,
+  "copies_and_originals_hash_match": true,
+  "changed_narrative_files": 14,
+  "local_links_checked": 135,
+  "missing_local_links": [],
+  "ruff_new_python_files": 15,
+  "standard_verify": {
+    "python": 4055,
+    "frontend": 85,
+    "ruff": "passed",
+    "build": "passed",
+    "warnings": 2
+  },
+  "focused_copied": {
+    "basis": 102,
+    "metadata_v1": 565,
+    "metadata_v2_writer_and_new_independent": 499,
+    "metadata_v2_all_independent": 377,
+    "v2_unique_total": 782
+  },
+  "protection": "791-file comparison:790 unchanged files and identical inventory; one regenerated server bytecode cache matches a fresh compile of unchanged HEAD source. Initial failure and follow-up preserved.",
+  "production_api_ui_changes": false,
+  "new_browser_check": false,
+  "goal": "active; actual mechanism qualification still fails; no full-CNS conditioning/reversal",
+  "v2_execution": "running, owned by evidence_ui/session61220; not part of completed output claim"
+}

@@ -1,5 +1,68 @@
 # Continue the dopamine mechanism repair
 
+## Active continuation boundary: September 13, 2026, 07:17 UTC
+
+Continue the existing active goal; no new user prompt or goal is needed.
+The production mechanism and its failed qualification pair remain unchanged.
+The last completed software milestone is local commit `b1c8681`; inspect Git
+for the subsequent evidence checkpoint. Nothing has been pushed. No full-CNS
+conditioning, reversal, new mechanism candidate or sports pilot has run.
+
+The [individual PPL101 study](evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-result-2026-09-13.md)
+completed once under identity `ppl101-signal-basis-2c1e0eaa2d5834d76d56`.
+All 32 canonical home gain vectors match byte for byte; all four loose
+necessary routing bounds are inconclusive. This establishes no passing map.
+Its 73 bindings, complete output arrays, 102 synthetic tests and independent
+mathematics review are preserved. The existing raw/bridge/onset/adaptation
+failures, all home eligibility and the supported away mask remain intact.
+
+The first complete-metadata attempt [failed on a client compatibility bug](evidence/reward-mechanism-repair-2026-09-12/partners-metadata-v1-result-2026-09-13.md):
+HTTP 206 carried valid separate CRC32C and MD5 fields. V1 rejected them after
+842 header bytes, before any payload, and skipped 4,758 later requests.
+Every frozen v1 byte and the missed test case remain recorded. The separate
+[v2 correction and review](evidence/reward-mechanism-repair-2026-09-12/partners-metadata-v2-preparation-2026-09-13.md)
+pass 782 distinct offline cases (405 writer plus 377 independent; do not add
+the overlapping 499-case log again).
+
+**V2 is running at this dated boundary**, owned by `/root/evidence_ui` in
+exec session `61220`. Before doing anything else, inspect that agent and the
+durable output at `output/collaboration/reward-mechanism-repair/partners-metadata-v2-inventory-2026-09-13`.
+Do not start another invocation. Root dispatched the exact
+`partners-metadata-v2-frozen-plan-2026-09-13.json`, SHA256
+`3d77faa491248c15913e8a9b5b96f29e9420c63597d3d12a34d0f56e587913c4`.
+Client SHA256 is `ce018ac60c768289769d272d8daacc7ce59b5226ce93804f92de1ce15aa6f255`.
+All 4,759 exact metadata ranges, 3,045,760 payload bytes, 15 source bindings,
+20-minute cap and first-failure/no-retry policy are frozen. Initial batches
+were received successfully. Final completion and full body-column scan cost
+are not yet established. This study reads no body values or coordinates.
+
+The [weight-state source decision](evidence/reward-mechanism-repair-2026-09-12/dopamine-weight-state-decision-2026-09-13.md)
+defines a possible activity-dependent gain rule using the existing times,
+learning rate and bounds. Its symmetric formula is explicitly engineered,
+not a calibrated fly release law; it also retains fresh-gain coincidence
+cancellation. `/root/dopamine_sources` completed an independent direct-
+superposition/DOP853/70-digit oracle with 109 synthetic tests; its contract
+is `output/collaboration/reward-mechanism-repair/weight-state-reference-contract-2026-09-13.md`
+and its freeze receipt is `weight-state-reference-reading-and-freeze-receipt-2026-09-13.json`
+in the same directory. `/root/delivered_arrivals` is preparing a separate
+efficient helper. Both are authorized for synthetic, output-only preparation
+under `output/collaboration/reward-mechanism-repair` only. No saved-history
+candidate evaluation or native/production implementation has been authorized
+for this hypothesis. Compare both methods, freeze a new finite study and its
+inputs before any later evaluation. Keep one production writer and require
+every working agent to read all narrative docs/wiki and subsequent deltas.
+
+Fresh root verification passed: `make verify` (4,055 Python tests, 85 frontend
+tests, Ruff and build), copied PPL101 tests (102), copied v1 tests (565), and
+copied v2 tests (499 plus its separately rebound 377 independent cases).
+The full 791-file protection comparison recorded one regenerated server
+bytecode cache; its bytes match a fresh compile of the unchanged HEAD source.
+The other 790 file hashes and complete inventory match. Preserve both the
+[initial comparison](evidence/reward-mechanism-repair-2026-09-12/signal-localization-protected-2026-09-13.json)
+and [cache follow-up](evidence/reward-mechanism-repair-2026-09-12/signal-localization-cache-followup-2026-09-13.json).
+There is no production/API/UI change; no browser check or QA server was started
+in this continuation. The earlier verified browser boundary remains below.
+
 ## Verified continuation boundary: September 13, 2026, 06:21 UTC
 
 Continue the existing active goal. The conditioning harness and artifact/API/UI

@@ -1,0 +1,109 @@
+{
+  "copied_at_utc": "2026-09-13T07:16:41.403581+00:00",
+  "copy_not_cut": true,
+  "copies": [
+    {
+      "source": "output/collaboration/reward-mechanism-repair/partners_metadata_inventory_v2.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/partners_metadata_inventory_v2.py",
+      "bytes": 32508,
+      "sha256": "ce018ac60c768289769d272d8daacc7ce59b5226ce93804f92de1ce15aa6f255"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/test_partners_metadata_inventory_v2.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/test_partners_metadata_inventory_v2.py",
+      "bytes": 32601,
+      "sha256": "f463488135e238fe0f287893f6bf6aeebbd67d826408d9a5ad569f2fda697a74"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/test_partners_metadata_headers_v2.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/test_partners_metadata_headers_v2.py",
+      "bytes": 7201,
+      "sha256": "20eb536517e4ebb9f06f5a3f3455c15cf30909789daa4836c023f6f63ddeb686"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/test_partners_metadata_independent_headers_v2.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/test_partners_metadata_independent_headers_v2.py",
+      "bytes": 6167,
+      "sha256": "cd90fb5b5b46cb9e5ad51dc165cec8d20c216e9b1f43d516d17b833dd8cdfbab"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/partners_metadata_independent_v2_tests.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/partners_metadata_independent_v2_tests.py",
+      "bytes": 655,
+      "sha256": "9d541831a8f69742dd73f8abb3c540ffdf5433fcacd1f1acb981f6037471e3f1"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/partners-metadata-v2-plan-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/partners-metadata-v2-plan-2026-09-13.json",
+      "bytes": 370861,
+      "sha256": "5954ee60569068916023a4393eaa97e15934909b7d082b0265747c34afbba39b"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/partners-metadata-v2-frozen-plan-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/partners-metadata-v2-frozen-plan-2026-09-13.json",
+      "bytes": 370859,
+      "sha256": "3d77faa491248c15913e8a9b5b96f29e9420c63597d3d12a34d0f56e587913c4"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/partners-metadata-v2-source-contract-2026-09-13.md",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/partners-metadata-v2-source-contract-2026-09-13.md",
+      "bytes": 2227,
+      "sha256": "84ae3be7689af573e48b6b2d6c52ab7d1eb7772dc048aefad1f05db67d8a4480"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/partners-metadata-v2-preparation-2026-09-13.md",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/partners-metadata-v2-preparation-2026-09-13.md",
+      "bytes": 2980,
+      "sha256": "989f97a26f431c3b4582f8c3908b9a6c06071433a7e90c20154487fc1fa6cbb5"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/partners-metadata-independent-v2-review-2026-09-13.md",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/partners-metadata-independent-v2-review-2026-09-13.md",
+      "bytes": 4486,
+      "sha256": "6e167407a8ac2e186e55f2c046305318695b4e213ddf3e87aaf5c1d47a772bba"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/partners-metadata-independent-v2-receipt-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/partners-metadata-independent-v2-receipt-2026-09-13.json",
+      "bytes": 50553,
+      "sha256": "0db73e79057a62f85e42e058966d9817c98df62db98a642411cb45aa026d6677"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/partners-metadata-v1-v2-reading-review-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/partners-metadata-v1-v2-reading-review-2026-09-13.json",
+      "bytes": 43031,
+      "sha256": "38d271f802e5555c33bb60f1d9b0a4227205837ae7344597c98600099e3bf579"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/partners-metadata-v2-offline-tests-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/partners-metadata-v2-offline-tests-2026-09-13.txt",
+      "bytes": 870,
+      "sha256": "681c7918fefbfc14836492de09299592edd7e62b08dbc75e5353baf269640b77"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/partners-metadata-independent-v2-tests-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/partners-metadata-independent-v2-tests-2026-09-13.txt",
+      "bytes": 500,
+      "sha256": "34523b4e7e00105fe377ae3d4ab91a13fb389e1a8d4d32c3e734e0ae49282176"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/partners-metadata-v1-copied-tests-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/partners-metadata-v1-copied-tests-2026-09-13.txt",
+      "bytes": 660,
+      "sha256": "b26f955eea6deb65282a7b81f82994b898f7e43d7b7c4a5ab504e36943b1abfb"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/signal-localization-protected-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/signal-localization-protected-2026-09-13.json",
+      "bytes": 633,
+      "sha256": "906f891033c296227ebb0e1db3723d56be5451ea3f774757c4a2d22aad7979b2"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/signal-localization-cache-followup-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/signal-localization-cache-followup-2026-09-13.json",
+      "bytes": 607,
+      "sha256": "caf020c0305eb75d3e9c6941dc9a707cf14114f4aa9e5d10ac33fd4fe6c94c34"
+    }
+  ],
+  "execution": "The separate v2 run is in progress; these are frozen preparation and review artifacts, not its final result."
+}

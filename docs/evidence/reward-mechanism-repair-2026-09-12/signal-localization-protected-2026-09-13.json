@@ -1,0 +1,21 @@
+{
+  "checked_at": "2026-09-13T07:11:40.290968+00:00",
+  "baseline": "output/collaboration/reward-mechanism-repair/conditioning-qa-baseline-2026-09-13.json",
+  "files_checked": 791,
+  "file_changes": {
+    "bet36fly/__pycache__/server.cpython-312.pyc": {
+      "before": {
+        "sha256": "05417097b468a7720fced7d079c383d218ca7ca42d12d8538e407afb2e13c7a6",
+        "bytes": 14237
+      },
+      "after": {
+        "sha256": "85fd5e362367439d573cfaa0d21029ba152c36739ea3214ae8633ecbfab20055",
+        "bytes": 14442
+      }
+    }
+  },
+  "inventory_changed": false,
+  "added_entries": [],
+  "removed_entries": [],
+  "passed": false
+}

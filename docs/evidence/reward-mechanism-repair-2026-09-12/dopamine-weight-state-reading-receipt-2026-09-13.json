@@ -1,0 +1,187 @@
+{
+  "agent": "dopamine_sources",
+  "checked_at_utc": "2026-09-13T07:03:39.624863+00:00",
+  "status": "bounded source decision complete; explicit engineering hypothesis, no calibrated biological equation",
+  "report": {
+    "path": "output/collaboration/reward-mechanism-repair/dopamine-weight-state-decision-2026-09-13.md",
+    "bytes": 12399,
+    "sha256": "04bde338649936357cafd4858ed216c1e4d00d5856f11e0a9029850b086e22c7"
+  },
+  "prior_full_reading_chain": [
+    {
+      "path": "output/collaboration/reward-mechanism-repair/dopamine-receptor-state-reading-receipt-2026-09-13.json",
+      "bytes": 5554,
+      "sha256": "f70213b88a6e54448f0e2c247c0a0a7021fa16210e8682b70403e7b31ea3cee8"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/conditioning-final-source-claim-review-2026-09-13.json",
+      "bytes": 10279,
+      "sha256": "0b95b24a8b8450297b483a4514e00c651f603dda48ca3227cd0f2b94baae669d"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-independent-math-review-2026-09-13.json",
+      "bytes": 5040,
+      "sha256": "db6fd4df469678e1a179a12cfb5aca2ccdbff6e0d1146d813d189c713d92b166"
+    }
+  ],
+  "narrative_refresh": {
+    "paths_reconciled": 150,
+    "new_or_changed_personally_read_in_full": [
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-result-2026-09-13.md",
+        "bytes": 3902,
+        "sha256": "c7c44e72a83ae49a67d70e96c242e94c5ce44059a7acf8f53af66673e7bb1693"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/index.md",
+        "bytes": 18598,
+        "sha256": "9244080355680cd8c88d33cdf5cab15b23d3fa106acdcd1051e0d994fdebfbbb"
+      },
+      {
+        "path": "wiki/cells/dopamine.md",
+        "bytes": 7862,
+        "sha256": "7f6df602c59c270a5d0e2468111e4178fcad223a9c606a08f59c931a918d3f5a"
+      }
+    ],
+    "exact_copy_deduplication": [
+      {
+        "original": {
+          "path": "output/collaboration/reward-mechanism-repair/dopamine-receptor-state-decision-2026-09-13.md",
+          "bytes": 13820,
+          "sha256": "63cdc757527e4692bb2e29405ea74276cc38006ac1bb6217bba32f469b94b3c7"
+        },
+        "copy": {
+          "path": "docs/evidence/reward-mechanism-repair-2026-09-12/dopamine-receptor-state-decision-2026-09-13.md",
+          "bytes": 13820,
+          "sha256": "63cdc757527e4692bb2e29405ea74276cc38006ac1bb6217bba32f469b94b3c7"
+        }
+      },
+      {
+        "original": {
+          "path": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-preregistration-2026-09-13.md",
+          "bytes": 4709,
+          "sha256": "21ecea16776bc35677415b131cc5b050cdf44f18613d1d9fa147e20ba2480b5d"
+        },
+        "copy": {
+          "path": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-preregistration-2026-09-13.md",
+          "bytes": 4709,
+          "sha256": "21ecea16776bc35677415b131cc5b050cdf44f18613d1d9fa147e20ba2480b5d"
+        }
+      }
+    ],
+    "unread_narrative_deltas": [],
+    "wording_finding_sent_to_root": "Cell page two-state topology should be three-state topology or two independent occupancy variables; ready, primed and inhibited are three states."
+  },
+  "existing_source_reports_reread": [
+    {
+      "path": "output/collaboration/reward-mechanism-repair/dopamine-signal-sources-resumed.md",
+      "bytes": 21098,
+      "sha256": "3eb2b28f996b1972444e50676ffcf29aa907a24ef39082f7c6a8883a62bb67b5"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/dopamine-receptor-state-decision-2026-09-13.md",
+      "bytes": 13820,
+      "sha256": "63cdc757527e4692bb2e29405ea74276cc38006ac1bb6217bba32f469b94b3c7"
+    }
+  ],
+  "implementation_inspected": [
+    {
+      "path": "bet36fly/reward_lif.cpp",
+      "bytes": 19913,
+      "sha256": "e7dbb0aa8f95873036415581e94de45c237941f05642ccc90812c1be1119be37"
+    },
+    {
+      "path": "bet36fly/reward_protocol.py",
+      "bytes": 15356,
+      "sha256": "e1a315f991debb677fca30f6e821a657135adccf032ad26054a00ed7688dc1bb"
+    },
+    {
+      "path": "bet36fly/reward_brain.py",
+      "bytes": 28621,
+      "sha256": "5a6d67d38d226c6792c4f11430610772894ea3e9ae9593c2d215cfd7eaa0a6d5"
+    }
+  ],
+  "fresh_code_scope": "Complete RateBridge implementation and relevant event-loop/update/configuration boundaries; all three complete files have prior personally-read coverage. No release or receptor module is inferred.",
+  "web_access": {
+    "invocations": 3,
+    "search_queries": 4,
+    "page_opens": 1,
+    "actions": [
+      {
+        "kind": "search",
+        "queries": [
+          "\"PMC4674068\" \"paired-pulse\" \"depression\""
+        ],
+        "domain": "pmc.ncbi.nlm.nih.gov",
+        "result": "no results"
+      },
+      {
+        "kind": "batched_search",
+        "queries": [
+          "\"Heterosynaptic Plasticity Underlies Aversive Olfactory Learning\" \"depression\" \"initial\"",
+          "\"Dopamine Neurons Induce Complementary Plasticity\" \"strength\" \"potentiation\"",
+          "\"Coordinated and Compartmentalized Neuromodulation\" \"strength\" \"release\""
+        ],
+        "domain": "pmc.ncbi.nlm.nih.gov",
+        "result": "Indexed Cohn and Handler primary Results inspected; unrelated results not adopted"
+      },
+      {
+        "kind": "open",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4674068/",
+        "result": "browser challenge only"
+      }
+    ],
+    "counting_note": "Three tool invocations included a batch of three queries; query and open counts are separately exposed, not called three individual requests.",
+    "new_full_methods_access_claimed": false,
+    "further_requests": 0
+  },
+  "source_entries": [
+    {
+      "source": "Hige et al. 2015",
+      "doi": "10.1016/j.neuron.2015.11.003",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4674068/",
+      "version": "Published Neuron article / PMC primary text",
+      "checked": "2026-09-13 UTC",
+      "limit": "Prior targeted full Results/Methods reading retained; fresh direct access challenged, no initial-strength calibration newly obtained."
+    },
+    {
+      "source": "Handler et al. 2019",
+      "doi": "10.1016/j.cell.2019.05.040",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9012144/",
+      "version": "Published Cell article / PMC indexed primary text",
+      "checked": "2026-09-13 UTC",
+      "limit": "Prior indexed Results/Figures and selected Methods; fresh indexed second-messenger Results. No full new methods or gain-state calibration."
+    },
+    {
+      "source": "Cohn et al. 2015",
+      "doi": "10.1016/j.cell.2015.11.019",
+      "url": "https://stacks.cdc.gov/view/cdc/38872/cdc_38872_DS1.pdf",
+      "indexed_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4732734/",
+      "version": "Primary author manuscript plus indexed published primary text",
+      "checked": "2026-09-13 UTC",
+      "limit": "Prior main text/main methods; fresh indexed local-calcium Results. No release-probability calibration or initial-strength series identified."
+    }
+  ],
+  "decision": {
+    "biology": "Supports modifiable KC output and local intracellular state; inspected evidence does not identify symmetric distance-to-bound scaling, equal slopes or a universal initial-strength law.",
+    "dataset": "Anatomical weights/contact counts do not provide release probability or multiplier-to-receptor state conversion.",
+    "simulator": "Current gain update is additive before clamp; proposed continuous law introduces current-gain dependence within each interval.",
+    "engineering": "The fixed bounds and unit baseline determine factors without a fitted free constant, but selecting those factors remains an engineering assumption. Eligible for a separately frozen bounded numerical test, not qualified as biological reconstruction.",
+    "derived_consequences": [
+      "x=g-1 obeys x prime = eta(P-N)-2eta(P+N)x.",
+      "Balanced products preserve fresh gain 1 and restore other gains toward 1; no receptor coincidence branch is added.",
+      "Isolated-pair polarity and midpoint antisymmetry survive with attenuated magnitude.",
+      "Continuous bounds invariant; finite-precision publication and full-tail numerical solution still require tests.",
+      "No guarantee of better drift/SD ratio, teaching separation, memory retention or reversal."
+    ],
+    "fixed_masks": "4184 home and 3239 away eligible; 1443 other away edges transmit.",
+    "parameter_selection_from_outcomes": false
+  },
+  "post_outcome_scope": "Parent reported the basis outcome after the math receipt was written. Its later narrative was read for requested documentation coverage. No candidate coefficient or parameter was chosen using it; no actual saved candidate histories or arrays were inspected for this decision.",
+  "candidate_code_or_evaluations": 0,
+  "new_native_or_circuit_calls": 0,
+  "new_synapse_requests": 0,
+  "production_edits": 0,
+  "prior_frozen_artifacts_modified": false,
+  "verification": "Document/source-hash and exact-copy checks only for this source decision. Earlier separate basis-math review passed 102 synthetic tests and Ruff. Root owns repository quality gate."
+}

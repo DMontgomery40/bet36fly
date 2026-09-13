@@ -1,0 +1,24 @@
+{
+  "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+  "game": 4412,
+  "seed_set": "base",
+  "seed": 2004454,
+  "individual_attempted": [
+    -0.06184414135402266,
+    0.07527355809528471
+  ],
+  "pooled_attempted": 0.006714708370631109,
+  "published": 0.006715536117553711,
+  "maximum_true_absolute_area": 0.05878801622823797,
+  "maximum_canonical_area_error": 5.898059818321144e-16,
+  "home_dan_counts": [
+    18,
+    18
+  ],
+  "post_onset_home_dan_counts": [
+    14,
+    14
+  ],
+  "full_history_dan_disagreements": 36,
+  "all_home_gain_bytes_match": true
+}

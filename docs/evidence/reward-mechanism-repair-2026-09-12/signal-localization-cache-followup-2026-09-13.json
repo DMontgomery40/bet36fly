@@ -1,0 +1,15 @@
+{
+  "server_source_matches_HEAD": true,
+  "server_source_sha256": "77babf3716d963e83a42f17087b1e9a00790480497255c19068b142369efa454",
+  "cache_sha256": "85fd5e362367439d573cfaa0d21029ba152c36739ea3214ae8633ecbfab20055",
+  "cache_matches_fresh_compile": true,
+  "cache_header": [
+    168627659,
+    0,
+    1789278195,
+    8619
+  ],
+  "source_bytes": 8619,
+  "source_mtime_integer": 1789278195,
+  "scope": "The full791-file comparison recorded one changed Python bytecode cache. The remaining790 file hashes and complete inventory match; no scientific artifact, model pointer or production source changed."
+}

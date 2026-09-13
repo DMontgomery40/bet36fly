@@ -1,0 +1,162 @@
+{
+  "copied_at_utc": "2026-09-13T07:09:55.357498+00:00",
+  "copy_not_cut": true,
+  "copies": [
+    {
+      "source": "output/collaboration/reward-mechanism-repair/partners_metadata_inventory.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/partners_metadata_inventory.py",
+      "bytes": 30162,
+      "sha256": "1f4394d5bc4621125709eb8c3a972ba0f25cc242424d0ed683c71d93657931ed"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/test_partners_metadata_inventory.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/test_partners_metadata_inventory.py",
+      "bytes": 32598,
+      "sha256": "7923d3cb120f3f2d509a4966bcd334dd1ae1ba8c7944fece6f92fa0549f3415b"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/partners_metadata_independent.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/partners_metadata_independent.py",
+      "bytes": 6677,
+      "sha256": "8027eb664840e9628cf93cd2b6e8099f94191bbaf0917b3726e85f906aab4067"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/test_partners_metadata_independent.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/test_partners_metadata_independent.py",
+      "bytes": 4868,
+      "sha256": "4c2867b9ac63c101b3ec62c111cde542aedbbd4914c55719646a92481f3bbfee"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/test_partners_metadata_independent_client.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/test_partners_metadata_independent_client.py",
+      "bytes": 3772,
+      "sha256": "ef4f985142cb3cfa1a868b94e1ed119efe46abe8da3dc8eadd1626b1fb36472e"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/test_partners_metadata_independent_transport.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/test_partners_metadata_independent_transport.py",
+      "bytes": 17380,
+      "sha256": "21c4d31b950ac2c8cf16521c249db1badc66553be277403e33cc9b5e4cc0f162"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/partners-metadata-plan-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/partners-metadata-plan-2026-09-13.json",
+      "bytes": 369902,
+      "sha256": "26309100ef7c6efd3bed12ce25409e353d369b50640d9f9703cad9e2587a7fea"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/partners-metadata-frozen-plan-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/partners-metadata-frozen-plan-2026-09-13.json",
+      "bytes": 369900,
+      "sha256": "d4ce152d156cca45f4aa05cf76ce6b87b1efb8981b973db1f483aa7cca47a56a"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/partners-metadata-execution-integrity-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/partners-metadata-execution-integrity-2026-09-13.json",
+      "bytes": 6470,
+      "sha256": "77e480a8cddadf3ee53a46ae34909a1f9e416ea6f5ce119d1f10fdb26c7d93ac"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/partners-metadata-preparation-2026-09-13.md",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/partners-metadata-preparation-2026-09-13.md",
+      "bytes": 8560,
+      "sha256": "23d54cc86d24484580cecf09e0ae9d593e698f410ad605adcc84b6234191f2bb"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/partners-metadata-independent-review-2026-09-13.md",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/partners-metadata-independent-review-2026-09-13.md",
+      "bytes": 7888,
+      "sha256": "a335bf5ea204b5c1e00b2e2b8a7a11b8f6bec4b51e5f1b745256bc7ca06cd69c"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/partners-metadata-independent-final-receipt-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/partners-metadata-independent-final-receipt-2026-09-13.json",
+      "bytes": 50587,
+      "sha256": "06c9dc39cc8ab0e2a309e9c1bb9546a60de931fe3fbe3ce227bb18f5b8d365d7"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/partners-metadata-independent-plan-review-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/partners-metadata-independent-plan-review-2026-09-13.json",
+      "bytes": 1468,
+      "sha256": "10b6c7ef3e673d40978d3d0f1f962f84f0a1c6ca0374e476b7dc71239fee9fa5"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/partners-metadata-independent-all-ranges.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/partners-metadata-independent-all-ranges.json",
+      "bytes": 939674,
+      "sha256": "d8bbba6d87081a65a1ec3e9b486e0989bfd11c1c901d3b64372ea56d75a69df6"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/partners-metadata-independent-pyarrow-footer.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/partners-metadata-independent-pyarrow-footer.json",
+      "bytes": 1493,
+      "sha256": "5db0c4458dbc27e479ae3f4946cb89934136a9f81769ff97076be6f8caa52a9c"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/partners-metadata-independent-final-tests-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/partners-metadata-independent-final-tests-2026-09-13.txt",
+      "bytes": 340,
+      "sha256": "25c488d1d8b79fb26ee079b98db38110d37097afe3c27f9f457f61d0b23aaa5d"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/partners-metadata-offline-tests-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/partners-metadata-offline-tests-2026-09-13.txt",
+      "bytes": 1037,
+      "sha256": "d2a2010d92e84f82776f86300ab56b490eec8b22afb863f04dbb0dcac0885a0d"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dopamine-weight-state-decision-2026-09-13.md",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dopamine-weight-state-decision-2026-09-13.md",
+      "bytes": 12399,
+      "sha256": "04bde338649936357cafd4858ed216c1e4d00d5856f11e0a9029850b086e22c7"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dopamine-weight-state-reading-receipt-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dopamine-weight-state-reading-receipt-2026-09-13.json",
+      "bytes": 9162,
+      "sha256": "184823b05943497108a68e81a28590a6a7d2e3d4a41caa3ca50a5a8939b5ac3d"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/signal-localization-make-verify-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/signal-localization-make-verify-2026-09-13.txt",
+      "bytes": 6295,
+      "sha256": "7a2d889b694079a5bd55a9b19b80458c5bab03e4d798201050102cc00cb6627f"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-signal-basis-copied-tests-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-signal-basis-copied-tests-2026-09-13.txt",
+      "bytes": 180,
+      "sha256": "e90b9ce507a63487b7df46ee27d6717ab4844c3ea0cc900017ff028983c4eda9"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/partners-metadata-inventory-2026-09-13/inventory.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/partners-metadata-inventory-2026-09-13/inventory.json",
+      "bytes": 402,
+      "sha256": "4d5e67888c4df7001c2bd5ccb43242a029c60b6a0a7fe5e376fb5d28b59ee720"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/partners-metadata-inventory-2026-09-13/metadata.bin",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/partners-metadata-inventory-2026-09-13/metadata.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/partners-metadata-inventory-2026-09-13/plan.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/partners-metadata-inventory-2026-09-13/plan.json",
+      "bytes": 369900,
+      "sha256": "d4ce152d156cca45f4aa05cf76ce6b87b1efb8981b973db1f483aa7cca47a56a"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/partners-metadata-inventory-2026-09-13/requests.jsonl",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/partners-metadata-inventory-2026-09-13/requests.jsonl",
+      "bytes": 2318,
+      "sha256": "8e07bdbd7b313ce43f5877e17c0bda08128dcbb6901a085b7d10adc3600168d7"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/partners-metadata-inventory-2026-09-13/summary.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/partners-metadata-inventory-2026-09-13/summary.json",
+      "bytes": 990,
+      "sha256": "3886d4dfe0651ac4cbb9c51740b025fbdd0216d58f35ae6829a5cb672d815852"
+    }
+  ]
+}

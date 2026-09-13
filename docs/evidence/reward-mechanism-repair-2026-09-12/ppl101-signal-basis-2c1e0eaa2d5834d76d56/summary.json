@@ -1,0 +1,926 @@
+{
+  "run_id": "ppl101-signal-basis-2c1e0eaa2d5834d76d56",
+  "status": "complete",
+  "rows": [
+    {
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "game": 4362,
+      "seed_set": "base",
+      "seed": 4404,
+      "individual_attempted": [
+        -0.015291886739481671,
+        -0.059519211509728796
+      ],
+      "pooled_attempted": -0.037405549124605225,
+      "published": -0.03740561008453369,
+      "maximum_true_absolute_area": 0.0593978902403677,
+      "maximum_canonical_area_error": 6.453171330633722e-16,
+      "home_dan_counts": [
+        17,
+        17
+      ],
+      "post_onset_home_dan_counts": [
+        13,
+        13
+      ],
+      "full_history_dan_disagreements": 32,
+      "all_home_gain_bytes_match": true
+    },
+    {
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "game": 4362,
+      "seed_set": "alt",
+      "seed": 1004404,
+      "individual_attempted": [
+        -0.03795213297318336,
+        -0.10477887734561452
+      ],
+      "pooled_attempted": -0.07136550515939889,
+      "published": -0.07136553525924683,
+      "maximum_true_absolute_area": 0.034307418042961106,
+      "maximum_canonical_area_error": 3.885780586188048e-16,
+      "home_dan_counts": [
+        14,
+        14
+      ],
+      "post_onset_home_dan_counts": [
+        10,
+        10
+      ],
+      "full_history_dan_disagreements": 24,
+      "all_home_gain_bytes_match": true
+    },
+    {
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "game": 4366,
+      "seed_set": "base",
+      "seed": 4408,
+      "individual_attempted": [
+        0.04627252491875994,
+        -0.06747073367404414
+      ],
+      "pooled_attempted": -0.010599104377642114,
+      "published": -0.01059800386428833,
+      "maximum_true_absolute_area": 0.027622769865786018,
+      "maximum_canonical_area_error": 2.8275992658421956e-16,
+      "home_dan_counts": [
+        11,
+        9
+      ],
+      "post_onset_home_dan_counts": [
+        8,
+        7
+      ],
+      "full_history_dan_disagreements": 20,
+      "all_home_gain_bytes_match": true
+    },
+    {
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "game": 4366,
+      "seed_set": "alt",
+      "seed": 1004408,
+      "individual_attempted": [
+        -0.05442280635713864,
+        0.29007217765526666
+      ],
+      "pooled_attempted": 0.1178246856490639,
+      "published": 0.11782455444335938,
+      "maximum_true_absolute_area": 0.029379684340713294,
+      "maximum_canonical_area_error": 3.157196726277789e-16,
+      "home_dan_counts": [
+        11,
+        10
+      ],
+      "post_onset_home_dan_counts": [
+        7,
+        7
+      ],
+      "full_history_dan_disagreements": 21,
+      "all_home_gain_bytes_match": true
+    },
+    {
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "game": 4370,
+      "seed_set": "base",
+      "seed": 4412,
+      "individual_attempted": [
+        0.15660817521045597,
+        0.35238050727935666
+      ],
+      "pooled_attempted": 0.2544943412449061,
+      "published": 0.25449538230895996,
+      "maximum_true_absolute_area": 0.06510090455742742,
+      "maximum_canonical_area_error": 7.632783294297951e-16,
+      "home_dan_counts": [
+        23,
+        22
+      ],
+      "post_onset_home_dan_counts": [
+        17,
+        17
+      ],
+      "full_history_dan_disagreements": 45,
+      "all_home_gain_bytes_match": true
+    },
+    {
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "game": 4370,
+      "seed_set": "alt",
+      "seed": 1004412,
+      "individual_attempted": [
+        -0.33457010203083354,
+        0.11886831625634559
+      ],
+      "pooled_attempted": -0.10785089288724391,
+      "published": -0.1078498363494873,
+      "maximum_true_absolute_area": 0.06677638983217811,
+      "maximum_canonical_area_error": 6.730727086790012e-16,
+      "home_dan_counts": [
+        21,
+        19
+      ],
+      "post_onset_home_dan_counts": [
+        16,
+        15
+      ],
+      "full_history_dan_disagreements": 40,
+      "all_home_gain_bytes_match": true
+    },
+    {
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "game": 4374,
+      "seed_set": "base",
+      "seed": 4416,
+      "individual_attempted": [
+        -0.09971211800033428,
+        -0.17010301314890416
+      ],
+      "pooled_attempted": -0.13490756557461936,
+      "published": -0.1349077820777893,
+      "maximum_true_absolute_area": 0.018359917279365846,
+      "maximum_canonical_area_error": 1.717376241217039e-16,
+      "home_dan_counts": [
+        8,
+        7
+      ],
+      "post_onset_home_dan_counts": [
+        6,
+        5
+      ],
+      "full_history_dan_disagreements": 15,
+      "all_home_gain_bytes_match": true
+    },
+    {
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "game": 4374,
+      "seed_set": "alt",
+      "seed": 1004416,
+      "individual_attempted": [
+        -0.22125748399392609,
+        -0.1756238390002079
+      ],
+      "pooled_attempted": -0.19844066149706707,
+      "published": -0.19844037294387817,
+      "maximum_true_absolute_area": 0.016065210966257192,
+      "maximum_canonical_area_error": 1.8214596497756474e-16,
+      "home_dan_counts": [
+        8,
+        7
+      ],
+      "post_onset_home_dan_counts": [
+        6,
+        5
+      ],
+      "full_history_dan_disagreements": 15,
+      "all_home_gain_bytes_match": true
+    },
+    {
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "game": 4378,
+      "seed_set": "base",
+      "seed": 4420,
+      "individual_attempted": [
+        -0.4843880106639581,
+        -0.7856532377024171
+      ],
+      "pooled_attempted": -0.6350206241831875,
+      "published": -0.6350186467170715,
+      "maximum_true_absolute_area": 0.05745580842023205,
+      "maximum_canonical_area_error": 5.967448757360216e-16,
+      "home_dan_counts": [
+        19,
+        19
+      ],
+      "post_onset_home_dan_counts": [
+        15,
+        15
+      ],
+      "full_history_dan_disagreements": 38,
+      "all_home_gain_bytes_match": true
+    },
+    {
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "game": 4378,
+      "seed_set": "alt",
+      "seed": 1004420,
+      "individual_attempted": [
+        0.18871300300261282,
+        -0.6117027979944397
+      ],
+      "pooled_attempted": -0.21149489749591321,
+      "published": -0.2114952802658081,
+      "maximum_true_absolute_area": 0.05744442922318674,
+      "maximum_canonical_area_error": 6.453171330633722e-16,
+      "home_dan_counts": [
+        18,
+        19
+      ],
+      "post_onset_home_dan_counts": [
+        15,
+        15
+      ],
+      "full_history_dan_disagreements": 35,
+      "all_home_gain_bytes_match": true
+    },
+    {
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "game": 4383,
+      "seed_set": "base",
+      "seed": 4425,
+      "individual_attempted": [
+        0.08185780902082723,
+        -0.04027683985018759
+      ],
+      "pooled_attempted": 0.020790484585319707,
+      "published": 0.020790934562683105,
+      "maximum_true_absolute_area": 0.07134433996346604,
+      "maximum_canonical_area_error": 6.453171330633722e-16,
+      "home_dan_counts": [
+        24,
+        23
+      ],
+      "post_onset_home_dan_counts": [
+        17,
+        16
+      ],
+      "full_history_dan_disagreements": 47,
+      "all_home_gain_bytes_match": true
+    },
+    {
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "game": 4383,
+      "seed_set": "alt",
+      "seed": 1004425,
+      "individual_attempted": [
+        0.5922235665065839,
+        0.4285229511083083
+      ],
+      "pooled_attempted": 0.5103732588074463,
+      "published": 0.5103757381439209,
+      "maximum_true_absolute_area": 0.07799158808275732,
+      "maximum_canonical_area_error": 7.7021722333370235e-16,
+      "home_dan_counts": [
+        23,
+        23
+      ],
+      "post_onset_home_dan_counts": [
+        17,
+        17
+      ],
+      "full_history_dan_disagreements": 46,
+      "all_home_gain_bytes_match": true
+    },
+    {
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "game": 4387,
+      "seed_set": "base",
+      "seed": 4429,
+      "individual_attempted": [
+        -0.19751554037953398,
+        -0.2798137806266895
+      ],
+      "pooled_attempted": -0.23866466050311133,
+      "published": -0.23866534233093262,
+      "maximum_true_absolute_area": 0.05733259389619805,
+      "maximum_canonical_area_error": 5.585809592645319e-16,
+      "home_dan_counts": [
+        20,
+        19
+      ],
+      "post_onset_home_dan_counts": [
+        15,
+        13
+      ],
+      "full_history_dan_disagreements": 39,
+      "all_home_gain_bytes_match": true
+    },
+    {
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "game": 4387,
+      "seed_set": "alt",
+      "seed": 1004429,
+      "individual_attempted": [
+        -0.3196848739690722,
+        -0.26405489989762515
+      ],
+      "pooled_attempted": -0.2918698869333487,
+      "published": -0.2918698787689209,
+      "maximum_true_absolute_area": 0.05855082086670707,
+      "maximum_canonical_area_error": 5.967448757360216e-16,
+      "home_dan_counts": [
+        17,
+        18
+      ],
+      "post_onset_home_dan_counts": [
+        13,
+        14
+      ],
+      "full_history_dan_disagreements": 33,
+      "all_home_gain_bytes_match": true
+    },
+    {
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "game": 4391,
+      "seed_set": "base",
+      "seed": 4433,
+      "individual_attempted": [
+        -0.02493004248481553,
+        -0.0738993491305498
+      ],
+      "pooled_attempted": -0.04941469580768275,
+      "published": -0.04941391944885254,
+      "maximum_true_absolute_area": 0.037714082789109864,
+      "maximum_canonical_area_error": 3.677613769070831e-16,
+      "home_dan_counts": [
+        14,
+        13
+      ],
+      "post_onset_home_dan_counts": [
+        11,
+        10
+      ],
+      "full_history_dan_disagreements": 27,
+      "all_home_gain_bytes_match": true
+    },
+    {
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "game": 4391,
+      "seed_set": "alt",
+      "seed": 1004433,
+      "individual_attempted": [
+        -0.3170490514950811,
+        -0.15312576090655483
+      ],
+      "pooled_attempted": -0.23508740620081822,
+      "published": -0.23508840799331665,
+      "maximum_true_absolute_area": 0.054661062235859495,
+      "maximum_canonical_area_error": 5.793976409762536e-16,
+      "home_dan_counts": [
+        16,
+        15
+      ],
+      "post_onset_home_dan_counts": [
+        13,
+        12
+      ],
+      "full_history_dan_disagreements": 31,
+      "all_home_gain_bytes_match": true
+    },
+    {
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "game": 4395,
+      "seed_set": "base",
+      "seed": 2004437,
+      "individual_attempted": [
+        -0.6488075863265323,
+        -0.2750525281182671
+      ],
+      "pooled_attempted": -0.4619300572223998,
+      "published": -0.46193116903305054,
+      "maximum_true_absolute_area": 0.06392255948051277,
+      "maximum_canonical_area_error": 6.349087922075114e-16,
+      "home_dan_counts": [
+        18,
+        18
+      ],
+      "post_onset_home_dan_counts": [
+        13,
+        14
+      ],
+      "full_history_dan_disagreements": 36,
+      "all_home_gain_bytes_match": true
+    },
+    {
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "game": 4395,
+      "seed_set": "alt",
+      "seed": 3004437,
+      "individual_attempted": [
+        0.0635366120706684,
+        -0.16544472721185235
+      ],
+      "pooled_attempted": -0.050954057570591925,
+      "published": -0.050952374935150146,
+      "maximum_true_absolute_area": 0.06420681097720682,
+      "maximum_canonical_area_error": 6.522560269672795e-16,
+      "home_dan_counts": [
+        19,
+        18
+      ],
+      "post_onset_home_dan_counts": [
+        14,
+        13
+      ],
+      "full_history_dan_disagreements": 37,
+      "all_home_gain_bytes_match": true
+    },
+    {
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "game": 4399,
+      "seed_set": "base",
+      "seed": 2004441,
+      "individual_attempted": [
+        -0.2295957391766922,
+        -0.2385189197540255
+      ],
+      "pooled_attempted": -0.23405732946535904,
+      "published": -0.23405802249908447,
+      "maximum_true_absolute_area": 0.04821297125523202,
+      "maximum_canonical_area_error": 4.891920202254596e-16,
+      "home_dan_counts": [
+        18,
+        17
+      ],
+      "post_onset_home_dan_counts": [
+        14,
+        14
+      ],
+      "full_history_dan_disagreements": 31,
+      "all_home_gain_bytes_match": true
+    },
+    {
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "game": 4399,
+      "seed_set": "alt",
+      "seed": 3004441,
+      "individual_attempted": [
+        0.20741767912545406,
+        0.17475877796953806
+      ],
+      "pooled_attempted": 0.1910882285474961,
+      "published": 0.19108784198760986,
+      "maximum_true_absolute_area": 0.053047802691404175,
+      "maximum_canonical_area_error": 5.030698080332741e-16,
+      "home_dan_counts": [
+        18,
+        16
+      ],
+      "post_onset_home_dan_counts": [
+        14,
+        12
+      ],
+      "full_history_dan_disagreements": 34,
+      "all_home_gain_bytes_match": true
+    },
+    {
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "game": 4404,
+      "seed_set": "base",
+      "seed": 2004446,
+      "individual_attempted": [
+        0.050352448709184636,
+        0.2491632059984388
+      ],
+      "pooled_attempted": 0.14975782735381166,
+      "published": 0.14975744485855103,
+      "maximum_true_absolute_area": 0.046050558904797055,
+      "maximum_canonical_area_error": 4.579669976578771e-16,
+      "home_dan_counts": [
+        14,
+        13
+      ],
+      "post_onset_home_dan_counts": [
+        11,
+        10
+      ],
+      "full_history_dan_disagreements": 27,
+      "all_home_gain_bytes_match": true
+    },
+    {
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "game": 4404,
+      "seed_set": "alt",
+      "seed": 3004446,
+      "individual_attempted": [
+        -0.45314256526926533,
+        -0.3310470986927753
+      ],
+      "pooled_attempted": -0.39209483198102024,
+      "published": -0.3920947313308716,
+      "maximum_true_absolute_area": 0.03861113706113877,
+      "maximum_canonical_area_error": 3.8163916471489756e-16,
+      "home_dan_counts": [
+        12,
+        11
+      ],
+      "post_onset_home_dan_counts": [
+        10,
+        9
+      ],
+      "full_history_dan_disagreements": 23,
+      "all_home_gain_bytes_match": true
+    },
+    {
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "game": 4408,
+      "seed_set": "base",
+      "seed": 2004450,
+      "individual_attempted": [
+        -0.3725194180667203,
+        0.21185028634102165
+      ],
+      "pooled_attempted": -0.08033456586284925,
+      "published": -0.08033424615859985,
+      "maximum_true_absolute_area": 0.05952129465789781,
+      "maximum_canonical_area_error": 5.828670879282072e-16,
+      "home_dan_counts": [
+        17,
+        16
+      ],
+      "post_onset_home_dan_counts": [
+        13,
+        13
+      ],
+      "full_history_dan_disagreements": 33,
+      "all_home_gain_bytes_match": true
+    },
+    {
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "game": 4408,
+      "seed_set": "alt",
+      "seed": 3004450,
+      "individual_attempted": [
+        -0.19268864294881907,
+        -0.3344981678720834
+      ],
+      "pooled_attempted": -0.26359340541045134,
+      "published": -0.2635941505432129,
+      "maximum_true_absolute_area": 0.04201318937978661,
+      "maximum_canonical_area_error": 4.0939474033052647e-16,
+      "home_dan_counts": [
+        16,
+        16
+      ],
+      "post_onset_home_dan_counts": [
+        11,
+        11
+      ],
+      "full_history_dan_disagreements": 32,
+      "all_home_gain_bytes_match": true
+    },
+    {
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "game": 4412,
+      "seed_set": "base",
+      "seed": 2004454,
+      "individual_attempted": [
+        -0.06184414135402266,
+        0.07527355809528471
+      ],
+      "pooled_attempted": 0.006714708370631109,
+      "published": 0.006715536117553711,
+      "maximum_true_absolute_area": 0.05878801622823797,
+      "maximum_canonical_area_error": 5.898059818321144e-16,
+      "home_dan_counts": [
+        18,
+        18
+      ],
+      "post_onset_home_dan_counts": [
+        14,
+        14
+      ],
+      "full_history_dan_disagreements": 36,
+      "all_home_gain_bytes_match": true
+    },
+    {
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "game": 4412,
+      "seed_set": "alt",
+      "seed": 3004454,
+      "individual_attempted": [
+        -0.2117684385555509,
+        -0.16721407634794894
+      ],
+      "pooled_attempted": -0.1894912574517499,
+      "published": -0.1894911527633667,
+      "maximum_true_absolute_area": 0.050389758658617514,
+      "maximum_canonical_area_error": 4.891920202254596e-16,
+      "home_dan_counts": [
+        18,
+        17
+      ],
+      "post_onset_home_dan_counts": [
+        12,
+        12
+      ],
+      "full_history_dan_disagreements": 35,
+      "all_home_gain_bytes_match": true
+    },
+    {
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "game": 4416,
+      "seed_set": "base",
+      "seed": 2004458,
+      "individual_attempted": [
+        -0.09623329198289396,
+        0.03594912851431196
+      ],
+      "pooled_attempted": -0.030142081734290962,
+      "published": -0.030141770839691162,
+      "maximum_true_absolute_area": 0.04572519478182729,
+      "maximum_canonical_area_error": 4.718447854656915e-16,
+      "home_dan_counts": [
+        16,
+        16
+      ],
+      "post_onset_home_dan_counts": [
+        12,
+        12
+      ],
+      "full_history_dan_disagreements": 32,
+      "all_home_gain_bytes_match": true
+    },
+    {
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "game": 4416,
+      "seed_set": "alt",
+      "seed": 3004458,
+      "individual_attempted": [
+        0.14087978956751707,
+        0.10878415651744723
+      ],
+      "pooled_attempted": 0.12483197304248217,
+      "published": 0.1248326301574707,
+      "maximum_true_absolute_area": 0.0310375419541562,
+      "maximum_canonical_area_error": 3.3306690738754696e-16,
+      "home_dan_counts": [
+        12,
+        12
+      ],
+      "post_onset_home_dan_counts": [
+        9,
+        9
+      ],
+      "full_history_dan_disagreements": 24,
+      "all_home_gain_bytes_match": true
+    },
+    {
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "game": 4420,
+      "seed_set": "base",
+      "seed": 2004462,
+      "individual_attempted": [
+        -1.6648769888746768,
+        -1.0899091822526186
+      ],
+      "pooled_attempted": -1.377393085563647,
+      "published": -1.3773916363716125,
+      "maximum_true_absolute_area": 0.09647429660279622,
+      "maximum_canonical_area_error": 9.71445146547012e-16,
+      "home_dan_counts": [
+        29,
+        28
+      ],
+      "post_onset_home_dan_counts": [
+        23,
+        22
+      ],
+      "full_history_dan_disagreements": 51,
+      "all_home_gain_bytes_match": true
+    },
+    {
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "game": 4420,
+      "seed_set": "alt",
+      "seed": 3004462,
+      "individual_attempted": [
+        -0.15932251804150446,
+        0.33788895501675603
+      ],
+      "pooled_attempted": 0.08928321848762619,
+      "published": 0.08928269147872925,
+      "maximum_true_absolute_area": 0.08378591746767527,
+      "maximum_canonical_area_error": 8.673617379884035e-16,
+      "home_dan_counts": [
+        26,
+        25
+      ],
+      "post_onset_home_dan_counts": [
+        20,
+        19
+      ],
+      "full_history_dan_disagreements": 49,
+      "all_home_gain_bytes_match": true
+    },
+    {
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "game": 4425,
+      "seed_set": "base",
+      "seed": 2004467,
+      "individual_attempted": [
+        -0.1232380007858333,
+        -0.18423298510467614
+      ],
+      "pooled_attempted": -0.15373549294525476,
+      "published": -0.153736412525177,
+      "maximum_true_absolute_area": 0.05066595254220532,
+      "maximum_canonical_area_error": 5.100087019371813e-16,
+      "home_dan_counts": [
+        15,
+        15
+      ],
+      "post_onset_home_dan_counts": [
+        12,
+        12
+      ],
+      "full_history_dan_disagreements": 20,
+      "all_home_gain_bytes_match": true
+    },
+    {
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "game": 4425,
+      "seed_set": "alt",
+      "seed": 3004467,
+      "individual_attempted": [
+        -0.02193683205429644,
+        -0.1827060434045983
+      ],
+      "pooled_attempted": -0.10232143772944743,
+      "published": -0.10232347249984741,
+      "maximum_true_absolute_area": 0.04629984595928302,
+      "maximum_canonical_area_error": 5.100087019371813e-16,
+      "home_dan_counts": [
+        14,
+        14
+      ],
+      "post_onset_home_dan_counts": [
+        11,
+        11
+      ],
+      "full_history_dan_disagreements": 28,
+      "all_home_gain_bytes_match": true
+    }
+  ],
+  "envelopes": {
+    "0/base": {
+      "trial_low": [
+        -0.05990841882392095,
+        -0.07443331128875134,
+        0.15019514631811365,
+        -0.1789665565410999,
+        -0.7859030432222102,
+        -0.04879606570012182,
+        -0.31891706382772894,
+        -0.09587588010674114
+      ],
+      "trial_high": [
+        -0.014902679425289531,
+        0.05323510253346711,
+        0.35879353617169857,
+        -0.09084857460813885,
+        -0.4841382051441646,
+        0.09037703487076125,
+        -0.1584122571784937,
+        -0.0029535115086243395
+      ],
+      "mean_interval": [
+        -0.17657564914905757,
+        -0.031106194286098003
+      ],
+      "minimum_absolute_mean": 0.031106194286098003,
+      "maximum_sample_sd": 0.3404825998568266,
+      "minimum_absolute_mean_lower": 0.031106194045905578,
+      "maximum_sample_sd_upper": 0.34048260009701903,
+      "guard_limit_upper": 0.17024130004850951,
+      "reduction_statistics_allowance": 2.4019242562911715e-10,
+      "publication_and_numeric_expansion_per_trial": 0.00024980551979339135,
+      "all_convex_mappings_excluded": false,
+      "scope": "Loose necessary bound on fixed histories; no feasible anatomical mapping established"
+    },
+    "0/alt": {
+      "trial_low": [
+        -0.10502868286760478,
+        -0.05467261187912908,
+        -0.3356138826742317,
+        -0.23354272626494507,
+        -0.6119526035164298,
+        0.42827314558631807,
+        -0.348786322761913,
+        -0.32375941060519514
+      ],
+      "trial_high": [
+        -0.037702327451193014,
+        0.2903219831772569,
+        0.11991209689974383,
+        -0.1633385967291891,
+        0.18896280852460332,
+        0.5924733720285745,
+        -0.23495345110478438,
+        -0.1464154017964413
+      ],
+      "mean_interval": [
+        -0.1981353868728913,
+        0.07615756044357135
+      ],
+      "minimum_absolute_mean": 0.0,
+      "maximum_sample_sd": 0.39237742403359016,
+      "minimum_absolute_mean_lower": 0.0,
+      "maximum_sample_sd_upper": 0.39237742427597955,
+      "guard_limit_upper": 0.19618871213798977,
+      "reduction_statistics_allowance": 2.4238939386170417e-10,
+      "publication_and_numeric_expansion_per_trial": 0.0002498055219903596,
+      "all_convex_mappings_excluded": false,
+      "scope": "Loose necessary bound on fixed histories; no feasible anatomical mapping established"
+    },
+    "1/base": {
+      "trial_low": [
+        -0.6492112883482402,
+        -0.23892014066280037,
+        0.04951527421604802,
+        -0.3727692238073131,
+        -0.06209394709461544,
+        -0.09648309772348661,
+        -1.6707615077652724,
+        -0.184482790845269
+      ],
+      "trial_high": [
+        -0.2746488260965595,
+        -0.2291945182679177,
+        0.25000038049157536,
+        0.2121000920816146,
+        0.07552336383587767,
+        0.036198934254904655,
+        -1.0840246633620214,
+        -0.12298819504524049
+      ],
+      "mean_interval": [
+        -0.4031508402538686,
+        -0.14212917901347083
+      ],
+      "minimum_absolute_mean": 0.14212917901347083,
+      "maximum_sample_sd": 0.6374840369302519,
+      "minimum_absolute_mean_lower": 0.14212917855247895,
+      "maximum_sample_sd_upper": 0.6374840373912438,
+      "guard_limit_upper": 0.3187420186956219,
+      "reduction_statistics_allowance": 4.6099187382958943e-10,
+      "publication_and_numeric_expansion_per_trial": 0.0002498057405928396,
+      "all_convex_mappings_excluded": false,
+      "scope": "Loose necessary bound on fixed histories; no feasible anatomical mapping established"
+    },
+    "1/alt": {
+      "trial_low": [
+        -0.17498650880658617,
+        0.0940728473177788,
+        -0.4582503920594484,
+        -0.3347479734894411,
+        -0.21201824417290852,
+        0.10853435090008968,
+        -0.1647849974634596,
+        -0.18295584902195605
+      ],
+      "trial_high": [
+        0.07307839366540238,
+        0.2881036097772134,
+        -0.3259392719025921,
+        -0.1924388373314616,
+        -0.16696427073059128,
+        0.14112959518487464,
+        0.34335143443871197,
+        -0.021687026436938865
+      ],
+      "mean_interval": [
+        -0.1656420958494914,
+        0.017329203333077317
+      ],
+      "minimum_absolute_mean": 0.0,
+      "maximum_sample_sd": 0.2956781913846577,
+      "minimum_absolute_mean_lower": 0.0,
+      "maximum_sample_sd_upper": 0.2956781917224142,
+      "guard_limit_upper": 0.1478390958612071,
+      "reduction_statistics_allowance": 3.3775656643232923e-10,
+      "publication_and_numeric_expansion_per_trial": 0.00024980561735753215,
+      "all_convex_mappings_excluded": false,
+      "scope": "Loose necessary bound on fixed histories; no feasible anatomical mapping established"
+    }
+  },
+  "unclipped_linear_bounds_applicable": true,
+  "prefix_numerical_margin": 5.980489474210462e-08,
+  "prefix_error_scope": "Conditional on the declared per-product integration allowance; no formal arbitrary-prefix numerical proof.",
+  "maximum_true_absolute_area": 0.09647429660279622,
+  "maximum_canonical_area_error": 9.71445146547012e-16,
+  "all_32_published_home_gain_vectors_match": true,
+  "wall_seconds": 1.780837459024042,
+  "circuit_calls": 0,
+  "network_requests": 0,
+  "scope": "Fixed-history basis and necessary bounds only; no weight selection, anatomy map or candidate qualification."
+}

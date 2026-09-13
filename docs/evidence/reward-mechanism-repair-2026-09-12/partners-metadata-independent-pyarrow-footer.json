@@ -1,0 +1,78 @@
+{
+  "scope": "Separate PyArrow implementation reads only footer/trailer through a rejecting bounded view",
+  "input": {
+    "path": "docs/evidence/reward-mechanism-repair-2026-09-12/localization-range-probe-2026-09-13/payload-02.bin",
+    "sha256": "7779ff2b04999bae9447db9dbae2570448bdb2c8bdbc9b11da3906f0e9789701"
+  },
+  "pyarrow_version": "21.0.0",
+  "batch_count": 4759,
+  "index": [
+    {
+      "kind": "range",
+      "name": null,
+      "start": 0,
+      "stop": 311833243,
+      "step": 1
+    }
+  ],
+  "reads": [
+    {
+      "offset": 6777179088,
+      "bytes": 10
+    },
+    {
+      "offset": 6777062456,
+      "bytes": 116632
+    }
+  ],
+  "fields": [
+    {
+      "name": "x_pre",
+      "type": "int32"
+    },
+    {
+      "name": "y_pre",
+      "type": "int32"
+    },
+    {
+      "name": "z_pre",
+      "type": "int32"
+    },
+    {
+      "name": "body_pre",
+      "type": "int64"
+    },
+    {
+      "name": "conf_pre",
+      "type": "float"
+    },
+    {
+      "name": "x_post",
+      "type": "int32"
+    },
+    {
+      "name": "y_post",
+      "type": "int32"
+    },
+    {
+      "name": "z_post",
+      "type": "int32"
+    },
+    {
+      "name": "body_post",
+      "type": "int64"
+    },
+    {
+      "name": "conf_post",
+      "type": "float"
+    },
+    {
+      "name": "primary_post",
+      "type": "dictionary<values=string, indices=int16, ordered=1>"
+    }
+  ],
+  "record_body_bytes_read": 0,
+  "dictionary_body_bytes_read": 0,
+  "network_requests": 0,
+  "native_circuit_calls": 0
+}

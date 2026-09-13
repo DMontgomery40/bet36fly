@@ -1,0 +1,150 @@
+{
+  "created_at_utc": "2026-09-13T07:04:44.246818+00:00",
+  "scope": "Offline verification of single dispatched metadata-only execution; no retries",
+  "status": "failed-before-payload",
+  "network_gets": 1,
+  "metadata_payload_bytes": 0,
+  "http_header_bytes": 842,
+  "body_payload_bytes": 0,
+  "native_circuit_calls": 0,
+  "planned_requests": 4759,
+  "skipped_requests": 4758,
+  "missing_metadata_batches": 4759,
+  "summary": {
+    "attempted_requests": 1,
+    "body_payload_bytes_read": 0,
+    "elapsed_seconds": 0.20635808282531798,
+    "error": "Duplicate response header",
+    "error_type": "ValueError",
+    "files": {
+      "inventory.json": {
+        "bytes": 402,
+        "sha256": "4d5e67888c4df7001c2bd5ccb43242a029c60b6a0a7fe5e376fb5d28b59ee720"
+      },
+      "metadata.bin": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "requests.jsonl": {
+        "bytes": 2318,
+        "sha256": "8e07bdbd7b313ce43f5877e17c0bda08128dcbb6901a085b7d10adc3600168d7"
+      }
+    },
+    "header_bytes": 842,
+    "limits": {
+      "concurrency": 1,
+      "header_bytes": 8388608,
+      "header_bytes_per_request": 8192,
+      "payload_bytes": 3045760,
+      "request_active_seconds": 14,
+      "request_wall_seconds": 15,
+      "requests": 4759,
+      "response_bytes": 11434368,
+      "total_wall_seconds": 1200
+    },
+    "payload_bytes": 0,
+    "plan_sha256": "d4ce152d156cca45f4aa05cf76ce6b87b1efb8981b973db1f483aa7cca47a56a",
+    "planned_requests": 4759,
+    "received_requests": 0,
+    "remaining_requests": 4758,
+    "response_bytes": 842,
+    "started_at_utc": "2026-09-13T07:03:38.297185+00:00",
+    "status": "failed"
+  },
+  "duplicate_header": "x-goog-hash",
+  "duplicate_values": [
+    "crc32c=jTlNIA==",
+    "md5=WO/PcS+MTU3l8q1R6X3vdg=="
+  ],
+  "all_bound_sources_match": true,
+  "source_bindings": [
+    {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/partners_metadata_inventory.py",
+      "bytes": 30162,
+      "sha256": "1f4394d5bc4621125709eb8c3a972ba0f25cc242424d0ed683c71d93657931ed"
+    },
+    {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_partners_metadata_inventory.py",
+      "bytes": 32598,
+      "sha256": "7923d3cb120f3f2d509a4966bcd334dd1ae1ba8c7944fece6f92fa0549f3415b"
+    },
+    {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/docs/evidence/reward-mechanism-repair-2026-09-12/localization_range_inspect.py",
+      "bytes": 6102,
+      "sha256": "6d66e8b124975dbb4e0c668a06ffdf09a633c17de137a5b8a67d32a4a3c13a82"
+    },
+    {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/docs/evidence/reward-mechanism-repair-2026-09-12/localization_batch_metadata_inspect.py",
+      "bytes": 5592,
+      "sha256": "616d6b5551eb11dfdba9424fb66e61d1703aaf1b9ec22b24eb661d2541eef159"
+    },
+    {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/docs/evidence/reward-mechanism-repair-2026-09-12/localization_batch_metadata_probe.py",
+      "bytes": 9963,
+      "sha256": "b4bde33bc78a738b4bd84a38be4123075000d177d0505eb471c5fe43f1465227"
+    },
+    {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/docs/evidence/reward-mechanism-repair-2026-09-12/localization-range-probe-2026-09-13/footer-inspection-02.json",
+      "bytes": 572314,
+      "sha256": "afecf069b24c11d79b63debba9143bd3c0a61d7bb309c2c8443484f3ce43fc1c"
+    },
+    {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/docs/evidence/reward-mechanism-repair-2026-09-12/localization-range-probe-2026-09-13/payload-02.bin",
+      "bytes": 262144,
+      "sha256": "7779ff2b04999bae9447db9dbae2570448bdb2c8bdbc9b11da3906f0e9789701"
+    },
+    {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/docs/evidence/reward-mechanism-repair-2026-09-12/localization-range-probe-2026-09-13/result-02.json",
+      "bytes": 1402,
+      "sha256": "86f981f556d4f53ddcccf1bac176ed02438b4a6c9f36fbabe041fb2675b88d2c"
+    },
+    {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/docs/evidence/reward-mechanism-repair-2026-09-12/localization-range-probe-2026-09-13/payload-03.bin",
+      "bytes": 1512,
+      "sha256": "09c80f93887d3f260b9ac1a101248994f2e8e73fd2e88e8128261921540e86bf"
+    },
+    {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/docs/evidence/reward-mechanism-repair-2026-09-12/localization-range-probe-2026-09-13/payload-04.bin",
+      "bytes": 21803,
+      "sha256": "c5187ee92f011736e3877f22372869aaf11930fb176eb63fa942d39a9a11be8d"
+    },
+    {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/docs/evidence/reward-mechanism-repair-2026-09-12/localization-batch-metadata-2026-09-13/payload-03.bin",
+      "bytes": 6580,
+      "sha256": "ec4274d76bfeb959b4a1961fa7ddb07dd06aa4a4a4960832c9fecec61f3bce53"
+    },
+    {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/docs/evidence/reward-mechanism-repair-2026-09-12/localization-batch-metadata-2026-09-13/payload-02.bin",
+      "bytes": 640,
+      "sha256": "9ec93f728ec3339170e313696036f41e23dd8a58346bb89dc94387db1b098d33"
+    }
+  ],
+  "artifact_files": [
+    {
+      "path": "output/collaboration/reward-mechanism-repair/partners-metadata-inventory-2026-09-13/inventory.json",
+      "bytes": 402,
+      "sha256": "4d5e67888c4df7001c2bd5ccb43242a029c60b6a0a7fe5e376fb5d28b59ee720"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/partners-metadata-inventory-2026-09-13/metadata.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/partners-metadata-inventory-2026-09-13/plan.json",
+      "bytes": 369900,
+      "sha256": "d4ce152d156cca45f4aa05cf76ce6b87b1efb8981b973db1f483aa7cca47a56a"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/partners-metadata-inventory-2026-09-13/requests.jsonl",
+      "bytes": 2318,
+      "sha256": "8e07bdbd7b313ce43f5877e17c0bda08128dcbb6901a085b7d10adc3600168d7"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/partners-metadata-inventory-2026-09-13/summary.json",
+      "bytes": 990,
+      "sha256": "3886d4dfe0651ac4cbb9c51740b025fbdd0216d58f35ae6829a5cb672d815852"
+    }
+  ],
+  "git_head": "b1c868147fcd115eba87366c9e2b41c6ef2b7adf"
+}
