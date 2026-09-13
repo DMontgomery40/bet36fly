@@ -1,0 +1,37 @@
+{
+  "scope": "Import-only; zero model construction, kernel calls, solves, fits or neural histories. No example module imported.",
+  "executable": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/.venv/bin/python",
+  "python": "3.12.9 (main, Mar 17 2025, 21:36:21) [Clang 20.1.0 ]",
+  "versions": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "autograd": "1.9.1",
+    "alive-progress": "3.3.0",
+    "about-time": "4.2.2",
+    "graphemeu": "0.10.0"
+  },
+  "modules": {
+    "numpy": {
+      "file": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/.venv/lib/python3.12/site-packages/numpy/__init__.py",
+      "sha256": "09295a80660f17925ae23765ce8cbd7ff7ceae968d5f2f89349f1cb74c0b9e11"
+    },
+    "scipy": {
+      "file": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/.venv/lib/python3.12/site-packages/scipy/__init__.py",
+      "sha256": "39ccae300a4739cc53719bd3b39ce3f8f66e736c6eb672006e338a4c5cc3dc76"
+    },
+    "autograd": {
+      "file": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-source-2026-09-13/dependencies/autograd/__init__.py",
+      "sha256": "39db0108eda227a8adcff5fd257dda2a8689a021ae5257d63554138a935c0580"
+    },
+    "alive_progress": {
+      "file": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-source-2026-09-13/dependencies/alive_progress/__init__.py",
+      "sha256": "84529ef495ba441caeaa42d4a0536a76fd47c444ada96a06416a737c0a6927d2"
+    },
+    "darela.models": {
+      "file": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-source-2026-09-13/source/darela/models.py",
+      "sha256": "7e8e065a5e1de6f43e1488afc6d5659f24c96441ddd4fe713d88575c1cf03003"
+    }
+  },
+  "seconds": 0.4833632498048246,
+  "passed": true
+}

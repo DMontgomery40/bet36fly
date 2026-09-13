@@ -1,0 +1,111 @@
+{
+  "agent": "/root/evidence_ui",
+  "created_at_utc": "2026-09-13T12:19:05.643019+00:00",
+  "status": "writer_synthetic_pass_frozen_for_independent_review",
+  "git_head": "64a4b1d8797ebf0e76049e3a9995fb11d2e38795",
+  "artifacts": [
+    {
+      "path": "output/collaboration/reward-mechanism-repair/darela_release.py",
+      "bytes": 5060,
+      "sha256": "30d93ce99faca56a1fc862d4691b234ac70a89c7f4e638e475fdcd31576ecbe0"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/test_darela_release.py",
+      "bytes": 9117,
+      "sha256": "4c018106e2f3e060f6ac1d6d72898e7f72c8c66b99dc3379f0b1bea1208965fd"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/darela-release-tests-red-2026-09-13.txt",
+      "bytes": 1103,
+      "sha256": "9cf664121af1be5429823c82dc367f3819e7e53452f46a72975f6500014a787f"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/darela-release-tests-green-2026-09-13.txt",
+      "bytes": 179,
+      "sha256": "d016e8c603047d22e0a2bd95b522f172471ca2f68b9582856c17e9c285526f9c"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/darela-release-tests-final-2026-09-13.txt",
+      "bytes": 179,
+      "sha256": "a3bb07eee0e1e9d1d9fb9797bdc1073ef5cc4cdd7bb95dc4ae009ae46b6a92c8"
+    }
+  ],
+  "reading": {
+    "prior_personal_chain": [
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-release-bridge-compatibility-reading-evidence-ui-2026-09-13.json",
+        "bytes": 6993,
+        "sha256": "3ed8fe112e1ef251d57fd33eec8ad259e7da0b7dac60927f40eaf69412a464c7"
+      }
+    ],
+    "narrative_count": 197,
+    "current_narrative_deltas": [],
+    "new_contracts_fully_read": [
+      {
+        "path": "output/collaboration/reward-mechanism-repair/darela-primary-source-contract-dopamine-sources-2026-09-13.md",
+        "bytes": 14225,
+        "sha256": "75b4e5dc2bbd074970582b0ac1c565a2ccef0e7c0af24bcb1370e315a7da0f0b"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/darela-event-transfer-math-contract-delivered-arrivals-2026-09-13.md",
+        "bytes": 19889,
+        "sha256": "f539f921cacff64e9ec1cbcebc602181f7d3c71b225596ac1f2ea1772c932534"
+      }
+    ],
+    "source_core_reading": "Complete base.py, ode.py, models.py, SUR example, README and manifest are hash-bound in the prior personal receipt; no source imports/execution.",
+    "final_math_contract_reread": "Full final finite-domain/timestamp revision personally reread after independent reviewer froze f539f921; no implementation conflict."
+  },
+  "frozen_contract": {
+    "parameters": {
+      "p": [
+        0.0105,
+        -0.003,
+        -0.0011
+      ],
+      "tau_s": [
+        7.5,
+        15,
+        900
+      ],
+      "q": "1+p"
+    },
+    "clock_seconds": "integer step / 5000",
+    "spikes": "strict int32(T,24) binary, 0<=T<=2000",
+    "compartments": "strict int32(24), exactly2 zeros and22 ones",
+    "per_body_rule": "Exact exponential recovery from each last actual event; emit product of H_before only on event, then H_after=(1+p)*H_before. No burst metadata, label or artificial clipping.",
+    "reset": "Every call starts H=1 for every body, including state evolution from step0 before the separate bridge onset.",
+    "state_timestamps": "before[t] at t/5000 after quiet recovery; after[t] immediately after event kick; endpoint at T/5000 including final quiet interval. T0 returns rested endpoint.",
+    "pooling": "Transform per body before fixed2/22 means.",
+    "tail": "Silent H recovery has no new release; existing external bridge owns its no-new-event tail.",
+    "proof_scope": "Finite reset dimensionless engineering construction, not literal full DARELA source, calibrated fly kinetics, or a bounded perpetual tonic process."
+  },
+  "validation": {
+    "test_first": "88 synthetic cases written before module; expected collection failure from absent module retained honestly as RED evidence.",
+    "final_command": "PYTHONPATH=output/collaboration/reward-mechanism-repair .venv/bin/python -m pytest -q output/collaboration/reward-mechanism-repair/test_darela_release.py",
+    "passed": 88,
+    "seconds": 0.56,
+    "ruff": "format completed; check passed for both files",
+    "families": [
+      "quiet/rested/T0",
+      "literal source-Euler kick and rested pre-release",
+      "exact gaps and seconds",
+      "source post-H fixed normalization",
+      "before-onset history and silent tail endpoint",
+      "cell-before-pool noncommutation",
+      "reset/determinism/immutability",
+      "body/channel permutations and simultaneous events",
+      "full2000event positive finite no-clamp domain",
+      "raster/map/parameter shape dtype value and fixed-row rejection"
+    ]
+  },
+  "execution_limits": {
+    "saved_history_evaluations": 0,
+    "native_runs": 0,
+    "source_solver_runs": 0,
+    "fits": 0,
+    "network_requests": 0,
+    "production_or_shared_narrative_changes": false,
+    "full_verify_or_browser": "Not rerun for bounded output-only helper; root owns repository-wide verification/acceptance."
+  },
+  "remaining": "Independent numerical review and explicit preregistration/dispatch before any saved-history screen. Production/API/UI unchanged; no qualification/learning pass."
+}

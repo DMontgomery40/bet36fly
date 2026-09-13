@@ -1,0 +1,363 @@
+{
+  "copied_files": 59,
+  "all_copy_hashes_match_import_manifest": true,
+  "originals_present": 59,
+  "original_hash_matches": 43,
+  "files": [
+    {
+      "path": "research/raw/2026-09-12/karpathy-source-record.json",
+      "copied_sha256": "369d5adfb6aff6f3b358023f87295c95ae5b87a5bd741475c1d956fba032021e",
+      "original_exists": true,
+      "original_sha256": "369d5adfb6aff6f3b358023f87295c95ae5b87a5bd741475c1d956fba032021e"
+    },
+    {
+      "path": "research/raw/2026-09-12/microduck-runtime/LICENSE",
+      "copied_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "original_exists": true,
+      "original_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "research/raw/2026-09-12/microduck-runtime/README.md",
+      "copied_sha256": "688c04bbb8e9b677c6ce65a1d76597488a02098ad5d69939a8a1d52f7b05698f",
+      "original_exists": true,
+      "original_sha256": "688c04bbb8e9b677c6ce65a1d76597488a02098ad5d69939a8a1d52f7b05698f"
+    },
+    {
+      "path": "research/raw/2026-09-12/microduck-runtime/docs/design/architecture.md",
+      "copied_sha256": "313bc1d1900da2f68f4d6473ff9a7f4901d466336ab06d87bc4dec2e109f76c5",
+      "original_exists": true,
+      "original_sha256": "313bc1d1900da2f68f4d6473ff9a7f4901d466336ab06d87bc4dec2e109f76c5"
+    },
+    {
+      "path": "research/raw/2026-09-12/microduck-runtime/docs/policy-manifest.md",
+      "copied_sha256": "483f6493b50d94b4b7befd341caf446a7e50df0de0fdfbf58c3b3bf0817fc3d5",
+      "original_exists": true,
+      "original_sha256": "483f6493b50d94b4b7befd341caf446a7e50df0de0fdfbf58c3b3bf0817fc3d5"
+    },
+    {
+      "path": "research/raw/2026-09-12/microduck-runtime/docs/recurrent-policies.md",
+      "copied_sha256": "863cebeb5cf98fbb13ee5458b8460bf0962e8a732904d8b07021e2365fa00beb",
+      "original_exists": true,
+      "original_sha256": "863cebeb5cf98fbb13ee5458b8460bf0962e8a732904d8b07021e2365fa00beb"
+    },
+    {
+      "path": "research/raw/2026-09-12/microduck-runtime/docs/robot/simulation.md",
+      "copied_sha256": "7f24d8e7885aa2d6b2151ddee2c789dbb7be43c15e172b4998769b35daacdf7a",
+      "original_exists": true,
+      "original_sha256": "7f24d8e7885aa2d6b2151ddee2c789dbb7be43c15e172b4998769b35daacdf7a"
+    },
+    {
+      "path": "research/raw/2026-09-12/microduck_rl/LICENSE",
+      "copied_sha256": "2d3fd9ffffa70a4307498ec630b14a6b4731e010f8ddda92686eaf65733c2dfe",
+      "original_exists": true,
+      "original_sha256": "2d3fd9ffffa70a4307498ec630b14a6b4731e010f8ddda92686eaf65733c2dfe"
+    },
+    {
+      "path": "research/raw/2026-09-12/microduck_rl/README.md",
+      "copied_sha256": "b5e606efe7ff71f4f6324820b36152d401a0b1be6e2f908bbaca01ffee81638d",
+      "original_exists": true,
+      "original_sha256": "b5e606efe7ff71f4f6324820b36152d401a0b1be6e2f908bbaca01ffee81638d"
+    },
+    {
+      "path": "research/raw/2026-09-12/microduck_rl/pyproject.toml",
+      "copied_sha256": "e4f73a9f9aff14826463aee558f53900307ba973a287fb3bfc27a8954a131026",
+      "original_exists": true,
+      "original_sha256": "e4f73a9f9aff14826463aee558f53900307ba973a287fb3bfc27a8954a131026"
+    },
+    {
+      "path": "research/raw/2026-09-12/microduck_rl/src/mjlab_microduck/export.py",
+      "copied_sha256": "ef4d851eee70ce0d1c896a0be14fd4a936a0d17e83649dfd572a5282ffcdf5b9",
+      "original_exists": true,
+      "original_sha256": "ef4d851eee70ce0d1c896a0be14fd4a936a0d17e83649dfd572a5282ffcdf5b9"
+    },
+    {
+      "path": "research/raw/2026-09-12/microduck_rl/src/mjlab_microduck/sim/body_server.py",
+      "copied_sha256": "2040c827628c33fee998944bce1fcd456c4b993802bb473f016681688bff7b08",
+      "original_exists": true,
+      "original_sha256": "2040c827628c33fee998944bce1fcd456c4b993802bb473f016681688bff7b08"
+    },
+    {
+      "path": "research/raw/2026-09-12/microduck_rl/src/mjlab_microduck/sim/camera.py",
+      "copied_sha256": "5f2e6c83b33e594583cbd5f3e003c3b8bb77f7a0e7b734d86ba0b2c821eaed71",
+      "original_exists": true,
+      "original_sha256": "5f2e6c83b33e594583cbd5f3e003c3b8bb77f7a0e7b734d86ba0b2c821eaed71"
+    },
+    {
+      "path": "research/raw/2026-09-12/microduck_rl/src/mjlab_microduck/tasks/microduck_ball_kick_env_cfg.py",
+      "copied_sha256": "313180628c0d0364ea6d0f1843e7e3e10b76585491b90b0c1f0e301d9e5fd30c",
+      "original_exists": true,
+      "original_sha256": "313180628c0d0364ea6d0f1843e7e3e10b76585491b90b0c1f0e301d9e5fd30c"
+    },
+    {
+      "path": "research/raw/2026-09-12/microduck_rl/src/mjlab_microduck/tasks/microduck_ground_pick_env_cfg.py",
+      "copied_sha256": "9b68951e2c84fdccb5894701efa97e060438eb56c956a34c65e844ba3fa6185e",
+      "original_exists": true,
+      "original_sha256": "9b68951e2c84fdccb5894701efa97e060438eb56c956a34c65e844ba3fa6185e"
+    },
+    {
+      "path": "research/raw/2026-09-12/microduck_rl/src/mjlab_microduck/tasks/microduck_velocity_env_cfg.py",
+      "copied_sha256": "75a0430b814ac7495eb237ab806fbd4dd10309b9fd3027ac3eee3c2e3c5a944a",
+      "original_exists": true,
+      "original_sha256": "75a0430b814ac7495eb237ab806fbd4dd10309b9fd3027ac3eee3c2e3c5a944a"
+    },
+    {
+      "path": "research/raw/2026-09-12/snapshot-manifest.json",
+      "copied_sha256": "fa88dab469928504d889321a8341866719b96b834d37d0850ba6147d6db33ba9",
+      "original_exists": true,
+      "original_sha256": "fa88dab469928504d889321a8341866719b96b834d37d0850ba6147d6db33ba9"
+    },
+    {
+      "path": "research/raw/2026-09-12/source-ledger.json",
+      "copied_sha256": "3d0bbbbbbe6cc68a7f9e302a1e931d838e2aba60f15561fbe272702c2f68cdae",
+      "original_exists": true,
+      "original_sha256": "1a1ea86a5635513afbbdf9a5d750a5ab3346228dc83c259187a7a35fded5627b"
+    },
+    {
+      "path": "research/raw/index.md",
+      "copied_sha256": "f7500261fc342b067c40f371c8b859ae52a9ea82d4a28c69fc7d3c96284c2feb",
+      "original_exists": true,
+      "original_sha256": "f7500261fc342b067c40f371c8b859ae52a9ea82d4a28c69fc7d3c96284c2feb"
+    },
+    {
+      "path": "wiki/SCHEMA.md",
+      "copied_sha256": "496209f8585ab0ae2a0d1dad4048353dae7d53b516d90d37ae4152807bbfcd31",
+      "original_exists": true,
+      "original_sha256": "7c7ee11fd378d8ddc1d9c35ac51146de3c3b45617be7494fd2c3f841a86bedcf"
+    },
+    {
+      "path": "wiki/community/claims-map.md",
+      "copied_sha256": "3a4bd710d39011b4551a90c43ff9f7fa720e65a23e18252fd93ab4897aae87e2",
+      "original_exists": true,
+      "original_sha256": "3a4bd710d39011b4551a90c43ff9f7fa720e65a23e18252fd93ab4897aae87e2"
+    },
+    {
+      "path": "wiki/community/fly-ecosystem.md",
+      "copied_sha256": "defacabdc3994fe469dfc63c6f572df370bb6c7aaeb8f6825092c1b8a57408c3",
+      "original_exists": true,
+      "original_sha256": "defacabdc3994fe469dfc63c6f572df370bb6c7aaeb8f6825092c1b8a57408c3"
+    },
+    {
+      "path": "wiki/community/flyhard.md",
+      "copied_sha256": "f5e93a0907bb47542602f139e80e5c76e779a94118e5363b2e86d6ede31e688a",
+      "original_exists": true,
+      "original_sha256": "f5e93a0907bb47542602f139e80e5c76e779a94118e5363b2e86d6ede31e688a"
+    },
+    {
+      "path": "wiki/community/index.md",
+      "copied_sha256": "45b10fa000066cb1f58e5e40211f01e6f1f925a3d30d6a9520e908e9b6a81a66",
+      "original_exists": true,
+      "original_sha256": "45b10fa000066cb1f58e5e40211f01e6f1f925a3d30d6a9520e908e9b6a81a66"
+    },
+    {
+      "path": "wiki/community/joint-projects.md",
+      "copied_sha256": "e30fd98938ae81687969cc0d4a29961d25b167f083cb22c42d5b64fa3dc66453",
+      "original_exists": true,
+      "original_sha256": "e30fd98938ae81687969cc0d4a29961d25b167f083cb22c42d5b64fa3dc66453"
+    },
+    {
+      "path": "wiki/community/microduck-ecosystem.md",
+      "copied_sha256": "35d8411198b054c61ccd657ad4926e7a37e0bd5f3ae08df9ec084e0776732f0e",
+      "original_exists": true,
+      "original_sha256": "35d8411198b054c61ccd657ad4926e7a37e0bd5f3ae08df9ec084e0776732f0e"
+    },
+    {
+      "path": "wiki/community/sources.json",
+      "copied_sha256": "98fdcb4fb9f8d471d9f7cf254fab6353f760850676233e5322abc6c9a9aee2e0",
+      "original_exists": true,
+      "original_sha256": "98fdcb4fb9f8d471d9f7cf254fab6353f760850676233e5322abc6c9a9aee2e0"
+    },
+    {
+      "path": "wiki/community/sources.md",
+      "copied_sha256": "215134bcf75aa9f642731f214a11d37afde54078059744cb8320c7c990998bf0",
+      "original_exists": true,
+      "original_sha256": "215134bcf75aa9f642731f214a11d37afde54078059744cb8320c7c990998bf0"
+    },
+    {
+      "path": "wiki/community/tools-and-distribution.md",
+      "copied_sha256": "237abf9ce9f64fac3d95e206e5f72b2fb0de76247cb94f8d1752b7dc7823f06c",
+      "original_exists": true,
+      "original_sha256": "828374d55001f717bf99f666cb4c5195c67939aeb4e1c33ee6599426a99abec5"
+    },
+    {
+      "path": "wiki/compute/brev.md",
+      "copied_sha256": "e9e0dc41bd69cf50bec0d83f2ee070f2eb2998d5d24e7e357127d9e9d5100860",
+      "original_exists": true,
+      "original_sha256": "e9e0dc41bd69cf50bec0d83f2ee070f2eb2998d5d24e7e357127d9e9d5100860"
+    },
+    {
+      "path": "wiki/compute/gpu-selection.md",
+      "copied_sha256": "05d50e0e903f2899ef6a103c53420ce039f7f8e850dc790d094dbd3dbacdb7d9",
+      "original_exists": true,
+      "original_sha256": "05d50e0e903f2899ef6a103c53420ce039f7f8e850dc790d094dbd3dbacdb7d9"
+    },
+    {
+      "path": "wiki/compute/hugging-face.md",
+      "copied_sha256": "7d20b1d739f701d597ef11e24f99df15e581efa387724c3d28f4b045621393cd",
+      "original_exists": true,
+      "original_sha256": "7d20b1d739f701d597ef11e24f99df15e581efa387724c3d28f4b045621393cd"
+    },
+    {
+      "path": "wiki/compute/index.md",
+      "copied_sha256": "36306ddbb62fbadfc054b0fe9789fb9407fd28921e942d4e32667414f2d188da",
+      "original_exists": true,
+      "original_sha256": "36306ddbb62fbadfc054b0fe9789fb9407fd28921e942d4e32667414f2d188da"
+    },
+    {
+      "path": "wiki/compute/ownership.md",
+      "copied_sha256": "c0c54ab6009dde1a3465b4db513fb2f4e6b62b1bf6be7030f6319a572a2db92c",
+      "original_exists": true,
+      "original_sha256": "c0c54ab6009dde1a3465b4db513fb2f4e6b62b1bf6be7030f6319a572a2db92c"
+    },
+    {
+      "path": "wiki/compute/run-contract.md",
+      "copied_sha256": "8da9ebd726d022218d74e0e95827a37526670df0e961cc5660c5a22c3c666607",
+      "original_exists": true,
+      "original_sha256": "8da9ebd726d022218d74e0e95827a37526670df0e961cc5660c5a22c3c666607"
+    },
+    {
+      "path": "wiki/compute/sources.json",
+      "copied_sha256": "4694aaeeab0dddda06d60561eacd9b2236e453643aa4c88f0b7d7065aca98f98",
+      "original_exists": true,
+      "original_sha256": "4694aaeeab0dddda06d60561eacd9b2236e453643aa4c88f0b7d7065aca98f98"
+    },
+    {
+      "path": "wiki/compute/sources.md",
+      "copied_sha256": "033890187235e741fb896c7f9f821de695bf84cd1be2d8c8640bccb25be9beeb",
+      "original_exists": true,
+      "original_sha256": "033890187235e741fb896c7f9f821de695bf84cd1be2d8c8640bccb25be9beeb"
+    },
+    {
+      "path": "wiki/connectome/brain-body-interface.md",
+      "copied_sha256": "d72d5e81dfbf3280f3b52bb2971d177727235efbe85624d621f7cfc762ac848f",
+      "original_exists": true,
+      "original_sha256": "cea819be6d9276c4b34e560bcac613d30fd0c6824451327bf5656a264127adda"
+    },
+    {
+      "path": "wiki/connectome/embodiment-research.md",
+      "copied_sha256": "5a6107f646f85708b5f9dceb884e1f99a5eea6a3043452c3ee90fb0166d329c4",
+      "original_exists": true,
+      "original_sha256": "5a6107f646f85708b5f9dceb884e1f99a5eea6a3043452c3ee90fb0166d329c4"
+    },
+    {
+      "path": "wiki/connectome/index.md",
+      "copied_sha256": "c89df465d9e8b58e568216e10adb48e9fa5be6ce1168f2b1d7bdb3fa21aa930e",
+      "original_exists": true,
+      "original_sha256": "c89df465d9e8b58e568216e10adb48e9fa5be6ce1168f2b1d7bdb3fa21aa930e"
+    },
+    {
+      "path": "wiki/connectome/malecns-release.md",
+      "copied_sha256": "decff1224415ffb99e46973d8795596564ed3e27d34374b1ee7af482a2c2ab72",
+      "original_exists": true,
+      "original_sha256": "decff1224415ffb99e46973d8795596564ed3e27d34374b1ee7af482a2c2ab72"
+    },
+    {
+      "path": "wiki/connectome/sources.json",
+      "copied_sha256": "210ea98d7721b9cb911e9ef14c7177d9588e4da858914cf590ad8b146f7dfcb9",
+      "original_exists": true,
+      "original_sha256": "210ea98d7721b9cb911e9ef14c7177d9588e4da858914cf590ad8b146f7dfcb9"
+    },
+    {
+      "path": "wiki/connectome/sources.md",
+      "copied_sha256": "3ce73e4e729c32be9536f7d5fea62b43a969db164523e3360f73cfd877a37791",
+      "original_exists": true,
+      "original_sha256": "3ce73e4e729c32be9536f7d5fea62b43a969db164523e3360f73cfd877a37791"
+    },
+    {
+      "path": "wiki/index.md",
+      "copied_sha256": "c384e548e7b714247a6893f29e1563b55f3e36215744f8abb14857b1cb321a6a",
+      "original_exists": true,
+      "original_sha256": "f4e4476357809ee9bc954e8e917d022dc03a317b12ecf9b65f496571a33c4355"
+    },
+    {
+      "path": "wiki/log.md",
+      "copied_sha256": "910cbfa59e36ac2211e447e75058c1838cc9af074c61afd311221019dea6ace4",
+      "original_exists": true,
+      "original_sha256": "9afb296800f96c3241c3e4a753632dd751fca49a29bc118cd4b438668ff9af37"
+    },
+    {
+      "path": "wiki/microduck/index.md",
+      "copied_sha256": "a8d182c29a0f1e748173c49996e51589b1bb84f63de838ec5db53eaf0b90d3c8",
+      "original_exists": true,
+      "original_sha256": "a8d182c29a0f1e748173c49996e51589b1bb84f63de838ec5db53eaf0b90d3c8"
+    },
+    {
+      "path": "wiki/microduck/pickup-mechanics.md",
+      "copied_sha256": "12cb353aed23313dc0f815affb4cadea71325eefba10a0605f3b8905ec669fc5",
+      "original_exists": true,
+      "original_sha256": "6ac7f301e239468ecb09a8744805d1da233962698efe07c36735f216d25f5c70"
+    },
+    {
+      "path": "wiki/microduck/runtime.md",
+      "copied_sha256": "23ee03308018c60109dad2b5e7c68b373fb8ebc22dafefea8cbad8c5db1d0ff3",
+      "original_exists": true,
+      "original_sha256": "f616d0920e37d0a864ae51cf7a112e626273a1185fefac231d1f4d855d53213e"
+    },
+    {
+      "path": "wiki/microduck/simulators.md",
+      "copied_sha256": "500176c44d1b79bc0d7d82b37870a1e54223fb946e4f1897eed40d62f359a1bb",
+      "original_exists": true,
+      "original_sha256": "500176c44d1b79bc0d7d82b37870a1e54223fb946e4f1897eed40d62f359a1bb"
+    },
+    {
+      "path": "wiki/microduck/sources.json",
+      "copied_sha256": "efa08d61767f3447e8a121f44864c77d3899983a43f4f8255b51c8e07930c540",
+      "original_exists": true,
+      "original_sha256": "322e91845910d416b696603d94e9c70aa4b7ac8ea97b9c23a1c3f92e1dfe7575"
+    },
+    {
+      "path": "wiki/microduck/sources.md",
+      "copied_sha256": "aca088ee8a9e154bb1a1abcc081a7bc89039d3fa3059895511e0572fa100885e",
+      "original_exists": true,
+      "original_sha256": "44a26f06bafc1e46f9f9d82906b7dbc7c702a7ca1f75366b68f7bbbe525d2861"
+    },
+    {
+      "path": "wiki/microduck/trainer.md",
+      "copied_sha256": "724321bbf0ee5356c02c9c3d2cab82915875113e5a3d1f8c4173365bc28e7c62",
+      "original_exists": true,
+      "original_sha256": "3419932e1c3cbfc797b06483b66c3b9cda217dc6ce45865d4d30f6e93b3d4e35"
+    },
+    {
+      "path": "wiki/overview.md",
+      "copied_sha256": "e9aa1ecfeb820b360bc6851e4b884c7d2b5b9a215225d9480b35401490d350de",
+      "original_exists": true,
+      "original_sha256": "1899ef4d8a045621c9a11cc5da0a4f5cd88f83c93becc27d9f7eeac37b7b66cb"
+    },
+    {
+      "path": "wiki/synthesis/hazard-evaluation.md",
+      "copied_sha256": "8c6a94c28a8bf80712c329c8e26af1c767c97dcfcc693da15a49b18b9c0ddcac",
+      "original_exists": true,
+      "original_sha256": "6a85eb2d0b8b025638e17746ca9679d55658605ea89a1dd5322ed28789d4127e"
+    },
+    {
+      "path": "wiki/synthesis/open-questions.md",
+      "copied_sha256": "bb4bdbbb45f4a3fcd35fc64f326a5dc98b44f09f2206f0a8f3d1e82b15433906",
+      "original_exists": true,
+      "original_sha256": "06b30ec9a44ce777d656d1d06932a5aa14316705501bce12d914158e7d5e47b4"
+    },
+    {
+      "path": "wiki/synthesis/training-and-deployment.md",
+      "copied_sha256": "1497b865a157c9ec3edb079d9154e78d5b60eae4cbdc56d1c11124ecd0c76ddc",
+      "original_exists": true,
+      "original_sha256": "ab7b574bbe38b6dd3586b2fb7dd9cf9cf286d6efd06705545462926069d7d0c0"
+    },
+    {
+      "path": "wiki/verification.md",
+      "copied_sha256": "8d1a1ba10a3575cceab76d2279fe05bbcf235703a4219691fb7263d4e0f4c129",
+      "original_exists": true,
+      "original_sha256": "fe01ac0e26908e4eac7dacb11aedf17d96444b0ed667f011a762dc6c600d114c"
+    },
+    {
+      "path": "data/brain/manifest.json",
+      "copied_sha256": "9b98aae608bd8a5050c1dad1b1e9975bcd845333ffdf2e6a811b105d3ffc7159",
+      "original_exists": true,
+      "original_sha256": "9b98aae608bd8a5050c1dad1b1e9975bcd845333ffdf2e6a811b105d3ffc7159"
+    },
+    {
+      "path": "flybrain/connectome.py",
+      "copied_sha256": "f350c9f318a1cf7219e3ba5ce144ea7458d69e6decb4b2425a634a9d002a79fb",
+      "original_exists": true,
+      "original_sha256": "f350c9f318a1cf7219e3ba5ce144ea7458d69e6decb4b2425a634a9d002a79fb"
+    }
+  ],
+  "scope": "Read-only check. External originals may have evolved since import; no writes to Microduck."
+}

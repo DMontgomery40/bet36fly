@@ -1,5 +1,79 @@
 # Continue the dopamine mechanism repair
 
+## Current continuation boundary: September 13, 2026, DARELA numerical preparation complete
+
+Continue in this existing task and on `feat/bet36fly-dopamine-learning`.
+The full repair goal is active and incomplete. The checkpoint immediately
+before this phase is `64a4b1d`; inspect Git for the subsequent local commit.
+There is no need to restart the project or repeat the broad documentation
+survey. Every agent must reconcile its complete personal docs/wiki reading
+chain and read every new narrative, including the final additions below.
+
+The DARELA source is now pinned at
+`125c27bc59b0c493c902c8724f58fa3d9d8b354d` (February 15, 2025). Its
+[12 source files and license](evidence/reward-mechanism-repair-2026-09-12/darela-source-2026-09-13/source-manifest.json)
+are copied into this repository with the originals retained. This is a
+later source revision, not an identified publication revision. Read the
+[primary-source contract](evidence/reward-mechanism-repair-2026-09-12/darela-primary-source-contract-dopamine-sources-2026-09-13.md),
+[independent mathematics](evidence/reward-mechanism-repair-2026-09-12/darela-event-transfer-math-contract-delivered-arrivals-2026-09-13.md)
+and [integration boundary](evidence/reward-mechanism-repair-2026-09-12/dan-release-bridge-compatibility-evidence-ui-2026-09-13.md).
+The published measurements are mouse FSCV; they do not calibrate these fly
+cells. The code uses Euler `1+p` jumps, a rounded inclusive burst envelope
+and new-H release. Its example uses a different parameter row. Keep these
+differences explicit when interpreting the source check.
+
+One finite engineering hypothesis is fixed for numerical preparation:
+manuscript WT sweep-1 `p=(0.0105,-0.003,-0.0011)`,
+`tau=(7.5,15,900)` seconds; exact recovery between each body's actual spikes;
+release from pre-event H, followed by `H *= 1+p`; H starts at one on each
+400 ms trial reset. Transform each DAN before pooling with the fixed 2/22
+divisors. Pre-100 ms events evolve H, while the bridge remains cold until
+its unchanged 100 ms onset. Quiet recovery emits no new impulses; retain
+the complete existing bridge tail. No teaching labels, burst detector,
+state cap or outcome-fitted parameter enters this construction.
+
+The finite 2,000-slot binary domain is mathematically positive and bounded
+without a cap; indefinite tonic release is not bounded. The
+[completed numerical checkpoint](evidence/reward-mechanism-repair-2026-09-12/darela-source-transfer-checkpoint-2026-09-13.md)
+passes 216 distinct canonical synthetic cases: 88 event-helper, 36 independent
+60-digit reference, 53 release-bridge and 39 source-harness cases. The
+release-capable bridge changes only its DAN input envelope; all calculation
+constants and its complete replay body remain unchanged.
+
+Source identity `darela-source-kernel-42b38e1924b4af6c82cf` completed exactly
+once: eight cases, 4,500 H-kernel updates, child exit zero/reaped, 0.617201
+seconds through parent checks under the 30-second cap. Do not repeat it.
+The scalar reference has maximum error 1.11e-14; root's independent geometric
+review checks all 80 saved arrays / 63,080 values with maximum error 3.29e-14.
+All 132 bindings remain intact. This is a factor-kernel check on fixed grids,
+not a concentration solver, fit, full source-model reproduction or fly run.
+The import-only probe is separately retained. Sources, plans, tests, complete
+results and reading receipts have canonical copies with originals retained.
+
+The next model-facing step is one explicitly preregistered
+32-untaught-history shadow with unchanged guards, identities and masks.
+No such DARELA shadow has run. A pass would only justify further native
+integration and qualification; a failure rejects this fixed construction
+without parameter tuning. The actual production pair still fails the second
+panel's untaught-home guard, and conditioning remains `not_run_gate_failed`.
+Both full qualification panels and controlled acquisition/reversal remain
+required. Keep one production writer. Production/API/UI behavior and the
+active model pointer are unchanged in this phase. Continue the already
+authorized repair after its numerical gates; do not push or promote.
+
+Fresh `make verify` passed 4,055 Python tests, 103 frontend tests, Ruff and
+the build (two existing Python warnings). All 760 protected files and their
+inventory remained unchanged. The existing UI still describes the actual
+failed qualification accurately; no new browser run is claimed. All 59
+Microduck snapshot files retain their import hashes and all originals remain
+present; upstream files that evolved were not overwritten. No root execution
+process remains running. Agent calculation assignments are complete; read
+their final review receipts and reconcile final narrative deltas before the
+next bounded screen.
+
+The earlier boundaries below are historical. In particular, the statement
+that the DARELA source is not yet pinned describes the previous checkpoint.
+
 ## Active continuation boundary: September 13, 2026, after the causal-prefix audit
 
 Continue the existing full repair goal. It remains active and incomplete.

@@ -1,0 +1,9 @@
+{
+  "command": "PYTHONDONTWRITEBYTECODE=1 .venv/bin/python -m pytest -q docs/evidence/reward-mechanism-repair-2026-09-12/test_run_darela_source_kernel.py",
+  "exit_code": 0,
+  "passed": 39,
+  "reported_pytest_seconds": 0.24,
+  "scope": "Recorded from root exec result: synthetic source harness only, no real source cases repeated",
+  "test_sha256": "b656d75efcad2ea1d2354f6ca173b8b28b9a37fb8a65519aabf56a75aafa435b",
+  "driver_sha256": "602783c8fa3d0e861577bac27cb01d0c54af5df4bff60b44076b98673942e637"
+}

@@ -1,0 +1,143 @@
+{
+  "schema": 1,
+  "agent": "/root/delivered_arrivals",
+  "created_at_utc": "2026-09-13T12:17:39.411714+00:00",
+  "status": "finite_domain_mathematical_transfer_admissible_synthetic_implementation_gate_remaining",
+  "git_checkpoint": "64a4b1d8797ebf0e76049e3a9995fb11d2e38795",
+  "report": {
+    "path": "output/collaboration/reward-mechanism-repair/darela-event-transfer-math-contract-delivered-arrivals-2026-09-13.md",
+    "bytes": 19889,
+    "sha256": "f539f921cacff64e9ec1cbcebc602181f7d3c71b225596ac1f2ea1772c932534"
+  },
+  "decision": {
+    "hypothesis": "Fixed manuscript WT sweep1; q=1+p, pre-H unit-rested impulse, exact between-event recovery, each DAN before2/22pooling, H=1 at each400ms trial start, every actual event including pre-onset advances H; bridge still cold until100ms.",
+    "finite_domain": "At most2000 binary event slots/cell; no actual event counts inspected.",
+    "guarantees": [
+      "All factors and release impulses are strictly positive and finite in exact arithmetic.",
+      "Bounds:1<=H1<=1.0105^2000; .997^2000<=H2<=1; .9989^2000<=H3<=1; (.997*.9989)^2000<=A<=1.0105^2000.",
+      "Conservative normal-range enclosure2^-14<A<2^32; total channel impulse mass<2^43. No added state/resource cap is needed for this finite-domain proof.",
+      "No-spike recovery emits no impulses; exact H endpoint and complete old-bridge impulse tail are coherent.",
+      "Pre-H mass equals post-H mass divided by fixedprod(1+p) in real arithmetic, while rested mass1 and exact event recovery remain engineering conventions."
+    ],
+    "not_guaranteed": [
+      "Numerical error tolerance, zero gain-bound contacts or unchanged learning guard success; implementation tests remain.",
+      "Bounded indefinite tonic release, measured PPL101/PAM12 concentration/receptor kinetics or an unmodified published-source reproduction.",
+      "Closed-loop taught response, qualification, acquisition, retention, reversal or sports performance."
+    ]
+  },
+  "independent_math": [
+    "Derived affine pre-spike map h_next=q*exp(-Delta/tau)*h+1-exp(-Delta/tau), geometric closed form and stable/linear/exponential regimes.",
+    "Derived exponential-jump boundaryDelta>p*tau and Euler-jump boundaryDelta>tau*log(1+p), preserving finite versus indefinite distinction.",
+    "Derived rested/two-pulse mass, finite-count enclosures, same-pooled-stream/different-cell-history counterexample and release/source-integral distinctions.",
+    "Specified12 synthetic families plus endpointstate meanings and maximal2000-event stress domain; no synthetic candidate was evaluated here."
+  ],
+  "source_reading": {
+    "repository": "https://github.com/DSulzerLab/DARELA",
+    "commit": "125c27bc59b0c493c902c8724f58fa3d9d8b354d",
+    "commit_date": "2025-02-15T21:04:22Z",
+    "checked_date": "2026-09-13",
+    "manifest": {
+      "path": "output/collaboration/reward-mechanism-repair/darela-source-2026-09-13/source-manifest.json",
+      "bytes": 4558,
+      "sha256": "173474e5fbf4dbbe77db6c129632a9c85547b58f2615901970c0c3c5ec587897"
+    },
+    "all12_source_files_hash_size_git_blob_verified": true,
+    "total_source_bytes": 32242,
+    "personally_read_full": [
+      {
+        "path": "output/collaboration/reward-mechanism-repair/darela-source-2026-09-13/source/darela/_impl/base.py",
+        "bytes": 5840,
+        "sha256": "e511b02e9b50e246e9e9df0bbaf930244cd7aea77b4497a1739091ddf2754a38"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/darela-source-2026-09-13/source/darela/_impl/ode.py",
+        "bytes": 4086,
+        "sha256": "93485b66e223ae6cf898cecd4d7cc2f65a4efca467ca2e65dc538154933b6e94"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/darela-source-2026-09-13/source/darela/_impl/pde.py",
+        "bytes": 5847,
+        "sha256": "b9861f1b69aa266cb39b698ef9f9fdb41805f445adc8b11d1950e1ce5021e186"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/darela-source-2026-09-13/source/darela/models.py",
+        "bytes": 797,
+        "sha256": "7e8e065a5e1de6f43e1488afc6d5659f24c96441ddd4fe713d88575c1cf03003"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/darela-source-2026-09-13/source/examples/sur_example.py",
+        "bytes": 810,
+        "sha256": "8eedc9008ff60e068420746da574adc0ae546dff7605bfa869fa3bd3951883c8"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/darela-source-2026-09-13/source/README.md",
+        "bytes": 4138,
+        "sha256": "afb1a6c5c255e0d284ae116399c88a5563a2d710d304293e053de3c131146a20"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/darela-source-2026-09-13/source/CITATION.cff",
+        "bytes": 904,
+        "sha256": "6d28ab6880d4ed637f780d869b163828542a6046ec9f13ac88cd7a6a145035d7"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/darela-source-2026-09-13/source/setup.py",
+        "bytes": 252,
+        "sha256": "07387b788c79db1f2a9824c2eda7f05378451de54917c33804181ecdc4649cb2"
+      }
+    ],
+    "source_not_executed": true,
+    "source_comparison": [
+      "SUR usesdt1/f and Euler1+p; release consumes newH.",
+      "Rounded inclusive burst masks can add an endpoint update; overlaps produceS>1. Grid labels can differ from integrationdt at nonintegral horizons.",
+      "Current optionalH initialization does not resume all chemical state or export finalH. PDE clock and chemical clamps are separate source choices.",
+      "Shipped tau2=12.5/DAp.43 bundle differs from manuscriptWT1tau2=15/DAp.420; no alternate row selected."
+    ]
+  },
+  "reading": {
+    "prior_full_chain": {
+      "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-final-reading-claim-review-delivered-arrivals-2026-09-13.json",
+      "bytes": 53611,
+      "sha256": "06783ceff8b448a6a7029a835fe2129c27f4984793f046c5c0f254a90de78b16"
+    },
+    "current_narratives": 197,
+    "all_current_hashes_identical_to_personal_full_chain": true,
+    "unread_or_changed_paths": [],
+    "new_personally_read_reports": [
+      {
+        "path": "output/collaboration/reward-mechanism-repair/darela-primary-source-contract-dopamine-sources-2026-09-13.md",
+        "bytes": 14225,
+        "sha256": "75b4e5dc2bbd074970582b0ac1c565a2ccef0e7c0af24bcb1370e315a7da0f0b"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/darela-published-parameter-transcription-dopamine-sources-2026-09-13.json",
+        "bytes": 15226,
+        "sha256": "01b6432e19bbb038bcea8b3a3dfc091448dd7570e4c94951d244f57d00d85ec3"
+      }
+    ],
+    "source_report_scope": "Primary paper/supplement confirmation was performed by the independent source agent. This agent personally read its complete report/transcription and the pinned local core; no fresh primary webpage/PDF read or network request is claimed.",
+    "task_specific_prior_read_narratives": [
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/dopamine-release-versus-priming-decision-2026-09-13.md",
+        "bytes": 8043,
+        "sha256": "8f51b6f9d4586b813fbcb76ec496d8c03612c96ad11f7145b9072c959d778d53"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-result-interpretation-dopamine-sources-2026-09-13.md",
+        "bytes": 4760,
+        "sha256": "6bcf37281409a22158b447234ff719c85c2510a164cb05c45b3dfb0cb08323e2"
+      }
+    ]
+  },
+  "verification": {
+    "source_file_integrity_checks": true,
+    "tests_executed": 0,
+    "source_model_runs": 0,
+    "native_calls": 0,
+    "captured_history_evaluations": 0,
+    "parameter_fits": 0,
+    "network_calls": 0,
+    "production_edits": 0,
+    "full_repository_gate": "Parent-owned; only this output math contract and reading receipt were authored. No implementation-test pass is claimed."
+  },
+  "remaining": "Root/evidence_ui owns numerical helper preparation and independent synthetic verification before any separately frozen finite-history screen. No actual evaluation is authorized or executed by this mathematical receipt."
+}

@@ -1,0 +1,140 @@
+{
+  "agent": "/root/dopamine_sources",
+  "at_utc": "2026-09-13T12:35:45.197024+00:00",
+  "status": "frozen_and_root_reviewed_before_source_execution",
+  "prior_reading_chain": {
+    "path": "output/collaboration/reward-mechanism-repair/darela-primary-source-reading-receipt-dopamine-sources-2026-09-13.json",
+    "bytes": 10393,
+    "sha256": "66459f679cc40e1da687618efef84c3e2607edb6c08f2f7e225641e8b8751e36"
+  },
+  "current_narrative_count": 202,
+  "corpus_definition": "AGENTS.md plus all docs/**/*.md and wiki/**/*.md; top-level README was previously read but is outside this count",
+  "personally_read_new_or_changed_content": [
+    {
+      "path": "docs/REWARD_REPAIR_HANDOFF.md",
+      "bytes": 62506,
+      "sha256": "d15a4729cfe7342f8db8af506aec31417b17dc3183945bf2d69b8d4d09d6c5c5"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/index.md",
+      "bytes": 25084,
+      "sha256": "2d53ef660f80bd1ee5c7060f6622e991f6f9590963fd9d5bfd9c66571ab4647c"
+    },
+    {
+      "path": "wiki/cells/dopamine-receptor-signaling.md",
+      "bytes": 7550,
+      "sha256": "f5aa9420644faa2250b647838cb0907634f2cfd7727a04e2de107e55163bf1db"
+    },
+    {
+      "path": "wiki/reassessment.md",
+      "bytes": 15158,
+      "sha256": "321e8c2dc4b71351940b53989e0118ce0c0b5b0b44a6783e7f9c9143bb61794b"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-source-transfer-checkpoint-2026-09-13.md",
+      "bytes": 5207,
+      "sha256": "a3ed590ee20859338f1045526b33b4f1f11b40283aa516992dd7e285a15770a2"
+    }
+  ],
+  "method": "Full current checkpoint read; full changed blocks from git diff read against personally read preceding full pages. All other canonical bytes reconciled against actual prior reading chain; exact aliases only after originals personally read.",
+  "exact_byte_aliases": [
+    {
+      "personally_read_original": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-release-bridge-compatibility-evidence-ui-2026-09-13.md",
+        "bytes": 8802,
+        "sha256": "fdef73c5527e2643b4cc1cf41e2d85b0b880a17cb76113b01ae0d1685cbe4d48"
+      },
+      "exact_byte_copy": {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-release-bridge-compatibility-evidence-ui-2026-09-13.md",
+        "bytes": 8802,
+        "sha256": "fdef73c5527e2643b4cc1cf41e2d85b0b880a17cb76113b01ae0d1685cbe4d48"
+      }
+    },
+    {
+      "personally_read_original": {
+        "path": "output/collaboration/reward-mechanism-repair/darela-event-transfer-math-contract-delivered-arrivals-2026-09-13.md",
+        "bytes": 19889,
+        "sha256": "f539f921cacff64e9ec1cbcebc602181f7d3c71b225596ac1f2ea1772c932534"
+      },
+      "exact_byte_copy": {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-event-transfer-math-contract-delivered-arrivals-2026-09-13.md",
+        "bytes": 19889,
+        "sha256": "f539f921cacff64e9ec1cbcebc602181f7d3c71b225596ac1f2ea1772c932534"
+      }
+    },
+    {
+      "personally_read_original": {
+        "path": "output/collaboration/reward-mechanism-repair/darela-primary-source-contract-dopamine-sources-2026-09-13.md",
+        "bytes": 14225,
+        "sha256": "75b4e5dc2bbd074970582b0ac1c565a2ccef0e7c0af24bcb1370e315a7da0f0b"
+      },
+      "exact_byte_copy": {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-primary-source-contract-dopamine-sources-2026-09-13.md",
+        "bytes": 14225,
+        "sha256": "75b4e5dc2bbd074970582b0ac1c565a2ccef0e7c0af24bcb1370e315a7da0f0b"
+      }
+    },
+    {
+      "personally_read_original": {
+        "path": "output/collaboration/reward-mechanism-repair/darela-source-2026-09-13/source/README.md",
+        "bytes": 4138,
+        "sha256": "afb1a6c5c255e0d284ae116399c88a5563a2d710d304293e053de3c131146a20"
+      },
+      "exact_byte_copy": {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-source-2026-09-13/source/README.md",
+        "bytes": 4138,
+        "sha256": "afb1a6c5c255e0d284ae116399c88a5563a2d710d304293e053de3c131146a20"
+      }
+    }
+  ],
+  "current_inventory_sha256": "ce46b7fb632eec9fa33fde13ece9d2abc0bc6a5f37da349de0a92c5a36c79c06",
+  "unread_deltas": [],
+  "additional_reads": [
+    {
+      "path": "output/collaboration/reward-mechanism-repair/dan-release-bridge-compatibility-evidence-ui-2026-09-13.md",
+      "bytes": 8802,
+      "sha256": "fdef73c5527e2643b4cc1cf41e2d85b0b880a17cb76113b01ae0d1685cbe4d48"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/darela-event-transfer-math-contract-delivered-arrivals-2026-09-13.md",
+      "bytes": 19889,
+      "sha256": "f539f921cacff64e9ec1cbcebc602181f7d3c71b225596ac1f2ea1772c932534"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/darela-release-preparation-reading-evidence-ui-2026-09-13.json",
+      "bytes": 5249,
+      "sha256": "bac13a4174c232ebb0cac500aeba12e9f6b1cee2697610383142c84d28a069ca"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/darela-event-transfer-math-reading-delivered-arrivals-2026-09-13.json",
+      "bytes": 8087,
+      "sha256": "5bd41e4e891cb973313db0a2910da288f9d7e95cbd614c0aaefde9f0fa956ee7"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/darela-source-2026-09-13/import-only-environment-2026-09-13.json",
+      "bytes": 1824,
+      "sha256": "365da7e0e18b9367f211b0cd25c7884cf6108e1b1f4bdcab346c5b2d8de1b1e3"
+    }
+  ],
+  "review_findings": [],
+  "source_scope": "Core model/base/ODE re-read; current source numerical cases not yet executed. No new research, fitting, history evaluation or native call.",
+  "environment_probe_attribution": "First import-only probe executed by /root, 0.4833632498048246s; zero model construction or kernel calls. It is bound separately from the upcoming numerical source check.",
+  "frozen_contract": {
+    "path": "output/collaboration/reward-mechanism-repair/darela-source-kernel-contract.json",
+    "bytes": 46754,
+    "sha256": "4f25417d19e0291b40ee2057710b5e969fcd28376f2c992b534f73cabc362c5c"
+  },
+  "run_id": "darela-source-kernel-42b38e1924b4af6c82cf",
+  "bindings_rechecked": 132,
+  "synthetic_tests": {
+    "passed": 39,
+    "log": {
+      "path": "output/collaboration/reward-mechanism-repair/darela-source-kernel-tests-final-2026-09-13.txt",
+      "bytes": 99,
+      "sha256": "94fb7f94f47e21fe77e539fe023baefab637dad8ee33c6407550082f17f184b6"
+    },
+    "ruff": "passed"
+  },
+  "root_dispatch": "Explicit one-execution dispatch after full source/driver/prereg/test review and independent132binding rehash.",
+  "code_and_contract_mutations_after_freeze": false
+}

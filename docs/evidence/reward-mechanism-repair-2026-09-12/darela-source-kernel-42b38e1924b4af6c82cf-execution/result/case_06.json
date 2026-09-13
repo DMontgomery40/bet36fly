@@ -1,0 +1,53 @@
+{
+  "index": 6,
+  "case": {
+    "name": "shipped_example_tau_repeated",
+    "parameter_row": "shipped_example_tau",
+    "bursts": [
+      0.34,
+      5.34,
+      10.34,
+      15.34,
+      20.34,
+      25.34
+    ],
+    "end_s": 30.0,
+    "initial_H": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "expected_active_updates": 186,
+    "p": [
+      0.0105,
+      -0.003,
+      -0.0011
+    ],
+    "tau_s": [
+      7.5,
+      12.5,
+      900.0
+    ]
+  },
+  "file": {
+    "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-source-kernel-42b38e1924b4af6c82cf-execution/result/case_06.npz",
+    "bytes": 116414,
+    "sha256": "164a2116620bddfed4eb48cdf0d77efa2f9bdd176eaa896627bcf1ea1d058a35"
+  },
+  "passed": true,
+  "max_absolute_errors": {
+    "time": 3.552713678800501e-15,
+    "mask": 0.0,
+    "H": 1.1102230246251565e-14,
+    "A_old": 4.884981308350689e-15,
+    "A_new": 4.884981308350689e-15
+  },
+  "active_updates": 186,
+  "kernel_updates": 1500,
+  "final_H": [
+    1.7678925269378014,
+    0.8329672194765586,
+    0.8178448130891445
+  ],
+  "maximum_old_new_product_difference": 0.009202217277403557
+}

@@ -1,0 +1,41 @@
+{
+  "policy": "copy, not cut",
+  "files": [
+    {
+      "source": "output/collaboration/reward-mechanism-repair/run_darela_source_kernel.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/run_darela_source_kernel.py",
+      "bytes": 13666,
+      "sha256": "602783c8fa3d0e861577bac27cb01d0c54af5df4bff60b44076b98673942e637"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/test_run_darela_source_kernel.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/test_run_darela_source_kernel.py",
+      "bytes": 12782,
+      "sha256": "b656d75efcad2ea1d2354f6ca173b8b28b9a37fb8a65519aabf56a75aafa435b"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-source-kernel-contract.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-source-kernel-contract.json",
+      "bytes": 46754,
+      "sha256": "4f25417d19e0291b40ee2057710b5e969fcd28376f2c992b534f73cabc362c5c"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-source-kernel-preregistration-2026-09-13.md",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-source-kernel-preregistration-2026-09-13.md",
+      "bytes": 4879,
+      "sha256": "bc888be136dbac85d4340e1b85e09bb55201807f998747a9f0e18e93f1c40ddc"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-source-kernel-tests-red-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-source-kernel-tests-red-2026-09-13.txt",
+      "bytes": 951,
+      "sha256": "976257c5ee5e3c86c98392f19a34e94d752f8343e9c504ee81955542198e7fbe"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-source-kernel-tests-green-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-source-kernel-tests-green-2026-09-13.txt",
+      "bytes": 99,
+      "sha256": "1d27a19d7a90c6ab4a4e471426b6a5f0d5e152ea9845d479d1ab2acc06b4ff7e"
+    }
+  ]
+}

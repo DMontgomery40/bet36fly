@@ -9,6 +9,17 @@ status: learning-unvalidated
 
 ## Current account — September 13 UTC
 
+The [DARELA release-source preparation](cells/dopamine-receptor-signaling.md)
+now distinguishes a published mouse burst model from one fixed finite
+per-DAN engineering construction. The source is pinned and copied with its
+license; its eight fixed source-kernel cases and 216 synthetic preparation
+tests pass, including independent saved-state and event-transfer checks.
+[Exact result and limits](../docs/evidence/reward-mechanism-repair-2026-09-12/darela-source-transfer-checkpoint-2026-09-13.md).
+No DARELA saved-history
+screen or production integration has run. This addresses a concrete missing
+representation between actual DAN spikes and the plasticity input, while
+leaving the failed learning qualification unchanged.
+
 The latest [saved-record comparison](../docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-result-2026-09-13.md)
 establishes a teaching input difference in all 64 matched cases at 310 ms.
 The same KC history is established through that step. A missing electrical

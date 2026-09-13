@@ -1,0 +1,144 @@
+{
+  "agent": "/root/evidence_ui",
+  "created_at_utc": "2026-09-13T12:10:24.788789+00:00",
+  "status": "completed_bounded_read_only_compatibility_review",
+  "git_head": "64a4b1d8797ebf0e76049e3a9995fb11d2e38795",
+  "reading": {
+    "scope": "AGENTS.md, README.md and all docs/wiki Markdown",
+    "current_narrative_count": 197,
+    "current_inventory_sha256": "c48963ad2e63e6b676cf9543571302ed7b8f1d72ef9325839b800ad21e946a35",
+    "complete_reconciled_personal_reading": true,
+    "method": "Exact current inventory matches the previously personally read final corpus. Recursively reconciled all 197 content hashes through the personal receipt chain; output/canonical exact-byte aliases are deduplicated only after prior actual reading. No narrative delta is unread.",
+    "unread_deltas": [],
+    "prior_personal_chain": [
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-final-reading-ui-review-evidence-ui-2026-09-13.json",
+        "bytes": 12344,
+        "sha256": "e1b75098920a57c997f6e3e8e8c158b3262f3b0cf476d8d65d603bab1b50ff51"
+      }
+    ],
+    "additional_new_sources_fully_read": [
+      {
+        "path": "output/collaboration/reward-mechanism-repair/darela-source-2026-09-13/source/darela/_impl/base.py",
+        "bytes": 5840,
+        "sha256": "e511b02e9b50e246e9e9df0bbaf930244cd7aea77b4497a1739091ddf2754a38"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/darela-source-2026-09-13/source/darela/_impl/ode.py",
+        "bytes": 4086,
+        "sha256": "93485b66e223ae6cf898cecd4d7cc2f65a4efca467ca2e65dc538154933b6e94"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/darela-source-2026-09-13/source/darela/models.py",
+        "bytes": 797,
+        "sha256": "7e8e065a5e1de6f43e1488afc6d5659f24c96441ddd4fe713d88575c1cf03003"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/darela-source-2026-09-13/source/examples/sur_example.py",
+        "bytes": 810,
+        "sha256": "8eedc9008ff60e068420746da574adc0ae546dff7605bfa869fa3bd3951883c8"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/darela-source-2026-09-13/source/README.md",
+        "bytes": 4138,
+        "sha256": "afb1a6c5c255e0d284ae116399c88a5563a2d710d304293e053de3c131146a20"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/darela-source-2026-09-13/source-manifest.json",
+        "bytes": 4558,
+        "sha256": "173474e5fbf4dbbe77db6c129632a9c85547b58f2615901970c0c3c5ec587897"
+      }
+    ],
+    "source_execution": false
+  },
+  "report": {
+    "path": "output/collaboration/reward-mechanism-repair/dan-release-bridge-compatibility-evidence-ui-2026-09-13.md",
+    "bytes": 8802,
+    "sha256": "fdef73c5527e2643b4cc1cf41e2d85b0b880a17cb76113b01ae0d1685cbe4d48"
+  },
+  "production_targeted_callpath_review": {
+    "scope": "Native RateBridge/state initialization/spike and teaching selection/pooling/recording/tail; wrapper run validation/allocation/call/return; diagnostic identity and numerical fingerprints; evidence replay/reduction; conditioning accepted protocol; frontend types/detail/status and existing API contract. Targeted relevant code paths were read; this is not a new whole-repository correctness certification.",
+    "bindings": [
+      {
+        "path": "bet36fly/reward_lif.cpp",
+        "bytes": 19913,
+        "sha256": "e7dbb0aa8f95873036415581e94de45c237941f05642ccc90812c1be1119be37"
+      },
+      {
+        "path": "bet36fly/reward_brain.py",
+        "bytes": 28621,
+        "sha256": "5a6d67d38d226c6792c4f11430610772894ea3e9ae9593c2d215cfd7eaa0a6d5"
+      },
+      {
+        "path": "scripts/reward_teaching_diagnostic.py",
+        "bytes": 24888,
+        "sha256": "d18df419fe4c78001019d6feadff5b6c37df2de69f7e278d46d3cf02bc539598"
+      },
+      {
+        "path": "bet36fly/reward_diagnostic.py",
+        "bytes": 25196,
+        "sha256": "59feb14834813fa6793f0f97a8e4c208fd85494b383e9fa5875efe5b21189c99"
+      },
+      {
+        "path": "bet36fly/reward_evidence.py",
+        "bytes": 39260,
+        "sha256": "bb36ad4ee0dfd73bb7e01e9c67bb2ca833015828fe91b20b22a85516c1adab0e"
+      },
+      {
+        "path": "bet36fly/conditioning_runner.py",
+        "bytes": 45519,
+        "sha256": "78128541cca1513a6cef50e2107d365c7ab68588bab795100c5f52e2396ce0fd"
+      },
+      {
+        "path": "web/src/types.ts",
+        "bytes": 13802,
+        "sha256": "c63f2ea1a8d1914958174926b7442af86b12e82f71e6d8b23bd8a87d73768afe"
+      },
+      {
+        "path": "web/src/RewardEvidence.tsx",
+        "bytes": 15860,
+        "sha256": "604285fe82998e7042b9025fd1367c2f45f347aa863e4e7d2978c08fb4f31898"
+      },
+      {
+        "path": "web/src/RewardExperiments.tsx",
+        "bytes": 24405,
+        "sha256": "c000db752396a9c43bcbc4f7e56fd8a0673f5498cb9136951425a4d520201e1d"
+      },
+      {
+        "path": "docs/api-contract.md",
+        "bytes": 31772,
+        "sha256": "90d18290a98574f392c58e35ce71868bf0fe195352da936c0e289c8b91f7577b"
+      },
+      {
+        "path": "tests/test_reward_rate_bridge.py",
+        "bytes": 16068,
+        "sha256": "f759030dc47f6a2824540c5365ce00dbfdcd9b2ccab2794731d9713f4bf947e1"
+      }
+    ]
+  },
+  "result_reviewed": {
+    "path": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-result-2026-09-13.md",
+    "bytes": 5586,
+    "sha256": "55d3e594fc0cfeb95876c4d21113bd8846853ab25621c664caf43f04d27965b7"
+  },
+  "conclusions": {
+    "existing_production_defects_identified": [],
+    "candidate_selected": false,
+    "minimal_seam": "Actual per-cell DAN spike selection, then release transform, then fixed population normalization into both bridge terms. Keep raw spike evidence distinct.",
+    "source_transfer_choices": "Burst envelope versus actual events; exact source/native clocks; old/new state convention; pre-onset history/reset; event-only versus persistent chemical tail; parameter and units mapping. No choice was silently implemented.",
+    "archive_limit": "Complete per-cell fine untaught inputs are available. Taught per-cell post-pulse events are not fully retained; pooled/10ms data do not independently determine a nonlinear per-cell transform.",
+    "current_status": "All64 causal contrasts completed; first difference1550. Production second-panel untaught guard still fails; conditioning remains not_run_gate_failed. No new learning qualification.",
+    "current_api_ui": "Production and API/types/Training unchanged and still accurate. New release candidates would require explicit new layout/identity/validation/rendering support before claims."
+  },
+  "execution": {
+    "tests_run": 0,
+    "native_runs": 0,
+    "saved_history_model_runs": 0,
+    "source_protocol_runs": 0,
+    "fits": 0,
+    "network_requests": 0,
+    "browser_runs": 0,
+    "production_or_shared_narrative_edits": false,
+    "verification": "Read-only Git/hash/source/record-contract inspection only. Existing tests inspected, not rerun."
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "repository": "https://github.com/DSulzerLab/DARELA",
+  "commit": "125c27bc59b0c493c902c8724f58fa3d9d8b354d",
+  "commit_date": "2025-02-15T21:04:22Z",
+  "checked_at": "2026-09-13T12:05:58.298260+00:00",
+  "files": [
+    {
+      "path": "CITATION.cff",
+      "url": "https://raw.githubusercontent.com/DSulzerLab/DARELA/125c27bc59b0c493c902c8724f58fa3d9d8b354d/CITATION.cff",
+      "bytes": 904,
+      "git_blob": "d6ee717fdae8a051ca7687ed87eee9fb123f9f01",
+      "sha256": "6d28ab6880d4ed637f780d869b163828542a6046ec9f13ac88cd7a6a145035d7"
+    },
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/DSulzerLab/DARELA/125c27bc59b0c493c902c8724f58fa3d9d8b354d/LICENSE",
+      "bytes": 1068,
+      "git_blob": "339fc1b0f25661a617f087a8dd034ee46ffba2aa",
+      "sha256": "6a76b0bd3dce3a793d5202418affb46966dd9b800b5444691b26ed53c8d7f730"
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/DSulzerLab/DARELA/125c27bc59b0c493c902c8724f58fa3d9d8b354d/README.md",
+      "bytes": 4138,
+      "git_blob": "74068ae4f50a738ce6567818eae7f680d2ee5a07",
+      "sha256": "afb1a6c5c255e0d284ae116399c88a5563a2d710d304293e053de3c131146a20"
+    },
+    {
+      "path": "darela/__init__.py",
+      "url": "https://raw.githubusercontent.com/DSulzerLab/DARELA/125c27bc59b0c493c902c8724f58fa3d9d8b354d/darela/__init__.py",
+      "bytes": 22,
+      "git_blob": "aed4fa323c2c8001593fdfdcd878a21718800167",
+      "sha256": "84c159b9388b9c89f0c4c6cfbdee2e438f4121ac0bb306b2a74f1c80eae0f973"
+    },
+    {
+      "path": "darela/_impl/__init__.py",
+      "url": "https://raw.githubusercontent.com/DSulzerLab/DARELA/125c27bc59b0c493c902c8724f58fa3d9d8b354d/darela/_impl/__init__.py",
+      "bytes": 52,
+      "git_blob": "8b183fd873cee2a7ba822bbcabeb624659a413b6",
+      "sha256": "a42acb91e180822a1f3caeb18a66023fa8f3f0a4b39e50055e844d56a66f6d8b"
+    },
+    {
+      "path": "darela/_impl/base.py",
+      "url": "https://raw.githubusercontent.com/DSulzerLab/DARELA/125c27bc59b0c493c902c8724f58fa3d9d8b354d/darela/_impl/base.py",
+      "bytes": 5840,
+      "git_blob": "d31ee2a857a989175a86af91437de10d42aca148",
+      "sha256": "e511b02e9b50e246e9e9df0bbaf930244cd7aea77b4497a1739091ddf2754a38"
+    },
+    {
+      "path": "darela/_impl/fit.py",
+      "url": "https://raw.githubusercontent.com/DSulzerLab/DARELA/125c27bc59b0c493c902c8724f58fa3d9d8b354d/darela/_impl/fit.py",
+      "bytes": 8426,
+      "git_blob": "89276a9c711cda996d0bb24d159f61a783e62958",
+      "sha256": "ec019616a0c7f2db1de89075dacaf04ecced80538df06a0877086cae5724b169"
+    },
+    {
+      "path": "darela/_impl/ode.py",
+      "url": "https://raw.githubusercontent.com/DSulzerLab/DARELA/125c27bc59b0c493c902c8724f58fa3d9d8b354d/darela/_impl/ode.py",
+      "bytes": 4086,
+      "git_blob": "eb5f9b71cce566a20c3eac4ecda421d4ece9c339",
+      "sha256": "93485b66e223ae6cf898cecd4d7cc2f65a4efca467ca2e65dc538154933b6e94"
+    },
+    {
+      "path": "darela/_impl/pde.py",
+      "url": "https://raw.githubusercontent.com/DSulzerLab/DARELA/125c27bc59b0c493c902c8724f58fa3d9d8b354d/darela/_impl/pde.py",
+      "bytes": 5847,
+      "git_blob": "8b5fbbd2244361bf8220e9d1ac5873fc7b2ebeca",
+      "sha256": "b9861f1b69aa266cb39b698ef9f9fdb41805f445adc8b11d1950e1ce5021e186"
+    },
+    {
+      "path": "darela/models.py",
+      "url": "https://raw.githubusercontent.com/DSulzerLab/DARELA/125c27bc59b0c493c902c8724f58fa3d9d8b354d/darela/models.py",
+      "bytes": 797,
+      "git_blob": "da96a0892d095ebaabbe4c5731b2567eeeafb3e7",
+      "sha256": "7e8e065a5e1de6f43e1488afc6d5659f24c96441ddd4fe713d88575c1cf03003"
+    },
+    {
+      "path": "examples/sur_example.py",
+      "url": "https://raw.githubusercontent.com/DSulzerLab/DARELA/125c27bc59b0c493c902c8724f58fa3d9d8b354d/examples/sur_example.py",
+      "bytes": 810,
+      "git_blob": "384cc715b2bf21fb29c6fafef8052af7dfb24108",
+      "sha256": "8eedc9008ff60e068420746da574adc0ae546dff7605bfa869fa3bd3951883c8"
+    },
+    {
+      "path": "setup.py",
+      "url": "https://raw.githubusercontent.com/DSulzerLab/DARELA/125c27bc59b0c493c902c8724f58fa3d9d8b354d/setup.py",
+      "bytes": 252,
+      "git_blob": "c3bc4f0d5f82fb2e53f0ef3174ab2b8dc81d89f6",
+      "sha256": "07387b788c79db1f2a9824c2eda7f05378451de54917c33804181ecdc4649cb2"
+    }
+  ],
+  "scope": "Minimal package sources, license, citation, README, setup metadata and SUR example. No installation or source execution.",
+  "sandbox_note": "Initial unprivileged metadata read failed DNS; public GitHub acquisition succeeded with approved network access."
+}

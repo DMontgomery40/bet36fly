@@ -1,0 +1,401 @@
+{
+  "run_id": "darela-source-kernel-42b38e1924b4af6c82cf",
+  "status": "computed",
+  "rows": [
+    {
+      "index": 0,
+      "case": {
+        "name": "manuscript_wt1_quiet",
+        "parameter_row": "manuscript_wt1",
+        "bursts": [],
+        "end_s": 5.0,
+        "initial_H": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "expected_active_updates": 0,
+        "p": [
+          0.0105,
+          -0.003,
+          -0.0011
+        ],
+        "tau_s": [
+          7.5,
+          15.0,
+          900.0
+        ]
+      },
+      "file": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-source-kernel-42b38e1924b4af6c82cf-execution/result/case_00.npz",
+        "bytes": 3649,
+        "sha256": "bed2b6d29fda93a87416694024eca4ee51f6321601c42cce26128cecefbea6e6"
+      },
+      "passed": true,
+      "max_absolute_errors": {
+        "time": 8.881784197001252e-16,
+        "mask": 0.0,
+        "H": 0.0,
+        "A_old": 0.0,
+        "A_new": 0.0
+      },
+      "active_updates": 0,
+      "kernel_updates": 250,
+      "final_H": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "maximum_old_new_product_difference": 0.0
+    },
+    {
+      "index": 1,
+      "case": {
+        "name": "manuscript_wt1_single",
+        "parameter_row": "manuscript_wt1",
+        "bursts": [
+          0.34
+        ],
+        "end_s": 5.0,
+        "initial_H": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "expected_active_updates": 31,
+        "p": [
+          0.0105,
+          -0.003,
+          -0.0011
+        ],
+        "tau_s": [
+          7.5,
+          15.0,
+          900.0
+        ]
+      },
+      "file": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-source-kernel-42b38e1924b4af6c82cf-execution/result/case_01.npz",
+        "bytes": 20542,
+        "sha256": "7692985fdbbf40705b92b03aae150a661a2bb315d28c80ccc271173a0e79b7c8"
+      },
+      "passed": true,
+      "max_absolute_errors": {
+        "time": 8.881784197001252e-16,
+        "mask": 0.0,
+        "H": 2.220446049250313e-15,
+        "A_old": 1.5543122344752192e-15,
+        "A_new": 1.5543122344752192e-15
+      },
+      "active_updates": 31,
+      "kernel_updates": 250,
+      "final_H": [
+        1.222965151293738,
+        0.9320766498283581,
+        0.9666069492590703
+      ],
+      "maximum_old_new_product_difference": 0.007692743135627733
+    },
+    {
+      "index": 2,
+      "case": {
+        "name": "manuscript_wt1_repeated",
+        "parameter_row": "manuscript_wt1",
+        "bursts": [
+          0.34,
+          5.34,
+          10.34,
+          15.34,
+          20.34,
+          25.34
+        ],
+        "end_s": 30.0,
+        "initial_H": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "expected_active_updates": 186,
+        "p": [
+          0.0105,
+          -0.003,
+          -0.0011
+        ],
+        "tau_s": [
+          7.5,
+          15.0,
+          900.0
+        ]
+      },
+      "file": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-source-kernel-42b38e1924b4af6c82cf-execution/result/case_02.npz",
+        "bytes": 116341,
+        "sha256": "94b5883f552dc4b6a95a61a31bc0b3def35099687f8410dc76da372896f8f35e"
+      },
+      "passed": true,
+      "max_absolute_errors": {
+        "time": 3.552713678800501e-15,
+        "mask": 0.0,
+        "H": 1.1102230246251565e-14,
+        "A_old": 5.329070518200751e-15,
+        "A_new": 5.329070518200751e-15
+      },
+      "active_updates": 186,
+      "kernel_updates": 1500,
+      "final_H": [
+        1.7678925269378014,
+        0.8086331637728497,
+        0.8178448130891445
+      ],
+      "maximum_old_new_product_difference": 0.009007121544634789
+    },
+    {
+      "index": 3,
+      "case": {
+        "name": "manuscript_wt1_nonunit",
+        "parameter_row": "manuscript_wt1",
+        "bursts": [
+          0.34
+        ],
+        "end_s": 5.0,
+        "initial_H": [
+          1.25,
+          0.75,
+          0.5
+        ],
+        "expected_active_updates": 31,
+        "p": [
+          0.0105,
+          -0.003,
+          -0.0011
+        ],
+        "tau_s": [
+          7.5,
+          15.0,
+          900.0
+        ]
+      },
+      "file": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-source-kernel-42b38e1924b4af6c82cf-execution/result/case_03.npz",
+        "bytes": 21844,
+        "sha256": "8dec37838619980f8bebaa8843863b966323cb5e4258e5506dfb6bba18b8b7db"
+      },
+      "passed": true,
+      "max_absolute_errors": {
+        "time": 8.881784197001252e-16,
+        "mask": 0.0,
+        "H": 2.886579864025407e-15,
+        "A_old": 6.661338147750939e-16,
+        "A_new": 6.661338147750939e-16
+      },
+      "active_updates": 31,
+      "kernel_updates": 250,
+      "final_H": [
+        1.4155397988035159,
+        0.7620209042684661,
+        0.48572461689658547
+      ],
+      "maximum_old_new_product_difference": 0.0036020446508588932
+    },
+    {
+      "index": 4,
+      "case": {
+        "name": "shipped_example_tau_quiet",
+        "parameter_row": "shipped_example_tau",
+        "bursts": [],
+        "end_s": 5.0,
+        "initial_H": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "expected_active_updates": 0,
+        "p": [
+          0.0105,
+          -0.003,
+          -0.0011
+        ],
+        "tau_s": [
+          7.5,
+          12.5,
+          900.0
+        ]
+      },
+      "file": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-source-kernel-42b38e1924b4af6c82cf-execution/result/case_04.npz",
+        "bytes": 3649,
+        "sha256": "bed2b6d29fda93a87416694024eca4ee51f6321601c42cce26128cecefbea6e6"
+      },
+      "passed": true,
+      "max_absolute_errors": {
+        "time": 8.881784197001252e-16,
+        "mask": 0.0,
+        "H": 0.0,
+        "A_old": 0.0,
+        "A_new": 0.0
+      },
+      "active_updates": 0,
+      "kernel_updates": 250,
+      "final_H": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "maximum_old_new_product_difference": 0.0
+    },
+    {
+      "index": 5,
+      "case": {
+        "name": "shipped_example_tau_single",
+        "parameter_row": "shipped_example_tau",
+        "bursts": [
+          0.34
+        ],
+        "end_s": 5.0,
+        "initial_H": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "expected_active_updates": 31,
+        "p": [
+          0.0105,
+          -0.003,
+          -0.0011
+        ],
+        "tau_s": [
+          7.5,
+          12.5,
+          900.0
+        ]
+      },
+      "file": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-source-kernel-42b38e1924b4af6c82cf-execution/result/case_05.npz",
+        "bytes": 20575,
+        "sha256": "a68a3a3c3b600e0e2dd4c4546852f693846e8a960ecb1158681dff283531807d"
+      },
+      "passed": true,
+      "max_absolute_errors": {
+        "time": 8.881784197001252e-16,
+        "mask": 0.0,
+        "H": 2.220446049250313e-15,
+        "A_old": 1.7763568394002505e-15,
+        "A_new": 1.7763568394002505e-15
+      },
+      "active_updates": 31,
+      "kernel_updates": 250,
+      "final_H": [
+        1.222965151293738,
+        0.9356437484459029,
+        0.9666069492590703
+      ],
+      "maximum_old_new_product_difference": 0.007692743135627733
+    },
+    {
+      "index": 6,
+      "case": {
+        "name": "shipped_example_tau_repeated",
+        "parameter_row": "shipped_example_tau",
+        "bursts": [
+          0.34,
+          5.34,
+          10.34,
+          15.34,
+          20.34,
+          25.34
+        ],
+        "end_s": 30.0,
+        "initial_H": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "expected_active_updates": 186,
+        "p": [
+          0.0105,
+          -0.003,
+          -0.0011
+        ],
+        "tau_s": [
+          7.5,
+          12.5,
+          900.0
+        ]
+      },
+      "file": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-source-kernel-42b38e1924b4af6c82cf-execution/result/case_06.npz",
+        "bytes": 116414,
+        "sha256": "164a2116620bddfed4eb48cdf0d77efa2f9bdd176eaa896627bcf1ea1d058a35"
+      },
+      "passed": true,
+      "max_absolute_errors": {
+        "time": 3.552713678800501e-15,
+        "mask": 0.0,
+        "H": 1.1102230246251565e-14,
+        "A_old": 4.884981308350689e-15,
+        "A_new": 4.884981308350689e-15
+      },
+      "active_updates": 186,
+      "kernel_updates": 1500,
+      "final_H": [
+        1.7678925269378014,
+        0.8329672194765586,
+        0.8178448130891445
+      ],
+      "maximum_old_new_product_difference": 0.009202217277403557
+    },
+    {
+      "index": 7,
+      "case": {
+        "name": "shipped_example_tau_nonunit",
+        "parameter_row": "shipped_example_tau",
+        "bursts": [
+          0.34
+        ],
+        "end_s": 5.0,
+        "initial_H": [
+          1.25,
+          0.75,
+          0.5
+        ],
+        "expected_active_updates": 31,
+        "p": [
+          0.0105,
+          -0.003,
+          -0.0011
+        ],
+        "tau_s": [
+          7.5,
+          12.5,
+          900.0
+        ]
+      },
+      "file": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-source-kernel-42b38e1924b4af6c82cf-execution/result/case_07.npz",
+        "bytes": 21814,
+        "sha256": "2a14590f9bbab62a15e2fb572fff85ce24dfae6fc025d2d0fa2a1d7c41ceb85e"
+      },
+      "passed": true,
+      "max_absolute_errors": {
+        "time": 8.881784197001252e-16,
+        "mask": 0.0,
+        "H": 2.886579864025407e-15,
+        "A_old": 6.661338147750939e-16,
+        "A_new": 6.661338147750939e-16
+      },
+      "active_updates": 31,
+      "kernel_updates": 250,
+      "final_H": [
+        1.4155397988035159,
+        0.7752485886941703,
+        0.48572461689658547
+      ],
+      "maximum_old_new_product_difference": 0.0036073219581470584
+    }
+  ],
+  "attempted_cases": 8,
+  "completed_cases": 8,
+  "kernel_updates": 4500,
+  "bindings_unchanged": true,
+  "source_scope": "factor kernel only"
+}

@@ -1,0 +1,159 @@
+{
+  "agent": "/root/evidence_ui",
+  "created_at_utc": "2026-09-13T12:27:02.548128+00:00",
+  "status": "completed_output_only_bridge_widening_frozen_for_review",
+  "git_head": "64a4b1d8797ebf0e76049e3a9995fb11d2e38795",
+  "artifacts": [
+    {
+      "path": "output/collaboration/reward-mechanism-repair/darela_release_bridge_replay.py",
+      "bytes": 6964,
+      "sha256": "9e8a412b5de71279354f0f88980be916ee59faeae7b8ceb80612ff42595bace1"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/test_darela_release_bridge_replay.py",
+      "bytes": 8372,
+      "sha256": "781fb4f18da085287124ccc51348a0f0e4b11ce1de3e03e68425dfb0a465747a"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/darela-release-bridge-tests-red-2026-09-13.txt",
+      "bytes": 59790,
+      "sha256": "c5376a55c2571d9875ad6c888485443b551d19e0d34d0c47ec93eccfe7e425de"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/darela-release-bridge-tests-green-2026-09-13.txt",
+      "bytes": 99,
+      "sha256": "0949ac841c26547941f1617b1616cf0d4a3d5136925a3f86a3f96a0f1f525cf8"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/darela-release-bridge-tests-final-2026-09-13.txt",
+      "bytes": 180,
+      "sha256": "53242da13495d8c5911c67b9f2966ac134b1d5cc2430836733158cfdb2532fcf"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/darela-release-bridge-ruff-2026-09-13.txt",
+      "bytes": 19,
+      "sha256": "82b3e6a6c090a57601d22943bd23fca9218d1031dbe5a7b754092f9a156b4f18"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/darela-release-bridge-frozen-source-diff-2026-09-13.txt",
+      "bytes": 2389,
+      "sha256": "8ed062a1f6c8ca8ad7e118ea629229e3bda141c99e64f1e0ab4fac0d30cd24b9"
+    }
+  ],
+  "historical_sources_unchanged": [
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/kc_weighted_bridge_replay.py",
+      "bytes": 6626,
+      "sha256": "08ec9ec468f9bfc0ccee2ca1dad41e5273cf589a6be087a1baac9724768105b7"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/kc_weighted_bridge_replay.py",
+      "bytes": 6626,
+      "sha256": "08ec9ec468f9bfc0ccee2ca1dad41e5273cf589a6be087a1baac9724768105b7"
+    }
+  ],
+  "precise_change": "Separate copy; widen only DAN input numerical envelope from[0,1] to finite[0,2**32] inclusive. KC remains[0,1]. Existing mapping/checkpoint/learning validation preserved. No new time domain restriction; the shadow caller separately fixes2000 rows and silence extensions remain available to numerical tests.",
+  "calculation_preservation": {
+    "complete_replay_body_byte_identical_after_docstring": true,
+    "body_sha256": "2a8970b26e39c2cdebd57b884b990669e3c2199165f4b659a2df2af3253bf10d",
+    "all_constant_assignments_ast_identical": true,
+    "preserved": [
+      "clock/onset",
+      "both integral products",
+      "direct signed Q integration",
+      "double accumulator",
+      "one interval publication",
+      "inclusive bound observations",
+      "masks and group mapping",
+      "one full analytic tail",
+      "all result fields/dtypes"
+    ]
+  },
+  "validation": {
+    "red": "53 new tests executed against untouched old canonical helper via temporary in-process module alias before creating new helper:22 expected widened-domain failures,31passes; log preserved.",
+    "green": "53passed0.93s",
+    "final": "141passed1.78s combined88release+53bridge; separate helper filesRuffclean.",
+    "command": "PYTHONPATH=output/collaboration/reward-mechanism-repair .venv/bin/python -m pytest -q output/collaboration/reward-mechanism-repair/test_darela_release.py output/collaboration/reward-mechanism-repair/test_darela_release_bridge_replay.py",
+    "families": [
+      "fractional and above-one DAN masses through inclusive2**32",
+      "positive/negative/coincident closed impulse kernel",
+      "independent separate-product quadrature and infinite tail",
+      "silence-extension complete gain",
+      "byte-exact old-domain all-output equivalence across3fixturesx2learning states",
+      "frozen/excluded gainbytes and inclusivebound policy",
+      "preonset exclusion and onset inclusion",
+      "nonfinite/negative/above-domain masses",
+      "unchanged KC envelope",
+      "DAN matrix type/shape families"
+    ]
+  },
+  "reading": {
+    "prior_personal_chain": [
+      {
+        "path": "output/collaboration/reward-mechanism-repair/darela-release-preparation-reading-evidence-ui-2026-09-13.json",
+        "bytes": 5249,
+        "sha256": "bac13a4174c232ebb0cac500aeba12e9f6b1cee2697610383142c84d28a069ca"
+      }
+    ],
+    "current_narrative_count": 201,
+    "current_inventory_sha256": "504e0b1103e3881359230280b08202a922254d2a7613b0815cfa67bff77372ef",
+    "complete_reconciled_personal_reading": true,
+    "method": "Previously fully read197 corpus plus exact-content copies of personally read DARELA source/contracts and authored compatibility note. Personally read entire new DARELA additions to handoff/index/receptor/reassessment via complete Git diff; unchanged historical contents retain their prior full reading. Current201 narratives reconciled; no unread delta.",
+    "current_narrative_deltas_read": [
+      {
+        "path": "docs/REWARD_REPAIR_HANDOFF.md",
+        "bytes": 62506,
+        "sha256": "d15a4729cfe7342f8db8af506aec31417b17dc3183945bf2d69b8d4d09d6c5c5"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/index.md",
+        "bytes": 25084,
+        "sha256": "2d53ef660f80bd1ee5c7060f6622e991f6f9590963fd9d5bfd9c66571ab4647c"
+      },
+      {
+        "path": "wiki/cells/dopamine-receptor-signaling.md",
+        "bytes": 7550,
+        "sha256": "f5aa9420644faa2250b647838cb0907634f2cfd7727a04e2de107e55163bf1db"
+      },
+      {
+        "path": "wiki/reassessment.md",
+        "bytes": 15158,
+        "sha256": "321e8c2dc4b71351940b53989e0118ce0c0b5b0b44a6783e7f9c9143bb61794b"
+      }
+    ],
+    "source_and_contracts": [
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/kc_weighted_bridge_replay.py",
+        "bytes": 6626,
+        "sha256": "08ec9ec468f9bfc0ccee2ca1dad41e5273cf589a6be087a1baac9724768105b7"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/test_kc_weighted_bridge_replay.py",
+        "bytes": 10428,
+        "sha256": "ed0237e8e64d6c91a041107e685cd02038cbc07270a32901285f9dea15fffbbe"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/darela-event-transfer-math-contract-delivered-arrivals-2026-09-13.md",
+        "bytes": 19889,
+        "sha256": "f539f921cacff64e9ec1cbcebc602181f7d3c71b225596ac1f2ea1772c932534"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/darela-primary-source-contract-dopamine-sources-2026-09-13.md",
+        "bytes": 14225,
+        "sha256": "75b4e5dc2bbd074970582b0ac1c565a2ccef0e7c0af24bcb1370e315a7da0f0b"
+      }
+    ]
+  },
+  "scope": {
+    "production_changes": false,
+    "shared_narrative_changes_by_this_agent": false,
+    "saved_history_reads_or_evaluations": false,
+    "native_calls": 0,
+    "source_solver_calls": 0,
+    "fits": 0,
+    "network_requests": 0,
+    "browser_runs": 0,
+    "full_repository_verify": "Parent-owned; not duplicated for this bounded output-only task."
+  },
+  "remaining": "Independent review and parent frozen screen dispatch. Passing synthetic transfer checks does not qualify a mechanism or demonstrate learning."
+}

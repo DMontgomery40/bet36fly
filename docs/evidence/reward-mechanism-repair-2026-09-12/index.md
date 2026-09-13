@@ -2,6 +2,21 @@
 
 **Status: scientific HOLD; the rate bridge still fails the second panel's untaught-home guard.** Both the corrected raw-event rule and the subsequent rate bridge pass the original panel but fail the previously frozen second panel. The rate bridge reduces the measured drift without satisfying the unchanged guard. Numerical implementation tests pass; cue-specific acquisition, reversal and improved sports prediction remain unestablished. Conditioning has not run.
 
+The [DARELA primary-source contract](darela-primary-source-contract-dopamine-sources-2026-09-13.md),
+[independent finite-domain mathematics](darela-event-transfer-math-contract-delivered-arrivals-2026-09-13.md)
+and [integration boundary](dan-release-bridge-compatibility-evidence-ui-2026-09-13.md)
+now define one explicit per-DAN release hypothesis for numerical preparation.
+The [copy manifest](darela-source-preparation-copy-manifest-2026-09-13.json)
+binds the retained external source, license, reviews and initial helper tests.
+The source is a mouse FSCV model; the finite spike embedding is an engineering
+construction, not calibrated fly release. Follow the
+[current handoff](../../REWARD_REPAIR_HANDOFF.md) for completed numerical
+checks and the next fixed-history screen. The
+[completed checkpoint](darela-source-transfer-checkpoint-2026-09-13.md)
+passes eight source-kernel cases, independent review of all saved arrays and
+216 synthetic preparation tests. No new qualification or learning
+result follows from this source preparation.
+
 The new [64-contrast causal-prefix audit](dan-causal-prefix-result-2026-09-13.md)
 finds an actual teaching input difference in every comparison at 310 ms,
 while the KC history is still shared. Both PPL101 cells or all 22 PAM12

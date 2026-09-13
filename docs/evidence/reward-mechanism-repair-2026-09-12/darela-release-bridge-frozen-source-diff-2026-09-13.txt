@@ -1,0 +1,40 @@
+--- docs/evidence/reward-mechanism-repair-2026-09-12/kc_weighted_bridge_replay.py
++++ output/collaboration/reward-mechanism-repair/darela_release_bridge_replay.py
+@@ -1,7 +1,8 @@
+-"""Pure fixed-contract replay of nonnegative fractional KC/DAN impulses.
++"""Pure fixed-contract replay of KC impulses and finite DAN release masses.
+ 
+-This is the existing antisymmetric bridge with weighted KC events, not a new
+-cellular model. No native library, graph loader, RNG or captured history is
++This copies the frozen antisymmetric weighted-event bridge. Only the DAN
++input envelope is widened to [0,2**32] for the finite reset release hypothesis;
++KC remains in [0,1]. This is not a new cellular model. No native library, graph loader, RNG or captured history is
+ accessed. Counts include proposed or float32-published equality at a bound,
+ including eta-zero mode, exactly as the native bridge does.
+ """
+@@ -32,9 +33,11 @@
+         or kc.shape[0] <= ONSET
+         or kc.shape[1] < 1
+         or dan.shape[1] not in (1, 2)
+-        or any(not np.isfinite(x).all() or np.any(x < 0) or np.any(x > 1) for x in (kc, dan))
++        or any(not np.isfinite(x).all() or np.any(x < 0) for x in (kc, dan))
++        or np.any(kc > 1)
++        or np.any(dan > 2**32)
+     ):
+-        raise ValueError("Expected matching finite [0,1] impulse matrices, with steps > 500.")
++        raise ValueError("Expected matching finite impulses: KC [0,1], DAN [0,2**32], with steps > 500.")
+     pk, pc, mask, groups = map(np.asarray, (pk, pc, mask, groups))
+     if pk.ndim != 1 or not pk.size:
+         raise ValueError("Expected at least one mapped plastic edge.")
+@@ -69,7 +72,10 @@
+ def replay(kc, dan_means, pk, pc, mask, groups, *, initial=None, learning=True):
+     """Cold onset500; publish once per full .2ms interval and once for full tail.
+ 
+-    Inputs must be bounded event masses, not rates. DAN columns are already
++    Inputs are event masses, not rates: KC [0,1], DAN [0,2**32].
++    The conservative DAN bound belongs to the finite 2000-slot release domain;
++    this replay may append silence for independent complete-tail checks.
++    DAN columns are already
+     population means. ``pk`` and ``pc`` map each edge to KC/channel; groups0..7
+     obey group//4 == channel. Repeated KC/channel mappings are valid. Excluded
+     edges retain their checkpoint and have no publications; learning=False

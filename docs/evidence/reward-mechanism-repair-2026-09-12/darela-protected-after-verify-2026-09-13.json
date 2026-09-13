@@ -1,0 +1,10 @@
+{
+  "checked_at": "2026-09-13T12:28:34.783531+00:00",
+  "baseline": "output/collaboration/reward-mechanism-repair/darela-protected-before-2026-09-13.json",
+  "files_checked": 760,
+  "file_changes": {},
+  "inventory_changed": false,
+  "added_entries": [],
+  "removed_entries": [],
+  "passed": true
+}

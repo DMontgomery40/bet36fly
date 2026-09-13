@@ -1,0 +1,146 @@
+{
+  "schema": "darela-final-reading-claim-review-v1",
+  "agent": "/root/delivered_arrivals",
+  "created_at_utc": "2026-09-13T12:42:13.967778+00:00",
+  "status": "passed_bounded_final_claim_review",
+  "material_findings": [],
+  "reading": {
+    "prior_complete_personal_chain": {
+      "path": "output/collaboration/reward-mechanism-repair/darela-release-bridge-review-delivered-arrivals-2026-09-13.json",
+      "bytes": 50128,
+      "sha256": "b4c14ea1566a7d503d1c104a4d42decf82c71febfa1157a02fd41d26d2e50d82"
+    },
+    "narrative_count": 203,
+    "unchanged_prior_read_paths": 198,
+    "new_paths": 0,
+    "changed_personally_read": [
+      {
+        "path": "docs/REWARD_REPAIR_HANDOFF.md",
+        "bytes": 63771,
+        "sha256": "30d5df134821ef1070d47a4488982d4ce175b3eb32330c33c52e720895703352",
+        "prior_sha256": "d15a4729cfe7342f8db8af506aec31417b17dc3183945bf2d69b8d4d09d6c5c5",
+        "method": "Entire current git diff read against previously personally read HEAD body; includes all final changes"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-source-transfer-checkpoint-2026-09-13.md",
+        "bytes": 6892,
+        "sha256": "a2a890c9a96f4be6d3aa336d834510db7122de6aca46d1e670fb72d1759dc142",
+        "prior_sha256": "a3ed590ee20859338f1045526b33b4f1f11b40283aa516992dd7e285a15770a2",
+        "method": "Full current narrative read"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/index.md",
+        "bytes": 25270,
+        "sha256": "0399eeffb8dee3746c8cf0a54264fe95534fa6380271f46de92cc38d42e3eefe",
+        "prior_sha256": "2d53ef660f80bd1ee5c7060f6622e991f6f9590963fd9d5bfd9c66571ab4647c",
+        "method": "Entire current git diff read against previously personally read HEAD body; includes all final changes"
+      },
+      {
+        "path": "wiki/cells/dopamine-receptor-signaling.md",
+        "bytes": 7762,
+        "sha256": "0c807aa3df632e096a59510c94f950529f96021728f34de65f25a786505ec5f5",
+        "prior_sha256": "f5aa9420644faa2250b647838cb0907634f2cfd7727a04e2de107e55163bf1db",
+        "method": "Entire current git diff read against previously personally read HEAD body; includes all final changes"
+      },
+      {
+        "path": "wiki/reassessment.md",
+        "bytes": 15382,
+        "sha256": "ff22141768b07f8bcc0f146da14d64d088932171ecc74e93494ccf87283a9e40",
+        "prior_sha256": "321e8c2dc4b71351940b53989e0118ce0c0b5b0b44a6783e7f9c9143bb61794b",
+        "method": "Entire current git diff read against previously personally read HEAD body; includes all final changes"
+      }
+    ],
+    "unread_paths": [],
+    "inventory_digest": {
+      "serialization": "json.dumps(current sorted path/bytes/sha256 list,sort_keys=True,separators=(comma,colon)) UTF-8",
+      "sha256": "532fa91aa3307b6ed1b5b58e22d089ac7456c1c8681cf397bd1191d7fb79a082"
+    },
+    "exact_read_aliases": [
+      {
+        "original": {
+          "path": "output/collaboration/reward-mechanism-repair/audit_darela_saved_kernel.py",
+          "bytes": 5325,
+          "sha256": "1d31eeffe57fa50f1e8643e63311852be2f5d01f9afc33720fe1b3d57e822ee9"
+        },
+        "canonical": {
+          "path": "docs/evidence/reward-mechanism-repair-2026-09-12/audit_darela_saved_kernel.py",
+          "bytes": 5325,
+          "sha256": "1d31eeffe57fa50f1e8643e63311852be2f5d01f9afc33720fe1b3d57e822ee9"
+        }
+      },
+      {
+        "original": {
+          "path": "output/collaboration/reward-mechanism-repair/darela-saved-kernel-root-review-2026-09-13.json",
+          "bytes": 4654,
+          "sha256": "3178834d55d645fb534f7a396f1dacd717d2d95bed92aad1db79185cc3e62b27"
+        },
+        "canonical": {
+          "path": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-saved-kernel-root-review-2026-09-13.json",
+          "bytes": 4654,
+          "sha256": "3178834d55d645fb534f7a396f1dacd717d2d95bed92aad1db79185cc3e62b27"
+        }
+      }
+    ]
+  },
+  "root_saved_audit_logic_review": {
+    "method": "Read complete copied audit code and report, plus all eight contract case definitions. Inspected source-execution receipt numerical reductions and scope, without loading NPZ payloads or rerunning audit/source/tests.",
+    "conclusion": "Piecewise geometric oracle correctly solves the fixed nonoverlapping S=0/1 source Euler kernel: active H0*(1+p)^n, quiet 1+(H0-1)*(1-.02/tau)^n. Inclusive masks, old/new product indexing, both source/reference comparisons and per-row shapes follow the frozen eight fixed-grid cases. This quiet Euler oracle is distinct from exact between-event recovery in the engineered release helper.",
+    "coverage_reconciliation": "Six 250-update and two 1500-update cases give 4500 updates and 4508 H rows. Ten arrays per case give 80 arrays; 14*4500+10*8=63080 values. Exact mask checks complement fixed atol=rtol=1e-12 comparisons.",
+    "lifecycle": "Audit checks run hash, parent exit0/reaped/non-timeout/cap, no terminal-error, completion-summary hashes, all eight ordered row identities/archive hashes and all 132 contract bindings. No material logic mismatch found for this declared fixed trusted-evidence scope.",
+    "attribution": "Maximum 3.2862601528904634e-14 and 80-array numerical pass are root execution evidence, not a numerical rerun by this reviewer."
+  },
+  "claims_checked": [
+    "Source commit is later than publication; mouse measurements do not establish fly release kinetics.",
+    "Eight source factor cases are distinguished from full concentration/uptake/electrode/PDE simulation, fitting or measured release; old/new products are derived.",
+    "Parent 0.617201 seconds through final checks is distinguished from child/scalar numerical timings.",
+    "216 distinct synthetic cases = 88 event +36 independent reference +53 bridge +39 source harness; actual eight source cases remain separate.",
+    "Fixed source/scalar maximum 1.1102230246251565e-14 and root geometric maximum 3.2862601528904634e-14 are stated with the unchanged combined 1e-12 tolerance.",
+    "Finite positive 400ms/reset engineering domain does not imply an indefinite tonic bound or source burst-envelope equivalence.",
+    "Each body evolves on all actual spikes, including pre100ms; release is pre-H and pooled2/22; existing bridge starts cold100ms and owns complete tail. No source full-tail recovery or learning success is inferred from finite source windows.",
+    "No DARELA saved-history screen, native integration or new qualification/conditioning result has run. Production failure and active incomplete goal remain explicit.",
+    "Fresh full repository gate/browser/protection statements are attributed to root evidence; no new browser or repeated test run claimed here."
+  ],
+  "additional_bindings": [
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-saved-kernel-root-review-2026-09-13.json",
+      "bytes": 4654,
+      "sha256": "3178834d55d645fb534f7a396f1dacd717d2d95bed92aad1db79185cc3e62b27"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/audit_darela_saved_kernel.py",
+      "bytes": 5325,
+      "sha256": "1d31eeffe57fa50f1e8643e63311852be2f5d01f9afc33720fe1b3d57e822ee9"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-source-kernel-preregistration-2026-09-13.md",
+      "bytes": 4879,
+      "sha256": "bc888be136dbac85d4340e1b85e09bb55201807f998747a9f0e18e93f1c40ddc"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-source-kernel-execution-reading-receipt-2026-09-13.json",
+      "bytes": 33557,
+      "sha256": "028b0a4fe1e2136631af424008d83be6040d2da815bd4acd080308139e9a8df1"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-canonical-release-tests-receipt-2026-09-13.json",
+      "bytes": 615,
+      "sha256": "76f6f2d88458a32e01a81fa7bf4f914640d35920d4e7dfec432bf7e5cf207408"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-make-verify-receipt-2026-09-13.json",
+      "bytes": 172,
+      "sha256": "7ed768fbc96b0d61ea02c2457267e5154e6f642047cf5dc963babe2ebb071784"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/darela-source-kernel-contract.json",
+      "bytes": 46754,
+      "sha256": "4f25417d19e0291b40ee2057710b5e969fcd28376f2c992b534f73cabc362c5c"
+    }
+  ],
+  "actions": {
+    "read_only_review": true,
+    "new_source_native_history_fit_test_runs": 0,
+    "bound_file_edits": 0,
+    "only_new_artifact": "This unique final JSON receipt"
+  }
+}

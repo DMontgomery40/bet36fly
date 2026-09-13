@@ -1,0 +1,35 @@
+{
+  "policy": "copy, not cut",
+  "files": [
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-final-reading-claim-review-delivered-arrivals-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-final-reading-claim-review-delivered-arrivals-2026-09-13.json",
+      "bytes": 8540,
+      "sha256": "f1fd60742659e01efe0dc49481f9a36eaeeb4b847a934d02bd1b11f8766402eb"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-final-reading-claim-review-dopamine-sources-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-final-reading-claim-review-dopamine-sources-2026-09-13.json",
+      "bytes": 5720,
+      "sha256": "f4546adec13a64b39743472bc61744034b50e70b597bec5ba8d9fb3eb4673d4a"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-final-reading-ui-review-evidence-ui-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-final-reading-ui-review-evidence-ui-2026-09-13.json",
+      "bytes": 7414,
+      "sha256": "6a7ed021188d54b90006d7ac0a7902de0986e34609425e3fc03b163e73f75683"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-readme-coverage-supplement-dopamine-sources-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-readme-coverage-supplement-dopamine-sources-2026-09-13.json",
+      "bytes": 1004,
+      "sha256": "f129e5e340c5ae5fb6a8ad12b4f09d02b4d52db959f94c100e880d936ece1be1"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-protected-final-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-protected-final-2026-09-13.json",
+      "bytes": 299,
+      "sha256": "e561ac8a91fa1901adc2e261b5befc6c5dab376f849990d297a09b97d0150327"
+    }
+  ]
+}

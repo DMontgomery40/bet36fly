@@ -1,0 +1,18 @@
+{
+  "agent": "/root/dopamine_sources",
+  "at_utc": "2026-09-13T12:43:24.939365+00:00",
+  "status": "Complete203-file personal narrative coverage",
+  "frozen202_file_receipt": {
+    "path": "output/collaboration/reward-mechanism-repair/darela-final-reading-claim-review-dopamine-sources-2026-09-13.json",
+    "bytes": 5720,
+    "sha256": "f4546adec13a64b39743472bc61744034b50e70b597bec5ba8d9fb3eb4673d4a"
+  },
+  "additional_personally_read_in_full": {
+    "path": "README.md",
+    "bytes": 15752,
+    "sha256": "07cce9023a321e0a13585f63fac4f16310550319e460faa7e09081414de8903c"
+  },
+  "coverage": "All202 AGENTS/docs/wiki narrative hashes still match the frozen final receipt. The entire current root README was now personally read, bringing this matching inclusive corpus to203.",
+  "prior_receipt_preserved": true,
+  "operations": "Read-only corpus hash reconciliation, complete README read and this new supplemental JSON only; no numerical work, source/model execution or shared documentation edit."
+}

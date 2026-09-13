@@ -1,0 +1,191 @@
+{
+  "agent": "/root/dopamine_sources",
+  "at_utc": "2026-09-13T12:15:48.095552+00:00",
+  "git_head": "64a4b1d8797ebf0e76049e3a9995fb11d2e38795",
+  "status": "complete_independent_primary_source_contract_and_finite_transfer_assessment",
+  "reading": {
+    "prior_complete_personal_chain": {
+      "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-final-reading-claim-review-dopamine-sources-2026-09-13.json",
+      "bytes": 11598,
+      "sha256": "12fb4f6e991bb74853b56a4d9707ac97b7e99d56abd55258ac7f7d314658aa64"
+    },
+    "current_narrative_count": 196,
+    "current_narrative_hashes_all_match_prior_chain": true,
+    "current_inventory_sha256": "03ee4289786cdc994f2df067b9dcf1d8239d41fe16361601924f828e6999be10",
+    "unread_current_docs_wiki_deltas": [],
+    "personally_read_complete_new_math_contract": {
+      "path": "output/collaboration/reward-mechanism-repair/darela-event-transfer-math-contract-delivered-arrivals-2026-09-13.md",
+      "bytes": 19079,
+      "sha256": "4567d6cffbee965232026aeaebe25624bb37d55eb46b350d14b6de5b5a6584f0"
+    },
+    "personally_read_complete_source_files": [
+      {
+        "path": "output/collaboration/reward-mechanism-repair/darela-source-2026-09-13/source/CITATION.cff",
+        "bytes": 904,
+        "sha256": "6d28ab6880d4ed637f780d869b163828542a6046ec9f13ac88cd7a6a145035d7"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/darela-source-2026-09-13/source/LICENSE",
+        "bytes": 1068,
+        "sha256": "6a76b0bd3dce3a793d5202418affb46966dd9b800b5444691b26ed53c8d7f730"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/darela-source-2026-09-13/source/README.md",
+        "bytes": 4138,
+        "sha256": "afb1a6c5c255e0d284ae116399c88a5563a2d710d304293e053de3c131146a20"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/darela-source-2026-09-13/source/darela/__init__.py",
+        "bytes": 22,
+        "sha256": "84c159b9388b9c89f0c4c6cfbdee2e438f4121ac0bb306b2a74f1c80eae0f973"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/darela-source-2026-09-13/source/darela/_impl/__init__.py",
+        "bytes": 52,
+        "sha256": "a42acb91e180822a1f3caeb18a66023fa8f3f0a4b39e50055e844d56a66f6d8b"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/darela-source-2026-09-13/source/darela/_impl/base.py",
+        "bytes": 5840,
+        "sha256": "e511b02e9b50e246e9e9df0bbaf930244cd7aea77b4497a1739091ddf2754a38"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/darela-source-2026-09-13/source/darela/_impl/fit.py",
+        "bytes": 8426,
+        "sha256": "ec019616a0c7f2db1de89075dacaf04ecced80538df06a0877086cae5724b169"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/darela-source-2026-09-13/source/darela/_impl/ode.py",
+        "bytes": 4086,
+        "sha256": "93485b66e223ae6cf898cecd4d7cc2f65a4efca467ca2e65dc538154933b6e94"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/darela-source-2026-09-13/source/darela/_impl/pde.py",
+        "bytes": 5847,
+        "sha256": "b9861f1b69aa266cb39b698ef9f9fdb41805f445adc8b11d1950e1ce5021e186"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/darela-source-2026-09-13/source/darela/models.py",
+        "bytes": 797,
+        "sha256": "7e8e065a5e1de6f43e1488afc6d5659f24c96441ddd4fe713d88575c1cf03003"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/darela-source-2026-09-13/source/examples/sur_example.py",
+        "bytes": 810,
+        "sha256": "8eedc9008ff60e068420746da574adc0ae546dff7605bfa869fa3bd3951883c8"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/darela-source-2026-09-13/source/setup.py",
+        "bytes": 252,
+        "sha256": "07387b788c79db1f2a9824c2eda7f05378451de54917c33804181ecdc4649cb2"
+      }
+    ],
+    "source_file_count": 12,
+    "source_file_bytes": 32242,
+    "source_commit_metadata_personally_read": {
+      "path": "output/collaboration/reward-mechanism-repair/darela-source-2026-09-13/commit.json",
+      "bytes": 7720,
+      "sha256": "67c3126715503a8e4142a5441166e911b299e37d12684d7b12ece4120804f188"
+    },
+    "source_tree_programmatically_checked": {
+      "path": "output/collaboration/reward-mechanism-repair/darela-source-2026-09-13/tree.json",
+      "bytes": 3943,
+      "sha256": "90a390796647f0c65a29ff91e79eb6e2213363eb57ac55940b3c0d38ed302682"
+    },
+    "source_manifest_personally_read": {
+      "path": "output/collaboration/reward-mechanism-repair/darela-source-2026-09-13/source-manifest.json",
+      "bytes": 4558,
+      "sha256": "173474e5fbf4dbbe77db6c129632a9c85547b58f2615901970c0c3c5ec587897"
+    },
+    "pdf_skill_read": "/Users/davidmontgomery/.codex/skills/pdf/SKILL.md"
+  },
+  "primary_sources": [
+    {
+      "title": "Shashaank etal., Computational models of dopamine release measured by fast scan cyclic voltammetry in vivo",
+      "DOI": "10.1093/pnasnexus/pgad044",
+      "URL": "https://academic.oup.com/pnasnexus/article/2/3/pgad044/7034164",
+      "effective_indexed_URL": "https://oup.silverchair-cdn.com/article-minimal/7034164",
+      "published": "2023-02-10",
+      "corrected_typeset": "2023-03-10",
+      "checked_date": "2026-09-13",
+      "personally_inspected": "Abstract/introduction, relevant release Results/Table1, Discussion domain and identifiability, computational-model/stimulation/release/measurement/curve-fitting/recording Methods. No new cited-paper survey.",
+      "limits": "Indexed display equations1/2 were omitted; prose and pinned discrete code inspected instead."
+    },
+    {
+      "title": "pgad044 Supplementary Information",
+      "URL_path": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/pnasnexus/2/3/10.1093_pnasnexus_pgad044/4/pgad044_supplementary_data.pdf",
+      "access": "Publisher article supplemental link returned7-page indexedPDF text, all264 extracted lines personally read. Link used publisher-issued query parameters.",
+      "equations_and_tables": "S1\u2013S10;FiguresS1/S2 captions;TablesS1,S2,S3.",
+      "visual_limits": "Screenshot requests for pages0 and4 failed cache-miss; later unsigned cleanURLopen failed. No rendered-PDF visual inspection or independent local rawPDF hash claimed."
+    },
+    {
+      "title": "DARELA pinned computational core",
+      "URL": "https://github.com/DSulzerLab/DARELA/tree/125c27bc59b0c493c902c8724f58fa3d9d8b354d",
+      "commit": "125c27bc59b0c493c902c8724f58fa3d9d8b354d",
+      "date": "2025-02-15T21:04:22Z",
+      "version_boundary": "2025-02-15 previous-state correction, later than2023paper. No publication-revision byte identity claimed.",
+      "license": "MIT;originals retained.",
+      "verification": "All12 file SHA256/bytecounts/Gitblob hashes rechecked and matched pinned completeGit tree; no imports or executions."
+    }
+  ],
+  "web_actions": {
+    "search_queries": 0,
+    "open_operations": 6,
+    "click_operations": 1,
+    "cached_find_operations": 7,
+    "screenshot_operations": 2,
+    "scope": "Only already identified paper/supplement. Root independently acquired the pinned GitHub source; no source network fetches by this agent."
+  },
+  "key_findings": [
+    "SUR supplementaryEuler\u0394t=1/f; activeH multiplier1+p differsfromexponentialcontinuous/event solution.",
+    "SourceS is burstmetadata andturnsrecoveryoffthroughoutburst; pinnedmaskusesroundedclosedendpoints andcanexceed1whenwindowsoverlap.",
+    "Pinnedsource usesnewHforrelease, whileS4writesoldA(t); sourceexampleDAp.43/tau2=12.5isnotacompletepublishedWTrow.",
+    "Fullsolve resetschemicalstates andresumesatmostH; nofullchemicalcheckpointorinfinitetailAPI.",
+    "Supplementkads2printedunitsconflictwithtwo-concentrationproductdimension; numericvaluesremainunchanged.",
+    "Rootproposedq=1+p,WT1preHrelease/exactrecovery/H1reset400mshypothesis ispositiveandfiniteforfinitelegaleventhistories. Indefinitetonicdivergence limitsongoingclaims butdoesnotaloneexcludeitsfiniteguard screen.",
+    "Every-spike coupling, unitrestedmass, preupdaterelease, perbodypooling andtrialreset areengineeringassumptions, notcalibratedPPL101/PAM12physiology."
+  ],
+  "finite_proposal_review": {
+    "proposed_by": "/root after source inspection; not selected by this reviewer or fitted to outcomes",
+    "p": [
+      0.0105,
+      -0.003,
+      -0.0011
+    ],
+    "tau_seconds": [
+      7.5,
+      15,
+      900
+    ],
+    "q": "1+p",
+    "release": "product pre-updateH",
+    "recovery": "exact exponential betweeneveryactualsame-cell event",
+    "initial": "H=1 each400mstrial",
+    "admission": "Conditionally admissible as a finite engineered numerical hypothesis after independent synthetic contract verification; not yet tested on histories.",
+    "conservative_real_arithmetic_bound": "0<release\u2264(1.0105)^2000\u2264exp(21) frombinary2000slots, withoutusingrefractorybound.",
+    "scope_limit": "PeriodicH1andproductreleasecan divergeonindefiniteinput. No chronicphysiologicalclaim orsilentcap permitted.",
+    "onset_tail_requirement": "PhysicalH advancesfromtrialstart; acceptedbridgecoldonset100ms remainsunchanged. Noeventsmeansnorelease; retaincompletebridge tail."
+  },
+  "artifacts": {
+    "source_contract": {
+      "path": "output/collaboration/reward-mechanism-repair/darela-primary-source-contract-dopamine-sources-2026-09-13.md",
+      "bytes": 14225,
+      "sha256": "75b4e5dc2bbd074970582b0ac1c565a2ccef0e7c0af24bcb1370e315a7da0f0b"
+    },
+    "published_parameter_transcription": {
+      "path": "output/collaboration/reward-mechanism-repair/darela-published-parameter-transcription-dopamine-sources-2026-09-13.json",
+      "bytes": 15226,
+      "sha256": "01b6432e19bbb038bcea8b3a3dfc091448dd7570e4c94951d244f57d00d85ec3"
+    }
+  },
+  "verification": {
+    "source_SHA256_and_gitblob_rechecks": "pass12files32242bytes",
+    "source_models_imported_or_run": 0,
+    "fits": 0,
+    "MaleCNS_history_arrays_read_or_evaluated": 0,
+    "native_calls": 0,
+    "new_tests": "None;source-onlyreading/transcription/algebra review. Parent owns any separately authorized synthetic verification.",
+    "production_changes": false,
+    "mutations": "Only new source contract, parameter transcription and this receipt; prior reports/source bytes unchanged."
+  }
+}

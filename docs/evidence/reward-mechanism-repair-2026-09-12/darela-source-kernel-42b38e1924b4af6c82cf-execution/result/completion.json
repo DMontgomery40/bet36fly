@@ -1,0 +1,8 @@
+{
+  "run_id": "darela-source-kernel-42b38e1924b4af6c82cf",
+  "status": "completed",
+  "summary_sha256": "f35feae4cefb39084bca7f2b05d3ad321f8d4bb2beb5160992a48291bed766d3",
+  "completed_cases": 8,
+  "attempted_cases": 8,
+  "seconds_through_summary": 0.510055375052616
+}

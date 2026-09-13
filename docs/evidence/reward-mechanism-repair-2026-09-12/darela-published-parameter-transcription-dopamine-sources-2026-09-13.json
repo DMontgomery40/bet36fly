@@ -1,0 +1,668 @@
+{
+  "agent": "/root/dopamine_sources",
+  "at_utc": "2026-09-13T12:12:59.883211+00:00",
+  "role": "Literal published parameter transcription for provenance and reference comparisons; no fitted or outcome-selected parameters.",
+  "primary_DOI": "10.1093/pnasnexus/pgad044",
+  "primary_URL": "https://academic.oup.com/pnasnexus/article/2/3/pgad044/7034164",
+  "source_date": "Published2023-02-10; corrected/typeset2023-03-10",
+  "table1_kinetic_rows": [
+    {
+      "genotype": "WT",
+      "sweep": "sweep1",
+      "p_dimensionless": [
+        0.0105,
+        -0.003,
+        -0.0011
+      ],
+      "tau_seconds": [
+        7.5,
+        15,
+        900
+      ]
+    },
+    {
+      "genotype": "WT",
+      "sweep": "sweep6",
+      "p_dimensionless": [
+        0.0105,
+        -0.003,
+        -0.0011
+      ],
+      "tau_seconds": [
+        7.5,
+        12.5,
+        900
+      ]
+    },
+    {
+      "genotype": "alpha-Syn KO",
+      "sweep": "sweep1",
+      "p_dimensionless": [
+        0.005,
+        -0.003,
+        0
+      ],
+      "tau_seconds": [
+        7.25,
+        37.5,
+        900
+      ]
+    },
+    {
+      "genotype": "alpha-Syn KO",
+      "sweep": "sweep6",
+      "p_dimensionless": [
+        0.004,
+        -0.003,
+        0
+      ],
+      "tau_seconds": [
+        7.25,
+        45,
+        900
+      ]
+    },
+    {
+      "genotype": "Syn TKO",
+      "sweep": "sweep1",
+      "p_dimensionless": [
+        0.004,
+        -0.003,
+        0
+      ],
+      "tau_seconds": [
+        7.25,
+        37.5,
+        900
+      ]
+    },
+    {
+      "genotype": "Syn TKO",
+      "sweep": "sweep6",
+      "p_dimensionless": [
+        0.004,
+        -0.004,
+        0
+      ],
+      "tau_seconds": [
+        7.25,
+        37.5,
+        900
+      ]
+    }
+  ],
+  "supplement_tables": [
+    {
+      "supplement_table": "S1",
+      "model": "SUR",
+      "constants": {
+        "I_mA": 0.4,
+        "f_Hz": 50,
+        "NP": 30,
+        "L": 0.9
+      },
+      "DAp_units": "micromolar/mA",
+      "rows": [
+        {
+          "figure": "3A",
+          "genotype": "WT",
+          "sweep": "sweep1",
+          "burst": "single",
+          "DAp": 0.42,
+          "Vm": 4.8,
+          "Km": 0.2,
+          "kS": 0.9,
+          "kE": 1.05,
+          "kads1": 0.035,
+          "kads2": 0.14,
+          "kads3": 0.09
+        },
+        {
+          "figure": "3B",
+          "genotype": "WT",
+          "sweep": "sweep1",
+          "burst": "repeated",
+          "DAp": 0.395,
+          "Vm": 4.8,
+          "Km": 0.2,
+          "kS": 0.9,
+          "kE": 0.9,
+          "kads1": 0.035,
+          "kads2": 0.14,
+          "kads3": 0.09
+        },
+        {
+          "figure": "4A",
+          "genotype": "WT",
+          "sweep": "sweep6",
+          "burst": "single",
+          "DAp": 0.305,
+          "Vm": 3.2,
+          "Km": 0.2,
+          "kS": 0.9,
+          "kE": 1.0,
+          "kads1": 0.035,
+          "kads2": 0.14,
+          "kads3": 0.09
+        },
+        {
+          "figure": "4B",
+          "genotype": "WT",
+          "sweep": "sweep6",
+          "burst": "repeated",
+          "DAp": 0.28,
+          "Vm": 3.2,
+          "Km": 0.2,
+          "kS": 0.9,
+          "kE": 0.9,
+          "kads1": 0.045,
+          "kads2": 0.14,
+          "kads3": 0.09
+        },
+        {
+          "figure": "5A",
+          "genotype": "alpha-Syn KO",
+          "sweep": "sweep1",
+          "burst": "single",
+          "DAp": 0.46,
+          "Vm": 4.8,
+          "Km": 0.2,
+          "kS": 0.9,
+          "kE": 1.0,
+          "kads1": 0.04,
+          "kads2": 0.14,
+          "kads3": 0.09
+        },
+        {
+          "figure": "5B",
+          "genotype": "alpha-Syn KO",
+          "sweep": "sweep1",
+          "burst": "repeated",
+          "DAp": 0.45,
+          "Vm": 4.8,
+          "Km": 0.2,
+          "kS": 0.9,
+          "kE": 0.9,
+          "kads1": 0.07,
+          "kads2": 0.037,
+          "kads3": 0.07
+        },
+        {
+          "figure": "6A",
+          "genotype": "alpha-Syn KO",
+          "sweep": "sweep6",
+          "burst": "single",
+          "DAp": 0.32,
+          "Vm": 3.2,
+          "Km": 0.2,
+          "kS": 0.9,
+          "kE": 1.0,
+          "kads1": 0.035,
+          "kads2": 0.14,
+          "kads3": 0.09
+        },
+        {
+          "figure": "6B",
+          "genotype": "alpha-Syn KO",
+          "sweep": "sweep6",
+          "burst": "repeated",
+          "DAp": 0.295,
+          "Vm": 3.2,
+          "Km": 0.2,
+          "kS": 0.9,
+          "kE": 0.9,
+          "kads1": 0.065,
+          "kads2": 0.05,
+          "kads3": 0.07
+        },
+        {
+          "figure": "7A",
+          "genotype": "Syn TKO",
+          "sweep": "sweep1",
+          "burst": "single",
+          "DAp": 0.46,
+          "Vm": 4.8,
+          "Km": 0.2,
+          "kS": 0.9,
+          "kE": 1.0,
+          "kads1": 0.055,
+          "kads2": 0.02,
+          "kads3": 0.075
+        },
+        {
+          "figure": "7B",
+          "genotype": "Syn TKO",
+          "sweep": "sweep1",
+          "burst": "repeated",
+          "DAp": 0.45,
+          "Vm": 4.8,
+          "Km": 0.2,
+          "kS": 0.9,
+          "kE": 0.9,
+          "kads1": 0.04,
+          "kads2": 0.05,
+          "kads3": 0.07
+        },
+        {
+          "figure": "8A",
+          "genotype": "Syn TKO",
+          "sweep": "sweep6",
+          "burst": "single",
+          "DAp": 0.506,
+          "Vm": 5.6,
+          "Km": 0.2,
+          "kS": 0.9,
+          "kE": 1.0,
+          "kads1": 0.035,
+          "kads2": 0.02,
+          "kads3": 0.075
+        },
+        {
+          "figure": "8B",
+          "genotype": "Syn TKO",
+          "sweep": "sweep6",
+          "burst": "repeated",
+          "DAp": 0.467,
+          "Vm": 5.6,
+          "Km": 0.2,
+          "kS": 0.9,
+          "kE": 0.9,
+          "kads1": 0.05,
+          "kads2": 0.02,
+          "kads3": 0.075
+        }
+      ]
+    },
+    {
+      "supplement_table": "S2",
+      "model": "STUR",
+      "constants": {
+        "I_mA": 0.4,
+        "f_Hz": 50,
+        "NP": 30,
+        "R_L_um": 50,
+        "R_D_um": 3,
+        "D_um2_per_s": 240,
+        "delta_R_um": 1
+      },
+      "DAp_units": "micromolar/mA",
+      "rows": [
+        {
+          "figure": "3C",
+          "genotype": "WT",
+          "sweep": "sweep1",
+          "burst": "single",
+          "DAp": 0.422,
+          "Vm": 4.8,
+          "Km": 0.2,
+          "kS": 0.9,
+          "kE": 1.05,
+          "kads1": 0.025,
+          "kads2": 0.14,
+          "kads3": 0.09
+        },
+        {
+          "figure": "3D",
+          "genotype": "WT",
+          "sweep": "sweep1",
+          "burst": "repeated",
+          "DAp": 0.4,
+          "Vm": 4.8,
+          "Km": 0.2,
+          "kS": 0.9,
+          "kE": 0.9,
+          "kads1": 0.035,
+          "kads2": 0.14,
+          "kads3": 0.09
+        },
+        {
+          "figure": "4C",
+          "genotype": "WT",
+          "sweep": "sweep6",
+          "burst": "single",
+          "DAp": 0.31,
+          "Vm": 3.2,
+          "Km": 0.2,
+          "kS": 0.9,
+          "kE": 1.0,
+          "kads1": 0.035,
+          "kads2": 0.14,
+          "kads3": 0.09
+        },
+        {
+          "figure": "4D",
+          "genotype": "WT",
+          "sweep": "sweep6",
+          "burst": "repeated",
+          "DAp": 0.29,
+          "Vm": 3.2,
+          "Km": 0.2,
+          "kS": 0.9,
+          "kE": 0.9,
+          "kads1": 0.045,
+          "kads2": 0.14,
+          "kads3": 0.09
+        },
+        {
+          "figure": "5C",
+          "genotype": "alpha-Syn KO",
+          "sweep": "sweep1",
+          "burst": "single",
+          "DAp": 0.46,
+          "Vm": 4.8,
+          "Km": 0.2,
+          "kS": 0.9,
+          "kE": 1.0,
+          "kads1": 0.02,
+          "kads2": 0.14,
+          "kads3": 0.09
+        },
+        {
+          "figure": "5D",
+          "genotype": "alpha-Syn KO",
+          "sweep": "sweep1",
+          "burst": "repeated",
+          "DAp": 0.443,
+          "Vm": 4.8,
+          "Km": 0.2,
+          "kS": 0.9,
+          "kE": 0.9,
+          "kads1": 0.07,
+          "kads2": 0.037,
+          "kads3": 0.07
+        },
+        {
+          "figure": "6C",
+          "genotype": "alpha-Syn KO",
+          "sweep": "sweep6",
+          "burst": "single",
+          "DAp": 0.315,
+          "Vm": 3.2,
+          "Km": 0.2,
+          "kS": 0.9,
+          "kE": 1.0,
+          "kads1": 0.035,
+          "kads2": 0.14,
+          "kads3": 0.09
+        },
+        {
+          "figure": "6D",
+          "genotype": "alpha-Syn KO",
+          "sweep": "sweep6",
+          "burst": "repeated",
+          "DAp": 0.295,
+          "Vm": 3.2,
+          "Km": 0.2,
+          "kS": 0.9,
+          "kE": 0.9,
+          "kads1": 0.065,
+          "kads2": 0.05,
+          "kads3": 0.07
+        },
+        {
+          "figure": "7C",
+          "genotype": "Syn TKO",
+          "sweep": "sweep1",
+          "burst": "single",
+          "DAp": 0.46,
+          "Vm": 4.8,
+          "Km": 0.2,
+          "kS": 0.9,
+          "kE": 1.0,
+          "kads1": 0.035,
+          "kads2": 0.02,
+          "kads3": 0.075
+        },
+        {
+          "figure": "7D",
+          "genotype": "Syn TKO",
+          "sweep": "sweep1",
+          "burst": "repeated",
+          "DAp": 0.45,
+          "Vm": 4.8,
+          "Km": 0.2,
+          "kS": 0.9,
+          "kE": 0.9,
+          "kads1": 0.04,
+          "kads2": 0.05,
+          "kads3": 0.07
+        },
+        {
+          "figure": "8C",
+          "genotype": "Syn TKO",
+          "sweep": "sweep6",
+          "burst": "single",
+          "DAp": 0.505,
+          "Vm": 5.6,
+          "Km": 0.2,
+          "kS": 0.9,
+          "kE": 1.0,
+          "kads1": 0.02,
+          "kads2": 0.02,
+          "kads3": 0.075
+        },
+        {
+          "figure": "8D",
+          "genotype": "Syn TKO",
+          "sweep": "sweep6",
+          "burst": "repeated",
+          "DAp": 0.467,
+          "Vm": 5.6,
+          "Km": 0.2,
+          "kS": 0.9,
+          "kE": 0.9,
+          "kads1": 0.05,
+          "kads2": 0.02,
+          "kads3": 0.075
+        }
+      ]
+    },
+    {
+      "supplement_table": "S3",
+      "model": "STDR",
+      "constants": {
+        "I_mA": 0.4,
+        "f_Hz": 50,
+        "NP": 30,
+        "R_L_um": 50,
+        "R_D_um": 3,
+        "D_um2_per_s": 240,
+        "delta_R_um": 1
+      },
+      "DAp_units": "micromolar*micrometer/mA",
+      "rows": [
+        {
+          "figure": "3E",
+          "genotype": "WT",
+          "sweep": "sweep1",
+          "burst": "single",
+          "DAp": 2.43,
+          "Vm": 4.8,
+          "Km": 0.2,
+          "kS": 0.9,
+          "kE": 1.05,
+          "kads1": 0.025,
+          "kads2": 0.14,
+          "kads3": 0.09
+        },
+        {
+          "figure": "3F",
+          "genotype": "WT",
+          "sweep": "sweep1",
+          "burst": "repeated",
+          "DAp": 2.3,
+          "Vm": 4.8,
+          "Km": 0.2,
+          "kS": 0.9,
+          "kE": 0.9,
+          "kads1": 0.035,
+          "kads2": 0.14,
+          "kads3": 0.09
+        },
+        {
+          "figure": "4E",
+          "genotype": "WT",
+          "sweep": "sweep6",
+          "burst": "single",
+          "DAp": 1.79,
+          "Vm": 3.2,
+          "Km": 0.2,
+          "kS": 0.9,
+          "kE": 1.0,
+          "kads1": 0.035,
+          "kads2": 0.14,
+          "kads3": 0.09
+        },
+        {
+          "figure": "4F",
+          "genotype": "WT",
+          "sweep": "sweep6",
+          "burst": "repeated",
+          "DAp": 1.7,
+          "Vm": 3.2,
+          "Km": 0.2,
+          "kS": 0.9,
+          "kE": 0.9,
+          "kads1": 0.045,
+          "kads2": 0.14,
+          "kads3": 0.09
+        },
+        {
+          "figure": "5E",
+          "genotype": "alpha-Syn KO",
+          "sweep": "sweep1",
+          "burst": "single",
+          "DAp": 2.65,
+          "Vm": 4.8,
+          "Km": 0.2,
+          "kS": 0.9,
+          "kE": 1.0,
+          "kads1": 0.02,
+          "kads2": 0.14,
+          "kads3": 0.09
+        },
+        {
+          "figure": "5F",
+          "genotype": "alpha-Syn KO",
+          "sweep": "sweep1",
+          "burst": "repeated",
+          "DAp": 2.55,
+          "Vm": 4.8,
+          "Km": 0.2,
+          "kS": 0.9,
+          "kE": 0.9,
+          "kads1": 0.07,
+          "kads2": 0.037,
+          "kads3": 0.07
+        },
+        {
+          "figure": "6E",
+          "genotype": "alpha-Syn KO",
+          "sweep": "sweep6",
+          "burst": "single",
+          "DAp": 1.8,
+          "Vm": 3.2,
+          "Km": 0.2,
+          "kS": 0.9,
+          "kE": 1.0,
+          "kads1": 0.035,
+          "kads2": 0.14,
+          "kads3": 0.09
+        },
+        {
+          "figure": "6F",
+          "genotype": "alpha-Syn KO",
+          "sweep": "sweep6",
+          "burst": "repeated",
+          "DAp": 1.7,
+          "Vm": 3.2,
+          "Km": 0.2,
+          "kS": 0.9,
+          "kE": 0.9,
+          "kads1": 0.065,
+          "kads2": 0.05,
+          "kads3": 0.07
+        },
+        {
+          "figure": "7E",
+          "genotype": "Syn TKO",
+          "sweep": "sweep1",
+          "burst": "single",
+          "DAp": 2.63,
+          "Vm": 4.8,
+          "Km": 0.2,
+          "kS": 0.9,
+          "kE": 1.0,
+          "kads1": 0.055,
+          "kads2": 0.02,
+          "kads3": 0.075
+        },
+        {
+          "figure": "7F",
+          "genotype": "Syn TKO",
+          "sweep": "sweep1",
+          "burst": "repeated",
+          "DAp": 2.55,
+          "Vm": 4.8,
+          "Km": 0.2,
+          "kS": 0.9,
+          "kE": 0.9,
+          "kads1": 0.04,
+          "kads2": 0.05,
+          "kads3": 0.07
+        },
+        {
+          "figure": "8E",
+          "genotype": "Syn TKO",
+          "sweep": "sweep6",
+          "burst": "single",
+          "DAp": 2.77,
+          "Vm": 5.6,
+          "Km": 0.2,
+          "kS": 1.0,
+          "kE": 1.0,
+          "kads1": 0.02,
+          "kads2": 0.02,
+          "kads3": 0.075
+        },
+        {
+          "figure": "8F",
+          "genotype": "Syn TKO",
+          "sweep": "sweep6",
+          "burst": "repeated",
+          "DAp": 2.65,
+          "Vm": 5.6,
+          "Km": 0.2,
+          "kS": 0.9,
+          "kE": 0.9,
+          "kads1": 0.05,
+          "kads2": 0.02,
+          "kads3": 0.075
+        }
+      ]
+    }
+  ],
+  "unit_notes": [
+    "Vm:micromolar/second;Km:micromolar;kS,kE,kads1,kads3:inverse_seconds.",
+    "Tables print kads2 ininverse_seconds; equationsS10/11 multiply two concentration-valued states, requiring inverse_concentration_time dimensionally. Printed numeric values are preserved without correction.",
+    "p/tau are inferred mouse-preparation factors, not measured PPL101/PAM12 per-spike kinetics.",
+    "Read all7 supplementpages as extracted text. Screenshot requests failed; no visual table confirmation claimed."
+  ],
+  "current_code_example_distinction": {
+    "DAp": 0.43,
+    "tau_seconds": [
+      7.5,
+      12.5,
+      900
+    ],
+    "matches_complete_published_WT_row": false
+  },
+  "root_proposed_finite_embedding": {
+    "row": "WT/sweep1",
+    "q_definition": "1+p",
+    "release": "product of pre-update H",
+    "inter_event_recovery": "exact exponential",
+    "reset": "H=1 each400ms trial",
+    "status": "Explicit engineering construction; no shadow or circuit evaluated in this task."
+  }
+}

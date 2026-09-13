@@ -1,0 +1,103 @@
+{
+  "agent": "/root/dopamine_sources",
+  "at_utc": "2026-09-13T12:42:26.524365+00:00",
+  "status": "PASS final canonical scientific claim review",
+  "prior_complete_reading_chain": {
+    "path": "output/collaboration/reward-mechanism-repair/darela-source-kernel-preexecution-reading-receipt-2026-09-13.json",
+    "bytes": 6635,
+    "sha256": "cbbe1eda42e96c57720bdb0780b537940e45a2d50882cafa25ea6d07e5d3c4c2"
+  },
+  "source_execution_reading": {
+    "path": "output/collaboration/reward-mechanism-repair/darela-source-kernel-execution-reading-receipt-2026-09-13.json",
+    "bytes": 33557,
+    "sha256": "028b0a4fe1e2136631af424008d83be6040d2da815bd4acd080308139e9a8df1"
+  },
+  "reading": {
+    "current_narrative_count": 202,
+    "corpus": "AGENTS.md plus all docs/wiki Markdown; previously read root README excluded from count",
+    "method": "Personally read all final changed blocks against prior full-page reading and the full final source checkpoint. Every other current file matched the actual prior reading chain or the listed exact alias after personally reading its original contents. This is content coverage, not manifest-only review.",
+    "personally_read_final_pages_or_deltas": [
+      {
+        "path": "docs/REWARD_REPAIR_HANDOFF.md",
+        "bytes": 63771,
+        "sha256": "30d5df134821ef1070d47a4488982d4ce175b3eb32330c33c52e720895703352"
+      },
+      {
+        "path": "wiki/reassessment.md",
+        "bytes": 15382,
+        "sha256": "ff22141768b07f8bcc0f146da14d64d088932171ecc74e93494ccf87283a9e40"
+      },
+      {
+        "path": "wiki/cells/dopamine-receptor-signaling.md",
+        "bytes": 7762,
+        "sha256": "0c807aa3df632e096a59510c94f950529f96021728f34de65f25a786505ec5f5"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/index.md",
+        "bytes": 25270,
+        "sha256": "0399eeffb8dee3746c8cf0a54264fe95534fa6380271f46de92cc38d42e3eefe"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-source-transfer-checkpoint-2026-09-13.md",
+        "bytes": 6892,
+        "sha256": "a2a890c9a96f4be6d3aa336d834510db7122de6aca46d1e670fb72d1759dc142"
+      }
+    ],
+    "new_exact_alias": {
+      "personally_read_original": {
+        "path": "output/collaboration/reward-mechanism-repair/darela-source-kernel-preregistration-2026-09-13.md",
+        "bytes": 4879,
+        "sha256": "bc888be136dbac85d4340e1b85e09bb55201807f998747a9f0e18e93f1c40ddc"
+      },
+      "canonical_copy": {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-source-kernel-preregistration-2026-09-13.md",
+        "bytes": 4879,
+        "sha256": "bc888be136dbac85d4340e1b85e09bb55201807f998747a9f0e18e93f1c40ddc"
+      }
+    },
+    "source_README_copy": "Exact byte identity to the fully read pinned source README confirmed again; prior receipt records both identities.",
+    "current_inventory_sha256": "471e711ca630d295388dc172461cef4d32ef599d9d8853a440fd221477ee3a70",
+    "unread_deltas": []
+  },
+  "evidence_reviewed": [
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-saved-kernel-root-review-2026-09-13.json",
+      "bytes": 4654,
+      "sha256": "3178834d55d645fb534f7a396f1dacd717d2d95bed92aad1db79185cc3e62b27"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/audit_darela_saved_kernel.py",
+      "bytes": 5325,
+      "sha256": "1d31eeffe57fa50f1e8643e63311852be2f5d01f9afc33720fe1b3d57e822ee9"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-canonical-release-tests-receipt-2026-09-13.json",
+      "bytes": 615,
+      "sha256": "76f6f2d88458a32e01a81fa7bf4f914640d35920d4e7dfec432bf7e5cf207408"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-canonical-source-harness-tests-receipt-2026-09-13.json",
+      "bytes": 505,
+      "sha256": "cae4227d02192a5ba04a1a7180a6ab327eda212c759db22974a60065a9bbb430"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-make-verify-receipt-2026-09-13.json",
+      "bytes": 172,
+      "sha256": "7ed768fbc96b0d61ea02c2457267e5154e6f642047cf5dc963babe2ebb071784"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-protected-after-verify-2026-09-13.json",
+      "bytes": 299,
+      "sha256": "1c0c69bd55d2f7f621c565794b946230593cd52f2aff536f882a4f0ce028c185"
+    }
+  ],
+  "claim_checks": {
+    "source_scope": "Eight fixed-grid cases and4500H-kernel updates; no full concentration/chemical release solve, fit or neural history. Old/newH products remain explicitly derived.",
+    "numerical_counts": "Source/scalar maximum1.1102230246251565e-14; root saved-array geometric maximum3.2862601528904634e-14,80arrays63080values132bindings. Displayed rounded values and counts match inspected machine receipts.",
+    "preparation_tests": "177canonical release/reference/bridge cases plus39canonical harness cases =216. Test evidence remains separate from the8source cases and any learning claim.",
+    "transfer_assumptions": "Mouse source, later pinned revision, WT1/exemplar distinction, per-cell actual-spike embedding, pre-event product, exact recovery,100ms bridge onset,400ms rested reset and fixed2/22 pooling are distinguished. No calibrated fly release/receptor physiology asserted.",
+    "scientific_completion": "Goal and failed native qualification remain incomplete; conditioning remainsblocked; no DARELA32historyscreen or productionintegration is claimed."
+  },
+  "findings": [],
+  "operations": "Read-only file/hash/receipt comparisons and this newJSON only. No source or audit rerun, tests, model/candidate/native execution, fitting, network or shared prose edits."
+}

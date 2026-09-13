@@ -1,0 +1,1083 @@
+{
+  "agent": "/root/dopamine_sources",
+  "at_utc": "2026-09-13T12:37:38.067872+00:00",
+  "status": "pass_literal_pinned_source_factor_kernel_only",
+  "run_id": "darela-source-kernel-42b38e1924b4af6c82cf",
+  "preexecution_personal_reading_and_freeze": {
+    "path": "output/collaboration/reward-mechanism-repair/darela-source-kernel-preexecution-reading-receipt-2026-09-13.json",
+    "bytes": 6635,
+    "sha256": "cbbe1eda42e96c57720bdb0780b537940e45a2d50882cafa25ea6d07e5d3c4c2"
+  },
+  "contract": {
+    "path": "output/collaboration/reward-mechanism-repair/darela-source-kernel-contract.json",
+    "bytes": 46754,
+    "sha256": "4f25417d19e0291b40ee2057710b5e969fcd28376f2c992b534f73cabc362c5c"
+  },
+  "preregistration": {
+    "path": "output/collaboration/reward-mechanism-repair/darela-source-kernel-preregistration-2026-09-13.md",
+    "bytes": 4879,
+    "sha256": "bc888be136dbac85d4340e1b85e09bb55201807f998747a9f0e18e93f1c40ddc"
+  },
+  "driver": {
+    "path": "output/collaboration/reward-mechanism-repair/run_darela_source_kernel.py",
+    "bytes": 13666,
+    "sha256": "602783c8fa3d0e861577bac27cb01d0c54af5df4bff60b44076b98673942e637"
+  },
+  "tests": {
+    "path": "output/collaboration/reward-mechanism-repair/test_run_darela_source_kernel.py",
+    "bytes": 12782,
+    "sha256": "b656d75efcad2ea1d2354f6ca173b8b28b9a37fb8a65519aabf56a75aafa435b"
+  },
+  "actual_execution": {
+    "single_source_execution": true,
+    "parent_exit_code": 0,
+    "child_exit_code": 0,
+    "child_reaped": true,
+    "timed_out": false,
+    "parent_supervised_seconds": 0.6078007922042161,
+    "parent_seconds_through_final_checks": 0.6172012907918543,
+    "parent_cap_seconds": 30,
+    "child_seconds_through_summary": 0.510055375052616,
+    "child_cap_seconds": 28,
+    "failure_markers": [],
+    "cases_attempted": 8,
+    "cases_completed": 8,
+    "source_SUR_objects_constructed": 8,
+    "source_initialize_calls": 8,
+    "source_set_stimulation_calls": 8,
+    "source_set_kinetics_calls": 8,
+    "source_factor_kernel_calls": 4500,
+    "source_H_state_rows": 4508,
+    "saved_array_count": 80,
+    "source_full_solve_calls": 0,
+    "source_fit_calls": 0,
+    "concentration_electrode_PDE_calls": 0,
+    "neural_native_history_candidate_calls": 0,
+    "network_requests": 0,
+    "reruns_or_resumes": 0
+  },
+  "numerical_review": {
+    "combined_atol": 1e-12,
+    "combined_rtol": 1e-12,
+    "maximum_absolute_error": 1.1102230246251565e-14,
+    "masks_exactly_equal": true,
+    "all_arrays_finite": true,
+    "all_source_H_strictly_positive": true,
+    "cases": [
+      {
+        "index": 0,
+        "name": "manuscript_wt1_quiet",
+        "schemas": {
+          "source_time": {
+            "shape": [
+              251
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "source_mask": {
+            "shape": [
+              251
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "source_H": {
+            "shape": [
+              251,
+              3
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "source_A_old": {
+            "shape": [
+              250
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "source_A_new": {
+            "shape": [
+              250
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "reference_time": {
+            "shape": [
+              251
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "reference_mask": {
+            "shape": [
+              251
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "reference_H": {
+            "shape": [
+              251,
+              3
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "reference_A_old": {
+            "shape": [
+              250
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "reference_A_new": {
+            "shape": [
+              250
+            ],
+            "dtype": "float64",
+            "finite": true
+          }
+        },
+        "max_absolute_errors": {
+          "time": 8.881784197001252e-16,
+          "mask": 0.0,
+          "H": 0.0,
+          "A_old": 0.0,
+          "A_new": 0.0
+        },
+        "active_update_count": 0,
+        "first_active": null,
+        "final_H": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "minimum_H": 1.0,
+        "maximum_H": 1.0,
+        "row": {
+          "path": "output/collaboration/reward-mechanism-repair/darela-source-kernel-42b38e1924b4af6c82cf-execution/result/case_00.json",
+          "bytes": 941,
+          "sha256": "c0477e7c978ebe28f0176bfc5191fc64d7154a7f2442199aa714337cc286cbe4"
+        },
+        "arrays": {
+          "path": "output/collaboration/reward-mechanism-repair/darela-source-kernel-42b38e1924b4af6c82cf-execution/result/case_00.npz",
+          "bytes": 3649,
+          "sha256": "bed2b6d29fda93a87416694024eca4ee51f6321601c42cce26128cecefbea6e6"
+        }
+      },
+      {
+        "index": 1,
+        "name": "manuscript_wt1_single",
+        "schemas": {
+          "source_time": {
+            "shape": [
+              251
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "source_mask": {
+            "shape": [
+              251
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "source_H": {
+            "shape": [
+              251,
+              3
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "source_A_old": {
+            "shape": [
+              250
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "source_A_new": {
+            "shape": [
+              250
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "reference_time": {
+            "shape": [
+              251
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "reference_mask": {
+            "shape": [
+              251
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "reference_H": {
+            "shape": [
+              251,
+              3
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "reference_A_old": {
+            "shape": [
+              250
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "reference_A_new": {
+            "shape": [
+              250
+            ],
+            "dtype": "float64",
+            "finite": true
+          }
+        },
+        "max_absolute_errors": {
+          "time": 8.881784197001252e-16,
+          "mask": 0.0,
+          "H": 2.220446049250313e-15,
+          "A_old": 1.5543122344752192e-15,
+          "A_new": 1.5543122344752192e-15
+        },
+        "active_update_count": 31,
+        "first_active": {
+          "step": 17,
+          "time_s": 0.34,
+          "old_product": 1.0,
+          "new_product": 1.00636028465
+        },
+        "final_H": [
+          1.222965151293738,
+          0.9320766498283581,
+          0.9666069492590703
+        ],
+        "minimum_H": 0.9110661429076764,
+        "maximum_H": 1.3823749437294752,
+        "row": {
+          "path": "output/collaboration/reward-mechanism-repair/darela-source-kernel-42b38e1924b4af6c82cf-execution/result/case_01.json",
+          "bytes": 1078,
+          "sha256": "5459c54dae648a10f17314f8b21ce29865157f6bb40bcb1b96fb28be3a3f527e"
+        },
+        "arrays": {
+          "path": "output/collaboration/reward-mechanism-repair/darela-source-kernel-42b38e1924b4af6c82cf-execution/result/case_01.npz",
+          "bytes": 20542,
+          "sha256": "7692985fdbbf40705b92b03aae150a661a2bb315d28c80ccc271173a0e79b7c8"
+        }
+      },
+      {
+        "index": 2,
+        "name": "manuscript_wt1_repeated",
+        "schemas": {
+          "source_time": {
+            "shape": [
+              1501
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "source_mask": {
+            "shape": [
+              1501
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "source_H": {
+            "shape": [
+              1501,
+              3
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "source_A_old": {
+            "shape": [
+              1500
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "source_A_new": {
+            "shape": [
+              1500
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "reference_time": {
+            "shape": [
+              1501
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "reference_mask": {
+            "shape": [
+              1501
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "reference_H": {
+            "shape": [
+              1501,
+              3
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "reference_A_old": {
+            "shape": [
+              1500
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "reference_A_new": {
+            "shape": [
+              1500
+            ],
+            "dtype": "float64",
+            "finite": true
+          }
+        },
+        "max_absolute_errors": {
+          "time": 3.552713678800501e-15,
+          "mask": 0.0,
+          "H": 1.1102230246251565e-14,
+          "A_old": 5.329070518200751e-15,
+          "A_new": 5.329070518200751e-15
+        },
+        "active_update_count": 186,
+        "first_active": {
+          "step": 17,
+          "time_s": 0.34,
+          "old_product": 1.0,
+          "new_product": 1.00636028465
+        },
+        "final_H": [
+          1.7678925269378014,
+          0.8086331637728497,
+          0.8178448130891445
+        ],
+        "minimum_H": 0.7494382885675005,
+        "maximum_H": 2.3169002423670406,
+        "row": {
+          "path": "output/collaboration/reward-mechanism-repair/darela-source-kernel-42b38e1924b4af6c82cf-execution/result/case_02.json",
+          "bytes": 1149,
+          "sha256": "5c082438fd52f7f7cf6d300edb4f65e46bf9d2c0a417bd325febcd6c8d9d6113"
+        },
+        "arrays": {
+          "path": "output/collaboration/reward-mechanism-repair/darela-source-kernel-42b38e1924b4af6c82cf-execution/result/case_02.npz",
+          "bytes": 116341,
+          "sha256": "94b5883f552dc4b6a95a61a31bc0b3def35099687f8410dc76da372896f8f35e"
+        }
+      },
+      {
+        "index": 3,
+        "name": "manuscript_wt1_nonunit",
+        "schemas": {
+          "source_time": {
+            "shape": [
+              251
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "source_mask": {
+            "shape": [
+              251
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "source_H": {
+            "shape": [
+              251,
+              3
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "source_A_old": {
+            "shape": [
+              250
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "source_A_new": {
+            "shape": [
+              250
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "reference_time": {
+            "shape": [
+              251
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "reference_mask": {
+            "shape": [
+              251
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "reference_H": {
+            "shape": [
+              251,
+              3
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "reference_A_old": {
+            "shape": [
+              250
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "reference_A_new": {
+            "shape": [
+              250
+            ],
+            "dtype": "float64",
+            "finite": true
+          }
+        },
+        "max_absolute_errors": {
+          "time": 8.881784197001252e-16,
+          "mask": 0.0,
+          "H": 2.886579864025407e-15,
+          "A_old": 6.661338147750939e-16,
+          "A_new": 6.661338147750939e-16
+        },
+        "active_update_count": 31,
+        "first_active": {
+          "step": 17,
+          "time_s": 0.34,
+          "old_product": 0.4682392986939281,
+          "new_product": 0.47121743391793786
+        },
+        "final_H": [
+          1.4155397988035159,
+          0.7620209042684661,
+          0.48572461689658547
+        ],
+        "minimum_H": 0.48341087695970003,
+        "maximum_H": 1.7126315761135495,
+        "row": {
+          "path": "output/collaboration/reward-mechanism-repair/darela-source-kernel-42b38e1924b4af6c82cf-execution/result/case_03.json",
+          "bytes": 1082,
+          "sha256": "eae3c12602ffd3d769f0919c5e8e36145d489fe666fc6bec2dd06b69fcd72afc"
+        },
+        "arrays": {
+          "path": "output/collaboration/reward-mechanism-repair/darela-source-kernel-42b38e1924b4af6c82cf-execution/result/case_03.npz",
+          "bytes": 21844,
+          "sha256": "8dec37838619980f8bebaa8843863b966323cb5e4258e5506dfb6bba18b8b7db"
+        }
+      },
+      {
+        "index": 4,
+        "name": "shipped_example_tau_quiet",
+        "schemas": {
+          "source_time": {
+            "shape": [
+              251
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "source_mask": {
+            "shape": [
+              251
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "source_H": {
+            "shape": [
+              251,
+              3
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "source_A_old": {
+            "shape": [
+              250
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "source_A_new": {
+            "shape": [
+              250
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "reference_time": {
+            "shape": [
+              251
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "reference_mask": {
+            "shape": [
+              251
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "reference_H": {
+            "shape": [
+              251,
+              3
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "reference_A_old": {
+            "shape": [
+              250
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "reference_A_new": {
+            "shape": [
+              250
+            ],
+            "dtype": "float64",
+            "finite": true
+          }
+        },
+        "max_absolute_errors": {
+          "time": 8.881784197001252e-16,
+          "mask": 0.0,
+          "H": 0.0,
+          "A_old": 0.0,
+          "A_new": 0.0
+        },
+        "active_update_count": 0,
+        "first_active": null,
+        "final_H": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "minimum_H": 1.0,
+        "maximum_H": 1.0,
+        "row": {
+          "path": "output/collaboration/reward-mechanism-repair/darela-source-kernel-42b38e1924b4af6c82cf-execution/result/case_04.json",
+          "bytes": 951,
+          "sha256": "6079282dd5bbd3a001dda8cbce42c22df7e378340e2b93c20a27090191b684d7"
+        },
+        "arrays": {
+          "path": "output/collaboration/reward-mechanism-repair/darela-source-kernel-42b38e1924b4af6c82cf-execution/result/case_04.npz",
+          "bytes": 3649,
+          "sha256": "bed2b6d29fda93a87416694024eca4ee51f6321601c42cce26128cecefbea6e6"
+        }
+      },
+      {
+        "index": 5,
+        "name": "shipped_example_tau_single",
+        "schemas": {
+          "source_time": {
+            "shape": [
+              251
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "source_mask": {
+            "shape": [
+              251
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "source_H": {
+            "shape": [
+              251,
+              3
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "source_A_old": {
+            "shape": [
+              250
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "source_A_new": {
+            "shape": [
+              250
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "reference_time": {
+            "shape": [
+              251
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "reference_mask": {
+            "shape": [
+              251
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "reference_H": {
+            "shape": [
+              251,
+              3
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "reference_A_old": {
+            "shape": [
+              250
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "reference_A_new": {
+            "shape": [
+              250
+            ],
+            "dtype": "float64",
+            "finite": true
+          }
+        },
+        "max_absolute_errors": {
+          "time": 8.881784197001252e-16,
+          "mask": 0.0,
+          "H": 2.220446049250313e-15,
+          "A_old": 1.7763568394002505e-15,
+          "A_new": 1.7763568394002505e-15
+        },
+        "active_update_count": 31,
+        "first_active": {
+          "step": 17,
+          "time_s": 0.34,
+          "old_product": 1.0,
+          "new_product": 1.00636028465
+        },
+        "final_H": [
+          1.222965151293738,
+          0.9356437484459029,
+          0.9666069492590703
+        ],
+        "minimum_H": 0.9110661429076764,
+        "maximum_H": 1.3823749437294752,
+        "row": {
+          "path": "output/collaboration/reward-mechanism-repair/darela-source-kernel-42b38e1924b4af6c82cf-execution/result/case_05.json",
+          "bytes": 1088,
+          "sha256": "8b9170bd422d2ed712add70c6104ddb0a1778644aee43aee305612a4e766845a"
+        },
+        "arrays": {
+          "path": "output/collaboration/reward-mechanism-repair/darela-source-kernel-42b38e1924b4af6c82cf-execution/result/case_05.npz",
+          "bytes": 20575,
+          "sha256": "a68a3a3c3b600e0e2dd4c4546852f693846e8a960ecb1158681dff283531807d"
+        }
+      },
+      {
+        "index": 6,
+        "name": "shipped_example_tau_repeated",
+        "schemas": {
+          "source_time": {
+            "shape": [
+              1501
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "source_mask": {
+            "shape": [
+              1501
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "source_H": {
+            "shape": [
+              1501,
+              3
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "source_A_old": {
+            "shape": [
+              1500
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "source_A_new": {
+            "shape": [
+              1500
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "reference_time": {
+            "shape": [
+              1501
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "reference_mask": {
+            "shape": [
+              1501
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "reference_H": {
+            "shape": [
+              1501,
+              3
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "reference_A_old": {
+            "shape": [
+              1500
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "reference_A_new": {
+            "shape": [
+              1500
+            ],
+            "dtype": "float64",
+            "finite": true
+          }
+        },
+        "max_absolute_errors": {
+          "time": 3.552713678800501e-15,
+          "mask": 0.0,
+          "H": 1.1102230246251565e-14,
+          "A_old": 4.884981308350689e-15,
+          "A_new": 4.884981308350689e-15
+        },
+        "active_update_count": 186,
+        "first_active": {
+          "step": 17,
+          "time_s": 0.34,
+          "old_product": 1.0,
+          "new_product": 1.00636028465
+        },
+        "final_H": [
+          1.7678925269378014,
+          0.8329672194765586,
+          0.8178448130891445
+        ],
+        "minimum_H": 0.7691775223993831,
+        "maximum_H": 2.3169002423670406,
+        "row": {
+          "path": "output/collaboration/reward-mechanism-repair/darela-source-kernel-42b38e1924b4af6c82cf-execution/result/case_06.json",
+          "bytes": 1159,
+          "sha256": "66e1a688a9ac1238ea51116483b3d08b61f1dd95a6a2f5e6ccea1cc54be73729"
+        },
+        "arrays": {
+          "path": "output/collaboration/reward-mechanism-repair/darela-source-kernel-42b38e1924b4af6c82cf-execution/result/case_06.npz",
+          "bytes": 116414,
+          "sha256": "164a2116620bddfed4eb48cdf0d77efa2f9bdd176eaa896627bcf1ea1d058a35"
+        }
+      },
+      {
+        "index": 7,
+        "name": "shipped_example_tau_nonunit",
+        "schemas": {
+          "source_time": {
+            "shape": [
+              251
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "source_mask": {
+            "shape": [
+              251
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "source_H": {
+            "shape": [
+              251,
+              3
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "source_A_old": {
+            "shape": [
+              250
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "source_A_new": {
+            "shape": [
+              250
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "reference_time": {
+            "shape": [
+              251
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "reference_mask": {
+            "shape": [
+              251
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "reference_H": {
+            "shape": [
+              251,
+              3
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "reference_A_old": {
+            "shape": [
+              250
+            ],
+            "dtype": "float64",
+            "finite": true
+          },
+          "reference_A_new": {
+            "shape": [
+              250
+            ],
+            "dtype": "float64",
+            "finite": true
+          }
+        },
+        "max_absolute_errors": {
+          "time": 8.881784197001252e-16,
+          "mask": 0.0,
+          "H": 2.886579864025407e-15,
+          "A_old": 6.661338147750939e-16,
+          "A_new": 6.661338147750939e-16
+        },
+        "active_update_count": 31,
+        "first_active": {
+          "step": 17,
+          "time_s": 0.34,
+          "old_product": 0.4689253098079202,
+          "new_product": 0.47190780825788803
+        },
+        "final_H": [
+          1.4155397988035159,
+          0.7752485886941703,
+          0.48572461689658547
+        ],
+        "minimum_H": 0.48341087695970003,
+        "maximum_H": 1.7126315761135495,
+        "row": {
+          "path": "output/collaboration/reward-mechanism-repair/darela-source-kernel-42b38e1924b4af6c82cf-execution/result/case_07.json",
+          "bytes": 1092,
+          "sha256": "a4fbe2bef0cba107bbe2ec66ecb2e6500dc5e83fcaa3a1a060a9f73619c23531"
+        },
+        "arrays": {
+          "path": "output/collaboration/reward-mechanism-repair/darela-source-kernel-42b38e1924b4af6c82cf-execution/result/case_07.npz",
+          "bytes": 21814,
+          "sha256": "2a14590f9bbab62a15e2fb572fff85ce24dfae6fc025d2d0fa2a1d7c41ceb85e"
+        }
+      }
+    ],
+    "method": "Read all eight saved row JSONs and summary; loaded all80 source/reference arrays, independently recomputed errors and schema/count/initial-state/endpoint invariants without any model rerun. Source and scalar reference comparison was performed during the frozen child execution."
+  },
+  "scope_limits": [
+    "This executes the later2025pinned factor kernel, not a fullFSCV experiment or identified2023publicationrevision.",
+    "Old/new release-factor products are derived from savedH; the sourcefullsolver useofnewH remains an inspected code fact, not an executed release/concentration result.",
+    "The mouse parameter rows do not calibrate PPL101/PAM12 event amplitudes or receptor kinetics.",
+    "The separate400ms per-actual-spike embedding has not been evaluated on any savedhistory or native circuit by this sourcecheck.",
+    "Current failed learning qualification and blockedconditioning remain unchanged."
+  ],
+  "environment": {
+    "interpreter_invocation": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/.venv/bin/python",
+    "dependency_directory": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-source-2026-09-13/dependencies",
+    "versions": {
+      "numpy": "2.5.3",
+      "scipy": "1.18.1",
+      "autograd": "1.9.1",
+      "alive-progress": "3.3.0",
+      "about-time": "4.2.2",
+      "graphemeu": "0.10.0"
+    },
+    "root_import_only_probe": {
+      "path": "output/collaboration/reward-mechanism-repair/darela-source-2026-09-13/import-only-environment-2026-09-13.json",
+      "bytes": 1824,
+      "sha256": "365da7e0e18b9367f211b0cd25c7884cf6108e1b1f4bdcab346c5b2d8de1b1e3"
+    },
+    "probe_attribution": "/root executed the first import-only probe,0.4833632498048246s, zero modelconstruction/kernel/solve/fit calls. This is distinct from the8sourcecases here."
+  },
+  "preservation": {
+    "bound_files_unchanged": 132,
+    "bound_bytes": 653701,
+    "all_output_file_count": 22,
+    "all_output_bytes": 390267,
+    "source_or_frozen_contract_edits": false,
+    "production_API_UI_edits": false,
+    "artifacts": [
+      {
+        "path": "output/collaboration/reward-mechanism-repair/darela-source-kernel-42b38e1924b4af6c82cf-execution/execution.json",
+        "bytes": 1366,
+        "sha256": "c30635b7c112f6f322274aac9127c3745297cc2209bcfd19f7e48e43fae5faf3"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/darela-source-kernel-42b38e1924b4af6c82cf-execution/result/case_00.json",
+        "bytes": 941,
+        "sha256": "c0477e7c978ebe28f0176bfc5191fc64d7154a7f2442199aa714337cc286cbe4"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/darela-source-kernel-42b38e1924b4af6c82cf-execution/result/case_00.npz",
+        "bytes": 3649,
+        "sha256": "bed2b6d29fda93a87416694024eca4ee51f6321601c42cce26128cecefbea6e6"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/darela-source-kernel-42b38e1924b4af6c82cf-execution/result/case_01.json",
+        "bytes": 1078,
+        "sha256": "5459c54dae648a10f17314f8b21ce29865157f6bb40bcb1b96fb28be3a3f527e"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/darela-source-kernel-42b38e1924b4af6c82cf-execution/result/case_01.npz",
+        "bytes": 20542,
+        "sha256": "7692985fdbbf40705b92b03aae150a661a2bb315d28c80ccc271173a0e79b7c8"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/darela-source-kernel-42b38e1924b4af6c82cf-execution/result/case_02.json",
+        "bytes": 1149,
+        "sha256": "5c082438fd52f7f7cf6d300edb4f65e46bf9d2c0a417bd325febcd6c8d9d6113"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/darela-source-kernel-42b38e1924b4af6c82cf-execution/result/case_02.npz",
+        "bytes": 116341,
+        "sha256": "94b5883f552dc4b6a95a61a31bc0b3def35099687f8410dc76da372896f8f35e"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/darela-source-kernel-42b38e1924b4af6c82cf-execution/result/case_03.json",
+        "bytes": 1082,
+        "sha256": "eae3c12602ffd3d769f0919c5e8e36145d489fe666fc6bec2dd06b69fcd72afc"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/darela-source-kernel-42b38e1924b4af6c82cf-execution/result/case_03.npz",
+        "bytes": 21844,
+        "sha256": "8dec37838619980f8bebaa8843863b966323cb5e4258e5506dfb6bba18b8b7db"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/darela-source-kernel-42b38e1924b4af6c82cf-execution/result/case_04.json",
+        "bytes": 951,
+        "sha256": "6079282dd5bbd3a001dda8cbce42c22df7e378340e2b93c20a27090191b684d7"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/darela-source-kernel-42b38e1924b4af6c82cf-execution/result/case_04.npz",
+        "bytes": 3649,
+        "sha256": "bed2b6d29fda93a87416694024eca4ee51f6321601c42cce26128cecefbea6e6"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/darela-source-kernel-42b38e1924b4af6c82cf-execution/result/case_05.json",
+        "bytes": 1088,
+        "sha256": "8b9170bd422d2ed712add70c6104ddb0a1778644aee43aee305612a4e766845a"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/darela-source-kernel-42b38e1924b4af6c82cf-execution/result/case_05.npz",
+        "bytes": 20575,
+        "sha256": "a68a3a3c3b600e0e2dd4c4546852f693846e8a960ecb1158681dff283531807d"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/darela-source-kernel-42b38e1924b4af6c82cf-execution/result/case_06.json",
+        "bytes": 1159,
+        "sha256": "66e1a688a9ac1238ea51116483b3d08b61f1dd95a6a2f5e6ccea1cc54be73729"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/darela-source-kernel-42b38e1924b4af6c82cf-execution/result/case_06.npz",
+        "bytes": 116414,
+        "sha256": "164a2116620bddfed4eb48cdf0d77efa2f9bdd176eaa896627bcf1ea1d058a35"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/darela-source-kernel-42b38e1924b4af6c82cf-execution/result/case_07.json",
+        "bytes": 1092,
+        "sha256": "a4fbe2bef0cba107bbe2ec66ecb2e6500dc5e83fcaa3a1a060a9f73619c23531"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/darela-source-kernel-42b38e1924b4af6c82cf-execution/result/case_07.npz",
+        "bytes": 21814,
+        "sha256": "2a14590f9bbab62a15e2fb572fff85ce24dfae6fc025d2d0fa2a1d7c41ceb85e"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/darela-source-kernel-42b38e1924b4af6c82cf-execution/result/completion.json",
+        "bytes": 269,
+        "sha256": "e552332052fb2439e8686f99c23ab1310fdeba3a5be9f4a43d83c524f4b3daf8"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/darela-source-kernel-42b38e1924b4af6c82cf-execution/result/identity.json",
+        "bytes": 44912,
+        "sha256": "8ce2f3c13278b29a94ddc1ea4870f4f142fbe2f8da8cadb172f54b2d714b4b1b"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/darela-source-kernel-42b38e1924b4af6c82cf-execution/result/summary.json",
+        "bytes": 10352,
+        "sha256": "f35feae4cefb39084bca7f2b05d3ad321f8d4bb2beb5160992a48291bed766d3"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/darela-source-kernel-42b38e1924b4af6c82cf-execution/stderr.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/darela-source-kernel-42b38e1924b4af6c82cf-execution/stdout.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  },
+  "verification": {
+    "changed_surface": "39syntheticpytestcases andRuffpassed beforefreeze; no modelcalledbythat suite.",
+    "root_standard_gate": "Parent reported freshmakeverify4055Python/103frontend/Ruff/Vitepass; thisagentdidnotduplicatefullsuite.",
+    "scientific_learning_claim": false
+  },
+  "remaining_work_for_parent": "Copy immutable evidence; review final canonical wording; independently assess separateengineeredhelper gates beforeany preregistered32historyscreen."
+}

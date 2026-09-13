@@ -1,0 +1,83 @@
+{
+  "files": [
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela_release_reference.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela_release_reference.py",
+      "bytes": 3653,
+      "sha256": "8b9c053b1f583cac77402a3d745d1d83c6aacd5041a9e7284069842e87c1be70"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/test_darela_release_reference.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/test_darela_release_reference.py",
+      "bytes": 7661,
+      "sha256": "1b1bc12b7ec793a76ea3fbf30e538a5f31fd26d41a41fdb267cb422a02a500be"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela_release_bridge_replay.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela_release_bridge_replay.py",
+      "bytes": 6964,
+      "sha256": "9e8a412b5de71279354f0f88980be916ee59faeae7b8ceb80612ff42595bace1"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/test_darela_release_bridge_replay.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/test_darela_release_bridge_replay.py",
+      "bytes": 8372,
+      "sha256": "781fb4f18da085287124ccc51348a0f0e4b11ce1de3e03e68425dfb0a465747a"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-release-bridge-preparation-reading-evidence-ui-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-release-bridge-preparation-reading-evidence-ui-2026-09-13.json",
+      "bytes": 7482,
+      "sha256": "15c65d5131f7dca431f9c7dd72581ecd90bfb766e801ee99fc62252384afb9be"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-release-bridge-tests-red-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-release-bridge-tests-red-2026-09-13.txt",
+      "bytes": 59790,
+      "sha256": "c5376a55c2571d9875ad6c888485443b551d19e0d34d0c47ec93eccfe7e425de"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-release-bridge-tests-green-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-release-bridge-tests-green-2026-09-13.txt",
+      "bytes": 99,
+      "sha256": "0949ac841c26547941f1617b1616cf0d4a3d5136925a3f86a3f96a0f1f525cf8"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-release-bridge-tests-final-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-release-bridge-tests-final-2026-09-13.txt",
+      "bytes": 180,
+      "sha256": "53242da13495d8c5911c67b9f2966ac134b1d5cc2430836733158cfdb2532fcf"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-release-bridge-ruff-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-release-bridge-ruff-2026-09-13.txt",
+      "bytes": 19,
+      "sha256": "82b3e6a6c090a57601d22943bd23fca9218d1031dbe5a7b754092f9a156b4f18"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-release-bridge-frozen-source-diff-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-release-bridge-frozen-source-diff-2026-09-13.txt",
+      "bytes": 2389,
+      "sha256": "8ed062a1f6c8ca8ad7e118ea629229e3bda141c99e64f1e0ab4fac0d30cd24b9"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-make-verify-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-make-verify-2026-09-13.txt",
+      "bytes": 6297,
+      "sha256": "4b09ff2656ad17d436e91ec2e4a032afde350db5d4cc7cbde8f2489e166c50fb"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-make-verify-receipt-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-make-verify-receipt-2026-09-13.json",
+      "bytes": 172,
+      "sha256": "7ed768fbc96b0d61ea02c2457267e5154e6f642047cf5dc963babe2ebb071784"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-source-2026-09-13/import-only-environment-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-source-2026-09-13/import-only-environment-2026-09-13.json",
+      "bytes": 1824,
+      "sha256": "365da7e0e18b9367f211b0cd25c7884cf6108e1b1f4bdcab346c5b2d8de1b1e3"
+    }
+  ],
+  "policy": "copy, not cut"
+}

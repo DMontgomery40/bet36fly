@@ -1,0 +1,1290 @@
+RED: new release-domain tests deliberately run against untouched canonical old-domain helper
+..FFFF..FFFF..FFFF......FFFFFFFFFF...................                    [100%]
+=================================== FAILURES ===================================
+_ test_release_mass_above_one_and_bound_match_complete_impulse_kernel[-250-1.0000000000000002] _
+
+mass = 1.0000000000000002, lag = -250
+
+    @pytest.mark.parametrize("mass", [.125, 1., 1.0000000000000002, 2., 100., float(2**32)])
+    @pytest.mark.parametrize("lag", [-250, 0, 250])
+    def test_release_mass_above_one_and_bound_match_complete_impulse_kernel(mass, lag):
+        kc, dan = np.zeros((1300, 1)), np.zeros((1300, 1))
+        kc[800], dan[800 + lag] = min(1., 1 / mass), mass
+>       result = call(kc, dan)
+                 ^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_darela_release_bridge_replay.py:35: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_darela_release_bridge_replay.py:21: in call
+    return replay(kc, dan, np.array([0]), np.array([0]), np.array([True]), np.array([0]), **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+docs/evidence/reward-mechanism-repair-2026-09-12/kc_weighted_bridge_replay.py:83: in replay
+    kc, dan, pk, pc, mask, groups, initial = _inputs(kc, dan_means, pk, pc, mask, groups, initial, learning)
+                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+kc = array([[0.],
+       [0.],
+       [0.],
+       ...,
+       [0.],
+       [0.],
+       [0.]], shape=(1300, 1))
+dan = array([[0.],
+       [0.],
+       [0.],
+       ...,
+       [0.],
+       [0.],
+       [0.]], shape=(1300, 1))
+pk = array([0]), pc = array([0]), mask = array([ True]), groups = array([0])
+initial = None, learning = True
+
+    def _inputs(kc, dan, pk, pc, mask, groups, initial, learning):
+        kc, dan = np.asarray(kc), np.asarray(dan)
+        if (
+            any(x.ndim != 2 or x.dtype.kind not in "fiub" for x in (kc, dan))
+            or kc.shape[0] != dan.shape[0]
+            or kc.shape[0] <= ONSET
+            or kc.shape[1] < 1
+            or dan.shape[1] not in (1, 2)
+            or any(not np.isfinite(x).all() or np.any(x < 0) or np.any(x > 1) for x in (kc, dan))
+        ):
+>           raise ValueError("Expected matching finite [0,1] impulse matrices, with steps > 500.")
+E           ValueError: Expected matching finite [0,1] impulse matrices, with steps > 500.
+
+docs/evidence/reward-mechanism-repair-2026-09-12/kc_weighted_bridge_replay.py:37: ValueError
+_ test_release_mass_above_one_and_bound_match_complete_impulse_kernel[-250-2.0] _
+
+mass = 2.0, lag = -250
+
+    @pytest.mark.parametrize("mass", [.125, 1., 1.0000000000000002, 2., 100., float(2**32)])
+    @pytest.mark.parametrize("lag", [-250, 0, 250])
+    def test_release_mass_above_one_and_bound_match_complete_impulse_kernel(mass, lag):
+        kc, dan = np.zeros((1300, 1)), np.zeros((1300, 1))
+        kc[800], dan[800 + lag] = min(1., 1 / mass), mass
+>       result = call(kc, dan)
+                 ^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_darela_release_bridge_replay.py:35: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_darela_release_bridge_replay.py:21: in call
+    return replay(kc, dan, np.array([0]), np.array([0]), np.array([True]), np.array([0]), **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+docs/evidence/reward-mechanism-repair-2026-09-12/kc_weighted_bridge_replay.py:83: in replay
+    kc, dan, pk, pc, mask, groups, initial = _inputs(kc, dan_means, pk, pc, mask, groups, initial, learning)
+                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+kc = array([[0.],
+       [0.],
+       [0.],
+       ...,
+       [0.],
+       [0.],
+       [0.]], shape=(1300, 1))
+dan = array([[0.],
+       [0.],
+       [0.],
+       ...,
+       [0.],
+       [0.],
+       [0.]], shape=(1300, 1))
+pk = array([0]), pc = array([0]), mask = array([ True]), groups = array([0])
+initial = None, learning = True
+
+    def _inputs(kc, dan, pk, pc, mask, groups, initial, learning):
+        kc, dan = np.asarray(kc), np.asarray(dan)
+        if (
+            any(x.ndim != 2 or x.dtype.kind not in "fiub" for x in (kc, dan))
+            or kc.shape[0] != dan.shape[0]
+            or kc.shape[0] <= ONSET
+            or kc.shape[1] < 1
+            or dan.shape[1] not in (1, 2)
+            or any(not np.isfinite(x).all() or np.any(x < 0) or np.any(x > 1) for x in (kc, dan))
+        ):
+>           raise ValueError("Expected matching finite [0,1] impulse matrices, with steps > 500.")
+E           ValueError: Expected matching finite [0,1] impulse matrices, with steps > 500.
+
+docs/evidence/reward-mechanism-repair-2026-09-12/kc_weighted_bridge_replay.py:37: ValueError
+_ test_release_mass_above_one_and_bound_match_complete_impulse_kernel[-250-100.0] _
+
+mass = 100.0, lag = -250
+
+    @pytest.mark.parametrize("mass", [.125, 1., 1.0000000000000002, 2., 100., float(2**32)])
+    @pytest.mark.parametrize("lag", [-250, 0, 250])
+    def test_release_mass_above_one_and_bound_match_complete_impulse_kernel(mass, lag):
+        kc, dan = np.zeros((1300, 1)), np.zeros((1300, 1))
+        kc[800], dan[800 + lag] = min(1., 1 / mass), mass
+>       result = call(kc, dan)
+                 ^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_darela_release_bridge_replay.py:35: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_darela_release_bridge_replay.py:21: in call
+    return replay(kc, dan, np.array([0]), np.array([0]), np.array([True]), np.array([0]), **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+docs/evidence/reward-mechanism-repair-2026-09-12/kc_weighted_bridge_replay.py:83: in replay
+    kc, dan, pk, pc, mask, groups, initial = _inputs(kc, dan_means, pk, pc, mask, groups, initial, learning)
+                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+kc = array([[0.],
+       [0.],
+       [0.],
+       ...,
+       [0.],
+       [0.],
+       [0.]], shape=(1300, 1))
+dan = array([[0.],
+       [0.],
+       [0.],
+       ...,
+       [0.],
+       [0.],
+       [0.]], shape=(1300, 1))
+pk = array([0]), pc = array([0]), mask = array([ True]), groups = array([0])
+initial = None, learning = True
+
+    def _inputs(kc, dan, pk, pc, mask, groups, initial, learning):
+        kc, dan = np.asarray(kc), np.asarray(dan)
+        if (
+            any(x.ndim != 2 or x.dtype.kind not in "fiub" for x in (kc, dan))
+            or kc.shape[0] != dan.shape[0]
+            or kc.shape[0] <= ONSET
+            or kc.shape[1] < 1
+            or dan.shape[1] not in (1, 2)
+            or any(not np.isfinite(x).all() or np.any(x < 0) or np.any(x > 1) for x in (kc, dan))
+        ):
+>           raise ValueError("Expected matching finite [0,1] impulse matrices, with steps > 500.")
+E           ValueError: Expected matching finite [0,1] impulse matrices, with steps > 500.
+
+docs/evidence/reward-mechanism-repair-2026-09-12/kc_weighted_bridge_replay.py:37: ValueError
+_ test_release_mass_above_one_and_bound_match_complete_impulse_kernel[-250-4294967296.0] _
+
+mass = 4294967296.0, lag = -250
+
+    @pytest.mark.parametrize("mass", [.125, 1., 1.0000000000000002, 2., 100., float(2**32)])
+    @pytest.mark.parametrize("lag", [-250, 0, 250])
+    def test_release_mass_above_one_and_bound_match_complete_impulse_kernel(mass, lag):
+        kc, dan = np.zeros((1300, 1)), np.zeros((1300, 1))
+        kc[800], dan[800 + lag] = min(1., 1 / mass), mass
+>       result = call(kc, dan)
+                 ^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_darela_release_bridge_replay.py:35: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_darela_release_bridge_replay.py:21: in call
+    return replay(kc, dan, np.array([0]), np.array([0]), np.array([True]), np.array([0]), **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+docs/evidence/reward-mechanism-repair-2026-09-12/kc_weighted_bridge_replay.py:83: in replay
+    kc, dan, pk, pc, mask, groups, initial = _inputs(kc, dan_means, pk, pc, mask, groups, initial, learning)
+                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+kc = array([[0.],
+       [0.],
+       [0.],
+       ...,
+       [0.],
+       [0.],
+       [0.]], shape=(1300, 1))
+dan = array([[0.],
+       [0.],
+       [0.],
+       ...,
+       [0.],
+       [0.],
+       [0.]], shape=(1300, 1))
+pk = array([0]), pc = array([0]), mask = array([ True]), groups = array([0])
+initial = None, learning = True
+
+    def _inputs(kc, dan, pk, pc, mask, groups, initial, learning):
+        kc, dan = np.asarray(kc), np.asarray(dan)
+        if (
+            any(x.ndim != 2 or x.dtype.kind not in "fiub" for x in (kc, dan))
+            or kc.shape[0] != dan.shape[0]
+            or kc.shape[0] <= ONSET
+            or kc.shape[1] < 1
+            or dan.shape[1] not in (1, 2)
+            or any(not np.isfinite(x).all() or np.any(x < 0) or np.any(x > 1) for x in (kc, dan))
+        ):
+>           raise ValueError("Expected matching finite [0,1] impulse matrices, with steps > 500.")
+E           ValueError: Expected matching finite [0,1] impulse matrices, with steps > 500.
+
+docs/evidence/reward-mechanism-repair-2026-09-12/kc_weighted_bridge_replay.py:37: ValueError
+_ test_release_mass_above_one_and_bound_match_complete_impulse_kernel[0-1.0000000000000002] _
+
+mass = 1.0000000000000002, lag = 0
+
+    @pytest.mark.parametrize("mass", [.125, 1., 1.0000000000000002, 2., 100., float(2**32)])
+    @pytest.mark.parametrize("lag", [-250, 0, 250])
+    def test_release_mass_above_one_and_bound_match_complete_impulse_kernel(mass, lag):
+        kc, dan = np.zeros((1300, 1)), np.zeros((1300, 1))
+        kc[800], dan[800 + lag] = min(1., 1 / mass), mass
+>       result = call(kc, dan)
+                 ^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_darela_release_bridge_replay.py:35: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_darela_release_bridge_replay.py:21: in call
+    return replay(kc, dan, np.array([0]), np.array([0]), np.array([True]), np.array([0]), **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+docs/evidence/reward-mechanism-repair-2026-09-12/kc_weighted_bridge_replay.py:83: in replay
+    kc, dan, pk, pc, mask, groups, initial = _inputs(kc, dan_means, pk, pc, mask, groups, initial, learning)
+                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+kc = array([[0.],
+       [0.],
+       [0.],
+       ...,
+       [0.],
+       [0.],
+       [0.]], shape=(1300, 1))
+dan = array([[0.],
+       [0.],
+       [0.],
+       ...,
+       [0.],
+       [0.],
+       [0.]], shape=(1300, 1))
+pk = array([0]), pc = array([0]), mask = array([ True]), groups = array([0])
+initial = None, learning = True
+
+    def _inputs(kc, dan, pk, pc, mask, groups, initial, learning):
+        kc, dan = np.asarray(kc), np.asarray(dan)
+        if (
+            any(x.ndim != 2 or x.dtype.kind not in "fiub" for x in (kc, dan))
+            or kc.shape[0] != dan.shape[0]
+            or kc.shape[0] <= ONSET
+            or kc.shape[1] < 1
+            or dan.shape[1] not in (1, 2)
+            or any(not np.isfinite(x).all() or np.any(x < 0) or np.any(x > 1) for x in (kc, dan))
+        ):
+>           raise ValueError("Expected matching finite [0,1] impulse matrices, with steps > 500.")
+E           ValueError: Expected matching finite [0,1] impulse matrices, with steps > 500.
+
+docs/evidence/reward-mechanism-repair-2026-09-12/kc_weighted_bridge_replay.py:37: ValueError
+__ test_release_mass_above_one_and_bound_match_complete_impulse_kernel[0-2.0] __
+
+mass = 2.0, lag = 0
+
+    @pytest.mark.parametrize("mass", [.125, 1., 1.0000000000000002, 2., 100., float(2**32)])
+    @pytest.mark.parametrize("lag", [-250, 0, 250])
+    def test_release_mass_above_one_and_bound_match_complete_impulse_kernel(mass, lag):
+        kc, dan = np.zeros((1300, 1)), np.zeros((1300, 1))
+        kc[800], dan[800 + lag] = min(1., 1 / mass), mass
+>       result = call(kc, dan)
+                 ^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_darela_release_bridge_replay.py:35: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_darela_release_bridge_replay.py:21: in call
+    return replay(kc, dan, np.array([0]), np.array([0]), np.array([True]), np.array([0]), **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+docs/evidence/reward-mechanism-repair-2026-09-12/kc_weighted_bridge_replay.py:83: in replay
+    kc, dan, pk, pc, mask, groups, initial = _inputs(kc, dan_means, pk, pc, mask, groups, initial, learning)
+                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+kc = array([[0.],
+       [0.],
+       [0.],
+       ...,
+       [0.],
+       [0.],
+       [0.]], shape=(1300, 1))
+dan = array([[0.],
+       [0.],
+       [0.],
+       ...,
+       [0.],
+       [0.],
+       [0.]], shape=(1300, 1))
+pk = array([0]), pc = array([0]), mask = array([ True]), groups = array([0])
+initial = None, learning = True
+
+    def _inputs(kc, dan, pk, pc, mask, groups, initial, learning):
+        kc, dan = np.asarray(kc), np.asarray(dan)
+        if (
+            any(x.ndim != 2 or x.dtype.kind not in "fiub" for x in (kc, dan))
+            or kc.shape[0] != dan.shape[0]
+            or kc.shape[0] <= ONSET
+            or kc.shape[1] < 1
+            or dan.shape[1] not in (1, 2)
+            or any(not np.isfinite(x).all() or np.any(x < 0) or np.any(x > 1) for x in (kc, dan))
+        ):
+>           raise ValueError("Expected matching finite [0,1] impulse matrices, with steps > 500.")
+E           ValueError: Expected matching finite [0,1] impulse matrices, with steps > 500.
+
+docs/evidence/reward-mechanism-repair-2026-09-12/kc_weighted_bridge_replay.py:37: ValueError
+_ test_release_mass_above_one_and_bound_match_complete_impulse_kernel[0-100.0] _
+
+mass = 100.0, lag = 0
+
+    @pytest.mark.parametrize("mass", [.125, 1., 1.0000000000000002, 2., 100., float(2**32)])
+    @pytest.mark.parametrize("lag", [-250, 0, 250])
+    def test_release_mass_above_one_and_bound_match_complete_impulse_kernel(mass, lag):
+        kc, dan = np.zeros((1300, 1)), np.zeros((1300, 1))
+        kc[800], dan[800 + lag] = min(1., 1 / mass), mass
+>       result = call(kc, dan)
+                 ^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_darela_release_bridge_replay.py:35: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_darela_release_bridge_replay.py:21: in call
+    return replay(kc, dan, np.array([0]), np.array([0]), np.array([True]), np.array([0]), **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+docs/evidence/reward-mechanism-repair-2026-09-12/kc_weighted_bridge_replay.py:83: in replay
+    kc, dan, pk, pc, mask, groups, initial = _inputs(kc, dan_means, pk, pc, mask, groups, initial, learning)
+                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+kc = array([[0.],
+       [0.],
+       [0.],
+       ...,
+       [0.],
+       [0.],
+       [0.]], shape=(1300, 1))
+dan = array([[0.],
+       [0.],
+       [0.],
+       ...,
+       [0.],
+       [0.],
+       [0.]], shape=(1300, 1))
+pk = array([0]), pc = array([0]), mask = array([ True]), groups = array([0])
+initial = None, learning = True
+
+    def _inputs(kc, dan, pk, pc, mask, groups, initial, learning):
+        kc, dan = np.asarray(kc), np.asarray(dan)
+        if (
+            any(x.ndim != 2 or x.dtype.kind not in "fiub" for x in (kc, dan))
+            or kc.shape[0] != dan.shape[0]
+            or kc.shape[0] <= ONSET
+            or kc.shape[1] < 1
+            or dan.shape[1] not in (1, 2)
+            or any(not np.isfinite(x).all() or np.any(x < 0) or np.any(x > 1) for x in (kc, dan))
+        ):
+>           raise ValueError("Expected matching finite [0,1] impulse matrices, with steps > 500.")
+E           ValueError: Expected matching finite [0,1] impulse matrices, with steps > 500.
+
+docs/evidence/reward-mechanism-repair-2026-09-12/kc_weighted_bridge_replay.py:37: ValueError
+_ test_release_mass_above_one_and_bound_match_complete_impulse_kernel[0-4294967296.0] _
+
+mass = 4294967296.0, lag = 0
+
+    @pytest.mark.parametrize("mass", [.125, 1., 1.0000000000000002, 2., 100., float(2**32)])
+    @pytest.mark.parametrize("lag", [-250, 0, 250])
+    def test_release_mass_above_one_and_bound_match_complete_impulse_kernel(mass, lag):
+        kc, dan = np.zeros((1300, 1)), np.zeros((1300, 1))
+        kc[800], dan[800 + lag] = min(1., 1 / mass), mass
+>       result = call(kc, dan)
+                 ^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_darela_release_bridge_replay.py:35: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_darela_release_bridge_replay.py:21: in call
+    return replay(kc, dan, np.array([0]), np.array([0]), np.array([True]), np.array([0]), **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+docs/evidence/reward-mechanism-repair-2026-09-12/kc_weighted_bridge_replay.py:83: in replay
+    kc, dan, pk, pc, mask, groups, initial = _inputs(kc, dan_means, pk, pc, mask, groups, initial, learning)
+                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+kc = array([[0.],
+       [0.],
+       [0.],
+       ...,
+       [0.],
+       [0.],
+       [0.]], shape=(1300, 1))
+dan = array([[0.],
+       [0.],
+       [0.],
+       ...,
+       [0.],
+       [0.],
+       [0.]], shape=(1300, 1))
+pk = array([0]), pc = array([0]), mask = array([ True]), groups = array([0])
+initial = None, learning = True
+
+    def _inputs(kc, dan, pk, pc, mask, groups, initial, learning):
+        kc, dan = np.asarray(kc), np.asarray(dan)
+        if (
+            any(x.ndim != 2 or x.dtype.kind not in "fiub" for x in (kc, dan))
+            or kc.shape[0] != dan.shape[0]
+            or kc.shape[0] <= ONSET
+            or kc.shape[1] < 1
+            or dan.shape[1] not in (1, 2)
+            or any(not np.isfinite(x).all() or np.any(x < 0) or np.any(x > 1) for x in (kc, dan))
+        ):
+>           raise ValueError("Expected matching finite [0,1] impulse matrices, with steps > 500.")
+E           ValueError: Expected matching finite [0,1] impulse matrices, with steps > 500.
+
+docs/evidence/reward-mechanism-repair-2026-09-12/kc_weighted_bridge_replay.py:37: ValueError
+_ test_release_mass_above_one_and_bound_match_complete_impulse_kernel[250-1.0000000000000002] _
+
+mass = 1.0000000000000002, lag = 250
+
+    @pytest.mark.parametrize("mass", [.125, 1., 1.0000000000000002, 2., 100., float(2**32)])
+    @pytest.mark.parametrize("lag", [-250, 0, 250])
+    def test_release_mass_above_one_and_bound_match_complete_impulse_kernel(mass, lag):
+        kc, dan = np.zeros((1300, 1)), np.zeros((1300, 1))
+        kc[800], dan[800 + lag] = min(1., 1 / mass), mass
+>       result = call(kc, dan)
+                 ^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_darela_release_bridge_replay.py:35: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_darela_release_bridge_replay.py:21: in call
+    return replay(kc, dan, np.array([0]), np.array([0]), np.array([True]), np.array([0]), **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+docs/evidence/reward-mechanism-repair-2026-09-12/kc_weighted_bridge_replay.py:83: in replay
+    kc, dan, pk, pc, mask, groups, initial = _inputs(kc, dan_means, pk, pc, mask, groups, initial, learning)
+                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+kc = array([[0.],
+       [0.],
+       [0.],
+       ...,
+       [0.],
+       [0.],
+       [0.]], shape=(1300, 1))
+dan = array([[0.],
+       [0.],
+       [0.],
+       ...,
+       [0.],
+       [0.],
+       [0.]], shape=(1300, 1))
+pk = array([0]), pc = array([0]), mask = array([ True]), groups = array([0])
+initial = None, learning = True
+
+    def _inputs(kc, dan, pk, pc, mask, groups, initial, learning):
+        kc, dan = np.asarray(kc), np.asarray(dan)
+        if (
+            any(x.ndim != 2 or x.dtype.kind not in "fiub" for x in (kc, dan))
+            or kc.shape[0] != dan.shape[0]
+            or kc.shape[0] <= ONSET
+            or kc.shape[1] < 1
+            or dan.shape[1] not in (1, 2)
+            or any(not np.isfinite(x).all() or np.any(x < 0) or np.any(x > 1) for x in (kc, dan))
+        ):
+>           raise ValueError("Expected matching finite [0,1] impulse matrices, with steps > 500.")
+E           ValueError: Expected matching finite [0,1] impulse matrices, with steps > 500.
+
+docs/evidence/reward-mechanism-repair-2026-09-12/kc_weighted_bridge_replay.py:37: ValueError
+_ test_release_mass_above_one_and_bound_match_complete_impulse_kernel[250-2.0] _
+
+mass = 2.0, lag = 250
+
+    @pytest.mark.parametrize("mass", [.125, 1., 1.0000000000000002, 2., 100., float(2**32)])
+    @pytest.mark.parametrize("lag", [-250, 0, 250])
+    def test_release_mass_above_one_and_bound_match_complete_impulse_kernel(mass, lag):
+        kc, dan = np.zeros((1300, 1)), np.zeros((1300, 1))
+        kc[800], dan[800 + lag] = min(1., 1 / mass), mass
+>       result = call(kc, dan)
+                 ^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_darela_release_bridge_replay.py:35: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_darela_release_bridge_replay.py:21: in call
+    return replay(kc, dan, np.array([0]), np.array([0]), np.array([True]), np.array([0]), **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+docs/evidence/reward-mechanism-repair-2026-09-12/kc_weighted_bridge_replay.py:83: in replay
+    kc, dan, pk, pc, mask, groups, initial = _inputs(kc, dan_means, pk, pc, mask, groups, initial, learning)
+                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+kc = array([[0.],
+       [0.],
+       [0.],
+       ...,
+       [0.],
+       [0.],
+       [0.]], shape=(1300, 1))
+dan = array([[0.],
+       [0.],
+       [0.],
+       ...,
+       [0.],
+       [0.],
+       [0.]], shape=(1300, 1))
+pk = array([0]), pc = array([0]), mask = array([ True]), groups = array([0])
+initial = None, learning = True
+
+    def _inputs(kc, dan, pk, pc, mask, groups, initial, learning):
+        kc, dan = np.asarray(kc), np.asarray(dan)
+        if (
+            any(x.ndim != 2 or x.dtype.kind not in "fiub" for x in (kc, dan))
+            or kc.shape[0] != dan.shape[0]
+            or kc.shape[0] <= ONSET
+            or kc.shape[1] < 1
+            or dan.shape[1] not in (1, 2)
+            or any(not np.isfinite(x).all() or np.any(x < 0) or np.any(x > 1) for x in (kc, dan))
+        ):
+>           raise ValueError("Expected matching finite [0,1] impulse matrices, with steps > 500.")
+E           ValueError: Expected matching finite [0,1] impulse matrices, with steps > 500.
+
+docs/evidence/reward-mechanism-repair-2026-09-12/kc_weighted_bridge_replay.py:37: ValueError
+_ test_release_mass_above_one_and_bound_match_complete_impulse_kernel[250-100.0] _
+
+mass = 100.0, lag = 250
+
+    @pytest.mark.parametrize("mass", [.125, 1., 1.0000000000000002, 2., 100., float(2**32)])
+    @pytest.mark.parametrize("lag", [-250, 0, 250])
+    def test_release_mass_above_one_and_bound_match_complete_impulse_kernel(mass, lag):
+        kc, dan = np.zeros((1300, 1)), np.zeros((1300, 1))
+        kc[800], dan[800 + lag] = min(1., 1 / mass), mass
+>       result = call(kc, dan)
+                 ^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_darela_release_bridge_replay.py:35: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_darela_release_bridge_replay.py:21: in call
+    return replay(kc, dan, np.array([0]), np.array([0]), np.array([True]), np.array([0]), **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+docs/evidence/reward-mechanism-repair-2026-09-12/kc_weighted_bridge_replay.py:83: in replay
+    kc, dan, pk, pc, mask, groups, initial = _inputs(kc, dan_means, pk, pc, mask, groups, initial, learning)
+                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+kc = array([[0.],
+       [0.],
+       [0.],
+       ...,
+       [0.],
+       [0.],
+       [0.]], shape=(1300, 1))
+dan = array([[0.],
+       [0.],
+       [0.],
+       ...,
+       [0.],
+       [0.],
+       [0.]], shape=(1300, 1))
+pk = array([0]), pc = array([0]), mask = array([ True]), groups = array([0])
+initial = None, learning = True
+
+    def _inputs(kc, dan, pk, pc, mask, groups, initial, learning):
+        kc, dan = np.asarray(kc), np.asarray(dan)
+        if (
+            any(x.ndim != 2 or x.dtype.kind not in "fiub" for x in (kc, dan))
+            or kc.shape[0] != dan.shape[0]
+            or kc.shape[0] <= ONSET
+            or kc.shape[1] < 1
+            or dan.shape[1] not in (1, 2)
+            or any(not np.isfinite(x).all() or np.any(x < 0) or np.any(x > 1) for x in (kc, dan))
+        ):
+>           raise ValueError("Expected matching finite [0,1] impulse matrices, with steps > 500.")
+E           ValueError: Expected matching finite [0,1] impulse matrices, with steps > 500.
+
+docs/evidence/reward-mechanism-repair-2026-09-12/kc_weighted_bridge_replay.py:37: ValueError
+_ test_release_mass_above_one_and_bound_match_complete_impulse_kernel[250-4294967296.0] _
+
+mass = 4294967296.0, lag = 250
+
+    @pytest.mark.parametrize("mass", [.125, 1., 1.0000000000000002, 2., 100., float(2**32)])
+    @pytest.mark.parametrize("lag", [-250, 0, 250])
+    def test_release_mass_above_one_and_bound_match_complete_impulse_kernel(mass, lag):
+        kc, dan = np.zeros((1300, 1)), np.zeros((1300, 1))
+        kc[800], dan[800 + lag] = min(1., 1 / mass), mass
+>       result = call(kc, dan)
+                 ^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_darela_release_bridge_replay.py:35: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_darela_release_bridge_replay.py:21: in call
+    return replay(kc, dan, np.array([0]), np.array([0]), np.array([True]), np.array([0]), **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+docs/evidence/reward-mechanism-repair-2026-09-12/kc_weighted_bridge_replay.py:83: in replay
+    kc, dan, pk, pc, mask, groups, initial = _inputs(kc, dan_means, pk, pc, mask, groups, initial, learning)
+                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+kc = array([[0.],
+       [0.],
+       [0.],
+       ...,
+       [0.],
+       [0.],
+       [0.]], shape=(1300, 1))
+dan = array([[0.],
+       [0.],
+       [0.],
+       ...,
+       [0.],
+       [0.],
+       [0.]], shape=(1300, 1))
+pk = array([0]), pc = array([0]), mask = array([ True]), groups = array([0])
+initial = None, learning = True
+
+    def _inputs(kc, dan, pk, pc, mask, groups, initial, learning):
+        kc, dan = np.asarray(kc), np.asarray(dan)
+        if (
+            any(x.ndim != 2 or x.dtype.kind not in "fiub" for x in (kc, dan))
+            or kc.shape[0] != dan.shape[0]
+            or kc.shape[0] <= ONSET
+            or kc.shape[1] < 1
+            or dan.shape[1] not in (1, 2)
+            or any(not np.isfinite(x).all() or np.any(x < 0) or np.any(x > 1) for x in (kc, dan))
+        ):
+>           raise ValueError("Expected matching finite [0,1] impulse matrices, with steps > 500.")
+E           ValueError: Expected matching finite [0,1] impulse matrices, with steps > 500.
+
+docs/evidence/reward-mechanism-repair-2026-09-12/kc_weighted_bridge_replay.py:37: ValueError
+_ test_separate_large_release_product_areas_and_tail_match_independent_quadrature _
+
+    def test_separate_large_release_product_areas_and_tail_match_independent_quadrature():
+        kc, dan = np.zeros((1700, 1)), np.zeros((1700, 1))
+        ks, ds = [(520, .25), (800, .5), (1520, .1)], [(540, 2.), (850, 8.5), (1600, 3.25)]
+        for step, mass in ks: kc[step] = mass
+        for step, mass in ds: dan[step] = mass
+>       result = call(kc, dan)
+                 ^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_darela_release_bridge_replay.py:82: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_darela_release_bridge_replay.py:21: in call
+    return replay(kc, dan, np.array([0]), np.array([0]), np.array([True]), np.array([0]), **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+docs/evidence/reward-mechanism-repair-2026-09-12/kc_weighted_bridge_replay.py:83: in replay
+    kc, dan, pk, pc, mask, groups, initial = _inputs(kc, dan_means, pk, pc, mask, groups, initial, learning)
+                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+kc = array([[0.],
+       [0.],
+       [0.],
+       ...,
+       [0.],
+       [0.],
+       [0.]], shape=(1700, 1))
+dan = array([[0.],
+       [0.],
+       [0.],
+       ...,
+       [0.],
+       [0.],
+       [0.]], shape=(1700, 1))
+pk = array([0]), pc = array([0]), mask = array([ True]), groups = array([0])
+initial = None, learning = True
+
+    def _inputs(kc, dan, pk, pc, mask, groups, initial, learning):
+        kc, dan = np.asarray(kc), np.asarray(dan)
+        if (
+            any(x.ndim != 2 or x.dtype.kind not in "fiub" for x in (kc, dan))
+            or kc.shape[0] != dan.shape[0]
+            or kc.shape[0] <= ONSET
+            or kc.shape[1] < 1
+            or dan.shape[1] not in (1, 2)
+            or any(not np.isfinite(x).all() or np.any(x < 0) or np.any(x > 1) for x in (kc, dan))
+        ):
+>           raise ValueError("Expected matching finite [0,1] impulse matrices, with steps > 500.")
+E           ValueError: Expected matching finite [0,1] impulse matrices, with steps > 500.
+
+docs/evidence/reward-mechanism-repair-2026-09-12/kc_weighted_bridge_replay.py:37: ValueError
+__________ test_appended_silence_preserves_complete_release_tail_gain __________
+
+    def test_appended_silence_preserves_complete_release_tail_gain():
+        kc, dan = np.zeros((800, 1)), np.zeros((800, 1))
+        kc[650], dan[700] = .125, 12.
+>       short = call(kc, dan)
+                ^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_darela_release_bridge_replay.py:100: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_darela_release_bridge_replay.py:21: in call
+    return replay(kc, dan, np.array([0]), np.array([0]), np.array([True]), np.array([0]), **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+docs/evidence/reward-mechanism-repair-2026-09-12/kc_weighted_bridge_replay.py:83: in replay
+    kc, dan, pk, pc, mask, groups, initial = _inputs(kc, dan_means, pk, pc, mask, groups, initial, learning)
+                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+kc = array([[0.   ],
+       [0.   ],
+       [0.   ],
+       [0.   ],
+       [0.   ],
+       [0.   ],
+       [0.   ],
+      ....   ],
+       [0.   ],
+       [0.   ],
+       [0.   ],
+       [0.   ],
+       [0.   ],
+       [0.   ],
+       [0.   ]])
+dan = array([[ 0.],
+       [ 0.],
+       [ 0.],
+       [ 0.],
+       [ 0.],
+       [ 0.],
+       [ 0.],
+       [ 0.],
+      ...[ 0.],
+       [ 0.],
+       [ 0.],
+       [ 0.],
+       [ 0.],
+       [ 0.],
+       [ 0.],
+       [ 0.],
+       [ 0.]])
+pk = array([0]), pc = array([0]), mask = array([ True]), groups = array([0])
+initial = None, learning = True
+
+    def _inputs(kc, dan, pk, pc, mask, groups, initial, learning):
+        kc, dan = np.asarray(kc), np.asarray(dan)
+        if (
+            any(x.ndim != 2 or x.dtype.kind not in "fiub" for x in (kc, dan))
+            or kc.shape[0] != dan.shape[0]
+            or kc.shape[0] <= ONSET
+            or kc.shape[1] < 1
+            or dan.shape[1] not in (1, 2)
+            or any(not np.isfinite(x).all() or np.any(x < 0) or np.any(x > 1) for x in (kc, dan))
+        ):
+>           raise ValueError("Expected matching finite [0,1] impulse matrices, with steps > 500.")
+E           ValueError: Expected matching finite [0,1] impulse matrices, with steps > 500.
+
+docs/evidence/reward-mechanism-repair-2026-09-12/kc_weighted_bridge_replay.py:37: ValueError
+_ test_frozen_or_excluded_large_release_preserves_gain_bytes_and_bound_policy[False-0.5] _
+
+initial = 0.5, masked = False
+
+    @pytest.mark.parametrize("initial", [.5, 1., 1.5])
+    @pytest.mark.parametrize("masked", [False, True])
+    def test_frozen_or_excluded_large_release_preserves_gain_bytes_and_bound_policy(initial, masked):
+        kc, dan = np.ones((700, 1)), np.full((700, 1), float(2**32))
+        checkpoint = np.array([initial], np.float32)
+>       result = replay(kc, dan, np.array([0]), np.array([0]), np.array([masked]), np.array([0]), initial=checkpoint, learning=False)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_darela_release_bridge_replay.py:113: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+docs/evidence/reward-mechanism-repair-2026-09-12/kc_weighted_bridge_replay.py:83: in replay
+    kc, dan, pk, pc, mask, groups, initial = _inputs(kc, dan_means, pk, pc, mask, groups, initial, learning)
+                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+kc = array([[1.],
+       [1.],
+       [1.],
+       [1.],
+       [1.],
+       [1.],
+       [1.],
+       [1.],
+       [1.],
+ ...,
+       [1.],
+       [1.],
+       [1.],
+       [1.],
+       [1.],
+       [1.],
+       [1.],
+       [1.],
+       [1.]])
+dan = array([[4.2949673e+09],
+       [4.2949673e+09],
+       [4.2949673e+09],
+       [4.2949673e+09],
+       [4.2949673e+09]...      [4.2949673e+09],
+       [4.2949673e+09],
+       [4.2949673e+09],
+       [4.2949673e+09],
+       [4.2949673e+09]])
+pk = array([0]), pc = array([0]), mask = array([False]), groups = array([0])
+initial = array([0.5], dtype=float32), learning = False
+
+    def _inputs(kc, dan, pk, pc, mask, groups, initial, learning):
+        kc, dan = np.asarray(kc), np.asarray(dan)
+        if (
+            any(x.ndim != 2 or x.dtype.kind not in "fiub" for x in (kc, dan))
+            or kc.shape[0] != dan.shape[0]
+            or kc.shape[0] <= ONSET
+            or kc.shape[1] < 1
+            or dan.shape[1] not in (1, 2)
+            or any(not np.isfinite(x).all() or np.any(x < 0) or np.any(x > 1) for x in (kc, dan))
+        ):
+>           raise ValueError("Expected matching finite [0,1] impulse matrices, with steps > 500.")
+E           ValueError: Expected matching finite [0,1] impulse matrices, with steps > 500.
+
+docs/evidence/reward-mechanism-repair-2026-09-12/kc_weighted_bridge_replay.py:37: ValueError
+_ test_frozen_or_excluded_large_release_preserves_gain_bytes_and_bound_policy[False-1.0] _
+
+initial = 1.0, masked = False
+
+    @pytest.mark.parametrize("initial", [.5, 1., 1.5])
+    @pytest.mark.parametrize("masked", [False, True])
+    def test_frozen_or_excluded_large_release_preserves_gain_bytes_and_bound_policy(initial, masked):
+        kc, dan = np.ones((700, 1)), np.full((700, 1), float(2**32))
+        checkpoint = np.array([initial], np.float32)
+>       result = replay(kc, dan, np.array([0]), np.array([0]), np.array([masked]), np.array([0]), initial=checkpoint, learning=False)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_darela_release_bridge_replay.py:113: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+docs/evidence/reward-mechanism-repair-2026-09-12/kc_weighted_bridge_replay.py:83: in replay
+    kc, dan, pk, pc, mask, groups, initial = _inputs(kc, dan_means, pk, pc, mask, groups, initial, learning)
+                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+kc = array([[1.],
+       [1.],
+       [1.],
+       [1.],
+       [1.],
+       [1.],
+       [1.],
+       [1.],
+       [1.],
+ ...,
+       [1.],
+       [1.],
+       [1.],
+       [1.],
+       [1.],
+       [1.],
+       [1.],
+       [1.],
+       [1.]])
+dan = array([[4.2949673e+09],
+       [4.2949673e+09],
+       [4.2949673e+09],
+       [4.2949673e+09],
+       [4.2949673e+09]...      [4.2949673e+09],
+       [4.2949673e+09],
+       [4.2949673e+09],
+       [4.2949673e+09],
+       [4.2949673e+09]])
+pk = array([0]), pc = array([0]), mask = array([False]), groups = array([0])
+initial = array([1.], dtype=float32), learning = False
+
+    def _inputs(kc, dan, pk, pc, mask, groups, initial, learning):
+        kc, dan = np.asarray(kc), np.asarray(dan)
+        if (
+            any(x.ndim != 2 or x.dtype.kind not in "fiub" for x in (kc, dan))
+            or kc.shape[0] != dan.shape[0]
+            or kc.shape[0] <= ONSET
+            or kc.shape[1] < 1
+            or dan.shape[1] not in (1, 2)
+            or any(not np.isfinite(x).all() or np.any(x < 0) or np.any(x > 1) for x in (kc, dan))
+        ):
+>           raise ValueError("Expected matching finite [0,1] impulse matrices, with steps > 500.")
+E           ValueError: Expected matching finite [0,1] impulse matrices, with steps > 500.
+
+docs/evidence/reward-mechanism-repair-2026-09-12/kc_weighted_bridge_replay.py:37: ValueError
+_ test_frozen_or_excluded_large_release_preserves_gain_bytes_and_bound_policy[False-1.5] _
+
+initial = 1.5, masked = False
+
+    @pytest.mark.parametrize("initial", [.5, 1., 1.5])
+    @pytest.mark.parametrize("masked", [False, True])
+    def test_frozen_or_excluded_large_release_preserves_gain_bytes_and_bound_policy(initial, masked):
+        kc, dan = np.ones((700, 1)), np.full((700, 1), float(2**32))
+        checkpoint = np.array([initial], np.float32)
+>       result = replay(kc, dan, np.array([0]), np.array([0]), np.array([masked]), np.array([0]), initial=checkpoint, learning=False)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_darela_release_bridge_replay.py:113: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+docs/evidence/reward-mechanism-repair-2026-09-12/kc_weighted_bridge_replay.py:83: in replay
+    kc, dan, pk, pc, mask, groups, initial = _inputs(kc, dan_means, pk, pc, mask, groups, initial, learning)
+                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+kc = array([[1.],
+       [1.],
+       [1.],
+       [1.],
+       [1.],
+       [1.],
+       [1.],
+       [1.],
+       [1.],
+ ...,
+       [1.],
+       [1.],
+       [1.],
+       [1.],
+       [1.],
+       [1.],
+       [1.],
+       [1.],
+       [1.]])
+dan = array([[4.2949673e+09],
+       [4.2949673e+09],
+       [4.2949673e+09],
+       [4.2949673e+09],
+       [4.2949673e+09]...      [4.2949673e+09],
+       [4.2949673e+09],
+       [4.2949673e+09],
+       [4.2949673e+09],
+       [4.2949673e+09]])
+pk = array([0]), pc = array([0]), mask = array([False]), groups = array([0])
+initial = array([1.5], dtype=float32), learning = False
+
+    def _inputs(kc, dan, pk, pc, mask, groups, initial, learning):
+        kc, dan = np.asarray(kc), np.asarray(dan)
+        if (
+            any(x.ndim != 2 or x.dtype.kind not in "fiub" for x in (kc, dan))
+            or kc.shape[0] != dan.shape[0]
+            or kc.shape[0] <= ONSET
+            or kc.shape[1] < 1
+            or dan.shape[1] not in (1, 2)
+            or any(not np.isfinite(x).all() or np.any(x < 0) or np.any(x > 1) for x in (kc, dan))
+        ):
+>           raise ValueError("Expected matching finite [0,1] impulse matrices, with steps > 500.")
+E           ValueError: Expected matching finite [0,1] impulse matrices, with steps > 500.
+
+docs/evidence/reward-mechanism-repair-2026-09-12/kc_weighted_bridge_replay.py:37: ValueError
+_ test_frozen_or_excluded_large_release_preserves_gain_bytes_and_bound_policy[True-0.5] _
+
+initial = 0.5, masked = True
+
+    @pytest.mark.parametrize("initial", [.5, 1., 1.5])
+    @pytest.mark.parametrize("masked", [False, True])
+    def test_frozen_or_excluded_large_release_preserves_gain_bytes_and_bound_policy(initial, masked):
+        kc, dan = np.ones((700, 1)), np.full((700, 1), float(2**32))
+        checkpoint = np.array([initial], np.float32)
+>       result = replay(kc, dan, np.array([0]), np.array([0]), np.array([masked]), np.array([0]), initial=checkpoint, learning=False)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_darela_release_bridge_replay.py:113: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+docs/evidence/reward-mechanism-repair-2026-09-12/kc_weighted_bridge_replay.py:83: in replay
+    kc, dan, pk, pc, mask, groups, initial = _inputs(kc, dan_means, pk, pc, mask, groups, initial, learning)
+                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+kc = array([[1.],
+       [1.],
+       [1.],
+       [1.],
+       [1.],
+       [1.],
+       [1.],
+       [1.],
+       [1.],
+ ...,
+       [1.],
+       [1.],
+       [1.],
+       [1.],
+       [1.],
+       [1.],
+       [1.],
+       [1.],
+       [1.]])
+dan = array([[4.2949673e+09],
+       [4.2949673e+09],
+       [4.2949673e+09],
+       [4.2949673e+09],
+       [4.2949673e+09]...      [4.2949673e+09],
+       [4.2949673e+09],
+       [4.2949673e+09],
+       [4.2949673e+09],
+       [4.2949673e+09]])
+pk = array([0]), pc = array([0]), mask = array([ True]), groups = array([0])
+initial = array([0.5], dtype=float32), learning = False
+
+    def _inputs(kc, dan, pk, pc, mask, groups, initial, learning):
+        kc, dan = np.asarray(kc), np.asarray(dan)
+        if (
+            any(x.ndim != 2 or x.dtype.kind not in "fiub" for x in (kc, dan))
+            or kc.shape[0] != dan.shape[0]
+            or kc.shape[0] <= ONSET
+            or kc.shape[1] < 1
+            or dan.shape[1] not in (1, 2)
+            or any(not np.isfinite(x).all() or np.any(x < 0) or np.any(x > 1) for x in (kc, dan))
+        ):
+>           raise ValueError("Expected matching finite [0,1] impulse matrices, with steps > 500.")
+E           ValueError: Expected matching finite [0,1] impulse matrices, with steps > 500.
+
+docs/evidence/reward-mechanism-repair-2026-09-12/kc_weighted_bridge_replay.py:37: ValueError
+_ test_frozen_or_excluded_large_release_preserves_gain_bytes_and_bound_policy[True-1.0] _
+
+initial = 1.0, masked = True
+
+    @pytest.mark.parametrize("initial", [.5, 1., 1.5])
+    @pytest.mark.parametrize("masked", [False, True])
+    def test_frozen_or_excluded_large_release_preserves_gain_bytes_and_bound_policy(initial, masked):
+        kc, dan = np.ones((700, 1)), np.full((700, 1), float(2**32))
+        checkpoint = np.array([initial], np.float32)
+>       result = replay(kc, dan, np.array([0]), np.array([0]), np.array([masked]), np.array([0]), initial=checkpoint, learning=False)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_darela_release_bridge_replay.py:113: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+docs/evidence/reward-mechanism-repair-2026-09-12/kc_weighted_bridge_replay.py:83: in replay
+    kc, dan, pk, pc, mask, groups, initial = _inputs(kc, dan_means, pk, pc, mask, groups, initial, learning)
+                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+kc = array([[1.],
+       [1.],
+       [1.],
+       [1.],
+       [1.],
+       [1.],
+       [1.],
+       [1.],
+       [1.],
+ ...,
+       [1.],
+       [1.],
+       [1.],
+       [1.],
+       [1.],
+       [1.],
+       [1.],
+       [1.],
+       [1.]])
+dan = array([[4.2949673e+09],
+       [4.2949673e+09],
+       [4.2949673e+09],
+       [4.2949673e+09],
+       [4.2949673e+09]...      [4.2949673e+09],
+       [4.2949673e+09],
+       [4.2949673e+09],
+       [4.2949673e+09],
+       [4.2949673e+09]])
+pk = array([0]), pc = array([0]), mask = array([ True]), groups = array([0])
+initial = array([1.], dtype=float32), learning = False
+
+    def _inputs(kc, dan, pk, pc, mask, groups, initial, learning):
+        kc, dan = np.asarray(kc), np.asarray(dan)
+        if (
+            any(x.ndim != 2 or x.dtype.kind not in "fiub" for x in (kc, dan))
+            or kc.shape[0] != dan.shape[0]
+            or kc.shape[0] <= ONSET
+            or kc.shape[1] < 1
+            or dan.shape[1] not in (1, 2)
+            or any(not np.isfinite(x).all() or np.any(x < 0) or np.any(x > 1) for x in (kc, dan))
+        ):
+>           raise ValueError("Expected matching finite [0,1] impulse matrices, with steps > 500.")
+E           ValueError: Expected matching finite [0,1] impulse matrices, with steps > 500.
+
+docs/evidence/reward-mechanism-repair-2026-09-12/kc_weighted_bridge_replay.py:37: ValueError
+_ test_frozen_or_excluded_large_release_preserves_gain_bytes_and_bound_policy[True-1.5] _
+
+initial = 1.5, masked = True
+
+    @pytest.mark.parametrize("initial", [.5, 1., 1.5])
+    @pytest.mark.parametrize("masked", [False, True])
+    def test_frozen_or_excluded_large_release_preserves_gain_bytes_and_bound_policy(initial, masked):
+        kc, dan = np.ones((700, 1)), np.full((700, 1), float(2**32))
+        checkpoint = np.array([initial], np.float32)
+>       result = replay(kc, dan, np.array([0]), np.array([0]), np.array([masked]), np.array([0]), initial=checkpoint, learning=False)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_darela_release_bridge_replay.py:113: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+docs/evidence/reward-mechanism-repair-2026-09-12/kc_weighted_bridge_replay.py:83: in replay
+    kc, dan, pk, pc, mask, groups, initial = _inputs(kc, dan_means, pk, pc, mask, groups, initial, learning)
+                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+kc = array([[1.],
+       [1.],
+       [1.],
+       [1.],
+       [1.],
+       [1.],
+       [1.],
+       [1.],
+       [1.],
+ ...,
+       [1.],
+       [1.],
+       [1.],
+       [1.],
+       [1.],
+       [1.],
+       [1.],
+       [1.],
+       [1.]])
+dan = array([[4.2949673e+09],
+       [4.2949673e+09],
+       [4.2949673e+09],
+       [4.2949673e+09],
+       [4.2949673e+09]...      [4.2949673e+09],
+       [4.2949673e+09],
+       [4.2949673e+09],
+       [4.2949673e+09],
+       [4.2949673e+09]])
+pk = array([0]), pc = array([0]), mask = array([ True]), groups = array([0])
+initial = array([1.5], dtype=float32), learning = False
+
+    def _inputs(kc, dan, pk, pc, mask, groups, initial, learning):
+        kc, dan = np.asarray(kc), np.asarray(dan)
+        if (
+            any(x.ndim != 2 or x.dtype.kind not in "fiub" for x in (kc, dan))
+            or kc.shape[0] != dan.shape[0]
+            or kc.shape[0] <= ONSET
+            or kc.shape[1] < 1
+            or dan.shape[1] not in (1, 2)
+            or any(not np.isfinite(x).all() or np.any(x < 0) or np.any(x > 1) for x in (kc, dan))
+        ):
+>           raise ValueError("Expected matching finite [0,1] impulse matrices, with steps > 500.")
+E           ValueError: Expected matching finite [0,1] impulse matrices, with steps > 500.
+
+docs/evidence/reward-mechanism-repair-2026-09-12/kc_weighted_bridge_replay.py:37: ValueError
+__ test_active_excluded_edges_stay_unchanged_while_eligible_edge_uses_release __
+
+    def test_active_excluded_edges_stay_unchanged_while_eligible_edge_uses_release():
+        kc, dan = np.zeros((700, 1)), np.zeros((700, 2))
+        kc[510], dan[520] = .5, [4., 8.]
+        initial = np.array([.5, 1., 1.5, 1.], np.float32)
+>       result = replay(kc, dan, np.array([0, 0, 0, 0]), np.array([0, 0, 1, 1]), np.array([0, 1, 0, 1]), np.array([0, 1, 4, 5]), initial=initial)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_darela_release_bridge_replay.py:126: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+docs/evidence/reward-mechanism-repair-2026-09-12/kc_weighted_bridge_replay.py:83: in replay
+    kc, dan, pk, pc, mask, groups, initial = _inputs(kc, dan_means, pk, pc, mask, groups, initial, learning)
+                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+kc = array([[0. ],
+       [0. ],
+       [0. ],
+       [0. ],
+       [0. ],
+       [0. ],
+       [0. ],
+       [0. ],
+      ...[0. ],
+       [0. ],
+       [0. ],
+       [0. ],
+       [0. ],
+       [0. ],
+       [0. ],
+       [0. ],
+       [0. ]])
+dan = array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       ...,
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], shape=(700, 2))
+pk = array([0, 0, 0, 0]), pc = array([0, 0, 1, 1]), mask = array([0, 1, 0, 1])
+groups = array([0, 1, 4, 5])
+initial = array([0.5, 1. , 1.5, 1. ], dtype=float32), learning = True
+
+    def _inputs(kc, dan, pk, pc, mask, groups, initial, learning):
+        kc, dan = np.asarray(kc), np.asarray(dan)
+        if (
+            any(x.ndim != 2 or x.dtype.kind not in "fiub" for x in (kc, dan))
+            or kc.shape[0] != dan.shape[0]
+            or kc.shape[0] <= ONSET
+            or kc.shape[1] < 1
+            or dan.shape[1] not in (1, 2)
+            or any(not np.isfinite(x).all() or np.any(x < 0) or np.any(x > 1) for x in (kc, dan))
+        ):
+>           raise ValueError("Expected matching finite [0,1] impulse matrices, with steps > 500.")
+E           ValueError: Expected matching finite [0,1] impulse matrices, with steps > 500.
+
+docs/evidence/reward-mechanism-repair-2026-09-12/kc_weighted_bridge_replay.py:37: ValueError
+______ test_release_before_onset_remains_excluded_and_onset_is_inclusive _______
+
+    def test_release_before_onset_remains_excluded_and_onset_is_inclusive():
+        kc, dan = np.zeros((700, 1)), np.zeros((700, 1))
+        kc[500], dan[499] = .25, 16.
+>       result = call(kc, dan)
+                 ^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_darela_release_bridge_replay.py:137: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_darela_release_bridge_replay.py:21: in call
+    return replay(kc, dan, np.array([0]), np.array([0]), np.array([True]), np.array([0]), **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+docs/evidence/reward-mechanism-repair-2026-09-12/kc_weighted_bridge_replay.py:83: in replay
+    kc, dan, pk, pc, mask, groups, initial = _inputs(kc, dan_means, pk, pc, mask, groups, initial, learning)
+                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+kc = array([[0.  ],
+       [0.  ],
+       [0.  ],
+       [0.  ],
+       [0.  ],
+       [0.  ],
+       [0.  ],
+       [0.  ]...      [0.  ],
+       [0.  ],
+       [0.  ],
+       [0.  ],
+       [0.  ],
+       [0.  ],
+       [0.  ],
+       [0.  ]])
+dan = array([[ 0.],
+       [ 0.],
+       [ 0.],
+       [ 0.],
+       [ 0.],
+       [ 0.],
+       [ 0.],
+       [ 0.],
+      ...[ 0.],
+       [ 0.],
+       [ 0.],
+       [ 0.],
+       [ 0.],
+       [ 0.],
+       [ 0.],
+       [ 0.],
+       [ 0.]])
+pk = array([0]), pc = array([0]), mask = array([ True]), groups = array([0])
+initial = None, learning = True
+
+    def _inputs(kc, dan, pk, pc, mask, groups, initial, learning):
+        kc, dan = np.asarray(kc), np.asarray(dan)
+        if (
+            any(x.ndim != 2 or x.dtype.kind not in "fiub" for x in (kc, dan))
+            or kc.shape[0] != dan.shape[0]
+            or kc.shape[0] <= ONSET
+            or kc.shape[1] < 1
+            or dan.shape[1] not in (1, 2)
+            or any(not np.isfinite(x).all() or np.any(x < 0) or np.any(x > 1) for x in (kc, dan))
+        ):
+>           raise ValueError("Expected matching finite [0,1] impulse matrices, with steps > 500.")
+E           ValueError: Expected matching finite [0,1] impulse matrices, with steps > 500.
+
+docs/evidence/reward-mechanism-repair-2026-09-12/kc_weighted_bridge_replay.py:37: ValueError
+=========================== short test summary info ============================
+FAILED output/collaboration/reward-mechanism-repair/test_darela_release_bridge_replay.py::test_release_mass_above_one_and_bound_match_complete_impulse_kernel[-250-1.0000000000000002]
+FAILED output/collaboration/reward-mechanism-repair/test_darela_release_bridge_replay.py::test_release_mass_above_one_and_bound_match_complete_impulse_kernel[-250-2.0]
+FAILED output/collaboration/reward-mechanism-repair/test_darela_release_bridge_replay.py::test_release_mass_above_one_and_bound_match_complete_impulse_kernel[-250-100.0]
+FAILED output/collaboration/reward-mechanism-repair/test_darela_release_bridge_replay.py::test_release_mass_above_one_and_bound_match_complete_impulse_kernel[-250-4294967296.0]
+FAILED output/collaboration/reward-mechanism-repair/test_darela_release_bridge_replay.py::test_release_mass_above_one_and_bound_match_complete_impulse_kernel[0-1.0000000000000002]
+FAILED output/collaboration/reward-mechanism-repair/test_darela_release_bridge_replay.py::test_release_mass_above_one_and_bound_match_complete_impulse_kernel[0-2.0]
+FAILED output/collaboration/reward-mechanism-repair/test_darela_release_bridge_replay.py::test_release_mass_above_one_and_bound_match_complete_impulse_kernel[0-100.0]
+FAILED output/collaboration/reward-mechanism-repair/test_darela_release_bridge_replay.py::test_release_mass_above_one_and_bound_match_complete_impulse_kernel[0-4294967296.0]
+FAILED output/collaboration/reward-mechanism-repair/test_darela_release_bridge_replay.py::test_release_mass_above_one_and_bound_match_complete_impulse_kernel[250-1.0000000000000002]
+FAILED output/collaboration/reward-mechanism-repair/test_darela_release_bridge_replay.py::test_release_mass_above_one_and_bound_match_complete_impulse_kernel[250-2.0]
+FAILED output/collaboration/reward-mechanism-repair/test_darela_release_bridge_replay.py::test_release_mass_above_one_and_bound_match_complete_impulse_kernel[250-100.0]
+FAILED output/collaboration/reward-mechanism-repair/test_darela_release_bridge_replay.py::test_release_mass_above_one_and_bound_match_complete_impulse_kernel[250-4294967296.0]
+FAILED output/collaboration/reward-mechanism-repair/test_darela_release_bridge_replay.py::test_separate_large_release_product_areas_and_tail_match_independent_quadrature
+FAILED output/collaboration/reward-mechanism-repair/test_darela_release_bridge_replay.py::test_appended_silence_preserves_complete_release_tail_gain
+FAILED output/collaboration/reward-mechanism-repair/test_darela_release_bridge_replay.py::test_frozen_or_excluded_large_release_preserves_gain_bytes_and_bound_policy[False-0.5]
+FAILED output/collaboration/reward-mechanism-repair/test_darela_release_bridge_replay.py::test_frozen_or_excluded_large_release_preserves_gain_bytes_and_bound_policy[False-1.0]
+FAILED output/collaboration/reward-mechanism-repair/test_darela_release_bridge_replay.py::test_frozen_or_excluded_large_release_preserves_gain_bytes_and_bound_policy[False-1.5]
+FAILED output/collaboration/reward-mechanism-repair/test_darela_release_bridge_replay.py::test_frozen_or_excluded_large_release_preserves_gain_bytes_and_bound_policy[True-0.5]
+FAILED output/collaboration/reward-mechanism-repair/test_darela_release_bridge_replay.py::test_frozen_or_excluded_large_release_preserves_gain_bytes_and_bound_policy[True-1.0]
+FAILED output/collaboration/reward-mechanism-repair/test_darela_release_bridge_replay.py::test_frozen_or_excluded_large_release_preserves_gain_bytes_and_bound_policy[True-1.5]
+FAILED output/collaboration/reward-mechanism-repair/test_darela_release_bridge_replay.py::test_active_excluded_edges_stay_unchanged_while_eligible_edge_uses_release
+FAILED output/collaboration/reward-mechanism-repair/test_darela_release_bridge_replay.py::test_release_before_onset_remains_excluded_and_onset_is_inclusive
+22 failed, 31 passed in 0.77s

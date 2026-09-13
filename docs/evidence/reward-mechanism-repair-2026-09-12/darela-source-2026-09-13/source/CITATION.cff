@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software, please cite it as below.
+type: software
+authors:
+  - given-names: 'N'
+    family-names: Shashaank
+title: "DARELA"
+version: 1.0
+preferred-citation:
+  type: article
+  authors:
+    - given-names: 'N'
+      family-names: Shashaank
+    - given-names: Mahalakshmi
+      family-names: Somayaji
+    - given-names: Mattia
+      family-names: Miotto
+    - given-names: "Eugene V."
+      family-names: Mosharov
+    - given-names: "Emily A."
+      family-names: Makowicz
+    - given-names: "David A."
+      family-names: Knowles
+    - given-names: Giancarlo
+      family-names: Ruocco
+    - given-names: "David L."
+      family-names: Sulzer
+  doi: 10.1093/pnasnexus/pgad044
+  journal: "PNAS Nexus"
+  volume: 2
+  issue: 3
+  month: 3
+  title: >-
+    Computational models of dopamine release measured by fast scan cyclic voltammetry in vivo
+  year: 2023
+    

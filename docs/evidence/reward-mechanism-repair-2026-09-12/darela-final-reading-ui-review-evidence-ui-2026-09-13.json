@@ -1,0 +1,132 @@
+{
+  "agent": "/root/evidence_ui",
+  "created_at_utc": "2026-09-13T12:42:50.513149+00:00",
+  "status": "pass_final_reading_and_unchanged_ui_scope_review",
+  "git_head": "64a4b1d8797ebf0e76049e3a9995fb11d2e38795",
+  "material_findings": [],
+  "reading": {
+    "current_narrative_count": 203,
+    "current_inventory_sha256": "532fa91aa3307b6ed1b5b58e22d089ac7456c1c8681cf397bd1191d7fb79a082",
+    "complete_reconciled_personal_reading": true,
+    "unread_deltas": [],
+    "prior_personal_chain": [
+      {
+        "path": "output/collaboration/reward-mechanism-repair/darela-release-bridge-preparation-reading-evidence-ui-2026-09-13.json",
+        "bytes": 7482,
+        "sha256": "15c65d5131f7dca431f9c7dd72581ecd90bfb766e801ee99fc62252384afb9be"
+      }
+    ],
+    "method": "All203 AGENTS/README/docs/wiki narratives reconciled through prior personal full reads and exact byte aliases. Full two new source-checkpoint/preregistration narratives read; complete final Git diff of four existing handoff/index/wiki pages read against their prior fully read base. Unchanged source/canonical aliases deduplicated by SHA after actual original reading.",
+    "final_new_or_changed_narratives": [
+      {
+        "path": "docs/REWARD_REPAIR_HANDOFF.md",
+        "bytes": 63771,
+        "sha256": "30d5df134821ef1070d47a4488982d4ce175b3eb32330c33c52e720895703352"
+      },
+      {
+        "path": "wiki/reassessment.md",
+        "bytes": 15382,
+        "sha256": "ff22141768b07f8bcc0f146da14d64d088932171ecc74e93494ccf87283a9e40"
+      },
+      {
+        "path": "wiki/cells/dopamine-receptor-signaling.md",
+        "bytes": 7762,
+        "sha256": "0c807aa3df632e096a59510c94f950529f96021728f34de65f25a786505ec5f5"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/index.md",
+        "bytes": 25270,
+        "sha256": "0399eeffb8dee3746c8cf0a54264fe95534fa6380271f46de92cc38d42e3eefe"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-source-transfer-checkpoint-2026-09-13.md",
+        "bytes": 6892,
+        "sha256": "a2a890c9a96f4be6d3aa336d834510db7122de6aca46d1e670fb72d1759dc142"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-source-kernel-preregistration-2026-09-13.md",
+        "bytes": 4879,
+        "sha256": "bc888be136dbac85d4340e1b85e09bb55201807f998747a9f0e18e93f1c40ddc"
+      }
+    ]
+  },
+  "reviewed_saved_evidence": [
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-canonical-release-tests-receipt-2026-09-13.json",
+      "bytes": 615,
+      "sha256": "76f6f2d88458a32e01a81fa7bf4f914640d35920d4e7dfec432bf7e5cf207408"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-canonical-release-tests-2026-09-13.txt",
+      "bytes": 260,
+      "sha256": "3c4f36a860ec5e103f9864e28f60607c2322709d59181a587c6af8322091dc8e"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-canonical-source-harness-tests-receipt-2026-09-13.json",
+      "bytes": 505,
+      "sha256": "cae4227d02192a5ba04a1a7180a6ab327eda212c759db22974a60065a9bbb430"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/darela-source-kernel-tests-final-2026-09-13.txt",
+      "bytes": 99,
+      "sha256": "94fb7f94f47e21fe77e539fe023baefab637dad8ee33c6407550082f17f184b6"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-make-verify-receipt-2026-09-13.json",
+      "bytes": 172,
+      "sha256": "7ed768fbc96b0d61ea02c2457267e5154e6f642047cf5dc963babe2ebb071784"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-make-verify-2026-09-13.txt",
+      "bytes": 6297,
+      "sha256": "4b09ff2656ad17d436e91ec2e4a032afde350db5d4cc7cbde8f2489e166c50fb"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-protected-after-verify-2026-09-13.json",
+      "bytes": 299,
+      "sha256": "1c0c69bd55d2f7f621c565794b946230593cd52f2aff536f882a4f0ce028c185"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-saved-kernel-root-review-2026-09-13.json",
+      "bytes": 4654,
+      "sha256": "3178834d55d645fb534f7a396f1dacd717d2d95bed92aad1db79185cc3e62b27"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-source-kernel-42b38e1924b4af6c82cf-execution/execution.json",
+      "bytes": 1366,
+      "sha256": "c30635b7c112f6f322274aac9127c3745297cc2209bcfd19f7e48e43fae5faf3"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-source-kernel-42b38e1924b4af6c82cf-execution/result/completion.json",
+      "bytes": 269,
+      "sha256": "e552332052fb2439e8686f99c23ab1310fdeba3a5be9f4a43d83c524f4b3daf8"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-source-kernel-42b38e1924b4af6c82cf-execution/result/summary.json",
+      "bytes": 10352,
+      "sha256": "f35feae4cefb39084bca7f2b05d3ad321f8d4bb2beb5160992a48291bed766d3"
+    }
+  ],
+  "verification_scope": {
+    "canonical_synthetic": "177release/reference/bridge plus39source-harness =216distinct preparation cases. Canonical39receipt is separately preserved; earlier24-case green log is historical, not the final count.",
+    "source_execution": "Eight literal factor-kernel cases completed once;4500updates; parentexit0/reaped;0.6172012907918543s through checks under30s. Personally verified completion/summary/parenthash conjunction,8ordered passed row metadata, counts and absent terminal-error markers. No NPZ array recomputation or source call in this review.",
+    "independent_saved_audit": "Parent report80arrays/63080values/132bindings; maxerror3.2862601528904634e-14. This review reads that evidence rather than rerunning its oracle.",
+    "repository_gate": "Saved makeverify exited0:4055Python/2existingwarnings,103frontend,Ruff,Vite. Saved protectionreceipt760files unchanged/noinventorychanges. No fresh browser is claimed."
+  },
+  "api_ui_accuracy": {
+    "production_api_types_controls_rendering_changes": false,
+    "check": "git diff --name-only HEAD -- bet36fly web scripts docs/api-contract.md pyproject.toml uv.lock Makefile is empty. Relevant existing code paths were personally traced and hash-bound in prior compatibility reading.",
+    "conclusion": "Existing Training distinction between validated circuit qualification, blocked conditioning and historical pilots remains accurate. Output-only source-factor and synthetic release checks are not registered as passed production learning.",
+    "current_scientific_status": "Finite WT1 engineering hypothesis numerically prepared; DARELA32-historyscreen unrun. Actual production pairb16d9b39d7fd3057 still fails second-panel untaught-home; conditioning not_run_gate_failed. Source chemistry/fit/fullmodel/flylearning not established.",
+    "historical_status_correction": "Earlier source-kernel unrun statements belong to preserved preregistration/preexecution receipts; the eight-case factor-kernel run is now completed and audited. This does not change the still-unrun DARELA saved-historyscreen status."
+  },
+  "this_closeout": {
+    "new_tests": 0,
+    "source_or_history_or_native_runs": 0,
+    "fits": 0,
+    "network_requests": 0,
+    "browser_runs": 0,
+    "production_or_shared_narrative_edits": false,
+    "only_written_artifact": "This unique JSON receipt."
+  }
+}

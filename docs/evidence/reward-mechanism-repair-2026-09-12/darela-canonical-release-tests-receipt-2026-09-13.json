@@ -1,0 +1,7 @@
+{
+  "command": "PYTHONPATH=docs/evidence/reward-mechanism-repair-2026-09-12 .venv/bin/python -m pytest -q docs/evidence/reward-mechanism-repair-2026-09-12/test_darela_release.py docs/evidence/reward-mechanism-repair-2026-09-12/test_darela_release_reference.py docs/evidence/reward-mechanism-repair-2026-09-12/test_darela_release_bridge_replay.py",
+  "exit_code": 0,
+  "seconds": 2.9235181249678135,
+  "log": "output/collaboration/reward-mechanism-repair/darela-canonical-release-tests-2026-09-13.txt",
+  "scope": "177 synthetic release/reference/bridge cases from canonical copies; no source solver or histories"
+}

@@ -1,0 +1,53 @@
+{
+  "policy": "copy, not cut",
+  "files": [
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-release-reference-review-delivered-arrivals-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-release-reference-review-delivered-arrivals-2026-09-13.json",
+      "bytes": 55329,
+      "sha256": "d8a5ac28041fcb03e36f3efd427ed5af5a3871d9ab09be2ad700c1a861ffbbb7"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-release-reference-red-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-release-reference-red-2026-09-13.txt",
+      "bytes": 47786,
+      "sha256": "51e865d9219313ab6b5d2b969c72c1453d5f9d3c99360c4df1e80986c5733e59"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-release-reference-first-green-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-release-reference-first-green-2026-09-13.txt",
+      "bytes": 99,
+      "sha256": "45856908faef3bf02edb86a8f31cf0c86f4f75c42d175d669821d99d302fb027"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-release-reference-final-tests-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-release-reference-final-tests-2026-09-13.txt",
+      "bytes": 180,
+      "sha256": "9e0f5a0fc121f8367e4a6b597809af21aeb03cf822f741de0266cbe26f11064a"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-canonical-release-tests-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-canonical-release-tests-2026-09-13.txt",
+      "bytes": 260,
+      "sha256": "3c4f36a860ec5e103f9864e28f60607c2322709d59181a587c6af8322091dc8e"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-canonical-release-tests-receipt-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-canonical-release-tests-receipt-2026-09-13.json",
+      "bytes": 615,
+      "sha256": "76f6f2d88458a32e01a81fa7bf4f914640d35920d4e7dfec432bf7e5cf207408"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-protected-before-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-protected-before-2026-09-13.json",
+      "bytes": 232497,
+      "sha256": "4c8665b2ef3922406241358e21fdba15ee6f052e6517fa869c5a90a80a0e3873"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-protected-after-verify-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-protected-after-verify-2026-09-13.json",
+      "bytes": 299,
+      "sha256": "1c0c69bd55d2f7f621c565794b946230593cd52f2aff536f882a4f0ce028c185"
+    }
+  ]
+}

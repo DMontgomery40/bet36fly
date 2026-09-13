@@ -91,6 +91,28 @@ per history, with all 4,064 KC identities preserved in the evidence arrays.
 This provides input to investigate a mechanism, without specifying release,
 clearance, receptor state or a successful learning update.
 
+## A per-DAN release construction with numerical verification
+
+The [DARELA source and transfer review](../../docs/evidence/reward-mechanism-repair-2026-09-12/darela-primary-source-contract-dopamine-sources-2026-09-13.md)
+now pins the external code and separates its mouse burst model from a proposed
+spike-driven input for our two PPL101 and 22 PAM12 cells. The proposed finite
+construction gives each identified DAN its own three release factors. Every
+actual spike advances that cell's state; emitted masses are then averaged
+over the unchanged channel populations. Two cell assignments with the same
+pooled spike counts can therefore give different modeled release.
+
+The fixed external parameter row, pre-event readout, exact inter-event
+recovery and rested reset are explicit engineering assumptions. The
+[mathematical contract](../../docs/evidence/reward-mechanism-repair-2026-09-12/darela-event-transfer-math-contract-delivered-arrivals-2026-09-13.md)
+establishes a finite 400 ms domain without an added cap, not steady tonic
+physiology. This helper is outside the production circuit. It neither
+reconstructs local dopamine concentration nor implements a KC receptor
+state, and it has not produced a new qualification or conditioning result.
+The [numerical checkpoint](../../docs/evidence/reward-mechanism-repair-2026-09-12/darela-source-transfer-checkpoint-2026-09-13.md)
+passes the fixed source-kernel comparison and independent event/bridge tests.
+The [current handoff](../../docs/REWARD_REPAIR_HANDOFF.md) records the next
+fixed-history screen; no screen result is yet available.
+
 The current learning qualification still fails. A future intracellular
 mechanism needs independently specified input units, state transitions,
 compartment scope and complete-tail behavior, followed by both qualification

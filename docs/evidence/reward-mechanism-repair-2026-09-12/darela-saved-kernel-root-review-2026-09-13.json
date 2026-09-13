@@ -1,0 +1,137 @@
+{
+  "run_id": "darela-source-kernel-42b38e1924b4af6c82cf",
+  "status": "passed",
+  "scope": "Independent saved-array review; no source imports or source/fit/neural execution",
+  "oracle": "Piecewise geometric active H0*q^n and quiet 1+(H0-1)*(1-dt/tau)^n, inclusive integer-index masks",
+  "atol": 1e-12,
+  "rtol": 1e-12,
+  "arrays_checked": 80,
+  "scalar_values_checked": 63080,
+  "bindings_checked": 132,
+  "maximum_absolute_error": 3.2862601528904634e-14,
+  "rows": [
+    {
+      "case": "manuscript_wt1_quiet",
+      "max_absolute_errors": {
+        "source_time": 8.881784197001252e-16,
+        "source_mask": 0.0,
+        "source_H": 0.0,
+        "source_A_old": 0.0,
+        "source_A_new": 0.0,
+        "reference_time": 0.0,
+        "reference_mask": 0.0,
+        "reference_H": 0.0,
+        "reference_A_old": 0.0,
+        "reference_A_new": 0.0
+      }
+    },
+    {
+      "case": "manuscript_wt1_single",
+      "max_absolute_errors": {
+        "source_time": 8.881784197001252e-16,
+        "source_mask": 0.0,
+        "source_H": 4.440892098500626e-15,
+        "source_A_old": 4.218847493575595e-15,
+        "source_A_new": 4.218847493575595e-15,
+        "reference_time": 0.0,
+        "reference_mask": 0.0,
+        "reference_H": 2.886579864025407e-15,
+        "reference_A_old": 3.3306690738754696e-15,
+        "reference_A_new": 3.3306690738754696e-15
+      }
+    },
+    {
+      "case": "manuscript_wt1_repeated",
+      "max_absolute_errors": {
+        "source_time": 3.552713678800501e-15,
+        "source_mask": 0.0,
+        "source_H": 3.2862601528904634e-14,
+        "source_A_old": 1.9984014443252818e-14,
+        "source_A_new": 1.9984014443252818e-14,
+        "reference_time": 0.0,
+        "reference_mask": 0.0,
+        "reference_H": 2.2648549702353193e-14,
+        "reference_A_old": 1.554312234475219e-14,
+        "reference_A_new": 1.554312234475219e-14
+      }
+    },
+    {
+      "case": "manuscript_wt1_nonunit",
+      "max_absolute_errors": {
+        "source_time": 8.881784197001252e-16,
+        "source_mask": 0.0,
+        "source_H": 5.10702591327572e-15,
+        "source_A_old": 1.3322676295501878e-15,
+        "source_A_new": 1.3322676295501878e-15,
+        "reference_time": 0.0,
+        "reference_mask": 0.0,
+        "reference_H": 3.941291737419306e-15,
+        "reference_A_old": 1.5543122344752192e-15,
+        "reference_A_new": 1.5543122344752192e-15
+      }
+    },
+    {
+      "case": "shipped_example_tau_quiet",
+      "max_absolute_errors": {
+        "source_time": 8.881784197001252e-16,
+        "source_mask": 0.0,
+        "source_H": 0.0,
+        "source_A_old": 0.0,
+        "source_A_new": 0.0,
+        "reference_time": 0.0,
+        "reference_mask": 0.0,
+        "reference_H": 0.0,
+        "reference_A_old": 0.0,
+        "reference_A_new": 0.0
+      }
+    },
+    {
+      "case": "shipped_example_tau_single",
+      "max_absolute_errors": {
+        "source_time": 8.881784197001252e-16,
+        "source_mask": 0.0,
+        "source_H": 4.440892098500626e-15,
+        "source_A_old": 4.218847493575595e-15,
+        "source_A_new": 4.218847493575595e-15,
+        "reference_time": 0.0,
+        "reference_mask": 0.0,
+        "reference_H": 2.886579864025407e-15,
+        "reference_A_old": 3.3306690738754696e-15,
+        "reference_A_new": 3.3306690738754696e-15
+      }
+    },
+    {
+      "case": "shipped_example_tau_repeated",
+      "max_absolute_errors": {
+        "source_time": 3.552713678800501e-15,
+        "source_mask": 0.0,
+        "source_H": 3.2862601528904634e-14,
+        "source_A_old": 9.769962616701378e-15,
+        "source_A_new": 9.769962616701378e-15,
+        "reference_time": 0.0,
+        "reference_mask": 0.0,
+        "reference_H": 2.2648549702353193e-14,
+        "reference_A_old": 5.551115123125783e-15,
+        "reference_A_new": 5.551115123125783e-15
+      }
+    },
+    {
+      "case": "shipped_example_tau_nonunit",
+      "max_absolute_errors": {
+        "source_time": 8.881784197001252e-16,
+        "source_mask": 0.0,
+        "source_H": 5.10702591327572e-15,
+        "source_A_old": 3.9968028886505635e-15,
+        "source_A_new": 3.9968028886505635e-15,
+        "reference_time": 0.0,
+        "reference_mask": 0.0,
+        "reference_H": 3.941291737419306e-15,
+        "reference_A_old": 4.107825191113079e-15,
+        "reference_A_new": 4.107825191113079e-15
+      }
+    }
+  ],
+  "review_code_sha256": "1d31eeffe57fa50f1e8643e63311852be2f5d01f9afc33720fe1b3d57e822ee9",
+  "parent_execution_sha256": "c30635b7c112f6f322274aac9127c3745297cc2209bcfd19f7e48e43fae5faf3",
+  "source_summary_sha256": "f35feae4cefb39084bca7f2b05d3ad321f8d4bb2beb5160992a48291bed766d3"
+}
