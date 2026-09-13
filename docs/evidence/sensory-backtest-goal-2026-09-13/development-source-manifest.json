@@ -1,0 +1,56 @@
+{
+  "status": "completed",
+  "sources": [
+    {
+      "year": 2019,
+      "url": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&gameType=R&season=2019",
+      "fetched_at": "2026-09-13T21:33:47.498945+00:00",
+      "sha256": "18191944f9a672af4f4f161388f4ed16f8bc26356e06c203a8af04cd44ead810",
+      "bytes": 3240027,
+      "eligible": 2425,
+      "exclusions": {
+        "unplayed": 39,
+        "resumed_or_suspended": 8
+      }
+    },
+    {
+      "year": 2020,
+      "url": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&gameType=R&season=2020",
+      "fetched_at": "2026-09-13T21:33:47.973731+00:00",
+      "sha256": "f16bed1f2c142b2a5b975be5fc5491d82a93e6b4ff761a8d511c77fcb8f0a093",
+      "bytes": 1283369,
+      "eligible": 896,
+      "exclusions": {
+        "unplayed": 73,
+        "resumed_or_suspended": 4
+      }
+    },
+    {
+      "year": 2021,
+      "url": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&gameType=R&season=2021",
+      "fetched_at": "2026-09-13T21:33:48.577082+00:00",
+      "sha256": "30f58024eda83d94d03ee3d097bd5bf28760d7931eb28edb5770272d0fb44059",
+      "bytes": 3298168,
+      "eligible": 2421,
+      "exclusions": {
+        "unplayed": 74,
+        "resumed_or_suspended": 17
+      }
+    },
+    {
+      "year": 2022,
+      "url": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&gameType=R&season=2022",
+      "fetched_at": "2026-09-13T21:33:49.154191+00:00",
+      "sha256": "11eeea60d8fa2616e66a191d9e0d3b0c30185c6e5fc3d5786884a0c4b1e1ba86",
+      "bytes": 3248731,
+      "eligible": 2429,
+      "exclusions": {
+        "unplayed": 48,
+        "resumed_or_suspended": 2
+      }
+    }
+  ],
+  "rows": 8171,
+  "confirmation_accessed": false,
+  "games_sha256": "8ad7a71c67e1bbfb27a8ba1cbc852383af8a5bbd84e68cbe2b2dc873c6166b1b"
+}

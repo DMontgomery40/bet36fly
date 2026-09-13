@@ -1,0 +1,231 @@
+{
+  "approximations": [
+    "No precontact spontaneous firing injected; quiescent model background is not a measured in-vivo baseline.",
+    "First-second recorded means are transferred uniformly within source-proposed receptor classes, not claimed as measurements from every MaleCNS cell.",
+    "Constant first-second drive preserves the reported mean window; onset/adaptation shape is unresolved.",
+    "Mixed is selective sweet+bitter channel coactivation, not a calibrated chemical sucrose+caffeine mixture; peripheral suppression and interactions are not implemented.",
+    "Water-driven ingestion and caffeine aversion are state dependent; no gut/hunger state is inferred or trained."
+  ],
+  "bin_ms": 20,
+  "conditions": [
+    {
+      "name": "null",
+      "rates_hz": {}
+    },
+    {
+      "name": "water",
+      "rates_hz": {
+        "water": 12.0
+      }
+    },
+    {
+      "name": "sweet",
+      "rates_hz": {
+        "sweet": 58.9
+      }
+    },
+    {
+      "name": "bitter",
+      "rates_hz": {
+        "bitter": 18.8
+      }
+    },
+    {
+      "name": "mixed",
+      "rates_hz": {
+        "bitter": 18.8,
+        "sweet": 58.9
+      }
+    }
+  ],
+  "dt_ms": 0.2,
+  "dynamics": {
+    "background_hz": 0,
+    "delay_ms": 1.8,
+    "designated_input_refractory_ms": 0,
+    "event_voltage_mv": 68.75,
+    "incoming_sensory_edges": "preserved",
+    "plastic_edges": 0,
+    "refractory_ms": 2.2,
+    "region_gain_interventions": [],
+    "rest_mv": -52,
+    "tau_membrane_ms": 20,
+    "tau_synapse_ms": 5,
+    "threshold_mv": -45,
+    "transmitter_signs": "existing fast proxy: ACh positive; GABA/glutamate/histamine negative; ambiguous/modulator-only positive, 3718 uncertain neurons"
+  },
+  "file_sha256": {
+    "bet36fly/connectome.py": "f350c9f318a1cf7219e3ba5ce144ea7458d69e6decb4b2425a634a9d002a79fb",
+    "bet36fly/experiment.py": "0c1d47307cd2f34d46c32c6ecc962e4bbc9e66ed910b7240e2dd7ec798c341d2",
+    "bet36fly/reward_brain.py": "5a6d67d38d226c6792c4f11430610772894ea3e9ae9593c2d215cfd7eaa0a6d5",
+    "bet36fly/sensory.py": "94ea41d9d21551ebe3223053267537ab7cdca130b8982b911a8f26698086e966",
+    "bet36fly/sensory_lif.cpp": "305e1bb03c0bf35869801cb6736806f787c595d761a0742609f85fd1a3942209",
+    "data/brain/counts.npy": "4a11faf9771fc3d5a5ff78ae7620ec1ce400f52d099ff657f0342cfc7a519f6b",
+    "data/brain/ids.npy": "ab90597b7b0ce07cbc22cb39a65b70bea2ac73cc7fd225951bd9d73f2fc8dd3f",
+    "data/brain/indptr.npy": "fe43420f11e6242a11f8199ae7f097cab4b8a6db181d36f2a46b9e46670acbb4",
+    "data/brain/nodes.feather": "d706a6dd5ec1dc17cfba2e8f439232723af81729bf1d0c17bf0cc73860a9c867",
+    "data/brain/post.npy": "ce20f7433f78442c717ad2a7b5394cf4a3b109d990b4be0788040b7b0f4ed150",
+    "data/brain/signs.npy": "4a0725e94d5014b2f17a70e3bdef3f7d843c0e81a8f22a33284aa10d8d62dab5",
+    "data/raw/annotations.feather": "2177e246113e4cfbf1e7772ec37c6da1955ff22e8063d0b1f833101f99a9a3b2",
+    "data/raw/connectome-weights.feather": "e35da783d1c686b2b58b3b87cd6a403ae43bfcfba8bff28e08ef752c1a56afc1",
+    "data/raw/neurotransmitters.feather": "95c9289220663abeb3409f3ad9e5a7f8a53f8093f5139d15502cd08da8879621",
+    "docs/connectome-source-lock.json": "df59963b365e4b70450a0ec3861bb845420d660a142cc2c43ad958a9f7767567",
+    "docs/evidence/sensory-backtest-goal-2026-09-13/source-grns.csv": "3480cecc400464a8706769bc442be60566bb7b70900cce71f1995f2d62a5110c",
+    "docs/evidence/sensory-backtest-goal-2026-09-13/source-lock.json": "27061a802a6b1ed77d62d0c13e137553223f2d1867aea5044588cd121103d0a0",
+    "docs/evidence/sensory-backtest-goal-2026-09-13/source-mns.csv": "3db8f93e3f5e537b1eea326cccffed6884f19f3694fa1b1839ed7db6f8340aa6",
+    "scripts/run_sensory_assay.py": "e644beea8052eaf76beefe33757d683b644464ecd537c0a8b390ffecb805e273"
+  },
+  "gates": {
+    "generator": "per-group binomial two-sided p>=1e-6 against requested event rate; per-cell events and actual spikes reported separately",
+    "null": "zero population activity",
+    "numerical": "finite voltage/synaptic state abs<=1e6 mV, <5% neurons exceed 100 Hz averaged across trial, zero prestimulus activity",
+    "repeat": "exact counts, sampled traces and input event bins for sweet seed17",
+    "response": "each seed sweet and water MN9 mean >1 Hz; mean bitter <=water; mixed MN9 mean <sweet for every common seed"
+  },
+  "grn_table": "docs/evidence/sensory-backtest-goal-2026-09-13/source-grns.csv",
+  "interpretation": "Conditional source-informed taste-channel stimulation in a quiescent Shiu-style model. Exact source-proposed cell identities; homogeneous cross-specimen rate transfer and a constant 1-second waveform are modeling assumptions. Not a reproduced natural food exposure, acquired learning, or sports result.",
+  "label": "sensory-assay-01-physiology-window-proxy",
+  "max_calls": 16,
+  "mn_table": "docs/evidence/sensory-backtest-goal-2026-09-13/source-mns.csv",
+  "onset_ms": 500,
+  "plasticity": false,
+  "populations": {
+    "MN9": [
+      10331,
+      16949
+    ],
+    "bitter": [
+      54104,
+      81741,
+      107241,
+      115666,
+      125111,
+      139178,
+      144334,
+      154544,
+      163395,
+      168492,
+      173462,
+      208885,
+      256844,
+      375038,
+      511882,
+      514546,
+      514547,
+      517255,
+      518112,
+      522746,
+      522752,
+      522753,
+      522754,
+      522761,
+      522762,
+      522841,
+      533618,
+      549024,
+      556797,
+      557937,
+      912379,
+      140334446,
+      144295263,
+      304136793,
+      324178811,
+      602736959,
+      772366874,
+      911389008
+    ],
+    "sweet": [
+      71254,
+      72059,
+      78240,
+      85806,
+      92440,
+      101087,
+      120303,
+      140015,
+      142827,
+      159772,
+      163597,
+      180314,
+      183084,
+      187492,
+      190769,
+      202888,
+      209155,
+      215556,
+      261450,
+      262567,
+      272263,
+      512551,
+      516217,
+      531237,
+      557646,
+      933317,
+      942168,
+      957530,
+      158893964,
+      174444965,
+      213650853,
+      349137284,
+      475202322,
+      766547228
+    ],
+    "water": [
+      136183,
+      140619,
+      141663,
+      160435,
+      166190,
+      167663,
+      178913,
+      183061,
+      187776,
+      199308,
+      203234,
+      374701,
+      518542,
+      388541892,
+      456838775,
+      553738738,
+      786482749
+    ]
+  },
+  "recovery_ms": 500,
+  "schema": 1,
+  "seeds": [
+    17,
+    43,
+    101
+  ],
+  "source_measurements": {
+    "age": "2\u20133-day flies transferred to fresh medium one day before recording",
+    "baseline_correction": "none stated for extracellular counts; these are recorded first-second spike frequencies",
+    "bitter": {
+      "mM": 10,
+      "mean_hz": 18.8,
+      "sem_hz": 3,
+      "sensillum": "i-type Gr66a control; transfer to broad 38-cell source-proposed Gr33a LB1a-d population, exact bristle subclasses unresolved",
+      "tastant": "caffeine"
+    },
+    "doi": "10.1038/nature09011",
+    "electrolyte": "1 mM KCl in all test solutions",
+    "sweet": {
+      "mM": 100,
+      "mean_hz": 58.9,
+      "sem_hz": 3.3,
+      "sensillum": "l-type; population transfer to 34 source-proposed Gr64f LB3b/c cells",
+      "tastant": "sucrose"
+    },
+    "water": {
+      "mean_hz": 12,
+      "sem_hz": 0.9,
+      "sensillum": "l-type; transfer to 17 source-proposed ppk28 LB3a cells",
+      "tastant": "water with 1 mM KCl electrolyte"
+    },
+    "window_ms": 1000
+  },
+  "stimulus_ms": 1000,
+  "stopping": "Complete finite controls; stop immediately for numerical/generator/runtime failure; no two-probe or sports expansion unless response and repeat gates pass. Any revision receives a new identity before running.",
+  "synapse_mv": 0.275,
+  "wall_cap_seconds": 3600
+}

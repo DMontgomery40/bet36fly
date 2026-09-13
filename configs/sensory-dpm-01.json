@@ -1,0 +1,47 @@
+{
+  "baseline": "output/sensory/sensory-42234be994aca8e42414",
+  "file_sha256": {
+    "bet36fly/connectome.py": "f350c9f318a1cf7219e3ba5ce144ea7458d69e6decb4b2425a634a9d002a79fb",
+    "bet36fly/experiment.py": "0c1d47307cd2f34d46c32c6ecc962e4bbc9e66ed910b7240e2dd7ec798c341d2",
+    "bet36fly/reward_brain.py": "5a6d67d38d226c6792c4f11430610772894ea3e9ae9593c2d215cfd7eaa0a6d5",
+    "bet36fly/sensory.py": "94ea41d9d21551ebe3223053267537ab7cdca130b8982b911a8f26698086e966",
+    "bet36fly/sensory_diagnostic.py": "a31fda95dd5cddf04cbb37b65f5c05aa538e1c55d11d2695b050b4cf9f00095c",
+    "bet36fly/sensory_lif.cpp": "305e1bb03c0bf35869801cb6736806f787c595d761a0742609f85fd1a3942209",
+    "configs/sensory-assay-01.json": "42234be994aca8e42414a9613b0c9ef25f4cd484c7ae0a29337ff707c89390cc",
+    "data/brain/counts.npy": "4a11faf9771fc3d5a5ff78ae7620ec1ce400f52d099ff657f0342cfc7a519f6b",
+    "data/brain/ids.npy": "ab90597b7b0ce07cbc22cb39a65b70bea2ac73cc7fd225951bd9d73f2fc8dd3f",
+    "data/brain/indptr.npy": "fe43420f11e6242a11f8199ae7f097cab4b8a6db181d36f2a46b9e46670acbb4",
+    "data/brain/nodes.feather": "d706a6dd5ec1dc17cfba2e8f439232723af81729bf1d0c17bf0cc73860a9c867",
+    "data/brain/post.npy": "ce20f7433f78442c717ad2a7b5394cf4a3b109d990b4be0788040b7b0f4ed150",
+    "data/brain/signs.npy": "4a0725e94d5014b2f17a70e3bdef3f7d843c0e81a8f22a33284aa10d8d62dab5",
+    "data/raw/annotations.feather": "2177e246113e4cfbf1e7772ec37c6da1955ff22e8063d0b1f833101f99a9a3b2",
+    "data/raw/connectome-weights.feather": "e35da783d1c686b2b58b3b87cd6a403ae43bfcfba8bff28e08ef752c1a56afc1",
+    "data/raw/neurotransmitters.feather": "95c9289220663abeb3409f3ad9e5a7f8a53f8093f5139d15502cd08da8879621",
+    "docs/connectome-source-lock.json": "df59963b365e4b70450a0ec3861bb845420d660a142cc2c43ad958a9f7767567",
+    "docs/evidence/sensory-backtest-goal-2026-09-13/dpm-retrieval.json": "f05e4bdd5064d8b7b0acad84fa13894441b08743d62a5ca5e5c2e548f1172445",
+    "docs/evidence/sensory-backtest-goal-2026-09-13/source-grns.csv": "3480cecc400464a8706769bc442be60566bb7b70900cce71f1995f2d62a5110c",
+    "docs/evidence/sensory-backtest-goal-2026-09-13/source-lock.json": "27061a802a6b1ed77d62d0c13e137553223f2d1867aea5044588cd121103d0a0",
+    "docs/evidence/sensory-backtest-goal-2026-09-13/source-mns.csv": "3db8f93e3f5e537b1eea326cccffed6884f19f3694fa1b1839ed7db6f8340aa6",
+    "output/sensory/sensory-42234be994aca8e42414/manifest.json": "e0713db98be4dd05481b9553dd0369c035079ca4d414a363cc03981b8f13db74",
+    "output/sensory/sensory-42234be994aca8e42414/trial-06.npz": "eb6b59ef99a54084bbe09bd5adca73483f65946f370a29c50ce863983fdecd87",
+    "output/sensory/sensory-42234be994aca8e42414/trial-10.npz": "61388b83baba36a3bbb893d0a2d96f505c833593ee0869d9a22050e3e55ba25a",
+    "output/sensory/sensory-42234be994aca8e42414/trial-12.npz": "09cea55eac301108e52689240297260d6a63b98cf393e896481bf3835d4d4907",
+    "scripts/run_sensory_assay.py": "e644beea8052eaf76beefe33757d683b644464ecd537c0a8b390ffecb805e273",
+    "scripts/run_sensory_diagnostic.py": "c64bcf361ce181dbfd2e85820da7292fd1e726de6f2c2d3c38b18b3b16a50c68"
+  },
+  "hypothesis": "Removing or reversing only the two DPM outgoing fast weights reduces final 200 ms population spikes by at least 90 percent in all three matched trials. Input events must be identical. This is a causal stability test, not natural-response qualification.",
+  "label": "DPM matched fast-transmission causal diagnostic",
+  "max_calls": 6,
+  "modes": [
+    "zero",
+    "inhibitory"
+  ],
+  "plasticity": false,
+  "rationale": "Persistent post-offset activity and strong DPM/KC coactivation in assay01; Haynes 2015 eLife.03868 reports GABA and 5HT, no TH/ChAT, and inhibitory DPM-to-MB evidence. Uniform negative fast sign at every DPM contact remains an approximation, not a measured all-target synaptic model. Native predicted dopamine labels remain untouched.",
+  "schema": 1,
+  "trials": [
+    6,
+    10,
+    12
+  ]
+}

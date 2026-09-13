@@ -1,0 +1,19 @@
+{
+  "checked_date": "2026-09-13",
+  "cache_directory": "research/sensory-backtest-goal-2026-09-13",
+  "sha256": {
+    "supplement1.pdf": "099586a04f8ff0f02bf0fd9bcf8cedfa7531cffced664720e43d6800011d71a7",
+    "supplement2.xlsx": "7b28d5f3ae45d68c510b8a3616700f0df2a5a6f2e2d2dba490d172939f2b64c9",
+    "preprint.pdf": "5a1ed1d59b44613530df175121496d5a0e1184e16f5ee098fe57e56fa7e19545",
+    "figure2.jpg": "74fcc330d63ef7b43c8a570be3ac32d2d40cc0cdf98b7c4321961fdc54462ec2",
+    "PMC2865571.xml": "6361b49d3e4df7df9de7ad76852174bcf66bf9dd1c631f8627e1bbdebe50d535"
+  },
+  "derived_table_sha256": {
+    "source-grns.csv": "3480cecc400464a8706769bc442be60566bb7b70900cce71f1995f2d62a5110c",
+    "source-mns.csv": "3db8f93e3f5e537b1eea326cccffed6884f19f3694fa1b1839ed7db6f8340aa6"
+  },
+  "source_notes": {
+    "Tastekin": "Cell 2026 DOI 10.1016/j.cell.2026.08.016 published Figure 2, supplement S1/S2/S10/S17 and original Table 2 workbook; preprint v2 December 13 2025 morphology and methods independently read. Proposed functional identities, not receptor sequencing in EM.",
+    "Cameron": "Nature 2010 DOI 10.1038/nature09011 full text and figure captions from Europe PMC XML; 1-second raw extracellular bristle spike counts, all test solutions 1 mM KCl; 100 mM sucrose, water, 10 mM caffeine. Original image access unsuccessful; numerical means and SEM directly stated in Results, not digitized."
+  }
+}

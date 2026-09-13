@@ -106,3 +106,7 @@ Browser execution records are preserved as [reward browser evidence](../docs/evi
 The scientific hold SCI-001 remains. No new acquisition, reversal, schema-5 backtest, biology validation or external community reproduction ran. Existing full-circuit diagnostics were inspected rather than replayed. The raw weight table was not re-imported, and not every external link in the copied wiki was refreshed. Browser acceptance covers the existing reward workflow and the changed explanation, not an interactive wiki application or every product route.
 
 [Wiki index](index.md) · [Reassessment](reassessment.md)
+
+## September13 sensory goal preconfirmation gate
+
+The [new verification record](../docs/evidence/sensory-backtest-goal-2026-09-13/verification.md) records4,132 Python tests,103 frontend tests, Ruff/build and guarded browser acceptance. This is software/retained-UI evidence, separate from the narrower passed sensory and external-probe assays and the still-pending sports confirmation.

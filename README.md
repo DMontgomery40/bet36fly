@@ -1,10 +1,12 @@
 # BET36FLY
 
+**Active goal:** continue the natural-sensory pipeline through better-than-chance held-out backtesting under the [new execution protocol](docs/EXPERIMENT_SENSORY.md). This is an objective, not an achieved result. Historical models and failed results remain protected.
+
 ## Latest sensory checkpoint
 
-[Natural sensory calibration](docs/evidence/natural-sensory-calibration-2026-09-13/index.md) now records exact candidate cells, source measurements and native projections. The rate/cell contract remains unresolved, so no new sensory simulation ran. [Next bounded decision](docs/NATURAL_SENSORY_HANDOFF.md).
+The [current sensory evidence](docs/evidence/sensory-backtest-goal-2026-09-13/index.md) now includes a passed **second-order gustatory response** and an **external comparison of independent reset probes**. Source-identified Clavicle/Quasimodo outputs passed fresh-seed, timing and recovery checks; MN9 feeding qualification remains failed. A frozen encoder/readout pipeline reached 58.3% accuracy on 2022 development data, with no demonstrated advantage over its encoder alone. The selected pipeline is frozen before a single 2023 confirmation; no confirmation outcome has yet been accessed. V1 stays active and v2 paused.
 
-**Current research direction, September 13:** represent matchup information as two food opportunities using calibrated fruit-odor or sweet/aversive taste patterns, establish the circuit's natural sensory response, then measure its contribution to matchup selection. Both teams can be attractive. Read the [canonical direction](docs/PROJECT_DIRECTION.md), [continuation prompt](docs/NATURAL_SENSORY_HANDOFF.md) and [measured sensory-rate evidence](wiki/natural-sensory-inputs.md). This is the next research task, not an implemented sensory encoder or a new active model.
+**Current research direction, September 13:** represent matchup information as two food opportunities using calibrated fruit-odor or sweet/aversive taste patterns, establish the circuit's natural sensory response, then measure its contribution to matchup selection. Both teams can be attractive. Read the [canonical direction](docs/PROJECT_DIRECTION.md), [continuation prompt](docs/NATURAL_SENSORY_HANDOFF.md) and [measured sensory-rate evidence](wiki/natural-sensory-inputs.md). The source-informed assay is implemented as an offline research tool; the active model is unchanged.
 
 Read the [fly cell and circuit wiki](wiki/index.md) for the [reassessment](wiki/reassessment.md), exact neuron identities, learning-rule limits, and copied Microduck research. The legacy refractory correction, gamma away eligibility mask and rate bridge are integrated; qualification and subsequent fixed shadows failed. [Repair evidence](docs/evidence/reward-mechanism-repair-2026-09-12/index.md) retains SCI-001 HOLD. The new plasticity-off sensory assay does not depend on that learning repair. Conditioning and reversal remain unrun.
 

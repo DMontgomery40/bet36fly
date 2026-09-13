@@ -5,13 +5,15 @@ status: natural-sensory-priority-legacy-learning-unvalidated
 ---
 # Where BET36FLY stands, and what went wrong
 
+**Active goal:** continue the natural-sensory pipeline through better-than-chance held-out backtesting under the [new execution protocol](../docs/EXPERIMENT_SENSORY.md). This is an objective, not an achieved result. Historical models and failed results remain protected.
+
 ## Latest calibration checkpoint
 
-The [September 13 calibration](../docs/evidence/natural-sensory-calibration-2026-09-13/index.md) adds exact anatomy and measurement contracts, with zero sensory neural calls. Taste modality identities and absolute rate schedules remain unresolved; the ORN fallback has verified anatomical projections but no demonstrated natural response or valence. The next bounded decision is the newly identified Tastekin molecular subtype table, not another legacy learning repair.
+The [current sensory evidence](../docs/evidence/sensory-backtest-goal-2026-09-13/index.md) now includes a passed **second-order gustatory response** and an **external comparison of independent reset probes**. Source-identified Clavicle/Quasimodo outputs passed fresh-seed, timing and recovery checks; MN9 feeding qualification remains failed. A frozen encoder/readout pipeline reached 58.3% accuracy on 2022 development data, with no demonstrated advantage over its encoder alone. The selected pipeline is frozen before a single 2023 confirmation; no confirmation outcome has yet been accessed. V1 stays active and v2 paused.
 
 **The immediate gap is a biologically grounded sensory task.** David's September 13 reorientation calls for food-related input patterns that represent two matchup opportunities, allowing both to be attractive. The legacy sports-to-ALPN type assignment has no fruit/sugar calibration. First demonstrate a finite plasticity-off natural-response assay; then distinguish two opportunities and evaluate pregame encoding. [Canonical direction](../docs/PROJECT_DIRECTION.md), [source rates and cell inventory](natural-sensory-inputs.md), [audit](../docs/evidence/natural-sensory-reorientation-2026-09-13/index.md), [handoff](../docs/NATURAL_SENSORY_HANDOFF.md).
 
-The drift was turning repair of a specific learning guard into the overall objective and freezing an arbitrary sensory interface indefinitely. Numerical/source-model verification remains useful, but it does not demonstrate the requested sensory behavior. Innate response does not require associative learning to qualify first. No natural-response assay ran in this documentation task, and no old failure was reclassified.
+The drift was turning repair of a specific learning guard into the overall objective and freezing an arbitrary sensory interface indefinitely. Numerical/source-model verification remains useful, but it does not demonstrate the requested sensory behavior. Innate response does not require associative learning to qualify first. The earlier zero-call documentation checkpoint is preserved; later failed assay results have their own identities.
 
 We have real anatomical connectivity, an executing spiking circuit and measured gain changes. Controlled acquisition, reversal and improved sports prediction remain unestablished. The biological approach is not refuted by these engineered failures. The dated account below preserves the **legacy learning** state; its next-step language is superseded by the natural-sensory handoff.
 

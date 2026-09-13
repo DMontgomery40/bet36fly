@@ -2,6 +2,10 @@
 
 All endpoints are same-origin under `/api`. The production FastAPI process serves the built React app. Phase 1 is paper picks only; no account or monetary balance UI. Missing data is an explicit empty/error/loading state, never seeded values.
 
+## Offline sensory research boundary
+
+The separate `sensory-*.json` protocols write source, native probe and historical backtest artifacts under `output/sensory` and `output/sensory-sports`. They are CLI research workflows, not new API endpoints, model registry entries or live picks. The frontend continues to show the active historical v1, paused v2 and stored legacy diagnostics. No sensory result is silently promoted into their status, charts or probabilities. The current sensory evidence and limitations are documented in the model card and dated evidence; exposing a future assay in the UI requires an explicit contract for stimuli, requested/achieved rates, readout and evidence status.
+
 ## Read-only verification server
 
 Start browser QA with `make serve-verify`. This uses the explicit factory

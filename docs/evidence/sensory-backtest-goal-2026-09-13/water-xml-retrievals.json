@@ -1,0 +1,19 @@
+[
+  {
+    "file": "PMC2865571.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2865571/fullTextXML",
+    "bytes": 72434,
+    "sha256": "6361b49d3e4df7df9de7ad76852174bcf66bf9dd1c631f8627e1bbdebe50d535"
+  },
+  {
+    "file": "PMC6632709",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6632709/fullTextXML",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "file": "PMC5711950.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5711950/fullTextXML",
+    "bytes": 90453,
+    "sha256": "d13d0cabb7d208817d5af2f81ed5d8dd3a416ba4f41a218cbc6478c4dfa3aa76"
+  }
+]

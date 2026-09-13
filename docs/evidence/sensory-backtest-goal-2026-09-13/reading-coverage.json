@@ -1,0 +1,15 @@
+{
+  "earlier_authored_wiki_reading": "../natural-sensory-calibration-2026-09-13/reading-coverage.json",
+  "continuity": "Complete authored wiki and relevant copied primary research read earlier in this conversation; later authored changes reconciled directly with code/results.",
+  "new_sources_read": [
+    "Tastekin published Figure2 and Table2 workbook, supplemental S1/S2/S10/S16/S17 plus captions; December2025 preprintv2 relevant morphology/methods",
+    "Cameron2010 primary Results, recording methods and figure captions in EuropePMC XML",
+    "Haynes2015 transmitter, functional inhibition, MB receptor and interpretation sections plus relevant figure captions",
+    "Entire pinned Shiu model.py rechecked against native dynamics; published model proxy and limitations checked"
+  ],
+  "unverified": [
+    "No reproduced natural food exposure or MN9 feeding qualification",
+    "No branch-specific GABA/serotonin DPM mechanism or metabotropic model",
+    "No physical contact-area to recruited-population calibration"
+  ]
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "file": "supplement1.pdf",
+    "url": "https://ars.els-cdn.com/content/image/1-s2.0-S0092867426009438-mmc1.pdf",
+    "status": 200,
+    "mime": "application/pdf",
+    "bytes": 16121775,
+    "sha256": "099586a04f8ff0f02bf0fd9bcf8cedfa7531cffced664720e43d6800011d71a7"
+  },
+  {
+    "file": "supplement2.xlsx",
+    "url": "https://ars.els-cdn.com/content/image/1-s2.0-S0092867426009438-mmc2.xlsx",
+    "status": 200,
+    "mime": "application/excel",
+    "bytes": 186967,
+    "sha256": "7b28d5f3ae45d68c510b8a3616700f0df2a5a6f2e2d2dba490d172939f2b64c9"
+  },
+  {
+    "file": "supplement3.xlsx",
+    "url": "https://ars.els-cdn.com/content/image/1-s2.0-S0092867426009438-mmc3.xlsx",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "file": "elsevier.xml",
+    "url": "https://api.elsevier.com/content/article/pii/S0092867426009438?httpAccept=text/xml",
+    "status": 200,
+    "mime": "text/xml;charset=UTF-8",
+    "bytes": 1849,
+    "sha256": "60f959a5469f8befa3a0b2b5f8f8b3d05831e29b3fda9740da5576f658dd300a"
+  },
+  {
+    "file": "malecns-tree.json",
+    "url": "https://api.github.com/repos/flyconnectome/2025malecns/git/trees/main?recursive=1",
+    "status": 200,
+    "mime": "application/json; charset=utf-8",
+    "bytes": 4251,
+    "sha256": "19a42271a1d6e2525db97b5a16160833031f393396bf9fda641ad49896dbf01a"
+  },
+  {
+    "file": "tastekin-epmc.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PPR1072256/fullTextXML",
+    "error": "HTTP Error 404: Not Found"
+  }
+]

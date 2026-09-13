@@ -5,11 +5,13 @@ status: active
 ---
 # BET36FLY: cells, circuits, and learning
 
+**Active goal:** continue the natural-sensory pipeline through better-than-chance held-out backtesting under the [new execution protocol](../docs/EXPERIMENT_SENSORY.md). This is an objective, not an achieved result. Historical models and failed results remain protected.
+
 ## Latest evidence
 
-[Natural sensory calibration](../docs/evidence/natural-sensory-calibration-2026-09-13/index.md): exact cell candidates and projections exported; physiological drive unresolved; zero sensory neural calls. [Prepared two-source and sports contract](../docs/evidence/natural-sensory-calibration-2026-09-13/sports-contract.md).
+The [current sensory evidence](../docs/evidence/sensory-backtest-goal-2026-09-13/index.md) now includes a passed **second-order gustatory response** and an **external comparison of independent reset probes**. Source-identified Clavicle/Quasimodo outputs passed fresh-seed, timing and recovery checks; MN9 feeding qualification remains failed. A frozen encoder/readout pipeline reached 58.3% accuracy on 2022 development data, with no demonstrated advantage over its encoder alone. The selected pipeline is frozen before a single 2023 confirmation; no confirmation outcome has yet been accessed. V1 stays active and v2 paused.
 
-Start with the [current direction](../docs/PROJECT_DIRECTION.md), [reassessment](reassessment.md), and [natural sensory inputs](natural-sensory-inputs.md). David's September 13 reorientation puts a calibrated food-related sensory-response assay first, then two distinguishable matchup opportunities. Both teams can be attractive. This interface is not implemented. The [continuation prompt](../docs/NATURAL_SENSORY_HANDOFF.md) supersedes the old repair queue.
+Start with the [current direction](../docs/PROJECT_DIRECTION.md), [reassessment](reassessment.md), and [natural sensory inputs](natural-sensory-inputs.md). David's September 13 reorientation puts a calibrated food-related sensory-response assay first, then two distinguishable matchup opportunities. Both teams can be attractive. The separate offline sensory interface is implemented; the production model remains unchanged. The [continuation prompt](../docs/NATURAL_SENSORY_HANDOFF.md) supersedes the old repair queue.
 
 A usable activity range and changing gains have been demonstrated in the legacy mushroom-body experiment; useful associative learning has not. This wiki connects MaleCNS cells to implemented mechanisms, measured failures and the evidence needed for the new sensory task.
 

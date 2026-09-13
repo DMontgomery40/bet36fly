@@ -1,0 +1,51 @@
+{
+  "checked_date": "2026-09-13",
+  "source": "Native v1.0 annotation synonyms and Tastekin2026 supplemental figuresS16/S17",
+  "cells": [
+    {
+      "body_id": 19480,
+      "type": "ANXXX462a",
+      "native_alias": "Shiu 2022: Clavicle",
+      "transmitter": "acetylcholine",
+      "direct_selected_input_contacts": {
+        "sweet": 388,
+        "water": 107,
+        "bitter": 0
+      }
+    },
+    {
+      "body_id": 514625,
+      "type": "ANXXX462a",
+      "native_alias": "Shiu 2022: Clavicle",
+      "transmitter": "acetylcholine",
+      "direct_selected_input_contacts": {
+        "sweet": 396,
+        "water": 114,
+        "bitter": 0
+      }
+    },
+    {
+      "body_id": 15321,
+      "type": "GNG042",
+      "native_alias": "Shiu 2022: Quasimodo",
+      "transmitter": "gaba",
+      "direct_selected_input_contacts": {
+        "sweet": 477,
+        "water": 87,
+        "bitter": 0
+      }
+    },
+    {
+      "body_id": 15734,
+      "type": "GNG042",
+      "native_alias": "Shiu 2022: Quasimodo",
+      "transmitter": "gaba",
+      "direct_selected_input_contacts": {
+        "sweet": 459,
+        "water": 109,
+        "bitter": 0
+      }
+    }
+  ],
+  "limit": "Contact counts and aliases are anatomy evidence, not causal feeding proof."
+}

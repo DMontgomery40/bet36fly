@@ -1,0 +1,34 @@
+[
+  {
+    "file": "figure1.jpg",
+    "url": "https://ars.els-cdn.com/content/image/1-s2.0-S0092867426009438-gr1.jpg",
+    "status": 200,
+    "mime": "image/jpeg",
+    "bytes": 180902,
+    "sha256": "028f0ba2d914dab366175538467d1aa8d74f5afdba850f0a3db26ca606f6de4e"
+  },
+  {
+    "file": "figure2.jpg",
+    "url": "https://ars.els-cdn.com/content/image/1-s2.0-S0092867426009438-gr2.jpg",
+    "status": 200,
+    "mime": "image/jpeg",
+    "bytes": 153728,
+    "sha256": "74fcc330d63ef7b43c8a570be3ac32d2d40cc0cdf98b7c4321961fdc54462ec2"
+  },
+  {
+    "file": "figure3.jpg",
+    "url": "https://ars.els-cdn.com/content/image/1-s2.0-S0092867426009438-gr3.jpg",
+    "status": 200,
+    "mime": "image/jpeg",
+    "bytes": 149537,
+    "sha256": "248e0b01a6cf23bf1a50d09d701548d7c240a73c1fd6c369d438c65efc94f9eb"
+  },
+  {
+    "file": "preprint.pdf",
+    "url": "https://www.biorxiv.org/content/10.1101/2025.08.25.671814v2.full.pdf",
+    "status": 200,
+    "mime": "application/pdf",
+    "bytes": 14781283,
+    "sha256": "5a1ed1d59b44613530df175121496d5a0e1184e16f5ee098fe57e56fa7e19545"
+  }
+]

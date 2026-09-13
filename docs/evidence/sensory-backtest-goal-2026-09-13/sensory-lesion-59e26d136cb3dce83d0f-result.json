@@ -1,0 +1,152 @@
+{
+  "identity": "sensory-lesion-59e26d136cb3dce83d0f",
+  "status": "completed",
+  "neural_calls": 9,
+  "rows": [
+    {
+      "mode": "modulator",
+      "trial": 53,
+      "condition": "sweet",
+      "seed": 401,
+      "input_events_identical": true,
+      "MN9_hz": [
+        105,
+        21
+      ],
+      "tail_spikes": 8075,
+      "reference_tail_spikes": 198118,
+      "total_spikes": 57229,
+      "wall_seconds": 2.900786334183067,
+      "tail_reduction_at_least_90_percent": true
+    },
+    {
+      "mode": "modulator",
+      "trial": 56,
+      "condition": "bitter",
+      "seed": 401,
+      "input_events_identical": true,
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 128101,
+      "reference_tail_spikes": 195404,
+      "total_spikes": 784487,
+      "wall_seconds": 4.394855415914208,
+      "tail_reduction_at_least_90_percent": false
+    },
+    {
+      "mode": "modulator",
+      "trial": 59,
+      "condition": "mixed",
+      "seed": 401,
+      "input_events_identical": true,
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 127595,
+      "reference_tail_spikes": 195110,
+      "total_spikes": 832816,
+      "wall_seconds": 4.442219959106296,
+      "tail_reduction_at_least_90_percent": false
+    },
+    {
+      "mode": "ALLN",
+      "trial": 53,
+      "condition": "sweet",
+      "seed": 401,
+      "input_events_identical": true,
+      "MN9_hz": [
+        60,
+        4
+      ],
+      "tail_spikes": 22349,
+      "reference_tail_spikes": 198118,
+      "total_spikes": 143522,
+      "wall_seconds": 3.0752356669399887,
+      "tail_reduction_at_least_90_percent": false
+    },
+    {
+      "mode": "ALLN",
+      "trial": 56,
+      "condition": "bitter",
+      "seed": 401,
+      "input_events_identical": true,
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 27955,
+      "reference_tail_spikes": 195404,
+      "total_spikes": 125985,
+      "wall_seconds": 3.0550599580165,
+      "tail_reduction_at_least_90_percent": false
+    },
+    {
+      "mode": "ALLN",
+      "trial": 59,
+      "condition": "mixed",
+      "seed": 401,
+      "input_events_identical": true,
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 28036,
+      "reference_tail_spikes": 195110,
+      "total_spikes": 175033,
+      "wall_seconds": 3.1324179579969496,
+      "tail_reduction_at_least_90_percent": false
+    },
+    {
+      "mode": "union",
+      "trial": 53,
+      "condition": "sweet",
+      "seed": 401,
+      "input_events_identical": true,
+      "MN9_hz": [
+        105,
+        21
+      ],
+      "tail_spikes": 8075,
+      "reference_tail_spikes": 198118,
+      "total_spikes": 57229,
+      "wall_seconds": 2.8653460829518735,
+      "tail_reduction_at_least_90_percent": true
+    },
+    {
+      "mode": "union",
+      "trial": 56,
+      "condition": "bitter",
+      "seed": 401,
+      "input_events_identical": true,
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 6340,
+      "reference_tail_spikes": 195404,
+      "total_spikes": 56057,
+      "wall_seconds": 3.0334895411506295,
+      "tail_reduction_at_least_90_percent": true
+    },
+    {
+      "mode": "union",
+      "trial": 59,
+      "condition": "mixed",
+      "seed": 401,
+      "input_events_identical": true,
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 8753,
+      "reference_tail_spikes": 195110,
+      "total_spikes": 62582,
+      "wall_seconds": 3.055090666981414,
+      "tail_reduction_at_least_90_percent": true
+    }
+  ],
+  "hypothesis_supported": false
+}

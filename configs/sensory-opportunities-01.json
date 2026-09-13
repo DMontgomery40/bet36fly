@@ -1,0 +1,213 @@
+{
+  "dt_ms": 0.2,
+  "examples": [
+    {
+      "intervals": [
+        [
+          0.5,
+          0.5
+        ],
+        [
+          0.5,
+          0.5
+        ]
+      ],
+      "name": "equal",
+      "qualities": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "intervals": [
+        [
+          0.8,
+          0.9
+        ],
+        [
+          0.75,
+          0.85
+        ]
+      ],
+      "name": "good",
+      "qualities": [
+        0.85,
+        0.8
+      ]
+    },
+    {
+      "intervals": [
+        [
+          0.2,
+          0.2
+        ],
+        [
+          0.2,
+          0.2
+        ]
+      ],
+      "name": "poor",
+      "qualities": [
+        0.2,
+        0.2
+      ]
+    },
+    {
+      "intervals": [
+        [
+          0.85,
+          0.95
+        ],
+        [
+          0.05,
+          0.15
+        ]
+      ],
+      "name": "contrast",
+      "qualities": [
+        0.9,
+        0.1
+      ]
+    },
+    {
+      "intervals": [
+        [
+          0.15,
+          0.95
+        ],
+        [
+          0.05,
+          0.85
+        ]
+      ],
+      "name": "uncertain",
+      "qualities": [
+        0.65,
+        0.35
+      ]
+    },
+    {
+      "intervals": [
+        [
+          0.75,
+          0.85
+        ],
+        [
+          0.8,
+          0.9
+        ]
+      ],
+      "name": "good_swapped",
+      "qualities": [
+        0.8,
+        0.85
+      ]
+    },
+    {
+      "intervals": [
+        [
+          0.05,
+          0.15
+        ],
+        [
+          0.85,
+          0.95
+        ]
+      ],
+      "name": "contrast_swapped",
+      "qualities": [
+        0.1,
+        0.9
+      ]
+    }
+  ],
+  "file_sha256": {
+    "bet36fly/connectome.py": "f350c9f318a1cf7219e3ba5ce144ea7458d69e6decb4b2425a634a9d002a79fb",
+    "bet36fly/experiment.py": "0c1d47307cd2f34d46c32c6ecc962e4bbc9e66ed910b7240e2dd7ec798c341d2",
+    "bet36fly/reward_brain.py": "5a6d67d38d226c6792c4f11430610772894ea3e9ae9593c2d215cfd7eaa0a6d5",
+    "bet36fly/sensory.py": "94ea41d9d21551ebe3223053267537ab7cdca130b8982b911a8f26698086e966",
+    "bet36fly/sensory_lif.cpp": "305e1bb03c0bf35869801cb6736806f787c595d761a0742609f85fd1a3942209",
+    "bet36fly/sensory_opportunities.py": "54bc8e0cbe62a8efd1627d0af3d0bf6b56630fb00306a240a535d00a6c0a2f42",
+    "bet36fly/sensory_probe.py": "5e199ae364c1f571398299d8c4d064e1ccd3b07889649b0df6502199af4783a0",
+    "configs/sensory-assay-01.json": "42234be994aca8e42414a9613b0c9ef25f4cd484c7ae0a29337ff707c89390cc",
+    "configs/sensory-second-order-01.json": "e243b80a7806da536f6b85e107053448c3ee9106b2c8c6a9ca57f7f57e78f359",
+    "data/brain/counts.npy": "4a11faf9771fc3d5a5ff78ae7620ec1ce400f52d099ff657f0342cfc7a519f6b",
+    "data/brain/ids.npy": "ab90597b7b0ce07cbc22cb39a65b70bea2ac73cc7fd225951bd9d73f2fc8dd3f",
+    "data/brain/indptr.npy": "fe43420f11e6242a11f8199ae7f097cab4b8a6db181d36f2a46b9e46670acbb4",
+    "data/brain/nodes.feather": "d706a6dd5ec1dc17cfba2e8f439232723af81729bf1d0c17bf0cc73860a9c867",
+    "data/brain/post.npy": "ce20f7433f78442c717ad2a7b5394cf4a3b109d990b4be0788040b7b0f4ed150",
+    "data/brain/signs.npy": "4a0725e94d5014b2f17a70e3bdef3f7d843c0e81a8f22a33284aa10d8d62dab5",
+    "data/raw/annotations.feather": "2177e246113e4cfbf1e7772ec37c6da1955ff22e8063d0b1f833101f99a9a3b2",
+    "data/raw/connectome-weights.feather": "e35da783d1c686b2b58b3b87cd6a403ae43bfcfba8bff28e08ef752c1a56afc1",
+    "data/raw/neurotransmitters.feather": "95c9289220663abeb3409f3ad9e5a7f8a53f8093f5139d15502cd08da8879621",
+    "docs/connectome-source-lock.json": "df59963b365e4b70450a0ec3861bb845420d660a142cc2c43ad958a9f7767567",
+    "docs/evidence/sensory-backtest-goal-2026-09-13/source-grns.csv": "3480cecc400464a8706769bc442be60566bb7b70900cce71f1995f2d62a5110c",
+    "docs/evidence/sensory-backtest-goal-2026-09-13/source-lock.json": "27061a802a6b1ed77d62d0c13e137553223f2d1867aea5044588cd121103d0a0",
+    "docs/evidence/sensory-backtest-goal-2026-09-13/source-mns.csv": "3db8f93e3f5e537b1eea326cccffed6884f19f3694fa1b1839ed7db6f8340aa6",
+    "output/sensory/sensory-second-order-e243b80a7806da536f6b/manifest.json": "bba8827b4a6e24d99b1f8b7d279e5b077c548d3a5a763c7133b4642be0814ea6",
+    "scripts/run_sensory_assay.py": "e644beea8052eaf76beefe33757d683b644464ecd537c0a8b390ffecb805e273",
+    "scripts/run_sensory_opportunities.py": "86cb9a2e05cc3bec3ee10c8cb8e48fbd61f2bfca8b714d22fa8277cdbde9a03b",
+    "scripts/run_sensory_second_order.py": "9949d31ad8e1448f08bd7d1ba699a9281217a69a02a73882aaaaf116ee245e7c"
+  },
+  "gain": 0.11,
+  "gates": {
+    "all_trials": "Source generator, finite states, global recovery, exact resets",
+    "equal_equal": "Exactly equal",
+    "good_aversive": "Positive external contrast",
+    "good_good": "Both output means >1Hz, high quality external contrast >0",
+    "ladder": "Spearman n versus mean log1p output >=0.9",
+    "poor_poor": "Exactly equal, less output than good",
+    "swaps": "Exact opposite external contrasts",
+    "uncertainty": "Wide intervals do not force bitter"
+  },
+  "interpretation": "Engineered spatial contact recruitment and external comparison of source-informed second-order responses. No measured contact-area/dose law, feeding, behavioral aversion, in-circuit choice, sports usefulness or acquired learning is claimed.",
+  "label": "external-contact-recruitment-opportunities-01",
+  "ladder": "All 0..34 sweet contact counts and one bitter-only condition, three seeds each. Contacted cells receive source means for the full 1-second window; zero precontact baseline is a model assumption.",
+  "max_calls": 136,
+  "pair_controls": "Seven examples in both presentation orders, full reset per exposure, exact all-count/bin comparison to matching seeded ladder reference. Swaps affect external side labels only.",
+  "plasticity": false,
+  "prerequisite_manifest": "output/sensory/sensory-second-order-e243b80a7806da536f6b/manifest.json",
+  "recruitment_order": [
+    512551,
+    942168,
+    174444965,
+    183084,
+    159772,
+    72059,
+    262567,
+    202888,
+    531237,
+    213650853,
+    766547228,
+    120303,
+    261450,
+    140015,
+    78240,
+    163597,
+    933317,
+    187492,
+    158893964,
+    142827,
+    190769,
+    215556,
+    180314,
+    557646,
+    475202322,
+    101087,
+    71254,
+    92440,
+    349137284,
+    516217,
+    272263,
+    209155,
+    85806,
+    957530
+  ],
+  "schema": 1,
+  "seeds": [
+    809,
+    907,
+    1009
+  ],
+  "wall_cap_seconds": 1800
+}

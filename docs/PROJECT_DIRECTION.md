@@ -1,6 +1,12 @@
 # Current direction: let the fly perform a food-choice task
 
-**Decision: David's September 13, 2026 reorientation. Status: research and specification; not implemented or biologically validated.** This is the canonical project objective. The [handoff](NATURAL_SENSORY_HANDOFF.md) defines the next bounded task; the [reassessment](../wiki/reassessment.md) records evidence. Dated experiment protocols remain authoritative for their own results, not for choosing the project's next objective.
+**Decision: David's September 13, 2026 reorientation. Status: source-informed second-order sensory pipeline implemented; full feeding and biological learning unvalidated.** This is the canonical project objective. The [handoff](NATURAL_SENSORY_HANDOFF.md) defines the next bounded task; the [reassessment](../wiki/reassessment.md) records evidence. Dated experiment protocols remain authoritative for their own results, not for choosing the project's next objective.
+
+## Active goal — September 13, 2026
+
+David has authorized continuing in `/goal` until better-than-chance backtesting is achieved. This extends execution through the sensory, two-opportunity and sports-evaluation stages below, using finite, identified experiments and honest held-out confirmation. The natural sensory objective remains; a conventional predictor alone or a reused development score does not complete it. Historical v1, paused v2 and failed legacy learning identities remain protected. No push, deployment or model-pointer change is authorized.
+
+Use a predefined chance baseline, chronological separation, uncertainty and encoder-only/same-information comparisons. Develop on development data and evaluate a frozen candidate on an unused confirmation block; do not keep testing the same holdout until it passes. Report any lack of incremental circuit contribution explicitly. The [active protocol](EXPERIMENT_SENSORY.md) records each finite stage and its remaining requirements. The old calibration decision remains immutable; new source access and new protocols receive new identities.
 
 ## The intended experiment
 
@@ -29,7 +35,7 @@ The old dopamine work remains valuable evidence. Its accepted interfaces/gains, 
 | 5. Sports evaluation | Chronological held-out comparison with encoder-only, same-information conventional, frozen-circuit and appropriate ablation controls | Report the circuit's incremental contribution. If it merely follows a forecast already encoded as sweetness, say so. A sensory response score is not automatically a calibrated win probability. |
 | 6. Optional associative learning | Explicit cue/reinforcer timing, natural reward pathway, paired/unpaired/untaught/frozen controls and reversal from acquired state | Keep prediction-time sensory quality separate from outcome-time reinforcement. Define the biological claim and new gates before results; preserve all old failures. |
 
-Stages 1–3 are the immediate work. Stages 4–6 are dependencies, not authorization for an unbounded sports pilot, model-pointer switch or deployment. A biological-state assumption (for example hunger) must be disclosed; absence of a modeled gut does not license inventing its parameters or require building the entire gut first.
+Proceed through stages 1–5 under the active goal, with finite per-experiment limits. Stage 6 remains conditional on a specific measured need; no model-pointer switch or deployment is authorized. A biological-state assumption (for example hunger) must be disclosed; absence of a modeled gut does not license inventing its parameters or require building the entire gut first.
 
 ## Rules for the translation
 

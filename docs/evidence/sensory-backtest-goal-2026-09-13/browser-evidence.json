@@ -1,0 +1,242 @@
+{
+  "mechanism": {
+    "panels": [
+      {
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+        "validation_status": "validated",
+        "evidence_status": "failed",
+        "detail_matches": true
+      },
+      {
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+        "validation_status": "validated",
+        "evidence_status": "passed",
+        "detail_matches": true
+      },
+      {
+        "run_id": "diag-candidate-maskgamma-e3d8898dc68a",
+        "validation_status": "stored-only",
+        "evidence_status": "unverified",
+        "detail_matches": true
+      },
+      {
+        "run_id": "diag-candidate-maskgamma-29c766f95f82",
+        "validation_status": "stored-only",
+        "evidence_status": "unverified",
+        "detail_matches": true
+      }
+    ],
+    "pair": {
+      "pair_id": "b16d9b39d7fd3057",
+      "learning_rule": "rate-bridge-v1",
+      "original_run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "heldout_run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "validation_status": "validated",
+      "evidence_status": "failed",
+      "failed_criteria": [
+        "untaught_guard"
+      ]
+    },
+    "conditioning": {
+      "status": "not_run_gate_failed",
+      "message": "Conditioning not run: mechanism qualification is blocked.",
+      "failed_diagnostic_ids": [
+        "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      ]
+    }
+  },
+  "checked_at": "2026-09-13T21:53:13.644Z",
+  "url": "http://127.0.0.1:8766/#training",
+  "verification": {
+    "verification_mode": true,
+    "marker": "read-only"
+  },
+  "experiment": "reward-v3-209f7c49983f5873f650",
+  "status": "complete",
+  "encoder": "glomerular-tuning-v1",
+  "gate_status": "passed",
+  "gated_experiment": "reward-v3-40d7263f0d2cc1974cf0",
+  "gated_status": "failed",
+  "gate_message": "No outcome-trained comparison ran: a teaching population evoked fewer spikes above its tonic rate than the declared margin; the active KC set is not game-specific (calibration overlap exceeds the guard).",
+  "active_v1": "20260910T232621Z",
+  "v2_status": "paused",
+  "v2_jobs": {
+    "complete": 13,
+    "cancelled": 8,
+    "paused": 3
+  },
+  "arms": [
+    "paired",
+    "shuffled",
+    "frozen"
+  ],
+  "downloads": [
+    {
+      "label": "Activity and teaching response checks",
+      "bytes": 14804,
+      "hash_matches": true
+    },
+    {
+      "label": "Readout",
+      "bytes": 280,
+      "hash_matches": true
+    },
+    {
+      "label": "Paired gains and matched predictions",
+      "bytes": 292148,
+      "hash_matches": true
+    },
+    {
+      "label": "Shuffled gains and matched predictions",
+      "bytes": 292148,
+      "hash_matches": true
+    },
+    {
+      "label": "Frozen gains and matched predictions",
+      "bytes": 292148,
+      "hash_matches": true
+    },
+    {
+      "label": "Protocol",
+      "bytes": 896,
+      "hash_matches": true
+    },
+    {
+      "label": "Anatomy",
+      "bytes": 13610,
+      "hash_matches": true
+    },
+    {
+      "label": "Complete measured reward experiment report",
+      "bytes": 85082,
+      "hash_matches": true
+    }
+  ],
+  "scenarios": [
+    {
+      "mode": "loading",
+      "verified": true,
+      "source": "isolated browser response fixture"
+    },
+    {
+      "mode": "empty",
+      "verified": true,
+      "source": "isolated browser response fixture"
+    },
+    {
+      "mode": "error",
+      "verified": true,
+      "source": "isolated browser response fixture"
+    },
+    {
+      "mode": "running",
+      "verified": true,
+      "source": "isolated browser response fixture"
+    },
+    {
+      "mode": "failed",
+      "verified": true,
+      "source": "isolated browser response fixture"
+    },
+    {
+      "mode": "budget_stopped",
+      "verified": true,
+      "source": "isolated browser response fixture"
+    },
+    {
+      "mode": "mechanism-loading",
+      "verified": true,
+      "source": "isolated synthetic response fixture"
+    },
+    {
+      "mode": "mechanism-empty",
+      "verified": true,
+      "source": "isolated synthetic response fixture"
+    },
+    {
+      "mode": "mechanism-error",
+      "verified": true,
+      "source": "isolated synthetic response fixture"
+    },
+    {
+      "mode": "mechanism-incomplete",
+      "verified": true,
+      "source": "isolated synthetic response fixture"
+    },
+    {
+      "mode": "mechanism-running",
+      "verified": true,
+      "source": "isolated synthetic response fixture"
+    },
+    {
+      "mode": "mechanism-cancelled",
+      "verified": true,
+      "source": "isolated synthetic response fixture"
+    },
+    {
+      "mode": "mechanism-budget_stopped",
+      "verified": true,
+      "source": "isolated synthetic response fixture"
+    },
+    {
+      "mode": "mechanism-unknown",
+      "verified": true,
+      "source": "isolated synthetic response fixture"
+    },
+    {
+      "mode": "conditioning-validation-passed",
+      "verified": true,
+      "source": "isolated synthetic validator response fixture"
+    },
+    {
+      "mode": "conditioning-validation-failed",
+      "verified": true,
+      "source": "isolated synthetic validator response fixture"
+    },
+    {
+      "mode": "conditioning-validation-incomplete",
+      "verified": true,
+      "source": "isolated synthetic validator response fixture"
+    },
+    {
+      "mode": "conditioning-validation-unverified",
+      "verified": true,
+      "source": "isolated synthetic validator response fixture"
+    },
+    {
+      "mode": "stale-retained-retry-recovery",
+      "verified": true,
+      "source": "isolated synthetic refresh errors with retained recorded payloads"
+    },
+    {
+      "mode": "raw-gamma",
+      "verified": true,
+      "source": "isolated browser response fixture; no measured candidate result"
+    }
+  ],
+  "desktop": {
+    "width": 1440,
+    "height": 1100
+  },
+  "mobile": {
+    "width": 390,
+    "height": 844,
+    "horizontal_page_overflow": false,
+    "tested_widths": [
+      320,
+      390,
+      540,
+      720,
+      1024
+    ]
+  },
+  "errors": [],
+  "screenshots": [
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/browser/sensory-goal-20260913/bet36fly-reward-gate-passed.png",
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/browser/sensory-goal-20260913/bet36fly-reward-gate-failed.png",
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/browser/sensory-goal-20260913/bet36fly-reward-desktop.png",
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/browser/sensory-goal-20260913/bet36fly-reward-arm.png",
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/browser/sensory-goal-20260913/bet36fly-reward-mobile.png",
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/browser/sensory-goal-20260913/bet36fly-reward-mobile-arm.png"
+  ]
+}

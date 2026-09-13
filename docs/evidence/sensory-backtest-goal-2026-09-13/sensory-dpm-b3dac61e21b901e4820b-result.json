@@ -1,0 +1,104 @@
+{
+  "identity": "sensory-dpm-b3dac61e21b901e4820b",
+  "status": "completed",
+  "neural_calls": 6,
+  "rows": [
+    {
+      "mode": "zero",
+      "trial": 6,
+      "condition": "sweet",
+      "seed": 17,
+      "input_events_identical": true,
+      "MN9_hz": [
+        145,
+        37
+      ],
+      "tail_spikes": 44692,
+      "reference_tail_spikes": 256763,
+      "total_spikes": 320247,
+      "wall_seconds": 3.1668274158146232,
+      "tail_reduction_at_least_90_percent": false
+    },
+    {
+      "mode": "zero",
+      "trial": 10,
+      "condition": "bitter",
+      "seed": 43,
+      "input_events_identical": true,
+      "MN9_hz": [
+        132,
+        0
+      ],
+      "tail_spikes": 249321,
+      "reference_tail_spikes": 255828,
+      "total_spikes": 1734626,
+      "wall_seconds": 5.277254541870207,
+      "tail_reduction_at_least_90_percent": false
+    },
+    {
+      "mode": "zero",
+      "trial": 12,
+      "condition": "mixed",
+      "seed": 17,
+      "input_events_identical": true,
+      "MN9_hz": [
+        7,
+        0
+      ],
+      "tail_spikes": 245472,
+      "reference_tail_spikes": 253235,
+      "total_spikes": 1742679,
+      "wall_seconds": 5.29770562495105,
+      "tail_reduction_at_least_90_percent": false
+    },
+    {
+      "mode": "inhibitory",
+      "trial": 6,
+      "condition": "sweet",
+      "seed": 17,
+      "input_events_identical": true,
+      "MN9_hz": [
+        103,
+        19
+      ],
+      "tail_spikes": 221176,
+      "reference_tail_spikes": 256763,
+      "total_spikes": 1327642,
+      "wall_seconds": 4.779426000081003,
+      "tail_reduction_at_least_90_percent": false
+    },
+    {
+      "mode": "inhibitory",
+      "trial": 10,
+      "condition": "bitter",
+      "seed": 43,
+      "input_events_identical": true,
+      "MN9_hz": [
+        134,
+        0
+      ],
+      "tail_spikes": 233568,
+      "reference_tail_spikes": 255828,
+      "total_spikes": 1640296,
+      "wall_seconds": 5.256573207909241,
+      "tail_reduction_at_least_90_percent": false
+    },
+    {
+      "mode": "inhibitory",
+      "trial": 12,
+      "condition": "mixed",
+      "seed": 17,
+      "input_events_identical": true,
+      "MN9_hz": [
+        8,
+        0
+      ],
+      "tail_spikes": 218700,
+      "reference_tail_spikes": 253235,
+      "total_spikes": 1554174,
+      "wall_seconds": 5.2503176250029355,
+      "tail_reduction_at_least_90_percent": false
+    }
+  ],
+  "hypothesis_supported": false
+}

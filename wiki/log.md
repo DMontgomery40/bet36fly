@@ -50,3 +50,7 @@ Recomputed a 5,243-cell atlas and the 8,866 selected KC→MBON directed pairs. R
 Reconciled main schema 3, the separate schema-4 repair worktree, and the later schema-5 handoff. Marked the post-offset signed-reference artifact, persistent SCI-001 hold and unproven acquisition/reversal. Updated existing document pointers and superseded the old centering-first recommendation. [Verification record](verification.md).
 
 [Wiki index](index.md)
+
+## September13 sensory-to-backtest continuation
+
+Recovered the Tastekin source package, implemented source-locked taste probes and preserved failed feeding/DPM/coupling diagnostics. Qualified a narrower Clavicle/Quasimodo response and external contact-recruitment comparison. The finite2019–2022 sports batch selected a frozen pipeline with58.3% development accuracy; the encoder alone was slightly better. One2023 confirmation is preregistered and has not yet accessed outcomes. [Full evidence and limits](../docs/evidence/sensory-backtest-goal-2026-09-13/index.md).

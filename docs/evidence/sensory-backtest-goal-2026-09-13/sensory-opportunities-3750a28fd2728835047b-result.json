@@ -1,0 +1,5433 @@
+{
+  "identity": "sensory-opportunities-3750a28fd2728835047b",
+  "status": "passed",
+  "neural_calls": 136,
+  "rows": [
+    {
+      "seed": 809,
+      "dt_ms": 0.2,
+      "output_hz": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 0,
+      "total_spikes": 0,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0
+      ],
+      "wall_seconds": 2.7138499170541763,
+      "trial": 0,
+      "recruitment_key": 0,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 907,
+      "dt_ms": 0.2,
+      "output_hz": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 0,
+      "total_spikes": 0,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0
+      ],
+      "wall_seconds": 2.7159385420382023,
+      "trial": 1,
+      "recruitment_key": 0,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 1009,
+      "dt_ms": 0.2,
+      "output_hz": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 0,
+      "total_spikes": 0,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0
+      ],
+      "wall_seconds": 2.8095660000108182,
+      "trial": 2,
+      "recruitment_key": 0,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 809,
+      "dt_ms": 0.2,
+      "output_hz": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 62,
+      "total_spikes": 62,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.6465083260278681
+      ],
+      "wall_seconds": 2.8365632090717554,
+      "trial": 3,
+      "recruitment_key": 1,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 907,
+      "dt_ms": 0.2,
+      "output_hz": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 52,
+      "total_spikes": 52,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.39440560703307415
+      ],
+      "wall_seconds": 2.6553076249547303,
+      "trial": 4,
+      "recruitment_key": 1,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 1009,
+      "dt_ms": 0.2,
+      "output_hz": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 56,
+      "total_spikes": 56,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.792942281515149
+      ],
+      "wall_seconds": 2.688436707947403,
+      "trial": 5,
+      "recruitment_key": 1,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 809,
+      "dt_ms": 0.2,
+      "output_hz": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 128,
+      "total_spikes": 128,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.33053611093674506
+      ],
+      "wall_seconds": 2.6897112079896033,
+      "trial": 6,
+      "recruitment_key": 2,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 907,
+      "dt_ms": 0.2,
+      "output_hz": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 109,
+      "total_spikes": 109,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.45809720344014865
+      ],
+      "wall_seconds": 2.5912735830061138,
+      "trial": 7,
+      "recruitment_key": 2,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 1009,
+      "dt_ms": 0.2,
+      "output_hz": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 106,
+      "total_spikes": 106,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.30757157390618306
+      ],
+      "wall_seconds": 2.66398995812051,
+      "trial": 8,
+      "recruitment_key": 2,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 809,
+      "dt_ms": 0.2,
+      "output_hz": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 189,
+      "total_spikes": 189,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.34410191811806284
+      ],
+      "wall_seconds": 2.7386730411089957,
+      "trial": 9,
+      "recruitment_key": 3,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 907,
+      "dt_ms": 0.2,
+      "output_hz": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 173,
+      "total_spikes": 173,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.8203629044467549
+      ],
+      "wall_seconds": 2.8458584169857204,
+      "trial": 10,
+      "recruitment_key": 3,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 1009,
+      "dt_ms": 0.2,
+      "output_hz": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 172,
+      "total_spikes": 172,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.7620612515522853
+      ],
+      "wall_seconds": 2.6927955420687795,
+      "trial": 11,
+      "recruitment_key": 3,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 809,
+      "dt_ms": 0.2,
+      "output_hz": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 245,
+      "total_spikes": 245,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.5334264916710268
+      ],
+      "wall_seconds": 2.7184971671085805,
+      "trial": 12,
+      "recruitment_key": 4,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 907,
+      "dt_ms": 0.2,
+      "output_hz": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 226,
+      "total_spikes": 226,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.5552553650299799
+      ],
+      "wall_seconds": 2.6673705000430346,
+      "trial": 13,
+      "recruitment_key": 4,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 1009,
+      "dt_ms": 0.2,
+      "output_hz": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 218,
+      "total_spikes": 218,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.26506316953296305
+      ],
+      "wall_seconds": 2.779696458019316,
+      "trial": 14,
+      "recruitment_key": 4,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 809,
+      "dt_ms": 0.2,
+      "output_hz": [
+        0,
+        2,
+        0,
+        0
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 300,
+      "total_spikes": 300,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.8374014783848098
+      ],
+      "wall_seconds": 2.7599689587950706,
+      "trial": 15,
+      "recruitment_key": 5,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 907,
+      "dt_ms": 0.2,
+      "output_hz": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 283,
+      "total_spikes": 283,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.48179350480828415
+      ],
+      "wall_seconds": 2.662586874794215,
+      "trial": 16,
+      "recruitment_key": 5,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 1009,
+      "dt_ms": 0.2,
+      "output_hz": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 280,
+      "total_spikes": 280,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.3792165181088038
+      ],
+      "wall_seconds": 2.6926626248750836,
+      "trial": 17,
+      "recruitment_key": 5,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 809,
+      "dt_ms": 0.2,
+      "output_hz": [
+        0,
+        2,
+        1,
+        6
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 392,
+      "total_spikes": 392,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.4376915876532723
+      ],
+      "wall_seconds": 2.747613291023299,
+      "trial": 18,
+      "recruitment_key": 6,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 907,
+      "dt_ms": 0.2,
+      "output_hz": [
+        0,
+        1,
+        1,
+        4
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 342,
+      "total_spikes": 342,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.18089820851301547
+      ],
+      "wall_seconds": 2.691821041982621,
+      "trial": 19,
+      "recruitment_key": 6,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 1009,
+      "dt_ms": 0.2,
+      "output_hz": [
+        0,
+        1,
+        1,
+        2
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 350,
+      "total_spikes": 350,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.3630085132807837
+      ],
+      "wall_seconds": 2.7426110000815243,
+      "trial": 20,
+      "recruitment_key": 6,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 809,
+      "dt_ms": 0.2,
+      "output_hz": [
+        0,
+        2,
+        3,
+        6
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 449,
+      "total_spikes": 449,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.6202920380625727
+      ],
+      "wall_seconds": 2.8232527498621494,
+      "trial": 21,
+      "recruitment_key": 7,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 907,
+      "dt_ms": 0.2,
+      "output_hz": [
+        0,
+        2,
+        1,
+        4
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 399,
+      "total_spikes": 399,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.1371628159455539
+      ],
+      "wall_seconds": 2.846645458135754,
+      "trial": 22,
+      "recruitment_key": 7,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 1009,
+      "dt_ms": 0.2,
+      "output_hz": [
+        0,
+        1,
+        3,
+        3
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 424,
+      "total_spikes": 424,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.6736303895420362
+      ],
+      "wall_seconds": 2.8497534580528736,
+      "trial": 23,
+      "recruitment_key": 7,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 809,
+      "dt_ms": 0.2,
+      "output_hz": [
+        0,
+        2,
+        4,
+        8
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 514,
+      "total_spikes": 514,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.7456137782572908
+      ],
+      "wall_seconds": 2.7281875419430435,
+      "trial": 24,
+      "recruitment_key": 8,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 907,
+      "dt_ms": 0.2,
+      "output_hz": [
+        0,
+        2,
+        2,
+        4
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 462,
+      "total_spikes": 462,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.1789959882214809
+      ],
+      "wall_seconds": 2.7012918749824166,
+      "trial": 25,
+      "recruitment_key": 8,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 1009,
+      "dt_ms": 0.2,
+      "output_hz": [
+        0,
+        1,
+        3,
+        6
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 506,
+      "total_spikes": 506,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.6765901548148647
+      ],
+      "wall_seconds": 2.8127993340604007,
+      "trial": 26,
+      "recruitment_key": 8,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 809,
+      "dt_ms": 0.2,
+      "output_hz": [
+        0,
+        3,
+        6,
+        10
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 575,
+      "total_spikes": 575,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.9651457264312793
+      ],
+      "wall_seconds": 2.73210887494497,
+      "trial": 27,
+      "recruitment_key": 9,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 907,
+      "dt_ms": 0.2,
+      "output_hz": [
+        0,
+        3,
+        5,
+        5
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 527,
+      "total_spikes": 527,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.16865374958897786
+      ],
+      "wall_seconds": 2.666219084057957,
+      "trial": 28,
+      "recruitment_key": 9,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 1009,
+      "dt_ms": 0.2,
+      "output_hz": [
+        0,
+        5,
+        7,
+        8
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 573,
+      "total_spikes": 573,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.8957027255478763
+      ],
+      "wall_seconds": 2.7670409579295665,
+      "trial": 29,
+      "recruitment_key": 9,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 809,
+      "dt_ms": 0.2,
+      "output_hz": [
+        1,
+        3,
+        7,
+        11
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 656,
+      "total_spikes": 656,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.5616659446000367
+      ],
+      "wall_seconds": 2.8196422499604523,
+      "trial": 30,
+      "recruitment_key": 10,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 907,
+      "dt_ms": 0.2,
+      "output_hz": [
+        0,
+        3,
+        5,
+        6
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 586,
+      "total_spikes": 586,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.12003368417848115
+      ],
+      "wall_seconds": 2.6275257081724703,
+      "trial": 31,
+      "recruitment_key": 10,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 1009,
+      "dt_ms": 0.2,
+      "output_hz": [
+        0,
+        3,
+        8,
+        8
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 638,
+      "total_spikes": 638,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.8682993984255535
+      ],
+      "wall_seconds": 2.630962166003883,
+      "trial": 32,
+      "recruitment_key": 10,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 809,
+      "dt_ms": 0.2,
+      "output_hz": [
+        0,
+        3,
+        7,
+        11
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 719,
+      "total_spikes": 719,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.5666307815256453
+      ],
+      "wall_seconds": 2.7092038330156356,
+      "trial": 33,
+      "recruitment_key": 11,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 907,
+      "dt_ms": 0.2,
+      "output_hz": [
+        0,
+        3,
+        5,
+        6
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 637,
+      "total_spikes": 637,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.07858161109184356
+      ],
+      "wall_seconds": 2.6914266659878194,
+      "trial": 34,
+      "recruitment_key": 11,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 1009,
+      "dt_ms": 0.2,
+      "output_hz": [
+        0,
+        5,
+        7,
+        8
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 709,
+      "total_spikes": 709,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.6494907577660507
+      ],
+      "wall_seconds": 2.6831394999753684,
+      "trial": 35,
+      "recruitment_key": 11,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 809,
+      "dt_ms": 0.2,
+      "output_hz": [
+        0,
+        3,
+        10,
+        16
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 802,
+      "total_spikes": 802,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.3945781341653385
+      ],
+      "wall_seconds": 2.726045750081539,
+      "trial": 36,
+      "recruitment_key": 12,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 907,
+      "dt_ms": 0.2,
+      "output_hz": [
+        0,
+        2,
+        6,
+        7
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 696,
+      "total_spikes": 696,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.055985362832804225
+      ],
+      "wall_seconds": 2.72334724990651,
+      "trial": 37,
+      "recruitment_key": 12,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 1009,
+      "dt_ms": 0.2,
+      "output_hz": [
+        0,
+        5,
+        11,
+        9
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 804,
+      "total_spikes": 804,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.2981078292317965
+      ],
+      "wall_seconds": 2.695626457920298,
+      "trial": 38,
+      "recruitment_key": 12,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 809,
+      "dt_ms": 0.2,
+      "output_hz": [
+        0,
+        3,
+        11,
+        16
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 875,
+      "total_spikes": 875,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.3730938062470311
+      ],
+      "wall_seconds": 2.6209517498500645,
+      "trial": 39,
+      "recruitment_key": 13,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 907,
+      "dt_ms": 0.2,
+      "output_hz": [
+        0,
+        3,
+        7,
+        7
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 761,
+      "total_spikes": 761,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.04752653371960995
+      ],
+      "wall_seconds": 2.6759048339445144,
+      "trial": 40,
+      "recruitment_key": 13,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 1009,
+      "dt_ms": 0.2,
+      "output_hz": [
+        0,
+        5,
+        13,
+        10
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 878,
+      "total_spikes": 878,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.20977852006599046
+      ],
+      "wall_seconds": 2.76533008296974,
+      "trial": 41,
+      "recruitment_key": 13,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 809,
+      "dt_ms": 0.2,
+      "output_hz": [
+        0,
+        3,
+        14,
+        16
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 941,
+      "total_spikes": 941,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.5398149285388312
+      ],
+      "wall_seconds": 2.714905499946326,
+      "trial": 42,
+      "recruitment_key": 14,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 907,
+      "dt_ms": 0.2,
+      "output_hz": [
+        0,
+        3,
+        8,
+        7
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 826,
+      "total_spikes": 826,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.047760114999549005
+      ],
+      "wall_seconds": 2.696178834186867,
+      "trial": 43,
+      "recruitment_key": 14,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 1009,
+      "dt_ms": 0.2,
+      "output_hz": [
+        0,
+        5,
+        13,
+        13
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 956,
+      "total_spikes": 956,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.2010111408364077
+      ],
+      "wall_seconds": 2.6751264999620616,
+      "trial": 44,
+      "recruitment_key": 14,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 809,
+      "dt_ms": 0.2,
+      "output_hz": [
+        0,
+        4,
+        16,
+        16
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 1038,
+      "total_spikes": 1038,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.25686284661796926
+      ],
+      "wall_seconds": 2.7590096248313785,
+      "trial": 45,
+      "recruitment_key": 15,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 907,
+      "dt_ms": 0.2,
+      "output_hz": [
+        0,
+        3,
+        9,
+        7
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 897,
+      "total_spikes": 897,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.04770514315569889
+      ],
+      "wall_seconds": 2.7486959169618785,
+      "trial": 46,
+      "recruitment_key": 15,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 1009,
+      "dt_ms": 0.2,
+      "output_hz": [
+        0,
+        5,
+        13,
+        13
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 1021,
+      "total_spikes": 1021,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.30192952601041
+      ],
+      "wall_seconds": 2.676127874990925,
+      "trial": 47,
+      "recruitment_key": 15,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 809,
+      "dt_ms": 0.2,
+      "output_hz": [
+        1,
+        4,
+        16,
+        16
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 1107,
+      "total_spikes": 1107,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.25821539055554266
+      ],
+      "wall_seconds": 2.7190429579932243,
+      "trial": 48,
+      "recruitment_key": 16,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 907,
+      "dt_ms": 0.2,
+      "output_hz": [
+        1,
+        3,
+        9,
+        7
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 968,
+      "total_spikes": 968,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.06646433257375008
+      ],
+      "wall_seconds": 2.904958707978949,
+      "trial": 49,
+      "recruitment_key": 16,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 1009,
+      "dt_ms": 0.2,
+      "output_hz": [
+        2,
+        5,
+        13,
+        13
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 1092,
+      "total_spikes": 1092,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.2722708556103541
+      ],
+      "wall_seconds": 2.7958919159136713,
+      "trial": 50,
+      "recruitment_key": 16,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 809,
+      "dt_ms": 0.2,
+      "output_hz": [
+        1,
+        14,
+        28,
+        22
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 1219,
+      "total_spikes": 1220,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.3402418987707238
+      ],
+      "wall_seconds": 2.7297437919769436,
+      "trial": 51,
+      "recruitment_key": 17,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 907,
+      "dt_ms": 0.2,
+      "output_hz": [
+        0,
+        15,
+        24,
+        13
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 1102,
+      "total_spikes": 1102,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.11191955000267012
+      ],
+      "wall_seconds": 2.7179730420466512,
+      "trial": 52,
+      "recruitment_key": 17,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 1009,
+      "dt_ms": 0.2,
+      "output_hz": [
+        1,
+        12,
+        26,
+        20
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 1200,
+      "total_spikes": 1200,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.4267576522102605
+      ],
+      "wall_seconds": 2.7661591249052435,
+      "trial": 53,
+      "recruitment_key": 17,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 809,
+      "dt_ms": 0.2,
+      "output_hz": [
+        1,
+        14,
+        29,
+        22
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 1291,
+      "total_spikes": 1291,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.3702723459626265
+      ],
+      "wall_seconds": 2.7159655841533095,
+      "trial": 54,
+      "recruitment_key": 18,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 907,
+      "dt_ms": 0.2,
+      "output_hz": [
+        0,
+        15,
+        26,
+        14
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 1174,
+      "total_spikes": 1174,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.1380866840062017
+      ],
+      "wall_seconds": 2.739157124888152,
+      "trial": 55,
+      "recruitment_key": 18,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 1009,
+      "dt_ms": 0.2,
+      "output_hz": [
+        2,
+        12,
+        27,
+        20
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 1271,
+      "total_spikes": 1271,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.42181162406793005
+      ],
+      "wall_seconds": 2.748895708937198,
+      "trial": 56,
+      "recruitment_key": 18,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 809,
+      "dt_ms": 0.2,
+      "output_hz": [
+        1,
+        15,
+        31,
+        22
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 1363,
+      "total_spikes": 1363,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.26585839619214746
+      ],
+      "wall_seconds": 2.7218350837938488,
+      "trial": 57,
+      "recruitment_key": 19,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 907,
+      "dt_ms": 0.2,
+      "output_hz": [
+        0,
+        15,
+        27,
+        15
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 1241,
+      "total_spikes": 1241,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.1712096083322146
+      ],
+      "wall_seconds": 2.714061666978523,
+      "trial": 58,
+      "recruitment_key": 19,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 1009,
+      "dt_ms": 0.2,
+      "output_hz": [
+        2,
+        12,
+        27,
+        20
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 1330,
+      "total_spikes": 1330,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.45216900780209746
+      ],
+      "wall_seconds": 2.71491566603072,
+      "trial": 59,
+      "recruitment_key": 19,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 809,
+      "dt_ms": 0.2,
+      "output_hz": [
+        2,
+        14,
+        31,
+        26
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 1451,
+      "total_spikes": 1451,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.2075411424959488
+      ],
+      "wall_seconds": 2.836128917057067,
+      "trial": 60,
+      "recruitment_key": 20,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 907,
+      "dt_ms": 0.2,
+      "output_hz": [
+        0,
+        15,
+        27,
+        19
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 1321,
+      "total_spikes": 1321,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.2023007484011775
+      ],
+      "wall_seconds": 2.8153814170509577,
+      "trial": 61,
+      "recruitment_key": 20,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 1009,
+      "dt_ms": 0.2,
+      "output_hz": [
+        3,
+        12,
+        29,
+        24
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 1449,
+      "total_spikes": 1449,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.2075411424959488
+      ],
+      "wall_seconds": 2.7344302081037313,
+      "trial": 62,
+      "recruitment_key": 20,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 809,
+      "dt_ms": 0.2,
+      "output_hz": [
+        1,
+        15,
+        31,
+        27
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 1543,
+      "total_spikes": 1543,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.10919397380055597
+      ],
+      "wall_seconds": 2.6554419160820544,
+      "trial": 63,
+      "recruitment_key": 21,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 907,
+      "dt_ms": 0.2,
+      "output_hz": [
+        1,
+        16,
+        28,
+        19
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 1398,
+      "total_spikes": 1398,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.24668700129113563
+      ],
+      "wall_seconds": 2.6750125410035253,
+      "trial": 64,
+      "recruitment_key": 21,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 1009,
+      "dt_ms": 0.2,
+      "output_hz": [
+        3,
+        14,
+        30,
+        25
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 1524,
+      "total_spikes": 1524,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.21869676367237725
+      ],
+      "wall_seconds": 2.699051624862477,
+      "trial": 65,
+      "recruitment_key": 21,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 809,
+      "dt_ms": 0.2,
+      "output_hz": [
+        3,
+        15,
+        35,
+        33
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 1652,
+      "total_spikes": 1652,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.10503465778727437
+      ],
+      "wall_seconds": 2.723409667145461,
+      "trial": 66,
+      "recruitment_key": 22,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 907,
+      "dt_ms": 0.2,
+      "output_hz": [
+        2,
+        15,
+        31,
+        24
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 1470,
+      "total_spikes": 1470,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.10207199053023602
+      ],
+      "wall_seconds": 2.7326722079887986,
+      "trial": 67,
+      "recruitment_key": 22,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 1009,
+      "dt_ms": 0.2,
+      "output_hz": [
+        4,
+        13,
+        33,
+        31
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 1615,
+      "total_spikes": 1616,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.28824087881704163
+      ],
+      "wall_seconds": 2.779447790933773,
+      "trial": 68,
+      "recruitment_key": 22,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 809,
+      "dt_ms": 0.2,
+      "output_hz": [
+        3,
+        15,
+        36,
+        35
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 1736,
+      "total_spikes": 1736,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.04037435529218175
+      ],
+      "wall_seconds": 2.816102833021432,
+      "trial": 69,
+      "recruitment_key": 23,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 907,
+      "dt_ms": 0.2,
+      "output_hz": [
+        2,
+        17,
+        32,
+        26
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 1540,
+      "total_spikes": 1540,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.11605167382770135
+      ],
+      "wall_seconds": 2.785287666833028,
+      "trial": 70,
+      "recruitment_key": 23,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 1009,
+      "dt_ms": 0.2,
+      "output_hz": [
+        4,
+        14,
+        34,
+        31
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 1696,
+      "total_spikes": 1696,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.14743656974089703
+      ],
+      "wall_seconds": 2.7216736250557005,
+      "trial": 71,
+      "recruitment_key": 23,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 809,
+      "dt_ms": 0.2,
+      "output_hz": [
+        12,
+        15,
+        37,
+        36
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 1821,
+      "total_spikes": 1821,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.041997593647421075
+      ],
+      "wall_seconds": 2.788941375212744,
+      "trial": 72,
+      "recruitment_key": 24,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 907,
+      "dt_ms": 0.2,
+      "output_hz": [
+        4,
+        17,
+        32,
+        26
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 1600,
+      "total_spikes": 1600,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.07090866123765735
+      ],
+      "wall_seconds": 2.7984703339170665,
+      "trial": 73,
+      "recruitment_key": 24,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 1009,
+      "dt_ms": 0.2,
+      "output_hz": [
+        11,
+        14,
+        35,
+        33
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 1774,
+      "total_spikes": 1774,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.15231059431852545
+      ],
+      "wall_seconds": 2.6697329580783844,
+      "trial": 74,
+      "recruitment_key": 24,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 809,
+      "dt_ms": 0.2,
+      "output_hz": [
+        12,
+        16,
+        37,
+        36
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 1897,
+      "total_spikes": 1897,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.021053255459744458
+      ],
+      "wall_seconds": 2.722661209059879,
+      "trial": 75,
+      "recruitment_key": 25,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 907,
+      "dt_ms": 0.2,
+      "output_hz": [
+        4,
+        17,
+        32,
+        28
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 1665,
+      "total_spikes": 1666,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.0933706486054624
+      ],
+      "wall_seconds": 2.845271500060335,
+      "trial": 76,
+      "recruitment_key": 25,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 1009,
+      "dt_ms": 0.2,
+      "output_hz": [
+        11,
+        13,
+        35,
+        33
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 1833,
+      "total_spikes": 1833,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.19439579064034745
+      ],
+      "wall_seconds": 2.6829837919212878,
+      "trial": 77,
+      "recruitment_key": 25,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 809,
+      "dt_ms": 0.2,
+      "output_hz": [
+        12,
+        15,
+        40,
+        40
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 2009,
+      "total_spikes": 2009,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.014598717251178511
+      ],
+      "wall_seconds": 2.6621220419183373,
+      "trial": 78,
+      "recruitment_key": 26,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 907,
+      "dt_ms": 0.2,
+      "output_hz": [
+        3,
+        16,
+        36,
+        34
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 1798,
+      "total_spikes": 1799,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.207807780073603
+      ],
+      "wall_seconds": 2.784638582961634,
+      "trial": 79,
+      "recruitment_key": 26,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 1009,
+      "dt_ms": 0.2,
+      "output_hz": [
+        11,
+        13,
+        38,
+        36
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 1945,
+      "total_spikes": 1945,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.33503609576828075
+      ],
+      "wall_seconds": 2.717709999997169,
+      "trial": 80,
+      "recruitment_key": 26,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 809,
+      "dt_ms": 0.2,
+      "output_hz": [
+        9,
+        23,
+        41,
+        41
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 2094,
+      "total_spikes": 2094,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.03408178208193674
+      ],
+      "wall_seconds": 2.7593108331784606,
+      "trial": 81,
+      "recruitment_key": 27,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 907,
+      "dt_ms": 0.2,
+      "output_hz": [
+        3,
+        25,
+        37,
+        33
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 1884,
+      "total_spikes": 1886,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.1982707065990855
+      ],
+      "wall_seconds": 2.698621917050332,
+      "trial": 82,
+      "recruitment_key": 27,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 1009,
+      "dt_ms": 0.2,
+      "output_hz": [
+        11,
+        24,
+        39,
+        36
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 2021,
+      "total_spikes": 2021,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.4051669610264519
+      ],
+      "wall_seconds": 2.870359665947035,
+      "trial": 83,
+      "recruitment_key": 27,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 809,
+      "dt_ms": 0.2,
+      "output_hz": [
+        20,
+        22,
+        45,
+        46
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 2281,
+      "total_spikes": 2282,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.05182483171480952
+      ],
+      "wall_seconds": 2.9223336251452565,
+      "trial": 84,
+      "recruitment_key": 28,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 907,
+      "dt_ms": 0.2,
+      "output_hz": [
+        13,
+        25,
+        41,
+        42
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 2038,
+      "total_spikes": 2039,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.2201162420142752
+      ],
+      "wall_seconds": 2.7624467080459,
+      "trial": 85,
+      "recruitment_key": 28,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 1009,
+      "dt_ms": 0.2,
+      "output_hz": [
+        20,
+        22,
+        42,
+        43
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 2179,
+      "total_spikes": 2179,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.3725222038894043
+      ],
+      "wall_seconds": 2.8014423749409616,
+      "trial": 86,
+      "recruitment_key": 28,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 809,
+      "dt_ms": 0.2,
+      "output_hz": [
+        20,
+        23,
+        45,
+        46
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 2332,
+      "total_spikes": 2334,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.08178644248710791
+      ],
+      "wall_seconds": 2.72677925019525,
+      "trial": 87,
+      "recruitment_key": 29,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 907,
+      "dt_ms": 0.2,
+      "output_hz": [
+        13,
+        25,
+        41,
+        42
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 2093,
+      "total_spikes": 2094,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.23778605108066164
+      ],
+      "wall_seconds": 2.896246291929856,
+      "trial": 88,
+      "recruitment_key": 29,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 1009,
+      "dt_ms": 0.2,
+      "output_hz": [
+        21,
+        23,
+        42,
+        43
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 2237,
+      "total_spikes": 2237,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.42183426826666837
+      ],
+      "wall_seconds": 2.92117604194209,
+      "trial": 89,
+      "recruitment_key": 29,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 809,
+      "dt_ms": 0.2,
+      "output_hz": [
+        19,
+        22,
+        46,
+        49
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 2418,
+      "total_spikes": 2418,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.05708955914761501
+      ],
+      "wall_seconds": 2.845496458001435,
+      "trial": 90,
+      "recruitment_key": 30,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 907,
+      "dt_ms": 0.2,
+      "output_hz": [
+        16,
+        25,
+        43,
+        44
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 2198,
+      "total_spikes": 2202,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.309116298702484
+      ],
+      "wall_seconds": 2.9146165419369936,
+      "trial": 91,
+      "recruitment_key": 30,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 1009,
+      "dt_ms": 0.2,
+      "output_hz": [
+        21,
+        23,
+        45,
+        46
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 2337,
+      "total_spikes": 2337,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.4296744909825121
+      ],
+      "wall_seconds": 2.757434083148837,
+      "trial": 92,
+      "recruitment_key": 30,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 809,
+      "dt_ms": 0.2,
+      "output_hz": [
+        20,
+        25,
+        46,
+        49
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 2465,
+      "total_spikes": 2465,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.07358481187160218
+      ],
+      "wall_seconds": 2.7714687909465283,
+      "trial": 93,
+      "recruitment_key": 31,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 907,
+      "dt_ms": 0.2,
+      "output_hz": [
+        17,
+        29,
+        44,
+        44
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 2269,
+      "total_spikes": 2273,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.27365151208046856
+      ],
+      "wall_seconds": 2.7759864579420537,
+      "trial": 94,
+      "recruitment_key": 31,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 1009,
+      "dt_ms": 0.2,
+      "output_hz": [
+        23,
+        25,
+        45,
+        46
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 2390,
+      "total_spikes": 2390,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.5641020140819145
+      ],
+      "wall_seconds": 2.85617483407259,
+      "trial": 95,
+      "recruitment_key": 31,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 809,
+      "dt_ms": 0.2,
+      "output_hz": [
+        21,
+        26,
+        47,
+        49
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 2539,
+      "total_spikes": 2539,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.07070237216722483
+      ],
+      "wall_seconds": 2.76241287519224,
+      "trial": 96,
+      "recruitment_key": 32,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 907,
+      "dt_ms": 0.2,
+      "output_hz": [
+        19,
+        28,
+        43,
+        44
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 2347,
+      "total_spikes": 2352,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.25140479144922023
+      ],
+      "wall_seconds": 2.75965691707097,
+      "trial": 97,
+      "recruitment_key": 32,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 1009,
+      "dt_ms": 0.2,
+      "output_hz": [
+        24,
+        25,
+        45,
+        46
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 2450,
+      "total_spikes": 2450,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.7194815293931791
+      ],
+      "wall_seconds": 2.850608167005703,
+      "trial": 98,
+      "recruitment_key": 32,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 809,
+      "dt_ms": 0.2,
+      "output_hz": [
+        22,
+        27,
+        52,
+        51
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 2688,
+      "total_spikes": 2689,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.0789178063946693
+      ],
+      "wall_seconds": 2.825282290810719,
+      "trial": 99,
+      "recruitment_key": 33,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 907,
+      "dt_ms": 0.2,
+      "output_hz": [
+        19,
+        28,
+        48,
+        47
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 2447,
+      "total_spikes": 2449,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.16745666125555436
+      ],
+      "wall_seconds": 2.7541881669312716,
+      "trial": 100,
+      "recruitment_key": 33,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 1009,
+      "dt_ms": 0.2,
+      "output_hz": [
+        24,
+        26,
+        50,
+        49
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 2577,
+      "total_spikes": 2578,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.8283893673879859
+      ],
+      "wall_seconds": 2.7776716670487076,
+      "trial": 101,
+      "recruitment_key": 33,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 809,
+      "dt_ms": 0.2,
+      "output_hz": [
+        22,
+        27,
+        52,
+        52
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 2738,
+      "total_spikes": 2740,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.12360931596662689
+      ],
+      "wall_seconds": 2.794256124878302,
+      "trial": 102,
+      "recruitment_key": 34,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 907,
+      "dt_ms": 0.2,
+      "output_hz": [
+        21,
+        28,
+        48,
+        47
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 2515,
+      "total_spikes": 2515,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.2907171233191289
+      ],
+      "wall_seconds": 2.617230290779844,
+      "trial": 103,
+      "recruitment_key": 34,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 1009,
+      "dt_ms": 0.2,
+      "output_hz": [
+        25,
+        27,
+        50,
+        48
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 2634,
+      "total_spikes": 2636,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.9194242618287993
+      ],
+      "wall_seconds": 2.6420277911238372,
+      "trial": 104,
+      "recruitment_key": 34,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 809,
+      "dt_ms": 0.2,
+      "output_hz": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 944,
+      "total_spikes": 944,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.707781479718271
+      ],
+      "wall_seconds": 2.6950417498592287,
+      "trial": 105,
+      "recruitment_key": 35,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 907,
+      "dt_ms": 0.2,
+      "output_hz": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 871,
+      "total_spikes": 872,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.693855497382776
+      ],
+      "wall_seconds": 2.832557582994923,
+      "trial": 106,
+      "recruitment_key": 35,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 1009,
+      "dt_ms": 0.2,
+      "output_hz": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 967,
+      "total_spikes": 971,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.8220539975186321
+      ],
+      "wall_seconds": 2.738463999936357,
+      "trial": 107,
+      "recruitment_key": 35,
+      "phase": "ladder",
+      "recovery_passed": true
+    },
+    {
+      "seed": 809,
+      "dt_ms": 0.2,
+      "output_hz": [
+        1,
+        14,
+        28,
+        22
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 1219,
+      "total_spikes": 1220,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.3402418987707238
+      ],
+      "wall_seconds": 2.751582291908562,
+      "trial": 108,
+      "recruitment_key": 17,
+      "phase": "pair-equal",
+      "recovery_passed": true
+    },
+    {
+      "seed": 809,
+      "dt_ms": 0.2,
+      "output_hz": [
+        1,
+        14,
+        28,
+        22
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 1219,
+      "total_spikes": 1220,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.3402418987707238
+      ],
+      "wall_seconds": 2.9815143749583513,
+      "trial": 109,
+      "recruitment_key": 17,
+      "phase": "pair-equal",
+      "recovery_passed": true
+    },
+    {
+      "seed": 809,
+      "dt_ms": 0.2,
+      "output_hz": [
+        1,
+        14,
+        28,
+        22
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 1219,
+      "total_spikes": 1220,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.3402418987707238
+      ],
+      "wall_seconds": 2.8045923330355436,
+      "trial": 110,
+      "recruitment_key": 17,
+      "phase": "pair-equal",
+      "recovery_passed": true
+    },
+    {
+      "seed": 809,
+      "dt_ms": 0.2,
+      "output_hz": [
+        1,
+        14,
+        28,
+        22
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 1219,
+      "total_spikes": 1220,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.3402418987707238
+      ],
+      "wall_seconds": 2.7207797078881413,
+      "trial": 111,
+      "recruitment_key": 17,
+      "phase": "pair-equal",
+      "recovery_passed": true
+    },
+    {
+      "seed": 809,
+      "dt_ms": 0.2,
+      "output_hz": [
+        20,
+        23,
+        45,
+        46
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 2332,
+      "total_spikes": 2334,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.08178644248710791
+      ],
+      "wall_seconds": 2.750610333867371,
+      "trial": 112,
+      "recruitment_key": 29,
+      "phase": "pair-good",
+      "recovery_passed": true
+    },
+    {
+      "seed": 809,
+      "dt_ms": 0.2,
+      "output_hz": [
+        9,
+        23,
+        41,
+        41
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 2094,
+      "total_spikes": 2094,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.03408178208193674
+      ],
+      "wall_seconds": 2.7235125000588596,
+      "trial": 113,
+      "recruitment_key": 27,
+      "phase": "pair-good",
+      "recovery_passed": true
+    },
+    {
+      "seed": 809,
+      "dt_ms": 0.2,
+      "output_hz": [
+        9,
+        23,
+        41,
+        41
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 2094,
+      "total_spikes": 2094,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.03408178208193674
+      ],
+      "wall_seconds": 2.7287454581819475,
+      "trial": 114,
+      "recruitment_key": 27,
+      "phase": "pair-good",
+      "recovery_passed": true
+    },
+    {
+      "seed": 809,
+      "dt_ms": 0.2,
+      "output_hz": [
+        20,
+        23,
+        45,
+        46
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 2332,
+      "total_spikes": 2334,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.08178644248710791
+      ],
+      "wall_seconds": 2.7128738751634955,
+      "trial": 115,
+      "recruitment_key": 29,
+      "phase": "pair-good",
+      "recovery_passed": true
+    },
+    {
+      "seed": 809,
+      "dt_ms": 0.2,
+      "output_hz": [
+        0,
+        2,
+        3,
+        6
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 449,
+      "total_spikes": 449,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.6202920380625727
+      ],
+      "wall_seconds": 2.719296250026673,
+      "trial": 116,
+      "recruitment_key": 7,
+      "phase": "pair-poor",
+      "recovery_passed": true
+    },
+    {
+      "seed": 809,
+      "dt_ms": 0.2,
+      "output_hz": [
+        0,
+        2,
+        3,
+        6
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 449,
+      "total_spikes": 449,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.6202920380625727
+      ],
+      "wall_seconds": 2.723375250119716,
+      "trial": 117,
+      "recruitment_key": 7,
+      "phase": "pair-poor",
+      "recovery_passed": true
+    },
+    {
+      "seed": 809,
+      "dt_ms": 0.2,
+      "output_hz": [
+        0,
+        2,
+        3,
+        6
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 449,
+      "total_spikes": 449,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.6202920380625727
+      ],
+      "wall_seconds": 2.828567791962996,
+      "trial": 118,
+      "recruitment_key": 7,
+      "phase": "pair-poor",
+      "recovery_passed": true
+    },
+    {
+      "seed": 809,
+      "dt_ms": 0.2,
+      "output_hz": [
+        0,
+        2,
+        3,
+        6
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 449,
+      "total_spikes": 449,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.6202920380625727
+      ],
+      "wall_seconds": 2.692283083219081,
+      "trial": 119,
+      "recruitment_key": 7,
+      "phase": "pair-poor",
+      "recovery_passed": true
+    },
+    {
+      "seed": 809,
+      "dt_ms": 0.2,
+      "output_hz": [
+        20,
+        25,
+        46,
+        49
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 2465,
+      "total_spikes": 2465,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.07358481187160218
+      ],
+      "wall_seconds": 2.7647932909894735,
+      "trial": 120,
+      "recruitment_key": 31,
+      "phase": "pair-contrast",
+      "recovery_passed": true
+    },
+    {
+      "seed": 809,
+      "dt_ms": 0.2,
+      "output_hz": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 944,
+      "total_spikes": 944,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.707781479718271
+      ],
+      "wall_seconds": 2.772803916828707,
+      "trial": 121,
+      "recruitment_key": 35,
+      "phase": "pair-contrast",
+      "recovery_passed": true
+    },
+    {
+      "seed": 809,
+      "dt_ms": 0.2,
+      "output_hz": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 944,
+      "total_spikes": 944,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.707781479718271
+      ],
+      "wall_seconds": 2.7257338750641793,
+      "trial": 122,
+      "recruitment_key": 35,
+      "phase": "pair-contrast",
+      "recovery_passed": true
+    },
+    {
+      "seed": 809,
+      "dt_ms": 0.2,
+      "output_hz": [
+        20,
+        25,
+        46,
+        49
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 2465,
+      "total_spikes": 2465,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.07358481187160218
+      ],
+      "wall_seconds": 2.749556749826297,
+      "trial": 123,
+      "recruitment_key": 31,
+      "phase": "pair-contrast",
+      "recovery_passed": true
+    },
+    {
+      "seed": 809,
+      "dt_ms": 0.2,
+      "output_hz": [
+        3,
+        15,
+        35,
+        33
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 1652,
+      "total_spikes": 1652,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.10503465778727437
+      ],
+      "wall_seconds": 2.816304999869317,
+      "trial": 124,
+      "recruitment_key": 22,
+      "phase": "pair-uncertain",
+      "recovery_passed": true
+    },
+    {
+      "seed": 809,
+      "dt_ms": 0.2,
+      "output_hz": [
+        0,
+        3,
+        10,
+        16
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 802,
+      "total_spikes": 802,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.3945781341653385
+      ],
+      "wall_seconds": 2.716112249996513,
+      "trial": 125,
+      "recruitment_key": 12,
+      "phase": "pair-uncertain",
+      "recovery_passed": true
+    },
+    {
+      "seed": 809,
+      "dt_ms": 0.2,
+      "output_hz": [
+        0,
+        3,
+        10,
+        16
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 802,
+      "total_spikes": 802,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.3945781341653385
+      ],
+      "wall_seconds": 2.7128621658775955,
+      "trial": 126,
+      "recruitment_key": 12,
+      "phase": "pair-uncertain",
+      "recovery_passed": true
+    },
+    {
+      "seed": 809,
+      "dt_ms": 0.2,
+      "output_hz": [
+        3,
+        15,
+        35,
+        33
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 1652,
+      "total_spikes": 1652,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.10503465778727437
+      ],
+      "wall_seconds": 2.7169440421275795,
+      "trial": 127,
+      "recruitment_key": 22,
+      "phase": "pair-uncertain",
+      "recovery_passed": true
+    },
+    {
+      "seed": 809,
+      "dt_ms": 0.2,
+      "output_hz": [
+        9,
+        23,
+        41,
+        41
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 2094,
+      "total_spikes": 2094,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.03408178208193674
+      ],
+      "wall_seconds": 2.7838792910333723,
+      "trial": 128,
+      "recruitment_key": 27,
+      "phase": "pair-good_swapped",
+      "recovery_passed": true
+    },
+    {
+      "seed": 809,
+      "dt_ms": 0.2,
+      "output_hz": [
+        20,
+        23,
+        45,
+        46
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 2332,
+      "total_spikes": 2334,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.08178644248710791
+      ],
+      "wall_seconds": 2.831028209067881,
+      "trial": 129,
+      "recruitment_key": 29,
+      "phase": "pair-good_swapped",
+      "recovery_passed": true
+    },
+    {
+      "seed": 809,
+      "dt_ms": 0.2,
+      "output_hz": [
+        20,
+        23,
+        45,
+        46
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 2332,
+      "total_spikes": 2334,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.08178644248710791
+      ],
+      "wall_seconds": 2.7375182919204235,
+      "trial": 130,
+      "recruitment_key": 29,
+      "phase": "pair-good_swapped",
+      "recovery_passed": true
+    },
+    {
+      "seed": 809,
+      "dt_ms": 0.2,
+      "output_hz": [
+        9,
+        23,
+        41,
+        41
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 2094,
+      "total_spikes": 2094,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.03408178208193674
+      ],
+      "wall_seconds": 2.7674951660446823,
+      "trial": 131,
+      "recruitment_key": 27,
+      "phase": "pair-good_swapped",
+      "recovery_passed": true
+    },
+    {
+      "seed": 809,
+      "dt_ms": 0.2,
+      "output_hz": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 944,
+      "total_spikes": 944,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.707781479718271
+      ],
+      "wall_seconds": 2.7165565420873463,
+      "trial": 132,
+      "recruitment_key": 35,
+      "phase": "pair-contrast_swapped",
+      "recovery_passed": true
+    },
+    {
+      "seed": 809,
+      "dt_ms": 0.2,
+      "output_hz": [
+        20,
+        25,
+        46,
+        49
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 2465,
+      "total_spikes": 2465,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.07358481187160218
+      ],
+      "wall_seconds": 2.7758654169738293,
+      "trial": 133,
+      "recruitment_key": 31,
+      "phase": "pair-contrast_swapped",
+      "recovery_passed": true
+    },
+    {
+      "seed": 809,
+      "dt_ms": 0.2,
+      "output_hz": [
+        20,
+        25,
+        46,
+        49
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 2465,
+      "total_spikes": 2465,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.07358481187160218
+      ],
+      "wall_seconds": 2.7443768340162933,
+      "trial": 134,
+      "recruitment_key": 31,
+      "phase": "pair-contrast_swapped",
+      "recovery_passed": true
+    },
+    {
+      "seed": 809,
+      "dt_ms": 0.2,
+      "output_hz": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 944,
+      "total_spikes": 944,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.707781479718271
+      ],
+      "wall_seconds": 2.7283142500091344,
+      "trial": 135,
+      "recruitment_key": 35,
+      "phase": "pair-contrast_swapped",
+      "recovery_passed": true
+    }
+  ],
+  "pairs": [
+    {
+      "name": "equal",
+      "presentation": [
+        0,
+        1
+      ],
+      "encoded": [
+        {
+          "quality": 0.5,
+          "quality_interval": [
+            0.5,
+            0.5
+          ],
+          "condition": "sweet_recruitment",
+          "sweet_ids": [
+            512551,
+            942168,
+            174444965,
+            183084,
+            159772,
+            72059,
+            262567,
+            202888,
+            531237,
+            213650853,
+            766547228,
+            120303,
+            261450,
+            140015,
+            78240,
+            163597,
+            933317
+          ],
+          "sweet_hz": 58.9,
+          "bitter_hz": 0.0,
+          "interpretation": "Engineered contact recruitment; no within-match normalization or chemical dose inference."
+        },
+        {
+          "quality": 0.5,
+          "quality_interval": [
+            0.5,
+            0.5
+          ],
+          "condition": "sweet_recruitment",
+          "sweet_ids": [
+            512551,
+            942168,
+            174444965,
+            183084,
+            159772,
+            72059,
+            262567,
+            202888,
+            531237,
+            213650853,
+            766547228,
+            120303,
+            261450,
+            140015,
+            78240,
+            163597,
+            933317
+          ],
+          "sweet_hz": 58.9,
+          "bitter_hz": 0.0,
+          "interpretation": "Engineered contact recruitment; no within-match normalization or chemical dose inference."
+        }
+      ],
+      "home_output_hz": [
+        1,
+        14,
+        28,
+        22
+      ],
+      "away_output_hz": [
+        1,
+        14,
+        28,
+        22
+      ],
+      "external_contrast": 0.0,
+      "exact_reference_match": true
+    },
+    {
+      "name": "equal",
+      "presentation": [
+        1,
+        0
+      ],
+      "encoded": [
+        {
+          "quality": 0.5,
+          "quality_interval": [
+            0.5,
+            0.5
+          ],
+          "condition": "sweet_recruitment",
+          "sweet_ids": [
+            512551,
+            942168,
+            174444965,
+            183084,
+            159772,
+            72059,
+            262567,
+            202888,
+            531237,
+            213650853,
+            766547228,
+            120303,
+            261450,
+            140015,
+            78240,
+            163597,
+            933317
+          ],
+          "sweet_hz": 58.9,
+          "bitter_hz": 0.0,
+          "interpretation": "Engineered contact recruitment; no within-match normalization or chemical dose inference."
+        },
+        {
+          "quality": 0.5,
+          "quality_interval": [
+            0.5,
+            0.5
+          ],
+          "condition": "sweet_recruitment",
+          "sweet_ids": [
+            512551,
+            942168,
+            174444965,
+            183084,
+            159772,
+            72059,
+            262567,
+            202888,
+            531237,
+            213650853,
+            766547228,
+            120303,
+            261450,
+            140015,
+            78240,
+            163597,
+            933317
+          ],
+          "sweet_hz": 58.9,
+          "bitter_hz": 0.0,
+          "interpretation": "Engineered contact recruitment; no within-match normalization or chemical dose inference."
+        }
+      ],
+      "home_output_hz": [
+        1,
+        14,
+        28,
+        22
+      ],
+      "away_output_hz": [
+        1,
+        14,
+        28,
+        22
+      ],
+      "external_contrast": 0.0,
+      "exact_reference_match": true
+    },
+    {
+      "name": "good",
+      "presentation": [
+        0,
+        1
+      ],
+      "encoded": [
+        {
+          "quality": 0.85,
+          "quality_interval": [
+            0.8,
+            0.9
+          ],
+          "condition": "sweet_recruitment",
+          "sweet_ids": [
+            512551,
+            942168,
+            174444965,
+            183084,
+            159772,
+            72059,
+            262567,
+            202888,
+            531237,
+            213650853,
+            766547228,
+            120303,
+            261450,
+            140015,
+            78240,
+            163597,
+            933317,
+            187492,
+            158893964,
+            142827,
+            190769,
+            215556,
+            180314,
+            557646,
+            475202322,
+            101087,
+            71254,
+            92440,
+            349137284
+          ],
+          "sweet_hz": 58.9,
+          "bitter_hz": 0.0,
+          "interpretation": "Engineered contact recruitment; no within-match normalization or chemical dose inference."
+        },
+        {
+          "quality": 0.8,
+          "quality_interval": [
+            0.75,
+            0.85
+          ],
+          "condition": "sweet_recruitment",
+          "sweet_ids": [
+            512551,
+            942168,
+            174444965,
+            183084,
+            159772,
+            72059,
+            262567,
+            202888,
+            531237,
+            213650853,
+            766547228,
+            120303,
+            261450,
+            140015,
+            78240,
+            163597,
+            933317,
+            187492,
+            158893964,
+            142827,
+            190769,
+            215556,
+            180314,
+            557646,
+            475202322,
+            101087,
+            71254
+          ],
+          "sweet_hz": 58.9,
+          "bitter_hz": 0.0,
+          "interpretation": "Engineered contact recruitment; no within-match normalization or chemical dose inference."
+        }
+      ],
+      "home_output_hz": [
+        20,
+        23,
+        45,
+        46
+      ],
+      "away_output_hz": [
+        9,
+        23,
+        41,
+        41
+      ],
+      "external_contrast": 0.236346776590449,
+      "exact_reference_match": true
+    },
+    {
+      "name": "good",
+      "presentation": [
+        1,
+        0
+      ],
+      "encoded": [
+        {
+          "quality": 0.85,
+          "quality_interval": [
+            0.8,
+            0.9
+          ],
+          "condition": "sweet_recruitment",
+          "sweet_ids": [
+            512551,
+            942168,
+            174444965,
+            183084,
+            159772,
+            72059,
+            262567,
+            202888,
+            531237,
+            213650853,
+            766547228,
+            120303,
+            261450,
+            140015,
+            78240,
+            163597,
+            933317,
+            187492,
+            158893964,
+            142827,
+            190769,
+            215556,
+            180314,
+            557646,
+            475202322,
+            101087,
+            71254,
+            92440,
+            349137284
+          ],
+          "sweet_hz": 58.9,
+          "bitter_hz": 0.0,
+          "interpretation": "Engineered contact recruitment; no within-match normalization or chemical dose inference."
+        },
+        {
+          "quality": 0.8,
+          "quality_interval": [
+            0.75,
+            0.85
+          ],
+          "condition": "sweet_recruitment",
+          "sweet_ids": [
+            512551,
+            942168,
+            174444965,
+            183084,
+            159772,
+            72059,
+            262567,
+            202888,
+            531237,
+            213650853,
+            766547228,
+            120303,
+            261450,
+            140015,
+            78240,
+            163597,
+            933317,
+            187492,
+            158893964,
+            142827,
+            190769,
+            215556,
+            180314,
+            557646,
+            475202322,
+            101087,
+            71254
+          ],
+          "sweet_hz": 58.9,
+          "bitter_hz": 0.0,
+          "interpretation": "Engineered contact recruitment; no within-match normalization or chemical dose inference."
+        }
+      ],
+      "home_output_hz": [
+        20,
+        23,
+        45,
+        46
+      ],
+      "away_output_hz": [
+        9,
+        23,
+        41,
+        41
+      ],
+      "external_contrast": 0.236346776590449,
+      "exact_reference_match": true
+    },
+    {
+      "name": "poor",
+      "presentation": [
+        0,
+        1
+      ],
+      "encoded": [
+        {
+          "quality": 0.2,
+          "quality_interval": [
+            0.2,
+            0.2
+          ],
+          "condition": "sweet_recruitment",
+          "sweet_ids": [
+            512551,
+            942168,
+            174444965,
+            183084,
+            159772,
+            72059,
+            262567
+          ],
+          "sweet_hz": 58.9,
+          "bitter_hz": 0.0,
+          "interpretation": "Engineered contact recruitment; no within-match normalization or chemical dose inference."
+        },
+        {
+          "quality": 0.2,
+          "quality_interval": [
+            0.2,
+            0.2
+          ],
+          "condition": "sweet_recruitment",
+          "sweet_ids": [
+            512551,
+            942168,
+            174444965,
+            183084,
+            159772,
+            72059,
+            262567
+          ],
+          "sweet_hz": 58.9,
+          "bitter_hz": 0.0,
+          "interpretation": "Engineered contact recruitment; no within-match normalization or chemical dose inference."
+        }
+      ],
+      "home_output_hz": [
+        0,
+        2,
+        3,
+        6
+      ],
+      "away_output_hz": [
+        0,
+        2,
+        3,
+        6
+      ],
+      "external_contrast": 0.0,
+      "exact_reference_match": true
+    },
+    {
+      "name": "poor",
+      "presentation": [
+        1,
+        0
+      ],
+      "encoded": [
+        {
+          "quality": 0.2,
+          "quality_interval": [
+            0.2,
+            0.2
+          ],
+          "condition": "sweet_recruitment",
+          "sweet_ids": [
+            512551,
+            942168,
+            174444965,
+            183084,
+            159772,
+            72059,
+            262567
+          ],
+          "sweet_hz": 58.9,
+          "bitter_hz": 0.0,
+          "interpretation": "Engineered contact recruitment; no within-match normalization or chemical dose inference."
+        },
+        {
+          "quality": 0.2,
+          "quality_interval": [
+            0.2,
+            0.2
+          ],
+          "condition": "sweet_recruitment",
+          "sweet_ids": [
+            512551,
+            942168,
+            174444965,
+            183084,
+            159772,
+            72059,
+            262567
+          ],
+          "sweet_hz": 58.9,
+          "bitter_hz": 0.0,
+          "interpretation": "Engineered contact recruitment; no within-match normalization or chemical dose inference."
+        }
+      ],
+      "home_output_hz": [
+        0,
+        2,
+        3,
+        6
+      ],
+      "away_output_hz": [
+        0,
+        2,
+        3,
+        6
+      ],
+      "external_contrast": 0.0,
+      "exact_reference_match": true
+    },
+    {
+      "name": "contrast",
+      "presentation": [
+        0,
+        1
+      ],
+      "encoded": [
+        {
+          "quality": 0.9,
+          "quality_interval": [
+            0.85,
+            0.95
+          ],
+          "condition": "sweet_recruitment",
+          "sweet_ids": [
+            512551,
+            942168,
+            174444965,
+            183084,
+            159772,
+            72059,
+            262567,
+            202888,
+            531237,
+            213650853,
+            766547228,
+            120303,
+            261450,
+            140015,
+            78240,
+            163597,
+            933317,
+            187492,
+            158893964,
+            142827,
+            190769,
+            215556,
+            180314,
+            557646,
+            475202322,
+            101087,
+            71254,
+            92440,
+            349137284,
+            516217,
+            272263
+          ],
+          "sweet_hz": 58.9,
+          "bitter_hz": 0.0,
+          "interpretation": "Engineered contact recruitment; no within-match normalization or chemical dose inference."
+        },
+        {
+          "quality": 0.1,
+          "quality_interval": [
+            0.05,
+            0.15
+          ],
+          "condition": "bitter",
+          "sweet_ids": [],
+          "sweet_hz": 58.9,
+          "bitter_hz": 18.8,
+          "interpretation": "Engineered contact recruitment; no within-match normalization or chemical dose inference."
+        }
+      ],
+      "home_output_hz": [
+        20,
+        25,
+        46,
+        49
+      ],
+      "away_output_hz": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "external_contrast": 3.5161973957207775,
+      "exact_reference_match": true
+    },
+    {
+      "name": "contrast",
+      "presentation": [
+        1,
+        0
+      ],
+      "encoded": [
+        {
+          "quality": 0.9,
+          "quality_interval": [
+            0.85,
+            0.95
+          ],
+          "condition": "sweet_recruitment",
+          "sweet_ids": [
+            512551,
+            942168,
+            174444965,
+            183084,
+            159772,
+            72059,
+            262567,
+            202888,
+            531237,
+            213650853,
+            766547228,
+            120303,
+            261450,
+            140015,
+            78240,
+            163597,
+            933317,
+            187492,
+            158893964,
+            142827,
+            190769,
+            215556,
+            180314,
+            557646,
+            475202322,
+            101087,
+            71254,
+            92440,
+            349137284,
+            516217,
+            272263
+          ],
+          "sweet_hz": 58.9,
+          "bitter_hz": 0.0,
+          "interpretation": "Engineered contact recruitment; no within-match normalization or chemical dose inference."
+        },
+        {
+          "quality": 0.1,
+          "quality_interval": [
+            0.05,
+            0.15
+          ],
+          "condition": "bitter",
+          "sweet_ids": [],
+          "sweet_hz": 58.9,
+          "bitter_hz": 18.8,
+          "interpretation": "Engineered contact recruitment; no within-match normalization or chemical dose inference."
+        }
+      ],
+      "home_output_hz": [
+        20,
+        25,
+        46,
+        49
+      ],
+      "away_output_hz": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "external_contrast": 3.5161973957207775,
+      "exact_reference_match": true
+    },
+    {
+      "name": "uncertain",
+      "presentation": [
+        0,
+        1
+      ],
+      "encoded": [
+        {
+          "quality": 0.65,
+          "quality_interval": [
+            0.15,
+            0.95
+          ],
+          "condition": "sweet_recruitment",
+          "sweet_ids": [
+            512551,
+            942168,
+            174444965,
+            183084,
+            159772,
+            72059,
+            262567,
+            202888,
+            531237,
+            213650853,
+            766547228,
+            120303,
+            261450,
+            140015,
+            78240,
+            163597,
+            933317,
+            187492,
+            158893964,
+            142827,
+            190769,
+            215556
+          ],
+          "sweet_hz": 58.9,
+          "bitter_hz": 0.0,
+          "interpretation": "Engineered contact recruitment; no within-match normalization or chemical dose inference."
+        },
+        {
+          "quality": 0.35,
+          "quality_interval": [
+            0.05,
+            0.85
+          ],
+          "condition": "sweet_recruitment",
+          "sweet_ids": [
+            512551,
+            942168,
+            174444965,
+            183084,
+            159772,
+            72059,
+            262567,
+            202888,
+            531237,
+            213650853,
+            766547228,
+            120303
+          ],
+          "sweet_hz": 58.9,
+          "bitter_hz": 0.0,
+          "interpretation": "Engineered contact recruitment; no within-match normalization or chemical dose inference."
+        }
+      ],
+      "home_output_hz": [
+        3,
+        15,
+        35,
+        33
+      ],
+      "away_output_hz": [
+        0,
+        3,
+        10,
+        16
+      ],
+      "external_contrast": 1.1628398921143666,
+      "exact_reference_match": true
+    },
+    {
+      "name": "uncertain",
+      "presentation": [
+        1,
+        0
+      ],
+      "encoded": [
+        {
+          "quality": 0.65,
+          "quality_interval": [
+            0.15,
+            0.95
+          ],
+          "condition": "sweet_recruitment",
+          "sweet_ids": [
+            512551,
+            942168,
+            174444965,
+            183084,
+            159772,
+            72059,
+            262567,
+            202888,
+            531237,
+            213650853,
+            766547228,
+            120303,
+            261450,
+            140015,
+            78240,
+            163597,
+            933317,
+            187492,
+            158893964,
+            142827,
+            190769,
+            215556
+          ],
+          "sweet_hz": 58.9,
+          "bitter_hz": 0.0,
+          "interpretation": "Engineered contact recruitment; no within-match normalization or chemical dose inference."
+        },
+        {
+          "quality": 0.35,
+          "quality_interval": [
+            0.05,
+            0.85
+          ],
+          "condition": "sweet_recruitment",
+          "sweet_ids": [
+            512551,
+            942168,
+            174444965,
+            183084,
+            159772,
+            72059,
+            262567,
+            202888,
+            531237,
+            213650853,
+            766547228,
+            120303
+          ],
+          "sweet_hz": 58.9,
+          "bitter_hz": 0.0,
+          "interpretation": "Engineered contact recruitment; no within-match normalization or chemical dose inference."
+        }
+      ],
+      "home_output_hz": [
+        3,
+        15,
+        35,
+        33
+      ],
+      "away_output_hz": [
+        0,
+        3,
+        10,
+        16
+      ],
+      "external_contrast": 1.1628398921143666,
+      "exact_reference_match": true
+    },
+    {
+      "name": "good_swapped",
+      "presentation": [
+        0,
+        1
+      ],
+      "encoded": [
+        {
+          "quality": 0.8,
+          "quality_interval": [
+            0.75,
+            0.85
+          ],
+          "condition": "sweet_recruitment",
+          "sweet_ids": [
+            512551,
+            942168,
+            174444965,
+            183084,
+            159772,
+            72059,
+            262567,
+            202888,
+            531237,
+            213650853,
+            766547228,
+            120303,
+            261450,
+            140015,
+            78240,
+            163597,
+            933317,
+            187492,
+            158893964,
+            142827,
+            190769,
+            215556,
+            180314,
+            557646,
+            475202322,
+            101087,
+            71254
+          ],
+          "sweet_hz": 58.9,
+          "bitter_hz": 0.0,
+          "interpretation": "Engineered contact recruitment; no within-match normalization or chemical dose inference."
+        },
+        {
+          "quality": 0.85,
+          "quality_interval": [
+            0.8,
+            0.9
+          ],
+          "condition": "sweet_recruitment",
+          "sweet_ids": [
+            512551,
+            942168,
+            174444965,
+            183084,
+            159772,
+            72059,
+            262567,
+            202888,
+            531237,
+            213650853,
+            766547228,
+            120303,
+            261450,
+            140015,
+            78240,
+            163597,
+            933317,
+            187492,
+            158893964,
+            142827,
+            190769,
+            215556,
+            180314,
+            557646,
+            475202322,
+            101087,
+            71254,
+            92440,
+            349137284
+          ],
+          "sweet_hz": 58.9,
+          "bitter_hz": 0.0,
+          "interpretation": "Engineered contact recruitment; no within-match normalization or chemical dose inference."
+        }
+      ],
+      "home_output_hz": [
+        9,
+        23,
+        41,
+        41
+      ],
+      "away_output_hz": [
+        20,
+        23,
+        45,
+        46
+      ],
+      "external_contrast": -0.236346776590449,
+      "exact_reference_match": true
+    },
+    {
+      "name": "good_swapped",
+      "presentation": [
+        1,
+        0
+      ],
+      "encoded": [
+        {
+          "quality": 0.8,
+          "quality_interval": [
+            0.75,
+            0.85
+          ],
+          "condition": "sweet_recruitment",
+          "sweet_ids": [
+            512551,
+            942168,
+            174444965,
+            183084,
+            159772,
+            72059,
+            262567,
+            202888,
+            531237,
+            213650853,
+            766547228,
+            120303,
+            261450,
+            140015,
+            78240,
+            163597,
+            933317,
+            187492,
+            158893964,
+            142827,
+            190769,
+            215556,
+            180314,
+            557646,
+            475202322,
+            101087,
+            71254
+          ],
+          "sweet_hz": 58.9,
+          "bitter_hz": 0.0,
+          "interpretation": "Engineered contact recruitment; no within-match normalization or chemical dose inference."
+        },
+        {
+          "quality": 0.85,
+          "quality_interval": [
+            0.8,
+            0.9
+          ],
+          "condition": "sweet_recruitment",
+          "sweet_ids": [
+            512551,
+            942168,
+            174444965,
+            183084,
+            159772,
+            72059,
+            262567,
+            202888,
+            531237,
+            213650853,
+            766547228,
+            120303,
+            261450,
+            140015,
+            78240,
+            163597,
+            933317,
+            187492,
+            158893964,
+            142827,
+            190769,
+            215556,
+            180314,
+            557646,
+            475202322,
+            101087,
+            71254,
+            92440,
+            349137284
+          ],
+          "sweet_hz": 58.9,
+          "bitter_hz": 0.0,
+          "interpretation": "Engineered contact recruitment; no within-match normalization or chemical dose inference."
+        }
+      ],
+      "home_output_hz": [
+        9,
+        23,
+        41,
+        41
+      ],
+      "away_output_hz": [
+        20,
+        23,
+        45,
+        46
+      ],
+      "external_contrast": -0.236346776590449,
+      "exact_reference_match": true
+    },
+    {
+      "name": "contrast_swapped",
+      "presentation": [
+        0,
+        1
+      ],
+      "encoded": [
+        {
+          "quality": 0.1,
+          "quality_interval": [
+            0.05,
+            0.15
+          ],
+          "condition": "bitter",
+          "sweet_ids": [],
+          "sweet_hz": 58.9,
+          "bitter_hz": 18.8,
+          "interpretation": "Engineered contact recruitment; no within-match normalization or chemical dose inference."
+        },
+        {
+          "quality": 0.9,
+          "quality_interval": [
+            0.85,
+            0.95
+          ],
+          "condition": "sweet_recruitment",
+          "sweet_ids": [
+            512551,
+            942168,
+            174444965,
+            183084,
+            159772,
+            72059,
+            262567,
+            202888,
+            531237,
+            213650853,
+            766547228,
+            120303,
+            261450,
+            140015,
+            78240,
+            163597,
+            933317,
+            187492,
+            158893964,
+            142827,
+            190769,
+            215556,
+            180314,
+            557646,
+            475202322,
+            101087,
+            71254,
+            92440,
+            349137284,
+            516217,
+            272263
+          ],
+          "sweet_hz": 58.9,
+          "bitter_hz": 0.0,
+          "interpretation": "Engineered contact recruitment; no within-match normalization or chemical dose inference."
+        }
+      ],
+      "home_output_hz": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "away_output_hz": [
+        20,
+        25,
+        46,
+        49
+      ],
+      "external_contrast": -3.5161973957207775,
+      "exact_reference_match": true
+    },
+    {
+      "name": "contrast_swapped",
+      "presentation": [
+        1,
+        0
+      ],
+      "encoded": [
+        {
+          "quality": 0.1,
+          "quality_interval": [
+            0.05,
+            0.15
+          ],
+          "condition": "bitter",
+          "sweet_ids": [],
+          "sweet_hz": 58.9,
+          "bitter_hz": 18.8,
+          "interpretation": "Engineered contact recruitment; no within-match normalization or chemical dose inference."
+        },
+        {
+          "quality": 0.9,
+          "quality_interval": [
+            0.85,
+            0.95
+          ],
+          "condition": "sweet_recruitment",
+          "sweet_ids": [
+            512551,
+            942168,
+            174444965,
+            183084,
+            159772,
+            72059,
+            262567,
+            202888,
+            531237,
+            213650853,
+            766547228,
+            120303,
+            261450,
+            140015,
+            78240,
+            163597,
+            933317,
+            187492,
+            158893964,
+            142827,
+            190769,
+            215556,
+            180314,
+            557646,
+            475202322,
+            101087,
+            71254,
+            92440,
+            349137284,
+            516217,
+            272263
+          ],
+          "sweet_hz": 58.9,
+          "bitter_hz": 0.0,
+          "interpretation": "Engineered contact recruitment; no within-match normalization or chemical dose inference."
+        }
+      ],
+      "home_output_hz": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "away_output_hz": [
+        20,
+        25,
+        46,
+        49
+      ],
+      "external_contrast": -3.5161973957207775,
+      "exact_reference_match": true
+    }
+  ],
+  "input_ids": [
+    54104,
+    71254,
+    72059,
+    78240,
+    81741,
+    85806,
+    92440,
+    101087,
+    107241,
+    115666,
+    120303,
+    125111,
+    136183,
+    139178,
+    140015,
+    140619,
+    141663,
+    142827,
+    144334,
+    154544,
+    159772,
+    160435,
+    163395,
+    163597,
+    166190,
+    167663,
+    168492,
+    173462,
+    178913,
+    180314,
+    183061,
+    183084,
+    187492,
+    187776,
+    190769,
+    199308,
+    202888,
+    203234,
+    208885,
+    209155,
+    215556,
+    256844,
+    261450,
+    262567,
+    272263,
+    374701,
+    375038,
+    511882,
+    512551,
+    514546,
+    514547,
+    516217,
+    517255,
+    518112,
+    518542,
+    522746,
+    522752,
+    522753,
+    522754,
+    522761,
+    522762,
+    522841,
+    531237,
+    533618,
+    549024,
+    556797,
+    557646,
+    557937,
+    912379,
+    933317,
+    942168,
+    957530,
+    140334446,
+    144295263,
+    158893964,
+    174444965,
+    213650853,
+    304136793,
+    324178811,
+    349137284,
+    388541892,
+    456838775,
+    475202322,
+    553738738,
+    602736959,
+    766547228,
+    772366874,
+    786482749,
+    911389008
+  ],
+  "sample_ids": [
+    54104,
+    71254,
+    72059,
+    78240,
+    81741,
+    85806,
+    92440,
+    101087,
+    107241,
+    115666,
+    120303,
+    125111,
+    136183,
+    139178,
+    140015,
+    140619,
+    141663,
+    142827,
+    144334,
+    154544,
+    159772,
+    160435,
+    163395,
+    163597,
+    166190,
+    167663,
+    168492,
+    173462,
+    178913,
+    180314,
+    183061,
+    183084,
+    187492,
+    187776,
+    190769,
+    199308,
+    202888,
+    203234,
+    208885,
+    209155,
+    215556,
+    256844,
+    261450,
+    262567,
+    272263,
+    374701,
+    375038,
+    511882,
+    512551,
+    514546,
+    514547,
+    516217,
+    517255,
+    518112,
+    518542,
+    522746,
+    522752,
+    522753,
+    522754,
+    522761,
+    522762,
+    522841,
+    531237,
+    533618,
+    549024,
+    556797,
+    557646,
+    557937,
+    912379,
+    933317,
+    942168,
+    957530,
+    140334446,
+    144295263,
+    158893964,
+    174444965,
+    213650853,
+    304136793,
+    324178811,
+    349137284,
+    388541892,
+    456838775,
+    475202322,
+    553738738,
+    602736959,
+    766547228,
+    772366874,
+    786482749,
+    911389008,
+    19480,
+    514625,
+    15321,
+    15734,
+    10331,
+    16949
+  ],
+  "output_ids": [
+    19480,
+    514625,
+    15321,
+    15734
+  ],
+  "mean_outputs": [
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.3333333333333333,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.3333333333333333,
+      1.0,
+      4.0
+    ],
+    [
+      0.0,
+      1.6666666666666667,
+      2.3333333333333335,
+      4.333333333333333
+    ],
+    [
+      0.0,
+      1.6666666666666667,
+      3.0,
+      6.0
+    ],
+    [
+      0.0,
+      3.6666666666666665,
+      6.0,
+      7.666666666666667
+    ],
+    [
+      0.3333333333333333,
+      3.0,
+      6.666666666666667,
+      8.333333333333334
+    ],
+    [
+      0.0,
+      3.6666666666666665,
+      6.333333333333333,
+      8.333333333333334
+    ],
+    [
+      0.0,
+      3.3333333333333335,
+      9.0,
+      10.666666666666666
+    ],
+    [
+      0.0,
+      3.6666666666666665,
+      10.333333333333334,
+      11.0
+    ],
+    [
+      0.0,
+      3.6666666666666665,
+      11.666666666666666,
+      12.0
+    ],
+    [
+      0.0,
+      4.0,
+      12.666666666666666,
+      12.0
+    ],
+    [
+      1.3333333333333333,
+      4.0,
+      12.666666666666666,
+      12.0
+    ],
+    [
+      0.6666666666666666,
+      13.666666666666666,
+      26.0,
+      18.333333333333332
+    ],
+    [
+      1.0,
+      13.666666666666666,
+      27.333333333333332,
+      18.666666666666668
+    ],
+    [
+      1.0,
+      14.0,
+      28.333333333333332,
+      19.0
+    ],
+    [
+      1.6666666666666667,
+      13.666666666666666,
+      29.0,
+      23.0
+    ],
+    [
+      1.6666666666666667,
+      15.0,
+      29.666666666666668,
+      23.666666666666668
+    ],
+    [
+      3.0,
+      14.333333333333334,
+      33.0,
+      29.333333333333332
+    ],
+    [
+      3.0,
+      15.333333333333334,
+      34.0,
+      30.666666666666668
+    ],
+    [
+      9.0,
+      15.333333333333334,
+      34.666666666666664,
+      31.666666666666668
+    ],
+    [
+      9.0,
+      15.333333333333334,
+      34.666666666666664,
+      32.333333333333336
+    ],
+    [
+      8.666666666666666,
+      14.666666666666666,
+      38.0,
+      36.666666666666664
+    ],
+    [
+      7.666666666666667,
+      24.0,
+      39.0,
+      36.666666666666664
+    ],
+    [
+      17.666666666666668,
+      23.0,
+      42.666666666666664,
+      43.666666666666664
+    ],
+    [
+      18.0,
+      23.666666666666668,
+      42.666666666666664,
+      43.666666666666664
+    ],
+    [
+      18.666666666666668,
+      23.333333333333332,
+      44.666666666666664,
+      46.333333333333336
+    ],
+    [
+      20.0,
+      26.333333333333332,
+      45.0,
+      46.333333333333336
+    ],
+    [
+      21.333333333333332,
+      26.333333333333332,
+      45.0,
+      46.333333333333336
+    ],
+    [
+      21.666666666666668,
+      27.0,
+      50.0,
+      49.0
+    ],
+    [
+      22.666666666666668,
+      27.333333333333332,
+      50.0,
+      49.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "recruitment_spearman": 0.998317952430659,
+  "checks": {
+    "ladder_order": true,
+    "equal_equal": true,
+    "poor_poor": true,
+    "good_good": true,
+    "poor_below_good": true,
+    "good_aversive": true,
+    "swap_good": true,
+    "swap_contrast": true,
+    "uncertainty_preserved": true
+  },
+  "wall_seconds": 374.72141724987887
+}

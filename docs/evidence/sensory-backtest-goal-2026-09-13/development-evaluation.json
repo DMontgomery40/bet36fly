@@ -1,0 +1,86 @@
+{
+  "metrics": {
+    "neural": {
+      "n": 2429,
+      "accuracy": 0.5829559489501852,
+      "log_loss": 0.6748482277636776,
+      "brier": 0.24093005858216002
+    },
+    "encoder_only": {
+      "n": 2429,
+      "accuracy": 0.5854261012762454,
+      "log_loss": 0.6736112104484162,
+      "brier": 0.24032369199534195
+    },
+    "same_information": {
+      "n": 2429,
+      "accuracy": 0.5808974886784685,
+      "log_loss": 0.6735991683301166,
+      "brier": 0.2403333468596927
+    },
+    "uniform": {
+      "n": 2429,
+      "accuracy": 0.5331412103746398,
+      "log_loss": 0.6931471805599453,
+      "brier": 0.25
+    },
+    "prior": {
+      "n": 2429,
+      "accuracy": 0.5331412103746398,
+      "log_loss": 0.6909750219908596,
+      "brier": 0.2489146602937142
+    },
+    "circuit_silenced": {
+      "n": 2429,
+      "accuracy": 0.5331412103746398,
+      "log_loss": 0.6931471805599453,
+      "brier": 0.25
+    }
+  },
+  "weeks": 27,
+  "replicates": 10000,
+  "alpha": 0.025,
+  "accuracy_interval": [
+    0.5688697445194898,
+    0.5971291283840255
+  ],
+  "paired_loss": {
+    "encoder_only": {
+      "mean": 0.001237017315261277,
+      "interval": [
+        -0.00022961702558674214,
+        0.002698404076248972
+      ]
+    },
+    "same_information": {
+      "mean": 0.0012490594335610534,
+      "interval": [
+        -0.00014310271408187988,
+        0.0026302472165354927
+      ]
+    },
+    "uniform": {
+      "mean": -0.018298952796267743,
+      "interval": [
+        -0.023377816371178747,
+        -0.013271865855817992
+      ]
+    },
+    "prior": {
+      "mean": -0.016126794227181974,
+      "interval": [
+        -0.020905516221494336,
+        -0.011262254351752215
+      ]
+    },
+    "circuit_silenced": {
+      "mean": -0.018298952796267743,
+      "interval": [
+        -0.023377816371178747,
+        -0.013271865855817992
+      ]
+    }
+  },
+  "goal_passed": true,
+  "interpretation": "Development-selected results; goal_passed here is descriptive only, never confirmation."
+}

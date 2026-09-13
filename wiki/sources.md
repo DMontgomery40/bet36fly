@@ -32,3 +32,9 @@ The peer-reviewed LIF reference used here is Shiu's female-FlyWire work. This bo
 For the imported literature and larger community map, consult the copied [connectome source ledger](imports/microduck-2026-09-12/wiki/connectome/sources.md), [community source ledger](imports/microduck-2026-09-12/wiki/community/sources.md), and [central source records](imports/microduck-2026-09-12/research/raw/2026-09-12/source-ledger.json). Their recorded retrieval states have not all been refreshed here. No full copyrighted paper has been added to the archive.
 
 [Wiki index](index.md)
+
+## September 13 sensory source-access update
+
+The previously inaccessible Tastekin Cell2026 package was recovered: [published Figure2](https://ars.els-cdn.com/content/image/1-s2.0-S0092867426009438-gr2.jpg), [supplemental figures](https://ars.els-cdn.com/content/image/1-s2.0-S0092867426009438-mmc1.pdf) and [cell workbook](https://ars.els-cdn.com/content/image/1-s2.0-S0092867426009438-mmc2.xlsx), DOI10.1016/j.cell.2026.08.016. Figure2/S16/S17 and the relevant captions were inspected, along with the December13,2025 preprintv2 morphology/methods. Functional labels are proposed from morphology/genetic-driver matching. The workbook join preserves exact MaleCNS IDs and rejects source/native disagreements.
+
+[Cameron2010](https://pmc.ncbi.nlm.nih.gov/articles/PMC2865571/), DOI10.1038/nature09011, primary Results/methods/figure captions provide the first-second water/sucrose/caffeine means and recording conditions. [Haynes2015](https://pmc.ncbi.nlm.nih.gov/articles/PMC4305081/), DOI10.7554/eLife.03868, transmitter/inhibition/receptor sections constrain the DPM sign hypothesis; its matched native diagnostic failed. [New source hashes, retrievals, reading limits and assay outcomes](../docs/evidence/sensory-backtest-goal-2026-09-13/index.md). Checked September13,2026. A source inspection is not a reproduced natural exposure.

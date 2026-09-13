@@ -2,13 +2,13 @@
 
 ## Natural sensory calibration checkpoint — September 13
 
-The [bounded calibration](evidence/natural-sensory-calibration-2026-09-13/index.md) exports exact candidate cell IDs and native ORN-to-PN contact support. Taste subtype mapping and absolute sensory schedules remain unresolved. Zero sensory neural calls ran; no natural-response, feeding or two-source choice claim is established. This adds an offline anatomy exporter and evidence, with no production/API/frontend behavior change.
+The [current sensory evidence](evidence/sensory-backtest-goal-2026-09-13/index.md) now includes a passed **second-order gustatory response** and an **external comparison of independent reset probes**. Source-identified Clavicle/Quasimodo outputs passed fresh-seed, timing and recovery checks; MN9 feeding qualification remains failed. A frozen encoder/readout pipeline reached 58.3% accuracy on 2022 development data, with no demonstrated advantage over its encoder alone. The selected pipeline is frozen before a single 2023 confirmation; no confirmation outcome has yet been accessed. V1 stays active and v2 paused.
 
 BET36FLY uses the actual MaleCNS v1.0 neuronal connectome from HHMI Janelia, Google Research and collaborators. Its sports behavior is an experimental engineering application, not a behavior reported or validated by those researchers. It contains no language model deciding the picks and no randomly generated substitute brain.
 
 ## Current model and experiment status
 
-**Research priority changed September 13:** the [natural sensory direction](PROJECT_DIRECTION.md) now precedes further learning-model repair. Calibrated food-related inputs, a natural-response assay and a two-opportunity comparison are planned, not implemented. The active v1 checkpoint and the separate legacy reward results below remain unchanged by this documentation update. [Sensory measurements and transfer limits](../wiki/natural-sensory-inputs.md).
+**Research priority changed September 13:** the [natural sensory direction](PROJECT_DIRECTION.md) now precedes further learning-model repair. Source-informed food-related inputs and a finite native assay are implemented, with second-order response qualification and an external two-opportunity comparison; full feeding remains unqualified. The active v1 checkpoint and the separate legacy reward results below remain unchanged by this documentation update. [Sensory measurements and transfer limits](../wiki/natural-sensory-inputs.md).
 
 The [reassessment, updated September 13 UTC](../wiki/reassessment.md), preserves
 the original branch distinction and records the later integration. Refractory

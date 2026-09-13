@@ -1,0 +1,86 @@
+{
+  "identity": "sensory-silenced-b1f371623347b5a033ad",
+  "status": "passed",
+  "neural_calls": 3,
+  "rows": [
+    {
+      "seed": 1103,
+      "dt_ms": 0.2,
+      "output_hz": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 2051,
+      "total_spikes": 2051,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.2756003585822454
+      ],
+      "wall_seconds": 2.7073032918851823,
+      "condition": "sweet",
+      "passed": true
+    },
+    {
+      "seed": 1103,
+      "dt_ms": 0.2,
+      "output_hz": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 674,
+      "total_spikes": 674,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.13373091855101574
+      ],
+      "wall_seconds": 2.6917162090539932,
+      "condition": "bitter",
+      "passed": true
+    },
+    {
+      "seed": 1103,
+      "dt_ms": 0.2,
+      "output_hz": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "MN9_hz": [
+        0,
+        0
+      ],
+      "tail_spikes": 0,
+      "output_tail_spikes": 0,
+      "stimulus_spikes": 2725,
+      "total_spikes": 2725,
+      "generator_numerical_passed": true,
+      "generator_p": [
+        1.0,
+        0.13373091855101574,
+        0.2756003585822454
+      ],
+      "wall_seconds": 2.6589286669623107,
+      "condition": "mixed",
+      "passed": true
+    }
+  ]
+}
