@@ -1,0 +1,59 @@
+{
+  "agent": "/root",
+  "at_utc": "2026-09-13T11:39:30.627000+00:00",
+  "status": "pass_root_review_before_actual_comparison",
+  "git_head": "dce1582618f6c386a4996695bc77ad4218dd493c",
+  "files": [
+    {
+      "file": "run_dan_causal_prefix.py",
+      "bytes": 36017,
+      "sha256": "13510ed87a3f5fc379b2e8cae21b940de9193722a694f8c61d266848cfa89c4d"
+    },
+    {
+      "file": "test_run_dan_causal_prefix.py",
+      "bytes": 26461,
+      "sha256": "716117621824067224ab5d2b584d83d33404c1201c3f00710a42b8b073cdec64"
+    },
+    {
+      "file": "dan_causal_prefix.py",
+      "bytes": 9123,
+      "sha256": "28601f16d718cbac719122dc496011344bd02e5a389dec4c470869eecaaef11e"
+    },
+    {
+      "file": "test_dan_causal_prefix.py",
+      "bytes": 10987,
+      "sha256": "f31ba840e925d4174c8b3a3220c06bc6d9f7898a181ed4831645f28aa2c58fd2"
+    },
+    {
+      "file": "launch_dan_causal_prefix.py",
+      "bytes": 2175,
+      "sha256": "09d3579e9ea3d9c015a326212056e839c174f06effae6f331f9547d07c3f4d14"
+    },
+    {
+      "file": "dan-causal-prefix-preregistration-2026-09-13.md",
+      "bytes": 7039,
+      "sha256": "2f0ea07b14f8c1a73f2ff6d75250094d22270aec2b523b422ef6a49fdde8ef37"
+    },
+    {
+      "file": "dan-causal-prefix-prereg-claim-review-dopamine-sources-2026-09-13.json",
+      "bytes": 8004,
+      "sha256": "877a4115ea76960fe82372e2986405162859cd1cd281638c65f176ad83b0297c"
+    }
+  ],
+  "material_findings": [],
+  "review_scope": [
+    "Full helper, driver and synthetic tests read; exact count inversion, any-channel first divergence and inclusive KC prefix checked.",
+    "Fixed actual dimensions, role/global/body joins, complete 32-history by two teaching-condition coverage and data-source bindings inspected.",
+    "Failed terminal status invalidates the completion hash; successful interpretation requires exit zero, no terminal error, elapsed below cap and matching completion/status/summary hashes.",
+    "Launcher reviewed: exclusive paths, argv vector, unresolved repository venv invocation and standard-library kill/reap timeout; actual data remains unrun."
+  ],
+  "verification": {
+    "helper_and_driver_synthetic_tests": 190,
+    "pytest_seconds": 1.46,
+    "pytest_exit": 0,
+    "ruff_exit": 0,
+    "actual_waveform_comparisons": 0,
+    "neural_calls": 0
+  },
+  "goal_boundary": "No new learning rule, numerical gate, source constant, production change, qualification or acquisition/reversal claim."
+}

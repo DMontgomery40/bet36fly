@@ -1,0 +1,17 @@
+{
+  "command": [
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/.venv/bin/python",
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/run_dan_causal_prefix_v2.py",
+    "--plan",
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-plan.json",
+    "--out",
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result"
+  ],
+  "run_id": "dan-causal-prefix-b3bbc7ad5a3c1040de18",
+  "plan_sha256": "6f27f043ea5a9e25ab03f617cb6b86858d74d2a98456a3b431c68e53b6fb9e69",
+  "wall_seconds_cap": 120,
+  "wall_seconds": 4.067662708926946,
+  "timed_out": false,
+  "exit_code": 0,
+  "child_reaped": true
+}

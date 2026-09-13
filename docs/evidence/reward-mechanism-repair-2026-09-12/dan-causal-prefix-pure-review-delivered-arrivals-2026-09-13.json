@@ -1,0 +1,82 @@
+{
+  "schema": 1,
+  "agent": "/root/delivered_arrivals",
+  "created_at_utc": "2026-09-13T11:16:39.776239+00:00",
+  "status": "superseded_unstable_review_boundary_do_not_use_for_dispatch",
+  "scope": "Read-only pure helper review before any actual archive evaluation; actual driver identity/schema/lifecycle review is separate.",
+  "reviewed": [
+    {
+      "path": "output/collaboration/reward-mechanism-repair/dan_causal_prefix.py",
+      "bytes": 8165,
+      "sha256": "70317d1fd711aa1461f5a8c60c50c54413e61cd13f00819a2209115dfd46d84b"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py",
+      "bytes": 9790,
+      "sha256": "ef51130de149c0d2076f25e146bfed920dc4c3d590dd1698c7b0908ccdd43542"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/causal-prefix-identifiability-contract-delivered-arrivals-2026-09-13.md",
+      "bytes": 12566,
+      "sha256": "4fc653c542cf167076d3a4032c542d64d04d3ca1cf46192a3367e548f437cf4f"
+    },
+    {
+      "path": "bet36fly/reward_lif.cpp",
+      "bytes": 19913,
+      "sha256": "e7dbb0aa8f95873036415581e94de45c237941f05642ccc90812c1be1119be37"
+    }
+  ],
+  "findings": [
+    {
+      "kind": "caller_validation_requirement",
+      "severity": "required_before_actual_archive_dispatch",
+      "detail": "Generic prefix_contrast accepts matched KC totals1e9; it does not know total KC population. Exact actual-record dtypes, fixed8 groups and source physical count domains must be enforced by the forthcoming archive driver or an explicit helper parameter.",
+      "required_checks": [
+        "float32 step_signals(2000,5), finite exact integral KC totals0..len(verified KC map)",
+        "float64 bridge_kc_used(2000,8,2) and bridge_rule(2000,8,8), actual layout/source bindings",
+        "unchanged complete pair identity, canonical selector, schedules, starting gains and full map/count reductions before statistics"
+      ],
+      "production_or_helper_fix_applied": false
+    }
+  ],
+  "mathematical_review": [
+    "decode_pool uses a rounded candidate followed by exact bitwise re-encoding, so this is strict canonical inversion, not tolerant nearest-value acceptance. For N\u226465535, F32 rounding error times N is <0.002, far below half an integer, so the candidate step recovers every valid count.",
+    "Exact re-encoding rejects neighboring F32 values and noncanonical negative zero. Fine pooling honors the explicit per-cell compartment map.",
+    "Global first difference covers either compartment; KC equality includes that step, rule equality excludes it. No extra delay grace is asserted.",
+    "No-divergence remains null with a complete current-bridge observed prefix, while per-cell taught history is explicitly not established.",
+    "KC-used vectors are recorded after KC spike injection and before gain update in native RateBridge.interval; their equality through the first divergent pooled-DAN step is appropriate.",
+    "The code detects observed prefix contradictions; cell-level equality still requires the independently specified source/mapping assumptions, not just matching aggregate summaries."
+  ],
+  "synthetic_verification": {
+    "command": "PYTHONDONTWRITEBYTECODE=1 .venv/bin/python -m pytest -q output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py",
+    "pytest_passed": 80,
+    "pytest_seconds": 0.09,
+    "ruff": "At the later mutable boundary Ruff found13 E701 errors in appended identity tests; no clean final-file Ruff claim.",
+    "additional_independent_cases": [
+      "Exhaustive65,536 valid encoded counts at maximum supported population65535 roundtrip exactly.",
+      "Two synthetic two-channel competing-divergence order cases select the global earliest step.",
+      "Matched1e9 KC-total counterexample reproduced the documented missing caller ceiling."
+    ]
+  },
+  "reading": {
+    "prior_complete_receipt": {
+      "path": "output/collaboration/reward-mechanism-repair/causal-prefix-identifiability-reading-delivered-arrivals-2026-09-13.json",
+      "bytes": 46858,
+      "sha256": "a99216032451ad57df232a62072906e520df34e75e89384e7815c6f89a574bce"
+    },
+    "all189_current_narrative_paths_hash_identical": true,
+    "new_or_changed_narratives": [],
+    "full_helper_and_test_contents_personally_read": false,
+    "full_read_scope": "Original80-case helper/test version only; appended identity-validation additions pending review."
+  },
+  "execution_boundary": {
+    "actual_archive_evaluations": 0,
+    "source_inductions": 0,
+    "native_calls": 0,
+    "captured_history_evaluations": 0,
+    "thresholds_or_parameters_selected": 0,
+    "network_requests": 0,
+    "production_edits": 0
+  },
+  "correction": "Files gained identity-validation additions during receipt generation. Captured hashes are newer than the complete helper/test read and80-case execution. This receipt does not approve those hashes; await a separately versioned frozen review."
+}

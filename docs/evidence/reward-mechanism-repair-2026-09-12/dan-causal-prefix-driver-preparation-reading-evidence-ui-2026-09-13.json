@@ -1,0 +1,159 @@
+{
+  "agent": "/root/evidence_ui",
+  "created_at": "2026-09-13T11:36:36.299425+00:00",
+  "status": "output_only_driver_prepared_synthetic_tests_pass_actual_execution_unrun",
+  "git_head": "dce1582618f6c386a4996695bc77ad4218dd493c",
+  "tracked_git_clean": true,
+  "reading": {
+    "scope": "AGENTS.md, README.md and all docs/wiki Markdown; prior exact-content aliases deduplicated only after earlier personal full readings",
+    "narrative_count": 189,
+    "all_current_narratives_match_personal_prior_chain": true,
+    "unread_or_changed_hashes": [],
+    "current_inventory_sha256": "945abed44ed679490fb25356293bf583258979f500c435a9df287f9bd5fe59a2",
+    "prior_receipt": {
+      "path": "output/collaboration/reward-mechanism-repair/dan-release-observability-reading-evidence-ui-2026-09-13.json",
+      "bytes": 8371,
+      "sha256": "5704a8799cd6a8c6237118203a344ae83a936e9be1dda6230340a2c8329e1912"
+    },
+    "prior_personal_chain": [
+      {
+        "path": "output/collaboration/reward-mechanism-repair/incentive-final-review-evidence-ui-2026-09-13.json",
+        "bytes": 14451,
+        "sha256": "668f296b4f3c0d849d488acf92daaed50abef51067714d7ae350697fb3e5dc52"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/incentive-handler-preparation-reading-evidence-ui-2026-09-13.json",
+        "bytes": 3859,
+        "sha256": "25f5fce5188f95e17f02ee672115a8e1140dd02eca0e699475c5e772a2455f79"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/teaching-signal-observability-reading-evidence-ui-2026-09-13.json",
+        "bytes": 6550,
+        "sha256": "7ef483ef61fa491e5c4937c2dfbd73f32eff385a5efd430d9ce7aace6ef3a266"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/kc-local-final-reading-review-evidence-ui-2026-09-13.json",
+        "bytes": 6095,
+        "sha256": "5476c6dc1e5bc1b1b2d66839ed6a65d375d4b57d51922b5ee86d7c974680db3b"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/kc-local-shadow-runner-reading-evidence-ui-2026-09-13.json",
+        "bytes": 5452,
+        "sha256": "24affcaa97332c1f45870b7036c35c968af513443cac659c43a43dcff92ad15f"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/kc-local-state-integration-reading-evidence-ui-2026-09-13.json",
+        "bytes": 4645,
+        "sha256": "5b7a31c89c41d574ce0a346c50a460d7aa8c3b755d3b95ff1afa59949f5e302d"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/kc-lateral-evidence-ui-closeout-reading-supplement-2026-09-13.json",
+        "bytes": 75493,
+        "sha256": "f87d37b06ce97da39db56fce50be205caecddadd69aa9390ecfc36a47256aa30"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/kc-lateral-evidence-ui-reading-review-2026-09-13.json",
+        "bytes": 74203,
+        "sha256": "bd9bb0bc55f564f282acc6cd2cbbcdb662b3714daf1237c84484e5af0fbc2646"
+      }
+    ],
+    "new_fully_read": [
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-preregistration-2026-09-13.md",
+        "bytes": 7039,
+        "sha256": "2f0ea07b14f8c1a73f2ff6d75250094d22270aec2b523b422ef6a49fdde8ef37"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/causal-prefix-identifiability-contract-delivered-arrivals-2026-09-13.md",
+        "bytes": 12566,
+        "sha256": "4fc653c542cf167076d3a4032c542d64d04d3ca1cf46192a3367e548f437cf4f"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-plan-draft-2026-09-13.json",
+        "bytes": 19597,
+        "sha256": "acb6110475071ebd3b35b65ed465acf591ada3a6c63f4102fe2436607a126aa9"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan_causal_prefix.py",
+        "bytes": 9123,
+        "sha256": "28601f16d718cbac719122dc496011344bd02e5a389dec4c470869eecaaef11e"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py",
+        "bytes": 10987,
+        "sha256": "f31ba840e925d4174c8b3a3220c06bc6d9f7898a181ed4831645f28aa2c58fd2"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-pure-review-final-delivered-arrivals-2026-09-13.json",
+        "bytes": 4303,
+        "sha256": "58cd7bbfe606838222c41d42c6e7718ccb65074880ace78ed14437ae26c0c1de"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-prereg-claim-review-dopamine-sources-2026-09-13.json",
+        "bytes": 8004,
+        "sha256": "877a4115ea76960fe82372e2986405162859cd1cd281638c65f176ad83b0297c"
+      }
+    ],
+    "source_and_archival_reading": "Full native/protocol/capture/diagnostic callpath and exact32-fine/two-main member-header/map/row joins are bound in the prior observability receipt. Current work inspected receipt/terminal/layout/protocol metadata again, without evaluating actual waveform arrays."
+  },
+  "implementation": [
+    {
+      "path": "output/collaboration/reward-mechanism-repair/run_dan_causal_prefix.py",
+      "bytes": 36017,
+      "sha256": "13510ed87a3f5fc379b2e8cae21b940de9193722a694f8c61d266848cfa89c4d"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix.py",
+      "bytes": 26461,
+      "sha256": "716117621824067224ab5d2b584d83d33404c1201c3f00710a42b8b073cdec64"
+    }
+  ],
+  "verification": {
+    "command": ".venv/bin/python -m pytest -q output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix.py output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py",
+    "passed": 190,
+    "writer_tests": 85,
+    "pure_helper_tests": 105,
+    "seconds": 1.33,
+    "log": {
+      "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-driver-tests-final-2026-09-13.txt",
+      "bytes": 260,
+      "sha256": "5b3865d0e51c1c1a9114a208ec0391f9006d45485ee13703c7940071a26ccc6d"
+    },
+    "ruff": "All checks passed; both writer files formatted",
+    "initial_red": {
+      "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-driver-red-2026-09-13.txt",
+      "bytes": 939,
+      "sha256": "b84ba5b00d88e2639d9b9a1c3dea21b9023c0fe3f746f87b9c2229431b5fbb21"
+    },
+    "full_repository_gate": "Parent-owned make verify completed4055 Python/103frontend/Ruff/build; not repeated by this agent and not evidence of actual archive audit."
+  },
+  "test_proof": [
+    "Canonical schema/count/range/role mapping with malformed shape,dtype,nonfinite,partial-bin and parity families.",
+    "A complete tiny synthetic fixture exercises actual bound-file,metadata,source,anatomy,map and archive loader path for32fine files/two64rowmain panels/64orderedcontrasts; only fixed actual dimensions and onset are explicitly substituted. No actual stored waveform arrays are read.",
+    "Exclusive output and pre/post input identity; missing/extra rows,source changes,producer/persistence failures preserve failed disposition and prior completed observations.",
+    "Final summary/status/completion cap-stage matrix verifies failed status and invalidated completion marker after a late cap crossing."
+  ],
+  "completion_contract": [
+    "Parent execution must finish exit_code0 within120seconds; timeout/killed/nonzero exit invalidates the study regardless of child artifacts.",
+    "terminal-error.json must be absent; status.json must say completed with64contrasts.",
+    "completion.json must say complete for the same run_id and64contrasts, and its status_sha256 and summary_sha256 must match current status.json and summary.json bytes.",
+    "A failed/cancelled/capped run may retain a previously written completion.json as failure evidence. Its marker is invalidated by the terminal error and failed status hash; marker presence alone never establishes success.",
+    "All84-or-final-bound source/input files are verified before and after; root freezes the complete final inventory and canonical run identity only after reviews."
+  ],
+  "proof_boundary": {
+    "actual_waveform_audits": 0,
+    "native_calls": 0,
+    "simulator_or_capture_imports": 0,
+    "new_learning_models": 0,
+    "fits": 0,
+    "network_calls": 0,
+    "production_edits": 0,
+    "known_taught_percell_limit": "Taught per-cell DAN events within10ms bins remain outside this audit; pooled equality does not establish all individual spike timing.",
+    "conditional_prefix": "Current pooled bridge code and exact matched identities establish KC spike equality only through first difference in either pooled DAN channel, inclusive; no nine-step delay extension and no new-law trajectory.",
+    "scientific_gate": "No threshold,parameter,accepted input/gain/mask or qualification criterion changes. Current failed learning gate remains failed."
+  },
+  "remaining": [
+    "Root and independent reviewer must approve final driver/test bytes and frozen plan before the sole actual existing-record audit.",
+    "No claim of real64contrast results, neural repair or conditioning success is made by this preparation receipt."
+  ]
+}

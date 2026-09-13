@@ -1,0 +1,89 @@
+{
+  "expected_dtype": "int64",
+  "expected_shape": [
+    4780
+  ],
+  "map_dtypes": {
+    "dan_indices": "int32",
+    "kc_indices": "int32",
+    "sensory_indices": "int32"
+  },
+  "results": [
+    {
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/diagnostics/diag-rate-bridge-v1-maskgamma-de050d773763/trials.npz",
+      "member": "sampled.npy",
+      "npy_version": [
+        1,
+        0
+      ],
+      "header_dtype": "int64",
+      "fortran_order": false,
+      "shape": [
+        4780
+      ],
+      "member_bytes": 38368,
+      "member_crc32": 461571408,
+      "array_sha256": "ebecab105c22bb43d6e2f6ed4cfb27a25062ffa013299cd082d7a399b87f0dbd",
+      "exact_expected_values": true,
+      "range": [
+        30,
+        164901
+      ],
+      "segments": {
+        "MBON_home": [
+          655,
+          1306
+        ],
+        "MBON_away": [
+          7944,
+          8443,
+          10200,
+          131769
+        ],
+        "DAN": 24,
+        "KC": 4064,
+        "sensory": 686
+      }
+    },
+    {
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/diagnostics/diag-rate-bridge-v1-maskgamma-dea14759e9ca/trials.npz",
+      "member": "sampled.npy",
+      "npy_version": [
+        1,
+        0
+      ],
+      "header_dtype": "int64",
+      "fortran_order": false,
+      "shape": [
+        4780
+      ],
+      "member_bytes": 38368,
+      "member_crc32": 461571408,
+      "array_sha256": "ebecab105c22bb43d6e2f6ed4cfb27a25062ffa013299cd082d7a399b87f0dbd",
+      "exact_expected_values": true,
+      "range": [
+        30,
+        164901
+      ],
+      "segments": {
+        "MBON_home": [
+          655,
+          1306
+        ],
+        "MBON_away": [
+          7944,
+          8443,
+          10200,
+          131769
+        ],
+        "DAN": 24,
+        "KC": 4064,
+        "sensory": 686
+      }
+    }
+  ],
+  "actual_waveforms_read": 0,
+  "prior_probe_failure": "NumPy private header helper unavailable before sampled payload read; corrected to public versioned header reader."
+}

@@ -1,0 +1,81 @@
+{
+  "agent": "/root/dopamine_sources",
+  "at_utc": "2026-09-13T11:45:39.485730+00:00",
+  "status": "pass_v2_reader_correction_scientific_scope_review",
+  "material_findings": [],
+  "reading": {
+    "prior_complete_chain": {
+      "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-prereg-claim-review-dopamine-sources-2026-09-13.json",
+      "bytes": 8004,
+      "sha256": "877a4115ea76960fe82372e2986405162859cd1cd281638c65f176ad83b0297c"
+    },
+    "current_AGENTS_docs_wiki_narrative_count": 188,
+    "current_hash_deltas_against_prior_personal_chain": [],
+    "personally_read_complete_new_narratives": [
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-v2-reader-correction-2026-09-13.md",
+        "bytes": 2611,
+        "sha256": "07b8ce1c725de0e0132f5ab7acdeb459197fad0652576ac5084780a4874cdc99"
+      }
+    ],
+    "personally_read_complete_metadata": [
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-v1-failure-metadata-2026-09-13.json",
+        "bytes": 1050,
+        "sha256": "17fc21a53350b731a23d4d8a99f890a80504fd1895584a825c0e6513800cd804"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-cb7eb73ca0c41bd37e4b-execution/parent-result.json",
+        "bytes": 827,
+        "sha256": "9c3999052007b42e52ffa4651506eda2d920b63e9c79e82b5cb4592d06091602"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-cb7eb73ca0c41bd37e4b-execution/result/terminal-error.json",
+        "bytes": 123,
+        "sha256": "b0eea342ca3328c71bc07ad2d34ebdfcd0824c5ec3fc8646b975a5aacd3e52d3"
+      }
+    ],
+    "producer_sections_checked": [
+      "scripts/reward_teaching_diagnostic.py:177\u2013201, especially190 concatenation",
+      "bet36fly/reward_protocol.py:204 np.flatnonzero MBON selector"
+    ],
+    "unchanged_scientific_preregistration": {
+      "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-preregistration-2026-09-13.md",
+      "bytes": 7039,
+      "sha256": "2f0ea07b14f8c1a73f2ff6d75250094d22270aec2b523b422ef6a49fdde8ef37"
+    }
+  },
+  "failed_attempt": {
+    "run_id": "dan-causal-prefix-cb7eb73ca0c41bd37e4b",
+    "plan": {
+      "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-cb7eb73ca0c41bd37e4b-plan.json",
+      "bytes": 34133,
+      "sha256": "1adb8b4222e6d3cbb593bd2fc2015496f1e0d67a99a093ab6155caacc8b8a079"
+    },
+    "parent_exit_code": 1,
+    "parent_elapsed_seconds": 0.5307185419369489,
+    "timed_out": false,
+    "child_reaped": true,
+    "completed_contrasts": 0,
+    "terminal_error": "ValueError: main sampled identity/order",
+    "interpretation": "Audit-reader schema failure before any contrast or waveform comparison, not a neural result."
+  },
+  "correction": {
+    "main_selector": "Require exact int64(4780), ordered unique values and correct roles; retain int32 fine selector contract.",
+    "evidence": "Both-panel metadata reports int64,4780 unique identities, exact expected values and matching numeric hash ebecab105c22bb43d6e2f6ed4cfb27a25062ffa013299cd082d7a399b87f0dbd. This agent inspected the producer and these receipts; it did not reopen actual archive arrays.",
+    "scope": "Reader and synthetic fixture must match the existing producer/storage contract. The64 contrasts, inputs, prefix endpoints, inference limits and scientific criteria remain unchanged.",
+    "remaining_validation": "Separate v2 implementation and generalized type/order/identity fixture tests require their own review and frozen identity before a single exclusive execution. This receipt does not establish v2 implementation correctness or authorize a run."
+  },
+  "interpretation_requirements": [
+    "Preserve failed v1 plan/code/tests/reviews/attempt and never restart that identity.",
+    "Report one failed pre-contrast reader attempt separately from any later completed analysis. Do not count the false start as evidence about the circuit.",
+    "A successful metadata analysis would still not demonstrate learning, a calibrated release model or complete taught per-cell timing; both qualification panels and acquisition/reversal remain required."
+  ],
+  "verification": {
+    "new_tests": 0,
+    "model_native_or_source_runs": 0,
+    "actual_waveform_arrays_read": 0,
+    "network_actions": 0,
+    "only_mutation": "This new output-only JSON receipt; all previous artifacts remain unchanged."
+  }
+}

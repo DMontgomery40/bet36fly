@@ -1,0 +1,3576 @@
+{
+  "schema": 1,
+  "agent": "/root/delivered_arrivals",
+  "created_at_utc": "2026-09-13T11:52:43.265775+00:00",
+  "status": "pass_independent_review_of_complete_saved_outputs",
+  "material_findings": [],
+  "plan": {
+    "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-plan.json",
+    "bytes": 38830,
+    "sha256": "6f27f043ea5a9e25ab03f617cb6b86858d74d2a98456a3b431c68e53b6fb9e69"
+  },
+  "parent": {
+    "command": [
+      "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/.venv/bin/python",
+      "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/run_dan_causal_prefix_v2.py",
+      "--plan",
+      "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-plan.json",
+      "--out",
+      "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result"
+    ],
+    "run_id": "dan-causal-prefix-b3bbc7ad5a3c1040de18",
+    "plan_sha256": "6f27f043ea5a9e25ab03f617cb6b86858d74d2a98456a3b431c68e53b6fb9e69",
+    "wall_seconds_cap": 120,
+    "wall_seconds": 4.067662708926946,
+    "timed_out": false,
+    "exit_code": 0,
+    "child_reaped": true
+  },
+  "terminal": {
+    "status": {
+      "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/status.json",
+      "bytes": 86030,
+      "sha256": "26675960769afce7f5701dbde4826cd6eb63fbef4943df85f143d87b95b5af5a"
+    },
+    "summary": {
+      "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/summary.json",
+      "bytes": 4669,
+      "sha256": "5cefacc506514bc8822397d3ca5ff903b25868d707ca6277a086dc9175654320"
+    },
+    "completion": {
+      "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/completion.json",
+      "bytes": 312,
+      "sha256": "c18a41353a4de5018378999e6a1158f43909e28ac6b86fffad72422c9f7ee526"
+    },
+    "terminal_error_absent": true,
+    "all_hashes_and_run_ids_match": true,
+    "rows": 64
+  },
+  "all_frozen_inputs_current": {
+    "count": 113,
+    "bytes": 917311069,
+    "all_hashes_and_sizes_match": true,
+    "method": "Streamed SHA256 only; original numerical waveform payloads were not decoded or compared."
+  },
+  "saved_output_integrity": {
+    "files": 135,
+    "bytes": 852243,
+    "all_unchanged_during_review": true,
+    "all64_jsons_match_status_rows": true,
+    "all64_npz_hashes_match": true,
+    "arrays_read": 256,
+    "integer_values_read": 777728
+  },
+  "complete_observations": {
+    "all64_first_any_channel_divergence_step": 1550,
+    "first_divergence_ms": 310.0,
+    "all64_recorded_first_rule_difference": 1550,
+    "all64_recorded_first_KC_total_and_group_used_difference": null,
+    "untaught_channel_difference_zero_all_steps": true,
+    "home_31_of_32": "Exactly +2 home events at each step1550/1650/1750/1850, total8; no other difference.",
+    "home_exception": {
+      "index": 58,
+      "game": 4420,
+      "seed_set": "alt",
+      "panel": "second",
+      "additional_difference_step": 1556,
+      "additional_difference_ms": 311.2,
+      "additional_difference": [
+        -1,
+        0
+      ],
+      "total": [
+        7,
+        0
+      ]
+    },
+    "away_all32": "Exactly +22 away events at steps1550/1650/1750/1850, total88; no other difference.",
+    "whole_KC_prefix_bins": 31,
+    "hidden_percell_prefix_bins_recorded_empty_all64": true,
+    "KC_body_count": 4064,
+    "DAN_body_count": 24,
+    "home_away_same_untaught_prefix_vectors_all32_pairs": true,
+    "KC_prefix_total_range": [
+      1299,
+      5548
+    ],
+    "KC_active_cell_range": [
+      490,
+      1446
+    ]
+  },
+  "independently_reduced_groups": {
+    "diag-rate-bridge-v1-maskgamma-de050d773763/base/home": {
+      "contrasts": 8,
+      "no_pool_difference": 0,
+      "first_difference_step_min": 1550,
+      "first_difference_step_max": 1550,
+      "first_difference_ms_min": 310.0,
+      "first_difference_ms_max": 310.0,
+      "first_count_difference_min": [
+        2,
+        0
+      ],
+      "first_count_difference_max": [
+        2,
+        0
+      ],
+      "total_count_difference_min": [
+        8,
+        0
+      ],
+      "total_count_difference_max": [
+        8,
+        0
+      ]
+    },
+    "diag-rate-bridge-v1-maskgamma-de050d773763/base/away": {
+      "contrasts": 8,
+      "no_pool_difference": 0,
+      "first_difference_step_min": 1550,
+      "first_difference_step_max": 1550,
+      "first_difference_ms_min": 310.0,
+      "first_difference_ms_max": 310.0,
+      "first_count_difference_min": [
+        0,
+        22
+      ],
+      "first_count_difference_max": [
+        0,
+        22
+      ],
+      "total_count_difference_min": [
+        0,
+        88
+      ],
+      "total_count_difference_max": [
+        0,
+        88
+      ]
+    },
+    "diag-rate-bridge-v1-maskgamma-de050d773763/alt/home": {
+      "contrasts": 8,
+      "no_pool_difference": 0,
+      "first_difference_step_min": 1550,
+      "first_difference_step_max": 1550,
+      "first_difference_ms_min": 310.0,
+      "first_difference_ms_max": 310.0,
+      "first_count_difference_min": [
+        2,
+        0
+      ],
+      "first_count_difference_max": [
+        2,
+        0
+      ],
+      "total_count_difference_min": [
+        8,
+        0
+      ],
+      "total_count_difference_max": [
+        8,
+        0
+      ]
+    },
+    "diag-rate-bridge-v1-maskgamma-de050d773763/alt/away": {
+      "contrasts": 8,
+      "no_pool_difference": 0,
+      "first_difference_step_min": 1550,
+      "first_difference_step_max": 1550,
+      "first_difference_ms_min": 310.0,
+      "first_difference_ms_max": 310.0,
+      "first_count_difference_min": [
+        0,
+        22
+      ],
+      "first_count_difference_max": [
+        0,
+        22
+      ],
+      "total_count_difference_min": [
+        0,
+        88
+      ],
+      "total_count_difference_max": [
+        0,
+        88
+      ]
+    },
+    "diag-rate-bridge-v1-maskgamma-dea14759e9ca/base/home": {
+      "contrasts": 8,
+      "no_pool_difference": 0,
+      "first_difference_step_min": 1550,
+      "first_difference_step_max": 1550,
+      "first_difference_ms_min": 310.0,
+      "first_difference_ms_max": 310.0,
+      "first_count_difference_min": [
+        2,
+        0
+      ],
+      "first_count_difference_max": [
+        2,
+        0
+      ],
+      "total_count_difference_min": [
+        8,
+        0
+      ],
+      "total_count_difference_max": [
+        8,
+        0
+      ]
+    },
+    "diag-rate-bridge-v1-maskgamma-dea14759e9ca/base/away": {
+      "contrasts": 8,
+      "no_pool_difference": 0,
+      "first_difference_step_min": 1550,
+      "first_difference_step_max": 1550,
+      "first_difference_ms_min": 310.0,
+      "first_difference_ms_max": 310.0,
+      "first_count_difference_min": [
+        0,
+        22
+      ],
+      "first_count_difference_max": [
+        0,
+        22
+      ],
+      "total_count_difference_min": [
+        0,
+        88
+      ],
+      "total_count_difference_max": [
+        0,
+        88
+      ]
+    },
+    "diag-rate-bridge-v1-maskgamma-dea14759e9ca/alt/home": {
+      "contrasts": 8,
+      "no_pool_difference": 0,
+      "first_difference_step_min": 1550,
+      "first_difference_step_max": 1550,
+      "first_difference_ms_min": 310.0,
+      "first_difference_ms_max": 310.0,
+      "first_count_difference_min": [
+        2,
+        0
+      ],
+      "first_count_difference_max": [
+        2,
+        0
+      ],
+      "total_count_difference_min": [
+        7,
+        0
+      ],
+      "total_count_difference_max": [
+        8,
+        0
+      ]
+    },
+    "diag-rate-bridge-v1-maskgamma-dea14759e9ca/alt/away": {
+      "contrasts": 8,
+      "no_pool_difference": 0,
+      "first_difference_step_min": 1550,
+      "first_difference_step_max": 1550,
+      "first_difference_ms_min": 310.0,
+      "first_difference_ms_max": 310.0,
+      "first_count_difference_min": [
+        0,
+        22
+      ],
+      "first_count_difference_max": [
+        0,
+        22
+      ],
+      "total_count_difference_min": [
+        0,
+        88
+      ],
+      "total_count_difference_max": [
+        0,
+        88
+      ]
+    }
+  },
+  "rows": [
+    {
+      "index": 0,
+      "selector": {
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+        "game": 4362,
+        "seed_set": "base",
+        "seed": 4404
+      },
+      "condition": "home",
+      "npz": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_000.npz",
+        "bytes": 10058,
+        "sha256": "4847992e67cfd2808d88f0368b486b43920044ca6603e530282f0f0b00824685"
+      },
+      "json": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_000.json",
+        "bytes": 1168,
+        "sha256": "48334b9eb2e8ddf67b7e8c2583ccfa9429bcf5ad0188c3f65d1bf6cee30e0d99"
+      },
+      "nonzero_count_differences": [
+        [
+          1550,
+          2,
+          0
+        ],
+        [
+          1650,
+          2,
+          0
+        ],
+        [
+          1750,
+          2,
+          0
+        ],
+        [
+          1850,
+          2,
+          0
+        ]
+      ],
+      "total_count_difference": [
+        8,
+        0
+      ],
+      "first_difference_step": 1550,
+      "kc_prefix_count_total": 2572,
+      "kc_active_cells": 771,
+      "kc_cell_count_max": 15,
+      "kc_prefix_sha256": "9c129f1d005df10500736e6d1db82190b793dbb2a07e9e9c3e6b921d213bbddd"
+    },
+    {
+      "index": 1,
+      "selector": {
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+        "game": 4362,
+        "seed_set": "base",
+        "seed": 4404
+      },
+      "condition": "away",
+      "npz": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_001.npz",
+        "bytes": 10058,
+        "sha256": "3893d4253894eb926a81ad3562f32a9bcd4ea6f423b6839bf68d4a3557d7d51b"
+      },
+      "json": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_001.json",
+        "bytes": 1171,
+        "sha256": "a6dd41a4d50c697b8fa5d9f91c466eb3c9648f380bdb90358c1fe12aa20f5aac"
+      },
+      "nonzero_count_differences": [
+        [
+          1550,
+          0,
+          22
+        ],
+        [
+          1650,
+          0,
+          22
+        ],
+        [
+          1750,
+          0,
+          22
+        ],
+        [
+          1850,
+          0,
+          22
+        ]
+      ],
+      "total_count_difference": [
+        0,
+        88
+      ],
+      "first_difference_step": 1550,
+      "kc_prefix_count_total": 2572,
+      "kc_active_cells": 771,
+      "kc_cell_count_max": 15,
+      "kc_prefix_sha256": "9c129f1d005df10500736e6d1db82190b793dbb2a07e9e9c3e6b921d213bbddd"
+    },
+    {
+      "index": 2,
+      "selector": {
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+        "game": 4362,
+        "seed_set": "alt",
+        "seed": 1004404
+      },
+      "condition": "home",
+      "npz": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_002.npz",
+        "bytes": 9971,
+        "sha256": "2077d3f1c606194ae23e726c6897e992f5b3fe0bf35f224de2d0dfdee292b9a8"
+      },
+      "json": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_002.json",
+        "bytes": 1169,
+        "sha256": "f21aba9cdcda25795599350cf4238e154d84dc88febc3530a95f378505432504"
+      },
+      "nonzero_count_differences": [
+        [
+          1550,
+          2,
+          0
+        ],
+        [
+          1650,
+          2,
+          0
+        ],
+        [
+          1750,
+          2,
+          0
+        ],
+        [
+          1850,
+          2,
+          0
+        ]
+      ],
+      "total_count_difference": [
+        8,
+        0
+      ],
+      "first_difference_step": 1550,
+      "kc_prefix_count_total": 2286,
+      "kc_active_cells": 708,
+      "kc_cell_count_max": 13,
+      "kc_prefix_sha256": "6456c37e56a1118608c781c298df48fa774d909bb5d85ad4b93c50000bc52961"
+    },
+    {
+      "index": 3,
+      "selector": {
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+        "game": 4362,
+        "seed_set": "alt",
+        "seed": 1004404
+      },
+      "condition": "away",
+      "npz": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_003.npz",
+        "bytes": 9971,
+        "sha256": "754b26a3abec0525cda32a12a3380db54a97784a966b6e1ec6a0fdeea88849c6"
+      },
+      "json": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_003.json",
+        "bytes": 1172,
+        "sha256": "781b51c42625850bffd42ca318f8cfdf898f852e66e74cba51ec10f703901e7d"
+      },
+      "nonzero_count_differences": [
+        [
+          1550,
+          0,
+          22
+        ],
+        [
+          1650,
+          0,
+          22
+        ],
+        [
+          1750,
+          0,
+          22
+        ],
+        [
+          1850,
+          0,
+          22
+        ]
+      ],
+      "total_count_difference": [
+        0,
+        88
+      ],
+      "first_difference_step": 1550,
+      "kc_prefix_count_total": 2286,
+      "kc_active_cells": 708,
+      "kc_cell_count_max": 13,
+      "kc_prefix_sha256": "6456c37e56a1118608c781c298df48fa774d909bb5d85ad4b93c50000bc52961"
+    },
+    {
+      "index": 4,
+      "selector": {
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+        "game": 4366,
+        "seed_set": "base",
+        "seed": 4408
+      },
+      "condition": "home",
+      "npz": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_004.npz",
+        "bytes": 9756,
+        "sha256": "a49c0b72ed44be2284dfabdca6f708ea93d5214dad46276dd146600eff87770f"
+      },
+      "json": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_004.json",
+        "bytes": 1167,
+        "sha256": "4d744e0dc972180916467a29a1a8e9caccdfdab984837a950415baedcb0057f7"
+      },
+      "nonzero_count_differences": [
+        [
+          1550,
+          2,
+          0
+        ],
+        [
+          1650,
+          2,
+          0
+        ],
+        [
+          1750,
+          2,
+          0
+        ],
+        [
+          1850,
+          2,
+          0
+        ]
+      ],
+      "total_count_difference": [
+        8,
+        0
+      ],
+      "first_difference_step": 1550,
+      "kc_prefix_count_total": 1635,
+      "kc_active_cells": 597,
+      "kc_cell_count_max": 13,
+      "kc_prefix_sha256": "663b71bde1fc2e9c011fb7648be3e6b8788239c1ff0e7581330007a45f02d3cd"
+    },
+    {
+      "index": 5,
+      "selector": {
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+        "game": 4366,
+        "seed_set": "base",
+        "seed": 4408
+      },
+      "condition": "away",
+      "npz": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_005.npz",
+        "bytes": 9756,
+        "sha256": "87a7de40e4251f28f490d7b2d1a83df246d2d8abe863583a6af49589feb3d2b9"
+      },
+      "json": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_005.json",
+        "bytes": 1170,
+        "sha256": "5e18bd2253b37b2f38126759fe5800a81c971d5ced7a1190c9a4365775c92c72"
+      },
+      "nonzero_count_differences": [
+        [
+          1550,
+          0,
+          22
+        ],
+        [
+          1650,
+          0,
+          22
+        ],
+        [
+          1750,
+          0,
+          22
+        ],
+        [
+          1850,
+          0,
+          22
+        ]
+      ],
+      "total_count_difference": [
+        0,
+        88
+      ],
+      "first_difference_step": 1550,
+      "kc_prefix_count_total": 1635,
+      "kc_active_cells": 597,
+      "kc_cell_count_max": 13,
+      "kc_prefix_sha256": "663b71bde1fc2e9c011fb7648be3e6b8788239c1ff0e7581330007a45f02d3cd"
+    },
+    {
+      "index": 6,
+      "selector": {
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+        "game": 4366,
+        "seed_set": "alt",
+        "seed": 1004408
+      },
+      "condition": "home",
+      "npz": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_006.npz",
+        "bytes": 9765,
+        "sha256": "6a842f6500cf2e4d70e6dcff3e08fd32b2a85b3ca51a7d2990a2cda1611b0bf2"
+      },
+      "json": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_006.json",
+        "bytes": 1169,
+        "sha256": "edea4f6c052fdd94b110e17c5d37661428cfbd982ff355eb1816e7c2a6a228cb"
+      },
+      "nonzero_count_differences": [
+        [
+          1550,
+          2,
+          0
+        ],
+        [
+          1650,
+          2,
+          0
+        ],
+        [
+          1750,
+          2,
+          0
+        ],
+        [
+          1850,
+          2,
+          0
+        ]
+      ],
+      "total_count_difference": [
+        8,
+        0
+      ],
+      "first_difference_step": 1550,
+      "kc_prefix_count_total": 1668,
+      "kc_active_cells": 593,
+      "kc_cell_count_max": 15,
+      "kc_prefix_sha256": "0c6bb49e506354bb9f22e663f16c1b381c7ca76d3dc672f9a6248fa6cfe57194"
+    },
+    {
+      "index": 7,
+      "selector": {
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+        "game": 4366,
+        "seed_set": "alt",
+        "seed": 1004408
+      },
+      "condition": "away",
+      "npz": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_007.npz",
+        "bytes": 9765,
+        "sha256": "7ea3f24c15c258f23555d4f9cae5c5fe717a263d0525fbd5f3d7153d48c254f4"
+      },
+      "json": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_007.json",
+        "bytes": 1172,
+        "sha256": "b449e8ea9047180dd35a32cac1d121eb5f86203a741da30793ed8833322ca821"
+      },
+      "nonzero_count_differences": [
+        [
+          1550,
+          0,
+          22
+        ],
+        [
+          1650,
+          0,
+          22
+        ],
+        [
+          1750,
+          0,
+          22
+        ],
+        [
+          1850,
+          0,
+          22
+        ]
+      ],
+      "total_count_difference": [
+        0,
+        88
+      ],
+      "first_difference_step": 1550,
+      "kc_prefix_count_total": 1668,
+      "kc_active_cells": 593,
+      "kc_cell_count_max": 15,
+      "kc_prefix_sha256": "0c6bb49e506354bb9f22e663f16c1b381c7ca76d3dc672f9a6248fa6cfe57194"
+    },
+    {
+      "index": 8,
+      "selector": {
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+        "game": 4370,
+        "seed_set": "base",
+        "seed": 4412
+      },
+      "condition": "home",
+      "npz": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_008.npz",
+        "bytes": 10483,
+        "sha256": "61258f271095d8228812f88955947594499fca1d8e0975edbee2bd1e3f37acc5"
+      },
+      "json": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_008.json",
+        "bytes": 1168,
+        "sha256": "d904b700a92e9230274d6b6ff92ae7eb3749e0e18cdca11db116748b7777493d"
+      },
+      "nonzero_count_differences": [
+        [
+          1550,
+          2,
+          0
+        ],
+        [
+          1650,
+          2,
+          0
+        ],
+        [
+          1750,
+          2,
+          0
+        ],
+        [
+          1850,
+          2,
+          0
+        ]
+      ],
+      "total_count_difference": [
+        8,
+        0
+      ],
+      "first_difference_step": 1550,
+      "kc_prefix_count_total": 3824,
+      "kc_active_cells": 1157,
+      "kc_cell_count_max": 15,
+      "kc_prefix_sha256": "919f6e6f1ce395f95ccc7da1836a17bd506ab22dc33d1330c9021a4ff7433876"
+    },
+    {
+      "index": 9,
+      "selector": {
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+        "game": 4370,
+        "seed_set": "base",
+        "seed": 4412
+      },
+      "condition": "away",
+      "npz": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_009.npz",
+        "bytes": 10483,
+        "sha256": "e6ff90acfacdfdf83eddfec252e7e383706fbcccfebbfc712827dcfcfa264fba"
+      },
+      "json": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_009.json",
+        "bytes": 1171,
+        "sha256": "5088b82da0d458552e761d1532b6db055d2c1033fce7763bb8c2255a7eaba0f1"
+      },
+      "nonzero_count_differences": [
+        [
+          1550,
+          0,
+          22
+        ],
+        [
+          1650,
+          0,
+          22
+        ],
+        [
+          1750,
+          0,
+          22
+        ],
+        [
+          1850,
+          0,
+          22
+        ]
+      ],
+      "total_count_difference": [
+        0,
+        88
+      ],
+      "first_difference_step": 1550,
+      "kc_prefix_count_total": 3824,
+      "kc_active_cells": 1157,
+      "kc_cell_count_max": 15,
+      "kc_prefix_sha256": "919f6e6f1ce395f95ccc7da1836a17bd506ab22dc33d1330c9021a4ff7433876"
+    },
+    {
+      "index": 10,
+      "selector": {
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+        "game": 4370,
+        "seed_set": "alt",
+        "seed": 1004412
+      },
+      "condition": "home",
+      "npz": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_010.npz",
+        "bytes": 10436,
+        "sha256": "2de035627846e06c81a71a52f42ef7f61dd8ba9a8bb540c450e9f4b0939cc943"
+      },
+      "json": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_010.json",
+        "bytes": 1171,
+        "sha256": "447a258e288cb7b69c739b8cf0bf9941328c99cb8405819f186500381b584f25"
+      },
+      "nonzero_count_differences": [
+        [
+          1550,
+          2,
+          0
+        ],
+        [
+          1650,
+          2,
+          0
+        ],
+        [
+          1750,
+          2,
+          0
+        ],
+        [
+          1850,
+          2,
+          0
+        ]
+      ],
+      "total_count_difference": [
+        8,
+        0
+      ],
+      "first_difference_step": 1550,
+      "kc_prefix_count_total": 3742,
+      "kc_active_cells": 1147,
+      "kc_cell_count_max": 16,
+      "kc_prefix_sha256": "83eaa18688a86c6ab69838ff60b50676a718ed4bca85d3dc036d0b4989fab103"
+    },
+    {
+      "index": 11,
+      "selector": {
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+        "game": 4370,
+        "seed_set": "alt",
+        "seed": 1004412
+      },
+      "condition": "away",
+      "npz": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_011.npz",
+        "bytes": 10436,
+        "sha256": "6b0ad630066d0d42cd15c69b1bdeb44185e77a4b1f8f9b872e3b479c5c62934a"
+      },
+      "json": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_011.json",
+        "bytes": 1174,
+        "sha256": "cb33bd9e2c9ddd0e92d8e51abd1ca7b51408cd574c2fbdf9d6889e22914b3395"
+      },
+      "nonzero_count_differences": [
+        [
+          1550,
+          0,
+          22
+        ],
+        [
+          1650,
+          0,
+          22
+        ],
+        [
+          1750,
+          0,
+          22
+        ],
+        [
+          1850,
+          0,
+          22
+        ]
+      ],
+      "total_count_difference": [
+        0,
+        88
+      ],
+      "first_difference_step": 1550,
+      "kc_prefix_count_total": 3742,
+      "kc_active_cells": 1147,
+      "kc_cell_count_max": 16,
+      "kc_prefix_sha256": "83eaa18688a86c6ab69838ff60b50676a718ed4bca85d3dc036d0b4989fab103"
+    },
+    {
+      "index": 12,
+      "selector": {
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+        "game": 4374,
+        "seed_set": "base",
+        "seed": 4416
+      },
+      "condition": "home",
+      "npz": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_012.npz",
+        "bytes": 9596,
+        "sha256": "170850f44918d0c6e19a4ca23904689b9b64eae963374dce2748724744b8781c"
+      },
+      "json": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_012.json",
+        "bytes": 1168,
+        "sha256": "46165f97905cdd2c9d97c5dbdb5ea525496857f1c881ffef895b941e97e51664"
+      },
+      "nonzero_count_differences": [
+        [
+          1550,
+          2,
+          0
+        ],
+        [
+          1650,
+          2,
+          0
+        ],
+        [
+          1750,
+          2,
+          0
+        ],
+        [
+          1850,
+          2,
+          0
+        ]
+      ],
+      "total_count_difference": [
+        8,
+        0
+      ],
+      "first_difference_step": 1550,
+      "kc_prefix_count_total": 1342,
+      "kc_active_cells": 490,
+      "kc_cell_count_max": 10,
+      "kc_prefix_sha256": "aeaa5f3fe009909c1495540c3c6a3d31b277bdaa5b925b1facd61b465b960c3a"
+    },
+    {
+      "index": 13,
+      "selector": {
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+        "game": 4374,
+        "seed_set": "base",
+        "seed": 4416
+      },
+      "condition": "away",
+      "npz": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_013.npz",
+        "bytes": 9596,
+        "sha256": "3987080bc99d8b626e3f04cab43ab3631119c8104881eb1c94ebc400671b1981"
+      },
+      "json": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_013.json",
+        "bytes": 1171,
+        "sha256": "4491975216037d0d0753e5ca788efec8804798b669de3890c42ef4dc355b0b5c"
+      },
+      "nonzero_count_differences": [
+        [
+          1550,
+          0,
+          22
+        ],
+        [
+          1650,
+          0,
+          22
+        ],
+        [
+          1750,
+          0,
+          22
+        ],
+        [
+          1850,
+          0,
+          22
+        ]
+      ],
+      "total_count_difference": [
+        0,
+        88
+      ],
+      "first_difference_step": 1550,
+      "kc_prefix_count_total": 1342,
+      "kc_active_cells": 490,
+      "kc_cell_count_max": 10,
+      "kc_prefix_sha256": "aeaa5f3fe009909c1495540c3c6a3d31b277bdaa5b925b1facd61b465b960c3a"
+    },
+    {
+      "index": 14,
+      "selector": {
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+        "game": 4374,
+        "seed_set": "alt",
+        "seed": 1004416
+      },
+      "condition": "home",
+      "npz": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_014.npz",
+        "bytes": 9599,
+        "sha256": "12b8db0d0c0bfba82c90dbbd33ef18fadb300d2312c0f86be46e2b7207f876ab"
+      },
+      "json": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_014.json",
+        "bytes": 1170,
+        "sha256": "e0354087056740cc7a1f80bdc1396931467efadd73b5b709a245194e42bc35db"
+      },
+      "nonzero_count_differences": [
+        [
+          1550,
+          2,
+          0
+        ],
+        [
+          1650,
+          2,
+          0
+        ],
+        [
+          1750,
+          2,
+          0
+        ],
+        [
+          1850,
+          2,
+          0
+        ]
+      ],
+      "total_count_difference": [
+        8,
+        0
+      ],
+      "first_difference_step": 1550,
+      "kc_prefix_count_total": 1299,
+      "kc_active_cells": 497,
+      "kc_cell_count_max": 10,
+      "kc_prefix_sha256": "d0a0258fc662c6b24a0d97610dcd27120e71a5a43b98391a76204ee7ec769faf"
+    },
+    {
+      "index": 15,
+      "selector": {
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+        "game": 4374,
+        "seed_set": "alt",
+        "seed": 1004416
+      },
+      "condition": "away",
+      "npz": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_015.npz",
+        "bytes": 9599,
+        "sha256": "a79f7334681f763abf5bf2b5161947c2fcd025eb556b0cd7255e0f99269862d0"
+      },
+      "json": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_015.json",
+        "bytes": 1173,
+        "sha256": "1c98d82b9959ddffc4bad4738a6adac84bd3a18d4d7a6a3dfa1c7707132ff3c6"
+      },
+      "nonzero_count_differences": [
+        [
+          1550,
+          0,
+          22
+        ],
+        [
+          1650,
+          0,
+          22
+        ],
+        [
+          1750,
+          0,
+          22
+        ],
+        [
+          1850,
+          0,
+          22
+        ]
+      ],
+      "total_count_difference": [
+        0,
+        88
+      ],
+      "first_difference_step": 1550,
+      "kc_prefix_count_total": 1299,
+      "kc_active_cells": 497,
+      "kc_cell_count_max": 10,
+      "kc_prefix_sha256": "d0a0258fc662c6b24a0d97610dcd27120e71a5a43b98391a76204ee7ec769faf"
+    },
+    {
+      "index": 16,
+      "selector": {
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+        "game": 4378,
+        "seed_set": "base",
+        "seed": 4420
+      },
+      "condition": "home",
+      "npz": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_016.npz",
+        "bytes": 10255,
+        "sha256": "ebc752e27e55988c33e4d00152657a735d38f8f6d18f19593cca183cf6d7d99c"
+      },
+      "json": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_016.json",
+        "bytes": 1169,
+        "sha256": "21dcdf53772aa62f49b1f4795c04569a8e8f41d0bbb94a850967e53a006b5981"
+      },
+      "nonzero_count_differences": [
+        [
+          1550,
+          2,
+          0
+        ],
+        [
+          1650,
+          2,
+          0
+        ],
+        [
+          1750,
+          2,
+          0
+        ],
+        [
+          1850,
+          2,
+          0
+        ]
+      ],
+      "total_count_difference": [
+        8,
+        0
+      ],
+      "first_difference_step": 1550,
+      "kc_prefix_count_total": 3096,
+      "kc_active_cells": 1010,
+      "kc_cell_count_max": 13,
+      "kc_prefix_sha256": "fea0cb97a5180c66016f1ffb4636e313423bd150b242a278fdc58d10aad0037c"
+    },
+    {
+      "index": 17,
+      "selector": {
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+        "game": 4378,
+        "seed_set": "base",
+        "seed": 4420
+      },
+      "condition": "away",
+      "npz": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_017.npz",
+        "bytes": 10255,
+        "sha256": "77abdcc0fcdc62aa0804790a5ddba0d2e536a5b41268ee1281ecc2d5496d6397"
+      },
+      "json": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_017.json",
+        "bytes": 1172,
+        "sha256": "2c8b52042d9096772353a7106e63073419125e17944379e30dac2d0f0b973115"
+      },
+      "nonzero_count_differences": [
+        [
+          1550,
+          0,
+          22
+        ],
+        [
+          1650,
+          0,
+          22
+        ],
+        [
+          1750,
+          0,
+          22
+        ],
+        [
+          1850,
+          0,
+          22
+        ]
+      ],
+      "total_count_difference": [
+        0,
+        88
+      ],
+      "first_difference_step": 1550,
+      "kc_prefix_count_total": 3096,
+      "kc_active_cells": 1010,
+      "kc_cell_count_max": 13,
+      "kc_prefix_sha256": "fea0cb97a5180c66016f1ffb4636e313423bd150b242a278fdc58d10aad0037c"
+    },
+    {
+      "index": 18,
+      "selector": {
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+        "game": 4378,
+        "seed_set": "alt",
+        "seed": 1004420
+      },
+      "condition": "home",
+      "npz": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_018.npz",
+        "bytes": 10149,
+        "sha256": "79a27ab587d437f5af2da70299ebf7f7d0c92cd57affdef4096bfb9adb5522c9"
+      },
+      "json": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_018.json",
+        "bytes": 1171,
+        "sha256": "550a4188daf55ebf0fd0e5c0f93cf5452ec083950661849fb6b3226dff7747ff"
+      },
+      "nonzero_count_differences": [
+        [
+          1550,
+          2,
+          0
+        ],
+        [
+          1650,
+          2,
+          0
+        ],
+        [
+          1750,
+          2,
+          0
+        ],
+        [
+          1850,
+          2,
+          0
+        ]
+      ],
+      "total_count_difference": [
+        8,
+        0
+      ],
+      "first_difference_step": 1550,
+      "kc_prefix_count_total": 2881,
+      "kc_active_cells": 873,
+      "kc_cell_count_max": 14,
+      "kc_prefix_sha256": "03294071ac4a953bc25cf35dc8daf7ef41ab93fea0f390a8152aad27144286f4"
+    },
+    {
+      "index": 19,
+      "selector": {
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+        "game": 4378,
+        "seed_set": "alt",
+        "seed": 1004420
+      },
+      "condition": "away",
+      "npz": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_019.npz",
+        "bytes": 10149,
+        "sha256": "c93bb2625af62e82c7255145d82f517031d2aa39dde915897f9a3f52f617029b"
+      },
+      "json": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_019.json",
+        "bytes": 1174,
+        "sha256": "3dd492e34058b79216a0e8a8db11848659f741e719e26751dd65783cf30d4977"
+      },
+      "nonzero_count_differences": [
+        [
+          1550,
+          0,
+          22
+        ],
+        [
+          1650,
+          0,
+          22
+        ],
+        [
+          1750,
+          0,
+          22
+        ],
+        [
+          1850,
+          0,
+          22
+        ]
+      ],
+      "total_count_difference": [
+        0,
+        88
+      ],
+      "first_difference_step": 1550,
+      "kc_prefix_count_total": 2881,
+      "kc_active_cells": 873,
+      "kc_cell_count_max": 14,
+      "kc_prefix_sha256": "03294071ac4a953bc25cf35dc8daf7ef41ab93fea0f390a8152aad27144286f4"
+    },
+    {
+      "index": 20,
+      "selector": {
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+        "game": 4383,
+        "seed_set": "base",
+        "seed": 4425
+      },
+      "condition": "home",
+      "npz": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_020.npz",
+        "bytes": 10558,
+        "sha256": "013084b2dae16b89e52c7423845ca6e262079bae6cbbf21846e43e01324386bb"
+      },
+      "json": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_020.json",
+        "bytes": 1170,
+        "sha256": "a9cefd684e9c746270b345281e97d8088c98f58edbf540e9a0137539963c3264"
+      },
+      "nonzero_count_differences": [
+        [
+          1550,
+          2,
+          0
+        ],
+        [
+          1650,
+          2,
+          0
+        ],
+        [
+          1750,
+          2,
+          0
+        ],
+        [
+          1850,
+          2,
+          0
+        ]
+      ],
+      "total_count_difference": [
+        8,
+        0
+      ],
+      "first_difference_step": 1550,
+      "kc_prefix_count_total": 4218,
+      "kc_active_cells": 1224,
+      "kc_cell_count_max": 15,
+      "kc_prefix_sha256": "ad97b740583f5ae6155a5b26f7471cf3b46fe1724c929169cd1fd33257e5b88e"
+    },
+    {
+      "index": 21,
+      "selector": {
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+        "game": 4383,
+        "seed_set": "base",
+        "seed": 4425
+      },
+      "condition": "away",
+      "npz": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_021.npz",
+        "bytes": 10558,
+        "sha256": "0d9d18af5663587dca3f5554e25f27977b6a3cf5a45187b715b0d5df547ace63"
+      },
+      "json": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_021.json",
+        "bytes": 1173,
+        "sha256": "ef545a331b0d633b911a06655e651ac649ed2885f25995d8bbe848cd623d5a28"
+      },
+      "nonzero_count_differences": [
+        [
+          1550,
+          0,
+          22
+        ],
+        [
+          1650,
+          0,
+          22
+        ],
+        [
+          1750,
+          0,
+          22
+        ],
+        [
+          1850,
+          0,
+          22
+        ]
+      ],
+      "total_count_difference": [
+        0,
+        88
+      ],
+      "first_difference_step": 1550,
+      "kc_prefix_count_total": 4218,
+      "kc_active_cells": 1224,
+      "kc_cell_count_max": 15,
+      "kc_prefix_sha256": "ad97b740583f5ae6155a5b26f7471cf3b46fe1724c929169cd1fd33257e5b88e"
+    },
+    {
+      "index": 22,
+      "selector": {
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+        "game": 4383,
+        "seed_set": "alt",
+        "seed": 1004425
+      },
+      "condition": "home",
+      "npz": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_022.npz",
+        "bytes": 10561,
+        "sha256": "a6786f1933485c3740017e247cfdd5aad1037e9541c7cd6343ca909291c8615d"
+      },
+      "json": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_022.json",
+        "bytes": 1172,
+        "sha256": "2e20bf7ec3788da098c3995f23e664d80a15c84c1bc19744fa0244830df5fb46"
+      },
+      "nonzero_count_differences": [
+        [
+          1550,
+          2,
+          0
+        ],
+        [
+          1650,
+          2,
+          0
+        ],
+        [
+          1750,
+          2,
+          0
+        ],
+        [
+          1850,
+          2,
+          0
+        ]
+      ],
+      "total_count_difference": [
+        8,
+        0
+      ],
+      "first_difference_step": 1550,
+      "kc_prefix_count_total": 4320,
+      "kc_active_cells": 1199,
+      "kc_cell_count_max": 17,
+      "kc_prefix_sha256": "b39956fb8d84ba38b6309c253b026d11428c2e0c4c1de0027e59876442ef697d"
+    },
+    {
+      "index": 23,
+      "selector": {
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+        "game": 4383,
+        "seed_set": "alt",
+        "seed": 1004425
+      },
+      "condition": "away",
+      "npz": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_023.npz",
+        "bytes": 10561,
+        "sha256": "732af61033ae35e521f5ce00c6e884ae5bee933769a5a345cb9bae855ddccc9e"
+      },
+      "json": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_023.json",
+        "bytes": 1175,
+        "sha256": "ac7f456b85a8182ef5b1f3fbda294a099c0de27376effb5f0fcca98fb7d360a7"
+      },
+      "nonzero_count_differences": [
+        [
+          1550,
+          0,
+          22
+        ],
+        [
+          1650,
+          0,
+          22
+        ],
+        [
+          1750,
+          0,
+          22
+        ],
+        [
+          1850,
+          0,
+          22
+        ]
+      ],
+      "total_count_difference": [
+        0,
+        88
+      ],
+      "first_difference_step": 1550,
+      "kc_prefix_count_total": 4320,
+      "kc_active_cells": 1199,
+      "kc_cell_count_max": 17,
+      "kc_prefix_sha256": "b39956fb8d84ba38b6309c253b026d11428c2e0c4c1de0027e59876442ef697d"
+    },
+    {
+      "index": 24,
+      "selector": {
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+        "game": 4387,
+        "seed_set": "base",
+        "seed": 4429
+      },
+      "condition": "home",
+      "npz": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_024.npz",
+        "bytes": 10110,
+        "sha256": "08236aeecf4ac02deae5d0eb99bc1f17b97f210abd0911ca6d9c8b9feaf67cbb"
+      },
+      "json": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_024.json",
+        "bytes": 1170,
+        "sha256": "4918216ca78e55ade6e3a9151996de1f18a1ed85670093c5ef89cde9caef86b7"
+      },
+      "nonzero_count_differences": [
+        [
+          1550,
+          2,
+          0
+        ],
+        [
+          1650,
+          2,
+          0
+        ],
+        [
+          1750,
+          2,
+          0
+        ],
+        [
+          1850,
+          2,
+          0
+        ]
+      ],
+      "total_count_difference": [
+        8,
+        0
+      ],
+      "first_difference_step": 1550,
+      "kc_prefix_count_total": 2773,
+      "kc_active_cells": 818,
+      "kc_cell_count_max": 14,
+      "kc_prefix_sha256": "9b3ada9470897bdcf119748c5320dbd4993a89030b635bcda0bb86fcc46850e4"
+    },
+    {
+      "index": 25,
+      "selector": {
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+        "game": 4387,
+        "seed_set": "base",
+        "seed": 4429
+      },
+      "condition": "away",
+      "npz": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_025.npz",
+        "bytes": 10110,
+        "sha256": "b4d428cb7c3f7122d4f9341b1ed1136f1a3e82dacec35ddd82fbd35e5d016dc6"
+      },
+      "json": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_025.json",
+        "bytes": 1173,
+        "sha256": "78ea07a744ba72cad75aad5bb4680248df3ef8892f3e32bbe30f3450478a0543"
+      },
+      "nonzero_count_differences": [
+        [
+          1550,
+          0,
+          22
+        ],
+        [
+          1650,
+          0,
+          22
+        ],
+        [
+          1750,
+          0,
+          22
+        ],
+        [
+          1850,
+          0,
+          22
+        ]
+      ],
+      "total_count_difference": [
+        0,
+        88
+      ],
+      "first_difference_step": 1550,
+      "kc_prefix_count_total": 2773,
+      "kc_active_cells": 818,
+      "kc_cell_count_max": 14,
+      "kc_prefix_sha256": "9b3ada9470897bdcf119748c5320dbd4993a89030b635bcda0bb86fcc46850e4"
+    },
+    {
+      "index": 26,
+      "selector": {
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+        "game": 4387,
+        "seed_set": "alt",
+        "seed": 1004429
+      },
+      "condition": "home",
+      "npz": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_026.npz",
+        "bytes": 10115,
+        "sha256": "f6b63c56807624c290757f927e66bc20e3ebe64f6c47811acdae9524924a6c98"
+      },
+      "json": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_026.json",
+        "bytes": 1172,
+        "sha256": "90a7adc13cfb85e9f16c0f9b8b0dce86f90ef8c894aa485c99083dee3794966e"
+      },
+      "nonzero_count_differences": [
+        [
+          1550,
+          2,
+          0
+        ],
+        [
+          1650,
+          2,
+          0
+        ],
+        [
+          1750,
+          2,
+          0
+        ],
+        [
+          1850,
+          2,
+          0
+        ]
+      ],
+      "total_count_difference": [
+        8,
+        0
+      ],
+      "first_difference_step": 1550,
+      "kc_prefix_count_total": 2752,
+      "kc_active_cells": 824,
+      "kc_cell_count_max": 15,
+      "kc_prefix_sha256": "e8964c3ee0731f7f3b741e3712ac8949a3cf3193070583b6a86a52ae7521e2f9"
+    },
+    {
+      "index": 27,
+      "selector": {
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+        "game": 4387,
+        "seed_set": "alt",
+        "seed": 1004429
+      },
+      "condition": "away",
+      "npz": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_027.npz",
+        "bytes": 10115,
+        "sha256": "3527be0622a7fe22804e3a224a48d12f25b12ef1b6dfc78eed33d0a7e43ebb33"
+      },
+      "json": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_027.json",
+        "bytes": 1175,
+        "sha256": "e77929a4abd14bdcb1322345339cf03b48d6a267dd51682235a14197040ae8de"
+      },
+      "nonzero_count_differences": [
+        [
+          1550,
+          0,
+          22
+        ],
+        [
+          1650,
+          0,
+          22
+        ],
+        [
+          1750,
+          0,
+          22
+        ],
+        [
+          1850,
+          0,
+          22
+        ]
+      ],
+      "total_count_difference": [
+        0,
+        88
+      ],
+      "first_difference_step": 1550,
+      "kc_prefix_count_total": 2752,
+      "kc_active_cells": 824,
+      "kc_cell_count_max": 15,
+      "kc_prefix_sha256": "e8964c3ee0731f7f3b741e3712ac8949a3cf3193070583b6a86a52ae7521e2f9"
+    },
+    {
+      "index": 28,
+      "selector": {
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+        "game": 4391,
+        "seed_set": "base",
+        "seed": 4433
+      },
+      "condition": "home",
+      "npz": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_028.npz",
+        "bytes": 9858,
+        "sha256": "e22720380a1008c096786a02e67f22315984e2a11a9f77052358728a59ed35ca"
+      },
+      "json": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_028.json",
+        "bytes": 1169,
+        "sha256": "43a141db9b9bb0c42b6029cb69e61d85189abf0edec395e1d37fcaadad4143bf"
+      },
+      "nonzero_count_differences": [
+        [
+          1550,
+          2,
+          0
+        ],
+        [
+          1650,
+          2,
+          0
+        ],
+        [
+          1750,
+          2,
+          0
+        ],
+        [
+          1850,
+          2,
+          0
+        ]
+      ],
+      "total_count_difference": [
+        8,
+        0
+      ],
+      "first_difference_step": 1550,
+      "kc_prefix_count_total": 2015,
+      "kc_active_cells": 682,
+      "kc_cell_count_max": 14,
+      "kc_prefix_sha256": "d5b978adf93f88df157b10b0e3bb0d048d7885b3ad36b6be6626dd390d2fb8b4"
+    },
+    {
+      "index": 29,
+      "selector": {
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+        "game": 4391,
+        "seed_set": "base",
+        "seed": 4433
+      },
+      "condition": "away",
+      "npz": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_029.npz",
+        "bytes": 9858,
+        "sha256": "f32ff0982419a19e537fe7e0cc0a227c079324b28f7a82746dfd44442e4fda60"
+      },
+      "json": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_029.json",
+        "bytes": 1172,
+        "sha256": "5ebd22bae9d6da4ed417f7e67761700175fee2bbdc05481b1be3bf22264a5207"
+      },
+      "nonzero_count_differences": [
+        [
+          1550,
+          0,
+          22
+        ],
+        [
+          1650,
+          0,
+          22
+        ],
+        [
+          1750,
+          0,
+          22
+        ],
+        [
+          1850,
+          0,
+          22
+        ]
+      ],
+      "total_count_difference": [
+        0,
+        88
+      ],
+      "first_difference_step": 1550,
+      "kc_prefix_count_total": 2015,
+      "kc_active_cells": 682,
+      "kc_cell_count_max": 14,
+      "kc_prefix_sha256": "d5b978adf93f88df157b10b0e3bb0d048d7885b3ad36b6be6626dd390d2fb8b4"
+    },
+    {
+      "index": 30,
+      "selector": {
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+        "game": 4391,
+        "seed_set": "alt",
+        "seed": 1004433
+      },
+      "condition": "home",
+      "npz": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_030.npz",
+        "bytes": 9983,
+        "sha256": "5229f423b4c7c492e9d9cdd4da474c243aef33430cc44f6ad6f5db1e902bab7f"
+      },
+      "json": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_030.json",
+        "bytes": 1171,
+        "sha256": "02cabadcce192c3203e2cf805b279e27d895ae4793623af2a9beae08d1f5f938"
+      },
+      "nonzero_count_differences": [
+        [
+          1550,
+          2,
+          0
+        ],
+        [
+          1650,
+          2,
+          0
+        ],
+        [
+          1750,
+          2,
+          0
+        ],
+        [
+          1850,
+          2,
+          0
+        ]
+      ],
+      "total_count_difference": [
+        8,
+        0
+      ],
+      "first_difference_step": 1550,
+      "kc_prefix_count_total": 2370,
+      "kc_active_cells": 735,
+      "kc_cell_count_max": 15,
+      "kc_prefix_sha256": "d0ec52aa63d6f992c35ed4f642dc9080d82ed7f4140ebfd4881573a82f77c11c"
+    },
+    {
+      "index": 31,
+      "selector": {
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+        "game": 4391,
+        "seed_set": "alt",
+        "seed": 1004433
+      },
+      "condition": "away",
+      "npz": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_031.npz",
+        "bytes": 9983,
+        "sha256": "7d34d4d885fcefcbb66d2f25f4986e86f6c7d8405bdc14c2ce2db94d622429df"
+      },
+      "json": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_031.json",
+        "bytes": 1174,
+        "sha256": "0f888ee9037f681c8d5e219fac1c5e654ef5ebf5af085834ba3b456f3dd33121"
+      },
+      "nonzero_count_differences": [
+        [
+          1550,
+          0,
+          22
+        ],
+        [
+          1650,
+          0,
+          22
+        ],
+        [
+          1750,
+          0,
+          22
+        ],
+        [
+          1850,
+          0,
+          22
+        ]
+      ],
+      "total_count_difference": [
+        0,
+        88
+      ],
+      "first_difference_step": 1550,
+      "kc_prefix_count_total": 2370,
+      "kc_active_cells": 735,
+      "kc_cell_count_max": 15,
+      "kc_prefix_sha256": "d0ec52aa63d6f992c35ed4f642dc9080d82ed7f4140ebfd4881573a82f77c11c"
+    },
+    {
+      "index": 32,
+      "selector": {
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+        "game": 4395,
+        "seed_set": "base",
+        "seed": 2004437
+      },
+      "condition": "home",
+      "npz": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_032.npz",
+        "bytes": 10058,
+        "sha256": "c8334b3092e30d75fbaa3f1a1609c4a29efd52f69924d07e45082d33fefa99af"
+      },
+      "json": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_032.json",
+        "bytes": 1173,
+        "sha256": "9e5efe6fb25488bb8c043a8b2ff011d0a3334b0f89eff50c1fcb283786659ac6"
+      },
+      "nonzero_count_differences": [
+        [
+          1550,
+          2,
+          0
+        ],
+        [
+          1650,
+          2,
+          0
+        ],
+        [
+          1750,
+          2,
+          0
+        ],
+        [
+          1850,
+          2,
+          0
+        ]
+      ],
+      "total_count_difference": [
+        8,
+        0
+      ],
+      "first_difference_step": 1550,
+      "kc_prefix_count_total": 2667,
+      "kc_active_cells": 771,
+      "kc_cell_count_max": 16,
+      "kc_prefix_sha256": "5252e6d331a9595f7c8581add77ce8f9fd344fff974a4ea298e545881da4a132"
+    },
+    {
+      "index": 33,
+      "selector": {
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+        "game": 4395,
+        "seed_set": "base",
+        "seed": 2004437
+      },
+      "condition": "away",
+      "npz": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_033.npz",
+        "bytes": 10058,
+        "sha256": "3e1b0a5c448d1a386e6bc64e28c25181230a9d50175302138572db9eff133280"
+      },
+      "json": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_033.json",
+        "bytes": 1176,
+        "sha256": "c28f6a1f4accaea1cb74106991da30cea8f28708548b20eaea0547dd97b656e0"
+      },
+      "nonzero_count_differences": [
+        [
+          1550,
+          0,
+          22
+        ],
+        [
+          1650,
+          0,
+          22
+        ],
+        [
+          1750,
+          0,
+          22
+        ],
+        [
+          1850,
+          0,
+          22
+        ]
+      ],
+      "total_count_difference": [
+        0,
+        88
+      ],
+      "first_difference_step": 1550,
+      "kc_prefix_count_total": 2667,
+      "kc_active_cells": 771,
+      "kc_cell_count_max": 16,
+      "kc_prefix_sha256": "5252e6d331a9595f7c8581add77ce8f9fd344fff974a4ea298e545881da4a132"
+    },
+    {
+      "index": 34,
+      "selector": {
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+        "game": 4395,
+        "seed_set": "alt",
+        "seed": 3004437
+      },
+      "condition": "home",
+      "npz": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_034.npz",
+        "bytes": 10108,
+        "sha256": "5197a82035eb293619475a237681167f334b6f961cb168e1f3089f75b0c6e2ee"
+      },
+      "json": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_034.json",
+        "bytes": 1172,
+        "sha256": "df36c72f245255fd98fa6d2cbc515cce251c7d40e31bfbd7af1d4de66fb79d8c"
+      },
+      "nonzero_count_differences": [
+        [
+          1550,
+          2,
+          0
+        ],
+        [
+          1650,
+          2,
+          0
+        ],
+        [
+          1750,
+          2,
+          0
+        ],
+        [
+          1850,
+          2,
+          0
+        ]
+      ],
+      "total_count_difference": [
+        8,
+        0
+      ],
+      "first_difference_step": 1550,
+      "kc_prefix_count_total": 2875,
+      "kc_active_cells": 795,
+      "kc_cell_count_max": 17,
+      "kc_prefix_sha256": "541b81b669dbeb2c8f48ea5d7ac3561f35a502b199406a98813aacfc1e0f005d"
+    },
+    {
+      "index": 35,
+      "selector": {
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+        "game": 4395,
+        "seed_set": "alt",
+        "seed": 3004437
+      },
+      "condition": "away",
+      "npz": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_035.npz",
+        "bytes": 10108,
+        "sha256": "3c9d335d6ee7f54ffc1e1c32b102b6070e458c93b19c6f431436ad06b03bf2dc"
+      },
+      "json": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_035.json",
+        "bytes": 1175,
+        "sha256": "c630200068b9007e20e725eab8de985d2c3dc9c9c51dc2270579a21a51167f7c"
+      },
+      "nonzero_count_differences": [
+        [
+          1550,
+          0,
+          22
+        ],
+        [
+          1650,
+          0,
+          22
+        ],
+        [
+          1750,
+          0,
+          22
+        ],
+        [
+          1850,
+          0,
+          22
+        ]
+      ],
+      "total_count_difference": [
+        0,
+        88
+      ],
+      "first_difference_step": 1550,
+      "kc_prefix_count_total": 2875,
+      "kc_active_cells": 795,
+      "kc_cell_count_max": 17,
+      "kc_prefix_sha256": "541b81b669dbeb2c8f48ea5d7ac3561f35a502b199406a98813aacfc1e0f005d"
+    },
+    {
+      "index": 36,
+      "selector": {
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+        "game": 4399,
+        "seed_set": "base",
+        "seed": 2004441
+      },
+      "condition": "home",
+      "npz": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_036.npz",
+        "bytes": 10218,
+        "sha256": "8fce099ef3df2aedb2c5a17d009be5459ba80e31ab429622396ab9ca8d74c395"
+      },
+      "json": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_036.json",
+        "bytes": 1173,
+        "sha256": "5880a26a4514e25c169761bef78f32cf5c3f2aa9f4a6603f9a8240ee95febeb3"
+      },
+      "nonzero_count_differences": [
+        [
+          1550,
+          2,
+          0
+        ],
+        [
+          1650,
+          2,
+          0
+        ],
+        [
+          1750,
+          2,
+          0
+        ],
+        [
+          1850,
+          2,
+          0
+        ]
+      ],
+      "total_count_difference": [
+        8,
+        0
+      ],
+      "first_difference_step": 1550,
+      "kc_prefix_count_total": 2891,
+      "kc_active_cells": 959,
+      "kc_cell_count_max": 13,
+      "kc_prefix_sha256": "883cae1caca9454a0f030fef06914d154bae8ed9f88d81b29a3439b6a412fc50"
+    },
+    {
+      "index": 37,
+      "selector": {
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+        "game": 4399,
+        "seed_set": "base",
+        "seed": 2004441
+      },
+      "condition": "away",
+      "npz": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_037.npz",
+        "bytes": 10218,
+        "sha256": "d7aa1150479c4f4df8dd2ea2077e1e9463253b56fcf2c87087ff4d0d87ef6bc1"
+      },
+      "json": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_037.json",
+        "bytes": 1176,
+        "sha256": "9485ad9956f79c4605ac3a39b7ce06e434ee53d046417079d97c58dead02e4b8"
+      },
+      "nonzero_count_differences": [
+        [
+          1550,
+          0,
+          22
+        ],
+        [
+          1650,
+          0,
+          22
+        ],
+        [
+          1750,
+          0,
+          22
+        ],
+        [
+          1850,
+          0,
+          22
+        ]
+      ],
+      "total_count_difference": [
+        0,
+        88
+      ],
+      "first_difference_step": 1550,
+      "kc_prefix_count_total": 2891,
+      "kc_active_cells": 959,
+      "kc_cell_count_max": 13,
+      "kc_prefix_sha256": "883cae1caca9454a0f030fef06914d154bae8ed9f88d81b29a3439b6a412fc50"
+    },
+    {
+      "index": 38,
+      "selector": {
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+        "game": 4399,
+        "seed_set": "alt",
+        "seed": 3004441
+      },
+      "condition": "home",
+      "npz": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_038.npz",
+        "bytes": 10253,
+        "sha256": "3b288bd5eb116fd5a4ec546d222caec203be68977da66762990d032104453a02"
+      },
+      "json": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_038.json",
+        "bytes": 1172,
+        "sha256": "4830b42b4467ee08580be926ac3c2f3fc1e7a6cf3d31be66c76ba01833442334"
+      },
+      "nonzero_count_differences": [
+        [
+          1550,
+          2,
+          0
+        ],
+        [
+          1650,
+          2,
+          0
+        ],
+        [
+          1750,
+          2,
+          0
+        ],
+        [
+          1850,
+          2,
+          0
+        ]
+      ],
+      "total_count_difference": [
+        8,
+        0
+      ],
+      "first_difference_step": 1550,
+      "kc_prefix_count_total": 2969,
+      "kc_active_cells": 1019,
+      "kc_cell_count_max": 14,
+      "kc_prefix_sha256": "02e27b487695625d8589feb460ac38ad64ee05f3388e68b89e546fd54fab5f75"
+    },
+    {
+      "index": 39,
+      "selector": {
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+        "game": 4399,
+        "seed_set": "alt",
+        "seed": 3004441
+      },
+      "condition": "away",
+      "npz": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_039.npz",
+        "bytes": 10253,
+        "sha256": "29349f8c3396c542fc8e81643871c1029be626894a9d316c144d61b4564363a5"
+      },
+      "json": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_039.json",
+        "bytes": 1175,
+        "sha256": "d5c8d0152a50cfb93404f929c29fa782de073df593317219c48b3e7b53cc5ab4"
+      },
+      "nonzero_count_differences": [
+        [
+          1550,
+          0,
+          22
+        ],
+        [
+          1650,
+          0,
+          22
+        ],
+        [
+          1750,
+          0,
+          22
+        ],
+        [
+          1850,
+          0,
+          22
+        ]
+      ],
+      "total_count_difference": [
+        0,
+        88
+      ],
+      "first_difference_step": 1550,
+      "kc_prefix_count_total": 2969,
+      "kc_active_cells": 1019,
+      "kc_cell_count_max": 14,
+      "kc_prefix_sha256": "02e27b487695625d8589feb460ac38ad64ee05f3388e68b89e546fd54fab5f75"
+    },
+    {
+      "index": 40,
+      "selector": {
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+        "game": 4404,
+        "seed_set": "base",
+        "seed": 2004446
+      },
+      "condition": "home",
+      "npz": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_040.npz",
+        "bytes": 9915,
+        "sha256": "f0089a8945e4537ba07513eb38cb873b4ed8e96ed5fd4b20867497b3886a55e5"
+      },
+      "json": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_040.json",
+        "bytes": 1172,
+        "sha256": "68ddcb68ef8ccba05b7956a357159216c93716a615f91865a90c0f34335ebaad"
+      },
+      "nonzero_count_differences": [
+        [
+          1550,
+          2,
+          0
+        ],
+        [
+          1650,
+          2,
+          0
+        ],
+        [
+          1750,
+          2,
+          0
+        ],
+        [
+          1850,
+          2,
+          0
+        ]
+      ],
+      "total_count_difference": [
+        8,
+        0
+      ],
+      "first_difference_step": 1550,
+      "kc_prefix_count_total": 2047,
+      "kc_active_cells": 697,
+      "kc_cell_count_max": 16,
+      "kc_prefix_sha256": "0ce8222919ccc5a6a5317fff1c48016acc256a3a97720001fb7687ec29710a5b"
+    },
+    {
+      "index": 41,
+      "selector": {
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+        "game": 4404,
+        "seed_set": "base",
+        "seed": 2004446
+      },
+      "condition": "away",
+      "npz": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_041.npz",
+        "bytes": 9915,
+        "sha256": "0b3b4c187e305154e0c5aede428a33d2583552a96a43ed275918c2d10645d5a7"
+      },
+      "json": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_041.json",
+        "bytes": 1175,
+        "sha256": "1f494bf1e0298a21582732bdc56c775f38439d432f4f9d3f334d81440e09c51a"
+      },
+      "nonzero_count_differences": [
+        [
+          1550,
+          0,
+          22
+        ],
+        [
+          1650,
+          0,
+          22
+        ],
+        [
+          1750,
+          0,
+          22
+        ],
+        [
+          1850,
+          0,
+          22
+        ]
+      ],
+      "total_count_difference": [
+        0,
+        88
+      ],
+      "first_difference_step": 1550,
+      "kc_prefix_count_total": 2047,
+      "kc_active_cells": 697,
+      "kc_cell_count_max": 16,
+      "kc_prefix_sha256": "0ce8222919ccc5a6a5317fff1c48016acc256a3a97720001fb7687ec29710a5b"
+    },
+    {
+      "index": 42,
+      "selector": {
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+        "game": 4404,
+        "seed_set": "alt",
+        "seed": 3004446
+      },
+      "condition": "home",
+      "npz": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_042.npz",
+        "bytes": 9918,
+        "sha256": "c28f21c02fa8f54dbbc425769584f21cf469fdcfc33410d99bcf3e680098916b"
+      },
+      "json": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_042.json",
+        "bytes": 1171,
+        "sha256": "27c3241591d76df0530811e2cdb8d3c6f89bc53cb84c02e85cfa13838a3ef352"
+      },
+      "nonzero_count_differences": [
+        [
+          1550,
+          2,
+          0
+        ],
+        [
+          1650,
+          2,
+          0
+        ],
+        [
+          1750,
+          2,
+          0
+        ],
+        [
+          1850,
+          2,
+          0
+        ]
+      ],
+      "total_count_difference": [
+        8,
+        0
+      ],
+      "first_difference_step": 1550,
+      "kc_prefix_count_total": 2002,
+      "kc_active_cells": 722,
+      "kc_cell_count_max": 14,
+      "kc_prefix_sha256": "455a750f11cba8bf6938fd2681ef26261f0fbf274a33cc76728ec3c691742b12"
+    },
+    {
+      "index": 43,
+      "selector": {
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+        "game": 4404,
+        "seed_set": "alt",
+        "seed": 3004446
+      },
+      "condition": "away",
+      "npz": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_043.npz",
+        "bytes": 9918,
+        "sha256": "16c23b018fd0baa6091edb443dc67ea7b9b4cbad41e46efc9cf1e3a95de43d3f"
+      },
+      "json": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_043.json",
+        "bytes": 1174,
+        "sha256": "2d1847ce64a100221e82a1af9c1fe114f7626a45132eed075f77d3a436c52d36"
+      },
+      "nonzero_count_differences": [
+        [
+          1550,
+          0,
+          22
+        ],
+        [
+          1650,
+          0,
+          22
+        ],
+        [
+          1750,
+          0,
+          22
+        ],
+        [
+          1850,
+          0,
+          22
+        ]
+      ],
+      "total_count_difference": [
+        0,
+        88
+      ],
+      "first_difference_step": 1550,
+      "kc_prefix_count_total": 2002,
+      "kc_active_cells": 722,
+      "kc_cell_count_max": 14,
+      "kc_prefix_sha256": "455a750f11cba8bf6938fd2681ef26261f0fbf274a33cc76728ec3c691742b12"
+    },
+    {
+      "index": 44,
+      "selector": {
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+        "game": 4408,
+        "seed_set": "base",
+        "seed": 2004450
+      },
+      "condition": "home",
+      "npz": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_044.npz",
+        "bytes": 9979,
+        "sha256": "779fb8532cdbec8305b1f654947880e3e69a4e6c3dfc625f2c568b9edce7e994"
+      },
+      "json": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_044.json",
+        "bytes": 1172,
+        "sha256": "ee2ee6c4ac687e484f4d5de805af7ed4fcda22c93f311411ba4cbbc26b6ce474"
+      },
+      "nonzero_count_differences": [
+        [
+          1550,
+          2,
+          0
+        ],
+        [
+          1650,
+          2,
+          0
+        ],
+        [
+          1750,
+          2,
+          0
+        ],
+        [
+          1850,
+          2,
+          0
+        ]
+      ],
+      "total_count_difference": [
+        8,
+        0
+      ],
+      "first_difference_step": 1550,
+      "kc_prefix_count_total": 2515,
+      "kc_active_cells": 696,
+      "kc_cell_count_max": 17,
+      "kc_prefix_sha256": "d7b3ad9a7cb4eaea50ec706207c4a0b9fd5e1f5987bb5cfe7c5a0329cf9c0cc0"
+    },
+    {
+      "index": 45,
+      "selector": {
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+        "game": 4408,
+        "seed_set": "base",
+        "seed": 2004450
+      },
+      "condition": "away",
+      "npz": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_045.npz",
+        "bytes": 9979,
+        "sha256": "c72d5985781fafe29b78f8b1c43cc311b7ed6e69a17880d0fc3bab673fb0343e"
+      },
+      "json": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_045.json",
+        "bytes": 1175,
+        "sha256": "cf606f38e3336457674bc1dc65567fc49b36fd94d149c37b35f648131ba973e3"
+      },
+      "nonzero_count_differences": [
+        [
+          1550,
+          0,
+          22
+        ],
+        [
+          1650,
+          0,
+          22
+        ],
+        [
+          1750,
+          0,
+          22
+        ],
+        [
+          1850,
+          0,
+          22
+        ]
+      ],
+      "total_count_difference": [
+        0,
+        88
+      ],
+      "first_difference_step": 1550,
+      "kc_prefix_count_total": 2515,
+      "kc_active_cells": 696,
+      "kc_cell_count_max": 17,
+      "kc_prefix_sha256": "d7b3ad9a7cb4eaea50ec706207c4a0b9fd5e1f5987bb5cfe7c5a0329cf9c0cc0"
+    },
+    {
+      "index": 46,
+      "selector": {
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+        "game": 4408,
+        "seed_set": "alt",
+        "seed": 3004450
+      },
+      "condition": "home",
+      "npz": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_046.npz",
+        "bytes": 9909,
+        "sha256": "01e9759f432e7f7e181588318b2701755aa2811f9bdf6faac1cf12be3e1dc4ac"
+      },
+      "json": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_046.json",
+        "bytes": 1171,
+        "sha256": "f3217542f15454ccfb91c38f1f1d9da8fdf61014f16fd17d6215d61b495fb824"
+      },
+      "nonzero_count_differences": [
+        [
+          1550,
+          2,
+          0
+        ],
+        [
+          1650,
+          2,
+          0
+        ],
+        [
+          1750,
+          2,
+          0
+        ],
+        [
+          1850,
+          2,
+          0
+        ]
+      ],
+      "total_count_difference": [
+        8,
+        0
+      ],
+      "first_difference_step": 1550,
+      "kc_prefix_count_total": 2223,
+      "kc_active_cells": 677,
+      "kc_cell_count_max": 14,
+      "kc_prefix_sha256": "5a10c368d883ad0e327d9b5ba13544d653b82676d761d42e87d1b3e49ea0e554"
+    },
+    {
+      "index": 47,
+      "selector": {
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+        "game": 4408,
+        "seed_set": "alt",
+        "seed": 3004450
+      },
+      "condition": "away",
+      "npz": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_047.npz",
+        "bytes": 9909,
+        "sha256": "9142e499c1d8fc0e0aa53b0fe56ebab5b2e8c99511430f315bb7cf08706c7b63"
+      },
+      "json": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_047.json",
+        "bytes": 1174,
+        "sha256": "c8a5734301e37b0009cd359d36a6e0262078f02398c169575291568be104cec0"
+      },
+      "nonzero_count_differences": [
+        [
+          1550,
+          0,
+          22
+        ],
+        [
+          1650,
+          0,
+          22
+        ],
+        [
+          1750,
+          0,
+          22
+        ],
+        [
+          1850,
+          0,
+          22
+        ]
+      ],
+      "total_count_difference": [
+        0,
+        88
+      ],
+      "first_difference_step": 1550,
+      "kc_prefix_count_total": 2223,
+      "kc_active_cells": 677,
+      "kc_cell_count_max": 14,
+      "kc_prefix_sha256": "5a10c368d883ad0e327d9b5ba13544d653b82676d761d42e87d1b3e49ea0e554"
+    },
+    {
+      "index": 48,
+      "selector": {
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+        "game": 4412,
+        "seed_set": "base",
+        "seed": 2004454
+      },
+      "condition": "home",
+      "npz": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_048.npz",
+        "bytes": 10044,
+        "sha256": "c80da3eda351bdc669291d7449e199747e4cfaf9eaded900fde38da05385c960"
+      },
+      "json": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_048.json",
+        "bytes": 1173,
+        "sha256": "7f0c05909a7b28c2b564aa845845e2a080fb63476936bb28011438f771861c70"
+      },
+      "nonzero_count_differences": [
+        [
+          1550,
+          2,
+          0
+        ],
+        [
+          1650,
+          2,
+          0
+        ],
+        [
+          1750,
+          2,
+          0
+        ],
+        [
+          1850,
+          2,
+          0
+        ]
+      ],
+      "total_count_difference": [
+        8,
+        0
+      ],
+      "first_difference_step": 1550,
+      "kc_prefix_count_total": 2747,
+      "kc_active_cells": 731,
+      "kc_cell_count_max": 16,
+      "kc_prefix_sha256": "0f6eb529d51134f5672a4186d37581d33dd1c10a01cee4920e8d82916b519ce1"
+    },
+    {
+      "index": 49,
+      "selector": {
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+        "game": 4412,
+        "seed_set": "base",
+        "seed": 2004454
+      },
+      "condition": "away",
+      "npz": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_049.npz",
+        "bytes": 10044,
+        "sha256": "5c7243dda843842ccaf6446321ec82e2779a94c892f686b2f0548bc5ab62d5a3"
+      },
+      "json": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_049.json",
+        "bytes": 1176,
+        "sha256": "ce24f390685622301b8c618916c2b47c16cb2c2cb3ba3a728c03e569d412ae62"
+      },
+      "nonzero_count_differences": [
+        [
+          1550,
+          0,
+          22
+        ],
+        [
+          1650,
+          0,
+          22
+        ],
+        [
+          1750,
+          0,
+          22
+        ],
+        [
+          1850,
+          0,
+          22
+        ]
+      ],
+      "total_count_difference": [
+        0,
+        88
+      ],
+      "first_difference_step": 1550,
+      "kc_prefix_count_total": 2747,
+      "kc_active_cells": 731,
+      "kc_cell_count_max": 16,
+      "kc_prefix_sha256": "0f6eb529d51134f5672a4186d37581d33dd1c10a01cee4920e8d82916b519ce1"
+    },
+    {
+      "index": 50,
+      "selector": {
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+        "game": 4412,
+        "seed_set": "alt",
+        "seed": 3004454
+      },
+      "condition": "home",
+      "npz": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_050.npz",
+        "bytes": 9972,
+        "sha256": "57dcc218129041f8668679b38dccef6da0b6771fa037b548a1572375aaa035a7"
+      },
+      "json": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_050.json",
+        "bytes": 1171,
+        "sha256": "444556582df4c2dd83340702316bb02d1b65bd677812d16c68ffbb1fb9edc49e"
+      },
+      "nonzero_count_differences": [
+        [
+          1550,
+          2,
+          0
+        ],
+        [
+          1650,
+          2,
+          0
+        ],
+        [
+          1750,
+          2,
+          0
+        ],
+        [
+          1850,
+          2,
+          0
+        ]
+      ],
+      "total_count_difference": [
+        8,
+        0
+      ],
+      "first_difference_step": 1550,
+      "kc_prefix_count_total": 2438,
+      "kc_active_cells": 712,
+      "kc_cell_count_max": 15,
+      "kc_prefix_sha256": "336223a86fe03b135ae46dfa15e6df6e960155e3cb4c18fffcecad17ed5f6a30"
+    },
+    {
+      "index": 51,
+      "selector": {
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+        "game": 4412,
+        "seed_set": "alt",
+        "seed": 3004454
+      },
+      "condition": "away",
+      "npz": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_051.npz",
+        "bytes": 9972,
+        "sha256": "2c60debb0e609ce2a0220ff7ffa5c4c07740bbce057ef4898cea55661aa87b7d"
+      },
+      "json": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_051.json",
+        "bytes": 1174,
+        "sha256": "47273569191239b8969fff8ab92e96d704ac59e0e935317f3ffd891bed007901"
+      },
+      "nonzero_count_differences": [
+        [
+          1550,
+          0,
+          22
+        ],
+        [
+          1650,
+          0,
+          22
+        ],
+        [
+          1750,
+          0,
+          22
+        ],
+        [
+          1850,
+          0,
+          22
+        ]
+      ],
+      "total_count_difference": [
+        0,
+        88
+      ],
+      "first_difference_step": 1550,
+      "kc_prefix_count_total": 2438,
+      "kc_active_cells": 712,
+      "kc_cell_count_max": 15,
+      "kc_prefix_sha256": "336223a86fe03b135ae46dfa15e6df6e960155e3cb4c18fffcecad17ed5f6a30"
+    },
+    {
+      "index": 52,
+      "selector": {
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+        "game": 4416,
+        "seed_set": "base",
+        "seed": 2004458
+      },
+      "condition": "home",
+      "npz": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_052.npz",
+        "bytes": 10141,
+        "sha256": "28b0a07df9b66cca104f68c4524eeb383ec6a95233a1a2483d55f5aeeee3aa20"
+      },
+      "json": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_052.json",
+        "bytes": 1173,
+        "sha256": "f4567992c8c05cea9a421a56743b8f89685996e27f2de2f568e7cc65145d9114"
+      },
+      "nonzero_count_differences": [
+        [
+          1550,
+          2,
+          0
+        ],
+        [
+          1650,
+          2,
+          0
+        ],
+        [
+          1750,
+          2,
+          0
+        ],
+        [
+          1850,
+          2,
+          0
+        ]
+      ],
+      "total_count_difference": [
+        8,
+        0
+      ],
+      "first_difference_step": 1550,
+      "kc_prefix_count_total": 2558,
+      "kc_active_cells": 915,
+      "kc_cell_count_max": 13,
+      "kc_prefix_sha256": "6083aea26b1320220b5cab5739fd8261403d55379761ab72b0e851cdd859ef49"
+    },
+    {
+      "index": 53,
+      "selector": {
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+        "game": 4416,
+        "seed_set": "base",
+        "seed": 2004458
+      },
+      "condition": "away",
+      "npz": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_053.npz",
+        "bytes": 10141,
+        "sha256": "1051baaa0d93df44681c39115ea833b7e813198fdb10663358df98f16092f8f0"
+      },
+      "json": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_053.json",
+        "bytes": 1176,
+        "sha256": "2b10d5d808c8c1d0e0925e863fba54f1cd8b6f55fe38388900e806c23f612bed"
+      },
+      "nonzero_count_differences": [
+        [
+          1550,
+          0,
+          22
+        ],
+        [
+          1650,
+          0,
+          22
+        ],
+        [
+          1750,
+          0,
+          22
+        ],
+        [
+          1850,
+          0,
+          22
+        ]
+      ],
+      "total_count_difference": [
+        0,
+        88
+      ],
+      "first_difference_step": 1550,
+      "kc_prefix_count_total": 2558,
+      "kc_active_cells": 915,
+      "kc_cell_count_max": 13,
+      "kc_prefix_sha256": "6083aea26b1320220b5cab5739fd8261403d55379761ab72b0e851cdd859ef49"
+    },
+    {
+      "index": 54,
+      "selector": {
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+        "game": 4416,
+        "seed_set": "alt",
+        "seed": 3004458
+      },
+      "condition": "home",
+      "npz": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_054.npz",
+        "bytes": 9946,
+        "sha256": "bb6cc7d4cc434f36ccfa5abb64b4338fde1ae2e23f5c6a1c96a40bba86ce3749"
+      },
+      "json": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_054.json",
+        "bytes": 1171,
+        "sha256": "b1a4fb99dacb082808cae615bc2c3ebd09c409faf905db7add2a92ec7c573e15"
+      },
+      "nonzero_count_differences": [
+        [
+          1550,
+          2,
+          0
+        ],
+        [
+          1650,
+          2,
+          0
+        ],
+        [
+          1750,
+          2,
+          0
+        ],
+        [
+          1850,
+          2,
+          0
+        ]
+      ],
+      "total_count_difference": [
+        8,
+        0
+      ],
+      "first_difference_step": 1550,
+      "kc_prefix_count_total": 2070,
+      "kc_active_cells": 747,
+      "kc_cell_count_max": 12,
+      "kc_prefix_sha256": "caa430945816d47e32f554dd79cd86b3eaaf78d0abf016d9f1408c9014bfbd5c"
+    },
+    {
+      "index": 55,
+      "selector": {
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+        "game": 4416,
+        "seed_set": "alt",
+        "seed": 3004458
+      },
+      "condition": "away",
+      "npz": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_055.npz",
+        "bytes": 9946,
+        "sha256": "1fca5445fd145914e99d71fd5ba0d01465e55224df1b4feeb0a024396859bfaa"
+      },
+      "json": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_055.json",
+        "bytes": 1174,
+        "sha256": "530fff23888955190327b7d25fab277ccc485aef07df582d17a0ef5cfc2eac05"
+      },
+      "nonzero_count_differences": [
+        [
+          1550,
+          0,
+          22
+        ],
+        [
+          1650,
+          0,
+          22
+        ],
+        [
+          1750,
+          0,
+          22
+        ],
+        [
+          1850,
+          0,
+          22
+        ]
+      ],
+      "total_count_difference": [
+        0,
+        88
+      ],
+      "first_difference_step": 1550,
+      "kc_prefix_count_total": 2070,
+      "kc_active_cells": 747,
+      "kc_cell_count_max": 12,
+      "kc_prefix_sha256": "caa430945816d47e32f554dd79cd86b3eaaf78d0abf016d9f1408c9014bfbd5c"
+    },
+    {
+      "index": 56,
+      "selector": {
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+        "game": 4420,
+        "seed_set": "base",
+        "seed": 2004462
+      },
+      "condition": "home",
+      "npz": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_056.npz",
+        "bytes": 10809,
+        "sha256": "9384966b8f868ee9963318ebdb5aebab1d3fc0ded2aa96cb5f1cf213f4b48d96"
+      },
+      "json": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_056.json",
+        "bytes": 1173,
+        "sha256": "75a39c9264ff386702acf7a9a9d1a371e22595afbd6ec8cbf2a8bbb0b49a1c56"
+      },
+      "nonzero_count_differences": [
+        [
+          1550,
+          2,
+          0
+        ],
+        [
+          1650,
+          2,
+          0
+        ],
+        [
+          1750,
+          2,
+          0
+        ],
+        [
+          1850,
+          2,
+          0
+        ]
+      ],
+      "total_count_difference": [
+        8,
+        0
+      ],
+      "first_difference_step": 1550,
+      "kc_prefix_count_total": 5548,
+      "kc_active_cells": 1446,
+      "kc_cell_count_max": 15,
+      "kc_prefix_sha256": "3f51b6af28bb9f6658fa684f7465554a27cdda5d2fe95897d6cdeb5175f11110"
+    },
+    {
+      "index": 57,
+      "selector": {
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+        "game": 4420,
+        "seed_set": "base",
+        "seed": 2004462
+      },
+      "condition": "away",
+      "npz": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_057.npz",
+        "bytes": 10809,
+        "sha256": "e3d3e8c013c7135d1e6d9e641a742071520923f1f6aa6e63c98dc04b406617dc"
+      },
+      "json": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_057.json",
+        "bytes": 1176,
+        "sha256": "8feb8b67e37fa6a91dfcea1d4626811f96037ee1db4009d9ffef64aba42b534f"
+      },
+      "nonzero_count_differences": [
+        [
+          1550,
+          0,
+          22
+        ],
+        [
+          1650,
+          0,
+          22
+        ],
+        [
+          1750,
+          0,
+          22
+        ],
+        [
+          1850,
+          0,
+          22
+        ]
+      ],
+      "total_count_difference": [
+        0,
+        88
+      ],
+      "first_difference_step": 1550,
+      "kc_prefix_count_total": 5548,
+      "kc_active_cells": 1446,
+      "kc_cell_count_max": 15,
+      "kc_prefix_sha256": "3f51b6af28bb9f6658fa684f7465554a27cdda5d2fe95897d6cdeb5175f11110"
+    },
+    {
+      "index": 58,
+      "selector": {
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+        "game": 4420,
+        "seed_set": "alt",
+        "seed": 3004462
+      },
+      "condition": "home",
+      "npz": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_058.npz",
+        "bytes": 10650,
+        "sha256": "d2424fc9f727472b5087d181ee3787fb30c3b1f82e43856263fcb55b21965033"
+      },
+      "json": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_058.json",
+        "bytes": 1172,
+        "sha256": "9605cf5f387e957b3d18051fe3f19cdaaf1ed498ed4f2c18b75a0ebf9fd3bff5"
+      },
+      "nonzero_count_differences": [
+        [
+          1550,
+          2,
+          0
+        ],
+        [
+          1556,
+          -1,
+          0
+        ],
+        [
+          1650,
+          2,
+          0
+        ],
+        [
+          1750,
+          2,
+          0
+        ],
+        [
+          1850,
+          2,
+          0
+        ]
+      ],
+      "total_count_difference": [
+        7,
+        0
+      ],
+      "first_difference_step": 1550,
+      "kc_prefix_count_total": 4707,
+      "kc_active_cells": 1329,
+      "kc_cell_count_max": 15,
+      "kc_prefix_sha256": "324cc45d0689b7a92a4e6aa52e2042790c86c1d9607cfa60e09285defb47d165"
+    },
+    {
+      "index": 59,
+      "selector": {
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+        "game": 4420,
+        "seed_set": "alt",
+        "seed": 3004462
+      },
+      "condition": "away",
+      "npz": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_059.npz",
+        "bytes": 10643,
+        "sha256": "f176b21ff43f43aa8c6066dcf8c5295afe80324b7c7a095a6530caad4f036f9b"
+      },
+      "json": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_059.json",
+        "bytes": 1175,
+        "sha256": "752d8e92561d18d1bb9b93f93f91eacafc7f5d7a1a7398260afe61766afbdf83"
+      },
+      "nonzero_count_differences": [
+        [
+          1550,
+          0,
+          22
+        ],
+        [
+          1650,
+          0,
+          22
+        ],
+        [
+          1750,
+          0,
+          22
+        ],
+        [
+          1850,
+          0,
+          22
+        ]
+      ],
+      "total_count_difference": [
+        0,
+        88
+      ],
+      "first_difference_step": 1550,
+      "kc_prefix_count_total": 4707,
+      "kc_active_cells": 1329,
+      "kc_cell_count_max": 15,
+      "kc_prefix_sha256": "324cc45d0689b7a92a4e6aa52e2042790c86c1d9607cfa60e09285defb47d165"
+    },
+    {
+      "index": 60,
+      "selector": {
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+        "game": 4425,
+        "seed_set": "base",
+        "seed": 2004467
+      },
+      "condition": "home",
+      "npz": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_060.npz",
+        "bytes": 10036,
+        "sha256": "9e48222b38da6ef3c6e253242754aa24bf3a1811727798fc52d68d8cd1a5c2c5"
+      },
+      "json": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_060.json",
+        "bytes": 1173,
+        "sha256": "12c45f45517c5b8d74d2946b8df9547f02612574b94b8fad57e4a7c221f20b99"
+      },
+      "nonzero_count_differences": [
+        [
+          1550,
+          2,
+          0
+        ],
+        [
+          1650,
+          2,
+          0
+        ],
+        [
+          1750,
+          2,
+          0
+        ],
+        [
+          1850,
+          2,
+          0
+        ]
+      ],
+      "total_count_difference": [
+        8,
+        0
+      ],
+      "first_difference_step": 1550,
+      "kc_prefix_count_total": 2264,
+      "kc_active_cells": 820,
+      "kc_cell_count_max": 15,
+      "kc_prefix_sha256": "ce30e4963ef7ced089cea512a467be86aceccbe3af465bbf4ac416aec0502705"
+    },
+    {
+      "index": 61,
+      "selector": {
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+        "game": 4425,
+        "seed_set": "base",
+        "seed": 2004467
+      },
+      "condition": "away",
+      "npz": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_061.npz",
+        "bytes": 10036,
+        "sha256": "80b41edb49c6b54d008a849e28db243add828c6ac1cb9cce677209ae365e744a"
+      },
+      "json": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_061.json",
+        "bytes": 1176,
+        "sha256": "acf1c540e50aab3338507122de51cb9a5ecfc7e41284e3783f42869ec772e744"
+      },
+      "nonzero_count_differences": [
+        [
+          1550,
+          0,
+          22
+        ],
+        [
+          1650,
+          0,
+          22
+        ],
+        [
+          1750,
+          0,
+          22
+        ],
+        [
+          1850,
+          0,
+          22
+        ]
+      ],
+      "total_count_difference": [
+        0,
+        88
+      ],
+      "first_difference_step": 1550,
+      "kc_prefix_count_total": 2264,
+      "kc_active_cells": 820,
+      "kc_cell_count_max": 15,
+      "kc_prefix_sha256": "ce30e4963ef7ced089cea512a467be86aceccbe3af465bbf4ac416aec0502705"
+    },
+    {
+      "index": 62,
+      "selector": {
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+        "game": 4425,
+        "seed_set": "alt",
+        "seed": 3004467
+      },
+      "condition": "home",
+      "npz": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_062.npz",
+        "bytes": 10014,
+        "sha256": "e1b07128961d6437e55f967e5263326bfd321b44ebb71afe4aeabc969522c8ed"
+      },
+      "json": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_062.json",
+        "bytes": 1172,
+        "sha256": "d3c3429709a4b7e0673dd67b882b78dae39aedaf1b0953dc54ba4942be7995a5"
+      },
+      "nonzero_count_differences": [
+        [
+          1550,
+          2,
+          0
+        ],
+        [
+          1650,
+          2,
+          0
+        ],
+        [
+          1750,
+          2,
+          0
+        ],
+        [
+          1850,
+          2,
+          0
+        ]
+      ],
+      "total_count_difference": [
+        8,
+        0
+      ],
+      "first_difference_step": 1550,
+      "kc_prefix_count_total": 2303,
+      "kc_active_cells": 784,
+      "kc_cell_count_max": 16,
+      "kc_prefix_sha256": "23ce4f1102e44cd9b8b2962cd9a6c0c1b591455bb2b2ce5e30b1ad866413d952"
+    },
+    {
+      "index": 63,
+      "selector": {
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+        "game": 4425,
+        "seed_set": "alt",
+        "seed": 3004467
+      },
+      "condition": "away",
+      "npz": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_063.npz",
+        "bytes": 10014,
+        "sha256": "18edefd3b2d255251d43b444c0c114fff7b6e8dd60d732e3869bac97c7394e62"
+      },
+      "json": {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_063.json",
+        "bytes": 1175,
+        "sha256": "7195308df547cab46a3f4c718aa86095868fd2fe90c85d018fd69eb054f36329"
+      },
+      "nonzero_count_differences": [
+        [
+          1550,
+          0,
+          22
+        ],
+        [
+          1650,
+          0,
+          22
+        ],
+        [
+          1750,
+          0,
+          22
+        ],
+        [
+          1850,
+          0,
+          22
+        ]
+      ],
+      "total_count_difference": [
+        0,
+        88
+      ],
+      "first_difference_step": 1550,
+      "kc_prefix_count_total": 2303,
+      "kc_active_cells": 784,
+      "kc_cell_count_max": 16,
+      "kc_prefix_sha256": "23ce4f1102e44cd9b8b2962cd9a6c0c1b591455bb2b2ce5e30b1ad866413d952"
+    }
+  ],
+  "scope": [
+    "Read every saved contrast JSON and all four numerical arrays in each of64NPZs. Independently recomputed selectors, first pooled divergence, support/signs and whole-trial integer totals, grouped ranges, body-map identity and paired KC-prefix identity without importing or invoking the producer.",
+    "The first-rule and absence-of-KC-difference statements are checked for complete consistency across saved JSONs and status. Their original filter/raster parity is established by the previously reviewed successful bound driver, not independently rerun from raw inputs in this saved-output audit.",
+    "Common per-KC equality is conditional on the exact current pooled bridge through step1550 inclusive, not directly measured fine taught rasters. Full-trial equal KC totals and grouped states do not prove all later per-cell spike assignments or new-law trajectories.",
+    "The -1 pooled difference at step1556 is saved event accounting. This review does not identify the particular DAN, prove a presynaptic-release mechanism or select a new model.",
+    "Actual events provide a distinction at teaching onset with the common KC prefix; no release concentration, receptor timescale, learning pass, conditioning pass or biological impossibility follows.",
+    "No audit driver, source induction, native model, captured-history comparison, fitting, threshold selection or network request was executed in this review."
+  ],
+  "review_wall_seconds": 0.41548662493005395
+}

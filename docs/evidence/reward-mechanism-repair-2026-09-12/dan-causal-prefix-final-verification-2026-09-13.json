@@ -1,0 +1,33 @@
+{
+  "status": "pass",
+  "protected_existing_files": 790,
+  "baseline_files": 791,
+  "unexpected_protected_changes": [],
+  "previous_intended_edits": {
+    "scripts/verify_reward_browser.cjs": "28d2fcb0faf5fd917123a4f022a60a628dc5f8418b3909e4ea6faf8bd236a477",
+    "web/dist/index.html": "61647f0fc452894d5b69b48dbd0256eb81e35013630b3181f29e8e52bea34b48"
+  },
+  "previous_inventory_additions": [
+    "web/dist/assets/index-BuQEd2Ul.js"
+  ],
+  "previous_inventory_removals": [
+    "web/dist/assets/index-_R16x4Qi.js"
+  ],
+  "active_pointer_sha256": "975badb63a16ca1b24291a741b6818f1d83776b51adb18b18c6f0902b3a18b21",
+  "local_markdown_links_checked": 178,
+  "missing_links": [],
+  "canonical_tests": {
+    "passed": 223,
+    "seconds": 1.47,
+    "ruff": "pass"
+  },
+  "standard_verify": {
+    "python_tests": 4055,
+    "frontend_tests": 103,
+    "ruff": "pass",
+    "build": "pass",
+    "log": "dan-causal-prefix-make-verify-2026-09-13.txt",
+    "no_production_change_since_verify": true
+  },
+  "seconds": 3.0127577921375632
+}

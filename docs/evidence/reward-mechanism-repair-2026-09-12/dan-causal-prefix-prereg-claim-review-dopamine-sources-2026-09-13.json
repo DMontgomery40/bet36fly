@@ -1,0 +1,130 @@
+{
+  "agent": "/root/dopamine_sources",
+  "at_utc": "2026-09-13T11:30:08.351812+00:00",
+  "git_head": "dce1582618f6c386a4996695bc77ad4218dd493c",
+  "status": "pass_independent_preregistration_and_claim_review",
+  "material_findings": [],
+  "reading": {
+    "prior_complete_personal_chain": {
+      "path": "output/collaboration/reward-mechanism-repair/incentive-final-review-dopamine-sources-2026-09-13.json",
+      "bytes": 7961,
+      "sha256": "02f227e0b3812de5a322851f5e5281666ddf6e99a6a4371b9d17bf913a3ad76b"
+    },
+    "prior_latest_source_decision_receipt": {
+      "path": "output/collaboration/reward-mechanism-repair/dopamine-release-versus-priming-reading-receipt-2026-09-13.json",
+      "bytes": 7262,
+      "sha256": "da84b9ecaf7db3af0b336e4374efa55f8ed9dbd8cfad1343fb56074e700cf157"
+    },
+    "prior_coverage_correction_preserved": {
+      "path": "output/collaboration/reward-mechanism-repair/incentive-handler-saved-analysis-result-reading-receipt-2026-09-13.json",
+      "bytes": 11714,
+      "sha256": "e8ea0eed0d65089e01b986477d3675f219bb7288499b2d946737bbe9df2adac9"
+    },
+    "corpus_scope": "AGENTS.md plus all docs/**/*.md and wiki/**/*.md; root README is outside this count and was read in the prior chain.",
+    "current_narrative_count": 188,
+    "all_current_hashes_match_actual_prior_reading_chain": true,
+    "current_inventory_sha256": "c2d12a7547476cdfc5a3611be13873775abdc0a9a64ae80124982859757a503f",
+    "unread_deltas": [],
+    "personally_read_complete_new_narratives": [
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-preregistration-2026-09-13.md",
+        "bytes": 7039,
+        "sha256": "2f0ea07b14f8c1a73f2ff6d75250094d22270aec2b523b422ef6a49fdde8ef37"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/causal-prefix-identifiability-contract-delivered-arrivals-2026-09-13.md",
+        "bytes": 12566,
+        "sha256": "4fc653c542cf167076d3a4032c542d64d04d3ca1cf46192a3367e548f437cf4f"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-release-observability-evidence-ui-2026-09-13.md",
+        "bytes": 11604,
+        "sha256": "49d86b04814abeb1b7e96e954f1a456109de2ad8ba73238a3597ab6ce09c4af7"
+      }
+    ],
+    "personally_read_complete_pure_helper_and_tests": [
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan_causal_prefix.py",
+        "bytes": 9123,
+        "sha256": "28601f16d718cbac719122dc496011344bd02e5a389dec4c470869eecaaef11e"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py",
+        "bytes": 10987,
+        "sha256": "f31ba840e925d4174c8b3a3220c06bc6d9f7898a181ed4831645f28aa2c58fd2"
+      }
+    ],
+    "personally_read_complete_independent_pure_review": {
+      "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-pure-review-final-delivered-arrivals-2026-09-13.json",
+      "bytes": 4303,
+      "sha256": "58cd7bbfe606838222c41d42c6e7718ccb65074880ace78ed14437ae26c0c1de"
+    },
+    "current_code_rechecked": [
+      {
+        "path": "bet36fly/reward_protocol.py",
+        "bytes": 15356,
+        "sha256": "e1a315f991debb677fca30f6e821a657135adccf032ad26054a00ed7688dc1bb",
+        "portion": "Lines158\u2013176; selected pure-DAN fast output weights zero."
+      },
+      {
+        "path": "bet36fly/reward_lif.cpp",
+        "bytes": 19913,
+        "sha256": "e7dbb0aa8f95873036415581e94de45c237941f05642ccc90812c1be1119be37",
+        "portion": "Lines175\u2013268; delivery, integration, sensory RNG, teaching, spike selection/recording precede gain update."
+      }
+    ],
+    "historical_erratum_target": {
+      "path": "output/collaboration/reward-repair/evidence/candidate-rule-spec-v1.1.md",
+      "bytes": 4570,
+      "sha256": "01023ac61cbb23a7a0d6445989dc00c639ce81a08aa683b66a3062f70ef23725",
+      "portion": "Lines28\u201360 personally re-read; frozen historical file remains untouched."
+    }
+  },
+  "claim_review": [
+    {
+      "claim": "Current-rule common KC prefix",
+      "judgment": "Supported conditionally by code and required identity checks. With matched active initial state and inputs, first pooled DAN difference j across either compartment preserves KC spike selection through j inclusive and bridge/rule equality through j exclusive. Shared nonunit gain drift is allowed. Queued events can use new gains at j+1; no nine-step extension follows from transmission delay."
+    },
+    {
+      "claim": "Legitimate next-decision value",
+      "judgment": "The64 fixed comparisons can establish whether the current recorded pooled-spike input presents a distinction while KC input is shared. They cannot select release/receptor constants, demonstrate a guard-passing mechanism, infer post-divergence KC input or establish a new candidate closed-loop trajectory."
+    },
+    {
+      "claim": "Per-cell taught exposure",
+      "judgment": "per_cell_taught_history_established=false describes this audit scope. Fine taught DAN timing is not directly recorded or reconstructed here. Pooled counts plus per-cell coarse bins and other constraints can sometimes uniquely constrain individual events (including pool0 orN). Therefore the claim is not universal information-theoretic unrecoverability."
+    },
+    {
+      "claim": "Identical-D-only attribution erratum",
+      "judgment": "Correct. Q=E_D*R_K\u2212E_K*R_D also depends on KC history. Identical D with positive E_D can produce Q=0 for a silent KC and Q>0 immediately after a fresh KC impulse with E_K=0. D equality alone cannot establish an indexing leak. Preserve the historical frozen document and numerical gate while correcting interpretation."
+    },
+    {
+      "claim": "Restricted mechanism exclusion",
+      "judgment": "Only complete equality of all allowed local inputs, initial states and cell attributes forces equal deterministic outputs. A single matched collision does not exclude panel-average learning; exclusion requires coverage appropriate to all relevant edges and cues. No biological impossibility follows."
+    },
+    {
+      "claim": "Exact count decoding and prefix checks",
+      "judgment": "Canonical F32(k/N) re-encoding validates the rounded count candidate bitwise and rejects adjacent values and negative zero. For supported N\u226465535, candidate inversion error remains below0.002, less than0.5. Fine/coarse parity, whole-bin containment and global first divergence are necessary; neither requested pulse counts nor pulse-grid timing substitutes for actual DAN spikes."
+    }
+  ],
+  "remaining_separate_prerequisites": [
+    "Actual driver review must enforce exact2000-step schemas,8groups,verified4064-KC ceiling, full32selectors/maps/source/checkpoint/mask identities, canonical record types and parity; generic pure helpers alone do not establish these.",
+    "Parent must freeze reviewed full bindings and supervise one exclusive120-second actual analysis with persisted completion and unchanged input hashes. This receipt does not authorize or perform that run.",
+    "Scientific interpretation of actual contrasts requires successful complete artifact/numerical audit; current learning failure and acquisition/reversal gates remain unchanged."
+  ],
+  "verification": {
+    "tests_rerun_by_this_agent": false,
+    "independent_test_receipt_reviewed": {
+      "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-pure-review-final-delivered-arrivals-2026-09-13.json",
+      "bytes": 4303,
+      "sha256": "58cd7bbfe606838222c41d42c6e7718ccb65074880ace78ed14437ae26c0c1de"
+    },
+    "reported_pure_tests": 105,
+    "reported_pure_tests_seconds": 0.15,
+    "reported_ruff": "pass",
+    "reviewed_helper_test_contract_and_kernel_hashes_rechecked": true,
+    "archive_waveforms_read_or_evaluated": false,
+    "model_source_or_native_runs": 0,
+    "network_actions": 0,
+    "mutations": "Only this new JSON review receipt; no production, shared narrative, frozen input or prior receipt edits."
+  }
+}

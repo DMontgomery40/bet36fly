@@ -1,0 +1,30 @@
+{
+  "scope": "Only global sample selectors loaded; no time series or waveform arrays read.",
+  "panels": [
+    {
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "dtype": "int64",
+      "shape": [
+        4780
+      ],
+      "values_match_expected": true,
+      "expected_dtype": "int64",
+      "numeric_sha256": "ebecab105c22bb43d6e2f6ed4cfb27a25062ffa013299cd082d7a399b87f0dbd",
+      "unique": 4780
+    },
+    {
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "dtype": "int64",
+      "shape": [
+        4780
+      ],
+      "values_match_expected": true,
+      "expected_dtype": "int64",
+      "numeric_sha256": "ebecab105c22bb43d6e2f6ed4cfb27a25062ffa013299cd082d7a399b87f0dbd",
+      "unique": 4780
+    }
+  ],
+  "cause": "The v1 reader constructed an int32 expected selector; main archive source concatenates int64 MBON indices and records int64 sampled selectors. Exact equal() rejected otherwise matching values.",
+  "failed_run_id": "dan-causal-prefix-cb7eb73ca0c41bd37e4b",
+  "completed_contrasts": 0
+}

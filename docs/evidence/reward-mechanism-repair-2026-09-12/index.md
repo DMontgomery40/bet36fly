@@ -2,6 +2,23 @@
 
 **Status: scientific HOLD; the rate bridge still fails the second panel's untaught-home guard.** Both the corrected raw-event rule and the subsequent rate bridge pass the original panel but fail the previously frozen second panel. The rate bridge reduces the measured drift without satisfying the unchanged guard. Numerical implementation tests pass; cue-specific acquisition, reversal and improved sports prediction remain unestablished. Conditioning has not run.
 
+The new [64-contrast causal-prefix audit](dan-causal-prefix-result-2026-09-13.md)
+finds an actual teaching input difference in every comparison at 310 ms,
+while the KC history is still shared. Both PPL101 cells or all 22 PAM12
+cells fired at that step, with none in the matched untaught target pool.
+The [first reader failure and correction](dan-causal-prefix-v2-reader-correction-2026-09-13.md)
+are preserved: the original fixture missed the producer's int64 sample
+indices. The corrected reader passes 223 tests and the complete saved-result
+review. This establishes available electrical input, not a release/receptor
+law or a qualified learning rule. Original recordings and production behavior
+remain unchanged.
+
+The [independent numerical/artifact review](dan-causal-prefix-v2-saved-result-review-delivered-arrivals-2026-09-13.json)
+checks all 64 contrasts, 256 saved arrays and 113 bound inputs. The separate
+[scientific interpretation](dan-causal-prefix-result-interpretation-dopamine-sources-2026-09-13.md)
+keeps the saturated first-pulse cell inference distinct from complete
+per-cell histories and recommends a bounded source transfer decision.
+
 The September 13 [published Handler-model reproduction](incentive-handler-source-result-2026-09-13.md)
 now passes all six authored source conditions and its independent saved-state
 audit. The [separate workbook comparison](incentive-handler-saved-analysis-result-2026-09-13.md)

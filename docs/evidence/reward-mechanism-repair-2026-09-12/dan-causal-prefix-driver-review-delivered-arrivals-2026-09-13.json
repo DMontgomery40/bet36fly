@@ -1,0 +1,133 @@
+{
+  "schema": 1,
+  "agent": "/root/delivered_arrivals",
+  "created_at_utc": "2026-09-13T11:40:50.678940+00:00",
+  "status": "pass_independent_driver_preparation_review_before_actual_comparison",
+  "reviewed": [
+    {
+      "path": "output/collaboration/reward-mechanism-repair/run_dan_causal_prefix.py",
+      "bytes": 36017,
+      "sha256": "13510ed87a3f5fc379b2e8cae21b940de9193722a694f8c61d266848cfa89c4d"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix.py",
+      "bytes": 26461,
+      "sha256": "716117621824067224ab5d2b584d83d33404c1201c3f00710a42b8b073cdec64"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/launch_dan_causal_prefix.py",
+      "bytes": 2175,
+      "sha256": "09d3579e9ea3d9c015a326212056e839c174f06effae6f331f9547d07c3f4d14"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/dan_causal_prefix.py",
+      "bytes": 9123,
+      "sha256": "28601f16d718cbac719122dc496011344bd02e5a389dec4c470869eecaaef11e"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py",
+      "bytes": 10987,
+      "sha256": "f31ba840e925d4174c8b3a3220c06bc6d9f7898a181ed4831645f28aa2c58fd2"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-plan-draft-2026-09-13.json",
+      "bytes": 19597,
+      "sha256": "acb6110475071ebd3b35b65ed465acf591ada3a6c63f4102fe2436607a126aa9"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-preregistration-2026-09-13.md",
+      "bytes": 7039,
+      "sha256": "2f0ea07b14f8c1a73f2ff6d75250094d22270aec2b523b422ef6a49fdde8ef37"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/dan-release-observability-evidence-ui-2026-09-13.md",
+      "bytes": 11604,
+      "sha256": "49d86b04814abeb1b7e96e954f1a456109de2ad8ba73238a3597ab6ce09c4af7"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-driver-preparation-reading-evidence-ui-2026-09-13.json",
+      "bytes": 9059,
+      "sha256": "853d5b789756eeb3ae3e0a9ab4caa8cae260bdadb9da5f49f8835d69c9284e6e"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-prereg-claim-review-dopamine-sources-2026-09-13.json",
+      "bytes": 8004,
+      "sha256": "877a4115ea76960fe82372e2986405162859cd1cd281638c65f176ad83b0297c"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-root-preparation-review-2026-09-13.json",
+      "bytes": 2425,
+      "sha256": "17201c8040aeea2e81c2f715326f4650d04c2dfba133abf900e8811f8f787401"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-pure-review-final-delivered-arrivals-2026-09-13.json",
+      "bytes": 4303,
+      "sha256": "58cd7bbfe606838222c41d42c6e7718ccb65074880ace78ed14437ae26c0c1de"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/causal-prefix-identifiability-contract-delivered-arrivals-2026-09-13.md",
+      "bytes": 12566,
+      "sha256": "4fc653c542cf167076d3a4032c542d64d04d3ca1cf46192a3367e548f437cf4f"
+    }
+  ],
+  "material_findings": [],
+  "reading": {
+    "prior_complete_personal_receipt": {
+      "path": "output/collaboration/reward-mechanism-repair/causal-prefix-identifiability-reading-delivered-arrivals-2026-09-13.json",
+      "bytes": 46858,
+      "sha256": "a99216032451ad57df232a62072906e520df34e75e89384e7815c6f89a574bce"
+    },
+    "narrative_count": 189,
+    "all_current_narratives_identical_to_prior_personal_full_read": true,
+    "new_or_changed_docs_wiki": [],
+    "current_inventory_sha256": "945abed44ed679490fb25356293bf583258979f500c435a9df287f9bd5fe59a2",
+    "new_narratives_personally_read_in_full": [
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-preregistration-2026-09-13.md",
+        "bytes": 7039,
+        "sha256": "2f0ea07b14f8c1a73f2ff6d75250094d22270aec2b523b422ef6a49fdde8ef37"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-release-observability-evidence-ui-2026-09-13.md",
+        "bytes": 11604,
+        "sha256": "49d86b04814abeb1b7e96e954f1a456109de2ad8ba73238a3597ab6ce09c4af7"
+      }
+    ],
+    "all_driver_tests_launcher_contents_personally_read": true
+  },
+  "coverage": [
+    "Exact final driver and 85 driver tests read in full; pure helper and 105 tests were independently reviewed previously and rerun together at final hashes.",
+    "Fixed two-panel, eight-game, base/alternate-noise selectors with both home/away contrasts produce exactly 64 ordered comparisons from 32 fine rows. Fine-to-main input, seed, source, protocol, native binary and mask/checkpoint identity checks were inspected without reading actual waveform payloads.",
+    "Inspected actual typed 2000-step arrays, 4064 KC count ceiling, 2/22 DAN population decoding, binary sampled events, role/global/body mappings, full count and coarse-bin reductions, unused zeros, gains and excluded-edge identity. Header declared shape/payload checks precede NPZ allocation.",
+    "Inspected streaming pre/post source hashes, bounded strict JSON, unique nonsymlink bound paths, exclusive output, immutable plan, full row counts and preservation of previously completed arrays on failure.",
+    "Independent synthetic suite includes complete tiny 32-file/64-contrast bound archive and metadata IO success plus malformed identities, arrays, count domains, missing/extra rows, source mutation, timing and persistence failures.",
+    "Launcher uses an argv vector and unresolved repository venv path, exclusive execution outputs and subprocess.run(timeout=120), which kills and reaps the direct child on TimeoutExpired. Parent time starts before child interpreter startup. No launcher or actual data job was run in this review."
+  ],
+  "completion_acceptance": [
+    "Parent execution must have exit_code 0, timed_out false and wall_seconds below 120.",
+    "terminal-error.json must be absent; status.json must report completed and 64 contrasts.",
+    "completion.json must report complete with the same run_id and 64 contrasts, and its status_sha256 and summary_sha256 must match the final current bytes.",
+    "All final frozen input bindings must remain unchanged; the draft plan is not itself an execution approval.",
+    "A completion-write cap crossing leaves a stale marker, a terminal error and failed status with a different hash. Marker presence alone is explicitly insufficient. The final test delta verifies this invalidation and earlier-cap marker absence."
+  ],
+  "interpretation_limits": [
+    "Common KC spike selection is conditional on this exact pooled bridge, source and input identity, and extends through the first difference in either pooled DAN channel inclusive. Rule/filter prefix uses the preceding exclusive interval. No extra nine-step grace or post-divergence taught KC reconstruction is permitted.",
+    "per_cell_dan_different_whole_prefix_bins is descriptive over the inclusive KC prefix. If the first pooled divergence j is the last step in a bin, that included bin contains the divergence; its cell-count difference is not evidence of an earlier hidden difference under equal pooling. Strictly pre-j complete bins are required for that narrower inference.",
+    "Pooled equality does not establish all individual taught DAN timings, local dopamine exposure, a new nonlinear candidate trajectory or a biological impossibility.",
+    "Generic secondary numeric fields such as stored rates are schema/domain checked; this is not an independent reconstruction of every recorded simulator output or every neuronal state.",
+    "No new gain/interface/mask/parameter, qualification threshold or conditioning claim is introduced. Actual archive results remain a separate post-dispatch review."
+  ],
+  "verification": {
+    "command": "PYTHONDONTWRITEBYTECODE=1 .venv/bin/python -m pytest -q output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix.py",
+    "tests_passed": 190,
+    "seconds": 1.49,
+    "exit_code": 0,
+    "ruff": "All checks passed on final driver and test files.",
+    "actual_waveform_payloads_read": 0,
+    "actual_archive_audits": 0,
+    "native_calls": 0,
+    "network_calls": 0,
+    "production_edits": 0,
+    "full_repository_gate": "Parent-owned; not repeated for this output-only review receipt."
+  }
+}

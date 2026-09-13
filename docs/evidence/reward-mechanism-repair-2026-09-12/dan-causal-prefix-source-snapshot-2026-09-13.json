@@ -1,0 +1,35 @@
+{
+  "commit": "3b09865ba331b2c58c4bb8080e0d6354b4c8f612",
+  "sources": {
+    "bet36fly/reward_lif.cpp": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/dan-causal-prefix-source-2026-09-13/bet36fly/reward_lif.cpp",
+      "sha256": "e7dbb0aa8f95873036415581e94de45c237941f05642ccc90812c1be1119be37",
+      "current_source_sha256": "e7dbb0aa8f95873036415581e94de45c237941f05642ccc90812c1be1119be37"
+    },
+    "bet36fly/reward_brain.py": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/dan-causal-prefix-source-2026-09-13/bet36fly/reward_brain.py",
+      "sha256": "5a6d67d38d226c6792c4f11430610772894ea3e9ae9593c2d215cfd7eaa0a6d5",
+      "current_source_sha256": "5a6d67d38d226c6792c4f11430610772894ea3e9ae9593c2d215cfd7eaa0a6d5"
+    },
+    "bet36fly/reward_protocol.py": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/dan-causal-prefix-source-2026-09-13/bet36fly/reward_protocol.py",
+      "sha256": "e1a315f991debb677fca30f6e821a657135adccf032ad26054a00ed7688dc1bb",
+      "current_source_sha256": "e1a315f991debb677fca30f6e821a657135adccf032ad26054a00ed7688dc1bb"
+    },
+    "bet36fly/reward_encoder.py": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/dan-causal-prefix-source-2026-09-13/bet36fly/reward_encoder.py",
+      "sha256": "178a36f388b0c0de34bc2a83a0b35eef806dafa98636aa2400e4b87931446285",
+      "current_source_sha256": "178a36f388b0c0de34bc2a83a0b35eef806dafa98636aa2400e4b87931446285"
+    },
+    "bet36fly/reward_diagnostic.py": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/dan-causal-prefix-source-2026-09-13/bet36fly/reward_diagnostic.py",
+      "sha256": "59feb14834813fa6793f0f97a8e4c208fd85494b383e9fa5875efe5b21189c99",
+      "current_source_sha256": "59feb14834813fa6793f0f97a8e4c208fd85494b383e9fa5875efe5b21189c99"
+    },
+    "scripts/reward_teaching_diagnostic.py": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/dan-causal-prefix-source-2026-09-13/scripts/reward_teaching_diagnostic.py",
+      "sha256": "d18df419fe4c78001019d6feadff5b6c37df2de69f7e278d46d3cf02bc539598",
+      "current_source_sha256": "d18df419fe4c78001019d6feadff5b6c37df2de69f7e278d46d3cf02bc539598"
+    }
+  }
+}

@@ -9,7 +9,17 @@ status: learning-unvalidated
 
 ## Current account — September 13 UTC
 
-The latest [receptor/source-model check](cells/dopamine-receptor-signaling.md)
+The latest [saved-record comparison](../docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-result-2026-09-13.md)
+establishes a teaching input difference in all 64 matched cases at 310 ms.
+The same KC history is established through that step. A missing electrical
+teaching signal therefore does not explain these cases; conversion to local
+dopamine exposure and plasticity remains unresolved. The first reader failed
+before comparisons because its synthetic fixture repeated an incorrect
+index dtype. Its failure is preserved, and the corrected source contract now
+passes 223 tests and independent review of all saved results. No new neural
+experiment, candidate, qualification or conditioning result follows.
+
+The preceding [receptor/source-model check](cells/dopamine-receptor-signaling.md)
 reproduces all six published Handler-model conditions and independently checks
 their saved state and experimental workbook. It finds consequential differences
 between receptor reporters, internal weights, plotted weights and measurement

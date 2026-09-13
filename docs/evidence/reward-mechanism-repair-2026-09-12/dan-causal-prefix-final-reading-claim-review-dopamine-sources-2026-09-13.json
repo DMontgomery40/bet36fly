@@ -1,0 +1,214 @@
+{
+  "agent": "/root/dopamine_sources",
+  "at_utc": "2026-09-13T11:59:11.791907+00:00",
+  "status": "pass_final_canonical_reading_and_scientific_claim_review",
+  "material_findings_remaining": [],
+  "resolved_minor_finding": {
+    "issue": "Main result originally labeled status.json3.962651s as child completion.",
+    "correction": "Current output/canonical main result uses completion receipt3.963974s; parent elapsed4.067663s remains correct.",
+    "personally_reread_corrected_paragraph": true,
+    "completion_record": {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/completion.json",
+      "bytes": 312,
+      "sha256": "c18a41353a4de5018378999e6a1158f43909e28ac6b86fffad72422c9f7ee526"
+    },
+    "no_effect_on_cap_or_result_validity": true
+  },
+  "reading": {
+    "prior_complete_personal_chain": {
+      "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-result-reading-review-dopamine-sources-2026-09-13.json",
+      "bytes": 21929,
+      "sha256": "855f74e580de1b2473f9e678a72af444af290f969be9a34471594cfdec255cef"
+    },
+    "prior_full_corpus_base": {
+      "path": "output/collaboration/reward-mechanism-repair/incentive-final-review-dopamine-sources-2026-09-13.json",
+      "bytes": 7961,
+      "sha256": "02f227e0b3812de5a322851f5e5281666ddf6e99a6a4371b9d17bf913a3ad76b"
+    },
+    "prior_coverage_correction_preserved": {
+      "path": "output/collaboration/reward-mechanism-repair/incentive-handler-saved-analysis-result-reading-receipt-2026-09-13.json",
+      "bytes": 11714,
+      "sha256": "e8ea0eed0d65089e01b986477d3675f219bb7288499b2d946737bbe9df2adac9"
+    },
+    "current_narrative_count": 196,
+    "scope": "AGENTS.md and all docs/**/*.md/wiki/**/*.md; README remains outside this explicit count.",
+    "unchanged_paths_reconciled": 184,
+    "current_inventory_sha256": "03ee4289786cdc994f2df067b9dcf1d8239d41fe16361601924f828e6999be10",
+    "personally_read_complete_deltas_against_prior_full_pages": [
+      {
+        "path": "docs/REWARD_REPAIR_HANDOFF.md",
+        "bytes": 58818,
+        "sha256": "4298358f372a725b945b79e21250238e76d25d0f764e58c9031d85c1ad691a81"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/index.md",
+        "bytes": 24225,
+        "sha256": "e48ae092d7f3a1382bb069f6a6dbb3dc3acd41640338ea80e985b8d6e40b4b59"
+      },
+      {
+        "path": "wiki/reassessment.md",
+        "bytes": 14656,
+        "sha256": "aea6daa4b3fc853a16078c3ec17959a9421a1048d3796f0361e9be15b5dba305"
+      },
+      {
+        "path": "wiki/cells/dopamine-receptor-signaling.md",
+        "bytes": 6171,
+        "sha256": "39096f54bc59ad43c7ee85e42ae60677bb2d74e3128f7bdb7f076dad5626af9e"
+      }
+    ],
+    "delta_method": "Read entire gitdiff against exact previously personally read HEAD bytes; verified those baseline hashes match the reading chain.",
+    "personally_read_complete_new_pages": [
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-result-2026-09-13.md",
+        "bytes": 5586,
+        "sha256": "55d3e594fc0cfeb95876c4d21113bd8846853ab25621c664caf43f04d27965b7"
+      },
+      {
+        "path": "docs/evidence/reward-repair/evidence/candidate-rule-spec-v1.1.md",
+        "bytes": 4570,
+        "sha256": "01023ac61cbb23a7a0d6445989dc00c639ce81a08aa683b66a3062f70ef23725"
+      }
+    ],
+    "exact_byte_aliases_of_personally_read_notes": [
+      {
+        "source": {
+          "path": "output/collaboration/reward-mechanism-repair/causal-prefix-identifiability-contract-delivered-arrivals-2026-09-13.md",
+          "bytes": 12566,
+          "sha256": "4fc653c542cf167076d3a4032c542d64d04d3ca1cf46192a3367e548f437cf4f"
+        },
+        "copy": {
+          "path": "docs/evidence/reward-mechanism-repair-2026-09-12/causal-prefix-identifiability-contract-delivered-arrivals-2026-09-13.md",
+          "bytes": 12566,
+          "sha256": "4fc653c542cf167076d3a4032c542d64d04d3ca1cf46192a3367e548f437cf4f"
+        },
+        "personal_reading": "Source content personally read in prior bound receipts; exact-byte copy verified."
+      },
+      {
+        "source": {
+          "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-preregistration-2026-09-13.md",
+          "bytes": 7039,
+          "sha256": "2f0ea07b14f8c1a73f2ff6d75250094d22270aec2b523b422ef6a49fdde8ef37"
+        },
+        "copy": {
+          "path": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-preregistration-2026-09-13.md",
+          "bytes": 7039,
+          "sha256": "2f0ea07b14f8c1a73f2ff6d75250094d22270aec2b523b422ef6a49fdde8ef37"
+        },
+        "personal_reading": "Source content personally read in prior bound receipts; exact-byte copy verified."
+      },
+      {
+        "source": {
+          "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-result-interpretation-dopamine-sources-2026-09-13.md",
+          "bytes": 4760,
+          "sha256": "6bcf37281409a22158b447234ff719c85c2510a164cb05c45b3dfb0cb08323e2"
+        },
+        "copy": {
+          "path": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-result-interpretation-dopamine-sources-2026-09-13.md",
+          "bytes": 4760,
+          "sha256": "6bcf37281409a22158b447234ff719c85c2510a164cb05c45b3dfb0cb08323e2"
+        },
+        "personal_reading": "Source content personally read in prior bound receipts; exact-byte copy verified."
+      },
+      {
+        "source": {
+          "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-v2-reader-correction-2026-09-13.md",
+          "bytes": 2611,
+          "sha256": "07b8ce1c725de0e0132f5ab7acdeb459197fad0652576ac5084780a4874cdc99"
+        },
+        "copy": {
+          "path": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-v2-reader-correction-2026-09-13.md",
+          "bytes": 2611,
+          "sha256": "07b8ce1c725de0e0132f5ab7acdeb459197fad0652576ac5084780a4874cdc99"
+        },
+        "personal_reading": "Source content personally read in prior bound receipts; exact-byte copy verified."
+      },
+      {
+        "source": {
+          "path": "output/collaboration/reward-mechanism-repair/dan-release-observability-evidence-ui-2026-09-13.md",
+          "bytes": 11604,
+          "sha256": "49d86b04814abeb1b7e96e954f1a456109de2ad8ba73238a3597ab6ce09c4af7"
+        },
+        "copy": {
+          "path": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-release-observability-evidence-ui-2026-09-13.md",
+          "bytes": 11604,
+          "sha256": "49d86b04814abeb1b7e96e954f1a456109de2ad8ba73238a3597ab6ce09c4af7"
+        },
+        "personal_reading": "Source content personally read in prior bound receipts; exact-byte copy verified."
+      },
+      {
+        "source": {
+          "path": "output/collaboration/reward-mechanism-repair/dopamine-release-versus-priming-decision-2026-09-13.md",
+          "bytes": 8043,
+          "sha256": "8f51b6f9d4586b813fbcb76ec496d8c03612c96ad11f7145b9072c959d778d53"
+        },
+        "copy": {
+          "path": "docs/evidence/reward-mechanism-repair-2026-09-12/dopamine-release-versus-priming-decision-2026-09-13.md",
+          "bytes": 8043,
+          "sha256": "8f51b6f9d4586b813fbcb76ec496d8c03612c96ad11f7145b9072c959d778d53"
+        },
+        "personal_reading": "Source content personally read in prior bound receipts; exact-byte copy verified."
+      }
+    ],
+    "historical_spec_original_unchanged": {
+      "path": "output/collaboration/reward-repair/evidence/candidate-rule-spec-v1.1.md",
+      "bytes": 4570,
+      "sha256": "01023ac61cbb23a7a0d6445989dc00c639ce81a08aa683b66a3062f70ef23725"
+    },
+    "unread_current_narrative_deltas": []
+  },
+  "machine_evidence_review": {
+    "independent_saved_review": {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-v2-saved-result-review-delivered-arrivals-2026-09-13.json",
+      "bytes": 96472,
+      "sha256": "c171459e94723d16af23a248aed2c51de7d5f9956e523dcafadb1589162ae5e7"
+    },
+    "root_saved_inspection": {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-saved-output-inspection-2026-09-13.json",
+      "bytes": 58369,
+      "sha256": "007b0d1b57b7ad9fe2f7022bc9c1f35bd995a8dde3cd40d6fd9a8fa07dba2e6e"
+    },
+    "review_method": "Read complete global observations/scope and programmatically reconcile all64 metadata rows and copied contrast JSON hashes. Did not reopen numerical arrays, input archives or rerun any analysis.",
+    "all64_rows_and_displayed_ranges_match": true,
+    "active_KC_range": [
+      490,
+      1446
+    ],
+    "KC_total_events_range": [
+      1299,
+      5548
+    ],
+    "single_KC_maximum_events": 17,
+    "input_binding_count_reported_by_independent_audit": 113,
+    "input_binding_bytes_reported_by_independent_audit": 917311069,
+    "saved_arrays_read_by_independent_agent": 256,
+    "saved_arrays_read_by_this_final_claim_review": 0,
+    "canonical_test_log": {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-driver-v2-tests-final-2026-09-13.txt",
+      "bytes": 340,
+      "sha256": "03a95fdf008996c0ee0923da7dcf12cfe53ab9306913207e0268031ab0f1b996"
+    },
+    "test_result_read": "223 passed in1.45s; this agent did not rerun. Root is separately verifying final canonical copies.",
+    "make_verify_log": {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-make-verify-2026-09-13.txt",
+      "bytes": 6297,
+      "sha256": "8c56981d6b16d941c76b43f095a8bf7fe1e0dd97c2ab37625e57860930c32639"
+    },
+    "make_verify_results_read": "4055 Python tests;103 frontend tests;Ruff;Vitebuild passed before the output-only analysis. No fresh browser claim.",
+    "initial_copy_receipt_boundary": "Initial copy snapshot remains historical; root will write final-copy receipt for the timestamp-label correction."
+  },
+  "scientific_claim_checks": [
+    "All64 current-code contrasts have an actual pooled DAN difference at310ms while individual KC history is still causally shared through step1550. This rejects absent electrical teaching distinction for these contrasts, not every failure mode.",
+    "Binary population saturation establishes every target DAN at the first event only; it does not establish complete per-cell histories, chemical release or local dose.",
+    "Full-trial equal KC totals/group states do not extend individual-KC prefix equality. Net7/8 home and88 away events remain electrical accounting; the311.2ms deficit is attributed only to saved counts.",
+    "Frozen historical criterion3 retains its bytes and numerical gate; the new interpretation corrects identical-D-only attribution because KC history and gain feedback also enter the rule.",
+    "DARELA is an inspected non-fly quantitative lead whose core still needs pinning/inspection; any actual-spike transfer remains an explicit engineering decision. No release/receptor law, kinetic constants or outcome fit is selected.",
+    "V1 failed before contrasts due reader/index dtype; v2 is the one completed analysis. Both identities and failure records are preserved.",
+    "Production qualification still fails and conditioning remains not_run_gate_failed. No acquisition, reversal, sports improvement, model promotion or push is claimed."
+  ],
+  "scope": {
+    "new_network_actions": 0,
+    "new_tests_or_model_driver_native_runs": 0,
+    "parameter_selection": false,
+    "mutations": "Only this new output-only receipt. Parent owns final copy/protection verification and local commit."
+  }
+}

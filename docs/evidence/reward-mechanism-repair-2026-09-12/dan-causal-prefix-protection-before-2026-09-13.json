@@ -1,0 +1,13 @@
+{
+  "baseline": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-protected-before-2026-09-13.json",
+  "matched_existing_files": 790,
+  "previously_intended_changes": {
+    "scripts/verify_reward_browser.cjs": "28d2fcb0faf5fd917123a4f022a60a628dc5f8418b3909e4ea6faf8bd236a477",
+    "web/dist/index.html": "61647f0fc452894d5b69b48dbd0256eb81e35013630b3181f29e8e52bea34b48"
+  },
+  "previously_retired_asset_absent": "web/dist/assets/index-_R16x4Qi.js",
+  "unexpected": [],
+  "active_pointer_explicitly_checked": true,
+  "seconds": 2.4327378750313073,
+  "scope": "Post-standard-verify protected file hash check before new offline audit; no new inventory assertion."
+}

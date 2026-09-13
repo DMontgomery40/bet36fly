@@ -80,6 +80,17 @@ The UI now uses those distinctions while retaining historical records and
 the legacy `tonic_dan_hz` wire field.
 [Kernel and retained-signal audit](../../docs/evidence/reward-mechanism-repair-2026-09-12/teaching-signal-observability-evidence-ui-2026-09-13.md).
 
+The [complete 64-contrast comparison](../../docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-result-2026-09-13.md)
+now establishes that teaching supplies an electrical difference in every
+recorded case. At 310 ms, both home PPL101 cells (11327 and 11900), or all
+22 away PAM12 cells, fired while their matched untaught target pool was
+silent. Exact pooled counts and binary events establish membership at that
+step; they do not reconstruct the complete taught per-cell history or a
+local dopamine dose. The recorded KC prefix includes 490–1,446 active cells
+per history, with all 4,064 KC identities preserved in the evidence arrays.
+This provides input to investigate a mechanism, without specifying release,
+clearance, receptor state or a successful learning update.
+
 The current learning qualification still fails. A future intracellular
 mechanism needs independently specified input units, state transitions,
 compartment scope and complete-tail behavior, followed by both qualification

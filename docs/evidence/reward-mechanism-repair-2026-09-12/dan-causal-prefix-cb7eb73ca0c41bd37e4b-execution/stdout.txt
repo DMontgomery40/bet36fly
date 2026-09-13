@@ -1,0 +1,1 @@
+{"status": "failed", "completed_contrasts": 0, "wall_seconds": 0.41831520898267627, "error": "ValueError: main sampled identity/order"}

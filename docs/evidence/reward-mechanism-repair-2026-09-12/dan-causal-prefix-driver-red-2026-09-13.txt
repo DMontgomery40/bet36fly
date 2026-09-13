@@ -1,0 +1,16 @@
+
+==================================== ERRORS ====================================
+_ ERROR collecting output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix.py _
+output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix.py:17: in <module>
+    spec.loader.exec_module(m)
+<frozen importlib._bootstrap_external>:995: in exec_module
+    ???
+<frozen importlib._bootstrap_external>:1132: in get_code
+    ???
+<frozen importlib._bootstrap_external>:1190: in get_data
+    ???
+E   FileNotFoundError: [Errno 2] No such file or directory: '/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/run_dan_causal_prefix.py'
+=========================== short test summary info ============================
+ERROR output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix.py
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+1 error in 0.17s

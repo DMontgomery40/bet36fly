@@ -1,0 +1,240 @@
+{
+  "agent": "/root/evidence_ui",
+  "created_at_utc": "2026-09-13T11:59:26.238528+00:00",
+  "status": "pass_final_narrative_and_existing_ui_accuracy_review",
+  "git_head": "dce1582618f6c386a4996695bc77ad4218dd493c",
+  "material_findings": [],
+  "resolved_minor_wording": {
+    "issue": "Result prose used status-write time as child completion time.",
+    "correction": "Root changed output and canonical result to completion receipt3.963974seconds; final complete paragraph personally reread and hash-bound.",
+    "final_result": {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-result-2026-09-13.md",
+      "bytes": 5586,
+      "sha256": "55d3e594fc0cfeb95876c4d21113bd8846853ab25621c664caf43f04d27965b7"
+    }
+  },
+  "reading": {
+    "scope": "AGENTS.md,README.md and all docs/wiki Markdown",
+    "current_narrative_count": 197,
+    "complete_reconciled_personal_reading": true,
+    "current_inventory_sha256": "c48963ad2e63e6b676cf9543571302ed7b8f1d72ef9325839b800ad21e946a35",
+    "unread_deltas": [],
+    "prior_personal_chain": [
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-driver-preparation-reading-evidence-ui-2026-09-13.json",
+        "bytes": 9059,
+        "sha256": "853d5b789756eeb3ae3e0a9ab4caa8cae260bdadb9da5f49f8835d69c9284e6e"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-v2-correction-reading-evidence-ui-2026-09-13.json",
+        "bytes": 10535,
+        "sha256": "a5b0a19e107e7a5cf68de6b195ca20c4951804b31dc9b8f372c42d2b944666e4"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-release-observability-reading-evidence-ui-2026-09-13.json",
+        "bytes": 8371,
+        "sha256": "5704a8799cd6a8c6237118203a344ae83a936e9be1dda6230340a2c8329e1912"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/incentive-final-review-evidence-ui-2026-09-13.json",
+        "bytes": 14451,
+        "sha256": "668f296b4f3c0d849d488acf92daaed50abef51067714d7ae350697fb3e5dc52"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/incentive-handler-preparation-reading-evidence-ui-2026-09-13.json",
+        "bytes": 3859,
+        "sha256": "25f5fce5188f95e17f02ee672115a8e1140dd02eca0e699475c5e772a2455f79"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/teaching-signal-observability-reading-evidence-ui-2026-09-13.json",
+        "bytes": 6550,
+        "sha256": "7ef483ef61fa491e5c4937c2dfbd73f32eff385a5efd430d9ce7aace6ef3a266"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/kc-local-final-reading-review-evidence-ui-2026-09-13.json",
+        "bytes": 6095,
+        "sha256": "5476c6dc1e5bc1b1b2d66839ed6a65d375d4b57d51922b5ee86d7c974680db3b"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/kc-local-shadow-runner-reading-evidence-ui-2026-09-13.json",
+        "bytes": 5452,
+        "sha256": "24affcaa97332c1f45870b7036c35c968af513443cac659c43a43dcff92ad15f"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/kc-local-state-integration-reading-evidence-ui-2026-09-13.json",
+        "bytes": 4645,
+        "sha256": "5b7a31c89c41d574ce0a346c50a460d7aa8c3b755d3b95ff1afa59949f5e302d"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/kc-lateral-evidence-ui-closeout-reading-supplement-2026-09-13.json",
+        "bytes": 75493,
+        "sha256": "f87d37b06ce97da39db56fce50be205caecddadd69aa9390ecfc36a47256aa30"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/kc-lateral-evidence-ui-reading-review-2026-09-13.json",
+        "bytes": 74203,
+        "sha256": "bd9bb0bc55f564f282acc6cd2cbbcdb662b3714daf1237c84484e5af0fbc2646"
+      }
+    ],
+    "new_or_changed_contents_fully_read": [
+      {
+        "path": "docs/REWARD_REPAIR_HANDOFF.md",
+        "bytes": 58818,
+        "sha256": "4298358f372a725b945b79e21250238e76d25d0f764e58c9031d85c1ad691a81"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-result-2026-09-13.md",
+        "bytes": 5586,
+        "sha256": "55d3e594fc0cfeb95876c4d21113bd8846853ab25621c664caf43f04d27965b7"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-result-interpretation-dopamine-sources-2026-09-13.md",
+        "bytes": 4760,
+        "sha256": "6bcf37281409a22158b447234ff719c85c2510a164cb05c45b3dfb0cb08323e2"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/dopamine-release-versus-priming-decision-2026-09-13.md",
+        "bytes": 8043,
+        "sha256": "8f51b6f9d4586b813fbcb76ec496d8c03612c96ad11f7145b9072c959d778d53"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/index.md",
+        "bytes": 24225,
+        "sha256": "e48ae092d7f3a1382bb069f6a6dbb3dc3acd41640338ea80e985b8d6e40b4b59"
+      },
+      {
+        "path": "docs/evidence/reward-repair/evidence/candidate-rule-spec-v1.1.md",
+        "bytes": 4570,
+        "sha256": "01023ac61cbb23a7a0d6445989dc00c639ce81a08aa683b66a3062f70ef23725"
+      },
+      {
+        "path": "wiki/cells/dopamine-receptor-signaling.md",
+        "bytes": 6171,
+        "sha256": "39096f54bc59ad43c7ee85e42ae60677bb2d74e3128f7bdb7f076dad5626af9e"
+      },
+      {
+        "path": "wiki/reassessment.md",
+        "bytes": 14656,
+        "sha256": "aea6daa4b3fc853a16078c3ec17959a9421a1048d3796f0361e9be15b5dba305"
+      }
+    ],
+    "exact_byte_alias_dedup": "Other newly canonical narrative copies match contents personally read in the bound earlier preparation,observability,correction and full-repository reading chain. The own observability report matches49d86b04 unchanged; original source copies are not treated as new instructions.",
+    "full_current_handoff_read": true,
+    "root_AGENTS_README": "Current exact hashes match earlier full personal reads."
+  },
+  "result_review": {
+    "run_id": "dan-causal-prefix-b3bbc7ad5a3c1040de18",
+    "v2_status": "completed once",
+    "parent_exit_code": 0,
+    "parent_reaped": true,
+    "parent_seconds": 4.067662708926946,
+    "completion_seconds": 3.963973541976884,
+    "contrasts": 64,
+    "all_first_DAN_difference_step": 1550,
+    "all_first_difference_ms": 310,
+    "all_common_KC_prefix_inclusive_step": 1550,
+    "all_complete_taught_percell_history_flags": false,
+    "first_event_saturation": "32home records[2,0]and32away[0,22], matched untaught[0,0]; verified binary/count contract implies target membership at that single step.",
+    "scope_limit": "Full-trial KC totals/grouped inputs agree but cannot extend per-cell KC equality beyond the1550prefix. Local release/receptor concentrations and a valid learning law remain unestablished.",
+    "first_attempt": "cb7eb73ca0c41bd37e4b remains failed before any contrast; wrong int32 expectation and fixture assumption explicitly retained.",
+    "personal_saved_record_check": "Read all64 contrast JSONs and compared them to status rows; checked complete/no-error/parentexit0 and matching completion/status/summary SHA fields. No original waveform or result NPZ arrays reread here.",
+    "independent_saved_array_review": {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-v2-saved-result-review-delivered-arrivals-2026-09-13.json",
+      "bytes": 96472,
+      "sha256": "c171459e94723d16af23a248aed2c51de7d5f9956e523dcafadb1589162ae5e7"
+    },
+    "terminal": [
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/parent-result.json",
+        "bytes": 829,
+        "sha256": "23637fb5f780bef6725ac6c4bcb3aa2e02bfb17a49761ec6596c113f39cb8628"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/completion.json",
+        "bytes": 312,
+        "sha256": "c18a41353a4de5018378999e6a1158f43909e28ac6b86fffad72422c9f7ee526"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/status.json",
+        "bytes": 86030,
+        "sha256": "26675960769afce7f5701dbde4826cd6eb63fbef4943df85f143d87b95b5af5a"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/summary.json",
+        "bytes": 4669,
+        "sha256": "5cefacc506514bc8822397d3ca5ff903b25868d707ca6277a086dc9175654320"
+      }
+    ]
+  },
+  "production_ui": {
+    "unchanged_from_HEAD": [
+      {
+        "path": "bet36fly/reward_evidence.py",
+        "bytes": 39260,
+        "sha256": "bb36ad4ee0dfd73bb7e01e9c67bb2ca833015828fe91b20b22a85516c1adab0e"
+      },
+      {
+        "path": "bet36fly/conditioning_evidence.py",
+        "bytes": 17721,
+        "sha256": "00203f34eb3b5a5261502fc34e952e5abbb40c41029ada8ce125b327ee738a7c"
+      },
+      {
+        "path": "bet36fly/server.py",
+        "bytes": 8619,
+        "sha256": "77babf3716d963e83a42f17087b1e9a00790480497255c19068b142369efa454"
+      },
+      {
+        "path": "web/src/RewardEvidence.tsx",
+        "bytes": 15860,
+        "sha256": "604285fe82998e7042b9025fd1367c2f45f347aa863e4e7d2978c08fb4f31898"
+      },
+      {
+        "path": "web/src/RewardExperiments.tsx",
+        "bytes": 24405,
+        "sha256": "c000db752396a9c43bcbc4f7e56fd8a0673f5498cb9136951425a4d520201e1d"
+      },
+      {
+        "path": "web/src/types.ts",
+        "bytes": 13802,
+        "sha256": "c63f2ea1a8d1914958174926b7442af86b12e82f71e6d8b23bd8a87d73768afe"
+      },
+      {
+        "path": "docs/api-contract.md",
+        "bytes": 31772,
+        "sha256": "90d18290a98574f392c58e35ce71868bf0fe195352da936c0e289c8b91f7577b"
+      }
+    ],
+    "code_review": "Current diagnostic reader scans output/diagnostics and forms qualification only from validated complete matched panels. The output-only causal-prefix study is not registered as a qualifying diagnostic or conditioning experiment.",
+    "training_accuracy": "Mechanism section still requires both original/second panels, separates stored and validated verdicts, and shows blocked conditioning from the failed pair. Conditioning execution completion remains separate from recomputed scientific pass. Historical sports are separate.",
+    "reference_accuracy": "Cue-window reference label remains conditional on recorded timing; legacy tonic_dan_hz wire name and historical records persist. Evoked counts remain described against unpulsed same-cue/seed probes.",
+    "scientific_status": "Production pairb16d9b39d7fd3057 still fails second untaught-home; actualconditioning remains not_run_gate_failed. No candidate or learning pass claimed.",
+    "browser": "No browser/server rerun or new visual acceptance claimed. Prior accepted frontend behavior remains unchanged."
+  },
+  "verification_review": {
+    "saved_make_verify": {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-make-verify-2026-09-13.txt",
+      "bytes": 6297,
+      "sha256": "8c56981d6b16d941c76b43f095a8bf7fe1e0dd97c2ab37625e57860930c32639"
+    },
+    "reported_gate": "4055Python/103frontend/Ruff/build,2existingwarnings; saved log inspected, not rerun.",
+    "writer_synthetic_log": {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-driver-v2-tests-final-2026-09-13.txt",
+      "bytes": 340,
+      "sha256": "03a95fdf008996c0ee0923da7dcf12cfe53ab9306913207e0268031ab0f1b996"
+    },
+    "reported_synthetic": "223 passed; actual execution and tests remain separate proof tiers.",
+    "root_closeout": "Canonical223/copy/link/protection checks and local commit belong to root; this receipt does not preempt their completion."
+  },
+  "this_closeout_execution": {
+    "driver_runs": 0,
+    "native_runs": 0,
+    "candidate_runs": 0,
+    "fits": 0,
+    "tests": 0,
+    "network_calls": 0,
+    "browser_or_server_launches": 0,
+    "canonical_or_production_edits": 0,
+    "writes": "This single distinct output JSON receipt only."
+  },
+  "next_scope": "A bounded pinned source-core transfer decision is documented; no new release/receptor law or parameter is selected by the causal-prefix result. Fullrepairgoal remains active."
+}

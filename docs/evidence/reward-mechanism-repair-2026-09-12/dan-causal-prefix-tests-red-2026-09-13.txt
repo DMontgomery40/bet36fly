@@ -1,0 +1,4746 @@
+FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF [ 90%]
+FFFFFFFF                                                                 [100%]
+=================================== FAILURES ===================================
+_________ test_every_representable_population_count_decodes_exactly[1] _________
+
+n = 1
+
+    @pytest.mark.parametrize('n', [1, 2, 3, 7, 22, 31, 127])
+    def test_every_representable_population_count_decodes_exactly(n):
+        means = np.array([[f32_fraction(k, n)] for k in range(n + 1)], np.float32)
+        expected = np.array([[k] for k in range(n + 1)], np.int64)
+>       np.testing.assert_array_equal(m.decode_pool(means, [n]), expected)
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:23: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+means = array([[0.],
+       [1.]], dtype=float32), populations = [1]
+
+    def decode_pool(means, populations):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:4: NotImplementedError
+_________ test_every_representable_population_count_decodes_exactly[2] _________
+
+n = 2
+
+    @pytest.mark.parametrize('n', [1, 2, 3, 7, 22, 31, 127])
+    def test_every_representable_population_count_decodes_exactly(n):
+        means = np.array([[f32_fraction(k, n)] for k in range(n + 1)], np.float32)
+        expected = np.array([[k] for k in range(n + 1)], np.int64)
+>       np.testing.assert_array_equal(m.decode_pool(means, [n]), expected)
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:23: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+means = array([[0. ],
+       [0.5],
+       [1. ]], dtype=float32)
+populations = [2]
+
+    def decode_pool(means, populations):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:4: NotImplementedError
+_________ test_every_representable_population_count_decodes_exactly[3] _________
+
+n = 3
+
+    @pytest.mark.parametrize('n', [1, 2, 3, 7, 22, 31, 127])
+    def test_every_representable_population_count_decodes_exactly(n):
+        means = np.array([[f32_fraction(k, n)] for k in range(n + 1)], np.float32)
+        expected = np.array([[k] for k in range(n + 1)], np.int64)
+>       np.testing.assert_array_equal(m.decode_pool(means, [n]), expected)
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:23: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+means = array([[0.        ],
+       [0.33333334],
+       [0.6666667 ],
+       [1.        ]], dtype=float32)
+populations = [3]
+
+    def decode_pool(means, populations):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:4: NotImplementedError
+_________ test_every_representable_population_count_decodes_exactly[7] _________
+
+n = 7
+
+    @pytest.mark.parametrize('n', [1, 2, 3, 7, 22, 31, 127])
+    def test_every_representable_population_count_decodes_exactly(n):
+        means = np.array([[f32_fraction(k, n)] for k in range(n + 1)], np.float32)
+        expected = np.array([[k] for k in range(n + 1)], np.int64)
+>       np.testing.assert_array_equal(m.decode_pool(means, [n]), expected)
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:23: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+means = array([[0.        ],
+       [0.14285715],
+       [0.2857143 ],
+       [0.42857143],
+       [0.5714286 ],
+       [0.71428573],
+       [0.85714287],
+       [1.        ]], dtype=float32)
+populations = [7]
+
+    def decode_pool(means, populations):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:4: NotImplementedError
+________ test_every_representable_population_count_decodes_exactly[22] _________
+
+n = 22
+
+    @pytest.mark.parametrize('n', [1, 2, 3, 7, 22, 31, 127])
+    def test_every_representable_population_count_decodes_exactly(n):
+        means = np.array([[f32_fraction(k, n)] for k in range(n + 1)], np.float32)
+        expected = np.array([[k] for k in range(n + 1)], np.int64)
+>       np.testing.assert_array_equal(m.decode_pool(means, [n]), expected)
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:23: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+means = array([[0.        ],
+       [0.04545455],
+       [0.09090909],
+       [0.13636364],
+       [0.18181819],
+       [0.227...      [0.8181818 ],
+       [0.8636364 ],
+       [0.90909094],
+       [0.95454544],
+       [1.        ]], dtype=float32)
+populations = [22]
+
+    def decode_pool(means, populations):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:4: NotImplementedError
+________ test_every_representable_population_count_decodes_exactly[31] _________
+
+n = 31
+
+    @pytest.mark.parametrize('n', [1, 2, 3, 7, 22, 31, 127])
+    def test_every_representable_population_count_decodes_exactly(n):
+        means = np.array([[f32_fraction(k, n)] for k in range(n + 1)], np.float32)
+        expected = np.array([[k] for k in range(n + 1)], np.int64)
+>       np.testing.assert_array_equal(m.decode_pool(means, [n]), expected)
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:23: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+means = array([[0.        ],
+       [0.03225806],
+       [0.06451613],
+       [0.09677419],
+       [0.12903225],
+       [0.161...      [0.87096775],
+       [0.9032258 ],
+       [0.9354839 ],
+       [0.9677419 ],
+       [1.        ]], dtype=float32)
+populations = [31]
+
+    def decode_pool(means, populations):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:4: NotImplementedError
+________ test_every_representable_population_count_decodes_exactly[127] ________
+
+n = 127
+
+    @pytest.mark.parametrize('n', [1, 2, 3, 7, 22, 31, 127])
+    def test_every_representable_population_count_decodes_exactly(n):
+        means = np.array([[f32_fraction(k, n)] for k in range(n + 1)], np.float32)
+        expected = np.array([[k] for k in range(n + 1)], np.int64)
+>       np.testing.assert_array_equal(m.decode_pool(means, [n]), expected)
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:23: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+means = array([[0.        ],
+       [0.00787402],
+       [0.01574803],
+       [0.02362205],
+       [0.03149606],
+       [0.039...      [0.96850395],
+       [0.97637796],
+       [0.984252  ],
+       [0.992126  ],
+       [1.        ]], dtype=float32)
+populations = [127]
+
+    def decode_pool(means, populations):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:4: NotImplementedError
+______ test_one_ulp_corruption_is_not_rounded_to_an_event_count[-inf-2-0] ______
+
+n = 2, k = 0, direction = -inf
+
+    @pytest.mark.parametrize('n,k', [(2, 0), (2, 1), (2, 2), (22, 0), (22, 1), (22, 11), (22, 22)])
+    @pytest.mark.parametrize('direction', [-np.inf, np.inf])
+    def test_one_ulp_corruption_is_not_rounded_to_an_event_count(n, k, direction):
+        a = np.array([[f32_fraction(k, n)]], np.float32)
+        a[0, 0] = np.nextafter(a[0, 0], np.float32(direction))
+        with pytest.raises(ValueError):
+>           m.decode_pool(a, [n])
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:32: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+means = array([[-1.e-45]], dtype=float32), populations = [2]
+
+    def decode_pool(means, populations):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:4: NotImplementedError
+______ test_one_ulp_corruption_is_not_rounded_to_an_event_count[-inf-2-1] ______
+
+n = 2, k = 1, direction = -inf
+
+    @pytest.mark.parametrize('n,k', [(2, 0), (2, 1), (2, 2), (22, 0), (22, 1), (22, 11), (22, 22)])
+    @pytest.mark.parametrize('direction', [-np.inf, np.inf])
+    def test_one_ulp_corruption_is_not_rounded_to_an_event_count(n, k, direction):
+        a = np.array([[f32_fraction(k, n)]], np.float32)
+        a[0, 0] = np.nextafter(a[0, 0], np.float32(direction))
+        with pytest.raises(ValueError):
+>           m.decode_pool(a, [n])
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:32: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+means = array([[0.49999997]], dtype=float32), populations = [2]
+
+    def decode_pool(means, populations):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:4: NotImplementedError
+______ test_one_ulp_corruption_is_not_rounded_to_an_event_count[-inf-2-2] ______
+
+n = 2, k = 2, direction = -inf
+
+    @pytest.mark.parametrize('n,k', [(2, 0), (2, 1), (2, 2), (22, 0), (22, 1), (22, 11), (22, 22)])
+    @pytest.mark.parametrize('direction', [-np.inf, np.inf])
+    def test_one_ulp_corruption_is_not_rounded_to_an_event_count(n, k, direction):
+        a = np.array([[f32_fraction(k, n)]], np.float32)
+        a[0, 0] = np.nextafter(a[0, 0], np.float32(direction))
+        with pytest.raises(ValueError):
+>           m.decode_pool(a, [n])
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:32: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+means = array([[0.99999994]], dtype=float32), populations = [2]
+
+    def decode_pool(means, populations):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:4: NotImplementedError
+_____ test_one_ulp_corruption_is_not_rounded_to_an_event_count[-inf-22-0] ______
+
+n = 22, k = 0, direction = -inf
+
+    @pytest.mark.parametrize('n,k', [(2, 0), (2, 1), (2, 2), (22, 0), (22, 1), (22, 11), (22, 22)])
+    @pytest.mark.parametrize('direction', [-np.inf, np.inf])
+    def test_one_ulp_corruption_is_not_rounded_to_an_event_count(n, k, direction):
+        a = np.array([[f32_fraction(k, n)]], np.float32)
+        a[0, 0] = np.nextafter(a[0, 0], np.float32(direction))
+        with pytest.raises(ValueError):
+>           m.decode_pool(a, [n])
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:32: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+means = array([[-1.e-45]], dtype=float32), populations = [22]
+
+    def decode_pool(means, populations):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:4: NotImplementedError
+_____ test_one_ulp_corruption_is_not_rounded_to_an_event_count[-inf-22-1] ______
+
+n = 22, k = 1, direction = -inf
+
+    @pytest.mark.parametrize('n,k', [(2, 0), (2, 1), (2, 2), (22, 0), (22, 1), (22, 11), (22, 22)])
+    @pytest.mark.parametrize('direction', [-np.inf, np.inf])
+    def test_one_ulp_corruption_is_not_rounded_to_an_event_count(n, k, direction):
+        a = np.array([[f32_fraction(k, n)]], np.float32)
+        a[0, 0] = np.nextafter(a[0, 0], np.float32(direction))
+        with pytest.raises(ValueError):
+>           m.decode_pool(a, [n])
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:32: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+means = array([[0.04545454]], dtype=float32), populations = [22]
+
+    def decode_pool(means, populations):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:4: NotImplementedError
+_____ test_one_ulp_corruption_is_not_rounded_to_an_event_count[-inf-22-11] _____
+
+n = 22, k = 11, direction = -inf
+
+    @pytest.mark.parametrize('n,k', [(2, 0), (2, 1), (2, 2), (22, 0), (22, 1), (22, 11), (22, 22)])
+    @pytest.mark.parametrize('direction', [-np.inf, np.inf])
+    def test_one_ulp_corruption_is_not_rounded_to_an_event_count(n, k, direction):
+        a = np.array([[f32_fraction(k, n)]], np.float32)
+        a[0, 0] = np.nextafter(a[0, 0], np.float32(direction))
+        with pytest.raises(ValueError):
+>           m.decode_pool(a, [n])
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:32: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+means = array([[0.49999997]], dtype=float32), populations = [22]
+
+    def decode_pool(means, populations):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:4: NotImplementedError
+_____ test_one_ulp_corruption_is_not_rounded_to_an_event_count[-inf-22-22] _____
+
+n = 22, k = 22, direction = -inf
+
+    @pytest.mark.parametrize('n,k', [(2, 0), (2, 1), (2, 2), (22, 0), (22, 1), (22, 11), (22, 22)])
+    @pytest.mark.parametrize('direction', [-np.inf, np.inf])
+    def test_one_ulp_corruption_is_not_rounded_to_an_event_count(n, k, direction):
+        a = np.array([[f32_fraction(k, n)]], np.float32)
+        a[0, 0] = np.nextafter(a[0, 0], np.float32(direction))
+        with pytest.raises(ValueError):
+>           m.decode_pool(a, [n])
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:32: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+means = array([[0.99999994]], dtype=float32), populations = [22]
+
+    def decode_pool(means, populations):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:4: NotImplementedError
+______ test_one_ulp_corruption_is_not_rounded_to_an_event_count[inf-2-0] _______
+
+n = 2, k = 0, direction = inf
+
+    @pytest.mark.parametrize('n,k', [(2, 0), (2, 1), (2, 2), (22, 0), (22, 1), (22, 11), (22, 22)])
+    @pytest.mark.parametrize('direction', [-np.inf, np.inf])
+    def test_one_ulp_corruption_is_not_rounded_to_an_event_count(n, k, direction):
+        a = np.array([[f32_fraction(k, n)]], np.float32)
+        a[0, 0] = np.nextafter(a[0, 0], np.float32(direction))
+        with pytest.raises(ValueError):
+>           m.decode_pool(a, [n])
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:32: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+means = array([[1.e-45]], dtype=float32), populations = [2]
+
+    def decode_pool(means, populations):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:4: NotImplementedError
+______ test_one_ulp_corruption_is_not_rounded_to_an_event_count[inf-2-1] _______
+
+n = 2, k = 1, direction = inf
+
+    @pytest.mark.parametrize('n,k', [(2, 0), (2, 1), (2, 2), (22, 0), (22, 1), (22, 11), (22, 22)])
+    @pytest.mark.parametrize('direction', [-np.inf, np.inf])
+    def test_one_ulp_corruption_is_not_rounded_to_an_event_count(n, k, direction):
+        a = np.array([[f32_fraction(k, n)]], np.float32)
+        a[0, 0] = np.nextafter(a[0, 0], np.float32(direction))
+        with pytest.raises(ValueError):
+>           m.decode_pool(a, [n])
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:32: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+means = array([[0.50000006]], dtype=float32), populations = [2]
+
+    def decode_pool(means, populations):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:4: NotImplementedError
+______ test_one_ulp_corruption_is_not_rounded_to_an_event_count[inf-2-2] _______
+
+n = 2, k = 2, direction = inf
+
+    @pytest.mark.parametrize('n,k', [(2, 0), (2, 1), (2, 2), (22, 0), (22, 1), (22, 11), (22, 22)])
+    @pytest.mark.parametrize('direction', [-np.inf, np.inf])
+    def test_one_ulp_corruption_is_not_rounded_to_an_event_count(n, k, direction):
+        a = np.array([[f32_fraction(k, n)]], np.float32)
+        a[0, 0] = np.nextafter(a[0, 0], np.float32(direction))
+        with pytest.raises(ValueError):
+>           m.decode_pool(a, [n])
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:32: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+means = array([[1.0000001]], dtype=float32), populations = [2]
+
+    def decode_pool(means, populations):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:4: NotImplementedError
+______ test_one_ulp_corruption_is_not_rounded_to_an_event_count[inf-22-0] ______
+
+n = 22, k = 0, direction = inf
+
+    @pytest.mark.parametrize('n,k', [(2, 0), (2, 1), (2, 2), (22, 0), (22, 1), (22, 11), (22, 22)])
+    @pytest.mark.parametrize('direction', [-np.inf, np.inf])
+    def test_one_ulp_corruption_is_not_rounded_to_an_event_count(n, k, direction):
+        a = np.array([[f32_fraction(k, n)]], np.float32)
+        a[0, 0] = np.nextafter(a[0, 0], np.float32(direction))
+        with pytest.raises(ValueError):
+>           m.decode_pool(a, [n])
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:32: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+means = array([[1.e-45]], dtype=float32), populations = [22]
+
+    def decode_pool(means, populations):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:4: NotImplementedError
+______ test_one_ulp_corruption_is_not_rounded_to_an_event_count[inf-22-1] ______
+
+n = 22, k = 1, direction = inf
+
+    @pytest.mark.parametrize('n,k', [(2, 0), (2, 1), (2, 2), (22, 0), (22, 1), (22, 11), (22, 22)])
+    @pytest.mark.parametrize('direction', [-np.inf, np.inf])
+    def test_one_ulp_corruption_is_not_rounded_to_an_event_count(n, k, direction):
+        a = np.array([[f32_fraction(k, n)]], np.float32)
+        a[0, 0] = np.nextafter(a[0, 0], np.float32(direction))
+        with pytest.raises(ValueError):
+>           m.decode_pool(a, [n])
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:32: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+means = array([[0.04545455]], dtype=float32), populations = [22]
+
+    def decode_pool(means, populations):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:4: NotImplementedError
+_____ test_one_ulp_corruption_is_not_rounded_to_an_event_count[inf-22-11] ______
+
+n = 22, k = 11, direction = inf
+
+    @pytest.mark.parametrize('n,k', [(2, 0), (2, 1), (2, 2), (22, 0), (22, 1), (22, 11), (22, 22)])
+    @pytest.mark.parametrize('direction', [-np.inf, np.inf])
+    def test_one_ulp_corruption_is_not_rounded_to_an_event_count(n, k, direction):
+        a = np.array([[f32_fraction(k, n)]], np.float32)
+        a[0, 0] = np.nextafter(a[0, 0], np.float32(direction))
+        with pytest.raises(ValueError):
+>           m.decode_pool(a, [n])
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:32: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+means = array([[0.50000006]], dtype=float32), populations = [22]
+
+    def decode_pool(means, populations):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:4: NotImplementedError
+_____ test_one_ulp_corruption_is_not_rounded_to_an_event_count[inf-22-22] ______
+
+n = 22, k = 22, direction = inf
+
+    @pytest.mark.parametrize('n,k', [(2, 0), (2, 1), (2, 2), (22, 0), (22, 1), (22, 11), (22, 22)])
+    @pytest.mark.parametrize('direction', [-np.inf, np.inf])
+    def test_one_ulp_corruption_is_not_rounded_to_an_event_count(n, k, direction):
+        a = np.array([[f32_fraction(k, n)]], np.float32)
+        a[0, 0] = np.nextafter(a[0, 0], np.float32(direction))
+        with pytest.raises(ValueError):
+>           m.decode_pool(a, [n])
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:32: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+means = array([[1.0000001]], dtype=float32), populations = [22]
+
+    def decode_pool(means, populations):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:4: NotImplementedError
+________ test_malformed_count_or_population_family_fails_closed[a0-p0] _________
+
+a = array([[0., 0.],
+       [0., 0.],
+       [0., 0.]]), p = [2, 22]
+
+    @pytest.mark.parametrize('a,p', [
+        (np.zeros((3, 2)), [2, 22]),
+        (np.zeros((0, 2), np.float32), [2, 22]),
+        (np.zeros(2, np.float32), [2, 22]),
+        (np.zeros((3, 2), np.float32), [2]),
+        (np.zeros((3, 2), np.float32), [0, 22]),
+        (np.zeros((3, 2), np.float32), [True, 22]),
+        (np.zeros((3, 2), np.float32), [2.0, 22]),
+        (np.zeros((3, 2), np.float32), [2, 65536]),
+        (np.array([[np.nan]], np.float32), [2]),
+        (np.array([[np.inf]], np.float32), [2]),
+        (np.array([[-0.0]], np.float32), [2]),
+        (np.array([[-0.5]], np.float32), [2]),
+        (np.array([[1.5]], np.float32), [2]),
+    ])
+    def test_malformed_count_or_population_family_fails_closed(a, p):
+        with pytest.raises(ValueError):
+>           m.decode_pool(a, p)
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:52: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+means = array([[0., 0.],
+       [0., 0.],
+       [0., 0.]])
+populations = [2, 22]
+
+    def decode_pool(means, populations):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:4: NotImplementedError
+________ test_malformed_count_or_population_family_fails_closed[a1-p1] _________
+
+a = array([], shape=(0, 2), dtype=float32), p = [2, 22]
+
+    @pytest.mark.parametrize('a,p', [
+        (np.zeros((3, 2)), [2, 22]),
+        (np.zeros((0, 2), np.float32), [2, 22]),
+        (np.zeros(2, np.float32), [2, 22]),
+        (np.zeros((3, 2), np.float32), [2]),
+        (np.zeros((3, 2), np.float32), [0, 22]),
+        (np.zeros((3, 2), np.float32), [True, 22]),
+        (np.zeros((3, 2), np.float32), [2.0, 22]),
+        (np.zeros((3, 2), np.float32), [2, 65536]),
+        (np.array([[np.nan]], np.float32), [2]),
+        (np.array([[np.inf]], np.float32), [2]),
+        (np.array([[-0.0]], np.float32), [2]),
+        (np.array([[-0.5]], np.float32), [2]),
+        (np.array([[1.5]], np.float32), [2]),
+    ])
+    def test_malformed_count_or_population_family_fails_closed(a, p):
+        with pytest.raises(ValueError):
+>           m.decode_pool(a, p)
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:52: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+means = array([], shape=(0, 2), dtype=float32), populations = [2, 22]
+
+    def decode_pool(means, populations):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:4: NotImplementedError
+________ test_malformed_count_or_population_family_fails_closed[a2-p2] _________
+
+a = array([0., 0.], dtype=float32), p = [2, 22]
+
+    @pytest.mark.parametrize('a,p', [
+        (np.zeros((3, 2)), [2, 22]),
+        (np.zeros((0, 2), np.float32), [2, 22]),
+        (np.zeros(2, np.float32), [2, 22]),
+        (np.zeros((3, 2), np.float32), [2]),
+        (np.zeros((3, 2), np.float32), [0, 22]),
+        (np.zeros((3, 2), np.float32), [True, 22]),
+        (np.zeros((3, 2), np.float32), [2.0, 22]),
+        (np.zeros((3, 2), np.float32), [2, 65536]),
+        (np.array([[np.nan]], np.float32), [2]),
+        (np.array([[np.inf]], np.float32), [2]),
+        (np.array([[-0.0]], np.float32), [2]),
+        (np.array([[-0.5]], np.float32), [2]),
+        (np.array([[1.5]], np.float32), [2]),
+    ])
+    def test_malformed_count_or_population_family_fails_closed(a, p):
+        with pytest.raises(ValueError):
+>           m.decode_pool(a, p)
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:52: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+means = array([0., 0.], dtype=float32), populations = [2, 22]
+
+    def decode_pool(means, populations):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:4: NotImplementedError
+________ test_malformed_count_or_population_family_fails_closed[a3-p3] _________
+
+a = array([[0., 0.],
+       [0., 0.],
+       [0., 0.]], dtype=float32), p = [2]
+
+    @pytest.mark.parametrize('a,p', [
+        (np.zeros((3, 2)), [2, 22]),
+        (np.zeros((0, 2), np.float32), [2, 22]),
+        (np.zeros(2, np.float32), [2, 22]),
+        (np.zeros((3, 2), np.float32), [2]),
+        (np.zeros((3, 2), np.float32), [0, 22]),
+        (np.zeros((3, 2), np.float32), [True, 22]),
+        (np.zeros((3, 2), np.float32), [2.0, 22]),
+        (np.zeros((3, 2), np.float32), [2, 65536]),
+        (np.array([[np.nan]], np.float32), [2]),
+        (np.array([[np.inf]], np.float32), [2]),
+        (np.array([[-0.0]], np.float32), [2]),
+        (np.array([[-0.5]], np.float32), [2]),
+        (np.array([[1.5]], np.float32), [2]),
+    ])
+    def test_malformed_count_or_population_family_fails_closed(a, p):
+        with pytest.raises(ValueError):
+>           m.decode_pool(a, p)
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:52: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+means = array([[0., 0.],
+       [0., 0.],
+       [0., 0.]], dtype=float32)
+populations = [2]
+
+    def decode_pool(means, populations):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:4: NotImplementedError
+________ test_malformed_count_or_population_family_fails_closed[a4-p4] _________
+
+a = array([[0., 0.],
+       [0., 0.],
+       [0., 0.]], dtype=float32)
+p = [0, 22]
+
+    @pytest.mark.parametrize('a,p', [
+        (np.zeros((3, 2)), [2, 22]),
+        (np.zeros((0, 2), np.float32), [2, 22]),
+        (np.zeros(2, np.float32), [2, 22]),
+        (np.zeros((3, 2), np.float32), [2]),
+        (np.zeros((3, 2), np.float32), [0, 22]),
+        (np.zeros((3, 2), np.float32), [True, 22]),
+        (np.zeros((3, 2), np.float32), [2.0, 22]),
+        (np.zeros((3, 2), np.float32), [2, 65536]),
+        (np.array([[np.nan]], np.float32), [2]),
+        (np.array([[np.inf]], np.float32), [2]),
+        (np.array([[-0.0]], np.float32), [2]),
+        (np.array([[-0.5]], np.float32), [2]),
+        (np.array([[1.5]], np.float32), [2]),
+    ])
+    def test_malformed_count_or_population_family_fails_closed(a, p):
+        with pytest.raises(ValueError):
+>           m.decode_pool(a, p)
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:52: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+means = array([[0., 0.],
+       [0., 0.],
+       [0., 0.]], dtype=float32)
+populations = [0, 22]
+
+    def decode_pool(means, populations):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:4: NotImplementedError
+________ test_malformed_count_or_population_family_fails_closed[a5-p5] _________
+
+a = array([[0., 0.],
+       [0., 0.],
+       [0., 0.]], dtype=float32)
+p = [True, 22]
+
+    @pytest.mark.parametrize('a,p', [
+        (np.zeros((3, 2)), [2, 22]),
+        (np.zeros((0, 2), np.float32), [2, 22]),
+        (np.zeros(2, np.float32), [2, 22]),
+        (np.zeros((3, 2), np.float32), [2]),
+        (np.zeros((3, 2), np.float32), [0, 22]),
+        (np.zeros((3, 2), np.float32), [True, 22]),
+        (np.zeros((3, 2), np.float32), [2.0, 22]),
+        (np.zeros((3, 2), np.float32), [2, 65536]),
+        (np.array([[np.nan]], np.float32), [2]),
+        (np.array([[np.inf]], np.float32), [2]),
+        (np.array([[-0.0]], np.float32), [2]),
+        (np.array([[-0.5]], np.float32), [2]),
+        (np.array([[1.5]], np.float32), [2]),
+    ])
+    def test_malformed_count_or_population_family_fails_closed(a, p):
+        with pytest.raises(ValueError):
+>           m.decode_pool(a, p)
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:52: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+means = array([[0., 0.],
+       [0., 0.],
+       [0., 0.]], dtype=float32)
+populations = [True, 22]
+
+    def decode_pool(means, populations):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:4: NotImplementedError
+________ test_malformed_count_or_population_family_fails_closed[a6-p6] _________
+
+a = array([[0., 0.],
+       [0., 0.],
+       [0., 0.]], dtype=float32)
+p = [2.0, 22]
+
+    @pytest.mark.parametrize('a,p', [
+        (np.zeros((3, 2)), [2, 22]),
+        (np.zeros((0, 2), np.float32), [2, 22]),
+        (np.zeros(2, np.float32), [2, 22]),
+        (np.zeros((3, 2), np.float32), [2]),
+        (np.zeros((3, 2), np.float32), [0, 22]),
+        (np.zeros((3, 2), np.float32), [True, 22]),
+        (np.zeros((3, 2), np.float32), [2.0, 22]),
+        (np.zeros((3, 2), np.float32), [2, 65536]),
+        (np.array([[np.nan]], np.float32), [2]),
+        (np.array([[np.inf]], np.float32), [2]),
+        (np.array([[-0.0]], np.float32), [2]),
+        (np.array([[-0.5]], np.float32), [2]),
+        (np.array([[1.5]], np.float32), [2]),
+    ])
+    def test_malformed_count_or_population_family_fails_closed(a, p):
+        with pytest.raises(ValueError):
+>           m.decode_pool(a, p)
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:52: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+means = array([[0., 0.],
+       [0., 0.],
+       [0., 0.]], dtype=float32)
+populations = [2.0, 22]
+
+    def decode_pool(means, populations):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:4: NotImplementedError
+________ test_malformed_count_or_population_family_fails_closed[a7-p7] _________
+
+a = array([[0., 0.],
+       [0., 0.],
+       [0., 0.]], dtype=float32)
+p = [2, 65536]
+
+    @pytest.mark.parametrize('a,p', [
+        (np.zeros((3, 2)), [2, 22]),
+        (np.zeros((0, 2), np.float32), [2, 22]),
+        (np.zeros(2, np.float32), [2, 22]),
+        (np.zeros((3, 2), np.float32), [2]),
+        (np.zeros((3, 2), np.float32), [0, 22]),
+        (np.zeros((3, 2), np.float32), [True, 22]),
+        (np.zeros((3, 2), np.float32), [2.0, 22]),
+        (np.zeros((3, 2), np.float32), [2, 65536]),
+        (np.array([[np.nan]], np.float32), [2]),
+        (np.array([[np.inf]], np.float32), [2]),
+        (np.array([[-0.0]], np.float32), [2]),
+        (np.array([[-0.5]], np.float32), [2]),
+        (np.array([[1.5]], np.float32), [2]),
+    ])
+    def test_malformed_count_or_population_family_fails_closed(a, p):
+        with pytest.raises(ValueError):
+>           m.decode_pool(a, p)
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:52: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+means = array([[0., 0.],
+       [0., 0.],
+       [0., 0.]], dtype=float32)
+populations = [2, 65536]
+
+    def decode_pool(means, populations):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:4: NotImplementedError
+________ test_malformed_count_or_population_family_fails_closed[a8-p8] _________
+
+a = array([[nan]], dtype=float32), p = [2]
+
+    @pytest.mark.parametrize('a,p', [
+        (np.zeros((3, 2)), [2, 22]),
+        (np.zeros((0, 2), np.float32), [2, 22]),
+        (np.zeros(2, np.float32), [2, 22]),
+        (np.zeros((3, 2), np.float32), [2]),
+        (np.zeros((3, 2), np.float32), [0, 22]),
+        (np.zeros((3, 2), np.float32), [True, 22]),
+        (np.zeros((3, 2), np.float32), [2.0, 22]),
+        (np.zeros((3, 2), np.float32), [2, 65536]),
+        (np.array([[np.nan]], np.float32), [2]),
+        (np.array([[np.inf]], np.float32), [2]),
+        (np.array([[-0.0]], np.float32), [2]),
+        (np.array([[-0.5]], np.float32), [2]),
+        (np.array([[1.5]], np.float32), [2]),
+    ])
+    def test_malformed_count_or_population_family_fails_closed(a, p):
+        with pytest.raises(ValueError):
+>           m.decode_pool(a, p)
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:52: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+means = array([[nan]], dtype=float32), populations = [2]
+
+    def decode_pool(means, populations):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:4: NotImplementedError
+________ test_malformed_count_or_population_family_fails_closed[a9-p9] _________
+
+a = array([[inf]], dtype=float32), p = [2]
+
+    @pytest.mark.parametrize('a,p', [
+        (np.zeros((3, 2)), [2, 22]),
+        (np.zeros((0, 2), np.float32), [2, 22]),
+        (np.zeros(2, np.float32), [2, 22]),
+        (np.zeros((3, 2), np.float32), [2]),
+        (np.zeros((3, 2), np.float32), [0, 22]),
+        (np.zeros((3, 2), np.float32), [True, 22]),
+        (np.zeros((3, 2), np.float32), [2.0, 22]),
+        (np.zeros((3, 2), np.float32), [2, 65536]),
+        (np.array([[np.nan]], np.float32), [2]),
+        (np.array([[np.inf]], np.float32), [2]),
+        (np.array([[-0.0]], np.float32), [2]),
+        (np.array([[-0.5]], np.float32), [2]),
+        (np.array([[1.5]], np.float32), [2]),
+    ])
+    def test_malformed_count_or_population_family_fails_closed(a, p):
+        with pytest.raises(ValueError):
+>           m.decode_pool(a, p)
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:52: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+means = array([[inf]], dtype=float32), populations = [2]
+
+    def decode_pool(means, populations):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:4: NotImplementedError
+_______ test_malformed_count_or_population_family_fails_closed[a10-p10] ________
+
+a = array([[-0.]], dtype=float32), p = [2]
+
+    @pytest.mark.parametrize('a,p', [
+        (np.zeros((3, 2)), [2, 22]),
+        (np.zeros((0, 2), np.float32), [2, 22]),
+        (np.zeros(2, np.float32), [2, 22]),
+        (np.zeros((3, 2), np.float32), [2]),
+        (np.zeros((3, 2), np.float32), [0, 22]),
+        (np.zeros((3, 2), np.float32), [True, 22]),
+        (np.zeros((3, 2), np.float32), [2.0, 22]),
+        (np.zeros((3, 2), np.float32), [2, 65536]),
+        (np.array([[np.nan]], np.float32), [2]),
+        (np.array([[np.inf]], np.float32), [2]),
+        (np.array([[-0.0]], np.float32), [2]),
+        (np.array([[-0.5]], np.float32), [2]),
+        (np.array([[1.5]], np.float32), [2]),
+    ])
+    def test_malformed_count_or_population_family_fails_closed(a, p):
+        with pytest.raises(ValueError):
+>           m.decode_pool(a, p)
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:52: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+means = array([[-0.]], dtype=float32), populations = [2]
+
+    def decode_pool(means, populations):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:4: NotImplementedError
+_______ test_malformed_count_or_population_family_fails_closed[a11-p11] ________
+
+a = array([[-0.5]], dtype=float32), p = [2]
+
+    @pytest.mark.parametrize('a,p', [
+        (np.zeros((3, 2)), [2, 22]),
+        (np.zeros((0, 2), np.float32), [2, 22]),
+        (np.zeros(2, np.float32), [2, 22]),
+        (np.zeros((3, 2), np.float32), [2]),
+        (np.zeros((3, 2), np.float32), [0, 22]),
+        (np.zeros((3, 2), np.float32), [True, 22]),
+        (np.zeros((3, 2), np.float32), [2.0, 22]),
+        (np.zeros((3, 2), np.float32), [2, 65536]),
+        (np.array([[np.nan]], np.float32), [2]),
+        (np.array([[np.inf]], np.float32), [2]),
+        (np.array([[-0.0]], np.float32), [2]),
+        (np.array([[-0.5]], np.float32), [2]),
+        (np.array([[1.5]], np.float32), [2]),
+    ])
+    def test_malformed_count_or_population_family_fails_closed(a, p):
+        with pytest.raises(ValueError):
+>           m.decode_pool(a, p)
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:52: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+means = array([[-0.5]], dtype=float32), populations = [2]
+
+    def decode_pool(means, populations):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:4: NotImplementedError
+_______ test_malformed_count_or_population_family_fails_closed[a12-p12] ________
+
+a = array([[1.5]], dtype=float32), p = [2]
+
+    @pytest.mark.parametrize('a,p', [
+        (np.zeros((3, 2)), [2, 22]),
+        (np.zeros((0, 2), np.float32), [2, 22]),
+        (np.zeros(2, np.float32), [2, 22]),
+        (np.zeros((3, 2), np.float32), [2]),
+        (np.zeros((3, 2), np.float32), [0, 22]),
+        (np.zeros((3, 2), np.float32), [True, 22]),
+        (np.zeros((3, 2), np.float32), [2.0, 22]),
+        (np.zeros((3, 2), np.float32), [2, 65536]),
+        (np.array([[np.nan]], np.float32), [2]),
+        (np.array([[np.inf]], np.float32), [2]),
+        (np.array([[-0.0]], np.float32), [2]),
+        (np.array([[-0.5]], np.float32), [2]),
+        (np.array([[1.5]], np.float32), [2]),
+    ])
+    def test_malformed_count_or_population_family_fails_closed(a, p):
+        with pytest.raises(ValueError):
+>           m.decode_pool(a, p)
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:52: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+means = array([[1.5]], dtype=float32), populations = [2]
+
+    def decode_pool(means, populations):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:4: NotImplementedError
+_ test_first_actual_difference_in_either_channel_is_inclusive_kc_boundary[0-4] _
+
+j = 4, channel = 0
+
+    @pytest.mark.parametrize('j', [4, 5, 8, 11])
+    @pytest.mark.parametrize('channel', [0, 1])
+    def test_first_actual_difference_in_either_channel_is_inclusive_kc_boundary(j, channel):
+        kw = arguments()
+        kw['taught'][j, channel] = f32_fraction(1, [2, 22][channel])
+        kw['rule_taught'][j:] += 1
+        kw['kc_total_taught'][j + 1:] += 1
+        kw['kc_used_taught'][j + 1:] += 1
+        before = {k: v.copy() for k, v in kw.items() if isinstance(v, np.ndarray)}
+>       out = m.prefix_contrast(**kw)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:72: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+untaught = array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], dtype=float32)
+taught = array([[0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0.5, 0. ],
+       [0. , 0. ],
+    ... , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ]], dtype=float32)
+populations = [2, 22], first_pulse_step = 4
+kc_total_untaught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10., 11.],
+      dtype=float32)
+kc_total_taught = array([ 0.,  1.,  2.,  3.,  4.,  6.,  7.,  8.,  9., 10., 11., 12.],
+      dtype=float32)
+kc_used_untaught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]]])
+kc_used_taught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 2.]],
+
+       [[2., 2.],
+        [2., 2.],
+        [2., 2.]],
+
+       [[2., 2.],
+        [2., 2.],
+        [2., 2.]]])
+rule_untaught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]]])
+rule_taught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [1.25, 1.25, 1.25, 1.25, 1.25, 1.25, 1.25, 1.25],
+        [1.25, 1.25, 1.25, 1.25, 1.25, 1.25, 1.25, 1.25]]])
+
+    def prefix_contrast(untaught, taught, *, populations, first_pulse_step, kc_total_untaught, kc_total_taught, kc_used_untaught, kc_used_taught, rule_untaught, rule_taught):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:7: NotImplementedError
+_ test_first_actual_difference_in_either_channel_is_inclusive_kc_boundary[0-5] _
+
+j = 5, channel = 0
+
+    @pytest.mark.parametrize('j', [4, 5, 8, 11])
+    @pytest.mark.parametrize('channel', [0, 1])
+    def test_first_actual_difference_in_either_channel_is_inclusive_kc_boundary(j, channel):
+        kw = arguments()
+        kw['taught'][j, channel] = f32_fraction(1, [2, 22][channel])
+        kw['rule_taught'][j:] += 1
+        kw['kc_total_taught'][j + 1:] += 1
+        kw['kc_used_taught'][j + 1:] += 1
+        before = {k: v.copy() for k, v in kw.items() if isinstance(v, np.ndarray)}
+>       out = m.prefix_contrast(**kw)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:72: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+untaught = array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], dtype=float32)
+taught = array([[0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0.5, 0. ],
+    ... , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ]], dtype=float32)
+populations = [2, 22], first_pulse_step = 4
+kc_total_untaught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10., 11.],
+      dtype=float32)
+kc_total_taught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  7.,  8.,  9., 10., 11., 12.],
+      dtype=float32)
+kc_used_untaught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]]])
+kc_used_taught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 2.]],
+
+       [[2., 2.],
+        [2., 2.],
+        [2., 2.]],
+
+       [[2., 2.],
+        [2., 2.],
+        [2., 2.]]])
+rule_untaught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]]])
+rule_taught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [1.25, 1.25, 1.25, 1.25, 1.25, 1.25, 1.25, 1.25],
+        [1.25, 1.25, 1.25, 1.25, 1.25, 1.25, 1.25, 1.25]]])
+
+    def prefix_contrast(untaught, taught, *, populations, first_pulse_step, kc_total_untaught, kc_total_taught, kc_used_untaught, kc_used_taught, rule_untaught, rule_taught):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:7: NotImplementedError
+_ test_first_actual_difference_in_either_channel_is_inclusive_kc_boundary[0-8] _
+
+j = 8, channel = 0
+
+    @pytest.mark.parametrize('j', [4, 5, 8, 11])
+    @pytest.mark.parametrize('channel', [0, 1])
+    def test_first_actual_difference_in_either_channel_is_inclusive_kc_boundary(j, channel):
+        kw = arguments()
+        kw['taught'][j, channel] = f32_fraction(1, [2, 22][channel])
+        kw['rule_taught'][j:] += 1
+        kw['kc_total_taught'][j + 1:] += 1
+        kw['kc_used_taught'][j + 1:] += 1
+        before = {k: v.copy() for k, v in kw.items() if isinstance(v, np.ndarray)}
+>       out = m.prefix_contrast(**kw)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:72: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+untaught = array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], dtype=float32)
+taught = array([[0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+    ... , 0. ],
+       [0. , 0. ],
+       [0.5, 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ]], dtype=float32)
+populations = [2, 22], first_pulse_step = 4
+kc_total_untaught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10., 11.],
+      dtype=float32)
+kc_total_taught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  8., 10., 11., 12.],
+      dtype=float32)
+kc_used_untaught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]]])
+kc_used_taught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 2.]],
+
+       [[2., 2.],
+        [2., 2.],
+        [2., 2.]],
+
+       [[2., 2.],
+        [2., 2.],
+        [2., 2.]]])
+rule_untaught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]]])
+rule_taught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [1.25, 1.25, 1.25, 1.25, 1.25, 1.25, 1.25, 1.25],
+        [1.25, 1.25, 1.25, 1.25, 1.25, 1.25, 1.25, 1.25]]])
+
+    def prefix_contrast(untaught, taught, *, populations, first_pulse_step, kc_total_untaught, kc_total_taught, kc_used_untaught, kc_used_taught, rule_untaught, rule_taught):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:7: NotImplementedError
+_ test_first_actual_difference_in_either_channel_is_inclusive_kc_boundary[0-11] _
+
+j = 11, channel = 0
+
+    @pytest.mark.parametrize('j', [4, 5, 8, 11])
+    @pytest.mark.parametrize('channel', [0, 1])
+    def test_first_actual_difference_in_either_channel_is_inclusive_kc_boundary(j, channel):
+        kw = arguments()
+        kw['taught'][j, channel] = f32_fraction(1, [2, 22][channel])
+        kw['rule_taught'][j:] += 1
+        kw['kc_total_taught'][j + 1:] += 1
+        kw['kc_used_taught'][j + 1:] += 1
+        before = {k: v.copy() for k, v in kw.items() if isinstance(v, np.ndarray)}
+>       out = m.prefix_contrast(**kw)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:72: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+untaught = array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], dtype=float32)
+taught = array([[0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+    ... , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0.5, 0. ]], dtype=float32)
+populations = [2, 22], first_pulse_step = 4
+kc_total_untaught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10., 11.],
+      dtype=float32)
+kc_total_taught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10., 11.],
+      dtype=float32)
+kc_used_untaught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]]])
+kc_used_taught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]]])
+rule_untaught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]]])
+rule_taught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [1.25, 1.25, 1.25, 1.25, 1.25, 1.25, 1.25, 1.25],
+        [1.25, 1.25, 1.25, 1.25, 1.25, 1.25, 1.25, 1.25]]])
+
+    def prefix_contrast(untaught, taught, *, populations, first_pulse_step, kc_total_untaught, kc_total_taught, kc_used_untaught, kc_used_taught, rule_untaught, rule_taught):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:7: NotImplementedError
+_ test_first_actual_difference_in_either_channel_is_inclusive_kc_boundary[1-4] _
+
+j = 4, channel = 1
+
+    @pytest.mark.parametrize('j', [4, 5, 8, 11])
+    @pytest.mark.parametrize('channel', [0, 1])
+    def test_first_actual_difference_in_either_channel_is_inclusive_kc_boundary(j, channel):
+        kw = arguments()
+        kw['taught'][j, channel] = f32_fraction(1, [2, 22][channel])
+        kw['rule_taught'][j:] += 1
+        kw['kc_total_taught'][j + 1:] += 1
+        kw['kc_used_taught'][j + 1:] += 1
+        before = {k: v.copy() for k, v in kw.items() if isinstance(v, np.ndarray)}
+>       out = m.prefix_contrast(**kw)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:72: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+untaught = array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], dtype=float32)
+taught = array([[0.        , 0.        ],
+       [0.        , 0.        ],
+       [0.        , 0.        ],
+       [0.        ,...  ],
+       [0.        , 0.        ],
+       [0.        , 0.        ],
+       [0.        , 0.        ]], dtype=float32)
+populations = [2, 22], first_pulse_step = 4
+kc_total_untaught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10., 11.],
+      dtype=float32)
+kc_total_taught = array([ 0.,  1.,  2.,  3.,  4.,  6.,  7.,  8.,  9., 10., 11., 12.],
+      dtype=float32)
+kc_used_untaught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]]])
+kc_used_taught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 2.]],
+
+       [[2., 2.],
+        [2., 2.],
+        [2., 2.]],
+
+       [[2., 2.],
+        [2., 2.],
+        [2., 2.]]])
+rule_untaught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]]])
+rule_taught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [1.25, 1.25, 1.25, 1.25, 1.25, 1.25, 1.25, 1.25],
+        [1.25, 1.25, 1.25, 1.25, 1.25, 1.25, 1.25, 1.25]]])
+
+    def prefix_contrast(untaught, taught, *, populations, first_pulse_step, kc_total_untaught, kc_total_taught, kc_used_untaught, kc_used_taught, rule_untaught, rule_taught):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:7: NotImplementedError
+_ test_first_actual_difference_in_either_channel_is_inclusive_kc_boundary[1-5] _
+
+j = 5, channel = 1
+
+    @pytest.mark.parametrize('j', [4, 5, 8, 11])
+    @pytest.mark.parametrize('channel', [0, 1])
+    def test_first_actual_difference_in_either_channel_is_inclusive_kc_boundary(j, channel):
+        kw = arguments()
+        kw['taught'][j, channel] = f32_fraction(1, [2, 22][channel])
+        kw['rule_taught'][j:] += 1
+        kw['kc_total_taught'][j + 1:] += 1
+        kw['kc_used_taught'][j + 1:] += 1
+        before = {k: v.copy() for k, v in kw.items() if isinstance(v, np.ndarray)}
+>       out = m.prefix_contrast(**kw)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:72: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+untaught = array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], dtype=float32)
+taught = array([[0.        , 0.        ],
+       [0.        , 0.        ],
+       [0.        , 0.        ],
+       [0.        ,...  ],
+       [0.        , 0.        ],
+       [0.        , 0.        ],
+       [0.        , 0.        ]], dtype=float32)
+populations = [2, 22], first_pulse_step = 4
+kc_total_untaught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10., 11.],
+      dtype=float32)
+kc_total_taught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  7.,  8.,  9., 10., 11., 12.],
+      dtype=float32)
+kc_used_untaught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]]])
+kc_used_taught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 2.]],
+
+       [[2., 2.],
+        [2., 2.],
+        [2., 2.]],
+
+       [[2., 2.],
+        [2., 2.],
+        [2., 2.]]])
+rule_untaught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]]])
+rule_taught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [1.25, 1.25, 1.25, 1.25, 1.25, 1.25, 1.25, 1.25],
+        [1.25, 1.25, 1.25, 1.25, 1.25, 1.25, 1.25, 1.25]]])
+
+    def prefix_contrast(untaught, taught, *, populations, first_pulse_step, kc_total_untaught, kc_total_taught, kc_used_untaught, kc_used_taught, rule_untaught, rule_taught):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:7: NotImplementedError
+_ test_first_actual_difference_in_either_channel_is_inclusive_kc_boundary[1-8] _
+
+j = 8, channel = 1
+
+    @pytest.mark.parametrize('j', [4, 5, 8, 11])
+    @pytest.mark.parametrize('channel', [0, 1])
+    def test_first_actual_difference_in_either_channel_is_inclusive_kc_boundary(j, channel):
+        kw = arguments()
+        kw['taught'][j, channel] = f32_fraction(1, [2, 22][channel])
+        kw['rule_taught'][j:] += 1
+        kw['kc_total_taught'][j + 1:] += 1
+        kw['kc_used_taught'][j + 1:] += 1
+        before = {k: v.copy() for k, v in kw.items() if isinstance(v, np.ndarray)}
+>       out = m.prefix_contrast(**kw)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:72: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+untaught = array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], dtype=float32)
+taught = array([[0.        , 0.        ],
+       [0.        , 0.        ],
+       [0.        , 0.        ],
+       [0.        ,...55],
+       [0.        , 0.        ],
+       [0.        , 0.        ],
+       [0.        , 0.        ]], dtype=float32)
+populations = [2, 22], first_pulse_step = 4
+kc_total_untaught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10., 11.],
+      dtype=float32)
+kc_total_taught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  8., 10., 11., 12.],
+      dtype=float32)
+kc_used_untaught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]]])
+kc_used_taught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 2.]],
+
+       [[2., 2.],
+        [2., 2.],
+        [2., 2.]],
+
+       [[2., 2.],
+        [2., 2.],
+        [2., 2.]]])
+rule_untaught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]]])
+rule_taught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [1.25, 1.25, 1.25, 1.25, 1.25, 1.25, 1.25, 1.25],
+        [1.25, 1.25, 1.25, 1.25, 1.25, 1.25, 1.25, 1.25]]])
+
+    def prefix_contrast(untaught, taught, *, populations, first_pulse_step, kc_total_untaught, kc_total_taught, kc_used_untaught, kc_used_taught, rule_untaught, rule_taught):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:7: NotImplementedError
+_ test_first_actual_difference_in_either_channel_is_inclusive_kc_boundary[1-11] _
+
+j = 11, channel = 1
+
+    @pytest.mark.parametrize('j', [4, 5, 8, 11])
+    @pytest.mark.parametrize('channel', [0, 1])
+    def test_first_actual_difference_in_either_channel_is_inclusive_kc_boundary(j, channel):
+        kw = arguments()
+        kw['taught'][j, channel] = f32_fraction(1, [2, 22][channel])
+        kw['rule_taught'][j:] += 1
+        kw['kc_total_taught'][j + 1:] += 1
+        kw['kc_used_taught'][j + 1:] += 1
+        before = {k: v.copy() for k, v in kw.items() if isinstance(v, np.ndarray)}
+>       out = m.prefix_contrast(**kw)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:72: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+untaught = array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], dtype=float32)
+taught = array([[0.        , 0.        ],
+       [0.        , 0.        ],
+       [0.        , 0.        ],
+       [0.        ,...  ],
+       [0.        , 0.        ],
+       [0.        , 0.        ],
+       [0.        , 0.04545455]], dtype=float32)
+populations = [2, 22], first_pulse_step = 4
+kc_total_untaught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10., 11.],
+      dtype=float32)
+kc_total_taught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10., 11.],
+      dtype=float32)
+kc_used_untaught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]]])
+kc_used_taught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]]])
+rule_untaught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]]])
+rule_taught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [1.25, 1.25, 1.25, 1.25, 1.25, 1.25, 1.25, 1.25],
+        [1.25, 1.25, 1.25, 1.25, 1.25, 1.25, 1.25, 1.25]]])
+
+    def prefix_contrast(untaught, taught, *, populations, first_pulse_step, kc_total_untaught, kc_total_taught, kc_used_untaught, kc_used_taught, rule_untaught, rule_taught):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:7: NotImplementedError
+______ test_rule_and_kc_can_diverge_only_later_or_never_after_changed_dan ______
+
+    def test_rule_and_kc_can_diverge_only_later_or_never_after_changed_dan():
+        kw = arguments()
+        kw['taught'][6, 0] = 0.5
+>       out = m.prefix_contrast(**kw)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:85: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+untaught = array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], dtype=float32)
+taught = array([[0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+    ...5, 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ]], dtype=float32)
+populations = [2, 22], first_pulse_step = 4
+kc_total_untaught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10., 11.],
+      dtype=float32)
+kc_total_taught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10., 11.],
+      dtype=float32)
+kc_used_untaught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]]])
+kc_used_taught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]]])
+rule_untaught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]]])
+rule_taught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]]])
+
+    def prefix_contrast(untaught, taught, *, populations, first_pulse_step, kc_total_untaught, kc_total_taught, kc_used_untaught, kc_used_taught, rule_untaught, rule_taught):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:7: NotImplementedError
+_ test_prefix_violation_fails_even_if_later_waveforms_look_valid[4-kc_total_taught] _
+
+bad = 'kc_total_taught', j = 4
+
+    @pytest.mark.parametrize('bad', ['kc_total_taught', 'kc_used_taught', 'rule_taught'])
+    @pytest.mark.parametrize('j', [4, 8])
+    def test_prefix_violation_fails_even_if_later_waveforms_look_valid(bad, j):
+        kw = arguments()
+        kw['taught'][j, 1] = f32_fraction(1, 22)
+        # KC equality includes j; rule equality stops before j.
+        kw[bad][j if bad != 'rule_taught' else j - 1] += 1
+        with pytest.raises(ValueError, match='prefix'):
+>           m.prefix_contrast(**kw)
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:99: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+untaught = array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], dtype=float32)
+taught = array([[0.        , 0.        ],
+       [0.        , 0.        ],
+       [0.        , 0.        ],
+       [0.        ,...  ],
+       [0.        , 0.        ],
+       [0.        , 0.        ],
+       [0.        , 0.        ]], dtype=float32)
+populations = [2, 22], first_pulse_step = 4
+kc_total_untaught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10., 11.],
+      dtype=float32)
+kc_total_taught = array([ 0.,  1.,  2.,  3.,  5.,  5.,  6.,  7.,  8.,  9., 10., 11.],
+      dtype=float32)
+kc_used_untaught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]]])
+kc_used_taught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]]])
+rule_untaught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]]])
+rule_taught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]]])
+
+    def prefix_contrast(untaught, taught, *, populations, first_pulse_step, kc_total_untaught, kc_total_taught, kc_used_untaught, kc_used_taught, rule_untaught, rule_taught):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:7: NotImplementedError
+_ test_prefix_violation_fails_even_if_later_waveforms_look_valid[4-kc_used_taught] _
+
+bad = 'kc_used_taught', j = 4
+
+    @pytest.mark.parametrize('bad', ['kc_total_taught', 'kc_used_taught', 'rule_taught'])
+    @pytest.mark.parametrize('j', [4, 8])
+    def test_prefix_violation_fails_even_if_later_waveforms_look_valid(bad, j):
+        kw = arguments()
+        kw['taught'][j, 1] = f32_fraction(1, 22)
+        # KC equality includes j; rule equality stops before j.
+        kw[bad][j if bad != 'rule_taught' else j - 1] += 1
+        with pytest.raises(ValueError, match='prefix'):
+>           m.prefix_contrast(**kw)
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:99: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+untaught = array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], dtype=float32)
+taught = array([[0.        , 0.        ],
+       [0.        , 0.        ],
+       [0.        , 0.        ],
+       [0.        ,...  ],
+       [0.        , 0.        ],
+       [0.        , 0.        ],
+       [0.        , 0.        ]], dtype=float32)
+populations = [2, 22], first_pulse_step = 4
+kc_total_untaught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10., 11.],
+      dtype=float32)
+kc_total_taught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10., 11.],
+      dtype=float32)
+kc_used_untaught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]]])
+kc_used_taught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]]])
+rule_untaught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]]])
+rule_taught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]]])
+
+    def prefix_contrast(untaught, taught, *, populations, first_pulse_step, kc_total_untaught, kc_total_taught, kc_used_untaught, kc_used_taught, rule_untaught, rule_taught):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:7: NotImplementedError
+_ test_prefix_violation_fails_even_if_later_waveforms_look_valid[4-rule_taught] _
+
+bad = 'rule_taught', j = 4
+
+    @pytest.mark.parametrize('bad', ['kc_total_taught', 'kc_used_taught', 'rule_taught'])
+    @pytest.mark.parametrize('j', [4, 8])
+    def test_prefix_violation_fails_even_if_later_waveforms_look_valid(bad, j):
+        kw = arguments()
+        kw['taught'][j, 1] = f32_fraction(1, 22)
+        # KC equality includes j; rule equality stops before j.
+        kw[bad][j if bad != 'rule_taught' else j - 1] += 1
+        with pytest.raises(ValueError, match='prefix'):
+>           m.prefix_contrast(**kw)
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:99: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+untaught = array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], dtype=float32)
+taught = array([[0.        , 0.        ],
+       [0.        , 0.        ],
+       [0.        , 0.        ],
+       [0.        ,...  ],
+       [0.        , 0.        ],
+       [0.        , 0.        ],
+       [0.        , 0.        ]], dtype=float32)
+populations = [2, 22], first_pulse_step = 4
+kc_total_untaught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10., 11.],
+      dtype=float32)
+kc_total_taught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10., 11.],
+      dtype=float32)
+kc_used_untaught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]]])
+kc_used_taught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]]])
+rule_untaught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]]])
+rule_taught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]]])
+
+    def prefix_contrast(untaught, taught, *, populations, first_pulse_step, kc_total_untaught, kc_total_taught, kc_used_untaught, kc_used_taught, rule_untaught, rule_taught):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:7: NotImplementedError
+_ test_prefix_violation_fails_even_if_later_waveforms_look_valid[8-kc_total_taught] _
+
+bad = 'kc_total_taught', j = 8
+
+    @pytest.mark.parametrize('bad', ['kc_total_taught', 'kc_used_taught', 'rule_taught'])
+    @pytest.mark.parametrize('j', [4, 8])
+    def test_prefix_violation_fails_even_if_later_waveforms_look_valid(bad, j):
+        kw = arguments()
+        kw['taught'][j, 1] = f32_fraction(1, 22)
+        # KC equality includes j; rule equality stops before j.
+        kw[bad][j if bad != 'rule_taught' else j - 1] += 1
+        with pytest.raises(ValueError, match='prefix'):
+>           m.prefix_contrast(**kw)
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:99: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+untaught = array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], dtype=float32)
+taught = array([[0.        , 0.        ],
+       [0.        , 0.        ],
+       [0.        , 0.        ],
+       [0.        ,...55],
+       [0.        , 0.        ],
+       [0.        , 0.        ],
+       [0.        , 0.        ]], dtype=float32)
+populations = [2, 22], first_pulse_step = 4
+kc_total_untaught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10., 11.],
+      dtype=float32)
+kc_total_taught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  9.,  9., 10., 11.],
+      dtype=float32)
+kc_used_untaught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]]])
+kc_used_taught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]]])
+rule_untaught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]]])
+rule_taught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]]])
+
+    def prefix_contrast(untaught, taught, *, populations, first_pulse_step, kc_total_untaught, kc_total_taught, kc_used_untaught, kc_used_taught, rule_untaught, rule_taught):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:7: NotImplementedError
+_ test_prefix_violation_fails_even_if_later_waveforms_look_valid[8-kc_used_taught] _
+
+bad = 'kc_used_taught', j = 8
+
+    @pytest.mark.parametrize('bad', ['kc_total_taught', 'kc_used_taught', 'rule_taught'])
+    @pytest.mark.parametrize('j', [4, 8])
+    def test_prefix_violation_fails_even_if_later_waveforms_look_valid(bad, j):
+        kw = arguments()
+        kw['taught'][j, 1] = f32_fraction(1, 22)
+        # KC equality includes j; rule equality stops before j.
+        kw[bad][j if bad != 'rule_taught' else j - 1] += 1
+        with pytest.raises(ValueError, match='prefix'):
+>           m.prefix_contrast(**kw)
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:99: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+untaught = array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], dtype=float32)
+taught = array([[0.        , 0.        ],
+       [0.        , 0.        ],
+       [0.        , 0.        ],
+       [0.        ,...55],
+       [0.        , 0.        ],
+       [0.        , 0.        ],
+       [0.        , 0.        ]], dtype=float32)
+populations = [2, 22], first_pulse_step = 4
+kc_total_untaught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10., 11.],
+      dtype=float32)
+kc_total_taught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10., 11.],
+      dtype=float32)
+kc_used_untaught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]]])
+kc_used_taught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]]])
+rule_untaught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]]])
+rule_taught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]]])
+
+    def prefix_contrast(untaught, taught, *, populations, first_pulse_step, kc_total_untaught, kc_total_taught, kc_used_untaught, kc_used_taught, rule_untaught, rule_taught):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:7: NotImplementedError
+_ test_prefix_violation_fails_even_if_later_waveforms_look_valid[8-rule_taught] _
+
+bad = 'rule_taught', j = 8
+
+    @pytest.mark.parametrize('bad', ['kc_total_taught', 'kc_used_taught', 'rule_taught'])
+    @pytest.mark.parametrize('j', [4, 8])
+    def test_prefix_violation_fails_even_if_later_waveforms_look_valid(bad, j):
+        kw = arguments()
+        kw['taught'][j, 1] = f32_fraction(1, 22)
+        # KC equality includes j; rule equality stops before j.
+        kw[bad][j if bad != 'rule_taught' else j - 1] += 1
+        with pytest.raises(ValueError, match='prefix'):
+>           m.prefix_contrast(**kw)
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:99: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+untaught = array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], dtype=float32)
+taught = array([[0.        , 0.        ],
+       [0.        , 0.        ],
+       [0.        , 0.        ],
+       [0.        ,...55],
+       [0.        , 0.        ],
+       [0.        , 0.        ],
+       [0.        , 0.        ]], dtype=float32)
+populations = [2, 22], first_pulse_step = 4
+kc_total_untaught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10., 11.],
+      dtype=float32)
+kc_total_taught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10., 11.],
+      dtype=float32)
+kc_used_untaught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]]])
+kc_used_taught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]]])
+rule_untaught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]]])
+rule_taught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]]])
+
+    def prefix_contrast(untaught, taught, *, populations, first_pulse_step, kc_total_untaught, kc_total_taught, kc_used_untaught, kc_used_taught, rule_untaught, rule_taught):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:7: NotImplementedError
+_ test_actual_difference_before_first_scheduled_pulse_rejects_mismatched_inputs[0] _
+
+j = 0
+
+    @pytest.mark.parametrize('j', [0, 1, 3])
+    def test_actual_difference_before_first_scheduled_pulse_rejects_mismatched_inputs(j):
+        kw = arguments()
+        kw['taught'][j, 0] = 0.5
+        with pytest.raises(ValueError, match='scheduled'):
+>           m.prefix_contrast(**kw)
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:107: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+untaught = array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], dtype=float32)
+taught = array([[0.5, 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+    ... , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ]], dtype=float32)
+populations = [2, 22], first_pulse_step = 4
+kc_total_untaught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10., 11.],
+      dtype=float32)
+kc_total_taught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10., 11.],
+      dtype=float32)
+kc_used_untaught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]]])
+kc_used_taught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]]])
+rule_untaught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]]])
+rule_taught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]]])
+
+    def prefix_contrast(untaught, taught, *, populations, first_pulse_step, kc_total_untaught, kc_total_taught, kc_used_untaught, kc_used_taught, rule_untaught, rule_taught):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:7: NotImplementedError
+_ test_actual_difference_before_first_scheduled_pulse_rejects_mismatched_inputs[1] _
+
+j = 1
+
+    @pytest.mark.parametrize('j', [0, 1, 3])
+    def test_actual_difference_before_first_scheduled_pulse_rejects_mismatched_inputs(j):
+        kw = arguments()
+        kw['taught'][j, 0] = 0.5
+        with pytest.raises(ValueError, match='scheduled'):
+>           m.prefix_contrast(**kw)
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:107: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+untaught = array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], dtype=float32)
+taught = array([[0. , 0. ],
+       [0.5, 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+    ... , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ]], dtype=float32)
+populations = [2, 22], first_pulse_step = 4
+kc_total_untaught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10., 11.],
+      dtype=float32)
+kc_total_taught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10., 11.],
+      dtype=float32)
+kc_used_untaught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]]])
+kc_used_taught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]]])
+rule_untaught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]]])
+rule_taught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]]])
+
+    def prefix_contrast(untaught, taught, *, populations, first_pulse_step, kc_total_untaught, kc_total_taught, kc_used_untaught, kc_used_taught, rule_untaught, rule_taught):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:7: NotImplementedError
+_ test_actual_difference_before_first_scheduled_pulse_rejects_mismatched_inputs[3] _
+
+j = 3
+
+    @pytest.mark.parametrize('j', [0, 1, 3])
+    def test_actual_difference_before_first_scheduled_pulse_rejects_mismatched_inputs(j):
+        kw = arguments()
+        kw['taught'][j, 0] = 0.5
+        with pytest.raises(ValueError, match='scheduled'):
+>           m.prefix_contrast(**kw)
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:107: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+untaught = array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], dtype=float32)
+taught = array([[0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0.5, 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+    ... , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ]], dtype=float32)
+populations = [2, 22], first_pulse_step = 4
+kc_total_untaught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10., 11.],
+      dtype=float32)
+kc_total_taught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10., 11.],
+      dtype=float32)
+kc_used_untaught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]]])
+kc_used_taught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]]])
+rule_untaught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]]])
+rule_taught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]]])
+
+    def prefix_contrast(untaught, taught, *, populations, first_pulse_step, kc_total_untaught, kc_total_taught, kc_used_untaught, kc_used_taught, rule_untaught, rule_taught):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:7: NotImplementedError
+_ test_pooled_collision_preserves_current_bridge_prefix_not_per_cell_identity __
+
+    def test_pooled_collision_preserves_current_bridge_prefix_not_per_cell_identity():
+        kw = arguments()
+>       out = m.prefix_contrast(**kw)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:112: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+untaught = array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], dtype=float32)
+taught = array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], dtype=float32)
+populations = [2, 22], first_pulse_step = 4
+kc_total_untaught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10., 11.],
+      dtype=float32)
+kc_total_taught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10., 11.],
+      dtype=float32)
+kc_used_untaught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]]])
+kc_used_taught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]]])
+rule_untaught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]]])
+rule_taught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]]])
+
+    def prefix_contrast(untaught, taught, *, populations, first_pulse_step, kc_total_untaught, kc_total_taught, kc_used_untaught, kc_used_taught, rule_untaught, rule_taught):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:7: NotImplementedError
+_ test_identical_pools_require_entire_current_bridge_and_kc_observations_equal[kc_total_taught] _
+
+bad = 'kc_total_taught'
+
+    @pytest.mark.parametrize('bad', ['kc_total_taught', 'kc_used_taught', 'rule_taught'])
+    def test_identical_pools_require_entire_current_bridge_and_kc_observations_equal(bad):
+        kw = arguments()
+        kw[bad][-1] += 1
+        with pytest.raises(ValueError, match='prefix'):
+>           m.prefix_contrast(**kw)
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:128: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+untaught = array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], dtype=float32)
+taught = array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], dtype=float32)
+populations = [2, 22], first_pulse_step = 4
+kc_total_untaught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10., 11.],
+      dtype=float32)
+kc_total_taught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10., 12.],
+      dtype=float32)
+kc_used_untaught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]]])
+kc_used_taught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]]])
+rule_untaught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]]])
+rule_taught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]]])
+
+    def prefix_contrast(untaught, taught, *, populations, first_pulse_step, kc_total_untaught, kc_total_taught, kc_used_untaught, kc_used_taught, rule_untaught, rule_taught):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:7: NotImplementedError
+_ test_identical_pools_require_entire_current_bridge_and_kc_observations_equal[kc_used_taught] _
+
+bad = 'kc_used_taught'
+
+    @pytest.mark.parametrize('bad', ['kc_total_taught', 'kc_used_taught', 'rule_taught'])
+    def test_identical_pools_require_entire_current_bridge_and_kc_observations_equal(bad):
+        kw = arguments()
+        kw[bad][-1] += 1
+        with pytest.raises(ValueError, match='prefix'):
+>           m.prefix_contrast(**kw)
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:128: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+untaught = array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], dtype=float32)
+taught = array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], dtype=float32)
+populations = [2, 22], first_pulse_step = 4
+kc_total_untaught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10., 11.],
+      dtype=float32)
+kc_total_taught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10., 11.],
+      dtype=float32)
+kc_used_untaught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]]])
+kc_used_taught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[2., 2.],
+        [2., 2.],
+        [2., 2.]]])
+rule_untaught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]]])
+rule_taught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]]])
+
+    def prefix_contrast(untaught, taught, *, populations, first_pulse_step, kc_total_untaught, kc_total_taught, kc_used_untaught, kc_used_taught, rule_untaught, rule_taught):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:7: NotImplementedError
+_ test_identical_pools_require_entire_current_bridge_and_kc_observations_equal[rule_taught] _
+
+bad = 'rule_taught'
+
+    @pytest.mark.parametrize('bad', ['kc_total_taught', 'kc_used_taught', 'rule_taught'])
+    def test_identical_pools_require_entire_current_bridge_and_kc_observations_equal(bad):
+        kw = arguments()
+        kw[bad][-1] += 1
+        with pytest.raises(ValueError, match='prefix'):
+>           m.prefix_contrast(**kw)
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:128: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+untaught = array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], dtype=float32)
+taught = array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], dtype=float32)
+populations = [2, 22], first_pulse_step = 4
+kc_total_untaught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10., 11.],
+      dtype=float32)
+kc_total_taught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10., 11.],
+      dtype=float32)
+kc_used_untaught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]]])
+kc_used_taught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]]])
+rule_untaught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]]])
+rule_taught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [1.25, 1.25, 1.25, 1.25, 1.25, 1.25, 1.25, 1.25],
+        [1.25, 1.25, 1.25, 1.25, 1.25, 1.25, 1.25, 1.25]]])
+
+    def prefix_contrast(untaught, taught, *, populations, first_pulse_step, kc_total_untaught, kc_total_taught, kc_used_untaught, kc_used_taught, rule_untaught, rule_taught):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:7: NotImplementedError
+_____ test_shape_mismatch_cannot_broadcast_or_hide_unknown_steps[untaught] _____
+
+bad = 'untaught'
+
+    @pytest.mark.parametrize('bad', ['untaught', 'taught', 'kc_total_taught', 'kc_used_taught', 'rule_taught'])
+    def test_shape_mismatch_cannot_broadcast_or_hide_unknown_steps(bad):
+        kw = arguments()
+        kw[bad] = kw[bad][:-1]
+        with pytest.raises(ValueError):
+>           m.prefix_contrast(**kw)
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:136: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+untaught = array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], dtype=float32)
+taught = array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], dtype=float32)
+populations = [2, 22], first_pulse_step = 4
+kc_total_untaught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10., 11.],
+      dtype=float32)
+kc_total_taught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10., 11.],
+      dtype=float32)
+kc_used_untaught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]]])
+kc_used_taught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]]])
+rule_untaught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]]])
+rule_taught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]]])
+
+    def prefix_contrast(untaught, taught, *, populations, first_pulse_step, kc_total_untaught, kc_total_taught, kc_used_untaught, kc_used_taught, rule_untaught, rule_taught):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:7: NotImplementedError
+______ test_shape_mismatch_cannot_broadcast_or_hide_unknown_steps[taught] ______
+
+bad = 'taught'
+
+    @pytest.mark.parametrize('bad', ['untaught', 'taught', 'kc_total_taught', 'kc_used_taught', 'rule_taught'])
+    def test_shape_mismatch_cannot_broadcast_or_hide_unknown_steps(bad):
+        kw = arguments()
+        kw[bad] = kw[bad][:-1]
+        with pytest.raises(ValueError):
+>           m.prefix_contrast(**kw)
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:136: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+untaught = array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], dtype=float32)
+taught = array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], dtype=float32)
+populations = [2, 22], first_pulse_step = 4
+kc_total_untaught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10., 11.],
+      dtype=float32)
+kc_total_taught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10., 11.],
+      dtype=float32)
+kc_used_untaught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]]])
+kc_used_taught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]]])
+rule_untaught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]]])
+rule_taught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]]])
+
+    def prefix_contrast(untaught, taught, *, populations, first_pulse_step, kc_total_untaught, kc_total_taught, kc_used_untaught, kc_used_taught, rule_untaught, rule_taught):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:7: NotImplementedError
+_ test_shape_mismatch_cannot_broadcast_or_hide_unknown_steps[kc_total_taught] __
+
+bad = 'kc_total_taught'
+
+    @pytest.mark.parametrize('bad', ['untaught', 'taught', 'kc_total_taught', 'kc_used_taught', 'rule_taught'])
+    def test_shape_mismatch_cannot_broadcast_or_hide_unknown_steps(bad):
+        kw = arguments()
+        kw[bad] = kw[bad][:-1]
+        with pytest.raises(ValueError):
+>           m.prefix_contrast(**kw)
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:136: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+untaught = array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], dtype=float32)
+taught = array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], dtype=float32)
+populations = [2, 22], first_pulse_step = 4
+kc_total_untaught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10., 11.],
+      dtype=float32)
+kc_total_taught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10.],
+      dtype=float32)
+kc_used_untaught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]]])
+kc_used_taught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]]])
+rule_untaught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]]])
+rule_taught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]]])
+
+    def prefix_contrast(untaught, taught, *, populations, first_pulse_step, kc_total_untaught, kc_total_taught, kc_used_untaught, kc_used_taught, rule_untaught, rule_taught):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:7: NotImplementedError
+__ test_shape_mismatch_cannot_broadcast_or_hide_unknown_steps[kc_used_taught] __
+
+bad = 'kc_used_taught'
+
+    @pytest.mark.parametrize('bad', ['untaught', 'taught', 'kc_total_taught', 'kc_used_taught', 'rule_taught'])
+    def test_shape_mismatch_cannot_broadcast_or_hide_unknown_steps(bad):
+        kw = arguments()
+        kw[bad] = kw[bad][:-1]
+        with pytest.raises(ValueError):
+>           m.prefix_contrast(**kw)
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:136: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+untaught = array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], dtype=float32)
+taught = array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], dtype=float32)
+populations = [2, 22], first_pulse_step = 4
+kc_total_untaught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10., 11.],
+      dtype=float32)
+kc_total_taught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10., 11.],
+      dtype=float32)
+kc_used_untaught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]]])
+kc_used_taught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]]])
+rule_untaught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]]])
+rule_taught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]]])
+
+    def prefix_contrast(untaught, taught, *, populations, first_pulse_step, kc_total_untaught, kc_total_taught, kc_used_untaught, kc_used_taught, rule_untaught, rule_taught):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:7: NotImplementedError
+___ test_shape_mismatch_cannot_broadcast_or_hide_unknown_steps[rule_taught] ____
+
+bad = 'rule_taught'
+
+    @pytest.mark.parametrize('bad', ['untaught', 'taught', 'kc_total_taught', 'kc_used_taught', 'rule_taught'])
+    def test_shape_mismatch_cannot_broadcast_or_hide_unknown_steps(bad):
+        kw = arguments()
+        kw[bad] = kw[bad][:-1]
+        with pytest.raises(ValueError):
+>           m.prefix_contrast(**kw)
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:136: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+untaught = array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], dtype=float32)
+taught = array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], dtype=float32)
+populations = [2, 22], first_pulse_step = 4
+kc_total_untaught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10., 11.],
+      dtype=float32)
+kc_total_taught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10., 11.],
+      dtype=float32)
+kc_used_untaught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]]])
+kc_used_taught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]]])
+rule_untaught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]]])
+rule_taught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]]])
+
+    def prefix_contrast(untaught, taught, *, populations, first_pulse_step, kc_total_untaught, kc_total_taught, kc_used_untaught, kc_used_taught, rule_untaught, rule_taught):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:7: NotImplementedError
+_ test_nonfinite_anywhere_is_invalid_even_outside_proven_prefix[kc_total_untaught] _
+
+bad = 'kc_total_untaught'
+
+    @pytest.mark.parametrize('bad', ['kc_total_untaught', 'kc_total_taught', 'kc_used_untaught', 'kc_used_taught', 'rule_untaught', 'rule_taught'])
+    def test_nonfinite_anywhere_is_invalid_even_outside_proven_prefix(bad):
+        kw = arguments()
+        kw['taught'][4, 0] = 0.5
+        kw[bad][-1] = np.nan
+        with pytest.raises(ValueError):
+>           m.prefix_contrast(**kw)
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:145: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+untaught = array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], dtype=float32)
+taught = array([[0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0.5, 0. ],
+       [0. , 0. ],
+    ... , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ]], dtype=float32)
+populations = [2, 22], first_pulse_step = 4
+kc_total_untaught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10., nan],
+      dtype=float32)
+kc_total_taught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10., 11.],
+      dtype=float32)
+kc_used_untaught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]]])
+kc_used_taught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]]])
+rule_untaught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]]])
+rule_taught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]]])
+
+    def prefix_contrast(untaught, taught, *, populations, first_pulse_step, kc_total_untaught, kc_total_taught, kc_used_untaught, kc_used_taught, rule_untaught, rule_taught):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:7: NotImplementedError
+_ test_nonfinite_anywhere_is_invalid_even_outside_proven_prefix[kc_total_taught] _
+
+bad = 'kc_total_taught'
+
+    @pytest.mark.parametrize('bad', ['kc_total_untaught', 'kc_total_taught', 'kc_used_untaught', 'kc_used_taught', 'rule_untaught', 'rule_taught'])
+    def test_nonfinite_anywhere_is_invalid_even_outside_proven_prefix(bad):
+        kw = arguments()
+        kw['taught'][4, 0] = 0.5
+        kw[bad][-1] = np.nan
+        with pytest.raises(ValueError):
+>           m.prefix_contrast(**kw)
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:145: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+untaught = array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], dtype=float32)
+taught = array([[0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0.5, 0. ],
+       [0. , 0. ],
+    ... , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ]], dtype=float32)
+populations = [2, 22], first_pulse_step = 4
+kc_total_untaught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10., 11.],
+      dtype=float32)
+kc_total_taught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10., nan],
+      dtype=float32)
+kc_used_untaught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]]])
+kc_used_taught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]]])
+rule_untaught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]]])
+rule_taught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]]])
+
+    def prefix_contrast(untaught, taught, *, populations, first_pulse_step, kc_total_untaught, kc_total_taught, kc_used_untaught, kc_used_taught, rule_untaught, rule_taught):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:7: NotImplementedError
+_ test_nonfinite_anywhere_is_invalid_even_outside_proven_prefix[kc_used_untaught] _
+
+bad = 'kc_used_untaught'
+
+    @pytest.mark.parametrize('bad', ['kc_total_untaught', 'kc_total_taught', 'kc_used_untaught', 'kc_used_taught', 'rule_untaught', 'rule_taught'])
+    def test_nonfinite_anywhere_is_invalid_even_outside_proven_prefix(bad):
+        kw = arguments()
+        kw['taught'][4, 0] = 0.5
+        kw[bad][-1] = np.nan
+        with pytest.raises(ValueError):
+>           m.prefix_contrast(**kw)
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:145: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+untaught = array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], dtype=float32)
+taught = array([[0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0.5, 0. ],
+       [0. , 0. ],
+    ... , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ]], dtype=float32)
+populations = [2, 22], first_pulse_step = 4
+kc_total_untaught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10., 11.],
+      dtype=float32)
+kc_total_taught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10., 11.],
+      dtype=float32)
+kc_used_untaught = array([[[ 1.,  1.],
+        [ 1.,  1.],
+        [ 1.,  1.]],
+
+       [[ 1.,  1.],
+        [ 1.,  1.],
+        [ 1.,  1...   [[ 1.,  1.],
+        [ 1.,  1.],
+        [ 1.,  1.]],
+
+       [[nan, nan],
+        [nan, nan],
+        [nan, nan]]])
+kc_used_taught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]]])
+rule_untaught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]]])
+rule_taught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]]])
+
+    def prefix_contrast(untaught, taught, *, populations, first_pulse_step, kc_total_untaught, kc_total_taught, kc_used_untaught, kc_used_taught, rule_untaught, rule_taught):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:7: NotImplementedError
+_ test_nonfinite_anywhere_is_invalid_even_outside_proven_prefix[kc_used_taught] _
+
+bad = 'kc_used_taught'
+
+    @pytest.mark.parametrize('bad', ['kc_total_untaught', 'kc_total_taught', 'kc_used_untaught', 'kc_used_taught', 'rule_untaught', 'rule_taught'])
+    def test_nonfinite_anywhere_is_invalid_even_outside_proven_prefix(bad):
+        kw = arguments()
+        kw['taught'][4, 0] = 0.5
+        kw[bad][-1] = np.nan
+        with pytest.raises(ValueError):
+>           m.prefix_contrast(**kw)
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:145: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+untaught = array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], dtype=float32)
+taught = array([[0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0.5, 0. ],
+       [0. , 0. ],
+    ... , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ]], dtype=float32)
+populations = [2, 22], first_pulse_step = 4
+kc_total_untaught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10., 11.],
+      dtype=float32)
+kc_total_taught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10., 11.],
+      dtype=float32)
+kc_used_untaught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]]])
+kc_used_taught = array([[[ 1.,  1.],
+        [ 1.,  1.],
+        [ 1.,  1.]],
+
+       [[ 1.,  1.],
+        [ 1.,  1.],
+        [ 1.,  1...   [[ 1.,  1.],
+        [ 1.,  1.],
+        [ 1.,  1.]],
+
+       [[nan, nan],
+        [nan, nan],
+        [nan, nan]]])
+rule_untaught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]]])
+rule_taught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]]])
+
+    def prefix_contrast(untaught, taught, *, populations, first_pulse_step, kc_total_untaught, kc_total_taught, kc_used_untaught, kc_used_taught, rule_untaught, rule_taught):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:7: NotImplementedError
+_ test_nonfinite_anywhere_is_invalid_even_outside_proven_prefix[rule_untaught] _
+
+bad = 'rule_untaught'
+
+    @pytest.mark.parametrize('bad', ['kc_total_untaught', 'kc_total_taught', 'kc_used_untaught', 'kc_used_taught', 'rule_untaught', 'rule_taught'])
+    def test_nonfinite_anywhere_is_invalid_even_outside_proven_prefix(bad):
+        kw = arguments()
+        kw['taught'][4, 0] = 0.5
+        kw[bad][-1] = np.nan
+        with pytest.raises(ValueError):
+>           m.prefix_contrast(**kw)
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:145: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+untaught = array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], dtype=float32)
+taught = array([[0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0.5, 0. ],
+       [0. , 0. ],
+    ... , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ]], dtype=float32)
+populations = [2, 22], first_pulse_step = 4
+kc_total_untaught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10., 11.],
+      dtype=float32)
+kc_total_taught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10., 11.],
+      dtype=float32)
+kc_used_untaught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]]])
+kc_used_taught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]]])
+rule_untaught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [ nan,  nan,  nan,  nan,  nan,  nan,  nan,  nan],
+        [ nan,  nan,  nan,  nan,  nan,  nan,  nan,  nan]]])
+rule_taught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]]])
+
+    def prefix_contrast(untaught, taught, *, populations, first_pulse_step, kc_total_untaught, kc_total_taught, kc_used_untaught, kc_used_taught, rule_untaught, rule_taught):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:7: NotImplementedError
+__ test_nonfinite_anywhere_is_invalid_even_outside_proven_prefix[rule_taught] __
+
+bad = 'rule_taught'
+
+    @pytest.mark.parametrize('bad', ['kc_total_untaught', 'kc_total_taught', 'kc_used_untaught', 'kc_used_taught', 'rule_untaught', 'rule_taught'])
+    def test_nonfinite_anywhere_is_invalid_even_outside_proven_prefix(bad):
+        kw = arguments()
+        kw['taught'][4, 0] = 0.5
+        kw[bad][-1] = np.nan
+        with pytest.raises(ValueError):
+>           m.prefix_contrast(**kw)
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:145: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+untaught = array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], dtype=float32)
+taught = array([[0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0.5, 0. ],
+       [0. , 0. ],
+    ... , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ],
+       [0. , 0. ]], dtype=float32)
+populations = [2, 22], first_pulse_step = 4
+kc_total_untaught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10., 11.],
+      dtype=float32)
+kc_total_taught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10., 11.],
+      dtype=float32)
+kc_used_untaught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]]])
+kc_used_taught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]]])
+rule_untaught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]]])
+rule_taught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [ nan,  nan,  nan,  nan,  nan,  nan,  nan,  nan],
+        [ nan,  nan,  nan,  nan,  nan,  nan,  nan,  nan]]])
+
+    def prefix_contrast(untaught, taught, *, populations, first_pulse_step, kc_total_untaught, kc_total_taught, kc_used_untaught, kc_used_taught, rule_untaught, rule_taught):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:7: NotImplementedError
+___________ test_invalid_pulse_boundary_is_not_silently_coerced[-1] ____________
+
+pulse = -1
+
+    @pytest.mark.parametrize('pulse', [-1, 12, True, 4.0])
+    def test_invalid_pulse_boundary_is_not_silently_coerced(pulse):
+        kw = arguments()
+        kw['first_pulse_step'] = pulse
+        with pytest.raises(ValueError):
+>           m.prefix_contrast(**kw)
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:153: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+untaught = array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], dtype=float32)
+taught = array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], dtype=float32)
+populations = [2, 22], first_pulse_step = -1
+kc_total_untaught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10., 11.],
+      dtype=float32)
+kc_total_taught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10., 11.],
+      dtype=float32)
+kc_used_untaught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]]])
+kc_used_taught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]]])
+rule_untaught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]]])
+rule_taught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]]])
+
+    def prefix_contrast(untaught, taught, *, populations, first_pulse_step, kc_total_untaught, kc_total_taught, kc_used_untaught, kc_used_taught, rule_untaught, rule_taught):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:7: NotImplementedError
+___________ test_invalid_pulse_boundary_is_not_silently_coerced[12] ____________
+
+pulse = 12
+
+    @pytest.mark.parametrize('pulse', [-1, 12, True, 4.0])
+    def test_invalid_pulse_boundary_is_not_silently_coerced(pulse):
+        kw = arguments()
+        kw['first_pulse_step'] = pulse
+        with pytest.raises(ValueError):
+>           m.prefix_contrast(**kw)
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:153: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+untaught = array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], dtype=float32)
+taught = array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], dtype=float32)
+populations = [2, 22], first_pulse_step = 12
+kc_total_untaught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10., 11.],
+      dtype=float32)
+kc_total_taught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10., 11.],
+      dtype=float32)
+kc_used_untaught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]]])
+kc_used_taught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]]])
+rule_untaught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]]])
+rule_taught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]]])
+
+    def prefix_contrast(untaught, taught, *, populations, first_pulse_step, kc_total_untaught, kc_total_taught, kc_used_untaught, kc_used_taught, rule_untaught, rule_taught):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:7: NotImplementedError
+__________ test_invalid_pulse_boundary_is_not_silently_coerced[True] ___________
+
+pulse = True
+
+    @pytest.mark.parametrize('pulse', [-1, 12, True, 4.0])
+    def test_invalid_pulse_boundary_is_not_silently_coerced(pulse):
+        kw = arguments()
+        kw['first_pulse_step'] = pulse
+        with pytest.raises(ValueError):
+>           m.prefix_contrast(**kw)
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:153: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+untaught = array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], dtype=float32)
+taught = array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], dtype=float32)
+populations = [2, 22], first_pulse_step = True
+kc_total_untaught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10., 11.],
+      dtype=float32)
+kc_total_taught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10., 11.],
+      dtype=float32)
+kc_used_untaught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]]])
+kc_used_taught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]]])
+rule_untaught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]]])
+rule_taught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]]])
+
+    def prefix_contrast(untaught, taught, *, populations, first_pulse_step, kc_total_untaught, kc_total_taught, kc_used_untaught, kc_used_taught, rule_untaught, rule_taught):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:7: NotImplementedError
+___________ test_invalid_pulse_boundary_is_not_silently_coerced[4.0] ___________
+
+pulse = 4.0
+
+    @pytest.mark.parametrize('pulse', [-1, 12, True, 4.0])
+    def test_invalid_pulse_boundary_is_not_silently_coerced(pulse):
+        kw = arguments()
+        kw['first_pulse_step'] = pulse
+        with pytest.raises(ValueError):
+>           m.prefix_contrast(**kw)
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:153: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+untaught = array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], dtype=float32)
+taught = array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], dtype=float32)
+populations = [2, 22], first_pulse_step = 4.0
+kc_total_untaught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10., 11.],
+      dtype=float32)
+kc_total_taught = array([ 0.,  1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10., 11.],
+      dtype=float32)
+kc_used_untaught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]]])
+kc_used_taught = array([[[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+      ... 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]],
+
+       [[1., 1.],
+        [1., 1.],
+        [1., 1.]]])
+rule_untaught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]]])
+rule_taught = array([[[0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+  ...,
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+        [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]]])
+
+    def prefix_contrast(untaught, taught, *, populations, first_pulse_step, kc_total_untaught, kc_total_taught, kc_used_untaught, kc_used_taught, rule_untaught, rule_taught):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:7: NotImplementedError
+___ test_fine_pool_uses_explicit_compartment_map_with_permutation_invariance ___
+
+    def test_fine_pool_uses_explicit_compartment_map_with_permutation_invariance():
+        events = np.array([[1, 0, 1, 1, 0], [0, 1, 1, 0, 1]], np.int32)
+        comp = np.array([1, 0, 1, 0, 1])
+        expected = np.array([[1, 2], [1, 2]], np.int64)
+>       np.testing.assert_array_equal(m.fine_pool(events, comp, [2, 3]), expected)
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:160: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+events = array([[1, 0, 1, 1, 0],
+       [0, 1, 1, 0, 1]], dtype=int32)
+compartments = array([1, 0, 1, 0, 1]), populations = [2, 3]
+
+    def fine_pool(events, compartments, populations):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:10: NotImplementedError
+_ test_fine_pool_malformed_events_or_mapping_are_not_silently_assigned[events0-comp0-pops0] _
+
+events = array([[2, 0]]), comp = [0, 0], pops = [2]
+
+    @pytest.mark.parametrize('events,comp,pops', [
+        (np.array([[2, 0]]), [0, 0], [2]),
+        (np.array([[-1, 1]]), [0, 0], [2]),
+        (np.array([[1.0, 0.0]]), [0, 0], [2]),
+        (np.zeros((2, 2), int), [0, 0], [1]),
+        (np.zeros((2, 2), int), [0, 1], [2]),
+        (np.zeros((2, 2), int), [0.0, 0.0], [2]),
+        (np.zeros((2, 2), int), [False, False], [2]),
+        (np.zeros((2, 2), int), [0], [2]),
+    ])
+    def test_fine_pool_malformed_events_or_mapping_are_not_silently_assigned(events, comp, pops):
+        with pytest.raises(ValueError):
+>           m.fine_pool(events, comp, pops)
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:177: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+events = array([[2, 0]]), compartments = [0, 0], populations = [2]
+
+    def fine_pool(events, compartments, populations):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:10: NotImplementedError
+_ test_fine_pool_malformed_events_or_mapping_are_not_silently_assigned[events1-comp1-pops1] _
+
+events = array([[-1,  1]]), comp = [0, 0], pops = [2]
+
+    @pytest.mark.parametrize('events,comp,pops', [
+        (np.array([[2, 0]]), [0, 0], [2]),
+        (np.array([[-1, 1]]), [0, 0], [2]),
+        (np.array([[1.0, 0.0]]), [0, 0], [2]),
+        (np.zeros((2, 2), int), [0, 0], [1]),
+        (np.zeros((2, 2), int), [0, 1], [2]),
+        (np.zeros((2, 2), int), [0.0, 0.0], [2]),
+        (np.zeros((2, 2), int), [False, False], [2]),
+        (np.zeros((2, 2), int), [0], [2]),
+    ])
+    def test_fine_pool_malformed_events_or_mapping_are_not_silently_assigned(events, comp, pops):
+        with pytest.raises(ValueError):
+>           m.fine_pool(events, comp, pops)
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:177: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+events = array([[-1,  1]]), compartments = [0, 0], populations = [2]
+
+    def fine_pool(events, compartments, populations):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:10: NotImplementedError
+_ test_fine_pool_malformed_events_or_mapping_are_not_silently_assigned[events2-comp2-pops2] _
+
+events = array([[1., 0.]]), comp = [0, 0], pops = [2]
+
+    @pytest.mark.parametrize('events,comp,pops', [
+        (np.array([[2, 0]]), [0, 0], [2]),
+        (np.array([[-1, 1]]), [0, 0], [2]),
+        (np.array([[1.0, 0.0]]), [0, 0], [2]),
+        (np.zeros((2, 2), int), [0, 0], [1]),
+        (np.zeros((2, 2), int), [0, 1], [2]),
+        (np.zeros((2, 2), int), [0.0, 0.0], [2]),
+        (np.zeros((2, 2), int), [False, False], [2]),
+        (np.zeros((2, 2), int), [0], [2]),
+    ])
+    def test_fine_pool_malformed_events_or_mapping_are_not_silently_assigned(events, comp, pops):
+        with pytest.raises(ValueError):
+>           m.fine_pool(events, comp, pops)
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:177: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+events = array([[1., 0.]]), compartments = [0, 0], populations = [2]
+
+    def fine_pool(events, compartments, populations):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:10: NotImplementedError
+_ test_fine_pool_malformed_events_or_mapping_are_not_silently_assigned[events3-comp3-pops3] _
+
+events = array([[0, 0],
+       [0, 0]]), comp = [0, 0], pops = [1]
+
+    @pytest.mark.parametrize('events,comp,pops', [
+        (np.array([[2, 0]]), [0, 0], [2]),
+        (np.array([[-1, 1]]), [0, 0], [2]),
+        (np.array([[1.0, 0.0]]), [0, 0], [2]),
+        (np.zeros((2, 2), int), [0, 0], [1]),
+        (np.zeros((2, 2), int), [0, 1], [2]),
+        (np.zeros((2, 2), int), [0.0, 0.0], [2]),
+        (np.zeros((2, 2), int), [False, False], [2]),
+        (np.zeros((2, 2), int), [0], [2]),
+    ])
+    def test_fine_pool_malformed_events_or_mapping_are_not_silently_assigned(events, comp, pops):
+        with pytest.raises(ValueError):
+>           m.fine_pool(events, comp, pops)
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:177: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+events = array([[0, 0],
+       [0, 0]]), compartments = [0, 0]
+populations = [1]
+
+    def fine_pool(events, compartments, populations):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:10: NotImplementedError
+_ test_fine_pool_malformed_events_or_mapping_are_not_silently_assigned[events4-comp4-pops4] _
+
+events = array([[0, 0],
+       [0, 0]]), comp = [0, 1], pops = [2]
+
+    @pytest.mark.parametrize('events,comp,pops', [
+        (np.array([[2, 0]]), [0, 0], [2]),
+        (np.array([[-1, 1]]), [0, 0], [2]),
+        (np.array([[1.0, 0.0]]), [0, 0], [2]),
+        (np.zeros((2, 2), int), [0, 0], [1]),
+        (np.zeros((2, 2), int), [0, 1], [2]),
+        (np.zeros((2, 2), int), [0.0, 0.0], [2]),
+        (np.zeros((2, 2), int), [False, False], [2]),
+        (np.zeros((2, 2), int), [0], [2]),
+    ])
+    def test_fine_pool_malformed_events_or_mapping_are_not_silently_assigned(events, comp, pops):
+        with pytest.raises(ValueError):
+>           m.fine_pool(events, comp, pops)
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:177: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+events = array([[0, 0],
+       [0, 0]]), compartments = [0, 1]
+populations = [2]
+
+    def fine_pool(events, compartments, populations):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:10: NotImplementedError
+_ test_fine_pool_malformed_events_or_mapping_are_not_silently_assigned[events5-comp5-pops5] _
+
+events = array([[0, 0],
+       [0, 0]]), comp = [0.0, 0.0], pops = [2]
+
+    @pytest.mark.parametrize('events,comp,pops', [
+        (np.array([[2, 0]]), [0, 0], [2]),
+        (np.array([[-1, 1]]), [0, 0], [2]),
+        (np.array([[1.0, 0.0]]), [0, 0], [2]),
+        (np.zeros((2, 2), int), [0, 0], [1]),
+        (np.zeros((2, 2), int), [0, 1], [2]),
+        (np.zeros((2, 2), int), [0.0, 0.0], [2]),
+        (np.zeros((2, 2), int), [False, False], [2]),
+        (np.zeros((2, 2), int), [0], [2]),
+    ])
+    def test_fine_pool_malformed_events_or_mapping_are_not_silently_assigned(events, comp, pops):
+        with pytest.raises(ValueError):
+>           m.fine_pool(events, comp, pops)
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:177: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+events = array([[0, 0],
+       [0, 0]]), compartments = [0.0, 0.0]
+populations = [2]
+
+    def fine_pool(events, compartments, populations):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:10: NotImplementedError
+_ test_fine_pool_malformed_events_or_mapping_are_not_silently_assigned[events6-comp6-pops6] _
+
+events = array([[0, 0],
+       [0, 0]]), comp = [False, False], pops = [2]
+
+    @pytest.mark.parametrize('events,comp,pops', [
+        (np.array([[2, 0]]), [0, 0], [2]),
+        (np.array([[-1, 1]]), [0, 0], [2]),
+        (np.array([[1.0, 0.0]]), [0, 0], [2]),
+        (np.zeros((2, 2), int), [0, 0], [1]),
+        (np.zeros((2, 2), int), [0, 1], [2]),
+        (np.zeros((2, 2), int), [0.0, 0.0], [2]),
+        (np.zeros((2, 2), int), [False, False], [2]),
+        (np.zeros((2, 2), int), [0], [2]),
+    ])
+    def test_fine_pool_malformed_events_or_mapping_are_not_silently_assigned(events, comp, pops):
+        with pytest.raises(ValueError):
+>           m.fine_pool(events, comp, pops)
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:177: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+events = array([[0, 0],
+       [0, 0]]), compartments = [False, False]
+populations = [2]
+
+    def fine_pool(events, compartments, populations):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:10: NotImplementedError
+_ test_fine_pool_malformed_events_or_mapping_are_not_silently_assigned[events7-comp7-pops7] _
+
+events = array([[0, 0],
+       [0, 0]]), comp = [0], pops = [2]
+
+    @pytest.mark.parametrize('events,comp,pops', [
+        (np.array([[2, 0]]), [0, 0], [2]),
+        (np.array([[-1, 1]]), [0, 0], [2]),
+        (np.array([[1.0, 0.0]]), [0, 0], [2]),
+        (np.zeros((2, 2), int), [0, 0], [1]),
+        (np.zeros((2, 2), int), [0, 1], [2]),
+        (np.zeros((2, 2), int), [0.0, 0.0], [2]),
+        (np.zeros((2, 2), int), [False, False], [2]),
+        (np.zeros((2, 2), int), [0], [2]),
+    ])
+    def test_fine_pool_malformed_events_or_mapping_are_not_silently_assigned(events, comp, pops):
+        with pytest.raises(ValueError):
+>           m.fine_pool(events, comp, pops)
+
+output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py:177: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+events = array([[0, 0],
+       [0, 0]]), compartments = [0], populations = [2]
+
+    def fine_pool(events, compartments, populations):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/dan_causal_prefix.py:10: NotImplementedError
+=========================== short test summary info ============================
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_every_representable_population_count_decodes_exactly[1]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_every_representable_population_count_decodes_exactly[2]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_every_representable_population_count_decodes_exactly[3]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_every_representable_population_count_decodes_exactly[7]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_every_representable_population_count_decodes_exactly[22]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_every_representable_population_count_decodes_exactly[31]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_every_representable_population_count_decodes_exactly[127]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_one_ulp_corruption_is_not_rounded_to_an_event_count[-inf-2-0]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_one_ulp_corruption_is_not_rounded_to_an_event_count[-inf-2-1]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_one_ulp_corruption_is_not_rounded_to_an_event_count[-inf-2-2]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_one_ulp_corruption_is_not_rounded_to_an_event_count[-inf-22-0]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_one_ulp_corruption_is_not_rounded_to_an_event_count[-inf-22-1]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_one_ulp_corruption_is_not_rounded_to_an_event_count[-inf-22-11]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_one_ulp_corruption_is_not_rounded_to_an_event_count[-inf-22-22]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_one_ulp_corruption_is_not_rounded_to_an_event_count[inf-2-0]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_one_ulp_corruption_is_not_rounded_to_an_event_count[inf-2-1]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_one_ulp_corruption_is_not_rounded_to_an_event_count[inf-2-2]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_one_ulp_corruption_is_not_rounded_to_an_event_count[inf-22-0]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_one_ulp_corruption_is_not_rounded_to_an_event_count[inf-22-1]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_one_ulp_corruption_is_not_rounded_to_an_event_count[inf-22-11]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_one_ulp_corruption_is_not_rounded_to_an_event_count[inf-22-22]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_malformed_count_or_population_family_fails_closed[a0-p0]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_malformed_count_or_population_family_fails_closed[a1-p1]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_malformed_count_or_population_family_fails_closed[a2-p2]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_malformed_count_or_population_family_fails_closed[a3-p3]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_malformed_count_or_population_family_fails_closed[a4-p4]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_malformed_count_or_population_family_fails_closed[a5-p5]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_malformed_count_or_population_family_fails_closed[a6-p6]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_malformed_count_or_population_family_fails_closed[a7-p7]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_malformed_count_or_population_family_fails_closed[a8-p8]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_malformed_count_or_population_family_fails_closed[a9-p9]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_malformed_count_or_population_family_fails_closed[a10-p10]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_malformed_count_or_population_family_fails_closed[a11-p11]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_malformed_count_or_population_family_fails_closed[a12-p12]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_first_actual_difference_in_either_channel_is_inclusive_kc_boundary[0-4]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_first_actual_difference_in_either_channel_is_inclusive_kc_boundary[0-5]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_first_actual_difference_in_either_channel_is_inclusive_kc_boundary[0-8]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_first_actual_difference_in_either_channel_is_inclusive_kc_boundary[0-11]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_first_actual_difference_in_either_channel_is_inclusive_kc_boundary[1-4]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_first_actual_difference_in_either_channel_is_inclusive_kc_boundary[1-5]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_first_actual_difference_in_either_channel_is_inclusive_kc_boundary[1-8]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_first_actual_difference_in_either_channel_is_inclusive_kc_boundary[1-11]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_rule_and_kc_can_diverge_only_later_or_never_after_changed_dan
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_prefix_violation_fails_even_if_later_waveforms_look_valid[4-kc_total_taught]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_prefix_violation_fails_even_if_later_waveforms_look_valid[4-kc_used_taught]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_prefix_violation_fails_even_if_later_waveforms_look_valid[4-rule_taught]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_prefix_violation_fails_even_if_later_waveforms_look_valid[8-kc_total_taught]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_prefix_violation_fails_even_if_later_waveforms_look_valid[8-kc_used_taught]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_prefix_violation_fails_even_if_later_waveforms_look_valid[8-rule_taught]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_actual_difference_before_first_scheduled_pulse_rejects_mismatched_inputs[0]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_actual_difference_before_first_scheduled_pulse_rejects_mismatched_inputs[1]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_actual_difference_before_first_scheduled_pulse_rejects_mismatched_inputs[3]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_pooled_collision_preserves_current_bridge_prefix_not_per_cell_identity
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_identical_pools_require_entire_current_bridge_and_kc_observations_equal[kc_total_taught]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_identical_pools_require_entire_current_bridge_and_kc_observations_equal[kc_used_taught]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_identical_pools_require_entire_current_bridge_and_kc_observations_equal[rule_taught]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_shape_mismatch_cannot_broadcast_or_hide_unknown_steps[untaught]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_shape_mismatch_cannot_broadcast_or_hide_unknown_steps[taught]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_shape_mismatch_cannot_broadcast_or_hide_unknown_steps[kc_total_taught]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_shape_mismatch_cannot_broadcast_or_hide_unknown_steps[kc_used_taught]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_shape_mismatch_cannot_broadcast_or_hide_unknown_steps[rule_taught]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_nonfinite_anywhere_is_invalid_even_outside_proven_prefix[kc_total_untaught]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_nonfinite_anywhere_is_invalid_even_outside_proven_prefix[kc_total_taught]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_nonfinite_anywhere_is_invalid_even_outside_proven_prefix[kc_used_untaught]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_nonfinite_anywhere_is_invalid_even_outside_proven_prefix[kc_used_taught]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_nonfinite_anywhere_is_invalid_even_outside_proven_prefix[rule_untaught]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_nonfinite_anywhere_is_invalid_even_outside_proven_prefix[rule_taught]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_invalid_pulse_boundary_is_not_silently_coerced[-1]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_invalid_pulse_boundary_is_not_silently_coerced[12]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_invalid_pulse_boundary_is_not_silently_coerced[True]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_invalid_pulse_boundary_is_not_silently_coerced[4.0]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_fine_pool_uses_explicit_compartment_map_with_permutation_invariance
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_fine_pool_malformed_events_or_mapping_are_not_silently_assigned[events0-comp0-pops0]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_fine_pool_malformed_events_or_mapping_are_not_silently_assigned[events1-comp1-pops1]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_fine_pool_malformed_events_or_mapping_are_not_silently_assigned[events2-comp2-pops2]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_fine_pool_malformed_events_or_mapping_are_not_silently_assigned[events3-comp3-pops3]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_fine_pool_malformed_events_or_mapping_are_not_silently_assigned[events4-comp4-pops4]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_fine_pool_malformed_events_or_mapping_are_not_silently_assigned[events5-comp5-pops5]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_fine_pool_malformed_events_or_mapping_are_not_silently_assigned[events6-comp6-pops6]
+FAILED output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py::test_fine_pool_malformed_events_or_mapping_are_not_silently_assigned[events7-comp7-pops7]
+80 failed in 0.35s

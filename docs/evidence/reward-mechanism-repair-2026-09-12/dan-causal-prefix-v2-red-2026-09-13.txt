@@ -1,0 +1,568 @@
+........................................................................ [ 61%]
+.............FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF                           [100%]
+=================================== FAILURES ===================================
+_______________ test_exact_source_int64_sampled_contract_passes ________________
+
+    def test_exact_source_int64_sampled_contract_passes():
+        s,maps,_,_=fixture();s['n']=13;outputs,sampled=source_sampled(maps)
+        assert sampled.dtype==np.dtype('int64')
+>       m.validate_main_sampled(sampled,outputs,maps,s)
+        ^^^^^^^^^^^^^^^^^^^^^^^
+E       AttributeError: module 'prefix_driver_v2' has no attribute 'validate_main_sampled'
+
+output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py:753: AttributeError
+_______ test_main_sampled_type_order_identity_family_is_strict[float32] ________
+
+bad = 'float32'
+
+    @pytest.mark.parametrize('bad', ['float32','float64','bool','int32','uint64','missing','extra','duplicate','order','identity','negative','out_of_range'])
+    def test_main_sampled_type_order_identity_family_is_strict(bad):
+        s,maps,_,_=fixture();s['n']=14;outputs,a=source_sampled(maps)
+        if bad in ['float32','float64','bool','int32','uint64']:a=a.astype(bad)
+        elif bad=='missing':a=a[:-1]
+        elif bad=='extra':a=np.append(a,np.int64(13))
+        elif bad=='duplicate':a[-1]=a[-2]
+        elif bad=='order':a[[0,1]]=a[[1,0]]
+        elif bad=='identity':a[0]=13
+        elif bad=='negative':a[-1]=-1
+        else:a[-1]=14
+>       with pytest.raises(ValueError):m.validate_main_sampled(a,outputs,maps,s)
+                                       ^^^^^^^^^^^^^^^^^^^^^^^
+E       AttributeError: module 'prefix_driver_v2' has no attribute 'validate_main_sampled'
+
+output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py:767: AttributeError
+_______ test_main_sampled_type_order_identity_family_is_strict[float64] ________
+
+bad = 'float64'
+
+    @pytest.mark.parametrize('bad', ['float32','float64','bool','int32','uint64','missing','extra','duplicate','order','identity','negative','out_of_range'])
+    def test_main_sampled_type_order_identity_family_is_strict(bad):
+        s,maps,_,_=fixture();s['n']=14;outputs,a=source_sampled(maps)
+        if bad in ['float32','float64','bool','int32','uint64']:a=a.astype(bad)
+        elif bad=='missing':a=a[:-1]
+        elif bad=='extra':a=np.append(a,np.int64(13))
+        elif bad=='duplicate':a[-1]=a[-2]
+        elif bad=='order':a[[0,1]]=a[[1,0]]
+        elif bad=='identity':a[0]=13
+        elif bad=='negative':a[-1]=-1
+        else:a[-1]=14
+>       with pytest.raises(ValueError):m.validate_main_sampled(a,outputs,maps,s)
+                                       ^^^^^^^^^^^^^^^^^^^^^^^
+E       AttributeError: module 'prefix_driver_v2' has no attribute 'validate_main_sampled'
+
+output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py:767: AttributeError
+_________ test_main_sampled_type_order_identity_family_is_strict[bool] _________
+
+bad = 'bool'
+
+    @pytest.mark.parametrize('bad', ['float32','float64','bool','int32','uint64','missing','extra','duplicate','order','identity','negative','out_of_range'])
+    def test_main_sampled_type_order_identity_family_is_strict(bad):
+        s,maps,_,_=fixture();s['n']=14;outputs,a=source_sampled(maps)
+        if bad in ['float32','float64','bool','int32','uint64']:a=a.astype(bad)
+        elif bad=='missing':a=a[:-1]
+        elif bad=='extra':a=np.append(a,np.int64(13))
+        elif bad=='duplicate':a[-1]=a[-2]
+        elif bad=='order':a[[0,1]]=a[[1,0]]
+        elif bad=='identity':a[0]=13
+        elif bad=='negative':a[-1]=-1
+        else:a[-1]=14
+>       with pytest.raises(ValueError):m.validate_main_sampled(a,outputs,maps,s)
+                                       ^^^^^^^^^^^^^^^^^^^^^^^
+E       AttributeError: module 'prefix_driver_v2' has no attribute 'validate_main_sampled'
+
+output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py:767: AttributeError
+________ test_main_sampled_type_order_identity_family_is_strict[int32] _________
+
+bad = 'int32'
+
+    @pytest.mark.parametrize('bad', ['float32','float64','bool','int32','uint64','missing','extra','duplicate','order','identity','negative','out_of_range'])
+    def test_main_sampled_type_order_identity_family_is_strict(bad):
+        s,maps,_,_=fixture();s['n']=14;outputs,a=source_sampled(maps)
+        if bad in ['float32','float64','bool','int32','uint64']:a=a.astype(bad)
+        elif bad=='missing':a=a[:-1]
+        elif bad=='extra':a=np.append(a,np.int64(13))
+        elif bad=='duplicate':a[-1]=a[-2]
+        elif bad=='order':a[[0,1]]=a[[1,0]]
+        elif bad=='identity':a[0]=13
+        elif bad=='negative':a[-1]=-1
+        else:a[-1]=14
+>       with pytest.raises(ValueError):m.validate_main_sampled(a,outputs,maps,s)
+                                       ^^^^^^^^^^^^^^^^^^^^^^^
+E       AttributeError: module 'prefix_driver_v2' has no attribute 'validate_main_sampled'
+
+output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py:767: AttributeError
+________ test_main_sampled_type_order_identity_family_is_strict[uint64] ________
+
+bad = 'uint64'
+
+    @pytest.mark.parametrize('bad', ['float32','float64','bool','int32','uint64','missing','extra','duplicate','order','identity','negative','out_of_range'])
+    def test_main_sampled_type_order_identity_family_is_strict(bad):
+        s,maps,_,_=fixture();s['n']=14;outputs,a=source_sampled(maps)
+        if bad in ['float32','float64','bool','int32','uint64']:a=a.astype(bad)
+        elif bad=='missing':a=a[:-1]
+        elif bad=='extra':a=np.append(a,np.int64(13))
+        elif bad=='duplicate':a[-1]=a[-2]
+        elif bad=='order':a[[0,1]]=a[[1,0]]
+        elif bad=='identity':a[0]=13
+        elif bad=='negative':a[-1]=-1
+        else:a[-1]=14
+>       with pytest.raises(ValueError):m.validate_main_sampled(a,outputs,maps,s)
+                                       ^^^^^^^^^^^^^^^^^^^^^^^
+E       AttributeError: module 'prefix_driver_v2' has no attribute 'validate_main_sampled'
+
+output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py:767: AttributeError
+_______ test_main_sampled_type_order_identity_family_is_strict[missing] ________
+
+bad = 'missing'
+
+    @pytest.mark.parametrize('bad', ['float32','float64','bool','int32','uint64','missing','extra','duplicate','order','identity','negative','out_of_range'])
+    def test_main_sampled_type_order_identity_family_is_strict(bad):
+        s,maps,_,_=fixture();s['n']=14;outputs,a=source_sampled(maps)
+        if bad in ['float32','float64','bool','int32','uint64']:a=a.astype(bad)
+        elif bad=='missing':a=a[:-1]
+        elif bad=='extra':a=np.append(a,np.int64(13))
+        elif bad=='duplicate':a[-1]=a[-2]
+        elif bad=='order':a[[0,1]]=a[[1,0]]
+        elif bad=='identity':a[0]=13
+        elif bad=='negative':a[-1]=-1
+        else:a[-1]=14
+>       with pytest.raises(ValueError):m.validate_main_sampled(a,outputs,maps,s)
+                                       ^^^^^^^^^^^^^^^^^^^^^^^
+E       AttributeError: module 'prefix_driver_v2' has no attribute 'validate_main_sampled'
+
+output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py:767: AttributeError
+________ test_main_sampled_type_order_identity_family_is_strict[extra] _________
+
+bad = 'extra'
+
+    @pytest.mark.parametrize('bad', ['float32','float64','bool','int32','uint64','missing','extra','duplicate','order','identity','negative','out_of_range'])
+    def test_main_sampled_type_order_identity_family_is_strict(bad):
+        s,maps,_,_=fixture();s['n']=14;outputs,a=source_sampled(maps)
+        if bad in ['float32','float64','bool','int32','uint64']:a=a.astype(bad)
+        elif bad=='missing':a=a[:-1]
+        elif bad=='extra':a=np.append(a,np.int64(13))
+        elif bad=='duplicate':a[-1]=a[-2]
+        elif bad=='order':a[[0,1]]=a[[1,0]]
+        elif bad=='identity':a[0]=13
+        elif bad=='negative':a[-1]=-1
+        else:a[-1]=14
+>       with pytest.raises(ValueError):m.validate_main_sampled(a,outputs,maps,s)
+                                       ^^^^^^^^^^^^^^^^^^^^^^^
+E       AttributeError: module 'prefix_driver_v2' has no attribute 'validate_main_sampled'
+
+output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py:767: AttributeError
+______ test_main_sampled_type_order_identity_family_is_strict[duplicate] _______
+
+bad = 'duplicate'
+
+    @pytest.mark.parametrize('bad', ['float32','float64','bool','int32','uint64','missing','extra','duplicate','order','identity','negative','out_of_range'])
+    def test_main_sampled_type_order_identity_family_is_strict(bad):
+        s,maps,_,_=fixture();s['n']=14;outputs,a=source_sampled(maps)
+        if bad in ['float32','float64','bool','int32','uint64']:a=a.astype(bad)
+        elif bad=='missing':a=a[:-1]
+        elif bad=='extra':a=np.append(a,np.int64(13))
+        elif bad=='duplicate':a[-1]=a[-2]
+        elif bad=='order':a[[0,1]]=a[[1,0]]
+        elif bad=='identity':a[0]=13
+        elif bad=='negative':a[-1]=-1
+        else:a[-1]=14
+>       with pytest.raises(ValueError):m.validate_main_sampled(a,outputs,maps,s)
+                                       ^^^^^^^^^^^^^^^^^^^^^^^
+E       AttributeError: module 'prefix_driver_v2' has no attribute 'validate_main_sampled'
+
+output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py:767: AttributeError
+________ test_main_sampled_type_order_identity_family_is_strict[order] _________
+
+bad = 'order'
+
+    @pytest.mark.parametrize('bad', ['float32','float64','bool','int32','uint64','missing','extra','duplicate','order','identity','negative','out_of_range'])
+    def test_main_sampled_type_order_identity_family_is_strict(bad):
+        s,maps,_,_=fixture();s['n']=14;outputs,a=source_sampled(maps)
+        if bad in ['float32','float64','bool','int32','uint64']:a=a.astype(bad)
+        elif bad=='missing':a=a[:-1]
+        elif bad=='extra':a=np.append(a,np.int64(13))
+        elif bad=='duplicate':a[-1]=a[-2]
+        elif bad=='order':a[[0,1]]=a[[1,0]]
+        elif bad=='identity':a[0]=13
+        elif bad=='negative':a[-1]=-1
+        else:a[-1]=14
+>       with pytest.raises(ValueError):m.validate_main_sampled(a,outputs,maps,s)
+                                       ^^^^^^^^^^^^^^^^^^^^^^^
+E       AttributeError: module 'prefix_driver_v2' has no attribute 'validate_main_sampled'
+
+output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py:767: AttributeError
+_______ test_main_sampled_type_order_identity_family_is_strict[identity] _______
+
+bad = 'identity'
+
+    @pytest.mark.parametrize('bad', ['float32','float64','bool','int32','uint64','missing','extra','duplicate','order','identity','negative','out_of_range'])
+    def test_main_sampled_type_order_identity_family_is_strict(bad):
+        s,maps,_,_=fixture();s['n']=14;outputs,a=source_sampled(maps)
+        if bad in ['float32','float64','bool','int32','uint64']:a=a.astype(bad)
+        elif bad=='missing':a=a[:-1]
+        elif bad=='extra':a=np.append(a,np.int64(13))
+        elif bad=='duplicate':a[-1]=a[-2]
+        elif bad=='order':a[[0,1]]=a[[1,0]]
+        elif bad=='identity':a[0]=13
+        elif bad=='negative':a[-1]=-1
+        else:a[-1]=14
+>       with pytest.raises(ValueError):m.validate_main_sampled(a,outputs,maps,s)
+                                       ^^^^^^^^^^^^^^^^^^^^^^^
+E       AttributeError: module 'prefix_driver_v2' has no attribute 'validate_main_sampled'
+
+output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py:767: AttributeError
+_______ test_main_sampled_type_order_identity_family_is_strict[negative] _______
+
+bad = 'negative'
+
+    @pytest.mark.parametrize('bad', ['float32','float64','bool','int32','uint64','missing','extra','duplicate','order','identity','negative','out_of_range'])
+    def test_main_sampled_type_order_identity_family_is_strict(bad):
+        s,maps,_,_=fixture();s['n']=14;outputs,a=source_sampled(maps)
+        if bad in ['float32','float64','bool','int32','uint64']:a=a.astype(bad)
+        elif bad=='missing':a=a[:-1]
+        elif bad=='extra':a=np.append(a,np.int64(13))
+        elif bad=='duplicate':a[-1]=a[-2]
+        elif bad=='order':a[[0,1]]=a[[1,0]]
+        elif bad=='identity':a[0]=13
+        elif bad=='negative':a[-1]=-1
+        else:a[-1]=14
+>       with pytest.raises(ValueError):m.validate_main_sampled(a,outputs,maps,s)
+                                       ^^^^^^^^^^^^^^^^^^^^^^^
+E       AttributeError: module 'prefix_driver_v2' has no attribute 'validate_main_sampled'
+
+output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py:767: AttributeError
+_____ test_main_sampled_type_order_identity_family_is_strict[out_of_range] _____
+
+bad = 'out_of_range'
+
+    @pytest.mark.parametrize('bad', ['float32','float64','bool','int32','uint64','missing','extra','duplicate','order','identity','negative','out_of_range'])
+    def test_main_sampled_type_order_identity_family_is_strict(bad):
+        s,maps,_,_=fixture();s['n']=14;outputs,a=source_sampled(maps)
+        if bad in ['float32','float64','bool','int32','uint64']:a=a.astype(bad)
+        elif bad=='missing':a=a[:-1]
+        elif bad=='extra':a=np.append(a,np.int64(13))
+        elif bad=='duplicate':a[-1]=a[-2]
+        elif bad=='order':a[[0,1]]=a[[1,0]]
+        elif bad=='identity':a[0]=13
+        elif bad=='negative':a[-1]=-1
+        else:a[-1]=14
+>       with pytest.raises(ValueError):m.validate_main_sampled(a,outputs,maps,s)
+                                       ^^^^^^^^^^^^^^^^^^^^^^^
+E       AttributeError: module 'prefix_driver_v2' has no attribute 'validate_main_sampled'
+
+output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py:767: AttributeError
+________ test_retained_graph_indices_reject_dtype_coercion[kc-float32] _________
+
+role = 'kc', dtype = 'float32'
+
+    @pytest.mark.parametrize('dtype', ['float32','float64','bool','int64','uint32'])
+    @pytest.mark.parametrize('role', ['kc','sensory','mbon'])
+    def test_retained_graph_indices_reject_dtype_coercion(role,dtype):
+        original=np.array([0,2],np.int32)
+>       m.validate_graph_indices(original,2,4,role)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+E       AttributeError: module 'prefix_driver_v2' has no attribute 'validate_graph_indices'
+
+output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py:774: AttributeError
+________ test_retained_graph_indices_reject_dtype_coercion[kc-float64] _________
+
+role = 'kc', dtype = 'float64'
+
+    @pytest.mark.parametrize('dtype', ['float32','float64','bool','int64','uint32'])
+    @pytest.mark.parametrize('role', ['kc','sensory','mbon'])
+    def test_retained_graph_indices_reject_dtype_coercion(role,dtype):
+        original=np.array([0,2],np.int32)
+>       m.validate_graph_indices(original,2,4,role)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+E       AttributeError: module 'prefix_driver_v2' has no attribute 'validate_graph_indices'
+
+output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py:774: AttributeError
+__________ test_retained_graph_indices_reject_dtype_coercion[kc-bool] __________
+
+role = 'kc', dtype = 'bool'
+
+    @pytest.mark.parametrize('dtype', ['float32','float64','bool','int64','uint32'])
+    @pytest.mark.parametrize('role', ['kc','sensory','mbon'])
+    def test_retained_graph_indices_reject_dtype_coercion(role,dtype):
+        original=np.array([0,2],np.int32)
+>       m.validate_graph_indices(original,2,4,role)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+E       AttributeError: module 'prefix_driver_v2' has no attribute 'validate_graph_indices'
+
+output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py:774: AttributeError
+_________ test_retained_graph_indices_reject_dtype_coercion[kc-int64] __________
+
+role = 'kc', dtype = 'int64'
+
+    @pytest.mark.parametrize('dtype', ['float32','float64','bool','int64','uint32'])
+    @pytest.mark.parametrize('role', ['kc','sensory','mbon'])
+    def test_retained_graph_indices_reject_dtype_coercion(role,dtype):
+        original=np.array([0,2],np.int32)
+>       m.validate_graph_indices(original,2,4,role)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+E       AttributeError: module 'prefix_driver_v2' has no attribute 'validate_graph_indices'
+
+output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py:774: AttributeError
+_________ test_retained_graph_indices_reject_dtype_coercion[kc-uint32] _________
+
+role = 'kc', dtype = 'uint32'
+
+    @pytest.mark.parametrize('dtype', ['float32','float64','bool','int64','uint32'])
+    @pytest.mark.parametrize('role', ['kc','sensory','mbon'])
+    def test_retained_graph_indices_reject_dtype_coercion(role,dtype):
+        original=np.array([0,2],np.int32)
+>       m.validate_graph_indices(original,2,4,role)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+E       AttributeError: module 'prefix_driver_v2' has no attribute 'validate_graph_indices'
+
+output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py:774: AttributeError
+______ test_retained_graph_indices_reject_dtype_coercion[sensory-float32] ______
+
+role = 'sensory', dtype = 'float32'
+
+    @pytest.mark.parametrize('dtype', ['float32','float64','bool','int64','uint32'])
+    @pytest.mark.parametrize('role', ['kc','sensory','mbon'])
+    def test_retained_graph_indices_reject_dtype_coercion(role,dtype):
+        original=np.array([0,2],np.int32)
+>       m.validate_graph_indices(original,2,4,role)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+E       AttributeError: module 'prefix_driver_v2' has no attribute 'validate_graph_indices'
+
+output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py:774: AttributeError
+______ test_retained_graph_indices_reject_dtype_coercion[sensory-float64] ______
+
+role = 'sensory', dtype = 'float64'
+
+    @pytest.mark.parametrize('dtype', ['float32','float64','bool','int64','uint32'])
+    @pytest.mark.parametrize('role', ['kc','sensory','mbon'])
+    def test_retained_graph_indices_reject_dtype_coercion(role,dtype):
+        original=np.array([0,2],np.int32)
+>       m.validate_graph_indices(original,2,4,role)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+E       AttributeError: module 'prefix_driver_v2' has no attribute 'validate_graph_indices'
+
+output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py:774: AttributeError
+_______ test_retained_graph_indices_reject_dtype_coercion[sensory-bool] ________
+
+role = 'sensory', dtype = 'bool'
+
+    @pytest.mark.parametrize('dtype', ['float32','float64','bool','int64','uint32'])
+    @pytest.mark.parametrize('role', ['kc','sensory','mbon'])
+    def test_retained_graph_indices_reject_dtype_coercion(role,dtype):
+        original=np.array([0,2],np.int32)
+>       m.validate_graph_indices(original,2,4,role)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+E       AttributeError: module 'prefix_driver_v2' has no attribute 'validate_graph_indices'
+
+output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py:774: AttributeError
+_______ test_retained_graph_indices_reject_dtype_coercion[sensory-int64] _______
+
+role = 'sensory', dtype = 'int64'
+
+    @pytest.mark.parametrize('dtype', ['float32','float64','bool','int64','uint32'])
+    @pytest.mark.parametrize('role', ['kc','sensory','mbon'])
+    def test_retained_graph_indices_reject_dtype_coercion(role,dtype):
+        original=np.array([0,2],np.int32)
+>       m.validate_graph_indices(original,2,4,role)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+E       AttributeError: module 'prefix_driver_v2' has no attribute 'validate_graph_indices'
+
+output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py:774: AttributeError
+______ test_retained_graph_indices_reject_dtype_coercion[sensory-uint32] _______
+
+role = 'sensory', dtype = 'uint32'
+
+    @pytest.mark.parametrize('dtype', ['float32','float64','bool','int64','uint32'])
+    @pytest.mark.parametrize('role', ['kc','sensory','mbon'])
+    def test_retained_graph_indices_reject_dtype_coercion(role,dtype):
+        original=np.array([0,2],np.int32)
+>       m.validate_graph_indices(original,2,4,role)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+E       AttributeError: module 'prefix_driver_v2' has no attribute 'validate_graph_indices'
+
+output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py:774: AttributeError
+_______ test_retained_graph_indices_reject_dtype_coercion[mbon-float32] ________
+
+role = 'mbon', dtype = 'float32'
+
+    @pytest.mark.parametrize('dtype', ['float32','float64','bool','int64','uint32'])
+    @pytest.mark.parametrize('role', ['kc','sensory','mbon'])
+    def test_retained_graph_indices_reject_dtype_coercion(role,dtype):
+        original=np.array([0,2],np.int32)
+>       m.validate_graph_indices(original,2,4,role)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+E       AttributeError: module 'prefix_driver_v2' has no attribute 'validate_graph_indices'
+
+output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py:774: AttributeError
+_______ test_retained_graph_indices_reject_dtype_coercion[mbon-float64] ________
+
+role = 'mbon', dtype = 'float64'
+
+    @pytest.mark.parametrize('dtype', ['float32','float64','bool','int64','uint32'])
+    @pytest.mark.parametrize('role', ['kc','sensory','mbon'])
+    def test_retained_graph_indices_reject_dtype_coercion(role,dtype):
+        original=np.array([0,2],np.int32)
+>       m.validate_graph_indices(original,2,4,role)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+E       AttributeError: module 'prefix_driver_v2' has no attribute 'validate_graph_indices'
+
+output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py:774: AttributeError
+_________ test_retained_graph_indices_reject_dtype_coercion[mbon-bool] _________
+
+role = 'mbon', dtype = 'bool'
+
+    @pytest.mark.parametrize('dtype', ['float32','float64','bool','int64','uint32'])
+    @pytest.mark.parametrize('role', ['kc','sensory','mbon'])
+    def test_retained_graph_indices_reject_dtype_coercion(role,dtype):
+        original=np.array([0,2],np.int32)
+>       m.validate_graph_indices(original,2,4,role)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+E       AttributeError: module 'prefix_driver_v2' has no attribute 'validate_graph_indices'
+
+output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py:774: AttributeError
+________ test_retained_graph_indices_reject_dtype_coercion[mbon-int64] _________
+
+role = 'mbon', dtype = 'int64'
+
+    @pytest.mark.parametrize('dtype', ['float32','float64','bool','int64','uint32'])
+    @pytest.mark.parametrize('role', ['kc','sensory','mbon'])
+    def test_retained_graph_indices_reject_dtype_coercion(role,dtype):
+        original=np.array([0,2],np.int32)
+>       m.validate_graph_indices(original,2,4,role)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+E       AttributeError: module 'prefix_driver_v2' has no attribute 'validate_graph_indices'
+
+output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py:774: AttributeError
+________ test_retained_graph_indices_reject_dtype_coercion[mbon-uint32] ________
+
+role = 'mbon', dtype = 'uint32'
+
+    @pytest.mark.parametrize('dtype', ['float32','float64','bool','int64','uint32'])
+    @pytest.mark.parametrize('role', ['kc','sensory','mbon'])
+    def test_retained_graph_indices_reject_dtype_coercion(role,dtype):
+        original=np.array([0,2],np.int32)
+>       m.validate_graph_indices(original,2,4,role)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+E       AttributeError: module 'prefix_driver_v2' has no attribute 'validate_graph_indices'
+
+output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py:774: AttributeError
+___________ test_graph_index_shape_range_identity_family[duplicate] ____________
+
+bad = 'duplicate'
+
+    @pytest.mark.parametrize('bad', ['duplicate','negative','out_of_range','missing','matrix'])
+    def test_graph_index_shape_range_identity_family(bad):
+        a=np.array([0,2],np.int32)
+        if bad=='duplicate':a[1]=0
+        elif bad=='negative':a[0]=-1
+        elif bad=='out_of_range':a[1]=4
+        elif bad=='missing':a=a[:-1]
+        else:a=a.reshape(1,2)
+>       with pytest.raises(ValueError):m.validate_graph_indices(a,2,4,'synthetic')
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^
+E       AttributeError: module 'prefix_driver_v2' has no attribute 'validate_graph_indices'
+
+output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py:786: AttributeError
+____________ test_graph_index_shape_range_identity_family[negative] ____________
+
+bad = 'negative'
+
+    @pytest.mark.parametrize('bad', ['duplicate','negative','out_of_range','missing','matrix'])
+    def test_graph_index_shape_range_identity_family(bad):
+        a=np.array([0,2],np.int32)
+        if bad=='duplicate':a[1]=0
+        elif bad=='negative':a[0]=-1
+        elif bad=='out_of_range':a[1]=4
+        elif bad=='missing':a=a[:-1]
+        else:a=a.reshape(1,2)
+>       with pytest.raises(ValueError):m.validate_graph_indices(a,2,4,'synthetic')
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^
+E       AttributeError: module 'prefix_driver_v2' has no attribute 'validate_graph_indices'
+
+output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py:786: AttributeError
+__________ test_graph_index_shape_range_identity_family[out_of_range] __________
+
+bad = 'out_of_range'
+
+    @pytest.mark.parametrize('bad', ['duplicate','negative','out_of_range','missing','matrix'])
+    def test_graph_index_shape_range_identity_family(bad):
+        a=np.array([0,2],np.int32)
+        if bad=='duplicate':a[1]=0
+        elif bad=='negative':a[0]=-1
+        elif bad=='out_of_range':a[1]=4
+        elif bad=='missing':a=a[:-1]
+        else:a=a.reshape(1,2)
+>       with pytest.raises(ValueError):m.validate_graph_indices(a,2,4,'synthetic')
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^
+E       AttributeError: module 'prefix_driver_v2' has no attribute 'validate_graph_indices'
+
+output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py:786: AttributeError
+____________ test_graph_index_shape_range_identity_family[missing] _____________
+
+bad = 'missing'
+
+    @pytest.mark.parametrize('bad', ['duplicate','negative','out_of_range','missing','matrix'])
+    def test_graph_index_shape_range_identity_family(bad):
+        a=np.array([0,2],np.int32)
+        if bad=='duplicate':a[1]=0
+        elif bad=='negative':a[0]=-1
+        elif bad=='out_of_range':a[1]=4
+        elif bad=='missing':a=a[:-1]
+        else:a=a.reshape(1,2)
+>       with pytest.raises(ValueError):m.validate_graph_indices(a,2,4,'synthetic')
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^
+E       AttributeError: module 'prefix_driver_v2' has no attribute 'validate_graph_indices'
+
+output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py:786: AttributeError
+_____________ test_graph_index_shape_range_identity_family[matrix] _____________
+
+bad = 'matrix'
+
+    @pytest.mark.parametrize('bad', ['duplicate','negative','out_of_range','missing','matrix'])
+    def test_graph_index_shape_range_identity_family(bad):
+        a=np.array([0,2],np.int32)
+        if bad=='duplicate':a[1]=0
+        elif bad=='negative':a[0]=-1
+        elif bad=='out_of_range':a[1]=4
+        elif bad=='missing':a=a[:-1]
+        else:a=a.reshape(1,2)
+>       with pytest.raises(ValueError):m.validate_graph_indices(a,2,4,'synthetic')
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^
+E       AttributeError: module 'prefix_driver_v2' has no attribute 'validate_graph_indices'
+
+output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py:786: AttributeError
+=========================== short test summary info ============================
+FAILED output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py::test_exact_source_int64_sampled_contract_passes
+FAILED output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py::test_main_sampled_type_order_identity_family_is_strict[float32]
+FAILED output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py::test_main_sampled_type_order_identity_family_is_strict[float64]
+FAILED output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py::test_main_sampled_type_order_identity_family_is_strict[bool]
+FAILED output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py::test_main_sampled_type_order_identity_family_is_strict[int32]
+FAILED output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py::test_main_sampled_type_order_identity_family_is_strict[uint64]
+FAILED output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py::test_main_sampled_type_order_identity_family_is_strict[missing]
+FAILED output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py::test_main_sampled_type_order_identity_family_is_strict[extra]
+FAILED output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py::test_main_sampled_type_order_identity_family_is_strict[duplicate]
+FAILED output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py::test_main_sampled_type_order_identity_family_is_strict[order]
+FAILED output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py::test_main_sampled_type_order_identity_family_is_strict[identity]
+FAILED output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py::test_main_sampled_type_order_identity_family_is_strict[negative]
+FAILED output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py::test_main_sampled_type_order_identity_family_is_strict[out_of_range]
+FAILED output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py::test_retained_graph_indices_reject_dtype_coercion[kc-float32]
+FAILED output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py::test_retained_graph_indices_reject_dtype_coercion[kc-float64]
+FAILED output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py::test_retained_graph_indices_reject_dtype_coercion[kc-bool]
+FAILED output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py::test_retained_graph_indices_reject_dtype_coercion[kc-int64]
+FAILED output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py::test_retained_graph_indices_reject_dtype_coercion[kc-uint32]
+FAILED output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py::test_retained_graph_indices_reject_dtype_coercion[sensory-float32]
+FAILED output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py::test_retained_graph_indices_reject_dtype_coercion[sensory-float64]
+FAILED output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py::test_retained_graph_indices_reject_dtype_coercion[sensory-bool]
+FAILED output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py::test_retained_graph_indices_reject_dtype_coercion[sensory-int64]
+FAILED output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py::test_retained_graph_indices_reject_dtype_coercion[sensory-uint32]
+FAILED output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py::test_retained_graph_indices_reject_dtype_coercion[mbon-float32]
+FAILED output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py::test_retained_graph_indices_reject_dtype_coercion[mbon-float64]
+FAILED output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py::test_retained_graph_indices_reject_dtype_coercion[mbon-bool]
+FAILED output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py::test_retained_graph_indices_reject_dtype_coercion[mbon-int64]
+FAILED output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py::test_retained_graph_indices_reject_dtype_coercion[mbon-uint32]
+FAILED output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py::test_graph_index_shape_range_identity_family[duplicate]
+FAILED output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py::test_graph_index_shape_range_identity_family[negative]
+FAILED output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py::test_graph_index_shape_range_identity_family[out_of_range]
+FAILED output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py::test_graph_index_shape_range_identity_family[missing]
+FAILED output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py::test_graph_index_shape_range_identity_family[matrix]
+33 failed, 85 passed in 1.65s

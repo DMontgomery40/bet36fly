@@ -1,0 +1,42 @@
+{
+  "index": 23,
+  "fine_index": 11,
+  "game": 4383,
+  "seed_set": "alt",
+  "seed": 1004425,
+  "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+  "condition": "away",
+  "first_pool_difference_step": 1550,
+  "first_pool_count_difference": [
+    0,
+    22
+  ],
+  "untaught_counts_at_first_difference": [
+    0,
+    0
+  ],
+  "taught_counts_at_first_difference": [
+    0,
+    22
+  ],
+  "kc_equal_through_step": 1550,
+  "rule_equal_before_step": 1550,
+  "first_rule_difference_step": 1550,
+  "first_kc_total_difference_step": null,
+  "first_kc_used_difference_step": null,
+  "total_compartment_count_difference": [
+    0,
+    88
+  ],
+  "per_cell_taught_history_established": false,
+  "scope": "Current pooled bridge conditional prefix only; no new-rule trajectory or post-prefix KC equality.",
+  "whole_prefix_bins": 31,
+  "first_pool_difference_ms": 310.0,
+  "per_cell_dan_different_whole_prefix_bins": [],
+  "per_cell_late_subbin_events": "unknown; pooled equality does not establish individual DAN event equality",
+  "artifact": {
+    "file": "contrast_023.npz",
+    "sha256": "732af61033ae35e521f5ce00c6e884ae5bee933769a5a345cb9bae855ddccc9e",
+    "bytes": 10561
+  }
+}

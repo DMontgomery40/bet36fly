@@ -1,0 +1,427 @@
+{
+  "agent": "/root/dopamine_sources",
+  "at_utc": "2026-09-13T11:54:11.276984+00:00",
+  "status": "pass_saved_JSON_scientific_interpretation_review",
+  "material_findings": [],
+  "reading": {
+    "prior_complete_chain": {
+      "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-prereg-claim-review-dopamine-sources-2026-09-13.json",
+      "bytes": 8004,
+      "sha256": "877a4115ea76960fe82372e2986405162859cd1cd281638c65f176ad83b0297c"
+    },
+    "prior_v1_correction_review": {
+      "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-v2-reader-claim-review-dopamine-sources-2026-09-13.json",
+      "bytes": 4470,
+      "sha256": "0d69da95628d7fec4bdce2b694f0fa64189d6810206d38f9e658a10440d81a75"
+    },
+    "personally_read_complete_contrasts": [
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_000.json",
+        "bytes": 1168,
+        "sha256": "48334b9eb2e8ddf67b7e8c2583ccfa9429bcf5ad0188c3f65d1bf6cee30e0d99"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_001.json",
+        "bytes": 1171,
+        "sha256": "a6dd41a4d50c697b8fa5d9f91c466eb3c9648f380bdb90358c1fe12aa20f5aac"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_002.json",
+        "bytes": 1169,
+        "sha256": "f21aba9cdcda25795599350cf4238e154d84dc88febc3530a95f378505432504"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_003.json",
+        "bytes": 1172,
+        "sha256": "781b51c42625850bffd42ca318f8cfdf898f852e66e74cba51ec10f703901e7d"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_004.json",
+        "bytes": 1167,
+        "sha256": "4d744e0dc972180916467a29a1a8e9caccdfdab984837a950415baedcb0057f7"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_005.json",
+        "bytes": 1170,
+        "sha256": "5e18bd2253b37b2f38126759fe5800a81c971d5ced7a1190c9a4365775c92c72"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_006.json",
+        "bytes": 1169,
+        "sha256": "edea4f6c052fdd94b110e17c5d37661428cfbd982ff355eb1816e7c2a6a228cb"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_007.json",
+        "bytes": 1172,
+        "sha256": "b449e8ea9047180dd35a32cac1d121eb5f86203a741da30793ed8833322ca821"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_008.json",
+        "bytes": 1168,
+        "sha256": "d904b700a92e9230274d6b6ff92ae7eb3749e0e18cdca11db116748b7777493d"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_009.json",
+        "bytes": 1171,
+        "sha256": "5088b82da0d458552e761d1532b6db055d2c1033fce7763bb8c2255a7eaba0f1"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_010.json",
+        "bytes": 1171,
+        "sha256": "447a258e288cb7b69c739b8cf0bf9941328c99cb8405819f186500381b584f25"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_011.json",
+        "bytes": 1174,
+        "sha256": "cb33bd9e2c9ddd0e92d8e51abd1ca7b51408cd574c2fbdf9d6889e22914b3395"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_012.json",
+        "bytes": 1168,
+        "sha256": "46165f97905cdd2c9d97c5dbdb5ea525496857f1c881ffef895b941e97e51664"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_013.json",
+        "bytes": 1171,
+        "sha256": "4491975216037d0d0753e5ca788efec8804798b669de3890c42ef4dc355b0b5c"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_014.json",
+        "bytes": 1170,
+        "sha256": "e0354087056740cc7a1f80bdc1396931467efadd73b5b709a245194e42bc35db"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_015.json",
+        "bytes": 1173,
+        "sha256": "1c98d82b9959ddffc4bad4738a6adac84bd3a18d4d7a6a3dfa1c7707132ff3c6"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_016.json",
+        "bytes": 1169,
+        "sha256": "21dcdf53772aa62f49b1f4795c04569a8e8f41d0bbb94a850967e53a006b5981"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_017.json",
+        "bytes": 1172,
+        "sha256": "2c8b52042d9096772353a7106e63073419125e17944379e30dac2d0f0b973115"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_018.json",
+        "bytes": 1171,
+        "sha256": "550a4188daf55ebf0fd0e5c0f93cf5452ec083950661849fb6b3226dff7747ff"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_019.json",
+        "bytes": 1174,
+        "sha256": "3dd492e34058b79216a0e8a8db11848659f741e719e26751dd65783cf30d4977"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_020.json",
+        "bytes": 1170,
+        "sha256": "a9cefd684e9c746270b345281e97d8088c98f58edbf540e9a0137539963c3264"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_021.json",
+        "bytes": 1173,
+        "sha256": "ef545a331b0d633b911a06655e651ac649ed2885f25995d8bbe848cd623d5a28"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_022.json",
+        "bytes": 1172,
+        "sha256": "2e20bf7ec3788da098c3995f23e664d80a15c84c1bc19744fa0244830df5fb46"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_023.json",
+        "bytes": 1175,
+        "sha256": "ac7f456b85a8182ef5b1f3fbda294a099c0de27376effb5f0fcca98fb7d360a7"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_024.json",
+        "bytes": 1170,
+        "sha256": "4918216ca78e55ade6e3a9151996de1f18a1ed85670093c5ef89cde9caef86b7"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_025.json",
+        "bytes": 1173,
+        "sha256": "78ea07a744ba72cad75aad5bb4680248df3ef8892f3e32bbe30f3450478a0543"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_026.json",
+        "bytes": 1172,
+        "sha256": "90a7adc13cfb85e9f16c0f9b8b0dce86f90ef8c894aa485c99083dee3794966e"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_027.json",
+        "bytes": 1175,
+        "sha256": "e77929a4abd14bdcb1322345339cf03b48d6a267dd51682235a14197040ae8de"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_028.json",
+        "bytes": 1169,
+        "sha256": "43a141db9b9bb0c42b6029cb69e61d85189abf0edec395e1d37fcaadad4143bf"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_029.json",
+        "bytes": 1172,
+        "sha256": "5ebd22bae9d6da4ed417f7e67761700175fee2bbdc05481b1be3bf22264a5207"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_030.json",
+        "bytes": 1171,
+        "sha256": "02cabadcce192c3203e2cf805b279e27d895ae4793623af2a9beae08d1f5f938"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_031.json",
+        "bytes": 1174,
+        "sha256": "0f888ee9037f681c8d5e219fac1c5e654ef5ebf5af085834ba3b456f3dd33121"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_032.json",
+        "bytes": 1173,
+        "sha256": "9e5efe6fb25488bb8c043a8b2ff011d0a3334b0f89eff50c1fcb283786659ac6"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_033.json",
+        "bytes": 1176,
+        "sha256": "c28f6a1f4accaea1cb74106991da30cea8f28708548b20eaea0547dd97b656e0"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_034.json",
+        "bytes": 1172,
+        "sha256": "df36c72f245255fd98fa6d2cbc515cce251c7d40e31bfbd7af1d4de66fb79d8c"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_035.json",
+        "bytes": 1175,
+        "sha256": "c630200068b9007e20e725eab8de985d2c3dc9c9c51dc2270579a21a51167f7c"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_036.json",
+        "bytes": 1173,
+        "sha256": "5880a26a4514e25c169761bef78f32cf5c3f2aa9f4a6603f9a8240ee95febeb3"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_037.json",
+        "bytes": 1176,
+        "sha256": "9485ad9956f79c4605ac3a39b7ce06e434ee53d046417079d97c58dead02e4b8"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_038.json",
+        "bytes": 1172,
+        "sha256": "4830b42b4467ee08580be926ac3c2f3fc1e7a6cf3d31be66c76ba01833442334"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_039.json",
+        "bytes": 1175,
+        "sha256": "d5c8d0152a50cfb93404f929c29fa782de073df593317219c48b3e7b53cc5ab4"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_040.json",
+        "bytes": 1172,
+        "sha256": "68ddcb68ef8ccba05b7956a357159216c93716a615f91865a90c0f34335ebaad"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_041.json",
+        "bytes": 1175,
+        "sha256": "1f494bf1e0298a21582732bdc56c775f38439d432f4f9d3f334d81440e09c51a"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_042.json",
+        "bytes": 1171,
+        "sha256": "27c3241591d76df0530811e2cdb8d3c6f89bc53cb84c02e85cfa13838a3ef352"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_043.json",
+        "bytes": 1174,
+        "sha256": "2d1847ce64a100221e82a1af9c1fe114f7626a45132eed075f77d3a436c52d36"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_044.json",
+        "bytes": 1172,
+        "sha256": "ee2ee6c4ac687e484f4d5de805af7ed4fcda22c93f311411ba4cbbc26b6ce474"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_045.json",
+        "bytes": 1175,
+        "sha256": "cf606f38e3336457674bc1dc65567fc49b36fd94d149c37b35f648131ba973e3"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_046.json",
+        "bytes": 1171,
+        "sha256": "f3217542f15454ccfb91c38f1f1d9da8fdf61014f16fd17d6215d61b495fb824"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_047.json",
+        "bytes": 1174,
+        "sha256": "c8a5734301e37b0009cd359d36a6e0262078f02398c169575291568be104cec0"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_048.json",
+        "bytes": 1173,
+        "sha256": "7f0c05909a7b28c2b564aa845845e2a080fb63476936bb28011438f771861c70"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_049.json",
+        "bytes": 1176,
+        "sha256": "ce24f390685622301b8c618916c2b47c16cb2c2cb3ba3a728c03e569d412ae62"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_050.json",
+        "bytes": 1171,
+        "sha256": "444556582df4c2dd83340702316bb02d1b65bd677812d16c68ffbb1fb9edc49e"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_051.json",
+        "bytes": 1174,
+        "sha256": "47273569191239b8969fff8ab92e96d704ac59e0e935317f3ffd891bed007901"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_052.json",
+        "bytes": 1173,
+        "sha256": "f4567992c8c05cea9a421a56743b8f89685996e27f2de2f568e7cc65145d9114"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_053.json",
+        "bytes": 1176,
+        "sha256": "2b10d5d808c8c1d0e0925e863fba54f1cd8b6f55fe38388900e806c23f612bed"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_054.json",
+        "bytes": 1171,
+        "sha256": "b1a4fb99dacb082808cae615bc2c3ebd09c409faf905db7add2a92ec7c573e15"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_055.json",
+        "bytes": 1174,
+        "sha256": "530fff23888955190327b7d25fab277ccc485aef07df582d17a0ef5cfc2eac05"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_056.json",
+        "bytes": 1173,
+        "sha256": "75a39c9264ff386702acf7a9a9d1a371e22595afbd6ec8cbf2a8bbb0b49a1c56"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_057.json",
+        "bytes": 1176,
+        "sha256": "8feb8b67e37fa6a91dfcea1d4626811f96037ee1db4009d9ffef64aba42b534f"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_058.json",
+        "bytes": 1172,
+        "sha256": "9605cf5f387e957b3d18051fe3f19cdaaf1ed498ed4f2c18b75a0ebf9fd3bff5"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_059.json",
+        "bytes": 1175,
+        "sha256": "752d8e92561d18d1bb9b93f93f91eacafc7f5d7a1a7398260afe61766afbdf83"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_060.json",
+        "bytes": 1173,
+        "sha256": "12c45f45517c5b8d74d2946b8df9547f02612574b94b8fad57e4a7c221f20b99"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_061.json",
+        "bytes": 1176,
+        "sha256": "acf1c540e50aab3338507122de51cb9a5ecfc7e41284e3783f42869ec772e744"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_062.json",
+        "bytes": 1172,
+        "sha256": "d3c3429709a4b7e0673dd67b882b78dae39aedaf1b0953dc54ba4942be7995a5"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_063.json",
+        "bytes": 1175,
+        "sha256": "7195308df547cab46a3f4c718aa86095868fd2fe90c85d018fd69eb054f36329"
+      }
+    ],
+    "personally_read_complete_summary_and_completion": [
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/summary.json",
+        "bytes": 4669,
+        "sha256": "5cefacc506514bc8822397d3ca5ff903b25868d707ca6277a086dc9175654320"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/completion.json",
+        "bytes": 312,
+        "sha256": "c18a41353a4de5018378999e6a1158f43909e28ac6b86fffad72422c9f7ee526"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/parent-result.json",
+        "bytes": 829,
+        "sha256": "23637fb5f780bef6725ac6c4bcb3aa2e02bfb17a49761ec6596c113f39cb8628"
+      }
+    ],
+    "status_scope": "Programmatically parsed full status and compared all64 row objects exactly to their individually read JSON files; inspected global fields and row schema.",
+    "source_decision_personally_reread": {
+      "path": "output/collaboration/reward-mechanism-repair/dopamine-release-versus-priming-decision-2026-09-13.md",
+      "bytes": 8043,
+      "sha256": "8f51b6f9d4586b813fbcb76ec496d8c03612c96ad11f7145b9072c959d778d53"
+    },
+    "parent_canonical_narrative_closeout": "Final root result/handoff/canonical deltas are still being prepared and will receive the separately requested final reading review; this receipt does not claim those future deltas read."
+  },
+  "read_only_JSON_validation": {
+    "contrasts": 64,
+    "complete_fine_indices": 32,
+    "groups": 8,
+    "cases_per_group": 8,
+    "all_status_rows_exactly_equal_individual_JSON": true,
+    "all8_summary_groups_independently_recomputed": true,
+    "completion_status_summary_hashes_match": true,
+    "parent_plan_hash_matches_copied_and_original_plan": true,
+    "terminal_error_absent": true,
+    "parent_exit_code": 0,
+    "parent_elapsed_seconds": 4.067662708926946,
+    "child_reaped": true,
+    "npz_boundary": "Only64 filenames/existence and recorded byte counts checked; no NPZ payload opened or rehashed. No input archive was opened.",
+    "rows_canonical_JSON_sha256": "d2fbaab5a20d9c47bf388104f451dac228ebf3a2f421256cbc97e4aeb1828268"
+  },
+  "recomputed_observations": {
+    "first_difference_step_all": 1550,
+    "first_difference_ms_all": 310,
+    "first_home_taught_minus_untaught_counts": [
+      2,
+      0
+    ],
+    "first_away_taught_minus_untaught_counts": [
+      0,
+      22
+    ],
+    "untaught_counts_at_first_difference_all": [
+      0,
+      0
+    ],
+    "whole_common_prefix_bins_all": 31,
+    "guaranteed_individual_KC_equal_through_step": 1550,
+    "KC_aggregate_difference_step_all": null,
+    "home_net_count_differences": {
+      "8": 31,
+      "7": 1
+    },
+    "away_net_count_differences": {
+      "88": 32
+    },
+    "complete_per_cell_taught_history_established": false
+  },
+  "interpretation": "Available pooled electrical teaching distinction established in every current-code contrast, not calibrated release/receptor transfer or learning. Saturated count identifies every target DAN at the single first event, not its whole history. Equal KC aggregates do not establish later individual events.",
+  "preserved_false_start": {
+    "run_id": "dan-causal-prefix-cb7eb73ca0c41bd37e4b",
+    "exit_code": 1,
+    "completed_contrasts": 0,
+    "reason": "int32 expected versus int64 recorded main selector; reader/fixture defect, no neural result"
+  },
+  "next_bounded_decision": "Pin/inspect existing DARELA minimal release core and make an explicit source-contract/event-embedding transfer-or-reject decision using external constants and synthetic invariants only, before choosing or evaluating a MaleCNS candidate.",
+  "report": {
+    "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-result-interpretation-dopamine-sources-2026-09-13.md",
+    "bytes": 4760,
+    "sha256": "6bcf37281409a22158b447234ff719c85c2510a164cb05c45b3dfb0cb08323e2"
+  },
+  "verification": {
+    "waveform_or_input_archive_analysis": false,
+    "driver_model_native_or_source_reruns": 0,
+    "network_actions": 0,
+    "parameters_selected_or_fitted": false,
+    "mutations": "Only this new receipt and accompanying interpretation note."
+  }
+}

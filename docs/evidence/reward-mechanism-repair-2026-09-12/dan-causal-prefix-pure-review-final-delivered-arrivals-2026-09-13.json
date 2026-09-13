@@ -1,0 +1,78 @@
+{
+  "schema": 1,
+  "agent": "/root/delivered_arrivals",
+  "created_at_utc": "2026-09-13T11:20:17.826610+00:00",
+  "status": "final_frozen_pure_helper_review_passed",
+  "scope": "Pure mathematical/identity helper only; actual-record driver schema/lifecycle validation remains a separate prerequisite.",
+  "reviewed": [
+    {
+      "path": "output/collaboration/reward-mechanism-repair/dan_causal_prefix.py",
+      "bytes": 9123,
+      "sha256": "28601f16d718cbac719122dc496011344bd02e5a389dec4c470869eecaaef11e"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py",
+      "bytes": 10987,
+      "sha256": "f31ba840e925d4174c8b3a3220c06bc6d9f7898a181ed4831645f28aa2c58fd2"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/causal-prefix-identifiability-contract-delivered-arrivals-2026-09-13.md",
+      "bytes": 12566,
+      "sha256": "4fc653c542cf167076d3a4032c542d64d04d3ca1cf46192a3367e548f437cf4f"
+    },
+    {
+      "path": "bet36fly/reward_lif.cpp",
+      "bytes": 19913,
+      "sha256": "e7dbb0aa8f95873036415581e94de45c237941f05642ccc90812c1be1119be37"
+    }
+  ],
+  "remaining_pure_helper_findings": [],
+  "resolved_finding": {
+    "family": "Python numeric identity aliases",
+    "reproduced": "panel_games True or1.0 aliased integer1 and passed.",
+    "correction": "Strict list/nonboolean integer/nonnegative panel game validation; strict fine row identities;5-category panel-game regression family and valid integer control.",
+    "final_review": "Read all final helper/tests, independently confirmed all105 tests pass."
+  },
+  "caller_requirements": [
+    "Exact actual F32/F64 recorded types,2000-step shape,8 groups and KC count ceiling\u2264verified KC map size must be checked by driver. The generic helper intentionally does not know4064.",
+    "Frozen32-row pair selectors, full source/mask/input/checkpoint identity, fine-raster map and full count reductions are not established by this pure helper alone.",
+    "No biological per-cell taught exposure, post-divergence KC identity or new candidate trajectory follows from pooled prefix equality."
+  ],
+  "mathematics": [
+    "Exact bitwise re-encoding makes rounded-candidate count inversion strict; F32 fraction error times maximum supportedN65535 is below0.002, safely below half an integer.",
+    "First difference is global across both compartments; KC prefix includes that step and rule prefix excludes it. No9-step equality extension.",
+    "No difference is represented as null, with per-cell taught history explicitly false.",
+    "Native used KC states are recorded after same-step KC injection and before gain publication, consistent with inclusive KC-state equality."
+  ],
+  "verification": {
+    "pytest_command": "PYTHONDONTWRITEBYTECODE=1 .venv/bin/python -m pytest -q output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py",
+    "pytest_passed": 105,
+    "pytest_seconds": 0.15,
+    "ruff": "All checks passed on final two files.",
+    "additional_independent_final_hash_checks": [
+      "All65536 canonical fractions at population65535 decode to their exact counts.",
+      "Both orders of two-channel competing first divergences select the earlier other-channel step."
+    ],
+    "actual_archive_evaluations": 0,
+    "source_inductions": 0,
+    "native_calls": 0,
+    "captured_history_evaluations": 0,
+    "network_calls": 0
+  },
+  "reading": {
+    "prior_full_receipt": {
+      "path": "output/collaboration/reward-mechanism-repair/causal-prefix-identifiability-reading-delivered-arrivals-2026-09-13.json",
+      "bytes": 46858,
+      "sha256": "a99216032451ad57df232a62072906e520df34e75e89384e7815c6f89a574bce"
+    },
+    "all189_current_narratives_identical_to_prior_personal_read": true,
+    "new_narrative_deltas": [],
+    "all_final_helper_test_contents_personally_read": true
+  },
+  "superseded_receipt": {
+    "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-pure-review-delivered-arrivals-2026-09-13.json",
+    "bytes": 4934,
+    "sha256": "e03cdffa55403e0e3e9eebfe86c29d047836a268e475a2e3cfae11313c41bfd0"
+  },
+  "supersession_reason": "Prior receipt explicitly invalidated because writer appended identity tests during hash capture; it must not be used as approval for those intermediate bytes."
+}

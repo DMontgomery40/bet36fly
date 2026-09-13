@@ -1,0 +1,200 @@
+{
+  "status": "computed",
+  "run_id": "dan-causal-prefix-b3bbc7ad5a3c1040de18",
+  "contrasts": 64,
+  "groups": {
+    "diag-rate-bridge-v1-maskgamma-de050d773763/base/home": {
+      "contrasts": 8,
+      "no_pool_difference": 0,
+      "first_difference_step_min": 1550,
+      "first_difference_step_max": 1550,
+      "first_difference_ms_min": 310.0,
+      "first_difference_ms_max": 310.0,
+      "first_count_difference_min": [
+        2,
+        0
+      ],
+      "first_count_difference_max": [
+        2,
+        0
+      ],
+      "total_count_difference_min": [
+        8,
+        0
+      ],
+      "total_count_difference_max": [
+        8,
+        0
+      ]
+    },
+    "diag-rate-bridge-v1-maskgamma-de050d773763/base/away": {
+      "contrasts": 8,
+      "no_pool_difference": 0,
+      "first_difference_step_min": 1550,
+      "first_difference_step_max": 1550,
+      "first_difference_ms_min": 310.0,
+      "first_difference_ms_max": 310.0,
+      "first_count_difference_min": [
+        0,
+        22
+      ],
+      "first_count_difference_max": [
+        0,
+        22
+      ],
+      "total_count_difference_min": [
+        0,
+        88
+      ],
+      "total_count_difference_max": [
+        0,
+        88
+      ]
+    },
+    "diag-rate-bridge-v1-maskgamma-de050d773763/alt/home": {
+      "contrasts": 8,
+      "no_pool_difference": 0,
+      "first_difference_step_min": 1550,
+      "first_difference_step_max": 1550,
+      "first_difference_ms_min": 310.0,
+      "first_difference_ms_max": 310.0,
+      "first_count_difference_min": [
+        2,
+        0
+      ],
+      "first_count_difference_max": [
+        2,
+        0
+      ],
+      "total_count_difference_min": [
+        8,
+        0
+      ],
+      "total_count_difference_max": [
+        8,
+        0
+      ]
+    },
+    "diag-rate-bridge-v1-maskgamma-de050d773763/alt/away": {
+      "contrasts": 8,
+      "no_pool_difference": 0,
+      "first_difference_step_min": 1550,
+      "first_difference_step_max": 1550,
+      "first_difference_ms_min": 310.0,
+      "first_difference_ms_max": 310.0,
+      "first_count_difference_min": [
+        0,
+        22
+      ],
+      "first_count_difference_max": [
+        0,
+        22
+      ],
+      "total_count_difference_min": [
+        0,
+        88
+      ],
+      "total_count_difference_max": [
+        0,
+        88
+      ]
+    },
+    "diag-rate-bridge-v1-maskgamma-dea14759e9ca/base/home": {
+      "contrasts": 8,
+      "no_pool_difference": 0,
+      "first_difference_step_min": 1550,
+      "first_difference_step_max": 1550,
+      "first_difference_ms_min": 310.0,
+      "first_difference_ms_max": 310.0,
+      "first_count_difference_min": [
+        2,
+        0
+      ],
+      "first_count_difference_max": [
+        2,
+        0
+      ],
+      "total_count_difference_min": [
+        8,
+        0
+      ],
+      "total_count_difference_max": [
+        8,
+        0
+      ]
+    },
+    "diag-rate-bridge-v1-maskgamma-dea14759e9ca/base/away": {
+      "contrasts": 8,
+      "no_pool_difference": 0,
+      "first_difference_step_min": 1550,
+      "first_difference_step_max": 1550,
+      "first_difference_ms_min": 310.0,
+      "first_difference_ms_max": 310.0,
+      "first_count_difference_min": [
+        0,
+        22
+      ],
+      "first_count_difference_max": [
+        0,
+        22
+      ],
+      "total_count_difference_min": [
+        0,
+        88
+      ],
+      "total_count_difference_max": [
+        0,
+        88
+      ]
+    },
+    "diag-rate-bridge-v1-maskgamma-dea14759e9ca/alt/home": {
+      "contrasts": 8,
+      "no_pool_difference": 0,
+      "first_difference_step_min": 1550,
+      "first_difference_step_max": 1550,
+      "first_difference_ms_min": 310.0,
+      "first_difference_ms_max": 310.0,
+      "first_count_difference_min": [
+        2,
+        0
+      ],
+      "first_count_difference_max": [
+        2,
+        0
+      ],
+      "total_count_difference_min": [
+        7,
+        0
+      ],
+      "total_count_difference_max": [
+        8,
+        0
+      ]
+    },
+    "diag-rate-bridge-v1-maskgamma-dea14759e9ca/alt/away": {
+      "contrasts": 8,
+      "no_pool_difference": 0,
+      "first_difference_step_min": 1550,
+      "first_difference_step_max": 1550,
+      "first_difference_ms_min": 310.0,
+      "first_difference_ms_max": 310.0,
+      "first_count_difference_min": [
+        0,
+        22
+      ],
+      "first_count_difference_max": [
+        0,
+        22
+      ],
+      "total_count_difference_min": [
+        0,
+        88
+      ],
+      "total_count_difference_max": [
+        0,
+        88
+      ]
+    }
+  },
+  "scope": "Descriptive current-code conditional prefix; no new learning model or qualification."
+}

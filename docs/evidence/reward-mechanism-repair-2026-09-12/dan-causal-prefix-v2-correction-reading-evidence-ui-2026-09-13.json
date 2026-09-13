@@ -1,0 +1,212 @@
+{
+  "agent": "/root/evidence_ui",
+  "created_at_utc": "2026-09-13T11:48:10.465146+00:00",
+  "status": "v2_reader_correction_prepared_actual_v2_unrun",
+  "git_head": "dce1582618f6c386a4996695bc77ad4218dd493c",
+  "tracked_git_clean": true,
+  "correction": {
+    "observed_v1_failure": "ValueError: main sampled identity/order",
+    "completed_contrasts": 0,
+    "parent_exit_code": 1,
+    "parent_seconds": 0.5307185419369489,
+    "child_seconds": 0.41831520898267627,
+    "root_cause": "Pinned producer retains the caller sampled selector formed from int64 MBON np.flatnonzero arrays and int32 DAN/KC/sensory arrays. Concatenation is int64. V1 reconstructed int32 expected indices and strict dtype equality rejected the otherwise matching ordered values.",
+    "test_gap": "The original complete synthetic fixture repeated the wrong int32 assumption. It did not establish actual source/storage dtype compatibility. Separate corrected fixture reproduced the same v1 failure before the v2 implementation change.",
+    "fix": "Require exact int64 main selector with correct shape/range/uniqueness/order/role values; reconstruct int64 MBON selectors. Fine role maps remain int32. Replace retained graph-role int32 coercions with strict dtype/shape/range/unique checks; graph body IDs require int64.",
+    "unchanged": "All scientific floating-array equality,64comparisons,source/pilot/maps/gains/masks/thresholds,prefix endpoints and120second lifecycle remain unchanged."
+  },
+  "source_metadata": {
+    "personally_rechecked_source": [
+      {
+        "path": "scripts/reward_teaching_diagnostic.py",
+        "bytes": 24888,
+        "sha256": "d18df419fe4c78001019d6feadff5b6c37df2de69f7e278d46d3cf02bc539598",
+        "lines": "145-225; sampled concatenate at190"
+      },
+      {
+        "path": "bet36fly/reward_protocol.py",
+        "bytes": 15356,
+        "sha256": "e1a315f991debb677fca30f6e821a657135adccf032ad26054a00ed7688dc1bb",
+        "lines": "152-250; MBON np.flatnonzero at204, returned retained KC/sensory"
+      },
+      {
+        "path": "bet36fly/reward_brain.py",
+        "bytes": 28621,
+        "sha256": "5a6d67d38d226c6792c4f11430610772894ea3e9ae9593c2d215cfd7eaa0a6d5",
+        "lines": "index cast definitions and run sample conversion inspected in prior complete callpath; casts local copy without changing caller archived selector"
+      }
+    ],
+    "personally_inspected_headers_only": {
+      "main_panels": 2,
+      "sampled": {
+        "dtype": "int64",
+        "shape": [
+          4780
+        ]
+      },
+      "plastic_kc_indices": "int32(8866)",
+      "plastic_compartments": "int32(8866)",
+      "plastic_groups": "int32(8866)",
+      "plastic_mask": "uint8(8866)",
+      "dan_compartments": "int32(24)",
+      "graph": {
+        "ids": "int64(166700)",
+        "kc": "int32(4064)",
+        "sensory": "int32(686)",
+        "mbon": "int32(97)",
+        "indptr": "int64(166701)",
+        "post": "int32(25582938)"
+      }
+    },
+    "independent_values_receipt": {
+      "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-sampled-identity-independent-2026-09-13.json",
+      "bytes": 2158,
+      "sha256": "2d55c7690c49dc31cdaf04b1ae59eb233a8a5b8b9b4f039b2a0ae897d8f941cf"
+    },
+    "actual_waveform_payloads_read": 0
+  },
+  "reading": {
+    "prior_complete_preparation": {
+      "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-driver-preparation-reading-evidence-ui-2026-09-13.json",
+      "bytes": 9059,
+      "sha256": "853d5b789756eeb3ae3e0a9ab4caa8cae260bdadb9da5f49f8835d69c9284e6e"
+    },
+    "narrative_count": 189,
+    "current_docs_wiki_match_prior_personal_full_reading": true,
+    "unread_deltas": [],
+    "fully_read_new": [
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-v2-reader-correction-2026-09-13.md",
+        "bytes": 2611,
+        "sha256": "07b8ce1c725de0e0132f5ab7acdeb459197fad0652576ac5084780a4874cdc99"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-sampled-identity-independent-2026-09-13.json",
+        "bytes": 2158,
+        "sha256": "2d55c7690c49dc31cdaf04b1ae59eb233a8a5b8b9b4f039b2a0ae897d8f941cf"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-v2-reader-claim-review-dopamine-sources-2026-09-13.json",
+        "bytes": 4470,
+        "sha256": "0d69da95628d7fec4bdce2b694f0fa64189d6810206d38f9e658a10440d81a75"
+      }
+    ],
+    "failure_records_read": [
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-cb7eb73ca0c41bd37e4b-execution/parent-result.json",
+        "bytes": 827,
+        "sha256": "9c3999052007b42e52ffa4651506eda2d920b63e9c79e82b5cb4592d06091602"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-cb7eb73ca0c41bd37e4b-execution/result/status.json",
+        "bytes": 214,
+        "sha256": "37ec711ab1ed0a3683386dee3bffb53f4e53a54c963fe22348bacaf65a3744f3"
+      }
+    ]
+  },
+  "release": [
+    {
+      "path": "output/collaboration/reward-mechanism-repair/run_dan_causal_prefix_v2.py",
+      "bytes": 37064,
+      "sha256": "4bfd547de54d52a2fa813d852637386e1051deb6faec731f56f59dbbfc0b77e4"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py",
+      "bytes": 28943,
+      "sha256": "ab2fabb0fc82db0092b7d31cfe83e8d954d0f98bee636e9b47279d2b89d47c4d"
+    }
+  ],
+  "verification": {
+    "writer_cases": 118,
+    "unchanged_pure_cases": 105,
+    "total_passed": 223,
+    "seconds": 1.45,
+    "ruff": "All checks passed; formatted",
+    "final_log": {
+      "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-driver-v2-tests-final-2026-09-13.txt",
+      "bytes": 340,
+      "sha256": "03a95fdf008996c0ee0923da7dcf12cfe53ab9306913207e0268031ab0f1b996"
+    },
+    "red_family_log": {
+      "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-v2-red-2026-09-13.txt",
+      "bytes": 32583,
+      "sha256": "cdb3263fd1414b4d0ce83225178158db6a2f442074185de4b22f7c7a7c9478ed"
+    },
+    "source_faithful_io_red_log": {
+      "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-v2-source-dtype-red-2026-09-13.txt",
+      "bytes": 1553,
+      "sha256": "1a35e39206e8692d3805dc5b0a0d76ae13d9cf296dde35a04dad8445132c6d9d"
+    },
+    "new_cases": 33,
+    "new_family": "Valid int64 source selector; invalid float32/float64/bool/int32/uint64,missing/extra/duplicate/reordered/wrong-role/out-of-range indices; strict int32 graph roles including wrong-width and invalid shape/range families. Complete32fine/two-panel64contrast synthetic IO remains exercised.",
+    "full_repo_gate": "No production edit; root-owned prior makeverify4055Python/103frontend/Ruff/build remains unchanged, no duplicate gate or browser run."
+  },
+  "preserved_v1_files": [
+    {
+      "path": "output/collaboration/reward-mechanism-repair/run_dan_causal_prefix.py",
+      "bytes": 36017,
+      "sha256": "13510ed87a3f5fc379b2e8cae21b940de9193722a694f8c61d266848cfa89c4d"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix.py",
+      "bytes": 26461,
+      "sha256": "716117621824067224ab5d2b584d83d33404c1201c3f00710a42b8b073cdec64"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-cb7eb73ca0c41bd37e4b-plan.json",
+      "bytes": 34133,
+      "sha256": "1adb8b4222e6d3cbb593bd2fc2015496f1e0d67a99a093ab6155caacc8b8a079"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-driver-preparation-reading-evidence-ui-2026-09-13.json",
+      "bytes": 9059,
+      "sha256": "853d5b789756eeb3ae3e0a9ab4caa8cae260bdadb9da5f49f8835d69c9284e6e"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-cb7eb73ca0c41bd37e4b-execution/parent-result.json",
+      "bytes": 827,
+      "sha256": "9c3999052007b42e52ffa4651506eda2d920b63e9c79e82b5cb4592d06091602"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-cb7eb73ca0c41bd37e4b-execution/result/plan.json",
+      "bytes": 34133,
+      "sha256": "1adb8b4222e6d3cbb593bd2fc2015496f1e0d67a99a093ab6155caacc8b8a079"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-cb7eb73ca0c41bd37e4b-execution/result/status.json",
+      "bytes": 214,
+      "sha256": "37ec711ab1ed0a3683386dee3bffb53f4e53a54c963fe22348bacaf65a3744f3"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-cb7eb73ca0c41bd37e4b-execution/result/terminal-error.json",
+      "bytes": 123,
+      "sha256": "b0eea342ca3328c71bc07ad2d34ebdfcd0824c5ec3fc8646b975a5aacd3e52d3"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-cb7eb73ca0c41bd37e4b-execution/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-cb7eb73ca0c41bd37e4b-execution/stdout.txt",
+      "bytes": 136,
+      "sha256": "3f9f16b7daf20ae3970ff7ec7aeb6ae2d5278f7b3ca7a3c6c7a7af159e2a73f3"
+    }
+  ],
+  "execution": {
+    "actual_v2_audits": 0,
+    "new_native_calls": 0,
+    "new_model_or_source_runs": 0,
+    "new_fits": 0,
+    "network_calls": 0,
+    "production_edits": 0
+  },
+  "completion_contract": [
+    "Parent execution must finish exit_code0 within120seconds; timeout/killed/nonzero exit invalidates the study regardless of child artifacts.",
+    "terminal-error.json must be absent; status.json must say completed with64contrasts.",
+    "completion.json must say complete for the same run_id and64contrasts, and its status_sha256 and summary_sha256 must match current status.json and summary.json bytes.",
+    "A failed/cancelled/capped run may retain a previously written completion.json as failure evidence. Its marker is invalidated by the terminal error and failed status hash; marker presence alone never establishes success.",
+    "All84-or-final-bound source/input files are verified before and after; root freezes the complete final inventory and canonical run identity only after reviews."
+  ],
+  "remaining": "Independent/root final review plus separately frozen v2 plan/launcher before any single authorized new audit. V1 is failed historical evidence and must not restart. No scientific learning result follows from this reader correction."
+}

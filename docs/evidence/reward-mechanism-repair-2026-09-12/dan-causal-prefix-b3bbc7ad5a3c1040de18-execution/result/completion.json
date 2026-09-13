@@ -1,0 +1,8 @@
+{
+  "status": "complete",
+  "run_id": "dan-causal-prefix-b3bbc7ad5a3c1040de18",
+  "contrasts": 64,
+  "summary_sha256": "5cefacc506514bc8822397d3ca5ff903b25868d707ca6277a086dc9175654320",
+  "status_sha256": "26675960769afce7f5701dbde4826cd6eb63fbef4943df85f143d87b95b5af5a",
+  "wall_seconds": 3.963973541976884
+}

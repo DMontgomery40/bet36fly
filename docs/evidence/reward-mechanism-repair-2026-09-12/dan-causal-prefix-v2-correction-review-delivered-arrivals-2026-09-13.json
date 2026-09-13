@@ -1,0 +1,147 @@
+{
+  "schema": 1,
+  "agent": "/root/delivered_arrivals",
+  "created_at_utc": "2026-09-13T11:48:06.793332+00:00",
+  "status": "pass_bounded_v2_reader_correction_review_before_new_actual_audit",
+  "material_findings": [],
+  "reviewed": [
+    {
+      "path": "output/collaboration/reward-mechanism-repair/run_dan_causal_prefix_v2.py",
+      "bytes": 37064,
+      "sha256": "4bfd547de54d52a2fa813d852637386e1051deb6faec731f56f59dbbfc0b77e4"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py",
+      "bytes": 28943,
+      "sha256": "ab2fabb0fc82db0092b7d31cfe83e8d954d0f98bee636e9b47279d2b89d47c4d"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/launch_dan_causal_prefix_v2.py",
+      "bytes": 2178,
+      "sha256": "76ae3803563a33bd5f62aca4953a34a161bb1e2df9a759e66bdefdb73474618a"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-v2-reader-correction-2026-09-13.md",
+      "bytes": 2611,
+      "sha256": "07b8ce1c725de0e0132f5ab7acdeb459197fad0652576ac5084780a4874cdc99"
+    }
+  ],
+  "prior_review": {
+    "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-driver-review-delivered-arrivals-2026-09-13.json",
+    "bytes": 8481,
+    "sha256": "a39449d72a04713f8e89932b74019d3c68d2ce3263a2443848776666847fae77"
+  },
+  "prior_review_bindings_unchanged_count": 13,
+  "missed_v1_compatibility_case": {
+    "disposition": "Confirmed reader defect; not a neuronal result.",
+    "failure": "The archived sampled index vector is int64, but the reader constructed int32 expected indices and strict dtype equality rejected identical values. The synthetic complete-archive fixture repeated that assumption, so its pass and my original review missed the real source contract.",
+    "preservation": "All thirteen files bound by the original independent driver review remain byte-identical. The original failed attempt and receipt are preserved; v2 uses separate filenames and requires a new root-frozen identity."
+  },
+  "independent_saved_mapping_check": {
+    "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-sampled-identity-independent-2026-09-13.json",
+    "bytes": 2158,
+    "sha256": "2d55c7690c49dc31cdaf04b1ae59eb233a8a5b8b9b4f039b2a0ae897d8f941cf"
+  },
+  "mapping_evidence": {
+    "panels": 2,
+    "member": "sampled.npy",
+    "dtype": "int64",
+    "shape": [
+      4780
+    ],
+    "numeric_sha256": "ebecab105c22bb43d6e2f6ed4cfb27a25062ffa013299cd082d7a399b87f0dbd",
+    "all_ordered_values_match_independent_atlas_and_fine_maps": true,
+    "MBON_home": [
+      655,
+      1306
+    ],
+    "MBON_away": [
+      7944,
+      8443,
+      10200,
+      131769
+    ],
+    "following_role_sizes": [
+      24,
+      4064,
+      686
+    ],
+    "strict_graph_headers": {
+      "ids": [
+        "int64",
+        166700
+      ],
+      "kc": [
+        "int32",
+        4064
+      ],
+      "sensory": [
+        "int32",
+        686
+      ],
+      "mbon": [
+        "int32",
+        97
+      ]
+    }
+  },
+  "source_contract": [
+    {
+      "path": "scripts/reward_teaching_diagnostic.py",
+      "bytes": 24888,
+      "sha256": "d18df419fe4c78001019d6feadff5b6c37df2de69f7e278d46d3cf02bc539598",
+      "personally_read": "lines165-215 and source references190,295,362; caller sampled vector constructed by concatenate is retained."
+    },
+    {
+      "path": "bet36fly/reward_protocol.py",
+      "bytes": 15356,
+      "sha256": "e1a315f991debb677fca30f6e821a657135adccf032ad26054a00ed7688dc1bb",
+      "personally_read": "lines130-255 including make_circuit; MBON selectors come from np.flatnonzero and are returned without int32 conversion."
+    },
+    {
+      "path": "bet36fly/reward_brain.py",
+      "bytes": 28621,
+      "sha256": "5a6d67d38d226c6792c4f11430610772894ea3e9ae9593c2d215cfd7eaa0a6d5",
+      "personally_read": "lines325-370; run converts its local sample argument to int32 for the native call, without mutating the caller variable archived by the diagnostic."
+    }
+  ],
+  "delta_review": [
+    "V2 constructs MBON selectors and exact main expected order as int64; validates original int64 sampled shape, bounds, uniqueness and exact values. Fine role indices remain int32.",
+    "Graph role maps now require their actual int32 dtype, range and uniqueness rather than coercing arbitrary values; all four affected graph NPY headers independently inspected without waveform access.",
+    "No equality, tolerance, count inversion, prefix endpoint, gain, mask, kinetic, output or terminal/cap algorithm changed. The original terminal conjunction and inclusive-bin interpretation limits remain necessary.",
+    "V2 complete synthetic IO fixture now uses source-int64 selectors. Thirty-three added cases cover the valid literal source concat, wrong widths, float/bool, wrong count, duplicate, permutation, wrong identity, sign/range and strict graph-role contracts.",
+    "V2 launcher differs only in the separate driver filename; original external120-second direct-child watchdog and exclusive output behavior remain."
+  ],
+  "verification": {
+    "command": "PYTHONDONTWRITEBYTECODE=1 .venv/bin/python -m pytest -q output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py",
+    "passed": 223,
+    "seconds": 1.38,
+    "exit_code": 0,
+    "writer_cases": 118,
+    "pure_cases": 105,
+    "ruff": "All checks passed on v2 driver/tests.",
+    "actual_audit_reruns": 0,
+    "waveform_arrays_read": 0,
+    "metadata_index_arrays_read": "Both main sampled vectors and three small fine role maps; graph headers only.",
+    "native_calls": 0,
+    "network_calls": 0,
+    "production_edits": 0
+  },
+  "reading": {
+    "prior_full_chain": {
+      "path": "output/collaboration/reward-mechanism-repair/causal-prefix-identifiability-reading-delivered-arrivals-2026-09-13.json",
+      "bytes": 46858,
+      "sha256": "a99216032451ad57df232a62072906e520df34e75e89384e7815c6f89a574bce"
+    },
+    "current_narrative_count": 189,
+    "all_docs_wiki_hashes_identical_to_personal_full_chain": true,
+    "new_changed_docs_wiki": [],
+    "new_correction_narrative_personally_read_full": {
+      "path": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-v2-reader-correction-2026-09-13.md",
+      "bytes": 2611,
+      "sha256": "07b8ce1c725de0e0132f5ab7acdeb459197fad0652576ac5084780a4874cdc99"
+    },
+    "v2_source_test_launcher_delta_fully_read_against_personally_read_frozen_v1": true
+  },
+  "remaining_scope": "Root owns final new plan binding, one separately identified actual execution and independent result acceptance. This correction establishes reader compatibility only; current scientific and conditioning failures are unchanged."
+}

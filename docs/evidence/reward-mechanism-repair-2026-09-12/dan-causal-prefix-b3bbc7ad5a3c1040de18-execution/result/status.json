@@ -1,0 +1,2697 @@
+{
+  "status": "completed",
+  "run_id": "dan-causal-prefix-b3bbc7ad5a3c1040de18",
+  "completed_contrasts": 64,
+  "rows": [
+    {
+      "index": 0,
+      "fine_index": 0,
+      "game": 4362,
+      "seed_set": "base",
+      "seed": 4404,
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "condition": "home",
+      "first_pool_difference_step": 1550,
+      "first_pool_count_difference": [
+        2,
+        0
+      ],
+      "untaught_counts_at_first_difference": [
+        0,
+        0
+      ],
+      "taught_counts_at_first_difference": [
+        2,
+        0
+      ],
+      "kc_equal_through_step": 1550,
+      "rule_equal_before_step": 1550,
+      "first_rule_difference_step": 1550,
+      "first_kc_total_difference_step": null,
+      "first_kc_used_difference_step": null,
+      "total_compartment_count_difference": [
+        8,
+        0
+      ],
+      "per_cell_taught_history_established": false,
+      "scope": "Current pooled bridge conditional prefix only; no new-rule trajectory or post-prefix KC equality.",
+      "whole_prefix_bins": 31,
+      "first_pool_difference_ms": 310.0,
+      "per_cell_dan_different_whole_prefix_bins": [],
+      "per_cell_late_subbin_events": "unknown; pooled equality does not establish individual DAN event equality",
+      "artifact": {
+        "file": "contrast_000.npz",
+        "sha256": "4847992e67cfd2808d88f0368b486b43920044ca6603e530282f0f0b00824685",
+        "bytes": 10058
+      }
+    },
+    {
+      "index": 1,
+      "fine_index": 0,
+      "game": 4362,
+      "seed_set": "base",
+      "seed": 4404,
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "condition": "away",
+      "first_pool_difference_step": 1550,
+      "first_pool_count_difference": [
+        0,
+        22
+      ],
+      "untaught_counts_at_first_difference": [
+        0,
+        0
+      ],
+      "taught_counts_at_first_difference": [
+        0,
+        22
+      ],
+      "kc_equal_through_step": 1550,
+      "rule_equal_before_step": 1550,
+      "first_rule_difference_step": 1550,
+      "first_kc_total_difference_step": null,
+      "first_kc_used_difference_step": null,
+      "total_compartment_count_difference": [
+        0,
+        88
+      ],
+      "per_cell_taught_history_established": false,
+      "scope": "Current pooled bridge conditional prefix only; no new-rule trajectory or post-prefix KC equality.",
+      "whole_prefix_bins": 31,
+      "first_pool_difference_ms": 310.0,
+      "per_cell_dan_different_whole_prefix_bins": [],
+      "per_cell_late_subbin_events": "unknown; pooled equality does not establish individual DAN event equality",
+      "artifact": {
+        "file": "contrast_001.npz",
+        "sha256": "3893d4253894eb926a81ad3562f32a9bcd4ea6f423b6839bf68d4a3557d7d51b",
+        "bytes": 10058
+      }
+    },
+    {
+      "index": 2,
+      "fine_index": 1,
+      "game": 4362,
+      "seed_set": "alt",
+      "seed": 1004404,
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "condition": "home",
+      "first_pool_difference_step": 1550,
+      "first_pool_count_difference": [
+        2,
+        0
+      ],
+      "untaught_counts_at_first_difference": [
+        0,
+        0
+      ],
+      "taught_counts_at_first_difference": [
+        2,
+        0
+      ],
+      "kc_equal_through_step": 1550,
+      "rule_equal_before_step": 1550,
+      "first_rule_difference_step": 1550,
+      "first_kc_total_difference_step": null,
+      "first_kc_used_difference_step": null,
+      "total_compartment_count_difference": [
+        8,
+        0
+      ],
+      "per_cell_taught_history_established": false,
+      "scope": "Current pooled bridge conditional prefix only; no new-rule trajectory or post-prefix KC equality.",
+      "whole_prefix_bins": 31,
+      "first_pool_difference_ms": 310.0,
+      "per_cell_dan_different_whole_prefix_bins": [],
+      "per_cell_late_subbin_events": "unknown; pooled equality does not establish individual DAN event equality",
+      "artifact": {
+        "file": "contrast_002.npz",
+        "sha256": "2077d3f1c606194ae23e726c6897e992f5b3fe0bf35f224de2d0dfdee292b9a8",
+        "bytes": 9971
+      }
+    },
+    {
+      "index": 3,
+      "fine_index": 1,
+      "game": 4362,
+      "seed_set": "alt",
+      "seed": 1004404,
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "condition": "away",
+      "first_pool_difference_step": 1550,
+      "first_pool_count_difference": [
+        0,
+        22
+      ],
+      "untaught_counts_at_first_difference": [
+        0,
+        0
+      ],
+      "taught_counts_at_first_difference": [
+        0,
+        22
+      ],
+      "kc_equal_through_step": 1550,
+      "rule_equal_before_step": 1550,
+      "first_rule_difference_step": 1550,
+      "first_kc_total_difference_step": null,
+      "first_kc_used_difference_step": null,
+      "total_compartment_count_difference": [
+        0,
+        88
+      ],
+      "per_cell_taught_history_established": false,
+      "scope": "Current pooled bridge conditional prefix only; no new-rule trajectory or post-prefix KC equality.",
+      "whole_prefix_bins": 31,
+      "first_pool_difference_ms": 310.0,
+      "per_cell_dan_different_whole_prefix_bins": [],
+      "per_cell_late_subbin_events": "unknown; pooled equality does not establish individual DAN event equality",
+      "artifact": {
+        "file": "contrast_003.npz",
+        "sha256": "754b26a3abec0525cda32a12a3380db54a97784a966b6e1ec6a0fdeea88849c6",
+        "bytes": 9971
+      }
+    },
+    {
+      "index": 4,
+      "fine_index": 2,
+      "game": 4366,
+      "seed_set": "base",
+      "seed": 4408,
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "condition": "home",
+      "first_pool_difference_step": 1550,
+      "first_pool_count_difference": [
+        2,
+        0
+      ],
+      "untaught_counts_at_first_difference": [
+        0,
+        0
+      ],
+      "taught_counts_at_first_difference": [
+        2,
+        0
+      ],
+      "kc_equal_through_step": 1550,
+      "rule_equal_before_step": 1550,
+      "first_rule_difference_step": 1550,
+      "first_kc_total_difference_step": null,
+      "first_kc_used_difference_step": null,
+      "total_compartment_count_difference": [
+        8,
+        0
+      ],
+      "per_cell_taught_history_established": false,
+      "scope": "Current pooled bridge conditional prefix only; no new-rule trajectory or post-prefix KC equality.",
+      "whole_prefix_bins": 31,
+      "first_pool_difference_ms": 310.0,
+      "per_cell_dan_different_whole_prefix_bins": [],
+      "per_cell_late_subbin_events": "unknown; pooled equality does not establish individual DAN event equality",
+      "artifact": {
+        "file": "contrast_004.npz",
+        "sha256": "a49c0b72ed44be2284dfabdca6f708ea93d5214dad46276dd146600eff87770f",
+        "bytes": 9756
+      }
+    },
+    {
+      "index": 5,
+      "fine_index": 2,
+      "game": 4366,
+      "seed_set": "base",
+      "seed": 4408,
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "condition": "away",
+      "first_pool_difference_step": 1550,
+      "first_pool_count_difference": [
+        0,
+        22
+      ],
+      "untaught_counts_at_first_difference": [
+        0,
+        0
+      ],
+      "taught_counts_at_first_difference": [
+        0,
+        22
+      ],
+      "kc_equal_through_step": 1550,
+      "rule_equal_before_step": 1550,
+      "first_rule_difference_step": 1550,
+      "first_kc_total_difference_step": null,
+      "first_kc_used_difference_step": null,
+      "total_compartment_count_difference": [
+        0,
+        88
+      ],
+      "per_cell_taught_history_established": false,
+      "scope": "Current pooled bridge conditional prefix only; no new-rule trajectory or post-prefix KC equality.",
+      "whole_prefix_bins": 31,
+      "first_pool_difference_ms": 310.0,
+      "per_cell_dan_different_whole_prefix_bins": [],
+      "per_cell_late_subbin_events": "unknown; pooled equality does not establish individual DAN event equality",
+      "artifact": {
+        "file": "contrast_005.npz",
+        "sha256": "87a7de40e4251f28f490d7b2d1a83df246d2d8abe863583a6af49589feb3d2b9",
+        "bytes": 9756
+      }
+    },
+    {
+      "index": 6,
+      "fine_index": 3,
+      "game": 4366,
+      "seed_set": "alt",
+      "seed": 1004408,
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "condition": "home",
+      "first_pool_difference_step": 1550,
+      "first_pool_count_difference": [
+        2,
+        0
+      ],
+      "untaught_counts_at_first_difference": [
+        0,
+        0
+      ],
+      "taught_counts_at_first_difference": [
+        2,
+        0
+      ],
+      "kc_equal_through_step": 1550,
+      "rule_equal_before_step": 1550,
+      "first_rule_difference_step": 1550,
+      "first_kc_total_difference_step": null,
+      "first_kc_used_difference_step": null,
+      "total_compartment_count_difference": [
+        8,
+        0
+      ],
+      "per_cell_taught_history_established": false,
+      "scope": "Current pooled bridge conditional prefix only; no new-rule trajectory or post-prefix KC equality.",
+      "whole_prefix_bins": 31,
+      "first_pool_difference_ms": 310.0,
+      "per_cell_dan_different_whole_prefix_bins": [],
+      "per_cell_late_subbin_events": "unknown; pooled equality does not establish individual DAN event equality",
+      "artifact": {
+        "file": "contrast_006.npz",
+        "sha256": "6a842f6500cf2e4d70e6dcff3e08fd32b2a85b3ca51a7d2990a2cda1611b0bf2",
+        "bytes": 9765
+      }
+    },
+    {
+      "index": 7,
+      "fine_index": 3,
+      "game": 4366,
+      "seed_set": "alt",
+      "seed": 1004408,
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "condition": "away",
+      "first_pool_difference_step": 1550,
+      "first_pool_count_difference": [
+        0,
+        22
+      ],
+      "untaught_counts_at_first_difference": [
+        0,
+        0
+      ],
+      "taught_counts_at_first_difference": [
+        0,
+        22
+      ],
+      "kc_equal_through_step": 1550,
+      "rule_equal_before_step": 1550,
+      "first_rule_difference_step": 1550,
+      "first_kc_total_difference_step": null,
+      "first_kc_used_difference_step": null,
+      "total_compartment_count_difference": [
+        0,
+        88
+      ],
+      "per_cell_taught_history_established": false,
+      "scope": "Current pooled bridge conditional prefix only; no new-rule trajectory or post-prefix KC equality.",
+      "whole_prefix_bins": 31,
+      "first_pool_difference_ms": 310.0,
+      "per_cell_dan_different_whole_prefix_bins": [],
+      "per_cell_late_subbin_events": "unknown; pooled equality does not establish individual DAN event equality",
+      "artifact": {
+        "file": "contrast_007.npz",
+        "sha256": "7ea3f24c15c258f23555d4f9cae5c5fe717a263d0525fbd5f3d7153d48c254f4",
+        "bytes": 9765
+      }
+    },
+    {
+      "index": 8,
+      "fine_index": 4,
+      "game": 4370,
+      "seed_set": "base",
+      "seed": 4412,
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "condition": "home",
+      "first_pool_difference_step": 1550,
+      "first_pool_count_difference": [
+        2,
+        0
+      ],
+      "untaught_counts_at_first_difference": [
+        0,
+        0
+      ],
+      "taught_counts_at_first_difference": [
+        2,
+        0
+      ],
+      "kc_equal_through_step": 1550,
+      "rule_equal_before_step": 1550,
+      "first_rule_difference_step": 1550,
+      "first_kc_total_difference_step": null,
+      "first_kc_used_difference_step": null,
+      "total_compartment_count_difference": [
+        8,
+        0
+      ],
+      "per_cell_taught_history_established": false,
+      "scope": "Current pooled bridge conditional prefix only; no new-rule trajectory or post-prefix KC equality.",
+      "whole_prefix_bins": 31,
+      "first_pool_difference_ms": 310.0,
+      "per_cell_dan_different_whole_prefix_bins": [],
+      "per_cell_late_subbin_events": "unknown; pooled equality does not establish individual DAN event equality",
+      "artifact": {
+        "file": "contrast_008.npz",
+        "sha256": "61258f271095d8228812f88955947594499fca1d8e0975edbee2bd1e3f37acc5",
+        "bytes": 10483
+      }
+    },
+    {
+      "index": 9,
+      "fine_index": 4,
+      "game": 4370,
+      "seed_set": "base",
+      "seed": 4412,
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "condition": "away",
+      "first_pool_difference_step": 1550,
+      "first_pool_count_difference": [
+        0,
+        22
+      ],
+      "untaught_counts_at_first_difference": [
+        0,
+        0
+      ],
+      "taught_counts_at_first_difference": [
+        0,
+        22
+      ],
+      "kc_equal_through_step": 1550,
+      "rule_equal_before_step": 1550,
+      "first_rule_difference_step": 1550,
+      "first_kc_total_difference_step": null,
+      "first_kc_used_difference_step": null,
+      "total_compartment_count_difference": [
+        0,
+        88
+      ],
+      "per_cell_taught_history_established": false,
+      "scope": "Current pooled bridge conditional prefix only; no new-rule trajectory or post-prefix KC equality.",
+      "whole_prefix_bins": 31,
+      "first_pool_difference_ms": 310.0,
+      "per_cell_dan_different_whole_prefix_bins": [],
+      "per_cell_late_subbin_events": "unknown; pooled equality does not establish individual DAN event equality",
+      "artifact": {
+        "file": "contrast_009.npz",
+        "sha256": "e6ff90acfacdfdf83eddfec252e7e383706fbcccfebbfc712827dcfcfa264fba",
+        "bytes": 10483
+      }
+    },
+    {
+      "index": 10,
+      "fine_index": 5,
+      "game": 4370,
+      "seed_set": "alt",
+      "seed": 1004412,
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "condition": "home",
+      "first_pool_difference_step": 1550,
+      "first_pool_count_difference": [
+        2,
+        0
+      ],
+      "untaught_counts_at_first_difference": [
+        0,
+        0
+      ],
+      "taught_counts_at_first_difference": [
+        2,
+        0
+      ],
+      "kc_equal_through_step": 1550,
+      "rule_equal_before_step": 1550,
+      "first_rule_difference_step": 1550,
+      "first_kc_total_difference_step": null,
+      "first_kc_used_difference_step": null,
+      "total_compartment_count_difference": [
+        8,
+        0
+      ],
+      "per_cell_taught_history_established": false,
+      "scope": "Current pooled bridge conditional prefix only; no new-rule trajectory or post-prefix KC equality.",
+      "whole_prefix_bins": 31,
+      "first_pool_difference_ms": 310.0,
+      "per_cell_dan_different_whole_prefix_bins": [],
+      "per_cell_late_subbin_events": "unknown; pooled equality does not establish individual DAN event equality",
+      "artifact": {
+        "file": "contrast_010.npz",
+        "sha256": "2de035627846e06c81a71a52f42ef7f61dd8ba9a8bb540c450e9f4b0939cc943",
+        "bytes": 10436
+      }
+    },
+    {
+      "index": 11,
+      "fine_index": 5,
+      "game": 4370,
+      "seed_set": "alt",
+      "seed": 1004412,
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "condition": "away",
+      "first_pool_difference_step": 1550,
+      "first_pool_count_difference": [
+        0,
+        22
+      ],
+      "untaught_counts_at_first_difference": [
+        0,
+        0
+      ],
+      "taught_counts_at_first_difference": [
+        0,
+        22
+      ],
+      "kc_equal_through_step": 1550,
+      "rule_equal_before_step": 1550,
+      "first_rule_difference_step": 1550,
+      "first_kc_total_difference_step": null,
+      "first_kc_used_difference_step": null,
+      "total_compartment_count_difference": [
+        0,
+        88
+      ],
+      "per_cell_taught_history_established": false,
+      "scope": "Current pooled bridge conditional prefix only; no new-rule trajectory or post-prefix KC equality.",
+      "whole_prefix_bins": 31,
+      "first_pool_difference_ms": 310.0,
+      "per_cell_dan_different_whole_prefix_bins": [],
+      "per_cell_late_subbin_events": "unknown; pooled equality does not establish individual DAN event equality",
+      "artifact": {
+        "file": "contrast_011.npz",
+        "sha256": "6b0ad630066d0d42cd15c69b1bdeb44185e77a4b1f8f9b872e3b479c5c62934a",
+        "bytes": 10436
+      }
+    },
+    {
+      "index": 12,
+      "fine_index": 6,
+      "game": 4374,
+      "seed_set": "base",
+      "seed": 4416,
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "condition": "home",
+      "first_pool_difference_step": 1550,
+      "first_pool_count_difference": [
+        2,
+        0
+      ],
+      "untaught_counts_at_first_difference": [
+        0,
+        0
+      ],
+      "taught_counts_at_first_difference": [
+        2,
+        0
+      ],
+      "kc_equal_through_step": 1550,
+      "rule_equal_before_step": 1550,
+      "first_rule_difference_step": 1550,
+      "first_kc_total_difference_step": null,
+      "first_kc_used_difference_step": null,
+      "total_compartment_count_difference": [
+        8,
+        0
+      ],
+      "per_cell_taught_history_established": false,
+      "scope": "Current pooled bridge conditional prefix only; no new-rule trajectory or post-prefix KC equality.",
+      "whole_prefix_bins": 31,
+      "first_pool_difference_ms": 310.0,
+      "per_cell_dan_different_whole_prefix_bins": [],
+      "per_cell_late_subbin_events": "unknown; pooled equality does not establish individual DAN event equality",
+      "artifact": {
+        "file": "contrast_012.npz",
+        "sha256": "170850f44918d0c6e19a4ca23904689b9b64eae963374dce2748724744b8781c",
+        "bytes": 9596
+      }
+    },
+    {
+      "index": 13,
+      "fine_index": 6,
+      "game": 4374,
+      "seed_set": "base",
+      "seed": 4416,
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "condition": "away",
+      "first_pool_difference_step": 1550,
+      "first_pool_count_difference": [
+        0,
+        22
+      ],
+      "untaught_counts_at_first_difference": [
+        0,
+        0
+      ],
+      "taught_counts_at_first_difference": [
+        0,
+        22
+      ],
+      "kc_equal_through_step": 1550,
+      "rule_equal_before_step": 1550,
+      "first_rule_difference_step": 1550,
+      "first_kc_total_difference_step": null,
+      "first_kc_used_difference_step": null,
+      "total_compartment_count_difference": [
+        0,
+        88
+      ],
+      "per_cell_taught_history_established": false,
+      "scope": "Current pooled bridge conditional prefix only; no new-rule trajectory or post-prefix KC equality.",
+      "whole_prefix_bins": 31,
+      "first_pool_difference_ms": 310.0,
+      "per_cell_dan_different_whole_prefix_bins": [],
+      "per_cell_late_subbin_events": "unknown; pooled equality does not establish individual DAN event equality",
+      "artifact": {
+        "file": "contrast_013.npz",
+        "sha256": "3987080bc99d8b626e3f04cab43ab3631119c8104881eb1c94ebc400671b1981",
+        "bytes": 9596
+      }
+    },
+    {
+      "index": 14,
+      "fine_index": 7,
+      "game": 4374,
+      "seed_set": "alt",
+      "seed": 1004416,
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "condition": "home",
+      "first_pool_difference_step": 1550,
+      "first_pool_count_difference": [
+        2,
+        0
+      ],
+      "untaught_counts_at_first_difference": [
+        0,
+        0
+      ],
+      "taught_counts_at_first_difference": [
+        2,
+        0
+      ],
+      "kc_equal_through_step": 1550,
+      "rule_equal_before_step": 1550,
+      "first_rule_difference_step": 1550,
+      "first_kc_total_difference_step": null,
+      "first_kc_used_difference_step": null,
+      "total_compartment_count_difference": [
+        8,
+        0
+      ],
+      "per_cell_taught_history_established": false,
+      "scope": "Current pooled bridge conditional prefix only; no new-rule trajectory or post-prefix KC equality.",
+      "whole_prefix_bins": 31,
+      "first_pool_difference_ms": 310.0,
+      "per_cell_dan_different_whole_prefix_bins": [],
+      "per_cell_late_subbin_events": "unknown; pooled equality does not establish individual DAN event equality",
+      "artifact": {
+        "file": "contrast_014.npz",
+        "sha256": "12b8db0d0c0bfba82c90dbbd33ef18fadb300d2312c0f86be46e2b7207f876ab",
+        "bytes": 9599
+      }
+    },
+    {
+      "index": 15,
+      "fine_index": 7,
+      "game": 4374,
+      "seed_set": "alt",
+      "seed": 1004416,
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "condition": "away",
+      "first_pool_difference_step": 1550,
+      "first_pool_count_difference": [
+        0,
+        22
+      ],
+      "untaught_counts_at_first_difference": [
+        0,
+        0
+      ],
+      "taught_counts_at_first_difference": [
+        0,
+        22
+      ],
+      "kc_equal_through_step": 1550,
+      "rule_equal_before_step": 1550,
+      "first_rule_difference_step": 1550,
+      "first_kc_total_difference_step": null,
+      "first_kc_used_difference_step": null,
+      "total_compartment_count_difference": [
+        0,
+        88
+      ],
+      "per_cell_taught_history_established": false,
+      "scope": "Current pooled bridge conditional prefix only; no new-rule trajectory or post-prefix KC equality.",
+      "whole_prefix_bins": 31,
+      "first_pool_difference_ms": 310.0,
+      "per_cell_dan_different_whole_prefix_bins": [],
+      "per_cell_late_subbin_events": "unknown; pooled equality does not establish individual DAN event equality",
+      "artifact": {
+        "file": "contrast_015.npz",
+        "sha256": "a79f7334681f763abf5bf2b5161947c2fcd025eb556b0cd7255e0f99269862d0",
+        "bytes": 9599
+      }
+    },
+    {
+      "index": 16,
+      "fine_index": 8,
+      "game": 4378,
+      "seed_set": "base",
+      "seed": 4420,
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "condition": "home",
+      "first_pool_difference_step": 1550,
+      "first_pool_count_difference": [
+        2,
+        0
+      ],
+      "untaught_counts_at_first_difference": [
+        0,
+        0
+      ],
+      "taught_counts_at_first_difference": [
+        2,
+        0
+      ],
+      "kc_equal_through_step": 1550,
+      "rule_equal_before_step": 1550,
+      "first_rule_difference_step": 1550,
+      "first_kc_total_difference_step": null,
+      "first_kc_used_difference_step": null,
+      "total_compartment_count_difference": [
+        8,
+        0
+      ],
+      "per_cell_taught_history_established": false,
+      "scope": "Current pooled bridge conditional prefix only; no new-rule trajectory or post-prefix KC equality.",
+      "whole_prefix_bins": 31,
+      "first_pool_difference_ms": 310.0,
+      "per_cell_dan_different_whole_prefix_bins": [],
+      "per_cell_late_subbin_events": "unknown; pooled equality does not establish individual DAN event equality",
+      "artifact": {
+        "file": "contrast_016.npz",
+        "sha256": "ebc752e27e55988c33e4d00152657a735d38f8f6d18f19593cca183cf6d7d99c",
+        "bytes": 10255
+      }
+    },
+    {
+      "index": 17,
+      "fine_index": 8,
+      "game": 4378,
+      "seed_set": "base",
+      "seed": 4420,
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "condition": "away",
+      "first_pool_difference_step": 1550,
+      "first_pool_count_difference": [
+        0,
+        22
+      ],
+      "untaught_counts_at_first_difference": [
+        0,
+        0
+      ],
+      "taught_counts_at_first_difference": [
+        0,
+        22
+      ],
+      "kc_equal_through_step": 1550,
+      "rule_equal_before_step": 1550,
+      "first_rule_difference_step": 1550,
+      "first_kc_total_difference_step": null,
+      "first_kc_used_difference_step": null,
+      "total_compartment_count_difference": [
+        0,
+        88
+      ],
+      "per_cell_taught_history_established": false,
+      "scope": "Current pooled bridge conditional prefix only; no new-rule trajectory or post-prefix KC equality.",
+      "whole_prefix_bins": 31,
+      "first_pool_difference_ms": 310.0,
+      "per_cell_dan_different_whole_prefix_bins": [],
+      "per_cell_late_subbin_events": "unknown; pooled equality does not establish individual DAN event equality",
+      "artifact": {
+        "file": "contrast_017.npz",
+        "sha256": "77abdcc0fcdc62aa0804790a5ddba0d2e536a5b41268ee1281ecc2d5496d6397",
+        "bytes": 10255
+      }
+    },
+    {
+      "index": 18,
+      "fine_index": 9,
+      "game": 4378,
+      "seed_set": "alt",
+      "seed": 1004420,
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "condition": "home",
+      "first_pool_difference_step": 1550,
+      "first_pool_count_difference": [
+        2,
+        0
+      ],
+      "untaught_counts_at_first_difference": [
+        0,
+        0
+      ],
+      "taught_counts_at_first_difference": [
+        2,
+        0
+      ],
+      "kc_equal_through_step": 1550,
+      "rule_equal_before_step": 1550,
+      "first_rule_difference_step": 1550,
+      "first_kc_total_difference_step": null,
+      "first_kc_used_difference_step": null,
+      "total_compartment_count_difference": [
+        8,
+        0
+      ],
+      "per_cell_taught_history_established": false,
+      "scope": "Current pooled bridge conditional prefix only; no new-rule trajectory or post-prefix KC equality.",
+      "whole_prefix_bins": 31,
+      "first_pool_difference_ms": 310.0,
+      "per_cell_dan_different_whole_prefix_bins": [],
+      "per_cell_late_subbin_events": "unknown; pooled equality does not establish individual DAN event equality",
+      "artifact": {
+        "file": "contrast_018.npz",
+        "sha256": "79a27ab587d437f5af2da70299ebf7f7d0c92cd57affdef4096bfb9adb5522c9",
+        "bytes": 10149
+      }
+    },
+    {
+      "index": 19,
+      "fine_index": 9,
+      "game": 4378,
+      "seed_set": "alt",
+      "seed": 1004420,
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "condition": "away",
+      "first_pool_difference_step": 1550,
+      "first_pool_count_difference": [
+        0,
+        22
+      ],
+      "untaught_counts_at_first_difference": [
+        0,
+        0
+      ],
+      "taught_counts_at_first_difference": [
+        0,
+        22
+      ],
+      "kc_equal_through_step": 1550,
+      "rule_equal_before_step": 1550,
+      "first_rule_difference_step": 1550,
+      "first_kc_total_difference_step": null,
+      "first_kc_used_difference_step": null,
+      "total_compartment_count_difference": [
+        0,
+        88
+      ],
+      "per_cell_taught_history_established": false,
+      "scope": "Current pooled bridge conditional prefix only; no new-rule trajectory or post-prefix KC equality.",
+      "whole_prefix_bins": 31,
+      "first_pool_difference_ms": 310.0,
+      "per_cell_dan_different_whole_prefix_bins": [],
+      "per_cell_late_subbin_events": "unknown; pooled equality does not establish individual DAN event equality",
+      "artifact": {
+        "file": "contrast_019.npz",
+        "sha256": "c93bb2625af62e82c7255145d82f517031d2aa39dde915897f9a3f52f617029b",
+        "bytes": 10149
+      }
+    },
+    {
+      "index": 20,
+      "fine_index": 10,
+      "game": 4383,
+      "seed_set": "base",
+      "seed": 4425,
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "condition": "home",
+      "first_pool_difference_step": 1550,
+      "first_pool_count_difference": [
+        2,
+        0
+      ],
+      "untaught_counts_at_first_difference": [
+        0,
+        0
+      ],
+      "taught_counts_at_first_difference": [
+        2,
+        0
+      ],
+      "kc_equal_through_step": 1550,
+      "rule_equal_before_step": 1550,
+      "first_rule_difference_step": 1550,
+      "first_kc_total_difference_step": null,
+      "first_kc_used_difference_step": null,
+      "total_compartment_count_difference": [
+        8,
+        0
+      ],
+      "per_cell_taught_history_established": false,
+      "scope": "Current pooled bridge conditional prefix only; no new-rule trajectory or post-prefix KC equality.",
+      "whole_prefix_bins": 31,
+      "first_pool_difference_ms": 310.0,
+      "per_cell_dan_different_whole_prefix_bins": [],
+      "per_cell_late_subbin_events": "unknown; pooled equality does not establish individual DAN event equality",
+      "artifact": {
+        "file": "contrast_020.npz",
+        "sha256": "013084b2dae16b89e52c7423845ca6e262079bae6cbbf21846e43e01324386bb",
+        "bytes": 10558
+      }
+    },
+    {
+      "index": 21,
+      "fine_index": 10,
+      "game": 4383,
+      "seed_set": "base",
+      "seed": 4425,
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "condition": "away",
+      "first_pool_difference_step": 1550,
+      "first_pool_count_difference": [
+        0,
+        22
+      ],
+      "untaught_counts_at_first_difference": [
+        0,
+        0
+      ],
+      "taught_counts_at_first_difference": [
+        0,
+        22
+      ],
+      "kc_equal_through_step": 1550,
+      "rule_equal_before_step": 1550,
+      "first_rule_difference_step": 1550,
+      "first_kc_total_difference_step": null,
+      "first_kc_used_difference_step": null,
+      "total_compartment_count_difference": [
+        0,
+        88
+      ],
+      "per_cell_taught_history_established": false,
+      "scope": "Current pooled bridge conditional prefix only; no new-rule trajectory or post-prefix KC equality.",
+      "whole_prefix_bins": 31,
+      "first_pool_difference_ms": 310.0,
+      "per_cell_dan_different_whole_prefix_bins": [],
+      "per_cell_late_subbin_events": "unknown; pooled equality does not establish individual DAN event equality",
+      "artifact": {
+        "file": "contrast_021.npz",
+        "sha256": "0d9d18af5663587dca3f5554e25f27977b6a3cf5a45187b715b0d5df547ace63",
+        "bytes": 10558
+      }
+    },
+    {
+      "index": 22,
+      "fine_index": 11,
+      "game": 4383,
+      "seed_set": "alt",
+      "seed": 1004425,
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "condition": "home",
+      "first_pool_difference_step": 1550,
+      "first_pool_count_difference": [
+        2,
+        0
+      ],
+      "untaught_counts_at_first_difference": [
+        0,
+        0
+      ],
+      "taught_counts_at_first_difference": [
+        2,
+        0
+      ],
+      "kc_equal_through_step": 1550,
+      "rule_equal_before_step": 1550,
+      "first_rule_difference_step": 1550,
+      "first_kc_total_difference_step": null,
+      "first_kc_used_difference_step": null,
+      "total_compartment_count_difference": [
+        8,
+        0
+      ],
+      "per_cell_taught_history_established": false,
+      "scope": "Current pooled bridge conditional prefix only; no new-rule trajectory or post-prefix KC equality.",
+      "whole_prefix_bins": 31,
+      "first_pool_difference_ms": 310.0,
+      "per_cell_dan_different_whole_prefix_bins": [],
+      "per_cell_late_subbin_events": "unknown; pooled equality does not establish individual DAN event equality",
+      "artifact": {
+        "file": "contrast_022.npz",
+        "sha256": "a6786f1933485c3740017e247cfdd5aad1037e9541c7cd6343ca909291c8615d",
+        "bytes": 10561
+      }
+    },
+    {
+      "index": 23,
+      "fine_index": 11,
+      "game": 4383,
+      "seed_set": "alt",
+      "seed": 1004425,
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "condition": "away",
+      "first_pool_difference_step": 1550,
+      "first_pool_count_difference": [
+        0,
+        22
+      ],
+      "untaught_counts_at_first_difference": [
+        0,
+        0
+      ],
+      "taught_counts_at_first_difference": [
+        0,
+        22
+      ],
+      "kc_equal_through_step": 1550,
+      "rule_equal_before_step": 1550,
+      "first_rule_difference_step": 1550,
+      "first_kc_total_difference_step": null,
+      "first_kc_used_difference_step": null,
+      "total_compartment_count_difference": [
+        0,
+        88
+      ],
+      "per_cell_taught_history_established": false,
+      "scope": "Current pooled bridge conditional prefix only; no new-rule trajectory or post-prefix KC equality.",
+      "whole_prefix_bins": 31,
+      "first_pool_difference_ms": 310.0,
+      "per_cell_dan_different_whole_prefix_bins": [],
+      "per_cell_late_subbin_events": "unknown; pooled equality does not establish individual DAN event equality",
+      "artifact": {
+        "file": "contrast_023.npz",
+        "sha256": "732af61033ae35e521f5ce00c6e884ae5bee933769a5a345cb9bae855ddccc9e",
+        "bytes": 10561
+      }
+    },
+    {
+      "index": 24,
+      "fine_index": 12,
+      "game": 4387,
+      "seed_set": "base",
+      "seed": 4429,
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "condition": "home",
+      "first_pool_difference_step": 1550,
+      "first_pool_count_difference": [
+        2,
+        0
+      ],
+      "untaught_counts_at_first_difference": [
+        0,
+        0
+      ],
+      "taught_counts_at_first_difference": [
+        2,
+        0
+      ],
+      "kc_equal_through_step": 1550,
+      "rule_equal_before_step": 1550,
+      "first_rule_difference_step": 1550,
+      "first_kc_total_difference_step": null,
+      "first_kc_used_difference_step": null,
+      "total_compartment_count_difference": [
+        8,
+        0
+      ],
+      "per_cell_taught_history_established": false,
+      "scope": "Current pooled bridge conditional prefix only; no new-rule trajectory or post-prefix KC equality.",
+      "whole_prefix_bins": 31,
+      "first_pool_difference_ms": 310.0,
+      "per_cell_dan_different_whole_prefix_bins": [],
+      "per_cell_late_subbin_events": "unknown; pooled equality does not establish individual DAN event equality",
+      "artifact": {
+        "file": "contrast_024.npz",
+        "sha256": "08236aeecf4ac02deae5d0eb99bc1f17b97f210abd0911ca6d9c8b9feaf67cbb",
+        "bytes": 10110
+      }
+    },
+    {
+      "index": 25,
+      "fine_index": 12,
+      "game": 4387,
+      "seed_set": "base",
+      "seed": 4429,
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "condition": "away",
+      "first_pool_difference_step": 1550,
+      "first_pool_count_difference": [
+        0,
+        22
+      ],
+      "untaught_counts_at_first_difference": [
+        0,
+        0
+      ],
+      "taught_counts_at_first_difference": [
+        0,
+        22
+      ],
+      "kc_equal_through_step": 1550,
+      "rule_equal_before_step": 1550,
+      "first_rule_difference_step": 1550,
+      "first_kc_total_difference_step": null,
+      "first_kc_used_difference_step": null,
+      "total_compartment_count_difference": [
+        0,
+        88
+      ],
+      "per_cell_taught_history_established": false,
+      "scope": "Current pooled bridge conditional prefix only; no new-rule trajectory or post-prefix KC equality.",
+      "whole_prefix_bins": 31,
+      "first_pool_difference_ms": 310.0,
+      "per_cell_dan_different_whole_prefix_bins": [],
+      "per_cell_late_subbin_events": "unknown; pooled equality does not establish individual DAN event equality",
+      "artifact": {
+        "file": "contrast_025.npz",
+        "sha256": "b4d428cb7c3f7122d4f9341b1ed1136f1a3e82dacec35ddd82fbd35e5d016dc6",
+        "bytes": 10110
+      }
+    },
+    {
+      "index": 26,
+      "fine_index": 13,
+      "game": 4387,
+      "seed_set": "alt",
+      "seed": 1004429,
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "condition": "home",
+      "first_pool_difference_step": 1550,
+      "first_pool_count_difference": [
+        2,
+        0
+      ],
+      "untaught_counts_at_first_difference": [
+        0,
+        0
+      ],
+      "taught_counts_at_first_difference": [
+        2,
+        0
+      ],
+      "kc_equal_through_step": 1550,
+      "rule_equal_before_step": 1550,
+      "first_rule_difference_step": 1550,
+      "first_kc_total_difference_step": null,
+      "first_kc_used_difference_step": null,
+      "total_compartment_count_difference": [
+        8,
+        0
+      ],
+      "per_cell_taught_history_established": false,
+      "scope": "Current pooled bridge conditional prefix only; no new-rule trajectory or post-prefix KC equality.",
+      "whole_prefix_bins": 31,
+      "first_pool_difference_ms": 310.0,
+      "per_cell_dan_different_whole_prefix_bins": [],
+      "per_cell_late_subbin_events": "unknown; pooled equality does not establish individual DAN event equality",
+      "artifact": {
+        "file": "contrast_026.npz",
+        "sha256": "f6b63c56807624c290757f927e66bc20e3ebe64f6c47811acdae9524924a6c98",
+        "bytes": 10115
+      }
+    },
+    {
+      "index": 27,
+      "fine_index": 13,
+      "game": 4387,
+      "seed_set": "alt",
+      "seed": 1004429,
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "condition": "away",
+      "first_pool_difference_step": 1550,
+      "first_pool_count_difference": [
+        0,
+        22
+      ],
+      "untaught_counts_at_first_difference": [
+        0,
+        0
+      ],
+      "taught_counts_at_first_difference": [
+        0,
+        22
+      ],
+      "kc_equal_through_step": 1550,
+      "rule_equal_before_step": 1550,
+      "first_rule_difference_step": 1550,
+      "first_kc_total_difference_step": null,
+      "first_kc_used_difference_step": null,
+      "total_compartment_count_difference": [
+        0,
+        88
+      ],
+      "per_cell_taught_history_established": false,
+      "scope": "Current pooled bridge conditional prefix only; no new-rule trajectory or post-prefix KC equality.",
+      "whole_prefix_bins": 31,
+      "first_pool_difference_ms": 310.0,
+      "per_cell_dan_different_whole_prefix_bins": [],
+      "per_cell_late_subbin_events": "unknown; pooled equality does not establish individual DAN event equality",
+      "artifact": {
+        "file": "contrast_027.npz",
+        "sha256": "3527be0622a7fe22804e3a224a48d12f25b12ef1b6dfc78eed33d0a7e43ebb33",
+        "bytes": 10115
+      }
+    },
+    {
+      "index": 28,
+      "fine_index": 14,
+      "game": 4391,
+      "seed_set": "base",
+      "seed": 4433,
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "condition": "home",
+      "first_pool_difference_step": 1550,
+      "first_pool_count_difference": [
+        2,
+        0
+      ],
+      "untaught_counts_at_first_difference": [
+        0,
+        0
+      ],
+      "taught_counts_at_first_difference": [
+        2,
+        0
+      ],
+      "kc_equal_through_step": 1550,
+      "rule_equal_before_step": 1550,
+      "first_rule_difference_step": 1550,
+      "first_kc_total_difference_step": null,
+      "first_kc_used_difference_step": null,
+      "total_compartment_count_difference": [
+        8,
+        0
+      ],
+      "per_cell_taught_history_established": false,
+      "scope": "Current pooled bridge conditional prefix only; no new-rule trajectory or post-prefix KC equality.",
+      "whole_prefix_bins": 31,
+      "first_pool_difference_ms": 310.0,
+      "per_cell_dan_different_whole_prefix_bins": [],
+      "per_cell_late_subbin_events": "unknown; pooled equality does not establish individual DAN event equality",
+      "artifact": {
+        "file": "contrast_028.npz",
+        "sha256": "e22720380a1008c096786a02e67f22315984e2a11a9f77052358728a59ed35ca",
+        "bytes": 9858
+      }
+    },
+    {
+      "index": 29,
+      "fine_index": 14,
+      "game": 4391,
+      "seed_set": "base",
+      "seed": 4433,
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "condition": "away",
+      "first_pool_difference_step": 1550,
+      "first_pool_count_difference": [
+        0,
+        22
+      ],
+      "untaught_counts_at_first_difference": [
+        0,
+        0
+      ],
+      "taught_counts_at_first_difference": [
+        0,
+        22
+      ],
+      "kc_equal_through_step": 1550,
+      "rule_equal_before_step": 1550,
+      "first_rule_difference_step": 1550,
+      "first_kc_total_difference_step": null,
+      "first_kc_used_difference_step": null,
+      "total_compartment_count_difference": [
+        0,
+        88
+      ],
+      "per_cell_taught_history_established": false,
+      "scope": "Current pooled bridge conditional prefix only; no new-rule trajectory or post-prefix KC equality.",
+      "whole_prefix_bins": 31,
+      "first_pool_difference_ms": 310.0,
+      "per_cell_dan_different_whole_prefix_bins": [],
+      "per_cell_late_subbin_events": "unknown; pooled equality does not establish individual DAN event equality",
+      "artifact": {
+        "file": "contrast_029.npz",
+        "sha256": "f32ff0982419a19e537fe7e0cc0a227c079324b28f7a82746dfd44442e4fda60",
+        "bytes": 9858
+      }
+    },
+    {
+      "index": 30,
+      "fine_index": 15,
+      "game": 4391,
+      "seed_set": "alt",
+      "seed": 1004433,
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "condition": "home",
+      "first_pool_difference_step": 1550,
+      "first_pool_count_difference": [
+        2,
+        0
+      ],
+      "untaught_counts_at_first_difference": [
+        0,
+        0
+      ],
+      "taught_counts_at_first_difference": [
+        2,
+        0
+      ],
+      "kc_equal_through_step": 1550,
+      "rule_equal_before_step": 1550,
+      "first_rule_difference_step": 1550,
+      "first_kc_total_difference_step": null,
+      "first_kc_used_difference_step": null,
+      "total_compartment_count_difference": [
+        8,
+        0
+      ],
+      "per_cell_taught_history_established": false,
+      "scope": "Current pooled bridge conditional prefix only; no new-rule trajectory or post-prefix KC equality.",
+      "whole_prefix_bins": 31,
+      "first_pool_difference_ms": 310.0,
+      "per_cell_dan_different_whole_prefix_bins": [],
+      "per_cell_late_subbin_events": "unknown; pooled equality does not establish individual DAN event equality",
+      "artifact": {
+        "file": "contrast_030.npz",
+        "sha256": "5229f423b4c7c492e9d9cdd4da474c243aef33430cc44f6ad6f5db1e902bab7f",
+        "bytes": 9983
+      }
+    },
+    {
+      "index": 31,
+      "fine_index": 15,
+      "game": 4391,
+      "seed_set": "alt",
+      "seed": 1004433,
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "condition": "away",
+      "first_pool_difference_step": 1550,
+      "first_pool_count_difference": [
+        0,
+        22
+      ],
+      "untaught_counts_at_first_difference": [
+        0,
+        0
+      ],
+      "taught_counts_at_first_difference": [
+        0,
+        22
+      ],
+      "kc_equal_through_step": 1550,
+      "rule_equal_before_step": 1550,
+      "first_rule_difference_step": 1550,
+      "first_kc_total_difference_step": null,
+      "first_kc_used_difference_step": null,
+      "total_compartment_count_difference": [
+        0,
+        88
+      ],
+      "per_cell_taught_history_established": false,
+      "scope": "Current pooled bridge conditional prefix only; no new-rule trajectory or post-prefix KC equality.",
+      "whole_prefix_bins": 31,
+      "first_pool_difference_ms": 310.0,
+      "per_cell_dan_different_whole_prefix_bins": [],
+      "per_cell_late_subbin_events": "unknown; pooled equality does not establish individual DAN event equality",
+      "artifact": {
+        "file": "contrast_031.npz",
+        "sha256": "7d34d4d885fcefcbb66d2f25f4986e86f6c7d8405bdc14c2ce2db94d622429df",
+        "bytes": 9983
+      }
+    },
+    {
+      "index": 32,
+      "fine_index": 16,
+      "game": 4395,
+      "seed_set": "base",
+      "seed": 2004437,
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "condition": "home",
+      "first_pool_difference_step": 1550,
+      "first_pool_count_difference": [
+        2,
+        0
+      ],
+      "untaught_counts_at_first_difference": [
+        0,
+        0
+      ],
+      "taught_counts_at_first_difference": [
+        2,
+        0
+      ],
+      "kc_equal_through_step": 1550,
+      "rule_equal_before_step": 1550,
+      "first_rule_difference_step": 1550,
+      "first_kc_total_difference_step": null,
+      "first_kc_used_difference_step": null,
+      "total_compartment_count_difference": [
+        8,
+        0
+      ],
+      "per_cell_taught_history_established": false,
+      "scope": "Current pooled bridge conditional prefix only; no new-rule trajectory or post-prefix KC equality.",
+      "whole_prefix_bins": 31,
+      "first_pool_difference_ms": 310.0,
+      "per_cell_dan_different_whole_prefix_bins": [],
+      "per_cell_late_subbin_events": "unknown; pooled equality does not establish individual DAN event equality",
+      "artifact": {
+        "file": "contrast_032.npz",
+        "sha256": "c8334b3092e30d75fbaa3f1a1609c4a29efd52f69924d07e45082d33fefa99af",
+        "bytes": 10058
+      }
+    },
+    {
+      "index": 33,
+      "fine_index": 16,
+      "game": 4395,
+      "seed_set": "base",
+      "seed": 2004437,
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "condition": "away",
+      "first_pool_difference_step": 1550,
+      "first_pool_count_difference": [
+        0,
+        22
+      ],
+      "untaught_counts_at_first_difference": [
+        0,
+        0
+      ],
+      "taught_counts_at_first_difference": [
+        0,
+        22
+      ],
+      "kc_equal_through_step": 1550,
+      "rule_equal_before_step": 1550,
+      "first_rule_difference_step": 1550,
+      "first_kc_total_difference_step": null,
+      "first_kc_used_difference_step": null,
+      "total_compartment_count_difference": [
+        0,
+        88
+      ],
+      "per_cell_taught_history_established": false,
+      "scope": "Current pooled bridge conditional prefix only; no new-rule trajectory or post-prefix KC equality.",
+      "whole_prefix_bins": 31,
+      "first_pool_difference_ms": 310.0,
+      "per_cell_dan_different_whole_prefix_bins": [],
+      "per_cell_late_subbin_events": "unknown; pooled equality does not establish individual DAN event equality",
+      "artifact": {
+        "file": "contrast_033.npz",
+        "sha256": "3e1b0a5c448d1a386e6bc64e28c25181230a9d50175302138572db9eff133280",
+        "bytes": 10058
+      }
+    },
+    {
+      "index": 34,
+      "fine_index": 17,
+      "game": 4395,
+      "seed_set": "alt",
+      "seed": 3004437,
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "condition": "home",
+      "first_pool_difference_step": 1550,
+      "first_pool_count_difference": [
+        2,
+        0
+      ],
+      "untaught_counts_at_first_difference": [
+        0,
+        0
+      ],
+      "taught_counts_at_first_difference": [
+        2,
+        0
+      ],
+      "kc_equal_through_step": 1550,
+      "rule_equal_before_step": 1550,
+      "first_rule_difference_step": 1550,
+      "first_kc_total_difference_step": null,
+      "first_kc_used_difference_step": null,
+      "total_compartment_count_difference": [
+        8,
+        0
+      ],
+      "per_cell_taught_history_established": false,
+      "scope": "Current pooled bridge conditional prefix only; no new-rule trajectory or post-prefix KC equality.",
+      "whole_prefix_bins": 31,
+      "first_pool_difference_ms": 310.0,
+      "per_cell_dan_different_whole_prefix_bins": [],
+      "per_cell_late_subbin_events": "unknown; pooled equality does not establish individual DAN event equality",
+      "artifact": {
+        "file": "contrast_034.npz",
+        "sha256": "5197a82035eb293619475a237681167f334b6f961cb168e1f3089f75b0c6e2ee",
+        "bytes": 10108
+      }
+    },
+    {
+      "index": 35,
+      "fine_index": 17,
+      "game": 4395,
+      "seed_set": "alt",
+      "seed": 3004437,
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "condition": "away",
+      "first_pool_difference_step": 1550,
+      "first_pool_count_difference": [
+        0,
+        22
+      ],
+      "untaught_counts_at_first_difference": [
+        0,
+        0
+      ],
+      "taught_counts_at_first_difference": [
+        0,
+        22
+      ],
+      "kc_equal_through_step": 1550,
+      "rule_equal_before_step": 1550,
+      "first_rule_difference_step": 1550,
+      "first_kc_total_difference_step": null,
+      "first_kc_used_difference_step": null,
+      "total_compartment_count_difference": [
+        0,
+        88
+      ],
+      "per_cell_taught_history_established": false,
+      "scope": "Current pooled bridge conditional prefix only; no new-rule trajectory or post-prefix KC equality.",
+      "whole_prefix_bins": 31,
+      "first_pool_difference_ms": 310.0,
+      "per_cell_dan_different_whole_prefix_bins": [],
+      "per_cell_late_subbin_events": "unknown; pooled equality does not establish individual DAN event equality",
+      "artifact": {
+        "file": "contrast_035.npz",
+        "sha256": "3c9d335d6ee7f54ffc1e1c32b102b6070e458c93b19c6f431436ad06b03bf2dc",
+        "bytes": 10108
+      }
+    },
+    {
+      "index": 36,
+      "fine_index": 18,
+      "game": 4399,
+      "seed_set": "base",
+      "seed": 2004441,
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "condition": "home",
+      "first_pool_difference_step": 1550,
+      "first_pool_count_difference": [
+        2,
+        0
+      ],
+      "untaught_counts_at_first_difference": [
+        0,
+        0
+      ],
+      "taught_counts_at_first_difference": [
+        2,
+        0
+      ],
+      "kc_equal_through_step": 1550,
+      "rule_equal_before_step": 1550,
+      "first_rule_difference_step": 1550,
+      "first_kc_total_difference_step": null,
+      "first_kc_used_difference_step": null,
+      "total_compartment_count_difference": [
+        8,
+        0
+      ],
+      "per_cell_taught_history_established": false,
+      "scope": "Current pooled bridge conditional prefix only; no new-rule trajectory or post-prefix KC equality.",
+      "whole_prefix_bins": 31,
+      "first_pool_difference_ms": 310.0,
+      "per_cell_dan_different_whole_prefix_bins": [],
+      "per_cell_late_subbin_events": "unknown; pooled equality does not establish individual DAN event equality",
+      "artifact": {
+        "file": "contrast_036.npz",
+        "sha256": "8fce099ef3df2aedb2c5a17d009be5459ba80e31ab429622396ab9ca8d74c395",
+        "bytes": 10218
+      }
+    },
+    {
+      "index": 37,
+      "fine_index": 18,
+      "game": 4399,
+      "seed_set": "base",
+      "seed": 2004441,
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "condition": "away",
+      "first_pool_difference_step": 1550,
+      "first_pool_count_difference": [
+        0,
+        22
+      ],
+      "untaught_counts_at_first_difference": [
+        0,
+        0
+      ],
+      "taught_counts_at_first_difference": [
+        0,
+        22
+      ],
+      "kc_equal_through_step": 1550,
+      "rule_equal_before_step": 1550,
+      "first_rule_difference_step": 1550,
+      "first_kc_total_difference_step": null,
+      "first_kc_used_difference_step": null,
+      "total_compartment_count_difference": [
+        0,
+        88
+      ],
+      "per_cell_taught_history_established": false,
+      "scope": "Current pooled bridge conditional prefix only; no new-rule trajectory or post-prefix KC equality.",
+      "whole_prefix_bins": 31,
+      "first_pool_difference_ms": 310.0,
+      "per_cell_dan_different_whole_prefix_bins": [],
+      "per_cell_late_subbin_events": "unknown; pooled equality does not establish individual DAN event equality",
+      "artifact": {
+        "file": "contrast_037.npz",
+        "sha256": "d7aa1150479c4f4df8dd2ea2077e1e9463253b56fcf2c87087ff4d0d87ef6bc1",
+        "bytes": 10218
+      }
+    },
+    {
+      "index": 38,
+      "fine_index": 19,
+      "game": 4399,
+      "seed_set": "alt",
+      "seed": 3004441,
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "condition": "home",
+      "first_pool_difference_step": 1550,
+      "first_pool_count_difference": [
+        2,
+        0
+      ],
+      "untaught_counts_at_first_difference": [
+        0,
+        0
+      ],
+      "taught_counts_at_first_difference": [
+        2,
+        0
+      ],
+      "kc_equal_through_step": 1550,
+      "rule_equal_before_step": 1550,
+      "first_rule_difference_step": 1550,
+      "first_kc_total_difference_step": null,
+      "first_kc_used_difference_step": null,
+      "total_compartment_count_difference": [
+        8,
+        0
+      ],
+      "per_cell_taught_history_established": false,
+      "scope": "Current pooled bridge conditional prefix only; no new-rule trajectory or post-prefix KC equality.",
+      "whole_prefix_bins": 31,
+      "first_pool_difference_ms": 310.0,
+      "per_cell_dan_different_whole_prefix_bins": [],
+      "per_cell_late_subbin_events": "unknown; pooled equality does not establish individual DAN event equality",
+      "artifact": {
+        "file": "contrast_038.npz",
+        "sha256": "3b288bd5eb116fd5a4ec546d222caec203be68977da66762990d032104453a02",
+        "bytes": 10253
+      }
+    },
+    {
+      "index": 39,
+      "fine_index": 19,
+      "game": 4399,
+      "seed_set": "alt",
+      "seed": 3004441,
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "condition": "away",
+      "first_pool_difference_step": 1550,
+      "first_pool_count_difference": [
+        0,
+        22
+      ],
+      "untaught_counts_at_first_difference": [
+        0,
+        0
+      ],
+      "taught_counts_at_first_difference": [
+        0,
+        22
+      ],
+      "kc_equal_through_step": 1550,
+      "rule_equal_before_step": 1550,
+      "first_rule_difference_step": 1550,
+      "first_kc_total_difference_step": null,
+      "first_kc_used_difference_step": null,
+      "total_compartment_count_difference": [
+        0,
+        88
+      ],
+      "per_cell_taught_history_established": false,
+      "scope": "Current pooled bridge conditional prefix only; no new-rule trajectory or post-prefix KC equality.",
+      "whole_prefix_bins": 31,
+      "first_pool_difference_ms": 310.0,
+      "per_cell_dan_different_whole_prefix_bins": [],
+      "per_cell_late_subbin_events": "unknown; pooled equality does not establish individual DAN event equality",
+      "artifact": {
+        "file": "contrast_039.npz",
+        "sha256": "29349f8c3396c542fc8e81643871c1029be626894a9d316c144d61b4564363a5",
+        "bytes": 10253
+      }
+    },
+    {
+      "index": 40,
+      "fine_index": 20,
+      "game": 4404,
+      "seed_set": "base",
+      "seed": 2004446,
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "condition": "home",
+      "first_pool_difference_step": 1550,
+      "first_pool_count_difference": [
+        2,
+        0
+      ],
+      "untaught_counts_at_first_difference": [
+        0,
+        0
+      ],
+      "taught_counts_at_first_difference": [
+        2,
+        0
+      ],
+      "kc_equal_through_step": 1550,
+      "rule_equal_before_step": 1550,
+      "first_rule_difference_step": 1550,
+      "first_kc_total_difference_step": null,
+      "first_kc_used_difference_step": null,
+      "total_compartment_count_difference": [
+        8,
+        0
+      ],
+      "per_cell_taught_history_established": false,
+      "scope": "Current pooled bridge conditional prefix only; no new-rule trajectory or post-prefix KC equality.",
+      "whole_prefix_bins": 31,
+      "first_pool_difference_ms": 310.0,
+      "per_cell_dan_different_whole_prefix_bins": [],
+      "per_cell_late_subbin_events": "unknown; pooled equality does not establish individual DAN event equality",
+      "artifact": {
+        "file": "contrast_040.npz",
+        "sha256": "f0089a8945e4537ba07513eb38cb873b4ed8e96ed5fd4b20867497b3886a55e5",
+        "bytes": 9915
+      }
+    },
+    {
+      "index": 41,
+      "fine_index": 20,
+      "game": 4404,
+      "seed_set": "base",
+      "seed": 2004446,
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "condition": "away",
+      "first_pool_difference_step": 1550,
+      "first_pool_count_difference": [
+        0,
+        22
+      ],
+      "untaught_counts_at_first_difference": [
+        0,
+        0
+      ],
+      "taught_counts_at_first_difference": [
+        0,
+        22
+      ],
+      "kc_equal_through_step": 1550,
+      "rule_equal_before_step": 1550,
+      "first_rule_difference_step": 1550,
+      "first_kc_total_difference_step": null,
+      "first_kc_used_difference_step": null,
+      "total_compartment_count_difference": [
+        0,
+        88
+      ],
+      "per_cell_taught_history_established": false,
+      "scope": "Current pooled bridge conditional prefix only; no new-rule trajectory or post-prefix KC equality.",
+      "whole_prefix_bins": 31,
+      "first_pool_difference_ms": 310.0,
+      "per_cell_dan_different_whole_prefix_bins": [],
+      "per_cell_late_subbin_events": "unknown; pooled equality does not establish individual DAN event equality",
+      "artifact": {
+        "file": "contrast_041.npz",
+        "sha256": "0b3b4c187e305154e0c5aede428a33d2583552a96a43ed275918c2d10645d5a7",
+        "bytes": 9915
+      }
+    },
+    {
+      "index": 42,
+      "fine_index": 21,
+      "game": 4404,
+      "seed_set": "alt",
+      "seed": 3004446,
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "condition": "home",
+      "first_pool_difference_step": 1550,
+      "first_pool_count_difference": [
+        2,
+        0
+      ],
+      "untaught_counts_at_first_difference": [
+        0,
+        0
+      ],
+      "taught_counts_at_first_difference": [
+        2,
+        0
+      ],
+      "kc_equal_through_step": 1550,
+      "rule_equal_before_step": 1550,
+      "first_rule_difference_step": 1550,
+      "first_kc_total_difference_step": null,
+      "first_kc_used_difference_step": null,
+      "total_compartment_count_difference": [
+        8,
+        0
+      ],
+      "per_cell_taught_history_established": false,
+      "scope": "Current pooled bridge conditional prefix only; no new-rule trajectory or post-prefix KC equality.",
+      "whole_prefix_bins": 31,
+      "first_pool_difference_ms": 310.0,
+      "per_cell_dan_different_whole_prefix_bins": [],
+      "per_cell_late_subbin_events": "unknown; pooled equality does not establish individual DAN event equality",
+      "artifact": {
+        "file": "contrast_042.npz",
+        "sha256": "c28f21c02fa8f54dbbc425769584f21cf469fdcfc33410d99bcf3e680098916b",
+        "bytes": 9918
+      }
+    },
+    {
+      "index": 43,
+      "fine_index": 21,
+      "game": 4404,
+      "seed_set": "alt",
+      "seed": 3004446,
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "condition": "away",
+      "first_pool_difference_step": 1550,
+      "first_pool_count_difference": [
+        0,
+        22
+      ],
+      "untaught_counts_at_first_difference": [
+        0,
+        0
+      ],
+      "taught_counts_at_first_difference": [
+        0,
+        22
+      ],
+      "kc_equal_through_step": 1550,
+      "rule_equal_before_step": 1550,
+      "first_rule_difference_step": 1550,
+      "first_kc_total_difference_step": null,
+      "first_kc_used_difference_step": null,
+      "total_compartment_count_difference": [
+        0,
+        88
+      ],
+      "per_cell_taught_history_established": false,
+      "scope": "Current pooled bridge conditional prefix only; no new-rule trajectory or post-prefix KC equality.",
+      "whole_prefix_bins": 31,
+      "first_pool_difference_ms": 310.0,
+      "per_cell_dan_different_whole_prefix_bins": [],
+      "per_cell_late_subbin_events": "unknown; pooled equality does not establish individual DAN event equality",
+      "artifact": {
+        "file": "contrast_043.npz",
+        "sha256": "16c23b018fd0baa6091edb443dc67ea7b9b4cbad41e46efc9cf1e3a95de43d3f",
+        "bytes": 9918
+      }
+    },
+    {
+      "index": 44,
+      "fine_index": 22,
+      "game": 4408,
+      "seed_set": "base",
+      "seed": 2004450,
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "condition": "home",
+      "first_pool_difference_step": 1550,
+      "first_pool_count_difference": [
+        2,
+        0
+      ],
+      "untaught_counts_at_first_difference": [
+        0,
+        0
+      ],
+      "taught_counts_at_first_difference": [
+        2,
+        0
+      ],
+      "kc_equal_through_step": 1550,
+      "rule_equal_before_step": 1550,
+      "first_rule_difference_step": 1550,
+      "first_kc_total_difference_step": null,
+      "first_kc_used_difference_step": null,
+      "total_compartment_count_difference": [
+        8,
+        0
+      ],
+      "per_cell_taught_history_established": false,
+      "scope": "Current pooled bridge conditional prefix only; no new-rule trajectory or post-prefix KC equality.",
+      "whole_prefix_bins": 31,
+      "first_pool_difference_ms": 310.0,
+      "per_cell_dan_different_whole_prefix_bins": [],
+      "per_cell_late_subbin_events": "unknown; pooled equality does not establish individual DAN event equality",
+      "artifact": {
+        "file": "contrast_044.npz",
+        "sha256": "779fb8532cdbec8305b1f654947880e3e69a4e6c3dfc625f2c568b9edce7e994",
+        "bytes": 9979
+      }
+    },
+    {
+      "index": 45,
+      "fine_index": 22,
+      "game": 4408,
+      "seed_set": "base",
+      "seed": 2004450,
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "condition": "away",
+      "first_pool_difference_step": 1550,
+      "first_pool_count_difference": [
+        0,
+        22
+      ],
+      "untaught_counts_at_first_difference": [
+        0,
+        0
+      ],
+      "taught_counts_at_first_difference": [
+        0,
+        22
+      ],
+      "kc_equal_through_step": 1550,
+      "rule_equal_before_step": 1550,
+      "first_rule_difference_step": 1550,
+      "first_kc_total_difference_step": null,
+      "first_kc_used_difference_step": null,
+      "total_compartment_count_difference": [
+        0,
+        88
+      ],
+      "per_cell_taught_history_established": false,
+      "scope": "Current pooled bridge conditional prefix only; no new-rule trajectory or post-prefix KC equality.",
+      "whole_prefix_bins": 31,
+      "first_pool_difference_ms": 310.0,
+      "per_cell_dan_different_whole_prefix_bins": [],
+      "per_cell_late_subbin_events": "unknown; pooled equality does not establish individual DAN event equality",
+      "artifact": {
+        "file": "contrast_045.npz",
+        "sha256": "c72d5985781fafe29b78f8b1c43cc311b7ed6e69a17880d0fc3bab673fb0343e",
+        "bytes": 9979
+      }
+    },
+    {
+      "index": 46,
+      "fine_index": 23,
+      "game": 4408,
+      "seed_set": "alt",
+      "seed": 3004450,
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "condition": "home",
+      "first_pool_difference_step": 1550,
+      "first_pool_count_difference": [
+        2,
+        0
+      ],
+      "untaught_counts_at_first_difference": [
+        0,
+        0
+      ],
+      "taught_counts_at_first_difference": [
+        2,
+        0
+      ],
+      "kc_equal_through_step": 1550,
+      "rule_equal_before_step": 1550,
+      "first_rule_difference_step": 1550,
+      "first_kc_total_difference_step": null,
+      "first_kc_used_difference_step": null,
+      "total_compartment_count_difference": [
+        8,
+        0
+      ],
+      "per_cell_taught_history_established": false,
+      "scope": "Current pooled bridge conditional prefix only; no new-rule trajectory or post-prefix KC equality.",
+      "whole_prefix_bins": 31,
+      "first_pool_difference_ms": 310.0,
+      "per_cell_dan_different_whole_prefix_bins": [],
+      "per_cell_late_subbin_events": "unknown; pooled equality does not establish individual DAN event equality",
+      "artifact": {
+        "file": "contrast_046.npz",
+        "sha256": "01e9759f432e7f7e181588318b2701755aa2811f9bdf6faac1cf12be3e1dc4ac",
+        "bytes": 9909
+      }
+    },
+    {
+      "index": 47,
+      "fine_index": 23,
+      "game": 4408,
+      "seed_set": "alt",
+      "seed": 3004450,
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "condition": "away",
+      "first_pool_difference_step": 1550,
+      "first_pool_count_difference": [
+        0,
+        22
+      ],
+      "untaught_counts_at_first_difference": [
+        0,
+        0
+      ],
+      "taught_counts_at_first_difference": [
+        0,
+        22
+      ],
+      "kc_equal_through_step": 1550,
+      "rule_equal_before_step": 1550,
+      "first_rule_difference_step": 1550,
+      "first_kc_total_difference_step": null,
+      "first_kc_used_difference_step": null,
+      "total_compartment_count_difference": [
+        0,
+        88
+      ],
+      "per_cell_taught_history_established": false,
+      "scope": "Current pooled bridge conditional prefix only; no new-rule trajectory or post-prefix KC equality.",
+      "whole_prefix_bins": 31,
+      "first_pool_difference_ms": 310.0,
+      "per_cell_dan_different_whole_prefix_bins": [],
+      "per_cell_late_subbin_events": "unknown; pooled equality does not establish individual DAN event equality",
+      "artifact": {
+        "file": "contrast_047.npz",
+        "sha256": "9142e499c1d8fc0e0aa53b0fe56ebab5b2e8c99511430f315bb7cf08706c7b63",
+        "bytes": 9909
+      }
+    },
+    {
+      "index": 48,
+      "fine_index": 24,
+      "game": 4412,
+      "seed_set": "base",
+      "seed": 2004454,
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "condition": "home",
+      "first_pool_difference_step": 1550,
+      "first_pool_count_difference": [
+        2,
+        0
+      ],
+      "untaught_counts_at_first_difference": [
+        0,
+        0
+      ],
+      "taught_counts_at_first_difference": [
+        2,
+        0
+      ],
+      "kc_equal_through_step": 1550,
+      "rule_equal_before_step": 1550,
+      "first_rule_difference_step": 1550,
+      "first_kc_total_difference_step": null,
+      "first_kc_used_difference_step": null,
+      "total_compartment_count_difference": [
+        8,
+        0
+      ],
+      "per_cell_taught_history_established": false,
+      "scope": "Current pooled bridge conditional prefix only; no new-rule trajectory or post-prefix KC equality.",
+      "whole_prefix_bins": 31,
+      "first_pool_difference_ms": 310.0,
+      "per_cell_dan_different_whole_prefix_bins": [],
+      "per_cell_late_subbin_events": "unknown; pooled equality does not establish individual DAN event equality",
+      "artifact": {
+        "file": "contrast_048.npz",
+        "sha256": "c80da3eda351bdc669291d7449e199747e4cfaf9eaded900fde38da05385c960",
+        "bytes": 10044
+      }
+    },
+    {
+      "index": 49,
+      "fine_index": 24,
+      "game": 4412,
+      "seed_set": "base",
+      "seed": 2004454,
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "condition": "away",
+      "first_pool_difference_step": 1550,
+      "first_pool_count_difference": [
+        0,
+        22
+      ],
+      "untaught_counts_at_first_difference": [
+        0,
+        0
+      ],
+      "taught_counts_at_first_difference": [
+        0,
+        22
+      ],
+      "kc_equal_through_step": 1550,
+      "rule_equal_before_step": 1550,
+      "first_rule_difference_step": 1550,
+      "first_kc_total_difference_step": null,
+      "first_kc_used_difference_step": null,
+      "total_compartment_count_difference": [
+        0,
+        88
+      ],
+      "per_cell_taught_history_established": false,
+      "scope": "Current pooled bridge conditional prefix only; no new-rule trajectory or post-prefix KC equality.",
+      "whole_prefix_bins": 31,
+      "first_pool_difference_ms": 310.0,
+      "per_cell_dan_different_whole_prefix_bins": [],
+      "per_cell_late_subbin_events": "unknown; pooled equality does not establish individual DAN event equality",
+      "artifact": {
+        "file": "contrast_049.npz",
+        "sha256": "5c7243dda843842ccaf6446321ec82e2779a94c892f686b2f0548bc5ab62d5a3",
+        "bytes": 10044
+      }
+    },
+    {
+      "index": 50,
+      "fine_index": 25,
+      "game": 4412,
+      "seed_set": "alt",
+      "seed": 3004454,
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "condition": "home",
+      "first_pool_difference_step": 1550,
+      "first_pool_count_difference": [
+        2,
+        0
+      ],
+      "untaught_counts_at_first_difference": [
+        0,
+        0
+      ],
+      "taught_counts_at_first_difference": [
+        2,
+        0
+      ],
+      "kc_equal_through_step": 1550,
+      "rule_equal_before_step": 1550,
+      "first_rule_difference_step": 1550,
+      "first_kc_total_difference_step": null,
+      "first_kc_used_difference_step": null,
+      "total_compartment_count_difference": [
+        8,
+        0
+      ],
+      "per_cell_taught_history_established": false,
+      "scope": "Current pooled bridge conditional prefix only; no new-rule trajectory or post-prefix KC equality.",
+      "whole_prefix_bins": 31,
+      "first_pool_difference_ms": 310.0,
+      "per_cell_dan_different_whole_prefix_bins": [],
+      "per_cell_late_subbin_events": "unknown; pooled equality does not establish individual DAN event equality",
+      "artifact": {
+        "file": "contrast_050.npz",
+        "sha256": "57dcc218129041f8668679b38dccef6da0b6771fa037b548a1572375aaa035a7",
+        "bytes": 9972
+      }
+    },
+    {
+      "index": 51,
+      "fine_index": 25,
+      "game": 4412,
+      "seed_set": "alt",
+      "seed": 3004454,
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "condition": "away",
+      "first_pool_difference_step": 1550,
+      "first_pool_count_difference": [
+        0,
+        22
+      ],
+      "untaught_counts_at_first_difference": [
+        0,
+        0
+      ],
+      "taught_counts_at_first_difference": [
+        0,
+        22
+      ],
+      "kc_equal_through_step": 1550,
+      "rule_equal_before_step": 1550,
+      "first_rule_difference_step": 1550,
+      "first_kc_total_difference_step": null,
+      "first_kc_used_difference_step": null,
+      "total_compartment_count_difference": [
+        0,
+        88
+      ],
+      "per_cell_taught_history_established": false,
+      "scope": "Current pooled bridge conditional prefix only; no new-rule trajectory or post-prefix KC equality.",
+      "whole_prefix_bins": 31,
+      "first_pool_difference_ms": 310.0,
+      "per_cell_dan_different_whole_prefix_bins": [],
+      "per_cell_late_subbin_events": "unknown; pooled equality does not establish individual DAN event equality",
+      "artifact": {
+        "file": "contrast_051.npz",
+        "sha256": "2c60debb0e609ce2a0220ff7ffa5c4c07740bbce057ef4898cea55661aa87b7d",
+        "bytes": 9972
+      }
+    },
+    {
+      "index": 52,
+      "fine_index": 26,
+      "game": 4416,
+      "seed_set": "base",
+      "seed": 2004458,
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "condition": "home",
+      "first_pool_difference_step": 1550,
+      "first_pool_count_difference": [
+        2,
+        0
+      ],
+      "untaught_counts_at_first_difference": [
+        0,
+        0
+      ],
+      "taught_counts_at_first_difference": [
+        2,
+        0
+      ],
+      "kc_equal_through_step": 1550,
+      "rule_equal_before_step": 1550,
+      "first_rule_difference_step": 1550,
+      "first_kc_total_difference_step": null,
+      "first_kc_used_difference_step": null,
+      "total_compartment_count_difference": [
+        8,
+        0
+      ],
+      "per_cell_taught_history_established": false,
+      "scope": "Current pooled bridge conditional prefix only; no new-rule trajectory or post-prefix KC equality.",
+      "whole_prefix_bins": 31,
+      "first_pool_difference_ms": 310.0,
+      "per_cell_dan_different_whole_prefix_bins": [],
+      "per_cell_late_subbin_events": "unknown; pooled equality does not establish individual DAN event equality",
+      "artifact": {
+        "file": "contrast_052.npz",
+        "sha256": "28b0a07df9b66cca104f68c4524eeb383ec6a95233a1a2483d55f5aeeee3aa20",
+        "bytes": 10141
+      }
+    },
+    {
+      "index": 53,
+      "fine_index": 26,
+      "game": 4416,
+      "seed_set": "base",
+      "seed": 2004458,
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "condition": "away",
+      "first_pool_difference_step": 1550,
+      "first_pool_count_difference": [
+        0,
+        22
+      ],
+      "untaught_counts_at_first_difference": [
+        0,
+        0
+      ],
+      "taught_counts_at_first_difference": [
+        0,
+        22
+      ],
+      "kc_equal_through_step": 1550,
+      "rule_equal_before_step": 1550,
+      "first_rule_difference_step": 1550,
+      "first_kc_total_difference_step": null,
+      "first_kc_used_difference_step": null,
+      "total_compartment_count_difference": [
+        0,
+        88
+      ],
+      "per_cell_taught_history_established": false,
+      "scope": "Current pooled bridge conditional prefix only; no new-rule trajectory or post-prefix KC equality.",
+      "whole_prefix_bins": 31,
+      "first_pool_difference_ms": 310.0,
+      "per_cell_dan_different_whole_prefix_bins": [],
+      "per_cell_late_subbin_events": "unknown; pooled equality does not establish individual DAN event equality",
+      "artifact": {
+        "file": "contrast_053.npz",
+        "sha256": "1051baaa0d93df44681c39115ea833b7e813198fdb10663358df98f16092f8f0",
+        "bytes": 10141
+      }
+    },
+    {
+      "index": 54,
+      "fine_index": 27,
+      "game": 4416,
+      "seed_set": "alt",
+      "seed": 3004458,
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "condition": "home",
+      "first_pool_difference_step": 1550,
+      "first_pool_count_difference": [
+        2,
+        0
+      ],
+      "untaught_counts_at_first_difference": [
+        0,
+        0
+      ],
+      "taught_counts_at_first_difference": [
+        2,
+        0
+      ],
+      "kc_equal_through_step": 1550,
+      "rule_equal_before_step": 1550,
+      "first_rule_difference_step": 1550,
+      "first_kc_total_difference_step": null,
+      "first_kc_used_difference_step": null,
+      "total_compartment_count_difference": [
+        8,
+        0
+      ],
+      "per_cell_taught_history_established": false,
+      "scope": "Current pooled bridge conditional prefix only; no new-rule trajectory or post-prefix KC equality.",
+      "whole_prefix_bins": 31,
+      "first_pool_difference_ms": 310.0,
+      "per_cell_dan_different_whole_prefix_bins": [],
+      "per_cell_late_subbin_events": "unknown; pooled equality does not establish individual DAN event equality",
+      "artifact": {
+        "file": "contrast_054.npz",
+        "sha256": "bb6cc7d4cc434f36ccfa5abb64b4338fde1ae2e23f5c6a1c96a40bba86ce3749",
+        "bytes": 9946
+      }
+    },
+    {
+      "index": 55,
+      "fine_index": 27,
+      "game": 4416,
+      "seed_set": "alt",
+      "seed": 3004458,
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "condition": "away",
+      "first_pool_difference_step": 1550,
+      "first_pool_count_difference": [
+        0,
+        22
+      ],
+      "untaught_counts_at_first_difference": [
+        0,
+        0
+      ],
+      "taught_counts_at_first_difference": [
+        0,
+        22
+      ],
+      "kc_equal_through_step": 1550,
+      "rule_equal_before_step": 1550,
+      "first_rule_difference_step": 1550,
+      "first_kc_total_difference_step": null,
+      "first_kc_used_difference_step": null,
+      "total_compartment_count_difference": [
+        0,
+        88
+      ],
+      "per_cell_taught_history_established": false,
+      "scope": "Current pooled bridge conditional prefix only; no new-rule trajectory or post-prefix KC equality.",
+      "whole_prefix_bins": 31,
+      "first_pool_difference_ms": 310.0,
+      "per_cell_dan_different_whole_prefix_bins": [],
+      "per_cell_late_subbin_events": "unknown; pooled equality does not establish individual DAN event equality",
+      "artifact": {
+        "file": "contrast_055.npz",
+        "sha256": "1fca5445fd145914e99d71fd5ba0d01465e55224df1b4feeb0a024396859bfaa",
+        "bytes": 9946
+      }
+    },
+    {
+      "index": 56,
+      "fine_index": 28,
+      "game": 4420,
+      "seed_set": "base",
+      "seed": 2004462,
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "condition": "home",
+      "first_pool_difference_step": 1550,
+      "first_pool_count_difference": [
+        2,
+        0
+      ],
+      "untaught_counts_at_first_difference": [
+        0,
+        0
+      ],
+      "taught_counts_at_first_difference": [
+        2,
+        0
+      ],
+      "kc_equal_through_step": 1550,
+      "rule_equal_before_step": 1550,
+      "first_rule_difference_step": 1550,
+      "first_kc_total_difference_step": null,
+      "first_kc_used_difference_step": null,
+      "total_compartment_count_difference": [
+        8,
+        0
+      ],
+      "per_cell_taught_history_established": false,
+      "scope": "Current pooled bridge conditional prefix only; no new-rule trajectory or post-prefix KC equality.",
+      "whole_prefix_bins": 31,
+      "first_pool_difference_ms": 310.0,
+      "per_cell_dan_different_whole_prefix_bins": [],
+      "per_cell_late_subbin_events": "unknown; pooled equality does not establish individual DAN event equality",
+      "artifact": {
+        "file": "contrast_056.npz",
+        "sha256": "9384966b8f868ee9963318ebdb5aebab1d3fc0ded2aa96cb5f1cf213f4b48d96",
+        "bytes": 10809
+      }
+    },
+    {
+      "index": 57,
+      "fine_index": 28,
+      "game": 4420,
+      "seed_set": "base",
+      "seed": 2004462,
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "condition": "away",
+      "first_pool_difference_step": 1550,
+      "first_pool_count_difference": [
+        0,
+        22
+      ],
+      "untaught_counts_at_first_difference": [
+        0,
+        0
+      ],
+      "taught_counts_at_first_difference": [
+        0,
+        22
+      ],
+      "kc_equal_through_step": 1550,
+      "rule_equal_before_step": 1550,
+      "first_rule_difference_step": 1550,
+      "first_kc_total_difference_step": null,
+      "first_kc_used_difference_step": null,
+      "total_compartment_count_difference": [
+        0,
+        88
+      ],
+      "per_cell_taught_history_established": false,
+      "scope": "Current pooled bridge conditional prefix only; no new-rule trajectory or post-prefix KC equality.",
+      "whole_prefix_bins": 31,
+      "first_pool_difference_ms": 310.0,
+      "per_cell_dan_different_whole_prefix_bins": [],
+      "per_cell_late_subbin_events": "unknown; pooled equality does not establish individual DAN event equality",
+      "artifact": {
+        "file": "contrast_057.npz",
+        "sha256": "e3d3e8c013c7135d1e6d9e641a742071520923f1f6aa6e63c98dc04b406617dc",
+        "bytes": 10809
+      }
+    },
+    {
+      "index": 58,
+      "fine_index": 29,
+      "game": 4420,
+      "seed_set": "alt",
+      "seed": 3004462,
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "condition": "home",
+      "first_pool_difference_step": 1550,
+      "first_pool_count_difference": [
+        2,
+        0
+      ],
+      "untaught_counts_at_first_difference": [
+        0,
+        0
+      ],
+      "taught_counts_at_first_difference": [
+        2,
+        0
+      ],
+      "kc_equal_through_step": 1550,
+      "rule_equal_before_step": 1550,
+      "first_rule_difference_step": 1550,
+      "first_kc_total_difference_step": null,
+      "first_kc_used_difference_step": null,
+      "total_compartment_count_difference": [
+        7,
+        0
+      ],
+      "per_cell_taught_history_established": false,
+      "scope": "Current pooled bridge conditional prefix only; no new-rule trajectory or post-prefix KC equality.",
+      "whole_prefix_bins": 31,
+      "first_pool_difference_ms": 310.0,
+      "per_cell_dan_different_whole_prefix_bins": [],
+      "per_cell_late_subbin_events": "unknown; pooled equality does not establish individual DAN event equality",
+      "artifact": {
+        "file": "contrast_058.npz",
+        "sha256": "d2424fc9f727472b5087d181ee3787fb30c3b1f82e43856263fcb55b21965033",
+        "bytes": 10650
+      }
+    },
+    {
+      "index": 59,
+      "fine_index": 29,
+      "game": 4420,
+      "seed_set": "alt",
+      "seed": 3004462,
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "condition": "away",
+      "first_pool_difference_step": 1550,
+      "first_pool_count_difference": [
+        0,
+        22
+      ],
+      "untaught_counts_at_first_difference": [
+        0,
+        0
+      ],
+      "taught_counts_at_first_difference": [
+        0,
+        22
+      ],
+      "kc_equal_through_step": 1550,
+      "rule_equal_before_step": 1550,
+      "first_rule_difference_step": 1550,
+      "first_kc_total_difference_step": null,
+      "first_kc_used_difference_step": null,
+      "total_compartment_count_difference": [
+        0,
+        88
+      ],
+      "per_cell_taught_history_established": false,
+      "scope": "Current pooled bridge conditional prefix only; no new-rule trajectory or post-prefix KC equality.",
+      "whole_prefix_bins": 31,
+      "first_pool_difference_ms": 310.0,
+      "per_cell_dan_different_whole_prefix_bins": [],
+      "per_cell_late_subbin_events": "unknown; pooled equality does not establish individual DAN event equality",
+      "artifact": {
+        "file": "contrast_059.npz",
+        "sha256": "f176b21ff43f43aa8c6066dcf8c5295afe80324b7c7a095a6530caad4f036f9b",
+        "bytes": 10643
+      }
+    },
+    {
+      "index": 60,
+      "fine_index": 30,
+      "game": 4425,
+      "seed_set": "base",
+      "seed": 2004467,
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "condition": "home",
+      "first_pool_difference_step": 1550,
+      "first_pool_count_difference": [
+        2,
+        0
+      ],
+      "untaught_counts_at_first_difference": [
+        0,
+        0
+      ],
+      "taught_counts_at_first_difference": [
+        2,
+        0
+      ],
+      "kc_equal_through_step": 1550,
+      "rule_equal_before_step": 1550,
+      "first_rule_difference_step": 1550,
+      "first_kc_total_difference_step": null,
+      "first_kc_used_difference_step": null,
+      "total_compartment_count_difference": [
+        8,
+        0
+      ],
+      "per_cell_taught_history_established": false,
+      "scope": "Current pooled bridge conditional prefix only; no new-rule trajectory or post-prefix KC equality.",
+      "whole_prefix_bins": 31,
+      "first_pool_difference_ms": 310.0,
+      "per_cell_dan_different_whole_prefix_bins": [],
+      "per_cell_late_subbin_events": "unknown; pooled equality does not establish individual DAN event equality",
+      "artifact": {
+        "file": "contrast_060.npz",
+        "sha256": "9e48222b38da6ef3c6e253242754aa24bf3a1811727798fc52d68d8cd1a5c2c5",
+        "bytes": 10036
+      }
+    },
+    {
+      "index": 61,
+      "fine_index": 30,
+      "game": 4425,
+      "seed_set": "base",
+      "seed": 2004467,
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "condition": "away",
+      "first_pool_difference_step": 1550,
+      "first_pool_count_difference": [
+        0,
+        22
+      ],
+      "untaught_counts_at_first_difference": [
+        0,
+        0
+      ],
+      "taught_counts_at_first_difference": [
+        0,
+        22
+      ],
+      "kc_equal_through_step": 1550,
+      "rule_equal_before_step": 1550,
+      "first_rule_difference_step": 1550,
+      "first_kc_total_difference_step": null,
+      "first_kc_used_difference_step": null,
+      "total_compartment_count_difference": [
+        0,
+        88
+      ],
+      "per_cell_taught_history_established": false,
+      "scope": "Current pooled bridge conditional prefix only; no new-rule trajectory or post-prefix KC equality.",
+      "whole_prefix_bins": 31,
+      "first_pool_difference_ms": 310.0,
+      "per_cell_dan_different_whole_prefix_bins": [],
+      "per_cell_late_subbin_events": "unknown; pooled equality does not establish individual DAN event equality",
+      "artifact": {
+        "file": "contrast_061.npz",
+        "sha256": "80b41edb49c6b54d008a849e28db243add828c6ac1cb9cce677209ae365e744a",
+        "bytes": 10036
+      }
+    },
+    {
+      "index": 62,
+      "fine_index": 31,
+      "game": 4425,
+      "seed_set": "alt",
+      "seed": 3004467,
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "condition": "home",
+      "first_pool_difference_step": 1550,
+      "first_pool_count_difference": [
+        2,
+        0
+      ],
+      "untaught_counts_at_first_difference": [
+        0,
+        0
+      ],
+      "taught_counts_at_first_difference": [
+        2,
+        0
+      ],
+      "kc_equal_through_step": 1550,
+      "rule_equal_before_step": 1550,
+      "first_rule_difference_step": 1550,
+      "first_kc_total_difference_step": null,
+      "first_kc_used_difference_step": null,
+      "total_compartment_count_difference": [
+        8,
+        0
+      ],
+      "per_cell_taught_history_established": false,
+      "scope": "Current pooled bridge conditional prefix only; no new-rule trajectory or post-prefix KC equality.",
+      "whole_prefix_bins": 31,
+      "first_pool_difference_ms": 310.0,
+      "per_cell_dan_different_whole_prefix_bins": [],
+      "per_cell_late_subbin_events": "unknown; pooled equality does not establish individual DAN event equality",
+      "artifact": {
+        "file": "contrast_062.npz",
+        "sha256": "e1b07128961d6437e55f967e5263326bfd321b44ebb71afe4aeabc969522c8ed",
+        "bytes": 10014
+      }
+    },
+    {
+      "index": 63,
+      "fine_index": 31,
+      "game": 4425,
+      "seed_set": "alt",
+      "seed": 3004467,
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "condition": "away",
+      "first_pool_difference_step": 1550,
+      "first_pool_count_difference": [
+        0,
+        22
+      ],
+      "untaught_counts_at_first_difference": [
+        0,
+        0
+      ],
+      "taught_counts_at_first_difference": [
+        0,
+        22
+      ],
+      "kc_equal_through_step": 1550,
+      "rule_equal_before_step": 1550,
+      "first_rule_difference_step": 1550,
+      "first_kc_total_difference_step": null,
+      "first_kc_used_difference_step": null,
+      "total_compartment_count_difference": [
+        0,
+        88
+      ],
+      "per_cell_taught_history_established": false,
+      "scope": "Current pooled bridge conditional prefix only; no new-rule trajectory or post-prefix KC equality.",
+      "whole_prefix_bins": 31,
+      "first_pool_difference_ms": 310.0,
+      "per_cell_dan_different_whole_prefix_bins": [],
+      "per_cell_late_subbin_events": "unknown; pooled equality does not establish individual DAN event equality",
+      "artifact": {
+        "file": "contrast_063.npz",
+        "sha256": "18edefd3b2d255251d43b444c0c114fff7b6e8dd60d732e3869bac97c7394e62",
+        "bytes": 10014
+      }
+    }
+  ],
+  "wall_seconds": 3.9626505828928202,
+  "error": null
+}

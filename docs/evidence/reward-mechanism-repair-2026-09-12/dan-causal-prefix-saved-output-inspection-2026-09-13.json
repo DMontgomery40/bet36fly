@@ -1,0 +1,2891 @@
+{
+  "scope": "Descriptive inspection of already saved audit outputs; no neural run or new input-history calculation.",
+  "run_id": "dan-causal-prefix-b3bbc7ad5a3c1040de18",
+  "rows": [
+    {
+      "index": 0,
+      "game": 4362,
+      "seed_set": "base",
+      "condition": "home",
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "nonzero_dan_difference_steps": [
+        1550,
+        1650,
+        1750,
+        1850
+      ],
+      "count_difference_at_those_steps": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "other_channel_equal_all_steps": true,
+      "prefix_active_kcs": 771,
+      "prefix_total_kc_events": 2572,
+      "prefix_events_per_cell_max": 15,
+      "kc_body_ids_sha256": "58d08c3b674b12479639b8c3b2bd19f85dfb647dff641f47887ecba5c816c777",
+      "first_untaught": [
+        0,
+        0
+      ],
+      "first_taught": [
+        2,
+        0
+      ],
+      "first_kc_used_difference": null
+    },
+    {
+      "index": 1,
+      "game": 4362,
+      "seed_set": "base",
+      "condition": "away",
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "nonzero_dan_difference_steps": [
+        1550,
+        1650,
+        1750,
+        1850
+      ],
+      "count_difference_at_those_steps": [
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ]
+      ],
+      "other_channel_equal_all_steps": true,
+      "prefix_active_kcs": 771,
+      "prefix_total_kc_events": 2572,
+      "prefix_events_per_cell_max": 15,
+      "kc_body_ids_sha256": "58d08c3b674b12479639b8c3b2bd19f85dfb647dff641f47887ecba5c816c777",
+      "first_untaught": [
+        0,
+        0
+      ],
+      "first_taught": [
+        0,
+        22
+      ],
+      "first_kc_used_difference": null
+    },
+    {
+      "index": 2,
+      "game": 4362,
+      "seed_set": "alt",
+      "condition": "home",
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "nonzero_dan_difference_steps": [
+        1550,
+        1650,
+        1750,
+        1850
+      ],
+      "count_difference_at_those_steps": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "other_channel_equal_all_steps": true,
+      "prefix_active_kcs": 708,
+      "prefix_total_kc_events": 2286,
+      "prefix_events_per_cell_max": 13,
+      "kc_body_ids_sha256": "58d08c3b674b12479639b8c3b2bd19f85dfb647dff641f47887ecba5c816c777",
+      "first_untaught": [
+        0,
+        0
+      ],
+      "first_taught": [
+        2,
+        0
+      ],
+      "first_kc_used_difference": null
+    },
+    {
+      "index": 3,
+      "game": 4362,
+      "seed_set": "alt",
+      "condition": "away",
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "nonzero_dan_difference_steps": [
+        1550,
+        1650,
+        1750,
+        1850
+      ],
+      "count_difference_at_those_steps": [
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ]
+      ],
+      "other_channel_equal_all_steps": true,
+      "prefix_active_kcs": 708,
+      "prefix_total_kc_events": 2286,
+      "prefix_events_per_cell_max": 13,
+      "kc_body_ids_sha256": "58d08c3b674b12479639b8c3b2bd19f85dfb647dff641f47887ecba5c816c777",
+      "first_untaught": [
+        0,
+        0
+      ],
+      "first_taught": [
+        0,
+        22
+      ],
+      "first_kc_used_difference": null
+    },
+    {
+      "index": 4,
+      "game": 4366,
+      "seed_set": "base",
+      "condition": "home",
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "nonzero_dan_difference_steps": [
+        1550,
+        1650,
+        1750,
+        1850
+      ],
+      "count_difference_at_those_steps": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "other_channel_equal_all_steps": true,
+      "prefix_active_kcs": 597,
+      "prefix_total_kc_events": 1635,
+      "prefix_events_per_cell_max": 13,
+      "kc_body_ids_sha256": "58d08c3b674b12479639b8c3b2bd19f85dfb647dff641f47887ecba5c816c777",
+      "first_untaught": [
+        0,
+        0
+      ],
+      "first_taught": [
+        2,
+        0
+      ],
+      "first_kc_used_difference": null
+    },
+    {
+      "index": 5,
+      "game": 4366,
+      "seed_set": "base",
+      "condition": "away",
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "nonzero_dan_difference_steps": [
+        1550,
+        1650,
+        1750,
+        1850
+      ],
+      "count_difference_at_those_steps": [
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ]
+      ],
+      "other_channel_equal_all_steps": true,
+      "prefix_active_kcs": 597,
+      "prefix_total_kc_events": 1635,
+      "prefix_events_per_cell_max": 13,
+      "kc_body_ids_sha256": "58d08c3b674b12479639b8c3b2bd19f85dfb647dff641f47887ecba5c816c777",
+      "first_untaught": [
+        0,
+        0
+      ],
+      "first_taught": [
+        0,
+        22
+      ],
+      "first_kc_used_difference": null
+    },
+    {
+      "index": 6,
+      "game": 4366,
+      "seed_set": "alt",
+      "condition": "home",
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "nonzero_dan_difference_steps": [
+        1550,
+        1650,
+        1750,
+        1850
+      ],
+      "count_difference_at_those_steps": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "other_channel_equal_all_steps": true,
+      "prefix_active_kcs": 593,
+      "prefix_total_kc_events": 1668,
+      "prefix_events_per_cell_max": 15,
+      "kc_body_ids_sha256": "58d08c3b674b12479639b8c3b2bd19f85dfb647dff641f47887ecba5c816c777",
+      "first_untaught": [
+        0,
+        0
+      ],
+      "first_taught": [
+        2,
+        0
+      ],
+      "first_kc_used_difference": null
+    },
+    {
+      "index": 7,
+      "game": 4366,
+      "seed_set": "alt",
+      "condition": "away",
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "nonzero_dan_difference_steps": [
+        1550,
+        1650,
+        1750,
+        1850
+      ],
+      "count_difference_at_those_steps": [
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ]
+      ],
+      "other_channel_equal_all_steps": true,
+      "prefix_active_kcs": 593,
+      "prefix_total_kc_events": 1668,
+      "prefix_events_per_cell_max": 15,
+      "kc_body_ids_sha256": "58d08c3b674b12479639b8c3b2bd19f85dfb647dff641f47887ecba5c816c777",
+      "first_untaught": [
+        0,
+        0
+      ],
+      "first_taught": [
+        0,
+        22
+      ],
+      "first_kc_used_difference": null
+    },
+    {
+      "index": 8,
+      "game": 4370,
+      "seed_set": "base",
+      "condition": "home",
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "nonzero_dan_difference_steps": [
+        1550,
+        1650,
+        1750,
+        1850
+      ],
+      "count_difference_at_those_steps": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "other_channel_equal_all_steps": true,
+      "prefix_active_kcs": 1157,
+      "prefix_total_kc_events": 3824,
+      "prefix_events_per_cell_max": 15,
+      "kc_body_ids_sha256": "58d08c3b674b12479639b8c3b2bd19f85dfb647dff641f47887ecba5c816c777",
+      "first_untaught": [
+        0,
+        0
+      ],
+      "first_taught": [
+        2,
+        0
+      ],
+      "first_kc_used_difference": null
+    },
+    {
+      "index": 9,
+      "game": 4370,
+      "seed_set": "base",
+      "condition": "away",
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "nonzero_dan_difference_steps": [
+        1550,
+        1650,
+        1750,
+        1850
+      ],
+      "count_difference_at_those_steps": [
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ]
+      ],
+      "other_channel_equal_all_steps": true,
+      "prefix_active_kcs": 1157,
+      "prefix_total_kc_events": 3824,
+      "prefix_events_per_cell_max": 15,
+      "kc_body_ids_sha256": "58d08c3b674b12479639b8c3b2bd19f85dfb647dff641f47887ecba5c816c777",
+      "first_untaught": [
+        0,
+        0
+      ],
+      "first_taught": [
+        0,
+        22
+      ],
+      "first_kc_used_difference": null
+    },
+    {
+      "index": 10,
+      "game": 4370,
+      "seed_set": "alt",
+      "condition": "home",
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "nonzero_dan_difference_steps": [
+        1550,
+        1650,
+        1750,
+        1850
+      ],
+      "count_difference_at_those_steps": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "other_channel_equal_all_steps": true,
+      "prefix_active_kcs": 1147,
+      "prefix_total_kc_events": 3742,
+      "prefix_events_per_cell_max": 16,
+      "kc_body_ids_sha256": "58d08c3b674b12479639b8c3b2bd19f85dfb647dff641f47887ecba5c816c777",
+      "first_untaught": [
+        0,
+        0
+      ],
+      "first_taught": [
+        2,
+        0
+      ],
+      "first_kc_used_difference": null
+    },
+    {
+      "index": 11,
+      "game": 4370,
+      "seed_set": "alt",
+      "condition": "away",
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "nonzero_dan_difference_steps": [
+        1550,
+        1650,
+        1750,
+        1850
+      ],
+      "count_difference_at_those_steps": [
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ]
+      ],
+      "other_channel_equal_all_steps": true,
+      "prefix_active_kcs": 1147,
+      "prefix_total_kc_events": 3742,
+      "prefix_events_per_cell_max": 16,
+      "kc_body_ids_sha256": "58d08c3b674b12479639b8c3b2bd19f85dfb647dff641f47887ecba5c816c777",
+      "first_untaught": [
+        0,
+        0
+      ],
+      "first_taught": [
+        0,
+        22
+      ],
+      "first_kc_used_difference": null
+    },
+    {
+      "index": 12,
+      "game": 4374,
+      "seed_set": "base",
+      "condition": "home",
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "nonzero_dan_difference_steps": [
+        1550,
+        1650,
+        1750,
+        1850
+      ],
+      "count_difference_at_those_steps": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "other_channel_equal_all_steps": true,
+      "prefix_active_kcs": 490,
+      "prefix_total_kc_events": 1342,
+      "prefix_events_per_cell_max": 10,
+      "kc_body_ids_sha256": "58d08c3b674b12479639b8c3b2bd19f85dfb647dff641f47887ecba5c816c777",
+      "first_untaught": [
+        0,
+        0
+      ],
+      "first_taught": [
+        2,
+        0
+      ],
+      "first_kc_used_difference": null
+    },
+    {
+      "index": 13,
+      "game": 4374,
+      "seed_set": "base",
+      "condition": "away",
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "nonzero_dan_difference_steps": [
+        1550,
+        1650,
+        1750,
+        1850
+      ],
+      "count_difference_at_those_steps": [
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ]
+      ],
+      "other_channel_equal_all_steps": true,
+      "prefix_active_kcs": 490,
+      "prefix_total_kc_events": 1342,
+      "prefix_events_per_cell_max": 10,
+      "kc_body_ids_sha256": "58d08c3b674b12479639b8c3b2bd19f85dfb647dff641f47887ecba5c816c777",
+      "first_untaught": [
+        0,
+        0
+      ],
+      "first_taught": [
+        0,
+        22
+      ],
+      "first_kc_used_difference": null
+    },
+    {
+      "index": 14,
+      "game": 4374,
+      "seed_set": "alt",
+      "condition": "home",
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "nonzero_dan_difference_steps": [
+        1550,
+        1650,
+        1750,
+        1850
+      ],
+      "count_difference_at_those_steps": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "other_channel_equal_all_steps": true,
+      "prefix_active_kcs": 497,
+      "prefix_total_kc_events": 1299,
+      "prefix_events_per_cell_max": 10,
+      "kc_body_ids_sha256": "58d08c3b674b12479639b8c3b2bd19f85dfb647dff641f47887ecba5c816c777",
+      "first_untaught": [
+        0,
+        0
+      ],
+      "first_taught": [
+        2,
+        0
+      ],
+      "first_kc_used_difference": null
+    },
+    {
+      "index": 15,
+      "game": 4374,
+      "seed_set": "alt",
+      "condition": "away",
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "nonzero_dan_difference_steps": [
+        1550,
+        1650,
+        1750,
+        1850
+      ],
+      "count_difference_at_those_steps": [
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ]
+      ],
+      "other_channel_equal_all_steps": true,
+      "prefix_active_kcs": 497,
+      "prefix_total_kc_events": 1299,
+      "prefix_events_per_cell_max": 10,
+      "kc_body_ids_sha256": "58d08c3b674b12479639b8c3b2bd19f85dfb647dff641f47887ecba5c816c777",
+      "first_untaught": [
+        0,
+        0
+      ],
+      "first_taught": [
+        0,
+        22
+      ],
+      "first_kc_used_difference": null
+    },
+    {
+      "index": 16,
+      "game": 4378,
+      "seed_set": "base",
+      "condition": "home",
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "nonzero_dan_difference_steps": [
+        1550,
+        1650,
+        1750,
+        1850
+      ],
+      "count_difference_at_those_steps": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "other_channel_equal_all_steps": true,
+      "prefix_active_kcs": 1010,
+      "prefix_total_kc_events": 3096,
+      "prefix_events_per_cell_max": 13,
+      "kc_body_ids_sha256": "58d08c3b674b12479639b8c3b2bd19f85dfb647dff641f47887ecba5c816c777",
+      "first_untaught": [
+        0,
+        0
+      ],
+      "first_taught": [
+        2,
+        0
+      ],
+      "first_kc_used_difference": null
+    },
+    {
+      "index": 17,
+      "game": 4378,
+      "seed_set": "base",
+      "condition": "away",
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "nonzero_dan_difference_steps": [
+        1550,
+        1650,
+        1750,
+        1850
+      ],
+      "count_difference_at_those_steps": [
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ]
+      ],
+      "other_channel_equal_all_steps": true,
+      "prefix_active_kcs": 1010,
+      "prefix_total_kc_events": 3096,
+      "prefix_events_per_cell_max": 13,
+      "kc_body_ids_sha256": "58d08c3b674b12479639b8c3b2bd19f85dfb647dff641f47887ecba5c816c777",
+      "first_untaught": [
+        0,
+        0
+      ],
+      "first_taught": [
+        0,
+        22
+      ],
+      "first_kc_used_difference": null
+    },
+    {
+      "index": 18,
+      "game": 4378,
+      "seed_set": "alt",
+      "condition": "home",
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "nonzero_dan_difference_steps": [
+        1550,
+        1650,
+        1750,
+        1850
+      ],
+      "count_difference_at_those_steps": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "other_channel_equal_all_steps": true,
+      "prefix_active_kcs": 873,
+      "prefix_total_kc_events": 2881,
+      "prefix_events_per_cell_max": 14,
+      "kc_body_ids_sha256": "58d08c3b674b12479639b8c3b2bd19f85dfb647dff641f47887ecba5c816c777",
+      "first_untaught": [
+        0,
+        0
+      ],
+      "first_taught": [
+        2,
+        0
+      ],
+      "first_kc_used_difference": null
+    },
+    {
+      "index": 19,
+      "game": 4378,
+      "seed_set": "alt",
+      "condition": "away",
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "nonzero_dan_difference_steps": [
+        1550,
+        1650,
+        1750,
+        1850
+      ],
+      "count_difference_at_those_steps": [
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ]
+      ],
+      "other_channel_equal_all_steps": true,
+      "prefix_active_kcs": 873,
+      "prefix_total_kc_events": 2881,
+      "prefix_events_per_cell_max": 14,
+      "kc_body_ids_sha256": "58d08c3b674b12479639b8c3b2bd19f85dfb647dff641f47887ecba5c816c777",
+      "first_untaught": [
+        0,
+        0
+      ],
+      "first_taught": [
+        0,
+        22
+      ],
+      "first_kc_used_difference": null
+    },
+    {
+      "index": 20,
+      "game": 4383,
+      "seed_set": "base",
+      "condition": "home",
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "nonzero_dan_difference_steps": [
+        1550,
+        1650,
+        1750,
+        1850
+      ],
+      "count_difference_at_those_steps": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "other_channel_equal_all_steps": true,
+      "prefix_active_kcs": 1224,
+      "prefix_total_kc_events": 4218,
+      "prefix_events_per_cell_max": 15,
+      "kc_body_ids_sha256": "58d08c3b674b12479639b8c3b2bd19f85dfb647dff641f47887ecba5c816c777",
+      "first_untaught": [
+        0,
+        0
+      ],
+      "first_taught": [
+        2,
+        0
+      ],
+      "first_kc_used_difference": null
+    },
+    {
+      "index": 21,
+      "game": 4383,
+      "seed_set": "base",
+      "condition": "away",
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "nonzero_dan_difference_steps": [
+        1550,
+        1650,
+        1750,
+        1850
+      ],
+      "count_difference_at_those_steps": [
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ]
+      ],
+      "other_channel_equal_all_steps": true,
+      "prefix_active_kcs": 1224,
+      "prefix_total_kc_events": 4218,
+      "prefix_events_per_cell_max": 15,
+      "kc_body_ids_sha256": "58d08c3b674b12479639b8c3b2bd19f85dfb647dff641f47887ecba5c816c777",
+      "first_untaught": [
+        0,
+        0
+      ],
+      "first_taught": [
+        0,
+        22
+      ],
+      "first_kc_used_difference": null
+    },
+    {
+      "index": 22,
+      "game": 4383,
+      "seed_set": "alt",
+      "condition": "home",
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "nonzero_dan_difference_steps": [
+        1550,
+        1650,
+        1750,
+        1850
+      ],
+      "count_difference_at_those_steps": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "other_channel_equal_all_steps": true,
+      "prefix_active_kcs": 1199,
+      "prefix_total_kc_events": 4320,
+      "prefix_events_per_cell_max": 17,
+      "kc_body_ids_sha256": "58d08c3b674b12479639b8c3b2bd19f85dfb647dff641f47887ecba5c816c777",
+      "first_untaught": [
+        0,
+        0
+      ],
+      "first_taught": [
+        2,
+        0
+      ],
+      "first_kc_used_difference": null
+    },
+    {
+      "index": 23,
+      "game": 4383,
+      "seed_set": "alt",
+      "condition": "away",
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "nonzero_dan_difference_steps": [
+        1550,
+        1650,
+        1750,
+        1850
+      ],
+      "count_difference_at_those_steps": [
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ]
+      ],
+      "other_channel_equal_all_steps": true,
+      "prefix_active_kcs": 1199,
+      "prefix_total_kc_events": 4320,
+      "prefix_events_per_cell_max": 17,
+      "kc_body_ids_sha256": "58d08c3b674b12479639b8c3b2bd19f85dfb647dff641f47887ecba5c816c777",
+      "first_untaught": [
+        0,
+        0
+      ],
+      "first_taught": [
+        0,
+        22
+      ],
+      "first_kc_used_difference": null
+    },
+    {
+      "index": 24,
+      "game": 4387,
+      "seed_set": "base",
+      "condition": "home",
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "nonzero_dan_difference_steps": [
+        1550,
+        1650,
+        1750,
+        1850
+      ],
+      "count_difference_at_those_steps": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "other_channel_equal_all_steps": true,
+      "prefix_active_kcs": 818,
+      "prefix_total_kc_events": 2773,
+      "prefix_events_per_cell_max": 14,
+      "kc_body_ids_sha256": "58d08c3b674b12479639b8c3b2bd19f85dfb647dff641f47887ecba5c816c777",
+      "first_untaught": [
+        0,
+        0
+      ],
+      "first_taught": [
+        2,
+        0
+      ],
+      "first_kc_used_difference": null
+    },
+    {
+      "index": 25,
+      "game": 4387,
+      "seed_set": "base",
+      "condition": "away",
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "nonzero_dan_difference_steps": [
+        1550,
+        1650,
+        1750,
+        1850
+      ],
+      "count_difference_at_those_steps": [
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ]
+      ],
+      "other_channel_equal_all_steps": true,
+      "prefix_active_kcs": 818,
+      "prefix_total_kc_events": 2773,
+      "prefix_events_per_cell_max": 14,
+      "kc_body_ids_sha256": "58d08c3b674b12479639b8c3b2bd19f85dfb647dff641f47887ecba5c816c777",
+      "first_untaught": [
+        0,
+        0
+      ],
+      "first_taught": [
+        0,
+        22
+      ],
+      "first_kc_used_difference": null
+    },
+    {
+      "index": 26,
+      "game": 4387,
+      "seed_set": "alt",
+      "condition": "home",
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "nonzero_dan_difference_steps": [
+        1550,
+        1650,
+        1750,
+        1850
+      ],
+      "count_difference_at_those_steps": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "other_channel_equal_all_steps": true,
+      "prefix_active_kcs": 824,
+      "prefix_total_kc_events": 2752,
+      "prefix_events_per_cell_max": 15,
+      "kc_body_ids_sha256": "58d08c3b674b12479639b8c3b2bd19f85dfb647dff641f47887ecba5c816c777",
+      "first_untaught": [
+        0,
+        0
+      ],
+      "first_taught": [
+        2,
+        0
+      ],
+      "first_kc_used_difference": null
+    },
+    {
+      "index": 27,
+      "game": 4387,
+      "seed_set": "alt",
+      "condition": "away",
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "nonzero_dan_difference_steps": [
+        1550,
+        1650,
+        1750,
+        1850
+      ],
+      "count_difference_at_those_steps": [
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ]
+      ],
+      "other_channel_equal_all_steps": true,
+      "prefix_active_kcs": 824,
+      "prefix_total_kc_events": 2752,
+      "prefix_events_per_cell_max": 15,
+      "kc_body_ids_sha256": "58d08c3b674b12479639b8c3b2bd19f85dfb647dff641f47887ecba5c816c777",
+      "first_untaught": [
+        0,
+        0
+      ],
+      "first_taught": [
+        0,
+        22
+      ],
+      "first_kc_used_difference": null
+    },
+    {
+      "index": 28,
+      "game": 4391,
+      "seed_set": "base",
+      "condition": "home",
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "nonzero_dan_difference_steps": [
+        1550,
+        1650,
+        1750,
+        1850
+      ],
+      "count_difference_at_those_steps": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "other_channel_equal_all_steps": true,
+      "prefix_active_kcs": 682,
+      "prefix_total_kc_events": 2015,
+      "prefix_events_per_cell_max": 14,
+      "kc_body_ids_sha256": "58d08c3b674b12479639b8c3b2bd19f85dfb647dff641f47887ecba5c816c777",
+      "first_untaught": [
+        0,
+        0
+      ],
+      "first_taught": [
+        2,
+        0
+      ],
+      "first_kc_used_difference": null
+    },
+    {
+      "index": 29,
+      "game": 4391,
+      "seed_set": "base",
+      "condition": "away",
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "nonzero_dan_difference_steps": [
+        1550,
+        1650,
+        1750,
+        1850
+      ],
+      "count_difference_at_those_steps": [
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ]
+      ],
+      "other_channel_equal_all_steps": true,
+      "prefix_active_kcs": 682,
+      "prefix_total_kc_events": 2015,
+      "prefix_events_per_cell_max": 14,
+      "kc_body_ids_sha256": "58d08c3b674b12479639b8c3b2bd19f85dfb647dff641f47887ecba5c816c777",
+      "first_untaught": [
+        0,
+        0
+      ],
+      "first_taught": [
+        0,
+        22
+      ],
+      "first_kc_used_difference": null
+    },
+    {
+      "index": 30,
+      "game": 4391,
+      "seed_set": "alt",
+      "condition": "home",
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "nonzero_dan_difference_steps": [
+        1550,
+        1650,
+        1750,
+        1850
+      ],
+      "count_difference_at_those_steps": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "other_channel_equal_all_steps": true,
+      "prefix_active_kcs": 735,
+      "prefix_total_kc_events": 2370,
+      "prefix_events_per_cell_max": 15,
+      "kc_body_ids_sha256": "58d08c3b674b12479639b8c3b2bd19f85dfb647dff641f47887ecba5c816c777",
+      "first_untaught": [
+        0,
+        0
+      ],
+      "first_taught": [
+        2,
+        0
+      ],
+      "first_kc_used_difference": null
+    },
+    {
+      "index": 31,
+      "game": 4391,
+      "seed_set": "alt",
+      "condition": "away",
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "nonzero_dan_difference_steps": [
+        1550,
+        1650,
+        1750,
+        1850
+      ],
+      "count_difference_at_those_steps": [
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ]
+      ],
+      "other_channel_equal_all_steps": true,
+      "prefix_active_kcs": 735,
+      "prefix_total_kc_events": 2370,
+      "prefix_events_per_cell_max": 15,
+      "kc_body_ids_sha256": "58d08c3b674b12479639b8c3b2bd19f85dfb647dff641f47887ecba5c816c777",
+      "first_untaught": [
+        0,
+        0
+      ],
+      "first_taught": [
+        0,
+        22
+      ],
+      "first_kc_used_difference": null
+    },
+    {
+      "index": 32,
+      "game": 4395,
+      "seed_set": "base",
+      "condition": "home",
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "nonzero_dan_difference_steps": [
+        1550,
+        1650,
+        1750,
+        1850
+      ],
+      "count_difference_at_those_steps": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "other_channel_equal_all_steps": true,
+      "prefix_active_kcs": 771,
+      "prefix_total_kc_events": 2667,
+      "prefix_events_per_cell_max": 16,
+      "kc_body_ids_sha256": "58d08c3b674b12479639b8c3b2bd19f85dfb647dff641f47887ecba5c816c777",
+      "first_untaught": [
+        0,
+        0
+      ],
+      "first_taught": [
+        2,
+        0
+      ],
+      "first_kc_used_difference": null
+    },
+    {
+      "index": 33,
+      "game": 4395,
+      "seed_set": "base",
+      "condition": "away",
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "nonzero_dan_difference_steps": [
+        1550,
+        1650,
+        1750,
+        1850
+      ],
+      "count_difference_at_those_steps": [
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ]
+      ],
+      "other_channel_equal_all_steps": true,
+      "prefix_active_kcs": 771,
+      "prefix_total_kc_events": 2667,
+      "prefix_events_per_cell_max": 16,
+      "kc_body_ids_sha256": "58d08c3b674b12479639b8c3b2bd19f85dfb647dff641f47887ecba5c816c777",
+      "first_untaught": [
+        0,
+        0
+      ],
+      "first_taught": [
+        0,
+        22
+      ],
+      "first_kc_used_difference": null
+    },
+    {
+      "index": 34,
+      "game": 4395,
+      "seed_set": "alt",
+      "condition": "home",
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "nonzero_dan_difference_steps": [
+        1550,
+        1650,
+        1750,
+        1850
+      ],
+      "count_difference_at_those_steps": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "other_channel_equal_all_steps": true,
+      "prefix_active_kcs": 795,
+      "prefix_total_kc_events": 2875,
+      "prefix_events_per_cell_max": 17,
+      "kc_body_ids_sha256": "58d08c3b674b12479639b8c3b2bd19f85dfb647dff641f47887ecba5c816c777",
+      "first_untaught": [
+        0,
+        0
+      ],
+      "first_taught": [
+        2,
+        0
+      ],
+      "first_kc_used_difference": null
+    },
+    {
+      "index": 35,
+      "game": 4395,
+      "seed_set": "alt",
+      "condition": "away",
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "nonzero_dan_difference_steps": [
+        1550,
+        1650,
+        1750,
+        1850
+      ],
+      "count_difference_at_those_steps": [
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ]
+      ],
+      "other_channel_equal_all_steps": true,
+      "prefix_active_kcs": 795,
+      "prefix_total_kc_events": 2875,
+      "prefix_events_per_cell_max": 17,
+      "kc_body_ids_sha256": "58d08c3b674b12479639b8c3b2bd19f85dfb647dff641f47887ecba5c816c777",
+      "first_untaught": [
+        0,
+        0
+      ],
+      "first_taught": [
+        0,
+        22
+      ],
+      "first_kc_used_difference": null
+    },
+    {
+      "index": 36,
+      "game": 4399,
+      "seed_set": "base",
+      "condition": "home",
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "nonzero_dan_difference_steps": [
+        1550,
+        1650,
+        1750,
+        1850
+      ],
+      "count_difference_at_those_steps": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "other_channel_equal_all_steps": true,
+      "prefix_active_kcs": 959,
+      "prefix_total_kc_events": 2891,
+      "prefix_events_per_cell_max": 13,
+      "kc_body_ids_sha256": "58d08c3b674b12479639b8c3b2bd19f85dfb647dff641f47887ecba5c816c777",
+      "first_untaught": [
+        0,
+        0
+      ],
+      "first_taught": [
+        2,
+        0
+      ],
+      "first_kc_used_difference": null
+    },
+    {
+      "index": 37,
+      "game": 4399,
+      "seed_set": "base",
+      "condition": "away",
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "nonzero_dan_difference_steps": [
+        1550,
+        1650,
+        1750,
+        1850
+      ],
+      "count_difference_at_those_steps": [
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ]
+      ],
+      "other_channel_equal_all_steps": true,
+      "prefix_active_kcs": 959,
+      "prefix_total_kc_events": 2891,
+      "prefix_events_per_cell_max": 13,
+      "kc_body_ids_sha256": "58d08c3b674b12479639b8c3b2bd19f85dfb647dff641f47887ecba5c816c777",
+      "first_untaught": [
+        0,
+        0
+      ],
+      "first_taught": [
+        0,
+        22
+      ],
+      "first_kc_used_difference": null
+    },
+    {
+      "index": 38,
+      "game": 4399,
+      "seed_set": "alt",
+      "condition": "home",
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "nonzero_dan_difference_steps": [
+        1550,
+        1650,
+        1750,
+        1850
+      ],
+      "count_difference_at_those_steps": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "other_channel_equal_all_steps": true,
+      "prefix_active_kcs": 1019,
+      "prefix_total_kc_events": 2969,
+      "prefix_events_per_cell_max": 14,
+      "kc_body_ids_sha256": "58d08c3b674b12479639b8c3b2bd19f85dfb647dff641f47887ecba5c816c777",
+      "first_untaught": [
+        0,
+        0
+      ],
+      "first_taught": [
+        2,
+        0
+      ],
+      "first_kc_used_difference": null
+    },
+    {
+      "index": 39,
+      "game": 4399,
+      "seed_set": "alt",
+      "condition": "away",
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "nonzero_dan_difference_steps": [
+        1550,
+        1650,
+        1750,
+        1850
+      ],
+      "count_difference_at_those_steps": [
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ]
+      ],
+      "other_channel_equal_all_steps": true,
+      "prefix_active_kcs": 1019,
+      "prefix_total_kc_events": 2969,
+      "prefix_events_per_cell_max": 14,
+      "kc_body_ids_sha256": "58d08c3b674b12479639b8c3b2bd19f85dfb647dff641f47887ecba5c816c777",
+      "first_untaught": [
+        0,
+        0
+      ],
+      "first_taught": [
+        0,
+        22
+      ],
+      "first_kc_used_difference": null
+    },
+    {
+      "index": 40,
+      "game": 4404,
+      "seed_set": "base",
+      "condition": "home",
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "nonzero_dan_difference_steps": [
+        1550,
+        1650,
+        1750,
+        1850
+      ],
+      "count_difference_at_those_steps": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "other_channel_equal_all_steps": true,
+      "prefix_active_kcs": 697,
+      "prefix_total_kc_events": 2047,
+      "prefix_events_per_cell_max": 16,
+      "kc_body_ids_sha256": "58d08c3b674b12479639b8c3b2bd19f85dfb647dff641f47887ecba5c816c777",
+      "first_untaught": [
+        0,
+        0
+      ],
+      "first_taught": [
+        2,
+        0
+      ],
+      "first_kc_used_difference": null
+    },
+    {
+      "index": 41,
+      "game": 4404,
+      "seed_set": "base",
+      "condition": "away",
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "nonzero_dan_difference_steps": [
+        1550,
+        1650,
+        1750,
+        1850
+      ],
+      "count_difference_at_those_steps": [
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ]
+      ],
+      "other_channel_equal_all_steps": true,
+      "prefix_active_kcs": 697,
+      "prefix_total_kc_events": 2047,
+      "prefix_events_per_cell_max": 16,
+      "kc_body_ids_sha256": "58d08c3b674b12479639b8c3b2bd19f85dfb647dff641f47887ecba5c816c777",
+      "first_untaught": [
+        0,
+        0
+      ],
+      "first_taught": [
+        0,
+        22
+      ],
+      "first_kc_used_difference": null
+    },
+    {
+      "index": 42,
+      "game": 4404,
+      "seed_set": "alt",
+      "condition": "home",
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "nonzero_dan_difference_steps": [
+        1550,
+        1650,
+        1750,
+        1850
+      ],
+      "count_difference_at_those_steps": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "other_channel_equal_all_steps": true,
+      "prefix_active_kcs": 722,
+      "prefix_total_kc_events": 2002,
+      "prefix_events_per_cell_max": 14,
+      "kc_body_ids_sha256": "58d08c3b674b12479639b8c3b2bd19f85dfb647dff641f47887ecba5c816c777",
+      "first_untaught": [
+        0,
+        0
+      ],
+      "first_taught": [
+        2,
+        0
+      ],
+      "first_kc_used_difference": null
+    },
+    {
+      "index": 43,
+      "game": 4404,
+      "seed_set": "alt",
+      "condition": "away",
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "nonzero_dan_difference_steps": [
+        1550,
+        1650,
+        1750,
+        1850
+      ],
+      "count_difference_at_those_steps": [
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ]
+      ],
+      "other_channel_equal_all_steps": true,
+      "prefix_active_kcs": 722,
+      "prefix_total_kc_events": 2002,
+      "prefix_events_per_cell_max": 14,
+      "kc_body_ids_sha256": "58d08c3b674b12479639b8c3b2bd19f85dfb647dff641f47887ecba5c816c777",
+      "first_untaught": [
+        0,
+        0
+      ],
+      "first_taught": [
+        0,
+        22
+      ],
+      "first_kc_used_difference": null
+    },
+    {
+      "index": 44,
+      "game": 4408,
+      "seed_set": "base",
+      "condition": "home",
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "nonzero_dan_difference_steps": [
+        1550,
+        1650,
+        1750,
+        1850
+      ],
+      "count_difference_at_those_steps": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "other_channel_equal_all_steps": true,
+      "prefix_active_kcs": 696,
+      "prefix_total_kc_events": 2515,
+      "prefix_events_per_cell_max": 17,
+      "kc_body_ids_sha256": "58d08c3b674b12479639b8c3b2bd19f85dfb647dff641f47887ecba5c816c777",
+      "first_untaught": [
+        0,
+        0
+      ],
+      "first_taught": [
+        2,
+        0
+      ],
+      "first_kc_used_difference": null
+    },
+    {
+      "index": 45,
+      "game": 4408,
+      "seed_set": "base",
+      "condition": "away",
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "nonzero_dan_difference_steps": [
+        1550,
+        1650,
+        1750,
+        1850
+      ],
+      "count_difference_at_those_steps": [
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ]
+      ],
+      "other_channel_equal_all_steps": true,
+      "prefix_active_kcs": 696,
+      "prefix_total_kc_events": 2515,
+      "prefix_events_per_cell_max": 17,
+      "kc_body_ids_sha256": "58d08c3b674b12479639b8c3b2bd19f85dfb647dff641f47887ecba5c816c777",
+      "first_untaught": [
+        0,
+        0
+      ],
+      "first_taught": [
+        0,
+        22
+      ],
+      "first_kc_used_difference": null
+    },
+    {
+      "index": 46,
+      "game": 4408,
+      "seed_set": "alt",
+      "condition": "home",
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "nonzero_dan_difference_steps": [
+        1550,
+        1650,
+        1750,
+        1850
+      ],
+      "count_difference_at_those_steps": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "other_channel_equal_all_steps": true,
+      "prefix_active_kcs": 677,
+      "prefix_total_kc_events": 2223,
+      "prefix_events_per_cell_max": 14,
+      "kc_body_ids_sha256": "58d08c3b674b12479639b8c3b2bd19f85dfb647dff641f47887ecba5c816c777",
+      "first_untaught": [
+        0,
+        0
+      ],
+      "first_taught": [
+        2,
+        0
+      ],
+      "first_kc_used_difference": null
+    },
+    {
+      "index": 47,
+      "game": 4408,
+      "seed_set": "alt",
+      "condition": "away",
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "nonzero_dan_difference_steps": [
+        1550,
+        1650,
+        1750,
+        1850
+      ],
+      "count_difference_at_those_steps": [
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ]
+      ],
+      "other_channel_equal_all_steps": true,
+      "prefix_active_kcs": 677,
+      "prefix_total_kc_events": 2223,
+      "prefix_events_per_cell_max": 14,
+      "kc_body_ids_sha256": "58d08c3b674b12479639b8c3b2bd19f85dfb647dff641f47887ecba5c816c777",
+      "first_untaught": [
+        0,
+        0
+      ],
+      "first_taught": [
+        0,
+        22
+      ],
+      "first_kc_used_difference": null
+    },
+    {
+      "index": 48,
+      "game": 4412,
+      "seed_set": "base",
+      "condition": "home",
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "nonzero_dan_difference_steps": [
+        1550,
+        1650,
+        1750,
+        1850
+      ],
+      "count_difference_at_those_steps": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "other_channel_equal_all_steps": true,
+      "prefix_active_kcs": 731,
+      "prefix_total_kc_events": 2747,
+      "prefix_events_per_cell_max": 16,
+      "kc_body_ids_sha256": "58d08c3b674b12479639b8c3b2bd19f85dfb647dff641f47887ecba5c816c777",
+      "first_untaught": [
+        0,
+        0
+      ],
+      "first_taught": [
+        2,
+        0
+      ],
+      "first_kc_used_difference": null
+    },
+    {
+      "index": 49,
+      "game": 4412,
+      "seed_set": "base",
+      "condition": "away",
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "nonzero_dan_difference_steps": [
+        1550,
+        1650,
+        1750,
+        1850
+      ],
+      "count_difference_at_those_steps": [
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ]
+      ],
+      "other_channel_equal_all_steps": true,
+      "prefix_active_kcs": 731,
+      "prefix_total_kc_events": 2747,
+      "prefix_events_per_cell_max": 16,
+      "kc_body_ids_sha256": "58d08c3b674b12479639b8c3b2bd19f85dfb647dff641f47887ecba5c816c777",
+      "first_untaught": [
+        0,
+        0
+      ],
+      "first_taught": [
+        0,
+        22
+      ],
+      "first_kc_used_difference": null
+    },
+    {
+      "index": 50,
+      "game": 4412,
+      "seed_set": "alt",
+      "condition": "home",
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "nonzero_dan_difference_steps": [
+        1550,
+        1650,
+        1750,
+        1850
+      ],
+      "count_difference_at_those_steps": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "other_channel_equal_all_steps": true,
+      "prefix_active_kcs": 712,
+      "prefix_total_kc_events": 2438,
+      "prefix_events_per_cell_max": 15,
+      "kc_body_ids_sha256": "58d08c3b674b12479639b8c3b2bd19f85dfb647dff641f47887ecba5c816c777",
+      "first_untaught": [
+        0,
+        0
+      ],
+      "first_taught": [
+        2,
+        0
+      ],
+      "first_kc_used_difference": null
+    },
+    {
+      "index": 51,
+      "game": 4412,
+      "seed_set": "alt",
+      "condition": "away",
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "nonzero_dan_difference_steps": [
+        1550,
+        1650,
+        1750,
+        1850
+      ],
+      "count_difference_at_those_steps": [
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ]
+      ],
+      "other_channel_equal_all_steps": true,
+      "prefix_active_kcs": 712,
+      "prefix_total_kc_events": 2438,
+      "prefix_events_per_cell_max": 15,
+      "kc_body_ids_sha256": "58d08c3b674b12479639b8c3b2bd19f85dfb647dff641f47887ecba5c816c777",
+      "first_untaught": [
+        0,
+        0
+      ],
+      "first_taught": [
+        0,
+        22
+      ],
+      "first_kc_used_difference": null
+    },
+    {
+      "index": 52,
+      "game": 4416,
+      "seed_set": "base",
+      "condition": "home",
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "nonzero_dan_difference_steps": [
+        1550,
+        1650,
+        1750,
+        1850
+      ],
+      "count_difference_at_those_steps": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "other_channel_equal_all_steps": true,
+      "prefix_active_kcs": 915,
+      "prefix_total_kc_events": 2558,
+      "prefix_events_per_cell_max": 13,
+      "kc_body_ids_sha256": "58d08c3b674b12479639b8c3b2bd19f85dfb647dff641f47887ecba5c816c777",
+      "first_untaught": [
+        0,
+        0
+      ],
+      "first_taught": [
+        2,
+        0
+      ],
+      "first_kc_used_difference": null
+    },
+    {
+      "index": 53,
+      "game": 4416,
+      "seed_set": "base",
+      "condition": "away",
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "nonzero_dan_difference_steps": [
+        1550,
+        1650,
+        1750,
+        1850
+      ],
+      "count_difference_at_those_steps": [
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ]
+      ],
+      "other_channel_equal_all_steps": true,
+      "prefix_active_kcs": 915,
+      "prefix_total_kc_events": 2558,
+      "prefix_events_per_cell_max": 13,
+      "kc_body_ids_sha256": "58d08c3b674b12479639b8c3b2bd19f85dfb647dff641f47887ecba5c816c777",
+      "first_untaught": [
+        0,
+        0
+      ],
+      "first_taught": [
+        0,
+        22
+      ],
+      "first_kc_used_difference": null
+    },
+    {
+      "index": 54,
+      "game": 4416,
+      "seed_set": "alt",
+      "condition": "home",
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "nonzero_dan_difference_steps": [
+        1550,
+        1650,
+        1750,
+        1850
+      ],
+      "count_difference_at_those_steps": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "other_channel_equal_all_steps": true,
+      "prefix_active_kcs": 747,
+      "prefix_total_kc_events": 2070,
+      "prefix_events_per_cell_max": 12,
+      "kc_body_ids_sha256": "58d08c3b674b12479639b8c3b2bd19f85dfb647dff641f47887ecba5c816c777",
+      "first_untaught": [
+        0,
+        0
+      ],
+      "first_taught": [
+        2,
+        0
+      ],
+      "first_kc_used_difference": null
+    },
+    {
+      "index": 55,
+      "game": 4416,
+      "seed_set": "alt",
+      "condition": "away",
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "nonzero_dan_difference_steps": [
+        1550,
+        1650,
+        1750,
+        1850
+      ],
+      "count_difference_at_those_steps": [
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ]
+      ],
+      "other_channel_equal_all_steps": true,
+      "prefix_active_kcs": 747,
+      "prefix_total_kc_events": 2070,
+      "prefix_events_per_cell_max": 12,
+      "kc_body_ids_sha256": "58d08c3b674b12479639b8c3b2bd19f85dfb647dff641f47887ecba5c816c777",
+      "first_untaught": [
+        0,
+        0
+      ],
+      "first_taught": [
+        0,
+        22
+      ],
+      "first_kc_used_difference": null
+    },
+    {
+      "index": 56,
+      "game": 4420,
+      "seed_set": "base",
+      "condition": "home",
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "nonzero_dan_difference_steps": [
+        1550,
+        1650,
+        1750,
+        1850
+      ],
+      "count_difference_at_those_steps": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "other_channel_equal_all_steps": true,
+      "prefix_active_kcs": 1446,
+      "prefix_total_kc_events": 5548,
+      "prefix_events_per_cell_max": 15,
+      "kc_body_ids_sha256": "58d08c3b674b12479639b8c3b2bd19f85dfb647dff641f47887ecba5c816c777",
+      "first_untaught": [
+        0,
+        0
+      ],
+      "first_taught": [
+        2,
+        0
+      ],
+      "first_kc_used_difference": null
+    },
+    {
+      "index": 57,
+      "game": 4420,
+      "seed_set": "base",
+      "condition": "away",
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "nonzero_dan_difference_steps": [
+        1550,
+        1650,
+        1750,
+        1850
+      ],
+      "count_difference_at_those_steps": [
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ]
+      ],
+      "other_channel_equal_all_steps": true,
+      "prefix_active_kcs": 1446,
+      "prefix_total_kc_events": 5548,
+      "prefix_events_per_cell_max": 15,
+      "kc_body_ids_sha256": "58d08c3b674b12479639b8c3b2bd19f85dfb647dff641f47887ecba5c816c777",
+      "first_untaught": [
+        0,
+        0
+      ],
+      "first_taught": [
+        0,
+        22
+      ],
+      "first_kc_used_difference": null
+    },
+    {
+      "index": 58,
+      "game": 4420,
+      "seed_set": "alt",
+      "condition": "home",
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "nonzero_dan_difference_steps": [
+        1550,
+        1556,
+        1650,
+        1750,
+        1850
+      ],
+      "count_difference_at_those_steps": [
+        [
+          2,
+          0
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "other_channel_equal_all_steps": true,
+      "prefix_active_kcs": 1329,
+      "prefix_total_kc_events": 4707,
+      "prefix_events_per_cell_max": 15,
+      "kc_body_ids_sha256": "58d08c3b674b12479639b8c3b2bd19f85dfb647dff641f47887ecba5c816c777",
+      "first_untaught": [
+        0,
+        0
+      ],
+      "first_taught": [
+        2,
+        0
+      ],
+      "first_kc_used_difference": null
+    },
+    {
+      "index": 59,
+      "game": 4420,
+      "seed_set": "alt",
+      "condition": "away",
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "nonzero_dan_difference_steps": [
+        1550,
+        1650,
+        1750,
+        1850
+      ],
+      "count_difference_at_those_steps": [
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ]
+      ],
+      "other_channel_equal_all_steps": true,
+      "prefix_active_kcs": 1329,
+      "prefix_total_kc_events": 4707,
+      "prefix_events_per_cell_max": 15,
+      "kc_body_ids_sha256": "58d08c3b674b12479639b8c3b2bd19f85dfb647dff641f47887ecba5c816c777",
+      "first_untaught": [
+        0,
+        0
+      ],
+      "first_taught": [
+        0,
+        22
+      ],
+      "first_kc_used_difference": null
+    },
+    {
+      "index": 60,
+      "game": 4425,
+      "seed_set": "base",
+      "condition": "home",
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "nonzero_dan_difference_steps": [
+        1550,
+        1650,
+        1750,
+        1850
+      ],
+      "count_difference_at_those_steps": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "other_channel_equal_all_steps": true,
+      "prefix_active_kcs": 820,
+      "prefix_total_kc_events": 2264,
+      "prefix_events_per_cell_max": 15,
+      "kc_body_ids_sha256": "58d08c3b674b12479639b8c3b2bd19f85dfb647dff641f47887ecba5c816c777",
+      "first_untaught": [
+        0,
+        0
+      ],
+      "first_taught": [
+        2,
+        0
+      ],
+      "first_kc_used_difference": null
+    },
+    {
+      "index": 61,
+      "game": 4425,
+      "seed_set": "base",
+      "condition": "away",
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "nonzero_dan_difference_steps": [
+        1550,
+        1650,
+        1750,
+        1850
+      ],
+      "count_difference_at_those_steps": [
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ]
+      ],
+      "other_channel_equal_all_steps": true,
+      "prefix_active_kcs": 820,
+      "prefix_total_kc_events": 2264,
+      "prefix_events_per_cell_max": 15,
+      "kc_body_ids_sha256": "58d08c3b674b12479639b8c3b2bd19f85dfb647dff641f47887ecba5c816c777",
+      "first_untaught": [
+        0,
+        0
+      ],
+      "first_taught": [
+        0,
+        22
+      ],
+      "first_kc_used_difference": null
+    },
+    {
+      "index": 62,
+      "game": 4425,
+      "seed_set": "alt",
+      "condition": "home",
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "nonzero_dan_difference_steps": [
+        1550,
+        1650,
+        1750,
+        1850
+      ],
+      "count_difference_at_those_steps": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "other_channel_equal_all_steps": true,
+      "prefix_active_kcs": 784,
+      "prefix_total_kc_events": 2303,
+      "prefix_events_per_cell_max": 16,
+      "kc_body_ids_sha256": "58d08c3b674b12479639b8c3b2bd19f85dfb647dff641f47887ecba5c816c777",
+      "first_untaught": [
+        0,
+        0
+      ],
+      "first_taught": [
+        2,
+        0
+      ],
+      "first_kc_used_difference": null
+    },
+    {
+      "index": 63,
+      "game": 4425,
+      "seed_set": "alt",
+      "condition": "away",
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "nonzero_dan_difference_steps": [
+        1550,
+        1650,
+        1750,
+        1850
+      ],
+      "count_difference_at_those_steps": [
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          22
+        ]
+      ],
+      "other_channel_equal_all_steps": true,
+      "prefix_active_kcs": 784,
+      "prefix_total_kc_events": 2303,
+      "prefix_events_per_cell_max": 16,
+      "kc_body_ids_sha256": "58d08c3b674b12479639b8c3b2bd19f85dfb647dff641f47887ecba5c816c777",
+      "first_untaught": [
+        0,
+        0
+      ],
+      "first_taught": [
+        0,
+        22
+      ],
+      "first_kc_used_difference": null
+    }
+  ]
+}

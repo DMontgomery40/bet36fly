@@ -1,0 +1,1169 @@
+{
+  "copies": [
+    {
+      "source": "output/collaboration/reward-mechanism-repair/causal-prefix-identifiability-contract-delivered-arrivals-2026-09-13.md",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/causal-prefix-identifiability-contract-delivered-arrivals-2026-09-13.md",
+      "bytes": 12566,
+      "sha256": "4fc653c542cf167076d3a4032c542d64d04d3ca1cf46192a3367e548f437cf4f"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/causal-prefix-identifiability-reading-delivered-arrivals-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/causal-prefix-identifiability-reading-delivered-arrivals-2026-09-13.json",
+      "bytes": 46858,
+      "sha256": "a99216032451ad57df232a62072906e520df34e75e89384e7815c6f89a574bce"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/parent-result.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/parent-result.json",
+      "bytes": 829,
+      "sha256": "23637fb5f780bef6725ac6c4bcb3aa2e02bfb17a49761ec6596c113f39cb8628"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/completion.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/completion.json",
+      "bytes": 312,
+      "sha256": "c18a41353a4de5018378999e6a1158f43909e28ac6b86fffad72422c9f7ee526"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_000.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_000.json",
+      "bytes": 1168,
+      "sha256": "48334b9eb2e8ddf67b7e8c2583ccfa9429bcf5ad0188c3f65d1bf6cee30e0d99"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_000.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_000.npz",
+      "bytes": 10058,
+      "sha256": "4847992e67cfd2808d88f0368b486b43920044ca6603e530282f0f0b00824685"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_001.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_001.json",
+      "bytes": 1171,
+      "sha256": "a6dd41a4d50c697b8fa5d9f91c466eb3c9648f380bdb90358c1fe12aa20f5aac"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_001.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_001.npz",
+      "bytes": 10058,
+      "sha256": "3893d4253894eb926a81ad3562f32a9bcd4ea6f423b6839bf68d4a3557d7d51b"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_002.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_002.json",
+      "bytes": 1169,
+      "sha256": "f21aba9cdcda25795599350cf4238e154d84dc88febc3530a95f378505432504"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_002.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_002.npz",
+      "bytes": 9971,
+      "sha256": "2077d3f1c606194ae23e726c6897e992f5b3fe0bf35f224de2d0dfdee292b9a8"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_003.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_003.json",
+      "bytes": 1172,
+      "sha256": "781b51c42625850bffd42ca318f8cfdf898f852e66e74cba51ec10f703901e7d"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_003.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_003.npz",
+      "bytes": 9971,
+      "sha256": "754b26a3abec0525cda32a12a3380db54a97784a966b6e1ec6a0fdeea88849c6"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_004.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_004.json",
+      "bytes": 1167,
+      "sha256": "4d744e0dc972180916467a29a1a8e9caccdfdab984837a950415baedcb0057f7"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_004.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_004.npz",
+      "bytes": 9756,
+      "sha256": "a49c0b72ed44be2284dfabdca6f708ea93d5214dad46276dd146600eff87770f"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_005.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_005.json",
+      "bytes": 1170,
+      "sha256": "5e18bd2253b37b2f38126759fe5800a81c971d5ced7a1190c9a4365775c92c72"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_005.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_005.npz",
+      "bytes": 9756,
+      "sha256": "87a7de40e4251f28f490d7b2d1a83df246d2d8abe863583a6af49589feb3d2b9"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_006.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_006.json",
+      "bytes": 1169,
+      "sha256": "edea4f6c052fdd94b110e17c5d37661428cfbd982ff355eb1816e7c2a6a228cb"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_006.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_006.npz",
+      "bytes": 9765,
+      "sha256": "6a842f6500cf2e4d70e6dcff3e08fd32b2a85b3ca51a7d2990a2cda1611b0bf2"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_007.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_007.json",
+      "bytes": 1172,
+      "sha256": "b449e8ea9047180dd35a32cac1d121eb5f86203a741da30793ed8833322ca821"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_007.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_007.npz",
+      "bytes": 9765,
+      "sha256": "7ea3f24c15c258f23555d4f9cae5c5fe717a263d0525fbd5f3d7153d48c254f4"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_008.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_008.json",
+      "bytes": 1168,
+      "sha256": "d904b700a92e9230274d6b6ff92ae7eb3749e0e18cdca11db116748b7777493d"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_008.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_008.npz",
+      "bytes": 10483,
+      "sha256": "61258f271095d8228812f88955947594499fca1d8e0975edbee2bd1e3f37acc5"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_009.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_009.json",
+      "bytes": 1171,
+      "sha256": "5088b82da0d458552e761d1532b6db055d2c1033fce7763bb8c2255a7eaba0f1"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_009.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_009.npz",
+      "bytes": 10483,
+      "sha256": "e6ff90acfacdfdf83eddfec252e7e383706fbcccfebbfc712827dcfcfa264fba"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_010.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_010.json",
+      "bytes": 1171,
+      "sha256": "447a258e288cb7b69c739b8cf0bf9941328c99cb8405819f186500381b584f25"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_010.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_010.npz",
+      "bytes": 10436,
+      "sha256": "2de035627846e06c81a71a52f42ef7f61dd8ba9a8bb540c450e9f4b0939cc943"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_011.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_011.json",
+      "bytes": 1174,
+      "sha256": "cb33bd9e2c9ddd0e92d8e51abd1ca7b51408cd574c2fbdf9d6889e22914b3395"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_011.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_011.npz",
+      "bytes": 10436,
+      "sha256": "6b0ad630066d0d42cd15c69b1bdeb44185e77a4b1f8f9b872e3b479c5c62934a"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_012.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_012.json",
+      "bytes": 1168,
+      "sha256": "46165f97905cdd2c9d97c5dbdb5ea525496857f1c881ffef895b941e97e51664"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_012.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_012.npz",
+      "bytes": 9596,
+      "sha256": "170850f44918d0c6e19a4ca23904689b9b64eae963374dce2748724744b8781c"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_013.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_013.json",
+      "bytes": 1171,
+      "sha256": "4491975216037d0d0753e5ca788efec8804798b669de3890c42ef4dc355b0b5c"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_013.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_013.npz",
+      "bytes": 9596,
+      "sha256": "3987080bc99d8b626e3f04cab43ab3631119c8104881eb1c94ebc400671b1981"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_014.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_014.json",
+      "bytes": 1170,
+      "sha256": "e0354087056740cc7a1f80bdc1396931467efadd73b5b709a245194e42bc35db"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_014.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_014.npz",
+      "bytes": 9599,
+      "sha256": "12b8db0d0c0bfba82c90dbbd33ef18fadb300d2312c0f86be46e2b7207f876ab"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_015.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_015.json",
+      "bytes": 1173,
+      "sha256": "1c98d82b9959ddffc4bad4738a6adac84bd3a18d4d7a6a3dfa1c7707132ff3c6"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_015.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_015.npz",
+      "bytes": 9599,
+      "sha256": "a79f7334681f763abf5bf2b5161947c2fcd025eb556b0cd7255e0f99269862d0"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_016.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_016.json",
+      "bytes": 1169,
+      "sha256": "21dcdf53772aa62f49b1f4795c04569a8e8f41d0bbb94a850967e53a006b5981"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_016.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_016.npz",
+      "bytes": 10255,
+      "sha256": "ebc752e27e55988c33e4d00152657a735d38f8f6d18f19593cca183cf6d7d99c"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_017.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_017.json",
+      "bytes": 1172,
+      "sha256": "2c8b52042d9096772353a7106e63073419125e17944379e30dac2d0f0b973115"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_017.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_017.npz",
+      "bytes": 10255,
+      "sha256": "77abdcc0fcdc62aa0804790a5ddba0d2e536a5b41268ee1281ecc2d5496d6397"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_018.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_018.json",
+      "bytes": 1171,
+      "sha256": "550a4188daf55ebf0fd0e5c0f93cf5452ec083950661849fb6b3226dff7747ff"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_018.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_018.npz",
+      "bytes": 10149,
+      "sha256": "79a27ab587d437f5af2da70299ebf7f7d0c92cd57affdef4096bfb9adb5522c9"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_019.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_019.json",
+      "bytes": 1174,
+      "sha256": "3dd492e34058b79216a0e8a8db11848659f741e719e26751dd65783cf30d4977"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_019.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_019.npz",
+      "bytes": 10149,
+      "sha256": "c93bb2625af62e82c7255145d82f517031d2aa39dde915897f9a3f52f617029b"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_020.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_020.json",
+      "bytes": 1170,
+      "sha256": "a9cefd684e9c746270b345281e97d8088c98f58edbf540e9a0137539963c3264"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_020.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_020.npz",
+      "bytes": 10558,
+      "sha256": "013084b2dae16b89e52c7423845ca6e262079bae6cbbf21846e43e01324386bb"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_021.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_021.json",
+      "bytes": 1173,
+      "sha256": "ef545a331b0d633b911a06655e651ac649ed2885f25995d8bbe848cd623d5a28"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_021.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_021.npz",
+      "bytes": 10558,
+      "sha256": "0d9d18af5663587dca3f5554e25f27977b6a3cf5a45187b715b0d5df547ace63"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_022.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_022.json",
+      "bytes": 1172,
+      "sha256": "2e20bf7ec3788da098c3995f23e664d80a15c84c1bc19744fa0244830df5fb46"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_022.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_022.npz",
+      "bytes": 10561,
+      "sha256": "a6786f1933485c3740017e247cfdd5aad1037e9541c7cd6343ca909291c8615d"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_023.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_023.json",
+      "bytes": 1175,
+      "sha256": "ac7f456b85a8182ef5b1f3fbda294a099c0de27376effb5f0fcca98fb7d360a7"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_023.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_023.npz",
+      "bytes": 10561,
+      "sha256": "732af61033ae35e521f5ce00c6e884ae5bee933769a5a345cb9bae855ddccc9e"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_024.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_024.json",
+      "bytes": 1170,
+      "sha256": "4918216ca78e55ade6e3a9151996de1f18a1ed85670093c5ef89cde9caef86b7"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_024.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_024.npz",
+      "bytes": 10110,
+      "sha256": "08236aeecf4ac02deae5d0eb99bc1f17b97f210abd0911ca6d9c8b9feaf67cbb"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_025.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_025.json",
+      "bytes": 1173,
+      "sha256": "78ea07a744ba72cad75aad5bb4680248df3ef8892f3e32bbe30f3450478a0543"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_025.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_025.npz",
+      "bytes": 10110,
+      "sha256": "b4d428cb7c3f7122d4f9341b1ed1136f1a3e82dacec35ddd82fbd35e5d016dc6"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_026.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_026.json",
+      "bytes": 1172,
+      "sha256": "90a7adc13cfb85e9f16c0f9b8b0dce86f90ef8c894aa485c99083dee3794966e"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_026.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_026.npz",
+      "bytes": 10115,
+      "sha256": "f6b63c56807624c290757f927e66bc20e3ebe64f6c47811acdae9524924a6c98"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_027.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_027.json",
+      "bytes": 1175,
+      "sha256": "e77929a4abd14bdcb1322345339cf03b48d6a267dd51682235a14197040ae8de"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_027.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_027.npz",
+      "bytes": 10115,
+      "sha256": "3527be0622a7fe22804e3a224a48d12f25b12ef1b6dfc78eed33d0a7e43ebb33"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_028.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_028.json",
+      "bytes": 1169,
+      "sha256": "43a141db9b9bb0c42b6029cb69e61d85189abf0edec395e1d37fcaadad4143bf"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_028.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_028.npz",
+      "bytes": 9858,
+      "sha256": "e22720380a1008c096786a02e67f22315984e2a11a9f77052358728a59ed35ca"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_029.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_029.json",
+      "bytes": 1172,
+      "sha256": "5ebd22bae9d6da4ed417f7e67761700175fee2bbdc05481b1be3bf22264a5207"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_029.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_029.npz",
+      "bytes": 9858,
+      "sha256": "f32ff0982419a19e537fe7e0cc0a227c079324b28f7a82746dfd44442e4fda60"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_030.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_030.json",
+      "bytes": 1171,
+      "sha256": "02cabadcce192c3203e2cf805b279e27d895ae4793623af2a9beae08d1f5f938"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_030.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_030.npz",
+      "bytes": 9983,
+      "sha256": "5229f423b4c7c492e9d9cdd4da474c243aef33430cc44f6ad6f5db1e902bab7f"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_031.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_031.json",
+      "bytes": 1174,
+      "sha256": "0f888ee9037f681c8d5e219fac1c5e654ef5ebf5af085834ba3b456f3dd33121"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_031.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_031.npz",
+      "bytes": 9983,
+      "sha256": "7d34d4d885fcefcbb66d2f25f4986e86f6c7d8405bdc14c2ce2db94d622429df"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_032.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_032.json",
+      "bytes": 1173,
+      "sha256": "9e5efe6fb25488bb8c043a8b2ff011d0a3334b0f89eff50c1fcb283786659ac6"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_032.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_032.npz",
+      "bytes": 10058,
+      "sha256": "c8334b3092e30d75fbaa3f1a1609c4a29efd52f69924d07e45082d33fefa99af"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_033.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_033.json",
+      "bytes": 1176,
+      "sha256": "c28f6a1f4accaea1cb74106991da30cea8f28708548b20eaea0547dd97b656e0"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_033.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_033.npz",
+      "bytes": 10058,
+      "sha256": "3e1b0a5c448d1a386e6bc64e28c25181230a9d50175302138572db9eff133280"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_034.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_034.json",
+      "bytes": 1172,
+      "sha256": "df36c72f245255fd98fa6d2cbc515cce251c7d40e31bfbd7af1d4de66fb79d8c"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_034.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_034.npz",
+      "bytes": 10108,
+      "sha256": "5197a82035eb293619475a237681167f334b6f961cb168e1f3089f75b0c6e2ee"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_035.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_035.json",
+      "bytes": 1175,
+      "sha256": "c630200068b9007e20e725eab8de985d2c3dc9c9c51dc2270579a21a51167f7c"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_035.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_035.npz",
+      "bytes": 10108,
+      "sha256": "3c9d335d6ee7f54ffc1e1c32b102b6070e458c93b19c6f431436ad06b03bf2dc"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_036.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_036.json",
+      "bytes": 1173,
+      "sha256": "5880a26a4514e25c169761bef78f32cf5c3f2aa9f4a6603f9a8240ee95febeb3"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_036.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_036.npz",
+      "bytes": 10218,
+      "sha256": "8fce099ef3df2aedb2c5a17d009be5459ba80e31ab429622396ab9ca8d74c395"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_037.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_037.json",
+      "bytes": 1176,
+      "sha256": "9485ad9956f79c4605ac3a39b7ce06e434ee53d046417079d97c58dead02e4b8"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_037.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_037.npz",
+      "bytes": 10218,
+      "sha256": "d7aa1150479c4f4df8dd2ea2077e1e9463253b56fcf2c87087ff4d0d87ef6bc1"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_038.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_038.json",
+      "bytes": 1172,
+      "sha256": "4830b42b4467ee08580be926ac3c2f3fc1e7a6cf3d31be66c76ba01833442334"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_038.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_038.npz",
+      "bytes": 10253,
+      "sha256": "3b288bd5eb116fd5a4ec546d222caec203be68977da66762990d032104453a02"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_039.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_039.json",
+      "bytes": 1175,
+      "sha256": "d5c8d0152a50cfb93404f929c29fa782de073df593317219c48b3e7b53cc5ab4"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_039.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_039.npz",
+      "bytes": 10253,
+      "sha256": "29349f8c3396c542fc8e81643871c1029be626894a9d316c144d61b4564363a5"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_040.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_040.json",
+      "bytes": 1172,
+      "sha256": "68ddcb68ef8ccba05b7956a357159216c93716a615f91865a90c0f34335ebaad"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_040.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_040.npz",
+      "bytes": 9915,
+      "sha256": "f0089a8945e4537ba07513eb38cb873b4ed8e96ed5fd4b20867497b3886a55e5"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_041.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_041.json",
+      "bytes": 1175,
+      "sha256": "1f494bf1e0298a21582732bdc56c775f38439d432f4f9d3f334d81440e09c51a"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_041.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_041.npz",
+      "bytes": 9915,
+      "sha256": "0b3b4c187e305154e0c5aede428a33d2583552a96a43ed275918c2d10645d5a7"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_042.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_042.json",
+      "bytes": 1171,
+      "sha256": "27c3241591d76df0530811e2cdb8d3c6f89bc53cb84c02e85cfa13838a3ef352"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_042.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_042.npz",
+      "bytes": 9918,
+      "sha256": "c28f21c02fa8f54dbbc425769584f21cf469fdcfc33410d99bcf3e680098916b"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_043.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_043.json",
+      "bytes": 1174,
+      "sha256": "2d1847ce64a100221e82a1af9c1fe114f7626a45132eed075f77d3a436c52d36"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_043.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_043.npz",
+      "bytes": 9918,
+      "sha256": "16c23b018fd0baa6091edb443dc67ea7b9b4cbad41e46efc9cf1e3a95de43d3f"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_044.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_044.json",
+      "bytes": 1172,
+      "sha256": "ee2ee6c4ac687e484f4d5de805af7ed4fcda22c93f311411ba4cbbc26b6ce474"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_044.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_044.npz",
+      "bytes": 9979,
+      "sha256": "779fb8532cdbec8305b1f654947880e3e69a4e6c3dfc625f2c568b9edce7e994"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_045.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_045.json",
+      "bytes": 1175,
+      "sha256": "cf606f38e3336457674bc1dc65567fc49b36fd94d149c37b35f648131ba973e3"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_045.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_045.npz",
+      "bytes": 9979,
+      "sha256": "c72d5985781fafe29b78f8b1c43cc311b7ed6e69a17880d0fc3bab673fb0343e"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_046.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_046.json",
+      "bytes": 1171,
+      "sha256": "f3217542f15454ccfb91c38f1f1d9da8fdf61014f16fd17d6215d61b495fb824"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_046.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_046.npz",
+      "bytes": 9909,
+      "sha256": "01e9759f432e7f7e181588318b2701755aa2811f9bdf6faac1cf12be3e1dc4ac"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_047.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_047.json",
+      "bytes": 1174,
+      "sha256": "c8a5734301e37b0009cd359d36a6e0262078f02398c169575291568be104cec0"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_047.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_047.npz",
+      "bytes": 9909,
+      "sha256": "9142e499c1d8fc0e0aa53b0fe56ebab5b2e8c99511430f315bb7cf08706c7b63"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_048.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_048.json",
+      "bytes": 1173,
+      "sha256": "7f0c05909a7b28c2b564aa845845e2a080fb63476936bb28011438f771861c70"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_048.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_048.npz",
+      "bytes": 10044,
+      "sha256": "c80da3eda351bdc669291d7449e199747e4cfaf9eaded900fde38da05385c960"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_049.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_049.json",
+      "bytes": 1176,
+      "sha256": "ce24f390685622301b8c618916c2b47c16cb2c2cb3ba3a728c03e569d412ae62"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_049.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_049.npz",
+      "bytes": 10044,
+      "sha256": "5c7243dda843842ccaf6446321ec82e2779a94c892f686b2f0548bc5ab62d5a3"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_050.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_050.json",
+      "bytes": 1171,
+      "sha256": "444556582df4c2dd83340702316bb02d1b65bd677812d16c68ffbb1fb9edc49e"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_050.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_050.npz",
+      "bytes": 9972,
+      "sha256": "57dcc218129041f8668679b38dccef6da0b6771fa037b548a1572375aaa035a7"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_051.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_051.json",
+      "bytes": 1174,
+      "sha256": "47273569191239b8969fff8ab92e96d704ac59e0e935317f3ffd891bed007901"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_051.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_051.npz",
+      "bytes": 9972,
+      "sha256": "2c60debb0e609ce2a0220ff7ffa5c4c07740bbce057ef4898cea55661aa87b7d"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_052.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_052.json",
+      "bytes": 1173,
+      "sha256": "f4567992c8c05cea9a421a56743b8f89685996e27f2de2f568e7cc65145d9114"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_052.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_052.npz",
+      "bytes": 10141,
+      "sha256": "28b0a07df9b66cca104f68c4524eeb383ec6a95233a1a2483d55f5aeeee3aa20"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_053.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_053.json",
+      "bytes": 1176,
+      "sha256": "2b10d5d808c8c1d0e0925e863fba54f1cd8b6f55fe38388900e806c23f612bed"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_053.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_053.npz",
+      "bytes": 10141,
+      "sha256": "1051baaa0d93df44681c39115ea833b7e813198fdb10663358df98f16092f8f0"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_054.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_054.json",
+      "bytes": 1171,
+      "sha256": "b1a4fb99dacb082808cae615bc2c3ebd09c409faf905db7add2a92ec7c573e15"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_054.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_054.npz",
+      "bytes": 9946,
+      "sha256": "bb6cc7d4cc434f36ccfa5abb64b4338fde1ae2e23f5c6a1c96a40bba86ce3749"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_055.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_055.json",
+      "bytes": 1174,
+      "sha256": "530fff23888955190327b7d25fab277ccc485aef07df582d17a0ef5cfc2eac05"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_055.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_055.npz",
+      "bytes": 9946,
+      "sha256": "1fca5445fd145914e99d71fd5ba0d01465e55224df1b4feeb0a024396859bfaa"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_056.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_056.json",
+      "bytes": 1173,
+      "sha256": "75a39c9264ff386702acf7a9a9d1a371e22595afbd6ec8cbf2a8bbb0b49a1c56"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_056.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_056.npz",
+      "bytes": 10809,
+      "sha256": "9384966b8f868ee9963318ebdb5aebab1d3fc0ded2aa96cb5f1cf213f4b48d96"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_057.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_057.json",
+      "bytes": 1176,
+      "sha256": "8feb8b67e37fa6a91dfcea1d4626811f96037ee1db4009d9ffef64aba42b534f"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_057.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_057.npz",
+      "bytes": 10809,
+      "sha256": "e3d3e8c013c7135d1e6d9e641a742071520923f1f6aa6e63c98dc04b406617dc"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_058.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_058.json",
+      "bytes": 1172,
+      "sha256": "9605cf5f387e957b3d18051fe3f19cdaaf1ed498ed4f2c18b75a0ebf9fd3bff5"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_058.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_058.npz",
+      "bytes": 10650,
+      "sha256": "d2424fc9f727472b5087d181ee3787fb30c3b1f82e43856263fcb55b21965033"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_059.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_059.json",
+      "bytes": 1175,
+      "sha256": "752d8e92561d18d1bb9b93f93f91eacafc7f5d7a1a7398260afe61766afbdf83"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_059.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_059.npz",
+      "bytes": 10643,
+      "sha256": "f176b21ff43f43aa8c6066dcf8c5295afe80324b7c7a095a6530caad4f036f9b"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_060.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_060.json",
+      "bytes": 1173,
+      "sha256": "12c45f45517c5b8d74d2946b8df9547f02612574b94b8fad57e4a7c221f20b99"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_060.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_060.npz",
+      "bytes": 10036,
+      "sha256": "9e48222b38da6ef3c6e253242754aa24bf3a1811727798fc52d68d8cd1a5c2c5"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_061.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_061.json",
+      "bytes": 1176,
+      "sha256": "acf1c540e50aab3338507122de51cb9a5ecfc7e41284e3783f42869ec772e744"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_061.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_061.npz",
+      "bytes": 10036,
+      "sha256": "80b41edb49c6b54d008a849e28db243add828c6ac1cb9cce677209ae365e744a"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_062.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_062.json",
+      "bytes": 1172,
+      "sha256": "d3c3429709a4b7e0673dd67b882b78dae39aedaf1b0953dc54ba4942be7995a5"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_062.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_062.npz",
+      "bytes": 10014,
+      "sha256": "e1b07128961d6437e55f967e5263326bfd321b44ebb71afe4aeabc969522c8ed"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_063.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_063.json",
+      "bytes": 1175,
+      "sha256": "7195308df547cab46a3f4c718aa86095868fd2fe90c85d018fd69eb054f36329"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_063.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/contrast_063.npz",
+      "bytes": 10014,
+      "sha256": "18edefd3b2d255251d43b444c0c114fff7b6e8dd60d732e3869bac97c7394e62"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/plan.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/plan.json",
+      "bytes": 38830,
+      "sha256": "6f27f043ea5a9e25ab03f617cb6b86858d74d2a98456a3b431c68e53b6fb9e69"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/status.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/status.json",
+      "bytes": 86030,
+      "sha256": "26675960769afce7f5701dbde4826cd6eb63fbef4943df85f143d87b95b5af5a"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/summary.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/result/summary.json",
+      "bytes": 4669,
+      "sha256": "5cefacc506514bc8822397d3ca5ff903b25868d707ca6277a086dc9175654320"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/stderr.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/stdout.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-execution/stdout.txt",
+      "bytes": 102,
+      "sha256": "261febf8e236935fe710602620c166a12fd04f7fe169ad646bc54b07ce81d879"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-b3bbc7ad5a3c1040de18-plan.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-b3bbc7ad5a3c1040de18-plan.json",
+      "bytes": 38830,
+      "sha256": "6f27f043ea5a9e25ab03f617cb6b86858d74d2a98456a3b431c68e53b6fb9e69"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-cb7eb73ca0c41bd37e4b-execution/parent-result.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-cb7eb73ca0c41bd37e4b-execution/parent-result.json",
+      "bytes": 827,
+      "sha256": "9c3999052007b42e52ffa4651506eda2d920b63e9c79e82b5cb4592d06091602"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-cb7eb73ca0c41bd37e4b-execution/result/plan.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-cb7eb73ca0c41bd37e4b-execution/result/plan.json",
+      "bytes": 34133,
+      "sha256": "1adb8b4222e6d3cbb593bd2fc2015496f1e0d67a99a093ab6155caacc8b8a079"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-cb7eb73ca0c41bd37e4b-execution/result/status.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-cb7eb73ca0c41bd37e4b-execution/result/status.json",
+      "bytes": 214,
+      "sha256": "37ec711ab1ed0a3683386dee3bffb53f4e53a54c963fe22348bacaf65a3744f3"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-cb7eb73ca0c41bd37e4b-execution/result/terminal-error.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-cb7eb73ca0c41bd37e4b-execution/result/terminal-error.json",
+      "bytes": 123,
+      "sha256": "b0eea342ca3328c71bc07ad2d34ebdfcd0824c5ec3fc8646b975a5aacd3e52d3"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-cb7eb73ca0c41bd37e4b-execution/stderr.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-cb7eb73ca0c41bd37e4b-execution/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-cb7eb73ca0c41bd37e4b-execution/stdout.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-cb7eb73ca0c41bd37e4b-execution/stdout.txt",
+      "bytes": 136,
+      "sha256": "3f9f16b7daf20ae3970ff7ec7aeb6ae2d5278f7b3ca7a3c6c7a7af159e2a73f3"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-cb7eb73ca0c41bd37e4b-plan.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-cb7eb73ca0c41bd37e4b-plan.json",
+      "bytes": 34133,
+      "sha256": "1adb8b4222e6d3cbb593bd2fc2015496f1e0d67a99a093ab6155caacc8b8a079"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-driver-preparation-reading-evidence-ui-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-driver-preparation-reading-evidence-ui-2026-09-13.json",
+      "bytes": 9059,
+      "sha256": "853d5b789756eeb3ae3e0a9ab4caa8cae260bdadb9da5f49f8835d69c9284e6e"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-driver-red-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-driver-red-2026-09-13.txt",
+      "bytes": 939,
+      "sha256": "b84ba5b00d88e2639d9b9a1c3dea21b9023c0fe3f746f87b9c2229431b5fbb21"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-driver-review-delivered-arrivals-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-driver-review-delivered-arrivals-2026-09-13.json",
+      "bytes": 8481,
+      "sha256": "a39449d72a04713f8e89932b74019d3c68d2ce3263a2443848776666847fae77"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-driver-tests-final-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-driver-tests-final-2026-09-13.txt",
+      "bytes": 260,
+      "sha256": "5b3865d0e51c1c1a9114a208ec0391f9006d45485ee13703c7940071a26ccc6d"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-driver-v2-tests-final-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-driver-v2-tests-final-2026-09-13.txt",
+      "bytes": 340,
+      "sha256": "03a95fdf008996c0ee0923da7dcf12cfe53ab9306913207e0268031ab0f1b996"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-identity-red-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-identity-red-2026-09-13.txt",
+      "bytes": 1841,
+      "sha256": "9bbfd0460e4c0f9ef408c2647df071a9c622dfc6bc6eabc0b2876fd71e8b009f"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-make-verify-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-make-verify-2026-09-13.txt",
+      "bytes": 6297,
+      "sha256": "8c56981d6b16d941c76b43f095a8bf7fe1e0dd97c2ab37625e57860930c32639"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-plan-draft-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-plan-draft-2026-09-13.json",
+      "bytes": 19597,
+      "sha256": "acb6110475071ebd3b35b65ed465acf591ada3a6c63f4102fe2436607a126aa9"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-prereg-claim-review-dopamine-sources-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-prereg-claim-review-dopamine-sources-2026-09-13.json",
+      "bytes": 8004,
+      "sha256": "877a4115ea76960fe82372e2986405162859cd1cd281638c65f176ad83b0297c"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-preregistration-2026-09-13.md",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-preregistration-2026-09-13.md",
+      "bytes": 7039,
+      "sha256": "2f0ea07b14f8c1a73f2ff6d75250094d22270aec2b523b422ef6a49fdde8ef37"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-protection-before-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-protection-before-2026-09-13.json",
+      "bytes": 678,
+      "sha256": "d4e49627c20f4bc3f9b7b1b31b7153e3db9652b414211e68c25db93f7250b24c"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-pure-review-delivered-arrivals-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-pure-review-delivered-arrivals-2026-09-13.json",
+      "bytes": 4934,
+      "sha256": "e03cdffa55403e0e3e9eebfe86c29d047836a268e475a2e3cfae11313c41bfd0"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-pure-review-final-delivered-arrivals-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-pure-review-final-delivered-arrivals-2026-09-13.json",
+      "bytes": 4303,
+      "sha256": "58cd7bbfe606838222c41d42c6e7718ccb65074880ace78ed14437ae26c0c1de"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-result-2026-09-13.md",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-result-2026-09-13.md",
+      "bytes": 5576,
+      "sha256": "80c76b2bf87de332fec34af4c172b133e24a6266f1ec93c04e96ab0c900075a9"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-root-preparation-review-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-root-preparation-review-2026-09-13.json",
+      "bytes": 2425,
+      "sha256": "17201c8040aeea2e81c2f715326f4650d04c2dfba133abf900e8811f8f787401"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-sampled-identity-independent-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-sampled-identity-independent-2026-09-13.json",
+      "bytes": 2158,
+      "sha256": "2d55c7690c49dc31cdaf04b1ae59eb233a8a5b8b9b4f039b2a0ae897d8f941cf"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-saved-output-inspection-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-saved-output-inspection-2026-09-13.json",
+      "bytes": 58369,
+      "sha256": "007b0d1b57b7ad9fe2f7022bc9c1f35bd995a8dde3cd40d6fd9a8fa07dba2e6e"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-source-2026-09-13/bet36fly/reward_brain.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-source-2026-09-13/bet36fly/reward_brain.py",
+      "bytes": 28621,
+      "sha256": "5a6d67d38d226c6792c4f11430610772894ea3e9ae9593c2d215cfd7eaa0a6d5"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-source-2026-09-13/bet36fly/reward_diagnostic.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-source-2026-09-13/bet36fly/reward_diagnostic.py",
+      "bytes": 25196,
+      "sha256": "59feb14834813fa6793f0f97a8e4c208fd85494b383e9fa5875efe5b21189c99"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-source-2026-09-13/bet36fly/reward_encoder.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-source-2026-09-13/bet36fly/reward_encoder.py",
+      "bytes": 6644,
+      "sha256": "178a36f388b0c0de34bc2a83a0b35eef806dafa98636aa2400e4b87931446285"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-source-2026-09-13/bet36fly/reward_lif.cpp",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-source-2026-09-13/bet36fly/reward_lif.cpp",
+      "bytes": 19913,
+      "sha256": "e7dbb0aa8f95873036415581e94de45c237941f05642ccc90812c1be1119be37"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-source-2026-09-13/bet36fly/reward_protocol.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-source-2026-09-13/bet36fly/reward_protocol.py",
+      "bytes": 15356,
+      "sha256": "e1a315f991debb677fca30f6e821a657135adccf032ad26054a00ed7688dc1bb"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-source-2026-09-13/scripts/reward_teaching_diagnostic.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-source-2026-09-13/scripts/reward_teaching_diagnostic.py",
+      "bytes": 24888,
+      "sha256": "d18df419fe4c78001019d6feadff5b6c37df2de69f7e278d46d3cf02bc539598"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-source-snapshot-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-source-snapshot-2026-09-13.json",
+      "bytes": 2498,
+      "sha256": "063a2c2871759e7bf55e8d5a9d1c5b09aac921eb21156e3aa2fd6b4e3b89cd79"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-tests-green-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-tests-green-2026-09-13.txt",
+      "bytes": 179,
+      "sha256": "078a48b4a78167a2e739fdc7a30198fe615f1d1ed9d20b2a74b2aa50819202ea"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-tests-red-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-tests-red-2026-09-13.txt",
+      "bytes": 163842,
+      "sha256": "48f8a47f20801732a1d67624c731d3369d7a5879cd750175e0634feefdfaa79d"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-tests-v2-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-tests-v2-2026-09-13.txt",
+      "bytes": 180,
+      "sha256": "0e64142049c49787c1e4615a43e505fd7ea36790d652c6cfa87ed2e53ed1386f"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-tests-v3-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-tests-v3-2026-09-13.txt",
+      "bytes": 180,
+      "sha256": "b6a0c59e4dd9dcb9a4d82e11d5c75f3addf7265c49e5b7ccd82862e7820327f1"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-v1-failure-metadata-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-v1-failure-metadata-2026-09-13.json",
+      "bytes": 1050,
+      "sha256": "17fc21a53350b731a23d4d8a99f890a80504fd1895584a825c0e6513800cd804"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-v2-correction-reading-evidence-ui-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-v2-correction-reading-evidence-ui-2026-09-13.json",
+      "bytes": 10535,
+      "sha256": "a5b0a19e107e7a5cf68de6b195ca20c4951804b31dc9b8f372c42d2b944666e4"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-v2-correction-review-delivered-arrivals-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-v2-correction-review-delivered-arrivals-2026-09-13.json",
+      "bytes": 6788,
+      "sha256": "3d9f041fbe44591f1d1abc38b2df8e46511771e86acd906c1eac14ac1b134c01"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-v2-reader-claim-review-dopamine-sources-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-v2-reader-claim-review-dopamine-sources-2026-09-13.json",
+      "bytes": 4470,
+      "sha256": "0d69da95628d7fec4bdce2b694f0fa64189d6810206d38f9e658a10440d81a75"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-v2-reader-correction-2026-09-13.md",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-v2-reader-correction-2026-09-13.md",
+      "bytes": 2611,
+      "sha256": "07b8ce1c725de0e0132f5ab7acdeb459197fad0652576ac5084780a4874cdc99"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-v2-red-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-v2-red-2026-09-13.txt",
+      "bytes": 32583,
+      "sha256": "cdb3263fd1414b4d0ce83225178158db6a2f442074185de4b22f7c7a7c9478ed"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-v2-saved-result-review-delivered-arrivals-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-v2-saved-result-review-delivered-arrivals-2026-09-13.json",
+      "bytes": 96472,
+      "sha256": "c171459e94723d16af23a248aed2c51de7d5f9956e523dcafadb1589162ae5e7"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-causal-prefix-v2-source-dtype-red-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-v2-source-dtype-red-2026-09-13.txt",
+      "bytes": 1553,
+      "sha256": "1a35e39206e8692d3805dc5b0a0d76ae13d9cf296dde35a04dad8445132c6d9d"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-release-observability-evidence-ui-2026-09-13.md",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-release-observability-evidence-ui-2026-09-13.md",
+      "bytes": 11604,
+      "sha256": "49d86b04814abeb1b7e96e954f1a456109de2ad8ba73238a3597ab6ce09c4af7"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-release-observability-reading-evidence-ui-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-release-observability-reading-evidence-ui-2026-09-13.json",
+      "bytes": 8371,
+      "sha256": "5704a8799cd6a8c6237118203a344ae83a936e9be1dda6230340a2c8329e1912"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan_causal_prefix.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan_causal_prefix.py",
+      "bytes": 9123,
+      "sha256": "28601f16d718cbac719122dc496011344bd02e5a389dec4c470869eecaaef11e"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dopamine-release-versus-priming-decision-2026-09-13.md",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dopamine-release-versus-priming-decision-2026-09-13.md",
+      "bytes": 8043,
+      "sha256": "8f51b6f9d4586b813fbcb76ec496d8c03612c96ad11f7145b9072c959d778d53"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dopamine-release-versus-priming-reading-receipt-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dopamine-release-versus-priming-reading-receipt-2026-09-13.json",
+      "bytes": 7262,
+      "sha256": "da84b9ecaf7db3af0b336e4374efa55f8ed9dbd8cfad1343fb56074e700cf157"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/launch_dan_causal_prefix.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/launch_dan_causal_prefix.py",
+      "bytes": 2175,
+      "sha256": "09d3579e9ea3d9c015a326212056e839c174f06effae6f331f9547d07c3f4d14"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/launch_dan_causal_prefix_v2.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/launch_dan_causal_prefix_v2.py",
+      "bytes": 2178,
+      "sha256": "76ae3803563a33bd5f62aca4953a34a161bb1e2df9a759e66bdefdb73474618a"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/run_dan_causal_prefix.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/run_dan_causal_prefix.py",
+      "bytes": 36017,
+      "sha256": "13510ed87a3f5fc379b2e8cae21b940de9193722a694f8c61d266848cfa89c4d"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/run_dan_causal_prefix_v2.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/run_dan_causal_prefix_v2.py",
+      "bytes": 37064,
+      "sha256": "4bfd547de54d52a2fa813d852637386e1051deb6faec731f56f59dbbfc0b77e4"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/test_dan_causal_prefix.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/test_dan_causal_prefix.py",
+      "bytes": 10987,
+      "sha256": "f31ba840e925d4174c8b3a3220c06bc6d9f7898a181ed4831645f28aa2c58fd2"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/test_run_dan_causal_prefix.py",
+      "bytes": 26461,
+      "sha256": "716117621824067224ab5d2b584d83d33404c1201c3f00710a42b8b073cdec64"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/test_run_dan_causal_prefix_v2.py",
+      "bytes": 28943,
+      "sha256": "ab2fabb0fc82db0092b7d31cfe83e8d954d0f98bee636e9b47279d2b89d47c4d"
+    },
+    {
+      "source": "output/collaboration/reward-repair/evidence/candidate-rule-spec-v1.1.md",
+      "copy": "docs/evidence/reward-repair/evidence/candidate-rule-spec-v1.1.md",
+      "bytes": 4570,
+      "sha256": "01023ac61cbb23a7a0d6445989dc00c639ce81a08aa683b66a3062f70ef23725"
+    }
+  ],
+  "source_files_preserved": true
+}

@@ -1,5 +1,69 @@
 # Continue the dopamine mechanism repair
 
+## Active continuation boundary: September 13, 2026, after the causal-prefix audit
+
+Continue the existing full repair goal. It remains active and incomplete.
+The [64-contrast saved-record audit](evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-result-2026-09-13.md)
+is complete under identity `dan-causal-prefix-b3bbc7ad5a3c1040de18`.
+All original/second-panel, cue, noise and home/away combinations first differ
+in their actual DAN pool at step 1550 / 310 ms. The current-code proof and
+recorded checks establish common KC history through that step. At the first
+pulse, every target DAN fired (2/2 PPL101 or 22/22 PAM12); the corresponding
+untaught pool was silent. Missing electrical teaching input is not the
+explanation for these recorded contrasts. Release/receptor coupling and the
+untaught-home learning failure remain unresolved.
+
+Do not rerun either audit identity. The first reader identity
+`dan-causal-prefix-cb7eb73ca0c41bd37e4b` failed before any comparison: it
+constructed int32 expected sample indices, but the source saved int64.
+The fixture repeated that assumption and initial review missed it. All
+original code, tests, plan and failed artifacts remain intact. The separate
+v2 correction inspects both real selectors and the producer, strictly
+preserves int64 main/int32 fine and graph index contracts, and adds 33
+generalized cases. Root and independent review pass all 223 helper/v2 cases.
+
+The completed execution bound 113 files / 917,311,069 bytes, checked before
+and after execution. Parent exit 0 took 4.067663 seconds under the 120-second
+cap. Independent review checked all 64 JSONs, all 256 saved arrays, all input
+bindings and terminal hashes without rerunning the driver or neural model.
+Thirty-one home contrasts have eight excess events; one (cue 4420, alternate
+noise, second panel) has seven due to an additional deficit at 311.2 ms.
+Every away contrast has 88 excess events. These are net electrical counts,
+not dopamine doses. Full-trial KC totals and grouped inputs match, but that
+does not extend the proved individual-KC prefix past 310 ms.
+
+The next mechanism decision must address how actual DAN events and KC
+state drive local plasticity. The [release-versus-priming inquiry](evidence/reward-mechanism-repair-2026-09-12/dopamine-release-versus-priming-decision-2026-09-13.md)
+identifies DARELA as a bounded source-core lead, but its quantitative source
+is mouse FSCV, not calibration of these fly cells. Its core has not been
+pinned or executed here. Before considering transfer, inspect the exact
+burst-switched source equations and an explicit every-actual-spike embedding
+with synthetic rested/repeated/tonic controls. Decide transferability before
+selecting a candidate; do not fit its constants to these 64 outcomes. No new
+receptor or release law has been selected. Rejected hypotheses below remain
+rejected, with no onset/tau/rate/bound/threshold tuning.
+
+The frozen historical criterion-3 prose is preserved with an interpretive
+correction: equal DAN input alone cannot attribute changed learning terms to
+an index leak, because KC state and gain feedback also matter. Its numeric
+gate is unchanged. The production pair `b16d9b39d7fd3057` still fails the
+second panel's untaught-home guard; conditioning remains
+`not_run_gate_failed`. Both qualification panels and controlled acquisition/
+reversal are required to finish the goal.
+
+No production/API/UI behavior changed in this audit. The existing display
+remains accurate. Fresh `make verify` passed 4,055 Python tests, 103 frontend
+tests, Ruff and the build before the output-only analysis; its canonical
+helpers are verified separately. No fresh browser run is claimed here.
+Preserve the active model pointer, historical inputs and Microduck originals,
+accepted gains and interfaces, 4,184 home eligible edges, 3,239 gamma away
+eligible edges and 1,443 transmitting noneligible away edges. Keep one
+production writer; every working agent must personally read all narrative
+docs/wiki and the final additions. Inspect Git for the local checkpoint
+following `dce1582`. Nothing has been pushed or promoted.
+
+Earlier continuation boundaries below are preserved historical records.
+
 ## Active continuation boundary: September 13, 2026, 10:52 UTC
 
 Continue the existing full repair goal. It remains active and incomplete.

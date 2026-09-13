@@ -1,0 +1,147 @@
+{
+  "agent": "/root/dopamine_sources",
+  "at_utc": "2026-09-13T11:09:32.910109+00:00",
+  "git_head": "dce1582618f6c386a4996695bc77ad4218dd493c",
+  "status": "bounded_mechanism_decision_complete_no_candidate_selected",
+  "reading": {
+    "prior_complete_personal_chain": {
+      "path": "output/collaboration/reward-mechanism-repair/incentive-final-review-dopamine-sources-2026-09-13.json",
+      "bytes": 7961,
+      "sha256": "02f227e0b3812de5a322851f5e5281666ddf6e99a6a4371b9d17bf913a3ad76b"
+    },
+    "narrative_count": 188,
+    "all_current_narrative_hashes_match_prior_personal_chain": true,
+    "unread_deltas": [],
+    "personally_reread_existing_decisions": [
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/tonic-burst-dopamine-quantitative-source-check-2026-09-13.md",
+        "bytes": 6659,
+        "sha256": "343fe850c71d5ea5493e0d05e38c4e9c2b6a739cc09b3808d550473bdc739054"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/dopamine-receptor-state-decision-2026-09-13.md",
+        "bytes": 13820,
+        "sha256": "63cdc757527e4692bb2e29405ea74276cc38006ac1bb6217bba32f469b94b3c7"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/learning-coupling-mathematical-source-review-2026-09-13.md",
+        "bytes": 20715,
+        "sha256": "5810f6dcaa74360a23b1b005241a1cdd603a15cdd0e7c629f5c0e773c78601a5"
+      }
+    ],
+    "current_code_reread": "RateBridge definition and start of private replay seam (reward_lif.cpp1\u201378). Entire underlying code was personally read in the prior chain; gitdiff f08e88e..dce1582 on kernel/protocol/wrapper is empty.",
+    "unchanged_current_code": [
+      {
+        "path": "bet36fly/reward_lif.cpp",
+        "bytes": 19913,
+        "sha256": "e7dbb0aa8f95873036415581e94de45c237941f05642ccc90812c1be1119be37"
+      },
+      {
+        "path": "bet36fly/reward_protocol.py",
+        "bytes": 15356,
+        "sha256": "e1a315f991debb677fca30f6e821a657135adccf032ad26054a00ed7688dc1bb"
+      },
+      {
+        "path": "bet36fly/reward_brain.py",
+        "bytes": 28621,
+        "sha256": "5a6d67d38d226c6792c4f11430610772894ea3e9ae9593c2d215cfd7eaa0a6d5"
+      }
+    ]
+  },
+  "authorized_web_caps": {
+    "queries": 4,
+    "opens": 6
+  },
+  "actual_web_actions": {
+    "queries": [
+      "Drosophila dopamine release short term facilitation depression kinetic model Venton",
+      "Drosophila dopamine terminal release paired pulse facilitation ongoing activity mathematical model",
+      "site.pmc.ncbi.nlm.nih.gov/articles/PMC4636934 \"2015\" \"Data analysis\" \"pulse\"",
+      "site.pmc.ncbi.nlm.nih.gov/articles/PMC4636934 \"Xiao\" \"Privman\" \"doi\""
+    ],
+    "opens": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4636934/",
+        "result": "browserchallenge"
+      },
+      {
+        "url": "https://academic.oup.com/pnasnexus/article/2/3/pgad044/7034164",
+        "result": "accessiblepublisherredirecthttps://oup.silverchair-cdn.com/article-minimal/7034164"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7902153/",
+        "result": "accessibleprimary"
+      },
+      {
+        "url": "https://github.com/DSulzerLab/DARELA",
+        "result": "publiclistingandREADME"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7902153/",
+        "line": 185,
+        "result": "adultregionalandsexresults"
+      },
+      {
+        "url": "https://github.com/DSulzerLab/DARELA",
+        "line": 180,
+        "result": "fullrelevantREADME/APIunitsinspected"
+      }
+    ],
+    "cached_page_finds": [
+      {
+        "url": "https://academic.oup.com/pnasnexus/article/2/3/pgad044/7034164",
+        "pattern": "Plasticity kinetics"
+      },
+      {
+        "url": "https://academic.oup.com/pnasnexus/article/2/3/pgad044/7034164",
+        "pattern": "Availability"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7902153/",
+        "pattern": "Data Analysis",
+        "result": "nomatch"
+      }
+    ],
+    "last_two_queries": "Returned predominantly unrelated results; no claims or additional browsing based on those results."
+  },
+  "sources": [
+    {
+      "url": "https://academic.oup.com/pnasnexus/article/2/3/pgad044/7034164",
+      "version": "Shashaanketal2023PNASNexus2(3):pgad044,DOI10.1093/pnasnexus/pgad044;publishedFebruary10,typesetMarch10,2023",
+      "personally_inspected": "RelevantIntroduction/Results/Table1,Methodsstimulationandplasticitykinetics/equations3\u20134,releaseunitsandDataAvailability. Explicitanesthetizedmouse dorsalstriatum preparation; notfly.",
+      "not_claimed": "No complete supplemental discretization, parameter fit reproduction or core-code audit."
+    },
+    {
+      "url": "https://github.com/DSulzerLab/DARELA",
+      "version": "Public main README/listing viewedSeptember13,2026; commit notpinned",
+      "personally_inspected": "READMEpublicAPIinputunits,three model types,kineticparameterdescription; MIT listingvisible.",
+      "not_claimed": "No clone,corefileinspection,installation,executionorversionequivalence."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4636934/",
+      "version": "2015primaryarticleComparisonofDopamineKineticsintheLarvalDrosophilaVentralNerveCordandProtocerebrumwithImprovedOptogeneticStimulation;PMCIDPMC4636934",
+      "personally_inspected": "IndexedprimaryResultsandTable1throughfirsttargetedquery;directpagechallengepreserved.",
+      "not_claimed": "No full-page Methods/supplement or executabledepletion/facilitationmodel inspection."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7902153/",
+      "version": "Shin,Copeland,Venton2020AnalyticalChemistry,DOI10.1021/acs.analchem.0c02305",
+      "personally_inspected": "Priorfulltargetedprimaryreadingretained;freshdirectaccessandregional/sexresultschecked.",
+      "not_claimed": "No measuredsingle-spikePPL101/PAM12releasecalibration."
+    }
+  ],
+  "decision": {
+    "new_evidence": "Publicnon-flyquantitativerelease-modelleadandexplicitkineticequations.",
+    "within400ms": "Longrecoverydoesnotprecludefacilitationduringanongoingburst;exp(50*.0064*.4) isanalyticillustrationonly.",
+    "source_metadata_vs_local_dynamics": "PublishedS(t)indicatesexperimentalburstpresence. Hypotheticalall-actual-spikeper-cellrecovery/jumpsareadifferentengineeringembedding,notUSgatingorcalibratedflyrelease.",
+    "new_candidate_selected": false,
+    "intracellular_boundary": "Release-onlydoesnotrepresenttwo-branchKC-localorderdetectionunderfixeddopamine;oldbridgeisolatedcoincidencezeropersistswithrestedunitrelease.",
+    "next_data_step": "Rootownedmatched-recordcausal-prefixaudit; no new source-fit/release constants authorized by this note."
+  },
+  "report": {
+    "path": "output/collaboration/reward-mechanism-repair/dopamine-release-versus-priming-decision-2026-09-13.md",
+    "bytes": 8043,
+    "sha256": "8f51b6f9d4586b813fbcb76ec496d8c03612c96ad11f7145b9072c959d778d53"
+  },
+  "verification": "Existingnarrativehashesandunchangedproductionidentitychecked;sourceunits/equations/accesslimitsreviewed. Report-onlyworkhasnoimplementationtests. No model,candidate,audit,native,fit,download,install,productionedit or huge synapsedata access."
+}

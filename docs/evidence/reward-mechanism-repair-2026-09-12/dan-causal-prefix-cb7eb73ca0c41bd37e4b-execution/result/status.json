@@ -1,0 +1,8 @@
+{
+  "status": "failed",
+  "run_id": "dan-causal-prefix-cb7eb73ca0c41bd37e4b",
+  "completed_contrasts": 0,
+  "rows": [],
+  "wall_seconds": 0.41831520898267627,
+  "error": "ValueError: main sampled identity/order"
+}

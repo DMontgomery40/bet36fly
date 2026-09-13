@@ -1,0 +1,25 @@
+F                                                                        [100%]
+=================================== FAILURES ===================================
+_____________ test_complete_synthetic_archive_io_and_identity_path _____________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1695/test_complete_synthetic_archiv0')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x1095dee10>
+
+    def test_complete_synthetic_archive_io_and_identity_path(tmp_path, monkeypatch):
+        plan, path = synthetic_archive_study(tmp_path, monkeypatch)
+        # The fixed actual onset is outside tiny synthetic duration; only the numerical
+        # helper onset argument is substituted. Actual metadata and IO remain exercised.
+        original = m.contrast_arrays
+        monkeypatch.setattr(m, "contrast_arrays", lambda *a, **kw: original(*a, **dict(kw, first_pulse_step=4)))
+        r = m.execute(path, tmp_path / "out")
+>       assert r["status"] == "completed", r["error"]
+E       AssertionError: ValueError: main sampled identity/order
+E       assert 'failed' == 'completed'
+E         
+E         - completed
+E         + failed
+
+output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py:665: AssertionError
+=========================== short test summary info ============================
+FAILED output/collaboration/reward-mechanism-repair/test_run_dan_causal_prefix_v2.py::test_complete_synthetic_archive_io_and_identity_path
+1 failed, 117 deselected in 0.29s
