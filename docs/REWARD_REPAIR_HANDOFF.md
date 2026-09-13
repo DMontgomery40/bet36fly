@@ -1,6 +1,68 @@
 # Continue the dopamine mechanism repair
 
-Fresh state check: September 13, 2026, approximately 03:26 UTC
+## Continuation update: September 13, 2026, 04:13 UTC
+
+The material below this update is the preserved 03:26 UTC handoff snapshot.
+The active goal is unchanged. The base before this continuation's local commit
+is `eb9e7e4`, which committed that handoff. Inspect Git and agent liveness again
+before acting. Never use the old failing-test list as the current test result.
+
+Task4B now has a wired artifact API, diagnostic types and the rendered
+`RewardEvidence` component. Root and independent review found and corrected
+counterexamples where within-compartment gain cancellation hid invalid trial
+endpoints, malformed rendered metadata crashed React, and a failed-pair message
+named its passing member. The sole writer `/root/evidence_ui` completed broad
+regression coverage; `/root/delivered_arrivals` independently rechecked all three
+families and reported no remaining actionable findings in that bounded review.
+The source agent `/root/dopamine_sources` also completed its final claim review.
+These assignments are finished; inspect live status rather than assuming they
+continue working.
+
+Both writer and root ran the final full gate: **970 Python tests, 81 frontend
+tests, Ruff and build passed**. Root ran the actual guarded browser workflow on
+the explicit read-only factory at port 52861: four measured diagnostic detail
+views, exact guard values, failed bridge qualification, sixteen synthetic states
+including actual stale/retry recovery, eight hash-matched historical downloads,
+mobile widths and no JavaScript errors. Root inspected the screenshots. All
+782 protected files / 5,497,585,613 bytes and inventories matched after requests
+and after shutdown; owned PID 70057 stopped with exit 0. See
+[Task4B acceptance](evidence/reward-mechanism-repair-2026-09-12/task4b-acceptance.md).
+No scientific rule, protocol, accepted gain or experiment identity changed.
+
+The source and saved-arrival assignments described as unfinished in the older
+snapshot are now complete and copied into repository evidence:
+
+- [Dopamine source investigation](evidence/reward-mechanism-repair-2026-09-12/dopamine-signal-sources-resumed.md):
+  eight primary sources with access limits; all 14,551 selected-DAN outgoing
+  pairs matched to the original release. Both PPL101 cells contact both MBON11
+  bodies. No local synapse geometry was retrieved. The rectified-rate adaptation
+  equations are an unimplemented engineering hypothesis, not a frozen candidate
+  or a successful repair. They need an independent sign-crossing/full-tail
+  numerical contract before any evaluation.
+- [Delivered KC arrivals](evidence/reward-mechanism-repair-2026-09-12/delivered-arrivals-resumed-report.md):
+  all 32 fine histories and both PPL101 targets, 31 tests and a separate
+  chronological-queue check. Gamma KCs dominate accepted KC input; most non-KC
+  timing is missing. This does not establish complete drive or causality.
+- [Paused conditioning draft review](evidence/reward-mechanism-repair-2026-09-12/conditioning-draft-review.md):
+  pure numerical counterexamples expose incomplete plan, frozen-gain/bound and
+  replay checks. The draft remains unintegrated; no conditioning call occurred.
+
+The wiki, protocol, model card, guide and AGENTS now describe the integrated
+failed rules and rejected onset history, while preserving historical snapshots.
+All 59 initial Microduck copies remain byte-identical to their import manifest;
+the original source wiki has subsequently changed 16 files and added five
+orchestration pages. That source drift is recorded, not copied back over the
+dated snapshot. Atlas regeneration changed only the protocol source hash; both
+cell/edge CSVs and all scientific aggregates are unchanged. Source files were
+read only. See [wiki verification](../wiki/verification.md).
+
+Next: continue the source-grounded mechanism investigation. Both qualification rules
+still fail the second panel; acquisition and reversal remain unrun. No push,
+promotion, relaxed guard or scientific success is implied by this UI work.
+
+## Preserved handoff snapshot
+
+State check: September 13, 2026, approximately 03:26 UTC
 (September 12 in America/Denver). This is a continuation prompt, not a claim
 that the repair is complete.
 

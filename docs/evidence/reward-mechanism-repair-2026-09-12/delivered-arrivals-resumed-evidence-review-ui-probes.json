@@ -1,0 +1,22 @@
+[
+  {
+    "field": "dan_reference",
+    "rendered": false,
+    "error": "Objects are not valid as a React child (found: object with keys {wrong}). If you meant to render a collection of children, use an array instead."
+  },
+  {
+    "field": "away_plasticity_mask",
+    "rendered": false,
+    "error": "Objects are not valid as a React child (found: object with keys {wrong}). If you meant to render a collection of children, use an array instead."
+  },
+  {
+    "field": "native_binary_sha256",
+    "rendered": false,
+    "error": "Objects are not valid as a React child (found: object with keys {wrong}). If you meant to render a collection of children, use an array instead."
+  },
+  {
+    "field": "source_code_hashes",
+    "rendered": false,
+    "error": "Objects are not valid as a React child (found: object with keys {wrong}). If you meant to render a collection of children, use an array instead."
+  }
+]

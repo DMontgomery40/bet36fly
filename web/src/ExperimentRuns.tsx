@@ -42,15 +42,12 @@ function JobDetail({ job, experiment, sport, split }: { job: ExperimentJob; expe
     <div className="artifact-links">{Object.entries(experiment.artifacts).filter(([, artifact]) => artifact.job_id === job.id).map(([id, artifact]) => <a key={id} href={artifact.url} download>{artifact.label}</a>)}</div>
   </section>;
 }
-export default function ExperimentRuns() {
-  const [data, setData] = useState<ExperimentIndex | null>(null);
-  const [error, setError] = useState('');
+export function ExperimentRunsView({ data, error }: { data: ExperimentIndex | null; error: string }) {
   const [experimentId, setExperimentId] = useState('');
   const [jobId, setJobId] = useState('');
   const [sport, setSport] = useState('soccer');
   const [split, setSplit] = useState('validation');
-  useEffect(() => pollExperiments(setData, setError), []);
-  const experiments = data?.experiments.filter(row => row.kind !== 'dopamine-association') ?? [];
+  const experiments = data?.experiments.filter(row => !row.kind) ?? [];
   const experiment = experiments.find(row => row.id === experimentId) ?? experiments[0];
   const job = experiment?.jobs.find(row => row.id === jobId);
   const comparisons = experiment ? filteredComparisons(experiment, sport, split) : [];
@@ -74,4 +71,11 @@ export default function ExperimentRuns() {
     </>}
     <ProspectivePanel data={data?.prospective}/>
   </section>;
+}
+
+export default function ExperimentRuns() {
+  const [data, setData] = useState<ExperimentIndex | null>(null);
+  const [error, setError] = useState('');
+  useEffect(() => pollExperiments(setData, setError), []);
+  return <ExperimentRunsView data={data} error={error}/>;
 }

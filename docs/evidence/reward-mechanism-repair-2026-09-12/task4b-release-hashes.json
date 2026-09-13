@@ -1,0 +1,16 @@
+{
+  "bet36fly/reward_evidence.py": "bb36ad4ee0dfd73bb7e01e9c67bb2ca833015828fe91b20b22a85516c1adab0e",
+  "bet36fly/server.py": "83c99c38f3853276602bc976b977a240d7b491ff8514d901784d71733915b191",
+  "tests/test_reward_evidence.py": "1cb165de6c2fdd01d1a5fe7ab3c59eecb6b4d146c07cea931fe2b04356754809",
+  "tests/test_api.py": "91d4b8cf4eff72f2d0fb4b8ff79704dd889b1e7105c7d5075e8317fd9123afb0",
+  "web/src/RewardEvidence.tsx": "1b9400fa0a818b736ca6bf17ef7f7178a2eba0c29a39a63f0998ae8a7cec2f71",
+  "web/src/RewardEvidence.test.tsx": "3ee3ab1662bbd918cba74b3261745b60551e008d6379ede4d85dcdd39a80bd85",
+  "web/src/ExperimentRuns.tsx": "9885f13fe7574200027807cc0e526a3c651355f4b3476d3b5450b41f8cdce609",
+  "web/src/ExperimentRuns.test.tsx": "00b64d3577159df8752ffb141d7cf2e0210fafbb350a83ea1288d466b3711c56",
+  "web/src/RewardExperiments.test.tsx": "80cea0368f115ae22500d1221d550c62df3d22b98f6c4b700454a02aaa0e2edb",
+  "web/src/TrainingView.tsx": "450827c9d596c18537d2c853cd1d8decb694e1a7120c327862237723fc1c42f7",
+  "web/src/types.ts": "dce79dd6d8fbc46dca0ef7708254ada770688b5791622fc222e73faa9473d048",
+  "web/src/style.css": "ed9bddf54fd2da60e05a4010a6b608b7213141f09067519b1469e9edab3d8873",
+  "scripts/verify_reward_browser.cjs": "14cfd96793a99a321df2a32fafb172b3747a9ef73561b5f97abeba895558d1bc",
+  "docs/api-contract.md": "74a9b6cf92e41dd225389a5841ef362caf7fb50e22e51db0a1bd0ef67cb6028c"
+}

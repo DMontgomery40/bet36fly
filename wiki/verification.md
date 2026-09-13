@@ -1,9 +1,39 @@
 ---
 type: verification
-updated: 2026-09-12
-status: passed-with-scientific-limits
+updated: 2026-09-13
+status: historical-verification-current-repair-in-progress
 ---
 # Verification of this wiki integration
+
+The September 13 [mechanism evidence UI acceptance](../docs/evidence/reward-mechanism-repair-2026-09-12/task4b-acceptance.md)
+passed 970 Python tests, 81 frontend tests, Ruff/build and the actual guarded
+browser workflow. It includes the failed bridge guard, stored-only raw evidence,
+stale/retry recovery and mobile widths. All 782 protected files and inventories
+were unchanged after requests and shutdown. These checks verify the evidence
+display; the learning mechanism still has not qualified.
+
+## Current documentation refresh — September 13 UTC
+
+The original 59-file imported snapshot still matches every saved hash and byte
+count. All source files still exist, but 16 have changed in the separately active
+Microduck checkout and five new orchestration wiki files now exist there. This
+refresh did not modify that checkout or replace the dated copy. The initial copy
+was not cut; a source that later evolves is distinct from a corrupted snapshot.
+[Current copy/source comparison](../docs/evidence/reward-mechanism-repair-2026-09-12/wiki-refresh-verification.json).
+
+The atlas check initially identified one stale field: the recorded source hash
+of `reward_protocol.py`, changed by the integrated repair. Regeneration updated
+that metadata only. Both cell/edge CSVs and all anatomical aggregates are
+byte-identical; `export_fly_cell_atlas.py --check` now passes. Current authored
+page links and the active pointer/four historical manifests were also checked.
+
+These checks cover documentation and anatomy. The evidence API/UI extension is
+still being completed; they do not replace its pending full software/browser
+gate. The [read-only startup acceptance](../docs/evidence/reward-mechanism-repair-2026-09-12/verification-startup-acceptance.md)
+records the last completed product change. The learning qualification remains
+failed and conditioning/reversal remain unrun.
+
+## Initial copy acceptance — September 12 UTC
 
 The verified change is a copied research wiki, BET36FLY-specific cell/mechanism documentation, deterministic anatomical tables, and correction of an overstated Training-panel explanation. No new scientific experiment or trained checkpoint is claimed.
 

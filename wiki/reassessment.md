@@ -1,13 +1,49 @@
 ---
 type: assessment
-updated: 2026-09-12
+updated: 2026-09-13
 status: learning-unvalidated
 ---
 # Where BET36FLY stands, and what went wrong
 
 **The present bottleneck is the learning mechanism and its causal validation.** We have real anatomical connectivity, an executing spiking circuit, and measured synaptic gain changes. We do not yet have a controlled demonstration that this configuration acquires and reverses a cue-specific association, or improves sports prediction. The biological approach is not refuted by a failure of these engineered dynamics.
 
-This assessment inspected the current checkout, the repair worktree, saved experiment manifests, local annotations and graph arrays, and primary sources. Existing neural measurements were read, not rerun. [Workspace identities and preserved reports](../docs/evidence/reassessment-2026-09-12/index.md).
+## Current account — September 13 UTC
+
+The retained repair was merged in `e385050`; it is now in this checkout.
+Refractory input banking was fixed, the away gamma mask is implemented, and
+`rate-bridge-v1` has independent numerical tests. None of those software results
+establishes acquisition or reversal. Both the corrected raw-event rule and the
+rate bridge pass the original diagnostic panel but fail the second panel's
+untaught-home guard. [Complete repair evidence](../docs/evidence/reward-mechanism-repair-2026-09-12/index.md).
+
+| Current measured boundary | Result | Consequence |
+| --- | --- | --- |
+| Corrected raw, second panel `e3d8898dc68a` | Home/base mean −0.515623; absolute limit 0.489778 | Qualification fails |
+| Rate bridge, second panel `dea14759e9ca` | Home/base mean −0.272640; absolute limit 0.240845 | Qualification fails despite a smaller drift |
+| Fixed-history shadow `4343c21535c43f42` | Retaining pre-100 ms history worsens home/base to −0.481926; 30/32 home trials worsen | Reject the onset-history-only hypothesis |
+| Conditioning and reversal | Not run; entry gate remains unmet | No learned-association or reversal claim |
+
+The shadow used the actual recorded spikes and never transmitted its alternative
+gains. It does not measure what a recurrent circuit with those gains would do.
+The [PPL101 input audit](cells/ppl101-inputs.md) identifies the two cells and their
+direct feedback paths; the 61.52% KC contact fraction does not establish a current
+fraction or causal explanation. Signal generation and plasticity coupling remain
+under investigation, with accepted gains, channels and thresholds unchanged.
+
+An earlier QA startup refreshed live sports caches and inserted 81 local v1 paper
+forecasts. These were preserved because no complete prior snapshot exists. The
+subsequent [read-only QA repair](../docs/evidence/reward-mechanism-repair-2026-09-12/verification-startup-acceptance.md)
+passed browser and file-integrity checks; it does not undo that incident. The
+evidence API/UI extension is unfinished at this dated boundary; current failures
+are recorded in the [continuation handoff](../docs/REWARD_REPAIR_HANDOFF.md).
+
+## Initial wiki assessment — September 12 UTC
+
+The following account preserves the initial inspection before integration. It
+inspected the checkout, repair worktree, saved manifests, annotations and primary
+sources; existing neural measurements were read, not rerun during that wiki task.
+Its statements about separate branches refer to that date, not the current code.
+[Workspace identities and preserved reports](../docs/evidence/reassessment-2026-09-12/index.md).
 
 ## Two code states must remain visible
 
@@ -46,6 +82,8 @@ The repair report's fine-resolution replay reconstructs the actual updates and s
 
 The current gains are not the accepted tuning target. Preserve sensory input gain 0, APL output gain 0.25, KC input gain 1.25, and global scale 0.5. Next mechanistic evidence should resolve the rule and trace contract, retain the supported away mask, then demonstrate acquisition, timing controls and reversal with fresh-noise probes. The separately specified four-arm descriptive backtest remains distinct from that scientific gate. [Evidence sequence](evidence-gates.md).
 
-This task copies, documents, audits and exports anatomy. It does not launch the pending backtest, retune the circuit, merge the repair branch, resume v1/v2 work, or change a model pointer.
+The initial wiki task copied, documented, audited and exported anatomy. It did not
+launch the pending backtest, retune the circuit, merge the repair branch, resume
+v1/v2 work, or change a model pointer. The later repair work is described above.
 
 [Wiki index](index.md) · [Primary sources](sources.md)

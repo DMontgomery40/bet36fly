@@ -1,10 +1,13 @@
 # On-circuit dopamine-association experiment
 
-**Status checked September 12, 2026 UTC:** the working checkout now includes the retained phase-1
-raw-D and gamma-mask options. Their historical untaught-home guard (SCI-001) still
-fails; the refractory input repair below has not established a scientific pass.
+**Status checked September 13, 2026 UTC:** the working checkout includes the
+retained raw-D and gamma-mask options, corrected refractory input handling and
+the numerically verified `rate-bridge-v1`. Both corrected raw and bridge rules
+pass the original diagnostic panel but fail the second panel's untaught-home
+guard (SCI-001). Retaining pre-onset history in a fixed-spike shadow made the
+failure worse and was rejected. Conditioning and reversal have not run.
 Read the [current reassessment](../wiki/reassessment.md), [cell atlas](../wiki/cells/index.md)
-and [preserved repair evidence](evidence/reassessment-2026-09-12/index.md).
+and [current repair evidence](evidence/reward-mechanism-repair-2026-09-12/index.md).
 The later four-arm handoff is a specification, not a completed repaired pilot.
 `configs/reward-v4-candidate.json` is a historical, unrun candidate with the old
 three-arm/all-away-input protocol; it is not approved for execution.
@@ -38,6 +41,17 @@ Jiang and Litwin-Kumar rate rule, not an established spike-to-rate equivalence.
 The tonic rate remains reported but is not subtracted. Removing that subtraction
 removes its signed-reference contribution; residual untaught-home depression
 still fails SCI-001. [Preserved phase-1 evidence](evidence/reward-repair-phase1.md).
+
+The separately versioned bridge uses actual events to drive 100 ms rate filters
+and 500 ms eligibility filters, with normalization 0.96 and learning rate 0.0005.
+Exact continuous integration retains a double gain accumulator within each trial
+and publishes float32 gains for transmission. An explicitly recorded analytic
+no-new-event tail updates gains after the 400 ms electrical endpoint; it does not
+simulate further neural activity. The second panel `dea14759e9ca` fails at
+home/base mean −0.272640035 against absolute limit 0.240845235, with no bound
+contacts. Numerical correctness and a smaller drift do not close the gate.
+[Exact rule/state/tail contract](../wiki/learning-rule.md),
+[independently checked measurements](evidence/reward-mechanism-repair-2026-09-12/index.md).
 
 Schemas 2 and 3 use a signed phasic dopamine proxy (`dan_reference: tonic-baseline`),
 still selectable for historical comparison. Each trial, plasticity and
@@ -120,8 +134,9 @@ approximation for gamma3); excluded alpha-prime/beta-prime and alpha/beta edges
 keep transmitting at their current gain and never update. Home is never
 filtered, because MBON11 receives substantial alpha/beta and
 alpha-prime/beta-prime input. The audit of edge counts by class is recorded in
-the anatomy. The current default is `all`; the gamma restriction is a separate,
-separately identified change, verified on the diagnostic panel (excluded edges
+the anatomy. The historical sports runner default is `all`; the gamma restriction
+is implemented and used in the current mechanism diagnostics as a separately
+identified change, verified on the diagnostic panel (excluded edges
 never update, transmission identical, gamma updates identical to the unmasked
 run; numbers in the evidence note).
 
@@ -142,6 +157,14 @@ the stimulus, where the two rule terms cancel to a few percent; a direct KC to P
 asymmetry, not an established cause. This is an open finding (SCI-001) under
 review; conditioning, reversal and readout centering have not been run.
 Evidence: `docs/evidence/reward-repair-phase1.md`.
+
+That paragraph is the preserved phase-1 result. Later corrected-raw and bridge
+panels and the failed history shadow are separate identities, summarized at the
+top of this document. The frozen [conditioning protocol](evidence/reward-mechanism-repair-2026-09-12/conditioning-preregistration.md)
+and [addendum](evidence/reward-mechanism-repair-2026-09-12/conditioning-prerun-addendum.md)
+require matched acquisition controls and reversal from acquired checkpoints,
+including old-weight recovery. Their entry gate has not passed, so the 1,632-call
+protocol has not run.
 
 Open **Training → On-circuit reward learning**. Inspect each arm's progress,
 scores, confusion table, gain curve, DAN response and downloads. The active v1

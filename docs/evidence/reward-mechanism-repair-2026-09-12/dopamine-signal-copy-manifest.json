@@ -1,0 +1,46 @@
+{
+  "copied_at": "2026-09-13T04:05:27.856764+00:00",
+  "mode": "copy; original source reports retained",
+  "files": [
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dopamine-signal-sources-resumed.md",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dopamine-signal-sources-resumed.md",
+      "bytes": 21098,
+      "sha256": "3eb2b28f996b1972444e50676ffcf29aa907a24ef39082f7c6a8883a62bb67b5"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dopamine-signal-reading-receipt-resumed.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dopamine-signal-reading-receipt-resumed.json",
+      "bytes": 35571,
+      "sha256": "1758aa285e3ad335b2fb10a5bebd4fb154947ffc74df9def3b4d98cd35da9417"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/inspect_dan_contact_scope_resumed.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/inspect_dan_contact_scope_resumed.py",
+      "bytes": 4197,
+      "sha256": "7b3d90330b80c0b4fa917833f25721ae22b4ac548c9ddc8de9d6d05c89fc28dc"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-contact-scope-resumed.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-contact-scope-resumed.json",
+      "bytes": 14810,
+      "sha256": "e8925724f7f59c2744519a90d46264f8321ea0b580e9d20b2ca81c6550dff0fd"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dan-contact-scope-resumed.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dan-contact-scope-resumed.txt",
+      "bytes": 7632,
+      "sha256": "c0cae61e0af266cd50902e0bb91698385396fbf7e56e587eb9eaafdea994b053"
+    }
+  ],
+  "static_audit_input_hashes_rechecked": {
+    "data/brain/ids.npy": "ab90597b7b0ce07cbc22cb39a65b70bea2ac73cc7fd225951bd9d73f2fc8dd3f",
+    "data/brain/indptr.npy": "fe43420f11e6242a11f8199ae7f097cab4b8a6db181d36f2a46b9e46670acbb4",
+    "data/brain/post.npy": "ce20f7433f78442c717ad2a7b5394cf4a3b109d990b4be0788040b7b0f4ed150",
+    "data/brain/counts.npy": "4a11faf9771fc3d5a5ff78ae7620ec1ce400f52d099ff657f0342cfc7a519f6b",
+    "data/raw/annotations.feather": "2177e246113e4cfbf1e7772ec37c6da1955ff22e8063d0b1f833101f99a9a3b2",
+    "wiki/cells/data/reward-edges.csv": "4d9053e969164295c85bd7bb90fdfec9cd5e0664ad2fecbaa0c83263e57b751c",
+    "data/raw/connectome-weights.feather": "e35da783d1c686b2b58b3b87cd6a403ae43bfcfba8bff28e08ef752c1a56afc1"
+  },
+  "reproduction": "Run the output/collaboration original script. Preserved evidence copies must not be overwritten by rerunning a script whose output path is beside itself."
+}

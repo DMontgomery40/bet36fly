@@ -46,11 +46,69 @@ The final [second panel `dea14759e9ca`](panel-diag-rate-bridge-v1-maskgamma-dea1
 
 The bridge is therefore insufficient for qualification. The next bounded investigation attributes the residual to actual cell classes, phases and recorded signals and rechecks primary mechanism evidence. No diagnostic threshold, drive gain or home eligibility policy is changed to remove this failure. Acquisition and reversal remain gated.
 
+The [saved-array attribution](bridge-residual-attribution.md) finds 71.54% of the failed home/base signed depression in alpha/beta KC inputs, with 94.68% applied after stimulus offset. It is distributed across cells; similar PPL101 counts do not isolate either neuron as a cause. Independent impulse-response and endpoint checks reproduce the recorded arithmetic. These findings do not justify removing home edges or treating the application time as the causal spike time.
+
+## Onset-history hypothesis rejected
+
+The [frozen investigation](onset-history-investigation-preregistration.md) captured
+exact KC/DAN histories and compared two history operators offline. It completed
+all 33 declared calls in 50.5556 seconds, with exact coarse/fine and canonical
+parity. The alternative retained pre-100 ms filter history while keeping gain
+writes at 100 ms and all other scientific settings fixed. Its gains never fed
+back into the neurons.
+
+The [measured result](onset-history-result.md) rejects this hypothesis:
+second/base home mean worsens from −0.272640034556 to −0.481925711036. Thirty of
+32 home trials worsen, and all four home panel/noise groups fail their guards.
+All away groups remain zero. The [independent artifact audit](onset-capture-independent-audit.md)
+checks every saved capture/shadow, exact event-pair integrals, published gains,
+bound exclusion and accounting within the frozen 33-call/600-second budget.
+This is a failed fixed-history calculation, not a qualified new learning rule.
+
+The [PPL101 input audit](ppl101-input-audit.md) enumerates 7,279 retained direct
+edges, 39,125 contacts and named KC/MBON/APL feedback to bodies 11327 and 11900.
+KCs account for 61.52% of contacts. That fraction is anatomical; actual delayed
+arrivals, refractory state and other inputs are required before interpreting
+delivered activity. Source investigation of the generated dopamine signal and
+its plasticity coupling continues. No next candidate is established by these
+audits, and conditioning/reversal remain gated.
+
+The subsequent [delivered KC arrival audit](delivered-arrivals-resumed-report.md)
+checks all 32 fine histories and both PPL101 cells. Gamma inputs supply about
+86% of accepted KC increments, distinct from alpha/beta's predominance in the
+learning residual. An independent queue reproduces all 64 target/trial arrays;
+31 boundary/accounting tests passed. Most non-KC input timing was not sampled,
+so these results do not establish complete drive or a causal learning pathway.
+
+The [paused conditioning draft review](conditioning-draft-review.md) also exposes
+incomplete plan, frozen-gain/bound and empty-replay validation. Its numerical
+counterexamples are software review evidence; the draft remains unintegrated and
+must gain the full frozen-contract tests before use.
+
+The completed [dopamine signal source investigation](dopamine-signal-sources-resumed.md)
+records eight primary-source entries with access limits and checks all 14,551
+retained outgoing pairs from the selected DANs. Both PPL101 cells contact both
+MBON11 bodies, so body-side labels cannot establish local dopamine exposure.
+The report describes targeted synapse-location retrieval and a fixed engineered
+rate-adaptation hypothesis; neither has been executed or established as a repair.
+Its [122-document reading receipt](dopamine-signal-reading-receipt-resumed.json)
+and [copy/input-hash verification](dopamine-signal-copy-manifest.json) preserve
+the audit's actual scope.
+
 ## Preserved evidence and execution exception
+
+The [mechanism evidence API and Training view](task4b-acceptance.md) now expose
+these distinctions directly. Final verification passed 970 Python tests, 81
+frontend tests, Ruff/build and the actual guarded browser workflow, including
+stale/retry recovery and the unchanged failed bridge pair. All 782 protected
+files and inventories matched after requests and shutdown. This completes the
+current diagnostic presentation; a qualified mechanism, conditioning runner
+and independent conditioning artifact validator remain unfinished.
 
 - [Historical diagnostic copies](historical-diagnostic-copies.json) retain the failed earlier results under their original identities.
 - [Dated correlation erratum](lag-profile-erratum.json): the historical mean fine-lag cross-correlation peaks at 0.054121782 at +3 ms, rather than the 0.037 stated in the old prose. The weak correlation does not identify a causal anatomical path.
 - [Agent reading receipts](agent-document-reading.json) record the complete initial documentation corpus; workers read later changes at review boundaries.
 - [QA startup incident](task1-startup-side-effects.json): a default server startup refreshed live sports caches and inserted 81 v1 paper forecasts. The server was stopped. These shared rows are preserved because no pre-start snapshot exists. Historical reward artifacts and the active model pointer remained intact. Subsequent verification requires a read-only, refresh-disabled startup.
+- [Read-only startup repair and actual browser acceptance](verification-startup-acceptance.md): 911 Python tests, 68 frontend tests, Ruff/build and browser checks passed. All 749 protected files and their inventories matched before requests, after requests and after shutdown. This fixes QA startup, independently of the failed learning qualification.
 
 No new sports pilot, model promotion or push is part of this repair.

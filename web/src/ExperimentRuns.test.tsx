@@ -7,13 +7,13 @@ vi.mock('react', async original => ({ ...await original<typeof import('react')>(
   useEffect: (effect: () => void) => { effect(); },
 }));
 vi.mock('./data', async original => ({ ...await original<typeof import('./data')>(), pollExperiments: (receive: (data: unknown) => void, fail: (error: string) => void) => { host.receive = receive; host.fail = fail; return () => {}; } }));
-import ExperimentRuns, { filteredComparisons, ProspectivePanel } from './ExperimentRuns';
+import ExperimentRuns, { ExperimentRunsView, filteredComparisons, ProspectivePanel } from './ExperimentRuns';
 function elements(node: ReactNode): ReactElement<Record<string, unknown>>[] {
   if (!node || typeof node !== 'object' || !('type' in node)) return [];
   const e = node as ReactElement<Record<string, unknown>>;
   return [e, ...[e.props.children].flat(Infinity).flatMap(child => elements(child as ReactNode))];
 }
-function render() { host.cursor = 0; return ExperimentRuns(); }
+function render() { host.cursor = 0; const view = ExperimentRuns(); return ExperimentRunsView(view.props); }
 const metric = { n: 20, log_loss: .7, brier: .4, accuracy: .6, ece: .03 };
 function experiment(status = 'running'): Experiment {
   return { id: 'v2-real', status, created_at: '2026-09-11T00:00:00Z', updated_at: '2026-09-11T01:00:00Z', artifacts: {},

@@ -1,7 +1,6 @@
 import { renderToStaticMarkup } from 'react-dom/server';
 import { expect, it, vi } from 'vitest';
-import ExperimentRuns from './ExperimentRuns';
-import RewardExperiments, { RewardExperimentsView, rewardExperiments } from './RewardExperiments';
+import { RewardExperimentsView, rewardExperiments } from './RewardExperiments';
 import TrainingView from './TrainingView';
 import type { Experiment, ExperimentIndex, ExperimentJob } from './types';
 
@@ -65,9 +64,9 @@ function view(data: ExperimentIndex | null, error = '', selectedJobId = '') {
 
 it('indexes only dopamine-association manifests and places the tracker before the v2 matrix', () => {
   expect(rewardExperiments([v2(), reward()]).map(row => row.id)).toEqual(['reward-v3-test']);
-  const training = TrainingView({ data: null, error: '', loading: false });
-  const children = [training.props.children].flat(Infinity);
-  expect(children.findIndex(child => child?.type === RewardExperiments)).toBeLessThan(children.findIndex(child => child?.type === ExperimentRuns));
+  const html = renderToStaticMarkup(<TrainingView data={null} error="" loading={false}/>);
+  expect(html.indexOf('Mechanism qualification')).toBeLessThan(html.indexOf('Historical sports association pilots'));
+  expect(html.indexOf('Historical sports association pilots')).toBeLessThan(html.indexOf('V2 experiment tracker'));
 });
 
 it('renders loading, empty, fetch-error, and stale-data states without inventing a result', () => {

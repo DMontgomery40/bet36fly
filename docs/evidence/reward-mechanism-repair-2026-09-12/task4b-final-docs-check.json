@@ -1,0 +1,29 @@
+{
+  "checked_at": "2026-09-13T04:16:26.435802+00:00",
+  "copied_evidence_files_hash_verified": 60,
+  "output_only_files_hash_verified": 1,
+  "initial_microduck_snapshot_files_verified": 59,
+  "protected_historical_files_verified": 5,
+  "final_production_release_hashes_verified": 14,
+  "changed_narratives_checked": 33,
+  "local_link_paths_checked": 254,
+  "missing_paths": [],
+  "source_writes": false,
+  "native_calls": 0,
+  "scope": "Copy hashes, release hashes, protected historical files, and existing local Markdown target paths. Remote URLs and heading anchors excluded; source wiki drift remains in the dated wiki-refresh record.",
+  "staged_whitespace_check": {
+    "passed": true,
+    "command": [
+      "git",
+      "-c",
+      "core.whitespace=trailing-space,space-before-tab,cr-at-eol",
+      "diff",
+      "--cached",
+      "--check",
+      "--",
+      ".",
+      ":(exclude)docs/evidence/reward-mechanism-repair-2026-09-12/onset-capture-identity-red.txt"
+    ],
+    "byte_preservation_note": "Copied CSV artifacts retain their original CRLF. The copied red-test log retains original diagnostic whitespace; it is excluded from whitespace-style checks so its recorded hash remains exact."
+  }
+}

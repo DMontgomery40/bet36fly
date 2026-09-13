@@ -1,0 +1,36 @@
+{
+  "copied_at": "2026-09-13T04:14:46.596402+00:00",
+  "files": [
+    {
+      "source": "output/collaboration/reward-mechanism-repair/delivered-arrivals-resumed-evidence-review.md",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/delivered-arrivals-resumed-evidence-review.md",
+      "bytes": 4366,
+      "sha256": "fed04c0f1a38cc78d5005a489057891a0625cec51bedbb32d39885ca67f5e6ef"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/delivered-arrivals-resumed-evidence-review-final.md",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/delivered-arrivals-resumed-evidence-review-final.md",
+      "bytes": 4602,
+      "sha256": "34f22b52816eee21803aac90666924143079e4053eecc2f5c619d8ff3649d8a1"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/delivered-arrivals-resumed-evidence-recheck.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/delivered-arrivals-resumed-evidence-recheck.py",
+      "bytes": 7922,
+      "sha256": "25a7d6c2cc594647b393da016e63d60a989a2e044600d6baf887c84d10e3f9e8"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/delivered-arrivals-resumed-evidence-recheck.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/delivered-arrivals-resumed-evidence-recheck.json",
+      "bytes": 12471,
+      "sha256": "d5c1302ac384c3f62b1ea6a592ba78f6454268331289400402cee4ae0e845803"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/delivered-arrivals-resumed-evidence-review-ui-probes.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/delivered-arrivals-resumed-evidence-review-ui-probes.json",
+      "bytes": 910,
+      "sha256": "4be982eb702b975566cf31ab376ce62ef1fe7f2ab7638d56d43caa87c4f5c461"
+    }
+  ],
+  "mode": "copy; output originals retained. Preserved script copies are evidence; do not rerun into these immutable results."
+}

@@ -1,0 +1,132 @@
+{
+  "scope": "signal-only harness audit; no circuit or production import",
+  "harness_sha256": "8ec357c56d376d3f2073f2b3b64df3d7f3bf6955bdb4b0d55b007207d60833ed",
+  "reference_sha256": "d8aa3c3f8f5e120e5aa78aec4bcdcd354449b5c1ac9142d7e4c72b5d8485283c",
+  "checks": [
+    {
+      "case": "empty",
+      "history": "cold",
+      "passed": true
+    },
+    {
+      "case": "empty",
+      "history": "continuous",
+      "passed": true
+    },
+    {
+      "case": "coincident_at_boundary",
+      "history": "cold",
+      "passed": true
+    },
+    {
+      "case": "coincident_at_boundary",
+      "history": "continuous",
+      "passed": true
+    },
+    {
+      "case": "pre_only_k_then_d",
+      "history": "cold",
+      "passed": true
+    },
+    {
+      "case": "pre_only_k_then_d",
+      "history": "continuous",
+      "passed": true
+    },
+    {
+      "case": "pre_only_d_then_k",
+      "history": "cold",
+      "passed": true
+    },
+    {
+      "case": "pre_only_d_then_k",
+      "history": "continuous",
+      "passed": true
+    },
+    {
+      "case": "cross_boundary_k_first",
+      "history": "cold",
+      "passed": true
+    },
+    {
+      "case": "cross_boundary_k_first",
+      "history": "continuous",
+      "passed": true
+    },
+    {
+      "case": "cross_boundary_d_first",
+      "history": "cold",
+      "passed": true
+    },
+    {
+      "case": "cross_boundary_d_first",
+      "history": "continuous",
+      "passed": true
+    },
+    {
+      "case": "boundary_then_next",
+      "history": "cold",
+      "passed": true
+    },
+    {
+      "case": "boundary_then_next",
+      "history": "continuous",
+      "passed": true
+    },
+    {
+      "case": "mixed",
+      "history": "cold",
+      "passed": true
+    },
+    {
+      "case": "mixed",
+      "history": "continuous",
+      "passed": true
+    },
+    {
+      "case": "partial_population",
+      "history": "cold",
+      "passed": true
+    },
+    {
+      "case": "partial_population",
+      "history": "continuous",
+      "passed": true
+    },
+    {
+      "case": "one_sided",
+      "history": "cold",
+      "passed": true
+    },
+    {
+      "case": "one_sided",
+      "history": "continuous",
+      "passed": true
+    },
+    {
+      "case": "no_prehistory",
+      "history": "cold",
+      "passed": true
+    },
+    {
+      "case": "no_prehistory",
+      "history": "continuous",
+      "passed": true
+    },
+    {
+      "case": "sub_ulp_after_gate",
+      "history": "cold",
+      "passed": true
+    },
+    {
+      "case": "sub_ulp_after_gate",
+      "history": "continuous",
+      "passed": true
+    },
+    {
+      "case": "binary_dense_clip_reversal",
+      "history": "continuous",
+      "passed": true
+    }
+  ]
+}

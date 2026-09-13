@@ -1,0 +1,28 @@
+{
+  "scope": "Pure retained-draft review; no conditioning or native calls; no production import/edit.",
+  "draft_sha256": "4f30fd52cfa7de8350876961465e66cb6e131859799be8f87fcd320310eb3903",
+  "baseline_plan": {
+    "calls": 1632,
+    "hard_call_limit": 1640,
+    "hard_wall_seconds": 1200,
+    "by_stage": {
+      "acquisition-primary": 616,
+      "acquisition-challenge": 616,
+      "reversal": 400
+    },
+    "selected_replays": 32
+  },
+  "valid_synthetic_acquisition_passes": true,
+  "invalid_call_plans_accepted": {
+    "remove_all_teaching": true,
+    "alter_all_probe_seeds": true,
+    "enable_frozen_plasticity": true,
+    "wrong_reversal_cue_window": true,
+    "wrong_replay_parent": true
+  },
+  "invalid_acquisition_accepted": {
+    "frozen_gain_change": true,
+    "outside_frozen_gain_bounds": true
+  },
+  "empty_numeric_replay_accepted": true
+}

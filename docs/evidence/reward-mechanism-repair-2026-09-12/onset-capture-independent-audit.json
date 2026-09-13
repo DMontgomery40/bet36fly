@@ -1,0 +1,2234 @@
+{
+  "audit": "PASS: recorded execution and calculations independently reconciled; scientific hypothesis falsified",
+  "run_id": "onset-history-capture-4343c21535c43f42",
+  "summary_sha256": "244b4dcc1aa40b8c0c7be068bf7e66f8e369921f1005dd474ca37f9460dabb1b",
+  "preregistration_sha256": "9aeea0c9227bf9ad4326277c39eb47966d5ab95ba6870bb3720f0d9b278788fc",
+  "captured_source_identity": {
+    "reward_lif.cpp": "e7dbb0aa8f95873036415581e94de45c237941f05642ccc90812c1be1119be37",
+    "reward_brain.py": "5a6d67d38d226c6792c4f11430610772894ea3e9ae9593c2d215cfd7eaa0a6d5",
+    "reward_protocol.py": "e1a315f991debb677fca30f6e821a657135adccf032ad26054a00ed7688dc1bb",
+    "reward_encoder.py": "178a36f388b0c0de34bc2a83a0b35eef806dafa98636aa2400e4b87931446285",
+    "reward_diagnostic.py": "59feb14834813fa6793f0f97a8e4c208fd85494b383e9fa5875efe5b21189c99",
+    "reward_teaching_diagnostic.py": "d18df419fe4c78001019d6feadff5b6c37df2de69f7e278d46d3cf02bc539598"
+  },
+  "source_snapshot_validation": {
+    "bet36fly/reward_lif.cpp": {
+      "git_commit": "3b09865ba331b2c58c4bb8080e0d6354b4c8f612",
+      "sha256": "e7dbb0aa8f95873036415581e94de45c237941f05642ccc90812c1be1119be37"
+    },
+    "bet36fly/reward_brain.py": {
+      "git_commit": "3b09865ba331b2c58c4bb8080e0d6354b4c8f612",
+      "sha256": "5a6d67d38d226c6792c4f11430610772894ea3e9ae9593c2d215cfd7eaa0a6d5"
+    },
+    "bet36fly/reward_protocol.py": {
+      "git_commit": "3b09865ba331b2c58c4bb8080e0d6354b4c8f612",
+      "sha256": "e1a315f991debb677fca30f6e821a657135adccf032ad26054a00ed7688dc1bb"
+    },
+    "bet36fly/reward_encoder.py": {
+      "git_commit": "3b09865ba331b2c58c4bb8080e0d6354b4c8f612",
+      "sha256": "178a36f388b0c0de34bc2a83a0b35eef806dafa98636aa2400e4b87931446285"
+    },
+    "bet36fly/reward_diagnostic.py": {
+      "git_commit": "3b09865ba331b2c58c4bb8080e0d6354b4c8f612",
+      "sha256": "59feb14834813fa6793f0f97a8e4c208fd85494b383e9fa5875efe5b21189c99"
+    },
+    "scripts/reward_teaching_diagnostic.py": {
+      "git_commit": "3b09865ba331b2c58c4bb8080e0d6354b4c8f612",
+      "sha256": "d18df419fe4c78001019d6feadff5b6c37df2de69f7e278d46d3cf02bc539598"
+    }
+  },
+  "protected_input_hashes": {
+    "data/brain/counts.npy": "4a11faf9771fc3d5a5ff78ae7620ec1ce400f52d099ff657f0342cfc7a519f6b",
+    "data/brain/ids.npy": "ab90597b7b0ce07cbc22cb39a65b70bea2ac73cc7fd225951bd9d73f2fc8dd3f",
+    "data/brain/in_degree.npy": "494f13b315b23acb9962e214de0676e647893597614ad146483308e16a09716d",
+    "data/brain/indptr.npy": "fe43420f11e6242a11f8199ae7f097cab4b8a6db181d36f2a46b9e46670acbb4",
+    "data/brain/kc.npy": "97a570aafa089f93e642b2bb07e3a3322dabb14c3c7dd431f0c8d2b3b7951fdd",
+    "data/brain/mbon.npy": "87d555e02d4cf2d661d9676b937a31b29cacf60a7edc85c8c08edc8312530f83",
+    "data/brain/post.npy": "ce20f7433f78442c717ad2a7b5394cf4a3b109d990b4be0788040b7b0f4ed150",
+    "data/brain/sensory.npy": "ed574f42559455069679f8ce3b339395efa9398ec13e199eab47959533370805",
+    "data/brain/signs.npy": "4a0725e94d5014b2f17a70e3bdef3f7d843c0e81a8f22a33284aa10d8d62dab5",
+    "data/brain/nodes.feather": "d706a6dd5ec1dc17cfba2e8f439232723af81729bf1d0c17bf0cc73860a9c867",
+    "data/raw/annotations.feather": "2177e246113e4cfbf1e7772ec37c6da1955ff22e8063d0b1f833101f99a9a3b2"
+  },
+  "pilot_hashes": {
+    "inputs_sha256": "b35d49dbbf361d0b32b7cb8fb278419ca3ed8930a35850d0f571a2f8b3b4cd35",
+    "pilot_manifest_sha256": "3ca0ed70b742ebad3b34b4ecc6690b55e96f3833ee5df34920a6648e950b8ff5",
+    "pilot_protocol_sha256": "c1e969f5d4f586b789bf4bf9235e8071f2734759b3e22f30ad1d01f9fc4be193"
+  },
+  "native_binary": {
+    "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/native/reward-lif-e7dbb0aa8f958730.dylib",
+    "sha256": "089af7d08e4a0eaf47b1f35a26d82f8336a0397fc4431ed8629624b2c307d91a"
+  },
+  "harness_sha256": "8ec357c56d376d3f2073f2b3b64df3d7f3bf6955bdb4b0d55b007207d60833ed",
+  "reference_sha256": "d8aa3c3f8f5e120e5aa78aec4bcdcd354449b5c1ac9142d7e4c72b5d8485283c",
+  "tests_sha256": "131585b61a217c978777154d269881830ff851d795439ccc2e69496c7cfdf41b",
+  "artifact_hashes": {
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/attempts.json": "3ff622560b50432b12ba45499571efb423d1630c83913fd5b852f4802407aaec",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/capture-receipt.json": "9aeea0c9227bf9ad4326277c39eb47966d5ab95ba6870bb3720f0d9b278788fc",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/coarse.npz": "e1bf7d69380232caae8147c220f0e0ab16ad7b419d3779b8cb2406868a748933",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_00.npz": "4a438a1d4a9f3f04006ff540a61710ae494609516af5ad4fd60a7b7c5495439c",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_01.npz": "7b240f79326ce2eae6f39bd915b79f87620010a42819e0456ddfe93b8f13c9d0",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_02.npz": "5a52ef4192a5c3451c87b5a4e68d71634ed364f91f51791e58bf1981ca7e53bd",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_03.npz": "9f5bd6d632bfba279c0d8d0544b128ce5a88f8d706e6d7873b6f3eb3ae21079c",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_04.npz": "ac307e48234934babd39c0a6455cb072a521d6732873cf0e5163111cc8fe43dc",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_05.npz": "076ed8ef037a4a8ac17c9234d93cbebe3b19f14d4a34aee353e18b501c20c48c",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_06.npz": "bf1ecf62af1de626bcac4f358a665b2cf4b8f36fe3af0cb57760d91a0b5347e0",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_07.npz": "32fd4c05763c3080baad1ca0055e8b75335bb26e97115f04c6347bcb49582a1b",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_08.npz": "9f53e482a23d2f6aa14ebbc510aeb3e41f833a24491b4fe60f4284303c11bb6c",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_09.npz": "05dc4b454c6b4ef233452769ff96d3d03ed79596c90b09f847b3c31c39c30de2",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_10.npz": "b32ce1bef5e7b70375a6bd74d62034ebaf2f9aa4c797f0062350092950b960df",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_11.npz": "07ac0e2d1d2c34d00de827a5b96a024679642d06e442296b77fd1b8303a207e0",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_12.npz": "912a3e7580e7f7b08e3daaa16deaa0a18e4640587f592f0d62315e9596b766b4",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_13.npz": "9e83d9c5b2e7ee323e216fa8f15e363f046f50a8818131fd0e3429f1ba7da84a",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_14.npz": "1f362a2786326b960809c0a6abeeba3824851b63e5dfe41bce22eb936ae58935",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_15.npz": "a40c7d22af553478d802691e0bb390713e0625ab3d40ca9379139893b9dd1a99",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_16.npz": "00408ac82dd08534809801425ef9be3869b732d7dcacbe440cc9548fd29b6b05",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_17.npz": "47afab8b93f0ed827546d0b7fe624ae0d7a383576d14734dfe77321489263f5d",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_18.npz": "872d849d813cf56649044329aed3aa527b323e6cba63d7be30c9ce39b554cacc",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_19.npz": "fec4a8b1d82e2b4668438a9c7fe010cc06575eb416fe061b3f04074ab7023337",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_20.npz": "d2a5e5f42be0ba28342afc4e5b3f5fbf338893e09018577d414aad02b06f8f81",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_21.npz": "43c6dca974fb8b04673f992abc4c6a2e50ed9d9697637f408d00798b7f8c4433",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_22.npz": "07e21bed4584c9c6fab689c488bceeef1561f93df6b2d71d866d4ce72e47b6d8",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_23.npz": "bc9b5c3466e0a9a73599dbfd4276c1ff1d0b0703e007be6c5afa317ce6341fc9",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_24.npz": "d311d3a997ac06302cb1471817d2828f56d1a9824cc565a5d0f6390925cda876",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_25.npz": "bcdf73a09d7a638d1d13ad4421dd1547daa888fde3003b360a068f4aa54c44ef",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_26.npz": "4bfd5cfd1dea0fff8a72743b4af592f758afc9753b0bda2c1405cb04f1f48538",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_27.npz": "43f6d5d956ec9c93f075a81163825129829be8a02ce9c41a579de7096a1c52cf",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_28.npz": "b018679072496893290fb66ed610a3dcb04eb7252f5b2e2b5c073b9357f7e344",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_29.npz": "4fd3f67362ed8feca0dd2da2f53b882aaefdb8880b4b6962aa08a8702b9df6da",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_30.npz": "baf87916b22976fd62bfa5e5d576288c390ea102a32a31ba8a5cc19aa342b6f2",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_31.npz": "66799429f280fe90da61c7ecd5cb47544793d61ffc2dd109af0a362040257157",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/progress.json": "56c610eb53bdfdef8b559fd35f679960a8979672ffaf0267b5f5be5b0384e485",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow-progress.json": "894148f0e3ad9939d13182146e09d2cba1b10dddd514f4a358329077a5b0bbad",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_00_cold.npz": "90f482b9ed3787e8c45ca189abf79c1b5aa46569835cb7d3efeaf7551e25cad3",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_00_continuous.npz": "a757c4b6e064714205ad27838163bd1d9e3627b0b822349909529c9d9aa381c1",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_01_cold.npz": "b30247557b2e6d12eba34a6337020a62dc5c9582315fde74f3a61563e9f431c4",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_01_continuous.npz": "c4675b3df42770da65f46b71c64b7b759cccd7b867fd6f1579ffdc3ed79d5180",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_02_cold.npz": "6d0d289df6068db145d6249dfe2af470529eb7ec773ffe08e7b1b826c984fe90",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_02_continuous.npz": "087c71171e0b5e83b87bdc5bc57e34b1fdc5c4c589e0b734ba624346a45358c1",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_03_cold.npz": "86582640915fc5194b95e32007f0ee46b0702588bca8d96291daca46ab59c901",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_03_continuous.npz": "7272301560bfa3ac33164a2b02300b4d6ca71ab24f60a25163a8e27fb7fbbf78",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_04_cold.npz": "6ad44fedb94999f29cfacd603c516092935c56636b77b97090a1bfb0daca1dd4",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_04_continuous.npz": "e029eea1d154f2ce8139c57c1f0e872fed7a89ccb2d9a6bd7354b1eb2a6cb88f",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_05_cold.npz": "2e898793b8f187616db227d4adf818f0c8543dd547b314966c26322f1faab7b4",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_05_continuous.npz": "b8b51b4f57b282aff3d695db080ba941440a150ab166939f546422da776aec65",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_06_cold.npz": "257b21f550c4b3b5ba7538c0281fee8c4a709349f1fe484af3f0217b97ad4654",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_06_continuous.npz": "13ae93fc05657393e1f0ac6b3fe197e203a844ab0ee79fb2ec088784a4eb0c04",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_07_cold.npz": "612d3ea707f1d8fb547324af0d2c7bbfa1d1fa3ca2607531b1dd1093e0632f8a",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_07_continuous.npz": "676b12035c39fd55f868036680af82ea0034ebd0e0d652c7550de1aba80fc4b5",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_08_cold.npz": "6dc30fa43d61e76d3db038a8c886e1b069f51cee80ded0747413c260dc527f44",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_08_continuous.npz": "15d3ab0cae3092875a55a61f2b2cd371abfa654ad073f0aa4bb2e77069aacf7e",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_09_cold.npz": "bdf46afa7aae7b97dfa3ed3b7ac0b2f61ccd124131ad3ee8d05db8ea692dd8c2",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_09_continuous.npz": "eab7c1c478a72b0ae5e7bf761d29a5ccdda0c2264e1747b9a3405832dc1a3695",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_10_cold.npz": "0d62ab844d6706316c5f4c4729a5bfb40ce81a89a4d63b6335fa1342e41d341b",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_10_continuous.npz": "272c79a3cfdb2d6ea3f89771d33d587a520e0fdf5d065e9f31ef2d6335d4df55",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_11_cold.npz": "41e1a12da9cd46e07af73b8f79d204098c0c1d5029188a9d7263e3188731e432",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_11_continuous.npz": "bf03a8f476cb49cacefc12763e5722b001cb759c7a14946517456d35c54658de",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_12_cold.npz": "920441eb42c1ec935ebd6d0fe4f5d2287a99b0704f4de54f924cbf9e1d01ec25",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_12_continuous.npz": "fe3ee392555fb44c775417a9c23ff93ea120f84c656cf5e87277760a8818663b",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_13_cold.npz": "e07cdc445ba0d5fb9cc83222b88e7e4d345a18c997ca638e1e1c8f4d70fc26bd",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_13_continuous.npz": "39ae0f519ea7584d444249bbb179225c90da7249e11688c3c751ebc30b0ec190",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_14_cold.npz": "e64c40a4f54b1ac43c7492ba4583ce438cacc6bf2f39ed87faae451c4bf53e10",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_14_continuous.npz": "d0d1029a1657fcbc9e25cb913bbf514c77b9517ccdc658256c90f79b6c5ec162",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_15_cold.npz": "54fd884f74cc09d2dd2fd1d88c5d72e9fa7a939521eedbcb0eb13a4eabb69907",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_15_continuous.npz": "152665b916114bf534177b1893d30e98106e53b5d7b1e16b34c092408a4e2679",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_16_cold.npz": "75c824d433f804c53f917f978620cd669bc71541c22bfcc2ea4bfb279d6bc80d",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_16_continuous.npz": "89defe1117d9a1a8d2969749411ddfc7343c14fb9937b19acd5569eddf495346",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_17_cold.npz": "5fe2f269b512707bf029e443a4c98a3b51276d5780aa107ea7e663209ad4727d",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_17_continuous.npz": "033f571b1798a750ca19d1f250a07ff9ad44d4d786ec1a0c5e9896255a89a366",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_18_cold.npz": "079551b9e6e046f48bab67d84a96d68da5e915f21d4d92eafaf854628a618921",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_18_continuous.npz": "6dd70436c3f67f49e8da1d4ecd8919a3038e385baf37fca6a48164229158a8a0",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_19_cold.npz": "8e0535987d5d3fcb47242228f352c64b6eb0388d90e7854b2695d401ccc006ab",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_19_continuous.npz": "6e6210b05513c8e324105bf0445db28c927b0b808ac35b439a4446524f0d0519",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_20_cold.npz": "7a14bc15b9d67773711881089883e0446df994401e82e7589741577611346776",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_20_continuous.npz": "254212efa067230f1e56377ead461a95acdaa348a931868b076d01c329c23595",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_21_cold.npz": "cba52aab9d75aba7e627ed9cdfe8691abde09eed0e7add7e3cd828560252aaf2",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_21_continuous.npz": "f12cc194df37c5e62b90df8341cc322a352ff19f5859282fc4d03749c4ee1854",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_22_cold.npz": "b793e1f88b555684626bf37e9af7b028752b473f51c2d1cee0348fe993fd8ed6",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_22_continuous.npz": "8764f1315e085432e2fcbf93f6708205446efec5f5922b19794d34072681bfd0",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_23_cold.npz": "834e50830675b03f6e721cff7356ae541e98daace5520da7d3f51411f44f76b6",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_23_continuous.npz": "a7fe7587f2ba2db6d5001d4673a814db65221fa284932137832836aef873d41e",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_24_cold.npz": "49f107767aa30a56ae4ce3aa165c4480768274f50d13643ca812206670e3d547",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_24_continuous.npz": "659b530c09ab3df871e0e46c61a95f56190c4e78620292b3b3514a8e01af2440",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_25_cold.npz": "0d67ad8afc1fe18e024c57f24b0bd7883c72ccf83ed29a0e81e539f879b57994",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_25_continuous.npz": "ee3a01192df092abb6009dc37b5efb9a90e776303764d1e7c6f4d2849af034a5",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_26_cold.npz": "fb9d2d0b29712cc0137d24d8065bf383ee0d615cc5fcfe12bf41feaa37786423",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_26_continuous.npz": "ca354077f449b6b29cbb06a7467f8b62e6472ce069b424f68bba2cd5954ee837",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_27_cold.npz": "1ed8c553419f002e08b9a860ceef80aabc0200eb8176b3a07a6b9c22ae55d70f",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_27_continuous.npz": "7db843b54c17dd783d4e1fd5c5c8b15193465e9312bab37299311c9d25bf4869",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_28_cold.npz": "daa975a6aea03c7a2725b1bbb2245298f6aef6f27c9c3bd77d9b49d6456b0a57",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_28_continuous.npz": "48459e1eba26a46d41db6b2df9b49a00a855f12aa725b3169c8bc35903e549d5",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_29_cold.npz": "0b8bc14de3237ff6214155a66f66fafbe26202cd3d6cf721955c43a1c3de18b6",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_29_continuous.npz": "0245a5739edea5915ea875406e28d2c0a916e789a2d6ca528d0cda56cb98566b",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_30_cold.npz": "68a451b623af06dbc281bc2b08fa569c84d0021b41ab22b53507cf091c8db530",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_30_continuous.npz": "8f221a56fc48a859a046ce0703405a1d6523383e11439f2011607d204601e021",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_31_cold.npz": "4df4b1aa3cf4040009f0a0ea729f1b21894bfa9fac96a0e5dbd8177082007d7d",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_31_continuous.npz": "2b1af9ddf0546e484c1ba9d41c43ea4fe5b66df3c915f3a4b17afa97183c7f11",
+    "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/summary.json": "244b4dcc1aa40b8c0c7be068bf7e66f8e369921f1005dd474ca37f9460dabb1b",
+    "docs/evidence/reward-mechanism-repair-2026-09-12/onset-capture-preregistration.json": "9aeea0c9227bf9ad4326277c39eb47966d5ab95ba6870bb3720f0d9b278788fc",
+    "docs/evidence/reward-mechanism-repair-2026-09-12/onset-capture-preregistration.samples.npz": "5f2414ffe5cab3d99cc1c1f0e91071df1f48721a7709816e90360af8b41074b3"
+  },
+  "attempted_calls": 33,
+  "completed_capture_arrays": 33,
+  "shadow_array_files": 64,
+  "all32_canonical_parities": true,
+  "no_unexplained_calls_in_capture_ledger": true,
+  "scope_limit": "Ledger/source structure cannot exclude unrelated calls outside this captured process; no process tracing or native rerun. Actual states/trajectories reconcile to saved cold evidence. Source snapshot is bound, not current worktree equality.",
+  "onset_gain_snapshots_unchanged": true,
+  "cold_actual_gains_bit_identical": true,
+  "independent_closed_pair_float_gains_bit_identical": true,
+  "all_per_edge_phases_reconciled": true,
+  "all_true_integrals_recomputed": true,
+  "zero_bounds_with_independent_absolute_area_proof": true,
+  "numerical_maxima": {
+    "onset_state_error": 1.2434497875801753e-14,
+    "endpoint_state_error": 4.192202140984591e-13,
+    "true_integral_error": 7.840950111415168e-16,
+    "net_integral_error": 2.0903417885520525e-16,
+    "per_edge_publication_reconciliation_error": 0.0,
+    "absolute_integral_envelope": 0.1571136419805323
+  },
+  "rows": [
+    {
+      "game": 4362,
+      "seed_set": "base",
+      "seed": 4404,
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "effects": {
+        "cold": {
+          "published": [
+            -0.03740561008453369,
+            0.0
+          ],
+          "attempted": [
+            -0.03740554912460709,
+            0.0
+          ],
+          "bounds": 0,
+          "onset_kc_active": 0,
+          "onset_dan_rate": [
+            0.0,
+            0.0
+          ],
+          "onset_dan_eligibility": [
+            0.0,
+            0.0
+          ],
+          "phase_published_home": [
+            -0.0004353523254394531,
+            0.02044600248336792,
+            -0.04033005237579346,
+            -0.0170862078666687
+          ]
+        },
+        "continuous": {
+          "published": [
+            -0.22977250814437866,
+            0.0
+          ],
+          "attempted": [
+            -0.22977309104015864,
+            0.0
+          ],
+          "bounds": 0,
+          "onset_kc_active": 422,
+          "onset_dan_rate": [
+            0.02661279360940487,
+            0.0
+          ],
+          "onset_dan_eligibility": [
+            1.266974317379728,
+            0.0
+          ],
+          "phase_published_home": [
+            -0.003770768642425537,
+            -0.05987590551376343,
+            -0.11639183759689331,
+            -0.04973399639129639
+          ]
+        }
+      }
+    },
+    {
+      "game": 4362,
+      "seed_set": "alt",
+      "seed": 1004404,
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "effects": {
+        "cold": {
+          "published": [
+            -0.07136553525924683,
+            0.0
+          ],
+          "attempted": [
+            -0.07136550515940146,
+            0.0
+          ],
+          "bounds": 0,
+          "onset_kc_active": 0,
+          "onset_dan_rate": [
+            0.0,
+            0.0
+          ],
+          "onset_dan_eligibility": [
+            0.0,
+            0.0
+          ],
+          "phase_published_home": [
+            0.0003528594970703125,
+            0.00980985164642334,
+            -0.05760890245437622,
+            -0.023919343948364258
+          ]
+        },
+        "continuous": {
+          "published": [
+            -0.1848488450050354,
+            0.0
+          ],
+          "attempted": [
+            -0.1848475449286599,
+            0.0
+          ],
+          "bounds": 0,
+          "onset_kc_active": 400,
+          "onset_dan_rate": [
+            0.029279778305681962,
+            0.0
+          ],
+          "onset_dan_eligibility": [
+            1.0200523943149309,
+            0.0
+          ],
+          "phase_published_home": [
+            -0.014634311199188232,
+            -0.029396355152130127,
+            -0.09939026832580566,
+            -0.04142791032791138
+          ]
+        }
+      }
+    },
+    {
+      "game": 4366,
+      "seed_set": "base",
+      "seed": 4408,
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "effects": {
+        "cold": {
+          "published": [
+            -0.01059800386428833,
+            0.0
+          ],
+          "attempted": [
+            -0.010599104377640722,
+            0.0
+          ],
+          "bounds": 0,
+          "onset_kc_active": 0,
+          "onset_dan_rate": [
+            0.0,
+            0.0
+          ],
+          "onset_dan_eligibility": [
+            0.0,
+            0.0
+          ],
+          "phase_published_home": [
+            -0.00012058019638061523,
+            -0.01871126890182495,
+            0.0056514739990234375,
+            0.002582371234893799
+          ]
+        },
+        "continuous": {
+          "published": [
+            -0.09217661619186401,
+            0.0
+          ],
+          "attempted": [
+            -0.09217715114849981,
+            0.0
+          ],
+          "bounds": 0,
+          "onset_kc_active": 287,
+          "onset_dan_rate": [
+            0.02032821490373825,
+            0.0
+          ],
+          "onset_dan_eligibility": [
+            0.4527779620984673,
+            0.0
+          ],
+          "phase_published_home": [
+            -0.008559703826904297,
+            -0.08127826452255249,
+            -0.0017809867858886719,
+            -0.0005576610565185547
+          ]
+        }
+      }
+    },
+    {
+      "game": 4366,
+      "seed_set": "alt",
+      "seed": 1004408,
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "effects": {
+        "cold": {
+          "published": [
+            0.11782455444335938,
+            0.0
+          ],
+          "attempted": [
+            0.11782468564906509,
+            0.0
+          ],
+          "bounds": 0,
+          "onset_kc_active": 0,
+          "onset_dan_rate": [
+            0.0,
+            0.0
+          ],
+          "onset_dan_eligibility": [
+            0.0,
+            0.0
+          ],
+          "phase_published_home": [
+            0.00021016597747802734,
+            0.06844478845596313,
+            0.03413200378417969,
+            0.015037596225738525
+          ]
+        },
+        "continuous": {
+          "published": [
+            0.11364930868148804,
+            0.0
+          ],
+          "attempted": [
+            0.11364923390703367,
+            0.0
+          ],
+          "bounds": 0,
+          "onset_kc_active": 365,
+          "onset_dan_rate": [
+            0.024313141085047212,
+            0.0
+          ],
+          "onset_dan_eligibility": [
+            1.0145067278172557,
+            0.0
+          ],
+          "phase_published_home": [
+            -0.003789067268371582,
+            0.05489301681518555,
+            0.043336570262908936,
+            0.019208788871765137
+          ]
+        }
+      }
+    },
+    {
+      "game": 4370,
+      "seed_set": "base",
+      "seed": 4412,
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "effects": {
+        "cold": {
+          "published": [
+            0.25449538230895996,
+            0.0
+          ],
+          "attempted": [
+            0.25449434124490966,
+            0.0
+          ],
+          "bounds": 0,
+          "onset_kc_active": 0,
+          "onset_dan_rate": [
+            0.0,
+            0.0
+          ],
+          "onset_dan_eligibility": [
+            0.0,
+            0.0
+          ],
+          "phase_published_home": [
+            0.0002480745315551758,
+            0.1587730050086975,
+            0.07087039947509766,
+            0.02460390329360962
+          ]
+        },
+        "continuous": {
+          "published": [
+            -0.6807485222816467,
+            0.0
+          ],
+          "attempted": [
+            -0.6807482133195059,
+            0.0
+          ],
+          "bounds": 0,
+          "onset_kc_active": 740,
+          "onset_dan_rate": [
+            0.04169344697214448,
+            0.0
+          ],
+          "onset_dan_eligibility": [
+            1.2718209707960224,
+            0.0
+          ],
+          "phase_published_home": [
+            -0.012656450271606445,
+            -0.3351873755455017,
+            -0.22603261470794678,
+            -0.1068720817565918
+          ]
+        }
+      }
+    },
+    {
+      "game": 4370,
+      "seed_set": "alt",
+      "seed": 1004412,
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "effects": {
+        "cold": {
+          "published": [
+            -0.1078498363494873,
+            0.0
+          ],
+          "attempted": [
+            -0.10785089288724412,
+            0.0
+          ],
+          "bounds": 0,
+          "onset_kc_active": 0,
+          "onset_dan_rate": [
+            0.0,
+            0.0
+          ],
+          "onset_dan_eligibility": [
+            0.0,
+            0.0
+          ],
+          "phase_published_home": [
+            0.0004156827926635742,
+            0.08061867952346802,
+            -0.1282084584236145,
+            -0.060675740242004395
+          ]
+        },
+        "continuous": {
+          "published": [
+            -0.3140385150909424,
+            0.0
+          ],
+          "attempted": [
+            -0.3140374633811798,
+            0.0
+          ],
+          "bounds": 0,
+          "onset_kc_active": 594,
+          "onset_dan_rate": [
+            0.03163105437471422,
+            0.0
+          ],
+          "onset_dan_eligibility": [
+            1.2646990581761008,
+            0.0
+          ],
+          "phase_published_home": [
+            -0.011594116687774658,
+            0.023231089115142822,
+            -0.22221910953521729,
+            -0.10345637798309326
+          ]
+        }
+      }
+    },
+    {
+      "game": 4374,
+      "seed_set": "base",
+      "seed": 4416,
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "effects": {
+        "cold": {
+          "published": [
+            -0.1349077820777893,
+            0.0
+          ],
+          "attempted": [
+            -0.13490756557462266,
+            0.0
+          ],
+          "bounds": 0,
+          "onset_kc_active": 0,
+          "onset_dan_rate": [
+            0.0,
+            0.0
+          ],
+          "onset_dan_eligibility": [
+            0.0,
+            0.0
+          ],
+          "phase_published_home": [
+            0.0,
+            -0.06328785419464111,
+            -0.05017435550689697,
+            -0.02144557237625122
+          ]
+        },
+        "continuous": {
+          "published": [
+            -0.27177441120147705,
+            0.0
+          ],
+          "attempted": [
+            -0.2717749601063955,
+            0.0
+          ],
+          "bounds": 0,
+          "onset_kc_active": 279,
+          "onset_dan_rate": [
+            0.01472171613095999,
+            0.0
+          ],
+          "onset_dan_eligibility": [
+            0.5043898551654363,
+            0.0
+          ],
+          "phase_published_home": [
+            -0.0011417865753173828,
+            -0.13274931907653809,
+            -0.09654676914215088,
+            -0.0413365364074707
+          ]
+        }
+      }
+    },
+    {
+      "game": 4374,
+      "seed_set": "alt",
+      "seed": 1004416,
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "effects": {
+        "cold": {
+          "published": [
+            -0.19844037294387817,
+            0.0
+          ],
+          "attempted": [
+            -0.19844066149707118,
+            0.0
+          ],
+          "bounds": 0,
+          "onset_kc_active": 0,
+          "onset_dan_rate": [
+            0.0,
+            0.0
+          ],
+          "onset_dan_eligibility": [
+            0.0,
+            0.0
+          ],
+          "phase_published_home": [
+            -0.00034034252166748047,
+            -0.06311559677124023,
+            -0.09445840120315552,
+            -0.04052603244781494
+          ]
+        },
+        "continuous": {
+          "published": [
+            -0.33173060417175293,
+            0.0
+          ],
+          "attempted": [
+            -0.3317306176358019,
+            0.0
+          ],
+          "bounds": 0,
+          "onset_kc_active": 289,
+          "onset_dan_rate": [
+            0.014999964376367731,
+            0.0
+          ],
+          "onset_dan_eligibility": [
+            0.4790738320573762,
+            0.0
+          ],
+          "phase_published_home": [
+            -0.008166611194610596,
+            -0.09286725521087646,
+            -0.16141575574874878,
+            -0.06928098201751709
+          ]
+        }
+      }
+    },
+    {
+      "game": 4378,
+      "seed_set": "base",
+      "seed": 4420,
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "effects": {
+        "cold": {
+          "published": [
+            -0.6350186467170715,
+            0.0
+          ],
+          "attempted": [
+            -0.6350206241831944,
+            0.0
+          ],
+          "bounds": 0,
+          "onset_kc_active": 0,
+          "onset_dan_rate": [
+            0.0,
+            0.0
+          ],
+          "onset_dan_eligibility": [
+            0.0,
+            0.0
+          ],
+          "phase_published_home": [
+            -0.000641167163848877,
+            -0.1669297218322754,
+            -0.32349807024002075,
+            -0.1439496874809265
+          ]
+        },
+        "continuous": {
+          "published": [
+            -0.775256335735321,
+            0.0
+          ],
+          "attempted": [
+            -0.7752559422453092,
+            0.0
+          ],
+          "bounds": 0,
+          "onset_kc_active": 466,
+          "onset_dan_rate": [
+            0.02896106973393419,
+            0.0
+          ],
+          "onset_dan_eligibility": [
+            1.052860576911146,
+            0.0
+          ],
+          "phase_published_home": [
+            -0.004597723484039307,
+            -0.1711597442626953,
+            -0.414675235748291,
+            -0.1848236322402954
+          ]
+        }
+      }
+    },
+    {
+      "game": 4378,
+      "seed_set": "alt",
+      "seed": 1004420,
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "effects": {
+        "cold": {
+          "published": [
+            -0.2114952802658081,
+            0.0
+          ],
+          "attempted": [
+            -0.2114948974959255,
+            0.0
+          ],
+          "bounds": 0,
+          "onset_kc_active": 0,
+          "onset_dan_rate": [
+            0.0,
+            0.0
+          ],
+          "onset_dan_eligibility": [
+            0.0,
+            0.0
+          ],
+          "phase_published_home": [
+            -0.0002771615982055664,
+            -0.021037578582763672,
+            -0.13247567415237427,
+            -0.0577048659324646
+          ]
+        },
+        "continuous": {
+          "published": [
+            -0.6124752759933472,
+            0.0
+          ],
+          "attempted": [
+            -0.6124748421796488,
+            0.0
+          ],
+          "bounds": 0,
+          "onset_kc_active": 410,
+          "onset_dan_rate": [
+            0.02573735728686579,
+            0.0
+          ],
+          "onset_dan_eligibility": [
+            0.8823508332144575,
+            0.0
+          ],
+          "phase_published_home": [
+            -0.02314591407775879,
+            -0.21342575550079346,
+            -0.26208674907684326,
+            -0.11381685733795166
+          ]
+        }
+      }
+    },
+    {
+      "game": 4383,
+      "seed_set": "base",
+      "seed": 4425,
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "effects": {
+        "cold": {
+          "published": [
+            0.020790934562683105,
+            0.0
+          ],
+          "attempted": [
+            0.020790484585310687,
+            0.0
+          ],
+          "bounds": 0,
+          "onset_kc_active": 0,
+          "onset_dan_rate": [
+            0.0,
+            0.0
+          ],
+          "onset_dan_eligibility": [
+            0.0,
+            0.0
+          ],
+          "phase_published_home": [
+            -0.0005439519882202148,
+            0.03833538293838501,
+            -0.012236952781677246,
+            -0.004763543605804443
+          ]
+        },
+        "continuous": {
+          "published": [
+            -0.9710636138916016,
+            0.0
+          ],
+          "attempted": [
+            -0.97106290691755,
+            0.0
+          ],
+          "bounds": 0,
+          "onset_kc_active": 921,
+          "onset_dan_rate": [
+            0.04521491920246112,
+            0.0
+          ],
+          "onset_dan_eligibility": [
+            2.337284469880314,
+            0.0
+          ],
+          "phase_published_home": [
+            -0.03457379341125488,
+            -0.5519197583198547,
+            -0.26930052042007446,
+            -0.11526954174041748
+          ]
+        }
+      }
+    },
+    {
+      "game": 4383,
+      "seed_set": "alt",
+      "seed": 1004425,
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "effects": {
+        "cold": {
+          "published": [
+            0.5103757381439209,
+            0.0
+          ],
+          "attempted": [
+            0.5103732588074532,
+            0.0
+          ],
+          "bounds": 0,
+          "onset_kc_active": 0,
+          "onset_dan_rate": [
+            0.0,
+            0.0
+          ],
+          "onset_dan_eligibility": [
+            0.0,
+            0.0
+          ],
+          "phase_published_home": [
+            0.0017354488372802734,
+            0.05138295888900757,
+            0.3183950185775757,
+            0.13886231184005737
+          ]
+        },
+        "continuous": {
+          "published": [
+            -0.2869764566421509,
+            0.0
+          ],
+          "attempted": [
+            -0.28697606079757926,
+            0.0
+          ],
+          "bounds": 0,
+          "onset_kc_active": 833,
+          "onset_dan_rate": [
+            0.03981247803523751,
+            0.0
+          ],
+          "onset_dan_eligibility": [
+            1.912929157417207,
+            0.0
+          ],
+          "phase_published_home": [
+            -0.009149730205535889,
+            -0.49362146854400635,
+            0.14911425113677979,
+            0.06668049097061157
+          ]
+        }
+      }
+    },
+    {
+      "game": 4387,
+      "seed_set": "base",
+      "seed": 4429,
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "effects": {
+        "cold": {
+          "published": [
+            -0.23866534233093262,
+            0.0
+          ],
+          "attempted": [
+            -0.23866466050310647,
+            0.0
+          ],
+          "bounds": 0,
+          "onset_kc_active": 0,
+          "onset_dan_rate": [
+            0.0,
+            0.0
+          ],
+          "onset_dan_eligibility": [
+            0.0,
+            0.0
+          ],
+          "phase_published_home": [
+            0.0003358125686645508,
+            -0.05783814191818237,
+            -0.12658125162124634,
+            -0.05458176136016846
+          ]
+        },
+        "continuous": {
+          "published": [
+            -0.4051728844642639,
+            0.0
+          ],
+          "attempted": [
+            -0.4051725746520867,
+            0.0
+          ],
+          "bounds": 0,
+          "onset_kc_active": 499,
+          "onset_dan_rate": [
+            0.03885766804324845,
+            0.0
+          ],
+          "onset_dan_eligibility": [
+            1.528276833746302,
+            0.0
+          ],
+          "phase_published_home": [
+            -0.006560623645782471,
+            -0.11539316177368164,
+            -0.19788813591003418,
+            -0.08533096313476562
+          ]
+        }
+      }
+    },
+    {
+      "game": 4387,
+      "seed_set": "alt",
+      "seed": 1004429,
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "effects": {
+        "cold": {
+          "published": [
+            -0.2918698787689209,
+            0.0
+          ],
+          "attempted": [
+            -0.2918698869333606,
+            0.0
+          ],
+          "bounds": 0,
+          "onset_kc_active": 0,
+          "onset_dan_rate": [
+            0.0,
+            0.0
+          ],
+          "onset_dan_eligibility": [
+            0.0,
+            0.0
+          ],
+          "phase_published_home": [
+            -0.0008295178413391113,
+            -0.12197154760360718,
+            -0.11875450611114502,
+            -0.05031430721282959
+          ]
+        },
+        "continuous": {
+          "published": [
+            -0.4209023118019104,
+            0.0
+          ],
+          "attempted": [
+            -0.42090197404852414,
+            0.0
+          ],
+          "bounds": 0,
+          "onset_kc_active": 423,
+          "onset_dan_rate": [
+            0.02866566821004654,
+            0.0
+          ],
+          "onset_dan_eligibility": [
+            1.0756955117911513,
+            0.0
+          ],
+          "phase_published_home": [
+            -0.003859281539916992,
+            -0.17228716611862183,
+            -0.17188656330108643,
+            -0.07286930084228516
+          ]
+        }
+      }
+    },
+    {
+      "game": 4391,
+      "seed_set": "base",
+      "seed": 4433,
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "effects": {
+        "cold": {
+          "published": [
+            -0.04941391944885254,
+            0.0
+          ],
+          "attempted": [
+            -0.049414695807686,
+            0.0
+          ],
+          "bounds": 0,
+          "onset_kc_active": 0,
+          "onset_dan_rate": [
+            0.0,
+            0.0
+          ],
+          "onset_dan_eligibility": [
+            0.0,
+            0.0
+          ],
+          "phase_published_home": [
+            -0.00028318166732788086,
+            -0.013033151626586914,
+            -0.02552264928817749,
+            -0.010574936866760254
+          ]
+        },
+        "continuous": {
+          "published": [
+            -0.3834143280982971,
+            0.0
+          ],
+          "attempted": [
+            -0.3834145267647493,
+            0.0
+          ],
+          "bounds": 0,
+          "onset_kc_active": 356,
+          "onset_dan_rate": [
+            0.02128068992946231,
+            0.0
+          ],
+          "onset_dan_eligibility": [
+            0.8294598329758687,
+            0.0
+          ],
+          "phase_published_home": [
+            -0.009380757808685303,
+            -0.1949099898338318,
+            -0.12559080123901367,
+            -0.05353277921676636
+          ]
+        }
+      }
+    },
+    {
+      "game": 4391,
+      "seed_set": "alt",
+      "seed": 1004433,
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+      "effects": {
+        "cold": {
+          "published": [
+            -0.23508840799331665,
+            0.0
+          ],
+          "attempted": [
+            -0.23508740620082452,
+            0.0
+          ],
+          "bounds": 0,
+          "onset_kc_active": 0,
+          "onset_dan_rate": [
+            0.0,
+            0.0
+          ],
+          "onset_dan_eligibility": [
+            0.0,
+            0.0
+          ],
+          "phase_published_home": [
+            -0.0002964138984680176,
+            -0.031835079193115234,
+            -0.1419094204902649,
+            -0.061047494411468506
+          ]
+        },
+        "continuous": {
+          "published": [
+            -0.47601133584976196,
+            0.0
+          ],
+          "attempted": [
+            -0.47601233167315216,
+            0.0
+          ],
+          "bounds": 0,
+          "onset_kc_active": 362,
+          "onset_dan_rate": [
+            0.021281204222307476,
+            0.0
+          ],
+          "onset_dan_eligibility": [
+            0.8289937003253756,
+            0.0
+          ],
+          "phase_published_home": [
+            -0.00536113977432251,
+            -0.13277196884155273,
+            -0.23622065782546997,
+            -0.10165756940841675
+          ]
+        }
+      }
+    },
+    {
+      "game": 4395,
+      "seed_set": "base",
+      "seed": 2004437,
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "effects": {
+        "cold": {
+          "published": [
+            -0.46193116903305054,
+            0.0
+          ],
+          "attempted": [
+            -0.4619300572224164,
+            0.0
+          ],
+          "bounds": 0,
+          "onset_kc_active": 0,
+          "onset_dan_rate": [
+            0.0,
+            0.0
+          ],
+          "onset_dan_eligibility": [
+            0.0,
+            0.0
+          ],
+          "phase_published_home": [
+            0.00044596195220947266,
+            -0.07501763105392456,
+            -0.27020394802093506,
+            -0.11715555191040039
+          ]
+        },
+        "continuous": {
+          "published": [
+            -0.653163492679596,
+            0.0
+          ],
+          "attempted": [
+            -0.6531635995872918,
+            0.0
+          ],
+          "bounds": 0,
+          "onset_kc_active": 438,
+          "onset_dan_rate": [
+            0.03077343904852149,
+            0.0
+          ],
+          "onset_dan_eligibility": [
+            1.352173948556768,
+            0.0
+          ],
+          "phase_published_home": [
+            -0.003930628299713135,
+            -0.09651583433151245,
+            -0.38554173707962036,
+            -0.16717529296875
+          ]
+        }
+      }
+    },
+    {
+      "game": 4395,
+      "seed_set": "alt",
+      "seed": 3004437,
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "effects": {
+        "cold": {
+          "published": [
+            -0.050952374935150146,
+            0.0
+          ],
+          "attempted": [
+            -0.05095405757058144,
+            0.0
+          ],
+          "bounds": 0,
+          "onset_kc_active": 0,
+          "onset_dan_rate": [
+            0.0,
+            0.0
+          ],
+          "onset_dan_eligibility": [
+            0.0,
+            0.0
+          ],
+          "phase_published_home": [
+            -0.0003873109817504883,
+            0.012206494808197021,
+            -0.04465949535369873,
+            -0.01811206340789795
+          ]
+        },
+        "continuous": {
+          "published": [
+            -0.11628621816635132,
+            0.0
+          ],
+          "attempted": [
+            -0.11628762768613828,
+            0.0
+          ],
+          "bounds": 0,
+          "onset_kc_active": 483,
+          "onset_dan_rate": [
+            0.03555243426690395,
+            0.0
+          ],
+          "onset_dan_eligibility": [
+            1.3686131696551864,
+            0.0
+          ],
+          "phase_published_home": [
+            -0.012961268424987793,
+            -0.019081592559814453,
+            -0.060071587562561035,
+            -0.024171769618988037
+          ]
+        }
+      }
+    },
+    {
+      "game": 4399,
+      "seed_set": "base",
+      "seed": 2004441,
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "effects": {
+        "cold": {
+          "published": [
+            -0.23405802249908447,
+            0.0
+          ],
+          "attempted": [
+            -0.2340573294653629,
+            0.0
+          ],
+          "bounds": 0,
+          "onset_kc_active": 0,
+          "onset_dan_rate": [
+            0.0,
+            0.0
+          ],
+          "onset_dan_eligibility": [
+            0.0,
+            0.0
+          ],
+          "phase_published_home": [
+            0.0007656216621398926,
+            -0.023711800575256348,
+            -0.14781421422958374,
+            -0.06329762935638428
+          ]
+        },
+        "continuous": {
+          "published": [
+            -0.6750279664993286,
+            0.0
+          ],
+          "attempted": [
+            -0.6750259027392095,
+            0.0
+          ],
+          "bounds": 0,
+          "onset_kc_active": 450,
+          "onset_dan_rate": [
+            0.02462590729009903,
+            0.0
+          ],
+          "onset_dan_eligibility": [
+            0.9854953886539964,
+            0.0
+          ],
+          "phase_published_home": [
+            -0.01720595359802246,
+            -0.19952869415283203,
+            -0.3205931782722473,
+            -0.1377001404762268
+          ]
+        }
+      }
+    },
+    {
+      "game": 4399,
+      "seed_set": "alt",
+      "seed": 3004441,
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "effects": {
+        "cold": {
+          "published": [
+            0.19108784198760986,
+            0.0
+          ],
+          "attempted": [
+            0.19108822854751864,
+            0.0
+          ],
+          "bounds": 0,
+          "onset_kc_active": 0,
+          "onset_dan_rate": [
+            0.0,
+            0.0
+          ],
+          "onset_dan_eligibility": [
+            0.0,
+            0.0
+          ],
+          "phase_published_home": [
+            0.0002886056900024414,
+            0.06455445289611816,
+            0.08972007036209106,
+            0.03652471303939819
+          ]
+        },
+        "continuous": {
+          "published": [
+            0.01357269287109375,
+            0.0
+          ],
+          "attempted": [
+            0.01357383559038269,
+            0.0
+          ],
+          "bounds": 0,
+          "onset_kc_active": 543,
+          "onset_dan_rate": [
+            0.027944229596672903,
+            0.0
+          ],
+          "onset_dan_eligibility": [
+            1.1478333387331976,
+            0.0
+          ],
+          "phase_published_home": [
+            -0.004591643810272217,
+            -0.044502198696136475,
+            0.04607200622558594,
+            0.016594529151916504
+          ]
+        }
+      }
+    },
+    {
+      "game": 4404,
+      "seed_set": "base",
+      "seed": 2004446,
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "effects": {
+        "cold": {
+          "published": [
+            0.14975744485855103,
+            0.0
+          ],
+          "attempted": [
+            0.1497578273538189,
+            0.0
+          ],
+          "bounds": 0,
+          "onset_kc_active": 0,
+          "onset_dan_rate": [
+            0.0,
+            0.0
+          ],
+          "onset_dan_eligibility": [
+            0.0,
+            0.0
+          ],
+          "phase_published_home": [
+            0.0004336237907409668,
+            0.10712677240371704,
+            0.03270798921585083,
+            0.009489059448242188
+          ]
+        },
+        "continuous": {
+          "published": [
+            -0.21224993467330933,
+            0.0
+          ],
+          "attempted": [
+            -0.2122510343796255,
+            0.0
+          ],
+          "bounds": 0,
+          "onset_kc_active": 422,
+          "onset_dan_rate": [
+            0.019579817309901604,
+            0.0
+          ],
+          "onset_dan_eligibility": [
+            0.9926735559176945,
+            0.0
+          ],
+          "phase_published_home": [
+            -0.0041425228118896484,
+            -0.08652234077453613,
+            -0.07992035150527954,
+            -0.041664719581604004
+          ]
+        }
+      }
+    },
+    {
+      "game": 4404,
+      "seed_set": "alt",
+      "seed": 3004446,
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "effects": {
+        "cold": {
+          "published": [
+            -0.3920947313308716,
+            0.0
+          ],
+          "attempted": [
+            -0.39209483198102957,
+            0.0
+          ],
+          "bounds": 0,
+          "onset_kc_active": 0,
+          "onset_dan_rate": [
+            0.0,
+            0.0
+          ],
+          "onset_dan_eligibility": [
+            0.0,
+            0.0
+          ],
+          "phase_published_home": [
+            -0.00025272369384765625,
+            -0.14431047439575195,
+            -0.17313027381896973,
+            -0.07440125942230225
+          ]
+        },
+        "continuous": {
+          "published": [
+            -0.46074604988098145,
+            0.0
+          ],
+          "attempted": [
+            -0.4607467131975185,
+            0.0
+          ],
+          "bounds": 0,
+          "onset_kc_active": 290,
+          "onset_dan_rate": [
+            0.015328323772218027,
+            0.0
+          ],
+          "onset_dan_eligibility": [
+            0.45140259523951265,
+            0.0
+          ],
+          "phase_published_home": [
+            -0.0018185973167419434,
+            -0.15439289808273315,
+            -0.21301311254501343,
+            -0.09152144193649292
+          ]
+        }
+      }
+    },
+    {
+      "game": 4408,
+      "seed_set": "base",
+      "seed": 2004450,
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "effects": {
+        "cold": {
+          "published": [
+            -0.08033424615859985,
+            0.0
+          ],
+          "attempted": [
+            -0.0803345658628499,
+            0.0
+          ],
+          "bounds": 0,
+          "onset_kc_active": 0,
+          "onset_dan_rate": [
+            0.0,
+            0.0
+          ],
+          "onset_dan_eligibility": [
+            0.0,
+            0.0
+          ],
+          "phase_published_home": [
+            0.0005979537963867188,
+            -0.005522251129150391,
+            -0.051744937896728516,
+            -0.023665010929107666
+          ]
+        },
+        "continuous": {
+          "published": [
+            -0.21775907278060913,
+            0.0
+          ],
+          "attempted": [
+            -0.2177592056989774,
+            0.0
+          ],
+          "bounds": 0,
+          "onset_kc_active": 374,
+          "onset_dan_rate": [
+            0.022694066077715343,
+            0.0
+          ],
+          "onset_dan_eligibility": [
+            1.1665523285015822,
+            0.0
+          ],
+          "phase_published_home": [
+            0.0024126172065734863,
+            -0.06338590383529663,
+            -0.10820508003234863,
+            -0.048580706119537354
+          ]
+        }
+      }
+    },
+    {
+      "game": 4408,
+      "seed_set": "alt",
+      "seed": 3004450,
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "effects": {
+        "cold": {
+          "published": [
+            -0.2635941505432129,
+            0.0
+          ],
+          "attempted": [
+            -0.2635934054104583,
+            0.0
+          ],
+          "bounds": 0,
+          "onset_kc_active": 0,
+          "onset_dan_rate": [
+            0.0,
+            0.0
+          ],
+          "onset_dan_eligibility": [
+            0.0,
+            0.0
+          ],
+          "phase_published_home": [
+            -0.00035387277603149414,
+            -0.04834103584289551,
+            -0.1423136591911316,
+            -0.0725855827331543
+          ]
+        },
+        "continuous": {
+          "published": [
+            -0.2995882034301758,
+            0.0
+          ],
+          "attempted": [
+            -0.29958749175044863,
+            0.0
+          ],
+          "bounds": 0,
+          "onset_kc_active": 410,
+          "onset_dan_rate": [
+            0.03837055919276981,
+            0.0
+          ],
+          "onset_dan_eligibility": [
+            1.1080500766321832,
+            0.0
+          ],
+          "phase_published_home": [
+            -0.007099926471710205,
+            -0.026892244815826416,
+            -0.17322152853012085,
+            -0.09237450361251831
+          ]
+        }
+      }
+    },
+    {
+      "game": 4412,
+      "seed_set": "base",
+      "seed": 2004454,
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "effects": {
+        "cold": {
+          "published": [
+            0.006715536117553711,
+            0.0
+          ],
+          "attempted": [
+            0.006714708370634245,
+            0.0
+          ],
+          "bounds": 0,
+          "onset_kc_active": 0,
+          "onset_dan_rate": [
+            0.0,
+            0.0
+          ],
+          "onset_dan_eligibility": [
+            0.0,
+            0.0
+          ],
+          "phase_published_home": [
+            0.00046831369400024414,
+            0.021034061908721924,
+            -0.010671436786651611,
+            -0.004115402698516846
+          ]
+        },
+        "continuous": {
+          "published": [
+            -0.31128203868865967,
+            0.0
+          ],
+          "attempted": [
+            -0.3112822488875842,
+            0.0
+          ],
+          "bounds": 0,
+          "onset_kc_active": 444,
+          "onset_dan_rate": [
+            0.028133154541325606,
+            0.0
+          ],
+          "onset_dan_eligibility": [
+            1.1286478219531657,
+            0.0
+          ],
+          "phase_published_home": [
+            -0.009216725826263428,
+            -0.12883681058883667,
+            -0.12152355909347534,
+            -0.05170494318008423
+          ]
+        }
+      }
+    },
+    {
+      "game": 4412,
+      "seed_set": "alt",
+      "seed": 3004454,
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "effects": {
+        "cold": {
+          "published": [
+            -0.1894911527633667,
+            0.0
+          ],
+          "attempted": [
+            -0.189491257451755,
+            0.0
+          ],
+          "bounds": 0,
+          "onset_kc_active": 0,
+          "onset_dan_rate": [
+            0.0,
+            0.0
+          ],
+          "onset_dan_eligibility": [
+            0.0,
+            0.0
+          ],
+          "phase_published_home": [
+            -0.0005218982696533203,
+            -0.045905232429504395,
+            -0.09664905071258545,
+            -0.046414971351623535
+          ]
+        },
+        "continuous": {
+          "published": [
+            -0.47663766145706177,
+            0.0
+          ],
+          "attempted": [
+            -0.47663677815099814,
+            0.0
+          ],
+          "bounds": 0,
+          "onset_kc_active": 493,
+          "onset_dan_rate": [
+            0.0396375623411403,
+            0.0
+          ],
+          "onset_dan_eligibility": [
+            1.460882445773491,
+            0.0
+          ],
+          "phase_published_home": [
+            -0.01403510570526123,
+            -0.19011414051055908,
+            -0.18487751483917236,
+            -0.08761090040206909
+          ]
+        }
+      }
+    },
+    {
+      "game": 4416,
+      "seed_set": "base",
+      "seed": 2004458,
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "effects": {
+        "cold": {
+          "published": [
+            -0.030141770839691162,
+            0.0
+          ],
+          "attempted": [
+            -0.03014208173429321,
+            0.0
+          ],
+          "bounds": 0,
+          "onset_kc_active": 0,
+          "onset_dan_rate": [
+            0.0,
+            0.0
+          ],
+          "onset_dan_eligibility": [
+            0.0,
+            0.0
+          ],
+          "phase_published_home": [
+            0.0017801523208618164,
+            0.04870837926864624,
+            -0.05679422616958618,
+            -0.023836076259613037
+          ]
+        },
+        "continuous": {
+          "published": [
+            -0.44407111406326294,
+            0.0
+          ],
+          "attempted": [
+            -0.44407252115869966,
+            0.0
+          ],
+          "bounds": 0,
+          "onset_kc_active": 531,
+          "onset_dan_rate": [
+            0.026414186210546912,
+            0.0
+          ],
+          "onset_dan_eligibility": [
+            1.2913544668724986,
+            0.0
+          ],
+          "phase_published_home": [
+            -0.010852336883544922,
+            -0.14052408933639526,
+            -0.20518940687179565,
+            -0.0875052809715271
+          ]
+        }
+      }
+    },
+    {
+      "game": 4416,
+      "seed_set": "alt",
+      "seed": 3004458,
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "effects": {
+        "cold": {
+          "published": [
+            0.1248326301574707,
+            0.0
+          ],
+          "attempted": [
+            0.124831973042481,
+            0.0
+          ],
+          "bounds": 0,
+          "onset_kc_active": 0,
+          "onset_dan_rate": [
+            0.0,
+            0.0
+          ],
+          "onset_dan_eligibility": [
+            0.0,
+            0.0
+          ],
+          "phase_published_home": [
+            0.0007467269897460938,
+            -0.01614689826965332,
+            0.097664475440979,
+            0.042568325996398926
+          ]
+        },
+        "continuous": {
+          "published": [
+            -0.18996095657348633,
+            0.0
+          ],
+          "attempted": [
+            -0.1899620892277601,
+            0.0
+          ],
+          "bounds": 0,
+          "onset_kc_active": 458,
+          "onset_dan_rate": [
+            0.020691678992480138,
+            0.0
+          ],
+          "onset_dan_eligibility": [
+            0.8897157714994155,
+            0.0
+          ],
+          "phase_published_home": [
+            -0.007041752338409424,
+            -0.2296120524406433,
+            0.032147884368896484,
+            0.014544963836669922
+          ]
+        }
+      }
+    },
+    {
+      "game": 4420,
+      "seed_set": "base",
+      "seed": 2004462,
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "effects": {
+        "cold": {
+          "published": [
+            -1.3773916363716125,
+            0.0
+          ],
+          "attempted": [
+            -1.377393085563701,
+            0.0
+          ],
+          "bounds": 0,
+          "onset_kc_active": 0,
+          "onset_dan_rate": [
+            0.0,
+            0.0
+          ],
+          "onset_dan_eligibility": [
+            0.0,
+            0.0
+          ],
+          "phase_published_home": [
+            -0.0011501312255859375,
+            -0.2151924967765808,
+            -0.7937066555023193,
+            -0.36734235286712646
+          ]
+        },
+        "continuous": {
+          "published": [
+            -1.006763994693756,
+            0.0
+          ],
+          "attempted": [
+            -1.0067626130067715,
+            0.0
+          ],
+          "bounds": 0,
+          "onset_kc_active": 661,
+          "onset_dan_rate": [
+            0.0418409852648625,
+            0.0
+          ],
+          "onset_dan_eligibility": [
+            1.7167791564855788,
+            0.0
+          ],
+          "phase_published_home": [
+            0.004868924617767334,
+            0.1881912350654602,
+            -0.8154056072235107,
+            -0.3844185471534729
+          ]
+        }
+      }
+    },
+    {
+      "game": 4420,
+      "seed_set": "alt",
+      "seed": 3004462,
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "effects": {
+        "cold": {
+          "published": [
+            0.08928269147872925,
+            0.0
+          ],
+          "attempted": [
+            0.08928321848760089,
+            0.0
+          ],
+          "bounds": 0,
+          "onset_kc_active": 0,
+          "onset_dan_rate": [
+            0.0,
+            0.0
+          ],
+          "onset_dan_eligibility": [
+            0.0,
+            0.0
+          ],
+          "phase_published_home": [
+            0.001004934310913086,
+            0.23814862966537476,
+            -0.08743941783905029,
+            -0.0624314546585083
+          ]
+        },
+        "continuous": {
+          "published": [
+            0.09516215324401855,
+            0.0
+          ],
+          "attempted": [
+            0.09516075975487694,
+            0.0
+          ],
+          "bounds": 0,
+          "onset_kc_active": 768,
+          "onset_dan_rate": [
+            0.042571799820711756,
+            0.0
+          ],
+          "onset_dan_eligibility": [
+            1.6604547386296553,
+            0.0
+          ],
+          "phase_published_home": [
+            -0.003402888774871826,
+            0.30917370319366455,
+            -0.12283521890640259,
+            -0.08777344226837158
+          ]
+        }
+      }
+    },
+    {
+      "game": 4425,
+      "seed_set": "base",
+      "seed": 2004467,
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "effects": {
+        "cold": {
+          "published": [
+            -0.153736412525177,
+            0.0
+          ],
+          "attempted": [
+            -0.15373549294525846,
+            0.0
+          ],
+          "bounds": 0,
+          "onset_kc_active": 0,
+          "onset_dan_rate": [
+            0.0,
+            0.0
+          ],
+          "onset_dan_eligibility": [
+            0.0,
+            0.0
+          ],
+          "phase_published_home": [
+            0.0001296401023864746,
+            0.0230901837348938,
+            -0.12091654539108276,
+            -0.05603969097137451
+          ]
+        },
+        "continuous": {
+          "published": [
+            -0.3350880742073059,
+            0.0
+          ],
+          "attempted": [
+            -0.3350886642694649,
+            0.0
+          ],
+          "bounds": 0,
+          "onset_kc_active": 363,
+          "onset_dan_rate": [
+            0.019897444157734923,
+            0.0
+          ],
+          "onset_dan_eligibility": [
+            0.9533017985236717,
+            0.0
+          ],
+          "phase_published_home": [
+            -0.004801750183105469,
+            -0.03629535436630249,
+            -0.20170485973358154,
+            -0.0922861099243164
+          ]
+        }
+      }
+    },
+    {
+      "game": 4425,
+      "seed_set": "alt",
+      "seed": 3004467,
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+      "effects": {
+        "cold": {
+          "published": [
+            -0.10232347249984741,
+            0.0
+          ],
+          "attempted": [
+            -0.10232143772944924,
+            0.0
+          ],
+          "bounds": 0,
+          "onset_kc_active": 0,
+          "onset_dan_rate": [
+            0.0,
+            0.0
+          ],
+          "onset_dan_eligibility": [
+            0.0,
+            0.0
+          ],
+          "phase_published_home": [
+            -0.0001748204231262207,
+            0.01352459192276001,
+            -0.07780635356903076,
+            -0.03786689043045044
+          ]
+        },
+        "continuous": {
+          "published": [
+            -0.669755756855011,
+            0.0
+          ],
+          "attempted": [
+            -0.669755599698731,
+            0.0
+          ],
+          "bounds": 0,
+          "onset_kc_active": 453,
+          "onset_dan_rate": [
+            0.01987742926056202,
+            0.0
+          ],
+          "onset_dan_eligibility": [
+            0.9596239106491423,
+            0.0
+          ],
+          "phase_published_home": [
+            -0.005782008171081543,
+            -0.2713547348976135,
+            -0.2696300148963928,
+            -0.1229889988899231
+          ]
+        }
+      }
+    }
+  ],
+  "metrics": {
+    "diag-rate-bridge-v1-maskgamma-de050d773763/base/0": {
+      "cold": {
+        "mean": -0.10384037345647812,
+        "sd": 0.25671016092650883,
+        "guard_limit": 0.12835508046325442,
+        "passed": true
+      },
+      "continuous": {
+        "mean": -0.47617240250110626,
+        "sd": 0.3023264795436564,
+        "guard_limit": 0.1511632397718282,
+        "passed": false
+      }
+    },
+    "diag-rate-bridge-v1-maskgamma-de050d773763/base/1": {
+      "cold": {
+        "mean": 0.0,
+        "sd": 0.0,
+        "guard_limit": 0.0,
+        "passed": true
+      },
+      "continuous": {
+        "mean": 0.0,
+        "sd": 0.0,
+        "guard_limit": 0.0,
+        "passed": true
+      }
+    },
+    "diag-rate-bridge-v1-maskgamma-de050d773763/alt/0": {
+      "cold": {
+        "mean": -0.06098862737417221,
+        "sd": 0.2634651416578477,
+        "guard_limit": 0.13173257082892384,
+        "passed": true
+      },
+      "continuous": {
+        "mean": -0.31416675448417664,
+        "sd": 0.2162576653937438,
+        "guard_limit": 0.1081288326968719,
+        "passed": false
+      }
+    },
+    "diag-rate-bridge-v1-maskgamma-de050d773763/alt/1": {
+      "cold": {
+        "mean": 0.0,
+        "sd": 0.0,
+        "guard_limit": 0.0,
+        "passed": true
+      },
+      "continuous": {
+        "mean": 0.0,
+        "sd": 0.0,
+        "guard_limit": 0.0,
+        "passed": true
+      }
+    },
+    "diag-rate-bridge-v1-maskgamma-dea14759e9ca/base/0": {
+      "cold": {
+        "mean": -0.27264003455638885,
+        "sd": 0.48169047084658934,
+        "guard_limit": 0.24084523542329467,
+        "passed": false
+      },
+      "continuous": {
+        "mean": -0.48192571103572845,
+        "sd": 0.2768931317978185,
+        "guard_limit": 0.13844656589890925,
+        "passed": false
+      }
+    },
+    "diag-rate-bridge-v1-maskgamma-dea14759e9ca/base/1": {
+      "cold": {
+        "mean": 0.0,
+        "sd": 0.0,
+        "guard_limit": 0.0,
+        "passed": true
+      },
+      "continuous": {
+        "mean": 0.0,
+        "sd": 0.0,
+        "guard_limit": 0.0,
+        "passed": true
+      }
+    },
+    "diag-rate-bridge-v1-maskgamma-dea14759e9ca/alt/0": {
+      "cold": {
+        "mean": -0.07415658980607986,
+        "sd": 0.20293166987276323,
+        "guard_limit": 0.10146583493638162,
+        "passed": true
+      },
+      "continuous": {
+        "mean": -0.2630300000309944,
+        "sd": 0.2627235657232172,
+        "guard_limit": 0.1313617828616086,
+        "passed": false
+      }
+    },
+    "diag-rate-bridge-v1-maskgamma-dea14759e9ca/alt/1": {
+      "cold": {
+        "mean": 0.0,
+        "sd": 0.0,
+        "guard_limit": 0.0,
+        "passed": true
+      },
+      "continuous": {
+        "mean": 0.0,
+        "sd": 0.0,
+        "guard_limit": 0.0,
+        "passed": true
+      }
+    }
+  },
+  "mean_warm_minus_cold": -0.2092856764793396,
+  "attempted_warm_minus_cold": -0.20928571408227445,
+  "directional_support": false,
+  "necessary_shadow_screen": false,
+  "qualification": false,
+  "recorded_wall_seconds": 50.55563008389436,
+  "audit_script_sha256": "71522a3c8a5f992238e3250a5407a2ec55991595cda9962e12d20e83d865bb0d"
+}

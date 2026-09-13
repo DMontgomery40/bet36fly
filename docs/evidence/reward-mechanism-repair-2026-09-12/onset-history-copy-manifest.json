@@ -1,0 +1,110 @@
+{
+  "copied_at": "2026-09-12T06:40:28.414188+00:00",
+  "copy_not_cut": true,
+  "capture": "onset-history-capture-4343c21535c43f42",
+  "copies": [
+    {
+      "source": "output/collaboration/reward-mechanism-repair/onset-capture-review.md",
+      "copy": "onset-capture-review.md",
+      "bytes": 8126,
+      "sha256": "e28f682289e59cbfb7256ec80ee11b6549e94f5edfa9a4f8ec9fca0784fe970c"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/onset-capture-implementation-report.md",
+      "copy": "onset-capture-implementation-report.md",
+      "bytes": 7031,
+      "sha256": "619d06fb1882401662900f3cebe9f1ec98796582a86e222d29a96569ff4c9cd2"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/onset-capture-focused.txt",
+      "copy": "onset-capture-focused.txt",
+      "bytes": 180,
+      "sha256": "388a9bf2b0589e0b89f439565465dec595c2d7182d3241d0461a4d474e92de39"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/onset-capture-identity-red.txt",
+      "copy": "onset-capture-identity-red.txt",
+      "bytes": 1666,
+      "sha256": "732516d6c7408a0b03be93ed1155d514862954c8e97f19ef5d0a6c621ca981d8"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/onset_history_capture.py",
+      "copy": "onset_history_capture.py",
+      "bytes": 25926,
+      "sha256": "8ec357c56d376d3f2073f2b3b64df3d7f3bf6955bdb4b0d55b007207d60833ed"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/test_onset_history_capture.py",
+      "copy": "test_onset_history_capture.py",
+      "bytes": 19219,
+      "sha256": "131585b61a217c978777154d269881830ff851d795439ccc2e69496c7cfdf41b"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/onset-reference-audit.md",
+      "copy": "onset-reference-audit.md",
+      "bytes": 4729,
+      "sha256": "66b1c226e89f33eca314ea10aa58066e7066ecc951af56865e913ab190f2c9fb"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/onset-reference-audit.py",
+      "copy": "onset-reference-audit.py",
+      "bytes": 6434,
+      "sha256": "d8aa3c3f8f5e120e5aa78aec4bcdcd354449b5c1ac9142d7e4c72b5d8485283c"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/onset-reference-audit.json",
+      "copy": "onset-reference-audit.json",
+      "bytes": 23603,
+      "sha256": "27b54043a6a948958dc1f39bdde345659188a4f55cf9c2627eec9d9112e653f2"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/onset-harness-oracle-check.py",
+      "copy": "onset-harness-oracle-check.py",
+      "bytes": 3196,
+      "sha256": "89951cdbad79e75a4772db91f211fb2a067cbee6880973a8e86bfb708bc73973"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/onset-harness-oracle-check.json",
+      "copy": "onset-harness-oracle-check.json",
+      "bytes": 2673,
+      "sha256": "77d882016733f269ceeee6cbeb0f426ab3f32aad655816b8b72a6bbde75ba41c"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-input-audit.md",
+      "copy": "ppl101-input-audit.md",
+      "bytes": 9511,
+      "sha256": "c1e7fc21c9b634f83ee0d2419d680c31316d0cc1462f9ab44f206f2b27f22b52"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-input-audit.py",
+      "copy": "ppl101-input-audit.py",
+      "bytes": 5835,
+      "sha256": "1694b890807c6cf1ee2089006eb4e1b832aabd450bba4d4273af56f7840e386a"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-input-audit.json",
+      "copy": "ppl101-input-audit.json",
+      "bytes": 158630,
+      "sha256": "c8b2f9a6527d42d2e22194ae7ab02337a1da7f0f4dd9acc732a92255b7b1e4ac"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/ppl101-direct-inputs.csv",
+      "copy": "ppl101-direct-inputs.csv",
+      "bytes": 1311753,
+      "sha256": "d67f2293752756c37f17f6e62b24de879133f632042caa0275851c4b39114148"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/summary.json",
+      "copy": "onset-history-capture-summary.json",
+      "bytes": 650399,
+      "sha256": "244b4dcc1aa40b8c0c7be068bf7e66f8e369921f1005dd474ca37f9460dabb1b"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/attempts.json",
+      "copy": "onset-history-capture-attempts.json",
+      "bytes": 16247,
+      "sha256": "3ff622560b50432b12ba45499571efb423d1630c83913fd5b852f4802407aaec"
+    }
+  ],
+  "large_native_and_shadow_archives": "Retained under the original capture directory, each bound by complete summary hashes; not duplicated in Git."
+}

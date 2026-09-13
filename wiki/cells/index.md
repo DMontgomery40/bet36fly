@@ -1,6 +1,6 @@
 ---
 type: atlas
-updated: 2026-09-12
+updated: 2026-09-13
 status: locally-derived-anatomy
 ---
 # Cells in the BET36FLY learning circuit
@@ -20,11 +20,19 @@ The atlas contains **5,243 distinct retained cells**: the 4,064 KCs, 686 ALPNs, 
 ## Files you can inspect
 
 - [Individual cells](data/neurons.csv): source body ID, graph index, raw instance, side annotations, type/class, transmitter, base sign, zeroed-fast-output flag, selected task roles, KC support counts, and encoder feature/center.
-- [Selected KC→MBON edges](data/reward-edges.csv): all 8,866 actual directed pairs, their CSR indices and contact counts, plus separate schema-3 and proposed gamma-mask eligibility columns.
+- [Selected KC→MBON edges](data/reward-edges.csv): all 8,866 actual directed pairs, their CSR indices and contact counts, plus separate historical schema-3 and repair gamma-mask eligibility columns.
 - [Atlas identity and aggregates](data/atlas.json): source hashes, target populations, input-contact summaries, encoder mapping and subtype counts.
 - [Readable identities and subtype tables](identities.md).
+- [PPL101 bodies 11327 and 11900: direct inputs and named feedback](ppl101-inputs.md).
 
-The gamma-policy column is a static description of the repair policy, not a claim that the current branch applies it. `other` KC types remain unresolved; their labels are not guessed. Instance-side suffixes and soma side are retained separately. A cell's soma side does not by itself identify every compartment or hemisphere reached by its processes.
+The gamma policy is now implemented and was used in the corrected raw and bridge
+diagnostics: all 4,184 home edges and 3,239 gamma away edges update; 1,443 other
+away edges keep transmitting. The historical sports config remains all-away;
+the atlas preserves both columns and does not select a runtime policy.
+[Measured limits](../../docs/evidence/reward-mechanism-repair-2026-09-12/index.md).
+`other` KC types remain unresolved; their labels are not guessed. Instance-side
+suffixes and soma side are retained separately. A cell's soma side does not by
+itself identify every compartment or hemisphere reached by its processes.
 
 Reproduce from the repository root:
 

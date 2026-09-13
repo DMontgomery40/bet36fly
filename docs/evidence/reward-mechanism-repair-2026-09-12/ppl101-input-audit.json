@@ -1,0 +1,6202 @@
+{
+  "scope": "All direct incoming retained neuronal graph edges to selected PPL101 cells; not all raw edges incident to excluded fragments/glia.",
+  "source_release": "MaleCNS v1.0",
+  "source_lock": {
+    "annotations.feather": {
+      "url": "https://storage.googleapis.com/flyem-male-cns/v1.0/connectome-data/flat-connectome/body-annotations-male-cns-v1.0-minconf-0.5.feather",
+      "bytes": 14483314,
+      "sha256": "2177e246113e4cfbf1e7772ec37c6da1955ff22e8063d0b1f833101f99a9a3b2"
+    },
+    "neurotransmitters.feather": {
+      "url": "https://storage.googleapis.com/flyem-male-cns/v1.0/connectome-data/flat-connectome/body-neurotransmitters-male-cns-v1.0.feather",
+      "bytes": 43282834,
+      "sha256": "95c9289220663abeb3409f3ad9e5a7f8a53f8093f5139d15502cd08da8879621"
+    },
+    "connectome-weights.feather": {
+      "url": "https://storage.googleapis.com/flyem-male-cns/v1.0/connectome-data/flat-connectome/connectome-weights-male-cns-v1.0-minconf-0.5.feather",
+      "bytes": 1051241946,
+      "sha256": "e35da783d1c686b2b58b3b87cd6a403ae43bfcfba8bff28e08ef752c1a56afc1"
+    }
+  },
+  "hashes_checked": {
+    "data/brain/counts.npy": "4a11faf9771fc3d5a5ff78ae7620ec1ce400f52d099ff657f0342cfc7a519f6b",
+    "data/brain/ids.npy": "ab90597b7b0ce07cbc22cb39a65b70bea2ac73cc7fd225951bd9d73f2fc8dd3f",
+    "data/brain/in_degree.npy": "494f13b315b23acb9962e214de0676e647893597614ad146483308e16a09716d",
+    "data/brain/indptr.npy": "fe43420f11e6242a11f8199ae7f097cab4b8a6db181d36f2a46b9e46670acbb4",
+    "data/brain/kc.npy": "97a570aafa089f93e642b2bb07e3a3322dabb14c3c7dd431f0c8d2b3b7951fdd",
+    "data/brain/mbon.npy": "87d555e02d4cf2d661d9676b937a31b29cacf60a7edc85c8c08edc8312530f83",
+    "data/brain/post.npy": "ce20f7433f78442c717ad2a7b5394cf4a3b109d990b4be0788040b7b0f4ed150",
+    "data/brain/sensory.npy": "ed574f42559455069679f8ce3b339395efa9398ec13e199eab47959533370805",
+    "data/brain/signs.npy": "4a0725e94d5014b2f17a70e3bdef3f7d843c0e81a8f22a33284aa10d8d62dab5",
+    "data/brain/nodes.feather": "d706a6dd5ec1dc17cfba2e8f439232723af81729bf1d0c17bf0cc73860a9c867",
+    "data/raw/annotations.feather": "2177e246113e4cfbf1e7772ec37c6da1955ff22e8063d0b1f833101f99a9a3b2",
+    "bet36fly/reward_protocol.py": "e1a315f991debb677fca30f6e821a657135adccf032ad26054a00ed7688dc1bb",
+    "bet36fly/reward_encoder.py": "178a36f388b0c0de34bc2a83a0b35eef806dafa98636aa2400e4b87931446285"
+  },
+  "protocol": {
+    "global_weight_scale": 0.5,
+    "kc_input_gain": 1.25,
+    "sensory_input_gain": 0.0,
+    "apl_output_gain": 0.25,
+    "learning_rate": 0.0005,
+    "tau_ms": 500.0,
+    "rate_tau_ms": 100.0,
+    "learning_rule": "rate-bridge-v1",
+    "away_plasticity_mask": "gamma"
+  },
+  "targets": [
+    {
+      "body_id": 11327,
+      "index": 1235,
+      "instance": "PPL101(y1ped)_R",
+      "incoming_edges": 3568,
+      "incoming_contacts": 18029
+    },
+    {
+      "body_id": 11900,
+      "index": 1774,
+      "instance": "PPL101(y1ped)_L",
+      "incoming_edges": 3711,
+      "incoming_contacts": 21096
+    }
+  ],
+  "by_target_class": [
+    {
+      "target_body_id": 11327,
+      "pre_class": "CX",
+      "edges": 16,
+      "contacts": 91,
+      "modeled_signed_increment_sum": -10.587500467896461
+    },
+    {
+      "target_body_id": 11327,
+      "pre_class": "DAN",
+      "edges": 23,
+      "contacts": 281,
+      "modeled_signed_increment_sum": 0.0
+    },
+    {
+      "target_body_id": 11327,
+      "pre_class": "Kenyon_Cell",
+      "edges": 3068,
+      "contacts": 11846,
+      "modeled_signed_increment_sum": 1628.825050741434
+    },
+    {
+      "target_body_id": 11327,
+      "pre_class": "MBON",
+      "edges": 30,
+      "contacts": 464,
+      "modeled_signed_increment_sum": -21.44999970495701
+    },
+    {
+      "target_body_id": 11327,
+      "pre_class": "None",
+      "edges": 431,
+      "contacts": 5347,
+      "modeled_signed_increment_sum": 232.06563298404217
+    },
+    {
+      "target_body_id": 11900,
+      "pre_class": "ALPN",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_class": "CX",
+      "edges": 19,
+      "contacts": 119,
+      "modeled_signed_increment_sum": -15.26250022649765
+    },
+    {
+      "target_body_id": 11900,
+      "pre_class": "DAN",
+      "edges": 27,
+      "contacts": 267,
+      "modeled_signed_increment_sum": 0.0
+    },
+    {
+      "target_body_id": 11900,
+      "pre_class": "Kenyon_Cell",
+      "edges": 3100,
+      "contacts": 12222,
+      "modeled_signed_increment_sum": 1680.5250522494316
+    },
+    {
+      "target_body_id": 11900,
+      "pre_class": "MBON",
+      "edges": 34,
+      "contacts": 461,
+      "modeled_signed_increment_sum": -19.937500208616257
+    },
+    {
+      "target_body_id": 11900,
+      "pre_class": "None",
+      "edges": 530,
+      "contacts": 8026,
+      "modeled_signed_increment_sum": 340.51876527071
+    }
+  ],
+  "by_target_transmitter": [
+    {
+      "target_body_id": 11327,
+      "transmitter": "acetylcholine",
+      "modeled_fast_sign": 1,
+      "dopamine_fast_zeroed": false,
+      "edges": 3321,
+      "contacts": 15185,
+      "modeled_signed_increment_sum": 2087.93756249547
+    },
+    {
+      "target_body_id": 11327,
+      "transmitter": "dopamine",
+      "modeled_fast_sign": 1,
+      "dopamine_fast_zeroed": true,
+      "edges": 28,
+      "contacts": 409,
+      "modeled_signed_increment_sum": 0.0
+    },
+    {
+      "target_body_id": 11327,
+      "transmitter": "gaba",
+      "modeled_fast_sign": -1,
+      "dopamine_fast_zeroed": false,
+      "edges": 46,
+      "contacts": 440,
+      "modeled_signed_increment_sum": -55.446876242756844
+    },
+    {
+      "target_body_id": 11327,
+      "transmitter": "glutamate",
+      "modeled_fast_sign": -1,
+      "dopamine_fast_zeroed": false,
+      "edges": 135,
+      "contacts": 1738,
+      "modeled_signed_increment_sum": -238.9750039279461
+    },
+    {
+      "target_body_id": 11327,
+      "transmitter": "octopamine",
+      "modeled_fast_sign": 1,
+      "dopamine_fast_zeroed": false,
+      "edges": 5,
+      "contacts": 31,
+      "modeled_signed_increment_sum": 4.262500092387199
+    },
+    {
+      "target_body_id": 11327,
+      "transmitter": "unclear",
+      "modeled_fast_sign": 1,
+      "dopamine_fast_zeroed": false,
+      "edges": 33,
+      "contacts": 226,
+      "modeled_signed_increment_sum": 31.075001135468483
+    },
+    {
+      "target_body_id": 11900,
+      "transmitter": "acetylcholine",
+      "modeled_fast_sign": 1,
+      "dopamine_fast_zeroed": false,
+      "edges": 3430,
+      "contacts": 17216,
+      "modeled_signed_increment_sum": 2367.2000733166933
+    },
+    {
+      "target_body_id": 11900,
+      "transmitter": "dopamine",
+      "modeled_fast_sign": 1,
+      "dopamine_fast_zeroed": true,
+      "edges": 31,
+      "contacts": 354,
+      "modeled_signed_increment_sum": 0.0
+    },
+    {
+      "target_body_id": 11900,
+      "transmitter": "gaba",
+      "modeled_fast_sign": -1,
+      "dopamine_fast_zeroed": false,
+      "edges": 48,
+      "contacts": 521,
+      "modeled_signed_increment_sum": -65.65625135600567
+    },
+    {
+      "target_body_id": 11900,
+      "transmitter": "glutamate",
+      "modeled_fast_sign": -1,
+      "dopamine_fast_zeroed": false,
+      "edges": 166,
+      "contacts": 2650,
+      "modeled_signed_increment_sum": -364.3750056475401
+    },
+    {
+      "target_body_id": 11900,
+      "transmitter": "octopamine",
+      "modeled_fast_sign": 1,
+      "dopamine_fast_zeroed": false,
+      "edges": 6,
+      "contacts": 21,
+      "modeled_signed_increment_sum": 2.8875001072883606
+    },
+    {
+      "target_body_id": 11900,
+      "transmitter": "unclear",
+      "modeled_fast_sign": 1,
+      "dopamine_fast_zeroed": false,
+      "edges": 30,
+      "contacts": 334,
+      "modeled_signed_increment_sum": 45.92500066757202
+    }
+  ],
+  "by_target_type": [
+    {
+      "target_body_id": 11327,
+      "pre_type": "AN00A006",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": -0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "AN05B103",
+      "edges": 2,
+      "contacts": 45,
+      "modeled_signed_increment_sum": 6.187500238418579
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "AN19B019",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "APL",
+      "edges": 2,
+      "contacts": 49,
+      "modeled_signed_increment_sum": -1.6843750476837158
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "ATL018",
+      "edges": 2,
+      "contacts": 31,
+      "modeled_signed_increment_sum": 4.262500166893005
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "AVLP029",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": -0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "AVLP032",
+      "edges": 2,
+      "contacts": 11,
+      "modeled_signed_increment_sum": 1.5125000476837158
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "AVLP473",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "AVLP477",
+      "edges": 2,
+      "contacts": 88,
+      "modeled_signed_increment_sum": 12.100000381469727
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "AVLP497",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "AVLP562",
+      "edges": 2,
+      "contacts": 12,
+      "modeled_signed_increment_sum": 1.6500000357627869
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "AVLP563",
+      "edges": 2,
+      "contacts": 344,
+      "modeled_signed_increment_sum": 47.300002098083496
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "AVLP705m",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "AVLP742m",
+      "edges": 2,
+      "contacts": 12,
+      "modeled_signed_increment_sum": 1.650000050663948
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "AVLP751m",
+      "edges": 1,
+      "contacts": 5,
+      "modeled_signed_increment_sum": 0.6875
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "AVLP757m",
+      "edges": 1,
+      "contacts": 26,
+      "modeled_signed_increment_sum": 3.575000047683716
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "AVLP758m",
+      "edges": 1,
+      "contacts": 2,
+      "modeled_signed_increment_sum": 0.2750000059604645
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "CB0951",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": -0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "CB0993",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": -0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "CB1050",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "CB1062",
+      "edges": 3,
+      "contacts": 6,
+      "modeled_signed_increment_sum": -0.8250000178813934
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "CB1287",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": -0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "CB1289",
+      "edges": 3,
+      "contacts": 20,
+      "modeled_signed_increment_sum": 2.7500000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "CB1357",
+      "edges": 5,
+      "contacts": 53,
+      "modeled_signed_increment_sum": 7.287500336766243
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "CB1434",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": -0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "CB1697",
+      "edges": 2,
+      "contacts": 2,
+      "modeled_signed_increment_sum": 0.2750000059604645
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "CB1815",
+      "edges": 1,
+      "contacts": 7,
+      "modeled_signed_increment_sum": -0.9625000357627869
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "CB1895",
+      "edges": 2,
+      "contacts": 26,
+      "modeled_signed_increment_sum": 3.575000047683716
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "CB2310",
+      "edges": 2,
+      "contacts": 24,
+      "modeled_signed_increment_sum": 3.3000000715255737
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "CB2469",
+      "edges": 2,
+      "contacts": 3,
+      "modeled_signed_increment_sum": -0.4125000089406967
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "CB2479",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "CB2537",
+      "edges": 2,
+      "contacts": 5,
+      "modeled_signed_increment_sum": 0.6875000149011612
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "CB2719",
+      "edges": 4,
+      "contacts": 14,
+      "modeled_signed_increment_sum": 1.9250000417232513
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "CB2754",
+      "edges": 1,
+      "contacts": 2,
+      "modeled_signed_increment_sum": 0.2750000059604645
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "CB2784",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": -0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "CB2846",
+      "edges": 1,
+      "contacts": 3,
+      "modeled_signed_increment_sum": 0.4125000238418579
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "CB3135",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": -0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "CB3339",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "CB3357",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "CB3446",
+      "edges": 2,
+      "contacts": 4,
+      "modeled_signed_increment_sum": 0.5500000268220901
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "CB3507",
+      "edges": 1,
+      "contacts": 2,
+      "modeled_signed_increment_sum": 0.2750000059604645
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "CB3873",
+      "edges": 1,
+      "contacts": 4,
+      "modeled_signed_increment_sum": 0.550000011920929
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "CB4081",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "CB4082",
+      "edges": 7,
+      "contacts": 104,
+      "modeled_signed_increment_sum": 14.300000458955765
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "CB4150",
+      "edges": 1,
+      "contacts": 2,
+      "modeled_signed_increment_sum": 0.2750000059604645
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "CB4194",
+      "edges": 4,
+      "contacts": 10,
+      "modeled_signed_increment_sum": -1.3750000447034836
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "CB4195",
+      "edges": 2,
+      "contacts": 4,
+      "modeled_signed_increment_sum": -0.5500000268220901
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "CB4220",
+      "edges": 2,
+      "contacts": 14,
+      "modeled_signed_increment_sum": 1.925000011920929
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "CB4225",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "CL165",
+      "edges": 1,
+      "contacts": 6,
+      "modeled_signed_increment_sum": 0.8250000476837158
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "CL199",
+      "edges": 1,
+      "contacts": 2,
+      "modeled_signed_increment_sum": 0.2750000059604645
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "CL208",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "CL251",
+      "edges": 2,
+      "contacts": 5,
+      "modeled_signed_increment_sum": 0.6875000149011612
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "CL261",
+      "edges": 2,
+      "contacts": 2,
+      "modeled_signed_increment_sum": 0.2750000059604645
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "CL303",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "CL326",
+      "edges": 1,
+      "contacts": 81,
+      "modeled_signed_increment_sum": 11.137499809265137
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "CRE001",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "CRE004",
+      "edges": 1,
+      "contacts": 4,
+      "modeled_signed_increment_sum": 0.550000011920929
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "CRE013",
+      "edges": 1,
+      "contacts": 2,
+      "modeled_signed_increment_sum": -0.2750000059604645
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "CRE021",
+      "edges": 1,
+      "contacts": 9,
+      "modeled_signed_increment_sum": -1.2375000715255737
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "CRE023",
+      "edges": 1,
+      "contacts": 3,
+      "modeled_signed_increment_sum": -0.4125000238418579
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "CRE024",
+      "edges": 2,
+      "contacts": 16,
+      "modeled_signed_increment_sum": 2.200000077486038
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "CRE025",
+      "edges": 1,
+      "contacts": 2,
+      "modeled_signed_increment_sum": -0.2750000059604645
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "CRE027",
+      "edges": 4,
+      "contacts": 339,
+      "modeled_signed_increment_sum": -46.61250114440918
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "CRE030_b",
+      "edges": 2,
+      "contacts": 20,
+      "modeled_signed_increment_sum": -2.7500001192092896
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "CRE040",
+      "edges": 1,
+      "contacts": 4,
+      "modeled_signed_increment_sum": -0.550000011920929
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "CRE048",
+      "edges": 1,
+      "contacts": 5,
+      "modeled_signed_increment_sum": -0.6875
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "CRE050",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": -0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "CRE060",
+      "edges": 2,
+      "contacts": 18,
+      "modeled_signed_increment_sum": 2.4750001430511475
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "CRE062",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "CRE065",
+      "edges": 2,
+      "contacts": 2,
+      "modeled_signed_increment_sum": 0.2750000059604645
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "CRE067",
+      "edges": 1,
+      "contacts": 2,
+      "modeled_signed_increment_sum": 0.2750000059604645
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "CRE068",
+      "edges": 4,
+      "contacts": 114,
+      "modeled_signed_increment_sum": 15.675000667572021
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "CRE069",
+      "edges": 2,
+      "contacts": 76,
+      "modeled_signed_increment_sum": 10.450000286102295
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "CRE072",
+      "edges": 2,
+      "contacts": 3,
+      "modeled_signed_increment_sum": 0.4125000089406967
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "CRE076",
+      "edges": 1,
+      "contacts": 2,
+      "modeled_signed_increment_sum": 0.2750000059604645
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "CRE078",
+      "edges": 3,
+      "contacts": 5,
+      "modeled_signed_increment_sum": 0.6875000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "CRE080_a",
+      "edges": 1,
+      "contacts": 6,
+      "modeled_signed_increment_sum": 0.8250000476837158
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "CRE080_c",
+      "edges": 1,
+      "contacts": 9,
+      "modeled_signed_increment_sum": 1.2375000715255737
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "CRE081",
+      "edges": 3,
+      "contacts": 27,
+      "modeled_signed_increment_sum": 3.71250019967556
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "CRE090",
+      "edges": 1,
+      "contacts": 2,
+      "modeled_signed_increment_sum": 0.2750000059604645
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "CRE092",
+      "edges": 3,
+      "contacts": 6,
+      "modeled_signed_increment_sum": 0.8250000327825546
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "CRE094",
+      "edges": 2,
+      "contacts": 2,
+      "modeled_signed_increment_sum": 0.2750000059604645
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "CRE095",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "CRE102",
+      "edges": 1,
+      "contacts": 34,
+      "modeled_signed_increment_sum": -4.675000190734863
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "CRE106",
+      "edges": 1,
+      "contacts": 2,
+      "modeled_signed_increment_sum": 0.2750000059604645
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "CRE107",
+      "edges": 1,
+      "contacts": 3,
+      "modeled_signed_increment_sum": -0.4125000238418579
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "DNp104",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "DNp52",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "DNp62",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "DNpe053",
+      "edges": 2,
+      "contacts": 80,
+      "modeled_signed_increment_sum": 11.000000476837158
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "DPM",
+      "edges": 2,
+      "contacts": 120,
+      "modeled_signed_increment_sum": 0.0
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "ExR4",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": -0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "FB1H",
+      "edges": 1,
+      "contacts": 2,
+      "modeled_signed_increment_sum": 0.0
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "FB4M",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.0
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "FB5C",
+      "edges": 1,
+      "contacts": 3,
+      "modeled_signed_increment_sum": -0.4125000238418579
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "FB5F",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": -0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "FB5H",
+      "edges": 1,
+      "contacts": 5,
+      "modeled_signed_increment_sum": 0.0
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "FB6A_a",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": -0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "FB6A_b",
+      "edges": 1,
+      "contacts": 46,
+      "modeled_signed_increment_sum": -6.325000286102295
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "FB6I",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": -0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "FB6Q",
+      "edges": 1,
+      "contacts": 14,
+      "modeled_signed_increment_sum": -1.9250000715255737
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "FB6S",
+      "edges": 3,
+      "contacts": 7,
+      "modeled_signed_increment_sum": -0.9625000357627869
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "FB6T",
+      "edges": 1,
+      "contacts": 6,
+      "modeled_signed_increment_sum": -0.8250000476837158
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "FLA003m",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "GNG121",
+      "edges": 1,
+      "contacts": 3,
+      "modeled_signed_increment_sum": -0.4125000238418579
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "GNG321",
+      "edges": 1,
+      "contacts": 295,
+      "modeled_signed_increment_sum": 40.5625
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "GNG324",
+      "edges": 2,
+      "contacts": 43,
+      "modeled_signed_increment_sum": 5.9125001430511475
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "KCa'b'-ap1",
+      "edges": 10,
+      "contacts": 13,
+      "modeled_signed_increment_sum": 1.787500038743019
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "KCa'b'-ap2",
+      "edges": 4,
+      "contacts": 5,
+      "modeled_signed_increment_sum": 0.6875000149011612
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "KCa'b'-m",
+      "edges": 7,
+      "contacts": 15,
+      "modeled_signed_increment_sum": 2.0625000596046448
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "KCab-c",
+      "edges": 401,
+      "contacts": 1145,
+      "modeled_signed_increment_sum": 157.43750470876694
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "KCab-m",
+      "edges": 485,
+      "contacts": 1367,
+      "modeled_signed_increment_sum": 187.96250565350056
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "KCab-p",
+      "edges": 94,
+      "contacts": 370,
+      "modeled_signed_increment_sum": 50.875001668930054
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "KCab-s",
+      "edges": 547,
+      "contacts": 1391,
+      "modeled_signed_increment_sum": 191.26250603795052
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "KCg",
+      "edges": 1,
+      "contacts": 2,
+      "modeled_signed_increment_sum": 0.2750000059604645
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "KCg-d",
+      "edges": 189,
+      "contacts": 670,
+      "modeled_signed_increment_sum": 92.12500287592411
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "KCg-m",
+      "edges": 1323,
+      "contacts": 6795,
+      "modeled_signed_increment_sum": 934.3125292658806
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "KCg-s1",
+      "edges": 2,
+      "contacts": 36,
+      "modeled_signed_increment_sum": 4.950000166893005
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "KCg-s2",
+      "edges": 2,
+      "contacts": 26,
+      "modeled_signed_increment_sum": 3.5750001668930054
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "KCg-s3",
+      "edges": 2,
+      "contacts": 5,
+      "modeled_signed_increment_sum": 0.6875000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "KCg-s4",
+      "edges": 1,
+      "contacts": 6,
+      "modeled_signed_increment_sum": 0.8250000476837158
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "LAL007",
+      "edges": 1,
+      "contacts": 7,
+      "modeled_signed_increment_sum": 0.9625000357627869
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "LAL101",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": -0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "LAL102",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": -0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "LAL110",
+      "edges": 2,
+      "contacts": 33,
+      "modeled_signed_increment_sum": 4.537500023841858
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "LAL129",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "LAL154",
+      "edges": 1,
+      "contacts": 16,
+      "modeled_signed_increment_sum": 2.200000047683716
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "LAL185",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "LAL191",
+      "edges": 2,
+      "contacts": 8,
+      "modeled_signed_increment_sum": 1.100000023841858
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "LHAD1b4",
+      "edges": 2,
+      "contacts": 6,
+      "modeled_signed_increment_sum": 0.8250000476837158
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "LHAD1b5",
+      "edges": 3,
+      "contacts": 9,
+      "modeled_signed_increment_sum": 1.2375000417232513
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "LHAV9a1_b",
+      "edges": 1,
+      "contacts": 2,
+      "modeled_signed_increment_sum": 0.2750000059604645
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "LHAV9a1_c",
+      "edges": 5,
+      "contacts": 47,
+      "modeled_signed_increment_sum": 6.462500289082527
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "LHCENT10",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": -0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "LHCENT14",
+      "edges": 1,
+      "contacts": 4,
+      "modeled_signed_increment_sum": -0.550000011920929
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "LHCENT3",
+      "edges": 1,
+      "contacts": 4,
+      "modeled_signed_increment_sum": -0.550000011920929
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "LHCENT9",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": -0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "LHPD5d1",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "LHPD5e1",
+      "edges": 2,
+      "contacts": 15,
+      "modeled_signed_increment_sum": 2.0625000596046448
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "LHPV10b1",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "LHPV7c1",
+      "edges": 1,
+      "contacts": 11,
+      "modeled_signed_increment_sum": 1.5125000476837158
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "LoVC20",
+      "edges": 2,
+      "contacts": 19,
+      "modeled_signed_increment_sum": -2.6125000715255737
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "LoVP79",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "MB-C1",
+      "edges": 1,
+      "contacts": 5,
+      "modeled_signed_increment_sum": -0.6875
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "MBON04",
+      "edges": 1,
+      "contacts": 3,
+      "modeled_signed_increment_sum": -0.4125000238418579
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "MBON05",
+      "edges": 2,
+      "contacts": 4,
+      "modeled_signed_increment_sum": -0.550000011920929
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "MBON06",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": -0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "MBON09",
+      "edges": 2,
+      "contacts": 19,
+      "modeled_signed_increment_sum": -2.6125000715255737
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "MBON11",
+      "edges": 2,
+      "contacts": 107,
+      "modeled_signed_increment_sum": -14.712500095367432
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "MBON12",
+      "edges": 1,
+      "contacts": 6,
+      "modeled_signed_increment_sum": 0.8250000476837158
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "MBON13",
+      "edges": 1,
+      "contacts": 2,
+      "modeled_signed_increment_sum": 0.2750000059604645
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "MBON14",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "MBON15",
+      "edges": 1,
+      "contacts": 51,
+      "modeled_signed_increment_sum": 7.012500286102295
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "MBON20",
+      "edges": 2,
+      "contacts": 44,
+      "modeled_signed_increment_sum": -6.050000190734863
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "MBON21",
+      "edges": 2,
+      "contacts": 13,
+      "modeled_signed_increment_sum": 1.7875000536441803
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "MBON24",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "MBON25",
+      "edges": 2,
+      "contacts": 27,
+      "modeled_signed_increment_sum": -3.7125000953674316
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "MBON25-like",
+      "edges": 4,
+      "contacts": 23,
+      "modeled_signed_increment_sum": -3.162500098347664
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "MBON27",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "MBON29",
+      "edges": 2,
+      "contacts": 77,
+      "modeled_signed_increment_sum": 10.58750057220459
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "MBON30",
+      "edges": 2,
+      "contacts": 82,
+      "modeled_signed_increment_sum": -11.275000095367432
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "MBON33",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "MBON35",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "None",
+      "edges": 11,
+      "contacts": 100,
+      "modeled_signed_increment_sum": 0.2749999910593033
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "OA-VPM3",
+      "edges": 2,
+      "contacts": 11,
+      "modeled_signed_increment_sum": 1.5125000774860382
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "OA-VPM4",
+      "edges": 2,
+      "contacts": 19,
+      "modeled_signed_increment_sum": 2.612500011920929
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "OA-VUMa6",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "PAL01",
+      "edges": 2,
+      "contacts": 2,
+      "modeled_signed_increment_sum": 0.2750000059604645
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "PAM04",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.0
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "PAM07",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.0
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "PAM08",
+      "edges": 1,
+      "contacts": 2,
+      "modeled_signed_increment_sum": 0.0
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "PAM09",
+      "edges": 7,
+      "contacts": 86,
+      "modeled_signed_increment_sum": 0.0
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "PAM10",
+      "edges": 4,
+      "contacts": 21,
+      "modeled_signed_increment_sum": 0.0
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "PAM11",
+      "edges": 2,
+      "contacts": 3,
+      "modeled_signed_increment_sum": 0.0
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "PAM12",
+      "edges": 1,
+      "contacts": 3,
+      "modeled_signed_increment_sum": 0.0
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "PFR_a",
+      "edges": 1,
+      "contacts": 2,
+      "modeled_signed_increment_sum": 0.2750000059604645
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "PFR_b",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "PPL101",
+      "edges": 1,
+      "contacts": 78,
+      "modeled_signed_increment_sum": 0.0
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "PPL102",
+      "edges": 2,
+      "contacts": 73,
+      "modeled_signed_increment_sum": 0.0
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "PPL103",
+      "edges": 1,
+      "contacts": 9,
+      "modeled_signed_increment_sum": 0.0
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "PPL107",
+      "edges": 1,
+      "contacts": 3,
+      "modeled_signed_increment_sum": 0.0
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "PPL108",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.0
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "PRW003",
+      "edges": 1,
+      "contacts": 2,
+      "modeled_signed_increment_sum": -0.2750000059604645
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "PRW007",
+      "edges": 2,
+      "contacts": 4,
+      "modeled_signed_increment_sum": 0.5500000268220901
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "PRW008",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "PRW010",
+      "edges": 2,
+      "contacts": 2,
+      "modeled_signed_increment_sum": 0.2750000059604645
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "PRW019",
+      "edges": 1,
+      "contacts": 2,
+      "modeled_signed_increment_sum": 0.2750000059604645
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "PRW028",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "PRW044",
+      "edges": 4,
+      "contacts": 31,
+      "modeled_signed_increment_sum": 4.262500151991844
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SIP019",
+      "edges": 2,
+      "contacts": 5,
+      "modeled_signed_increment_sum": 0.6875000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SIP027",
+      "edges": 3,
+      "contacts": 8,
+      "modeled_signed_increment_sum": -1.1000000089406967
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SIP028",
+      "edges": 9,
+      "contacts": 78,
+      "modeled_signed_increment_sum": -10.725000262260437
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SIP030",
+      "edges": 2,
+      "contacts": 32,
+      "modeled_signed_increment_sum": 4.399999976158142
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SIP041",
+      "edges": 2,
+      "contacts": 6,
+      "modeled_signed_increment_sum": -0.8250000029802322
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SIP047",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SIP053",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SIP057",
+      "edges": 1,
+      "contacts": 12,
+      "modeled_signed_increment_sum": 1.6500000953674316
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SIP065",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": -0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SIP066",
+      "edges": 1,
+      "contacts": 4,
+      "modeled_signed_increment_sum": -0.550000011920929
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SIP070",
+      "edges": 2,
+      "contacts": 8,
+      "modeled_signed_increment_sum": 1.100000023841858
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SIP076",
+      "edges": 2,
+      "contacts": 2,
+      "modeled_signed_increment_sum": 0.2750000059604645
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SIP102m",
+      "edges": 2,
+      "contacts": 12,
+      "modeled_signed_increment_sum": -1.6500000357627869
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SIP105m",
+      "edges": 1,
+      "contacts": 2,
+      "modeled_signed_increment_sum": 0.2750000059604645
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SIP121m",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": -0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SIP130m",
+      "edges": 2,
+      "contacts": 8,
+      "modeled_signed_increment_sum": 1.1000000536441803
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SLP073",
+      "edges": 1,
+      "contacts": 3,
+      "modeled_signed_increment_sum": 0.4125000238418579
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SLP113",
+      "edges": 2,
+      "contacts": 3,
+      "modeled_signed_increment_sum": 0.4125000089406967
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SLP128",
+      "edges": 2,
+      "contacts": 4,
+      "modeled_signed_increment_sum": 0.550000011920929
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SLP129_c",
+      "edges": 1,
+      "contacts": 5,
+      "modeled_signed_increment_sum": 0.6875
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SLP152",
+      "edges": 1,
+      "contacts": 4,
+      "modeled_signed_increment_sum": 0.550000011920929
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SLP217",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": -0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SLP278",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SLP281",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": -0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SLP389",
+      "edges": 1,
+      "contacts": 4,
+      "modeled_signed_increment_sum": 0.550000011920929
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SLP390",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SLP391",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SLP396",
+      "edges": 2,
+      "contacts": 26,
+      "modeled_signed_increment_sum": 3.575000047683716
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SLP405",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SLP442",
+      "edges": 1,
+      "contacts": 17,
+      "modeled_signed_increment_sum": 2.3375000953674316
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SLP472",
+      "edges": 1,
+      "contacts": 4,
+      "modeled_signed_increment_sum": 0.550000011920929
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP007",
+      "edges": 2,
+      "contacts": 3,
+      "modeled_signed_increment_sum": 0.4125000089406967
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP010",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": -0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP011_a",
+      "edges": 1,
+      "contacts": 8,
+      "modeled_signed_increment_sum": -1.100000023841858
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP011_b",
+      "edges": 1,
+      "contacts": 12,
+      "modeled_signed_increment_sum": -1.6500000953674316
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP024",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": -0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP026",
+      "edges": 2,
+      "contacts": 359,
+      "modeled_signed_increment_sum": 49.36250114440918
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP027",
+      "edges": 1,
+      "contacts": 6,
+      "modeled_signed_increment_sum": -0.8250000476837158
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP038",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": -0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP039",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP049",
+      "edges": 1,
+      "contacts": 4,
+      "modeled_signed_increment_sum": -0.550000011920929
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP053",
+      "edges": 2,
+      "contacts": 381,
+      "modeled_signed_increment_sum": -52.38749980926514
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP056",
+      "edges": 2,
+      "contacts": 187,
+      "modeled_signed_increment_sum": -25.712499618530273
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP064",
+      "edges": 1,
+      "contacts": 2,
+      "modeled_signed_increment_sum": -0.2750000059604645
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP075",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": -0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP079",
+      "edges": 2,
+      "contacts": 29,
+      "modeled_signed_increment_sum": -3.9875000715255737
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP081",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": -0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP082",
+      "edges": 3,
+      "contacts": 9,
+      "modeled_signed_increment_sum": -1.2375000566244125
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP084",
+      "edges": 4,
+      "contacts": 95,
+      "modeled_signed_increment_sum": -13.062500476837158
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP087",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": -0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP088",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": -0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP102",
+      "edges": 2,
+      "contacts": 2,
+      "modeled_signed_increment_sum": -0.2750000059604645
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP108",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP114",
+      "edges": 1,
+      "contacts": 8,
+      "modeled_signed_increment_sum": -1.100000023841858
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP115",
+      "edges": 2,
+      "contacts": 22,
+      "modeled_signed_increment_sum": -3.0250000953674316
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP116",
+      "edges": 2,
+      "contacts": 28,
+      "modeled_signed_increment_sum": -3.850000023841858
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP117_a",
+      "edges": 2,
+      "contacts": 8,
+      "modeled_signed_increment_sum": -1.1000000536441803
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP117_b",
+      "edges": 2,
+      "contacts": 3,
+      "modeled_signed_increment_sum": -0.4125000089406967
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP118",
+      "edges": 2,
+      "contacts": 18,
+      "modeled_signed_increment_sum": -2.4750000536441803
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP119",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": -0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP120",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": -0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP123",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": -0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP124",
+      "edges": 2,
+      "contacts": 4,
+      "modeled_signed_increment_sum": -0.5500000268220901
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP125",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": -0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP132",
+      "edges": 2,
+      "contacts": 2,
+      "modeled_signed_increment_sum": -0.2750000059604645
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP133",
+      "edges": 2,
+      "contacts": 3,
+      "modeled_signed_increment_sum": -0.4125000089406967
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP138",
+      "edges": 2,
+      "contacts": 47,
+      "modeled_signed_increment_sum": -6.462500095367432
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP142",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP143",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP145",
+      "edges": 2,
+      "contacts": 5,
+      "modeled_signed_increment_sum": 0.6875000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP152",
+      "edges": 1,
+      "contacts": 7,
+      "modeled_signed_increment_sum": 0.9625000357627869
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP154",
+      "edges": 1,
+      "contacts": 132,
+      "modeled_signed_increment_sum": 18.149999618530273
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP157",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP159",
+      "edges": 1,
+      "contacts": 3,
+      "modeled_signed_increment_sum": -0.4125000238418579
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP165",
+      "edges": 2,
+      "contacts": 42,
+      "modeled_signed_increment_sum": -5.775000095367432
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP170",
+      "edges": 1,
+      "contacts": 7,
+      "modeled_signed_increment_sum": -0.9625000357627869
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP175",
+      "edges": 1,
+      "contacts": 29,
+      "modeled_signed_increment_sum": 3.9875001907348633
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP178",
+      "edges": 2,
+      "contacts": 77,
+      "modeled_signed_increment_sum": 10.587500095367432
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP179",
+      "edges": 2,
+      "contacts": 152,
+      "modeled_signed_increment_sum": 20.90000057220459
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP181",
+      "edges": 2,
+      "contacts": 13,
+      "modeled_signed_increment_sum": 1.7875000834465027
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP190",
+      "edges": 1,
+      "contacts": 3,
+      "modeled_signed_increment_sum": 0.4125000238418579
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP194",
+      "edges": 2,
+      "contacts": 29,
+      "modeled_signed_increment_sum": 3.9875001907348633
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP196_a",
+      "edges": 1,
+      "contacts": 46,
+      "modeled_signed_increment_sum": 6.325000286102295
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP196_b",
+      "edges": 1,
+      "contacts": 18,
+      "modeled_signed_increment_sum": 2.4750001430511475
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP199",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP215",
+      "edges": 2,
+      "contacts": 3,
+      "modeled_signed_increment_sum": -0.4125000089406967
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP238",
+      "edges": 1,
+      "contacts": 13,
+      "modeled_signed_increment_sum": 1.787500023841858
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP251",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP273",
+      "edges": 1,
+      "contacts": 2,
+      "modeled_signed_increment_sum": 0.2750000059604645
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP347",
+      "edges": 6,
+      "contacts": 50,
+      "modeled_signed_increment_sum": 6.875000208616257
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP350",
+      "edges": 2,
+      "contacts": 5,
+      "modeled_signed_increment_sum": 0.6875000149011612
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP352",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP354",
+      "edges": 2,
+      "contacts": 2,
+      "modeled_signed_increment_sum": 0.2750000059604645
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP355",
+      "edges": 2,
+      "contacts": 4,
+      "modeled_signed_increment_sum": 0.5500000268220901
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP376",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": -0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP377",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP381_b",
+      "edges": 2,
+      "contacts": 2,
+      "modeled_signed_increment_sum": 0.2750000059604645
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP382",
+      "edges": 1,
+      "contacts": 2,
+      "modeled_signed_increment_sum": 0.2750000059604645
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP384",
+      "edges": 2,
+      "contacts": 100,
+      "modeled_signed_increment_sum": 13.750000476837158
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP385",
+      "edges": 2,
+      "contacts": 6,
+      "modeled_signed_increment_sum": 0.8250000029802322
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP399_a",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP406_b",
+      "edges": 1,
+      "contacts": 2,
+      "modeled_signed_increment_sum": 0.2750000059604645
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP406_d",
+      "edges": 1,
+      "contacts": 2,
+      "modeled_signed_increment_sum": 0.2750000059604645
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP409",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP411",
+      "edges": 1,
+      "contacts": 2,
+      "modeled_signed_increment_sum": 0.2750000059604645
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP429",
+      "edges": 2,
+      "contacts": 3,
+      "modeled_signed_increment_sum": 0.4125000089406967
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP448",
+      "edges": 1,
+      "contacts": 2,
+      "modeled_signed_increment_sum": -0.2750000059604645
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP449",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": -0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP450",
+      "edges": 7,
+      "contacts": 29,
+      "modeled_signed_increment_sum": -3.9875001460313797
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP453",
+      "edges": 4,
+      "contacts": 33,
+      "modeled_signed_increment_sum": -4.537500083446503
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP476",
+      "edges": 2,
+      "contacts": 13,
+      "modeled_signed_increment_sum": 1.787500023841858
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP503",
+      "edges": 2,
+      "contacts": 6,
+      "modeled_signed_increment_sum": 0.8250000029802322
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP504",
+      "edges": 2,
+      "contacts": 178,
+      "modeled_signed_increment_sum": 24.475000381469727
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP507",
+      "edges": 1,
+      "contacts": 9,
+      "modeled_signed_increment_sum": 1.2375000715255737
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP529",
+      "edges": 1,
+      "contacts": 4,
+      "modeled_signed_increment_sum": 0.550000011920929
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP556",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP561",
+      "edges": 1,
+      "contacts": 2,
+      "modeled_signed_increment_sum": 0.2750000059604645
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP573",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP586",
+      "edges": 1,
+      "contacts": 2,
+      "modeled_signed_increment_sum": 0.2750000059604645
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP588",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP592",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP596",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP598",
+      "edges": 1,
+      "contacts": 6,
+      "modeled_signed_increment_sum": -0.8250000476837158
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP705m",
+      "edges": 1,
+      "contacts": 2,
+      "modeled_signed_increment_sum": -0.2750000059604645
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP719m",
+      "edges": 2,
+      "contacts": 13,
+      "modeled_signed_increment_sum": -1.787500023841858
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP730",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP732",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP734",
+      "edges": 2,
+      "contacts": 4,
+      "modeled_signed_increment_sum": 0.550000011920929
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP737",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "SMP744",
+      "edges": 2,
+      "contacts": 3,
+      "modeled_signed_increment_sum": 0.4125000089406967
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "aIPg9",
+      "edges": 1,
+      "contacts": 18,
+      "modeled_signed_increment_sum": 2.4750001430511475
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "mALB1",
+      "edges": 2,
+      "contacts": 5,
+      "modeled_signed_increment_sum": -0.6875000149011612
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "mALD1",
+      "edges": 1,
+      "contacts": 6,
+      "modeled_signed_increment_sum": -0.8250000476837158
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "mALD3",
+      "edges": 2,
+      "contacts": 34,
+      "modeled_signed_increment_sum": -4.675000190734863
+    },
+    {
+      "target_body_id": 11327,
+      "pre_type": "mALD4",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": -0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "AN05B097",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "AN05B101",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": -0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "AN05B103",
+      "edges": 2,
+      "contacts": 41,
+      "modeled_signed_increment_sum": 5.637500286102295
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "AN19B019",
+      "edges": 1,
+      "contacts": 3,
+      "modeled_signed_increment_sum": 0.4125000238418579
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "AOTU103m",
+      "edges": 1,
+      "contacts": 5,
+      "modeled_signed_increment_sum": -0.6875
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "APL",
+      "edges": 2,
+      "contacts": 58,
+      "modeled_signed_increment_sum": -1.9937500357627869
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "ATL018",
+      "edges": 2,
+      "contacts": 75,
+      "modeled_signed_increment_sum": 10.3125
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "AVLP024_b",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "AVLP032",
+      "edges": 2,
+      "contacts": 13,
+      "modeled_signed_increment_sum": 1.7875000834465027
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "AVLP243",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "AVLP443",
+      "edges": 1,
+      "contacts": 8,
+      "modeled_signed_increment_sum": 1.100000023841858
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "AVLP477",
+      "edges": 2,
+      "contacts": 158,
+      "modeled_signed_increment_sum": 21.725000381469727
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "AVLP562",
+      "edges": 2,
+      "contacts": 4,
+      "modeled_signed_increment_sum": 0.5500000268220901
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "AVLP563",
+      "edges": 2,
+      "contacts": 436,
+      "modeled_signed_increment_sum": 59.950002670288086
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "AVLP742m",
+      "edges": 2,
+      "contacts": 17,
+      "modeled_signed_increment_sum": 2.3375000059604645
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "AVLP751m",
+      "edges": 1,
+      "contacts": 6,
+      "modeled_signed_increment_sum": 0.8250000476837158
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "AVLP757m",
+      "edges": 1,
+      "contacts": 45,
+      "modeled_signed_increment_sum": 6.1875
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "AVLP758m",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CB0951",
+      "edges": 2,
+      "contacts": 2,
+      "modeled_signed_increment_sum": -0.2750000059604645
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CB0993",
+      "edges": 1,
+      "contacts": 4,
+      "modeled_signed_increment_sum": -0.550000011920929
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CB1050",
+      "edges": 1,
+      "contacts": 3,
+      "modeled_signed_increment_sum": 0.4125000238418579
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CB1062",
+      "edges": 5,
+      "contacts": 6,
+      "modeled_signed_increment_sum": -0.8250000178813934
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CB1128",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": -0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CB1168",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": -0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CB1276",
+      "edges": 1,
+      "contacts": 2,
+      "modeled_signed_increment_sum": 0.2750000059604645
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CB1287",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": -0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CB1289",
+      "edges": 4,
+      "contacts": 61,
+      "modeled_signed_increment_sum": 8.387500166893005
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CB1357",
+      "edges": 6,
+      "contacts": 122,
+      "modeled_signed_increment_sum": 16.775000393390656
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CB1532",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CB1627",
+      "edges": 1,
+      "contacts": 2,
+      "modeled_signed_increment_sum": 0.2750000059604645
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CB1650",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CB1679",
+      "edges": 1,
+      "contacts": 3,
+      "modeled_signed_increment_sum": -0.4125000238418579
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CB1815",
+      "edges": 2,
+      "contacts": 4,
+      "modeled_signed_increment_sum": -0.550000011920929
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CB1895",
+      "edges": 2,
+      "contacts": 24,
+      "modeled_signed_increment_sum": 3.3000000715255737
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CB1926",
+      "edges": 1,
+      "contacts": 3,
+      "modeled_signed_increment_sum": -0.4125000238418579
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CB2280",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": -0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CB2310",
+      "edges": 2,
+      "contacts": 41,
+      "modeled_signed_increment_sum": 5.637500286102295
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CB2363",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": -0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CB2469",
+      "edges": 1,
+      "contacts": 4,
+      "modeled_signed_increment_sum": -0.550000011920929
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CB2537",
+      "edges": 2,
+      "contacts": 7,
+      "modeled_signed_increment_sum": 0.9625000357627869
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CB2584",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": -0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CB2667",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CB2706",
+      "edges": 2,
+      "contacts": 3,
+      "modeled_signed_increment_sum": 0.4125000089406967
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CB2719",
+      "edges": 3,
+      "contacts": 8,
+      "modeled_signed_increment_sum": 1.100000023841858
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CB2937",
+      "edges": 3,
+      "contacts": 14,
+      "modeled_signed_increment_sum": -1.9250000268220901
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CB3319",
+      "edges": 1,
+      "contacts": 3,
+      "modeled_signed_increment_sum": 0.4125000238418579
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CB3362",
+      "edges": 1,
+      "contacts": 5,
+      "modeled_signed_increment_sum": -0.6875
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CB3446",
+      "edges": 3,
+      "contacts": 18,
+      "modeled_signed_increment_sum": 2.475000023841858
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CB3507",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CB3574",
+      "edges": 2,
+      "contacts": 2,
+      "modeled_signed_increment_sum": -0.2750000059604645
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CB3873",
+      "edges": 3,
+      "contacts": 12,
+      "modeled_signed_increment_sum": 1.650000050663948
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CB3874",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CB3910",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CB4077",
+      "edges": 2,
+      "contacts": 8,
+      "modeled_signed_increment_sum": 1.1000000536441803
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CB4082",
+      "edges": 8,
+      "contacts": 161,
+      "modeled_signed_increment_sum": 22.13749998807907
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CB4159",
+      "edges": 1,
+      "contacts": 2,
+      "modeled_signed_increment_sum": -0.2750000059604645
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CB4194",
+      "edges": 3,
+      "contacts": 14,
+      "modeled_signed_increment_sum": -1.9250000417232513
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CB4195",
+      "edges": 2,
+      "contacts": 11,
+      "modeled_signed_increment_sum": -1.5125000476837158
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CB4220",
+      "edges": 1,
+      "contacts": 3,
+      "modeled_signed_increment_sum": 0.4125000238418579
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CB4225",
+      "edges": 1,
+      "contacts": 2,
+      "modeled_signed_increment_sum": 0.2750000059604645
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CL003",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": -0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CL129",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CL165",
+      "edges": 1,
+      "contacts": 14,
+      "modeled_signed_increment_sum": 1.9250000715255737
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CL166",
+      "edges": 2,
+      "contacts": 6,
+      "modeled_signed_increment_sum": 0.8250000029802322
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CL168",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CL199",
+      "edges": 2,
+      "contacts": 9,
+      "modeled_signed_increment_sum": 1.2375000417232513
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CL251",
+      "edges": 2,
+      "contacts": 11,
+      "modeled_signed_increment_sum": 1.5125000774860382
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CL261",
+      "edges": 1,
+      "contacts": 3,
+      "modeled_signed_increment_sum": 0.4125000238418579
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CL326",
+      "edges": 1,
+      "contacts": 126,
+      "modeled_signed_increment_sum": 17.325000762939453
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CRE001",
+      "edges": 1,
+      "contacts": 3,
+      "modeled_signed_increment_sum": 0.4125000238418579
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CRE004",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CRE005",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CRE021",
+      "edges": 1,
+      "contacts": 3,
+      "modeled_signed_increment_sum": -0.4125000238418579
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CRE024",
+      "edges": 2,
+      "contacts": 10,
+      "modeled_signed_increment_sum": 1.375000074505806
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CRE025",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": -0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CRE027",
+      "edges": 4,
+      "contacts": 521,
+      "modeled_signed_increment_sum": -71.63750076293945
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CRE030_b",
+      "edges": 2,
+      "contacts": 25,
+      "modeled_signed_increment_sum": -3.4375001192092896
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CRE040",
+      "edges": 1,
+      "contacts": 2,
+      "modeled_signed_increment_sum": -0.2750000059604645
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CRE043_b",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": -0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CRE043_d",
+      "edges": 1,
+      "contacts": 2,
+      "modeled_signed_increment_sum": -0.2750000059604645
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CRE048",
+      "edges": 1,
+      "contacts": 20,
+      "modeled_signed_increment_sum": -2.75
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CRE049",
+      "edges": 1,
+      "contacts": 2,
+      "modeled_signed_increment_sum": 0.2750000059604645
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CRE051",
+      "edges": 1,
+      "contacts": 3,
+      "modeled_signed_increment_sum": -0.4125000238418579
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CRE060",
+      "edges": 2,
+      "contacts": 17,
+      "modeled_signed_increment_sum": 2.3375000953674316
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CRE065",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CRE067",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CRE068",
+      "edges": 4,
+      "contacts": 183,
+      "modeled_signed_increment_sum": 25.162500381469727
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CRE069",
+      "edges": 2,
+      "contacts": 213,
+      "modeled_signed_increment_sum": 29.287501335144043
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CRE072",
+      "edges": 1,
+      "contacts": 2,
+      "modeled_signed_increment_sum": 0.2750000059604645
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CRE074",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": -0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CRE080_c",
+      "edges": 1,
+      "contacts": 5,
+      "modeled_signed_increment_sum": 0.6875
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CRE081",
+      "edges": 4,
+      "contacts": 68,
+      "modeled_signed_increment_sum": 9.350000217556953
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CRE090",
+      "edges": 3,
+      "contacts": 20,
+      "modeled_signed_increment_sum": 2.750000074505806
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CRE092",
+      "edges": 3,
+      "contacts": 5,
+      "modeled_signed_increment_sum": 0.6875000149011612
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CRE094",
+      "edges": 2,
+      "contacts": 10,
+      "modeled_signed_increment_sum": 1.3750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CRE102",
+      "edges": 1,
+      "contacts": 80,
+      "modeled_signed_increment_sum": -11.0
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CRE103",
+      "edges": 1,
+      "contacts": 2,
+      "modeled_signed_increment_sum": 0.2750000059604645
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CRE106",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "CRE107",
+      "edges": 2,
+      "contacts": 20,
+      "modeled_signed_increment_sum": -2.75
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "DNp48",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "DNpe053",
+      "edges": 2,
+      "contacts": 80,
+      "modeled_signed_increment_sum": 11.000000476837158
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "DPM",
+      "edges": 2,
+      "contacts": 79,
+      "modeled_signed_increment_sum": 0.0
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "ExR6",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": -0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "FB1A",
+      "edges": 1,
+      "contacts": 3,
+      "modeled_signed_increment_sum": -0.4125000238418579
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "FB1H",
+      "edges": 1,
+      "contacts": 2,
+      "modeled_signed_increment_sum": 0.0
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "FB4O",
+      "edges": 1,
+      "contacts": 2,
+      "modeled_signed_increment_sum": -0.2750000059604645
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "FB4R",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": -0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "FB5AA",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": -0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "FB5C",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": -0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "FB5H",
+      "edges": 1,
+      "contacts": 6,
+      "modeled_signed_increment_sum": 0.0
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "FB6A_a",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": -0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "FB6A_b",
+      "edges": 1,
+      "contacts": 35,
+      "modeled_signed_increment_sum": -4.8125
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "FB6A_c",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": -0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "FB6D",
+      "edges": 1,
+      "contacts": 3,
+      "modeled_signed_increment_sum": -0.4125000238418579
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "FB6I",
+      "edges": 1,
+      "contacts": 2,
+      "modeled_signed_increment_sum": -0.2750000059604645
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "FB6Q",
+      "edges": 1,
+      "contacts": 19,
+      "modeled_signed_increment_sum": -2.612499952316284
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "FB6S",
+      "edges": 3,
+      "contacts": 10,
+      "modeled_signed_increment_sum": -1.3750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "FB6T",
+      "edges": 2,
+      "contacts": 31,
+      "modeled_signed_increment_sum": -4.262500166893005
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "FLA003m",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "GNG121",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": -0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "GNG291",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "GNG321",
+      "edges": 1,
+      "contacts": 365,
+      "modeled_signed_increment_sum": 50.1875
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "GNG324",
+      "edges": 1,
+      "contacts": 55,
+      "modeled_signed_increment_sum": 7.5625
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "GNG595",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "GNG597",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "GNG667",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "KCa'b'-ap1",
+      "edges": 4,
+      "contacts": 4,
+      "modeled_signed_increment_sum": 0.550000011920929
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "KCa'b'-ap2",
+      "edges": 2,
+      "contacts": 2,
+      "modeled_signed_increment_sum": 0.2750000059604645
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "KCa'b'-m",
+      "edges": 6,
+      "contacts": 6,
+      "modeled_signed_increment_sum": 0.8250000178813934
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "KCab-c",
+      "edges": 432,
+      "contacts": 1364,
+      "modeled_signed_increment_sum": 187.55000552535057
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "KCab-m",
+      "edges": 479,
+      "contacts": 1384,
+      "modeled_signed_increment_sum": 190.30000595748425
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "KCab-p",
+      "edges": 95,
+      "contacts": 237,
+      "modeled_signed_increment_sum": 32.58750095963478
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "KCab-s",
+      "edges": 570,
+      "contacts": 1546,
+      "modeled_signed_increment_sum": 212.5750066936016
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "KCg",
+      "edges": 1,
+      "contacts": 3,
+      "modeled_signed_increment_sum": 0.4125000238418579
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "KCg-d",
+      "edges": 188,
+      "contacts": 546,
+      "modeled_signed_increment_sum": 75.07500237226486
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "KCg-m",
+      "edges": 1315,
+      "contacts": 7041,
+      "modeled_signed_increment_sum": 968.1375304013491
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "KCg-s1",
+      "edges": 2,
+      "contacts": 34,
+      "modeled_signed_increment_sum": 4.675000190734863
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "KCg-s2",
+      "edges": 2,
+      "contacts": 33,
+      "modeled_signed_increment_sum": 4.537500023841858
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "KCg-s3",
+      "edges": 2,
+      "contacts": 16,
+      "modeled_signed_increment_sum": 2.200000047683716
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "KCg-s4",
+      "edges": 2,
+      "contacts": 6,
+      "modeled_signed_increment_sum": 0.8250000178813934
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "LAL042",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": -0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "LAL110",
+      "edges": 4,
+      "contacts": 32,
+      "modeled_signed_increment_sum": 4.399999991059303
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "LAL129",
+      "edges": 1,
+      "contacts": 6,
+      "modeled_signed_increment_sum": 0.8250000476837158
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "LAL154",
+      "edges": 2,
+      "contacts": 62,
+      "modeled_signed_increment_sum": 8.525000214576721
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "LAL191",
+      "edges": 2,
+      "contacts": 2,
+      "modeled_signed_increment_sum": 0.2750000059604645
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "LHAD1b3",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "LHAD1b4",
+      "edges": 3,
+      "contacts": 11,
+      "modeled_signed_increment_sum": 1.512500062584877
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "LHAD1b5",
+      "edges": 5,
+      "contacts": 10,
+      "modeled_signed_increment_sum": 1.3750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "LHAV9a1_b",
+      "edges": 3,
+      "contacts": 9,
+      "modeled_signed_increment_sum": 1.2375000268220901
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "LHAV9a1_c",
+      "edges": 4,
+      "contacts": 99,
+      "modeled_signed_increment_sum": 13.612500429153442
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "LHCENT3",
+      "edges": 1,
+      "contacts": 2,
+      "modeled_signed_increment_sum": -0.2750000059604645
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "LHCENT9",
+      "edges": 1,
+      "contacts": 3,
+      "modeled_signed_increment_sum": -0.4125000238418579
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "LHPD2a4_b",
+      "edges": 1,
+      "contacts": 2,
+      "modeled_signed_increment_sum": 0.2750000059604645
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "LHPD5d1",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "LHPD5e1",
+      "edges": 2,
+      "contacts": 21,
+      "modeled_signed_increment_sum": 2.8875001668930054
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "LHPV10d1",
+      "edges": 1,
+      "contacts": 2,
+      "modeled_signed_increment_sum": 0.2750000059604645
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "LHPV7c1",
+      "edges": 1,
+      "contacts": 5,
+      "modeled_signed_increment_sum": 0.6875
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "LHPV8a1",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "LPN_b",
+      "edges": 1,
+      "contacts": 2,
+      "modeled_signed_increment_sum": 0.2750000059604645
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "LoVC20",
+      "edges": 2,
+      "contacts": 23,
+      "modeled_signed_increment_sum": -3.162500023841858
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "LoVP79",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "MB-C1",
+      "edges": 1,
+      "contacts": 5,
+      "modeled_signed_increment_sum": -0.6875
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "MBON05",
+      "edges": 2,
+      "contacts": 7,
+      "modeled_signed_increment_sum": -0.9625000059604645
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "MBON06",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": -0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "MBON09",
+      "edges": 2,
+      "contacts": 19,
+      "modeled_signed_increment_sum": -2.6125000715255737
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "MBON11",
+      "edges": 2,
+      "contacts": 98,
+      "modeled_signed_increment_sum": -13.474999904632568
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "MBON12",
+      "edges": 4,
+      "contacts": 7,
+      "modeled_signed_increment_sum": 0.9625000357627869
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "MBON13",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "MBON14",
+      "edges": 2,
+      "contacts": 3,
+      "modeled_signed_increment_sum": 0.4125000089406967
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "MBON15",
+      "edges": 2,
+      "contacts": 41,
+      "modeled_signed_increment_sum": 5.637500196695328
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "MBON20",
+      "edges": 2,
+      "contacts": 39,
+      "modeled_signed_increment_sum": -5.362500190734863
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "MBON21",
+      "edges": 2,
+      "contacts": 30,
+      "modeled_signed_increment_sum": 4.125
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "MBON22",
+      "edges": 1,
+      "contacts": 2,
+      "modeled_signed_increment_sum": 0.2750000059604645
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "MBON24",
+      "edges": 1,
+      "contacts": 5,
+      "modeled_signed_increment_sum": 0.6875
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "MBON25",
+      "edges": 2,
+      "contacts": 17,
+      "modeled_signed_increment_sum": -2.3375000059604645
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "MBON25-like",
+      "edges": 3,
+      "contacts": 25,
+      "modeled_signed_increment_sum": -3.4375001192092896
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "MBON26",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "MBON29",
+      "edges": 2,
+      "contacts": 66,
+      "modeled_signed_increment_sum": 9.075000405311584
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "MBON30",
+      "edges": 2,
+      "contacts": 97,
+      "modeled_signed_increment_sum": -13.33750057220459
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "MBON33",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "MBON35",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "M_lvPNm25",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "None",
+      "edges": 18,
+      "contacts": 159,
+      "modeled_signed_increment_sum": 9.212500154972076
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "OA-VPM3",
+      "edges": 2,
+      "contacts": 7,
+      "modeled_signed_increment_sum": 0.9625000506639481
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "OA-VPM4",
+      "edges": 2,
+      "contacts": 11,
+      "modeled_signed_increment_sum": 1.5125000476837158
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "OA-VUMa6",
+      "edges": 2,
+      "contacts": 3,
+      "modeled_signed_increment_sum": 0.4125000089406967
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "PAM08",
+      "edges": 5,
+      "contacts": 6,
+      "modeled_signed_increment_sum": 0.0
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "PAM09",
+      "edges": 6,
+      "contacts": 61,
+      "modeled_signed_increment_sum": 0.0
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "PAM10",
+      "edges": 5,
+      "contacts": 9,
+      "modeled_signed_increment_sum": 0.0
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "PAM11",
+      "edges": 3,
+      "contacts": 6,
+      "modeled_signed_increment_sum": 0.0
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "PAM12",
+      "edges": 2,
+      "contacts": 2,
+      "modeled_signed_increment_sum": 0.0
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "PPL101",
+      "edges": 1,
+      "contacts": 85,
+      "modeled_signed_increment_sum": 0.0
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "PPL102",
+      "edges": 2,
+      "contacts": 94,
+      "modeled_signed_increment_sum": 0.0
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "PPL107",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.0
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "PPL108",
+      "edges": 2,
+      "contacts": 3,
+      "modeled_signed_increment_sum": 0.0
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "PRW002",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": -0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "PRW003",
+      "edges": 1,
+      "contacts": 2,
+      "modeled_signed_increment_sum": -0.2750000059604645
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "PRW007",
+      "edges": 4,
+      "contacts": 7,
+      "modeled_signed_increment_sum": 0.9625000357627869
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "PRW010",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "PRW012",
+      "edges": 2,
+      "contacts": 5,
+      "modeled_signed_increment_sum": 0.6875000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "PRW028",
+      "edges": 5,
+      "contacts": 7,
+      "modeled_signed_increment_sum": 0.9625000208616257
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "PRW044",
+      "edges": 3,
+      "contacts": 65,
+      "modeled_signed_increment_sum": 8.937500238418579
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "PRW067",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SIP006",
+      "edges": 1,
+      "contacts": 5,
+      "modeled_signed_increment_sum": -0.6875
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SIP019",
+      "edges": 2,
+      "contacts": 3,
+      "modeled_signed_increment_sum": 0.4125000089406967
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SIP027",
+      "edges": 5,
+      "contacts": 17,
+      "modeled_signed_increment_sum": -2.3375000953674316
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SIP028",
+      "edges": 9,
+      "contacts": 125,
+      "modeled_signed_increment_sum": -17.18750035762787
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SIP030",
+      "edges": 2,
+      "contacts": 38,
+      "modeled_signed_increment_sum": 5.2250001430511475
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SIP041",
+      "edges": 2,
+      "contacts": 7,
+      "modeled_signed_increment_sum": -0.9625000059604645
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SIP046",
+      "edges": 1,
+      "contacts": 4,
+      "modeled_signed_increment_sum": -0.550000011920929
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SIP057",
+      "edges": 1,
+      "contacts": 15,
+      "modeled_signed_increment_sum": 2.0625
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SIP066",
+      "edges": 2,
+      "contacts": 8,
+      "modeled_signed_increment_sum": -1.1000000536441803
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SIP070",
+      "edges": 3,
+      "contacts": 17,
+      "modeled_signed_increment_sum": 2.3375000804662704
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SIP076",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SIP088",
+      "edges": 1,
+      "contacts": 2,
+      "modeled_signed_increment_sum": 0.2750000059604645
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SIP102m",
+      "edges": 2,
+      "contacts": 9,
+      "modeled_signed_increment_sum": -1.237500011920929
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SIP128m",
+      "edges": 3,
+      "contacts": 5,
+      "modeled_signed_increment_sum": 0.6875000149011612
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SIP130m",
+      "edges": 3,
+      "contacts": 7,
+      "modeled_signed_increment_sum": 0.9625000357627869
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SLP032",
+      "edges": 1,
+      "contacts": 2,
+      "modeled_signed_increment_sum": 0.2750000059604645
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SLP099",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": -0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SLP112",
+      "edges": 3,
+      "contacts": 14,
+      "modeled_signed_increment_sum": 1.925000086426735
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SLP113",
+      "edges": 6,
+      "contacts": 26,
+      "modeled_signed_increment_sum": 3.575000062584877
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SLP128",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SLP129_c",
+      "edges": 2,
+      "contacts": 6,
+      "modeled_signed_increment_sum": 0.8250000029802322
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SLP130",
+      "edges": 1,
+      "contacts": 3,
+      "modeled_signed_increment_sum": 0.4125000238418579
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SLP152",
+      "edges": 4,
+      "contacts": 9,
+      "modeled_signed_increment_sum": 1.2375000417232513
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SLP217",
+      "edges": 3,
+      "contacts": 9,
+      "modeled_signed_increment_sum": -1.2375000566244125
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SLP242",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SLP247",
+      "edges": 1,
+      "contacts": 2,
+      "modeled_signed_increment_sum": 0.2750000059604645
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SLP389",
+      "edges": 1,
+      "contacts": 4,
+      "modeled_signed_increment_sum": 0.550000011920929
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SLP396",
+      "edges": 2,
+      "contacts": 22,
+      "modeled_signed_increment_sum": 3.025000035762787
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SLP421",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SLP442",
+      "edges": 1,
+      "contacts": 28,
+      "modeled_signed_increment_sum": 3.8500001430511475
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SLP451",
+      "edges": 1,
+      "contacts": 3,
+      "modeled_signed_increment_sum": 0.4125000238418579
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP001",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP010",
+      "edges": 1,
+      "contacts": 2,
+      "modeled_signed_increment_sum": -0.2750000059604645
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP011_a",
+      "edges": 1,
+      "contacts": 13,
+      "modeled_signed_increment_sum": -1.787500023841858
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP011_b",
+      "edges": 1,
+      "contacts": 15,
+      "modeled_signed_increment_sum": -2.0625
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP015",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP026",
+      "edges": 2,
+      "contacts": 497,
+      "modeled_signed_increment_sum": 68.33750343322754
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP027",
+      "edges": 1,
+      "contacts": 12,
+      "modeled_signed_increment_sum": -1.6500000953674316
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP041",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": -0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP051",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP053",
+      "edges": 1,
+      "contacts": 261,
+      "modeled_signed_increment_sum": -35.88750076293945
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP056",
+      "edges": 2,
+      "contacts": 413,
+      "modeled_signed_increment_sum": -56.78750038146973
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP076",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": -0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP079",
+      "edges": 3,
+      "contacts": 54,
+      "modeled_signed_increment_sum": -7.425000190734863
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP082",
+      "edges": 4,
+      "contacts": 7,
+      "modeled_signed_increment_sum": -0.9625000208616257
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP084",
+      "edges": 4,
+      "contacts": 223,
+      "modeled_signed_increment_sum": -30.66249990463257
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP085",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": -0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP086",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": -0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP087",
+      "edges": 3,
+      "contacts": 4,
+      "modeled_signed_increment_sum": -0.550000011920929
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP088",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": -0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP102",
+      "edges": 3,
+      "contacts": 6,
+      "modeled_signed_increment_sum": -0.8250000178813934
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP108",
+      "edges": 1,
+      "contacts": 2,
+      "modeled_signed_increment_sum": 0.2750000059604645
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP109",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP111",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP114",
+      "edges": 2,
+      "contacts": 11,
+      "modeled_signed_increment_sum": -1.5125000029802322
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP115",
+      "edges": 2,
+      "contacts": 120,
+      "modeled_signed_increment_sum": -16.5
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP116",
+      "edges": 2,
+      "contacts": 65,
+      "modeled_signed_increment_sum": -8.937500476837158
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP117_a",
+      "edges": 2,
+      "contacts": 9,
+      "modeled_signed_increment_sum": -1.237500011920929
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP117_b",
+      "edges": 1,
+      "contacts": 2,
+      "modeled_signed_increment_sum": -0.2750000059604645
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP118",
+      "edges": 2,
+      "contacts": 46,
+      "modeled_signed_increment_sum": -6.325000286102295
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP120",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": -0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP124",
+      "edges": 2,
+      "contacts": 3,
+      "modeled_signed_increment_sum": -0.4125000089406967
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP125",
+      "edges": 1,
+      "contacts": 3,
+      "modeled_signed_increment_sum": -0.4125000238418579
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP128",
+      "edges": 1,
+      "contacts": 2,
+      "modeled_signed_increment_sum": -0.2750000059604645
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP132",
+      "edges": 1,
+      "contacts": 6,
+      "modeled_signed_increment_sum": -0.8250000476837158
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP133",
+      "edges": 2,
+      "contacts": 3,
+      "modeled_signed_increment_sum": -0.4125000089406967
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP138",
+      "edges": 2,
+      "contacts": 56,
+      "modeled_signed_increment_sum": -7.700000047683716
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP142",
+      "edges": 1,
+      "contacts": 3,
+      "modeled_signed_increment_sum": 0.4125000238418579
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP145",
+      "edges": 2,
+      "contacts": 9,
+      "modeled_signed_increment_sum": 1.237500011920929
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP152",
+      "edges": 1,
+      "contacts": 6,
+      "modeled_signed_increment_sum": 0.8250000476837158
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP154",
+      "edges": 1,
+      "contacts": 192,
+      "modeled_signed_increment_sum": 26.400001525878906
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP155",
+      "edges": 1,
+      "contacts": 3,
+      "modeled_signed_increment_sum": -0.4125000238418579
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP157",
+      "edges": 1,
+      "contacts": 3,
+      "modeled_signed_increment_sum": 0.4125000238418579
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP159",
+      "edges": 2,
+      "contacts": 14,
+      "modeled_signed_increment_sum": -1.9250000715255737
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP165",
+      "edges": 2,
+      "contacts": 81,
+      "modeled_signed_increment_sum": -11.137500286102295
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP170",
+      "edges": 2,
+      "contacts": 26,
+      "modeled_signed_increment_sum": -3.5750001668930054
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP175",
+      "edges": 1,
+      "contacts": 54,
+      "modeled_signed_increment_sum": 7.425000190734863
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP176",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP177",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP178",
+      "edges": 2,
+      "contacts": 138,
+      "modeled_signed_increment_sum": 18.975000381469727
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP179",
+      "edges": 2,
+      "contacts": 181,
+      "modeled_signed_increment_sum": 24.887500762939453
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP181",
+      "edges": 2,
+      "contacts": 22,
+      "modeled_signed_increment_sum": 3.0250000953674316
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP190",
+      "edges": 2,
+      "contacts": 3,
+      "modeled_signed_increment_sum": 0.4125000089406967
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP193",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP194",
+      "edges": 2,
+      "contacts": 47,
+      "modeled_signed_increment_sum": 6.462500333786011
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP196_a",
+      "edges": 1,
+      "contacts": 73,
+      "modeled_signed_increment_sum": 10.037500381469727
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP196_b",
+      "edges": 1,
+      "contacts": 3,
+      "modeled_signed_increment_sum": 0.4125000238418579
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP198",
+      "edges": 1,
+      "contacts": 3,
+      "modeled_signed_increment_sum": -0.4125000238418579
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP215",
+      "edges": 1,
+      "contacts": 2,
+      "modeled_signed_increment_sum": -0.2750000059604645
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP238",
+      "edges": 1,
+      "contacts": 36,
+      "modeled_signed_increment_sum": 4.950000286102295
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP247",
+      "edges": 4,
+      "contacts": 10,
+      "modeled_signed_increment_sum": 1.3750000447034836
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP250",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": -0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP253",
+      "edges": 1,
+      "contacts": 3,
+      "modeled_signed_increment_sum": 0.4125000238418579
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP272",
+      "edges": 2,
+      "contacts": 3,
+      "modeled_signed_increment_sum": 0.4125000089406967
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP273",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP279_a",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": -0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP283",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP347",
+      "edges": 6,
+      "contacts": 81,
+      "modeled_signed_increment_sum": 11.137500166893005
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP350",
+      "edges": 1,
+      "contacts": 4,
+      "modeled_signed_increment_sum": 0.550000011920929
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP352",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP353",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP354",
+      "edges": 2,
+      "contacts": 2,
+      "modeled_signed_increment_sum": 0.2750000059604645
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP355",
+      "edges": 2,
+      "contacts": 9,
+      "modeled_signed_increment_sum": 1.2375000417232513
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP381_a",
+      "edges": 1,
+      "contacts": 3,
+      "modeled_signed_increment_sum": 0.4125000238418579
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP382",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP384",
+      "edges": 2,
+      "contacts": 115,
+      "modeled_signed_increment_sum": 15.8125
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP385",
+      "edges": 1,
+      "contacts": 4,
+      "modeled_signed_increment_sum": 0.550000011920929
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP399_a",
+      "edges": 1,
+      "contacts": 7,
+      "modeled_signed_increment_sum": 0.9625000357627869
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP399_b",
+      "edges": 1,
+      "contacts": 2,
+      "modeled_signed_increment_sum": 0.2750000059604645
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP399_c",
+      "edges": 1,
+      "contacts": 2,
+      "modeled_signed_increment_sum": 0.2750000059604645
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP404",
+      "edges": 1,
+      "contacts": 2,
+      "modeled_signed_increment_sum": 0.2750000059604645
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP405",
+      "edges": 1,
+      "contacts": 5,
+      "modeled_signed_increment_sum": 0.6875
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP406_b",
+      "edges": 1,
+      "contacts": 3,
+      "modeled_signed_increment_sum": 0.4125000238418579
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP406_c",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP407",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP408_a",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP408_b",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP408_d",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP409",
+      "edges": 2,
+      "contacts": 4,
+      "modeled_signed_increment_sum": 0.550000011920929
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP410",
+      "edges": 2,
+      "contacts": 4,
+      "modeled_signed_increment_sum": 0.550000011920929
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP411",
+      "edges": 1,
+      "contacts": 2,
+      "modeled_signed_increment_sum": 0.2750000059604645
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP429",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP446",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": -0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP450",
+      "edges": 5,
+      "contacts": 58,
+      "modeled_signed_increment_sum": -7.97500017285347
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP453",
+      "edges": 4,
+      "contacts": 35,
+      "modeled_signed_increment_sum": -4.812500238418579
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP476",
+      "edges": 4,
+      "contacts": 27,
+      "modeled_signed_increment_sum": 3.7125000953674316
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP503",
+      "edges": 2,
+      "contacts": 5,
+      "modeled_signed_increment_sum": 0.6875000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP504",
+      "edges": 2,
+      "contacts": 282,
+      "modeled_signed_increment_sum": 38.775001525878906
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP507",
+      "edges": 1,
+      "contacts": 23,
+      "modeled_signed_increment_sum": 3.1625001430511475
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP535",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": -0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP569",
+      "edges": 2,
+      "contacts": 9,
+      "modeled_signed_increment_sum": 1.2375000268220901
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP570",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP572",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP588",
+      "edges": 2,
+      "contacts": 3,
+      "modeled_signed_increment_sum": 0.4125000089406967
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP592",
+      "edges": 3,
+      "contacts": 4,
+      "modeled_signed_increment_sum": 0.550000011920929
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP593",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": -0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP596",
+      "edges": 1,
+      "contacts": 2,
+      "modeled_signed_increment_sum": 0.2750000059604645
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP598",
+      "edges": 2,
+      "contacts": 8,
+      "modeled_signed_increment_sum": -1.1000000536441803
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP705m",
+      "edges": 2,
+      "contacts": 6,
+      "modeled_signed_increment_sum": -0.8250000476837158
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP709m",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP714m",
+      "edges": 2,
+      "contacts": 2,
+      "modeled_signed_increment_sum": 0.2750000059604645
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP715m",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP716m",
+      "edges": 1,
+      "contacts": 2,
+      "modeled_signed_increment_sum": 0.2750000059604645
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP719m",
+      "edges": 3,
+      "contacts": 22,
+      "modeled_signed_increment_sum": -3.025000050663948
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP721m",
+      "edges": 1,
+      "contacts": 3,
+      "modeled_signed_increment_sum": 0.4125000238418579
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP723m",
+      "edges": 3,
+      "contacts": 5,
+      "modeled_signed_increment_sum": -0.6875000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP732",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP734",
+      "edges": 3,
+      "contacts": 10,
+      "modeled_signed_increment_sum": 1.3750000149011612
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "SMP744",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "VES040",
+      "edges": 1,
+      "contacts": 2,
+      "modeled_signed_increment_sum": 0.2750000059604645
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "VES092",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": -0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "aIPg9",
+      "edges": 2,
+      "contacts": 34,
+      "modeled_signed_increment_sum": 4.675000190734863
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "aIPg_m1",
+      "edges": 1,
+      "contacts": 2,
+      "modeled_signed_increment_sum": 0.2750000059604645
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "aIPg_m3",
+      "edges": 1,
+      "contacts": 3,
+      "modeled_signed_increment_sum": 0.4125000238418579
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "mALB1",
+      "edges": 2,
+      "contacts": 6,
+      "modeled_signed_increment_sum": -0.8250000029802322
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "mALD3",
+      "edges": 2,
+      "contacts": 47,
+      "modeled_signed_increment_sum": -6.462500333786011
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "pC1_15c",
+      "edges": 1,
+      "contacts": 1,
+      "modeled_signed_increment_sum": 0.13750000298023224
+    },
+    {
+      "target_body_id": 11900,
+      "pre_type": "pC1_16b",
+      "edges": 1,
+      "contacts": 2,
+      "modeled_signed_increment_sum": 0.2750000059604645
+    }
+  ],
+  "roles": {
+    "is_kc": [
+      {
+        "target_body_id": 11327,
+        "edges": 3068,
+        "contacts": 11846,
+        "signed_increment_sum": 1628.825050741434
+      },
+      {
+        "target_body_id": 11900,
+        "edges": 3100,
+        "contacts": 12222,
+        "signed_increment_sum": 1680.5250522494316
+      }
+    ],
+    "is_mbon": [
+      {
+        "target_body_id": 11327,
+        "edges": 30,
+        "contacts": 464,
+        "signed_increment_sum": -21.44999970495701
+      },
+      {
+        "target_body_id": 11900,
+        "edges": 34,
+        "contacts": 461,
+        "signed_increment_sum": -19.937500208616257
+      }
+    ],
+    "is_sensory_port": [
+      {
+        "target_body_id": 11900,
+        "edges": 1,
+        "contacts": 1,
+        "signed_increment_sum": 0.13750000298023224
+      }
+    ],
+    "is_apl": [
+      {
+        "target_body_id": 11327,
+        "edges": 2,
+        "contacts": 49,
+        "signed_increment_sum": -1.6843750476837158
+      },
+      {
+        "target_body_id": 11900,
+        "edges": 2,
+        "contacts": 58,
+        "signed_increment_sum": -1.9937500357627869
+      }
+    ]
+  },
+  "top20_per_target": {
+    "11327": [
+      {
+        "target_body_id": 11327,
+        "target_index": 1235,
+        "target_instance": "PPL101(y1ped)_R",
+        "pre_body_id": 11038,
+        "pre_index": 961,
+        "pre_class": "None",
+        "pre_type": "GNG321",
+        "pre_superclass": "cb_intrinsic",
+        "pre_instance": "GNG321(hb582372162)_L",
+        "transmitter": "acetylcholine",
+        "modeled_fast_sign": 1,
+        "ambiguous_fast_sign": false,
+        "contacts": 295,
+        "edge_index": 1167284,
+        "global_scale": 0.5,
+        "base_per_contact_scale": 0.275,
+        "post_gain": 1.0,
+        "apl_output_gain": 1.0,
+        "dopamine_fast_zeroed": false,
+        "plastic_gain": 1.0,
+        "modeled_conductance_increment": 40.5625,
+        "is_kc": false,
+        "is_mbon": false,
+        "is_sensory_port": false,
+        "is_apl": false
+      },
+      {
+        "target_body_id": 11327,
+        "target_index": 1235,
+        "target_instance": "PPL101(y1ped)_R",
+        "pre_body_id": 17988,
+        "pre_index": 7297,
+        "pre_class": "None",
+        "pre_type": "SMP053",
+        "pre_superclass": "cb_intrinsic",
+        "pre_instance": "SMP053_R",
+        "transmitter": "glutamate",
+        "modeled_fast_sign": -1,
+        "ambiguous_fast_sign": false,
+        "contacts": 274,
+        "edge_index": 3959585,
+        "global_scale": 0.5,
+        "base_per_contact_scale": 0.275,
+        "post_gain": 1.0,
+        "apl_output_gain": 1.0,
+        "dopamine_fast_zeroed": false,
+        "plastic_gain": 1.0,
+        "modeled_conductance_increment": -37.67499923706055,
+        "is_kc": false,
+        "is_mbon": false,
+        "is_sensory_port": false,
+        "is_apl": false
+      },
+      {
+        "target_body_id": 11327,
+        "target_index": 1235,
+        "target_instance": "PPL101(y1ped)_R",
+        "pre_body_id": 13576,
+        "pre_index": 3339,
+        "pre_class": "None",
+        "pre_type": "AVLP563",
+        "pre_superclass": "cb_intrinsic",
+        "pre_instance": "AVLP563_R",
+        "transmitter": "acetylcholine",
+        "modeled_fast_sign": 1,
+        "ambiguous_fast_sign": false,
+        "contacts": 247,
+        "edge_index": 2505753,
+        "global_scale": 0.5,
+        "base_per_contact_scale": 0.275,
+        "post_gain": 1.0,
+        "apl_output_gain": 1.0,
+        "dopamine_fast_zeroed": false,
+        "plastic_gain": 1.0,
+        "modeled_conductance_increment": 33.962501525878906,
+        "is_kc": false,
+        "is_mbon": false,
+        "is_sensory_port": false,
+        "is_apl": false
+      },
+      {
+        "target_body_id": 11327,
+        "target_index": 1235,
+        "target_instance": "PPL101(y1ped)_R",
+        "pre_body_id": 34896,
+        "pre_index": 22321,
+        "pre_class": "None",
+        "pre_type": "SMP026",
+        "pre_superclass": "cb_intrinsic",
+        "pre_instance": "SMP026_L",
+        "transmitter": "acetylcholine",
+        "modeled_fast_sign": 1,
+        "ambiguous_fast_sign": false,
+        "contacts": 204,
+        "edge_index": 7440597,
+        "global_scale": 0.5,
+        "base_per_contact_scale": 0.275,
+        "post_gain": 1.0,
+        "apl_output_gain": 1.0,
+        "dopamine_fast_zeroed": false,
+        "plastic_gain": 1.0,
+        "modeled_conductance_increment": 28.05000114440918,
+        "is_kc": false,
+        "is_mbon": false,
+        "is_sensory_port": false,
+        "is_apl": false
+      },
+      {
+        "target_body_id": 11327,
+        "target_index": 1235,
+        "target_instance": "PPL101(y1ped)_R",
+        "pre_body_id": 13526,
+        "pre_index": 3294,
+        "pre_class": "None",
+        "pre_type": "SMP026",
+        "pre_superclass": "cb_intrinsic",
+        "pre_instance": "SMP026_R",
+        "transmitter": "acetylcholine",
+        "modeled_fast_sign": 1,
+        "ambiguous_fast_sign": false,
+        "contacts": 155,
+        "edge_index": 2484707,
+        "global_scale": 0.5,
+        "base_per_contact_scale": 0.275,
+        "post_gain": 1.0,
+        "apl_output_gain": 1.0,
+        "dopamine_fast_zeroed": false,
+        "plastic_gain": 1.0,
+        "modeled_conductance_increment": 21.3125,
+        "is_kc": false,
+        "is_mbon": false,
+        "is_sensory_port": false,
+        "is_apl": false
+      },
+      {
+        "target_body_id": 11327,
+        "target_index": 1235,
+        "target_instance": "PPL101(y1ped)_R",
+        "pre_body_id": 16160,
+        "pre_index": 5652,
+        "pre_class": "None",
+        "pre_type": "SMP504",
+        "pre_superclass": "cb_intrinsic",
+        "pre_instance": "SMP504_R",
+        "transmitter": "acetylcholine",
+        "modeled_fast_sign": 1,
+        "ambiguous_fast_sign": false,
+        "contacts": 143,
+        "edge_index": 3409212,
+        "global_scale": 0.5,
+        "base_per_contact_scale": 0.275,
+        "post_gain": 1.0,
+        "apl_output_gain": 1.0,
+        "dopamine_fast_zeroed": false,
+        "plastic_gain": 1.0,
+        "modeled_conductance_increment": 19.662500381469727,
+        "is_kc": false,
+        "is_mbon": false,
+        "is_sensory_port": false,
+        "is_apl": false
+      },
+      {
+        "target_body_id": 11327,
+        "target_index": 1235,
+        "target_instance": "PPL101(y1ped)_R",
+        "pre_body_id": 522984,
+        "pre_index": 131722,
+        "pre_class": "None",
+        "pre_type": "SMP056",
+        "pre_superclass": "cb_intrinsic",
+        "pre_instance": "SMP056_R",
+        "transmitter": "glutamate",
+        "modeled_fast_sign": -1,
+        "ambiguous_fast_sign": false,
+        "contacts": 137,
+        "edge_index": 20596087,
+        "global_scale": 0.5,
+        "base_per_contact_scale": 0.275,
+        "post_gain": 1.0,
+        "apl_output_gain": 1.0,
+        "dopamine_fast_zeroed": false,
+        "plastic_gain": 1.0,
+        "modeled_conductance_increment": -18.837499618530273,
+        "is_kc": false,
+        "is_mbon": false,
+        "is_sensory_port": false,
+        "is_apl": false
+      },
+      {
+        "target_body_id": 11327,
+        "target_index": 1235,
+        "target_instance": "PPL101(y1ped)_R",
+        "pre_body_id": 520379,
+        "pre_index": 130694,
+        "pre_class": "None",
+        "pre_type": "SMP154",
+        "pre_superclass": "cb_intrinsic",
+        "pre_instance": "SMP154_R",
+        "transmitter": "acetylcholine",
+        "modeled_fast_sign": 1,
+        "ambiguous_fast_sign": false,
+        "contacts": 132,
+        "edge_index": 20328066,
+        "global_scale": 0.5,
+        "base_per_contact_scale": 0.275,
+        "post_gain": 1.0,
+        "apl_output_gain": 1.0,
+        "dopamine_fast_zeroed": false,
+        "plastic_gain": 1.0,
+        "modeled_conductance_increment": 18.149999618530273,
+        "is_kc": false,
+        "is_mbon": false,
+        "is_sensory_port": false,
+        "is_apl": false
+      },
+      {
+        "target_body_id": 11327,
+        "target_index": 1235,
+        "target_instance": "PPL101(y1ped)_R",
+        "pre_body_id": 520083,
+        "pre_index": 130543,
+        "pre_class": "None",
+        "pre_type": "SMP053",
+        "pre_superclass": "cb_intrinsic",
+        "pre_instance": "SMP053_L",
+        "transmitter": "glutamate",
+        "modeled_fast_sign": -1,
+        "ambiguous_fast_sign": false,
+        "contacts": 107,
+        "edge_index": 20287445,
+        "global_scale": 0.5,
+        "base_per_contact_scale": 0.275,
+        "post_gain": 1.0,
+        "apl_output_gain": 1.0,
+        "dopamine_fast_zeroed": false,
+        "plastic_gain": 1.0,
+        "modeled_conductance_increment": -14.71250057220459,
+        "is_kc": false,
+        "is_mbon": false,
+        "is_sensory_port": false,
+        "is_apl": false
+      },
+      {
+        "target_body_id": 11327,
+        "target_index": 1235,
+        "target_instance": "PPL101(y1ped)_R",
+        "pre_body_id": 524949,
+        "pre_index": 132585,
+        "pre_class": "None",
+        "pre_type": "CRE027",
+        "pre_superclass": "cb_intrinsic",
+        "pre_instance": "CRE027_R",
+        "transmitter": "glutamate",
+        "modeled_fast_sign": -1,
+        "ambiguous_fast_sign": false,
+        "contacts": 106,
+        "edge_index": 20808096,
+        "global_scale": 0.5,
+        "base_per_contact_scale": 0.275,
+        "post_gain": 1.0,
+        "apl_output_gain": 1.0,
+        "dopamine_fast_zeroed": false,
+        "plastic_gain": 1.0,
+        "modeled_conductance_increment": -14.575000762939453,
+        "is_kc": false,
+        "is_mbon": false,
+        "is_sensory_port": false,
+        "is_apl": false
+      },
+      {
+        "target_body_id": 11327,
+        "target_index": 1235,
+        "target_instance": "PPL101(y1ped)_R",
+        "pre_body_id": 12676,
+        "pre_index": 2501,
+        "pre_class": "None",
+        "pre_type": "AVLP563",
+        "pre_superclass": "cb_intrinsic",
+        "pre_instance": "AVLP563_L",
+        "transmitter": "acetylcholine",
+        "modeled_fast_sign": 1,
+        "ambiguous_fast_sign": false,
+        "contacts": 97,
+        "edge_index": 2115164,
+        "global_scale": 0.5,
+        "base_per_contact_scale": 0.275,
+        "post_gain": 1.0,
+        "apl_output_gain": 1.0,
+        "dopamine_fast_zeroed": false,
+        "plastic_gain": 1.0,
+        "modeled_conductance_increment": 13.33750057220459,
+        "is_kc": false,
+        "is_mbon": false,
+        "is_sensory_port": false,
+        "is_apl": false
+      },
+      {
+        "target_body_id": 11327,
+        "target_index": 1235,
+        "target_instance": "PPL101(y1ped)_R",
+        "pre_body_id": 41086,
+        "pre_index": 27803,
+        "pre_class": "None",
+        "pre_type": "SMP179",
+        "pre_superclass": "cb_intrinsic",
+        "pre_instance": "SMP179_L",
+        "transmitter": "acetylcholine",
+        "modeled_fast_sign": 1,
+        "ambiguous_fast_sign": false,
+        "contacts": 93,
+        "edge_index": 8415110,
+        "global_scale": 0.5,
+        "base_per_contact_scale": 0.275,
+        "post_gain": 1.0,
+        "apl_output_gain": 1.0,
+        "dopamine_fast_zeroed": false,
+        "plastic_gain": 1.0,
+        "modeled_conductance_increment": 12.787500381469727,
+        "is_kc": false,
+        "is_mbon": false,
+        "is_sensory_port": false,
+        "is_apl": false
+      },
+      {
+        "target_body_id": 11327,
+        "target_index": 1235,
+        "target_instance": "PPL101(y1ped)_R",
+        "pre_body_id": 25975,
+        "pre_index": 14436,
+        "pre_class": "None",
+        "pre_type": "CRE027",
+        "pre_superclass": "cb_intrinsic",
+        "pre_instance": "CRE027_L",
+        "transmitter": "glutamate",
+        "modeled_fast_sign": -1,
+        "ambiguous_fast_sign": false,
+        "contacts": 91,
+        "edge_index": 5861821,
+        "global_scale": 0.5,
+        "base_per_contact_scale": 0.275,
+        "post_gain": 1.0,
+        "apl_output_gain": 1.0,
+        "dopamine_fast_zeroed": false,
+        "plastic_gain": 1.0,
+        "modeled_conductance_increment": -12.512499809265137,
+        "is_kc": false,
+        "is_mbon": false,
+        "is_sensory_port": false,
+        "is_apl": false
+      },
+      {
+        "target_body_id": 11327,
+        "target_index": 1235,
+        "target_instance": "PPL101(y1ped)_R",
+        "pre_body_id": 15605,
+        "pre_index": 5154,
+        "pre_class": "None",
+        "pre_type": "CL326",
+        "pre_superclass": "cb_intrinsic",
+        "pre_instance": "CL326_L",
+        "transmitter": "acetylcholine",
+        "modeled_fast_sign": 1,
+        "ambiguous_fast_sign": false,
+        "contacts": 81,
+        "edge_index": 3235606,
+        "global_scale": 0.5,
+        "base_per_contact_scale": 0.275,
+        "post_gain": 1.0,
+        "apl_output_gain": 1.0,
+        "dopamine_fast_zeroed": false,
+        "plastic_gain": 1.0,
+        "modeled_conductance_increment": 11.137499809265137,
+        "is_kc": false,
+        "is_mbon": false,
+        "is_sensory_port": false,
+        "is_apl": false
+      },
+      {
+        "target_body_id": 11327,
+        "target_index": 1235,
+        "target_instance": "PPL101(y1ped)_R",
+        "pre_body_id": 11900,
+        "pre_index": 1774,
+        "pre_class": "DAN",
+        "pre_type": "PPL101",
+        "pre_superclass": "cb_intrinsic",
+        "pre_instance": "PPL101(y1ped)_L",
+        "transmitter": "dopamine",
+        "modeled_fast_sign": 1,
+        "ambiguous_fast_sign": true,
+        "contacts": 78,
+        "edge_index": 1714718,
+        "global_scale": 0.5,
+        "base_per_contact_scale": 0.275,
+        "post_gain": 1.0,
+        "apl_output_gain": 1.0,
+        "dopamine_fast_zeroed": true,
+        "plastic_gain": 1.0,
+        "modeled_conductance_increment": 0.0,
+        "is_kc": false,
+        "is_mbon": false,
+        "is_sensory_port": false,
+        "is_apl": false
+      },
+      {
+        "target_body_id": 11327,
+        "target_index": 1235,
+        "target_instance": "PPL101(y1ped)_R",
+        "pre_body_id": 29799,
+        "pre_index": 17853,
+        "pre_class": "None",
+        "pre_type": "CRE027",
+        "pre_superclass": "cb_intrinsic",
+        "pre_instance": "CRE027_L",
+        "transmitter": "glutamate",
+        "modeled_fast_sign": -1,
+        "ambiguous_fast_sign": false,
+        "contacts": 78,
+        "edge_index": 6589418,
+        "global_scale": 0.5,
+        "base_per_contact_scale": 0.275,
+        "post_gain": 1.0,
+        "apl_output_gain": 1.0,
+        "dopamine_fast_zeroed": false,
+        "plastic_gain": 1.0,
+        "modeled_conductance_increment": -10.725000381469727,
+        "is_kc": false,
+        "is_mbon": false,
+        "is_sensory_port": false,
+        "is_apl": false
+      },
+      {
+        "target_body_id": 11327,
+        "target_index": 1235,
+        "target_instance": "PPL101(y1ped)_R",
+        "pre_body_id": 12569,
+        "pre_index": 2403,
+        "pre_class": "None",
+        "pre_type": "DPM",
+        "pre_superclass": "cb_intrinsic",
+        "pre_instance": "DPM_R",
+        "transmitter": "dopamine",
+        "modeled_fast_sign": 1,
+        "ambiguous_fast_sign": true,
+        "contacts": 67,
+        "edge_index": 2063203,
+        "global_scale": 0.5,
+        "base_per_contact_scale": 0.275,
+        "post_gain": 1.0,
+        "apl_output_gain": 1.0,
+        "dopamine_fast_zeroed": true,
+        "plastic_gain": 1.0,
+        "modeled_conductance_increment": 0.0,
+        "is_kc": false,
+        "is_mbon": false,
+        "is_sensory_port": false,
+        "is_apl": false
+      },
+      {
+        "target_body_id": 11327,
+        "target_index": 1235,
+        "target_instance": "PPL101(y1ped)_R",
+        "pre_body_id": 11402,
+        "pre_index": 1306,
+        "pre_class": "MBON",
+        "pre_type": "MBON11",
+        "pre_superclass": "cb_intrinsic",
+        "pre_instance": "MBON11(y1pedc>a/B)_R",
+        "transmitter": "gaba",
+        "modeled_fast_sign": -1,
+        "ambiguous_fast_sign": false,
+        "contacts": 66,
+        "edge_index": 1418872,
+        "global_scale": 0.5,
+        "base_per_contact_scale": 0.275,
+        "post_gain": 1.0,
+        "apl_output_gain": 1.0,
+        "dopamine_fast_zeroed": false,
+        "plastic_gain": 1.0,
+        "modeled_conductance_increment": -9.074999809265137,
+        "is_kc": false,
+        "is_mbon": true,
+        "is_sensory_port": false,
+        "is_apl": false
+      },
+      {
+        "target_body_id": 11327,
+        "target_index": 1235,
+        "target_instance": "PPL101(y1ped)_R",
+        "pre_body_id": 26641,
+        "pre_index": 15029,
+        "pre_class": "None",
+        "pre_type": "CRE027",
+        "pre_superclass": "cb_intrinsic",
+        "pre_instance": "CRE027_R",
+        "transmitter": "glutamate",
+        "modeled_fast_sign": -1,
+        "ambiguous_fast_sign": false,
+        "contacts": 64,
+        "edge_index": 5998109,
+        "global_scale": 0.5,
+        "base_per_contact_scale": 0.275,
+        "post_gain": 1.0,
+        "apl_output_gain": 1.0,
+        "dopamine_fast_zeroed": false,
+        "plastic_gain": 1.0,
+        "modeled_conductance_increment": -8.800000190734863,
+        "is_kc": false,
+        "is_mbon": false,
+        "is_sensory_port": false,
+        "is_apl": false
+      },
+      {
+        "target_body_id": 11327,
+        "target_index": 1235,
+        "target_instance": "PPL101(y1ped)_R",
+        "pre_body_id": 15782,
+        "pre_index": 5321,
+        "pre_class": "None",
+        "pre_type": "SMP384",
+        "pre_superclass": "cb_intrinsic",
+        "pre_instance": "SMP384_L",
+        "transmitter": "unclear",
+        "modeled_fast_sign": 1,
+        "ambiguous_fast_sign": true,
+        "contacts": 63,
+        "edge_index": 3290109,
+        "global_scale": 0.5,
+        "base_per_contact_scale": 0.275,
+        "post_gain": 1.0,
+        "apl_output_gain": 1.0,
+        "dopamine_fast_zeroed": false,
+        "plastic_gain": 1.0,
+        "modeled_conductance_increment": 8.662500381469727,
+        "is_kc": false,
+        "is_mbon": false,
+        "is_sensory_port": false,
+        "is_apl": false
+      }
+    ],
+    "11900": [
+      {
+        "target_body_id": 11900,
+        "target_index": 1774,
+        "target_instance": "PPL101(y1ped)_L",
+        "pre_body_id": 17878,
+        "pre_index": 7203,
+        "pre_class": "None",
+        "pre_type": "GNG321",
+        "pre_superclass": "cb_intrinsic",
+        "pre_instance": "GNG321(hb612095452)_R",
+        "transmitter": "acetylcholine",
+        "modeled_fast_sign": 1,
+        "ambiguous_fast_sign": false,
+        "contacts": 365,
+        "edge_index": 3932288,
+        "global_scale": 0.5,
+        "base_per_contact_scale": 0.275,
+        "post_gain": 1.0,
+        "apl_output_gain": 1.0,
+        "dopamine_fast_zeroed": false,
+        "plastic_gain": 1.0,
+        "modeled_conductance_increment": 50.1875,
+        "is_kc": false,
+        "is_mbon": false,
+        "is_sensory_port": false,
+        "is_apl": false
+      },
+      {
+        "target_body_id": 11900,
+        "target_index": 1774,
+        "target_instance": "PPL101(y1ped)_L",
+        "pre_body_id": 512187,
+        "pre_index": 125974,
+        "pre_class": "None",
+        "pre_type": "SMP056",
+        "pre_superclass": "cb_intrinsic",
+        "pre_instance": "SMP056_L",
+        "transmitter": "glutamate",
+        "modeled_fast_sign": -1,
+        "ambiguous_fast_sign": false,
+        "contacts": 289,
+        "edge_index": 19361811,
+        "global_scale": 0.5,
+        "base_per_contact_scale": 0.275,
+        "post_gain": 1.0,
+        "apl_output_gain": 1.0,
+        "dopamine_fast_zeroed": false,
+        "plastic_gain": 1.0,
+        "modeled_conductance_increment": -39.73749923706055,
+        "is_kc": false,
+        "is_mbon": false,
+        "is_sensory_port": false,
+        "is_apl": false
+      },
+      {
+        "target_body_id": 11900,
+        "target_index": 1774,
+        "target_instance": "PPL101(y1ped)_L",
+        "pre_body_id": 13526,
+        "pre_index": 3294,
+        "pre_class": "None",
+        "pre_type": "SMP026",
+        "pre_superclass": "cb_intrinsic",
+        "pre_instance": "SMP026_R",
+        "transmitter": "acetylcholine",
+        "modeled_fast_sign": 1,
+        "ambiguous_fast_sign": false,
+        "contacts": 288,
+        "edge_index": 2484714,
+        "global_scale": 0.5,
+        "base_per_contact_scale": 0.275,
+        "post_gain": 1.0,
+        "apl_output_gain": 1.0,
+        "dopamine_fast_zeroed": false,
+        "plastic_gain": 1.0,
+        "modeled_conductance_increment": 39.60000228881836,
+        "is_kc": false,
+        "is_mbon": false,
+        "is_sensory_port": false,
+        "is_apl": false
+      },
+      {
+        "target_body_id": 11900,
+        "target_index": 1774,
+        "target_instance": "PPL101(y1ped)_L",
+        "pre_body_id": 520083,
+        "pre_index": 130543,
+        "pre_class": "None",
+        "pre_type": "SMP053",
+        "pre_superclass": "cb_intrinsic",
+        "pre_instance": "SMP053_L",
+        "transmitter": "glutamate",
+        "modeled_fast_sign": -1,
+        "ambiguous_fast_sign": false,
+        "contacts": 261,
+        "edge_index": 20287454,
+        "global_scale": 0.5,
+        "base_per_contact_scale": 0.275,
+        "post_gain": 1.0,
+        "apl_output_gain": 1.0,
+        "dopamine_fast_zeroed": false,
+        "plastic_gain": 1.0,
+        "modeled_conductance_increment": -35.88750076293945,
+        "is_kc": false,
+        "is_mbon": false,
+        "is_sensory_port": false,
+        "is_apl": false
+      },
+      {
+        "target_body_id": 11900,
+        "target_index": 1774,
+        "target_instance": "PPL101(y1ped)_L",
+        "pre_body_id": 12676,
+        "pre_index": 2501,
+        "pre_class": "None",
+        "pre_type": "AVLP563",
+        "pre_superclass": "cb_intrinsic",
+        "pre_instance": "AVLP563_L",
+        "transmitter": "acetylcholine",
+        "modeled_fast_sign": 1,
+        "ambiguous_fast_sign": false,
+        "contacts": 252,
+        "edge_index": 2115175,
+        "global_scale": 0.5,
+        "base_per_contact_scale": 0.275,
+        "post_gain": 1.0,
+        "apl_output_gain": 1.0,
+        "dopamine_fast_zeroed": false,
+        "plastic_gain": 1.0,
+        "modeled_conductance_increment": 34.650001525878906,
+        "is_kc": false,
+        "is_mbon": false,
+        "is_sensory_port": false,
+        "is_apl": false
+      },
+      {
+        "target_body_id": 11900,
+        "target_index": 1774,
+        "target_instance": "PPL101(y1ped)_L",
+        "pre_body_id": 15669,
+        "pre_index": 5213,
+        "pre_class": "None",
+        "pre_type": "SMP504",
+        "pre_superclass": "cb_intrinsic",
+        "pre_instance": "SMP504_L",
+        "transmitter": "acetylcholine",
+        "modeled_fast_sign": 1,
+        "ambiguous_fast_sign": false,
+        "contacts": 217,
+        "edge_index": 3253948,
+        "global_scale": 0.5,
+        "base_per_contact_scale": 0.275,
+        "post_gain": 1.0,
+        "apl_output_gain": 1.0,
+        "dopamine_fast_zeroed": false,
+        "plastic_gain": 1.0,
+        "modeled_conductance_increment": 29.837501525878906,
+        "is_kc": false,
+        "is_mbon": false,
+        "is_sensory_port": false,
+        "is_apl": false
+      },
+      {
+        "target_body_id": 11900,
+        "target_index": 1774,
+        "target_instance": "PPL101(y1ped)_L",
+        "pre_body_id": 34896,
+        "pre_index": 22321,
+        "pre_class": "None",
+        "pre_type": "SMP026",
+        "pre_superclass": "cb_intrinsic",
+        "pre_instance": "SMP026_L",
+        "transmitter": "acetylcholine",
+        "modeled_fast_sign": 1,
+        "ambiguous_fast_sign": false,
+        "contacts": 209,
+        "edge_index": 7440605,
+        "global_scale": 0.5,
+        "base_per_contact_scale": 0.275,
+        "post_gain": 1.0,
+        "apl_output_gain": 1.0,
+        "dopamine_fast_zeroed": false,
+        "plastic_gain": 1.0,
+        "modeled_conductance_increment": 28.73750114440918,
+        "is_kc": false,
+        "is_mbon": false,
+        "is_sensory_port": false,
+        "is_apl": false
+      },
+      {
+        "target_body_id": 11900,
+        "target_index": 1774,
+        "target_instance": "PPL101(y1ped)_L",
+        "pre_body_id": 14982,
+        "pre_index": 4602,
+        "pre_class": "None",
+        "pre_type": "SMP154",
+        "pre_superclass": "cb_intrinsic",
+        "pre_instance": "SMP154_L",
+        "transmitter": "acetylcholine",
+        "modeled_fast_sign": 1,
+        "ambiguous_fast_sign": false,
+        "contacts": 192,
+        "edge_index": 3030201,
+        "global_scale": 0.5,
+        "base_per_contact_scale": 0.275,
+        "post_gain": 1.0,
+        "apl_output_gain": 1.0,
+        "dopamine_fast_zeroed": false,
+        "plastic_gain": 1.0,
+        "modeled_conductance_increment": 26.400001525878906,
+        "is_kc": false,
+        "is_mbon": false,
+        "is_sensory_port": false,
+        "is_apl": false
+      },
+      {
+        "target_body_id": 11900,
+        "target_index": 1774,
+        "target_instance": "PPL101(y1ped)_L",
+        "pre_body_id": 13576,
+        "pre_index": 3339,
+        "pre_class": "None",
+        "pre_type": "AVLP563",
+        "pre_superclass": "cb_intrinsic",
+        "pre_instance": "AVLP563_R",
+        "transmitter": "acetylcholine",
+        "modeled_fast_sign": 1,
+        "ambiguous_fast_sign": false,
+        "contacts": 184,
+        "edge_index": 2505761,
+        "global_scale": 0.5,
+        "base_per_contact_scale": 0.275,
+        "post_gain": 1.0,
+        "apl_output_gain": 1.0,
+        "dopamine_fast_zeroed": false,
+        "plastic_gain": 1.0,
+        "modeled_conductance_increment": 25.30000114440918,
+        "is_kc": false,
+        "is_mbon": false,
+        "is_sensory_port": false,
+        "is_apl": false
+      },
+      {
+        "target_body_id": 11900,
+        "target_index": 1774,
+        "target_instance": "PPL101(y1ped)_L",
+        "pre_body_id": 26641,
+        "pre_index": 15029,
+        "pre_class": "None",
+        "pre_type": "CRE027",
+        "pre_superclass": "cb_intrinsic",
+        "pre_instance": "CRE027_R",
+        "transmitter": "glutamate",
+        "modeled_fast_sign": -1,
+        "ambiguous_fast_sign": false,
+        "contacts": 148,
+        "edge_index": 5998119,
+        "global_scale": 0.5,
+        "base_per_contact_scale": 0.275,
+        "post_gain": 1.0,
+        "apl_output_gain": 1.0,
+        "dopamine_fast_zeroed": false,
+        "plastic_gain": 1.0,
+        "modeled_conductance_increment": -20.350000381469727,
+        "is_kc": false,
+        "is_mbon": false,
+        "is_sensory_port": false,
+        "is_apl": false
+      },
+      {
+        "target_body_id": 11900,
+        "target_index": 1774,
+        "target_instance": "PPL101(y1ped)_L",
+        "pre_body_id": 61779,
+        "pre_index": 45565,
+        "pre_class": "None",
+        "pre_type": "CRE069",
+        "pre_superclass": "cb_intrinsic",
+        "pre_instance": "CRE069_R",
+        "transmitter": "acetylcholine",
+        "modeled_fast_sign": 1,
+        "ambiguous_fast_sign": false,
+        "contacts": 136,
+        "edge_index": 11269021,
+        "global_scale": 0.5,
+        "base_per_contact_scale": 0.275,
+        "post_gain": 1.0,
+        "apl_output_gain": 1.0,
+        "dopamine_fast_zeroed": false,
+        "plastic_gain": 1.0,
+        "modeled_conductance_increment": 18.700000762939453,
+        "is_kc": false,
+        "is_mbon": false,
+        "is_sensory_port": false,
+        "is_apl": false
+      },
+      {
+        "target_body_id": 11900,
+        "target_index": 1774,
+        "target_instance": "PPL101(y1ped)_L",
+        "pre_body_id": 29799,
+        "pre_index": 17853,
+        "pre_class": "None",
+        "pre_type": "CRE027",
+        "pre_superclass": "cb_intrinsic",
+        "pre_instance": "CRE027_L",
+        "transmitter": "glutamate",
+        "modeled_fast_sign": -1,
+        "ambiguous_fast_sign": false,
+        "contacts": 127,
+        "edge_index": 6589426,
+        "global_scale": 0.5,
+        "base_per_contact_scale": 0.275,
+        "post_gain": 1.0,
+        "apl_output_gain": 1.0,
+        "dopamine_fast_zeroed": false,
+        "plastic_gain": 1.0,
+        "modeled_conductance_increment": -17.462499618530273,
+        "is_kc": false,
+        "is_mbon": false,
+        "is_sensory_port": false,
+        "is_apl": false
+      },
+      {
+        "target_body_id": 11900,
+        "target_index": 1774,
+        "target_instance": "PPL101(y1ped)_L",
+        "pre_body_id": 13595,
+        "pre_index": 3356,
+        "pre_class": "None",
+        "pre_type": "CL326",
+        "pre_superclass": "cb_intrinsic",
+        "pre_instance": "CL326_R",
+        "transmitter": "acetylcholine",
+        "modeled_fast_sign": 1,
+        "ambiguous_fast_sign": false,
+        "contacts": 126,
+        "edge_index": 2518197,
+        "global_scale": 0.5,
+        "base_per_contact_scale": 0.275,
+        "post_gain": 1.0,
+        "apl_output_gain": 1.0,
+        "dopamine_fast_zeroed": false,
+        "plastic_gain": 1.0,
+        "modeled_conductance_increment": 17.325000762939453,
+        "is_kc": false,
+        "is_mbon": false,
+        "is_sensory_port": false,
+        "is_apl": false
+      },
+      {
+        "target_body_id": 11900,
+        "target_index": 1774,
+        "target_instance": "PPL101(y1ped)_L",
+        "pre_body_id": 524949,
+        "pre_index": 132585,
+        "pre_class": "None",
+        "pre_type": "CRE027",
+        "pre_superclass": "cb_intrinsic",
+        "pre_instance": "CRE027_R",
+        "transmitter": "glutamate",
+        "modeled_fast_sign": -1,
+        "ambiguous_fast_sign": false,
+        "contacts": 126,
+        "edge_index": 20808104,
+        "global_scale": 0.5,
+        "base_per_contact_scale": 0.275,
+        "post_gain": 1.0,
+        "apl_output_gain": 1.0,
+        "dopamine_fast_zeroed": false,
+        "plastic_gain": 1.0,
+        "modeled_conductance_increment": -17.325000762939453,
+        "is_kc": false,
+        "is_mbon": false,
+        "is_sensory_port": false,
+        "is_apl": false
+      },
+      {
+        "target_body_id": 11900,
+        "target_index": 1774,
+        "target_instance": "PPL101(y1ped)_L",
+        "pre_body_id": 522984,
+        "pre_index": 131722,
+        "pre_class": "None",
+        "pre_type": "SMP056",
+        "pre_superclass": "cb_intrinsic",
+        "pre_instance": "SMP056_R",
+        "transmitter": "glutamate",
+        "modeled_fast_sign": -1,
+        "ambiguous_fast_sign": false,
+        "contacts": 124,
+        "edge_index": 20596095,
+        "global_scale": 0.5,
+        "base_per_contact_scale": 0.275,
+        "post_gain": 1.0,
+        "apl_output_gain": 1.0,
+        "dopamine_fast_zeroed": false,
+        "plastic_gain": 1.0,
+        "modeled_conductance_increment": -17.05000114440918,
+        "is_kc": false,
+        "is_mbon": false,
+        "is_sensory_port": false,
+        "is_apl": false
+      },
+      {
+        "target_body_id": 11900,
+        "target_index": 1774,
+        "target_instance": "PPL101(y1ped)_L",
+        "pre_body_id": 25975,
+        "pre_index": 14436,
+        "pre_class": "None",
+        "pre_type": "CRE027",
+        "pre_superclass": "cb_intrinsic",
+        "pre_instance": "CRE027_L",
+        "transmitter": "glutamate",
+        "modeled_fast_sign": -1,
+        "ambiguous_fast_sign": false,
+        "contacts": 120,
+        "edge_index": 5861828,
+        "global_scale": 0.5,
+        "base_per_contact_scale": 0.275,
+        "post_gain": 1.0,
+        "apl_output_gain": 1.0,
+        "dopamine_fast_zeroed": false,
+        "plastic_gain": 1.0,
+        "modeled_conductance_increment": -16.5,
+        "is_kc": false,
+        "is_mbon": false,
+        "is_sensory_port": false,
+        "is_apl": false
+      },
+      {
+        "target_body_id": 11900,
+        "target_index": 1774,
+        "target_instance": "PPL101(y1ped)_L",
+        "pre_body_id": 41086,
+        "pre_index": 27803,
+        "pre_class": "None",
+        "pre_type": "SMP179",
+        "pre_superclass": "cb_intrinsic",
+        "pre_instance": "SMP179_L",
+        "transmitter": "acetylcholine",
+        "modeled_fast_sign": 1,
+        "ambiguous_fast_sign": false,
+        "contacts": 104,
+        "edge_index": 8415115,
+        "global_scale": 0.5,
+        "base_per_contact_scale": 0.275,
+        "post_gain": 1.0,
+        "apl_output_gain": 1.0,
+        "dopamine_fast_zeroed": false,
+        "plastic_gain": 1.0,
+        "modeled_conductance_increment": 14.300000190734863,
+        "is_kc": false,
+        "is_mbon": false,
+        "is_sensory_port": false,
+        "is_apl": false
+      },
+      {
+        "target_body_id": 11900,
+        "target_index": 1774,
+        "target_instance": "PPL101(y1ped)_L",
+        "pre_body_id": 521687,
+        "pre_index": 131365,
+        "pre_class": "None",
+        "pre_type": "AVLP477",
+        "pre_superclass": "cb_intrinsic",
+        "pre_instance": "AVLP477_L",
+        "transmitter": "acetylcholine",
+        "modeled_fast_sign": 1,
+        "ambiguous_fast_sign": false,
+        "contacts": 100,
+        "edge_index": 20499595,
+        "global_scale": 0.5,
+        "base_per_contact_scale": 0.275,
+        "post_gain": 1.0,
+        "apl_output_gain": 1.0,
+        "dopamine_fast_zeroed": false,
+        "plastic_gain": 1.0,
+        "modeled_conductance_increment": 13.75,
+        "is_kc": false,
+        "is_mbon": false,
+        "is_sensory_port": false,
+        "is_apl": false
+      },
+      {
+        "target_body_id": 11900,
+        "target_index": 1774,
+        "target_instance": "PPL101(y1ped)_L",
+        "pre_body_id": 11327,
+        "pre_index": 1235,
+        "pre_class": "DAN",
+        "pre_type": "PPL101",
+        "pre_superclass": "cb_intrinsic",
+        "pre_instance": "PPL101(y1ped)_R",
+        "transmitter": "dopamine",
+        "modeled_fast_sign": 1,
+        "ambiguous_fast_sign": true,
+        "contacts": 85,
+        "edge_index": 1369132,
+        "global_scale": 0.5,
+        "base_per_contact_scale": 0.275,
+        "post_gain": 1.0,
+        "apl_output_gain": 1.0,
+        "dopamine_fast_zeroed": true,
+        "plastic_gain": 1.0,
+        "modeled_conductance_increment": 0.0,
+        "is_kc": false,
+        "is_mbon": false,
+        "is_sensory_port": false,
+        "is_apl": false
+      },
+      {
+        "target_body_id": 11900,
+        "target_index": 1774,
+        "target_instance": "PPL101(y1ped)_L",
+        "pre_body_id": 15578,
+        "pre_index": 5132,
+        "pre_class": "None",
+        "pre_type": "SMP178",
+        "pre_superclass": "cb_intrinsic",
+        "pre_instance": "SMP178_R",
+        "transmitter": "acetylcholine",
+        "modeled_fast_sign": 1,
+        "ambiguous_fast_sign": false,
+        "contacts": 84,
+        "edge_index": 3228656,
+        "global_scale": 0.5,
+        "base_per_contact_scale": 0.275,
+        "post_gain": 1.0,
+        "apl_output_gain": 1.0,
+        "dopamine_fast_zeroed": false,
+        "plastic_gain": 1.0,
+        "modeled_conductance_increment": 11.550000190734863,
+        "is_kc": false,
+        "is_mbon": false,
+        "is_sensory_port": false,
+        "is_apl": false
+      }
+    ]
+  },
+  "counts": {
+    "edges": 7279,
+    "unique_presynaptic_cells": 4271,
+    "contacts": 39125,
+    "ambiguous_sign_edges": 133,
+    "dopamine_zeroed_contacts": 763
+  },
+  "caveat": "Signed increment sums assume one simultaneous presynaptic event per listed edge with a nonrefractory target. They are not measured currents, activity, causal contribution or biological receptor effects."
+}

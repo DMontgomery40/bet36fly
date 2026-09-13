@@ -1,0 +1,33 @@
+[
+  {
+    "source": "output/collaboration/reward-mechanism-repair/bridge-residual-attribution.md",
+    "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/bridge-residual-attribution.md",
+    "sha256": "9c6d99b94c4135ba665485b7823dcbe56da39b191527ddf3525047d269aa4f2c",
+    "bytes": 9938
+  },
+  {
+    "source": "output/collaboration/reward-mechanism-repair/bridge-residual-attribution.py",
+    "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/bridge-residual-attribution.py",
+    "sha256": "6c07e0bcc075c0055c403d89372c3f10aff5fe1889dd600f26713e54d07d80c2",
+    "bytes": 11317
+  },
+  {
+    "source": "output/collaboration/reward-mechanism-repair/bridge-residual-attribution.json",
+    "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/bridge-residual-attribution.json",
+    "sha256": "fd77354aa655def78dd2062ff44d37d4d28ca88174b8d04571bcba0892f102c5",
+    "bytes": 324155
+  },
+  {
+    "source": "output/collaboration/reward-mechanism-repair/bridge-residual-family-phase.csv",
+    "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/bridge-residual-family-phase.csv",
+    "sha256": "505d4798fe8dbf7c2fb9a6c9058c6b5bb3cb83c4ea2c517479e32ce279a73989",
+    "bytes": 6575
+  },
+  {
+    "source": "output/collaboration/reward-mechanism-repair/bridge-residual-per-kc.csv",
+    "retained_in_output": true,
+    "sha256": "599532fb924634579a6eae19ffcb06522f055836d8aa2c7d8df8917af322fdcc",
+    "bytes": 15848454,
+    "note": "Complete per-trial KC table remains in the local evidence output; the tracked report/JSON retain aggregate and named-cell results."
+  }
+]

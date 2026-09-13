@@ -1,0 +1,17 @@
+{
+  "copy_not_cut": true,
+  "copies": [
+    {
+      "source": "output/collaboration/reward-mechanism-repair/review_conditioning_draft.py",
+      "copy": "review_conditioning_draft.py",
+      "bytes": 3743,
+      "sha256": "7fe87b146933588ce5014eb57d7b60fd04036e275fb1ee3cbb647af13404078c"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/conditioning-draft-review.json",
+      "copy": "conditioning-draft-review.json",
+      "bytes": 856,
+      "sha256": "8452e796476c5544ff83805944a52cf2a520820410403f1a92ae0a862c9cd737"
+    }
+  ]
+}

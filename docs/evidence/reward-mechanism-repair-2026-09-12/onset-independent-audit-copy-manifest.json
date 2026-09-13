@@ -1,0 +1,23 @@
+{
+  "copy_not_cut": true,
+  "copies": [
+    {
+      "source": "output/collaboration/reward-mechanism-repair/onset-capture-independent-audit.md",
+      "copy": "onset-capture-independent-audit.md",
+      "sha256": "fcad93d1cd712a8a14d392af8af2abd830d700ef4b51722b333d3d0cf8666327",
+      "bytes": 7650
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/onset-capture-independent-audit.json",
+      "copy": "onset-capture-independent-audit.json",
+      "sha256": "7de1cd79bc06795cd16c3c7ec6d41c3e1e6bf5f99aadc16d1f6783b00d987ac5",
+      "bytes": 74197
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/audit_onset_capture.py",
+      "copy": "audit_onset_capture.py",
+      "sha256": "71522a3c8a5f992238e3250a5407a2ec55991595cda9962e12d20e83d865bb0d",
+      "bytes": 18149
+    }
+  ]
+}

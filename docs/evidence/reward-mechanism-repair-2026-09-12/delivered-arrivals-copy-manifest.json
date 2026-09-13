@@ -1,0 +1,72 @@
+{
+  "copy_not_cut": true,
+  "reproduction": "Execute original output-local scripts; their HERE-relative capture inputs remain under output/collaboration/reward-mechanism-repair. Copies preserve source bytes.",
+  "copies": [
+    {
+      "source": "output/collaboration/reward-mechanism-repair/delivered-arrivals-resumed.py",
+      "copy": "delivered-arrivals-resumed.py",
+      "bytes": 22928,
+      "sha256": "76c38cfed51966ba6c563757dea0927da21574a1957ec118764d8b2ec2bcf9cd"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/delivered-arrivals-resumed-tests.py",
+      "copy": "delivered-arrivals-resumed-tests.py",
+      "bytes": 9027,
+      "sha256": "6ee32780d8465f7a88313993a4c2533efa227c71296b71170193f405d1625855"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/delivered-arrivals-resumed-crosscheck.py",
+      "copy": "delivered-arrivals-resumed-crosscheck.py",
+      "bytes": 4118,
+      "sha256": "d6520a27048161bd4d862bbce794d5686acd756fe2a63d0e915d1fa8e2971651"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/delivered-arrivals-resumed-report.md",
+      "copy": "delivered-arrivals-resumed-report.md",
+      "bytes": 8564,
+      "sha256": "46ca82464a519b5e01d6ce72cdb9ae5e3ce2e416b230009016c2c343961afeee"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/delivered-arrivals-resumed-result.json",
+      "copy": "delivered-arrivals-resumed-result.json",
+      "bytes": 1121078,
+      "sha256": "73ce388bf3a012ce4ba8a2325e9dd6d7efd5d417ccee6a965227c3d294783481"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/delivered-arrivals-resumed-result.npz",
+      "copy": "delivered-arrivals-resumed-result.npz",
+      "bytes": 3916986,
+      "sha256": "a808e00c9169ed729a62ab95a13de536343bed1f4f2256e39c1939984e81550f"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/delivered-arrivals-resumed-phases.csv",
+      "copy": "delivered-arrivals-resumed-phases.csv",
+      "bytes": 109631,
+      "sha256": "0ffc884afe2c55448299936f78dcf6198acc8fcc4ec0eb2f77ef3f11ea973903"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/delivered-arrivals-resumed-crosscheck.json",
+      "copy": "delivered-arrivals-resumed-crosscheck.json",
+      "bytes": 10308,
+      "sha256": "c7ce0e509ea97832dfc8b04182ef8f21bafaf5c2dfd9fa92e1ff270348209046"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/delivered-arrivals-resumed-reading-receipt.md",
+      "copy": "delivered-arrivals-resumed-reading-receipt.md",
+      "bytes": 1958,
+      "sha256": "0d6f572838286f8665ccca77547b678363892f50b6a9c88e611ef69e6847ab29"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/delivered-arrivals-resumed-reading-receipt.json",
+      "copy": "delivered-arrivals-resumed-reading-receipt.json",
+      "bytes": 3688,
+      "sha256": "10231d7c035828f200214ecc5a9d7491acd4e71e3f07feece5120cdd1f09e85a"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/delivered-arrivals-resumed-reading/manifest.json",
+      "copy": "delivered-arrivals-resumed-reading/manifest.json",
+      "bytes": 25585,
+      "sha256": "f54ec05fd39ab0f3743670828514546aafc3a0c7d0c69f6852185da5efe07f21"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "status": "preregistered-not-captured",
+  "created_at": "2026-09-12T06:14:04.597079+00:00",
+  "source": "output/collaboration/reward-mechanism-repair/post-bridge-mechanism-investigation.md",
+  "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/onset-history-investigation-preregistration.md",
+  "sha256": "ca01c345c6c28ba2879b7cf05a6d1b2b802392f0067862e701a69da5778a5ad5",
+  "scope": "33 canonical cold-bridge recording calls with mandatory coarse/fine parity, followed by fixed-history offline shadow analysis only. No new rule, feedback, parameter search or conditioning.",
+  "planned_calls": 33,
+  "wall_seconds_cap": 600,
+  "canonical_code_commit": "3b09865",
+  "new_capture_identity_required_before_execution": true
+}

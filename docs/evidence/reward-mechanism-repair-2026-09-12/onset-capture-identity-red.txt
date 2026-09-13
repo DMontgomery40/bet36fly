@@ -1,0 +1,24 @@
+F                                                                        [100%]
+=================================== FAILURES ===================================
+_________ test_actual_read_only_capture_identity_and_mapping_roundtrip _________
+
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x10b15bf20>
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1531/test_actual_read_only_capture_0')
+
+    def test_actual_read_only_capture_identity_and_mapping_roundtrip(monkeypatch,tmp_path):
+     """Real frozen metadata only; no circuit construction or execution."""
+     import json
+     identity,maps=m.frozen_context()
+>    assert identity==json.loads(json.dumps(identity)), 'Nested identity must survive its persisted JSON representation'
+E    AssertionError: Nested identity must survive its persisted JSON representation
+E    assert {'contract_sh...07d91a'}, ...} == {'contract_sh...07d91a'}, ...}
+E      
+E      Omitting 20 identical items, use -vv to show
+E      Differing items:
+E      {'shadow': {'histories': ['cold', 'continuous'], 'feedback': False, 'eta': 0.0005, 'tau_e_ms': 500.0, ...}} != {'shadow': {'histories': ['cold', 'continuous'], 'feedback': False, 'eta': 0.0005, 'tau_e_ms': 500.0, ...}}
+E      Use -v to get more diff
+
+output/collaboration/reward-mechanism-repair/test_onset_history_capture.py:328: AssertionError
+=========================== short test summary info ============================
+FAILED output/collaboration/reward-mechanism-repair/test_onset_history_capture.py::test_actual_read_only_capture_identity_and_mapping_roundtrip
+1 failed, 111 deselected in 0.55s

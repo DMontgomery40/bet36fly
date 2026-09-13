@@ -1,0 +1,587 @@
+{
+  "scope": "Pair contact audit only; no synaptic location or physiological coupling inferred.",
+  "original_source_pair_check": {
+    "passed": true,
+    "pairs": 14551,
+    "selected_dans": 24
+  },
+  "inputs": {
+    "data/brain/ids.npy": "ab90597b7b0ce07cbc22cb39a65b70bea2ac73cc7fd225951bd9d73f2fc8dd3f",
+    "data/brain/indptr.npy": "fe43420f11e6242a11f8199ae7f097cab4b8a6db181d36f2a46b9e46670acbb4",
+    "data/brain/post.npy": "ce20f7433f78442c717ad2a7b5394cf4a3b109d990b4be0788040b7b0f4ed150",
+    "data/brain/counts.npy": "4a11faf9771fc3d5a5ff78ae7620ec1ce400f52d099ff657f0342cfc7a519f6b",
+    "data/raw/annotations.feather": "2177e246113e4cfbf1e7772ec37c6da1955ff22e8063d0b1f833101f99a9a3b2",
+    "wiki/cells/data/reward-edges.csv": "4d9053e969164295c85bd7bb90fdfec9cd5e0664ad2fecbaa0c83263e57b751c",
+    "data/raw/connectome-weights.feather": "e35da783d1c686b2b58b3b87cd6a403ae43bfcfba8bff28e08ef752c1a56afc1"
+  },
+  "rows": [
+    {
+      "channel": "home",
+      "body_id": 11327,
+      "instance": "PPL101(y1ped)_R",
+      "soma_side": "R",
+      "root_side": null,
+      "receptor_type": null,
+      "eligible_kcs_with_direct_pair_contact": 2482,
+      "direct_contacts_to_eligible_kcs": 5934,
+      "direct_contacts_to_selected_mbons": {
+        "10704": 444,
+        "11402": 781
+      },
+      "kc_type_contact_counts": {
+        "KCab-s": 730,
+        "KCab-c": 371,
+        "KCg-m": 3686,
+        "KCg-s1": 17,
+        "KCg-d": 375,
+        "KCg-s2": 16,
+        "KCab-m": 596,
+        "KCab-p": 130,
+        "KCa'b'-ap1": 3,
+        "KCg-s3": 5,
+        "KCa'b'-ap2": 1,
+        "KCg-s4": 1,
+        "KCa'b'-m": 3
+      }
+    },
+    {
+      "channel": "home",
+      "body_id": 11900,
+      "instance": "PPL101(y1ped)_L",
+      "soma_side": "L",
+      "root_side": null,
+      "receptor_type": null,
+      "eligible_kcs_with_direct_pair_contact": 2428,
+      "direct_contacts_to_eligible_kcs": 5516,
+      "direct_contacts_to_selected_mbons": {
+        "10704": 476,
+        "11402": 610
+      },
+      "kc_type_contact_counts": {
+        "KCg-m": 3538,
+        "KCg-s1": 18,
+        "KCg-d": 259,
+        "KCg-s2": 14,
+        "KCab-m": 484,
+        "KCab-p": 106,
+        "KCg": 8,
+        "KCab-s": 651,
+        "KCg-s3": 5,
+        "KCab-c": 427,
+        "KCa'b'-ap1": 1,
+        "KCg-s4": 5
+      }
+    },
+    {
+      "channel": "home",
+      "union_summary": true,
+      "eligible_kcs": 3623,
+      "directly_contacted_by_any_selected_dan": 3049,
+      "directly_contacted_by_all_selected_dans": 1861,
+      "uncontacted_by_selected_dans": 574
+    },
+    {
+      "channel": "away",
+      "body_id": 61360,
+      "instance": "PAM12(y3)_L",
+      "soma_side": "L",
+      "root_side": null,
+      "receptor_type": null,
+      "eligible_kcs_with_direct_pair_contact": 415,
+      "direct_contacts_to_eligible_kcs": 573,
+      "direct_contacts_to_selected_mbons": {
+        "18713": 28,
+        "19267": 29,
+        "21242": 18,
+        "523060": 35
+      },
+      "kc_type_contact_counts": {
+        "KCg-m": 528,
+        "KCg-s1": 4,
+        "KCg-s2": 1,
+        "KCg-d": 40
+      }
+    },
+    {
+      "channel": "away",
+      "body_id": 91391,
+      "instance": "PAM12(y3)_L",
+      "soma_side": "L",
+      "root_side": null,
+      "receptor_type": null,
+      "eligible_kcs_with_direct_pair_contact": 377,
+      "direct_contacts_to_eligible_kcs": 491,
+      "direct_contacts_to_selected_mbons": {
+        "18713": 28,
+        "19267": 29,
+        "21242": 6,
+        "523060": 13
+      },
+      "kc_type_contact_counts": {
+        "KCg-s1": 3,
+        "KCg-m": 474,
+        "KCg-d": 14
+      }
+    },
+    {
+      "channel": "away",
+      "body_id": 91875,
+      "instance": "PAM12(y3)_L",
+      "soma_side": "L",
+      "root_side": null,
+      "receptor_type": null,
+      "eligible_kcs_with_direct_pair_contact": 394,
+      "direct_contacts_to_eligible_kcs": 521,
+      "direct_contacts_to_selected_mbons": {
+        "18713": 39,
+        "19267": 29,
+        "21242": 13,
+        "523060": 22
+      },
+      "kc_type_contact_counts": {
+        "KCg-m": 470,
+        "KCg-s1": 2,
+        "KCg-d": 48,
+        "KCg-s4": 1
+      }
+    },
+    {
+      "channel": "away",
+      "body_id": 96571,
+      "instance": "PAM12(y3)_L",
+      "soma_side": "L",
+      "root_side": null,
+      "receptor_type": null,
+      "eligible_kcs_with_direct_pair_contact": 357,
+      "direct_contacts_to_eligible_kcs": 458,
+      "direct_contacts_to_selected_mbons": {
+        "18713": 23,
+        "19267": 28,
+        "21242": 2,
+        "523060": 8
+      },
+      "kc_type_contact_counts": {
+        "KCg-s1": 2,
+        "KCg-d": 132,
+        "KCg-s2": 3,
+        "KCg-m": 316,
+        "KCg": 1,
+        "KCg-s3": 3,
+        "KCg-s4": 1
+      }
+    },
+    {
+      "channel": "away",
+      "body_id": 104460,
+      "instance": "PAM12(y3)_L",
+      "soma_side": "L",
+      "root_side": null,
+      "receptor_type": null,
+      "eligible_kcs_with_direct_pair_contact": 376,
+      "direct_contacts_to_eligible_kcs": 484,
+      "direct_contacts_to_selected_mbons": {
+        "18713": 24,
+        "19267": 28,
+        "21242": 6,
+        "523060": 6
+      },
+      "kc_type_contact_counts": {
+        "KCg-d": 146,
+        "KCg-s2": 1,
+        "KCg-m": 333,
+        "KCg": 2,
+        "KCg-s3": 2
+      }
+    },
+    {
+      "channel": "away",
+      "body_id": 105447,
+      "instance": "PAM12(y3)_L",
+      "soma_side": "L",
+      "root_side": null,
+      "receptor_type": null,
+      "eligible_kcs_with_direct_pair_contact": 337,
+      "direct_contacts_to_eligible_kcs": 418,
+      "direct_contacts_to_selected_mbons": {
+        "18713": 26,
+        "19267": 22,
+        "21242": 7,
+        "523060": 18
+      },
+      "kc_type_contact_counts": {
+        "KCg-m": 337,
+        "KCg-s1": 1,
+        "KCg-d": 77,
+        "KCg": 1,
+        "KCg-s3": 1,
+        "KCg-s4": 1
+      }
+    },
+    {
+      "channel": "away",
+      "body_id": 111665,
+      "instance": "PAM12(y3)_R",
+      "soma_side": "R",
+      "root_side": null,
+      "receptor_type": null,
+      "eligible_kcs_with_direct_pair_contact": 327,
+      "direct_contacts_to_eligible_kcs": 422,
+      "direct_contacts_to_selected_mbons": {
+        "18713": 33,
+        "19267": 33,
+        "21242": 9,
+        "523060": 17
+      },
+      "kc_type_contact_counts": {
+        "KCg-m": 390,
+        "KCg-s2": 1,
+        "KCg-d": 31
+      }
+    },
+    {
+      "channel": "away",
+      "body_id": 113001,
+      "instance": "PAM12(y3)_R",
+      "soma_side": "R",
+      "root_side": null,
+      "receptor_type": null,
+      "eligible_kcs_with_direct_pair_contact": 316,
+      "direct_contacts_to_eligible_kcs": 374,
+      "direct_contacts_to_selected_mbons": {
+        "18713": 10,
+        "19267": 9,
+        "21242": 14,
+        "523060": 23
+      },
+      "kc_type_contact_counts": {
+        "KCg-s1": 1,
+        "KCg-m": 268,
+        "KCg-d": 99,
+        "KCg-s2": 2,
+        "KCg": 1,
+        "KCg-s3": 1,
+        "KCg-s4": 2
+      }
+    },
+    {
+      "channel": "away",
+      "body_id": 126900,
+      "instance": "PAM12(y3)_L",
+      "soma_side": "L",
+      "root_side": null,
+      "receptor_type": null,
+      "eligible_kcs_with_direct_pair_contact": 403,
+      "direct_contacts_to_eligible_kcs": 538,
+      "direct_contacts_to_selected_mbons": {
+        "18713": 28,
+        "19267": 47,
+        "21242": 20,
+        "523060": 29
+      },
+      "kc_type_contact_counts": {
+        "KCg-m": 465,
+        "KCg-s1": 2,
+        "KCg-d": 70,
+        "KCg-s2": 1
+      }
+    },
+    {
+      "channel": "away",
+      "body_id": 135171,
+      "instance": "PAM12(y3)_R",
+      "soma_side": "R",
+      "root_side": null,
+      "receptor_type": null,
+      "eligible_kcs_with_direct_pair_contact": 384,
+      "direct_contacts_to_eligible_kcs": 493,
+      "direct_contacts_to_selected_mbons": {
+        "18713": 27,
+        "19267": 25,
+        "21242": 15,
+        "523060": 27
+      },
+      "kc_type_contact_counts": {
+        "KCg-s1": 3,
+        "KCg-m": 465,
+        "KCg-d": 25
+      }
+    },
+    {
+      "channel": "away",
+      "body_id": 138585,
+      "instance": "PAM12(y3)_L",
+      "soma_side": "L",
+      "root_side": null,
+      "receptor_type": null,
+      "eligible_kcs_with_direct_pair_contact": 405,
+      "direct_contacts_to_eligible_kcs": 529,
+      "direct_contacts_to_selected_mbons": {
+        "18713": 22,
+        "19267": 24,
+        "21242": 8,
+        "523060": 14
+      },
+      "kc_type_contact_counts": {
+        "KCg-d": 8,
+        "KCg-m": 518,
+        "KCg-s1": 2,
+        "KCg-s2": 1
+      }
+    },
+    {
+      "channel": "away",
+      "body_id": 139280,
+      "instance": "PAM12(y3)_R",
+      "soma_side": "R",
+      "root_side": null,
+      "receptor_type": null,
+      "eligible_kcs_with_direct_pair_contact": 289,
+      "direct_contacts_to_eligible_kcs": 365,
+      "direct_contacts_to_selected_mbons": {
+        "18713": 12,
+        "19267": 25,
+        "21242": 17,
+        "523060": 23
+      },
+      "kc_type_contact_counts": {
+        "KCg-m": 343,
+        "KCg-d": 18,
+        "KCg-s1": 1,
+        "KCg-s3": 2,
+        "KCg-s4": 1
+      }
+    },
+    {
+      "channel": "away",
+      "body_id": 139378,
+      "instance": "PAM12(y3)_R",
+      "soma_side": "R",
+      "root_side": null,
+      "receptor_type": null,
+      "eligible_kcs_with_direct_pair_contact": 368,
+      "direct_contacts_to_eligible_kcs": 493,
+      "direct_contacts_to_selected_mbons": {
+        "18713": 12,
+        "19267": 18,
+        "21242": 14,
+        "523060": 14
+      },
+      "kc_type_contact_counts": {
+        "KCg-m": 490,
+        "KCg-d": 3
+      }
+    },
+    {
+      "channel": "away",
+      "body_id": 144625,
+      "instance": "PAM12(y3)_L",
+      "soma_side": "L",
+      "root_side": null,
+      "receptor_type": null,
+      "eligible_kcs_with_direct_pair_contact": 362,
+      "direct_contacts_to_eligible_kcs": 461,
+      "direct_contacts_to_selected_mbons": {
+        "18713": 30,
+        "19267": 34,
+        "21242": 7,
+        "523060": 12
+      },
+      "kc_type_contact_counts": {
+        "KCg-s1": 3,
+        "KCg-m": 395,
+        "KCg-d": 61,
+        "KCg": 2
+      }
+    },
+    {
+      "channel": "away",
+      "body_id": 146418,
+      "instance": "PAM12(y3)_R",
+      "soma_side": "R",
+      "root_side": null,
+      "receptor_type": null,
+      "eligible_kcs_with_direct_pair_contact": 338,
+      "direct_contacts_to_eligible_kcs": 446,
+      "direct_contacts_to_selected_mbons": {
+        "18713": 28,
+        "19267": 23,
+        "21242": 15,
+        "523060": 22
+      },
+      "kc_type_contact_counts": {
+        "KCg-m": 367,
+        "KCg-s1": 3,
+        "KCg-s2": 1,
+        "KCg-d": 69,
+        "KCg": 2,
+        "KCg-s3": 1,
+        "KCg-s4": 3
+      }
+    },
+    {
+      "channel": "away",
+      "body_id": 152428,
+      "instance": "PAM12(y3)_L",
+      "soma_side": "L",
+      "root_side": null,
+      "receptor_type": null,
+      "eligible_kcs_with_direct_pair_contact": 366,
+      "direct_contacts_to_eligible_kcs": 509,
+      "direct_contacts_to_selected_mbons": {
+        "18713": 14,
+        "19267": 29,
+        "21242": 9,
+        "523060": 16
+      },
+      "kc_type_contact_counts": {
+        "KCg-m": 497,
+        "KCg-s1": 1,
+        "KCg-s2": 1,
+        "KCg-d": 10
+      }
+    },
+    {
+      "channel": "away",
+      "body_id": 157257,
+      "instance": "PAM12(y3)_L",
+      "soma_side": "L",
+      "root_side": null,
+      "receptor_type": null,
+      "eligible_kcs_with_direct_pair_contact": 424,
+      "direct_contacts_to_eligible_kcs": 576,
+      "direct_contacts_to_selected_mbons": {
+        "18713": 43,
+        "19267": 40,
+        "21242": 12,
+        "523060": 24
+      },
+      "kc_type_contact_counts": {
+        "KCg-s1": 6,
+        "KCg-d": 89,
+        "KCg-s2": 1,
+        "KCg-m": 478,
+        "KCg-s3": 1,
+        "KCg-s4": 1
+      }
+    },
+    {
+      "channel": "away",
+      "body_id": 158917,
+      "instance": "PAM12(y3)_R",
+      "soma_side": "R",
+      "root_side": null,
+      "receptor_type": null,
+      "eligible_kcs_with_direct_pair_contact": 330,
+      "direct_contacts_to_eligible_kcs": 413,
+      "direct_contacts_to_selected_mbons": {
+        "18713": 22,
+        "19267": 24,
+        "21242": 11,
+        "523060": 23
+      },
+      "kc_type_contact_counts": {
+        "KCg-m": 348,
+        "KCg-s1": 1,
+        "KCg-d": 62,
+        "KCg-s3": 2
+      }
+    },
+    {
+      "channel": "away",
+      "body_id": 196622,
+      "instance": "PAM12(y3)_R",
+      "soma_side": "R",
+      "root_side": null,
+      "receptor_type": null,
+      "eligible_kcs_with_direct_pair_contact": 363,
+      "direct_contacts_to_eligible_kcs": 475,
+      "direct_contacts_to_selected_mbons": {
+        "18713": 30,
+        "19267": 30,
+        "21242": 13,
+        "523060": 9
+      },
+      "kc_type_contact_counts": {
+        "KCg-m": 461,
+        "KCg-s1": 1,
+        "KCg-d": 13
+      }
+    },
+    {
+      "channel": "away",
+      "body_id": 206851,
+      "instance": "PAM12(y3)_R",
+      "soma_side": "R",
+      "root_side": null,
+      "receptor_type": null,
+      "eligible_kcs_with_direct_pair_contact": 344,
+      "direct_contacts_to_eligible_kcs": 429,
+      "direct_contacts_to_selected_mbons": {
+        "18713": 15,
+        "19267": 25,
+        "21242": 17,
+        "523060": 25
+      },
+      "kc_type_contact_counts": {
+        "KCg-m": 404,
+        "KCg-s1": 1,
+        "KCg-s2": 1,
+        "KCg-d": 22,
+        "KCg-s4": 1
+      }
+    },
+    {
+      "channel": "away",
+      "body_id": 520384,
+      "instance": "PAM12(y3)_R",
+      "soma_side": "R",
+      "root_side": null,
+      "receptor_type": null,
+      "eligible_kcs_with_direct_pair_contact": 419,
+      "direct_contacts_to_eligible_kcs": 546,
+      "direct_contacts_to_selected_mbons": {
+        "18713": 31,
+        "19267": 29,
+        "21242": 22,
+        "523060": 20
+      },
+      "kc_type_contact_counts": {
+        "KCg-s1": 3,
+        "KCg-d": 71,
+        "KCg-m": 472
+      }
+    },
+    {
+      "channel": "away",
+      "body_id": 552362,
+      "instance": "PAM12(y3)_R",
+      "soma_side": "R",
+      "root_side": null,
+      "receptor_type": null,
+      "eligible_kcs_with_direct_pair_contact": 322,
+      "direct_contacts_to_eligible_kcs": 431,
+      "direct_contacts_to_selected_mbons": {
+        "18713": 9,
+        "19267": 12,
+        "21242": 9,
+        "523060": 14
+      },
+      "kc_type_contact_counts": {
+        "KCg-m": 226,
+        "KCg-s1": 2,
+        "KCg-d": 199,
+        "KCg-s2": 1,
+        "KCg-s3": 1,
+        "KCg-s4": 2
+      }
+    },
+    {
+      "channel": "away",
+      "union_summary": true,
+      "eligible_kcs": 1557,
+      "directly_contacted_by_any_selected_dan": 1546,
+      "directly_contacted_by_all_selected_dans": 0,
+      "uncontacted_by_selected_dans": 11
+    }
+  ]
+}

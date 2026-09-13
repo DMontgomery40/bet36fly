@@ -1,18 +1,24 @@
 ---
 type: experimental-reasoning
-updated: 2026-09-12
-status: proposed-mechanism-validation
+updated: 2026-09-13
+status: qualification-failed-conditioning-unrun
 ---
 # Evidence required for a learning claim
 
-The active scientific hold is **SCI-001: untaught-home change exceeds the predeclared operational guard**. It remains open in the [repair report](../docs/evidence/reassessment-2026-09-12/repair-phase1.md). The following sequence describes evidence still needed, not experiments run by this wiki task.
+The active scientific hold is **SCI-001: untaught-home change exceeds the predeclared
+operational guard**. Corrected raw panel `e3d8898dc68a` fails at home/base mean
+−0.515622884 against absolute limit 0.489777884. Bridge panel `dea14759e9ca` fails
+at −0.272640035 against 0.240845235. The onset-history shadow was also rejected.
+[Current results and complete identities](../docs/evidence/reward-mechanism-repair-2026-09-12/index.md).
+The following sequence describes evidence still needed; conditioning and reversal
+have not run.
 
 ## Keep four levels separate
 
 | Level | What would establish it | Current evidence |
 | --- | --- | --- |
 | Anatomical identity | Locked source files, source-aligned cell IDs, actual directed contacts | Imported graph and freshly exported atlas |
-| Numerical implementation | Rule oracle, trace-order tests, bounds, masking, disabled-learning parity, exact replay | Existing main tests and separate repair tests/diagnostics; verify each on its own branch |
+| Numerical implementation | Rule oracle, trace-order tests, bounds, masking, disabled-learning parity, exact replay | Integrated refractory/mask/bridge tests and independent artifact audits; scientific qualification still fails |
 | Cue-specific learning | Acquisition versus matched controls, independent probe noise, selective effects and reversal | Not yet established |
 | Sports usefulness | Matched, out-of-sample comparison against controls and same-information baselines | Historical pilots failed; no repaired sports result verified here |
 
@@ -39,8 +45,21 @@ Shuffled labels are not a timing-unpaired experiment. A frozen comparison does n
 
 No new thresholds are invented here. Existing guard definitions and failures are preserved; a future mechanistic protocol must declare any additional criteria before observing the result.
 
-## The separate schema-5 handoff
+## Frozen conditioning contract and separate sports handoff
 
-The saved [handoff](../docs/evidence/reassessment-2026-09-12/repair-handoff.md) specifies one descriptive development comparison with paired, shuffled, untaught and frozen arms, raw D, gamma-only away updates, unchanged data/gains/encoder/readout and identical initial gains. It is not the timing-unpaired/reversal program above. Its scores would be descriptive even if improved; SCI-001 remains unchanged. No schema-5 pilot was executed by this task.
+The [conditioning preregistration](../docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-preregistration.md)
+and [pre-run addendum](../docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-prerun-addendum.md)
+specify acquisition of A/B, an independent C/D pair, and reversal from acquired
+A/B checkpoints. They fix 1,632 planned calls, a 1,640-call cap and 1,200-second
+cap. Both unchanged qualification panels must pass before entry. Reversal requires
+old response and preferred-edge gain recovery, new-target depression, fixed fresh
+noise probes and lineage checks. A preference flip alone can be dual-channel
+remapping without erasure and is not strict reversal.
+
+The historical [sports handoff](../docs/evidence/reassessment-2026-09-12/repair-handoff.md)
+specifies a descriptive development comparison with paired, shuffled, untaught
+and frozen arms. It is distinct from the conditioning/reversal program above.
+The active repair requires a qualified mechanism before a new sports default or
+pilot. No schema-5 pilot has run; historical scores do not satisfy these gates.
 
 [Wiki index](index.md) · [Reassessment](reassessment.md)

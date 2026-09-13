@@ -1,0 +1,40 @@
+# Independent onset capture/shadow review — September12,2026
+
+Status: final released spec/code-quality PASS; see the final reviewed identities below. Earlier in-progress paragraphs preserve review history. No full-CNS call, production import/edit or parameter search by this reviewer. The independent output-local signal checks do not invoke the native engine.
+
+The frozen ca01c345 contract and final residual-attribution report were read completely. Initial numerical review compared the harness's state recurrence with an independently authored closed event-pair integral and direct impulse-response quadrature. The25case comparison passed against provisional harness044996af5733faf725cf89be7066bfcbd78b06c653b667e995fe0fade735eb34. It checks exact final float32 gains, pre-injection onset states, true separate electrical/tail areas, attempted integrals, bounded double accumulation, publication and inclusive bound counts. This is a provisional numerical result, not the final harness identity.
+
+The independent reference script passes14cases including cold/warm variants. Its boundary mutant demonstrates that duplicate100ms injection doubles the cross-boundary effect. Pre-only ordered histories produce post100ms updates without pre100ms gain writes. A100/100.2ms pair has a sub-half-ULP remaining tail, preventing lost electrical updates from being hidden by tail publication. Binary dense histories test clipping at both bounds and sign reversal. Sources and exact numbers are in onset-reference-audit.md and onset-harness-oracle-check.json.
+
+Reviewed the full initial340-line harness, including source/graph/archive/sample mapping freeze, cue schedule construction, retained gain/sensory/DAN equality, independent cold pair check, shadow-only processing, complete33-call sequencing, save-before-check behavior, subprocess cancellation/deadline, and immutable output paths. Confirmed schedule construction matches the current diagnostic encoder normalization and40×10ms schedule; fine capture repeats every row50times with electrical dt unchanged. Actual transmitted gains remain the canonical cold bridge; offline arrays have no callback into neural dynamics, and result/checkpoint hashes are rechecked after shadows.
+
+Two narrow review findings were sent to the worker before release:
+
+1. pre_onset_published_changes was a literal0. A test asserting that field could not detect an erroneous pre100ms write. Requested actual onset double-gain/publication snapshots against the initial checkpoint, using a pre-only mixed history. The existing update gate itself was correct; this is a test-integrity issue.
+2. Exact cue/seed identity was mostly validated against another field in the same loaded summary; only the first row and row count were independently fixed. Requested an independent lock of all32 frozen selectors or SHA-pinned source preregistrations, plus altered/reordered/nonfirst-row regressions. This is an execution-contract gap, not evidence that current retained inputs changed.
+
+Final spec/code-quality verdict, current hashes and focused verification will be added only after the worker releases a stable tested harness. Root controls any freeze/capture after that verdict. The failed bridge second panel and conditioning HOLD remain unchanged.
+
+A third concrete release blocker was found in final pre-capture review: frozen_context put the tuple FIELDS into shadow.fields. JSON deserialization converts it to a list, so verify_receipt compared unequal identities after a normal freeze/read cycle. A bounded output-local import demonstrated tuple→list and false roundtrip equality; no circuit was invoked. Requested list/canonical JSON identity and a representative nested roundtrip regression. The earlier mock freeze identity did not contain this real field. Final PASS remains withheld pending correction and stable verification.
+
+## Final released review
+
+**Spec compliance: PASS. Code and test quality: PASS.** No remaining blocking findings. The worker explicitly released ownership after the final112-test gate. The reviewer then reran only the25 independent signal-only comparisons against the exact released harness; all passed. This approves freezing and executing the33-call diagnostic capture under its mandatory parity/stopping contract. It does not establish a captured result, continuous-history benefit, a qualified circuit rule or acquisition/reversal.
+
+Reviewed identities:
+
+- Harness onset_history_capture.py: `8ec357c56d376d3f2073f2b3b64df3d7f3bf6955bdb4b0d55b007207d60833ed`.
+- Local tests test_onset_history_capture.py: `131585b61a217c978777154d269881830ff851d795439ccc2e69496c7cfdf41b`.
+- Actual112-pass4.70s focused log: `388a9bf2b0589e0b89f439565465dec595c2d7182d3241d0461a4d474e92de39`.
+- Independent comparison script: `89951cdbad79e75a4772db91f211fb2a067cbee6880973a8e86bfb708bc73973`.
+- Final25-check result: `77d882016733f269ceeee6cbeb0f426ab3f32aad655816b8b72a6bbde75ba41c`.
+
+All three identified issues are resolved. The actual onset publication and double-accumulator snapshots are retained and runtime-checked against initial values. A separately specified32-row cue/noise/seed/order table locks every selector, with generalized mutations rejected. The identity now stores fields as a JSON list; the real metadata/mapping freeze/reopen regression first failed for tuple/list conversion and then passed. This is one concrete serialization defect, not112 separate defects.
+
+The final tests additionally cover true separate areas, fixed-population/partial-population normalization, pre-only and cross-boundary histories, sub-ULP accumulation, clipped sign reversals, both bounds, tail and publication, no-prehistory equality, immutable input arrays, malformed rasters/mappings, coarse/fine native parity over nonconstant schedules/seeds/samples/pulse-refractory cases, mismatch rejection across retained evidence, midstream native failures/cancellation/deadlines, attempt logging before native calls, refusal of a34thattempt, and exclusive immutable freeze files. A complete seven-neuron fixture executes the actual worker's33 captures and64 shadows with prior-artifact/fingerprint checks; it is explicitly not a MaleCNS experiment.
+
+The final capture worker recreates the canonical sensory schedule and unit checkpoint for each trial, records every native attempt before invocation, saves results before parity validation, and refuses output overwrite. It compares fine/coarse integer aggregation and all matching numerical outputs, checks saved canonical gains/sensory/DAN/aggregate-KC histories, requires exact cold final gain reproduction, and compares independent closed-pair phase attempts within the frozen tolerances. The continuous shadow's gains never feed transmission; result fingerprints and actual engine checkpoint are unchanged afterward. Filter evolution before100ms is separated from zero gain writes, onset snapshots precede the100ms injection, and the analytic tail follows the400ms state without new events. Sample identities, role columns/body IDs, graph/pilot/native/source hashes, and both prior archives are bound in the freeze. The independent32-selector lock prevents a same-summary self-consistency check from substituting for the frozen contract.
+
+An external supervisor enforces the600second deadline even during a native call, with terminate/kill cleanup; partial captures, attempt counts and failure/stop receipts remain available. Capture and offline processing occur under the same supervisor, a conservative bound relative to the33-call limit. Root must create the final capture receipt after this review; no receipt identity or output directory is asserted before that freeze. A later harness/test change requires another identity/review.
+
+No production files or public ABI changed in this output-local task. The standard repository gate belongs to the concurrent production QA task; the reviewer did not rerun it or invoke a browser/server. The actual output-local112-test receipt and25 independent numerical checks establish this scoped result. The original bridge second-panel failure and conditioning HOLD remain unchanged.

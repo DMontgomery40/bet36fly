@@ -1,0 +1,94 @@
+{
+  "copied_at": "2026-09-13T04:12:45.963501+00:00",
+  "mode": "copy; output originals retained",
+  "files": [
+    {
+      "source": "output/collaboration/reward-mechanism-repair/task4b-evidence-ui-report.md",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/task4b-evidence-ui-report.md",
+      "bytes": 6426,
+      "sha256": "c2caf6a88da15371f9b8fc2005a639ffb67f07dc87cda2860bf5a823f0202456"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/task4b-release-hashes.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/task4b-release-hashes.json",
+      "bytes": 1388,
+      "sha256": "f151a03765c7e594ee25ec727c30eb2b0e04a46e36dc76b8c0e4bf5298704ac3"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/task4b-root-verify.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/task4b-root-verify.txt",
+      "bytes": 2843,
+      "sha256": "df3e3c0ac2ba9eb0f95228b80ddf6ccb5bef0428c4173a28d420bccbe59a1a15"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/task4b-file-baseline.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/task4b-file-baseline.json",
+      "bytes": 239747,
+      "sha256": "e234bf3434eb9eca7261ae83b842b9072335875f0755340ca1fc4ca887b54a80"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/task4b-files-after-requests.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/task4b-files-after-requests.json",
+      "bytes": 285,
+      "sha256": "a8f12f65a00fc6b63d617142b59a6d6582d36ca210f3bfdf467d6701c728aec4"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/task4b-files-after-shutdown.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/task4b-files-after-shutdown.json",
+      "bytes": 285,
+      "sha256": "958229ef7951ee4fa0c89a969321e9cc4073ff542722c74eaf5f1bfe16030ce8"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/evidence-ui-resumed-reading.md",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/evidence-ui-resumed-reading.md",
+      "bytes": 4755,
+      "sha256": "7a2eb1f7c70cf7c5732f16559784bcaa3ca29e0823117799c07508ad91d79abb"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/evidence-ui-reading-delta.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/evidence-ui-reading-delta.json",
+      "bytes": 6781,
+      "sha256": "f5df80396c78754be5235ae3784c30cb1b6e823345ea09a19841c1379737aeeb"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/evidence-ui-final-reading-delta.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/evidence-ui-final-reading-delta.json",
+      "bytes": 8819,
+      "sha256": "e0ef5a5c3d6067e28528759093794aff1f0ab8fe2749b3b626835f739e6e26a9"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/dopamine-signal-final-doc-review-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/dopamine-signal-final-doc-review-2026-09-13.json",
+      "bytes": 2963,
+      "sha256": "529939ccf6301a0b395b16069b467239d36646ab7cb4c0fa8af9b298b9489143"
+    },
+    {
+      "source": "output/browser/task4b-evidence-20260913/bet36fly-reward-browser-evidence.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/bet36fly-reward-browser-evidence.json",
+      "bytes": 6188,
+      "sha256": "362ec373b933339589653c23e0b8652a6948c4d0d674e416a78bb81270f6a85b"
+    },
+    {
+      "source": "output/browser/task4b-evidence-20260913/bet36fly-mechanism-desktop.png",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/bet36fly-mechanism-desktop.png",
+      "bytes": 221650,
+      "sha256": "5c7bbe40789be2881a6cb13879550bb52574ae9687692741bcefb6ada3552e91"
+    },
+    {
+      "source": "output/browser/task4b-evidence-20260913/diag-rate-bridge-v1-maskgamma-dea14759e9ca-detail.png",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/diag-rate-bridge-v1-maskgamma-dea14759e9ca-detail.png",
+      "bytes": 193331,
+      "sha256": "0129913351b7227a211872b9793f7fd2d2723f0655e6d0cf32e609d4a8b3ec91"
+    }
+  ],
+  "server": {
+    "factory": "bet36fly.server:create_verification_app",
+    "bytecode_disabled": true,
+    "host": "127.0.0.1",
+    "assigned_port": 52861,
+    "pid": 70057,
+    "exit_code": 0
+  },
+  "file_check_method": "verify_qa_files.py snapshot/check with SCOPES extended by output/diagnostics; baseline after final make verify/build and before server startup; comparisons after browser and after server shutdown.",
+  "remaining_browser_images": "output/browser/task4b-evidence-20260913/; originals retained; all images described by the browser receipt are local acceptance artifacts."
+}

@@ -1,0 +1,23 @@
+# Independent onset-history numerical reference audit
+
+September12,2026. Scope: reference-only mathematics under output/collaboration; no production imports, native call, circuit execution or parameter search. The finalized bridge-residual-attribution.md and both frozen onset investigation documents were read in full. The ca01c345 scientific contract remains unchanged.
+
+`onset-reference-audit.py` evaluates an event-history oracle using a closed pair integral and separately checks true positive/negative areas by numerical quadrature of the continuous impulse responses. It does not implement or call the native state recurrence. Constants are the frozen0.2ms grid,500ms eligibility,100ms rate filter, eta0.0005, normalization0.96, gain-write onset100ms and endpoint400ms.
+
+For a unit KC event at k and a DAN event at d, set l=abs(d−k), m=max(k,d), b=1/500+1/100. The complete post-pair integral is −sign(d−k)*eta*(exp(−l/500)−exp(−l/100)); the normalization cancels the two-filter coefficient. Restricting gain writes to [L,U) multiplies this by exp(−b*(max(L,m)−m)) and, for finite U>max(L,m), by1−exp(−b*(U−max(L,m))). If U<=max(L,m), the contribution is zero. Event masses multiply the expression. Sum every pair, including pairs whose two events both preceded100ms but whose filters continue afterward. Cold history first excludes every event before100ms. Infinite U gives the analytic tail directly. This is conditional signal mathematics, not a simulated biological prediction.
+
+Separate true areas integrate eta*0.96*E_D*R_K and its negative counterpart from direct impulse responses R(u)=beta*exp(−beta*u), E(u)=beta/(beta−alpha)*(exp(−alpha*u)−exp(−beta*u)). Quadrature is split at actual event times; gain clipping/publication is evaluated once per declared0.2ms interval and once for the analytic tail. A clipped total cannot be obtained by clipping the final unconstrained pair sum: sign reversals make path order matter.
+
+The script completed14 fixed cases, including cold/warm variants, with all assertions passing. Cases cover empty, exact coincidence, either order entirely before onset, either order across99.8/100ms,100/100.2ms, mixed history, fractional22-DAN normalization, one-sided history, no prehistory, sub-ULP accumulation, a deliberately duplicated boundary-event mutant, and extreme clipping/sign reversal confined to a numerical stress fixture. Interval-plus-tail totals match the pair expression; independent quadrature matches the separate true areas and their net. Published phase changes reconcile exactly with the final float32 checkpoint.
+
+Useful falsifying fixtures:
+
+- K99.8ms,D100ms: cold change0; warm attempted total−7.990406610006717e−7 and final publication0.9999992251396179. The onset snapshot has positive KC rate/eligibility and exactly zero DAN state before100ms injection. Duplicating the boundary DAN event doubles the total to−1.5980813220013434e−6, visibly failing this oracle.
+- K20ms,D80ms: no events at or after onset, yet warm post100ms attempted change is−0.0001329829013209757, including tail−3.6335878859300356e−6. Cold change is0. Warm-filter history therefore does not imply retroactive pre100ms gain writes; its existing states continue to produce post100ms updates.
+- K100ms,D100.2ms: attempted total−7.990406610006717e−7; the remaining400ms tail is only−2.1885226810569006e−8, below half a float32 ULP below1. A float accumulator reset at every step cannot pass by relying solely on that tail.
+- Coincidence at100ms: true electrical positive/negative areas are±0.00018708176442935363 and true tail areas±0.000012918235570646364, while the net is exactly0. A net-only recording cannot represent those true areas.
+- A stress history clips at both bounds and reverses sign. Its finite attempted net is−1215.3931068791683, yet finite published change is+0.5 and the positive analytic-tail proposal is clipped at the upper bound. This distinguishes integration, bounded double accumulation and float publication.
+
+One reference-test expectation was corrected during audit development: one-sided warm history has nonzero filter states even though gains remain exactly unchanged. The original assertion incorrectly demanded complete cold/warm state dictionaries be equal. It was replaced with the scientifically relevant unchanged-gain assertion; no production bug or capture finding is inferred.
+
+This audit establishes an independent oracle suitable for reviewing the worker's harness. It does not yet approve that harness, its33call execution control, selector manifest or artifact identity. Final PASS requires a stable tested harness and review of parity/partial-stop behavior. Root controls any capture.

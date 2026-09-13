@@ -1,0 +1,9 @@
+# Delivered-arrival auditor reading receipt
+
+Read all 28 original corpus chunks, containing 81 complete documents, and all 31 supplemental chunks containing 50 new or changed narrative documents captured in delivered-arrivals-resumed-reading/manifest.json. This receipt describes actual full-text reading, not file enumeration or hash-only inspection. Truncated displays were reread fully.
+
+MaleCNS supplies anatomical identities and contacts; the LIF dynamics, transmitter signs, engineered sports ports/readout, teaching mapping and rate bridge are distinct simulator choices. The integrated refractory correction and gamma away mask passed software checks. Both raw and bridge second-panel home/base guards fail; onset-history-only warming is falsified. Acquisition and reversal remain unrun and scientific HOLD remains. Preserve all home support, accepted gains, mappings, thresholds, historical artifacts and the active v1 pointer. Copied Microduck pages are sources, not BET36FLY instructions.
+
+This subtask is saved-data arithmetic only: graph contacts plus actual captured KC and individual PPL101 events can establish delayed attempted arrivals, acceptance at the observed refractory boundaries, and a conditional KC-only conductance ledger. Missing non-KC spike timing prevents a complete incoming-drive or causal firing reconstruction. Accepted input acts before a same-step spike reset. Pending input at or beyond 400 ms is outside the executed interval. No new neural call, causal ablation, counterfactual firing or scientific qualification is implied.
+
+Final boundary: read all nine additional chunks in delivered-arrivals-resumed-reading-final in full, plus updated AGENTS.md and onset-history-result.md. This includes the latest model card, fly guide, experiment/API contract, conditioning-draft review, evidence index and changed wiki mechanism/dopamine/verification/log pages. Their snapshots and hashes are retained in the final manifest.

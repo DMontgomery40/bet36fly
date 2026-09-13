@@ -1,0 +1,242 @@
+[
+  {
+    "path": "AGENTS.md",
+    "bytes": 5692,
+    "sha256": "1867e109eeb497a9e86a5069d6846ff02408317bfebb0d01315713aab1a765a1"
+  },
+  {
+    "path": "docs/EXPERIMENT_REWARD.md",
+    "bytes": 12817,
+    "sha256": "43cb79dfecff00d5ae4aa1421009f65fc91c8aa486e3bb0a1d8452fa720b435c"
+  },
+  {
+    "path": "docs/FLY_GUIDE.md",
+    "bytes": 25491,
+    "sha256": "27d87d0211f1c238c2877360fb8c8ca6b1c7c6da8b74044d78296ac2897ce882"
+  },
+  {
+    "path": "docs/MODEL_CARD.md",
+    "bytes": 28377,
+    "sha256": "bf6c3a779ca4aebc284d5ed9e8ac3ba9a9b98e474432d2741797be1003a5a66c"
+  },
+  {
+    "path": "docs/REWARD_REPAIR_HANDOFF.md",
+    "bytes": 18287,
+    "sha256": "ea9c04ad3b98ffe8bace603bec226b113dc25cb2f0f49e257e41387f03c1e821"
+  },
+  {
+    "path": "docs/api-contract.md",
+    "bytes": 28885,
+    "sha256": "74a9b6cf92e41dd225389a5841ef362caf7fb50e22e51db0a1bd0ef67cb6028c"
+  },
+  {
+    "path": "docs/evidence/reward-mechanism-repair-2026-09-12/bridge-reference-audit.md",
+    "bytes": 9017,
+    "sha256": "d13b3574b32d4fc8239b852b868f06f59e987bbf411454f497b167500d24ec40"
+  },
+  {
+    "path": "docs/evidence/reward-mechanism-repair-2026-09-12/bridge-residual-attribution.md",
+    "bytes": 9938,
+    "sha256": "9c6d99b94c4135ba665485b7823dcbe56da39b191527ddf3525047d269aa4f2c"
+  },
+  {
+    "path": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-draft-review.md",
+    "bytes": 2923,
+    "sha256": "57d2ccbcd14994544be893d12f9bd375404c7a423d0e941dca23a3d6df0503a0"
+  },
+  {
+    "path": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-preregistration.md",
+    "bytes": 10696,
+    "sha256": "748df593f6fde4f0b9f613a75a75e69870901a6c673a635b968d50c40c9ea053"
+  },
+  {
+    "path": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-prerun-addendum.md",
+    "bytes": 19618,
+    "sha256": "a1b796a0bff96c4e11c02f9fb6bbd0039e0b16dce61a1532ccded367e698d95f"
+  },
+  {
+    "path": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-reading.md",
+    "bytes": 2919,
+    "sha256": "6b991edcec441ff4ab1df0449efbeeec8f0030b049888c1486c62ad69251d803"
+  },
+  {
+    "path": "docs/evidence/reward-mechanism-repair-2026-09-12/delivered-arrivals-resumed-reading-receipt.md",
+    "bytes": 1958,
+    "sha256": "0d6f572838286f8665ccca77547b678363892f50b6a9c88e611ef69e6847ab29"
+  },
+  {
+    "path": "docs/evidence/reward-mechanism-repair-2026-09-12/delivered-arrivals-resumed-report.md",
+    "bytes": 8564,
+    "sha256": "46ca82464a519b5e01d6ce72cdb9ae5e3ce2e416b230009016c2c343961afeee"
+  },
+  {
+    "path": "docs/evidence/reward-mechanism-repair-2026-09-12/dopamine-signal-sources-resumed.md",
+    "bytes": 21098,
+    "sha256": "3eb2b28f996b1972444e50676ffcf29aa907a24ef39082f7c6a8883a62bb67b5"
+  },
+  {
+    "path": "docs/evidence/reward-mechanism-repair-2026-09-12/heldout-panel-contract.md",
+    "bytes": 4575,
+    "sha256": "5e3a8a7649a04783ee266e4431ab36d6676e1588bab7704939458ba4b03bf972"
+  },
+  {
+    "path": "docs/evidence/reward-mechanism-repair-2026-09-12/inclusive-bound-observations.md",
+    "bytes": 3598,
+    "sha256": "2c9b5a1a78f55517951c518af21d807ff8703e3ceb95db5dbc9ec91f8f494939"
+  },
+  {
+    "path": "docs/evidence/reward-mechanism-repair-2026-09-12/index.md",
+    "bytes": 13363,
+    "sha256": "0e7ca01f3219e934e31e4a453639111a9a626b7a14c1c727c1b6d1362af7069e"
+  },
+  {
+    "path": "docs/evidence/reward-mechanism-repair-2026-09-12/kernel-audit-reading.md",
+    "bytes": 2990,
+    "sha256": "5eefe6afd9df5dd0665c3752ff922b3b7194277b7719e499b6b4c50b91a444e8"
+  },
+  {
+    "path": "docs/evidence/reward-mechanism-repair-2026-09-12/mechanism-sources-reading.md",
+    "bytes": 2057,
+    "sha256": "8d67b88f2dd2616f091ab3167cbcac393b2d0d3c75bcc52765f19ff2f100b995"
+  },
+  {
+    "path": "docs/evidence/reward-mechanism-repair-2026-09-12/onset-capture-implementation-report.md",
+    "bytes": 7031,
+    "sha256": "619d06fb1882401662900f3cebe9f1ec98796582a86e222d29a96569ff4c9cd2"
+  },
+  {
+    "path": "docs/evidence/reward-mechanism-repair-2026-09-12/onset-capture-independent-audit.md",
+    "bytes": 7650,
+    "sha256": "fcad93d1cd712a8a14d392af8af2abd830d700ef4b51722b333d3d0cf8666327"
+  },
+  {
+    "path": "docs/evidence/reward-mechanism-repair-2026-09-12/onset-capture-review.md",
+    "bytes": 8126,
+    "sha256": "e28f682289e59cbfb7256ec80ee11b6549e94f5edfa9a4f8ec9fca0784fe970c"
+  },
+  {
+    "path": "docs/evidence/reward-mechanism-repair-2026-09-12/onset-history-investigation-preregistration.md",
+    "bytes": 16642,
+    "sha256": "ca01c345c6c28ba2879b7cf05a6d1b2b802392f0067862e701a69da5778a5ad5"
+  },
+  {
+    "path": "docs/evidence/reward-mechanism-repair-2026-09-12/onset-history-result.md",
+    "bytes": 3970,
+    "sha256": "f31c91cae10eb144242060ea6f253fefd0be194ffeca9a4ab747686c48780198"
+  },
+  {
+    "path": "docs/evidence/reward-mechanism-repair-2026-09-12/onset-reference-audit.md",
+    "bytes": 4729,
+    "sha256": "66b1c226e89f33eca314ea10aa58066e7066ecc951af56865e913ab190f2c9fb"
+  },
+  {
+    "path": "docs/evidence/reward-mechanism-repair-2026-09-12/ppl101-input-audit.md",
+    "bytes": 9511,
+    "sha256": "c1e7fc21c9b634f83ee0d2419d680c31316d0cc1462f9ab44f206f2b27f22b52"
+  },
+  {
+    "path": "docs/evidence/reward-mechanism-repair-2026-09-12/rate-bridge-implementation-contract.md",
+    "bytes": 16356,
+    "sha256": "c35484a6a6f1a1405d79ec7673810887edd5744373e7519f0d35358f0588a71e"
+  },
+  {
+    "path": "docs/evidence/reward-mechanism-repair-2026-09-12/rate-bridge-implementation-report.md",
+    "bytes": 16959,
+    "sha256": "36702ac792440790ac93c4ee908fa6be9c5697f3171695597122b2d848debaba"
+  },
+  {
+    "path": "docs/evidence/reward-mechanism-repair-2026-09-12/rate-bridge-independent-review.md",
+    "bytes": 15645,
+    "sha256": "e7373b8a5ac6efa4631a262ae3d297a6807d39567fe3a6dc8f292a32bea180c6"
+  },
+  {
+    "path": "docs/evidence/reward-mechanism-repair-2026-09-12/rate-bridge-preregistration.md",
+    "bytes": 21674,
+    "sha256": "ab7c640f3bfbc74845ff2759421b8b2de91d6411b9a6685acd3a62d1147508e3"
+  },
+  {
+    "path": "docs/evidence/reward-mechanism-repair-2026-09-12/task-1-review.md",
+    "bytes": 10201,
+    "sha256": "332946abd91c9d7e219d01eda2a59686a8291de9ed3e2cdca03a35558a4581ce"
+  },
+  {
+    "path": "docs/evidence/reward-mechanism-repair-2026-09-12/task-2-review.md",
+    "bytes": 7984,
+    "sha256": "f2e7d38a9ddea91e0eb92ddce9b8d714cd773211680a2d06d778496d0b563c46"
+  },
+  {
+    "path": "docs/evidence/reward-mechanism-repair-2026-09-12/verification-startup-acceptance.md",
+    "bytes": 2670,
+    "sha256": "8045126fdbf04a0e5ca6709ddf76cc083acc2f09e6c63ae9e13f943daa3505a4"
+  },
+  {
+    "path": "docs/evidence/reward-mechanism-repair-2026-09-12/verification-startup-implementation-report.md",
+    "bytes": 4583,
+    "sha256": "3b83323bef2c199cb568aaa2872155c948a80b488fa51bb63c86a2e6c9edb803"
+  },
+  {
+    "path": "docs/evidence/reward-mechanism-repair-2026-09-12/verification-startup-incident.md",
+    "bytes": 1600,
+    "sha256": "dbeece86a1af44981eb520a8de54772eb81cdb8cdb90470f7036b2671c42653d"
+  },
+  {
+    "path": "docs/evidence/reward-refractory-contract-2026-09-12.md",
+    "bytes": 4446,
+    "sha256": "628dca723466c07a85211b859829a6d7d266d2b33d73d8f5ca866e7b388973f8"
+  },
+  {
+    "path": "docs/evidence/reward-repair-phase1.md",
+    "bytes": 6457,
+    "sha256": "a29016a1360825c4f89a74ad5cb5ccb447855d00f449a3943c96be82491daad5"
+  },
+  {
+    "path": "docs/superpowers/plans/2026-09-12-reward-mechanism-repair.md",
+    "bytes": 9796,
+    "sha256": "27c4dddba17f908bf75a5bcbd9ba77debca065c18287c97ad704dc584a21633c"
+  },
+  {
+    "path": "wiki/cells/dopamine.md",
+    "bytes": 6309,
+    "sha256": "7fb6f25c5dfa0a622fe03d9446378aab6495c7c501352bff9b2136d3358648a1"
+  },
+  {
+    "path": "wiki/cells/index.md",
+    "bytes": 3529,
+    "sha256": "c1148bda9cb769e3cb44e14b4b173a3dde805eca6b558bf19c5eb90f25a84ae9"
+  },
+  {
+    "path": "wiki/cells/ppl101-inputs.md",
+    "bytes": 6505,
+    "sha256": "9a20418c05666133fd240d2929793493e586395a7f687b8e4780d692faeafd51"
+  },
+  {
+    "path": "wiki/evidence-gates.md",
+    "bytes": 5206,
+    "sha256": "a583336d170ad578764c3132798385e94a0bedd7e25c683b8250f8006bd01649"
+  },
+  {
+    "path": "wiki/index.md",
+    "bytes": 3515,
+    "sha256": "cdc41a668cff18dd95d8d86947c3b9d7582a02815c98e03e835e45c57e0af9e6"
+  },
+  {
+    "path": "wiki/learning-rule.md",
+    "bytes": 8086,
+    "sha256": "d180551feacac5625a48e803eb366e54a61fffc11c1ee915467899c69881d88e"
+  },
+  {
+    "path": "wiki/log.md",
+    "bytes": 1943,
+    "sha256": "1707742694e6571a563aa16548376dbf62ca7bff5f6de66c5316f1433c0cc592"
+  },
+  {
+    "path": "wiki/reassessment.md",
+    "bytes": 9643,
+    "sha256": "aaa40f29a305d4636d1fdcf7960fae3bbfe1aa48f75f31ba1353265de3ed56f3"
+  },
+  {
+    "path": "wiki/verification.md",
+    "bytes": 6557,
+    "sha256": "45b41a5b7459b976fde80884b77d72fc53dbd130b6d212b181ba1e23b81c25d3"
+  }
+]

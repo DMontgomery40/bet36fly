@@ -1,0 +1,57 @@
+{
+  "agent": "dopamine_sources",
+  "checked_at_utc": "2026-09-13T04:09:35.079746+00:00",
+  "reading": "Personally read every line of all five current documents. Fly guide read in two contiguous sections and handoff in three contiguous sections; the two wiki pages and evidence index were read in full. No manifest-only substitution.",
+  "documents": [
+    {
+      "path": "wiki/cells/dopamine.md",
+      "bytes": 6309,
+      "lines": 75,
+      "sha256": "7fb6f25c5dfa0a622fe03d9446378aab6495c7c501352bff9b2136d3358648a1"
+    },
+    {
+      "path": "wiki/cells/ppl101-inputs.md",
+      "bytes": 6505,
+      "lines": 120,
+      "sha256": "9a20418c05666133fd240d2929793493e586395a7f687b8e4780d692faeafd51"
+    },
+    {
+      "path": "docs/FLY_GUIDE.md",
+      "bytes": 25491,
+      "lines": 214,
+      "sha256": "27d87d0211f1c238c2877360fb8c8ca6b1c7c6da8b74044d78296ac2897ce882"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/index.md",
+      "bytes": 13363,
+      "lines": 106,
+      "sha256": "0e7ca01f3219e934e31e4a453639111a9a626b7a14c1c727c1b6d1362af7069e"
+    },
+    {
+      "path": "docs/REWARD_REPAIR_HANDOFF.md",
+      "bytes": 18287,
+      "lines": 301,
+      "sha256": "ea9c04ad3b98ffe8bace603bec226b113dc25cb2f0f49e257e41387f03c1e821"
+    }
+  ],
+  "source_claim_review": {
+    "biological_overclaim_found": false,
+    "findings": [
+      "Population-mean DAN coupling is described as implemented; local release, receptors and spatial routing remain absent, not disproven biology.",
+      "Direct whole-body contacts are not used to infer local territory or exclude eligible KCs; both selected PPL101 cells contacting both MBON11 cells remains explicit.",
+      "PAM-gamma3 suppression of ongoing activity is distinguished from the accepted engineered positive PAM12 teaching pulse.",
+      "Rectified-rate adaptation is explicitly unimplemented engineering, with no claim that a baseline or 500 ms adaptation constant follows from physiology.",
+      "Static pair verification and conditional delivered-arrival arithmetic are distinguished from complete drive, causality, physical current or a functional mechanism.",
+      "Raw/bridge second-panel failures, rejected onset-only shadow and absence of conditioning/reversal remain explicit.",
+      "The 04:06 UTC handoff continuation correctly supersedes source-task status in the labeled preserved 03:26 snapshot."
+    ],
+    "scope_limits": "No new source research, production edits, numerical candidate evaluation, circuit runs or browser verification. This checks scientific framing from my source findings, not independent acceptance of Task4B."
+  },
+  "preserved_copied_prior_receipt": {
+    "path": "docs/evidence/reward-mechanism-repair-2026-09-12/dopamine-signal-reading-receipt-resumed.json",
+    "bytes": 35571,
+    "lines": 906,
+    "sha256": "1758aa285e3ad335b2fb10a5bebd4fb154947ffc74df9def3b4d98cd35da9417"
+  },
+  "prior_receipt_copy_equals_original": true
+}

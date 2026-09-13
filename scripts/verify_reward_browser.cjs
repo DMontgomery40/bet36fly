@@ -10,6 +10,43 @@ const base = process.env.BET36FLY_BASE_URL || 'http://127.0.0.1:8765';
  const page = await browser.newPage({viewport:{width:1440,height:1100}});
  const errors=[];page.on('pageerror',e=>errors.push(e.message));
  await page.goto(base+'/#training');
+ const mechanism=page.getByRole('region',{name:'Mechanism qualification'});
+ await mechanism.locator('.mechanism-table tbody tr').first().waitFor();
+ const diagnosticState=await page.request.get(base+'/api/reward-diagnostics').then(r=>r.json());
+ assert.equal(await mechanism.locator('.mechanism-table tbody tr').count(),diagnosticState.diagnostics.length);
+ const measuredPanels=[];
+ for(const row of diagnosticState.diagnostics.filter(x=>x.validation_status==='validated'||x.missing_validation.length===2)) {
+  const detail=mechanism.locator('details.diagnostic-detail').filter({has:page.locator('summary').filter({hasText:row.run_id})});
+  await detail.locator(':scope > summary').click();
+  const text=await detail.innerText();
+  assert.ok(text.includes(row.validation_status==='validated'?`validated ${row.evidence_status}`:`stored only · ${row.evidence_status}`));
+  const guards=detail.locator('table').filter({hasText:'Untaught guard · absolute mean'});
+  for(const [key,value] of Object.entries(row.untaught_guard)) {
+   const guard=await guards.locator('tbody tr').filter({hasText:key}).innerText();
+   for(const field of ['mean','sd','limit']) assert.ok(guard.includes(value[field].toFixed(6)),`${row.run_id} ${key} ${field}`);
+  }
+  assert.equal(await detail.locator('table').filter({hasText:'Seven frozen mechanism criteria'}).locator('tbody tr').count(),7);
+  if(row.tail_evidence) {
+   assert.ok(text.includes(row.tail_evidence.equation));
+   assert.ok(text.includes('does not extend neural time'));
+   assert.ok(text.includes(`${row.tail_evidence.electrical_bound_observations} electrical / ${row.tail_evidence.tail_bound_observations} tail bound observations`));
+   assert.ok(text.includes(`τr ${row.rate_tau_ms} ms`));
+  }
+  const link=detail.getByRole('link',{name:'Full stored diagnostic JSON and validation'});
+  assert.equal(await link.getAttribute('href'),row.detail_url);
+  const full=await page.request.get(base+row.detail_url).then(r=>r.json());
+  assert.deepEqual(full.validation,row);
+  assert.equal((await page.request.get(base+row.detail_url+'/trials.npz')).status(),404);
+  measuredPanels.push({run_id:row.run_id,validation_status:row.validation_status,evidence_status:row.evidence_status,detail_matches:true});
+  await detail.screenshot({path:path.join(output,row.run_id+'-detail.png')});
+  await detail.locator(':scope > summary').click();
+ }
+ const bridgePair=diagnosticState.qualification_pairs.find(x=>x.learning_rule==='rate-bridge-v1'&&x.validation_status==='validated');
+ assert.ok(bridgePair); assert.equal(bridgePair.evidence_status,'failed');
+ await mechanism.getByRole('heading',{name:'Pair qualification · failed',exact:true}).waitFor();
+ const conditioning=page.getByRole('region',{name:'Conditioning and reversal'});
+ await conditioning.getByText(diagnosticState.conditioning.message,{exact:true}).waitFor();
+ await mechanism.screenshot({path:path.join(output,'bet36fly-mechanism-desktop.png')});
  const panel=page.getByRole('region',{name:'On-circuit reward learning experiments'});
  await panel.getByText('Common-seed input discrimination',{exact:true}).waitFor();
  const state=await page.request.get(base+'/api/experiments').then(r=>r.json());
@@ -103,6 +140,69 @@ const base = process.env.BET36FLY_BASE_URL || 'http://127.0.0.1:8765';
   scenarios.push({mode,verified:true,source:'isolated browser response fixture'});
   await test.close();
  }
+ // Synthetic mechanism/conditioning states: no fixtures are written as measured artifacts.
+ for(const mode of ['loading','empty','error','incomplete','running','cancelled','budget_stopped','unknown']) {
+  const test=await browser.newPage({viewport:{width:390,height:844}});
+  test.on('pageerror',e=>errors.push('mechanism-'+mode+': '+e.message));
+  let retrySucceeds=false;
+  await test.route('**/api/reward-diagnostics',async route=>{
+   if(mode==='loading') return;
+   if(mode==='error'&&!retrySucceeds) return route.fulfill({status:503,contentType:'application/json',body:JSON.stringify({detail:'Synthetic mechanism evidence unavailable'})});
+   const data=structuredClone(diagnosticState);
+   if(mode==='empty') { data.diagnostics=[]; data.qualification_pairs=[]; }
+   if(mode==='incomplete') { data.qualification_pairs=[]; data.diagnostics=data.diagnostics.slice(0,1).map(x=>({...x,validation_status:'incomplete',evidence_status:'incomplete',stored_verdict:null,criteria:Object.fromEntries(Object.keys(x.criteria).map(k=>[k,null]))})); }
+   return route.fulfill({status:200,contentType:'application/json',body:JSON.stringify(data)});
+  });
+  if(['running','cancelled','budget_stopped','unknown'].includes(mode)) await test.route('**/api/experiments',route=>route.fulfill({status:200,contentType:'application/json',body:JSON.stringify({...state,experiments:[...state.experiments,{id:'synthetic-conditioning',kind:'dopamine-conditioning',status:mode,created_at:new Date().toISOString(),updated_at:new Date().toISOString(),artifacts:{},conditioning:{status_reason:'Synthetic response fixture: '+mode},jobs:[{id:'acquisition_ab',variant:'acquisition_ab',status:mode,phase:mode,completed:12,total:100,seed:1,gain_parameters:0,decoder_parameters:0,active_parameters:0}]}]})}));
+  await test.goto(base+'/#training',{waitUntil:'domcontentloaded'});
+  const area=test.getByRole('region',{name:'Mechanism qualification'});
+  if(mode==='loading') await area.getByText('Loading mechanism evidence…',{exact:true}).waitFor();
+  else if(mode==='empty') await area.getByText('No stored mechanism panels.',{exact:true}).waitFor();
+  else if(mode==='error') {
+   await area.getByRole('button',{name:'Retry evidence'}).waitFor();
+   retrySucceeds=true;
+   await area.getByRole('button',{name:'Retry evidence'}).click();
+   await area.locator('.mechanism-table tbody tr').first().waitFor();
+   assert.equal(await area.getByRole('button',{name:'Retry evidence'}).count(),0);
+  }
+  else if(mode==='incomplete') await area.locator('.mechanism-table').getByText('incomplete',{exact:true}).first().waitFor();
+  else {
+   const stage=test.getByRole('region',{name:'Conditioning and reversal'});
+   await stage.getByText('Synthetic response fixture: '+mode,{exact:true}).waitFor();
+   assert.ok((await stage.innerText()).includes('12 / 100'));
+   assert.ok(!(await stage.innerText()).includes('Conditioning passed'));
+  }
+  assert.ok(await test.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth),mode+' synthetic state overflows mobile');
+  scenarios.push({mode:'mechanism-'+mode,verified:true,source:'isolated synthetic response fixture'});
+  await test.close();
+ }
+ // Retain successful reads across a refresh error, then exercise real Retry and recovery.
+ const stalePage=await browser.newPage({viewport:{width:390,height:844}});
+ stalePage.on('pageerror',e=>errors.push('stale-retry: '+e.message));
+ await stalePage.clock.install();
+ let refreshFailure=false;
+ for(const [endpoint,payload] of [['reward-diagnostics',diagnosticState],['experiments',state]]) {
+  await stalePage.route('**/api/'+endpoint,route=>route.fulfill({status:refreshFailure?503:200,contentType:'application/json',body:JSON.stringify(refreshFailure?{detail:'Synthetic retained-state refresh failure'}:payload)}));
+ }
+ await stalePage.goto(base+'/#training');
+ const staleMechanism=stalePage.getByRole('region',{name:'Mechanism qualification'});
+ const staleConditioning=stalePage.getByRole('region',{name:'Conditioning and reversal'});
+ await staleMechanism.locator('.mechanism-table tbody tr').first().waitFor();
+ await staleConditioning.getByText(diagnosticState.conditioning.message,{exact:true}).waitFor();
+ refreshFailure=true;
+ await stalePage.clock.fastForward(31000);
+ await staleMechanism.getByText('Showing last loaded mechanism evidence',{exact:false}).waitFor();
+ await staleConditioning.getByText('Showing last loaded conditioning registry.',{exact:false}).waitFor();
+ assert.equal(await staleMechanism.locator('.mechanism-table tbody tr').count(),diagnosticState.diagnostics.length);
+ assert.equal(await staleMechanism.getByRole('heading',{name:'Pair qualification · passed',exact:true}).count(),0);
+ refreshFailure=false;
+ await staleMechanism.getByRole('button',{name:'Retry evidence'}).click();
+ await staleMechanism.getByRole('heading',{name:'Pair qualification · failed',exact:true}).waitFor();
+ assert.equal(await staleMechanism.getByRole('alert').count(),0);
+ await stalePage.clock.fastForward(31000);
+ await staleConditioning.getByRole('alert').waitFor({state:'hidden'});
+ scenarios.push({mode:'stale-retained-retry-recovery',verified:true,source:'isolated synthetic refresh errors with retained recorded payloads'});
+ await stalePage.close();
  // No schema-4 sports run exists. Exercise the integrated raw/mask display with
  // an explicitly labeled response fixture, never by inventing a saved result.
  const candidate=await browser.newPage({viewport:{width:1440,height:1100}});
@@ -135,7 +235,7 @@ const base = process.env.BET36FLY_BASE_URL || 'http://127.0.0.1:8765';
  scenarios.push({mode:'raw-gamma',verified:true,source:'isolated browser response fixture; no measured candidate result'});
  await candidate.close();
  assert.deepEqual(errors,[]);
- const evidence={checked_at:new Date().toISOString(),url:page.url(),verification,experiment:reward.id,status:reward.status,encoder:reward.protocol.encoder,gate_status:reward.reward.activity_gate.status,gated_experiment:gated.id,gated_status:gated.status,gate_message:gated.reward.activity_gate.message,active_v1:state.active_v1.run_id,v2_status:v2.status,v2_jobs:v2.jobs.reduce((a,j)=>(a[j.status]=(a[j.status]||0)+1,a),{}),arms,downloads,scenarios,desktop:{width:1440,height:1100},mobile:{width:390,height:844,horizontal_page_overflow:false,tested_widths:widths},errors,screenshots:[path.join(output,'bet36fly-reward-gate-passed.png'),path.join(output,'bet36fly-reward-gate-failed.png'),path.join(output,'bet36fly-reward-desktop.png'),path.join(output,'bet36fly-reward-arm.png'),path.join(output,'bet36fly-reward-mobile.png'),path.join(output,'bet36fly-reward-mobile-arm.png')]};
+ const evidence={mechanism:{panels:measuredPanels,pair:bridgePair,conditioning:diagnosticState.conditioning},checked_at:new Date().toISOString(),url:page.url(),verification,experiment:reward.id,status:reward.status,encoder:reward.protocol.encoder,gate_status:reward.reward.activity_gate.status,gated_experiment:gated.id,gated_status:gated.status,gate_message:gated.reward.activity_gate.message,active_v1:state.active_v1.run_id,v2_status:v2.status,v2_jobs:v2.jobs.reduce((a,j)=>(a[j.status]=(a[j.status]||0)+1,a),{}),arms,downloads,scenarios,desktop:{width:1440,height:1100},mobile:{width:390,height:844,horizontal_page_overflow:false,tested_widths:widths},errors,screenshots:[path.join(output,'bet36fly-reward-gate-passed.png'),path.join(output,'bet36fly-reward-gate-failed.png'),path.join(output,'bet36fly-reward-desktop.png'),path.join(output,'bet36fly-reward-arm.png'),path.join(output,'bet36fly-reward-mobile.png'),path.join(output,'bet36fly-reward-mobile-arm.png')]};
  fs.writeFileSync(path.join(output,'bet36fly-reward-browser-evidence.json'),JSON.stringify(evidence,null,2));
  console.log(JSON.stringify(evidence));
  await browser.close();

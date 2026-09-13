@@ -872,7 +872,7 @@
     "docs/connectome-source-lock.json": "df59963b365e4b70450a0ec3861bb845420d660a142cc2c43ad958a9f7767567",
     "configs/reward-v3-pilot.json": "c1e969f5d4f586b789bf4bf9235e8071f2734759b3e22f30ad1d01f9fc4be193",
     "bet36fly/reward_encoder.py": "178a36f388b0c0de34bc2a83a0b35eef806dafa98636aa2400e4b87931446285",
-    "bet36fly/reward_protocol.py": "6e13653d8805b0c0f661c3fb8e881cb58ca24f22b8db57cc44876a90fc63ed94",
+    "bet36fly/reward_protocol.py": "e1a315f991debb677fca30f6e821a657135adccf032ad26054a00ed7688dc1bb",
     "scripts/export_fly_cell_atlas.py": "08733c833ac82823ab217bfc1e420d2002b3bdf6b252b419b528ac4a9206a5ff"
   }
 }

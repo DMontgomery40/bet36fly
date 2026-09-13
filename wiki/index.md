@@ -1,13 +1,19 @@
 ---
 type: index
-updated: 2026-09-12
+updated: 2026-09-13
 status: active
 ---
 # BET36FLY: cells, circuits, and learning
 
 Start with the [reassessment](reassessment.md). The current problem is demonstrating specific, controlled learning in the implemented mushroom-body circuit. A usable activity range and changing gains have been demonstrated; useful associative learning has not. This wiki connects individual MaleCNS cells to the code, measured failures, and evidence needed next.
 
-Dates here use UTC; September 12 UTC is September 11 evening in America/Denver. The [source and workspace record](../docs/evidence/reassessment-2026-09-12/index.md) pins this assessment.
+The repair is integrated, but both corrected raw-event and rate-bridge rules fail
+the second panel's untaught-home guard. A later fixed-history investigation made
+that failure worse; acquisition and reversal have not run. The
+[current evidence index](../docs/evidence/reward-mechanism-repair-2026-09-12/index.md)
+preserves those results. Dates use UTC; the
+[initial workspace record](../docs/evidence/reassessment-2026-09-12/index.md)
+remains a dated snapshot.
 
 ## Cell reference
 

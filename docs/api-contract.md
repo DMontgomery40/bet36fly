@@ -107,34 +107,29 @@ The existing Training tab renders this tracker before the archived v1 report. It
 
 ## GET /api/reward-diagnostics
 
-Read-only registry of the stored reward-rule diagnostic panels written by
-`scripts/reward_teaching_diagnostic.py` under `output/diagnostics/<run_id>/`.
-Returns `diagnostics[]` newest first (by `created_at`) and `evidence_note`
-(`docs/evidence/reward-repair-phase1.md`). Each entry carries `run_id`, `rule`
-(`legacy` or `candidate`), `dan_reference`, `away_plasticity_mask`,
-`created_at`, `panel_complete`, `panel_note`, `all_passed`, `criteria` (name to
-boolean for `teaching_specific`, `untaught_guard`, `cross_compartment`,
-`no_bound_hits`, `cumulative`, `bit_identical_repeat`,
-`sensory_noise_invariance`), `untaught_guard` and `teaching_specific`
-per-seed-set evaluations (`mean`, `sd`, `limit`, `passed`; `mean_effect`,
-`mean_untaught`, `required_magnitude`, `passed`), `has_attribution`,
-`native_binary_sha256`, `source_unchanged_during_run`, `plastic_edges` and
-`eligible_edges`. Directories with an unreadable or mismatched `summary.json`
-are skipped. An absent or empty directory yields an empty list. A run whose
-`panel_complete` is false is a debug panel and can never be a gate result;
-`null` means the run predates that field (completeness not recorded). For runs
-written before schema 4, `dan_reference` is implied by the rule (`legacy` =
-`tonic-baseline`, `candidate` = `none`) and an absent mask field is reported
-as `all`.
+Read-only artifact evidence under `output/diagnostics/<run_id>/`. Returns `diagnostics[]` newest first, `qualification_pairs[]`, `conditioning`, and `evidence_note` (`docs/evidence/reward-mechanism-repair-2026-09-12/index.md`). This reader never imports or runs the neural engine. Malformed runs stay visible as invalid; a preregistered directory lacking its summary stays visible as incomplete. Symlink directories and escaping identifiers are rejected. Missing values are null, never invented zeros.
+
+Each diagnostic carries:
+
+- `run_id`, `created_at`, `rule`, `learning_rule` (`event`, `rate-bridge-v1`, null), and `learning_rule_source` (`recorded`, `historical-rule-mapping`, null). Historical `legacy`/`candidate` maps to event; absent historical mask means all edges, with the legacy or candidate DAN reference retained.
+- `panel_role` (`original`, `held-out`, `debug`, null), `panel_complete`, and `selection_status` (`previously-frozen` only after checking the held-out preregistration and selector; otherwise null).
+- `stored_verdict` (`passed`, `failed`, null), `validation_status` (`validated`, `stored-only`, `invalid`, `incomplete`), `evidence_status` (`passed`, `failed`, `unverified`, `incomplete`), `validation_error`, `failed_criteria`, and `missing_validation`. The compatibility `all_passed` field is the nullable **stored** value and must not qualify a mechanism.
+- `criteria`: the seven fixed criterion names to true/false/null. Null means not independently validated. `untaught_guard` and `teaching_specific` retain the recorded numeric per-channel/seed evaluations. Raw historical panels lack complete persisted replay/sensory evidence and remain stored-only overall, even when their five reconstructable criteria pass.
+- `detail_url`, `native_binary_sha256`, `source_code_hashes`, `preregistration_sha256`, `source_unchanged_during_run`, `has_attribution` and `panel_note`.
+- `tau_ms`, `learning_rate`, `rate_tau_ms`, `bridge_normalization`, `bridge_tail`, `bridge_layout`, and the full `bridge_contract` (governing document hashes, config, layout, tail and state-reset semantics). These are recorded metadata, not inferred from a run name.
+- `tail_evidence`: null unless reconstructed; otherwise the analytic equation, `extends_neural_time: false`, electrical/tail bound-observation counts, maximum publication reconciliation error, five aggregate true-integral/attempted/double-applied/float-published totals, clipping discrepancy and final rounding discrepancy. The separately accounted no-new-event tail updates gains without adding electrical simulation time or spike/count bins.
+
+Validation checks immutable summary/trial locks, preregistration identity and frozen selectors, declared artifact hashes/lengths, complete 64-row and ordered 16-row matrices, recorded array layouts, finite values, mask and frozen checkpoint preservation, per-trial eligible checkpoint bounds and groupwise gain reconciliation, full replay fingerprint dictionaries, retained sensory matrices and all seven unchanged criteria. A recorded boolean or presence/hash check alone cannot produce a validated pass. Declared corruption stays invalid even if the run is partial or lacks an external qualification lock. Expensive NPZ reconciliation is cached only in memory by the full artifact-content hash tuple; every read rehashes relevant bytes, including the summary, preregistration, trial archive, layout, replay evidence and independent locks. Missing, altered or symlinked files invalidate a prior result.
+
+A pair is formed only from one original and one held-out run with identical full scientific identities plus native binary hash. Only the predeclared per-panel selector fields are excluded; common calibration IDs, cumulative source IDs, alternate offset and unknown selector contract fields remain bound. Both panel preregistrations must be valid. `qualification_pairs[]` contains pair ID, rule, the two run IDs, validation/evidence status and failed criteria. Duplicate candidates are not resolved by recency. A pair can pass only if both panels are completely validated and pass every criterion.
+
+`conditioning` reports `not_run_gate_failed` and the actual failed member IDs (original, held-out, or both) when a validated pair fails; otherwise it reports `not_run`. This is a mechanism prerequisite summary, not a conditioning-result validator. The Training view shares one `/api/experiments` polling stream across conditioning, historical sports and v2. Diagnostics refresh independently, retaining explicitly stale data on error with a retry control.
 
 ## GET /api/reward-diagnostics/{run_id}
 
-`summary` is the full stored `summary.json` (identity, anatomy, criteria with
-every game and seed set, per-trial rows and phase terms, cumulative rows) and
-`attribution` is `attribution.json` when present, otherwise `null`. Unknown,
-malformed or escaping identifiers return 404. The raw `trials.npz` arrays are
-never served. These panels are development diagnostics of the learning
-mechanism, not sports results; a failed criterion is reported as failed.
+Returns the full stored `summary`, optional stored `attribution`, and the same compact `validation` entry as the index. A preregistered run without a summary returns its preregistration metadata with `panel_complete: false` and no verdict. Unknown, malformed or escaping identifiers return 404. Raw `trials.npz` arrays are never served. These are development mechanism diagnostics, not sports results.
+
+Future `kind: dopamine-conditioning` manifests are displayed separately from historical sports. Optional `conditioning` metadata carries configured/recorded-verified rule and mask, protocol/addendum hashes, prerequisite IDs, actual/planned/cap calls, wall budget, reasons and `stages[]` (`acquisition_ab`, `acquisition_cd`, `reversal_ab`). Stage records may expose stored criteria, missing criteria, checkpoint/parent hashes and classification. Missing stages and unknown statuses remain unavailable. Completed jobs or all-true stored criteria cannot yield a conditioning pass: this API has no conditioning artifact validator yet. Only artifact URLs returned by the experiment registry are linked. No conditioning run or schema-5 scientific result is fabricated by this presentation surface.
 
 ## GET /api/experiments/{experiment_id}
 

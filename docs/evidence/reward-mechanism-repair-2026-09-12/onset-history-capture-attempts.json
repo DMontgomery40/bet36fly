@@ -1,0 +1,665 @@
+{
+  "attempted_calls": 33,
+  "attempts": [
+    {
+      "attempt": 1,
+      "row": {
+        "game": 4362,
+        "seed_set": "base",
+        "seed": 4404,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "fine": false,
+      "bin_ms": 10.0,
+      "schedule": {
+        "dtype": "float32",
+        "shape": [
+          40,
+          686
+        ],
+        "sha256": "3fe9dbb1cbc51eea1da4b5a0465d92676b08f815033ebe71bd889db88f7403ac"
+      },
+      "started_monotonic_seconds": 0.9892658339813352
+    },
+    {
+      "attempt": 2,
+      "row": {
+        "game": 4362,
+        "seed_set": "base",
+        "seed": 4404,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "fine": true,
+      "bin_ms": 0.2,
+      "schedule": {
+        "dtype": "float32",
+        "shape": [
+          2000,
+          686
+        ],
+        "sha256": "25aee2fc410202ea0cd7bf629474077dfb503275dabef159cf804b404572e50a"
+      },
+      "started_monotonic_seconds": 1.4572163340635598
+    },
+    {
+      "attempt": 3,
+      "row": {
+        "game": 4362,
+        "seed_set": "alt",
+        "seed": 1004404,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "fine": true,
+      "bin_ms": 0.2,
+      "schedule": {
+        "dtype": "float32",
+        "shape": [
+          2000,
+          686
+        ],
+        "sha256": "25aee2fc410202ea0cd7bf629474077dfb503275dabef159cf804b404572e50a"
+      },
+      "started_monotonic_seconds": 2.9997879590373486
+    },
+    {
+      "attempt": 4,
+      "row": {
+        "game": 4366,
+        "seed_set": "base",
+        "seed": 4408,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "fine": true,
+      "bin_ms": 0.2,
+      "schedule": {
+        "dtype": "float32",
+        "shape": [
+          2000,
+          686
+        ],
+        "sha256": "bd00a49ff4fc3a8488b16ff71c17890392c1101ce9f8c63067ffd11aed0f63ea"
+      },
+      "started_monotonic_seconds": 4.500348249915987
+    },
+    {
+      "attempt": 5,
+      "row": {
+        "game": 4366,
+        "seed_set": "alt",
+        "seed": 1004408,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "fine": true,
+      "bin_ms": 0.2,
+      "schedule": {
+        "dtype": "float32",
+        "shape": [
+          2000,
+          686
+        ],
+        "sha256": "bd00a49ff4fc3a8488b16ff71c17890392c1101ce9f8c63067ffd11aed0f63ea"
+      },
+      "started_monotonic_seconds": 6.0145634999498725
+    },
+    {
+      "attempt": 6,
+      "row": {
+        "game": 4370,
+        "seed_set": "base",
+        "seed": 4412,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "fine": true,
+      "bin_ms": 0.2,
+      "schedule": {
+        "dtype": "float32",
+        "shape": [
+          2000,
+          686
+        ],
+        "sha256": "4beabe92596ddc261a1dc8adfec9c388384e6119595b2082ce467d1c0e156613"
+      },
+      "started_monotonic_seconds": 7.53365029185079
+    },
+    {
+      "attempt": 7,
+      "row": {
+        "game": 4370,
+        "seed_set": "alt",
+        "seed": 1004412,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "fine": true,
+      "bin_ms": 0.2,
+      "schedule": {
+        "dtype": "float32",
+        "shape": [
+          2000,
+          686
+        ],
+        "sha256": "4beabe92596ddc261a1dc8adfec9c388384e6119595b2082ce467d1c0e156613"
+      },
+      "started_monotonic_seconds": 9.07804183405824
+    },
+    {
+      "attempt": 8,
+      "row": {
+        "game": 4374,
+        "seed_set": "base",
+        "seed": 4416,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "fine": true,
+      "bin_ms": 0.2,
+      "schedule": {
+        "dtype": "float32",
+        "shape": [
+          2000,
+          686
+        ],
+        "sha256": "b41690c9258c5774d28db7fda4e294c7b5775c36d18aece30e45a948e00c6033"
+      },
+      "started_monotonic_seconds": 10.60510295885615
+    },
+    {
+      "attempt": 9,
+      "row": {
+        "game": 4374,
+        "seed_set": "alt",
+        "seed": 1004416,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "fine": true,
+      "bin_ms": 0.2,
+      "schedule": {
+        "dtype": "float32",
+        "shape": [
+          2000,
+          686
+        ],
+        "sha256": "b41690c9258c5774d28db7fda4e294c7b5775c36d18aece30e45a948e00c6033"
+      },
+      "started_monotonic_seconds": 12.118392542004585
+    },
+    {
+      "attempt": 10,
+      "row": {
+        "game": 4378,
+        "seed_set": "base",
+        "seed": 4420,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "fine": true,
+      "bin_ms": 0.2,
+      "schedule": {
+        "dtype": "float32",
+        "shape": [
+          2000,
+          686
+        ],
+        "sha256": "9e2f5eb3e1934adf7c35734fd207ec312d852c0430c6ea36a8a663129d82ad2c"
+      },
+      "started_monotonic_seconds": 13.617753583937883
+    },
+    {
+      "attempt": 11,
+      "row": {
+        "game": 4378,
+        "seed_set": "alt",
+        "seed": 1004420,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "fine": true,
+      "bin_ms": 0.2,
+      "schedule": {
+        "dtype": "float32",
+        "shape": [
+          2000,
+          686
+        ],
+        "sha256": "9e2f5eb3e1934adf7c35734fd207ec312d852c0430c6ea36a8a663129d82ad2c"
+      },
+      "started_monotonic_seconds": 15.129164041951299
+    },
+    {
+      "attempt": 12,
+      "row": {
+        "game": 4383,
+        "seed_set": "base",
+        "seed": 4425,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "fine": true,
+      "bin_ms": 0.2,
+      "schedule": {
+        "dtype": "float32",
+        "shape": [
+          2000,
+          686
+        ],
+        "sha256": "94dbcd7da31dba6299b548c9975e006c0ce7501ceaf670084e5b327d3d709a73"
+      },
+      "started_monotonic_seconds": 16.64989570900798
+    },
+    {
+      "attempt": 13,
+      "row": {
+        "game": 4383,
+        "seed_set": "alt",
+        "seed": 1004425,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "fine": true,
+      "bin_ms": 0.2,
+      "schedule": {
+        "dtype": "float32",
+        "shape": [
+          2000,
+          686
+        ],
+        "sha256": "94dbcd7da31dba6299b548c9975e006c0ce7501ceaf670084e5b327d3d709a73"
+      },
+      "started_monotonic_seconds": 18.182924709049985
+    },
+    {
+      "attempt": 14,
+      "row": {
+        "game": 4387,
+        "seed_set": "base",
+        "seed": 4429,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "fine": true,
+      "bin_ms": 0.2,
+      "schedule": {
+        "dtype": "float32",
+        "shape": [
+          2000,
+          686
+        ],
+        "sha256": "c46e60acc3185571b7a0c5665ef0f6b6d4a09c08040bca9249aaa2212a84f4be"
+      },
+      "started_monotonic_seconds": 19.724104499910027
+    },
+    {
+      "attempt": 15,
+      "row": {
+        "game": 4387,
+        "seed_set": "alt",
+        "seed": 1004429,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "fine": true,
+      "bin_ms": 0.2,
+      "schedule": {
+        "dtype": "float32",
+        "shape": [
+          2000,
+          686
+        ],
+        "sha256": "c46e60acc3185571b7a0c5665ef0f6b6d4a09c08040bca9249aaa2212a84f4be"
+      },
+      "started_monotonic_seconds": 21.234956458909437
+    },
+    {
+      "attempt": 16,
+      "row": {
+        "game": 4391,
+        "seed_set": "base",
+        "seed": 4433,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "fine": true,
+      "bin_ms": 0.2,
+      "schedule": {
+        "dtype": "float32",
+        "shape": [
+          2000,
+          686
+        ],
+        "sha256": "1222b34e105f2d7e81f37f0613d8b64601aa1ac01ffd87919b3d6e669569a72d"
+      },
+      "started_monotonic_seconds": 22.755474041914567
+    },
+    {
+      "attempt": 17,
+      "row": {
+        "game": 4391,
+        "seed_set": "alt",
+        "seed": 1004433,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "fine": true,
+      "bin_ms": 0.2,
+      "schedule": {
+        "dtype": "float32",
+        "shape": [
+          2000,
+          686
+        ],
+        "sha256": "1222b34e105f2d7e81f37f0613d8b64601aa1ac01ffd87919b3d6e669569a72d"
+      },
+      "started_monotonic_seconds": 24.261613209033385
+    },
+    {
+      "attempt": 18,
+      "row": {
+        "game": 4395,
+        "seed_set": "base",
+        "seed": 2004437,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "fine": true,
+      "bin_ms": 0.2,
+      "schedule": {
+        "dtype": "float32",
+        "shape": [
+          2000,
+          686
+        ],
+        "sha256": "c46e60acc3185571b7a0c5665ef0f6b6d4a09c08040bca9249aaa2212a84f4be"
+      },
+      "started_monotonic_seconds": 25.772910083876923
+    },
+    {
+      "attempt": 19,
+      "row": {
+        "game": 4395,
+        "seed_set": "alt",
+        "seed": 3004437,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "fine": true,
+      "bin_ms": 0.2,
+      "schedule": {
+        "dtype": "float32",
+        "shape": [
+          2000,
+          686
+        ],
+        "sha256": "c46e60acc3185571b7a0c5665ef0f6b6d4a09c08040bca9249aaa2212a84f4be"
+      },
+      "started_monotonic_seconds": 27.291374000022188
+    },
+    {
+      "attempt": 20,
+      "row": {
+        "game": 4399,
+        "seed_set": "base",
+        "seed": 2004441,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "fine": true,
+      "bin_ms": 0.2,
+      "schedule": {
+        "dtype": "float32",
+        "shape": [
+          2000,
+          686
+        ],
+        "sha256": "a7064fd6cf83a9c649062612b0c4bf196e78eaa67e1330a5ce3e30b6f64a08ac"
+      },
+      "started_monotonic_seconds": 28.80702287494205
+    },
+    {
+      "attempt": 21,
+      "row": {
+        "game": 4399,
+        "seed_set": "alt",
+        "seed": 3004441,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "fine": true,
+      "bin_ms": 0.2,
+      "schedule": {
+        "dtype": "float32",
+        "shape": [
+          2000,
+          686
+        ],
+        "sha256": "a7064fd6cf83a9c649062612b0c4bf196e78eaa67e1330a5ce3e30b6f64a08ac"
+      },
+      "started_monotonic_seconds": 30.320160625036806
+    },
+    {
+      "attempt": 22,
+      "row": {
+        "game": 4404,
+        "seed_set": "base",
+        "seed": 2004446,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "fine": true,
+      "bin_ms": 0.2,
+      "schedule": {
+        "dtype": "float32",
+        "shape": [
+          2000,
+          686
+        ],
+        "sha256": "c4cda2ded9ddf796919c119dfab992af18b02d4e015e555ff4051e586d19f4b2"
+      },
+      "started_monotonic_seconds": 31.839108916930854
+    },
+    {
+      "attempt": 23,
+      "row": {
+        "game": 4404,
+        "seed_set": "alt",
+        "seed": 3004446,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "fine": true,
+      "bin_ms": 0.2,
+      "schedule": {
+        "dtype": "float32",
+        "shape": [
+          2000,
+          686
+        ],
+        "sha256": "c4cda2ded9ddf796919c119dfab992af18b02d4e015e555ff4051e586d19f4b2"
+      },
+      "started_monotonic_seconds": 33.34815991693176
+    },
+    {
+      "attempt": 24,
+      "row": {
+        "game": 4408,
+        "seed_set": "base",
+        "seed": 2004450,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "fine": true,
+      "bin_ms": 0.2,
+      "schedule": {
+        "dtype": "float32",
+        "shape": [
+          2000,
+          686
+        ],
+        "sha256": "411c656aa74968b3fed66c6f55a907bc981b075b025265e4708e2e662de2d6aa"
+      },
+      "started_monotonic_seconds": 34.85047074989416
+    },
+    {
+      "attempt": 25,
+      "row": {
+        "game": 4408,
+        "seed_set": "alt",
+        "seed": 3004450,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "fine": true,
+      "bin_ms": 0.2,
+      "schedule": {
+        "dtype": "float32",
+        "shape": [
+          2000,
+          686
+        ],
+        "sha256": "411c656aa74968b3fed66c6f55a907bc981b075b025265e4708e2e662de2d6aa"
+      },
+      "started_monotonic_seconds": 36.39095845888369
+    },
+    {
+      "attempt": 26,
+      "row": {
+        "game": 4412,
+        "seed_set": "base",
+        "seed": 2004454,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "fine": true,
+      "bin_ms": 0.2,
+      "schedule": {
+        "dtype": "float32",
+        "shape": [
+          2000,
+          686
+        ],
+        "sha256": "f2e192489c6bfea9003d1d1906df176f59975e436c24bca0c02d3c3949fb1377"
+      },
+      "started_monotonic_seconds": 37.93995191692375
+    },
+    {
+      "attempt": 27,
+      "row": {
+        "game": 4412,
+        "seed_set": "alt",
+        "seed": 3004454,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "fine": true,
+      "bin_ms": 0.2,
+      "schedule": {
+        "dtype": "float32",
+        "shape": [
+          2000,
+          686
+        ],
+        "sha256": "f2e192489c6bfea9003d1d1906df176f59975e436c24bca0c02d3c3949fb1377"
+      },
+      "started_monotonic_seconds": 39.46511125005782
+    },
+    {
+      "attempt": 28,
+      "row": {
+        "game": 4416,
+        "seed_set": "base",
+        "seed": 2004458,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "fine": true,
+      "bin_ms": 0.2,
+      "schedule": {
+        "dtype": "float32",
+        "shape": [
+          2000,
+          686
+        ],
+        "sha256": "e02e59a3bb41444393fd629414248e56d15b155b0c5814320f044456a2ec18f8"
+      },
+      "started_monotonic_seconds": 40.99322362500243
+    },
+    {
+      "attempt": 29,
+      "row": {
+        "game": 4416,
+        "seed_set": "alt",
+        "seed": 3004458,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "fine": true,
+      "bin_ms": 0.2,
+      "schedule": {
+        "dtype": "float32",
+        "shape": [
+          2000,
+          686
+        ],
+        "sha256": "e02e59a3bb41444393fd629414248e56d15b155b0c5814320f044456a2ec18f8"
+      },
+      "started_monotonic_seconds": 42.524363041855395
+    },
+    {
+      "attempt": 30,
+      "row": {
+        "game": 4420,
+        "seed_set": "base",
+        "seed": 2004462,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "fine": true,
+      "bin_ms": 0.2,
+      "schedule": {
+        "dtype": "float32",
+        "shape": [
+          2000,
+          686
+        ],
+        "sha256": "99040567d70debabca5add39cb091f06c0634f6cef9a69b25ba3ea8a84c12d1d"
+      },
+      "started_monotonic_seconds": 44.06594350002706
+    },
+    {
+      "attempt": 31,
+      "row": {
+        "game": 4420,
+        "seed_set": "alt",
+        "seed": 3004462,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "fine": true,
+      "bin_ms": 0.2,
+      "schedule": {
+        "dtype": "float32",
+        "shape": [
+          2000,
+          686
+        ],
+        "sha256": "99040567d70debabca5add39cb091f06c0634f6cef9a69b25ba3ea8a84c12d1d"
+      },
+      "started_monotonic_seconds": 45.60481558390893
+    },
+    {
+      "attempt": 32,
+      "row": {
+        "game": 4425,
+        "seed_set": "base",
+        "seed": 2004467,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "fine": true,
+      "bin_ms": 0.2,
+      "schedule": {
+        "dtype": "float32",
+        "shape": [
+          2000,
+          686
+        ],
+        "sha256": "224e67d457b2ac4bf23735bd9458a8260df04b150aecff8d0043d3bb770b714d"
+      },
+      "started_monotonic_seconds": 47.1492418339476
+    },
+    {
+      "attempt": 33,
+      "row": {
+        "game": 4425,
+        "seed_set": "alt",
+        "seed": 3004467,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "fine": true,
+      "bin_ms": 0.2,
+      "schedule": {
+        "dtype": "float32",
+        "shape": [
+          2000,
+          686
+        ],
+        "sha256": "224e67d457b2ac4bf23735bd9458a8260df04b150aecff8d0043d3bb770b714d"
+      },
+      "started_monotonic_seconds": 48.663578166859224
+    }
+  ]
+}

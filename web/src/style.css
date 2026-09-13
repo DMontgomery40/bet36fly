@@ -91,3 +91,10 @@
 .reward-experiments button:focus-visible, .reward-experiments select:focus-visible, .reward-experiments summary:focus-visible { outline: 2px solid #f1d076; outline-offset: 3px; }
 @media(max-width:720px){.reward-counts,.reward-readout dl,.reward-gates,.reward-evidence{grid-template-columns:repeat(2,minmax(0,1fr))}.reward-protocol,.reward-run-detail{padding:.9rem}.reward-experiments>.section-heading{display:grid}}
 @media(max-width:400px){.reward-counts,.reward-readout dl,.reward-gates,.reward-gates dl,.reward-evidence{grid-template-columns:minmax(0,1fr)}}
+
+.mechanism-evidence, .conditioning-evidence { margin: 2rem 0; }
+.diagnostic-detail { padding: 1rem 0; border-bottom: 1px solid var(--line, #ddd); }
+.diagnostic-detail summary, .mechanism-table th { overflow-wrap: anywhere; }
+.diagnostic-detail pre { white-space: pre-wrap; overflow-wrap: anywhere; }
+.diagnostic-detail dd, .conditioning-evidence .mono { overflow-wrap: anywhere; }
+.mechanism-table { min-width: 720px; }

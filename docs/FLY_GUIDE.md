@@ -2,7 +2,13 @@
 
 **A guide to BET36FLY’s active v1 checkpoint and separate circuit experiments.**
 
-For individual neurons, KC subtypes, APL, dopamine channels and MBON territories, use the [cell and circuit wiki](../wiki/index.md). Its [reassessment](../wiki/reassessment.md) records the unresolved learning mechanism at its dated checkpoint. The retained phase-1 code has since been integrated; the [current reward protocol](EXPERIMENT_REWARD.md) records that integration and its remaining scientific hold.
+For individual neurons, KC subtypes, APL, dopamine channels and MBON territories,
+use the [cell and circuit wiki](../wiki/index.md). Its [reassessment](../wiki/reassessment.md)
+now records the integrated repair and its failed controls. Both corrected raw
+spike timing and the rate bridge still change untaught home gains beyond the
+declared guard. Retaining earlier signal history made that failure worse.
+Conditioning and reversal have not run; the
+[current reward protocol](EXPERIMENT_REWARD.md) preserves the exact boundary.
 
 The fly really uses the measured fly connectome. Sports numbers stimulate neurons, spikes travel through the anatomical network, and a trained decoder turns the resulting activity into probabilities. Training changed a small subset of the actual connections. The first experiment works computationally, but **it does not yet predict games better than our simple statistical baseline**.
 
@@ -74,11 +80,48 @@ The positions are sampled somas: cell bodies. Straight lines display connectivit
 
 Watch brain runs the active frozen checkpoint for a fixture. Replay spikes and the timeline inspect its recorded 80 ms response; playback is slowed for visibility. Nothing is learning during replay, and the trace is not live biology. A connectome is not a saved animal’s complete memories or behavior. More visible or active neurons does not establish greater intelligence. The detailed [UI explanations](../web/src/brainExplainers.ts) are the source of truth for inspector prose; the [model card](MODEL_CARD.md) gives the numerical assumptions.
 
-## Follow the v2 experiment in Training
+## Follow circuit evidence and historical experiments in Training
 
-Training also shows a separate **On-circuit reward learning** panel. Its [dopamine-association protocol](EXPERIMENT_REWARD.md) changes supported KC-to-MBON gains from actual KC/DAN spike timing, while keeping the task readout fixed. It compares true-outcome teaching with shuffled teaching and frozen gains. Select an arm to inspect scores, class confusion, measured gain curves and DAN activity; downloads preserve the underlying evidence. The integrated phase-1 candidate can feed raw dopamine-neuron spike counts into the timing rule; it has not passed the untaught-home guard and no schema-4 sports pilot has run. Historical schema-3 results retain their signed tonic-reference rule. The glomerular encoder presents each game as a pattern of active antennal-lobe glomeruli, the way an odor is presented to a real fly, and applies three recorded cell-type gains (labeled-line ALPN ports, reduced APL output, raised KC input) so that the lobe does not reverberate and the readout MBONs can respond. This experiment is an engineered associative-learning test, with KC activity still denser than in real flies and unmodeled receptor chemistry, not a reconstruction of biological reward-prediction error. [Current measured results](evidence/reward-v3-summary.md).
+Training opens with **Mechanism qualification**. Each diagnostic keeps its stored
+verdict separate from what can be reconstructed from its saved artifacts. Open
+the run details for all seven criteria, the untaught mean/SD/limit, teaching
+effects, rule/mask identity and bridge-tail accounting. The final bridge pair
+shows an original-panel pass and a second-panel failure. Older raw panels lack
+the complete retained replay/sensory evidence required by this reader, so their
+overall status remains unverified even when a stored verdict says passed.
 
-There is one Training tab. At its top, the experiment tracker identifies active v1 and shows the original 24 neural run slots: eight variants across three seeds. Eight unfinished temporal jobs were cancelled by a separate user instruction, then the three remaining whole-trial jobs were paused for a decoder-only diagnostic. All original rows remain visible, including the 13 completed results; unfinished work is not represented as completed. Select a row to inspect its actual state, parameter counts, validation loss, decoder and surrogate curves, retained plastic checkpoints, neural activity and saturation measurements, and downloadable artifacts. Queued and cancelled runs have no invented completed metrics. Cancellation records the user’s execution decision; it is not a model score or a failed-run diagnosis. A failed run displays its stored error, and a fetch failure retains the last loaded results with a warning. The tracker polls every five seconds while jobs run and every thirty seconds otherwise.
+**Conditioning and reversal** reports that qualification has not passed and no
+conditioning run exists. Future generic manifests can show execution and
+ancestry, but this registry does not yet independently validate conditioning
+criteria. Completed execution cannot establish learned acquisition or reversal.
+[Current mechanism evidence](evidence/reward-mechanism-repair-2026-09-12/index.md).
+
+**Historical sports association pilots** retains the separate on-circuit reward
+learning panel. Its [dopamine-association protocol](EXPERIMENT_REWARD.md) changes
+supported KC-to-MBON gains while keeping the readout fixed. Select an arm to
+inspect scores, class confusion, measured gains and DAN activity; downloads
+preserve the evidence. Historical schema-3 results retain their signed
+tonic-reference rule. The integrated corrected raw and rate-bridge rules have
+not qualified, and no repaired-rule sports pilot has run. The glomerular encoder
+and accepted ALPN/APL/KC gains remain fixed. These are engineered interfaces,
+with denser KC activity than real flies and unmodeled receptor chemistry.
+[Historical sports results](evidence/reward-v3-summary.md).
+
+The same Training tab preserves the v2 experiment tracker below the reward
+evidence. It identifies active v1 and shows the original 24 neural run slots:
+eight variants across three seeds. Eight unfinished temporal jobs were cancelled
+by a separate user instruction, then the three remaining whole-trial jobs were
+paused for a decoder-only diagnostic. All original rows remain visible,
+including the 13 completed results; unfinished work is not represented as
+completed. Select a row to inspect its state, parameter counts, validation loss,
+decoder and surrogate curves, retained checkpoints, neural activity, saturation
+and downloadable artifacts. Queued and cancelled runs have no invented metrics.
+A failed run displays its stored error. Fetch failures retain the last loaded
+results with a warning; mechanism evidence provides a retry control and marks
+pair qualification stale until refreshed. One experiment poll serves the
+historical and conditioning views, every five seconds while jobs run and every
+thirty seconds otherwise; mechanism diagnostics refresh separately every thirty
+seconds.
 
 Switch Comparison sport between soccer and baseball, then choose validation or the historical development benchmark. Validation determines the candidate; the January–August 2026 benchmark has already influenced this design. Comparisons fill from completed runs during execution, and the final comparison adds baselines, available-seed aggregates, the selected ensemble and paired weekly uncertainty intervals. No architecture currently has the three completed seeds needed for selection. Available results remain incomplete and descriptive; uncertainty over games does not supply missing seed replications. The [tracked decoder summary](evidence/v2-development-summary.md#decoder-diagnostics) records the original-grid and stronger-L2 results: temporal now has lower validation loss than whole, while both remain behind the feature baseline. This demonstrates sensitivity to regularization, not proof of a root cause or reliable improvement. Detailed reports remain local artifacts, and neither model promotion nor further grid expansion is automatic. The original v1 result remains a separately labeled archived reference below the tracker.
 

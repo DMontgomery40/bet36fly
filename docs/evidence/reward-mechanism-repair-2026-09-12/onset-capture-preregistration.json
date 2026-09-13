@@ -1,0 +1,463 @@
+{
+  "status": "preregistered-not-captured",
+  "run_id": "onset-history-capture-4343c21535c43f42",
+  "identity": {
+    "contract_sha256": "ca01c345c6c28ba2879b7cf05a6d1b2b802392f0067862e701a69da5778a5ad5",
+    "source_code": {
+      "reward_lif.cpp": "e7dbb0aa8f95873036415581e94de45c237941f05642ccc90812c1be1119be37",
+      "reward_brain.py": "5a6d67d38d226c6792c4f11430610772894ea3e9ae9593c2d215cfd7eaa0a6d5",
+      "reward_protocol.py": "e1a315f991debb677fca30f6e821a657135adccf032ad26054a00ed7688dc1bb",
+      "reward_encoder.py": "178a36f388b0c0de34bc2a83a0b35eef806dafa98636aa2400e4b87931446285",
+      "reward_diagnostic.py": "59feb14834813fa6793f0f97a8e4c208fd85494b383e9fa5875efe5b21189c99",
+      "reward_teaching_diagnostic.py": "d18df419fe4c78001019d6feadff5b6c37df2de69f7e278d46d3cf02bc539598"
+    },
+    "graph_hashes": {
+      "data/brain/counts.npy": "4a11faf9771fc3d5a5ff78ae7620ec1ce400f52d099ff657f0342cfc7a519f6b",
+      "data/brain/ids.npy": "ab90597b7b0ce07cbc22cb39a65b70bea2ac73cc7fd225951bd9d73f2fc8dd3f",
+      "data/brain/in_degree.npy": "494f13b315b23acb9962e214de0676e647893597614ad146483308e16a09716d",
+      "data/brain/indptr.npy": "fe43420f11e6242a11f8199ae7f097cab4b8a6db181d36f2a46b9e46670acbb4",
+      "data/brain/kc.npy": "97a570aafa089f93e642b2bb07e3a3322dabb14c3c7dd431f0c8d2b3b7951fdd",
+      "data/brain/mbon.npy": "87d555e02d4cf2d661d9676b937a31b29cacf60a7edc85c8c08edc8312530f83",
+      "data/brain/post.npy": "ce20f7433f78442c717ad2a7b5394cf4a3b109d990b4be0788040b7b0f4ed150",
+      "data/brain/sensory.npy": "ed574f42559455069679f8ce3b339395efa9398ec13e199eab47959533370805",
+      "data/brain/signs.npy": "4a0725e94d5014b2f17a70e3bdef3f7d843c0e81a8f22a33284aa10d8d62dab5",
+      "data/brain/nodes.feather": "d706a6dd5ec1dc17cfba2e8f439232723af81729bf1d0c17bf0cc73860a9c867",
+      "data/raw/annotations.feather": "2177e246113e4cfbf1e7772ec37c6da1955ff22e8063d0b1f833101f99a9a3b2"
+    },
+    "native_binary": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/native/reward-lif-e7dbb0aa8f958730.dylib",
+      "sha256": "089af7d08e4a0eaf47b1f35a26d82f8336a0397fc4431ed8629624b2c307d91a"
+    },
+    "protocol": {
+      "schema_version": 3,
+      "seed": 42,
+      "train_n": 64,
+      "validation_n": 32,
+      "calibration_n": 16,
+      "duration_ms": 400.0,
+      "stimulus_ms": 300.0,
+      "teaching_ms": 310.0,
+      "bin_ms": 10.0,
+      "plasticity_onset_ms": 100.0,
+      "dan_baseline_window_ms": 50.0,
+      "teaching_pulse_count": 4,
+      "teaching_interval_ms": 20.0,
+      "encoder": "glomerular-tuning-v1",
+      "encoder_peak_hz": 150.0,
+      "encoder_tuning_width": 0.5,
+      "encoder_min_kc_contacts": 100.0,
+      "kc_input_gain": 1.25,
+      "sensory_input_gain": 0.0,
+      "apl_output_gain": 0.25,
+      "global_weight_scale": 0.5,
+      "tau_ms": 500.0,
+      "learning_rate": 0.0005,
+      "gain_bounds": [
+        0.5,
+        1.5
+      ],
+      "wall_seconds": 900.0,
+      "min_kc_active_fraction": 0.001,
+      "max_kc_active_fraction": 0.85,
+      "max_mbon_hz": 400.0,
+      "min_teaching_evoked_fraction": 0.5,
+      "max_kc_code_overlap": 0.5,
+      "arms": [
+        "paired",
+        "shuffled",
+        "frozen"
+      ],
+      "dan_reference": "none",
+      "away_plasticity_mask": "gamma",
+      "learning_rule": "rate-bridge-v1",
+      "rate_tau_ms": 100.0,
+      "bridge_normalization": 0.96,
+      "bridge_tail": "analytic_no_new_event_tail",
+      "bridge_layout": "rate-bridge-v1/1"
+    },
+    "pilot": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/experiments/reward-v3-209f7c49983f5873f650",
+    "inputs_sha256": "b35d49dbbf361d0b32b7cb8fb278419ca3ed8930a35850d0f571a2f8b3b4cd35",
+    "pilot_manifest_sha256": "3ca0ed70b742ebad3b34b4ecc6690b55e96f3833ee5df34920a6648e950b8ff5",
+    "pilot_protocol_sha256": "c1e969f5d4f586b789bf4bf9235e8071f2734759b3e22f30ad1d01f9fc4be193",
+    "prior": {
+      "diag-rate-bridge-v1-maskgamma-de050d773763": {
+        "summary_sha256": "1536b139d018cfda709cde9f230623970d518a45d661d89d198a5c0e6be50e5a",
+        "artifacts": {
+          "trials.npz": {
+            "sha256": "8daebdae93ba3bd0abd7dc41f891b43ca77e529b008f658f7676851dc20c7e91",
+            "bytes": 337415396
+          },
+          "recording-layout.json": {
+            "sha256": "9c92f372e4a7ae74932c42a63bd02b01cc1eaeb8f1cba46d4db5eb6b43a362d7",
+            "bytes": 1585
+          },
+          "replay-evidence.json": {
+            "sha256": "88c4be5976a7c21d7dc541f2983998dc66ceab78a147686ccd2569c262bf262a",
+            "bytes": 32741
+          }
+        }
+      },
+      "diag-rate-bridge-v1-maskgamma-dea14759e9ca": {
+        "summary_sha256": "d01e398ecebbaa2dfbedabcb27ff1765b6ddf1a1742632456dd4a3bb995307fe",
+        "artifacts": {
+          "trials.npz": {
+            "sha256": "21b144ef18a2d636fc969489f07a8f45c688e98dbd9d52cd647d018f1e13f495",
+            "bytes": 337415396
+          },
+          "recording-layout.json": {
+            "sha256": "9c92f372e4a7ae74932c42a63bd02b01cc1eaeb8f1cba46d4db5eb6b43a362d7",
+            "bytes": 1585
+          },
+          "replay-evidence.json": {
+            "sha256": "bb2e24dc52c3d07332fc0f06cb8bf29f6ff2a78a8c61bd2ebf3efdd85bb9aefa",
+            "bytes": 32741
+          }
+        }
+      }
+    },
+    "rows": [
+      {
+        "game": 4362,
+        "seed_set": "base",
+        "seed": 4404,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      {
+        "game": 4362,
+        "seed_set": "alt",
+        "seed": 1004404,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      {
+        "game": 4366,
+        "seed_set": "base",
+        "seed": 4408,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      {
+        "game": 4366,
+        "seed_set": "alt",
+        "seed": 1004408,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      {
+        "game": 4370,
+        "seed_set": "base",
+        "seed": 4412,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      {
+        "game": 4370,
+        "seed_set": "alt",
+        "seed": 1004412,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      {
+        "game": 4374,
+        "seed_set": "base",
+        "seed": 4416,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      {
+        "game": 4374,
+        "seed_set": "alt",
+        "seed": 1004416,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      {
+        "game": 4378,
+        "seed_set": "base",
+        "seed": 4420,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      {
+        "game": 4378,
+        "seed_set": "alt",
+        "seed": 1004420,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      {
+        "game": 4383,
+        "seed_set": "base",
+        "seed": 4425,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      {
+        "game": 4383,
+        "seed_set": "alt",
+        "seed": 1004425,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      {
+        "game": 4387,
+        "seed_set": "base",
+        "seed": 4429,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      {
+        "game": 4387,
+        "seed_set": "alt",
+        "seed": 1004429,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      {
+        "game": 4391,
+        "seed_set": "base",
+        "seed": 4433,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      {
+        "game": 4391,
+        "seed_set": "alt",
+        "seed": 1004433,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      {
+        "game": 4395,
+        "seed_set": "base",
+        "seed": 2004437,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      {
+        "game": 4395,
+        "seed_set": "alt",
+        "seed": 3004437,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      {
+        "game": 4399,
+        "seed_set": "base",
+        "seed": 2004441,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      {
+        "game": 4399,
+        "seed_set": "alt",
+        "seed": 3004441,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      {
+        "game": 4404,
+        "seed_set": "base",
+        "seed": 2004446,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      {
+        "game": 4404,
+        "seed_set": "alt",
+        "seed": 3004446,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      {
+        "game": 4408,
+        "seed_set": "base",
+        "seed": 2004450,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      {
+        "game": 4408,
+        "seed_set": "alt",
+        "seed": 3004450,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      {
+        "game": 4412,
+        "seed_set": "base",
+        "seed": 2004454,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      {
+        "game": 4412,
+        "seed_set": "alt",
+        "seed": 3004454,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      {
+        "game": 4416,
+        "seed_set": "base",
+        "seed": 2004458,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      {
+        "game": 4416,
+        "seed_set": "alt",
+        "seed": 3004458,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      {
+        "game": 4420,
+        "seed_set": "base",
+        "seed": 2004462,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      {
+        "game": 4420,
+        "seed_set": "alt",
+        "seed": 3004462,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      {
+        "game": 4425,
+        "seed_set": "base",
+        "seed": 2004467,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      {
+        "game": 4425,
+        "seed_set": "alt",
+        "seed": 3004467,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      }
+    ],
+    "planned_calls": 33,
+    "wall_seconds_cap": 600,
+    "sample_arrays": {
+      "plastic_kc_indices": {
+        "dtype": "int32",
+        "shape": [
+          8866
+        ],
+        "sha256": "9cab1618c27af53d1bae1c5964f5963789f57867bb5e63eee9b58ed14b191c85"
+      },
+      "plastic_compartments": {
+        "dtype": "int32",
+        "shape": [
+          8866
+        ],
+        "sha256": "5e41a545bdfd13aadb4a9d6a0eb0de421d8b36460fd1e9dccfbf0f001e095a3f"
+      },
+      "plastic_mask": {
+        "dtype": "uint8",
+        "shape": [
+          8866
+        ],
+        "sha256": "6ca501a48beba5b5ff82d7ba583501e3d0eae8da72d395c2b1a32f849d92484a"
+      },
+      "plastic_groups": {
+        "dtype": "int32",
+        "shape": [
+          8866
+        ],
+        "sha256": "958a66b6c5494776d7f75f0e82adc08d323a9d3e0ccca4a75891969640a0ebca"
+      },
+      "sample": {
+        "dtype": "int32",
+        "shape": [
+          4774
+        ],
+        "sha256": "892a1b417865b185b2bc8ef8505cc1d90607a56276f4a98db5ae8bb166b2ecf9"
+      },
+      "body_ids": {
+        "dtype": "int64",
+        "shape": [
+          4774
+        ],
+        "sha256": "a429784837fc6899c8a6da617782ebbf455eaac91ce46611181fa225830800ad"
+      },
+      "kc_indices": {
+        "dtype": "int32",
+        "shape": [
+          4064
+        ],
+        "sha256": "9e990d10a63b0f74cd7bbbdc5369082f24d5246487af944ba289bc6bf48d4b75"
+      },
+      "dan_indices": {
+        "dtype": "int32",
+        "shape": [
+          24
+        ],
+        "sha256": "10604e7110f8a38863a59e8b9313b467d900ba78ab969f0b074ce61d294d8db2"
+      },
+      "sensory_indices": {
+        "dtype": "int32",
+        "shape": [
+          686
+        ],
+        "sha256": "56c4eb47cb535fcf990017b13a29d026f91a28397e6c206bd24a99598d2588ff"
+      },
+      "dan_compartments": {
+        "dtype": "int32",
+        "shape": [
+          24
+        ],
+        "sha256": "47c40d17d83b074658ca32bc9ff98aae5915134bc8af85ab99e4dc6ac7eafc9d"
+      },
+      "kc_columns": {
+        "dtype": "int32",
+        "shape": [
+          4064
+        ],
+        "sha256": "d4e942c154f75f8e58b322bd2151d7ae4ed276a014e55b4facc595ea76d3ec15"
+      },
+      "dan_columns": {
+        "dtype": "int32",
+        "shape": [
+          24
+        ],
+        "sha256": "6823d31cdbad46636387eb8fdedb16a6836bf564192f433f77c7dd8f0ab14a06"
+      },
+      "sensory_columns": {
+        "dtype": "int32",
+        "shape": [
+          686
+        ],
+        "sha256": "87897dba393b3af7a3e9861cc2b344345072bffd6c779d209d63a26aa7f986ad"
+      }
+    },
+    "role_overlaps": {
+      "kc/dan": [],
+      "kc/sensory": [],
+      "dan/sensory": []
+    },
+    "capture": {
+      "bin_ms": 0.2,
+      "electrical_dt": 0.2,
+      "coarse_bin_ms": 10.0,
+      "schedule_repeat": 50,
+      "record": false,
+      "plasticity": true,
+      "pulses": [],
+      "unit_initial_gains": true,
+      "raster_unit": "actual binary spike events per .2ms interval; columns by stored global index"
+    },
+    "shadow": {
+      "histories": [
+        "cold",
+        "continuous"
+      ],
+      "feedback": false,
+      "eta": 0.0005,
+      "tau_e_ms": 500.0,
+      "tau_r_ms": 100.0,
+      "normalization": 0.96,
+      "onset_ms": 100.0,
+      "endpoint_ms": 400.0,
+      "bounds": [
+        0.5,
+        1.5
+      ],
+      "tail": "analytic_no_new_event",
+      "fields": [
+        "positive_integral",
+        "negative_integral",
+        "attempted",
+        "double_applied",
+        "published_applied",
+        "bound_low",
+        "bound_high",
+        "q_used"
+      ]
+    },
+    "runtime": {
+      "python": "3.12.9 (main, Mar 17 2025, 21:36:21) [Clang 20.1.0 ]",
+      "numpy": "2.5.3",
+      "platform": "macOS-27.0-arm64-arm-64bit"
+    },
+    "independent_reference_sha256": "d8aa3c3f8f5e120e5aa78aec4bcdcd354449b5c1ac9142d7e4c72b5d8485283c",
+    "harness_sha256": "8ec357c56d376d3f2073f2b3b64df3d7f3bf6955bdb4b0d55b007207d60833ed",
+    "tests_sha256": "131585b61a217c978777154d269881830ff851d795439ccc2e69496c7cfdf41b"
+  },
+  "samples_path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/docs/evidence/reward-mechanism-repair-2026-09-12/onset-capture-preregistration.samples.npz",
+  "samples_sha256": "5f2414ffe5cab3d99cc1c1f0e91071df1f48721a7709816e90360af8b41074b3",
+  "created_at": "2026-09-12T06:32:30Z"
+}

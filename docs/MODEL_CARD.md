@@ -4,9 +4,18 @@ BET36FLY uses the actual MaleCNS v1.0 neuronal connectome from HHMI Janelia, Goo
 
 ## Current model and experiment status
 
-The [September 12 UTC reassessment](../wiki/reassessment.md) distinguishes this schema-3 checkout from the separate schema-4 repair worktree and later schema-5 handoff. The repair still fails the untaught-home guard, SCI-001; no repaired sports pilot or controlled acquisition/reversal result was verified in that assessment. The [cell atlas](../wiki/cells/index.md) maps the exact selected populations and synaptic support. Historical results below retain their original experiment identities.
+The [reassessment, updated September 13 UTC](../wiki/reassessment.md), preserves
+the original branch distinction and records the later integration. Refractory
+input banking is corrected, gamma away eligibility is implemented, and the
+rate bridge has independent numerical verification. Both corrected raw and bridge
+rules still fail the second panel's untaught-home guard, SCI-001. Retaining earlier
+signal history on fixed spikes worsened the failure. Controlled acquisition and
+reversal have not run, and no repaired sports pilot is claimed.
+[Current mechanism evidence](evidence/reward-mechanism-repair-2026-09-12/index.md).
+The [cell atlas](../wiki/cells/index.md) maps exact populations and support;
+historical results below retain their original experiment identities.
 
-The accepted v1 checkpoint from `20260910T232621Z` remains active through the local artifact `output/current-model.json`. Its original graph, checkpoint and paper-pick ledger are protected. V2 experiment `v2-24a83145c27ab220116e` is now paused by explicit user instruction, with 13 completed runs, eight cancelled temporal jobs and three unfinished whole-trial jobs. No completed 16-run amended comparison, complete 24-run matrix or selected shadow candidate is claimed.
+The accepted v1 checkpoint from `20260910T232621Z` remains active through the local artifact `output/current-model.json`. Its original graph and checkpoint remain protected. An earlier QA startup refreshed live caches and inserted 81 local v1 paper forecasts; those shared records were preserved because no complete prior snapshot exists. The [incident and subsequent read-only QA repair](evidence/reward-mechanism-repair-2026-09-12/verification-startup-incident.md) record that exception. V2 experiment `v2-24a83145c27ab220116e` is now paused by explicit user instruction, with 13 completed runs, eight cancelled temporal jobs and three unfinished whole-trial jobs. No completed 16-run amended comparison, complete 24-run matrix or selected shadow candidate is claimed.
 
 A separate [dopamine-association experiment](EXPERIMENT_REWARD.md) now implements persistent gain updates from actual KC/DAN spike timing in the full MaleCNS graph, with a fixed sports readout. It has its own native engine, protocol and registry; it cannot activate a model. Training shows its paired, shuffled-teaching and frozen-synapse controls separately. The [measured evidence and current source checks](evidence/reward-v3-summary.md) distinguish the experimental mechanism from active v1 and the paused v2 work.
 
