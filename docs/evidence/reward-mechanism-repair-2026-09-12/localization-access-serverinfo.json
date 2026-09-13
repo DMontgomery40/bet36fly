@@ -1,0 +1,21 @@
+{
+  "url": "https://neuprint.janelia.org/api/serverinfo",
+  "method": "GET",
+  "started_utc": "2026-09-13T04:22:40.376632+00:00",
+  "authentication_sent": false,
+  "cookies_sent": false,
+  "redirects_followed": false,
+  "response_cap_bytes": 4096,
+  "timeout_seconds": 12,
+  "connect_timeout_seconds": 5,
+  "retry_count": 0,
+  "client": "curl -q (config disabled)",
+  "exit_code": 28,
+  "http_status": null,
+  "content_type": "",
+  "received_bytes": 0,
+  "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "body_preview": "",
+  "error": "curl: (28) Operation timed out after 12005 milliseconds with 0 bytes received",
+  "elapsed_seconds": 12.021380458958447
+}

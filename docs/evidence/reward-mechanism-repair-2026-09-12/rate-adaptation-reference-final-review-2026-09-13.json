@@ -1,0 +1,13 @@
+{
+  "agent": "dopamine_sources",
+  "checked_at_utc": "2026-09-13T04:39:30.744860+00:00",
+  "status": "passed_final_calculator_numerical_scope",
+  "calculator_sha256": "bad6425c1b54b0f48b04b8238be3e426372d3a8a128838bb2260f9d93b5652e8",
+  "prior_review_sha256": "da1850de21a66f13f9302a4f4774f7d1a436e7c673b71a6b401bf83876de73cc",
+  "prior_review": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-review.json",
+  "verification": "Reread final calculator numerical core and reran all 229 independent synthetic tests against announced frozen release. All passed. Formulas unchanged; shared KC state evolves once independently of DAN channels; finite overflow is fail-closed. Runner/input-output scope belongs to separate reviewer.",
+  "tests_passed": 229,
+  "actual_saved_history_evaluations": 0,
+  "new_circuit_calls": 0,
+  "prior_evidence_preserved": true
+}

@@ -1,0 +1,30 @@
+# Independent numerical reference review
+
+2026-09-13 UTC. **PASS for the fixed scalar/vector signal equations and the stated publication policy on synthetic tests.** No saved-history candidate, new circuit run, teaching experiment or biological calibration was evaluated. This is not scientific qualification.
+
+The exact specification is `rate-adaptation-reference-contract.md`. The source report proposed the engineering hypothesis; this agent derived its numerical contract and independent reference, while `evidence_ui` separately wrote the output-only calculator. Independence here means separate implementation and numerical method, not an independent origin of the hypothesis.
+
+The derivation handles the equality of baseline and eligibility timescales explicitly, gives stable repeated-exponent limits, integrates both positive and negative product areas, and splits at the unique positive-to-zero rectifier crossing. The infinite tail is the active integral through that crossing followed by the entire remaining eligibility/rate product. Root confirmed that crossing splits do not add gain publication: one double clamp/float32 publish occurs per complete 0.2 ms interval and one for the total tail. This differs from continuous projected gain dynamics.
+
+`rate_adaptation_reference_oracle.py` provides two separate checks. A high-accuracy DOP853 solution integrates the original five-state differential equations and positive/negative accumulators directly, evaluating `max(R_D-B,0)` without an analytic crossing formula. Complete tails use 70-digit Laplace-moment quadrature with a numerically bisected sign root. Neither imports the writer's recurrence to compute expected values, and neither truncates the infinite tail at a large finite time. Closed-form constant-input solutions separately validate repeated-exponent, sustained-input and baseline-step cases.
+
+The tolerances were written before synthetic execution and before any real saved-history result. State tolerances are absolute 2e-11/relative 2e-10; unscaled product-area tolerances absolute 2e-10/relative 2e-10; gain-delta tolerances absolute 2e-12/relative 2e-10. The ODE requests substantially tighter tolerances. Fixed numerical thresholds are not fitted to the failed guard or to a response sign. No tolerance was relaxed after testing.
+
+**229 tests passed in 2.95 seconds**, followed by Ruff passing on all three reference Python files. This comprises 63 independent-oracle/analytic cases and 166 direct calculator checks. Coverage includes zero and one-sided states, finite and infinite integration, tiny/large states, exact and near-coincident crossings, crossings immediately before/at/after an interval endpoint, constant inputs, upward/downward baseline steps, intentional repeated exponents, scalar/vector agreement, positive-area domination, malformed states, and clipping after a complete tail. Three clipping cases explicitly demonstrate that publishing at the rectifier crossing produces a different bounded result and is therefore prohibited.
+
+Review identified an avoidable implementation dependence: shared KC state was initially taken from the last DAN channel's possibly split integration path. The writer corrected it so the KC states advance once over the full interval independently of channel crossing/order. The final passing tests include that correction. No remaining actionable formula finding was identified within this review.
+
+The mathematical no-excursion argument is valid for the same nonnegative histories: Dplus≤R_D and causal E_Dplus≤E_D_unadapted, hence each adapted positive and negative magnitude is bounded by its unadapted counterpart. The sum of both magnitudes bounds every prefix's absolute gain excursion. The real-data application must still verify every edge, correct continuous-history comparator, complete tail and recorded hashes; this review has not inspected a candidate outcome.
+
+The candidate does not inherit the old antisymmetric timing kernel. For a synthetic isolated coincident unit KC/DAN impulse, the independent complete-tail positive/negative areas are approximately 0.3534335221597217 and 0.223606797749979, giving a positive gain delta about 0.0000623168277166765. This is a consequence of the specified engineering equation, not physiological evidence or a target selected during fitting. It must not be suppressed by an old zero-coincidence assertion.
+
+Read all narrative changes since the previous receipts, including the full Task4B acceptance, implementation and independent reviews, complete 04:13 handoff, API contract, source report, evidence index, wiki verification and new scientific preregistration. The reading receipt records 129 narrative entries. The earlier contradictory wiki paragraph was reported to root, corrected by root and reread. The scientific preregistration's 32 exact rows, eight separately evaluated cells, full tail, immutable inputs and no-tuning decision rule match this mathematical scope. Appended-silence invariance is appropriately limited to unbounded areas/bound-free gains or an unchanged publication schedule.
+
+Reference commands:
+
+```text
+PYTHONDONTWRITEBYTECODE=1 .venv/bin/python -m pytest -q output/collaboration/reward-mechanism-repair/rate_adaptation_reference_tests.py output/collaboration/reward-mechanism-repair/rate_adaptation_reference_writer_tests.py
+.venv/bin/ruff check output/collaboration/reward-mechanism-repair/rate_adaptation_reference_oracle.py output/collaboration/reward-mechanism-repair/rate_adaptation_reference_tests.py output/collaboration/reward-mechanism-repair/rate_adaptation_reference_writer_tests.py
+```
+
+`rate-adaptation-reference-review.json` binds the reviewed calculator, reference/oracle/test files and current scientific preregistration. Input/runner/output transaction review belongs to the separate boundary reviewer. Root owns the final frozen execution receipt and any authorized 32-row offline screen. Production code and protocol defaults remain untouched; full repository gates and browser acceptance are not replaced by these output-only tests.

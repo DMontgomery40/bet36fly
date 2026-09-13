@@ -1,0 +1,10 @@
+{
+  "calculator_sha256": "bad6425c1b54b0f48b04b8238be3e426372d3a8a128838bb2260f9d93b5652e8",
+  "npy_member_bytes": 128,
+  "declared_elements": 100000000,
+  "attempted_allocations": [],
+  "rejected_before_allocation": true,
+  "outcome": "ValueError: NPY declared allocation does not match bounded member payload",
+  "candidate_evaluations": 0,
+  "circuit_calls": 0
+}

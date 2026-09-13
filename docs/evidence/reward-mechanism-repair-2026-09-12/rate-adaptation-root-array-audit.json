@@ -1,0 +1,145 @@
+{
+  "status": "passed_artifact_accounting_scope",
+  "rows": 32,
+  "edges_per_row": 8866,
+  "phase_product_comparisons": 2269696,
+  "native_calls": 0,
+  "candidate_recalculations": 0,
+  "input_files_verified": 108,
+  "max_absolute_area": 0.10217698631370259,
+  "max_positive_domination_excess": 0.0,
+  "max_negative_domination_excess": 0.0,
+  "cells": {
+    "diag-rate-bridge-v1-maskgamma-de050d773763/base/0": {
+      "values": [
+        1.9690696597099304,
+        0.7610401511192322,
+        4.1647592186927795,
+        0.3039536476135254,
+        2.5527154207229614,
+        4.517200171947479,
+        2.5306809544563293,
+        1.0576710104942322
+      ],
+      "mean": 2.2321362793445587,
+      "sd": 1.5343231696180517,
+      "limit": 0.7671615848090259,
+      "passed": false
+    },
+    "diag-rate-bridge-v1-maskgamma-de050d773763/base/1": {
+      "values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean": 0.0,
+      "sd": 0.0,
+      "limit": 0.0,
+      "passed": true
+    },
+    "diag-rate-bridge-v1-maskgamma-de050d773763/alt/0": {
+      "values": [
+        1.5061699151992798,
+        1.0210309624671936,
+        3.8635096549987793,
+        0.23176777362823486,
+        2.31381493806839,
+        5.067948162555695,
+        2.171343982219696,
+        1.4722071290016174
+      ],
+      "mean": 2.2059740647673607,
+      "sd": 1.5712083277940012,
+      "limit": 0.7856041638970006,
+      "passed": false
+    },
+    "diag-rate-bridge-v1-maskgamma-de050d773763/alt/1": {
+      "values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean": 0.0,
+      "sd": 0.0,
+      "limit": 0.0,
+      "passed": true
+    },
+    "diag-rate-bridge-v1-maskgamma-dea14759e9ca/base/0": {
+      "values": [
+        1.9835083484649658,
+        2.2449068427085876,
+        1.2711514234542847,
+        1.9012205600738525,
+        2.2432547211647034,
+        1.8233546614646912,
+        8.089333951473236,
+        1.5496807098388672
+      ],
+      "mean": 2.6383014023303986,
+      "sd": 2.2269438183424675,
+      "limit": 1.1134719091712337,
+      "passed": false
+    },
+    "diag-rate-bridge-v1-maskgamma-dea14759e9ca/base/1": {
+      "values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean": 0.0,
+      "sd": 0.0,
+      "limit": 0.0,
+      "passed": true
+    },
+    "diag-rate-bridge-v1-maskgamma-dea14759e9ca/alt/0": {
+      "values": [
+        2.5795478224754333,
+        2.687340021133423,
+        0.9123208522796631,
+        1.5713650584220886,
+        1.7804412841796875,
+        1.1423709988594055,
+        6.689636945724487,
+        1.158435881137848
+      ],
+      "mean": 2.3151823580265045,
+      "sd": 1.884713879625691,
+      "limit": 0.9423569398128455,
+      "passed": false
+    },
+    "diag-rate-bridge-v1-maskgamma-dea14759e9ca/alt/1": {
+      "values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean": 0.0,
+      "sd": 0.0,
+      "limit": 0.0,
+      "passed": true
+    }
+  },
+  "necessary_stability_screen": false,
+  "qualification": false,
+  "audit_source_sha256": "d5b8e44902b8da48fad85a242fb1d06c0b183e995b1a8df9dde2416313a0949a"
+}

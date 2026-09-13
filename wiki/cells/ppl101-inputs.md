@@ -117,4 +117,13 @@ that biological dopamine learning cannot work. The remaining investigation
 concerns the generated learning signal and its relation to cue and teaching
 activity, with conditioning and reversal still unestablished.
 
+The subsequent fixed rectified-rate adaptation screen also failed on those
+saved trajectories. All home groups acquired excessive positive drift; the
+second/base home mean was +2.638301 against a limit of 1.113472. Its KC-class
+attempted contributions were +1.810191 gamma, +0.048623 alpha-prime/beta-prime
+and +0.779487 alpha/beta. These describe that rejected operator, separately from
+the earlier bridge's alpha/beta-dominated depression. No alternative gain fed
+the neurons, and the comparison does not establish which upstream cell caused
+the sign. [Full phase and cell-class accounting](../../docs/evidence/reward-mechanism-repair-2026-09-12/rate-adaptation-shadow-result.md).
+
 [Dopamine populations](dopamine.md) · [Cell atlas](index.md)

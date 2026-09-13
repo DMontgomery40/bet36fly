@@ -1,0 +1,32 @@
+{
+  "agent": "dopamine_sources",
+  "checked_at_utc": "2026-09-13T04:58:26.763118+00:00",
+  "status": "pass",
+  "prior_full_reading_receipt": {
+    "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-closing-reading-receipt-2026-09-13.json",
+    "bytes": 36245,
+    "sha256": "d6d279233b790d03f5c4d87ef344f45a74f01f97e7532e31958f7c198e8ad5d1"
+  },
+  "files": [
+    {
+      "path": "wiki/verification.md",
+      "bytes": 7838,
+      "sha256": "4e8cb2ab1761a48f0253d876d6a93b44d62a5253ac4492c0910f7e8db4441a25"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/index.md",
+      "bytes": 15028,
+      "sha256": "26188683ec857a57ca5de93eaf5cc3d0fe22bc3b1fb2bac5e679cc9641a2346c"
+    }
+  ],
+  "reading_scope": "Personally read the two final changed passages in context against the previously read full pages. This receipt supplements and does not replace prior full reading coverage.",
+  "confirmed": [
+    "The 373 synthetic cases precede the candidate screen; the separate 20-test reference check precedes the later independent artifact audit.",
+    "The API and Training view expose circuit diagnostic verdicts; the offline adaptation study is separately documented, not claimed to be displayed or integrated.",
+    "The fixed candidate remains rejected; no qualification, conditioning, reversal or biological validation is claimed."
+  ],
+  "findings": [],
+  "prior_receipts_and_reports_modified": false,
+  "production_edits": 0,
+  "new_circuit_calls": 0
+}

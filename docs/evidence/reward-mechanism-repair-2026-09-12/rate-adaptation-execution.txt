@@ -1,0 +1,1 @@
+{"status": "complete", "candidate_evaluations": 32, "native_calls": 0, "necessary_stability_screen": false, "qualification": false}

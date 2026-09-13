@@ -1,0 +1,870 @@
+{
+  "status": "complete",
+  "source_manifest_sha256": "5165a92674683bf2b872753148af74e3adf038ca7a95c64735dcda8e29e5ee46",
+  "source_summary_sha256": "bc10070805851fca8e897a2bec5dea087df30851d7c6962360f7e5ec987acc4c",
+  "verified_input_files": 108,
+  "rows": [
+    {
+      "row": {
+        "game": 4362,
+        "seed_set": "base",
+        "seed": 4404,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "edge_phase_products": 70928,
+      "maximum_unscaled_product_error": 6.750155989720952e-13,
+      "maximum_gain_delta_error": 2.1423834928313568e-16,
+      "maximum_state_error": 1.9895196601282805e-13,
+      "max_area": 0.059836761223502684,
+      "passed": true
+    },
+    {
+      "row": {
+        "game": 4362,
+        "seed_set": "alt",
+        "seed": 1004404,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "edge_phase_products": 70928,
+      "maximum_unscaled_product_error": 4.867217739956686e-13,
+      "maximum_gain_delta_error": 1.9081958235744878e-16,
+      "maximum_state_error": 1.9895196601282805e-13,
+      "max_area": 0.04288186759717784,
+      "passed": true
+    },
+    {
+      "row": {
+        "game": 4366,
+        "seed_set": "base",
+        "seed": 4408,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "edge_phase_products": 70928,
+      "maximum_unscaled_product_error": 2.7711166694643907e-13,
+      "maximum_gain_delta_error": 5.637851296924623e-17,
+      "maximum_state_error": 1.900701818158268e-13,
+      "max_area": 0.03160564303962792,
+      "passed": true
+    },
+    {
+      "row": {
+        "game": 4366,
+        "seed_set": "alt",
+        "seed": 1004408,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "edge_phase_products": 70928,
+      "maximum_unscaled_product_error": 4.901590244799081e-11,
+      "maximum_gain_delta_error": 2.218884798121934e-14,
+      "maximum_state_error": 5.114131340633321e-12,
+      "max_area": 0.036550841767371146,
+      "passed": true
+    },
+    {
+      "row": {
+        "game": 4370,
+        "seed_set": "base",
+        "seed": 4412,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "edge_phase_products": 70928,
+      "maximum_unscaled_product_error": 7.744915819785092e-13,
+      "maximum_gain_delta_error": 2.220446049250313e-16,
+      "maximum_state_error": 2.3092638912203256e-13,
+      "max_area": 0.07993353389422177,
+      "passed": true
+    },
+    {
+      "row": {
+        "game": 4370,
+        "seed_set": "alt",
+        "seed": 1004412,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "edge_phase_products": 70928,
+      "maximum_unscaled_product_error": 7.887024366937112e-13,
+      "maximum_gain_delta_error": 3.3046482217358175e-16,
+      "maximum_state_error": 2.4513724383723456e-13,
+      "max_area": 0.07556793194120139,
+      "passed": true
+    },
+    {
+      "row": {
+        "game": 4374,
+        "seed_set": "base",
+        "seed": 4416,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "edge_phase_products": 70928,
+      "maximum_unscaled_product_error": 2.255973186038318e-13,
+      "maximum_gain_delta_error": 5.2475385148298415e-17,
+      "maximum_state_error": 1.5543122344752192e-13,
+      "max_area": 0.017882285974798292,
+      "passed": true
+    },
+    {
+      "row": {
+        "game": 4374,
+        "seed_set": "alt",
+        "seed": 1004416,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "edge_phase_products": 70928,
+      "maximum_unscaled_product_error": 1.580957587066223e-13,
+      "maximum_gain_delta_error": 5.2258544713801314e-17,
+      "maximum_state_error": 1.5543122344752192e-13,
+      "max_area": 0.018008501512992228,
+      "passed": true
+    },
+    {
+      "row": {
+        "game": 4378,
+        "seed_set": "base",
+        "seed": 4420,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "edge_phase_products": 70928,
+      "maximum_unscaled_product_error": 5.826450433232822e-13,
+      "maximum_gain_delta_error": 2.3158558404290375e-16,
+      "maximum_state_error": 2.0961010704922955e-13,
+      "max_area": 0.05977510708240671,
+      "passed": true
+    },
+    {
+      "row": {
+        "game": 4378,
+        "seed_set": "alt",
+        "seed": 1004420,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "edge_phase_products": 70928,
+      "maximum_unscaled_product_error": 5.897504706808832e-13,
+      "maximum_gain_delta_error": 2.0556473190325164e-16,
+      "maximum_state_error": 2.042810365310288e-13,
+      "max_area": 0.062274833491474765,
+      "passed": true
+    },
+    {
+      "row": {
+        "game": 4383,
+        "seed_set": "base",
+        "seed": 4425,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "edge_phase_products": 70928,
+      "maximum_unscaled_product_error": 1.0231815394945443e-12,
+      "maximum_gain_delta_error": 4.0072112295064244e-16,
+      "maximum_state_error": 2.327027459614328e-13,
+      "max_area": 0.08139938185627199,
+      "passed": true
+    },
+    {
+      "row": {
+        "game": 4383,
+        "seed_set": "alt",
+        "seed": 1004425,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "edge_phase_products": 70928,
+      "maximum_unscaled_product_error": 8.242295734817162e-13,
+      "maximum_gain_delta_error": 2.740863092043355e-16,
+      "maximum_state_error": 2.5579538487363607e-13,
+      "max_area": 0.09213259074104356,
+      "passed": true
+    },
+    {
+      "row": {
+        "game": 4387,
+        "seed_set": "base",
+        "seed": 4429,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "edge_phase_products": 70928,
+      "maximum_unscaled_product_error": 1.7546852859595674e-11,
+      "maximum_gain_delta_error": 8.082076674575944e-15,
+      "maximum_state_error": 2.1014301410104963e-12,
+      "max_area": 0.06437455470157043,
+      "passed": true
+    },
+    {
+      "row": {
+        "game": 4387,
+        "seed_set": "alt",
+        "seed": 1004429,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "edge_phase_products": 70928,
+      "maximum_unscaled_product_error": 6.785683126508957e-13,
+      "maximum_gain_delta_error": 1.8908485888147197e-16,
+      "maximum_state_error": 2.362554596402333e-13,
+      "max_area": 0.06177887368564444,
+      "passed": true
+    },
+    {
+      "row": {
+        "game": 4391,
+        "seed_set": "base",
+        "seed": 4433,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "edge_phase_products": 70928,
+      "maximum_unscaled_product_error": 4.831690603168681e-13,
+      "maximum_gain_delta_error": 1.1882855810441129e-16,
+      "maximum_state_error": 1.9539925233402755e-13,
+      "max_area": 0.044870157160062964,
+      "passed": true
+    },
+    {
+      "row": {
+        "game": 4391,
+        "seed_set": "alt",
+        "seed": 1004433,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "edge_phase_products": 70928,
+      "maximum_unscaled_product_error": 5.258016244624741e-13,
+      "maximum_gain_delta_error": 1.7867651802561113e-16,
+      "maximum_state_error": 2.362554596402333e-13,
+      "max_area": 0.055697832303170915,
+      "passed": true
+    },
+    {
+      "row": {
+        "game": 4395,
+        "seed_set": "base",
+        "seed": 2004437,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "edge_phase_products": 70928,
+      "maximum_unscaled_product_error": 7.922551503725117e-13,
+      "maximum_gain_delta_error": 2.8709673527416157e-16,
+      "maximum_state_error": 2.5224267119483557e-13,
+      "max_area": 0.06794742571851964,
+      "passed": true
+    },
+    {
+      "row": {
+        "game": 4395,
+        "seed_set": "alt",
+        "seed": 3004437,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "edge_phase_products": 70928,
+      "maximum_unscaled_product_error": 6.856737400084967e-13,
+      "maximum_gain_delta_error": 2.1163626406917047e-16,
+      "maximum_state_error": 2.5579538487363607e-13,
+      "max_area": 0.07378494225494558,
+      "passed": true
+    },
+    {
+      "row": {
+        "game": 4399,
+        "seed_set": "base",
+        "seed": 2004441,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "edge_phase_products": 70928,
+      "maximum_unscaled_product_error": 5.613287612504791e-13,
+      "maximum_gain_delta_error": 1.4051260155412137e-16,
+      "maximum_state_error": 1.9184653865522705e-13,
+      "max_area": 0.05404295987642223,
+      "passed": true
+    },
+    {
+      "row": {
+        "game": 4399,
+        "seed_set": "alt",
+        "seed": 3004441,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "edge_phase_products": 70928,
+      "maximum_unscaled_product_error": 4.440892098500626e-13,
+      "maximum_gain_delta_error": 1.5872719805187785e-16,
+      "maximum_state_error": 1.794120407794253e-13,
+      "max_area": 0.055832497944217616,
+      "passed": true
+    },
+    {
+      "row": {
+        "game": 4404,
+        "seed_set": "base",
+        "seed": 2004446,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "edge_phase_products": 70928,
+      "maximum_unscaled_product_error": 4.547473508864641e-13,
+      "maximum_gain_delta_error": 1.4051260155412137e-16,
+      "maximum_state_error": 2.255973186038318e-13,
+      "max_area": 0.050973479021796726,
+      "passed": true
+    },
+    {
+      "row": {
+        "game": 4404,
+        "seed_set": "alt",
+        "seed": 3004446,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "edge_phase_products": 70928,
+      "maximum_unscaled_product_error": 3.623767952376511e-13,
+      "maximum_gain_delta_error": 9.71445146547012e-17,
+      "maximum_state_error": 2.078337502098293e-13,
+      "max_area": 0.03948976820619466,
+      "passed": true
+    },
+    {
+      "row": {
+        "game": 4408,
+        "seed_set": "base",
+        "seed": 2004450,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "edge_phase_products": 70928,
+      "maximum_unscaled_product_error": 6.252776074688882e-13,
+      "maximum_gain_delta_error": 1.9949319973733282e-16,
+      "maximum_state_error": 2.2737367544323206e-13,
+      "max_area": 0.06605535908719187,
+      "passed": true
+    },
+    {
+      "row": {
+        "game": 4408,
+        "seed_set": "alt",
+        "seed": 3004450,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "edge_phase_products": 70928,
+      "maximum_unscaled_product_error": 5.186961971048731e-13,
+      "maximum_gain_delta_error": 1.6566609195578508e-16,
+      "maximum_state_error": 2.255973186038318e-13,
+      "max_area": 0.05265892093283443,
+      "passed": true
+    },
+    {
+      "row": {
+        "game": 4412,
+        "seed_set": "base",
+        "seed": 2004454,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "edge_phase_products": 70928,
+      "maximum_unscaled_product_error": 5.826450433232822e-13,
+      "maximum_gain_delta_error": 1.4137996329210978e-16,
+      "maximum_state_error": 2.575717417130363e-13,
+      "max_area": 0.06872694618798429,
+      "passed": true
+    },
+    {
+      "row": {
+        "game": 4412,
+        "seed_set": "alt",
+        "seed": 3004454,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "edge_phase_products": 70928,
+      "maximum_unscaled_product_error": 6.892264536872972e-13,
+      "maximum_gain_delta_error": 2.5500435096859064e-16,
+      "maximum_state_error": 2.2026824808563106e-13,
+      "max_area": 0.06136789379366619,
+      "passed": true
+    },
+    {
+      "row": {
+        "game": 4416,
+        "seed_set": "base",
+        "seed": 2004458,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "edge_phase_products": 70928,
+      "maximum_unscaled_product_error": 5.613287612504791e-13,
+      "maximum_gain_delta_error": 2.220446049250313e-16,
+      "maximum_state_error": 1.900701818158268e-13,
+      "max_area": 0.04887613284954297,
+      "passed": true
+    },
+    {
+      "row": {
+        "game": 4416,
+        "seed_set": "alt",
+        "seed": 3004458,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "edge_phase_products": 70928,
+      "maximum_unscaled_product_error": 3.8191672047105385e-13,
+      "maximum_gain_delta_error": 1.196959198423997e-16,
+      "maximum_state_error": 1.829647544582258e-13,
+      "max_area": 0.03443277854123368,
+      "passed": true
+    },
+    {
+      "row": {
+        "game": 4420,
+        "seed_set": "base",
+        "seed": 2004462,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "edge_phase_products": 70928,
+      "maximum_unscaled_product_error": 9.592326932761353e-13,
+      "maximum_gain_delta_error": 3.174543961037557e-16,
+      "maximum_state_error": 2.5579538487363607e-13,
+      "max_area": 0.10217698631370263,
+      "passed": true
+    },
+    {
+      "row": {
+        "game": 4420,
+        "seed_set": "alt",
+        "seed": 3004462,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "edge_phase_products": 70928,
+      "maximum_unscaled_product_error": 8.597567102697212e-13,
+      "maximum_gain_delta_error": 2.7582103268031233e-16,
+      "maximum_state_error": 2.504663143554353e-13,
+      "max_area": 0.09094626701125291,
+      "passed": true
+    },
+    {
+      "row": {
+        "game": 4425,
+        "seed_set": "base",
+        "seed": 2004467,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "edge_phase_products": 70928,
+      "maximum_unscaled_product_error": 6.323830348264892e-13,
+      "maximum_gain_delta_error": 1.5525775109992423e-16,
+      "maximum_state_error": 2.327027459614328e-13,
+      "max_area": 0.054161133034460636,
+      "passed": true
+    },
+    {
+      "row": {
+        "game": 4425,
+        "seed_set": "alt",
+        "seed": 3004467,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "edge_phase_products": 70928,
+      "maximum_unscaled_product_error": 4.227729277772596e-13,
+      "maximum_gain_delta_error": 1.3877787807814457e-16,
+      "maximum_state_error": 2.575717417130363e-13,
+      "max_area": 0.05356320740137695,
+      "passed": true
+    }
+  ],
+  "metrics": {
+    "diag-rate-bridge-v1-maskgamma-de050d773763/base/0": {
+      "adaptation": {
+        "values": [
+          1.9690696597099304,
+          0.7610401511192322,
+          4.1647592186927795,
+          0.3039536476135254,
+          2.5527154207229614,
+          4.517200171947479,
+          2.5306809544563293,
+          1.0576710104942322
+        ],
+        "mean": 2.2321362793445587,
+        "sd": 1.5343231696180517,
+        "limit": 0.7671615848090259,
+        "passed": false
+      },
+      "cold": {
+        "values": [
+          -0.03740561008453369,
+          -0.01059800386428833,
+          0.25449538230895996,
+          -0.1349077820777893,
+          -0.6350186467170715,
+          0.020790934562683105,
+          -0.23866534233093262,
+          -0.04941391944885254
+        ],
+        "mean": -0.10384037345647812,
+        "sd": 0.25671016092650883,
+        "limit": 0.12835508046325442,
+        "passed": true
+      },
+      "continuous": {
+        "values": [
+          -0.22977250814437866,
+          -0.09217661619186401,
+          -0.6807485222816467,
+          -0.27177441120147705,
+          -0.775256335735321,
+          -0.9710636138916016,
+          -0.4051728844642639,
+          -0.3834143280982971
+        ],
+        "mean": -0.47617240250110626,
+        "sd": 0.3023264795436564,
+        "limit": 0.1511632397718282,
+        "passed": false
+      }
+    },
+    "diag-rate-bridge-v1-maskgamma-de050d773763/base/1": {
+      "adaptation": {
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sd": 0.0,
+        "limit": 0.0,
+        "passed": true
+      },
+      "cold": {
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sd": 0.0,
+        "limit": 0.0,
+        "passed": true
+      },
+      "continuous": {
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sd": 0.0,
+        "limit": 0.0,
+        "passed": true
+      }
+    },
+    "diag-rate-bridge-v1-maskgamma-de050d773763/alt/0": {
+      "adaptation": {
+        "values": [
+          1.5061699151992798,
+          1.0210309624671936,
+          3.8635096549987793,
+          0.23176777362823486,
+          2.31381493806839,
+          5.067948162555695,
+          2.171343982219696,
+          1.4722071290016174
+        ],
+        "mean": 2.2059740647673607,
+        "sd": 1.5712083277940012,
+        "limit": 0.7856041638970006,
+        "passed": false
+      },
+      "cold": {
+        "values": [
+          -0.07136553525924683,
+          0.11782455444335938,
+          -0.1078498363494873,
+          -0.19844037294387817,
+          -0.2114952802658081,
+          0.5103757381439209,
+          -0.2918698787689209,
+          -0.23508840799331665
+        ],
+        "mean": -0.06098862737417221,
+        "sd": 0.2634651416578477,
+        "limit": 0.13173257082892384,
+        "passed": true
+      },
+      "continuous": {
+        "values": [
+          -0.1848488450050354,
+          0.11364930868148804,
+          -0.3140385150909424,
+          -0.33173060417175293,
+          -0.6124752759933472,
+          -0.2869764566421509,
+          -0.4209023118019104,
+          -0.47601133584976196
+        ],
+        "mean": -0.31416675448417664,
+        "sd": 0.2162576653937438,
+        "limit": 0.1081288326968719,
+        "passed": false
+      }
+    },
+    "diag-rate-bridge-v1-maskgamma-de050d773763/alt/1": {
+      "adaptation": {
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sd": 0.0,
+        "limit": 0.0,
+        "passed": true
+      },
+      "cold": {
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sd": 0.0,
+        "limit": 0.0,
+        "passed": true
+      },
+      "continuous": {
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sd": 0.0,
+        "limit": 0.0,
+        "passed": true
+      }
+    },
+    "diag-rate-bridge-v1-maskgamma-dea14759e9ca/base/0": {
+      "adaptation": {
+        "values": [
+          1.9835083484649658,
+          2.2449068427085876,
+          1.2711514234542847,
+          1.9012205600738525,
+          2.2432547211647034,
+          1.8233546614646912,
+          8.089333951473236,
+          1.5496807098388672
+        ],
+        "mean": 2.6383014023303986,
+        "sd": 2.2269438183424675,
+        "limit": 1.1134719091712337,
+        "passed": false
+      },
+      "cold": {
+        "values": [
+          -0.46193116903305054,
+          -0.23405802249908447,
+          0.14975744485855103,
+          -0.08033424615859985,
+          0.006715536117553711,
+          -0.030141770839691162,
+          -1.3773916363716125,
+          -0.153736412525177
+        ],
+        "mean": -0.27264003455638885,
+        "sd": 0.48169047084658934,
+        "limit": 0.24084523542329467,
+        "passed": false
+      },
+      "continuous": {
+        "values": [
+          -0.653163492679596,
+          -0.6750279664993286,
+          -0.21224993467330933,
+          -0.21775907278060913,
+          -0.31128203868865967,
+          -0.44407111406326294,
+          -1.006763994693756,
+          -0.3350880742073059
+        ],
+        "mean": -0.48192571103572845,
+        "sd": 0.2768931317978185,
+        "limit": 0.13844656589890925,
+        "passed": false
+      }
+    },
+    "diag-rate-bridge-v1-maskgamma-dea14759e9ca/base/1": {
+      "adaptation": {
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sd": 0.0,
+        "limit": 0.0,
+        "passed": true
+      },
+      "cold": {
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sd": 0.0,
+        "limit": 0.0,
+        "passed": true
+      },
+      "continuous": {
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sd": 0.0,
+        "limit": 0.0,
+        "passed": true
+      }
+    },
+    "diag-rate-bridge-v1-maskgamma-dea14759e9ca/alt/0": {
+      "adaptation": {
+        "values": [
+          2.5795478224754333,
+          2.687340021133423,
+          0.9123208522796631,
+          1.5713650584220886,
+          1.7804412841796875,
+          1.1423709988594055,
+          6.689636945724487,
+          1.158435881137848
+        ],
+        "mean": 2.3151823580265045,
+        "sd": 1.884713879625691,
+        "limit": 0.9423569398128455,
+        "passed": false
+      },
+      "cold": {
+        "values": [
+          -0.050952374935150146,
+          0.19108784198760986,
+          -0.3920947313308716,
+          -0.2635941505432129,
+          -0.1894911527633667,
+          0.1248326301574707,
+          0.08928269147872925,
+          -0.10232347249984741
+        ],
+        "mean": -0.07415658980607986,
+        "sd": 0.20293166987276323,
+        "limit": 0.10146583493638162,
+        "passed": true
+      },
+      "continuous": {
+        "values": [
+          -0.11628621816635132,
+          0.01357269287109375,
+          -0.46074604988098145,
+          -0.2995882034301758,
+          -0.47663766145706177,
+          -0.18996095657348633,
+          0.09516215324401855,
+          -0.669755756855011
+        ],
+        "mean": -0.2630300000309944,
+        "sd": 0.2627235657232172,
+        "limit": 0.1313617828616086,
+        "passed": false
+      }
+    },
+    "diag-rate-bridge-v1-maskgamma-dea14759e9ca/alt/1": {
+      "adaptation": {
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sd": 0.0,
+        "limit": 0.0,
+        "passed": true
+      },
+      "cold": {
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sd": 0.0,
+        "limit": 0.0,
+        "passed": true
+      },
+      "continuous": {
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sd": 0.0,
+        "limit": 0.0,
+        "passed": true
+      }
+    }
+  },
+  "necessary_stability_screen": false,
+  "output_rounding_midpoint_ambiguities": [],
+  "ode_evaluations": 226144,
+  "new_circuit_calls": 0,
+  "writer_imported": false,
+  "parent_sources_preserved": true,
+  "elapsed_seconds": 8.603242333978415,
+  "source_hashes": {
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/rate_adaptation_reference_saved_audit.py": "96f6aada763349384612ab378f29a4a12165d373e2990c76f1fbb4b22cdcf375",
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/rate_adaptation_reference_superposition.py": "f8ab50c7bb441702a6db5961b520468783c07fba8fcb2c3e199f828388e4f342",
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/rate_adaptation_reference_oracle.py": "2e09acf2fe7b1917eab406d99d77d591643065d43e6bf1e59d72e733d0bca87d"
+  }
+}

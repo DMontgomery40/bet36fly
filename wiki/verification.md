@@ -12,6 +12,16 @@ stale/retry recovery and mobile widths. All 782 protected files and inventories
 were unchanged after requests and shutdown. These checks verify the evidence
 display; the learning mechanism still has not qualified.
 
+The later [fixed rate-adaptation screen](../docs/evidence/reward-mechanism-repair-2026-09-12/rate-adaptation-shadow-result.md)
+completed 32 saved histories with zero circuit calls and failed all four home
+guards. Before that screen, 373 synthetic cases passed. A separate complete-edge
+reference method passed 20 tests before its later independent artifact audit. Root checked
+all phase/edge product accounting and preserved the full failed result. The
+[protected-file recheck](../docs/evidence/reward-mechanism-repair-2026-09-12/rate-adaptation-protected-verification.json)
+still matches all 782 files, inventories, five historical pointer/manifest hashes
+and 59 imported copies. No production API or browser behavior changed during
+this offline investigation; the UI proof above remains separate.
+
 ## Current documentation refresh — September 13 UTC
 
 The original 59-file imported snapshot still matches every saved hash and byte
@@ -27,11 +37,11 @@ that metadata only. Both cell/edge CSVs and all anatomical aggregates are
 byte-identical; `export_fly_cell_atlas.py --check` now passes. Current authored
 page links and the active pointer/four historical manifests were also checked.
 
-These checks cover documentation and anatomy. The evidence API/UI extension is
-still being completed; they do not replace its pending full software/browser
-gate. The [read-only startup acceptance](../docs/evidence/reward-mechanism-repair-2026-09-12/verification-startup-acceptance.md)
-records the last completed product change. The learning qualification remains
-failed and conditioning/reversal remain unrun.
+These checks cover documentation and anatomy. They preceded the separately
+completed evidence API/UI software and browser gate linked above. The earlier
+[read-only startup acceptance](../docs/evidence/reward-mechanism-repair-2026-09-12/verification-startup-acceptance.md)
+remains its own dated product check. The learning qualification remains failed
+and conditioning/reversal remain unrun.
 
 ## Initial copy acceptance — September 12 UTC
 

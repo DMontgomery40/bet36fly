@@ -1,0 +1,24 @@
+{
+  "frozen_at_utc": "2026-09-13T04:42:58.207765+00:00",
+  "manifest": {
+    "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/rate-adaptation-frozen-manifest.json",
+    "bytes": 39893,
+    "sha256": "5165a92674683bf2b872753148af74e3adf038ca7a95c64735dcda8e29e5ee46"
+  },
+  "review": {
+    "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/rate-adaptation-combined-prerun-review.json",
+    "bytes": 7738,
+    "sha256": "2a1c23519f8913624b629ef0e6a6f878386d4f301e9e69673e4c86bba5c69732"
+  },
+  "identity": "rate-adaptation-shadow-5165a92674683bf2b872",
+  "candidate_evaluations_before_freeze": 0,
+  "planned_candidate_evaluations": 32,
+  "native_calls": 0,
+  "wall_cap_seconds": 600,
+  "scientific_contract": {
+    "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/docs/evidence/reward-mechanism-repair-2026-09-12/rate-adaptation-shadow-preregistration.md",
+    "bytes": 10905,
+    "sha256": "ae155b68517f734021ff7e31bf1fa45c31b95196cbc3432cd4304ec9c17fa88a"
+  },
+  "output": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872"
+}

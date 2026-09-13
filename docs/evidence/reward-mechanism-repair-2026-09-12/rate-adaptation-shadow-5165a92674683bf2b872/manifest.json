@@ -1,0 +1,763 @@
+{
+  "schema": 1,
+  "status": "preregistered",
+  "scope": "fixed-spike-rejection-only",
+  "parameters": {
+    "rate_tau_ms": 100.0,
+    "baseline_tau_ms": 500.0,
+    "eligibility_tau_ms": 500.0,
+    "eta": 0.0005,
+    "normalization": 0.96,
+    "onset_ms": 100.0,
+    "endpoint_ms": 400.0,
+    "dt_ms": 0.2,
+    "bounds": [
+      0.5,
+      1.5
+    ],
+    "history": "continuous",
+    "signal": "positive_rectified_rate_contrast",
+    "writes": "one_per_complete_step_and_one_full_tail",
+    "initial": "independent_unit_float32",
+    "feedback": false,
+    "native_calls": 0,
+    "candidate_evaluations": 32,
+    "wall_cap_seconds": 600.0
+  },
+  "rows": [
+    {
+      "game": 4362,
+      "seed_set": "base",
+      "seed": 4404,
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+    },
+    {
+      "game": 4362,
+      "seed_set": "alt",
+      "seed": 1004404,
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+    },
+    {
+      "game": 4366,
+      "seed_set": "base",
+      "seed": 4408,
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+    },
+    {
+      "game": 4366,
+      "seed_set": "alt",
+      "seed": 1004408,
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+    },
+    {
+      "game": 4370,
+      "seed_set": "base",
+      "seed": 4412,
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+    },
+    {
+      "game": 4370,
+      "seed_set": "alt",
+      "seed": 1004412,
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+    },
+    {
+      "game": 4374,
+      "seed_set": "base",
+      "seed": 4416,
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+    },
+    {
+      "game": 4374,
+      "seed_set": "alt",
+      "seed": 1004416,
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+    },
+    {
+      "game": 4378,
+      "seed_set": "base",
+      "seed": 4420,
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+    },
+    {
+      "game": 4378,
+      "seed_set": "alt",
+      "seed": 1004420,
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+    },
+    {
+      "game": 4383,
+      "seed_set": "base",
+      "seed": 4425,
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+    },
+    {
+      "game": 4383,
+      "seed_set": "alt",
+      "seed": 1004425,
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+    },
+    {
+      "game": 4387,
+      "seed_set": "base",
+      "seed": 4429,
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+    },
+    {
+      "game": 4387,
+      "seed_set": "alt",
+      "seed": 1004429,
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+    },
+    {
+      "game": 4391,
+      "seed_set": "base",
+      "seed": 4433,
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+    },
+    {
+      "game": 4391,
+      "seed_set": "alt",
+      "seed": 1004433,
+      "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+    },
+    {
+      "game": 4395,
+      "seed_set": "base",
+      "seed": 2004437,
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+    },
+    {
+      "game": 4395,
+      "seed_set": "alt",
+      "seed": 3004437,
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+    },
+    {
+      "game": 4399,
+      "seed_set": "base",
+      "seed": 2004441,
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+    },
+    {
+      "game": 4399,
+      "seed_set": "alt",
+      "seed": 3004441,
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+    },
+    {
+      "game": 4404,
+      "seed_set": "base",
+      "seed": 2004446,
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+    },
+    {
+      "game": 4404,
+      "seed_set": "alt",
+      "seed": 3004446,
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+    },
+    {
+      "game": 4408,
+      "seed_set": "base",
+      "seed": 2004450,
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+    },
+    {
+      "game": 4408,
+      "seed_set": "alt",
+      "seed": 3004450,
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+    },
+    {
+      "game": 4412,
+      "seed_set": "base",
+      "seed": 2004454,
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+    },
+    {
+      "game": 4412,
+      "seed_set": "alt",
+      "seed": 3004454,
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+    },
+    {
+      "game": 4416,
+      "seed_set": "base",
+      "seed": 2004458,
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+    },
+    {
+      "game": 4416,
+      "seed_set": "alt",
+      "seed": 3004458,
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+    },
+    {
+      "game": 4420,
+      "seed_set": "base",
+      "seed": 2004462,
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+    },
+    {
+      "game": 4420,
+      "seed_set": "alt",
+      "seed": 3004462,
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+    },
+    {
+      "game": 4425,
+      "seed_set": "base",
+      "seed": 2004467,
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+    },
+    {
+      "game": 4425,
+      "seed_set": "alt",
+      "seed": 3004467,
+      "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+    }
+  ],
+  "files": {
+    "capture_summary": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/summary.json",
+      "bytes": 650399,
+      "sha256": "244b4dcc1aa40b8c0c7be068bf7e66f8e369921f1005dd474ca37f9460dabb1b"
+    },
+    "capture_receipt": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/capture-receipt.json",
+      "bytes": 14517,
+      "sha256": "9aeea0c9227bf9ad4326277c39eb47966d5ab95ba6870bb3720f0d9b278788fc"
+    },
+    "samples": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/docs/evidence/reward-mechanism-repair-2026-09-12/onset-capture-preregistration.samples.npz",
+      "bytes": 214204,
+      "sha256": "5f2414ffe5cab3d99cc1c1f0e91071df1f48721a7709816e90360af8b41074b3"
+    },
+    "calculator": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/rate_adaptation_shadow.py",
+      "bytes": 34964,
+      "sha256": "bad6425c1b54b0f48b04b8238be3e426372d3a8a128838bb2260f9d93b5652e8"
+    },
+    "tests": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_rate_adaptation_shadow.py",
+      "bytes": 24171,
+      "sha256": "daf769f31cacd3519beafcacd163de946fbc9e6c94954d940fcaba24094466c7"
+    },
+    "unadapted_calculator": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset_history_capture.py",
+      "bytes": 25926,
+      "sha256": "8ec357c56d376d3f2073f2b3b64df3d7f3bf6955bdb4b0d55b007207d60833ed"
+    },
+    "scientific_contract": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/docs/evidence/reward-mechanism-repair-2026-09-12/rate-adaptation-shadow-preregistration.md",
+      "bytes": 10905,
+      "sha256": "ae155b68517f734021ff7e31bf1fa45c31b95196cbc3432cd4304ec9c17fa88a"
+    },
+    "source_report": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/docs/evidence/reward-mechanism-repair-2026-09-12/dopamine-signal-sources-resumed.md",
+      "bytes": 21098,
+      "sha256": "3eb2b28f996b1972444e50676ffcf29aa907a24ef39082f7c6a8883a62bb67b5"
+    },
+    "numerical_contract": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/rate-adaptation-reference-contract.md",
+      "bytes": 10643,
+      "sha256": "16b5275212cbd3c1ef458d40aa365f969f82e3fd4fb00165f91a5edafe5d2984"
+    },
+    "independent_review": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/rate-adaptation-combined-prerun-review.json",
+      "bytes": 7738,
+      "sha256": "2a1c23519f8913624b629ef0e6a6f878386d4f301e9e69673e4c86bba5c69732"
+    },
+    "independent_oracle": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/rate_adaptation_reference_oracle.py",
+      "bytes": 5969,
+      "sha256": "2e09acf2fe7b1917eab406d99d77d591643065d43e6bf1e59d72e733d0bca87d"
+    },
+    "independent_oracle_tests": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/rate_adaptation_reference_tests.py",
+      "bytes": 4620,
+      "sha256": "ca3ae744e91075c21047b34ed7f1e3a6773fbfde7c38ecc9ec1477c05c0dfc66"
+    },
+    "fine_00": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_00.npz",
+      "bytes": 304208,
+      "sha256": "4a438a1d4a9f3f04006ff540a61710ae494609516af5ad4fd60a7b7c5495439c"
+    },
+    "cold_00": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_00_cold.npz",
+      "bytes": 145391,
+      "sha256": "90f482b9ed3787e8c45ca189abf79c1b5aa46569835cb7d3efeaf7551e25cad3"
+    },
+    "continuous_00": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_00_continuous.npz",
+      "bytes": 170083,
+      "sha256": "a757c4b6e064714205ad27838163bd1d9e3627b0b822349909529c9d9aa381c1"
+    },
+    "fine_01": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_01.npz",
+      "bytes": 261004,
+      "sha256": "7b240f79326ce2eae6f39bd915b79f87620010a42819e0456ddfe93b8f13c9d0"
+    },
+    "cold_01": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_01_cold.npz",
+      "bytes": 131323,
+      "sha256": "b30247557b2e6d12eba34a6337020a62dc5c9582315fde74f3a61563e9f431c4"
+    },
+    "continuous_01": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_01_continuous.npz",
+      "bytes": 159345,
+      "sha256": "c4675b3df42770da65f46b71c64b7b759cccd7b867fd6f1579ffdc3ed79d5180"
+    },
+    "fine_02": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_02.npz",
+      "bytes": 246748,
+      "sha256": "5a52ef4192a5c3451c87b5a4e68d71634ed364f91f51791e58bf1981ca7e53bd"
+    },
+    "cold_02": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_02_cold.npz",
+      "bytes": 106372,
+      "sha256": "6d0d289df6068db145d6249dfe2af470529eb7ec773ffe08e7b1b826c984fe90"
+    },
+    "continuous_02": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_02_continuous.npz",
+      "bytes": 130036,
+      "sha256": "087c71171e0b5e83b87bdc5bc57e34b1fdc5c4c589e0b734ba624346a45358c1"
+    },
+    "fine_03": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_03.npz",
+      "bytes": 253126,
+      "sha256": "9f5bd6d632bfba279c0d8d0544b128ce5a88f8d706e6d7873b6f3eb3ae21079c"
+    },
+    "cold_03": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_03_cold.npz",
+      "bytes": 103953,
+      "sha256": "86582640915fc5194b95e32007f0ee46b0702588bca8d96291daca46ab59c901"
+    },
+    "continuous_03": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_03_continuous.npz",
+      "bytes": 136470,
+      "sha256": "7272301560bfa3ac33164a2b02300b4d6ca71ab24f60a25163a8e27fb7fbbf78"
+    },
+    "fine_04": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_04.npz",
+      "bytes": 293592,
+      "sha256": "ac307e48234934babd39c0a6455cb072a521d6732873cf0e5163111cc8fe43dc"
+    },
+    "cold_04": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_04_cold.npz",
+      "bytes": 196704,
+      "sha256": "6ad44fedb94999f29cfacd603c516092935c56636b77b97090a1bfb0daca1dd4"
+    },
+    "continuous_04": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_04_continuous.npz",
+      "bytes": 251142,
+      "sha256": "e029eea1d154f2ce8139c57c1f0e872fed7a89ccb2d9a6bd7354b1eb2a6cb88f"
+    },
+    "fine_05": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_05.npz",
+      "bytes": 288644,
+      "sha256": "076ed8ef037a4a8ac17c9234d93cbebe3b19f14d4a34aee353e18b501c20c48c"
+    },
+    "cold_05": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_05_cold.npz",
+      "bytes": 204480,
+      "sha256": "2e898793b8f187616db227d4adf818f0c8543dd547b314966c26322f1faab7b4"
+    },
+    "continuous_05": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_05_continuous.npz",
+      "bytes": 241748,
+      "sha256": "b8b51b4f57b282aff3d695db080ba941440a150ab166939f546422da776aec65"
+    },
+    "fine_06": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_06.npz",
+      "bytes": 250474,
+      "sha256": "bf1ecf62af1de626bcac4f358a665b2cf4b8f36fe3af0cb57760d91a0b5347e0"
+    },
+    "cold_06": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_06_cold.npz",
+      "bytes": 83906,
+      "sha256": "257b21f550c4b3b5ba7538c0281fee8c4a709349f1fe484af3f0217b97ad4654"
+    },
+    "continuous_06": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_06_continuous.npz",
+      "bytes": 114408,
+      "sha256": "13ae93fc05657393e1f0ac6b3fe197e203a844ab0ee79fb2ec088784a4eb0c04"
+    },
+    "fine_07": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_07.npz",
+      "bytes": 250524,
+      "sha256": "32fd4c05763c3080baad1ca0055e8b75335bb26e97115f04c6347bcb49582a1b"
+    },
+    "cold_07": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_07_cold.npz",
+      "bytes": 91784,
+      "sha256": "612d3ea707f1d8fb547324af0d2c7bbfa1d1fa3ca2607531b1dd1093e0632f8a"
+    },
+    "continuous_07": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_07_continuous.npz",
+      "bytes": 115576,
+      "sha256": "676b12035c39fd55f868036680af82ea0034ebd0e0d652c7550de1aba80fc4b5"
+    },
+    "fine_08": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_08.npz",
+      "bytes": 278486,
+      "sha256": "9f53e482a23d2f6aa14ebbc510aeb3e41f833a24491b4fe60f4284303c11bb6c"
+    },
+    "cold_08": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_08_cold.npz",
+      "bytes": 184906,
+      "sha256": "6dc30fa43d61e76d3db038a8c886e1b069f51cee80ded0747413c260dc527f44"
+    },
+    "continuous_08": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_08_continuous.npz",
+      "bytes": 215559,
+      "sha256": "15d3ab0cae3092875a55a61f2b2cd371abfa654ad073f0aa4bb2e77069aacf7e"
+    },
+    "fine_09": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_09.npz",
+      "bytes": 268165,
+      "sha256": "05dc4b454c6b4ef233452769ff96d3d03ed79596c90b09f847b3c31c39c30de2"
+    },
+    "cold_09": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_09_cold.npz",
+      "bytes": 165098,
+      "sha256": "bdf46afa7aae7b97dfa3ed3b7ac0b2f61ccd124131ad3ee8d05db8ea692dd8c2"
+    },
+    "continuous_09": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_09_continuous.npz",
+      "bytes": 190900,
+      "sha256": "eab7c1c478a72b0ae5e7bf761d29a5ccdda0c2264e1747b9a3405832dc1a3695"
+    },
+    "fine_10": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_10.npz",
+      "bytes": 297885,
+      "sha256": "b32ce1bef5e7b70375a6bd74d62034ebaf2f9aa4c797f0062350092950b960df"
+    },
+    "cold_10": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_10_cold.npz",
+      "bytes": 207977,
+      "sha256": "0d62ab844d6706316c5f4c4729a5bfb40ce81a89a4d63b6335fa1342e41d341b"
+    },
+    "continuous_10": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_10_continuous.npz",
+      "bytes": 270646,
+      "sha256": "272c79a3cfdb2d6ea3f89771d33d587a520e0fdf5d065e9f31ef2d6335d4df55"
+    },
+    "fine_11": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_11.npz",
+      "bytes": 323946,
+      "sha256": "07ac0e2d1d2c34d00de827a5b96a024679642d06e442296b77fd1b8303a207e0"
+    },
+    "cold_11": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_11_cold.npz",
+      "bytes": 209068,
+      "sha256": "41e1a12da9cd46e07af73b8f79d204098c0c1d5029188a9d7263e3188731e432"
+    },
+    "continuous_11": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_11_continuous.npz",
+      "bytes": 263341,
+      "sha256": "bf03a8f476cb49cacefc12763e5722b001cb759c7a14946517456d35c54658de"
+    },
+    "fine_12": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_12.npz",
+      "bytes": 258583,
+      "sha256": "912a3e7580e7f7b08e3daaa16deaa0a18e4640587f592f0d62315e9596b766b4"
+    },
+    "cold_12": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_12_cold.npz",
+      "bytes": 153704,
+      "sha256": "920441eb42c1ec935ebd6d0fe4f5d2287a99b0704f4de54f924cbf9e1d01ec25"
+    },
+    "continuous_12": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_12_continuous.npz",
+      "bytes": 185820,
+      "sha256": "fe3ee392555fb44c775417a9c23ff93ea120f84c656cf5e87277760a8818663b"
+    },
+    "fine_13": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_13.npz",
+      "bytes": 265942,
+      "sha256": "9e83d9c5b2e7ee323e216fa8f15e363f046f50a8818131fd0e3429f1ba7da84a"
+    },
+    "cold_13": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_13_cold.npz",
+      "bytes": 153860,
+      "sha256": "e07cdc445ba0d5fb9cc83222b88e7e4d345a18c997ca638e1e1c8f4d70fc26bd"
+    },
+    "continuous_13": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_13_continuous.npz",
+      "bytes": 182513,
+      "sha256": "39ae0f519ea7584d444249bbb179225c90da7249e11688c3c751ebc30b0ec190"
+    },
+    "fine_14": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_14.npz",
+      "bytes": 246273,
+      "sha256": "1f362a2786326b960809c0a6abeeba3824851b63e5dfe41bce22eb936ae58935"
+    },
+    "cold_14": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_14_cold.npz",
+      "bytes": 121831,
+      "sha256": "e64c40a4f54b1ac43c7492ba4583ce438cacc6bf2f39ed87faae451c4bf53e10"
+    },
+    "continuous_14": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_14_continuous.npz",
+      "bytes": 150253,
+      "sha256": "d0d1029a1657fcbc9e25cb913bbf514c77b9517ccdc658256c90f79b6c5ec162"
+    },
+    "fine_15": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_15.npz",
+      "bytes": 259666,
+      "sha256": "a40c7d22af553478d802691e0bb390713e0625ab3d40ca9379139893b9dd1a99"
+    },
+    "cold_15": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_15_cold.npz",
+      "bytes": 137535,
+      "sha256": "54fd884f74cc09d2dd2fd1d88c5d72e9fa7a939521eedbcb0eb13a4eabb69907"
+    },
+    "continuous_15": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_15_continuous.npz",
+      "bytes": 160134,
+      "sha256": "152665b916114bf534177b1893d30e98106e53b5d7b1e16b34c092408a4e2679"
+    },
+    "fine_16": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_16.npz",
+      "bytes": 259158,
+      "sha256": "00408ac82dd08534809801425ef9be3869b732d7dcacbe440cc9548fd29b6b05"
+    },
+    "cold_16": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_16_cold.npz",
+      "bytes": 150233,
+      "sha256": "75c824d433f804c53f917f978620cd669bc71541c22bfcc2ea4bfb279d6bc80d"
+    },
+    "continuous_16": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_16_continuous.npz",
+      "bytes": 177303,
+      "sha256": "89defe1117d9a1a8d2969749411ddfc7343c14fb9937b19acd5569eddf495346"
+    },
+    "fine_17": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_17.npz",
+      "bytes": 264010,
+      "sha256": "47afab8b93f0ed827546d0b7fe624ae0d7a383576d14734dfe77321489263f5d"
+    },
+    "cold_17": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_17_cold.npz",
+      "bytes": 151155,
+      "sha256": "5fe2f269b512707bf029e443a4c98a3b51276d5780aa107ea7e663209ad4727d"
+    },
+    "continuous_17": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_17_continuous.npz",
+      "bytes": 180890,
+      "sha256": "033f571b1798a750ca19d1f250a07ff9ad44d4d786ec1a0c5e9896255a89a366"
+    },
+    "fine_18": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_18.npz",
+      "bytes": 287419,
+      "sha256": "872d849d813cf56649044329aed3aa527b323e6cba63d7be30c9ce39b554cacc"
+    },
+    "cold_18": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_18_cold.npz",
+      "bytes": 170749,
+      "sha256": "079551b9e6e046f48bab67d84a96d68da5e915f21d4d92eafaf854628a618921"
+    },
+    "continuous_18": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_18_continuous.npz",
+      "bytes": 203051,
+      "sha256": "6dd70436c3f67f49e8da1d4ecd8919a3038e385baf37fca6a48164229158a8a0"
+    },
+    "fine_19": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_19.npz",
+      "bytes": 274964,
+      "sha256": "fec4a8b1d82e2b4668438a9c7fe010cc06575eb416fe061b3f04074ab7023337"
+    },
+    "cold_19": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_19_cold.npz",
+      "bytes": 182652,
+      "sha256": "8e0535987d5d3fcb47242228f352c64b6eb0388d90e7854b2695d401ccc006ab"
+    },
+    "continuous_19": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_19_continuous.npz",
+      "bytes": 219810,
+      "sha256": "6e6210b05513c8e324105bf0445db28c927b0b808ac35b439a4446524f0d0519"
+    },
+    "fine_20": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_20.npz",
+      "bytes": 241766,
+      "sha256": "d2a5e5f42be0ba28342afc4e5b3f5fbf338893e09018577d414aad02b06f8f81"
+    },
+    "cold_20": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_20_cold.npz",
+      "bytes": 125054,
+      "sha256": "7a14bc15b9d67773711881089883e0446df994401e82e7589741577611346776"
+    },
+    "continuous_20": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_20_continuous.npz",
+      "bytes": 155929,
+      "sha256": "254212efa067230f1e56377ead461a95acdaa348a931868b076d01c329c23595"
+    },
+    "fine_21": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_21.npz",
+      "bytes": 241190,
+      "sha256": "43c6dca974fb8b04673f992abc4c6a2e50ed9d9697637f408d00798b7f8c4433"
+    },
+    "cold_21": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_21_cold.npz",
+      "bytes": 131730,
+      "sha256": "cba52aab9d75aba7e627ed9cdfe8691abde09eed0e7add7e3cd828560252aaf2"
+    },
+    "continuous_21": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_21_continuous.npz",
+      "bytes": 153950,
+      "sha256": "f12cc194df37c5e62b90df8341cc322a352ff19f5859282fc4d03749c4ee1854"
+    },
+    "fine_22": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_22.npz",
+      "bytes": 273136,
+      "sha256": "07e21bed4584c9c6fab689c488bceeef1561f93df6b2d71d866d4ce72e47b6d8"
+    },
+    "cold_22": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_22_cold.npz",
+      "bytes": 134001,
+      "sha256": "b793e1f88b555684626bf37e9af7b028752b473f51c2d1cee0348fe993fd8ed6"
+    },
+    "continuous_22": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_22_continuous.npz",
+      "bytes": 155387,
+      "sha256": "8764f1315e085432e2fcbf93f6708205446efec5f5922b19794d34072681bfd0"
+    },
+    "fine_23": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_23.npz",
+      "bytes": 263986,
+      "sha256": "bc9b5c3466e0a9a73599dbfd4276c1ff1d0b0703e007be6c5afa317ce6341fc9"
+    },
+    "cold_23": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_23_cold.npz",
+      "bytes": 124587,
+      "sha256": "834e50830675b03f6e721cff7356ae541e98daace5520da7d3f51411f44f76b6"
+    },
+    "continuous_23": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_23_continuous.npz",
+      "bytes": 152549,
+      "sha256": "a7fe7587f2ba2db6d5001d4673a814db65221fa284932137832836aef873d41e"
+    },
+    "fine_24": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_24.npz",
+      "bytes": 318898,
+      "sha256": "d311d3a997ac06302cb1471817d2828f56d1a9824cc565a5d0f6390925cda876"
+    },
+    "cold_24": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_24_cold.npz",
+      "bytes": 137821,
+      "sha256": "49f107767aa30a56ae4ce3aa165c4480768274f50d13643ca812206670e3d547"
+    },
+    "continuous_24": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_24_continuous.npz",
+      "bytes": 165603,
+      "sha256": "659b530c09ab3df871e0e46c61a95f56190c4e78620292b3b3514a8e01af2440"
+    },
+    "fine_25": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_25.npz",
+      "bytes": 276663,
+      "sha256": "bcdf73a09d7a638d1d13ad4421dd1547daa888fde3003b360a068f4aa54c44ef"
+    },
+    "cold_25": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_25_cold.npz",
+      "bytes": 130769,
+      "sha256": "0d67ad8afc1fe18e024c57f24b0bd7883c72ccf83ed29a0e81e539f879b57994"
+    },
+    "continuous_25": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_25_continuous.npz",
+      "bytes": 165815,
+      "sha256": "ee3a01192df092abb6009dc37b5efb9a90e776303764d1e7c6f4d2849af034a5"
+    },
+    "fine_26": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_26.npz",
+      "bytes": 284242,
+      "sha256": "4bfd5cfd1dea0fff8a72743b4af592f758afc9753b0bda2c1405cb04f1f48538"
+    },
+    "cold_26": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_26_cold.npz",
+      "bytes": 160102,
+      "sha256": "fb9d2d0b29712cc0137d24d8065bf383ee0d615cc5fcfe12bf41feaa37786423"
+    },
+    "continuous_26": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_26_continuous.npz",
+      "bytes": 200382,
+      "sha256": "ca354077f449b6b29cbb06a7467f8b62e6472ce069b424f68bba2cd5954ee837"
+    },
+    "fine_27": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_27.npz",
+      "bytes": 278629,
+      "sha256": "43f6d5d956ec9c93f075a81163825129829be8a02ce9c41a579de7096a1c52cf"
+    },
+    "cold_27": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_27_cold.npz",
+      "bytes": 130889,
+      "sha256": "1ed8c553419f002e08b9a860ceef80aabc0200eb8176b3a07a6b9c22ae55d70f"
+    },
+    "continuous_27": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_27_continuous.npz",
+      "bytes": 166740,
+      "sha256": "7db843b54c17dd783d4e1fd5c5c8b15193465e9312bab37299311c9d25bf4869"
+    },
+    "fine_28": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_28.npz",
+      "bytes": 309040,
+      "sha256": "b018679072496893290fb66ed610a3dcb04eb7252f5b2e2b5c073b9357f7e344"
+    },
+    "cold_28": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_28_cold.npz",
+      "bytes": 274871,
+      "sha256": "daa975a6aea03c7a2725b1bbb2245298f6aef6f27c9c3bd77d9b49d6456b0a57"
+    },
+    "continuous_28": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_28_continuous.npz",
+      "bytes": 305334,
+      "sha256": "48459e1eba26a46d41db6b2df9b49a00a855f12aa725b3169c8bc35903e549d5"
+    },
+    "fine_29": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_29.npz",
+      "bytes": 288384,
+      "sha256": "4fd3f67362ed8feca0dd2da2f53b882aaefdb8880b4b6962aa08a8702b9df6da"
+    },
+    "cold_29": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_29_cold.npz",
+      "bytes": 237925,
+      "sha256": "0b8bc14de3237ff6214155a66f66fafbe26202cd3d6cf721955c43a1c3de18b6"
+    },
+    "continuous_29": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_29_continuous.npz",
+      "bytes": 286778,
+      "sha256": "0245a5739edea5915ea875406e28d2c0a916e789a2d6ca528d0cda56cb98566b"
+    },
+    "fine_30": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_30.npz",
+      "bytes": 265261,
+      "sha256": "baf87916b22976fd62bfa5e5d576288c390ea102a32a31ba8a5cc19aa342b6f2"
+    },
+    "cold_30": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_30_cold.npz",
+      "bytes": 152109,
+      "sha256": "68a451b623af06dbc281bc2b08fa569c84d0021b41ab22b53507cf091c8db530"
+    },
+    "continuous_30": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_30_continuous.npz",
+      "bytes": 175849,
+      "sha256": "8f221a56fc48a859a046ce0703405a1d6523383e11439f2011607d204601e021"
+    },
+    "fine_31": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_31.npz",
+      "bytes": 264598,
+      "sha256": "66799429f280fe90da61c7ecd5cb47544793d61ffc2dd109af0a362040257157"
+    },
+    "cold_31": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_31_cold.npz",
+      "bytes": 137222,
+      "sha256": "4df4b1aa3cf4040009f0a0ea729f1b21894bfa9fac96a0e5dbd8177082007d7d"
+    },
+    "continuous_31": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/shadow_31_continuous.npz",
+      "bytes": 173418,
+      "sha256": "2b1af9ddf0546e484c1ba9d41c43ea4fe5b66df3c915f3a4b17afa97183c7f11"
+    }
+  }
+}

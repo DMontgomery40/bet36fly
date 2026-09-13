@@ -21,21 +21,28 @@ untaught-home guard. [Complete repair evidence](../docs/evidence/reward-mechanis
 | Corrected raw, second panel `e3d8898dc68a` | Home/base mean −0.515623; absolute limit 0.489778 | Qualification fails |
 | Rate bridge, second panel `dea14759e9ca` | Home/base mean −0.272640; absolute limit 0.240845 | Qualification fails despite a smaller drift |
 | Fixed-history shadow `4343c21535c43f42` | Retaining pre-100 ms history worsens home/base to −0.481926; 30/32 home trials worsen | Reject the onset-history-only hypothesis |
+| Fixed rate-adaptation shadow `5165a92674683bf2b872` | Second/base home mean +2.638301; absolute limit 1.113472; all four home groups fail | Reject this fixed adaptation hypothesis |
 | Conditioning and reversal | Not run; entry gate remains unmet | No learned-association or reversal claim |
 
 The shadow used the actual recorded spikes and never transmitted its alternative
 gains. It does not measure what a recurrent circuit with those gains would do.
 The [PPL101 input audit](cells/ppl101-inputs.md) identifies the two cells and their
 direct feedback paths; the 61.52% KC contact fraction does not establish a current
-fraction or causal explanation. Signal generation and plasticity coupling remain
-under investigation, with accepted gains, channels and thresholds unchanged.
+fraction or causal explanation. The later
+[rate-adaptation result](../docs/evidence/reward-mechanism-repair-2026-09-12/rate-adaptation-shadow-result.md)
+also uses only saved spikes: it changes depression to excessive potentiation,
+with the complete mathematical tail retained. Signal generation and plasticity
+coupling remain under investigation, with accepted gains, channels and
+thresholds unchanged.
 
 An earlier QA startup refreshed live sports caches and inserted 81 local v1 paper
 forecasts. These were preserved because no complete prior snapshot exists. The
 subsequent [read-only QA repair](../docs/evidence/reward-mechanism-repair-2026-09-12/verification-startup-acceptance.md)
 passed browser and file-integrity checks; it does not undo that incident. The
-evidence API/UI extension is unfinished at this dated boundary; current failures
-are recorded in the [continuation handoff](../docs/REWARD_REPAIR_HANDOFF.md).
+evidence API/UI extension is now complete and
+[verified in the browser](../docs/evidence/reward-mechanism-repair-2026-09-12/task4b-acceptance.md).
+The [continuation handoff](../docs/REWARD_REPAIR_HANDOFF.md) records the remaining
+scientific work; a correct evidence display does not close its learning gate.
 
 ## Initial wiki assessment — September 12 UTC
 

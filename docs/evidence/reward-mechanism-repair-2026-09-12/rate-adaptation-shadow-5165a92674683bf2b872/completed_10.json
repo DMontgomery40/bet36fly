@@ -1,0 +1,51 @@
+{
+  "row": {
+    "game": 4383,
+    "seed_set": "base",
+    "seed": 4425,
+    "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+  },
+  "output": {
+    "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/adaptation_10.npz",
+    "bytes": 276666,
+    "sha256": "9dccd17ac5bde1b2ab8025ed2babc8a8464e39a1c9136bb2e44e17f2edf8e950"
+  },
+  "changes": {
+    "adaptation": {
+      "published": [
+        4.517200171947479,
+        0.0
+      ],
+      "attempted": [
+        4.517202515635432,
+        0.0
+      ]
+    },
+    "cold": {
+      "published": [
+        0.020790934562683105,
+        0.0
+      ],
+      "attempted": [
+        0.020790484585310687,
+        0.0
+      ]
+    },
+    "continuous": {
+      "published": [
+        -0.9710636138916016,
+        0.0
+      ],
+      "attempted": [
+        -0.97106290691755,
+        0.0
+      ]
+    }
+  },
+  "bound_observations": 0,
+  "parent_checkpoint_unchanged": true,
+  "masks_unchanged": true,
+  "no_hidden_excursion": true,
+  "domination_checked_per_edge": true,
+  "max_absolute_area": 0.08139938185627199
+}

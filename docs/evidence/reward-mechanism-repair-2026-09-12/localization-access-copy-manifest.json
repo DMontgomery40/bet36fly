@@ -1,0 +1,36 @@
+{
+  "copied_at": "2026-09-13T04:26:20.573926+00:00",
+  "mode": "copy; sources retained",
+  "files": [
+    {
+      "source": "output/collaboration/reward-mechanism-repair/localization-access-report.md",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/localization-access-report.md",
+      "bytes": 5692,
+      "sha256": "4685344d29e410936f3d1091df4d4f881efb31d4665c3706147a5d09425ac82f"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/localization-access-receipt.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/localization-access-receipt.json",
+      "bytes": 4675,
+      "sha256": "605b80ff8461e399fbd112d59196bf4a46928880d173898c9c1a81402776810e"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/localization-access-datasets.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/localization-access-datasets.json",
+      "bytes": 463,
+      "sha256": "1e74df04be3269c3b980259d125f458e75882afb208fb8e19a8821e55b925fa9"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/localization-access-datasets-network.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/localization-access-datasets-network.json",
+      "bytes": 520,
+      "sha256": "94ab0f090b5a3ca1922097163e48a680f59ee797be582156be6a46bf044af960"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/localization-access-serverinfo.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/localization-access-serverinfo.json",
+      "bytes": 694,
+      "sha256": "5725ac735aa07b4bed7e476743a4041b9d98b4d9d5fc6a256673c7aa7119cdb3"
+    }
+  ]
+}

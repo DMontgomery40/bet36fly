@@ -1,0 +1,115 @@
+{
+  "completed_utc": "2026-09-13T04:25:02.414752+00:00",
+  "service_endpoint_attempts": 3,
+  "fresh_official_documentation_pages": 2,
+  "selected_body_queries": 0,
+  "retrieved_synapse_coordinates": 0,
+  "authentication_result": "not determined; no HTTP status received",
+  "prior_reading_receipts": [
+    "delivered-arrivals-resumed-reading-receipt.json",
+    "delivered-arrivals-resumed-evidence-review-final.md"
+  ],
+  "narrative_contents_actually_read": true,
+  "narrative_read_boundary": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "1867e109eeb497a9e86a5069d6846ff02408317bfebb0d01315713aab1a765a1"
+    },
+    {
+      "path": "docs/REWARD_REPAIR_HANDOFF.md",
+      "sha256": "0bb110608a3d6485a1ebb83af8ea0a263479c10d5e3fac3ade08c956895dcca3"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/task4b-acceptance.md",
+      "sha256": "60f9b9ebd5a353cb0a2b558d6fe9ec4a668eda23efe67411995eea1722b4898b"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/task4b-evidence-ui-report.md",
+      "sha256": "c2caf6a88da15371f9b8fc2005a639ffb67f07dc87cda2860bf5a823f0202456"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/evidence-ui-resumed-reading.md",
+      "sha256": "7a2eb1f7c70cf7c5732f16559784bcaa3ca29e0823117799c07508ad91d79abb"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/index.md",
+      "sha256": "142f1a0a9336f865b8ab3700871f2c0d07ec47e771f6fa48253183117c028d97"
+    },
+    {
+      "path": "wiki/verification.md",
+      "sha256": "a9990e33d591a989d137e3b9b439eb992d05383a063deb9390a48ff8728c73df"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/dopamine-signal-sources-resumed.md",
+      "sha256": "3eb2b28f996b1972444e50676ffcf29aa907a24ef39082f7c6a8883a62bb67b5"
+    }
+  ],
+  "access_records": [
+    {
+      "path": "output/collaboration/reward-mechanism-repair/localization-access-datasets.json",
+      "sha256": "1e74df04be3269c3b980259d125f458e75882afb208fb8e19a8821e55b925fa9",
+      "result": {
+        "url": "https://neuprint.janelia.org/api/dbmeta/datasets",
+        "method": "GET",
+        "started_utc": "2026-09-13T04:20:57.614409+00:00",
+        "authentication_sent": false,
+        "cookies_sent": false,
+        "redirects_followed": false,
+        "response_cap_bytes": 65536,
+        "timeout_seconds": 15,
+        "retry_count": 0,
+        "http_status": null,
+        "error_type": "gaierror",
+        "error": "[Errno 8] nodename nor servname provided, or not known",
+        "elapsed_seconds": 0.012955582933500409
+      }
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/localization-access-datasets-network.json",
+      "sha256": "94ab0f090b5a3ca1922097163e48a680f59ee797be582156be6a46bf044af960",
+      "result": {
+        "url": "https://neuprint.janelia.org/api/dbmeta/datasets",
+        "method": "GET",
+        "started_utc": "2026-09-13T04:21:33.274012+00:00",
+        "authentication_sent": false,
+        "cookies_sent": false,
+        "redirects_followed": false,
+        "response_cap_bytes": 65536,
+        "timeout_seconds": 15,
+        "retry_count": 0,
+        "attempt_context": "single network-enabled attempt after sandbox DNS failure",
+        "http_status": null,
+        "error_type": "TimeoutError",
+        "error": "The read operation timed out",
+        "elapsed_seconds": 15.290040667168796
+      }
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/localization-access-serverinfo.json",
+      "sha256": "5725ac735aa07b4bed7e476743a4041b9d98b4d9d5fc6a256673c7aa7119cdb3",
+      "result": {
+        "url": "https://neuprint.janelia.org/api/serverinfo",
+        "method": "GET",
+        "started_utc": "2026-09-13T04:22:40.376632+00:00",
+        "authentication_sent": false,
+        "cookies_sent": false,
+        "redirects_followed": false,
+        "response_cap_bytes": 4096,
+        "timeout_seconds": 12,
+        "connect_timeout_seconds": 5,
+        "retry_count": 0,
+        "client": "curl -q (config disabled)",
+        "exit_code": 28,
+        "http_status": null,
+        "content_type": "",
+        "received_bytes": 0,
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "body_preview": "",
+        "error": "curl: (28) Operation timed out after 12005 milliseconds with 0 bytes received",
+        "elapsed_seconds": 12.021380458958447
+      }
+    }
+  ],
+  "report_sha256": "4685344d29e410936f3d1091df4d4f881efb31d4665c3706147a5d09425ac82f",
+  "verification": "All three JSON records parsed; no auth/cookies/redirects; no HTTP status; no selected-body query."
+}

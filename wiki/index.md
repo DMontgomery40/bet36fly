@@ -9,7 +9,8 @@ Start with the [reassessment](reassessment.md). The current problem is demonstra
 
 The repair is integrated, but both corrected raw-event and rate-bridge rules fail
 the second panel's untaught-home guard. A later fixed-history investigation made
-that failure worse; acquisition and reversal have not run. The
+that failure worse. A subsequent fixed rate-adaptation shadow produced excessive
+potentiation and failed all four home groups; acquisition and reversal have not run. The
 [current evidence index](../docs/evidence/reward-mechanism-repair-2026-09-12/index.md)
 preserves those results. Dates use UTC; the
 [initial workspace record](../docs/evidence/reassessment-2026-09-12/index.md)

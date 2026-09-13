@@ -1,0 +1,928 @@
+{
+  "status": "pass",
+  "comparison_tolerance": 2e-12,
+  "independent_and_recorded_product_domination": [
+    {
+      "index": 0,
+      "comparisons": 70928,
+      "largest_independent_minus_raw": 0.0,
+      "largest_recorded_minus_raw": 0.0,
+      "maximum_raw_area": 0.0931137819001617,
+      "passed": true
+    },
+    {
+      "index": 1,
+      "comparisons": 70928,
+      "largest_independent_minus_raw": 0.0,
+      "largest_recorded_minus_raw": 0.0,
+      "maximum_raw_area": 0.06674136776553859,
+      "passed": true
+    },
+    {
+      "index": 2,
+      "comparisons": 70928,
+      "largest_independent_minus_raw": 0.0,
+      "largest_recorded_minus_raw": 0.0,
+      "maximum_raw_area": 0.04807881551967529,
+      "passed": true
+    },
+    {
+      "index": 3,
+      "comparisons": 70928,
+      "largest_independent_minus_raw": 0.0,
+      "largest_recorded_minus_raw": 0.0,
+      "maximum_raw_area": 0.05779400609410555,
+      "passed": true
+    },
+    {
+      "index": 4,
+      "comparisons": 70928,
+      "largest_independent_minus_raw": 0.0,
+      "largest_recorded_minus_raw": 0.0,
+      "maximum_raw_area": 0.12340398084245215,
+      "passed": true
+    },
+    {
+      "index": 5,
+      "comparisons": 70928,
+      "largest_independent_minus_raw": 0.0,
+      "largest_recorded_minus_raw": 0.0,
+      "maximum_raw_area": 0.11660696028913475,
+      "passed": true
+    },
+    {
+      "index": 6,
+      "comparisons": 70928,
+      "largest_independent_minus_raw": 0.0,
+      "largest_recorded_minus_raw": 0.0,
+      "maximum_raw_area": 0.027580804815309008,
+      "passed": true
+    },
+    {
+      "index": 7,
+      "comparisons": 70928,
+      "largest_independent_minus_raw": 0.0,
+      "largest_recorded_minus_raw": 0.0,
+      "maximum_raw_area": 0.027672134220653295,
+      "passed": true
+    },
+    {
+      "index": 8,
+      "comparisons": 70928,
+      "largest_independent_minus_raw": 0.0,
+      "largest_recorded_minus_raw": 0.0,
+      "maximum_raw_area": 0.09161947341926936,
+      "passed": true
+    },
+    {
+      "index": 9,
+      "comparisons": 70928,
+      "largest_independent_minus_raw": 0.0,
+      "largest_recorded_minus_raw": 0.0,
+      "maximum_raw_area": 0.09542115291154665,
+      "passed": true
+    },
+    {
+      "index": 10,
+      "comparisons": 70928,
+      "largest_independent_minus_raw": 0.0,
+      "largest_recorded_minus_raw": 0.0,
+      "maximum_raw_area": 0.12778914555650137,
+      "passed": true
+    },
+    {
+      "index": 11,
+      "comparisons": 70928,
+      "largest_independent_minus_raw": 0.0,
+      "largest_recorded_minus_raw": 0.0,
+      "maximum_raw_area": 0.1433649584982459,
+      "passed": true
+    },
+    {
+      "index": 12,
+      "comparisons": 70928,
+      "largest_independent_minus_raw": 0.0,
+      "largest_recorded_minus_raw": 0.0,
+      "maximum_raw_area": 0.10008355108352282,
+      "passed": true
+    },
+    {
+      "index": 13,
+      "comparisons": 70928,
+      "largest_independent_minus_raw": 0.0,
+      "largest_recorded_minus_raw": 0.0,
+      "maximum_raw_area": 0.09593305290642606,
+      "passed": true
+    },
+    {
+      "index": 14,
+      "comparisons": 70928,
+      "largest_independent_minus_raw": 0.0,
+      "largest_recorded_minus_raw": 0.0,
+      "maximum_raw_area": 0.06873918539188846,
+      "passed": true
+    },
+    {
+      "index": 15,
+      "comparisons": 70928,
+      "largest_independent_minus_raw": 0.0,
+      "largest_recorded_minus_raw": 0.0,
+      "maximum_raw_area": 0.08525826327766883,
+      "passed": true
+    },
+    {
+      "index": 16,
+      "comparisons": 70928,
+      "largest_independent_minus_raw": 0.0,
+      "largest_recorded_minus_raw": 0.0,
+      "maximum_raw_area": 0.10573114467435155,
+      "passed": true
+    },
+    {
+      "index": 17,
+      "comparisons": 70928,
+      "largest_independent_minus_raw": 0.0,
+      "largest_recorded_minus_raw": 0.0,
+      "maximum_raw_area": 0.11484647364779867,
+      "passed": true
+    },
+    {
+      "index": 18,
+      "comparisons": 70928,
+      "largest_independent_minus_raw": 0.0,
+      "largest_recorded_minus_raw": 0.0,
+      "maximum_raw_area": 0.08340994925141021,
+      "passed": true
+    },
+    {
+      "index": 19,
+      "comparisons": 70928,
+      "largest_independent_minus_raw": 0.0,
+      "largest_recorded_minus_raw": 0.0,
+      "maximum_raw_area": 0.08699584032447034,
+      "passed": true
+    },
+    {
+      "index": 20,
+      "comparisons": 70928,
+      "largest_independent_minus_raw": 0.0,
+      "largest_recorded_minus_raw": 0.0,
+      "maximum_raw_area": 0.07899932362520641,
+      "passed": true
+    },
+    {
+      "index": 21,
+      "comparisons": 70928,
+      "largest_independent_minus_raw": 0.0,
+      "largest_recorded_minus_raw": 0.0,
+      "maximum_raw_area": 0.059806862736909425,
+      "passed": true
+    },
+    {
+      "index": 22,
+      "comparisons": 70928,
+      "largest_independent_minus_raw": 0.0,
+      "largest_recorded_minus_raw": 0.0,
+      "maximum_raw_area": 0.10239358268636227,
+      "passed": true
+    },
+    {
+      "index": 23,
+      "comparisons": 70928,
+      "largest_independent_minus_raw": 0.0,
+      "largest_recorded_minus_raw": 0.0,
+      "maximum_raw_area": 0.08204514413670508,
+      "passed": true
+    },
+    {
+      "index": 24,
+      "comparisons": 70928,
+      "largest_independent_minus_raw": 0.0,
+      "largest_recorded_minus_raw": 0.0,
+      "maximum_raw_area": 0.10570946256969824,
+      "passed": true
+    },
+    {
+      "index": 25,
+      "comparisons": 70928,
+      "largest_independent_minus_raw": 0.0,
+      "largest_recorded_minus_raw": 0.0,
+      "maximum_raw_area": 0.09616741425089899,
+      "passed": true
+    },
+    {
+      "index": 26,
+      "comparisons": 70928,
+      "largest_independent_minus_raw": 0.0,
+      "largest_recorded_minus_raw": 0.0,
+      "maximum_raw_area": 0.07630299865668286,
+      "passed": true
+    },
+    {
+      "index": 27,
+      "comparisons": 70928,
+      "largest_independent_minus_raw": 0.0,
+      "largest_recorded_minus_raw": 0.0,
+      "maximum_raw_area": 0.05289015677520115,
+      "passed": true
+    },
+    {
+      "index": 28,
+      "comparisons": 70928,
+      "largest_independent_minus_raw": 0.0,
+      "largest_recorded_minus_raw": 0.0,
+      "maximum_raw_area": 0.15711364198053562,
+      "passed": true
+    },
+    {
+      "index": 29,
+      "comparisons": 70928,
+      "largest_independent_minus_raw": 0.0,
+      "largest_recorded_minus_raw": 0.0,
+      "maximum_raw_area": 0.14062721804279257,
+      "passed": true
+    },
+    {
+      "index": 30,
+      "comparisons": 70928,
+      "largest_independent_minus_raw": 0.0,
+      "largest_recorded_minus_raw": 0.0,
+      "maximum_raw_area": 0.0833918463845732,
+      "passed": true
+    },
+    {
+      "index": 31,
+      "comparisons": 70928,
+      "largest_independent_minus_raw": 0.0,
+      "largest_recorded_minus_raw": 0.0,
+      "maximum_raw_area": 0.0823020789080604,
+      "passed": true
+    }
+  ],
+  "source_screen_files": [
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/adaptation_00.npz",
+      "bytes": 176746,
+      "sha256": "bffc78429486bd47baa1a7ea9e0259297279ef712fa9f21cb35ac9134d18b162"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/adaptation_01.npz",
+      "bytes": 165045,
+      "sha256": "fdb353692bd7261f1d8a6b8d3888263a59d5dcf2cc8f188c4bdbd55046055e4b"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/adaptation_02.npz",
+      "bytes": 135983,
+      "sha256": "0f1e3dabd44f193d76b028bd624319c7a5f6000dfe13cc239a0d3244b82fa2be"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/adaptation_03.npz",
+      "bytes": 128592,
+      "sha256": "7c4c7d01098cfde000be2bff6e3f0fb2ef21074331bc7d91daa95dfa1980ab5a"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/adaptation_04.npz",
+      "bytes": 259888,
+      "sha256": "705106cf67c331b6004fb35fc6b582e3f86cf142eb1e6feaa39e854a36dc31bb"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/adaptation_05.npz",
+      "bytes": 250876,
+      "sha256": "bec04654fb4c445e97cd431c98ef9fdf09e3c4ff931e0959c42ef0081e3383df"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/adaptation_06.npz",
+      "bytes": 119537,
+      "sha256": "b4f894ab7e6483047554ce31db7e3248ab398a87dc6d4222ca9241555ac22c6c"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/adaptation_07.npz",
+      "bytes": 120551,
+      "sha256": "1b54d0c0cb45fc7eaca9539ec2a4d35028d268eb49891dc705e09fa701b69cf6"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/adaptation_08.npz",
+      "bytes": 223792,
+      "sha256": "8c21effdca974c641052211ca31046d424914933bc8b9fbc6349f10688184cb5"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/adaptation_09.npz",
+      "bytes": 198225,
+      "sha256": "ae6e986a52db3ade21216e2f7528727ac5631b6c16a631f16f30220425324beb"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/adaptation_10.npz",
+      "bytes": 276666,
+      "sha256": "9dccd17ac5bde1b2ab8025ed2babc8a8464e39a1c9136bb2e44e17f2edf8e950"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/adaptation_11.npz",
+      "bytes": 271380,
+      "sha256": "c4c19ceb29beaccfcfe2320ef86709acb882b8b926aed16d4040420b2b846ffb"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/adaptation_12.npz",
+      "bytes": 174449,
+      "sha256": "9b4e9e60b64b6624bbe23a8938fdee29e31b6d150c941718fc7531b1ef82ab3b"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/adaptation_13.npz",
+      "bytes": 188557,
+      "sha256": "5e700e55f79f1a3ef443a4ebbd93edf0ebd2865b989bd596d094a2279b25e0a0"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/adaptation_14.npz",
+      "bytes": 156706,
+      "sha256": "49414a8344864a4bc9c2c7ac11ba649b5be064e596450f5ac75d5fc8d866a2d8"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/adaptation_15.npz",
+      "bytes": 166530,
+      "sha256": "e27fe0a6c4c058f89a7356486e264c291d5ae2eed626e36ae78997a8ff45329d"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/adaptation_16.npz",
+      "bytes": 182294,
+      "sha256": "bba2e24a1929ce2949f5ea506805c2ebd9a5a1d02fdb8038027bd10a702f5705"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/adaptation_17.npz",
+      "bytes": 186851,
+      "sha256": "3763147eb7a1e8c40678e4c4d099021eba70a795a68f0935e468aedbeb86c40c"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/adaptation_18.npz",
+      "bytes": 211820,
+      "sha256": "6eb52be4f51a07ca93c4d0f9a2fc4b31eb88d49969e6e264e93befc39d223878"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/adaptation_19.npz",
+      "bytes": 227960,
+      "sha256": "6b140f8ba5f55b59fbe3384ae6910b708906214cae76ad0c2e8dad17307f91fe"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/adaptation_20.npz",
+      "bytes": 162091,
+      "sha256": "9c761b8089004e02e27d27bb4165f4db2fa8e278583b538002b60e4b526e686c"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/adaptation_21.npz",
+      "bytes": 160508,
+      "sha256": "6a1a547c463eee161572a2b49945e6425f8e288eadfe65d99ca7dbfdc5628e8f"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/adaptation_22.npz",
+      "bytes": 161515,
+      "sha256": "8f713378fe786ffdcc6498088cd3e381a02c47615bae2b626ad67bcb92f477dc"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/adaptation_23.npz",
+      "bytes": 158083,
+      "sha256": "780b68d857efb002a8aa53bed9710e3bf782f827633767f4f6bbe05b908e14a8"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/adaptation_24.npz",
+      "bytes": 171772,
+      "sha256": "c62275df1b0a60ca89cd969936e5452f4c6e6386a3e5d3b4db3e74d82489af04"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/adaptation_25.npz",
+      "bytes": 171402,
+      "sha256": "20ecbcc010a92f70354da50ad68cd13dbd67e21ec429ba546b16e9b524d8dc89"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/adaptation_26.npz",
+      "bytes": 207149,
+      "sha256": "f2dcc22181268c8575dd99a7afe7dabb2e9d38c46df7205887906096ee2d2a7c"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/adaptation_27.npz",
+      "bytes": 172853,
+      "sha256": "92a306c35193e16bf61260dfadfbd82b580a3319e76df610b6504aef00e0b68b"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/adaptation_28.npz",
+      "bytes": 315752,
+      "sha256": "75c1155215f4a3faf7a86f83327d773ae10000918765855dee56e4926eb24160"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/adaptation_29.npz",
+      "bytes": 296608,
+      "sha256": "c117d845b313ac582ccb9075f349f407715ca7b1c29c673856da8643b81483dd"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/adaptation_30.npz",
+      "bytes": 182255,
+      "sha256": "c121de46f316024abdc0c4ef35f03ac663398028e65560f33f4c3996b3d80dce"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/adaptation_31.npz",
+      "bytes": 179915,
+      "sha256": "cbbfbaec80b1670cbd218ee213531f576a3183cea7f30139a4c52beb5f3c4ff2"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/attempt_00.json",
+      "bytes": 194,
+      "sha256": "fe60f1e77c8ee573c3b7b90d1d2062a14119257470b700b0dbc22ce5dcb74128"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/attempt_01.json",
+      "bytes": 196,
+      "sha256": "37f003a216f8131a8258241389395947152640a1e485099e1d4e2ad2a8e4037c"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/attempt_02.json",
+      "bytes": 194,
+      "sha256": "d5406b05097854d38247c4c0d32c8d264c8d73717a14bfb7fc94c1a02da3529a"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/attempt_03.json",
+      "bytes": 196,
+      "sha256": "6b6d421337a69863f054c8f683f4b282ccbc55a41883f23bce1a412745fef778"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/attempt_04.json",
+      "bytes": 193,
+      "sha256": "db113e1ad63d7fdf87460541de180507c528a0fe8cefdf04ed4e8079e473448b"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/attempt_05.json",
+      "bytes": 196,
+      "sha256": "ddaf4050685a6456bbb287391696d97fc92621fa92a759062e71477bdf08f295"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/attempt_06.json",
+      "bytes": 194,
+      "sha256": "11ca17cae75a048790c787832a2183e2707468f1876cb0467f1e8d2ff38d2250"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/attempt_07.json",
+      "bytes": 197,
+      "sha256": "28ce1edd5525376dc11f63261593c2639e0c628d3a0a9efc057a54cae0f5950e"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/attempt_08.json",
+      "bytes": 195,
+      "sha256": "6a9395ff0c17240e8dc93189faa1ffb193681332831cde263943f038b6cb8b57"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/attempt_09.json",
+      "bytes": 198,
+      "sha256": "27252d7b893f99e9bb10d2d4ca4e3e810589d63a719646ae81bcf1487f7cb223"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/attempt_10.json",
+      "bytes": 196,
+      "sha256": "484691c40f6bd0c6a4fb67d77e7068d23ca66b0701af682559dc384574301f6d"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/attempt_11.json",
+      "bytes": 198,
+      "sha256": "a89d4906bc724293de8ce0d16e27e2f806c676e6edf04eede8c8e51a0dc7d3f9"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/attempt_12.json",
+      "bytes": 196,
+      "sha256": "4d400d5ed2e699fddf6bdb5128491b89a1c7e5285126c457ebee26fbeeb2968b"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/attempt_13.json",
+      "bytes": 197,
+      "sha256": "c8a4463282a8c5b91e64790f351d155968d4b49f3da98677f7cc83cb9ac9c132"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/attempt_14.json",
+      "bytes": 195,
+      "sha256": "404a3ab75cbbea205b6f6890b9543e1fafd000da01fd5f258f014c05b7c31071"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/attempt_15.json",
+      "bytes": 198,
+      "sha256": "d9b3beb3f7ff9685b87e79e0f20695212c64e54b61be47fb1b834d69450df026"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/attempt_16.json",
+      "bytes": 198,
+      "sha256": "c371736d401eb5a93d877d39fa8e6fd2c2f3669ba1ba7254cff0061b816c44d6"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/attempt_17.json",
+      "bytes": 198,
+      "sha256": "e2f83a50f680d5ff47742151b3434a93d44c1d5c6b42bec1b86cfc0964b2f228"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/attempt_18.json",
+      "bytes": 199,
+      "sha256": "2d40a9184371851c63ae35118c5f316fd91d18593e68f5950772254078599b86"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/attempt_19.json",
+      "bytes": 198,
+      "sha256": "26cdb463a1d7e3c290ecaad07a2c8f5ae6ad7fc299869c8057ea68a000c8238b"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/attempt_20.json",
+      "bytes": 198,
+      "sha256": "7a096673fe1cde05a8b4e6ba60fa9183fc5d66026feff3acf9a268fba09667d1"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/attempt_21.json",
+      "bytes": 197,
+      "sha256": "53c0a4e738a9f0ef0e22367c578ed57e8a0289813d25389ddf4c275210800f47"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/attempt_22.json",
+      "bytes": 198,
+      "sha256": "8729d4696685fa2336e7da657df27362eaa15efe784c5b56e311dea9b65a8827"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/attempt_23.json",
+      "bytes": 197,
+      "sha256": "b8e8054fbba66a21cb5459b06a250da3977ba541180e1af0bb1bcb6fad701752"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/attempt_24.json",
+      "bytes": 198,
+      "sha256": "948b077477810cccd89d2a8d90420fdfd9dbee674159a4a0057534778b76d394"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/attempt_25.json",
+      "bytes": 197,
+      "sha256": "5c4b2e0aff020db2bb5741fe2f433e80750c19fa817d1db4fb145061d1602bde"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/attempt_26.json",
+      "bytes": 198,
+      "sha256": "6febfc5c1a26e6e7ea69d727c6d6592d6b78d492e5701f2d983b98944be359ec"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/attempt_27.json",
+      "bytes": 198,
+      "sha256": "7815f76714c8cd05c6ee203d0cf1dbe27a989242803db73a795f3cd9192c3ad0"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/attempt_28.json",
+      "bytes": 197,
+      "sha256": "4d2799375680d1cbde39fc6c28e9f250efac125206a1bf35a2557ace00d2a98d"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/attempt_29.json",
+      "bytes": 197,
+      "sha256": "ac709c9c920ea22d3ebe4b893b66aa2b61a76f8fe776f49d31450c538f3b82f2"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/attempt_30.json",
+      "bytes": 198,
+      "sha256": "0d79f9de0fef63f62b79ea9970f89f0f69c9f9b9b35a119dfb3696e54094a098"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/attempt_31.json",
+      "bytes": 196,
+      "sha256": "ea169e94b9fbea4e1c50ce6b9479f437a6bcf059d45a17941f208339ec10fb37"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/completed_00.json",
+      "bytes": 1182,
+      "sha256": "5bb67d04c2b676f0fb62fd9217b1f9f4918018e0aedc7eb5ea30b0af6354086a"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/completed_01.json",
+      "bytes": 1181,
+      "sha256": "48a0261b95fc9447626f15c7f0cb8dc6fa38282466d8b9bf37d1d941e353a7a2"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/completed_02.json",
+      "bytes": 1181,
+      "sha256": "b2edcb27e1b977bc1424ea8945dbb22063e3143cc1f8cf4302791cf7db3d93e9"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/completed_03.json",
+      "bytes": 1180,
+      "sha256": "25ce7fdc7f33bde128f00ed89e8909260655e5b7294ee32a2c1edeec86b1a6f7"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/completed_04.json",
+      "bytes": 1176,
+      "sha256": "8fa95498786f0f1543d8f30c671f426573c4332baed081cc2ccd3c539d3e1907"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/completed_05.json",
+      "bytes": 1180,
+      "sha256": "ebd61b236d651bd7b006cb2f876dc80ffe2cb50db982562b6447e3579725b281"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/completed_06.json",
+      "bytes": 1181,
+      "sha256": "00189e8a211888dd71403b7f7f2248d8be7075f70bfd1f47da7c3f09f38633b3"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/completed_07.json",
+      "bytes": 1185,
+      "sha256": "d29ea02d31c56568587919af44644326c42c5ac734cc9fddff7d8af5842c02b0"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/completed_08.json",
+      "bytes": 1175,
+      "sha256": "c6dcc3e434e5498130130c2a9c8d64829c95f56d00b6a47621022a630c0f5054"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/completed_09.json",
+      "bytes": 1178,
+      "sha256": "e006a7ee3d033a2634947cd8aa83009469aa9a14af83d6d363ec8a3c463a816a"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/completed_10.json",
+      "bytes": 1175,
+      "sha256": "32a260563ee077cce7e03dcf8fd85535e266db93a4504bb67b3f22a56977b5df"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/completed_11.json",
+      "bytes": 1176,
+      "sha256": "082e8a743072155251c1eaf580e66a74676e0187c45b67d59ee9cb5aa8b0815a"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/completed_12.json",
+      "bytes": 1178,
+      "sha256": "a9e7f78a53ab893a05a034826cd432680b5755a58f04e4009dd2922733b2aca1"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/completed_13.json",
+      "bytes": 1179,
+      "sha256": "a34ecd58bb9d7589eef65766055692fe0a28141488c3717b64fccb48576f9178"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/completed_14.json",
+      "bytes": 1178,
+      "sha256": "c29a1f9ad320f8ac96bc00349a631f8742831f84fbb95a0ffdfc53ae7043bd7e"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/completed_15.json",
+      "bytes": 1184,
+      "sha256": "7c570854ed171b5881dca06cfc24471326b8a3be80f6d6ebbfa3347ec22d611f"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/completed_16.json",
+      "bytes": 1180,
+      "sha256": "0915beb40bdd7c25ad4339347533a0f05e267cc16e9580c82d12dc5e7ee24047"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/completed_17.json",
+      "bytes": 1183,
+      "sha256": "c3bd65286ced0a2a7fde16639b76cabb5a1a0253ed2e92f3fbe87ca8b8b7c6c1"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/completed_18.json",
+      "bytes": 1181,
+      "sha256": "c24898956ef03f45dd6f37214987d80607c36a2064f0a18eb7f3ffec32ea8faa"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/completed_19.json",
+      "bytes": 1178,
+      "sha256": "9a25621411921dd728023e0e9557bf199b845a6d4b83d7c99b0fc6c1fac6b8e7"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/completed_20.json",
+      "bytes": 1181,
+      "sha256": "a34358f98b26b38b68f3a5a8afb8d677e74151cf0410f5e7d90d3d94fe73e9d6"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/completed_21.json",
+      "bytes": 1181,
+      "sha256": "abba2c3e265b4677976ff350a02605c6ec237ec4419e149d4cf8dfc69265372e"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/completed_22.json",
+      "bytes": 1182,
+      "sha256": "8453dbdc0a5c77373aeefdf363b035e85590a77b69b0614e6838e5962e661789"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/completed_23.json",
+      "bytes": 1180,
+      "sha256": "60c57a3622166aa943f8044d9982e6b2b6cf420552091e93e5e8e4ac53a24b7c"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/completed_24.json",
+      "bytes": 1181,
+      "sha256": "9f38401e6aca78beea0170f5ad79a2f3237d6019dfb0266dd39aaa7c2029706e"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/completed_25.json",
+      "bytes": 1180,
+      "sha256": "f1ffef05474e99ca8a695d17ae3776ca46cdab4e1a4b6924aa6010c50ed07dd2"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/completed_26.json",
+      "bytes": 1184,
+      "sha256": "c9a29204bbaeed695176f30cfd1f833cc80b13cc50e51702468c39f3b52b55ce"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/completed_27.json",
+      "bytes": 1176,
+      "sha256": "25a90885bef2777d67ba666792cce848a44eb95e8df45fcb609c9cd1367bf0bb"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/completed_28.json",
+      "bytes": 1176,
+      "sha256": "5cdd3346cdd11ae9a27669d280f13728f0d2b42eefe6e69fc57964ae884a5fb0"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/completed_29.json",
+      "bytes": 1177,
+      "sha256": "d70d7034f4803b5efaea002afaa9a9998e1e73bb26175b5bcae3bc709fd0153d"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/completed_30.json",
+      "bytes": 1181,
+      "sha256": "db4b8ffc345af3187b3d23f54b006b216702ae5fcf861db28bfe34b51a8ad734"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/completed_31.json",
+      "bytes": 1178,
+      "sha256": "37f4a9bb7cfe84da68e06af8add348ee0b4cee3ecfc4496e03f76e238f7cb1ea"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/manifest.json",
+      "bytes": 39893,
+      "sha256": "5165a92674683bf2b872753148af74e3adf038ca7a95c64735dcda8e29e5ee46"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/summary.json",
+      "bytes": 53925,
+      "sha256": "bc10070805851fca8e897a2bec5dea087df30851d7c6962360f7e5ec987acc4c"
+    }
+  ],
+  "independent_audit_files": [
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-saved-audit-5165a926/independent-dan-integrals.npz",
+      "bytes": 2682385,
+      "sha256": "43195645e1498d27bb262d2a2e6636a5dbea5e2575fa0e5e2a9b24731827525d"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-saved-audit-5165a926/independent-products_00.npz",
+      "bytes": 72436,
+      "sha256": "a83596017e4a665f5e4fe9f0ade72b3c96b426d787157fd04108554d7c24d0e5"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-saved-audit-5165a926/independent-products_01.npz",
+      "bytes": 67699,
+      "sha256": "32b2d5c2d455988ebf7843cf869b87c0fd9d467b5fd46f01203e1f209a5f17ae"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-saved-audit-5165a926/independent-products_02.npz",
+      "bytes": 54872,
+      "sha256": "3b8e3bfb5378adf1b2f3b7cdf70d9e05533f5ab0fb798bf51609080d223222e7"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-saved-audit-5165a926/independent-products_03.npz",
+      "bytes": 53556,
+      "sha256": "3521d7f16d26b5843377741f5a2620b0dec837c142ac936b8902c3fd0711202e"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-saved-audit-5165a926/independent-products_04.npz",
+      "bytes": 106533,
+      "sha256": "f9dab507b21337754dea4cdacd040052fa1f294736433b0ef076cbdffd819ae8"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-saved-audit-5165a926/independent-products_05.npz",
+      "bytes": 102543,
+      "sha256": "7858015050194e38f5c3e93a6dd7a8a9a741ca5ae783777ebd0eff4cf249ece9"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-saved-audit-5165a926/independent-products_06.npz",
+      "bytes": 48086,
+      "sha256": "d66f9dcde48cb8801e441b64d0582cac48eec6da674cafb5fe9a853a2762313f"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-saved-audit-5165a926/independent-products_07.npz",
+      "bytes": 48522,
+      "sha256": "168c6e959b81661eae8252bfcdec7b1eaec489a2564050811c2be38efea4527b"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-saved-audit-5165a926/independent-products_08.npz",
+      "bytes": 92087,
+      "sha256": "31db1bd8084b835829f14a67fa9289617394bc6dcbaa3a96057ac6f2da6e4258"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-saved-audit-5165a926/independent-products_09.npz",
+      "bytes": 81798,
+      "sha256": "5bacee655e786544e90092227194e05c6ac8df80836068f9422ef55815500b6b"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-saved-audit-5165a926/independent-products_10.npz",
+      "bytes": 114545,
+      "sha256": "e7cf88df186a824c35efed36a8e8f405e8704a946287eae4df17e0d93241dd6f"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-saved-audit-5165a926/independent-products_11.npz",
+      "bytes": 111458,
+      "sha256": "96825b40b9da93b9cfce8ae6db0c6fd8f936a152701b2c7faf2ff652a7c8d584"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-saved-audit-5165a926/independent-products_12.npz",
+      "bytes": 73078,
+      "sha256": "4ff8d22763a4d5bf854d7536364491a8b89435c1e35547591ccd2f8cc1f7d348"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-saved-audit-5165a926/independent-products_13.npz",
+      "bytes": 77560,
+      "sha256": "881624aa23daaab20f93d669878855df980ff47807b13cf71e9fb719621ffdc6"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-saved-audit-5165a926/independent-products_14.npz",
+      "bytes": 63938,
+      "sha256": "0b6a0caa2b9db6986769e87e61db47dcd8acfd7f0bae375cd171f00e9890aa50"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-saved-audit-5165a926/independent-products_15.npz",
+      "bytes": 68276,
+      "sha256": "e2e751978143ebbcda729be9748b80ca905bbb3ac9f5935e775d6a4af684f22c"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-saved-audit-5165a926/independent-products_16.npz",
+      "bytes": 75267,
+      "sha256": "e2d2e3a113ae53ffd577cf3ffffe3cc26691132dec7d56dc49185a9194ca3a67"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-saved-audit-5165a926/independent-products_17.npz",
+      "bytes": 76620,
+      "sha256": "8ed13fbf5777111e073b9694894cb9b8ab4e647ac4877801bc5686e83c8aed9e"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-saved-audit-5165a926/independent-products_18.npz",
+      "bytes": 86737,
+      "sha256": "1e6e24eb716f24fe624e76205947493aeeb8b61577b1a5346f75a0a38e7db5e5"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-saved-audit-5165a926/independent-products_19.npz",
+      "bytes": 93886,
+      "sha256": "6d9bc63b5980cac7551164486f9de6e9d021c1dc44816ab324ef3756646eea79"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-saved-audit-5165a926/independent-products_20.npz",
+      "bytes": 66265,
+      "sha256": "32c1e383fc08ce8fd7f9f8cf430d9b948b95e3e2e131df9979c9d80a8c167fb7"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-saved-audit-5165a926/independent-products_21.npz",
+      "bytes": 65412,
+      "sha256": "c44806b0e74420400dfdff0fe0acabe516968326f501d77a034794b9c9bc7e38"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-saved-audit-5165a926/independent-products_22.npz",
+      "bytes": 66007,
+      "sha256": "f39a07b4c3fa19f77b49474ae1cd1bd4e42f3a8f10dead3b42b8c601032a2a10"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-saved-audit-5165a926/independent-products_23.npz",
+      "bytes": 64583,
+      "sha256": "c38583326c6291b245cb3f7d89375b59d35f45a857589be9c7a943aa410ee6a2"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-saved-audit-5165a926/independent-products_24.npz",
+      "bytes": 70421,
+      "sha256": "fde463cd3403b42574b72e7cee56fa7aa65249f88eed44f116286c3072bfdede"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-saved-audit-5165a926/independent-products_25.npz",
+      "bytes": 70309,
+      "sha256": "e4c434fd956729cf6d03ca7f8e15a8ce95ca8f114209671e6fd3e6da2957a0dc"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-saved-audit-5165a926/independent-products_26.npz",
+      "bytes": 85249,
+      "sha256": "7e067c5d240f2a28efaeb2612255ad3a332fe5fc0c9d2f84e62fd5095bd2354e"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-saved-audit-5165a926/independent-products_27.npz",
+      "bytes": 70398,
+      "sha256": "df84628163e5bd3c55cdc1f5844528e573b8700a6e4c8951361715baf11b9c39"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-saved-audit-5165a926/independent-products_28.npz",
+      "bytes": 130548,
+      "sha256": "69191667765edc5069992fcd62cc9a7cf7fb8ca2e3f4c4145b012750409f9f49"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-saved-audit-5165a926/independent-products_29.npz",
+      "bytes": 122345,
+      "sha256": "016c586a7e37dc6c42a438a5372100e77c3981d8a1362faa2b6af10b4e5a8ad0"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-saved-audit-5165a926/independent-products_30.npz",
+      "bytes": 74506,
+      "sha256": "35012cfd50d2357b76379a71fe8f368987f7bdf566d094e16702ff07a2ce1019"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-saved-audit-5165a926/independent-products_31.npz",
+      "bytes": 73532,
+      "sha256": "482bb24af4e5c3b17a16be35685c44e5edff57bd705bbeb94f3e1e0adf740a42"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-saved-audit-5165a926/summary.json",
+      "bytes": 24313,
+      "sha256": "9d58ed3c024539b3c38ed05a10328249ddb1343aed1510391b5f6ec659025f44"
+    }
+  ],
+  "scope": "Supplementary read-only accounting and complete output hash inventory. Frozen numerical method and tolerances unchanged.",
+  "new_circuit_calls": 0
+}

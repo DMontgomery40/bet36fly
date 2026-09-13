@@ -1,0 +1,88 @@
+{
+  "checked_at_utc": "2026-09-13T04:42:15.094683+00:00",
+  "status": "passed_boundary_review_only",
+  "reviewed_release": {
+    "rate_adaptation_shadow.py": "bad6425c1b54b0f48b04b8238be3e426372d3a8a128838bb2260f9d93b5652e8",
+    "test_rate_adaptation_shadow.py": "daf769f31cacd3519beafcacd163de946fbc9e6c94954d940fcaba24094466c7"
+  },
+  "real_candidate_evaluations": 0,
+  "new_circuit_calls": 0,
+  "synthetic_boundary_tests": {
+    "passed": 37,
+    "deselected": 107
+  },
+  "actual_input_only_check": {
+    "safe_npz_archives": 97,
+    "ordered_rows": 32,
+    "all_consumed_file_hashes_stable": true,
+    "candidate_function_disabled": true
+  },
+  "final_release_hashes_stable": true,
+  "narrative_reading": "Actual complete new narrative contents or all changes against previously read full documents; previous full corpus receipts preserved. No manifest-only substitution.",
+  "prior_receipts": [
+    "delivered-arrivals-resumed-reading-receipt.json",
+    "delivered-arrivals-resumed-evidence-review-final.md",
+    "localization-access-receipt.json"
+  ],
+  "current_narratives_read": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "1867e109eeb497a9e86a5069d6846ff02408317bfebb0d01315713aab1a765a1"
+    },
+    {
+      "path": "docs/REWARD_REPAIR_HANDOFF.md",
+      "sha256": "0bb110608a3d6485a1ebb83af8ea0a263479c10d5e3fac3ade08c956895dcca3"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/index.md",
+      "sha256": "3a32cb19f75576798eac1b5bd385cc7d067290f11e3d512ccb1aa011920d609e"
+    },
+    {
+      "path": "wiki/verification.md",
+      "sha256": "a9990e33d591a989d137e3b9b439eb992d05383a063deb9390a48ff8728c73df"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/rate-adaptation-shadow-preregistration.md",
+      "sha256": "ae155b68517f734021ff7e31bf1fa45c31b95196cbc3432cd4304ec9c17fa88a"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-contract.md",
+      "sha256": "16b5275212cbd3c1ef458d40aa365f969f82e3fd4fb00165f91a5edafe5d2984"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-review.md",
+      "sha256": "c891b741c75002c6dfa6bfb142f7689f4087cedfb825b8ae6ee27339a14b6a59"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadow-reading.md",
+      "sha256": "e368be799fea4911dc69b06909660eca15b3cd88a4e9b4519aee4c1c2bc78f83"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadow-writer-report.md",
+      "sha256": "6d0b685e1d7afa31d243a44b8f79c2f01f510c88da4d8a20dec65b869c9925f4"
+    }
+  ],
+  "review_artifacts": [
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-boundary-review.md",
+      "sha256": "d10fc863ea702da52a3f7281a3a506ff37119b0cd9e86cc6cf324233029607d6"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-boundary-input-only.json",
+      "sha256": "07fa6494a3425393dea3c35c644773ec10880ea30a32666330bbc82a9947e572"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-boundary-allocation-probe.py",
+      "sha256": "c1dcb523cf31465f79619d1bdd3924e31e81fb1938b23b9e436db75557802559"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-boundary-allocation-initial.json",
+      "sha256": "06f4831fbff91207dadcafc74b602484dcbf94690695f493166ca8664280c39e"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-boundary-allocation-final.json",
+      "sha256": "208fcd7b03da70d8f4fdf3cee4db45e50f1f33959fc1c96880884f76cd54c3e1"
+    }
+  ],
+  "combined_approval_receipt": "Root-owned, still required before real execution; must bind both independent reference test files and review chain."
+}

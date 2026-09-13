@@ -90,15 +90,31 @@ records eight primary-source entries with access limits and checks all 14,551
 retained outgoing pairs from the selected DANs. Both PPL101 cells contact both
 MBON11 bodies, so body-side labels cannot establish local dopamine exposure.
 The report describes targeted synapse-location retrieval and a fixed engineered
-rate-adaptation hypothesis; neither has been executed or established as a repair.
+rate-adaptation hypothesis. At that source-reading boundary neither had been
+executed; the subsequent saved-history evaluation is recorded below.
 Its [122-document reading receipt](dopamine-signal-reading-receipt-resumed.json)
 and [copy/input-hash verification](dopamine-signal-copy-manifest.json) preserve
 the audit's actual scope.
 
+The [bounded neuPrint access check](localization-access-report.md) subsequently
+received no HTTP status or coordinates: one sandbox DNS failure and two
+network-enabled timeouts. Authentication and live dataset metadata remain
+undetermined; this is not evidence that the service is globally unavailable.
+The [fixed rate-adaptation screen](rate-adaptation-shadow-result.md) subsequently
+completed all 32 declared saved histories in 50.4832 seconds, with zero circuit
+calls and unchanged inputs. It failed all four home guards through excessive
+potentiation: second/base home mean +2.638301402, absolute limit 1.113471909.
+The complete tail and both signed product areas remain in the result; no
+timescale, onset, mask or threshold was retuned. The
+[frozen specification](rate-adaptation-shadow-preregistration.md), independent
+numerical/boundary reviews, complete arrays and copy manifest preserve this
+rejected engineering hypothesis. It is not a production rule or qualification.
+
 ## Preserved evidence and execution exception
 
-The [mechanism evidence API and Training view](task4b-acceptance.md) now expose
-these distinctions directly. Final verification passed 970 Python tests, 81
+The [mechanism evidence API and Training view](task4b-acceptance.md) expose
+the stored and recomputed circuit diagnostic verdicts. The offline adaptation
+study remains separately documented here. Final verification passed 970 Python tests, 81
 frontend tests, Ruff/build and the actual guarded browser workflow, including
 stale/retry recovery and the unchanged failed bridge pair. All 782 protected
 files and inventories matched after requests and shutdown. This completes the

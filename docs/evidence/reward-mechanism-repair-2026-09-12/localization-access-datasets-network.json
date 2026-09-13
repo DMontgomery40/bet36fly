@@ -1,0 +1,16 @@
+{
+  "url": "https://neuprint.janelia.org/api/dbmeta/datasets",
+  "method": "GET",
+  "started_utc": "2026-09-13T04:21:33.274012+00:00",
+  "authentication_sent": false,
+  "cookies_sent": false,
+  "redirects_followed": false,
+  "response_cap_bytes": 65536,
+  "timeout_seconds": 15,
+  "retry_count": 0,
+  "attempt_context": "single network-enabled attempt after sandbox DNS failure",
+  "http_status": null,
+  "error_type": "TimeoutError",
+  "error": "The read operation timed out",
+  "elapsed_seconds": 15.290040667168796
+}

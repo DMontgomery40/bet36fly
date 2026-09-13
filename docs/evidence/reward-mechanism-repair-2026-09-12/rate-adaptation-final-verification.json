@@ -1,0 +1,28 @@
+{
+  "checked_at_utc": "2026-09-13T05:03:49.411994+00:00",
+  "copied_files_verified": 173,
+  "copied_bytes": 12005799,
+  "original_and_copy_bytes_identical": true,
+  "original_sources_preserved": true,
+  "nested_prerun_evidence_hashes_unchanged": 22,
+  "production_release_hashes_unchanged": 14,
+  "initial_microduck_copies_unchanged": 59,
+  "initial_microduck_sources_exist": 59,
+  "historical_pointer_manifest_hashes_unchanged": 5,
+  "changed_narratives": 18,
+  "local_links_checked": 169,
+  "copied_source_tests_passed": 393,
+  "standard_verify": {
+    "pytest": 970,
+    "vitest": 81,
+    "ruff": "passed",
+    "build": "passed"
+  },
+  "atlas_tables_matched": 3,
+  "scientific_qualification": false,
+  "conditioning_runs": 0,
+  "final_independent_copy_review": {
+    "path": "rate-adaptation-final-copy-reading-review-2026-09-13.json",
+    "sha256": "1d29780470ac4def107555267509d10d274fda0a7803f7438ef879c88d436237"
+  }
+}

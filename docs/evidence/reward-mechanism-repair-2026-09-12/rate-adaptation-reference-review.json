@@ -1,0 +1,68 @@
+{
+  "agent": "dopamine_sources",
+  "checked_at_utc": "2026-09-13T04:34:53.446857+00:00",
+  "status": "passed_synthetic_numerical_scope_only",
+  "tests": {
+    "passed": 229,
+    "wall_seconds": 2.95,
+    "oracle_analytic_cases": 63,
+    "writer_comparison_cases": 166,
+    "ruff": "passed"
+  },
+  "dependencies": {
+    "python": "3.12.9",
+    "scipy": "1.18.1",
+    "mpmath": "1.3.0"
+  },
+  "files": [
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-contract.md",
+      "sha256": "16b5275212cbd3c1ef458d40aa365f969f82e3fd4fb00165f91a5edafe5d2984",
+      "bytes": 10643
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate_adaptation_reference_oracle.py",
+      "sha256": "2e09acf2fe7b1917eab406d99d77d591643065d43e6bf1e59d72e733d0bca87d",
+      "bytes": 5969
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate_adaptation_reference_tests.py",
+      "sha256": "ca3ae744e91075c21047b34ed7f1e3a6773fbfde7c38ecc9ec1477c05c0dfc66",
+      "bytes": 4620
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate_adaptation_reference_writer_tests.py",
+      "sha256": "28c0ed65d9e22cbb2e4fc297eef3adc4d5a04a84b6df6c81e417a101ab58ae23",
+      "bytes": 3973
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate_adaptation_shadow.py",
+      "sha256": "066e70f445799c1430dd0a687664fd75137140d199805cafbe48c848d9a191aa",
+      "bytes": 33710
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-reading-receipt.json",
+      "sha256": "f89a20fbea9039fbcc8e4c206238592584fcb5c7c81eee8512d1d586e4953d9a",
+      "bytes": 28712
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-review.md",
+      "sha256": "c891b741c75002c6dfa6bfb142f7689f4087cedfb825b8ae6ee27339a14b6a59",
+      "bytes": 6078
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/rate-adaptation-shadow-preregistration.md",
+      "sha256": "ae155b68517f734021ff7e31bf1fa45c31b95196cbc3432cd4304ec9c17fa88a",
+      "bytes": 10905
+    }
+  ],
+  "candidate_real_saved_history_evaluations": 0,
+  "new_circuit_calls": 0,
+  "tolerance_changes_after_execution": false,
+  "scope_limits": [
+    "No candidate result interpretation",
+    "No production edits",
+    "No claim of teaching or biological calibration",
+    "Separate boundary reviewer owns runner/input-output validation"
+  ]
+}

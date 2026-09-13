@@ -1,0 +1,12 @@
+{
+  "calculator_sha256": "066e70f445799c1430dd0a687664fd75137140d199805cafbe48c848d9a191aa",
+  "npy_member_bytes": 128,
+  "declared_elements": 100000000,
+  "attempted_allocations": [
+    100000000
+  ],
+  "rejected_before_allocation": false,
+  "outcome": "AllocationRequested: Intercepted before allocating requested array",
+  "candidate_evaluations": 0,
+  "circuit_calls": 0
+}

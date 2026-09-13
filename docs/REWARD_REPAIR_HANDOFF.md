@@ -1,5 +1,60 @@
 # Continue the dopamine mechanism repair
 
+## Continuation update: September 13, 2026, 04:50 UTC
+
+Continue the same active goal; do not mark it complete. The completed UI/source
+milestone was committed locally as `7eff328`. No push occurred. The older
+04:13 and 03:26 snapshots below are preserved history, not the current status.
+Inspect Git and agent liveness before resuming assignments.
+
+The fixed rectified-rate adaptation hypothesis has now been evaluated and
+**rejected**. Read the complete
+[result](evidence/reward-mechanism-repair-2026-09-12/rate-adaptation-shadow-result.md),
+[scientific preregistration](evidence/reward-mechanism-repair-2026-09-12/rate-adaptation-shadow-preregistration.md)
+and [numerical contract](evidence/reward-mechanism-repair-2026-09-12/rate-adaptation-reference-contract.md).
+Identity `rate-adaptation-shadow-5165a92674683bf2b872` was frozen before any
+candidate evaluation and completed all 32 saved histories in 50.4832 seconds,
+with zero circuit calls. Every home group failed with positive drift; second/base
+home mean +2.638301402 exceeded its absolute limit of 1.113471909. All away
+groups remained zero. Do not rerun that identity, retune its timescales/onset,
+omit its tail or promote it into the simulator.
+
+The output-only calculator is `rate_adaptation_shadow.py` under
+`output/collaboration/reward-mechanism-repair`; SHA `bad6425c1b54b0f48b04b8238be3e426372d3a8a128838bb2260f9d93b5652e8`.
+The complete 98-file result directory and source/review evidence were copied
+into repository evidence, preserving originals. Root's complete-array audit
+recomputed all eight guards and 2,269,696 phase/edge product comparisons.
+Both product magnitudes are dominated by the continuous-history comparator;
+the maximum candidate absolute area is 0.102176986314, below the 0.5 bound
+margin. Actual electrical/tail bound observations are zero. Inputs and all
+22 nested review dependencies remained unchanged.
+
+Before the screen, 373 synthetic cases passed, including independent raw-ODE
+and 70-digit infinite-tail oracles. A further independent all-edge audit uses
+DAN ODE integration and KC impulse superposition, with 20 synthetic tests;
+it passed all 2,269,696 product comparisons in 8.6032 seconds. Maximum unscaled
+product error was 4.90e-11 and all phase-end float32 checkpoints matched exactly.
+Read the [independent report](evidence/reward-mechanism-repair-2026-09-12/rate-adaptation-reference-saved-audit-report.md).
+Do not infer that a correct implementation is a working learning mechanism.
+
+Root ran the full repository gate: 970 Python tests, 81 frontend tests, Ruff
+and build passed. All 782 protected files / 5,497,585,613 bytes and inventories,
+five historical pointer/manifest hashes and 59 imported Microduck copies match.
+No production code, current checkpoint or UI control changed in this offline
+study. The existing Training view still correctly shows failed qualification
+and conditioning not run.
+
+The bounded [neuPrint access check](evidence/reward-mechanism-repair-2026-09-12/localization-access-report.md)
+received no HTTP status or coordinates: one sandbox DNS failure and two
+network-enabled timeouts. Authentication and dataset metadata remain unknown.
+No account/credential search, custom query or 19.5 GB bulk download occurred.
+Whole-body counts and side labels still do not establish local dopamine
+exposure. Continue source-grounded investigation of signal generation and
+plasticity coupling; preserve all home eligibility and accepted interfaces.
+The paused conditioning draft also still needs the frozen plan, bounds and
+replay validation repairs before integration; actual acquisition/reversal
+must wait for both unchanged seven-criterion circuit panels to qualify.
+
 ## Continuation update: September 13, 2026, 04:13 UTC
 
 The material below this update is the preserved 03:26 UTC handoff snapshot.

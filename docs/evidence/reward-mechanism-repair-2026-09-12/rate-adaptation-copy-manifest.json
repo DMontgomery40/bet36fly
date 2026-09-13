@@ -1,0 +1,1047 @@
+{
+  "copied_at_utc": "2026-09-13T04:48:43.818488+00:00",
+  "copy_not_cut": true,
+  "identity": "rate-adaptation-shadow-5165a92674683bf2b872",
+  "copies": [
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate_adaptation_shadow.py",
+      "copy": "rate_adaptation_shadow.py",
+      "bytes": 34964,
+      "sha256": "bad6425c1b54b0f48b04b8238be3e426372d3a8a128838bb2260f9d93b5652e8"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/test_rate_adaptation_shadow.py",
+      "copy": "test_rate_adaptation_shadow.py",
+      "bytes": 24171,
+      "sha256": "daf769f31cacd3519beafcacd163de946fbc9e6c94954d940fcaba24094466c7"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate_adaptation_reference_oracle.py",
+      "copy": "rate_adaptation_reference_oracle.py",
+      "bytes": 5969,
+      "sha256": "2e09acf2fe7b1917eab406d99d77d591643065d43e6bf1e59d72e733d0bca87d"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate_adaptation_reference_tests.py",
+      "copy": "rate_adaptation_reference_tests.py",
+      "bytes": 4620,
+      "sha256": "ca3ae744e91075c21047b34ed7f1e3a6773fbfde7c38ecc9ec1477c05c0dfc66"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate_adaptation_reference_writer_tests.py",
+      "copy": "rate_adaptation_reference_writer_tests.py",
+      "bytes": 3973,
+      "sha256": "28c0ed65d9e22cbb2e4fc297eef3adc4d5a04a84b6df6c81e417a101ab58ae23"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-contract.md",
+      "copy": "rate-adaptation-reference-contract.md",
+      "bytes": 10643,
+      "sha256": "16b5275212cbd3c1ef458d40aa365f969f82e3fd4fb00165f91a5edafe5d2984"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-review.md",
+      "copy": "rate-adaptation-reference-review.md",
+      "bytes": 6078,
+      "sha256": "c891b741c75002c6dfa6bfb142f7689f4087cedfb825b8ae6ee27339a14b6a59"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-review.json",
+      "copy": "rate-adaptation-reference-review.json",
+      "bytes": 2487,
+      "sha256": "da1850de21a66f13f9302a4f4774f7d1a436e7c673b71a6b401bf83876de73cc"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-final-review-2026-09-13.json",
+      "copy": "rate-adaptation-reference-final-review-2026-09-13.json",
+      "bytes": 879,
+      "sha256": "72d4a061a7919e5161bf7e7a6ee916da2536753b0a6b36b9bd03f90e8f6bb3af"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-reading-receipt.json",
+      "copy": "rate-adaptation-reference-reading-receipt.json",
+      "bytes": 28712,
+      "sha256": "f89a20fbea9039fbcc8e4c206238592584fcb5c7c81eee8512d1d586e4953d9a"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-boundary-review.md",
+      "copy": "rate-adaptation-boundary-review.md",
+      "bytes": 6658,
+      "sha256": "d10fc863ea702da52a3f7281a3a506ff37119b0cd9e86cc6cf324233029607d6"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-boundary-reading-receipt.json",
+      "copy": "rate-adaptation-boundary-reading-receipt.json",
+      "bytes": 3834,
+      "sha256": "611cc7750438a786155250629fa8f2a6aa38754ea5e4438f1ce63a7a5cfe0527"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-boundary-input-only.json",
+      "copy": "rate-adaptation-boundary-input-only.json",
+      "bytes": 39643,
+      "sha256": "07fa6494a3425393dea3c35c644773ec10880ea30a32666330bbc82a9947e572"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-boundary-allocation-probe.py",
+      "copy": "rate-adaptation-boundary-allocation-probe.py",
+      "bytes": 1898,
+      "sha256": "c1dcb523cf31465f79619d1bdd3924e31e81fb1938b23b9e436db75557802559"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-boundary-allocation-initial.json",
+      "copy": "rate-adaptation-boundary-allocation-initial.json",
+      "bytes": 376,
+      "sha256": "06f4831fbff91207dadcafc74b602484dcbf94690695f493166ca8664280c39e"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-boundary-allocation-final.json",
+      "copy": "rate-adaptation-boundary-allocation-final.json",
+      "bytes": 365,
+      "sha256": "208fcd7b03da70d8f4fdf3cee4db45e50f1f33959fc1c96880884f76cd54c3e1"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadow-writer-report.md",
+      "copy": "rate-adaptation-shadow-writer-report.md",
+      "bytes": 5028,
+      "sha256": "997bb4722d827b6cc975d35e4c360487f097c12db1fa4314fb849ae7831b8746"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadow-reading.md",
+      "copy": "rate-adaptation-shadow-reading.md",
+      "bytes": 2883,
+      "sha256": "e35a325b2c56d24a06b5539c82fff91829be58fc74d562d62c2422c7b853e5a4"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadow-reading-inventory.json",
+      "copy": "rate-adaptation-shadow-reading-inventory.json",
+      "bytes": 21891,
+      "sha256": "87f7924c429b5e7a8d02fabed4e6f65127527383085b7cf249c6f85d6034d657"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-root-synthetic-tests.txt",
+      "copy": "rate-adaptation-root-synthetic-tests.txt",
+      "bytes": 501,
+      "sha256": "084d3a626887df29f8aa9d52d02cec26aa9ad7cd1aec0e0a8a72bed748e6a165"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-root-verify.txt",
+      "copy": "rate-adaptation-root-verify.txt",
+      "bytes": 2843,
+      "sha256": "60917c9c5465194ed6f76cf82631a54ca1f95f083e7f1b02bcdff5de6c95a472"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/audit_rate_adaptation_result.py",
+      "copy": "audit_rate_adaptation_result.py",
+      "bytes": 7519,
+      "sha256": "d5b8e44902b8da48fad85a242fb1d06c0b183e995b1a8df9dde2416313a0949a"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-combined-prerun-review.json",
+      "copy": "rate-adaptation-combined-prerun-review.json",
+      "bytes": 7738,
+      "sha256": "2a1c23519f8913624b629ef0e6a6f878386d4f301e9e69673e4c86bba5c69732"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-frozen-manifest.json",
+      "copy": "rate-adaptation-frozen-manifest.json",
+      "bytes": 39893,
+      "sha256": "5165a92674683bf2b872753148af74e3adf038ca7a95c64735dcda8e29e5ee46"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-root-freeze.json",
+      "copy": "rate-adaptation-root-freeze.json",
+      "bytes": 1259,
+      "sha256": "5d6f88ef3aa95dbaa430e1c2e7e12fe80988b28d7f43eec9fbd9263e84829fff"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-execution.txt",
+      "copy": "rate-adaptation-execution.txt",
+      "bytes": 132,
+      "sha256": "42e3fea75e385ab3bfd5bf3050029b2cc2536a57472aa6f6cccbdcb150a86e94"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-root-array-audit.json",
+      "copy": "rate-adaptation-root-array-audit.json",
+      "bytes": 3351,
+      "sha256": "0d1592514356f637aea460a1ca126eacb427f73083dc8227f83e104f62af45fa"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-root-superposition-tests.txt",
+      "copy": "rate-adaptation-root-superposition-tests.txt",
+      "bytes": 99,
+      "sha256": "6a78be95b549b27b4f86a733aa2a9bf3b5f8898cc5cf9209c1f81b9cd8b7a2dd"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-protected-verification.json",
+      "copy": "rate-adaptation-protected-verification.json",
+      "bytes": 349,
+      "sha256": "3ce2f942e504139fdfdc52d277ce38d7a5428df773ce932d15ce06e20f5b9cf0"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-superposition-freeze-2026-09-13.json",
+      "copy": "rate-adaptation-reference-superposition-freeze-2026-09-13.json",
+      "bytes": 1187,
+      "sha256": "34531a3db40a5c9cd3ccbbab170ee1a75ac66448fdd33baf228ccbcc90594cb9"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate_adaptation_reference_superposition.py",
+      "copy": "rate_adaptation_reference_superposition.py",
+      "bytes": 5833,
+      "sha256": "f8ab50c7bb441702a6db5961b520468783c07fba8fcb2c3e199f828388e4f342"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate_adaptation_reference_superposition_tests.py",
+      "copy": "rate_adaptation_reference_superposition_tests.py",
+      "bytes": 3563,
+      "sha256": "bb8acd87b5f4456c07f5447f31a29ad944b9a306213c16cbd8434387e1935d87"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/adaptation_00.npz",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/adaptation_00.npz",
+      "bytes": 176746,
+      "sha256": "bffc78429486bd47baa1a7ea9e0259297279ef712fa9f21cb35ac9134d18b162"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/adaptation_01.npz",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/adaptation_01.npz",
+      "bytes": 165045,
+      "sha256": "fdb353692bd7261f1d8a6b8d3888263a59d5dcf2cc8f188c4bdbd55046055e4b"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/adaptation_02.npz",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/adaptation_02.npz",
+      "bytes": 135983,
+      "sha256": "0f1e3dabd44f193d76b028bd624319c7a5f6000dfe13cc239a0d3244b82fa2be"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/adaptation_03.npz",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/adaptation_03.npz",
+      "bytes": 128592,
+      "sha256": "7c4c7d01098cfde000be2bff6e3f0fb2ef21074331bc7d91daa95dfa1980ab5a"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/adaptation_04.npz",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/adaptation_04.npz",
+      "bytes": 259888,
+      "sha256": "705106cf67c331b6004fb35fc6b582e3f86cf142eb1e6feaa39e854a36dc31bb"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/adaptation_05.npz",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/adaptation_05.npz",
+      "bytes": 250876,
+      "sha256": "bec04654fb4c445e97cd431c98ef9fdf09e3c4ff931e0959c42ef0081e3383df"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/adaptation_06.npz",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/adaptation_06.npz",
+      "bytes": 119537,
+      "sha256": "b4f894ab7e6483047554ce31db7e3248ab398a87dc6d4222ca9241555ac22c6c"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/adaptation_07.npz",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/adaptation_07.npz",
+      "bytes": 120551,
+      "sha256": "1b54d0c0cb45fc7eaca9539ec2a4d35028d268eb49891dc705e09fa701b69cf6"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/adaptation_08.npz",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/adaptation_08.npz",
+      "bytes": 223792,
+      "sha256": "8c21effdca974c641052211ca31046d424914933bc8b9fbc6349f10688184cb5"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/adaptation_09.npz",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/adaptation_09.npz",
+      "bytes": 198225,
+      "sha256": "ae6e986a52db3ade21216e2f7528727ac5631b6c16a631f16f30220425324beb"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/adaptation_10.npz",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/adaptation_10.npz",
+      "bytes": 276666,
+      "sha256": "9dccd17ac5bde1b2ab8025ed2babc8a8464e39a1c9136bb2e44e17f2edf8e950"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/adaptation_11.npz",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/adaptation_11.npz",
+      "bytes": 271380,
+      "sha256": "c4c19ceb29beaccfcfe2320ef86709acb882b8b926aed16d4040420b2b846ffb"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/adaptation_12.npz",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/adaptation_12.npz",
+      "bytes": 174449,
+      "sha256": "9b4e9e60b64b6624bbe23a8938fdee29e31b6d150c941718fc7531b1ef82ab3b"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/adaptation_13.npz",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/adaptation_13.npz",
+      "bytes": 188557,
+      "sha256": "5e700e55f79f1a3ef443a4ebbd93edf0ebd2865b989bd596d094a2279b25e0a0"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/adaptation_14.npz",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/adaptation_14.npz",
+      "bytes": 156706,
+      "sha256": "49414a8344864a4bc9c2c7ac11ba649b5be064e596450f5ac75d5fc8d866a2d8"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/adaptation_15.npz",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/adaptation_15.npz",
+      "bytes": 166530,
+      "sha256": "e27fe0a6c4c058f89a7356486e264c291d5ae2eed626e36ae78997a8ff45329d"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/adaptation_16.npz",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/adaptation_16.npz",
+      "bytes": 182294,
+      "sha256": "bba2e24a1929ce2949f5ea506805c2ebd9a5a1d02fdb8038027bd10a702f5705"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/adaptation_17.npz",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/adaptation_17.npz",
+      "bytes": 186851,
+      "sha256": "3763147eb7a1e8c40678e4c4d099021eba70a795a68f0935e468aedbeb86c40c"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/adaptation_18.npz",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/adaptation_18.npz",
+      "bytes": 211820,
+      "sha256": "6eb52be4f51a07ca93c4d0f9a2fc4b31eb88d49969e6e264e93befc39d223878"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/adaptation_19.npz",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/adaptation_19.npz",
+      "bytes": 227960,
+      "sha256": "6b140f8ba5f55b59fbe3384ae6910b708906214cae76ad0c2e8dad17307f91fe"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/adaptation_20.npz",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/adaptation_20.npz",
+      "bytes": 162091,
+      "sha256": "9c761b8089004e02e27d27bb4165f4db2fa8e278583b538002b60e4b526e686c"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/adaptation_21.npz",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/adaptation_21.npz",
+      "bytes": 160508,
+      "sha256": "6a1a547c463eee161572a2b49945e6425f8e288eadfe65d99ca7dbfdc5628e8f"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/adaptation_22.npz",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/adaptation_22.npz",
+      "bytes": 161515,
+      "sha256": "8f713378fe786ffdcc6498088cd3e381a02c47615bae2b626ad67bcb92f477dc"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/adaptation_23.npz",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/adaptation_23.npz",
+      "bytes": 158083,
+      "sha256": "780b68d857efb002a8aa53bed9710e3bf782f827633767f4f6bbe05b908e14a8"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/adaptation_24.npz",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/adaptation_24.npz",
+      "bytes": 171772,
+      "sha256": "c62275df1b0a60ca89cd969936e5452f4c6e6386a3e5d3b4db3e74d82489af04"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/adaptation_25.npz",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/adaptation_25.npz",
+      "bytes": 171402,
+      "sha256": "20ecbcc010a92f70354da50ad68cd13dbd67e21ec429ba546b16e9b524d8dc89"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/adaptation_26.npz",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/adaptation_26.npz",
+      "bytes": 207149,
+      "sha256": "f2dcc22181268c8575dd99a7afe7dabb2e9d38c46df7205887906096ee2d2a7c"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/adaptation_27.npz",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/adaptation_27.npz",
+      "bytes": 172853,
+      "sha256": "92a306c35193e16bf61260dfadfbd82b580a3319e76df610b6504aef00e0b68b"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/adaptation_28.npz",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/adaptation_28.npz",
+      "bytes": 315752,
+      "sha256": "75c1155215f4a3faf7a86f83327d773ae10000918765855dee56e4926eb24160"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/adaptation_29.npz",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/adaptation_29.npz",
+      "bytes": 296608,
+      "sha256": "c117d845b313ac582ccb9075f349f407715ca7b1c29c673856da8643b81483dd"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/adaptation_30.npz",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/adaptation_30.npz",
+      "bytes": 182255,
+      "sha256": "c121de46f316024abdc0c4ef35f03ac663398028e65560f33f4c3996b3d80dce"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/adaptation_31.npz",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/adaptation_31.npz",
+      "bytes": 179915,
+      "sha256": "cbbfbaec80b1670cbd218ee213531f576a3183cea7f30139a4c52beb5f3c4ff2"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/attempt_00.json",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/attempt_00.json",
+      "bytes": 194,
+      "sha256": "fe60f1e77c8ee573c3b7b90d1d2062a14119257470b700b0dbc22ce5dcb74128"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/attempt_01.json",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/attempt_01.json",
+      "bytes": 196,
+      "sha256": "37f003a216f8131a8258241389395947152640a1e485099e1d4e2ad2a8e4037c"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/attempt_02.json",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/attempt_02.json",
+      "bytes": 194,
+      "sha256": "d5406b05097854d38247c4c0d32c8d264c8d73717a14bfb7fc94c1a02da3529a"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/attempt_03.json",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/attempt_03.json",
+      "bytes": 196,
+      "sha256": "6b6d421337a69863f054c8f683f4b282ccbc55a41883f23bce1a412745fef778"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/attempt_04.json",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/attempt_04.json",
+      "bytes": 193,
+      "sha256": "db113e1ad63d7fdf87460541de180507c528a0fe8cefdf04ed4e8079e473448b"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/attempt_05.json",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/attempt_05.json",
+      "bytes": 196,
+      "sha256": "ddaf4050685a6456bbb287391696d97fc92621fa92a759062e71477bdf08f295"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/attempt_06.json",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/attempt_06.json",
+      "bytes": 194,
+      "sha256": "11ca17cae75a048790c787832a2183e2707468f1876cb0467f1e8d2ff38d2250"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/attempt_07.json",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/attempt_07.json",
+      "bytes": 197,
+      "sha256": "28ce1edd5525376dc11f63261593c2639e0c628d3a0a9efc057a54cae0f5950e"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/attempt_08.json",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/attempt_08.json",
+      "bytes": 195,
+      "sha256": "6a9395ff0c17240e8dc93189faa1ffb193681332831cde263943f038b6cb8b57"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/attempt_09.json",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/attempt_09.json",
+      "bytes": 198,
+      "sha256": "27252d7b893f99e9bb10d2d4ca4e3e810589d63a719646ae81bcf1487f7cb223"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/attempt_10.json",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/attempt_10.json",
+      "bytes": 196,
+      "sha256": "484691c40f6bd0c6a4fb67d77e7068d23ca66b0701af682559dc384574301f6d"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/attempt_11.json",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/attempt_11.json",
+      "bytes": 198,
+      "sha256": "a89d4906bc724293de8ce0d16e27e2f806c676e6edf04eede8c8e51a0dc7d3f9"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/attempt_12.json",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/attempt_12.json",
+      "bytes": 196,
+      "sha256": "4d400d5ed2e699fddf6bdb5128491b89a1c7e5285126c457ebee26fbeeb2968b"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/attempt_13.json",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/attempt_13.json",
+      "bytes": 197,
+      "sha256": "c8a4463282a8c5b91e64790f351d155968d4b49f3da98677f7cc83cb9ac9c132"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/attempt_14.json",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/attempt_14.json",
+      "bytes": 195,
+      "sha256": "404a3ab75cbbea205b6f6890b9543e1fafd000da01fd5f258f014c05b7c31071"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/attempt_15.json",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/attempt_15.json",
+      "bytes": 198,
+      "sha256": "d9b3beb3f7ff9685b87e79e0f20695212c64e54b61be47fb1b834d69450df026"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/attempt_16.json",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/attempt_16.json",
+      "bytes": 198,
+      "sha256": "c371736d401eb5a93d877d39fa8e6fd2c2f3669ba1ba7254cff0061b816c44d6"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/attempt_17.json",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/attempt_17.json",
+      "bytes": 198,
+      "sha256": "e2f83a50f680d5ff47742151b3434a93d44c1d5c6b42bec1b86cfc0964b2f228"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/attempt_18.json",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/attempt_18.json",
+      "bytes": 199,
+      "sha256": "2d40a9184371851c63ae35118c5f316fd91d18593e68f5950772254078599b86"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/attempt_19.json",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/attempt_19.json",
+      "bytes": 198,
+      "sha256": "26cdb463a1d7e3c290ecaad07a2c8f5ae6ad7fc299869c8057ea68a000c8238b"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/attempt_20.json",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/attempt_20.json",
+      "bytes": 198,
+      "sha256": "7a096673fe1cde05a8b4e6ba60fa9183fc5d66026feff3acf9a268fba09667d1"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/attempt_21.json",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/attempt_21.json",
+      "bytes": 197,
+      "sha256": "53c0a4e738a9f0ef0e22367c578ed57e8a0289813d25389ddf4c275210800f47"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/attempt_22.json",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/attempt_22.json",
+      "bytes": 198,
+      "sha256": "8729d4696685fa2336e7da657df27362eaa15efe784c5b56e311dea9b65a8827"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/attempt_23.json",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/attempt_23.json",
+      "bytes": 197,
+      "sha256": "b8e8054fbba66a21cb5459b06a250da3977ba541180e1af0bb1bcb6fad701752"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/attempt_24.json",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/attempt_24.json",
+      "bytes": 198,
+      "sha256": "948b077477810cccd89d2a8d90420fdfd9dbee674159a4a0057534778b76d394"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/attempt_25.json",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/attempt_25.json",
+      "bytes": 197,
+      "sha256": "5c4b2e0aff020db2bb5741fe2f433e80750c19fa817d1db4fb145061d1602bde"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/attempt_26.json",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/attempt_26.json",
+      "bytes": 198,
+      "sha256": "6febfc5c1a26e6e7ea69d727c6d6592d6b78d492e5701f2d983b98944be359ec"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/attempt_27.json",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/attempt_27.json",
+      "bytes": 198,
+      "sha256": "7815f76714c8cd05c6ee203d0cf1dbe27a989242803db73a795f3cd9192c3ad0"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/attempt_28.json",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/attempt_28.json",
+      "bytes": 197,
+      "sha256": "4d2799375680d1cbde39fc6c28e9f250efac125206a1bf35a2557ace00d2a98d"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/attempt_29.json",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/attempt_29.json",
+      "bytes": 197,
+      "sha256": "ac709c9c920ea22d3ebe4b893b66aa2b61a76f8fe776f49d31450c538f3b82f2"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/attempt_30.json",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/attempt_30.json",
+      "bytes": 198,
+      "sha256": "0d79f9de0fef63f62b79ea9970f89f0f69c9f9b9b35a119dfb3696e54094a098"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/attempt_31.json",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/attempt_31.json",
+      "bytes": 196,
+      "sha256": "ea169e94b9fbea4e1c50ce6b9479f437a6bcf059d45a17941f208339ec10fb37"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/completed_00.json",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/completed_00.json",
+      "bytes": 1182,
+      "sha256": "5bb67d04c2b676f0fb62fd9217b1f9f4918018e0aedc7eb5ea30b0af6354086a"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/completed_01.json",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/completed_01.json",
+      "bytes": 1181,
+      "sha256": "48a0261b95fc9447626f15c7f0cb8dc6fa38282466d8b9bf37d1d941e353a7a2"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/completed_02.json",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/completed_02.json",
+      "bytes": 1181,
+      "sha256": "b2edcb27e1b977bc1424ea8945dbb22063e3143cc1f8cf4302791cf7db3d93e9"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/completed_03.json",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/completed_03.json",
+      "bytes": 1180,
+      "sha256": "25ce7fdc7f33bde128f00ed89e8909260655e5b7294ee32a2c1edeec86b1a6f7"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/completed_04.json",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/completed_04.json",
+      "bytes": 1176,
+      "sha256": "8fa95498786f0f1543d8f30c671f426573c4332baed081cc2ccd3c539d3e1907"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/completed_05.json",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/completed_05.json",
+      "bytes": 1180,
+      "sha256": "ebd61b236d651bd7b006cb2f876dc80ffe2cb50db982562b6447e3579725b281"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/completed_06.json",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/completed_06.json",
+      "bytes": 1181,
+      "sha256": "00189e8a211888dd71403b7f7f2248d8be7075f70bfd1f47da7c3f09f38633b3"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/completed_07.json",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/completed_07.json",
+      "bytes": 1185,
+      "sha256": "d29ea02d31c56568587919af44644326c42c5ac734cc9fddff7d8af5842c02b0"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/completed_08.json",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/completed_08.json",
+      "bytes": 1175,
+      "sha256": "c6dcc3e434e5498130130c2a9c8d64829c95f56d00b6a47621022a630c0f5054"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/completed_09.json",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/completed_09.json",
+      "bytes": 1178,
+      "sha256": "e006a7ee3d033a2634947cd8aa83009469aa9a14af83d6d363ec8a3c463a816a"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/completed_10.json",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/completed_10.json",
+      "bytes": 1175,
+      "sha256": "32a260563ee077cce7e03dcf8fd85535e266db93a4504bb67b3f22a56977b5df"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/completed_11.json",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/completed_11.json",
+      "bytes": 1176,
+      "sha256": "082e8a743072155251c1eaf580e66a74676e0187c45b67d59ee9cb5aa8b0815a"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/completed_12.json",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/completed_12.json",
+      "bytes": 1178,
+      "sha256": "a9e7f78a53ab893a05a034826cd432680b5755a58f04e4009dd2922733b2aca1"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/completed_13.json",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/completed_13.json",
+      "bytes": 1179,
+      "sha256": "a34ecd58bb9d7589eef65766055692fe0a28141488c3717b64fccb48576f9178"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/completed_14.json",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/completed_14.json",
+      "bytes": 1178,
+      "sha256": "c29a1f9ad320f8ac96bc00349a631f8742831f84fbb95a0ffdfc53ae7043bd7e"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/completed_15.json",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/completed_15.json",
+      "bytes": 1184,
+      "sha256": "7c570854ed171b5881dca06cfc24471326b8a3be80f6d6ebbfa3347ec22d611f"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/completed_16.json",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/completed_16.json",
+      "bytes": 1180,
+      "sha256": "0915beb40bdd7c25ad4339347533a0f05e267cc16e9580c82d12dc5e7ee24047"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/completed_17.json",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/completed_17.json",
+      "bytes": 1183,
+      "sha256": "c3bd65286ced0a2a7fde16639b76cabb5a1a0253ed2e92f3fbe87ca8b8b7c6c1"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/completed_18.json",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/completed_18.json",
+      "bytes": 1181,
+      "sha256": "c24898956ef03f45dd6f37214987d80607c36a2064f0a18eb7f3ffec32ea8faa"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/completed_19.json",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/completed_19.json",
+      "bytes": 1178,
+      "sha256": "9a25621411921dd728023e0e9557bf199b845a6d4b83d7c99b0fc6c1fac6b8e7"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/completed_20.json",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/completed_20.json",
+      "bytes": 1181,
+      "sha256": "a34358f98b26b38b68f3a5a8afb8d677e74151cf0410f5e7d90d3d94fe73e9d6"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/completed_21.json",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/completed_21.json",
+      "bytes": 1181,
+      "sha256": "abba2c3e265b4677976ff350a02605c6ec237ec4419e149d4cf8dfc69265372e"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/completed_22.json",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/completed_22.json",
+      "bytes": 1182,
+      "sha256": "8453dbdc0a5c77373aeefdf363b035e85590a77b69b0614e6838e5962e661789"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/completed_23.json",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/completed_23.json",
+      "bytes": 1180,
+      "sha256": "60c57a3622166aa943f8044d9982e6b2b6cf420552091e93e5e8e4ac53a24b7c"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/completed_24.json",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/completed_24.json",
+      "bytes": 1181,
+      "sha256": "9f38401e6aca78beea0170f5ad79a2f3237d6019dfb0266dd39aaa7c2029706e"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/completed_25.json",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/completed_25.json",
+      "bytes": 1180,
+      "sha256": "f1ffef05474e99ca8a695d17ae3776ca46cdab4e1a4b6924aa6010c50ed07dd2"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/completed_26.json",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/completed_26.json",
+      "bytes": 1184,
+      "sha256": "c9a29204bbaeed695176f30cfd1f833cc80b13cc50e51702468c39f3b52b55ce"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/completed_27.json",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/completed_27.json",
+      "bytes": 1176,
+      "sha256": "25a90885bef2777d67ba666792cce848a44eb95e8df45fcb609c9cd1367bf0bb"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/completed_28.json",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/completed_28.json",
+      "bytes": 1176,
+      "sha256": "5cdd3346cdd11ae9a27669d280f13728f0d2b42eefe6e69fc57964ae884a5fb0"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/completed_29.json",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/completed_29.json",
+      "bytes": 1177,
+      "sha256": "d70d7034f4803b5efaea002afaa9a9998e1e73bb26175b5bcae3bc709fd0153d"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/completed_30.json",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/completed_30.json",
+      "bytes": 1181,
+      "sha256": "db4b8ffc345af3187b3d23f54b006b216702ae5fcf861db28bfe34b51a8ad734"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/completed_31.json",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/completed_31.json",
+      "bytes": 1178,
+      "sha256": "37f4a9bb7cfe84da68e06af8add348ee0b4cee3ecfc4496e03f76e238f7cb1ea"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/manifest.json",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/manifest.json",
+      "bytes": 39893,
+      "sha256": "5165a92674683bf2b872753148af74e3adf038ca7a95c64735dcda8e29e5ee46"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-shadows/rate-adaptation-shadow-5165a92674683bf2b872/summary.json",
+      "copy": "rate-adaptation-shadow-5165a92674683bf2b872/summary.json",
+      "bytes": 53925,
+      "sha256": "bc10070805851fca8e897a2bec5dea087df30851d7c6962360f7e5ec987acc4c"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-saved-audit-report.md",
+      "copy": "rate-adaptation-reference-saved-audit-report.md",
+      "bytes": 8238,
+      "sha256": "c4808e1f57fb74adbd3c5e3c1dfb625ddbe4436d34de5ddf06a3316550036c3d"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate_adaptation_reference_saved_audit.py",
+      "copy": "rate_adaptation_reference_saved_audit.py",
+      "bytes": 12917,
+      "sha256": "96f6aada763349384612ab378f29a4a12165d373e2990c76f1fbb4b22cdcf375"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-final-verify.txt",
+      "copy": "rate-adaptation-final-verify.txt",
+      "bytes": 2843,
+      "sha256": "f55196470ca20a19cae3111edfa9c5075b501a94564dc3e89b0629df6dabdf38"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-saved-audit-5165a926/independent-dan-integrals.npz",
+      "copy": "rate-adaptation-reference-saved-audit-5165a926/independent-dan-integrals.npz",
+      "bytes": 2682385,
+      "sha256": "43195645e1498d27bb262d2a2e6636a5dbea5e2575fa0e5e2a9b24731827525d"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-saved-audit-5165a926/independent-products_00.npz",
+      "copy": "rate-adaptation-reference-saved-audit-5165a926/independent-products_00.npz",
+      "bytes": 72436,
+      "sha256": "a83596017e4a665f5e4fe9f0ade72b3c96b426d787157fd04108554d7c24d0e5"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-saved-audit-5165a926/independent-products_01.npz",
+      "copy": "rate-adaptation-reference-saved-audit-5165a926/independent-products_01.npz",
+      "bytes": 67699,
+      "sha256": "32b2d5c2d455988ebf7843cf869b87c0fd9d467b5fd46f01203e1f209a5f17ae"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-saved-audit-5165a926/independent-products_02.npz",
+      "copy": "rate-adaptation-reference-saved-audit-5165a926/independent-products_02.npz",
+      "bytes": 54872,
+      "sha256": "3b8e3bfb5378adf1b2f3b7cdf70d9e05533f5ab0fb798bf51609080d223222e7"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-saved-audit-5165a926/independent-products_03.npz",
+      "copy": "rate-adaptation-reference-saved-audit-5165a926/independent-products_03.npz",
+      "bytes": 53556,
+      "sha256": "3521d7f16d26b5843377741f5a2620b0dec837c142ac936b8902c3fd0711202e"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-saved-audit-5165a926/independent-products_04.npz",
+      "copy": "rate-adaptation-reference-saved-audit-5165a926/independent-products_04.npz",
+      "bytes": 106533,
+      "sha256": "f9dab507b21337754dea4cdacd040052fa1f294736433b0ef076cbdffd819ae8"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-saved-audit-5165a926/independent-products_05.npz",
+      "copy": "rate-adaptation-reference-saved-audit-5165a926/independent-products_05.npz",
+      "bytes": 102543,
+      "sha256": "7858015050194e38f5c3e93a6dd7a8a9a741ca5ae783777ebd0eff4cf249ece9"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-saved-audit-5165a926/independent-products_06.npz",
+      "copy": "rate-adaptation-reference-saved-audit-5165a926/independent-products_06.npz",
+      "bytes": 48086,
+      "sha256": "d66f9dcde48cb8801e441b64d0582cac48eec6da674cafb5fe9a853a2762313f"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-saved-audit-5165a926/independent-products_07.npz",
+      "copy": "rate-adaptation-reference-saved-audit-5165a926/independent-products_07.npz",
+      "bytes": 48522,
+      "sha256": "168c6e959b81661eae8252bfcdec7b1eaec489a2564050811c2be38efea4527b"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-saved-audit-5165a926/independent-products_08.npz",
+      "copy": "rate-adaptation-reference-saved-audit-5165a926/independent-products_08.npz",
+      "bytes": 92087,
+      "sha256": "31db1bd8084b835829f14a67fa9289617394bc6dcbaa3a96057ac6f2da6e4258"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-saved-audit-5165a926/independent-products_09.npz",
+      "copy": "rate-adaptation-reference-saved-audit-5165a926/independent-products_09.npz",
+      "bytes": 81798,
+      "sha256": "5bacee655e786544e90092227194e05c6ac8df80836068f9422ef55815500b6b"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-saved-audit-5165a926/independent-products_10.npz",
+      "copy": "rate-adaptation-reference-saved-audit-5165a926/independent-products_10.npz",
+      "bytes": 114545,
+      "sha256": "e7cf88df186a824c35efed36a8e8f405e8704a946287eae4df17e0d93241dd6f"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-saved-audit-5165a926/independent-products_11.npz",
+      "copy": "rate-adaptation-reference-saved-audit-5165a926/independent-products_11.npz",
+      "bytes": 111458,
+      "sha256": "96825b40b9da93b9cfce8ae6db0c6fd8f936a152701b2c7faf2ff652a7c8d584"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-saved-audit-5165a926/independent-products_12.npz",
+      "copy": "rate-adaptation-reference-saved-audit-5165a926/independent-products_12.npz",
+      "bytes": 73078,
+      "sha256": "4ff8d22763a4d5bf854d7536364491a8b89435c1e35547591ccd2f8cc1f7d348"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-saved-audit-5165a926/independent-products_13.npz",
+      "copy": "rate-adaptation-reference-saved-audit-5165a926/independent-products_13.npz",
+      "bytes": 77560,
+      "sha256": "881624aa23daaab20f93d669878855df980ff47807b13cf71e9fb719621ffdc6"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-saved-audit-5165a926/independent-products_14.npz",
+      "copy": "rate-adaptation-reference-saved-audit-5165a926/independent-products_14.npz",
+      "bytes": 63938,
+      "sha256": "0b6a0caa2b9db6986769e87e61db47dcd8acfd7f0bae375cd171f00e9890aa50"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-saved-audit-5165a926/independent-products_15.npz",
+      "copy": "rate-adaptation-reference-saved-audit-5165a926/independent-products_15.npz",
+      "bytes": 68276,
+      "sha256": "e2e751978143ebbcda729be9748b80ca905bbb3ac9f5935e775d6a4af684f22c"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-saved-audit-5165a926/independent-products_16.npz",
+      "copy": "rate-adaptation-reference-saved-audit-5165a926/independent-products_16.npz",
+      "bytes": 75267,
+      "sha256": "e2d2e3a113ae53ffd577cf3ffffe3cc26691132dec7d56dc49185a9194ca3a67"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-saved-audit-5165a926/independent-products_17.npz",
+      "copy": "rate-adaptation-reference-saved-audit-5165a926/independent-products_17.npz",
+      "bytes": 76620,
+      "sha256": "8ed13fbf5777111e073b9694894cb9b8ab4e647ac4877801bc5686e83c8aed9e"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-saved-audit-5165a926/independent-products_18.npz",
+      "copy": "rate-adaptation-reference-saved-audit-5165a926/independent-products_18.npz",
+      "bytes": 86737,
+      "sha256": "1e6e24eb716f24fe624e76205947493aeeb8b61577b1a5346f75a0a38e7db5e5"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-saved-audit-5165a926/independent-products_19.npz",
+      "copy": "rate-adaptation-reference-saved-audit-5165a926/independent-products_19.npz",
+      "bytes": 93886,
+      "sha256": "6d9bc63b5980cac7551164486f9de6e9d021c1dc44816ab324ef3756646eea79"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-saved-audit-5165a926/independent-products_20.npz",
+      "copy": "rate-adaptation-reference-saved-audit-5165a926/independent-products_20.npz",
+      "bytes": 66265,
+      "sha256": "32c1e383fc08ce8fd7f9f8cf430d9b948b95e3e2e131df9979c9d80a8c167fb7"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-saved-audit-5165a926/independent-products_21.npz",
+      "copy": "rate-adaptation-reference-saved-audit-5165a926/independent-products_21.npz",
+      "bytes": 65412,
+      "sha256": "c44806b0e74420400dfdff0fe0acabe516968326f501d77a034794b9c9bc7e38"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-saved-audit-5165a926/independent-products_22.npz",
+      "copy": "rate-adaptation-reference-saved-audit-5165a926/independent-products_22.npz",
+      "bytes": 66007,
+      "sha256": "f39a07b4c3fa19f77b49474ae1cd1bd4e42f3a8f10dead3b42b8c601032a2a10"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-saved-audit-5165a926/independent-products_23.npz",
+      "copy": "rate-adaptation-reference-saved-audit-5165a926/independent-products_23.npz",
+      "bytes": 64583,
+      "sha256": "c38583326c6291b245cb3f7d89375b59d35f45a857589be9c7a943aa410ee6a2"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-saved-audit-5165a926/independent-products_24.npz",
+      "copy": "rate-adaptation-reference-saved-audit-5165a926/independent-products_24.npz",
+      "bytes": 70421,
+      "sha256": "fde463cd3403b42574b72e7cee56fa7aa65249f88eed44f116286c3072bfdede"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-saved-audit-5165a926/independent-products_25.npz",
+      "copy": "rate-adaptation-reference-saved-audit-5165a926/independent-products_25.npz",
+      "bytes": 70309,
+      "sha256": "e4c434fd956729cf6d03ca7f8e15a8ce95ca8f114209671e6fd3e6da2957a0dc"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-saved-audit-5165a926/independent-products_26.npz",
+      "copy": "rate-adaptation-reference-saved-audit-5165a926/independent-products_26.npz",
+      "bytes": 85249,
+      "sha256": "7e067c5d240f2a28efaeb2612255ad3a332fe5fc0c9d2f84e62fd5095bd2354e"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-saved-audit-5165a926/independent-products_27.npz",
+      "copy": "rate-adaptation-reference-saved-audit-5165a926/independent-products_27.npz",
+      "bytes": 70398,
+      "sha256": "df84628163e5bd3c55cdc1f5844528e573b8700a6e4c8951361715baf11b9c39"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-saved-audit-5165a926/independent-products_28.npz",
+      "copy": "rate-adaptation-reference-saved-audit-5165a926/independent-products_28.npz",
+      "bytes": 130548,
+      "sha256": "69191667765edc5069992fcd62cc9a7cf7fb8ca2e3f4c4145b012750409f9f49"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-saved-audit-5165a926/independent-products_29.npz",
+      "copy": "rate-adaptation-reference-saved-audit-5165a926/independent-products_29.npz",
+      "bytes": 122345,
+      "sha256": "016c586a7e37dc6c42a438a5372100e77c3981d8a1362faa2b6af10b4e5a8ad0"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-saved-audit-5165a926/independent-products_30.npz",
+      "copy": "rate-adaptation-reference-saved-audit-5165a926/independent-products_30.npz",
+      "bytes": 74506,
+      "sha256": "35012cfd50d2357b76379a71fe8f368987f7bdf566d094e16702ff07a2ce1019"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-saved-audit-5165a926/independent-products_31.npz",
+      "copy": "rate-adaptation-reference-saved-audit-5165a926/independent-products_31.npz",
+      "bytes": 73532,
+      "sha256": "482bb24af4e5c3b17a16be35685c44e5edff57bd705bbeb94f3e1e0adf740a42"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-saved-audit-5165a926/output-hash-inventory-and-domination.json",
+      "copy": "rate-adaptation-reference-saved-audit-5165a926/output-hash-inventory-and-domination.json",
+      "bytes": 41739,
+      "sha256": "1491e828bf3b924044b409c4df3f0a6198018b1ccbaa93cac4d12aef8775c422"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-saved-audit-5165a926/summary.json",
+      "copy": "rate-adaptation-reference-saved-audit-5165a926/summary.json",
+      "bytes": 24313,
+      "sha256": "9d58ed3c024539b3c38ed05a10328249ddb1343aed1510391b5f6ec659025f44"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-closing-reading-receipt-2026-09-13.json",
+      "copy": "rate-adaptation-reference-closing-reading-receipt-2026-09-13.json",
+      "bytes": 36245,
+      "sha256": "d6d279233b790d03f5c4d87ef344f45a74f01f97e7532e31958f7c198e8ad5d1"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-final-wording-delta-2026-09-13.json",
+      "copy": "rate-adaptation-reference-final-wording-delta-2026-09-13.json",
+      "bytes": 1509,
+      "sha256": "938579297ba3c30fbfda1de758fcae7684c18af021d7fb7f39481dd087c258fa"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/evidence-ui-final-closeout-reading-review-2026-09-13.json",
+      "copy": "evidence-ui-final-closeout-reading-review-2026-09-13.json",
+      "bytes": 8593,
+      "sha256": "a2e7dcd638d12e97721c62afafebcde0ede68146a94ebf731fe7d383cfae556f"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-copied-source-tests.txt",
+      "copy": "rate-adaptation-copied-source-tests.txt",
+      "bytes": 501,
+      "sha256": "34d7006e379fd11601357d37276a614e43b2b4c2d377ee34454bc672544d34b8"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/rate-adaptation-final-copy-reading-review-2026-09-13.json",
+      "copy": "rate-adaptation-final-copy-reading-review-2026-09-13.json",
+      "bytes": 77893,
+      "sha256": "1d29780470ac4def107555267509d10d274fda0a7803f7438ef879c88d436237"
+    }
+  ],
+  "all_sources_preserved": true,
+  "post_audit_copied_at_utc": "2026-09-13T04:54:46.616460+00:00"
+}

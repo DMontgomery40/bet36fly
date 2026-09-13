@@ -5,6 +5,19 @@ status: active
 ---
 # Wiki change log
 
+## 2026-09-13 UTC — evidence UI complete; fixed adaptation rejected
+
+The evidence API and Training workflow passed full tests and actual guarded
+browser acceptance. Corrected the reassessment's obsolete pending-UI wording.
+The scientific gate remains open.
+
+Recorded a further fixed 32-history rate-adaptation screen with zero circuit
+calls. It changed untaught home depression to excessive potentiation and failed
+all four home groups. Added its full-tail and KC-class accounting to the learning
+contract and PPL101 page. Preserved the frozen equation, failed result, unchanged
+masks and copied Microduck originals. The primary-source/localization access
+report distinguishes unknown transport/authentication state from retrieved data.
+
 ## 2026-09-13 UTC — integrated repair and failed mechanism controls
 
 Added a current account above the preserved initial reassessment. The repair is
@@ -17,7 +30,8 @@ Added [individual PPL101 input and feedback detail](cells/ppl101-inputs.md),
 including every retained direct input in the linked audit. Contact counts remain
 distinct from delivered current and causality. Updated conditioning entry criteria
 and preserved its unrun state, historical sports evidence and copied originals.
-The current evidence API/UI remains in progress; no new passing gate is claimed.
+The evidence API/UI was still in progress at that earlier update; the subsequent
+entry above records its completion. No passing scientific gate is claimed.
 
 ## 2026-09-12 UTC — copy, reassessment, cell-level expansion
 

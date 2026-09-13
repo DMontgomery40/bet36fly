@@ -1,0 +1,30 @@
+{
+  "agent": "dopamine_sources",
+  "frozen_at_utc": "2026-09-13T04:44:08.377824+00:00",
+  "screen_manifest_sha256": "5165a92674683bf2b872753148af74e3adf038ca7a95c64735dcda8e29e5ee46",
+  "purpose": "Independent full-edge P/N audit by DAN ODE and KC impulse superposition; frozen before reading any real candidate outcome",
+  "synthetic_tests": {
+    "passed": 20,
+    "wall_seconds": 5.63,
+    "ruff": "passed"
+  },
+  "files": [
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate_adaptation_reference_superposition.py",
+      "sha256": "f8ab50c7bb441702a6db5961b520468783c07fba8fcb2c3e199f828388e4f342",
+      "bytes": 5833
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate_adaptation_reference_superposition_tests.py",
+      "sha256": "bb8acd87b5f4456c07f5447f31a29ad944b9a306213c16cbd8434387e1935d87",
+      "bytes": 3563
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate_adaptation_reference_oracle.py",
+      "sha256": "2e09acf2fe7b1917eab406d99d77d591643065d43e6bf1e59d72e733d0bca87d",
+      "bytes": 5969
+    }
+  ],
+  "actual_candidate_outputs_read": 0,
+  "actual_histories_evaluated_by_this_auditor": 0
+}

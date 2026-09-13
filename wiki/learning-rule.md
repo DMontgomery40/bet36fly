@@ -119,6 +119,23 @@ The gamma mask is independent of the learning rule. It retains all home support
 and only gamma KC updates on away; it does not turn MBON09 into a gamma-only cell
 or remove its other transmitting inputs. [Atlas](cells/index.md).
 
+## Rejected fixed rate-adaptation shadow
+
+A separate offline hypothesis filtered the population-mean DAN spikes, followed
+that rate with a 500 ms adaptive baseline, and supplied `max(R_D - B, 0)` to
+both opposing learning products and the DAN eligibility filter. States evolved
+from time zero; gain writes still began at 100 ms. It retained the entire
+piecewise analytic tail and the established publication policy. This was an
+engineered positive-contrast detector, not a calibrated receptor law or the
+natural PAM-γ3 suppression signal.
+
+The fixed 32-history screen failed all four home groups: second/base mean gain
+sum +2.638301 against a limit of 1.113472. The tail alone contributed mean
++1.386953 in attempted units for that cell. The rule was rejected and is not
+installed in the native simulator. Removing its tail or retuning timescales to
+remove the failure would change the tested hypothesis.
+[Equations, cell/phase products and complete result](../docs/evidence/reward-mechanism-repair-2026-09-12/rate-adaptation-shadow-result.md).
+
 ## What was borrowed, and what was not
 
 Jiang and Litwin-Kumar use rectified rate signals, low-pass traces, bounded weights and an additional weight-update timescale in a task-optimized recurrent model. Their `runmodel.py` updates plasticity before adding the new trace contribution. BET36FLY borrows the opposing KC/DAN timing terms; its event impulses, normalization, initialization, timescale and surrounding circuit differ. Their optimized generation of DAN signals is not automatically supplied by importing an anatomical graph. [Paper](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009205), [inspected source](https://github.com/alitwinkumar/jiang_litwin-kumar_mb_rnn/blob/a16f86a3e9e476eff6860c3c0e0e1bbe729d7f85/runmodel.py).

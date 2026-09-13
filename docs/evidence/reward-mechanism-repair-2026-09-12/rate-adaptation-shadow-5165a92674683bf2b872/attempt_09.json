@@ -1,0 +1,10 @@
+{
+  "attempt": 10,
+  "row": {
+    "game": 4378,
+    "seed_set": "alt",
+    "seed": 1004420,
+    "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+  },
+  "elapsed_seconds": 16.150210625026375
+}
