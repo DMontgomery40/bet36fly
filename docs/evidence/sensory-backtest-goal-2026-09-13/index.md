@@ -1,6 +1,6 @@
 # Sensory-to-backtest goal — September 13, 2026
 
-**Goal active; no sports qualification.** The exact taste crosswalk is now resolved to source-proposed functional classes. A first native assay failed, and its matched DPM diagnostic did not explain away the failure. V1 and all legacy results remain unchanged.
+**Backtest goal achieved.** [The frozen 2023 confirmation passed](RESULT.md); added neural value and full feeding remain unqualified. The chronology below preserves earlier failed and preconfirmation states. The exact taste crosswalk is now resolved to source-proposed functional classes. A first native assay failed, and its matched DPM diagnostic did not explain away the failure. V1 and all legacy results remain unchanged.
 
 ## Sources and transfer limits
 
@@ -59,3 +59,7 @@ Identity `sensory-opportunities-3750a28fd2728835047b`, 136 completed calls. The 
 ## Development 01 and confirmation freeze
 
 Nine pipeline candidates completed with303 encoder/bootstrap fits and9 readout fits. Minimum2022 log loss selected encoder C=1.0 and readout C=0.01. Neural development accuracy58.296%, log loss0.674848; encoder-only log loss0.673611. This is development selection, not confirmation and not demonstrated incremental neural benefit. Three source-silenced native controls passed zero downstream output with intact input generators. The final coefficients, response cache, code, source data, eligibility and one-shot2023 confirmation are frozen in `configs/sensory-confirmation-01.json` before source access. The complete software gate will be read before executing it.
+
+## One-shot confirmation 01: passed
+
+The frozen pipeline passed on 2,423 eligible 2023 MLB games: 56.21% accuracy, 95% interval 54.42–58.02%, and log loss 0.680493. Loss improved over chance and the training prior with the predefined confidence bounds. The incremental comparison with the encoder alone includes zero. No refits or new neural calls occurred during confirmation. Every exported prediction and all 10,000 confidence resamples were independently checked; all bound source/code/parameter hashes and 124 protected files match. See [the final result](RESULT.md). Further tuning for this fulfilled goal stopped.

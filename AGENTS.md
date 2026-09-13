@@ -8,7 +8,7 @@
 
 ## Current objective and continuation
 
-- David has authorized continuing in `/goal` until better-than-chance held-out backtesting is achieved. Follow `docs/EXPERIMENT_SENSORY.md`; advance through natural sensory validation into sports evaluation with finite identified experiments. Never reuse a confirmation set as an adaptive stopping test. Preserve old v1/v2/legacy identities and no-push/no-deployment boundaries.
+- The September 13 better-than-chance `/goal` is achieved by the frozen 2023 confirmation in [the result](docs/evidence/sensory-backtest-goal-2026-09-13/RESULT.md). Stop automatic expansion for that fulfilled goal. Never reuse 2023 as an unused adaptive confirmation set. The passed claim is a conditional pipeline backtest with a source-informed second-order sensory response and external fitted interfaces; incremental neural value, feeding and innate choice remain unqualified. Preserve old v1/v2/legacy identities and no-push/no-deployment boundaries.
 
 - David's September 13, 2026 direction is canonical in [PROJECT_DIRECTION.md](docs/PROJECT_DIRECTION.md): use calibrated natural food-related sensory patterns to represent two matchup opportunities and measure the circuit's response. Read the [current handoff](docs/NATURAL_SENSORY_HANDOFF.md) before continuing. Older repair handoffs are historical, even if their body says “continue the active goal.”
 - First establish a bounded, plasticity-off natural sensory/feeding assay, then distinguish two opportunities, then map pregame metrics. Both teams can be attractive; a large supported difference can become appetitive versus aversive. Do not force a loser to be bad through pairwise normalization. Apply identical encoding rules to home and away and preserve uncertainty.

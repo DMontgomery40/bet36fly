@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "n": 2423,
+  "correct": 1362,
+  "unique_ids": true,
+  "independent_csv_metric_check": true,
+  "all_frozen_readout_predictions_reproduced": true,
+  "independent_fixture_resampling_reproduces_10000_bootstrap_bounds": true,
+  "all_confirmation_artifact_hashes_match": true,
+  "all_preconfirmation_source_parameter_code_hashes_match": true,
+  "protected_files_unchanged": 124,
+  "new_neural_calls": 0,
+  "refits": 0
+}

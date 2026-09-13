@@ -12,9 +12,11 @@
 - [x] Freeze `configs/sensory-assay-01.json` after cell checks and source review. Use source matching one-second measurement windows and explicit model assumptions. Define all controls, seeds, wall/call caps, generator/numerical/response gates before native execution.
 - [x] Add `scripts/run_sensory_assay.py`: refuse overwrite/unknown identity, verify source/graph hashes, run sequentially with finite budget and record all requested/achieved rates plus output traces. Test artifact reuse refusal and stop-state behavior on tiny fixtures.
 - [x] Run the declared assay on the actual graph; stop expansion at the first failed stage. If it fails, declare a distinct protocol addressing the measured limitation before another run. Never tune using sports confirmation data.
-- [ ] Only after assay acceptance, implement the symmetric external paired-probe contract and swap/order/reset tests. Freeze and execute its finite examples.
-- [ ] Only after paired-probe acceptance, freeze a finite training/development candidate batch and implement the chronological encoder/readout plus matching baselines. Keep confirmation outcomes inaccessible until final candidate freeze.
-- [ ] Freeze and run one confirmation backtest using the global acceptance rule, all metrics and ablations. Preserve failures and allocate future confirmation attempts separately.
-- [ ] Keep docs/API/frontend aligned with implemented behavior, run focused tests and `make verify`, guarded browser acceptance and local commits at substantive checkpoints.
+- [x] Only after assay acceptance, implement the symmetric external paired-probe contract and swap/order/reset tests. Freeze and execute its finite examples.
+- [x] Only after paired-probe acceptance, freeze a finite training/development candidate batch and implement the chronological encoder/readout plus matching baselines. Keep confirmation outcomes inaccessible until final candidate freeze.
+- [x] Freeze and run one confirmation backtest using the global acceptance rule, all metrics and ablations. Preserve failures and allocate future confirmation attempts separately.
+- [x] Keep docs/API/frontend aligned with implemented behavior, run focused tests and `make verify`, guarded browser acceptance and local commits at substantive checkpoints.
 
 The detailed code design for each later stage is written after its prerequisite measurements; this plan does not invent a successful sensory response or a sports mapping before evidence exists. Inline execution follows the user's continuing goal authorization.
+
+Completed through the narrower second-order sensory assay and external opportunity comparison. The original full MN9 feeding assay and calibration remain failed. The one-shot 2023 confirmation passed without evidence of incremental neural advantage; additional tuning stopped.

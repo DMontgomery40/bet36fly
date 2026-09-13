@@ -54,3 +54,7 @@ Reconciled main schema 3, the separate schema-4 repair worktree, and the later s
 ## September13 sensory-to-backtest continuation
 
 Recovered the Tastekin source package, implemented source-locked taste probes and preserved failed feeding/DPM/coupling diagnostics. Qualified a narrower Clavicle/Quasimodo response and external contact-recruitment comparison. The finite2019–2022 sports batch selected a frozen pipeline with58.3% development accuracy; the encoder alone was slightly better. One2023 confirmation is preregistered and has not yet accessed outcomes. [Full evidence and limits](../docs/evidence/sensory-backtest-goal-2026-09-13/index.md).
+
+## September 13 — backtest goal achieved
+
+The frozen 2023 confirmation passed at 56.21% accuracy on 2,423 games, with lower confidence bounds above chance and lower loss than the training prior. The encoder-only comparison remains inconclusive. The qualified sensory stage is second-order response with an external comparison; feeding and learning remain unqualified. Preserved all failures and stopped further tuning. [Result and full prediction export](../docs/evidence/sensory-backtest-goal-2026-09-13/RESULT.md).

@@ -2,11 +2,15 @@
 
 **Decision: David's September 13, 2026 reorientation. Status: source-informed second-order sensory pipeline implemented; full feeding and biological learning unvalidated.** This is the canonical project objective. The [handoff](NATURAL_SENSORY_HANDOFF.md) defines the next bounded task; the [reassessment](../wiki/reassessment.md) records evidence. Dated experiment protocols remain authoritative for their own results, not for choosing the project's next objective.
 
-## Active goal — September 13, 2026
+## Backtest goal achieved — September 13, 2026
 
 David has authorized continuing in `/goal` until better-than-chance backtesting is achieved. This extends execution through the sensory, two-opportunity and sports-evaluation stages below, using finite, identified experiments and honest held-out confirmation. The natural sensory objective remains; a conventional predictor alone or a reused development score does not complete it. Historical v1, paused v2 and failed legacy learning identities remain protected. No push, deployment or model-pointer change is authorized.
 
-Use a predefined chance baseline, chronological separation, uncertainty and encoder-only/same-information comparisons. Develop on development data and evaluate a frozen candidate on an unused confirmation block; do not keep testing the same holdout until it passes. Report any lack of incremental circuit contribution explicitly. The [active protocol](EXPERIMENT_SENSORY.md) records each finite stage and its remaining requirements. The old calibration decision remains immutable; new source access and new protocols receive new identities.
+Use a predefined chance baseline, chronological separation, uncertainty and encoder-only/same-information comparisons. Develop on development data and evaluate a frozen candidate on an unused confirmation block; do not keep testing the same holdout until it passes. Report any lack of incremental circuit contribution explicitly. The [frozen preregistration protocol](EXPERIMENT_SENSORY.md) records each finite stage and its remaining requirements. The old calibration decision remains immutable; new source access and new protocols receive new identities.
+
+The frozen sensory pipeline passed its predefined 2023 MLB confirmation: **56.21% accuracy on 2,423 games**, with a 95% paired-week bootstrap interval of **54.42–58.02%**. Log loss was **0.680493**, better than uniform chance and the training prior with the declared bounds. Incremental benefit over the encoder alone remains unproven. The qualified sensory stage is a conditional Clavicle/Quasimodo response with an external comparison of independent probes; feeding, innate choice and neural learning remain unqualified. [Full result and every prediction](evidence/sensory-backtest-goal-2026-09-13/RESULT.md). V1 remains active and v2 paused; no push, deployment or model promotion.
+
+The backtest stopping condition has been met. Preserve this first confirmation and stop automatic tuning; broader biological and prospective claims require distinct future work.
 
 ## The intended experiment
 

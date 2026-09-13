@@ -110,3 +110,5 @@ The scientific hold SCI-001 remains. No new acquisition, reversal, schema-5 back
 ## September13 sensory goal preconfirmation gate
 
 The [new verification record](../docs/evidence/sensory-backtest-goal-2026-09-13/verification.md) records4,132 Python tests,103 frontend tests, Ruff/build and guarded browser acceptance. This is software/retained-UI evidence, separate from the narrower passed sensory and external-probe assays and the still-pending sports confirmation.
+
+The later [confirmation integrity check](../docs/evidence/sensory-backtest-goal-2026-09-13/confirmation-integrity.json) reproduced all predictions and confidence bounds. The backtest goal passed; the protected model/legacy files remain unchanged.

@@ -5,11 +5,11 @@ status: active
 ---
 # BET36FLY: cells, circuits, and learning
 
-**Active goal:** continue the natural-sensory pipeline through better-than-chance held-out backtesting under the [new execution protocol](../docs/EXPERIMENT_SENSORY.md). This is an objective, not an achieved result. Historical models and failed results remain protected.
+**Backtest goal achieved.** The conditional historical confirmation passed; additional runs for this goal have stopped. See the measured result below.
 
 ## Latest evidence
 
-The [current sensory evidence](../docs/evidence/sensory-backtest-goal-2026-09-13/index.md) now includes a passed **second-order gustatory response** and an **external comparison of independent reset probes**. Source-identified Clavicle/Quasimodo outputs passed fresh-seed, timing and recovery checks; MN9 feeding qualification remains failed. A frozen encoder/readout pipeline reached 58.3% accuracy on 2022 development data, with no demonstrated advantage over its encoder alone. The selected pipeline is frozen before a single 2023 confirmation; no confirmation outcome has yet been accessed. V1 stays active and v2 paused.
+The frozen sensory pipeline passed its predefined 2023 MLB confirmation: **56.21% accuracy on 2,423 games**, with a 95% paired-week bootstrap interval of **54.42–58.02%**. Log loss was **0.680493**, better than uniform chance and the training prior with the declared bounds. Incremental benefit over the encoder alone remains unproven. The qualified sensory stage is a conditional Clavicle/Quasimodo response with an external comparison of independent probes; feeding, innate choice and neural learning remain unqualified. [Full result and every prediction](../docs/evidence/sensory-backtest-goal-2026-09-13/RESULT.md). V1 remains active and v2 paused; no push, deployment or model promotion.
 
 Start with the [current direction](../docs/PROJECT_DIRECTION.md), [reassessment](reassessment.md), and [natural sensory inputs](natural-sensory-inputs.md). David's September 13 reorientation puts a calibrated food-related sensory-response assay first, then two distinguishable matchup opportunities. Both teams can be attractive. The separate offline sensory interface is implemented; the production model remains unchanged. The [continuation prompt](../docs/NATURAL_SENSORY_HANDOFF.md) supersedes the old repair queue.
 

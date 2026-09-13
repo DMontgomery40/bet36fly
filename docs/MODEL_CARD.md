@@ -2,7 +2,7 @@
 
 ## Natural sensory calibration checkpoint — September 13
 
-The [current sensory evidence](evidence/sensory-backtest-goal-2026-09-13/index.md) now includes a passed **second-order gustatory response** and an **external comparison of independent reset probes**. Source-identified Clavicle/Quasimodo outputs passed fresh-seed, timing and recovery checks; MN9 feeding qualification remains failed. A frozen encoder/readout pipeline reached 58.3% accuracy on 2022 development data, with no demonstrated advantage over its encoder alone. The selected pipeline is frozen before a single 2023 confirmation; no confirmation outcome has yet been accessed. V1 stays active and v2 paused.
+The frozen sensory pipeline passed its predefined 2023 MLB confirmation: **56.21% accuracy on 2,423 games**, with a 95% paired-week bootstrap interval of **54.42–58.02%**. Log loss was **0.680493**, better than uniform chance and the training prior with the declared bounds. Incremental benefit over the encoder alone remains unproven. The qualified sensory stage is a conditional Clavicle/Quasimodo response with an external comparison of independent probes; feeding, innate choice and neural learning remain unqualified. [Full result and every prediction](evidence/sensory-backtest-goal-2026-09-13/RESULT.md). V1 remains active and v2 paused; no push, deployment or model promotion.
 
 BET36FLY uses the actual MaleCNS v1.0 neuronal connectome from HHMI Janelia, Google Research and collaborators. Its sports behavior is an experimental engineering application, not a behavior reported or validated by those researchers. It contains no language model deciding the picks and no randomly generated substitute brain.
 

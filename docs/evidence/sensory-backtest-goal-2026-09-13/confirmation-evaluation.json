@@ -1,0 +1,95 @@
+{
+  "metrics": {
+    "neural": {
+      "n": 2423,
+      "accuracy": 0.5621130829550145,
+      "log_loss": 0.6804929669814399,
+      "brier": 0.24376533580045376
+    },
+    "encoder_only": {
+      "n": 2423,
+      "accuracy": 0.5583986793231531,
+      "log_loss": 0.6813526573326911,
+      "brier": 0.2441653504251508
+    },
+    "same_information": {
+      "n": 2423,
+      "accuracy": 0.5629385059843169,
+      "log_loss": 0.6814670537013726,
+      "brier": 0.24422755156268544
+    },
+    "uniform": {
+      "n": 2423,
+      "accuracy": 0.5212546430045398,
+      "log_loss": 0.6931471805599453,
+      "brier": 0.25
+    },
+    "prior": {
+      "n": 2423,
+      "accuracy": 0.5212546430045398,
+      "log_loss": 0.6927253501088338,
+      "brier": 0.2497882464013739
+    },
+    "circuit_silenced": {
+      "n": 2423,
+      "accuracy": 0.5212546430045398,
+      "log_loss": 0.6931471805599453,
+      "brier": 0.25
+    }
+  },
+  "weeks": 27,
+  "replicates": 10000,
+  "alpha": 0.025,
+  "accuracy_interval": [
+    0.5442005661806514,
+    0.5802471612864871
+  ],
+  "paired_loss": {
+    "encoder_only": {
+      "mean": -0.0008596903512512203,
+      "interval": [
+        -0.0022727601015022146,
+        0.0005101977732513206
+      ]
+    },
+    "same_information": {
+      "mean": -0.0009740867199328363,
+      "interval": [
+        -0.0025818342159418407,
+        0.0006355299288741751
+      ]
+    },
+    "uniform": {
+      "mean": -0.012654213578505408,
+      "interval": [
+        -0.01930693476753447,
+        -0.006124644346161831
+      ]
+    },
+    "prior": {
+      "mean": -0.012232383127393923,
+      "interval": [
+        -0.018244868545761444,
+        -0.006311164626853893
+      ]
+    },
+    "circuit_silenced": {
+      "mean": -0.012654213578505408,
+      "interval": [
+        -0.01930693476753447,
+        -0.006124644346161831
+      ]
+    }
+  },
+  "goal_passed": true,
+  "interpretation": "Frozen native second-order response cache with engineered absolute-quality encoder and fitted external readout. No neural plasticity, feeding qualification or innate choice.",
+  "start": "2023-03-30T17:05:00Z",
+  "end": "2023-10-01T19:15:00Z",
+  "exclusions": {
+    "unplayed": 39,
+    "resumed_or_suspended": 14
+  },
+  "probability_tie_rule": "p_home>=0.5 selects home; accuracy of uniform/silenced is therefore always-home accuracy, not random-guess expectation.",
+  "independence_limit": "Historical unused-year confirmation after 2022 development selection; retrospective source corrections and within-season time dependence remain limitations.",
+  "neural_incremental_advantage": false
+}

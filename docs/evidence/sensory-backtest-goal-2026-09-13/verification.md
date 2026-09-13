@@ -7,3 +7,7 @@ The guarded read-only server on8766 and `scripts/verify_reward_browser.cjs` pass
 All124 files in the prior protection manifest remain byte-identical. No active-pointer changes, imported-source rewrites, v1/v2 resumes, pushes or deployments occurred. The unrelated `PUBLIC_POST_HANDOFF.md` was preserved and will not be staged.
 
 The final confirmation preflight verified every bound source/code/parameter file and found no existing confirmation output directory. Config identity `sensory-confirmation-4887cb8c17f6281d8166` is frozen before the2023 source is accessed.
+
+## Confirmation integrity and closeout
+
+The one-shot 2023 confirmation passed its registered rule. A separate CSV calculation reproduced accuracy and log loss, every frozen readout probability, and all 10,000 fixture-resampled confidence bounds. All confirmation artifact, source, code and parameter hashes match; all 124 protected files remain unchanged. No refits or new neural calls occurred. Only result artifacts and current documentation changed after the passing full software/browser gate. The temporary QA server exited cleanly. [Independent checks](confirmation-integrity.json).

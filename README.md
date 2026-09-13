@@ -1,10 +1,10 @@
 # BET36FLY
 
-**Active goal:** continue the natural-sensory pipeline through better-than-chance held-out backtesting under the [new execution protocol](docs/EXPERIMENT_SENSORY.md). This is an objective, not an achieved result. Historical models and failed results remain protected.
+**Backtest goal achieved.** The conditional historical confirmation passed; additional runs for this goal have stopped. See the measured result below.
 
 ## Latest sensory checkpoint
 
-The [current sensory evidence](docs/evidence/sensory-backtest-goal-2026-09-13/index.md) now includes a passed **second-order gustatory response** and an **external comparison of independent reset probes**. Source-identified Clavicle/Quasimodo outputs passed fresh-seed, timing and recovery checks; MN9 feeding qualification remains failed. A frozen encoder/readout pipeline reached 58.3% accuracy on 2022 development data, with no demonstrated advantage over its encoder alone. The selected pipeline is frozen before a single 2023 confirmation; no confirmation outcome has yet been accessed. V1 stays active and v2 paused.
+The frozen sensory pipeline passed its predefined 2023 MLB confirmation: **56.21% accuracy on 2,423 games**, with a 95% paired-week bootstrap interval of **54.42–58.02%**. Log loss was **0.680493**, better than uniform chance and the training prior with the declared bounds. Incremental benefit over the encoder alone remains unproven. The qualified sensory stage is a conditional Clavicle/Quasimodo response with an external comparison of independent probes; feeding, innate choice and neural learning remain unqualified. [Full result and every prediction](docs/evidence/sensory-backtest-goal-2026-09-13/RESULT.md). V1 remains active and v2 paused; no push, deployment or model promotion.
 
 **Current research direction, September 13:** represent matchup information as two food opportunities using calibrated fruit-odor or sweet/aversive taste patterns, establish the circuit's natural sensory response, then measure its contribution to matchup selection. Both teams can be attractive. Read the [canonical direction](docs/PROJECT_DIRECTION.md), [continuation prompt](docs/NATURAL_SENSORY_HANDOFF.md) and [measured sensory-rate evidence](wiki/natural-sensory-inputs.md). The source-informed assay is implemented as an offline research tool; the active model is unchanged.
 
