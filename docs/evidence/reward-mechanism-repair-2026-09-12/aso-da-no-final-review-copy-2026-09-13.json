@@ -1,0 +1,27 @@
+{
+  "copied_at": "2026-09-13T14:22:17.099369+00:00",
+  "scope": "Final three independent-agent narrative and checkpoint reviews; originals retained.",
+  "files": [
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-da-no-final-reading-review-delivered-arrivals-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-da-no-final-reading-review-delivered-arrivals-2026-09-13.json",
+      "bytes": 8430,
+      "sha256": "8a66e379d14aaacdfada86f4f8fcb03bb6494f1d8de9c9c55ba61b0b3340b503",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-da-no-final-reading-claim-review-dopamine-sources-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-da-no-final-reading-claim-review-dopamine-sources-2026-09-13.json",
+      "bytes": 6509,
+      "sha256": "39bcf0a3b2361103e9f7a6dd08c67881d53623120fbcfbf77e416609945992b1",
+      "original_retained": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-da-no-final-reading-ui-review-evidence-ui-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-da-no-final-reading-ui-review-evidence-ui-2026-09-13.json",
+      "bytes": 5552,
+      "sha256": "9e3f4ce6efd9f43a51879602a98d29693036fc339f61844bae3d57f8ec46e7f5",
+      "original_retained": true
+    }
+  ]
+}

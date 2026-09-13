@@ -24,6 +24,10 @@ gamma-filtering home. [Exact anatomical support](mbons.md).
 
 ## What the receptor experiments establish
 
+For the home output type, also read the later
+[direct physiology and separate induction/expression account](cyclic-nucleotide-plasticity.md).
+It constrains the transfer of the reporter-based mechanisms discussed here.
+
 Handler and colleagues distinguish DopR1/Gs/cAMP-associated depression from
 DopR2/Gq/ER-calcium-associated potentiation, with order effects downstream
 of similar release-side signals. The principal reporter preparations concern

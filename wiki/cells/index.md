@@ -27,6 +27,7 @@ The atlas contains **5,243 distinct retained cells**: the 4,064 KCs, 686 ALPNs, 
 - [Synapse localization: exact PPL101/MBON11 bodies, released columns and unresolved local exposure](synapse-localization.md).
 - [KC lateral signaling: muscarinic modulation, local calcium and source-model transfer limits](kc-lateral-signaling.md).
 - [Dopamine receptor signaling: named-cell scope, primary reporter data and tested source-model limits](dopamine-receptor-signaling.md).
+- [Cyclic-nucleotide plasticity at MBON11 inputs: downstream KC activity, subtype differences and separate induction/expression states](cyclic-nucleotide-plasticity.md).
 
 The gamma policy is now implemented and was used in the corrected raw and bridge
 diagnostics: all 4,184 home edges and 3,239 gamma away edges update; 1,443 other

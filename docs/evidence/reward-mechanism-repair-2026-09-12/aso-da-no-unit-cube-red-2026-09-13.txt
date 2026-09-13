@@ -1,0 +1,280 @@
+FFFFFF..............................                                     [100%]
+=================================== FAILURES ===================================
+_ test_unit_cube_roundoff_uses_complement_without_projection[mode0-initial0-scaled_rates0] _
+
+api = <module 'aso_da_no' from '/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/aso_da_no.py'>
+scaled_rates = (1e-12, 40), initial = (1.0, np.float64(0.9999999999999999))
+mode = (True, True)
+
+    @pytest.mark.parametrize("scaled_rates", [(1e-12, 40), (.01, 10), (.01, 30), (.49, 10), (.49, 40), (.5, 40)])
+    @pytest.mark.parametrize("initial", [(1., np.nextafter(1., 0.)), (np.nextafter(1., 0.), 1.), (1., 1.)])
+    @pytest.mark.parametrize("mode", [(True, True), (False, True)])
+    def test_unit_cube_roundoff_uses_complement_without_projection(api, scaled_rates, initial, mode):
+        rate, expression = scaled_rates
+        params = api.Parameters(A_D=rate, A_N=rate, B_D=rate, B_N=rate, tau_D=1 / expression, tau_N=1 / expression)
+        x, X = initial
+        state = api.SourceState(x, x, X, X)
+>       actual = api.advance(state, 1., kc_active=mode[0], dan_active=mode[1], params=params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_aso_da_no.py:111: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/aso_da_no.py:129: in advance
+    return SourceState(d, n, D, N)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+<string>:7: in __init__
+    ???
+output/collaboration/reward-mechanism-repair/aso_da_no.py:35: in __post_init__
+    object.__setattr__(self, name, _number(getattr(self, name), name, upper=1.0))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+value = 1.0000000000000002, name = 'D', lower = 0.0, upper = 1.0
+positive = False
+
+    def _number(value, name, *, lower=0.0, upper=math.inf, positive=False):
+        try:
+            if isinstance(value, bool) or not isinstance(value, Real):
+                raise ValueError
+            result = float(value)
+            if not math.isfinite(result) or result < lower or result > upper or (positive and result == 0):
+                raise ValueError
+            return result
+        except (ValueError, OverflowError, TypeError):
+>           raise ValueError(f"{name} is outside its finite numeric domain.") from None
+E           ValueError: D is outside its finite numeric domain.
+
+output/collaboration/reward-mechanism-repair/aso_da_no.py:23: ValueError
+_ test_unit_cube_roundoff_uses_complement_without_projection[mode0-initial0-scaled_rates1] _
+
+api = <module 'aso_da_no' from '/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/aso_da_no.py'>
+scaled_rates = (0.01, 10), initial = (1.0, np.float64(0.9999999999999999))
+mode = (True, True)
+
+    @pytest.mark.parametrize("scaled_rates", [(1e-12, 40), (.01, 10), (.01, 30), (.49, 10), (.49, 40), (.5, 40)])
+    @pytest.mark.parametrize("initial", [(1., np.nextafter(1., 0.)), (np.nextafter(1., 0.), 1.), (1., 1.)])
+    @pytest.mark.parametrize("mode", [(True, True), (False, True)])
+    def test_unit_cube_roundoff_uses_complement_without_projection(api, scaled_rates, initial, mode):
+        rate, expression = scaled_rates
+        params = api.Parameters(A_D=rate, A_N=rate, B_D=rate, B_N=rate, tau_D=1 / expression, tau_N=1 / expression)
+        x, X = initial
+        state = api.SourceState(x, x, X, X)
+>       actual = api.advance(state, 1., kc_active=mode[0], dan_active=mode[1], params=params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_aso_da_no.py:111: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/aso_da_no.py:129: in advance
+    return SourceState(d, n, D, N)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+<string>:7: in __init__
+    ???
+output/collaboration/reward-mechanism-repair/aso_da_no.py:35: in __post_init__
+    object.__setattr__(self, name, _number(getattr(self, name), name, upper=1.0))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+value = 1.0000000000000002, name = 'D', lower = 0.0, upper = 1.0
+positive = False
+
+    def _number(value, name, *, lower=0.0, upper=math.inf, positive=False):
+        try:
+            if isinstance(value, bool) or not isinstance(value, Real):
+                raise ValueError
+            result = float(value)
+            if not math.isfinite(result) or result < lower or result > upper or (positive and result == 0):
+                raise ValueError
+            return result
+        except (ValueError, OverflowError, TypeError):
+>           raise ValueError(f"{name} is outside its finite numeric domain.") from None
+E           ValueError: D is outside its finite numeric domain.
+
+output/collaboration/reward-mechanism-repair/aso_da_no.py:23: ValueError
+_ test_unit_cube_roundoff_uses_complement_without_projection[mode0-initial0-scaled_rates2] _
+
+api = <module 'aso_da_no' from '/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/aso_da_no.py'>
+scaled_rates = (0.01, 30), initial = (1.0, np.float64(0.9999999999999999))
+mode = (True, True)
+
+    @pytest.mark.parametrize("scaled_rates", [(1e-12, 40), (.01, 10), (.01, 30), (.49, 10), (.49, 40), (.5, 40)])
+    @pytest.mark.parametrize("initial", [(1., np.nextafter(1., 0.)), (np.nextafter(1., 0.), 1.), (1., 1.)])
+    @pytest.mark.parametrize("mode", [(True, True), (False, True)])
+    def test_unit_cube_roundoff_uses_complement_without_projection(api, scaled_rates, initial, mode):
+        rate, expression = scaled_rates
+        params = api.Parameters(A_D=rate, A_N=rate, B_D=rate, B_N=rate, tau_D=1 / expression, tau_N=1 / expression)
+        x, X = initial
+        state = api.SourceState(x, x, X, X)
+>       actual = api.advance(state, 1., kc_active=mode[0], dan_active=mode[1], params=params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_aso_da_no.py:111: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/aso_da_no.py:129: in advance
+    return SourceState(d, n, D, N)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+<string>:7: in __init__
+    ???
+output/collaboration/reward-mechanism-repair/aso_da_no.py:35: in __post_init__
+    object.__setattr__(self, name, _number(getattr(self, name), name, upper=1.0))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+value = 1.0000000000000002, name = 'D', lower = 0.0, upper = 1.0
+positive = False
+
+    def _number(value, name, *, lower=0.0, upper=math.inf, positive=False):
+        try:
+            if isinstance(value, bool) or not isinstance(value, Real):
+                raise ValueError
+            result = float(value)
+            if not math.isfinite(result) or result < lower or result > upper or (positive and result == 0):
+                raise ValueError
+            return result
+        except (ValueError, OverflowError, TypeError):
+>           raise ValueError(f"{name} is outside its finite numeric domain.") from None
+E           ValueError: D is outside its finite numeric domain.
+
+output/collaboration/reward-mechanism-repair/aso_da_no.py:23: ValueError
+_ test_unit_cube_roundoff_uses_complement_without_projection[mode0-initial0-scaled_rates3] _
+
+api = <module 'aso_da_no' from '/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/aso_da_no.py'>
+scaled_rates = (0.49, 10), initial = (1.0, np.float64(0.9999999999999999))
+mode = (True, True)
+
+    @pytest.mark.parametrize("scaled_rates", [(1e-12, 40), (.01, 10), (.01, 30), (.49, 10), (.49, 40), (.5, 40)])
+    @pytest.mark.parametrize("initial", [(1., np.nextafter(1., 0.)), (np.nextafter(1., 0.), 1.), (1., 1.)])
+    @pytest.mark.parametrize("mode", [(True, True), (False, True)])
+    def test_unit_cube_roundoff_uses_complement_without_projection(api, scaled_rates, initial, mode):
+        rate, expression = scaled_rates
+        params = api.Parameters(A_D=rate, A_N=rate, B_D=rate, B_N=rate, tau_D=1 / expression, tau_N=1 / expression)
+        x, X = initial
+        state = api.SourceState(x, x, X, X)
+>       actual = api.advance(state, 1., kc_active=mode[0], dan_active=mode[1], params=params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_aso_da_no.py:111: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/aso_da_no.py:129: in advance
+    return SourceState(d, n, D, N)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+<string>:7: in __init__
+    ???
+output/collaboration/reward-mechanism-repair/aso_da_no.py:35: in __post_init__
+    object.__setattr__(self, name, _number(getattr(self, name), name, upper=1.0))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+value = 1.0000000000000002, name = 'D', lower = 0.0, upper = 1.0
+positive = False
+
+    def _number(value, name, *, lower=0.0, upper=math.inf, positive=False):
+        try:
+            if isinstance(value, bool) or not isinstance(value, Real):
+                raise ValueError
+            result = float(value)
+            if not math.isfinite(result) or result < lower or result > upper or (positive and result == 0):
+                raise ValueError
+            return result
+        except (ValueError, OverflowError, TypeError):
+>           raise ValueError(f"{name} is outside its finite numeric domain.") from None
+E           ValueError: D is outside its finite numeric domain.
+
+output/collaboration/reward-mechanism-repair/aso_da_no.py:23: ValueError
+_ test_unit_cube_roundoff_uses_complement_without_projection[mode0-initial0-scaled_rates4] _
+
+api = <module 'aso_da_no' from '/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/aso_da_no.py'>
+scaled_rates = (0.49, 40), initial = (1.0, np.float64(0.9999999999999999))
+mode = (True, True)
+
+    @pytest.mark.parametrize("scaled_rates", [(1e-12, 40), (.01, 10), (.01, 30), (.49, 10), (.49, 40), (.5, 40)])
+    @pytest.mark.parametrize("initial", [(1., np.nextafter(1., 0.)), (np.nextafter(1., 0.), 1.), (1., 1.)])
+    @pytest.mark.parametrize("mode", [(True, True), (False, True)])
+    def test_unit_cube_roundoff_uses_complement_without_projection(api, scaled_rates, initial, mode):
+        rate, expression = scaled_rates
+        params = api.Parameters(A_D=rate, A_N=rate, B_D=rate, B_N=rate, tau_D=1 / expression, tau_N=1 / expression)
+        x, X = initial
+        state = api.SourceState(x, x, X, X)
+>       actual = api.advance(state, 1., kc_active=mode[0], dan_active=mode[1], params=params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_aso_da_no.py:111: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/aso_da_no.py:129: in advance
+    return SourceState(d, n, D, N)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+<string>:7: in __init__
+    ???
+output/collaboration/reward-mechanism-repair/aso_da_no.py:35: in __post_init__
+    object.__setattr__(self, name, _number(getattr(self, name), name, upper=1.0))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+value = 1.0000000000000002, name = 'D', lower = 0.0, upper = 1.0
+positive = False
+
+    def _number(value, name, *, lower=0.0, upper=math.inf, positive=False):
+        try:
+            if isinstance(value, bool) or not isinstance(value, Real):
+                raise ValueError
+            result = float(value)
+            if not math.isfinite(result) or result < lower or result > upper or (positive and result == 0):
+                raise ValueError
+            return result
+        except (ValueError, OverflowError, TypeError):
+>           raise ValueError(f"{name} is outside its finite numeric domain.") from None
+E           ValueError: D is outside its finite numeric domain.
+
+output/collaboration/reward-mechanism-repair/aso_da_no.py:23: ValueError
+_ test_unit_cube_roundoff_uses_complement_without_projection[mode0-initial0-scaled_rates5] _
+
+api = <module 'aso_da_no' from '/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/aso_da_no.py'>
+scaled_rates = (0.5, 40), initial = (1.0, np.float64(0.9999999999999999))
+mode = (True, True)
+
+    @pytest.mark.parametrize("scaled_rates", [(1e-12, 40), (.01, 10), (.01, 30), (.49, 10), (.49, 40), (.5, 40)])
+    @pytest.mark.parametrize("initial", [(1., np.nextafter(1., 0.)), (np.nextafter(1., 0.), 1.), (1., 1.)])
+    @pytest.mark.parametrize("mode", [(True, True), (False, True)])
+    def test_unit_cube_roundoff_uses_complement_without_projection(api, scaled_rates, initial, mode):
+        rate, expression = scaled_rates
+        params = api.Parameters(A_D=rate, A_N=rate, B_D=rate, B_N=rate, tau_D=1 / expression, tau_N=1 / expression)
+        x, X = initial
+        state = api.SourceState(x, x, X, X)
+>       actual = api.advance(state, 1., kc_active=mode[0], dan_active=mode[1], params=params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_aso_da_no.py:111: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/aso_da_no.py:129: in advance
+    return SourceState(d, n, D, N)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+<string>:7: in __init__
+    ???
+output/collaboration/reward-mechanism-repair/aso_da_no.py:35: in __post_init__
+    object.__setattr__(self, name, _number(getattr(self, name), name, upper=1.0))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+value = 1.0000000000000002, name = 'D', lower = 0.0, upper = 1.0
+positive = False
+
+    def _number(value, name, *, lower=0.0, upper=math.inf, positive=False):
+        try:
+            if isinstance(value, bool) or not isinstance(value, Real):
+                raise ValueError
+            result = float(value)
+            if not math.isfinite(result) or result < lower or result > upper or (positive and result == 0):
+                raise ValueError
+            return result
+        except (ValueError, OverflowError, TypeError):
+>           raise ValueError(f"{name} is outside its finite numeric domain.") from None
+E           ValueError: D is outside its finite numeric domain.
+
+output/collaboration/reward-mechanism-repair/aso_da_no.py:23: ValueError
+=========================== short test summary info ============================
+FAILED output/collaboration/reward-mechanism-repair/test_aso_da_no.py::test_unit_cube_roundoff_uses_complement_without_projection[mode0-initial0-scaled_rates0]
+FAILED output/collaboration/reward-mechanism-repair/test_aso_da_no.py::test_unit_cube_roundoff_uses_complement_without_projection[mode0-initial0-scaled_rates1]
+FAILED output/collaboration/reward-mechanism-repair/test_aso_da_no.py::test_unit_cube_roundoff_uses_complement_without_projection[mode0-initial0-scaled_rates2]
+FAILED output/collaboration/reward-mechanism-repair/test_aso_da_no.py::test_unit_cube_roundoff_uses_complement_without_projection[mode0-initial0-scaled_rates3]
+FAILED output/collaboration/reward-mechanism-repair/test_aso_da_no.py::test_unit_cube_roundoff_uses_complement_without_projection[mode0-initial0-scaled_rates4]
+FAILED output/collaboration/reward-mechanism-repair/test_aso_da_no.py::test_unit_cube_roundoff_uses_complement_without_projection[mode0-initial0-scaled_rates5]
+6 failed, 30 passed, 161 deselected in 0.34s

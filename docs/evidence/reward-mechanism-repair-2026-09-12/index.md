@@ -2,6 +2,15 @@
 
 **Status: scientific HOLD; the rate bridge still fails the second panel's untaught-home guard.** Both the corrected raw-event rule and the subsequent rate bridge pass the original panel but fail the previously frozen second panel. The rate bridge reduces the measured drift without satisfying the unchanged guard. Numerical implementation tests pass; cue-specific acquisition, reversal and improved sports prediction remain unestablished. Conditioning has not run.
 
+The [separate DA/NO state component](aso-da-no-component-checkpoint-2026-09-13.md)
+now passes 267 canonical tests and independent numerical review, following
+new [home-output physiology](../../../wiki/cells/cyclic-nucleotide-plasticity.md)
+and a published four-state source model. The source rates and expression
+times are unchanged. Its preparation exposed and corrected both a test-oracle
+error and a near-boundary rounding bug, with failed versions retained.
+This is a standalone equation reimplementation; source-protocol, MaleCNS
+qualification, acquisition and reversal were not run in this phase.
+
 The [DARELA primary-source contract](darela-primary-source-contract-dopamine-sources-2026-09-13.md),
 [independent finite-domain mathematics](darela-event-transfer-math-contract-delivered-arrivals-2026-09-13.md)
 and [integration boundary](dan-release-bridge-compatibility-evidence-ui-2026-09-13.md)

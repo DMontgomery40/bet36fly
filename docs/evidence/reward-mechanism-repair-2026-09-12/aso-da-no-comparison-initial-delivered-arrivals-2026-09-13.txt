@@ -1,0 +1,11 @@
+........................................                                 [100%]
+=============================== warnings summary ===============================
+.venv/lib/python3.12/site-packages/_pytest/python.py:124
+  /Users/davidmontgomery/Documents/ChatGPT/bet36fly/.venv/lib/python3.12/site-packages/_pytest/python.py:124: PytestRemovedIn10Warning: Passing a non-Collection iterable to parametrize is deprecated.
+  Test: output/collaboration/reward-mechanism-repair/test_aso_da_no_writer_comparison.py::test_source_modes_nonzero_and_unit_cube_boundaries, argvalues type: product
+  Please convert to a list or tuple.
+  See https://docs.pytest.org/en/stable/deprecations.html#parametrize-iterators
+    metafunc.parametrize(*marker.args, **marker.kwargs, _param_mark=marker)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+40 passed, 1 warning in 0.23s

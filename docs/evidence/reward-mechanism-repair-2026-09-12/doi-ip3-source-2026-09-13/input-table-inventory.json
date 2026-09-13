@@ -1,0 +1,53 @@
+[
+  {
+    "name": "/kinetics/mGluR/100Hz5Glu",
+    "header": [
+      "loadtab",
+      "/kinetics/mGluR/100Hz5Glu",
+      "table",
+      "0",
+      "10000",
+      "0",
+      "1"
+    ],
+    "values": 10001,
+    "nonzero_first": 5000,
+    "nonzero_last": 5683,
+    "max": 289.0,
+    "min": 0.0
+  },
+  {
+    "name": "/kinetics/Influx/CF",
+    "header": [
+      "loadtab",
+      "/kinetics/Influx/CF",
+      "table",
+      "0",
+      "10000",
+      "0",
+      "1"
+    ],
+    "values": 10001,
+    "nonzero_first": 0,
+    "nonzero_last": 32,
+    "max": 10.0,
+    "min": 0.0
+  },
+  {
+    "name": "/kinetics/Influx/100Hz5PFCa",
+    "header": [
+      "loadtab",
+      "/kinetics/Influx/100Hz5PFCa",
+      "table",
+      "0",
+      "10000",
+      "0",
+      "1"
+    ],
+    "values": 10001,
+    "nonzero_first": 4998,
+    "nonzero_last": 5411,
+    "max": 10.0,
+    "min": 0.0
+  }
+]

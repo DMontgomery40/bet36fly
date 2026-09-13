@@ -1,0 +1,35 @@
+{
+  "files": [
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-da-no-component-contract-2026-09-13.md",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-da-no-component-contract-2026-09-13.md",
+      "bytes": 4535,
+      "sha256": "96116a7d1192634c89868192b17197dbfb92766a5ab1e45a8ad085d739f65a9a"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/intracellular-primary-2026-09-13/PMC6948953.xml",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/intracellular-primary-2026-09-13/PMC6948953.xml",
+      "bytes": 362167,
+      "sha256": "7d99cb88bbfa1af65c13b82d4d5f4d2c06b212fda1f01f73d15b41db0551049a"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/intracellular-primary-2026-09-13/PMC6948953-retrieval.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/intracellular-primary-2026-09-13/PMC6948953-retrieval.json",
+      "bytes": 341,
+      "sha256": "c338a9717aac5baf1ef4a55c5c55045dce1e8a486b207b4d170018efb5349ed4"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/intracellular-primary-2026-09-13/PMC7581427.xml",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/intracellular-primary-2026-09-13/PMC7581427.xml",
+      "bytes": 8118,
+      "sha256": "95e5319db520c3eade785941412a461ac3f684e9e5dc03e700e3120a2fa994e4"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/intracellular-primary-2026-09-13/PMC7581427-retrieval.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/intracellular-primary-2026-09-13/PMC7581427-retrieval.json",
+      "bytes": 339,
+      "sha256": "b37bf4a3dfe8a2b39d0bba039ae55b54d85667d83fa68fbc1213493b0cbaffc3"
+    }
+  ],
+  "mode": "copy; originals retained"
+}

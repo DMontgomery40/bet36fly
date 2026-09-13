@@ -1,0 +1,18 @@
+E
+==================================== ERRORS ====================================
+_ ERROR at setup of test_all_modes_match_independent_affine_matrix[0-initial0-mode0] _
+
+    @pytest.fixture
+    def api():
+>       assert importlib.util.find_spec("aso_da_no") is not None, "source component is not implemented"
+E       AssertionError: source component is not implemented
+E       assert None is not None
+E        +  where None = <function find_spec at 0x1001bc5e0>('aso_da_no')
+E        +    where <function find_spec at 0x1001bc5e0> = <module 'importlib.util' (frozen)>.find_spec
+E        +      where <module 'importlib.util' (frozen)> = importlib.util
+
+output/collaboration/reward-mechanism-repair/test_aso_da_no.py:17: AssertionError
+=========================== short test summary info ============================
+ERROR output/collaboration/reward-mechanism-repair/test_aso_da_no.py::test_all_modes_match_independent_affine_matrix[0-initial0-mode0]
+!!!!!!!!!!!!!!!!!!!!!!!!!! stopping after 1 failures !!!!!!!!!!!!!!!!!!!!!!!!!!!
+1 error in 0.16s

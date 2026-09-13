@@ -1,0 +1,227 @@
+{
+  "files": [
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-da-no-comparison-initial-delivered-arrivals-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-da-no-comparison-initial-delivered-arrivals-2026-09-13.txt",
+      "bytes": 880,
+      "sha256": "8500ab192edf7fb4a419783ee11c4e6b9e474b02aa31590a812643f1eb5947f7"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-da-no-component-contract-2026-09-13.md",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-da-no-component-contract-2026-09-13.md",
+      "bytes": 4535,
+      "sha256": "96116a7d1192634c89868192b17197dbfb92766a5ab1e45a8ad085d739f65a9a"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-da-no-component-verification-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-da-no-component-verification-2026-09-13.txt",
+      "bytes": 279,
+      "sha256": "79769c843a6602c14d3d2ce2555f4e75bcc480da1309c4740811b91d309020aa"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-da-no-independent-math-delivered-arrivals-2026-09-13.md",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-da-no-independent-math-delivered-arrivals-2026-09-13.md",
+      "bytes": 5592,
+      "sha256": "52be8fbab94fd22ba735c85c4978768ad49f60e6f24376916af18fde2420655d"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-da-no-make-verify-2026-09-13.log",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-da-no-make-verify-2026-09-13.log",
+      "bytes": 6297,
+      "sha256": "752ae2d65a396f85dab70190890418df8dc2b3489aedc7aaf159bef9e1b0284d"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-da-no-near-resonance-oracle-diagnosis-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-da-no-near-resonance-oracle-diagnosis-2026-09-13.json",
+      "bytes": 1328,
+      "sha256": "1bea0273906a73e3e71e9bd9c2241f1634c48d70f03661f813d4b363ddc4905d"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-da-no-reference-final-delivered-arrivals-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-da-no-reference-final-delivered-arrivals-2026-09-13.txt",
+      "bytes": 99,
+      "sha256": "05b891ad8908b64c84757377b23c982de795317d5b19c0e856ed8aed37e3c8bc"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-da-no-reference-green-delivered-arrivals-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-da-no-reference-green-delivered-arrivals-2026-09-13.txt",
+      "bytes": 99,
+      "sha256": "145861f808fa41f0b4a984f48e4ef2e9f4bdf3e0ffe99d1a36a8c3a1969fda64"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-da-no-reference-reading-delivered-arrivals-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-da-no-reference-reading-delivered-arrivals-2026-09-13.json",
+      "bytes": 51551,
+      "sha256": "4a141e2268f0c3449feddc2438d9a4f8acc15fdead4094b88ba7bf7418dc29d7"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-da-no-reference-red-delivered-arrivals-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-da-no-reference-red-delivered-arrivals-2026-09-13.txt",
+      "bytes": 1157,
+      "sha256": "6e7cddedbe22dfe2f970447c6574b9d2c5277362c6d93b2bb17ceff2b5c0bc9e"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-da-no-writer-first-green-attempt-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-da-no-writer-first-green-attempt-2026-09-13.txt",
+      "bytes": 3615,
+      "sha256": "2913f66eb625035e5b19cf9b51773b96c9764ee1a35e87f46c74e65d021d3ac6"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-da-no-writer-green-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-da-no-writer-green-2026-09-13.txt",
+      "bytes": 260,
+      "sha256": "bc82719075cab7de27b8a6c9b9119b693aec20e2a59a27343fc4068434496750"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso-da-no-writer-red-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-da-no-writer-red-2026-09-13.txt",
+      "bytes": 1050,
+      "sha256": "6d8453fa4d49b4081b424963a14b0e7964b5985846e0438829ab539829848f69"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso_da_no.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso_da_no.py",
+      "bytes": 5871,
+      "sha256": "2886c006dc1262d6d40cebdca3d79f3e1373674ccf71cc0f33e94bb215ba7969"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/aso_da_no_reference.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso_da_no_reference.py",
+      "bytes": 4050,
+      "sha256": "9b162ab64f14ace56d10bbbb123219c7683a62c932e89996ca6e1018989d56d4"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/doi-ip3-source-2026-09-13/SuppTable1.html",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/doi-ip3-source-2026-09-13/SuppTable1.html",
+      "bytes": 194206,
+      "sha256": "9c97aa10ad4d019905a8bb1a9eec989271e86a7e51d88ad2eb0489a6e6cb91d2"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/doi-ip3-source-2026-09-13/SuppTable3.html",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/doi-ip3-source-2026-09-13/SuppTable3.html",
+      "bytes": 19137,
+      "sha256": "8ad478721afe7f3bfc6a28614467333e611248ee06ef14b9c2af420fe0ccd74f"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/doi-ip3-source-2026-09-13/doiJNS_Supplement.pdf",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/doi-ip3-source-2026-09-13/doiJNS_Supplement.pdf",
+      "bytes": 466607,
+      "sha256": "4dfb1fc93c7bd01e14fadf7e3a5c962b80e724d343c1c7fd764ce135c7edd2c6"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/doi-ip3-source-2026-09-13/doiJNSdemo/DoiCaModel.g",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/doi-ip3-source-2026-09-13/doiJNSdemo/DoiCaModel.g",
+      "bytes": 156383,
+      "sha256": "ba7009cf0fd6b4584ad552407d2d9cc96d8e2d773802dfa5015ce7e48eb2ea49"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/doi-ip3-source-2026-09-13/doiJNSdemo/fig3.g",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/doi-ip3-source-2026-09-13/doiJNSdemo/fig3.g",
+      "bytes": 2339,
+      "sha256": "8434f99207b302e18b14bce281fcd22f6853640fbee0164d7d46b257413882f2"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/doi-ip3-source-2026-09-13/doiJNSdemo/paramlist.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/doi-ip3-source-2026-09-13/doiJNSdemo/paramlist.txt",
+      "bytes": 2087,
+      "sha256": "78962de2f0a3c740fa69e6e52871ad2bdefa446ecc56b3b90f5f82c0395eb28a"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/doi-ip3-source-2026-09-13/doiJNSdemo/readme.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/doi-ip3-source-2026-09-13/doiJNSdemo/readme.txt",
+      "bytes": 2041,
+      "sha256": "d6d61563a7be5010c3d187e416507921c1781adc10edcbdb50fbe022021eac29"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/doi-ip3-source-2026-09-13/input-table-inventory.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/doi-ip3-source-2026-09-13/input-table-inventory.json",
+      "bytes": 870,
+      "sha256": "26fcbaace346acdcdb1d0742a108223fc9bfec4ac818e929f364ed2ac54157a6"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/doi-ip3-source-2026-09-13/inspected-core-excluding-tabulated-waveform-values.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/doi-ip3-source-2026-09-13/inspected-core-excluding-tabulated-waveform-values.txt",
+      "bytes": 82731,
+      "sha256": "323a74179553d44ace49185da00a83c05844cf3bdb33936c72e1c607c4da23b0"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/doi-ip3-source-2026-09-13/retrieval-public-network.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/doi-ip3-source-2026-09-13/retrieval-public-network.json",
+      "bytes": 9807,
+      "sha256": "6e2adf7062650c9ebbfb079d020dc6fcd40717eab450b49d4cd3e2e40a876e79"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/doi-ip3-source-2026-09-13/retrieval.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/doi-ip3-source-2026-09-13/retrieval.json",
+      "bytes": 2595,
+      "sha256": "cd1cc6daee165b5634c0b91bac28ae1b6721698dabc41b20329c6a9657c34d7b"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/doi-ip3-source-2026-09-13/yamada-retrieval.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/doi-ip3-source-2026-09-13/yamada-retrieval.json",
+      "bytes": 158,
+      "sha256": "dcfe679108fad9abb083ea9c4b689ced11a69811da1d5737ad75dae48547b950"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/intracellular-integration-boundary-evidence-ui-2026-09-13.md",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/intracellular-integration-boundary-evidence-ui-2026-09-13.md",
+      "bytes": 11616,
+      "sha256": "adac747b731ac4d795a8b436f894eebeb76fb7de41980bdcdb489dbbfe1e3016"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/intracellular-integration-boundary-reading-evidence-ui-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/intracellular-integration-boundary-reading-evidence-ui-2026-09-13.json",
+      "bytes": 46629,
+      "sha256": "07eec8ae3e1ca627316d3d33d72d224eadc41cde877bba0c7afadc10350847fa"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/intracellular-source-selection-dopamine-sources-2026-09-13.md",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/intracellular-source-selection-dopamine-sources-2026-09-13.md",
+      "bytes": 10144,
+      "sha256": "560b69d7660d26c5494b5f2c69d665002d94f82be601d0604e0e87c036cbcc84"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/qualification-meaning-delivered-arrivals-2026-09-13.md",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/qualification-meaning-delivered-arrivals-2026-09-13.md",
+      "bytes": 13328,
+      "sha256": "70f419fc73c0022321278eb8a61e258cb44c395868334688a51945c6ed412421"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/qualification-meaning-reading-delivered-arrivals-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/qualification-meaning-reading-delivered-arrivals-2026-09-13.json",
+      "bytes": 6063,
+      "sha256": "ab9c19ad979c2b4f4bd1e662c061872c4394bcc728e63defa624db8c2a161cf7"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/qualification-meaning-tests-delivered-arrivals-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/qualification-meaning-tests-delivered-arrivals-2026-09-13.txt",
+      "bytes": 99,
+      "sha256": "0fbdf01a116f66d8ada23918d933c1d05d11793ef601656f727dc26f4df46540"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/test_aso_da_no.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/test_aso_da_no.py",
+      "bytes": 9862,
+      "sha256": "211997c55c167f0b5e4ad5dabf5bc1508bc0e28b1c78f6d8d023fbde891e211a"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/test_aso_da_no_reference.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/test_aso_da_no_reference.py",
+      "bytes": 4495,
+      "sha256": "5122a4ed0c2e2cc97ee135efdc61299a907f9176123b485f50cbc97b4c28b273"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/test_aso_da_no_writer_comparison.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/test_aso_da_no_writer_comparison.py",
+      "bytes": 4086,
+      "sha256": "38a040c0be7c8fab61ff0241a9a61dd67e407bd90a74b1c553f9de9f8b49c953"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/test_qualification_meaning_delivered_arrivals.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/test_qualification_meaning_delivered_arrivals.py",
+      "bytes": 3721,
+      "sha256": "fc81e0ce4feaaaf0f74f94442acc2e71d5a0047dc2cac6cde2950aa87cd9dced"
+    }
+  ],
+  "mode": "copy; original files retained"
+}

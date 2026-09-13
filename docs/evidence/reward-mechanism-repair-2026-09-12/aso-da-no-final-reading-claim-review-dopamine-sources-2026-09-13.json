@@ -1,0 +1,130 @@
+{
+  "schema": 1,
+  "agent": "dopamine_sources",
+  "at_utc": "2026-09-13T14:21:27.315692+00:00",
+  "status": "final_scientific_claim_review_pass",
+  "prior_complete_personal_chain": {
+    "path": "output/collaboration/reward-mechanism-repair/intracellular-source-selection-reading-dopamine-sources-2026-09-13.json",
+    "bytes": 20599,
+    "sha256": "3291fa6a1d7fe7e51522c1a0b50ad9c396c64c7e68b255e148518b7e5934af3e"
+  },
+  "reading": {
+    "prior_count": 212,
+    "current_count": 213,
+    "unchanged_personally_read": 208,
+    "changed_pages": 4,
+    "new_full_page": 1,
+    "personally_read_final_pages_or_deltas": [
+      {
+        "path": "docs/REWARD_REPAIR_HANDOFF.md",
+        "bytes": 70395,
+        "sha256": "b0b5f7df2c3f847452544a986376312787ae3b3af13130d25809c04a11cec8b6"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-da-no-component-checkpoint-2026-09-13.md",
+        "bytes": 5621,
+        "sha256": "e4a9426ef232710177b9660f34e516ca10f1ea405641303119a4e1d5a8794190"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/index.md",
+        "bytes": 26436,
+        "sha256": "e2a0c6c18e3d981217aa34a53ce10145db1ee4a466f1dfbaf3a0287f270c44ec"
+      },
+      {
+        "path": "wiki/cells/cyclic-nucleotide-plasticity.md",
+        "bytes": 4527,
+        "sha256": "4c8a4001dcf459ed5c527e0ba624db8039af6e3bb09b18aeaf7f1d0ec0f27565"
+      },
+      {
+        "path": "wiki/reassessment.md",
+        "bytes": 16595,
+        "sha256": "ed42fb024ad0638b4a98e51a3a024c64d57c0d2ee9bd1e55e0d875e8c5779919"
+      }
+    ],
+    "current_inventory_sha256": "e232563d50274f72cba0b811d235f38d72cf0ecc4f4623c44976a85238ccf36a",
+    "method": "Reconstructed prior full inventory and matched its recorded digest; rehashed every current narrative including root README and AGENTS. Personally read the complete new checkpoint, complete current cyclic-nucleotide page, and all actual changed narrative text in handoff, evidence index and reassessment against the retained full-page chain. No unread deltas or manifest-only reading credit.",
+    "unread_deltas": []
+  },
+  "final_released_source_bindings_checked": [
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/aso_da_no.py",
+      "bytes": 6257,
+      "sha256": "d43351281854ff2700c10b573a8c22a725f9fee226d083c6363e6436e1285111"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/test_aso_da_no.py",
+      "bytes": 10797,
+      "sha256": "4bde1d8cb777c0521794b57c7c0266d468e8f810b9f88f94606ca4f8233c5524"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/aso_da_no_reference.py",
+      "bytes": 4050,
+      "sha256": "9b162ab64f14ace56d10bbbb123219c7683a62c932e89996ca6e1018989d56d4"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/test_aso_da_no_reference.py",
+      "bytes": 4495,
+      "sha256": "5122a4ed0c2e2cc97ee135efdc61299a907f9176123b485f50cbc97b4c28b273"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/test_aso_da_no_writer_comparison.py",
+      "bytes": 5230,
+      "sha256": "379484b23075ed635f1656e79ce055a7d99dfee2adf05cce559c720fc027fa3b"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-da-no-component-contract-2026-09-13.md",
+      "bytes": 4535,
+      "sha256": "96116a7d1192634c89868192b17197dbfb92766a5ab1e45a8ad085d739f65a9a"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-da-no-independent-math-delivered-arrivals-2026-09-13.md",
+      "bytes": 5592,
+      "sha256": "52be8fbab94fd22ba735c85c4978768ad49f60e6f24376916af18fde2420655d"
+    }
+  ],
+  "saved_evidence_inspected": [
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-da-no-comparison-review-delivered-arrivals-2026-09-13.json",
+      "bytes": 55650,
+      "sha256": "eea82a0b15c1a7532e8fe7aea25b863799a42295d1742107f4b858a3a7499892"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-da-no-near-resonance-oracle-diagnosis-2026-09-13.json",
+      "bytes": 1328,
+      "sha256": "1bea0273906a73e3e71e9bd9c2241f1634c48d70f03661f813d4b363ddc4905d"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-da-no-canonical-final-tests-2026-09-13.txt",
+      "bytes": 340,
+      "sha256": "2c9b3f3dfde6ba3ac15f3342f49eefc38a7b0b244e7e6a18ec47729ad191b018"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-da-no-make-verify-2026-09-13.log",
+      "bytes": 6297,
+      "sha256": "752ae2d65a396f85dab70190890418df8dc2b3489aedc7aaf159bef9e1b0284d"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-da-no-protected-2026-09-13.json",
+      "bytes": 252,
+      "sha256": "46bb389239bb3a214dc4c589b742b79cc8ba9364728de91ce48d6b7d488afe64"
+    }
+  ],
+  "claim_checks": [
+    "Final helper delta changes near-one floating-point evaluation to the complementary convex expression; source topology/parameters, branch-null meaning, finite/quiet semantics and tolerances are unchanged. It does not clip state.",
+    "267 focused tests match197 writer+32 frozen reference+9 independent comparison+29 guard-interpretation cases. Saved standard gate supports4055 Python,103 frontend,Ruff/build; two warnings are explicit. This reviewer did not rerun them.",
+    "760-file protection receipt has no changes; checkpoint correctly scopes that claim to the recorded baseline, not a new total inventory.",
+    "Aso four-state component is an equation reimplementation of dimensionless effects, not source-author code execution or calibrated concentrations. No source-protocol calculation or MaleCNS experiment is claimed.",
+    "Yamada home-type physiology remains gamma/alpha-beta and minute-scale; no uniform subtype kinetics, home gamma filter or PAM12 nitric-oxide assignment follows.",
+    "Finite source-protocol calculation is a next bounded step, followed by independently specified spike-to-state, persistence, compartment and observation choices. Existing failed qualification and not_run_gate_failed remain unchanged."
+  ],
+  "findings": [],
+  "operations": {
+    "research_queries": 0,
+    "source_or_model_runs": 0,
+    "native_or_history_runs": 0,
+    "fits": 0,
+    "tests_rerun": 0,
+    "production_shared_narrative_edits": 0,
+    "performed": "Read-only narrative/source-delta inspection, machine-receipt arithmetic and exact hash checks; wrote this new output-only receipt."
+  }
+}

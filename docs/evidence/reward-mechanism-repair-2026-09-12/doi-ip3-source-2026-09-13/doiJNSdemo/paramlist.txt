@@ -1,0 +1,105 @@
+#	ID	name
+
+/* tau */
+#1	a1	Glu_bind_mGluR
+#2	a2	Glu_bind_mGluR-Gq
+#3	a3	mGluR_bind_Gq
+#4	a4	mGluR-Glu_bind_Gq
+#5	a6	Basal_ActGq
+#6	a8	Trimerize_Gq
+#7	b1	PLC-PIP2_bind_Ca
+#8	b2	PLC-PIP2-Gq_bind_Ca
+#9	b3	PLC-PIP2_bind_Gq
+#10	b4	PLC-PIP2-Ca_bind_Gq
+#11	b5	PLC-Ca_bind_Gq
+#12	b8	PLC-Ca_bind_PIP2
+#13	b9	PLC-Ca-Gq_bind_PIP2
+#14	c1	IP3K_bind_Ca
+#15	c2	IP3K-2Ca_bind_IP3
+#16	c4	IP5P_bind_IP3
+#17	d1	IP3R_bind_IP3
+#18	d2	IP3R-IP3_bind_Ca
+#19	d3	IP3R_bind_Ca
+#20	d4	IP3R-Ca_bind_Ca
+#21	d5	IP3R-2Ca_bind_Ca
+#22	d6	IP3R-3Ca_bind_Ca
+#23	e1	IP3R_Ca_channel
+#24	e2	SERCA_bind_2Ca
+#25	e4	Ca_Leak_chan_from_ER
+#26	e5	PMCA_bind_Ca
+#27	e7	NCX_bind_2Ca
+#28	e9	Ca_Leak_chan_from_ext
+#29	e10	Ca_bind_calreticulin
+#30	f1	Ca_bind_MgGreen
+#31	f2	PV_bind_Ca
+#32	f3	CB_bind_2Ca
+#33	f4	LAB_bind_Ca
+#34	f5	LAB2_bind_2Ca
+
+/* Kd and Km */
+#35	a1	Glu_bind_mGluR
+#36	a2	Glu_bind_mGluR-Gq
+#37	a3	mGluR_bind_Gq
+#38	a4	mGluR-Glu_bind_Gq
+#39	b1	PLC-PIP2_bind_Ca
+#40	b2	PLC-PIP2-Gq_bind_Ca
+#41	b3	PLC-PIP2_bind_Gq
+#42	b4	PLC-PIP2-Ca_bind_Gq
+#43	b5	PLC-Ca_bind_Gq
+#44	b8	PLC-Ca_bind_PIP2
+#45	b9	PLC-Ca-Gq_bind_PIP2
+#46	c1	IP3K_bind_Ca
+#47	c2	IP3K-2Ca_bind_IP3
+#48	c4	IP5P_bind_IP3
+#49	d1	IP3R_bind_IP3
+#50	d2	IP3R-IP3_bind_Ca
+#51	d3	IP3R_bind_Ca
+#52	d4	IP3R-Ca_bind_Ca
+#53	d5	IP3R-2Ca_bind_Ca
+#54	d6	IP3R-3Ca_bind_Ca
+#55	e2	SERCA_bind_2Ca
+#56	e5	PMCA_bind_Ca
+#57	e7	NCX_bind_2Ca
+#58	e10	Ca_bind_calreticulin
+#59	f1	Ca_bind_MgGreen
+#60	f2	PV_bind_Ca
+#61	f3	CB_bind_2Ca
+#62	f4	LAB_bind_Ca
+#63	f5	LAB2_bind_2Ca
+
+/* Vmax */
+#64	a5	Activate_Gq
+#65	a7	Inact_Gq
+#66	b6	IP3_prd_without_Gq
+#67	b7	IP3_prd_with_Gq
+#68	b10	inact_Gq_by_PLC-PIP2
+#69	b11	inact_Gq_by_PLC-PIP2-Ca
+#70	b12	inact_Gq_by_PLC-Ca
+#71	c3	IP3K_deg_IP3
+#72	c5	IP5P_deg_IP3
+#73	e3	SERCA_uptake
+#74	e6	PMCA_uptake
+#75	e8	NCX_uptake
+
+/* initial conc */
+#76		Glu
+#77		mGluR
+#78		Gq
+#79		PIP2
+#80		PLC
+#81		IP3
+#82		IP3 3-kinase
+#83		IP3 5-phosphatase
+#84		IP3R
+#85		[Ca2+]i
+#86		SERCA
+#87		PMCA
+#88		Na+/Ca2+ exchanger
+#89		[Ca2+]ER
+#90		calreticulin
+#91		[Ca2+]ext
+#92		MgGreen
+#93		parvalbumin
+#94		calbindin-D28k
+#95		Low Affinity Buffer 1
+#96		Low Affinity Buffer 2

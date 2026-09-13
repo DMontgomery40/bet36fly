@@ -1,0 +1,410 @@
+{
+  "schema": 1,
+  "agent": "dopamine_sources",
+  "at_utc": "2026-09-13T14:11:27.806632+00:00",
+  "starting_checkpoint": "bcefc77306236e049a8d2deb53dd16895bf0f1f4",
+  "status": "source_and_component_scientific_review_pass",
+  "report": {
+    "path": "output/collaboration/reward-mechanism-repair/intracellular-source-selection-dopamine-sources-2026-09-13.md",
+    "bytes": 10144,
+    "sha256": "560b69d7660d26c5494b5f2c69d665002d94f82be601d0604e0e87c036cbcc84"
+  },
+  "reading": {
+    "prior_complete_personal_receipt": {
+      "path": "output/collaboration/reward-mechanism-repair/darela-shadow-final-reading-claim-review-dopamine-sources-2026-09-13.json",
+      "bytes": 6729,
+      "sha256": "e5b11453968a8cefc3c68058222347a1658db870e4dd2f38f65c368f1564770b"
+    },
+    "inventory_metadata_only": {
+      "path": "output/collaboration/reward-mechanism-repair/darela-shadow-audit-preparation-delivered-arrivals-2026-09-13.json",
+      "bytes": 57894,
+      "sha256": "ed4fb65b660b9d95908cf620f656e814f0561af4796bdf01d0632d2364d68102"
+    },
+    "prior_count": 206,
+    "prior_inventory_sha256": "06164fa0af3703d15c33a0a915013ad8be807eb872398b02f39e7c75dbe1daa5",
+    "current_count": 212,
+    "current_inventory_sha256": "0e5f8dcfc4dfe83291234b60860560bd1693b184a4b06332cc939bbe5cc95bc0",
+    "unchanged_prior_personally_read": 204,
+    "changed_full_pages": 2,
+    "new_pages": 6,
+    "new_or_changed_pages": [
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-da-no-component-contract-2026-09-13.md",
+        "bytes": 4535,
+        "sha256": "96116a7d1192634c89868192b17197dbfb92766a5ab1e45a8ad085d739f65a9a"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-da-no-independent-math-delivered-arrivals-2026-09-13.md",
+        "bytes": 5592,
+        "sha256": "52be8fbab94fd22ba735c85c4978768ad49f60e6f24376916af18fde2420655d"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/intracellular-integration-boundary-evidence-ui-2026-09-13.md",
+        "bytes": 11616,
+        "sha256": "adac747b731ac4d795a8b436f894eebeb76fb7de41980bdcdb489dbbfe1e3016"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/intracellular-source-selection-dopamine-sources-2026-09-13.md",
+        "bytes": 10144,
+        "sha256": "560b69d7660d26c5494b5f2c69d665002d94f82be601d0604e0e87c036cbcc84"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/qualification-meaning-delivered-arrivals-2026-09-13.md",
+        "bytes": 13328,
+        "sha256": "70f419fc73c0022321278eb8a61e258cb44c395868334688a51945c6ed412421"
+      },
+      {
+        "path": "wiki/cells/cyclic-nucleotide-plasticity.md",
+        "bytes": 4196,
+        "sha256": "c0337b83bf0b3e07dbb190d910feea3974aa8a56d09e5b751dcd4d5de643f988"
+      },
+      {
+        "path": "wiki/cells/dopamine-receptor-signaling.md",
+        "bytes": 9192,
+        "sha256": "ed69b47abf7d99a6038bc87f7f2755d0ddba51009eec0024890079f66175a7ec"
+      },
+      {
+        "path": "wiki/cells/index.md",
+        "bytes": 4085,
+        "sha256": "5a346be511dc778650858154e6b2257860340dee57a0314677acef0b8d74b035"
+      }
+    ],
+    "exact_personally_read_source_aliases": [
+      {
+        "personally_read_original": {
+          "path": "output/collaboration/reward-mechanism-repair/aso-da-no-component-contract-2026-09-13.md",
+          "bytes": 4535,
+          "sha256": "96116a7d1192634c89868192b17197dbfb92766a5ab1e45a8ad085d739f65a9a"
+        },
+        "exact_copy": {
+          "path": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-da-no-component-contract-2026-09-13.md",
+          "bytes": 4535,
+          "sha256": "96116a7d1192634c89868192b17197dbfb92766a5ab1e45a8ad085d739f65a9a"
+        }
+      },
+      {
+        "personally_read_original": {
+          "path": "output/collaboration/reward-mechanism-repair/aso-da-no-independent-math-delivered-arrivals-2026-09-13.md",
+          "bytes": 5592,
+          "sha256": "52be8fbab94fd22ba735c85c4978768ad49f60e6f24376916af18fde2420655d"
+        },
+        "exact_copy": {
+          "path": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-da-no-independent-math-delivered-arrivals-2026-09-13.md",
+          "bytes": 5592,
+          "sha256": "52be8fbab94fd22ba735c85c4978768ad49f60e6f24376916af18fde2420655d"
+        }
+      },
+      {
+        "personally_read_original": {
+          "path": "output/collaboration/reward-mechanism-repair/qualification-meaning-delivered-arrivals-2026-09-13.md",
+          "bytes": 13328,
+          "sha256": "70f419fc73c0022321278eb8a61e258cb44c395868334688a51945c6ed412421"
+        },
+        "exact_copy": {
+          "path": "docs/evidence/reward-mechanism-repair-2026-09-12/qualification-meaning-delivered-arrivals-2026-09-13.md",
+          "bytes": 13328,
+          "sha256": "70f419fc73c0022321278eb8a61e258cb44c395868334688a51945c6ed412421"
+        }
+      },
+      {
+        "personally_read_original": {
+          "path": "output/collaboration/reward-mechanism-repair/intracellular-integration-boundary-evidence-ui-2026-09-13.md",
+          "bytes": 11616,
+          "sha256": "adac747b731ac4d795a8b436f894eebeb76fb7de41980bdcdb489dbbfe1e3016"
+        },
+        "exact_copy": {
+          "path": "docs/evidence/reward-mechanism-repair-2026-09-12/intracellular-integration-boundary-evidence-ui-2026-09-13.md",
+          "bytes": 11616,
+          "sha256": "adac747b731ac4d795a8b436f894eebeb76fb7de41980bdcdb489dbbfe1e3016"
+        }
+      },
+      {
+        "personally_read_original": {
+          "path": "output/collaboration/reward-mechanism-repair/intracellular-source-selection-dopamine-sources-2026-09-13.md",
+          "bytes": 10144,
+          "sha256": "560b69d7660d26c5494b5f2c69d665002d94f82be601d0604e0e87c036cbcc84"
+        },
+        "exact_copy": {
+          "path": "docs/evidence/reward-mechanism-repair-2026-09-12/intracellular-source-selection-dopamine-sources-2026-09-13.md",
+          "bytes": 10144,
+          "sha256": "560b69d7660d26c5494b5f2c69d665002d94f82be601d0604e0e87c036cbcc84"
+        }
+      }
+    ],
+    "extra_previous_note_reread": {
+      "path": "output/collaboration/reward-mechanism-repair/receptor-order-quantitative-transfer-decision-2026-09-13.md",
+      "bytes": 9360,
+      "sha256": "c8c40430ab42cf6380f343b728ec8f6be88498d3eed01cd765a5ac012e082e05"
+    },
+    "method": "Retained own complete full-reading chain. Other-agent inventory used only as metadata, never personal reading credit; its reconstruction matches own prior digest. All current narratives rehashed in Path component order. New/changed wiki pages personally read in full; five original output narratives personally read in full, then exact canonical aliases checked. Original and canonical Doi README/parameter list fully read; core kinetic text and supplement/tables personally inspected as specified below. AGENTS and root README remain included.",
+    "unread_deltas": []
+  },
+  "sources": {
+    "doi_raw_author_files": [
+      {
+        "path": "output/collaboration/reward-mechanism-repair/doi-ip3-source-2026-09-13/doiJNSdemo/DoiCaModel.g",
+        "bytes": 156383,
+        "sha256": "ba7009cf0fd6b4584ad552407d2d9cc96d8e2d773802dfa5015ce7e48eb2ea49"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/doi-ip3-source-2026-09-13/doiJNSdemo/fig3.g",
+        "bytes": 2339,
+        "sha256": "8434f99207b302e18b14bce281fcd22f6853640fbee0164d7d46b257413882f2"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/doi-ip3-source-2026-09-13/doiJNSdemo/paramlist.txt",
+        "bytes": 2087,
+        "sha256": "78962de2f0a3c740fa69e6e52871ad2bdefa446ecc56b3b90f5f82c0395eb28a"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/doi-ip3-source-2026-09-13/doiJNSdemo/readme.txt",
+        "bytes": 2041,
+        "sha256": "d6d61563a7be5010c3d187e416507921c1781adc10edcbdb50fbe022021eac29"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/doi-ip3-source-2026-09-13/doiJNS_Supplement.pdf",
+        "bytes": 466607,
+        "sha256": "4dfb1fc93c7bd01e14fadf7e3a5c962b80e724d343c1c7fd764ce135c7edd2c6"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/doi-ip3-source-2026-09-13/SuppTable1.html",
+        "bytes": 194206,
+        "sha256": "9c97aa10ad4d019905a8bb1a9eec989271e86a7e51d88ad2eb0489a6e6cb91d2"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/doi-ip3-source-2026-09-13/SuppTable3.html",
+        "bytes": 19137,
+        "sha256": "8ad478721afe7f3bfc6a28614467333e611248ee06ef14b9c2af420fe0ccd74f"
+      }
+    ],
+    "doi_success_bytes": 842800,
+    "doi_complete_copy_bundle": [
+      {
+        "original": {
+          "path": "output/collaboration/reward-mechanism-repair/doi-ip3-source-2026-09-13/SuppTable1.html",
+          "bytes": 194206,
+          "sha256": "9c97aa10ad4d019905a8bb1a9eec989271e86a7e51d88ad2eb0489a6e6cb91d2"
+        },
+        "copy": {
+          "path": "docs/evidence/reward-mechanism-repair-2026-09-12/doi-ip3-source-2026-09-13/SuppTable1.html",
+          "bytes": 194206,
+          "sha256": "9c97aa10ad4d019905a8bb1a9eec989271e86a7e51d88ad2eb0489a6e6cb91d2"
+        }
+      },
+      {
+        "original": {
+          "path": "output/collaboration/reward-mechanism-repair/doi-ip3-source-2026-09-13/SuppTable3.html",
+          "bytes": 19137,
+          "sha256": "8ad478721afe7f3bfc6a28614467333e611248ee06ef14b9c2af420fe0ccd74f"
+        },
+        "copy": {
+          "path": "docs/evidence/reward-mechanism-repair-2026-09-12/doi-ip3-source-2026-09-13/SuppTable3.html",
+          "bytes": 19137,
+          "sha256": "8ad478721afe7f3bfc6a28614467333e611248ee06ef14b9c2af420fe0ccd74f"
+        }
+      },
+      {
+        "original": {
+          "path": "output/collaboration/reward-mechanism-repair/doi-ip3-source-2026-09-13/doiJNS_Supplement.pdf",
+          "bytes": 466607,
+          "sha256": "4dfb1fc93c7bd01e14fadf7e3a5c962b80e724d343c1c7fd764ce135c7edd2c6"
+        },
+        "copy": {
+          "path": "docs/evidence/reward-mechanism-repair-2026-09-12/doi-ip3-source-2026-09-13/doiJNS_Supplement.pdf",
+          "bytes": 466607,
+          "sha256": "4dfb1fc93c7bd01e14fadf7e3a5c962b80e724d343c1c7fd764ce135c7edd2c6"
+        }
+      },
+      {
+        "original": {
+          "path": "output/collaboration/reward-mechanism-repair/doi-ip3-source-2026-09-13/doiJNSdemo/DoiCaModel.g",
+          "bytes": 156383,
+          "sha256": "ba7009cf0fd6b4584ad552407d2d9cc96d8e2d773802dfa5015ce7e48eb2ea49"
+        },
+        "copy": {
+          "path": "docs/evidence/reward-mechanism-repair-2026-09-12/doi-ip3-source-2026-09-13/doiJNSdemo/DoiCaModel.g",
+          "bytes": 156383,
+          "sha256": "ba7009cf0fd6b4584ad552407d2d9cc96d8e2d773802dfa5015ce7e48eb2ea49"
+        }
+      },
+      {
+        "original": {
+          "path": "output/collaboration/reward-mechanism-repair/doi-ip3-source-2026-09-13/doiJNSdemo/fig3.g",
+          "bytes": 2339,
+          "sha256": "8434f99207b302e18b14bce281fcd22f6853640fbee0164d7d46b257413882f2"
+        },
+        "copy": {
+          "path": "docs/evidence/reward-mechanism-repair-2026-09-12/doi-ip3-source-2026-09-13/doiJNSdemo/fig3.g",
+          "bytes": 2339,
+          "sha256": "8434f99207b302e18b14bce281fcd22f6853640fbee0164d7d46b257413882f2"
+        }
+      },
+      {
+        "original": {
+          "path": "output/collaboration/reward-mechanism-repair/doi-ip3-source-2026-09-13/doiJNSdemo/paramlist.txt",
+          "bytes": 2087,
+          "sha256": "78962de2f0a3c740fa69e6e52871ad2bdefa446ecc56b3b90f5f82c0395eb28a"
+        },
+        "copy": {
+          "path": "docs/evidence/reward-mechanism-repair-2026-09-12/doi-ip3-source-2026-09-13/doiJNSdemo/paramlist.txt",
+          "bytes": 2087,
+          "sha256": "78962de2f0a3c740fa69e6e52871ad2bdefa446ecc56b3b90f5f82c0395eb28a"
+        }
+      },
+      {
+        "original": {
+          "path": "output/collaboration/reward-mechanism-repair/doi-ip3-source-2026-09-13/doiJNSdemo/readme.txt",
+          "bytes": 2041,
+          "sha256": "d6d61563a7be5010c3d187e416507921c1781adc10edcbdb50fbe022021eac29"
+        },
+        "copy": {
+          "path": "docs/evidence/reward-mechanism-repair-2026-09-12/doi-ip3-source-2026-09-13/doiJNSdemo/readme.txt",
+          "bytes": 2041,
+          "sha256": "d6d61563a7be5010c3d187e416507921c1781adc10edcbdb50fbe022021eac29"
+        }
+      },
+      {
+        "original": {
+          "path": "output/collaboration/reward-mechanism-repair/doi-ip3-source-2026-09-13/input-table-inventory.json",
+          "bytes": 870,
+          "sha256": "26fcbaace346acdcdb1d0742a108223fc9bfec4ac818e929f364ed2ac54157a6"
+        },
+        "copy": {
+          "path": "docs/evidence/reward-mechanism-repair-2026-09-12/doi-ip3-source-2026-09-13/input-table-inventory.json",
+          "bytes": 870,
+          "sha256": "26fcbaace346acdcdb1d0742a108223fc9bfec4ac818e929f364ed2ac54157a6"
+        }
+      },
+      {
+        "original": {
+          "path": "output/collaboration/reward-mechanism-repair/doi-ip3-source-2026-09-13/inspected-core-excluding-tabulated-waveform-values.txt",
+          "bytes": 82731,
+          "sha256": "323a74179553d44ace49185da00a83c05844cf3bdb33936c72e1c607c4da23b0"
+        },
+        "copy": {
+          "path": "docs/evidence/reward-mechanism-repair-2026-09-12/doi-ip3-source-2026-09-13/inspected-core-excluding-tabulated-waveform-values.txt",
+          "bytes": 82731,
+          "sha256": "323a74179553d44ace49185da00a83c05844cf3bdb33936c72e1c607c4da23b0"
+        }
+      },
+      {
+        "original": {
+          "path": "output/collaboration/reward-mechanism-repair/doi-ip3-source-2026-09-13/retrieval-public-network.json",
+          "bytes": 9807,
+          "sha256": "6e2adf7062650c9ebbfb079d020dc6fcd40717eab450b49d4cd3e2e40a876e79"
+        },
+        "copy": {
+          "path": "docs/evidence/reward-mechanism-repair-2026-09-12/doi-ip3-source-2026-09-13/retrieval-public-network.json",
+          "bytes": 9807,
+          "sha256": "6e2adf7062650c9ebbfb079d020dc6fcd40717eab450b49d4cd3e2e40a876e79"
+        }
+      },
+      {
+        "original": {
+          "path": "output/collaboration/reward-mechanism-repair/doi-ip3-source-2026-09-13/retrieval.json",
+          "bytes": 2595,
+          "sha256": "cd1cc6daee165b5634c0b91bac28ae1b6721698dabc41b20329c6a9657c34d7b"
+        },
+        "copy": {
+          "path": "docs/evidence/reward-mechanism-repair-2026-09-12/doi-ip3-source-2026-09-13/retrieval.json",
+          "bytes": 2595,
+          "sha256": "cd1cc6daee165b5634c0b91bac28ae1b6721698dabc41b20329c6a9657c34d7b"
+        }
+      },
+      {
+        "original": {
+          "path": "output/collaboration/reward-mechanism-repair/doi-ip3-source-2026-09-13/yamada-retrieval.json",
+          "bytes": 158,
+          "sha256": "dcfe679108fad9abb083ea9c4b689ced11a69811da1d5737ad75dae48547b950"
+        },
+        "copy": {
+          "path": "docs/evidence/reward-mechanism-repair-2026-09-12/doi-ip3-source-2026-09-13/yamada-retrieval.json",
+          "bytes": 158,
+          "sha256": "dcfe679108fad9abb083ea9c4b689ced11a69811da1d5737ad75dae48547b950"
+        }
+      }
+    ],
+    "root_pinned_aso": [
+      {
+        "path": "output/collaboration/reward-mechanism-repair/intracellular-primary-2026-09-13/PMC6948953.xml",
+        "bytes": 362167,
+        "sha256": "7d99cb88bbfa1af65c13b82d4d5f4d2c06b212fda1f01f73d15b41db0551049a"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/intracellular-primary-2026-09-13/PMC6948953-retrieval.json",
+        "bytes": 341,
+        "sha256": "c338a9717aac5baf1ef4a55c5c55045dce1e8a486b207b4d170018efb5349ed4"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/intracellular-primary-2026-09-13/PMC7581427.xml",
+        "bytes": 8118,
+        "sha256": "95e5319db520c3eade785941412a461ac3f684e9e5dc03e700e3120a2fa994e4"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/intracellular-primary-2026-09-13/PMC7581427-retrieval.json",
+        "bytes": 339,
+        "sha256": "b37bf4a3dfe8a2b39d0bba039ae55b54d85667d83fa68fbc1213493b0cbaffc3"
+      }
+    ]
+  },
+  "primary_reading_scope": {
+    "aso": {
+      "doi": "10.7554/eLife.49257",
+      "url": "https://elifesciences.org/articles/49257",
+      "version": "2019 publication; 2020 correction DOI10.7554/eLife.64094",
+      "checked": "2026-09-13",
+      "read": "Complete Methods and Discussion; full relevant Results on NOS identity, KC sGC, kinetics, updating and mathematical model; full correction body. Not every Results section/reference claimed.",
+      "limits": "Four effects are phenomenological. Correction changes RNA-seq processing/table, not equations. Author executable not identified or run."
+    },
+    "doi": {
+      "doi": "10.1523/JNEUROSCI.2727-04.2005",
+      "url": "https://bicr.atr.jp/neuroinfo/doi/indexE.html",
+      "modeldb": "https://modeldb.science/49305",
+      "version": "Published2005-01-26; author core embedded save2005-01-27; retrieved2026-09-13",
+      "read": "README, parameter list, fig3 script, full core reaction/state/wiring/parameter-comment text excluding GUI/prototype and numerical stimulus tables, supplementary explanatory material and parameter tables. Stimulus numeric arrays inventoried passively.",
+      "limits": "Main paper not retrieved in full; PMC challenged and author PDF access failed. Author-hosted snapshot, not verified publication commit. GENESIS/Kinetikit not installed or run. Table1 IP3R-IP3 .1 vs core CoInit .001,nInit .06/volume60 discrepancy preserved."
+    },
+    "yamada": {
+      "doi": "10.1113/JP285745",
+      "url": "https://physoc.onlinelibrary.wiley.com/doi/10.1113/JP285745",
+      "version": "2024-03-15 publication; checked2026-09-13",
+      "read": "Full scientific main-text Methods, Results, Discussion and data-availability via overlapping web opens; introduction/abstract, not every reference.",
+      "limits": "Web text accessible; direct Wiley save403 and NSF PDF timeout. Raw data on request; no executable intracellular kinetics obtained."
+    },
+    "yarali": {
+      "doi": "10.1371/journal.pone.0032885",
+      "read": "Personal landing-page inspection only. Root independently read Results/Discussion/Methods; report explicitly attributes its exclusion findings to root. No personal equation transcription or execution."
+    }
+  },
+  "helper_review": {
+    "file": {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/aso_da_no.py",
+      "bytes": 5871,
+      "sha256": "2886c006dc1262d6d40cebdca3d79f3e1373674ccf71cc0f33e94bb215ba7969"
+    },
+    "scope": "Read full source without importing or executing. Confirmed source parameters, activity-level modes, persistent four states, no-DAN latent retention, explicit quiet limit, null-from-zero controls and source [0,2] weight; no simulator eta/bounds, labels or hidden resets. Independent math/reference and writer tests are owned by other agents.",
+    "scientific_blockers": []
+  },
+  "conclusion": [
+    "Proceed only with fixed standalone Aso DA/NO equation reimplementation. It is not recovered author-code execution or calibrated chemical kinetics.",
+    "Doi now supplies inspectable author reactions but remains a vertebrate-spine reference with source assumptions and code/table discrepancy.",
+    "Yamada supports gamma and alpha/beta home plasticity with distinct durations; no gamma filtering of home or NO assignment to PAM12/gamma3 follows.",
+    "Actual spike-to-activity mapping, persistent state/checkpoint semantics and finite observation time remain integration choices; no such choice selected here.",
+    "Existing learning qualification remains failed and unchanged."
+  ],
+  "operations": {
+    "successful_small_author_gets": 7,
+    "sandbox_dns_failed_gets": 7,
+    "direct_wiley_failed_gets": 1,
+    "source_model_runs": 0,
+    "neural_calls": 0,
+    "candidate_runs": 0,
+    "saved_history_evaluations": 0,
+    "fits": 0,
+    "dependency_installs": 0,
+    "tests_by_this_agent": 0,
+    "shared_narrative_or_production_edits": 0,
+    "verification": "Passive source byte aggregation, exact-copy checks, full narrative reconciliation, JSON validation. Parent owns repository verification.",
+    "receipt_preflight": "Two assertions stopped before receipt creation: first used string ordering instead of Path component order; corrected ordering matched prior digest. Second detected new canonical copies while hashing. Both preserved all inputs and ran no model."
+  }
+}

@@ -1,0 +1,51 @@
+[
+  {
+    "url": "https://bicr.atr.jp/neuroinfo/doi/doiJNSdemo/DoiCaModel.g",
+    "path": "output/collaboration/reward-mechanism-repair/doi-ip3-source-2026-09-13/doiJNSdemo/DoiCaModel.g",
+    "checked_utc": "2026-09-13T13:54:31.641455+00:00",
+    "error": "URLError(gaierror(8, 'nodename nor servname provided, or not known'))",
+    "elapsed_seconds": 0.010609416989609599
+  },
+  {
+    "url": "https://bicr.atr.jp/neuroinfo/doi/doiJNSdemo/fig3.g",
+    "path": "output/collaboration/reward-mechanism-repair/doi-ip3-source-2026-09-13/doiJNSdemo/fig3.g",
+    "checked_utc": "2026-09-13T13:54:31.652302+00:00",
+    "error": "URLError(gaierror(8, 'nodename nor servname provided, or not known'))",
+    "elapsed_seconds": 0.0006990409456193447
+  },
+  {
+    "url": "https://bicr.atr.jp/neuroinfo/doi/doiJNSdemo/paramlist.txt",
+    "path": "output/collaboration/reward-mechanism-repair/doi-ip3-source-2026-09-13/doiJNSdemo/paramlist.txt",
+    "checked_utc": "2026-09-13T13:54:31.653114+00:00",
+    "error": "URLError(gaierror(8, 'nodename nor servname provided, or not known'))",
+    "elapsed_seconds": 0.00020883395336568356
+  },
+  {
+    "url": "https://bicr.atr.jp/neuroinfo/doi/doiJNSdemo/readme.txt",
+    "path": "output/collaboration/reward-mechanism-repair/doi-ip3-source-2026-09-13/doiJNSdemo/readme.txt",
+    "checked_utc": "2026-09-13T13:54:31.653406+00:00",
+    "error": "URLError(gaierror(8, 'nodename nor servname provided, or not known'))",
+    "elapsed_seconds": 0.00017729192040860653
+  },
+  {
+    "url": "https://bicr.atr.jp/neuroinfo/doi/doiJNS_Supplement.pdf",
+    "path": "output/collaboration/reward-mechanism-repair/doi-ip3-source-2026-09-13/doiJNS_Supplement.pdf",
+    "checked_utc": "2026-09-13T13:54:31.653656+00:00",
+    "error": "URLError(gaierror(8, 'nodename nor servname provided, or not known'))",
+    "elapsed_seconds": 0.0003258748911321163
+  },
+  {
+    "url": "https://bicr.atr.jp/neuroinfo/doi/SuppTable1.html",
+    "path": "output/collaboration/reward-mechanism-repair/doi-ip3-source-2026-09-13/SuppTable1.html",
+    "checked_utc": "2026-09-13T13:54:31.654168+00:00",
+    "error": "URLError(gaierror(8, 'nodename nor servname provided, or not known'))",
+    "elapsed_seconds": 0.00031837495043873787
+  },
+  {
+    "url": "https://bicr.atr.jp/neuroinfo/doi/SuppTable3.html",
+    "path": "output/collaboration/reward-mechanism-repair/doi-ip3-source-2026-09-13/SuppTable3.html",
+    "checked_utc": "2026-09-13T13:54:31.654578+00:00",
+    "error": "URLError(gaierror(8, 'nodename nor servname provided, or not known'))",
+    "elapsed_seconds": 0.00019291602075099945
+  }
+]

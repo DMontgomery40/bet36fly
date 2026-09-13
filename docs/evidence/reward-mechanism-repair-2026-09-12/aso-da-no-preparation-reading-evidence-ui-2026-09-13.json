@@ -1,0 +1,219 @@
+{
+  "agent": "/root/evidence_ui",
+  "created_at_utc": "2026-09-13T14:15:01.037055+00:00",
+  "status": "standalone_source_equation_component_verified",
+  "head": "bcefc77306236e049a8d2deb53dd16895bf0f1f4",
+  "implementation": "Immutable SourceState(d,n,D,N), fixed Parameters in seconds, exact advance with actual Boolean experimental activity levels, source-null controls, quiet_limit preserving latent memory, and source weight(1-D)(1+N). No spike or circuit mapping.",
+  "files": [
+    {
+      "path": "output/collaboration/reward-mechanism-repair/aso_da_no.py",
+      "bytes": 6257,
+      "sha256": "d43351281854ff2700c10b573a8c22a725f9fee226d083c6363e6436e1285111"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/test_aso_da_no.py",
+      "bytes": 10797,
+      "sha256": "4bde1d8cb777c0521794b57c7c0266d468e8f810b9f88f94606ca4f8233c5524"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/aso_da_no_reference.py",
+      "bytes": 4050,
+      "sha256": "9b162ab64f14ace56d10bbbb123219c7683a62c932e89996ca6e1018989d56d4"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/test_aso_da_no_reference.py",
+      "bytes": 4495,
+      "sha256": "5122a4ed0c2e2cc97ee135efdc61299a907f9176123b485f50cbc97b4c28b273"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/test_aso_da_no_writer_comparison.py",
+      "bytes": 5230,
+      "sha256": "379484b23075ed635f1656e79ce055a7d99dfee2adf05cce559c720fc027fa3b"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/aso-da-no-component-contract-2026-09-13.md",
+      "bytes": 4535,
+      "sha256": "96116a7d1192634c89868192b17197dbfb92766a5ab1e45a8ad085d739f65a9a"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/aso-da-no-independent-math-delivered-arrivals-2026-09-13.md",
+      "bytes": 5592,
+      "sha256": "52be8fbab94fd22ba735c85c4978768ad49f60e6f24376916af18fde2420655d"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/aso-da-no-reference-reading-delivered-arrivals-2026-09-13.json",
+      "bytes": 51551,
+      "sha256": "4a141e2268f0c3449feddc2438d9a4f8acc15fdead4094b88ba7bf7418dc29d7"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/aso-da-no-writer-red-2026-09-13.txt",
+      "bytes": 1050,
+      "sha256": "6d8453fa4d49b4081b424963a14b0e7964b5985846e0438829ab539829848f69"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/aso-da-no-writer-first-green-attempt-2026-09-13.txt",
+      "bytes": 3615,
+      "sha256": "2913f66eb625035e5b19cf9b51773b96c9764ee1a35e87f46c74e65d021d3ac6"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/aso-da-no-near-resonance-oracle-diagnosis-2026-09-13.json",
+      "bytes": 1328,
+      "sha256": "1bea0273906a73e3e71e9bd9c2241f1634c48d70f03661f813d4b363ddc4905d"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/aso-da-no-unit-cube-red-2026-09-13.txt",
+      "bytes": 16511,
+      "sha256": "dcf4d0550e6f3257c43b55bce64edca8867a809ef383a1f593a6e6a345223b2f"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/aso-da-no-component-boundary-green-2026-09-13.txt",
+      "bytes": 359,
+      "sha256": "7bbfd85fdf5efec5ae6fd837d657b974c191fcbc9f194a163d3904f599dfae0b"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/aso-da-no-comparison-boundary-green-delivered-arrivals-2026-09-13.txt",
+      "bytes": 340,
+      "sha256": "69bf85279056962ace35f431ffeea788c236ac6c29e902ec0d25583831ba8616"
+    }
+  ],
+  "validation": {
+    "writer_cases": 197,
+    "frozen_reference_cases": 32,
+    "independent_comparison_cases": 9,
+    "combined_passed": 238,
+    "writer_combined_seconds": 0.5,
+    "independent_combined_seconds": 0.48,
+    "ruff": "passed",
+    "scope": "synthetic equation, domain, composition and source-parameter checks only",
+    "standard_verify": "Parent owns repository make verify and canonical acceptance; no duplicate full gate run by this subagent."
+  },
+  "resolved_findings": [
+    {
+      "kind": "test_oracle",
+      "description": "SciPy F64 triangular matrix exponential was inaccurate near repeated rates. Independent Decimal100, closed-form70 and matrix70 agree with producer within1.39e-17 while original oracle errors were6.40e-8/-1.92e-8. Replaced the entire near-resonance oracle family with70-digit matrix at unchanged tolerances; preserved failed log."
+    },
+    {
+      "kind": "component_numerics",
+      "description": "Near-unit states under valid alternate test parameters could produce1+ULP when rounded convex coefficients were added. Six red regressions broadened to36 state/mode/rate cases; evaluate complementary convex expression near one, retain direct positive O(t^2) near zero. No clipping, parameter or tolerance change."
+    }
+  ],
+  "reading": {
+    "prior": {
+      "path": "output/collaboration/reward-mechanism-repair/intracellular-integration-boundary-reading-evidence-ui-2026-09-13.json",
+      "bytes": 46629,
+      "sha256": "07eec8ae3e1ca627316d3d33d72d224eadc41cde877bba0c7afadc10350847fa"
+    },
+    "current_narrative_count": 212,
+    "same_hash_prior_count": 204,
+    "new_or_changed_fully_read": [
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-da-no-component-contract-2026-09-13.md",
+        "bytes": 4535,
+        "sha256": "96116a7d1192634c89868192b17197dbfb92766a5ab1e45a8ad085d739f65a9a"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-da-no-independent-math-delivered-arrivals-2026-09-13.md",
+        "bytes": 5592,
+        "sha256": "52be8fbab94fd22ba735c85c4978768ad49f60e6f24376916af18fde2420655d"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/intracellular-integration-boundary-evidence-ui-2026-09-13.md",
+        "bytes": 11616,
+        "sha256": "adac747b731ac4d795a8b436f894eebeb76fb7de41980bdcdb489dbbfe1e3016"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/intracellular-source-selection-dopamine-sources-2026-09-13.md",
+        "bytes": 10144,
+        "sha256": "560b69d7660d26c5494b5f2c69d665002d94f82be601d0604e0e87c036cbcc84"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/qualification-meaning-delivered-arrivals-2026-09-13.md",
+        "bytes": 13328,
+        "sha256": "70f419fc73c0022321278eb8a61e258cb44c395868334688a51945c6ed412421"
+      },
+      {
+        "path": "wiki/cells/cyclic-nucleotide-plasticity.md",
+        "bytes": 4196,
+        "sha256": "c0337b83bf0b3e07dbb190d910feea3974aa8a56d09e5b751dcd4d5de643f988"
+      },
+      {
+        "path": "wiki/cells/dopamine-receptor-signaling.md",
+        "bytes": 9192,
+        "sha256": "ed69b47abf7d99a6038bc87f7f2755d0ddba51009eec0024890079f66175a7ec"
+      },
+      {
+        "path": "wiki/cells/index.md",
+        "bytes": 4085,
+        "sha256": "5a346be511dc778650858154e6b2257860340dee57a0314677acef0b8d74b035"
+      }
+    ],
+    "inventory_sha256": "0e5f8dcfc4dfe83291234b60860560bd1693b184a4b06332cc939bbe5cc95bc0",
+    "unread_current_narratives": [],
+    "method": "Reconciled every current README/AGENTS/docs/**/*.md/wiki/**/*.md path against completed personal reading chain. Personally read all changed/new narratives; exact-byte aliases of own authored/read output notes deduplicated only after reading originals.",
+    "primary": [
+      {
+        "path": "output/collaboration/reward-mechanism-repair/intracellular-primary-2026-09-13/PMC6948953.xml",
+        "bytes": 362167,
+        "sha256": "7d99cb88bbfa1af65c13b82d4d5f4d2c06b212fda1f01f73d15b41db0551049a"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/intracellular-primary-2026-09-13/PMC7581427.xml",
+        "bytes": 8118,
+        "sha256": "95e5319db520c3eade785941412a461ac3f684e9e5dc03e700e3120a2fa994e4"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/intracellular-primary-2026-09-13/PMC6948953-retrieval.json",
+        "bytes": 341,
+        "sha256": "c338a9717aac5baf1ef4a55c5c55045dce1e8a486b207b4d170018efb5349ed4"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/intracellular-primary-2026-09-13/PMC7581427-retrieval.json",
+        "bytes": 339,
+        "sha256": "b37bf4a3dfe8a2b39d0bba039ae55b54d85667d83fa68fbc1213493b0cbaffc3"
+      }
+    ],
+    "primary_scope": "Aso corrected XML full Methods including equations/rate inference, relevant source context and complete correction body; Yamada publisher Methods/Results and relevant Discussion personally read earlier this turn, recorded in the prior boundary receipt.",
+    "additional_human_readable_doi_files": [
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/doi-ip3-source-2026-09-13/doiJNSdemo/readme.txt",
+        "bytes": 2041,
+        "sha256": "d6d61563a7be5010c3d187e416507921c1781adc10edcbdb50fbe022021eac29"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/doi-ip3-source-2026-09-13/doiJNSdemo/paramlist.txt",
+        "bytes": 2087,
+        "sha256": "78962de2f0a3c740fa69e6e52871ad2bdefa446ecc56b3b90f5f82c0395eb28a"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/doi-ip3-source-2026-09-13/SuppTable1.html",
+        "bytes": 194206,
+        "sha256": "9c97aa10ad4d019905a8bb1a9eec989271e86a7e51d88ad2eb0489a6e6cb91d2"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/doi-ip3-source-2026-09-13/SuppTable3.html",
+        "bytes": 19137,
+        "sha256": "8ad478721afe7f3bfc6a28614467333e611248ee06ef14b9c2af420fe0ccd74f"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/doi-ip3-source-2026-09-13/doiJNS_Supplement.pdf",
+        "bytes": 466607,
+        "sha256": "4dfb1fc93c7bd01e14fadf7e3a5c962b80e724d343c1c7fd764ce135c7edd2c6"
+      }
+    ],
+    "doi_scope": "Full README/parameter-index text, both saved HTML tables, and31-page supplement extracted text read; table2pages15-16 reread after first output truncation. This is text/source-scope review, not visual graph validation or GENESIS execution. No Doi port selected."
+  },
+  "ui_scope": {
+    "production_changed_paths": [],
+    "conclusion": "No production/backend/API/types/Training change. Existing failed qualification and not_run_gate_failed conditioning state remain accurate. Standalone source-component arithmetic does not qualify a learning candidate. No fresh browser claim."
+  },
+  "execution": {
+    "native_calls": 0,
+    "circuit_runs": 0,
+    "saved_history_evaluations": 0,
+    "fit_calls": 0,
+    "author_code_runs": 0,
+    "source_protocol_experiments": 0,
+    "new_network_requests_for_component": 0
+  },
+  "limits": "This reimplements published phenomenological equations, not author executable code or measured chemical concentrations. Activity-level mapping, compartment scope, persistence across simulator calls and interaction with fixed qualification remain separate unselected contracts."
+}

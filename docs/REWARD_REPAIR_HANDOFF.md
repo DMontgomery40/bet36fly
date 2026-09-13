@@ -1,6 +1,53 @@
 # Continue the dopamine mechanism repair
 
-## Current continuation boundary: September 13, 2026, DARELA screen rejected after independent audit
+## Current continuation boundary: September 13, 2026, separate DA/NO state component verified
+
+Continue this existing task and the active full repair goal on
+`feat/bet36fly-dopamine-learning`. No new task or user-written handoff is
+needed. The starting checkpoint was `bcefc77`; inspect Git for the subsequent
+local commit. Every delegated agent must reconcile its complete personal
+docs/wiki reading chain and fully read all later narrative changes.
+
+The [new checkpoint](evidence/reward-mechanism-repair-2026-09-12/aso-da-no-component-checkpoint-2026-09-13.md)
+implements Aso et al. (2019) equations 1–3 as a standalone, exact four-state
+DA/NO component. Source parameters and 30/600-second expression times remain
+fixed. Latent and expressed effects are distinct, and quiet time preserves
+latent memory. This is an equation reimplementation, not source-author code,
+a biochemical concentration model, or a selected MaleCNS learning rule.
+Read the [home-cell physiology](../wiki/cells/cyclic-nucleotide-plasticity.md),
+[fixed component contract](evidence/reward-mechanism-repair-2026-09-12/aso-da-no-component-contract-2026-09-13.md),
+[source-selection review](evidence/reward-mechanism-repair-2026-09-12/intracellular-source-selection-dopamine-sources-2026-09-13.md),
+and [integration boundary](evidence/reward-mechanism-repair-2026-09-12/intracellular-integration-boundary-evidence-ui-2026-09-13.md).
+
+All 267 canonical focused cases pass, including independent high-precision
+comparisons and the qualification-meaning tests. The retained preparation
+history records a near-resonance test-oracle error and a real near-one
+rounding bug; both received broader coverage, without parameter/tolerance
+changes or clipping. Fresh `make verify` passes 4,055 Python tests, 103
+frontend tests, Ruff and the build. All 760 protected baseline files retain
+their bytes. Production/API/UI behavior is unchanged; no new browser run is
+claimed. The active production pair still fails qualification and
+conditioning remains `not_run_gate_failed`.
+
+Next: prespecify one finite source-protocol calculation using the paper's
+actual activity durations, observation times and pathway-null controls,
+then independently check its saved states. It has not run. After that,
+specify any actual-spike input map, full-state persistence, compartment
+scope and finite observation time before a MaleCNS candidate. Do not
+compress minutes to 400 ms, equate source activity levels with individual
+spikes, assign home NO evidence to PAM12, or reuse the old linear quiet
+tail without a model contract. The [guard interpretation](evidence/reward-mechanism-repair-2026-09-12/qualification-meaning-delivered-arrivals-2026-09-13.md)
+does not change its frozen threshold or relabel any failed result.
+
+Preserve accepted gains and ports, all 4,184 home plastic edges, the 3,239
+gamma-only away plastic edges and 1,443 transmitting ineligible edges.
+Keep the DARELA and other completed failed screens closed; no retuning or
+rerunning their identities. The full goal still requires qualification on
+both native panels followed by controlled acquisition and reversal.
+Commit locally; do not push or promote. Earlier boundaries below are
+historical and remain useful for provenance.
+
+## Previous boundary: September 13, 2026, DARELA screen rejected after independent audit
 
 Continue this existing task and full active repair goal on
 `feat/bet36fly-dopamine-learning`. The starting checkpoint for this phase was

@@ -1,0 +1,174 @@
+{
+  "schema": "aso-da-no-final-delta-reading-review-v1",
+  "agent": "delivered_arrivals",
+  "created_at_utc": "2026-09-13T14:21:27.264879+00:00",
+  "status": "passed_no_material_finding",
+  "prior_full_reading_chain": {
+    "path": "output/collaboration/reward-mechanism-repair/aso-da-no-comparison-review-delivered-arrivals-2026-09-13.json",
+    "bytes": 55650,
+    "sha256": "eea82a0b15c1a7532e8fe7aea25b863799a42295d1742107f4b858a3a7499892"
+  },
+  "reading": {
+    "current_narrative_paths": 213,
+    "unchanged_from_prior": 208,
+    "personally_read_deltas": [
+      {
+        "path": "docs/REWARD_REPAIR_HANDOFF.md",
+        "bytes": 70395,
+        "sha256": "b0b5f7df2c3f847452544a986376312787ae3b3af13130d25809c04a11cec8b6",
+        "method": "Full Git delta against the previously personally read unchanged base inspected"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-da-no-component-checkpoint-2026-09-13.md",
+        "bytes": 5621,
+        "sha256": "e4a9426ef232710177b9660f34e516ca10f1ea405641303119a4e1d5a8794190",
+        "method": "Full new/current page personally read"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/index.md",
+        "bytes": 26436,
+        "sha256": "e2a0c6c18e3d981217aa34a53ce10145db1ee4a466f1dfbaf3a0287f270c44ec",
+        "method": "Full Git delta against the previously personally read unchanged base inspected"
+      },
+      {
+        "path": "wiki/cells/cyclic-nucleotide-plasticity.md",
+        "bytes": 4527,
+        "sha256": "4c8a4001dcf459ed5c527e0ba624db8039af6e3bb09b18aeaf7f1d0ec0f27565",
+        "method": "Full new/current page personally read"
+      },
+      {
+        "path": "wiki/reassessment.md",
+        "bytes": 16595,
+        "sha256": "ed42fb024ad0638b4a98e51a3a024c64d57c0d2ee9bd1e55e0d875e8c5779919",
+        "method": "Full Git delta against the previously personally read unchanged base inspected"
+      }
+    ],
+    "missing_prior_paths": [],
+    "unread_paths": [],
+    "complete_current_inventory_sha256": "6a8746f9b1b6232520cc401eb075123d3a9831d9fcbb5d3f3bf15404556e0a47",
+    "inventory_definition": "Sorted AGENTS.md, README.md, all docs/**/*.md and wiki/**/*.md with SHA256/byte count; full baseline inventory in bound prior receipt plus exact deltas here."
+  },
+  "reviewed_evidence": [
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-da-no-canonical-final-tests-2026-09-13.txt",
+      "bytes": 340,
+      "sha256": "2c9b3f3dfde6ba3ac15f3342f49eefc38a7b0b244e7e6a18ec47729ad191b018"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-da-no-make-verify-2026-09-13.log",
+      "bytes": 6297,
+      "sha256": "752ae2d65a396f85dab70190890418df8dc2b3489aedc7aaf159bef9e1b0284d"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-da-no-protected-2026-09-13.json",
+      "bytes": 252,
+      "sha256": "46bb389239bb3a214dc4c589b742b79cc8ba9364728de91ce48d6b7d488afe64"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-da-no-preparation-v1/preserved.json",
+      "bytes": 747,
+      "sha256": "5a6de69d852243b56a48a94d0d460c0814d09b8025e75ac3aea8b72deec3d25d"
+    }
+  ],
+  "copied_code_identity": [
+    {
+      "original": {
+        "path": "output/collaboration/reward-mechanism-repair/aso_da_no.py",
+        "bytes": 6257,
+        "sha256": "d43351281854ff2700c10b573a8c22a725f9fee226d083c6363e6436e1285111"
+      },
+      "canonical": {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/aso_da_no.py",
+        "bytes": 6257,
+        "sha256": "d43351281854ff2700c10b573a8c22a725f9fee226d083c6363e6436e1285111"
+      },
+      "byte_equal": true
+    },
+    {
+      "original": {
+        "path": "output/collaboration/reward-mechanism-repair/test_aso_da_no.py",
+        "bytes": 10797,
+        "sha256": "4bde1d8cb777c0521794b57c7c0266d468e8f810b9f88f94606ca4f8233c5524"
+      },
+      "canonical": {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/test_aso_da_no.py",
+        "bytes": 10797,
+        "sha256": "4bde1d8cb777c0521794b57c7c0266d468e8f810b9f88f94606ca4f8233c5524"
+      },
+      "byte_equal": true
+    },
+    {
+      "original": {
+        "path": "output/collaboration/reward-mechanism-repair/aso_da_no_reference.py",
+        "bytes": 4050,
+        "sha256": "9b162ab64f14ace56d10bbbb123219c7683a62c932e89996ca6e1018989d56d4"
+      },
+      "canonical": {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/aso_da_no_reference.py",
+        "bytes": 4050,
+        "sha256": "9b162ab64f14ace56d10bbbb123219c7683a62c932e89996ca6e1018989d56d4"
+      },
+      "byte_equal": true
+    },
+    {
+      "original": {
+        "path": "output/collaboration/reward-mechanism-repair/test_aso_da_no_reference.py",
+        "bytes": 4495,
+        "sha256": "5122a4ed0c2e2cc97ee135efdc61299a907f9176123b485f50cbc97b4c28b273"
+      },
+      "canonical": {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/test_aso_da_no_reference.py",
+        "bytes": 4495,
+        "sha256": "5122a4ed0c2e2cc97ee135efdc61299a907f9176123b485f50cbc97b4c28b273"
+      },
+      "byte_equal": true
+    },
+    {
+      "original": {
+        "path": "output/collaboration/reward-mechanism-repair/test_aso_da_no_writer_comparison.py",
+        "bytes": 5230,
+        "sha256": "379484b23075ed635f1656e79ce055a7d99dfee2adf05cce559c720fc027fa3b"
+      },
+      "canonical": {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/test_aso_da_no_writer_comparison.py",
+        "bytes": 5230,
+        "sha256": "379484b23075ed635f1656e79ce055a7d99dfee2adf05cce559c720fc027fa3b"
+      },
+      "byte_equal": true
+    },
+    {
+      "original": {
+        "path": "output/collaboration/reward-mechanism-repair/test_qualification_meaning_delivered_arrivals.py",
+        "bytes": 3721,
+        "sha256": "fc81e0ce4feaaaf0f74f94442acc2e71d5a0047dc2cac6cde2950aa87cd9dced"
+      },
+      "canonical": {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/test_qualification_meaning_delivered_arrivals.py",
+        "bytes": 3721,
+        "sha256": "fc81e0ce4feaaaf0f74f94442acc2e71d5a0047dc2cac6cde2950aa87cd9dced"
+      },
+      "byte_equal": true
+    }
+  ],
+  "claims_checked": {
+    "canonical_tests": "267 =197 writer +32 frozen reference +9 independent comparison +29 qualification-meaning; saved canonical log passes1.17s. No rerun.",
+    "standard_gate": "Saved make verify log reports4055 Python tests,2 warnings,103 frontend tests,Ruff and build passed. These are root executions, not a new independent run.",
+    "protected_baseline": "Saved receipt reports760 files/4351175626bytes, no changed bytes. Claim explicitly limited to that baseline; this review did not rehash the full protected dataset.",
+    "numerical_corrections": "Near-resonance error belongs to initial double-precision matrix oracle. Near-one rejection is an actual component defect, fixed by equivalent complementary evaluation. Final copied helper SHA matches independently verified d4335128 release. No clipping, model-parameter or tolerance changes.",
+    "source_scope": "Four states are phenomenological latent/expressed effects; experimental Boolean inputs and30/600-second expression constants remain distinct from somatic spikes and400ms circuit calls.",
+    "quiet_memory": "Quiet expressed states converge to retained latent states. Equal current weight can conceal different future expression. No hidden reset or elapsed-time equivalence claimed.",
+    "continuation": "No source-protocol or MaleCNS experiment ran. Next source protocol must freeze actual durations/observations/null controls, followed by independent saved-state review. Actual-spike mapping, persistent state and compartment scope remain future decisions.",
+    "learning_status": "Existing failed qualification and not_run_gate_failed remain unchanged; all4184 home edges and3239 eligible/1443 transmitting excluded away edges retained. Tests do not qualify learning, nor assign home NO to PAM12."
+  },
+  "material_findings": [],
+  "actions": {
+    "numerical_reexecutions": 0,
+    "source_calls": 0,
+    "native_calls": 0,
+    "captured_history_evaluations": 0,
+    "code_edits": 0,
+    "shared_narrative_edits": 0,
+    "new_output_files": 1
+  },
+  "remaining": "Root owns final links/copy checks and local checkpoint. Full learning goal remains active."
+}

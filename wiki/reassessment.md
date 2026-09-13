@@ -9,6 +9,15 @@ status: learning-unvalidated
 
 ## Current account — September 13 UTC
 
+The latest [home-output physiology and DA/NO component](cells/cyclic-nucleotide-plasticity.md)
+separate intracellular signaling, latent memory and expressed synaptic
+change. Aso's published four-state equations now have an exact standalone
+implementation with independent numerical tests; source rates and expression
+times are unchanged. The [checkpoint](../docs/evidence/reward-mechanism-repair-2026-09-12/aso-da-no-component-checkpoint-2026-09-13.md)
+passes 267 focused tests and the full repository gate. It is not integrated
+into MaleCNS, and no source-protocol or neural experiment ran in this phase.
+The current learning failure remains unresolved.
+
 The [DARELA release-source preparation](cells/dopamine-receptor-signaling.md)
 now distinguishes a published mouse burst model from one fixed finite
 per-DAN engineering construction. The source is pinned and copied with its

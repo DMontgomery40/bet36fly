@@ -1,0 +1,126 @@
+{
+  "schema": 1,
+  "agent": "/root/delivered_arrivals",
+  "created_at_utc": "2026-09-13T13:56:23.256272+00:00",
+  "status": "completed_bounded_architectural_review",
+  "report": {
+    "path": "output/collaboration/reward-mechanism-repair/qualification-meaning-delivered-arrivals-2026-09-13.md",
+    "bytes": 13328,
+    "sha256": "70f419fc73c0022321278eb8a61e258cb44c395868334688a51945c6ed412421"
+  },
+  "tests": {
+    "path": "output/collaboration/reward-mechanism-repair/test_qualification_meaning_delivered_arrivals.py",
+    "bytes": 3721,
+    "sha256": "fc81e0ce4feaaaf0f74f94442acc2e71d5a0047dc2cac6cde2950aa87cd9dced"
+  },
+  "verification": {
+    "log": {
+      "path": "output/collaboration/reward-mechanism-repair/qualification-meaning-tests-delivered-arrivals-2026-09-13.txt",
+      "bytes": 99,
+      "sha256": "0fbdf01a116f66d8ada23918d933c1d05d11793ef601656f727dc26f4df46540"
+    },
+    "passed": 29,
+    "wall_seconds": 0.85,
+    "ruff": "All checks passed",
+    "scope": "Synthetic gain totals through the existing production evaluator and exact Fraction identities only; prospective molecular intervention matrix is a test contract, not an implemented/tested mechanism.",
+    "standard_gate": "Root owns repository verification; no production/API/frontend edit in this bounded output-only review."
+  },
+  "reading": {
+    "prior_complete_receipt": {
+      "path": "output/collaboration/reward-mechanism-repair/darela-shadow-final-reading-review-delivered-arrivals-2026-09-13.json",
+      "bytes": 6737,
+      "sha256": "0a3adbdcead523123970c884d8923468e301e634d36f6e5a5d56342518c1dce3"
+    },
+    "current_narrative_count": 206,
+    "all206_hashes_unchanged": true,
+    "new_or_changed_narrative_paths": [],
+    "unread_paths": [],
+    "inventory_sha256": "8b37d6f91e7a022646d81ba3aaa6f25bb891768ef7b5e55e4f456570e62e254a"
+  },
+  "source_checked_date": "2026-09-13",
+  "primary_sources": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4674068/",
+      "version": "Hige2015 DOI10.1016/j.neuron.2015.11.003",
+      "access": "Fresh browser challenge only; earlier reviewed source ledger remains attributed with limits."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9012144/",
+      "version": "Handler2019 DOI10.1016/j.cell.2019.05.040",
+      "access": "Fresh browser challenge only; no new full-text claim."
+    },
+    {
+      "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002586",
+      "version": "Yamagata2016 published2016-12-20",
+      "access": "Fresh primary Abstract/Results through suppression experiments personally read; no new dataset or figure digitization."
+    },
+    {
+      "url": "https://physoc.onlinelibrary.wiley.com/doi/full/10.1113/JP285745",
+      "version": "Yamada/Davidson/Hige2024, published2024-03-15",
+      "access": "Fresh primary Abstract, Methods/electrophysiology and cAMP assay setup, relevant Results/Figs2-5,7-10, Discussion on downstream activity and preparation caveats personally read. Ex vivo physiology versus in vivo imaging kept separate. No raw data/model execution."
+    }
+  ],
+  "inspected_bindings": [
+    {
+      "path": "bet36fly/reward_lif.cpp",
+      "bytes": 19913,
+      "sha256": "e7dbb0aa8f95873036415581e94de45c237941f05642ccc90812c1be1119be37"
+    },
+    {
+      "path": "bet36fly/reward_diagnostic.py",
+      "bytes": 25196,
+      "sha256": "59feb14834813fa6793f0f97a8e4c208fd85494b383e9fa5875efe5b21189c99"
+    },
+    {
+      "path": "scripts/reward_teaching_diagnostic.py",
+      "bytes": 24888,
+      "sha256": "d18df419fe4c78001019d6feadff5b6c37df2de69f7e278d46d3cf02bc539598"
+    },
+    {
+      "path": "docs/evidence/reward-repair/evidence/candidate-rule-spec-v1.1.md",
+      "bytes": 4570,
+      "sha256": "01023ac61cbb23a7a0d6445989dc00c639ce81a08aa683b66a3062f70ef23725"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/dopamine-receptor-state-decision-2026-09-13.md",
+      "bytes": 13820,
+      "sha256": "63cdc757527e4692bb2e29405ea74276cc38006ac1bb6217bba32f469b94b3c7"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-contract-evidence-ui-audit-2026-09-13.md",
+      "bytes": 9484,
+      "sha256": "4e7e6c6b291dc77a9e582385926cee24273e071bbc0b549ae8ca455ee916091b"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/dopamine-signal-sources-resumed.md",
+      "bytes": 21098,
+      "sha256": "3eb2b28f996b1972444e50676ffcf29aa907a24ef39082f7c6a8883a62bb67b5"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/learning-coupling-mathematical-source-review-2026-09-13.md",
+      "bytes": 20715,
+      "sha256": "5810f6dcaa74360a23b1b005241a1cdd603a15cdd0e7c629f5c0e773c78601a5"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/causal-prefix-identifiability-contract-delivered-arrivals-2026-09-13.md",
+      "bytes": 12566,
+      "sha256": "4fc653c542cf167076d3a4032c542d64d04d3ca1cf46192a3367e548f437cf4f"
+    }
+  ],
+  "findings": [
+    "Frozen half-SD guard tests signed consistency relative to cue variability, not universal necessary biology or absolute drift; unchanged rejection meaning retained.",
+    "Identical nonzero eight totals fail at any scale; one nonzero total passes; edge cancellation can hide plasticity; teaching ratio can pass while untaught guard fails.",
+    "Current Q measures joint lag asymmetry. Intracellular coincidence/order state must be distinguished by controlled downstream bypass and messenger-clamp interventions.",
+    "Yamada2024 supplies directly relevant home-target downstream activity requirement, with no400ms calibration or outcome-selected rates.",
+    "No all-mechanism impossibility, legitimate endogenous-memory claim or threshold relaxation follows from these findings."
+  ],
+  "actions": {
+    "saved_history_reads": 0,
+    "rejected_candidate_replays": 0,
+    "new_neural_or_native_calls": 0,
+    "source_model_calls": 0,
+    "parameter_choices": 0,
+    "production_edits": 0,
+    "guard_changes": 0
+  }
+}

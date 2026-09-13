@@ -1,0 +1,14 @@
+[
+  {
+    "source": "output/collaboration/reward-mechanism-repair/test_aso_da_no_writer_comparison.py",
+    "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/test_aso_da_no_writer_comparison.py",
+    "bytes": 4128,
+    "sha256": "d3c06964a87fa664f70a7a62d7571189273d694e09ede29a07ccd88e035f1975"
+  },
+  {
+    "source": "output/collaboration/reward-mechanism-repair/aso-da-no-comparison-final-delivered-arrivals-2026-09-13.txt",
+    "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-da-no-comparison-final-delivered-arrivals-2026-09-13.txt",
+    "bytes": 260,
+    "sha256": "975a23ea6a63bae89782e6920758c8214b94149700b651ed12dce63dfd8e5f34"
+  }
+]

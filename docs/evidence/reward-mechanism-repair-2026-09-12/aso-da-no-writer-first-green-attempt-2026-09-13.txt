@@ -1,0 +1,56 @@
+.........................................................F.F............ [ 47%]
+........................................................................ [ 94%]
+.........                                                                [100%]
+=================================== FAILURES ===================================
+_ test_equal_and_near_rates_have_continuous_nonzero_state_solution[mode1--1e-10] _
+
+api = <module 'aso_da_no' from '/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/aso_da_no.py'>
+epsilon = -1e-10, mode = (False, True)
+
+    @pytest.mark.parametrize("epsilon", [-1e-10, 0, 1e-10])
+    @pytest.mark.parametrize("mode", [(True, True), (False, True)])
+    def test_equal_and_near_rates_have_continuous_nonzero_state_solution(api, epsilon, mode):
+        params = api.Parameters(A_D=1 + epsilon, B_D=1 + epsilon, A_N=2 + epsilon, B_N=2 + epsilon, tau_D=1, tau_N=.5)
+        state = api.SourceState(.2, .6, .9, .1)
+        actual = api.advance(state, 1.7, kc_active=mode[0], dan_active=mode[1], params=params)
+>       np.testing.assert_allclose(values(actual), matrix_reference(state, 1.7, *mode, params), atol=2e-14, rtol=2e-13)
+E       AssertionError: 
+E       Not equal to tolerance rtol=2e-13, atol=2e-14
+E       
+E       Mismatched elements: 1 / 4 (25%)
+E       Mismatch at index:
+E        [3]: 0.07141879772088475 (ACTUAL), 0.07141886176821485 (DESIRED)
+E       Max absolute difference among violations: 6.40473301e-08
+E       Max relative difference among violations: 8.96784526e-07
+E        ACTUAL: array([0.036537, 0.020024, 0.226528, 0.071419])
+E        DESIRED: array([0.036537, 0.020024, 0.226528, 0.071419])
+
+output/collaboration/reward-mechanism-repair/test_aso_da_no.py:74: AssertionError
+_ test_equal_and_near_rates_have_continuous_nonzero_state_solution[mode1-1e-10] _
+
+api = <module 'aso_da_no' from '/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/aso_da_no.py'>
+epsilon = 1e-10, mode = (False, True)
+
+    @pytest.mark.parametrize("epsilon", [-1e-10, 0, 1e-10])
+    @pytest.mark.parametrize("mode", [(True, True), (False, True)])
+    def test_equal_and_near_rates_have_continuous_nonzero_state_solution(api, epsilon, mode):
+        params = api.Parameters(A_D=1 + epsilon, B_D=1 + epsilon, A_N=2 + epsilon, B_N=2 + epsilon, tau_D=1, tau_N=.5)
+        state = api.SourceState(.2, .6, .9, .1)
+        actual = api.advance(state, 1.7, kc_active=mode[0], dan_active=mode[1], params=params)
+>       np.testing.assert_allclose(values(actual), matrix_reference(state, 1.7, *mode, params), atol=2e-14, rtol=2e-13)
+E       AssertionError: 
+E       Not equal to tolerance rtol=2e-13, atol=2e-14
+E       
+E       Mismatched elements: 1 / 4 (25%)
+E       Mismatch at index:
+E        [3]: 0.07141879770931088 (ACTUAL), 0.0714187785014949 (DESIRED)
+E       Max absolute difference among violations: 1.9207816e-08
+E       Max relative difference among violations: 2.68946296e-07
+E        ACTUAL: array([0.036537, 0.020024, 0.226528, 0.071419])
+E        DESIRED: array([0.036537, 0.020024, 0.226528, 0.071419])
+
+output/collaboration/reward-mechanism-repair/test_aso_da_no.py:74: AssertionError
+=========================== short test summary info ============================
+FAILED output/collaboration/reward-mechanism-repair/test_aso_da_no.py::test_equal_and_near_rates_have_continuous_nonzero_state_solution[mode1--1e-10]
+FAILED output/collaboration/reward-mechanism-repair/test_aso_da_no.py::test_equal_and_near_rates_have_continuous_nonzero_state_solution[mode1-1e-10]
+2 failed, 151 passed in 0.34s

@@ -1,0 +1,17 @@
+{
+  "reason": "Initial 230-case checkpoint before expanded alternate-parameter boundary regression",
+  "files": [
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-da-no-preparation-v1/aso_da_no.py",
+      "sha256": "2886c006dc1262d6d40cebdca3d79f3e1373674ccf71cc0f33e94bb215ba7969"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-da-no-preparation-v1/test_aso_da_no.py",
+      "sha256": "211997c55c167f0b5e4ad5dabf5bc1508bc0e28b1c78f6d8d023fbde891e211a"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/aso-da-no-preparation-v1/test_aso_da_no_writer_comparison.py",
+      "sha256": "d3c06964a87fa664f70a7a62d7571189273d694e09ede29a07ccd88e035f1975"
+    }
+  ]
+}
