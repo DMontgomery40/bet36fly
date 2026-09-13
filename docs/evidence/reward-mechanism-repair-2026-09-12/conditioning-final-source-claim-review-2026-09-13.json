@@ -1,0 +1,229 @@
+{
+  "agent": "dopamine_sources",
+  "checked_at_utc": "2026-09-13T06:26:51.912564+00:00",
+  "status": "PASS bounded final narrative/scientific claim review",
+  "prior_complete_reading_chain": [
+    {
+      "path": "output/collaboration/reward-mechanism-repair/localization-neuprint-ipv4-reading-and-audit-receipt-2026-09-13.json",
+      "bytes": 34528,
+      "sha256": "95c8ce1c8efd8f507a65c42829b0218ea3a1e599381c5d92abf2cf54d1c50115"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/localization-next-decision-reading-receipt-2026-09-13.json",
+      "bytes": 4666,
+      "sha256": "84f84bde4b162555690025396163236247115fce9fedfa964f1b394862f26288"
+    }
+  ],
+  "new_or_changed_narratives_personally_read": [
+    {
+      "path": "docs/FLY_GUIDE.md",
+      "bytes": 25741,
+      "sha256": "44a14be8f42b7447ba2f9610c8a9a79204abeb1cacfe8cfba4586dd029e75c09"
+    },
+    {
+      "path": "docs/REWARD_REPAIR_HANDOFF.md",
+      "bytes": 31037,
+      "sha256": "a8776beee1313da8ed1cc960508e472aab8e422cabc618ca8557f3c9ac58a7cc"
+    },
+    {
+      "path": "docs/api-contract.md",
+      "bytes": 30619,
+      "sha256": "23cd9e1d39bb6c22fa55325998a705187d7efde264c933c952446bdcbc79c9d4"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-acceptance-2026-09-13.md",
+      "bytes": 6342,
+      "sha256": "52bc4091af427da392f6819b042e6ce7fdc78653b9e8c7056842092aa085fece"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-independent-review-2026-09-13.md",
+      "bytes": 6606,
+      "sha256": "b3dbcd88348468a7a6c99886de627f2bc3b2d3a03d2bbc2577416551001fecd8"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/index.md",
+      "bytes": 18113,
+      "sha256": "ec36f05e42dcad975f4c1c59077dc716fbc97005b2b4da9073ec3d9679f73e5b"
+    },
+    {
+      "path": "wiki/cells/synapse-localization.md",
+      "bytes": 6179,
+      "sha256": "215e766c5f9988e66035d1c2c57113eb80ec37cae9c65c88c556796d2b21f3d9"
+    },
+    {
+      "path": "wiki/index.md",
+      "bytes": 3774,
+      "sha256": "51c2bc21e484977d1bd89a9f0d0b4c8f846ca10458a8da1222d81233779286e2"
+    },
+    {
+      "path": "wiki/reassessment.md",
+      "bytes": 10813,
+      "sha256": "6c0c9de8c5828ad45e5b2af029b3e434a6a8a8a257aff2066bdf7b4963951c0a"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/conditioning-independent-compact-contract.md",
+      "bytes": 7932,
+      "sha256": "f13b898c17a7a13029bfde65cd04d8cf4c01a5211b2442579b44c18a72d30564"
+    }
+  ],
+  "reading_scope": "Full current pages read, including both 06:21 and 06:00 handoff sections and preserved history; corrected cell timing sentence and final acceptance verification/whitespace paragraph read after root edits. Prior complete narrative reading remains linked. The new working compact-storage contract was also read in full.",
+  "exact_copy_deduplication": [
+    {
+      "personally_authored_and_read_original": {
+        "path": "output/collaboration/reward-mechanism-repair/localization-neuprint-ipv4-report-2026-09-13.md",
+        "bytes": 6529,
+        "sha256": "14dd6bf1226d6ab1d81d87b38ec8a33052d9662e18b58aa6bb24619bdf422c1e"
+      },
+      "byte_identical_copy": {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/localization-neuprint-ipv4-report-2026-09-13.md",
+        "bytes": 6529,
+        "sha256": "14dd6bf1226d6ab1d81d87b38ec8a33052d9662e18b58aa6bb24619bdf422c1e"
+      }
+    },
+    {
+      "personally_authored_and_read_original": {
+        "path": "output/collaboration/reward-mechanism-repair/localization-next-decision-synthesis-2026-09-13.md",
+        "bytes": 9532,
+        "sha256": "75e5c63009a61344623c16672fe15ad1e4b938634523d6808ef2b8c33d8e8772"
+      },
+      "byte_identical_copy": {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/localization-next-decision-synthesis-2026-09-13.md",
+        "bytes": 9532,
+        "sha256": "75e5c63009a61344623c16672fe15ad1e4b938634523d6808ef2b8c33d8e8772"
+      }
+    }
+  ],
+  "narrative_paths_reconciled": 146,
+  "unread_narrative_deltas": [],
+  "machine_receipts_inspected_programmatically": [
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-actual-entry-refusal-2026-09-13.json",
+      "bytes": 748,
+      "sha256": "d8953e1a0ad5db47930886f0d9f3b49d23dcb274bb015a49f1f1d9bc7cb0d367"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-writer-release-2026-09-13.json",
+      "bytes": 4408,
+      "sha256": "92d9b18a1758c3c9b9af01c8f085d9532f99dc512d64154ad580413ed2450d72"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-source-copy-verification-2026-09-13.json",
+      "bytes": 1756,
+      "sha256": "1c294870a593be5061665333946af157ee0600243b248072cbad019d4250a3c0"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-independent-reading-review-2026-09-13.json",
+      "bytes": 60812,
+      "sha256": "8cb91481b5a104f1a5771ac7bc3199ff39601101d84f5c10270b9a9fd15611ab"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-writer-reading-review-2026-09-13.json",
+      "bytes": 43040,
+      "sha256": "2d34582f8eb90f23abcd78cdc9d0d2384891410ca9d36e9bc051074315f0c545"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-independent-finalization-supplement-2026-09-13.json",
+      "bytes": 3802,
+      "sha256": "29238600164e9cdd30880de8a5b6d2d1c93487ae3a4d101c9cdef9b7d4ed521e"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-qa-baseline-2026-09-13.json",
+      "bytes": 241670,
+      "sha256": "ca8dd243b2b8d4c09595124581eb1eb6212edacaf96acff94e6f352a7ec60f1f"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-qa-after-requests-2026-09-13.json",
+      "bytes": 300,
+      "sha256": "3a8231207de57c59544d1562169c8dbedbf4297133aa98667f185b0d2e84871c"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-qa-after-shutdown-2026-09-13.json",
+      "bytes": 300,
+      "sha256": "6e4ababf1cc530101ab597a1513792c9231dd8b0c687f705028bc30d5b1d04d0"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-protected-final-2026-09-13.json",
+      "bytes": 296,
+      "sha256": "657c8642302945dcdbf081cec90b866fd47c6183e0a399676667266eadeb3cc4"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-browser-2026-09-13/bet36fly-reward-browser-evidence.json",
+      "bytes": 7014,
+      "sha256": "618f9eaa162132807fa5c7cd79b401e9ed3356b222ba28e1fcae8fff7229c3cd"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-make-verify-2026-09-13.txt",
+      "bytes": 6295,
+      "sha256": "a5a015b2c0410e67b1a8a6e50e989f468d413cfe7b72bc80f836ada22be2a480"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-acceptance-copy-2026-09-13.json",
+      "bytes": 7167,
+      "sha256": "4e063b053d7753870e65f01f0ac3895dfb5fce7f2d7ded37d94b7206980bdc68"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-final-verification-2026-09-13.json",
+      "bytes": 1180,
+      "sha256": "287407149054dbd1a25653bd8c698f45fe8dda54bb449bc057c7676da4d19618"
+    }
+  ],
+  "fresh_rehash_checks": {
+    "release_files": 25,
+    "study_source_copy_pairs": 237,
+    "study_bytes": 14403604,
+    "acceptance_source_copy_pairs": 19,
+    "microduck_original_snapshot_files": 59,
+    "microduck_sources_still_exist": 59
+  },
+  "receipt_claims_recomputed": {
+    "qa_baseline_files": 791,
+    "qa_baseline_bytes": 5497884182,
+    "after_requests_and_shutdown_report_no_file_or_inventory_changes": true,
+    "original_protected_snapshot_files": 710,
+    "original_protected_snapshot_bytes": 5494080358,
+    "actual_failed_pair_id": "b16d9b39d7fd3057",
+    "actual_factory_calls": 0,
+    "experiment_inventory_unchanged": true,
+    "browser_actual_detail_matches": 4,
+    "browser_labeled_synthetic_scenarios": 20,
+    "browser_hash_matched_downloads": 8,
+    "browser_javascript_errors": 0,
+    "browser_widths": [
+      320,
+      390,
+      540,
+      720,
+      1024
+    ],
+    "standard_python_tests_from_log": 4055,
+    "standard_frontend_tests_from_log": 85,
+    "ruff_and_build_from_log": "passed",
+    "independent_plan_and_test_counts_match_report": true,
+    "full_cns_conditioning_claim": false
+  },
+  "root_consolidated_receipt_read": {
+    "copy_pairs": 264,
+    "copy_bytes": 17938587,
+    "release_files": 25,
+    "links_at_recorded_boundary": 241,
+    "qualification": false,
+    "actual_conditioning_runs": 0,
+    "goal_complete": false,
+    "upstream_payload_whitespace_preserved": true
+  },
+  "findings": [
+    {
+      "file": "wiki/cells/synapse-localization.md",
+      "issue": "14.005-second deadline confused measured wall time with frozen active timer.",
+      "resolution": "Root corrected to no complete response before active deadline; attempt ended after14.005seconds. Current sentence personally read and hash bound.",
+      "status": "resolved"
+    }
+  ],
+  "actionable_findings_remaining": [],
+  "scientific_scope": "Software acceptance, fake-engine and tiny native fixture evidence are kept distinct from measured MaleCNS learning. Both real qualification rules and both offline shadows remain failed; no acquisition/reversal or local release/receptor/exposure law is claimed. Partners-only selection is a complete proposed anatomical predicate, not retrieved coordinates or proven cheap access.",
+  "limitations": "Reviewed copied machine receipts and logs; did not independently rerun tests/browser, rehash all5.5GB protected inputs or re-observe server process exit. Root owns those acceptance observations. Initial local audit asserted a uniform browser fixture source label; actual receipt uses five explicit fixture descriptions. All20verified entries were then checked against those observed labels; this was a review-script assumption, not a product defect.",
+  "new_network_requests": 0,
+  "new_simulation_calls": 0,
+  "production_edits": 0,
+  "prior_frozen_artifacts_modified": false
+}

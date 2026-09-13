@@ -1,0 +1,12 @@
+{
+  "slot": 2,
+  "url": "https://storage.googleapis.com/flyem-male-cns/v1.0/connectome-data/flat-connectome/syn-partners-male-cns-v1.0-minconf-0.5.feather",
+  "range": "bytes=-262144",
+  "plan_sha256": "e335feb7d23c7785e13a7b05caca5d884e6a622b4c0d32c98aa0158ce7c7f2f5",
+  "started_at_utc": "2026-09-13T05:11:29.778448+00:00",
+  "status": "attempted",
+  "payload_bytes": 0,
+  "header_bytes": 0,
+  "max_payload_bytes": 262144,
+  "max_seconds": 14
+}

@@ -1,0 +1,18 @@
+{
+  "copied_at": "2026-09-13T06:09:19.793182+00:00",
+  "policy": "Copy, not move; review records its actual boundary, later writer changes require separate verification.",
+  "files": [
+    {
+      "source": "output/collaboration/reward-mechanism-repair/conditioning-independent-review-2026-09-13.md",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-independent-review-2026-09-13.md",
+      "bytes": 6606,
+      "sha256": "b3dbcd88348468a7a6c99886de627f2bc3b2d3a03d2bbc2577416551001fecd8"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/conditioning-independent-reading-review-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-independent-reading-review-2026-09-13.json",
+      "bytes": 60812,
+      "sha256": "8cb91481b5a104f1a5771ac7bc3199ff39601101d84f5c10270b9a9fd15611ab"
+    }
+  ]
+}

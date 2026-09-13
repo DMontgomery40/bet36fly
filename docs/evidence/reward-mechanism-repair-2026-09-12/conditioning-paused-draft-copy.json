@@ -1,0 +1,9 @@
+{
+  "copied_at": "2026-09-13T05:50:39.010003+00:00",
+  "purpose": "Preserved historical counterexample for standard regression tests; not production code or an authorized runner.",
+  "source": "output/collaboration/reward-mechanism-repair/task3-draft/conditioning.py",
+  "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-paused-draft.py",
+  "bytes": 26984,
+  "sha256": "4f30fd52cfa7de8350876961465e66cb6e131859799be8f87fcd320310eb3903",
+  "source_preserved": true
+}

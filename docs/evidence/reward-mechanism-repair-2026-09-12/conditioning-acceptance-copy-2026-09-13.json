@@ -1,0 +1,120 @@
+{
+  "copied_at": "2026-09-13T06:20:05.010421+00:00",
+  "policy": "Copy, not move; all original output artifacts preserved.",
+  "files": [
+    {
+      "source": "output/collaboration/reward-mechanism-repair/conditioning-make-verify-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-make-verify-2026-09-13.txt",
+      "bytes": 6295,
+      "sha256": "a5a015b2c0410e67b1a8a6e50e989f468d413cfe7b72bc80f836ada22be2a480"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/conditioning_verify_qa_files.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning_verify_qa_files.py",
+      "bytes": 2973,
+      "sha256": "1dceaea554a2f8317c7f990a0b7cda29d4b3a33a693f68647c761a1cb9b5c5e0"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/conditioning-qa-baseline-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-qa-baseline-2026-09-13.json",
+      "bytes": 241670,
+      "sha256": "ca8dd243b2b8d4c09595124581eb1eb6212edacaf96acff94e6f352a7ec60f1f"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/conditioning-qa-after-requests-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-qa-after-requests-2026-09-13.json",
+      "bytes": 300,
+      "sha256": "3a8231207de57c59544d1562169c8dbedbf4297133aa98667f185b0d2e84871c"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/conditioning-qa-after-shutdown-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-qa-after-shutdown-2026-09-13.json",
+      "bytes": 300,
+      "sha256": "6e4ababf1cc530101ab597a1513792c9231dd8b0c687f705028bc30d5b1d04d0"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/conditioning-protected-final-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-protected-final-2026-09-13.json",
+      "bytes": 296,
+      "sha256": "657c8642302945dcdbf081cec90b866fd47c6183e0a399676667266eadeb3cc4"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/conditioning-browser-2026-09-13/bet36fly-mechanism-desktop.png",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-browser-2026-09-13/bet36fly-mechanism-desktop.png",
+      "bytes": 221650,
+      "sha256": "5c7bbe40789be2881a6cb13879550bb52574ae9687692741bcefb6ada3552e91"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/conditioning-browser-2026-09-13/bet36fly-reward-arm.png",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-browser-2026-09-13/bet36fly-reward-arm.png",
+      "bytes": 99333,
+      "sha256": "37b49897326af44116b0ac520b10158c1490f79777c97d23f69f9cb835ce9d89"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/conditioning-browser-2026-09-13/bet36fly-reward-browser-evidence.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-browser-2026-09-13/bet36fly-reward-browser-evidence.json",
+      "bytes": 7014,
+      "sha256": "618f9eaa162132807fa5c7cd79b401e9ed3356b222ba28e1fcae8fff7229c3cd"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/conditioning-browser-2026-09-13/bet36fly-reward-desktop.png",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-browser-2026-09-13/bet36fly-reward-desktop.png",
+      "bytes": 545108,
+      "sha256": "4119994a0182410ed41f39116924bc8c81404880eb848c5589a0d119c41acb28"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/conditioning-browser-2026-09-13/bet36fly-reward-gate-failed.png",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-browser-2026-09-13/bet36fly-reward-gate-failed.png",
+      "bytes": 424417,
+      "sha256": "7cb6c710955f0b28123e686a2b8d631684ae0b50f08aa92f8eec66d0477ed43d"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/conditioning-browser-2026-09-13/bet36fly-reward-gate-passed.png",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-browser-2026-09-13/bet36fly-reward-gate-passed.png",
+      "bytes": 694389,
+      "sha256": "292ffdf76b3c2b074d04fb6d64246ba8f3f970d67b85f4ed6a1d185a398e0c8a"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/conditioning-browser-2026-09-13/bet36fly-reward-mobile-arm.png",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-browser-2026-09-13/bet36fly-reward-mobile-arm.png",
+      "bytes": 84640,
+      "sha256": "a380b745435638fa38b480f742cf97c869e38e831c1971f8e69903f2bf347ad4"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/conditioning-browser-2026-09-13/bet36fly-reward-mobile.png",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-browser-2026-09-13/bet36fly-reward-mobile.png",
+      "bytes": 103709,
+      "sha256": "e1fe8dad48e115009fb4f10c0235c57a7b7501153ac109daf74dd1319b28c010"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/conditioning-browser-2026-09-13/bet36fly-reward-raw-gamma-fixture.png",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-browser-2026-09-13/bet36fly-reward-raw-gamma-fixture.png",
+      "bytes": 325031,
+      "sha256": "fe6a3130a6505cfa020c8ed1d9e808f09f0be536ea1698937db87f4663953cbd"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/conditioning-browser-2026-09-13/diag-candidate-maskgamma-29c766f95f82-detail.png",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-browser-2026-09-13/diag-candidate-maskgamma-29c766f95f82-detail.png",
+      "bytes": 121467,
+      "sha256": "dd4bc02ae0a10aae9994bca67e4295388d21b939a2cbe8b929ccc452aec45766"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/conditioning-browser-2026-09-13/diag-candidate-maskgamma-e3d8898dc68a-detail.png",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-browser-2026-09-13/diag-candidate-maskgamma-e3d8898dc68a-detail.png",
+      "bytes": 121771,
+      "sha256": "ef4b783acf421f16c3a936273917e7d11706b541a380a1824158c8924b800460"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/conditioning-browser-2026-09-13/diag-rate-bridge-v1-maskgamma-de050d773763-detail.png",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-browser-2026-09-13/diag-rate-bridge-v1-maskgamma-de050d773763-detail.png",
+      "bytes": 194362,
+      "sha256": "af25bc0b2a162c92c555bf6a6f6040c1e850869f1edf03375734fb1f240be085"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/conditioning-browser-2026-09-13/diag-rate-bridge-v1-maskgamma-dea14759e9ca-detail.png",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-browser-2026-09-13/diag-rate-bridge-v1-maskgamma-dea14759e9ca-detail.png",
+      "bytes": 193331,
+      "sha256": "0129913351b7227a211872b9793f7fd2d2723f0655e6d0cf32e609d4a8b3ec91"
+    }
+  ]
+}

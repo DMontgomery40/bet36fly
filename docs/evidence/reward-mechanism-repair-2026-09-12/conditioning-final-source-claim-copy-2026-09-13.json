@@ -1,0 +1,11 @@
+{
+  "copied_at": "2026-09-13T06:28:01.350829+00:00",
+  "files": [
+    {
+      "source": "output/collaboration/reward-mechanism-repair/conditioning-final-source-claim-review-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-final-source-claim-review-2026-09-13.json",
+      "bytes": 10279,
+      "sha256": "0b95b24a8b8450297b483a4514e00c651f603dda48ca3227cd0f2b94baae669d"
+    }
+  ]
+}

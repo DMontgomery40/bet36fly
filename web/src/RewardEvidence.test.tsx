@@ -158,3 +158,18 @@ it('tolerates incomplete recorded bridge metadata and labels retained conditioni
   expect(html).toContain('Registry refresh failed.');
   expect(html).toContain('h — ms');
 });
+
+it.each(['passed', 'failed', 'incomplete', 'unverified'] as const)('renders independently validated conditioning state %s separately from execution', evidence => {
+  const run: Experiment = { id: 'synthetic-conditioning-validation', kind: 'dopamine-conditioning', status: 'completed',
+    created_at: '', updated_at: '', jobs: [{ id: 'acquisition-primary', status: 'completed', completed: 616, total: 616 } as Experiment['jobs'][0]], artifacts: {},
+    conditioning_validation: { validation_status: evidence === 'unverified' ? 'invalid' : 'validated', evidence_status: evidence,
+      all_passed: evidence === 'passed' ? true : null, validated_calls: evidence === 'passed' ? 1632 : 616, error: null,
+      note: 'Synthetic fixture: retained cue-window counts and native electrical/tail group observations.',
+      stages: evidence === 'passed' ? Object.fromEntries(['acquisition-primary', 'acquisition-challenge', 'reversal'].map(name => [name, { all_passed: true }])) : { 'acquisition-primary': { all_passed: false } } },
+  };
+  const html = view({ experiments: { ...experiments, experiments: [run] } });
+  expect(html).toContain(`Conditioning scientific verdict: ${evidence}`);
+  expect(html).toContain('616 / 616');
+  expect(html).toContain('native electrical/tail group observations');
+  if (evidence === 'unverified') expect(html).not.toContain('Recomputed passed');
+});

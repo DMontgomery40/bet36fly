@@ -85,6 +85,17 @@ incomplete plan, frozen-gain/bound and empty-replay validation. Its numerical
 counterexamples are software review evidence; the draft remains unintegrated and
 must gain the full frozen-contract tests before use.
 
+The September 13 [harness implementation contract](conditioning-implementation-contract.md)
+records the production repair: exact ordered calls, all-parent
+reversal entry, per-seed/mean scoring distinctions, complete numerical replay,
+checkpoint isolation and independently checked artifacts. The original draft
+and both scientific preregistration documents remain preserved. No conditioning
+measurement has been made; the current failed mechanism pair must be refused
+before constructing an engine. The [completed software acceptance](conditioning-acceptance-2026-09-13.md)
+passes 4,055 Python tests, 85 frontend tests, Ruff/build and the guarded browser
+workflow. The actual failed pair is refused with zero engine-factory calls;
+this is no new conditioning measurement.
+
 The completed [dopamine signal source investigation](dopamine-signal-sources-resumed.md)
 records eight primary-source entries with access limits and checks all 14,551
 retained outgoing pairs from the selected DANs. Both PPL101 cells contact both
@@ -100,7 +111,34 @@ The [bounded neuPrint access check](localization-access-report.md) subsequently
 received no HTTP status or coordinates: one sandbox DNS failure and two
 network-enabled timeouts. Authentication and live dataset metadata remain
 undetermined; this is not evidence that the service is globally unavailable.
-The [fixed rate-adaptation screen](rate-adaptation-shadow-result.md) subsequently
+The subsequent [official-file range inspection](localization-range-report-2026-09-13.md)
+received both complete synapse-file footers and checked all 10,214 record-batch
+locations. Six requests consumed 813,653 response bytes in 58.843649 seconds;
+the first request exceeded its individual 15-second cap by 0.202552 seconds,
+which remains an explicit execution exception. No synapse rows were decoded
+and no body-selection index was established. The [cell-specific account](../../../wiki/cells/synapse-localization.md)
+distinguishes this metadata from local dopamine exposure. The [copy manifest](localization-range-copy-manifest-2026-09-13.json)
+preserves the original report, complete receipts, source versions and offline
+protocol tests; 11 tests passed from the copied location.
+A separate [version-pinned first-batch metadata check](localization-batch-metadata-report-2026-09-13.md)
+then completed three requests totaling 11,890 response bytes in 0.720422 seconds,
+within every declared cap. It identifies exact unread body-column buffer
+locations and 65,536 rows in each first batch. All 97 protocol/parser tests
+pass from their [copied evidence](localization-batch-metadata-copy-manifest-2026-09-13.json).
+It does not establish complete body selection, global transfer cost, locations
+of the selected cells or local dopamine exposure.
+The [IPv4 neuPrint transport check](localization-neuprint-ipv4-report-2026-09-13.md)
+completed DNS, TCP and TLS, then stopped at 14.005163 seconds without a complete
+HTTP response. Only the first request ran; all declared caps were met and the
+conditional dataset request was skipped. Fifty copied offline client tests
+passed. This does not establish an authentication or dataset condition.
+The [offline next-decision synthesis](localization-next-decision-synthesis-2026-09-13.md)
+narrows the useful anatomical deliverable to a complete partners-only export
+of all PPL101 outputs or MBON11 inputs. Its coordinates could describe contact
+geometry without a distance cutoff or exposure weights. The compressed cost
+of a complete predicate scan remains unknown; no further request, selected-row
+export or local plasticity candidate has been executed.
+The separately completed [fixed rate-adaptation screen](rate-adaptation-shadow-result.md)
 completed all 32 declared saved histories in 50.4832 seconds, with zero circuit
 calls and unchanged inputs. It failed all four home guards through excessive
 potentiation: second/base home mean +2.638301402, absolute limit 1.113471909.
@@ -118,8 +156,10 @@ study remains separately documented here. Final verification passed 970 Python t
 frontend tests, Ruff/build and the actual guarded browser workflow, including
 stale/retry recovery and the unchanged failed bridge pair. All 782 protected
 files and inventories matched after requests and shutdown. This completes the
-current diagnostic presentation; a qualified mechanism, conditioning runner
-and independent conditioning artifact validator remain unfinished.
+diagnostic presentation at that earlier boundary. The subsequent
+[conditioning runner and artifact reader acceptance](conditioning-acceptance-2026-09-13.md)
+is complete as software; a qualified mechanism and measured conditioning/reversal
+remain unfinished.
 
 - [Historical diagnostic copies](historical-diagnostic-copies.json) retain the failed earlier results under their original identities.
 - [Dated correlation erratum](lag-profile-erratum.json): the historical mean fine-lag cross-correlation peaks at 0.054121782 at +3 ms, rather than the 0.037 stated in the old prose. The weak correlation does not identify a causal anatomical path.

@@ -1,0 +1,45 @@
+{
+  "checked_at": "2026-09-13T06:24:12.055937+00:00",
+  "copied_pairs_verified": 265,
+  "copied_bytes": 17948866,
+  "production_release_files_unchanged": 25,
+  "changed_narratives": 17,
+  "local_links_checked": 242,
+  "missing_links": [],
+  "standard_verify": {
+    "pytest": 4055,
+    "vitest": 85,
+    "ruff": "passed",
+    "build": "passed"
+  },
+  "browser": {
+    "synthetic_scenarios": 20,
+    "actual_diagnostic_details": 4,
+    "hash_matched_downloads": 8,
+    "javascript_errors": 0,
+    "read_only_server_stopped": true
+  },
+  "qa_protected_files": 791,
+  "pre_implementation_protected_files": 710,
+  "atlas_tables": 3,
+  "copied_access_protocol_parser_tests": 158,
+  "scientific_qualification": false,
+  "actual_conditioning_runs": 0,
+  "goal_complete": false,
+  "staged_whitespace_check": {
+    "authored_and_non_payload_files": "passed",
+    "preserved_upstream_whitespace": [
+      "localization-range-probe-2026-09-13/payload-04.bin",
+      "localization-range-probe-2026-09-13/payload-05.bin",
+      "localization-range-probe-2026-09-13/payload-06.bin"
+    ],
+    "policy": "Original downloaded payload bytes are hash-bound evidence and are not reformatted."
+  },
+  "final_checked_at": "2026-09-13T06:28:01.386291+00:00",
+  "final_source_claim_review": {
+    "source": "output/collaboration/reward-mechanism-repair/conditioning-final-source-claim-review-2026-09-13.json",
+    "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-final-source-claim-review-2026-09-13.json",
+    "bytes": 10279,
+    "sha256": "0b95b24a8b8450297b483a4514e00c651f603dda48ca3227cd0f2b94baae669d"
+  }
+}

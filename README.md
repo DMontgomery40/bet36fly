@@ -1,6 +1,6 @@
 # BET36FLY
 
-Read the [fly cell and circuit wiki](wiki/index.md) for the [current reassessment](wiki/reassessment.md), exact neuron identities, learning-rule limits, and the copied Microduck fly research. The working checkout is schema 3; the raw-dopamine repair remains in a separate worktree and has not passed SCI-001. No repaired learning or sports-success claim is established.
+Read the [fly cell and circuit wiki](wiki/index.md) for the [current reassessment](wiki/reassessment.md), exact neuron identities, learning-rule limits, and the copied Microduck fly research. The refractory correction, gamma away eligibility mask and rate-bridge candidate are integrated in this checkout. Both the corrected raw rule and rate bridge fail the second mechanism panel; two subsequent saved-history hypotheses were also rejected. [Current repair evidence](docs/evidence/reward-mechanism-repair-2026-09-12/index.md) records SCI-001 HOLD. Conditioning and reversal have not run, and no repaired learning or sports-success claim is established.
 
 A working paper-sports experiment driven by the **actual MaleCNS v1.0 fly connectome**: 166,700 modeled neurons, 25,582,938 directed connections and 124,177,617 synaptic contacts. The full spiking network runs on CPU. Real training modifies existing anatomical synapses and fits a readout to its recorded spikes. No language model selects the games.
 
@@ -24,9 +24,14 @@ The draw audit checks every frozen soccer test prediction: average draw probabil
 make serve
 ```
 
-Visit [BET36FLY on localhost](http://127.0.0.1:8765). The app serves the built frontend and API on one local port. Use **Watch brain** for a fixture to run the real checkpoint and replay its recorded 80 ms of spikes. **Training** shows the real v2 run registry, selectable run details, sport/split comparisons and prospective status, followed by the archived v1 reference. **Pick ledger** exports every proposed pick as CSV. **Refresh games** fetches current schedules and computes new paper picks; it also revisits the previous 14 days to capture final results.
+Visit [BET36FLY on localhost](http://127.0.0.1:8765). The app serves the built frontend and API on one local port. Use **Watch brain** for a fixture to run the real checkpoint and replay its recorded 80 ms of spikes. **Training** shows mechanism diagnostics and their qualification evidence, distinguishing stored verdicts from independently recomputed results. It also retains the historical reward/v2 registries, selectable run details, sport/split comparisons and prospective status, followed by the archived v1 reference. **Pick ledger** exports every proposed pick as CSV. **Refresh games** fetches current schedules and computes new paper picks; it also revisits the previous 14 days to capture final results.
 
 The server loads the current model from `output/current-model.json`, verifies its hash, and warms upcoming picks. If training is still running, the interface shows that state and waits for the checkpoint. No dummy model or fake results are substituted. In the Observatory, the anatomy legend filters the display; explanation buttons and the searchable neuron selector open detailed inspectors. These controls never change the prediction. Close the server with Ctrl-C.
+
+For QA, rebuild the frontend and start `make serve-verify`. This explicit
+read-only server disables model warming and sports refresh. The guarded
+`scripts/verify_reward_browser.cjs` check requires that verification server;
+ordinary `make serve` is the user app and can refresh live paper-pick data.
 
 ## Reproduce from source
 
@@ -110,7 +115,7 @@ Completed diagnostic reports, source snapshots and session notes may be retained
 make verify
 ```
 
-The Python suite covers graph integrity, spike propagation, inhibition/refractory behavior, deterministic replay, anatomical plasticity, temporal leakage, reschedules, source failure state, checkpoint-array readout roundtrip, API contracts and ledger durability. Browser acceptance additionally checks actual fixture selection → full brain inference → recorded spike replay → training results → ledger/export. A successful build alone is not that acceptance. The final stronger-L2 gate passed 240 Python tests, 49 frontend tests, Ruff and the production build. All 453 protected pre-existing files remained byte-for-byte unchanged. Earlier desktop/mobile browser checks remain valid; no new inference was run during the diagnostic. [Verification and scope](docs/MODEL_CARD.md#verification-and-acceptance) distinguish the completed diagnostic from the paused matrix.
+The Python suite covers graph integrity, spike propagation, inhibition/refractory behavior, deterministic replay, anatomical plasticity, temporal leakage, reschedules, source failure state, checkpoint-array readout roundtrip, API contracts and ledger durability. The repair adds independent numerical oracles, masks, electrical/tail bound observations and persisted-evidence validation. Browser acceptance additionally checks the actual affected workflow; a successful build alone is not that acceptance. See the [dated repair checks](docs/evidence/reward-mechanism-repair-2026-09-12/index.md#preserved-evidence-and-execution-exception) for current evidence and limitations. The historical stronger-L2 gate passed 240 Python tests, 49 frontend tests, Ruff and the production build while preserving 453 files; those counts describe that earlier diagnostic. [Verification and scope](docs/MODEL_CARD.md#verification-and-acceptance) distinguish the completed decoder diagnostic from the paused matrix.
 
 ## Fly’s desk
 

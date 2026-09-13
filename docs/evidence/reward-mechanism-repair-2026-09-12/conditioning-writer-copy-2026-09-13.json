@@ -1,0 +1,24 @@
+{
+  "copied_at": "2026-09-13T06:16:21.989912+00:00",
+  "release_files_verified": 25,
+  "files": [
+    {
+      "source": "output/collaboration/reward-mechanism-repair/conditioning-writer-release-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-writer-release-2026-09-13.json",
+      "bytes": 4408,
+      "sha256": "92d9b18a1758c3c9b9af01c8f085d9532f99dc512d64154ad580413ed2450d72"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/conditioning-writer-reading-review-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-writer-reading-review-2026-09-13.json",
+      "bytes": 43040,
+      "sha256": "2d34582f8eb90f23abcd78cdc9d0d2384891410ca9d36e9bc051074315f0c545"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/conditioning-writer-current-reading-inventory.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-writer-current-reading-inventory.json",
+      "bytes": 27931,
+      "sha256": "430d232cc8dcfc9ca366495a3264e6aef52387d2e779f4b16be828693f8cdab6"
+    }
+  ]
+}

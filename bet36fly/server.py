@@ -17,6 +17,7 @@ from .connectome import ROOT
 from .runtime import Runtime, read_json
 from .ledger import ReadOnlyDatabaseError
 from .experiments import list_experiments, read_experiment, resolve_artifact
+from .conditioning_evidence import present_conditioning
 from .reward_evidence import list_reward_evidence, read_reward_evidence
 
 
@@ -129,7 +130,7 @@ def create_app(root=ROOT, warm_on_start=True, *, read_only=False):
     @app.get('/api/experiments')
     def experiments():
         runtime = get_runtime()
-        return {'experiments': list_experiments(root / 'output/experiments'),
+        return {'experiments': [present_conditioning(root,m) for m in list_experiments(root / 'output/experiments')],
                 'active_v1': read_json(root / 'output/current-model.json', None),
                 'prospective': runtime.shadow.status()}
 
@@ -137,7 +138,7 @@ def create_app(root=ROOT, warm_on_start=True, *, read_only=False):
     def experiment_detail(experiment_id: str):
         try:
             runtime = get_runtime()
-            return dict(read_experiment(root / 'output/experiments', experiment_id),
+            return dict(present_conditioning(root,read_experiment(root / 'output/experiments', experiment_id)),
                         prospective=runtime.shadow.status())
         except (ValueError, OSError) as exc:
             raise HTTPException(404, str(exc)) from exc

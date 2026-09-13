@@ -1,0 +1,10 @@
+{
+  "checked_at": "2026-09-13T06:19:24.207372+00:00",
+  "baseline": "output/collaboration/reward-mechanism-repair/conditioning-qa-baseline-2026-09-13.json",
+  "files_checked": 791,
+  "file_changes": {},
+  "inventory_changed": false,
+  "added_entries": [],
+  "removed_entries": [],
+  "passed": true
+}

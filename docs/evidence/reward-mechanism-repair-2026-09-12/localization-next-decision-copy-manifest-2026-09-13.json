@@ -1,0 +1,18 @@
+{
+  "copied_at": "2026-09-13T05:59:47.664162+00:00",
+  "policy": "Copy, not move; original evidence preserved.",
+  "files": [
+    {
+      "source": "output/collaboration/reward-mechanism-repair/localization-next-decision-synthesis-2026-09-13.md",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/localization-next-decision-synthesis-2026-09-13.md",
+      "bytes": 9532,
+      "sha256": "75e5c63009a61344623c16672fe15ad1e4b938634523d6808ef2b8c33d8e8772"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/localization-next-decision-reading-receipt-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/localization-next-decision-reading-receipt-2026-09-13.json",
+      "bytes": 4666,
+      "sha256": "84f84bde4b162555690025396163236247115fce9fedfa964f1b394862f26288"
+    }
+  ]
+}

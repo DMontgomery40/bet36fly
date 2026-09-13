@@ -1,0 +1,13 @@
+{
+  "checked_at_utc": "2026-09-13T05:44:32.481955+00:00",
+  "copied_files": 52,
+  "copied_bytes": 2277904,
+  "all_source_copy_hashes_match": true,
+  "batch_plan_input_bindings_match": 9,
+  "complete_metadata_reproductions_match": 2,
+  "copied_protocol_parser_tests_passed": 108,
+  "method": "Complete saved-metadata structure comparison using copied parser; protocol tests replace all network. This is reproduction, not a second independent metadata algorithm.",
+  "new_network_requests": 0,
+  "new_circuit_calls": 0,
+  "body_column_payloads_decoded": 0
+}

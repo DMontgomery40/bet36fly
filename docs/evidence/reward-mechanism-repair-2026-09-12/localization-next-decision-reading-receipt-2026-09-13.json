@@ -1,0 +1,102 @@
+{
+  "agent": "dopamine_sources",
+  "checked_at_utc": "2026-09-13T05:54:02.150834+00:00",
+  "status": "bounded_offline_synthesis_complete",
+  "prior_reading_receipt": {
+    "path": "output/collaboration/reward-mechanism-repair/localization-neuprint-ipv4-reading-and-audit-receipt-2026-09-13.json",
+    "bytes": 34528,
+    "sha256": "95c8ce1c8efd8f507a65c42829b0218ea3a1e599381c5d92abf2cf54d1c50115"
+  },
+  "new_narrative_read_in_full": {
+    "path": "docs/api-contract.md",
+    "bytes": 30528,
+    "sha256": "d1047b7a542863bcd61147d868465b8fc423818f765bc4ed14063d479a77f7d7"
+  },
+  "previously_read_current_scope_documents": [
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-implementation-contract.md",
+      "bytes": 7374,
+      "sha256": "2b26b2f9e45a2f4f664eb2d3684a4265281f082b8af576303ccf086da0c04937"
+    },
+    {
+      "path": "wiki/cells/dopamine.md",
+      "bytes": 6945,
+      "sha256": "5d33a6e094f02e80b08742ff1c67cf3359aa73e312421701112bf3ec16e76e7d"
+    },
+    {
+      "path": "wiki/cells/synapse-localization.md",
+      "bytes": 4465,
+      "sha256": "114aef59d02f9ca15a94598f85e5ff13d3fea8595753cc1be7647e5dc06495f8"
+    }
+  ],
+  "exact_copy_deduplication": {
+    "source": {
+      "path": "output/collaboration/reward-mechanism-repair/localization-neuprint-ipv4-report-2026-09-13.md",
+      "bytes": 6529,
+      "sha256": "14dd6bf1226d6ab1d81d87b38ec8a33052d9662e18b58aa6bb24619bdf422c1e"
+    },
+    "copy": {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/localization-neuprint-ipv4-report-2026-09-13.md",
+      "bytes": 6529,
+      "sha256": "14dd6bf1226d6ab1d81d87b38ec8a33052d9662e18b58aa6bb24619bdf422c1e"
+    }
+  },
+  "inspected_inputs": [
+    {
+      "path": "bet36fly/reward_lif.cpp",
+      "bytes": 19913,
+      "sha256": "e7dbb0aa8f95873036415581e94de45c237941f05642ccc90812c1be1119be37"
+    },
+    {
+      "path": "bet36fly/reward_protocol.py",
+      "bytes": 15356,
+      "sha256": "e1a315f991debb677fca30f6e821a657135adccf032ad26054a00ed7688dc1bb"
+    },
+    {
+      "path": "docs/connectome-source-lock.json",
+      "bytes": 866,
+      "sha256": "df59963b365e4b70450a0ec3861bb845420d660a142cc2c43ad958a9f7767567"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/dopamine-signal-sources-resumed.md",
+      "bytes": 21098,
+      "sha256": "3eb2b28f996b1972444e50676ffcf29aa907a24ef39082f7c6a8883a62bb67b5"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/localization-batch-metadata-report-2026-09-13.md",
+      "bytes": 7326,
+      "sha256": "96210d5c8f9ea49092bf55930d1ddcf6878fcd57b2bb0e236783b7cb0813f09c"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/localization-batch-metadata-2026-09-13/metadata-inspection-02.json",
+      "bytes": 12476,
+      "sha256": "0b92419ccbc5299eb53870d98932125e158a2aadb0afa7e75e6d6aa1e42574f6"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/localization-range-report-2026-09-13.md",
+      "bytes": 10088,
+      "sha256": "3e62b7f039c3796daa9a9ebc4e9d2ec9dfc3ceced9f89b84bb44cd10b40d63e6"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/localization-neuprint-ipv4-report-2026-09-13.md",
+      "bytes": 6529,
+      "sha256": "14dd6bf1226d6ab1d81d87b38ec8a33052d9662e18b58aa6bb24619bdf422c1e"
+    }
+  ],
+  "report": {
+    "path": "output/collaboration/reward-mechanism-repair/localization-next-decision-synthesis-2026-09-13.md",
+    "bytes": 9532,
+    "sha256": "75e5c63009a61344623c16672fe15ad1e4b938634523d6808ef2b8c33d8e8772"
+  },
+  "conclusion": "Partners-only complete PPL101 outgoing OR MBON11 incoming row export can answer contact-endpoint geometry before any local coupling law. Additional point-level/ROI information and release/receptor evidence are distinct needs. Complete selected-row acquisition and compressed transfer cost remain unresolved; neither giant object is automatically required in full.",
+  "documentation_scope_review": "Current cell wiki and 05:42 exact numerical conditioning clarification remain scientifically scoped. New API contract describes software evidence and actual mechanism HOLD; flagged placement of conditioning registry paragraph under diagnostic-detail heading as presentation ambiguity to root.",
+  "requests": 0,
+  "downloads": 0,
+  "new_sources": 0,
+  "candidate_code_changes": 0,
+  "candidate_evaluations": 0,
+  "new_circuit_calls": 0,
+  "production_edits": 0,
+  "prior_frozen_artifacts_modified": false,
+  "verification": "Read-only source/metadata review and content-hash binding; no implementation change needing a new test. Root owns full repository verification."
+}

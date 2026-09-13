@@ -1,0 +1,55 @@
+{
+  "created_at_utc": "2026-09-13T05:08:11.745351+00:00",
+  "status": "frozen-before-network",
+  "questions": [
+    "Do the exact official v1.0 objects return genuine HTTP 206 for suffix ranges, with an unambiguous total length, ETag and generation?",
+    "Do returned bytes contain complete Arrow/Feather footer metadata, schema, record-batch offsets and custom metadata?",
+    "Is a body index, sorted/partitioned body contract, or body-range statistic actually present? Range support alone is insufficient.",
+    "What is the smallest defensible next bounded data request, without inventing anatomical exposure weights?"
+  ],
+  "caps": {
+    "maximum_requests": 6,
+    "maximum_total_response_bytes": 1048576,
+    "maximum_payload_bytes": 983040,
+    "maximum_seconds_per_request": 15,
+    "maximum_network_seconds": 90,
+    "automatic_retries": 0,
+    "redirects_followed": 0
+  },
+  "requests": [
+    {
+      "slot": 1,
+      "url": "https://storage.googleapis.com/flyem-male-cns/v1.0/connectome-data/flat-connectome/syn-points-male-cns-v1.0-minconf-0.5.feather",
+      "range": "bytes=-262144",
+      "maximum_payload_bytes": 262144
+    },
+    {
+      "slot": 2,
+      "url": "https://storage.googleapis.com/flyem-male-cns/v1.0/connectome-data/flat-connectome/syn-partners-male-cns-v1.0-minconf-0.5.feather",
+      "range": "bytes=-262144",
+      "maximum_payload_bytes": 262144
+    },
+    {
+      "slot": 3,
+      "url": "https://raw.githubusercontent.com/apache/arrow/main/format/File.fbs",
+      "maximum_payload_bytes": 32768
+    },
+    {
+      "slot": 4,
+      "url": "https://raw.githubusercontent.com/apache/arrow/main/format/Schema.fbs",
+      "maximum_payload_bytes": 65536
+    },
+    {
+      "slot": 5,
+      "url": "https://docs.cloud.google.com/storage/docs/xml-api/get-object-download",
+      "maximum_payload_bytes": 262144
+    },
+    {
+      "slot": 6,
+      "conditional": "Only if needed: one exact missing-footer range from either already listed object, at most remaining payload budget and at most 98304 bytes. Otherwise official Feather documentation below, at most 65536 bytes. A transport failure may instead use this slot for a one-time explicit repeat of one failed exact URL. Never exceed six requests.",
+      "url_if_no_footer_extension": "https://arrow.apache.org/docs/python/feather.html",
+      "maximum_payload_bytes": 98304
+    }
+  ],
+  "execution": "Explicit GETs with http.client HTTPSConnection, no credentials/cookies/proxy settings, no redirects/retries, Accept-Encoding identity, streaming bounded reads, absolute per-request timer, response and payload accounting persisted per attempt including failures. File requests require 206 and matching Content-Range/Content-Length before any payload read; reject 200 or oversized response without reading payload. Docs may be truncated to their cap and labeled partial. Stop at any global byte/time cap. No installation, bulk fallback, graph/circuit call or production edit."
+}

@@ -1,0 +1,131 @@
+{
+  "timestamp_utc": "2026-09-13T06:14:15.833373+00:00",
+  "status": "frozen-for-root-QA",
+  "paths": [
+    {
+      "path": "bet36fly/conditioning.py",
+      "bytes": 57629,
+      "sha256": "45785e34d05b7129878c0fbc07a08bc48b8696353b2013fff10dbad635677e34"
+    },
+    {
+      "path": "bet36fly/conditioning_runner.py",
+      "bytes": 45519,
+      "sha256": "78128541cca1513a6cef50e2107d365c7ab68588bab795100c5f52e2396ce0fd"
+    },
+    {
+      "path": "bet36fly/conditioning_artifacts.py",
+      "bytes": 6397,
+      "sha256": "668ee77bf9316359ffa0b3cf806fee20cfbd476683d8bae480e6efaaffd0445a"
+    },
+    {
+      "path": "bet36fly/conditioning_evidence.py",
+      "bytes": 17721,
+      "sha256": "00203f34eb3b5a5261502fc34e952e5abbb40c41029ada8ce125b327ee738a7c"
+    },
+    {
+      "path": "scripts/run_reward_conditioning.py",
+      "bytes": 682,
+      "sha256": "a5565f5394609cba26c63e8f524537b32b8f767b0265e29f756f9a94ec2ac889"
+    },
+    {
+      "path": "bet36fly/server.py",
+      "bytes": 8619,
+      "sha256": "77babf3716d963e83a42f17087b1e9a00790480497255c19068b142369efa454"
+    },
+    {
+      "path": "web/src/types.ts",
+      "bytes": 13755,
+      "sha256": "7b060b6af6fd88d1462092a89e10825380d045dc3127097fc6d9661797395439"
+    },
+    {
+      "path": "web/src/RewardEvidence.tsx",
+      "bytes": 15860,
+      "sha256": "604285fe82998e7042b9025fd1367c2f45f347aa863e4e7d2978c08fb4f31898"
+    },
+    {
+      "path": "web/src/RewardEvidence.test.tsx",
+      "bytes": 12183,
+      "sha256": "ee75bd1ac3c62e26cd76251b90049c52fa41d2e69dc05739a1c00b2b23b6d00c"
+    },
+    {
+      "path": "scripts/verify_reward_browser.cjs",
+      "bytes": 21843,
+      "sha256": "018aac4a6a6dfc687602a19e46fea621d32316d9d16f436f234d62d8573568fa"
+    },
+    {
+      "path": "docs/api-contract.md",
+      "bytes": 30619,
+      "sha256": "23cd9e1d39bb6c22fa55325998a705187d7efde264c933c952446bdcbc79c9d4"
+    },
+    {
+      "path": "tests/test_api.py",
+      "bytes": 17317,
+      "sha256": "9cfab2ed934c4b24b00b19a73f587a10cd51b856d94fbd7570497790b67fe4d8"
+    },
+    {
+      "path": "tests/conditioning_independent_contract.py",
+      "bytes": 24689,
+      "sha256": "65b09cbcf632b334d345fa89f023540d9dbed9a3d40c546fd0d481c0b6ebade5"
+    },
+    {
+      "path": "tests/conditioning_independent_gate_fixture.py",
+      "bytes": 11419,
+      "sha256": "021b9f2cc01ded0e6e90b3a7f139aaee6abe9a77f8ef5849ee55d4be1d6e565e"
+    },
+    {
+      "path": "tests/conditioning_independent_gate_probes.py",
+      "bytes": 8411,
+      "sha256": "a23394151ec33297ed362e85dbf3ea9d3160bcadf97df8610f447b0718b2b0f1"
+    },
+    {
+      "path": "tests/conditioning_independent_numeric_probes.py",
+      "bytes": 7674,
+      "sha256": "994240e86de556c0191067d5fe2c2bfb445325313f83d6810c2a8302d819208c"
+    },
+    {
+      "path": "tests/test_conditioning.py",
+      "bytes": 10314,
+      "sha256": "3b9842d0eae6e79f4428729fa2aefbe8fdd7176d52eac176235b542f29d6e60e"
+    },
+    {
+      "path": "tests/test_conditioning_independent_artifacts.py",
+      "bytes": 3660,
+      "sha256": "bc284e817c11676b92aedf055b7cdc87ad8952ac9abb40d63453f08e78c1118f"
+    },
+    {
+      "path": "tests/test_conditioning_independent_compact_domains.py",
+      "bytes": 2557,
+      "sha256": "88a6d0083f9e903c19f8e539fb7ca8da4b1d2fb11af2ae4c31642ba29c5c2f24"
+    },
+    {
+      "path": "tests/test_conditioning_independent_contract.py",
+      "bytes": 15461,
+      "sha256": "aef680e5656b637dac7a5e115a05f81024ce880f299458ba1e27065033218dec"
+    },
+    {
+      "path": "tests/test_conditioning_independent_exact_arithmetic.py",
+      "bytes": 10658,
+      "sha256": "52daaad44566939b0b689255393e9593ae171ae28689cfe1229ddca4e825ca55"
+    },
+    {
+      "path": "tests/test_conditioning_independent_numeric.py",
+      "bytes": 4854,
+      "sha256": "95095e1cf04bcac92463c60492a40707e41e1d452b3f914b05359c476e2dc094"
+    },
+    {
+      "path": "tests/test_conditioning_independent_qualification.py",
+      "bytes": 901,
+      "sha256": "3bb2cb252cc23045638f24b562acff7530cc2ed0c1aaa271a1c601def5941d03"
+    },
+    {
+      "path": "tests/test_conditioning_independent_reader_states.py",
+      "bytes": 3925,
+      "sha256": "f21d41026a7c694ab8967441b97d03df1ce110c95ace0be7d7c2f3c9f07a2176"
+    },
+    {
+      "path": "tests/test_conditioning_runner.py",
+      "bytes": 18150,
+      "sha256": "589670ba192b289d1e067e41e59ed4c45349b3809a63951a1bf4ebdf85609f3c"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "status": "frozen",
+  "frozen_at_utc": "2026-09-13T05:43:10.548074+00:00",
+  "identity": "localization-neuprint-ipv4-2026-09-13",
+  "output_directory": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/localization-neuprint-ipv4-2026-09-13",
+  "requests": [
+    {
+      "url": "https://neuprint.janelia.org/api/serverinfo",
+      "maximum_payload_bytes": 4096
+    },
+    {
+      "url": "https://neuprint.janelia.org/api/dbmeta/datasets",
+      "maximum_payload_bytes": 32768,
+      "condition": "First response must be complete valid JSON with HTTP200 and no execution/source/timing failure"
+    }
+  ],
+  "caps": {
+    "max_http_gets": 2,
+    "total_response_bytes_including_headers": 65536,
+    "header_bytes_per_response": 8192,
+    "per_request_wall_seconds": 15,
+    "active_seconds": 14,
+    "total_wall_seconds": 30,
+    "retries": 0,
+    "redirects": 0
+  },
+  "sources": [
+    {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/localization_neuprint_ipv4_probe.py",
+      "bytes": 11788,
+      "sha256": "5ff0de604faa7d6e146d48b78ae8ef873263eb66629c08a9379b5a4f573d0ab0"
+    },
+    {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_localization_neuprint_ipv4_probe.py",
+      "bytes": 7487,
+      "sha256": "c146f9eccbead35e7bf5139d9c6833ed072df86654a8ba53a02ae046541f2ce2"
+    },
+    {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/localization-neuprint-ipv4-proposal-2026-09-13.json",
+      "bytes": 4863,
+      "sha256": "f51bc4d46486c5923ba7f759cf03b74d2cafa2b3e81596a94edf45769ffcd024"
+    },
+    {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/localization-access-serverinfo.json",
+      "bytes": 694,
+      "sha256": "5725ac735aa07b4bed7e476743a4041b9d98b4d9d5fc6a256673c7aa7119cdb3"
+    },
+    {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/localization-access-datasets-network.json",
+      "bytes": 520,
+      "sha256": "94ab0f090b5a3ca1922097163e48a680f59ee797be582156be6a46bf044af960"
+    },
+    {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/localization-access-receipt.json",
+      "bytes": 4675,
+      "sha256": "605b80ff8461e399fbd112d59196bf4a46928880d173898c9c1a81402776810e"
+    },
+    {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/localization-batch-metadata-2026-09-13/summary.json",
+      "bytes": 2510,
+      "sha256": "81d0900fb559a97b002a9d05360a0115b88a058100c67007bbd064fe1367a7ba"
+    }
+  ],
+  "verification_before_requests": {
+    "offline_tests_passed": 50,
+    "seconds": 0.17,
+    "ruff": "passed",
+    "requests": 0
+  },
+  "scope": "Two exact unauthenticated metadata GETs only, one AF_INET endpoint per request, no environment proxies or address fallback. Log DNS/TCP/TLS/status-header timing and preserve exact JSON names/types. On any first transport/auth/redirect/JSON/source/cap failure skip request2. No body, synapse, query, browser, credential/account or further request. Preserve prior failures without attributing them to IPv6."
+}

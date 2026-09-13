@@ -91,9 +91,12 @@ the complete retained replay/sensory evidence required by this reader, so their
 overall status remains unverified even when a stored verdict says passed.
 
 **Conditioning and reversal** reports that qualification has not passed and no
-conditioning run exists. Future generic manifests can show execution and
-ancestry, but this registry does not yet independently validate conditioning
-criteria. Completed execution cannot establish learned acquisition or reversal.
+conditioning run exists. The new artifact reader recomputes acquisition and
+reversal criteria from saved counts, gains, controls and replay evidence,
+keeping its verdict separate from execution status and stored claims. Generic
+manifests without that evidence remain unverified. The
+[software and browser checks passed](evidence/reward-mechanism-repair-2026-09-12/conditioning-acceptance-2026-09-13.md);
+completed execution alone cannot establish learned acquisition or reversal.
 [Current mechanism evidence](evidence/reward-mechanism-repair-2026-09-12/index.md).
 
 **Historical sports association pilots** retains the separate on-circuit reward

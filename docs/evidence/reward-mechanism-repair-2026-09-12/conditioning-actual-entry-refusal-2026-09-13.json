@@ -1,0 +1,19 @@
+{
+  "checked_at": "2026-09-13T06:03:21.709708+00:00",
+  "pair": {
+    "pair_id": "b16d9b39d7fd3057",
+    "learning_rule": "rate-bridge-v1",
+    "original_run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+    "heldout_run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+    "validation_status": "validated",
+    "evidence_status": "failed",
+    "failed_criteria": [
+      "untaught_guard"
+    ]
+  },
+  "factory_calls": 0,
+  "experiment_inventory_unchanged": true,
+  "rejection": "Conditioning requires both independently validated qualifying mechanism panels.",
+  "wall_seconds": 3.1733545421157032,
+  "scope": "Read-only actual failed-pair refusal. No native library construction or circuit call. This is not a conditioning measurement."
+}

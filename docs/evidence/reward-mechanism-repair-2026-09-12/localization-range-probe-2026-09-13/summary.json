@@ -1,0 +1,82 @@
+{
+  "requests": 6,
+  "payload_bytes": 807635,
+  "header_bytes": 6018,
+  "response_bytes": 813653,
+  "elapsed_seconds": 58.84364929096773,
+  "request_duration_cap_overruns": [
+    {
+      "slot": 1,
+      "elapsed_seconds": 15.20255179097876,
+      "limit_seconds": 15
+    }
+  ],
+  "network_finished": true,
+  "source_versions": [
+    {
+      "version": 1,
+      "request_slots": [
+        1
+      ],
+      "path": "output/collaboration/reward-mechanism-repair/localization-range-probe-2026-09-13/executed-probe-version-1.py",
+      "sha256": "d99f9347fe26a9ebf3f4f2fbdfa50a3873c4ad71389e2fdc226473bb669dec4d",
+      "bytes": 7063,
+      "source_provenance": "Version reconstructed byte-for-byte from exact recorded apply_patch edits; no contemporaneous source hash was saved in the per-request record."
+    },
+    {
+      "version": 2,
+      "request_slots": [
+        2,
+        3,
+        4
+      ],
+      "path": "output/collaboration/reward-mechanism-repair/localization-range-probe-2026-09-13/executed-probe-version-2.py",
+      "sha256": "de4ed74aeed378069008ee425f210aa38f5fa421b4dd568742f618b6c447b95e",
+      "bytes": 7237,
+      "source_provenance": "Version reconstructed byte-for-byte from exact recorded apply_patch edits; no contemporaneous source hash was saved in the per-request record."
+    },
+    {
+      "version": 3,
+      "request_slots": [
+        5,
+        6
+      ],
+      "path": "output/collaboration/reward-mechanism-repair/localization-range-probe-2026-09-13/executed-probe-version-3.py",
+      "sha256": "761e37b57a89b675da4edb47f263e2574b13a9954429059822f8a3c371d8d617",
+      "bytes": 7996,
+      "source_provenance": "Exact final executed source copied byte-for-byte; no contemporaneous source hash was saved in per-request records."
+    }
+  ],
+  "source_provenance_limit": "Request records bound the frozen plan but did not bind an executed-code hash. Reconstructed versions preserve known edits; the receipt must not imply contemporaneous per-request source hashing.",
+  "deadline_defect": "Original SIGALRM raised TimeoutError, an OSError subclass which address fallback can catch. Therefore the first overrun cannot be attributed to teardown alone. Final two requests used a non-OSError exception and one DNS-resolved IPv4 address without fallback.",
+  "synthetic_protocol_tests": {
+    "passed": 11,
+    "seconds": 0.11,
+    "network_replaced": true,
+    "covered": "full-body/redirect/missing/malformed/oversized/mismatched/truncated suffix responses, partial evidence, exact bounded read, deadline fallback and identity/unfinished-attempt protection",
+    "not_yet_implemented": "Exact interior range and ETag/generation-pinned validation need their own tests before any subsequent data request."
+  },
+  "footer_blocks_checked": 10214,
+  "no_record_batches_or_dictionary_values_read": true,
+  "source_object_bytes": 19838668196,
+  "batch_metadata_total_bytes": 14392160,
+  "minimum_next_metadata_requests": [
+    {
+      "url": "https://storage.googleapis.com/flyem-male-cns/v1.0/connectome-data/flat-connectome/syn-points-male-cns-v1.0-minconf-0.5.feather",
+      "range": "bytes=61496-63575",
+      "expected_payload_bytes": 2080,
+      "etag": "\"c69d08758de07582035cc8843574493a\"",
+      "generation": "1780494991007477"
+    },
+    {
+      "url": "https://storage.googleapis.com/flyem-male-cns/v1.0/connectome-data/flat-connectome/syn-partners-male-cns-v1.0-minconf-0.5.feather",
+      "range": "bytes=3960-4599",
+      "expected_payload_bytes": 640,
+      "etag": "\"58efcf712f8c4d4de5f2ad51e97def76\"",
+      "generation": "1780494942562468"
+    }
+  ],
+  "partners_pandas_declared_rows": 311833243,
+  "partners_one_int64_body_column_uncompressed_bytes_from_declared_rows": 2494665944,
+  "unverified": "Actual row count, batch row counts, compression, body-buffer wire bytes, per-batch body extrema, row order, body index outside the inspected footer, selected-body rows and all physiological exposure weights."
+}

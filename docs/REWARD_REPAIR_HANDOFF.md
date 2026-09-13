@@ -1,5 +1,133 @@
 # Continue the dopamine mechanism repair
 
+## Verified continuation boundary: September 13, 2026, 06:21 UTC
+
+Continue the existing active goal. The conditioning harness and artifact/API/UI
+integration are now verified as software. Read the complete
+[acceptance](evidence/reward-mechanism-repair-2026-09-12/conditioning-acceptance-2026-09-13.md)
+and [release inventory](evidence/reward-mechanism-repair-2026-09-12/conditioning-writer-release-2026-09-13.json).
+Root ran make verify: 4,055 Python tests, 85 frontend tests, Ruff and build pass.
+The guarded browser check passes 20 labeled synthetic scenarios plus the actual
+failed-pair display and eight historical downloads. All 791 QA files and the
+separate original 710-file protected snapshot remain unchanged. The owned
+read-only server is stopped. Inspect Git for this milestone's local commit;
+no push or promotion occurred.
+
+The actual failed pair `b16d9b39d7fd3057` is rejected before engine construction.
+No full-CNS conditioning or reversal has run, and SCI-001 remains on HOLD.
+The independent reviewer cleared the reproduced numerical, artifact, snapshot,
+state and final-persistence findings. Agent reading/review receipts are copied
+into repository evidence; later agents must still read all narrative docs/wiki
+and new deltas personally. Keep one production writer. Both prior frozen
+scientific conditioning documents remain unchanged.
+
+The next scientific work remains dopamine signal generation and plasticity
+coupling. The [partners-only synthesis](evidence/reward-mechanism-repair-2026-09-12/localization-next-decision-synthesis-2026-09-13.md)
+defines a complete home contact export; no body/coordinate data or local exposure
+law has yet been obtained. Its transfer cost must be established before any
+finite direct scan. Preserve the failed raw/bridge/onset/adaptation evidence,
+accepted gains and interfaces, all home edges and the supported away gamma
+mask. Do not restart rejected identities, retune their thresholds, resume sports
+pilots or call software acceptance a repaired learning mechanism.
+
+## Continuation update: September 13, 2026, 06:00 UTC
+
+The active goal continues, and HEAD remains local commit `9b16a0a`. No push or
+full-CNS conditioning run has occurred. The conditioning implementation and
+new source reports are uncommitted. This update supersedes the interim 05:20
+snapshot below; preserve it as history. The mechanism still fails the second
+panel's untaught-home guard, so SCI-001 remains on HOLD.
+
+The sole production writer `/root/evidence_ui` has implemented the exact
+1,632-call schedule, isolated gains/probes/replays, durable invocation journal,
+artifact reader and API/UI surfaces. Independent review reproduced and corrected
+false passes involving cancellation/budget status, compact count domains and
+floating-point threshold comparisons. Exact integer count and float32-dyadic
+gain comparisons are now part of the
+[implementation contract](evidence/reward-mechanism-repair-2026-09-12/conditioning-implementation-contract.md).
+The old paused draft is copied into tracked evidence with its original hash
+for clean-checkout regression tests. Synthetic full-matrix execution and tiny
+six-neuron native fixtures are software tests, not MaleCNS conditioning evidence.
+
+`/root/delivered_arrivals` independently matched all 1,632 ordered calls and
+reported 1,452 evaluator/numerical/compact checks plus 28 terminal-status/cap
+checks passing. A separate 12-case qualification test exercised the actual
+gate with temporary manufactured evidence, including a valid pair and invalid
+bindings; these are not measured diagnostic passes. Snapshot and API review
+are still in progress. Root must run the fresh full repository gate, rebuilt
+read-only browser workflow and complete protection checks before claiming this
+implementation accepted or committing it. No owned QA server is running.
+
+All three bounded localization studies are complete and copied, with originals
+preserved. The first footer request exceeded its cap by 0.202552 seconds; the
+subsequent exact first-batch metadata study met every cap and its 97 tests
+passed. The final IPv4 neuPrint request completed TLS but received no complete
+HTTP response by 14.005163 seconds; its conditional second request was skipped
+and 50 tests passed. No body values or coordinates were decoded. The
+[offline synthesis](evidence/reward-mechanism-repair-2026-09-12/localization-next-decision-synthesis-2026-09-13.md)
+identifies a partners-only home export as the next useful anatomical deliverable:
+`body_pre in {11327,11900} OR body_post in {10704,11402}`. A complete range
+predicate scan still has unknown compressed cost. No further network request,
+bulk download, exposure weighting or local learning candidate has been run.
+
+## Continuation update: September 13, 2026, 05:20 UTC
+
+The active goal continues. HEAD at this boundary is local commit `9b16a0a`,
+which preserves the rejected adaptation study and its independent all-array
+audit. No push occurred. The 04:50 update below describes that completed
+milestone. **New conditioning implementation is in progress and has not yet
+passed the full verification gate.** Inspect Git and agents before continuing.
+
+The sole production writer `/root/evidence_ui` is implementing
+`bet36fly/conditioning.py`, its runner/artifact reader and corresponding tests
+and API/UI surfaces. `/root/delivered_arrivals` independently derives the exact
+plan and numerical fixtures; root owns narrative documentation. Read the new
+[implementation contract](evidence/reward-mechanism-repair-2026-09-12/conditioning-implementation-contract.md)
+in addition to both original frozen conditioning documents. It explicitly
+requires all 16 acquired-parent probes before any reversal training,
+four-seed-mean new-association selectivity ratios with per-seed signs, and
+per-seed old recovery. Ordinary-swap remapping must be assessed from that
+branch. The independent schedule suite has 1,207 synthetic cases and exposes
+11 defects in the preserved old draft. These counts are interim software
+evidence, not completed acceptance or fly learning.
+
+The implementation must refuse the current failed mechanism pair before
+engine construction. Root authorized deterministic fake-engine tests and a
+tiny non-MaleCNS native layout fixture only; no actual conditioning/full-CNS
+run. Keep 616/616/400 stage counts, 32 exact replays and 1,640/1,200 hard caps.
+The original draft remains untouched. Existing native electrical/tail arrays
+record inclusive bound contacts; an artifact validator can aggregate those
+separately tested observations and check final per-edge bounds, but cannot
+claim an independent per-edge transient reconstruction from group sums.
+Frozen responses must match the same-seed/schedule unit or parent response,
+as well as preserving gains. Endpoint values must derive from retained
+numerical arrays, not freely supplied summary flags.
+
+Root captured 710 protected files / 5,494,080,358 bytes in
+`output/collaboration/reward-mechanism-repair/conditioning-integration-protected-before.json`;
+all match the previous baseline. This excludes intentionally changing source
+and frontend build files but includes data, historical output, native libraries,
+diagnostic artifacts and the immutable Microduck snapshot. Before browser QA,
+take a fresh complete source/build baseline as well. Rebuild and use only the
+marked read-only verification factory. No owned QA server is running here.
+
+`/root/dopamine_sources` completed six bounded official metadata requests:
+813,653 response bytes and 58.843649 seconds total. Both actual Feather
+footers parse, with 10,214 record batches altogether. No body-selection
+index, per-batch body ranges or sorting contract was established. The first
+request exceeded its 15-second cap at 15.202552 seconds; preserve this
+execution defect and source-version limits, rather than claiming complete
+budget compliance. Root is awaiting the report and offline client tests.
+No further requests are approved until that report is inspected; a possible
+next step is two exact first-batch metadata ranges to quantify body-column
+layout/cost, not a bulk synapse download or an exposure-weight assumption.
+
+README now reflects the integrated but unqualified mechanism, diagnostic
+Training view and read-only QA startup. Both home/away gates, accepted gains,
+anatomy policies and the active v1 pointer remain unchanged. Run focused tests,
+independent review, `make verify`, affected browser states and protected-file
+checks before locally committing this unfinished implementation.
+
 ## Continuation update: September 13, 2026, 04:50 UTC
 
 Continue the same active goal; do not mark it complete. The completed UI/source

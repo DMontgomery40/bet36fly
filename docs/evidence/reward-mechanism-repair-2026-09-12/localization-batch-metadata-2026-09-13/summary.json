@@ -1,0 +1,104 @@
+{
+  "status": "complete",
+  "plan_sha256": "e05a9ecfcddc8f8ddd022b0992f5cfcbdcf21e5ad85723c0e2ac465169e3edf5",
+  "requests": 3,
+  "payload_bytes": 9300,
+  "header_bytes": 2590,
+  "response_bytes": 11890,
+  "elapsed_seconds": 0.7204224166925997,
+  "all_request_caps_met": true,
+  "source_bindings_unchanged": true,
+  "first_batch_rows": [
+    65536,
+    65536
+  ],
+  "compression": [
+    {
+      "codec": "LZ4_FRAME",
+      "method": "BUFFER"
+    },
+    {
+      "codec": "LZ4_FRAME",
+      "method": "BUFFER"
+    }
+  ],
+  "body_buffers": [
+    {
+      "object": "points",
+      "name": "body",
+      "type": "int64",
+      "node": {
+        "length": 65536,
+        "null_count": 0
+      },
+      "validity_buffer": {
+        "index": 12,
+        "offset": 980672,
+        "length": 0
+      },
+      "values_buffer": {
+        "index": 13,
+        "offset": 980672,
+        "length": 276108
+      },
+      "absolute_values_start": 1044248,
+      "absolute_values_end": 1320355,
+      "buffer_payload_read": false
+    },
+    {
+      "object": "partners",
+      "name": "body_pre",
+      "type": "int64",
+      "node": {
+        "length": 65536,
+        "null_count": 0
+      },
+      "validity_buffer": {
+        "index": 6,
+        "offset": 135776,
+        "length": 0
+      },
+      "values_buffer": {
+        "index": 7,
+        "offset": 135776,
+        "length": 88513
+      },
+      "absolute_values_start": 140376,
+      "absolute_values_end": 228888,
+      "buffer_payload_read": false
+    },
+    {
+      "object": "partners",
+      "name": "body_post",
+      "type": "int64",
+      "node": {
+        "length": 65536,
+        "null_count": 0
+      },
+      "validity_buffer": {
+        "index": 16,
+        "offset": 790568,
+        "length": 0
+      },
+      "values_buffer": {
+        "index": 17,
+        "offset": 790568,
+        "length": 285437
+      },
+      "absolute_values_start": 795168,
+      "absolute_values_end": 1080604,
+      "buffer_payload_read": false
+    }
+  ],
+  "combined_unread_body_values_bytes": 650058,
+  "body_payload_or_dictionary_bytes_requested": 0,
+  "body_rows_decoded": 0,
+  "global_body_sort_or_selection_established": false,
+  "local_pyarrow_version": "21.0.0",
+  "tests": {
+    "protocol_before_requests": 55,
+    "parser_against_generated_arrow_after_requests": 42,
+    "ruff": "passed"
+  },
+  "remaining": "No global compressed scan cost or body index established. Buffer sizes apply to first batches only; no body payload request is authorized by this result."
+}

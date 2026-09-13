@@ -1,0 +1,47 @@
+{
+  "agent": "dopamine_sources",
+  "checked_at_utc": "2026-09-13T05:23:02.969312+00:00",
+  "status": "pass",
+  "supplements": {
+    "path": "output/collaboration/reward-mechanism-repair/localization-range-reading-and-audit-receipt-2026-09-13.json",
+    "bytes": 10348,
+    "sha256": "d7967ba9a0ba5a35670792ec578f5db44a6ee1b5fb92478c89d250e8eb6ba5b6"
+  },
+  "reading": "Read the current README and new conditioning implementation contract in full. Read the new05:20UTC handoff section in full against the previously fully read preserved handoff. No scientific overclaim found; conditioning implementation remains gated and unaccepted.",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 15752,
+      "sha256": "07cce9023a321e0a13585f63fac4f16310550319e460faa7e09081414de8903c"
+    },
+    {
+      "path": "docs/REWARD_REPAIR_HANDOFF.md",
+      "bytes": 26312,
+      "sha256": "38ef1289113eadba2eb1e519281800fdc7373afbe329cbb9f3f43e33f607690c"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-implementation-contract.md",
+      "bytes": 5988,
+      "sha256": "abacb40bf320692c77b96a7290db8bb685741272a7ae0040c360079a5f828a55"
+    }
+  ],
+  "payload_scope_clarification": "The suffix payloads contain the complete footers and uninterpreted trailing record-batch bytes preceding them. No record-batch rows or dictionary values were decoded; do not describe all received payload bytes as metadata-only.",
+  "prior_report_and_sources_preserved": [
+    {
+      "path": "output/collaboration/reward-mechanism-repair/localization-range-report-2026-09-13.md",
+      "bytes": 10088,
+      "sha256": "3e62b7f039c3796daa9a9ebc4e9d2ec9dfc3ceced9f89b84bb44cd10b40d63e6"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/localization_range_probe.py",
+      "bytes": 7996,
+      "sha256": "761e37b57a89b675da4edb47f263e2574b13a9954429059822f8a3c371d8d617"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/localization_range_inspect.py",
+      "bytes": 6102,
+      "sha256": "6d66e8b124975dbb4e0c668a06ffdf09a633c17de137a5b8a67d32a4a3c13a82"
+    }
+  ],
+  "new_requests": 0
+}

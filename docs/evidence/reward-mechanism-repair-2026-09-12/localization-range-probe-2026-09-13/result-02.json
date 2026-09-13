@@ -1,0 +1,33 @@
+{
+  "slot": 2,
+  "url": "https://storage.googleapis.com/flyem-male-cns/v1.0/connectome-data/flat-connectome/syn-partners-male-cns-v1.0-minconf-0.5.feather",
+  "range": "bytes=-262144",
+  "plan_sha256": "e335feb7d23c7785e13a7b05caca5d884e6a622b4c0d32c98aa0158ce7c7f2f5",
+  "started_at_utc": "2026-09-13T05:11:29.778448+00:00",
+  "status": "received",
+  "payload_bytes": 262144,
+  "header_bytes": 850,
+  "max_payload_bytes": 262144,
+  "max_seconds": 14,
+  "http_status": 206,
+  "headers": {
+    "content-type": "application/octet-stream",
+    "last-modified": "Wed, 03 Jun 2026 13:55:42 GMT",
+    "etag": "\"58efcf712f8c4d4de5f2ad51e97def76\"",
+    "x-goog-generation": "1780494942562468",
+    "x-goog-metageneration": "1",
+    "x-goog-hash": "md5=WO/PcS+MTU3l8q1R6X3vdg==",
+    "accept-ranges": "bytes",
+    "content-range": "bytes 6776916954-6777179097/6777179098",
+    "content-length": "262144"
+  },
+  "range_start": 6776916954,
+  "range_end": 6777179097,
+  "object_bytes": 6777179098,
+  "payload_complete": true,
+  "active_io_elapsed_seconds": 14.28705137502402,
+  "elapsed_seconds": 14.287057999987155,
+  "payload_path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/localization-range-probe-2026-09-13/payload-02.bin",
+  "payload_sha256": "7779ff2b04999bae9447db9dbae2570448bdb2c8bdbc9b11da3906f0e9789701",
+  "cumulative_response_bytes": 525992
+}

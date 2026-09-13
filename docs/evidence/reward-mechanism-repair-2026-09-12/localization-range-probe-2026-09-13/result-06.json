@@ -1,0 +1,27 @@
+{
+  "slot": 6,
+  "url": "https://arrow.apache.org/docs/python/feather.html",
+  "range": null,
+  "plan_sha256": "e335feb7d23c7785e13a7b05caca5d884e6a622b4c0d32c98aa0158ce7c7f2f5",
+  "started_at_utc": "2026-09-13T05:13:46.038764+00:00",
+  "status": "received",
+  "payload_bytes": 65536,
+  "header_bytes": 1632,
+  "max_payload_bytes": 65536,
+  "max_seconds": 14,
+  "transport": "one DNS-resolved IPv4 address; no address fallback",
+  "http_status": 200,
+  "headers": {
+    "content-length": "174385",
+    "last-modified": "Tue, 11 Aug 2026 09:48:16 GMT",
+    "etag": "\"2a931-658c25ec0d198\"",
+    "content-type": "text/html",
+    "accept-ranges": "bytes"
+  },
+  "payload_complete": false,
+  "active_io_elapsed_seconds": 0.3086335000116378,
+  "elapsed_seconds": 0.3086395829450339,
+  "payload_path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/localization-range-probe-2026-09-13/payload-06.bin",
+  "payload_sha256": "bd7f7c178e86e3cb5bca647180bdc484d85817c105e4f91ca17c4af5972e9272",
+  "cumulative_response_bytes": 813653
+}

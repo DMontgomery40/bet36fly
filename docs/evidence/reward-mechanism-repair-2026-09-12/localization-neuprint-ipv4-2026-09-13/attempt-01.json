@@ -1,0 +1,60 @@
+{
+  "slot": 1,
+  "url": "https://neuprint.janelia.org/api/serverinfo",
+  "method": "GET",
+  "status": "attempted",
+  "started_at_utc": "2026-09-13T05:43:29.446806+00:00",
+  "plan_sha256": "efe9a69ba50cf8e26050e2ef07965bb173a612378176e771a976d4dc36a32914",
+  "executed_source_sha256": "5ff0de604faa7d6e146d48b78ae8ef873263eb66629c08a9379b5a4f573d0ab0",
+  "source_bindings": [
+    {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/localization_neuprint_ipv4_probe.py",
+      "bytes": 11788,
+      "sha256": "5ff0de604faa7d6e146d48b78ae8ef873263eb66629c08a9379b5a4f573d0ab0"
+    },
+    {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_localization_neuprint_ipv4_probe.py",
+      "bytes": 7487,
+      "sha256": "c146f9eccbead35e7bf5139d9c6833ed072df86654a8ba53a02ae046541f2ce2"
+    },
+    {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/localization-neuprint-ipv4-proposal-2026-09-13.json",
+      "bytes": 4863,
+      "sha256": "f51bc4d46486c5923ba7f759cf03b74d2cafa2b3e81596a94edf45769ffcd024"
+    },
+    {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/localization-access-serverinfo.json",
+      "bytes": 694,
+      "sha256": "5725ac735aa07b4bed7e476743a4041b9d98b4d9d5fc6a256673c7aa7119cdb3"
+    },
+    {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/localization-access-datasets-network.json",
+      "bytes": 520,
+      "sha256": "94ab0f090b5a3ca1922097163e48a680f59ee797be582156be6a46bf044af960"
+    },
+    {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/localization-access-receipt.json",
+      "bytes": 4675,
+      "sha256": "605b80ff8461e399fbd112d59196bf4a46928880d173898c9c1a81402776810e"
+    },
+    {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/localization-batch-metadata-2026-09-13/summary.json",
+      "bytes": 2510,
+      "sha256": "81d0900fb559a97b002a9d05360a0115b88a058100c67007bbd064fe1367a7ba"
+    }
+  ],
+  "payload_cap": 4096,
+  "header_cap": 8192,
+  "active_deadline_seconds": 14,
+  "maximum_wall_seconds": 15,
+  "network_stages": {},
+  "payload_bytes": 0,
+  "header_bytes": 0,
+  "complete_valid_json": false,
+  "authentication_sent": false,
+  "cookies_sent": false,
+  "proxy_configuration_used": false,
+  "redirects_followed": false,
+  "retry_count": 0,
+  "connection_attempts": 0
+}

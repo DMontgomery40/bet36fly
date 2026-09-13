@@ -1,0 +1,60 @@
+{
+  "copied_at": "2026-09-13T05:51:09.680339+00:00",
+  "policy": "Copy, not move; original evidence preserved.",
+  "files": [
+    {
+      "source": "output/collaboration/reward-mechanism-repair/localization-neuprint-ipv4-plan-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/localization-neuprint-ipv4-plan-2026-09-13.json",
+      "bytes": 3382,
+      "sha256": "efe9a69ba50cf8e26050e2ef07965bb173a612378176e771a976d4dc36a32914"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/localization-neuprint-ipv4-proposal-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/localization-neuprint-ipv4-proposal-2026-09-13.json",
+      "bytes": 4863,
+      "sha256": "f51bc4d46486c5923ba7f759cf03b74d2cafa2b3e81596a94edf45769ffcd024"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/localization_neuprint_ipv4_probe.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/localization_neuprint_ipv4_probe.py",
+      "bytes": 11788,
+      "sha256": "5ff0de604faa7d6e146d48b78ae8ef873263eb66629c08a9379b5a4f573d0ab0"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/test_localization_neuprint_ipv4_probe.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/test_localization_neuprint_ipv4_probe.py",
+      "bytes": 7487,
+      "sha256": "c146f9eccbead35e7bf5139d9c6833ed072df86654a8ba53a02ae046541f2ce2"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/localization-neuprint-ipv4-report-2026-09-13.md",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/localization-neuprint-ipv4-report-2026-09-13.md",
+      "bytes": 6529,
+      "sha256": "14dd6bf1226d6ab1d81d87b38ec8a33052d9662e18b58aa6bb24619bdf422c1e"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/localization-neuprint-ipv4-2026-09-13/attempt-01.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/localization-neuprint-ipv4-2026-09-13/attempt-01.json",
+      "bytes": 2653,
+      "sha256": "eaea075a8487549be75a5ae312c930a1b370fe258f00f5054fc9b3d2f2dd9523"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/localization-neuprint-ipv4-2026-09-13/result-01.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/localization-neuprint-ipv4-2026-09-13/result-01.json",
+      "bytes": 3371,
+      "sha256": "6812b906a16d165c3a98f32a43f8a301c35ac9294396a6ba6741831ede36bc49"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/localization-neuprint-ipv4-2026-09-13/summary.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/localization-neuprint-ipv4-2026-09-13/summary.json",
+      "bytes": 4118,
+      "sha256": "b374f32a76274966f66f4f62165e03013b49115a330ad3268ec93e8103fe8d72"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/localization-neuprint-ipv4-reading-and-audit-receipt-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/localization-neuprint-ipv4-reading-and-audit-receipt-2026-09-13.json",
+      "bytes": 34528,
+      "sha256": "95c8ce1c8efd8f507a65c42829b0218ea3a1e599381c5d92abf2cf54d1c50115"
+    }
+  ]
+}

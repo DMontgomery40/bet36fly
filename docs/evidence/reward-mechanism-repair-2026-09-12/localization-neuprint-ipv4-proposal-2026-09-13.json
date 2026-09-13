@@ -1,0 +1,82 @@
+{
+  "status": "proposal-not-authorized-not-executed",
+  "created_at_utc": "2026-09-13T05:36:38.860899+00:00",
+  "purpose": "Distinguish live neuPrint transport/API access from the prior inconclusive failures before considering large body-column scans.",
+  "evidence": [
+    {
+      "path": "output/collaboration/reward-mechanism-repair/localization-access-serverinfo.json",
+      "bytes": 694,
+      "sha256": "5725ac735aa07b4bed7e476743a4041b9d98b4d9d5fc6a256673c7aa7119cdb3"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/localization-access-datasets-network.json",
+      "bytes": 520,
+      "sha256": "94ab0f090b5a3ca1922097163e48a680f59ee797be582156be6a46bf044af960"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/localization-access-receipt.json",
+      "bytes": 4675,
+      "sha256": "605b80ff8461e399fbd112d59196bf4a46928880d173898c9c1a81402776810e"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/localization-range-probe-2026-09-13/summary.json",
+      "bytes": 3961,
+      "sha256": "51c6af5e5c5ea3efd7fcd69891a3065b9adffffd1c85e6daa576d65eab11a3ef"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/localization_batch_metadata_probe.py",
+      "bytes": 9963,
+      "sha256": "b4bde33bc78a738b4bd84a38be4123075000d177d0505eb471c5fe43f1465227"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/localization-batch-metadata-2026-09-13/summary.json",
+      "bytes": 2510,
+      "sha256": "81d0900fb559a97b002a9d05360a0115b88a058100c67007bbd064fe1367a7ba"
+    }
+  ],
+  "assessment": "A single fixed-IPv4 transport check is materially different from repeating the old unspecified address-family path. The new metadata client already used one resolved IPv4 address, a non-OSError active deadline, no environment-proxy configuration and no address fallback successfully against GCS and official documentation hosts. This does not prove that IPv6/fallback caused the previous neuPrint failures.",
+  "prior_limits": "Earlier serverinfo used curl -q with5s connect/12s total timeout and got zeroHTTP/bytes at12.021380s; datasets got The read operation timed out with noHTTP at15.290041s. Receipts do not preserve the chosen address family, address attempts or detailed network stage timing; exact prior dataset client source was not retained among these files. The separate curl failure cannot be attributed to the Python alarm exception.",
+  "proposed_caps": {
+    "maximum_http_gets": 2,
+    "maximum_total_response_bytes_including_headers": 65536,
+    "serverinfo_payload_bytes": 4096,
+    "datasets_payload_bytes": 32768,
+    "header_bytes_per_response": 8192,
+    "maximum_seconds_per_request": 15,
+    "active_deadline_seconds": 14,
+    "maximum_total_seconds": 30,
+    "redirects": 0,
+    "retries": 0,
+    "credentials": false,
+    "cookies": false,
+    "account_actions": false,
+    "custom_queries": false,
+    "synapse_or_body_data": false
+  },
+  "requests": [
+    {
+      "order": 1,
+      "url": "https://neuprint.janelia.org/api/serverinfo",
+      "method": "GET",
+      "maximum_payload_bytes": 4096,
+      "purpose": "Capture actual status and complete bounded JSON server metadata if supplied. Record public-access fields literally, with case/type and any absent fields unknown."
+    },
+    {
+      "order": 2,
+      "url": "https://neuprint.janelia.org/api/dbmeta/datasets",
+      "method": "GET",
+      "maximum_payload_bytes": 32768,
+      "condition": "Only after request1 returns HTTP200 with complete well-formed bounded JSON. Otherwise stop after request1 without a retry.",
+      "purpose": "Capture complete bounded unauthenticated dataset metadata and whether the exact male-cns:v1.0 entry is present; no query/body/synapse endpoint."
+    }
+  ],
+  "pre_execution_requirements": [
+    "Root approves this concrete transport experiment; freeze new client/tests/plan identities before either request.",
+    "Offline tests for complete and truncated JSON, missing/oversized Content-Length or chunked responses, error/redirect/auth statuses, total caps, non-OSError deadline, one-address connect failure with no fallback, exact second-request condition and contemporaneous source hashes.",
+    "Record address family and DNS/TCP/TLS/first-header timing, without credentials, to avoid another unsupported inference about where transport failed.",
+    "No environment proxy, credential, token/profile, browser-session or account search. No cookies or Authorization header.",
+    "Fail closed on401/403 or redirects and preserve literal response status; absent HTTP remains a host/path observation, not a claim of global service unavailability.",
+    "No automatic transition from dataset metadata to any custom query or selected-body retrieval; that requires a separate bounded decision."
+  ],
+  "requests_executed": 0
+}

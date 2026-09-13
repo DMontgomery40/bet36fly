@@ -1,0 +1,1553 @@
+{
+  "metadata_bytes": 2080,
+  "message_metadata_bytes": 2072,
+  "metadata_version_number": 4,
+  "message_header": "RecordBatch",
+  "body_bytes": 1919392,
+  "body_start": 63576,
+  "rows": 65536,
+  "compression": {
+    "codec": "LZ4_FRAME",
+    "method": "BUFFER"
+  },
+  "custom_message_metadata_count": 0,
+  "nodes": [
+    {
+      "length": 65536,
+      "null_count": 0
+    },
+    {
+      "length": 65536,
+      "null_count": 0
+    },
+    {
+      "length": 65536,
+      "null_count": 0
+    },
+    {
+      "length": 65536,
+      "null_count": 0
+    },
+    {
+      "length": 65536,
+      "null_count": 0
+    },
+    {
+      "length": 65536,
+      "null_count": 0
+    },
+    {
+      "length": 65536,
+      "null_count": 0
+    },
+    {
+      "length": 65536,
+      "null_count": 0
+    },
+    {
+      "length": 65536,
+      "null_count": 0
+    },
+    {
+      "length": 65536,
+      "null_count": 0
+    },
+    {
+      "length": 65536,
+      "null_count": 0
+    },
+    {
+      "length": 65536,
+      "null_count": 0
+    },
+    {
+      "length": 65536,
+      "null_count": 0
+    },
+    {
+      "length": 65536,
+      "null_count": 0
+    },
+    {
+      "length": 65536,
+      "null_count": 0
+    },
+    {
+      "length": 65536,
+      "null_count": 0
+    },
+    {
+      "length": 65536,
+      "null_count": 0
+    },
+    {
+      "length": 65536,
+      "null_count": 0
+    },
+    {
+      "length": 65536,
+      "null_count": 0
+    },
+    {
+      "length": 65536,
+      "null_count": 0
+    },
+    {
+      "length": 65536,
+      "null_count": 0
+    },
+    {
+      "length": 65536,
+      "null_count": 0
+    },
+    {
+      "length": 65536,
+      "null_count": 0
+    },
+    {
+      "length": 65536,
+      "null_count": 0
+    },
+    {
+      "length": 65536,
+      "null_count": 0
+    },
+    {
+      "length": 65536,
+      "null_count": 0
+    },
+    {
+      "length": 65536,
+      "null_count": 0
+    },
+    {
+      "length": 65536,
+      "null_count": 0
+    },
+    {
+      "length": 65536,
+      "null_count": 0
+    },
+    {
+      "length": 65536,
+      "null_count": 0
+    },
+    {
+      "length": 65536,
+      "null_count": 0
+    },
+    {
+      "length": 65536,
+      "null_count": 0
+    },
+    {
+      "length": 65536,
+      "null_count": 0
+    },
+    {
+      "length": 65536,
+      "null_count": 0
+    },
+    {
+      "length": 65536,
+      "null_count": 0
+    },
+    {
+      "length": 65536,
+      "null_count": 0
+    },
+    {
+      "length": 65536,
+      "null_count": 0
+    },
+    {
+      "length": 65536,
+      "null_count": 0
+    },
+    {
+      "length": 65536,
+      "null_count": 0
+    },
+    {
+      "length": 65536,
+      "null_count": 0
+    },
+    {
+      "length": 65536,
+      "null_count": 0
+    }
+  ],
+  "buffers": [
+    {
+      "index": 0,
+      "offset": 0,
+      "length": 0
+    },
+    {
+      "index": 1,
+      "offset": 0,
+      "length": 7404
+    },
+    {
+      "index": 2,
+      "offset": 7408,
+      "length": 0
+    },
+    {
+      "index": 3,
+      "offset": 7408,
+      "length": 192554
+    },
+    {
+      "index": 4,
+      "offset": 199968,
+      "length": 0
+    },
+    {
+      "index": 5,
+      "offset": 199968,
+      "length": 211393
+    },
+    {
+      "index": 6,
+      "offset": 411368,
+      "length": 0
+    },
+    {
+      "index": 7,
+      "offset": 411368,
+      "length": 27178
+    },
+    {
+      "index": 8,
+      "offset": 438552,
+      "length": 0
+    },
+    {
+      "index": 9,
+      "offset": 438552,
+      "length": 229778
+    },
+    {
+      "index": 10,
+      "offset": 668336,
+      "length": 0
+    },
+    {
+      "index": 11,
+      "offset": 668336,
+      "length": 312330
+    },
+    {
+      "index": 12,
+      "offset": 980672,
+      "length": 0
+    },
+    {
+      "index": 13,
+      "offset": 980672,
+      "length": 276108
+    },
+    {
+      "index": 14,
+      "offset": 1256784,
+      "length": 0
+    },
+    {
+      "index": 15,
+      "offset": 1256784,
+      "length": 40769
+    },
+    {
+      "index": 16,
+      "offset": 1297560,
+      "length": 0
+    },
+    {
+      "index": 17,
+      "offset": 1297560,
+      "length": 1366
+    },
+    {
+      "index": 18,
+      "offset": 1298928,
+      "length": 0
+    },
+    {
+      "index": 19,
+      "offset": 1298928,
+      "length": 1366
+    },
+    {
+      "index": 20,
+      "offset": 1300296,
+      "length": 0
+    },
+    {
+      "index": 21,
+      "offset": 1300296,
+      "length": 7347
+    },
+    {
+      "index": 22,
+      "offset": 1307648,
+      "length": 0
+    },
+    {
+      "index": 23,
+      "offset": 1307648,
+      "length": 8458
+    },
+    {
+      "index": 24,
+      "offset": 1316112,
+      "length": 0
+    },
+    {
+      "index": 25,
+      "offset": 1316112,
+      "length": 290
+    },
+    {
+      "index": 26,
+      "offset": 1316408,
+      "length": 0
+    },
+    {
+      "index": 27,
+      "offset": 1316408,
+      "length": 290
+    },
+    {
+      "index": 28,
+      "offset": 1316704,
+      "length": 0
+    },
+    {
+      "index": 29,
+      "offset": 1316704,
+      "length": 39098
+    },
+    {
+      "index": 30,
+      "offset": 1355808,
+      "length": 0
+    },
+    {
+      "index": 31,
+      "offset": 1355808,
+      "length": 48615
+    },
+    {
+      "index": 32,
+      "offset": 1404424,
+      "length": 0
+    },
+    {
+      "index": 33,
+      "offset": 1404424,
+      "length": 560
+    },
+    {
+      "index": 34,
+      "offset": 1404984,
+      "length": 0
+    },
+    {
+      "index": 35,
+      "offset": 1404984,
+      "length": 560
+    },
+    {
+      "index": 36,
+      "offset": 1405544,
+      "length": 0
+    },
+    {
+      "index": 37,
+      "offset": 1405544,
+      "length": 560
+    },
+    {
+      "index": 38,
+      "offset": 1406104,
+      "length": 0
+    },
+    {
+      "index": 39,
+      "offset": 1406104,
+      "length": 560
+    },
+    {
+      "index": 40,
+      "offset": 1406664,
+      "length": 0
+    },
+    {
+      "index": 41,
+      "offset": 1406664,
+      "length": 560
+    },
+    {
+      "index": 42,
+      "offset": 1407224,
+      "length": 0
+    },
+    {
+      "index": 43,
+      "offset": 1407224,
+      "length": 560
+    },
+    {
+      "index": 44,
+      "offset": 1407784,
+      "length": 0
+    },
+    {
+      "index": 45,
+      "offset": 1407784,
+      "length": 290
+    },
+    {
+      "index": 46,
+      "offset": 1408080,
+      "length": 0
+    },
+    {
+      "index": 47,
+      "offset": 1408080,
+      "length": 290
+    },
+    {
+      "index": 48,
+      "offset": 1408376,
+      "length": 0
+    },
+    {
+      "index": 49,
+      "offset": 1408376,
+      "length": 290
+    },
+    {
+      "index": 50,
+      "offset": 1408672,
+      "length": 0
+    },
+    {
+      "index": 51,
+      "offset": 1408672,
+      "length": 290
+    },
+    {
+      "index": 52,
+      "offset": 1408968,
+      "length": 0
+    },
+    {
+      "index": 53,
+      "offset": 1408968,
+      "length": 290
+    },
+    {
+      "index": 54,
+      "offset": 1409264,
+      "length": 0
+    },
+    {
+      "index": 55,
+      "offset": 1409264,
+      "length": 290
+    },
+    {
+      "index": 56,
+      "offset": 1409560,
+      "length": 0
+    },
+    {
+      "index": 57,
+      "offset": 1409560,
+      "length": 560
+    },
+    {
+      "index": 58,
+      "offset": 1410120,
+      "length": 0
+    },
+    {
+      "index": 59,
+      "offset": 1410120,
+      "length": 560
+    },
+    {
+      "index": 60,
+      "offset": 1410680,
+      "length": 0
+    },
+    {
+      "index": 61,
+      "offset": 1410680,
+      "length": 560
+    },
+    {
+      "index": 62,
+      "offset": 1411240,
+      "length": 0
+    },
+    {
+      "index": 63,
+      "offset": 1411240,
+      "length": 560
+    },
+    {
+      "index": 64,
+      "offset": 1411800,
+      "length": 0
+    },
+    {
+      "index": 65,
+      "offset": 1411800,
+      "length": 560
+    },
+    {
+      "index": 66,
+      "offset": 1412360,
+      "length": 0
+    },
+    {
+      "index": 67,
+      "offset": 1412360,
+      "length": 560
+    },
+    {
+      "index": 68,
+      "offset": 1412920,
+      "length": 0
+    },
+    {
+      "index": 69,
+      "offset": 1412920,
+      "length": 290
+    },
+    {
+      "index": 70,
+      "offset": 1413216,
+      "length": 0
+    },
+    {
+      "index": 71,
+      "offset": 1413216,
+      "length": 290
+    },
+    {
+      "index": 72,
+      "offset": 1413512,
+      "length": 0
+    },
+    {
+      "index": 73,
+      "offset": 1413512,
+      "length": 290
+    },
+    {
+      "index": 74,
+      "offset": 1413808,
+      "length": 0
+    },
+    {
+      "index": 75,
+      "offset": 1413808,
+      "length": 290
+    },
+    {
+      "index": 76,
+      "offset": 1414104,
+      "length": 0
+    },
+    {
+      "index": 77,
+      "offset": 1414104,
+      "length": 290
+    },
+    {
+      "index": 78,
+      "offset": 1414400,
+      "length": 0
+    },
+    {
+      "index": 79,
+      "offset": 1414400,
+      "length": 290
+    },
+    {
+      "index": 80,
+      "offset": 1414696,
+      "length": 0
+    },
+    {
+      "index": 81,
+      "offset": 1414696,
+      "length": 504689
+    }
+  ],
+  "fields": [
+    {
+      "name": "z",
+      "type": "int32",
+      "node": {
+        "length": 65536,
+        "null_count": 0
+      },
+      "validity_buffer": {
+        "index": 0,
+        "offset": 0,
+        "length": 0
+      },
+      "values_buffer": {
+        "index": 1,
+        "offset": 0,
+        "length": 7404
+      },
+      "absolute_values_start": 63576,
+      "absolute_values_end": 70979,
+      "buffer_payload_read": false
+    },
+    {
+      "name": "y",
+      "type": "int32",
+      "node": {
+        "length": 65536,
+        "null_count": 0
+      },
+      "validity_buffer": {
+        "index": 2,
+        "offset": 7408,
+        "length": 0
+      },
+      "values_buffer": {
+        "index": 3,
+        "offset": 7408,
+        "length": 192554
+      },
+      "absolute_values_start": 70984,
+      "absolute_values_end": 263537,
+      "buffer_payload_read": false
+    },
+    {
+      "name": "x",
+      "type": "int32",
+      "node": {
+        "length": 65536,
+        "null_count": 0
+      },
+      "validity_buffer": {
+        "index": 4,
+        "offset": 199968,
+        "length": 0
+      },
+      "values_buffer": {
+        "index": 5,
+        "offset": 199968,
+        "length": 211393
+      },
+      "absolute_values_start": 263544,
+      "absolute_values_end": 474936,
+      "buffer_payload_read": false
+    },
+    {
+      "name": "kind",
+      "type": "dictionary<values=string, indices=int8, ordered=0>",
+      "node": {
+        "length": 65536,
+        "null_count": 0
+      },
+      "validity_buffer": {
+        "index": 6,
+        "offset": 411368,
+        "length": 0
+      },
+      "values_buffer": {
+        "index": 7,
+        "offset": 411368,
+        "length": 27178
+      },
+      "absolute_values_start": 474944,
+      "absolute_values_end": 502121,
+      "buffer_payload_read": false
+    },
+    {
+      "name": "conf",
+      "type": "float",
+      "node": {
+        "length": 65536,
+        "null_count": 0
+      },
+      "validity_buffer": {
+        "index": 8,
+        "offset": 438552,
+        "length": 0
+      },
+      "values_buffer": {
+        "index": 9,
+        "offset": 438552,
+        "length": 229778
+      },
+      "absolute_values_start": 502128,
+      "absolute_values_end": 731905,
+      "buffer_payload_read": false
+    },
+    {
+      "name": "sv",
+      "type": "int64",
+      "node": {
+        "length": 65536,
+        "null_count": 0
+      },
+      "validity_buffer": {
+        "index": 10,
+        "offset": 668336,
+        "length": 0
+      },
+      "values_buffer": {
+        "index": 11,
+        "offset": 668336,
+        "length": 312330
+      },
+      "absolute_values_start": 731912,
+      "absolute_values_end": 1044241,
+      "buffer_payload_read": false
+    },
+    {
+      "name": "body",
+      "type": "int64",
+      "node": {
+        "length": 65536,
+        "null_count": 0
+      },
+      "validity_buffer": {
+        "index": 12,
+        "offset": 980672,
+        "length": 0
+      },
+      "values_buffer": {
+        "index": 13,
+        "offset": 980672,
+        "length": 276108
+      },
+      "absolute_values_start": 1044248,
+      "absolute_values_end": 1320355,
+      "buffer_payload_read": false
+    },
+    {
+      "name": "compartment",
+      "type": "dictionary<values=string, indices=int8, ordered=0>",
+      "node": {
+        "length": 65536,
+        "null_count": 0
+      },
+      "validity_buffer": {
+        "index": 14,
+        "offset": 1256784,
+        "length": 0
+      },
+      "values_buffer": {
+        "index": 15,
+        "offset": 1256784,
+        "length": 40769
+      },
+      "absolute_values_start": 1320360,
+      "absolute_values_end": 1361128,
+      "buffer_payload_read": false
+    },
+    {
+      "name": "major_label",
+      "type": "int8",
+      "node": {
+        "length": 65536,
+        "null_count": 0
+      },
+      "validity_buffer": {
+        "index": 16,
+        "offset": 1297560,
+        "length": 0
+      },
+      "values_buffer": {
+        "index": 17,
+        "offset": 1297560,
+        "length": 1366
+      },
+      "absolute_values_start": 1361136,
+      "absolute_values_end": 1362501,
+      "buffer_payload_read": false
+    },
+    {
+      "name": "major",
+      "type": "dictionary<values=string, indices=int8, ordered=1>",
+      "node": {
+        "length": 65536,
+        "null_count": 0
+      },
+      "validity_buffer": {
+        "index": 18,
+        "offset": 1298928,
+        "length": 0
+      },
+      "values_buffer": {
+        "index": 19,
+        "offset": 1298928,
+        "length": 1366
+      },
+      "absolute_values_start": 1362504,
+      "absolute_values_end": 1363869,
+      "buffer_payload_read": false
+    },
+    {
+      "name": "primary_label",
+      "type": "uint8",
+      "node": {
+        "length": 65536,
+        "null_count": 0
+      },
+      "validity_buffer": {
+        "index": 20,
+        "offset": 1300296,
+        "length": 0
+      },
+      "values_buffer": {
+        "index": 21,
+        "offset": 1300296,
+        "length": 7347
+      },
+      "absolute_values_start": 1363872,
+      "absolute_values_end": 1371218,
+      "buffer_payload_read": false
+    },
+    {
+      "name": "primary",
+      "type": "dictionary<values=string, indices=int16, ordered=1>",
+      "node": {
+        "length": 65536,
+        "null_count": 0
+      },
+      "validity_buffer": {
+        "index": 22,
+        "offset": 1307648,
+        "length": 0
+      },
+      "values_buffer": {
+        "index": 23,
+        "offset": 1307648,
+        "length": 8458
+      },
+      "absolute_values_start": 1371224,
+      "absolute_values_end": 1379681,
+      "buffer_payload_read": false
+    },
+    {
+      "name": "superprimary",
+      "type": "dictionary<values=string, indices=int8, ordered=0>",
+      "node": {
+        "length": 65536,
+        "null_count": 0
+      },
+      "validity_buffer": {
+        "index": 24,
+        "offset": 1316112,
+        "length": 0
+      },
+      "values_buffer": {
+        "index": 25,
+        "offset": 1316112,
+        "length": 290
+      },
+      "absolute_values_start": 1379688,
+      "absolute_values_end": 1379977,
+      "buffer_payload_read": false
+    },
+    {
+      "name": "superprimary_label",
+      "type": "uint8",
+      "node": {
+        "length": 65536,
+        "null_count": 0
+      },
+      "validity_buffer": {
+        "index": 26,
+        "offset": 1316408,
+        "length": 0
+      },
+      "values_buffer": {
+        "index": 27,
+        "offset": 1316408,
+        "length": 290
+      },
+      "absolute_values_start": 1379984,
+      "absolute_values_end": 1380273,
+      "buffer_payload_read": false
+    },
+    {
+      "name": "subprimary_label",
+      "type": "uint8",
+      "node": {
+        "length": 65536,
+        "null_count": 0
+      },
+      "validity_buffer": {
+        "index": 28,
+        "offset": 1316704,
+        "length": 0
+      },
+      "values_buffer": {
+        "index": 29,
+        "offset": 1316704,
+        "length": 39098
+      },
+      "absolute_values_start": 1380280,
+      "absolute_values_end": 1419377,
+      "buffer_payload_read": false
+    },
+    {
+      "name": "subprimary",
+      "type": "dictionary<values=string, indices=int16, ordered=1>",
+      "node": {
+        "length": 65536,
+        "null_count": 0
+      },
+      "validity_buffer": {
+        "index": 30,
+        "offset": 1355808,
+        "length": 0
+      },
+      "values_buffer": {
+        "index": 31,
+        "offset": 1355808,
+        "length": 48615
+      },
+      "absolute_values_start": 1419384,
+      "absolute_values_end": 1467998,
+      "buffer_payload_read": false
+    },
+    {
+      "name": "medulla_r_column_label",
+      "type": "int16",
+      "node": {
+        "length": 65536,
+        "null_count": 0
+      },
+      "validity_buffer": {
+        "index": 32,
+        "offset": 1404424,
+        "length": 0
+      },
+      "values_buffer": {
+        "index": 33,
+        "offset": 1404424,
+        "length": 560
+      },
+      "absolute_values_start": 1468000,
+      "absolute_values_end": 1468559,
+      "buffer_payload_read": false
+    },
+    {
+      "name": "medulla_r_column",
+      "type": "dictionary<values=string, indices=int16, ordered=1>",
+      "node": {
+        "length": 65536,
+        "null_count": 0
+      },
+      "validity_buffer": {
+        "index": 34,
+        "offset": 1404984,
+        "length": 0
+      },
+      "values_buffer": {
+        "index": 35,
+        "offset": 1404984,
+        "length": 560
+      },
+      "absolute_values_start": 1468560,
+      "absolute_values_end": 1469119,
+      "buffer_payload_read": false
+    },
+    {
+      "name": "lobula_r_column_label",
+      "type": "int16",
+      "node": {
+        "length": 65536,
+        "null_count": 0
+      },
+      "validity_buffer": {
+        "index": 36,
+        "offset": 1405544,
+        "length": 0
+      },
+      "values_buffer": {
+        "index": 37,
+        "offset": 1405544,
+        "length": 560
+      },
+      "absolute_values_start": 1469120,
+      "absolute_values_end": 1469679,
+      "buffer_payload_read": false
+    },
+    {
+      "name": "lobula_r_column",
+      "type": "dictionary<values=string, indices=int16, ordered=1>",
+      "node": {
+        "length": 65536,
+        "null_count": 0
+      },
+      "validity_buffer": {
+        "index": 38,
+        "offset": 1406104,
+        "length": 0
+      },
+      "values_buffer": {
+        "index": 39,
+        "offset": 1406104,
+        "length": 560
+      },
+      "absolute_values_start": 1469680,
+      "absolute_values_end": 1470239,
+      "buffer_payload_read": false
+    },
+    {
+      "name": "lobula_plate_r_column_label",
+      "type": "int16",
+      "node": {
+        "length": 65536,
+        "null_count": 0
+      },
+      "validity_buffer": {
+        "index": 40,
+        "offset": 1406664,
+        "length": 0
+      },
+      "values_buffer": {
+        "index": 41,
+        "offset": 1406664,
+        "length": 560
+      },
+      "absolute_values_start": 1470240,
+      "absolute_values_end": 1470799,
+      "buffer_payload_read": false
+    },
+    {
+      "name": "lobula_plate_r_column",
+      "type": "dictionary<values=string, indices=int16, ordered=1>",
+      "node": {
+        "length": 65536,
+        "null_count": 0
+      },
+      "validity_buffer": {
+        "index": 42,
+        "offset": 1407224,
+        "length": 0
+      },
+      "values_buffer": {
+        "index": 43,
+        "offset": 1407224,
+        "length": 560
+      },
+      "absolute_values_start": 1470800,
+      "absolute_values_end": 1471359,
+      "buffer_payload_read": false
+    },
+    {
+      "name": "medulla_r_layer_label",
+      "type": "int8",
+      "node": {
+        "length": 65536,
+        "null_count": 0
+      },
+      "validity_buffer": {
+        "index": 44,
+        "offset": 1407784,
+        "length": 0
+      },
+      "values_buffer": {
+        "index": 45,
+        "offset": 1407784,
+        "length": 290
+      },
+      "absolute_values_start": 1471360,
+      "absolute_values_end": 1471649,
+      "buffer_payload_read": false
+    },
+    {
+      "name": "medulla_r_layer",
+      "type": "dictionary<values=string, indices=int8, ordered=1>",
+      "node": {
+        "length": 65536,
+        "null_count": 0
+      },
+      "validity_buffer": {
+        "index": 46,
+        "offset": 1408080,
+        "length": 0
+      },
+      "values_buffer": {
+        "index": 47,
+        "offset": 1408080,
+        "length": 290
+      },
+      "absolute_values_start": 1471656,
+      "absolute_values_end": 1471945,
+      "buffer_payload_read": false
+    },
+    {
+      "name": "lobula_r_layer_label",
+      "type": "int8",
+      "node": {
+        "length": 65536,
+        "null_count": 0
+      },
+      "validity_buffer": {
+        "index": 48,
+        "offset": 1408376,
+        "length": 0
+      },
+      "values_buffer": {
+        "index": 49,
+        "offset": 1408376,
+        "length": 290
+      },
+      "absolute_values_start": 1471952,
+      "absolute_values_end": 1472241,
+      "buffer_payload_read": false
+    },
+    {
+      "name": "lobula_r_layer",
+      "type": "dictionary<values=string, indices=int8, ordered=1>",
+      "node": {
+        "length": 65536,
+        "null_count": 0
+      },
+      "validity_buffer": {
+        "index": 50,
+        "offset": 1408672,
+        "length": 0
+      },
+      "values_buffer": {
+        "index": 51,
+        "offset": 1408672,
+        "length": 290
+      },
+      "absolute_values_start": 1472248,
+      "absolute_values_end": 1472537,
+      "buffer_payload_read": false
+    },
+    {
+      "name": "lobula_plate_r_layer_label",
+      "type": "int8",
+      "node": {
+        "length": 65536,
+        "null_count": 0
+      },
+      "validity_buffer": {
+        "index": 52,
+        "offset": 1408968,
+        "length": 0
+      },
+      "values_buffer": {
+        "index": 53,
+        "offset": 1408968,
+        "length": 290
+      },
+      "absolute_values_start": 1472544,
+      "absolute_values_end": 1472833,
+      "buffer_payload_read": false
+    },
+    {
+      "name": "lobula_plate_r_layer",
+      "type": "dictionary<values=string, indices=int8, ordered=1>",
+      "node": {
+        "length": 65536,
+        "null_count": 0
+      },
+      "validity_buffer": {
+        "index": 54,
+        "offset": 1409264,
+        "length": 0
+      },
+      "values_buffer": {
+        "index": 55,
+        "offset": 1409264,
+        "length": 290
+      },
+      "absolute_values_start": 1472840,
+      "absolute_values_end": 1473129,
+      "buffer_payload_read": false
+    },
+    {
+      "name": "medulla_l_column_label",
+      "type": "int16",
+      "node": {
+        "length": 65536,
+        "null_count": 0
+      },
+      "validity_buffer": {
+        "index": 56,
+        "offset": 1409560,
+        "length": 0
+      },
+      "values_buffer": {
+        "index": 57,
+        "offset": 1409560,
+        "length": 560
+      },
+      "absolute_values_start": 1473136,
+      "absolute_values_end": 1473695,
+      "buffer_payload_read": false
+    },
+    {
+      "name": "medulla_l_column",
+      "type": "dictionary<values=string, indices=int16, ordered=1>",
+      "node": {
+        "length": 65536,
+        "null_count": 0
+      },
+      "validity_buffer": {
+        "index": 58,
+        "offset": 1410120,
+        "length": 0
+      },
+      "values_buffer": {
+        "index": 59,
+        "offset": 1410120,
+        "length": 560
+      },
+      "absolute_values_start": 1473696,
+      "absolute_values_end": 1474255,
+      "buffer_payload_read": false
+    },
+    {
+      "name": "lobula_l_column_label",
+      "type": "int16",
+      "node": {
+        "length": 65536,
+        "null_count": 0
+      },
+      "validity_buffer": {
+        "index": 60,
+        "offset": 1410680,
+        "length": 0
+      },
+      "values_buffer": {
+        "index": 61,
+        "offset": 1410680,
+        "length": 560
+      },
+      "absolute_values_start": 1474256,
+      "absolute_values_end": 1474815,
+      "buffer_payload_read": false
+    },
+    {
+      "name": "lobula_l_column",
+      "type": "dictionary<values=string, indices=int16, ordered=1>",
+      "node": {
+        "length": 65536,
+        "null_count": 0
+      },
+      "validity_buffer": {
+        "index": 62,
+        "offset": 1411240,
+        "length": 0
+      },
+      "values_buffer": {
+        "index": 63,
+        "offset": 1411240,
+        "length": 560
+      },
+      "absolute_values_start": 1474816,
+      "absolute_values_end": 1475375,
+      "buffer_payload_read": false
+    },
+    {
+      "name": "lobula_plate_l_column_label",
+      "type": "int16",
+      "node": {
+        "length": 65536,
+        "null_count": 0
+      },
+      "validity_buffer": {
+        "index": 64,
+        "offset": 1411800,
+        "length": 0
+      },
+      "values_buffer": {
+        "index": 65,
+        "offset": 1411800,
+        "length": 560
+      },
+      "absolute_values_start": 1475376,
+      "absolute_values_end": 1475935,
+      "buffer_payload_read": false
+    },
+    {
+      "name": "lobula_plate_l_column",
+      "type": "dictionary<values=string, indices=int16, ordered=1>",
+      "node": {
+        "length": 65536,
+        "null_count": 0
+      },
+      "validity_buffer": {
+        "index": 66,
+        "offset": 1412360,
+        "length": 0
+      },
+      "values_buffer": {
+        "index": 67,
+        "offset": 1412360,
+        "length": 560
+      },
+      "absolute_values_start": 1475936,
+      "absolute_values_end": 1476495,
+      "buffer_payload_read": false
+    },
+    {
+      "name": "medulla_l_layer_label",
+      "type": "int8",
+      "node": {
+        "length": 65536,
+        "null_count": 0
+      },
+      "validity_buffer": {
+        "index": 68,
+        "offset": 1412920,
+        "length": 0
+      },
+      "values_buffer": {
+        "index": 69,
+        "offset": 1412920,
+        "length": 290
+      },
+      "absolute_values_start": 1476496,
+      "absolute_values_end": 1476785,
+      "buffer_payload_read": false
+    },
+    {
+      "name": "medulla_l_layer",
+      "type": "dictionary<values=string, indices=int8, ordered=1>",
+      "node": {
+        "length": 65536,
+        "null_count": 0
+      },
+      "validity_buffer": {
+        "index": 70,
+        "offset": 1413216,
+        "length": 0
+      },
+      "values_buffer": {
+        "index": 71,
+        "offset": 1413216,
+        "length": 290
+      },
+      "absolute_values_start": 1476792,
+      "absolute_values_end": 1477081,
+      "buffer_payload_read": false
+    },
+    {
+      "name": "lobula_l_layer_label",
+      "type": "int8",
+      "node": {
+        "length": 65536,
+        "null_count": 0
+      },
+      "validity_buffer": {
+        "index": 72,
+        "offset": 1413512,
+        "length": 0
+      },
+      "values_buffer": {
+        "index": 73,
+        "offset": 1413512,
+        "length": 290
+      },
+      "absolute_values_start": 1477088,
+      "absolute_values_end": 1477377,
+      "buffer_payload_read": false
+    },
+    {
+      "name": "lobula_l_layer",
+      "type": "dictionary<values=string, indices=int8, ordered=1>",
+      "node": {
+        "length": 65536,
+        "null_count": 0
+      },
+      "validity_buffer": {
+        "index": 74,
+        "offset": 1413808,
+        "length": 0
+      },
+      "values_buffer": {
+        "index": 75,
+        "offset": 1413808,
+        "length": 290
+      },
+      "absolute_values_start": 1477384,
+      "absolute_values_end": 1477673,
+      "buffer_payload_read": false
+    },
+    {
+      "name": "lobula_plate_l_layer_label",
+      "type": "int8",
+      "node": {
+        "length": 65536,
+        "null_count": 0
+      },
+      "validity_buffer": {
+        "index": 76,
+        "offset": 1414104,
+        "length": 0
+      },
+      "values_buffer": {
+        "index": 77,
+        "offset": 1414104,
+        "length": 290
+      },
+      "absolute_values_start": 1477680,
+      "absolute_values_end": 1477969,
+      "buffer_payload_read": false
+    },
+    {
+      "name": "lobula_plate_l_layer",
+      "type": "dictionary<values=string, indices=int8, ordered=1>",
+      "node": {
+        "length": 65536,
+        "null_count": 0
+      },
+      "validity_buffer": {
+        "index": 78,
+        "offset": 1414400,
+        "length": 0
+      },
+      "values_buffer": {
+        "index": 79,
+        "offset": 1414400,
+        "length": 290
+      },
+      "absolute_values_start": 1477976,
+      "absolute_values_end": 1478265,
+      "buffer_payload_read": false
+    },
+    {
+      "name": "point_id",
+      "type": "uint64",
+      "node": {
+        "length": 65536,
+        "null_count": 0
+      },
+      "validity_buffer": {
+        "index": 80,
+        "offset": 1414696,
+        "length": 0
+      },
+      "values_buffer": {
+        "index": 81,
+        "offset": 1414696,
+        "length": 504689
+      },
+      "absolute_values_start": 1478272,
+      "absolute_values_end": 1982960,
+      "buffer_payload_read": false
+    }
+  ],
+  "all_buffer_extents_checked": true,
+  "body_payload_bytes_read": 0,
+  "global_batch_layout_or_body_order_established": false,
+  "request": {
+    "slot": 1,
+    "spec": {
+      "slot": 1,
+      "url": "https://storage.googleapis.com/flyem-male-cns/v1.0/connectome-data/flat-connectome/syn-points-male-cns-v1.0-minconf-0.5.feather",
+      "range_start": 61496,
+      "range_end": 63575,
+      "object_bytes": 13061489098,
+      "etag": "\"c69d08758de07582035cc8843574493a\"",
+      "generation": "1780494991007477",
+      "maximum_payload_bytes": 2080
+    },
+    "plan_sha256": "e05a9ecfcddc8f8ddd022b0992f5cfcbdcf21e5ad85723c0e2ac465169e3edf5",
+    "executed_source_sha256": "b4bde33bc78a738b4bd84a38be4123075000d177d0505eb471c5fe43f1465227",
+    "source_bindings": [
+      {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/localization_batch_metadata_probe.py",
+        "sha256": "b4bde33bc78a738b4bd84a38be4123075000d177d0505eb471c5fe43f1465227",
+        "bytes": 9963
+      },
+      {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_localization_batch_metadata_probe.py",
+        "sha256": "845c33def71bf54aa2a5c8e1a5d5bf3ba0b1815b0273f96ddb39d18d75e55fb5",
+        "bytes": 6416
+      },
+      {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/localization-range-report-2026-09-13.md",
+        "sha256": "3e62b7f039c3796daa9a9ebc4e9d2ec9dfc3ceced9f89b84bb44cd10b40d63e6",
+        "bytes": 10088
+      },
+      {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/localization-range-probe-2026-09-13/result-01.json",
+        "sha256": "41716fed3d5e054bf50401e7d4cc3e3c6378ebe8a09bb56fd6ea58c5639014d9",
+        "bytes": 1355
+      },
+      {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/localization-range-probe-2026-09-13/result-02.json",
+        "sha256": "86f981f556d4f53ddcccf1bac176ed02438b4a6c9f36fbabe041fb2675b88d2c",
+        "bytes": 1402
+      },
+      {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/localization-range-probe-2026-09-13/footer-inspection-01.json",
+        "sha256": "206cef22f950d13de1264f98a9112c335641d6e16b881205586c126198a0079f",
+        "bytes": 680149
+      },
+      {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/localization-range-probe-2026-09-13/footer-inspection-02.json",
+        "sha256": "afecf069b24c11d79b63debba9143bd3c0a61d7bb309c2c8443484f3ce43fc1c",
+        "bytes": 572314
+      },
+      {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/localization-range-probe-2026-09-13/payload-03.bin",
+        "sha256": "09c80f93887d3f260b9ac1a101248994f2e8e73fd2e88e8128261921540e86bf",
+        "bytes": 1512
+      },
+      {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/localization-range-probe-2026-09-13/payload-04.bin",
+        "sha256": "c5187ee92f011736e3877f22372869aaf11930fb176eb63fa942d39a9a11be8d",
+        "bytes": 21803
+      }
+    ],
+    "started_at_utc": "2026-09-13T05:27:18.490861+00:00",
+    "status": "received",
+    "payload_bytes": 2080,
+    "header_bytes": 840,
+    "active_deadline_seconds": 14,
+    "maximum_wall_seconds": 15,
+    "sent_headers": {
+      "Accept-Encoding": "identity",
+      "Connection": "close",
+      "User-Agent": "BET36FLY-pinned-batch-metadata/1.0",
+      "Range": "bytes=61496-63575",
+      "If-Match": "\"c69d08758de07582035cc8843574493a\"",
+      "x-goog-if-generation-match": "1780494991007477"
+    },
+    "request_path": "/flyem-male-cns/v1.0/connectome-data/flat-connectome/syn-points-male-cns-v1.0-minconf-0.5.feather?generation=1780494991007477",
+    "http_status": 206,
+    "response_headers": {
+      "content-type": "application/octet-stream",
+      "last-modified": "Wed, 03 Jun 2026 13:56:31 GMT",
+      "etag": "\"c69d08758de07582035cc8843574493a\"",
+      "x-goog-generation": "1780494991007477",
+      "x-goog-metageneration": "1",
+      "content-range": "bytes 61496-63575/13061489098",
+      "content-length": "2080"
+    },
+    "active_io_elapsed_seconds": 0.1618884999770671,
+    "elapsed_seconds": 0.16189254191704094,
+    "response_bytes": 2920,
+    "request_wall_cap_met": true,
+    "payload_sha256": "00453ce0dee010e95695ca7877750c090dff0706e95d745f96fa105e2316576b",
+    "sources_unchanged_after_request": true,
+    "cumulative_response_bytes": 2920,
+    "cumulative_seconds": 0.16189254191704094
+  }
+}

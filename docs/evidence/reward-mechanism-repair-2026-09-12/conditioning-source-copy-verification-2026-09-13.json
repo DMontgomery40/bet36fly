@@ -1,0 +1,64 @@
+{
+  "checked_at": "2026-09-13T06:02:06.961117+00:00",
+  "copy_manifests": [
+    {
+      "manifest": "rate-adaptation-copy-manifest.json",
+      "files": 173,
+      "bytes": 12005799,
+      "passed": true
+    },
+    {
+      "manifest": "localization-range-copy-manifest-2026-09-13.json",
+      "files": 32,
+      "bytes": 2149815,
+      "passed": true
+    },
+    {
+      "manifest": "localization-batch-metadata-copy-manifest-2026-09-13.json",
+      "files": 20,
+      "bytes": 128089,
+      "passed": true
+    },
+    {
+      "manifest": "localization-neuprint-ipv4-copy-manifest-2026-09-13.json",
+      "files": 9,
+      "bytes": 78719,
+      "passed": true
+    },
+    {
+      "manifest": "localization-next-decision-copy-manifest-2026-09-13.json",
+      "files": 2,
+      "bytes": 14198,
+      "passed": true
+    },
+    {
+      "manifest": "conditioning-paused-draft-copy.json",
+      "files": 1,
+      "bytes": 26984,
+      "passed": true
+    }
+  ],
+  "copied_files": 237,
+  "copied_bytes": 14403604,
+  "initial_microduck_copies_verified": 59,
+  "initial_microduck_sources_exist": 59,
+  "upstream_files_evolved_since_immutable_snapshot": [
+    "research/raw/2026-09-12/source-ledger.json",
+    "wiki/SCHEMA.md",
+    "wiki/community/tools-and-distribution.md",
+    "wiki/connectome/brain-body-interface.md",
+    "wiki/index.md",
+    "wiki/log.md",
+    "wiki/microduck/pickup-mechanics.md",
+    "wiki/microduck/runtime.md",
+    "wiki/microduck/sources.json",
+    "wiki/microduck/sources.md",
+    "wiki/microduck/trainer.md",
+    "wiki/overview.md",
+    "wiki/synthesis/hazard-evaluation.md",
+    "wiki/synthesis/open-questions.md",
+    "wiki/synthesis/training-and-deployment.md",
+    "wiki/verification.md"
+  ],
+  "source_modified_by_this_check": false
+}

@@ -1,0 +1,23 @@
+{
+  "copied_at": "2026-09-13T06:12:59.985242+00:00",
+  "files": [
+    {
+      "source": "output/collaboration/reward-mechanism-repair/conditioning-independent-finalization-supplement-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-independent-finalization-supplement-2026-09-13.json",
+      "bytes": 3802,
+      "sha256": "29238600164e9cdd30880de8a5b6d2d1c93487ae3a4d101c9cdef9b7d4ed521e"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/conditioning-independent-finalization-source-before.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-independent-finalization-source-before.json",
+      "bytes": 214,
+      "sha256": "0b46d0eb9eb59a8972c5771729b527ce38af2a65fd48ea6d1398fae71870865a"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/conditioning-independent-finalization-tests.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-independent-finalization-tests.txt",
+      "bytes": 114,
+      "sha256": "2159d00c373e17e9ffe111cb4b24985fa3225f22627d970782e77192830903d6"
+    }
+  ]
+}

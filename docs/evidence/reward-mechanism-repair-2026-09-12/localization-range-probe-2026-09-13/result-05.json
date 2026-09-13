@@ -1,0 +1,25 @@
+{
+  "slot": 5,
+  "url": "https://docs.cloud.google.com/storage/docs/xml-api/get-object-download",
+  "range": null,
+  "plan_sha256": "e335feb7d23c7785e13a7b05caca5d884e6a622b4c0d32c98aa0158ce7c7f2f5",
+  "started_at_utc": "2026-09-13T05:13:45.470659+00:00",
+  "status": "received",
+  "payload_bytes": 194496,
+  "header_bytes": 837,
+  "max_payload_bytes": 262144,
+  "max_seconds": 14,
+  "transport": "one DNS-resolved IPv4 address; no address fallback",
+  "http_status": 200,
+  "headers": {
+    "last-modified": "Wed, 09 Sep 2026 21:30:05 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "content-length": "194496"
+  },
+  "payload_complete": true,
+  "active_io_elapsed_seconds": 0.5326175829395652,
+  "elapsed_seconds": 0.5326271669473499,
+  "payload_path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/localization-range-probe-2026-09-13/payload-05.bin",
+  "payload_sha256": "2c7ad9d5ba2e6d2413451874c67b200d3a04e31c0b098d5e03207546fa902d6f",
+  "cumulative_response_bytes": 746485
+}

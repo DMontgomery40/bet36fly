@@ -38,11 +38,19 @@ background subtraction nor a particular adaptation constant follows from these
 observations. [Cohn et al. 2015](https://stacks.cdc.gov/view/cdc/38872/cdc_38872_DS1.pdf),
 [Yamagata et al. 2016](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002586).
 
-The audit documents a targeted neuPrint route to synapse locations, but no such
-locations were retrieved. It also specifies an unimplemented rectified-rate
-adaptation hypothesis, explicitly as engineering. Its sign crossings and full
-tail require a new numerical contract before evaluation; it is not an accepted
-replacement or a qualified mechanism.
+The initial neuPrint access attempts returned no HTTP status or coordinates.
+A later [bounded official-file check](../../docs/evidence/reward-mechanism-repair-2026-09-12/localization-range-report-2026-09-13.md)
+retrieved and parsed both synapse-file footers. It established byte-range
+access and column identities, but no body-selection index or synapse locations.
+The [cell-specific localization page](synapse-localization.md) identifies the
+required bodies, columns and evidence limits.
+
+The rectified-rate adaptation hypothesis was tested under a
+frozen numerical contract on all 32 saved histories and **rejected**. All four
+home guards failed through excessive potentiation; second/base mean was
++2.638301402 against absolute limit 1.113471909. No circuit ran for this
+offline study, and the equation was not integrated as a production rule.
+[Complete result and independent numerical audit](../../docs/evidence/reward-mechanism-repair-2026-09-12/rate-adaptation-shadow-result.md).
 
 ## Anatomical class is not transmitter selection
 

@@ -25,6 +25,7 @@ remains a dated snapshot.
 | Which Kenyon cells can learn, and why is the away mask different? | [KC families and synaptic support](cells/kenyon-cells.md) |
 | Why did inhibition silence the readout? | [The two APL cells](cells/apl.md) |
 | What do PPL101 and PAM12 actually do here? | [Dopamine neurons and teaching channels](cells/dopamine.md) |
+| Where are DAN contacts relative to KC→MBON sites? | [Synapse locations: observed metadata and missing coordinates](cells/synapse-localization.md) |
 | Is MBON09 exclusively γ3? | [MBON identities, compartments, and readout](cells/mbons.md) |
 | What about other transmitters, receptors, and glia? | [Cell biology represented and omitted](cells/neurochemistry.md) |
 

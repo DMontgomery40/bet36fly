@@ -1,0 +1,75 @@
+{
+  "agent": "/root/delivered_arrivals",
+  "checked_at_utc": "2026-09-13T06:12:04.515758+00:00",
+  "status": "PASS bounded finalization-clock/cancellation supplement",
+  "prior_immutable_review": [
+    {
+      "original": {
+        "path": "output/collaboration/reward-mechanism-repair/conditioning-independent-review-2026-09-13.md",
+        "bytes": 6606,
+        "sha256": "b3dbcd88348468a7a6c99886de627f2bc3b2d3a03d2bbc2577416551001fecd8"
+      },
+      "copy": {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-independent-review-2026-09-13.md",
+        "bytes": 6606,
+        "sha256": "b3dbcd88348468a7a6c99886de627f2bc3b2d3a03d2bbc2577416551001fecd8"
+      },
+      "byte_identical": true
+    },
+    {
+      "original": {
+        "path": "output/collaboration/reward-mechanism-repair/conditioning-independent-reading-review-2026-09-13.json",
+        "bytes": 60812,
+        "sha256": "8cb91481b5a104f1a5771ac7bc3199ff39601101d84f5c10270b9a9fd15611ab"
+      },
+      "copy": {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-independent-reading-review-2026-09-13.json",
+        "bytes": 60812,
+        "sha256": "8cb91481b5a104f1a5771ac7bc3199ff39601101d84f5c10270b9a9fd15611ab"
+      },
+      "byte_identical": true
+    }
+  ],
+  "scope": "Only runner final persistence and its four synthetic regressions. No full suite rerun, native calls, real conditioning, network or production edit.",
+  "source_before": {
+    "path": "output/collaboration/reward-mechanism-repair/conditioning-independent-finalization-source-before.json",
+    "bytes": 214,
+    "sha256": "0b46d0eb9eb59a8972c5771729b527ce38af2a65fd48ea6d1398fae71870865a"
+  },
+  "reviewed_source_boundary": [
+    {
+      "path": "bet36fly/conditioning_runner.py",
+      "bytes": 45519,
+      "sha256": "78128541cca1513a6cef50e2107d365c7ab68588bab795100c5f52e2396ce0fd"
+    },
+    {
+      "path": "tests/test_conditioning_runner.py",
+      "bytes": 18150,
+      "sha256": "589670ba192b289d1e067e41e59ed4c45349b3809a63951a1bf4ebdf85609f3c"
+    }
+  ],
+  "source_hashes_unchanged_during_tests": true,
+  "inspected_regions": {
+    "bet36fly/conditioning_runner.py": "Nested persist(final=True), final writes and post-write completion boundary; final caller has no additional manifest write",
+    "tests/test_conditioning_runner.py": "test_final_persistence_cap_or_cancellation_cannot_report_completion; ledger/manifest boundary crossed by cap/cancel matrix"
+  },
+  "verification_log": {
+    "path": "output/collaboration/reward-mechanism-repair/conditioning-independent-finalization-tests.txt",
+    "bytes": 114,
+    "sha256": "2159d00c373e17e9ffe111cb4b24985fa3225f22627d970782e77192830903d6"
+  },
+  "tests_passed": 4,
+  "synthetic_fake_engine_calls": 6528,
+  "native_calls": 0,
+  "full_cns_calls": 0,
+  "review_findings": [],
+  "observed_behavior": [
+    "Final ledger, artifact bindings and manifest are published before checking the final wall/cancellation condition.",
+    "Completion that crosses the cap or observes cancellation is reclassified as budget_stopped/cancelled and persisted exactly once more.",
+    "Terminal persistence cannot recursively re-enter completed.",
+    "Actual1632 attempted calls remain recorded and the manifest points to the revised ledger hash."
+  ],
+  "narrative_coverage": "All135 current narrative docs/wiki match prior fully read or delta-read hashes, including exact copied independent report; no new unread narrative delta at this boundary.",
+  "mutations": "New output-only pre-test source inventory, focused test log and this new JSON supplement; earlier review files/receipts remain unchanged.",
+  "remaining_parent_acceptance": "Full repository gate, browser/operator workflow, protection checks and local commit remain parent-owned."
+}

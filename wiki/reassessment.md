@@ -44,6 +44,14 @@ evidence API/UI extension is now complete and
 The [continuation handoff](../docs/REWARD_REPAIR_HANDOFF.md) records the remaining
 scientific work; a correct evidence display does not close its learning gate.
 
+The [conditioning harness is now verified](../docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-acceptance-2026-09-13.md)
+with an independent artifact reader and generalized schedule, numerical,
+checkpoint and execution-state tests. It refuses the actual failed pair before
+constructing an engine. This repairs the experiment machinery; it supplies no
+new acquisition or reversal result. The [synapse-location account](cells/synapse-localization.md)
+also identifies a complete home contact selection, while keeping unread
+coordinates and uncalibrated dopamine exposure explicit.
+
 ## Initial wiki assessment — September 12 UTC
 
 The following account preserves the initial inspection before integration. It

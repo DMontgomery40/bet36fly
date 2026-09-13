@@ -176,6 +176,25 @@ const base = process.env.BET36FLY_BASE_URL || 'http://127.0.0.1:8765';
   scenarios.push({mode:'mechanism-'+mode,verified:true,source:'isolated synthetic response fixture'});
   await test.close();
  }
+ // Isolated conditioning validator fixtures are explicitly synthetic, never registered artifacts.
+ for(const evidence of ['passed','failed','incomplete','unverified']) {
+  const test=await browser.newPage({viewport:{width:390,height:844}});
+  test.on('pageerror',e=>errors.push('conditioning-validation-'+evidence+': '+e.message));
+  await test.route('**/api/experiments',route=>route.fulfill({status:200,contentType:'application/json',body:JSON.stringify({...state,experiments:[{
+   id:'synthetic-conditioning-validation',kind:'dopamine-conditioning',status:'completed',created_at:'',updated_at:'',artifacts:{},
+   jobs:[{id:'acquisition-primary',status:'completed',completed:616,total:616}],
+   conditioning_validation:{validation_status:evidence==='unverified'?'invalid':'validated',evidence_status:evidence,all_passed:evidence==='passed'?true:null,
+    validated_calls:evidence==='passed'?1632:616,error:null,note:'Synthetic browser fixture only: compact counts and native group bound observations.',stages:evidence==='passed'?Object.fromEntries(['acquisition-primary','acquisition-challenge','reversal'].map(name=>[name,{all_passed:true}])):{'acquisition-primary':{all_passed:false}}}
+  }]})}));
+  await test.goto(base+'/#training',{waitUntil:'domcontentloaded'});
+  const area=test.getByRole('region',{name:'Conditioning and reversal'});
+  await area.getByText('Conditioning scientific verdict: '+evidence+'.',{exact:false}).waitFor();
+  assert.ok((await area.innerText()).includes('616 / 616'));
+  assert.ok((await area.innerText()).includes('Synthetic browser fixture only'));
+  assert.ok(await test.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth));
+  scenarios.push({mode:'conditioning-validation-'+evidence,verified:true,source:'isolated synthetic validator response fixture'});
+  await test.close();
+ }
  // Retain successful reads across a refresh error, then exercise real Retry and recovery.
  const stalePage=await browser.newPage({viewport:{width:390,height:844}});
  stalePage.on('pageerror',e=>errors.push('stale-retry: '+e.message));

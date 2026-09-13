@@ -1,0 +1,12 @@
+{
+  "slot": 3,
+  "url": "https://raw.githubusercontent.com/apache/arrow/main/format/File.fbs",
+  "range": null,
+  "plan_sha256": "e335feb7d23c7785e13a7b05caca5d884e6a622b4c0d32c98aa0158ce7c7f2f5",
+  "started_at_utc": "2026-09-13T05:12:01.534101+00:00",
+  "status": "attempted",
+  "payload_bytes": 0,
+  "header_bytes": 0,
+  "max_payload_bytes": 32768,
+  "max_seconds": 14
+}

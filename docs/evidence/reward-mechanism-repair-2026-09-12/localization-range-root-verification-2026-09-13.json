@@ -1,0 +1,14 @@
+{
+  "checked_at_utc": "2026-09-13T05:26:54.323111+00:00",
+  "copied_files": 32,
+  "copied_bytes": 2149815,
+  "source_and_copy_hashes_match": true,
+  "complete_footer_reproduction_matches": 2,
+  "record_batch_blocks_matched": 10214,
+  "dictionary_blocks_matched": 19,
+  "copied_offline_protocol_tests_passed": 11,
+  "method": "Rerun copied inspector into a temporary directory; compare complete JSON structures to saved reports. This reproduces the audit and is not a new independent per-block algorithm.",
+  "new_network_requests": 0,
+  "synapse_rows_decoded": 0,
+  "new_circuit_calls": 0
+}

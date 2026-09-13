@@ -1,0 +1,172 @@
+{
+  "agent": "dopamine_sources",
+  "checked_at_utc": "2026-09-13T05:35:32.191520+00:00",
+  "prior_full_reading_receipt": {
+    "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-closing-reading-receipt-2026-09-13.json",
+    "bytes": 36245,
+    "sha256": "d6d279233b790d03f5c4d87ef344f45a74f01f97e7532e31958f7c198e8ad5d1"
+  },
+  "prior_delta_receipts": [
+    {
+      "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-final-wording-delta-2026-09-13.json",
+      "bytes": 1509,
+      "sha256": "938579297ba3c30fbfda1de758fcae7684c18af021d7fb7f39481dd087c258fa"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/localization-range-reading-and-audit-receipt-2026-09-13.json",
+      "bytes": 10348,
+      "sha256": "d7967ba9a0ba5a35670792ec578f5db44a6ee1b5fb92478c89d250e8eb6ba5b6"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/localization-range-reading-supplement-2026-09-13.json",
+      "bytes": 2154,
+      "sha256": "bfd9fa5ab13de8a1f439655746a433fd093301acde302d7a93d9412bfb49ce08"
+    }
+  ],
+  "new_narratives_read_in_full": [
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/index.md",
+      "bytes": 16334,
+      "sha256": "2b7a57375572a250e0bfb7eaab1bb57d944dd6e60fe0e50c4e7e9e8f44172fab"
+    },
+    {
+      "path": "wiki/cells/synapse-localization.md",
+      "bytes": 3964,
+      "sha256": "cbc6fed43c81e998d31fd5485da49203012121959b7a5d07f31a1591155a3ec0"
+    },
+    {
+      "path": "wiki/cells/dopamine.md",
+      "bytes": 6945,
+      "sha256": "5d33a6e094f02e80b08742ff1c67cf3359aa73e312421701112bf3ec16e76e7d"
+    },
+    {
+      "path": "wiki/cells/index.md",
+      "bytes": 3656,
+      "sha256": "4dfe6117329a6c4ec7817c3717e27e8602e453f335ba6d43927fecf00fe22c68"
+    }
+  ],
+  "copied_report_read_by_exact_deduplication": {
+    "source": {
+      "path": "output/collaboration/reward-mechanism-repair/localization-range-report-2026-09-13.md",
+      "bytes": 10088,
+      "sha256": "3e62b7f039c3796daa9a9ebc4e9d2ec9dfc3ceced9f89b84bb44cd10b40d63e6"
+    },
+    "copy": {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/localization-range-report-2026-09-13.md",
+      "bytes": 10088,
+      "sha256": "3e62b7f039c3796daa9a9ebc4e9d2ec9dfc3ceced9f89b84bb44cd10b40d63e6"
+    }
+  },
+  "primary_reading": "Complete official Message.fbs read; earlier complete File.fbs, Schema.fbs and Google Cloud object-download documentation retained. No inference from unread Feather methods.",
+  "network": {
+    "requests": 3,
+    "payload_bytes": 9300,
+    "header_bytes": 2590,
+    "response_bytes": 11890,
+    "elapsed_seconds": 0.7204224166925997,
+    "all_request_caps_met": true
+  },
+  "verification": {
+    "protocol_before_requests": 55,
+    "parser_against_generated_arrow_after_requests": 42,
+    "ruff": "passed"
+  },
+  "science_scope": "First-batch rowcounts/buffer/compression metadata verified; no body payload/rows/dictionary decode, global compression extrapolation, sorting, complete body selection or exposure coefficients.",
+  "minor_document_note": "Suggested removing subsequently before adaptation was tested on dopamine.md, because newly inserted later footer paragraph could otherwise imply wrong chronology. No biological overclaim identified.",
+  "files": [
+    {
+      "path": "output/collaboration/reward-mechanism-repair/localization-batch-metadata-2026-09-13/attempt-01.json",
+      "bytes": 3305,
+      "sha256": "334fddbeb277eac44da0d83002b250a6c9057e1b5f342676341962706f1f3bea"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/localization-batch-metadata-2026-09-13/attempt-02.json",
+      "bytes": 3303,
+      "sha256": "eba3361a4590b7996a217b5de9b9de7f372c1b3b9a81b2af0fcdea59d6bdb5bb"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/localization-batch-metadata-2026-09-13/attempt-03.json",
+      "bytes": 3192,
+      "sha256": "05b32801349fc16e66fbaf9206147aca6017c870f1550bf2efd16aecf2aec8a9"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/localization-batch-metadata-2026-09-13/metadata-inspection-01.json",
+      "bytes": 33571,
+      "sha256": "0626b598b72cc12b85e7c6fd3aa5acfb145f1f6dde232a8740f05cb813274fd4"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/localization-batch-metadata-2026-09-13/metadata-inspection-02.json",
+      "bytes": 12476,
+      "sha256": "0b92419ccbc5299eb53870d98932125e158a2aadb0afa7e75e6d6aa1e42574f6"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/localization-batch-metadata-2026-09-13/payload-01.bin",
+      "bytes": 2080,
+      "sha256": "00453ce0dee010e95695ca7877750c090dff0706e95d745f96fa105e2316576b"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/localization-batch-metadata-2026-09-13/payload-02.bin",
+      "bytes": 640,
+      "sha256": "9ec93f728ec3339170e313696036f41e23dd8a58346bb89dc94387db1b098d33"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/localization-batch-metadata-2026-09-13/payload-03.bin",
+      "bytes": 6580,
+      "sha256": "ec4274d76bfeb959b4a1961fa7ddb07dd06aa4a4a4960832c9fecec61f3bce53"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/localization-batch-metadata-2026-09-13/result-01.json",
+      "bytes": 4474,
+      "sha256": "d96fb7f92907e699f591fb167a20069a1344b0370deda2adf49f948dd46acc38"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/localization-batch-metadata-2026-09-13/result-02.json",
+      "bytes": 4466,
+      "sha256": "f7eec317dcd6569d3c88a33d59ec79a1387d54501d6469787458d1d0a28d50fa"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/localization-batch-metadata-2026-09-13/result-03.json",
+      "bytes": 3973,
+      "sha256": "693d71bf65634326f7469308d4603c0bc0cd65a3b0a4a9268404f231eac5a3ce"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/localization-batch-metadata-2026-09-13/summary.json",
+      "bytes": 2510,
+      "sha256": "81d0900fb559a97b002a9d05360a0115b88a058100c67007bbd064fe1367a7ba"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/localization-batch-metadata-plan-2026-09-13.json",
+      "bytes": 5165,
+      "sha256": "e05a9ecfcddc8f8ddd022b0992f5cfcbdcf21e5ad85723c0e2ac465169e3edf5"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/localization_batch_metadata_probe.py",
+      "bytes": 9963,
+      "sha256": "b4bde33bc78a738b4bd84a38be4123075000d177d0505eb471c5fe43f1465227"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/test_localization_batch_metadata_probe.py",
+      "bytes": 6416,
+      "sha256": "845c33def71bf54aa2a5c8e1a5d5bf3ba0b1815b0273f96ddb39d18d75e55fb5"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/localization_batch_metadata_inspect.py",
+      "bytes": 5592,
+      "sha256": "616d6b5551eb11dfdba9424fb66e61d1703aaf1b9ec22b24eb661d2541eef159"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/test_localization_batch_metadata_inspect.py",
+      "bytes": 3270,
+      "sha256": "776a2ee1ed82a3ee7ab9605006dc65fd20d09f732dffa528e0e152f06a1aff20"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/localization-batch-metadata-report-2026-09-13.md",
+      "bytes": 7326,
+      "sha256": "96210d5c8f9ea49092bf55930d1ddcf6878fcd57b2bb0e236783b7cb0813f09c"
+    }
+  ],
+  "new_circuit_calls": 0,
+  "production_edits": 0,
+  "prior_sources_and_reports_unchanged": true,
+  "additional_network_requests_after_frozen_three": 0
+}

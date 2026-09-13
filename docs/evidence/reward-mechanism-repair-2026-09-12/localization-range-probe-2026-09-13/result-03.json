@@ -1,0 +1,25 @@
+{
+  "slot": 3,
+  "url": "https://raw.githubusercontent.com/apache/arrow/main/format/File.fbs",
+  "range": null,
+  "plan_sha256": "e335feb7d23c7785e13a7b05caca5d884e6a622b4c0d32c98aa0158ce7c7f2f5",
+  "started_at_utc": "2026-09-13T05:12:01.534101+00:00",
+  "status": "received",
+  "payload_bytes": 1512,
+  "header_bytes": 922,
+  "max_payload_bytes": 32768,
+  "max_seconds": 14,
+  "http_status": 200,
+  "headers": {
+    "content-length": "1512",
+    "content-type": "text/plain; charset=utf-8",
+    "etag": "\"fd4b6c677a79683b6c8f551874fd5fad2e66667683e3ee67f1982e653ccf4308\"",
+    "accept-ranges": "bytes"
+  },
+  "payload_complete": true,
+  "active_io_elapsed_seconds": 14.275390082970262,
+  "elapsed_seconds": 14.27539970795624,
+  "payload_path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/localization-range-probe-2026-09-13/payload-03.bin",
+  "payload_sha256": "09c80f93887d3f260b9ac1a101248994f2e8e73fd2e88e8128261921540e86bf",
+  "cumulative_response_bytes": 528426
+}

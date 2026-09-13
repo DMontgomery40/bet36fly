@@ -1,0 +1,227 @@
+{
+  "agent": "dopamine_sources",
+  "checked_at_utc": "2026-09-13T05:21:19.695311+00:00",
+  "prior_full_reading_receipt": {
+    "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-closing-reading-receipt-2026-09-13.json",
+    "bytes": 36245,
+    "sha256": "d6d279233b790d03f5c4d87ef344f45a74f01f97e7532e31958f7c198e8ad5d1"
+  },
+  "prior_final_delta_receipt": {
+    "path": "output/collaboration/reward-mechanism-repair/rate-adaptation-reference-final-wording-delta-2026-09-13.json",
+    "bytes": 1509,
+    "sha256": "938579297ba3c30fbfda1de758fcae7684c18af021d7fb7f39481dd087c258fa"
+  },
+  "repository_narrative_count": 139,
+  "narrative_changes_since_prior_receipts": [
+    "README.md",
+    "docs/REWARD_REPAIR_HANDOFF.md",
+    "docs/evidence/reward-mechanism-repair-2026-09-12/conditioning-implementation-contract.md"
+  ],
+  "refreshed_existing_sources": [
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/dopamine-signal-sources-resumed.md",
+      "bytes": 21098,
+      "sha256": "3eb2b28f996b1972444e50676ffcf29aa907a24ef39082f7c6a8883a62bb67b5"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/localization-access-report.md",
+      "bytes": 5692,
+      "sha256": "4685344d29e410936f3d1091df4d4f881efb31d4665c3706147a5d09425ac82f"
+    }
+  ],
+  "primary_reading": {
+    "full": [
+      "Apache Arrow File.fbs saved payload03",
+      "Apache Arrow Schema.fbs saved payload04",
+      "Google Cloud object-download main article saved payload05; extracted main article read completely"
+    ],
+    "partial": [
+      "Apache Arrow Feather documentation prefix saved payload06 contains navigation/title; full methods not obtained"
+    ]
+  },
+  "network": {
+    "requests": 6,
+    "payload_bytes": 807635,
+    "header_bytes": 6018,
+    "response_bytes": 813653,
+    "elapsed_seconds": 58.84364929096773,
+    "request_duration_cap_overruns": [
+      {
+        "slot": 1,
+        "elapsed_seconds": 15.20255179097876,
+        "limit_seconds": 15
+      }
+    ]
+  },
+  "source_version_provenance": "Request records bound the frozen plan but did not bind an executed-code hash. Reconstructed versions preserve known edits; the receipt must not imply contemporaneous per-request source hashing.",
+  "inspected_metadata": "Complete footers, all10214record-batch blocks/all19dictionary blocks, fullschema/field/pandas metadata; no record-batch rows or dictionary values decoded.",
+  "result": "True206range access established; body-selective lookup, complete selected coordinates and local dopamine exposure remain unestablished. Exact2720byte next metadata step described but not executed.",
+  "tests": {
+    "passed": 11,
+    "seconds": 0.11,
+    "network_replaced": true,
+    "covered": "full-body/redirect/missing/malformed/oversized/mismatched/truncated suffix responses, partial evidence, exact bounded read, deadline fallback and identity/unfinished-attempt protection",
+    "not_yet_implemented": "Exact interior range and ETag/generation-pinned validation need their own tests before any subsequent data request."
+  },
+  "ruff": "passed",
+  "files": [
+    {
+      "path": "output/collaboration/reward-mechanism-repair/localization-range-probe-2026-09-13/attempt-01.json",
+      "bytes": 444,
+      "sha256": "4dbb499acc3ca8e381a6955b75998eaf029cf155825cc42fd1ee2567d9002cda"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/localization-range-probe-2026-09-13/attempt-02.json",
+      "bytes": 446,
+      "sha256": "03f363fdbdce703f4f880825dcb3b5615d160d16e428163c387fee78d6e02781"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/localization-range-probe-2026-09-13/attempt-03.json",
+      "bytes": 372,
+      "sha256": "18f66a2bab3a10b64d36cc855c945ce4cb0f29b59adefa8450868230aea592a8"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/localization-range-probe-2026-09-13/attempt-04.json",
+      "bytes": 374,
+      "sha256": "cda6462ce37c80de97ca7f3ebf9d6f0ad04405952e7be5c93c572d9b343ca96a"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/localization-range-probe-2026-09-13/attempt-05.json",
+      "bytes": 376,
+      "sha256": "85784d6ec671f63a27bbcf6c9a612583d09c2cede0d8e0aaa22f6efbc9d033b9"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/localization-range-probe-2026-09-13/attempt-06.json",
+      "bytes": 354,
+      "sha256": "0829ec3b3add2daca8230a11cd3767b1436c31cbe70aa62e153ebfd0b9fc2c35"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/localization-range-probe-2026-09-13/document-05-text.txt",
+      "bytes": 4803,
+      "sha256": "09aea88a752a1a5cb3d94bba21df3ce42062ffbd58eb1f813bbb012832138ddb"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/localization-range-probe-2026-09-13/document-06-text.txt",
+      "bytes": 7761,
+      "sha256": "28f36d2461c9758012c490f8d9847fd544ae24ff90bdad8717f24b04bd0eb377"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/localization-range-probe-2026-09-13/executed-probe-version-1.py",
+      "bytes": 7063,
+      "sha256": "d99f9347fe26a9ebf3f4f2fbdfa50a3873c4ad71389e2fdc226473bb669dec4d"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/localization-range-probe-2026-09-13/executed-probe-version-2.py",
+      "bytes": 7237,
+      "sha256": "de4ed74aeed378069008ee425f210aa38f5fa421b4dd568742f618b6c447b95e"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/localization-range-probe-2026-09-13/executed-probe-version-3.py",
+      "bytes": 7996,
+      "sha256": "761e37b57a89b675da4edb47f263e2574b13a9954429059822f8a3c371d8d617"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/localization-range-probe-2026-09-13/footer-inspection-01.json",
+      "bytes": 680149,
+      "sha256": "206cef22f950d13de1264f98a9112c335641d6e16b881205586c126198a0079f"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/localization-range-probe-2026-09-13/footer-inspection-02.json",
+      "bytes": 572314,
+      "sha256": "afecf069b24c11d79b63debba9143bd3c0a61d7bb309c2c8443484f3ce43fc1c"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/localization-range-probe-2026-09-13/payload-01.bin",
+      "bytes": 262144,
+      "sha256": "f4b8efa64b9f98bb9b496def3e61d4a8766da35902fd8ff707643d2989a99c44"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/localization-range-probe-2026-09-13/payload-02.bin",
+      "bytes": 262144,
+      "sha256": "7779ff2b04999bae9447db9dbae2570448bdb2c8bdbc9b11da3906f0e9789701"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/localization-range-probe-2026-09-13/payload-03.bin",
+      "bytes": 1512,
+      "sha256": "09c80f93887d3f260b9ac1a101248994f2e8e73fd2e88e8128261921540e86bf"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/localization-range-probe-2026-09-13/payload-04.bin",
+      "bytes": 21803,
+      "sha256": "c5187ee92f011736e3877f22372869aaf11930fb176eb63fa942d39a9a11be8d"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/localization-range-probe-2026-09-13/payload-05.bin",
+      "bytes": 194496,
+      "sha256": "2c7ad9d5ba2e6d2413451874c67b200d3a04e31c0b098d5e03207546fa902d6f"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/localization-range-probe-2026-09-13/payload-06.bin",
+      "bytes": 65536,
+      "sha256": "bd7f7c178e86e3cb5bca647180bdc484d85817c105e4f91ca17c4af5972e9272"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/localization-range-probe-2026-09-13/result-01.json",
+      "bytes": 1355,
+      "sha256": "41716fed3d5e054bf50401e7d4cc3e3c6378ebe8a09bb56fd6ea58c5639014d9"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/localization-range-probe-2026-09-13/result-02.json",
+      "bytes": 1402,
+      "sha256": "86f981f556d4f53ddcccf1bac176ed02438b4a6c9f36fbabe041fb2675b88d2c"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/localization-range-probe-2026-09-13/result-03.json",
+      "bytes": 1024,
+      "sha256": "ddf25ef261e368e32443ad0f903f00c3ca95786656c674986f8a9329bc540bb7"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/localization-range-probe-2026-09-13/result-04.json",
+      "bytes": 1029,
+      "sha256": "359d0729f2a056f620b3c2f245e29401b4213894c7154114502f73047bb6b3f2"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/localization-range-probe-2026-09-13/result-05.json",
+      "bytes": 1041,
+      "sha256": "8860afe61aad574586778fd0d4e02f0fd0ec310cbbe73ed9e4ae84c96c18b2bb"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/localization-range-probe-2026-09-13/result-06.json",
+      "bytes": 1074,
+      "sha256": "fe7a898809a183ca0a10537373e41a173a9d9b7cbca822a94ce3459a3564afe2"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/localization-range-probe-2026-09-13/summary.json",
+      "bytes": 3961,
+      "sha256": "51c6af5e5c5ea3efd7fcd69891a3065b9adffffd1c85e6daa576d65eab11a3ef"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/localization-range-plan-2026-09-13.json",
+      "bytes": 2965,
+      "sha256": "e335feb7d23c7785e13a7b05caca5d884e6a622b4c0d32c98aa0158ce7c7f2f5"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/localization_range_probe.py",
+      "bytes": 7996,
+      "sha256": "761e37b57a89b675da4edb47f263e2574b13a9954429059822f8a3c371d8d617"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/localization_range_inspect.py",
+      "bytes": 6102,
+      "sha256": "6d66e8b124975dbb4e0c668a06ffdf09a633c17de137a5b8a67d32a4a3c13a82"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/test_localization_range_probe.py",
+      "bytes": 4106,
+      "sha256": "4b7ea67f84281bfebec5f42017e65a86bae28d2d6f2e73508fc2998f8f88cdae"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/localization-range-report-2026-09-13.md",
+      "bytes": 10088,
+      "sha256": "3e62b7f039c3796daa9a9ebc4e9d2ec9dfc3ceced9f89b84bb44cd10b40d63e6"
+    }
+  ],
+  "new_circuit_calls": 0,
+  "production_edits": 0,
+  "original_inputs_modified": false
+}

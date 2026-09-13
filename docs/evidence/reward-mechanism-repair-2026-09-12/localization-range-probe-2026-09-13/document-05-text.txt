@@ -1,0 +1,161 @@
+Home
+Documentation
+Storage
+Cloud Storage
+Reference
+Send feedback
+Download an object
+Stay organized with collections
+Save and categorize content based on your preferences.
+Downloads an object.
+GET requests for objects can include a Range header as defined in the HTTP
+1.1 RFC to limit the scope of the returned data within the object, but be
+aware that in
+certain circumstances
+the
+range header is ignored.
+Objects that are stored in Cloud Storage in a compressed state can be
+automatically decompressed
+as part of a
+download request when certain criteria are met. This
+transcoding
+behavior
+eliminates the need for a requester to decompress the object.
+Requests can also include If-Modified-Since or If-Unmodified-Since headers, causing the
+response to omit the body if the object has not been modified, or has been
+modified, since a specified timestamp. If the object does not meet an If-
+Modified-Since header condition, the response is a 304 Not Modified, and if the
+object fails to meet an If-Unmodified-Since header condition, the response is
+412 Precondition Failed.
+Similarly, requests can include If-Match and If-None-
+Match headers with an ETag to match. If the object does not match an If-Match
+header condition, the response is 412 Precondition Failed, and if the object
+matches the given hash in an If-None-Match header, the response is 304 Not
+Modified.
+See the
+Downloading Objects
+guide for
+instructions on how to download an object.
+Query string parameters
+Parameter
+Description
+Required
+generation
+You can use this if you want to fetch a specific object version.
+No
+See
+signed URL query string parameters
+for information on the parameters
+you include when creating and using
+signed URLs
+.
+Request headers
+In addition to
+common request headers
+, the
+following can be used.
+Header
+Description
+Required
+If-Match
+An entity tag (ETag). If the ETag you specify is the same as the ETag for the object, then the object is downloaded.
+No
+If-Modified-Since
+A date and time. If the object has been modified later than the date and time you specify, then the object is downloaded.
+No
+If-None-Match
+An entity tag (ETag). If the ETag you specify is different from the ETag for the object, then the object is downloaded.
+No
+If-Unmodified-Since
+A date and time. If the object has not been modified later than the date you specify, then the object is downloaded.
+No
+Range
+An object's range (in bytes) that you want to download.
+Warning:
+The checksum(s) returned when downloading data from Cloud Storage
+     cover the complete object content. Thus, if you specify a request range there's no way
+     to detect data corruption for that byte range alone. We therefore recommend using range requests only for
+     restarting the download of a full object after the last received offset, because in that
+     case you can compute and validate the checksum when the full download completes.
+No
+x-goog-if-generation-match
+In order for the request to succeed, the value you specify for this
+      header must match the
+generation
+of the object you're requesting. If it does not, the request fails with a
+412 Precondition Failed
+status code. Also see the
+generation query
+      parameter
+.
+No
+x-goog-if-metageneration-match
+In order for the request to succeed, the value you specify for this
+      header must match the
+metageneration
+of the object you're requesting. If it does not, the request fails with a
+412 Precondition Failed
+status code.
+No
+To download an object encrypted by a customer-supplied encryption key, use the
+headers listed on the Encryption page
+in your request.
+Request body elements
+This request does not include an XML document in the request body.
+Request syntax
+The following syntax applies to GET Object requests that don't use the
+acl
+query string parameter.
+GET /
+OBJECT_NAME
+HTTP/1.1
+Host:
+BUCKET_NAME
+.storage.googleapis.com
+Content-Length: 0
+Authorization:
+AUTHENTICATION_STRING
+Range: bytes=
+BYTE_RANGE
+If-Match:
+ENTITY_TAG
+If-Modified-Since:
+DATE
+If-None-Match:
+ENTITY_TAG
+If-Unmodified-Since:
+DATE
+Response headers
+The request can return a variety of response headers depending on the request
+headers you use, including:
+Cache-Control
+,
+Content-Length
+,
+Content-Type
+,
+Content-Disposition
+,
+ETag
+, and
+Last-Modified.
+Response body elements
+The response contains the object data.
+Example
+The following example downloads an object named paris.jpg that's in a bucket
+named travel-maps.
+Request
+GET /paris.jpg HTTP/1.1
+Host: travel-maps.storage.googleapis.com
+Content-Length: 0
+Authorization: Bearer ya29.AHES6ZRVmB7fkLtd1XTmq6mo0S1wqZZi3-Lh_s-6Uw7p8vtgSwg
+Response
+HTTP/1.1 200 OK
+Content-Type: image/jpg
+Last-Modified: Fri, 19 Feb 2010 22:13:49 GMT
+ETag: "2281880ef78388266ecd7d4c1b472a0e"
+Content-Length: 328
+Date: Fri, 19 Feb 2010 22:13:49 GMT
+
+328 bytes of data...
+Send feedback
