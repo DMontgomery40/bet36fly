@@ -1,0 +1,88 @@
+FFFFFF...                                                                [100%]
+=================================== FAILURES ===================================
+_ test_finite_product_accumulation_overflow_cannot_return_nonfinite_areas[False-1e+100-1e+220] _
+
+magnitude = 1e+100, duration = 1e+220, vector = False
+
+    @pytest.mark.parametrize("magnitude,duration", [(1e100, 1e220), (1e200, 1e120), (1e300, 1e20)])
+    @pytest.mark.parametrize("vector", [False, True])
+    def test_finite_product_accumulation_overflow_cannot_return_nonfinite_areas(magnitude, duration, vector):
+        initial = np.ones(3) if vector else 1.0
+>       with np.errstate(all="ignore"), pytest.raises(ArithmeticError):
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE ArithmeticError
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:354: Failed
+_ test_finite_product_accumulation_overflow_cannot_return_nonfinite_areas[False-1e+200-1e+120] _
+
+magnitude = 1e+200, duration = 1e+120, vector = False
+
+    @pytest.mark.parametrize("magnitude,duration", [(1e100, 1e220), (1e200, 1e120), (1e300, 1e20)])
+    @pytest.mark.parametrize("vector", [False, True])
+    def test_finite_product_accumulation_overflow_cannot_return_nonfinite_areas(magnitude, duration, vector):
+        initial = np.ones(3) if vector else 1.0
+>       with np.errstate(all="ignore"), pytest.raises(ArithmeticError):
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE ArithmeticError
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:354: Failed
+_ test_finite_product_accumulation_overflow_cannot_return_nonfinite_areas[False-1e+300-1e+20] _
+
+magnitude = 1e+300, duration = 1e+20, vector = False
+
+    @pytest.mark.parametrize("magnitude,duration", [(1e100, 1e220), (1e200, 1e120), (1e300, 1e20)])
+    @pytest.mark.parametrize("vector", [False, True])
+    def test_finite_product_accumulation_overflow_cannot_return_nonfinite_areas(magnitude, duration, vector):
+        initial = np.ones(3) if vector else 1.0
+>       with np.errstate(all="ignore"), pytest.raises(ArithmeticError):
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE ArithmeticError
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:354: Failed
+_ test_finite_product_accumulation_overflow_cannot_return_nonfinite_areas[True-1e+100-1e+220] _
+
+magnitude = 1e+100, duration = 1e+220, vector = True
+
+    @pytest.mark.parametrize("magnitude,duration", [(1e100, 1e220), (1e200, 1e120), (1e300, 1e20)])
+    @pytest.mark.parametrize("vector", [False, True])
+    def test_finite_product_accumulation_overflow_cannot_return_nonfinite_areas(magnitude, duration, vector):
+        initial = np.ones(3) if vector else 1.0
+>       with np.errstate(all="ignore"), pytest.raises(ArithmeticError):
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE ArithmeticError
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:354: Failed
+_ test_finite_product_accumulation_overflow_cannot_return_nonfinite_areas[True-1e+200-1e+120] _
+
+magnitude = 1e+200, duration = 1e+120, vector = True
+
+    @pytest.mark.parametrize("magnitude,duration", [(1e100, 1e220), (1e200, 1e120), (1e300, 1e20)])
+    @pytest.mark.parametrize("vector", [False, True])
+    def test_finite_product_accumulation_overflow_cannot_return_nonfinite_areas(magnitude, duration, vector):
+        initial = np.ones(3) if vector else 1.0
+>       with np.errstate(all="ignore"), pytest.raises(ArithmeticError):
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE ArithmeticError
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:354: Failed
+_ test_finite_product_accumulation_overflow_cannot_return_nonfinite_areas[True-1e+300-1e+20] _
+
+magnitude = 1e+300, duration = 1e+20, vector = True
+
+    @pytest.mark.parametrize("magnitude,duration", [(1e100, 1e220), (1e200, 1e120), (1e300, 1e20)])
+    @pytest.mark.parametrize("vector", [False, True])
+    def test_finite_product_accumulation_overflow_cannot_return_nonfinite_areas(magnitude, duration, vector):
+        initial = np.ones(3) if vector else 1.0
+>       with np.errstate(all="ignore"), pytest.raises(ArithmeticError):
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE ArithmeticError
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:354: Failed
+=========================== short test summary info ============================
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_finite_product_accumulation_overflow_cannot_return_nonfinite_areas[False-1e+100-1e+220]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_finite_product_accumulation_overflow_cannot_return_nonfinite_areas[False-1e+200-1e+120]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_finite_product_accumulation_overflow_cannot_return_nonfinite_areas[False-1e+300-1e+20]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_finite_product_accumulation_overflow_cannot_return_nonfinite_areas[True-1e+100-1e+220]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_finite_product_accumulation_overflow_cannot_return_nonfinite_areas[True-1e+200-1e+120]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_finite_product_accumulation_overflow_cannot_return_nonfinite_areas[True-1e+300-1e+20]
+6 failed, 3 passed, 111 deselected in 0.10s

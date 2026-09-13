@@ -1,0 +1,39 @@
+{
+  "kind": "synthetic preparation timing only",
+  "seed": 20260913,
+  "helper_sha256": "fe8fa0d9e782870fbcdc17b3f449b03b8414764d3fc67888866dc82f633d7be5",
+  "benchmark_sha256": "099d5f1b52e520ffa6956f589c9cb1d580744cb6738681eb2bcee13fcb4d9b62",
+  "wall_cap_seconds": 120,
+  "shape": {
+    "steps": 2000,
+    "kcs": 4064,
+    "dans": 24,
+    "edges": 8866
+  },
+  "home_edges": 4184,
+  "away_edges": 4682,
+  "eligible_home": 4184,
+  "eligible_away": 3239,
+  "generator": "NumPy default_rng; independent KC Bernoulli .01 and DAN Bernoulli .005; toy modulo KC/group maps; no anatomical or capture input",
+  "calls_attempted": 1,
+  "calls_completed": 1,
+  "generated_input_sha256": {
+    "kc": "14e0bb2e1618b81e8c210ee6e7539f9247737c6b0503a15520e6a8d74bc56dd8",
+    "dan": "5d713c7282203369ef90a702f9a744512ee057eb7d1783a89c38fe2189e8ba40",
+    "pk": "b655a793a5b68cc33006990ca273d67f7cf7487f9465e7b58358f9a837a6fcb2",
+    "pc": "a1a852d86a849da930f85727083d5bdb330dc07f01378f20eb9e202feb81ca18",
+    "dc": "47c40d17d83b074658ca32bc9ff98aae5915134bc8af85ab99e4dc6ac7eafc9d",
+    "mask": "13117e9a7fa1007945e022dcb624080583a0ddddb3f67b03589bc6f7957ba321",
+    "groups": "d1f0c5dc64daa91dae7948435f90a95af2e72724a3a6b66690a68fd5a8fd7d08"
+  },
+  "status": "completed",
+  "finite_gain": true,
+  "accepted_substeps": 1757,
+  "attempted_substeps": 1760,
+  "excluded_checkpoint_bytes_equal": true,
+  "eligible_publications": [
+    1501
+  ],
+  "wall_seconds": 2.5354825421236455,
+  "helper_unchanged": true
+}

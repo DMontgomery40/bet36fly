@@ -1,0 +1,823 @@
+{
+  "files": [
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/audit-inputs.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/audit-inputs.json",
+      "bytes": 30481,
+      "sha256": "5f29bba4b1f8e953920cfb040befe56be1ecf8e918557ddb4a90c55cd59ce4a1"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/completion.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/completion.json",
+      "bytes": 212,
+      "sha256": "e21e27746d17d93d9ace78ad1545e521f31ac5511d316c4e58e34cbe6b960184"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference-attempts.jsonl",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference-attempts.jsonl",
+      "bytes": 20146,
+      "sha256": "a05973c8c2d6a0c00106462938ef2e77f3e0c940ff0b246ceb519ff65c610f3e"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_00_2436.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_00_2436.json",
+      "bytes": 778,
+      "sha256": "dc4e1cde4d50c8da487274b33cbe9ec21794a8e4cff7fe4f8fa38e43c9c44b4b"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_00_4295.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_00_4295.json",
+      "bytes": 777,
+      "sha256": "99afb809e78f9bd41adcbfb20e6f661fa7e96da882d5c15c5567cff5982eed08"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_00_4321.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_00_4321.json",
+      "bytes": 778,
+      "sha256": "b26a39a4e983e1fcd10e69c127c74ad4e27690ce2d19141023ae525fc952f153"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_00_5563.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_00_5563.json",
+      "bytes": 778,
+      "sha256": "0d704ac01a52f67bff2ddab34a982ee3ee6562f732f72c8e0d128286be4214e4"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_01_2436.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_01_2436.json",
+      "bytes": 778,
+      "sha256": "48100a0afeb88549b48b65932d3ad30e5dc14af2aa4a1d4de7a48bdbcca22831"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_01_4295.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_01_4295.json",
+      "bytes": 777,
+      "sha256": "e6cf022285de5b0fc9ad62801eff0dae5e1d96bee6057bc48d13ed48d9e26168"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_01_4321.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_01_4321.json",
+      "bytes": 778,
+      "sha256": "27d98e8d2733a629f2754864039296f48676d030b67fec120354ace4d149ae94"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_01_5563.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_01_5563.json",
+      "bytes": 778,
+      "sha256": "ab7537d1d89125d2fc466d2062d8aaa5d7bf605edb8afbe29cdd02b2985aa38c"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_02_2436.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_02_2436.json",
+      "bytes": 778,
+      "sha256": "debafaeb0505738ae2c2feaf109d20df23c5e76a158805a35dc09630af5d97cf"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_02_4295.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_02_4295.json",
+      "bytes": 777,
+      "sha256": "64aeea75ebcfb90f9950145b8a093742fb8c513cdf34aa69bfe7687b7f4ab33d"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_02_4321.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_02_4321.json",
+      "bytes": 1195,
+      "sha256": "8a82315aa11ed33ba9d5c14b33c9ea4cd99cdc656e2e3ecbcf9ea03d6e7c7be6"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_02_5563.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_02_5563.json",
+      "bytes": 778,
+      "sha256": "6337920d0cbbcf3f6fa21bb9cf3e5bac766ed0cea3c1787d558af333bd8718e8"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_03_2436.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_03_2436.json",
+      "bytes": 778,
+      "sha256": "ba9dddcb7164c9eb1e0761aecfc7301802fc7eedace4b977269674f613a40dc5"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_03_4295.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_03_4295.json",
+      "bytes": 777,
+      "sha256": "a29cc5a34a2929b33247880a2402cf1916b6862da7b248846eeb5c96a7a851da"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_03_4321.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_03_4321.json",
+      "bytes": 1200,
+      "sha256": "914623c1470798f758603e01b858439df8cf7c90b7a7f5c92518f78d181d8027"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_03_5563.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_03_5563.json",
+      "bytes": 778,
+      "sha256": "c16049c57f2dacee9a2395bea8bdad834c95eb7fe64d4c7fdc6a67a873d5b537"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_04_2436.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_04_2436.json",
+      "bytes": 778,
+      "sha256": "4a105c5cdd12e9325512877386529da74edd2a80f6400ea89fdc21071b7c6160"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_04_4295.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_04_4295.json",
+      "bytes": 777,
+      "sha256": "bc96be88525fe16e1b9bdf49db0ece2db81354eb0aabe930e6afdd33e6ef3a8a"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_04_4321.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_04_4321.json",
+      "bytes": 1192,
+      "sha256": "eacc6c73852ccc75d9d0d3cedb87fb9c297dc19ef7cac86e19210ca28b66bd96"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_04_5563.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_04_5563.json",
+      "bytes": 778,
+      "sha256": "50b35e095ab3643e628759f5f64637ac286f5806fb19f9e786b374721d89b339"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_05_2436.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_05_2436.json",
+      "bytes": 778,
+      "sha256": "ee0bd0886df2daf0bb7154c8ec01f550eaee80c834e2635018d0d76cff6b6d87"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_05_4295.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_05_4295.json",
+      "bytes": 777,
+      "sha256": "3d88b8988f3b0820cddf3f8e23e6357a9eec63c913e4626827e145bd66695fbc"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_05_4321.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_05_4321.json",
+      "bytes": 1196,
+      "sha256": "9a882cf2bce21c4867a59a8c3ed2f38ba71a36b45f6f016518870d4da5323c4b"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_05_5563.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_05_5563.json",
+      "bytes": 778,
+      "sha256": "6c6fd27ce31b97913a476f2ed77901ea225cea53e5ce857c182f9e506b525219"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_06_2436.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_06_2436.json",
+      "bytes": 778,
+      "sha256": "ed2ed41c12bc85df370d7063b8aac6d5e5e49b398850cea78e5fd358ecd61a32"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_06_4295.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_06_4295.json",
+      "bytes": 777,
+      "sha256": "d3d21dfc61f6007b70addb59e81b45975f6bd04b995b1f3c7d655fbd16cec54d"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_06_4321.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_06_4321.json",
+      "bytes": 1209,
+      "sha256": "a62ec75002e840bc4b0f92f9b766e5df0728173eefb8f36d905ebf64b0869df8"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_06_5563.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_06_5563.json",
+      "bytes": 778,
+      "sha256": "a2f18cd848c9c75f86d2c98aca749e1d4746eceabb338e26282085ef6923b1dd"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_07_2436.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_07_2436.json",
+      "bytes": 778,
+      "sha256": "1385867d4359f3f3f38233c24c4c3c7be5b5af9135da1cba5c0814089f2f0234"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_07_4295.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_07_4295.json",
+      "bytes": 777,
+      "sha256": "431b91de78de271ac955553353fc8031e81146a0ae69bc0ea782abdee3b317a6"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_07_4321.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_07_4321.json",
+      "bytes": 1209,
+      "sha256": "b6c97417dc6e1a35a7a9e04d512559d6af23f63ebb9327ca88473c189e00eafb"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_07_5563.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_07_5563.json",
+      "bytes": 778,
+      "sha256": "2cb498c8c75a30797b6621ca3b70c61990a51cb87883a2e778e350f2b0e0aef8"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_08_2436.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_08_2436.json",
+      "bytes": 778,
+      "sha256": "4dcbd2e295025fb9a9004bb39feda191635c1fa56975f1ba4702cba08a546123"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_08_4295.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_08_4295.json",
+      "bytes": 777,
+      "sha256": "84c5cca3f166281d4b68cad43c44a65d657db906342de6a08bc47f3f563748c5"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_08_4321.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_08_4321.json",
+      "bytes": 1178,
+      "sha256": "9c65a86cfe82ac8f59b68fd755088686a358695c5722172b33fe4bc560c83255"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_08_5563.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_08_5563.json",
+      "bytes": 778,
+      "sha256": "bd5e5185ede9b4c77e6759c6a29c1acf33feeffe5e52af0f87c869be374f84e5"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_09_2436.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_09_2436.json",
+      "bytes": 778,
+      "sha256": "170820372837e4d290cac77ccece4dab70576a42f5da0d6ed5cc7bf953841735"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_09_4295.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_09_4295.json",
+      "bytes": 777,
+      "sha256": "23fc7afc1c658407d7f8641ee881f6f1c3ac808c06efa6c164f77845ce553140"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_09_4321.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_09_4321.json",
+      "bytes": 1193,
+      "sha256": "8dc0314fc09f6998e71f3a43e1848d8c8094a1de299479934e53f5e0aedbffd8"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_09_5563.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_09_5563.json",
+      "bytes": 778,
+      "sha256": "730720cde20ad29f84242a78ce68d96abd8f88b81b5bf7f2fe236baed8dc8f76"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_10_2436.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_10_2436.json",
+      "bytes": 779,
+      "sha256": "4b17be73232baad1048bb9d05b922a03cf545e6eba10d15d955636b63107b041"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_10_4295.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_10_4295.json",
+      "bytes": 778,
+      "sha256": "24bbc4fc445f4fe8f299a8bcbfb4973694c1d21878f88da3f1ca680dcc647551"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_10_4321.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_10_4321.json",
+      "bytes": 1198,
+      "sha256": "27bdd44ba3216b4e9936cdb6362101f69b640443155a55550b3c2d2d31d6461a"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_10_5563.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_10_5563.json",
+      "bytes": 779,
+      "sha256": "39709a39977e94dd1cff24e189a8b4b7bf0d4509152e8299ad9e3caebf8a8826"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_11_2436.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_11_2436.json",
+      "bytes": 779,
+      "sha256": "466bb6be39b2f57c3331f225d475c147837f3aefee00feeeaa15aa97221596c4"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_11_4295.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_11_4295.json",
+      "bytes": 778,
+      "sha256": "04fbbd5bf9d55e3db5142984d179714621fb5d94bd247b24afd9fb99c57487e9"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_11_4321.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_11_4321.json",
+      "bytes": 1205,
+      "sha256": "0dfcf6fccdc315882804eb6f481c02bb57caf75efa65020cf322e3e712c3cadd"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_11_5563.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_11_5563.json",
+      "bytes": 779,
+      "sha256": "da53664217cdc44c0ba909260cfe346084a8913bee00be7e599b02aa52dafdc2"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_12_2436.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_12_2436.json",
+      "bytes": 779,
+      "sha256": "9634e18b71d419311d9d35546ad9cce0c208754804bd6e2457894d91338e9b9d"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_12_4295.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_12_4295.json",
+      "bytes": 778,
+      "sha256": "09760c6dcd74881a6ce6635b749ace56a4493dd74c2f3474072fcc5b352270ac"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_12_4321.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_12_4321.json",
+      "bytes": 1199,
+      "sha256": "3ad393bb7f0a4a73d538e5ab433fb641c8d15581ff624814de5a152d27a5d5bc"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_12_5563.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_12_5563.json",
+      "bytes": 779,
+      "sha256": "808c4577180641b26d3f83f9db87199f3c9feeca834ed7a5b7f05d8834833b6e"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_13_2436.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_13_2436.json",
+      "bytes": 779,
+      "sha256": "1cdd30a06daf95e05dbd44b9747b03f629ed396e5c5d983e15cf1bb2fc5b626b"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_13_4295.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_13_4295.json",
+      "bytes": 778,
+      "sha256": "39bd2452656752cc1184c597463e9df190458c401b513e4ceee93ad50646cdde"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_13_4321.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_13_4321.json",
+      "bytes": 1203,
+      "sha256": "21ccafef61c763903b93f89282b283117e4338724674b6e9ab96077bbde3e369"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_13_5563.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_13_5563.json",
+      "bytes": 779,
+      "sha256": "da0ee867dafd48fd78e88219e3383502f2a4812fb05bfd45e648cfe1e93bc8a0"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_14_2436.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_14_2436.json",
+      "bytes": 779,
+      "sha256": "b8d05356c7010ced41ef9f56e97a9f2693ed87e1831ad2d3cc19416cdd70a87d"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_14_4295.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_14_4295.json",
+      "bytes": 778,
+      "sha256": "f4fd7c1e5f9f7312b93f25efb37fe3cbd90cd8fae271d10d59c9a595a8f6fbd9"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_14_4321.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_14_4321.json",
+      "bytes": 1207,
+      "sha256": "562af2cd2097168554aac8700dc10355c81ddf99d7b1e512ebdb193fab428f0c"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_14_5563.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_14_5563.json",
+      "bytes": 779,
+      "sha256": "be31f154db1d5b9c3df7a86ad58d6c6688dc3ca4c31a83caa2e622dc25a815c3"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_15_2436.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_15_2436.json",
+      "bytes": 779,
+      "sha256": "b3eb8ff36d1cd8eb81303be16483b488154b35b3c0ab5ee2459fae3a56aa8638"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_15_4295.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_15_4295.json",
+      "bytes": 778,
+      "sha256": "2a60b6c50ebb995e953159c7b67562fb285bf99b15cc974dd30755da7a23c4db"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_15_4321.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_15_4321.json",
+      "bytes": 1200,
+      "sha256": "664cd74832b172522de2817ec1655e4d814f2b259ef55788d0b51070fd8a1761"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_15_5563.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_15_5563.json",
+      "bytes": 779,
+      "sha256": "2a12c9ccb7b28d36fe1ecc81a15067326a5dff463acdf63be087c38eec1baf88"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_16_2436.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_16_2436.json",
+      "bytes": 779,
+      "sha256": "372b8c20594579b1541da40c1f36edb8cf0f93d3254c749ed0a70e3aae28d1d8"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_16_4295.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_16_4295.json",
+      "bytes": 778,
+      "sha256": "fe0167a07d18e53de4d175648a023cc5e79d95c3b2d347af5a0cb0b5c045e79f"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_16_4321.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_16_4321.json",
+      "bytes": 1203,
+      "sha256": "455baa2d6b7b6d50c54d603cb590081154d0f7871ddc7d515fce088a99a2d4d8"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_16_5563.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_16_5563.json",
+      "bytes": 779,
+      "sha256": "13bdca3656fd6489642257e6cd1fbcc831b73b3a2580f211387392366e7895ed"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_17_2436.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_17_2436.json",
+      "bytes": 779,
+      "sha256": "e2b9ca031d5323ac2eb4ef408766ce1ff167a51784519eb9e65986f01ae90e92"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_17_4295.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_17_4295.json",
+      "bytes": 778,
+      "sha256": "cc78d7048622ab5a9cdaba598799dd2f9b31f015ac4dfd583ea272771489fa64"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_17_4321.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_17_4321.json",
+      "bytes": 1200,
+      "sha256": "b1d1646ea410e6674070cc80df904ed49059f9eb53c838c437d0a5d7a8413b56"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_17_5563.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_17_5563.json",
+      "bytes": 779,
+      "sha256": "a1d10f3da2e3f6cf583660dc98c4de523925e26ce4af649ad75d05cddca8288a"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_18_2436.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_18_2436.json",
+      "bytes": 779,
+      "sha256": "a09da486b0f3bb1d4a1a9b080f45aa175ba7adb68ef1c981d0bef5e25266534b"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_18_4295.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_18_4295.json",
+      "bytes": 778,
+      "sha256": "e5304691f8e127070c97824d3aa5a0506306d5d63f2498ac69687c4bd391e552"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_18_4321.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_18_4321.json",
+      "bytes": 1199,
+      "sha256": "2a715541ba2fa84ba8881171885fee9d7709f55e66c88e65cd5ffc5bac71315e"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_18_5563.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_18_5563.json",
+      "bytes": 779,
+      "sha256": "dc8c7190b91a0f739a4c3974e940d6c93cb36fb0ac9809d1df05f73b9eb26ff3"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_19_2436.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_19_2436.json",
+      "bytes": 779,
+      "sha256": "dbe2dee7dd654da9461b936b870aacbeb0a8840eb8fef27632d295e1f7c658a8"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_19_4295.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_19_4295.json",
+      "bytes": 778,
+      "sha256": "47467e55fbd8a2cb44ec149765dc83c4a7282f85becb58f12efbbcf8aa9e27ed"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_19_4321.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_19_4321.json",
+      "bytes": 1206,
+      "sha256": "e2efc73fba5e0eff2dd1aae80680a79f7a8e8e1008669fd745d815d1ce0732c7"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_19_5563.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_19_5563.json",
+      "bytes": 779,
+      "sha256": "0db6e16fff7a6d0ada20eae3edb6127fdcb5fcf8a863a00bcb22ca0bc480bbf6"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_20_2436.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_20_2436.json",
+      "bytes": 779,
+      "sha256": "4d9ae02411cbd9ca86ec2a73070c280372b96793c79bc1c506a3dddb5f3007a2"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_20_4295.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_20_4295.json",
+      "bytes": 778,
+      "sha256": "3811a451644c86c1da8e0dd11dff0b1e558d805bfb0869860bfbad688a447bf0"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_20_4321.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_20_4321.json",
+      "bytes": 1207,
+      "sha256": "e1fb87844810fbec87c52d058fad933415ba924ada029f256b8edb3366d6bef3"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_20_5563.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_20_5563.json",
+      "bytes": 779,
+      "sha256": "ab4d0489487e0f8e2587d3419315ebd2570cd8379b53ef40ff3427cbed306192"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_21_2436.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_21_2436.json",
+      "bytes": 779,
+      "sha256": "443141de0b280cbab74e8aeaa025847a0a25a744caf7df65f890761968ae9f3a"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_21_4295.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_21_4295.json",
+      "bytes": 778,
+      "sha256": "ea2f17db3f4ba533d9ee806da156aa9e3e052495b154840aa237364cf3c5b813"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_21_4321.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_21_4321.json",
+      "bytes": 1203,
+      "sha256": "922e115b08b07b8ebaeb67faf9e75d1bd92bafef511fd53a82a7ee8c23e86411"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_21_5563.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_21_5563.json",
+      "bytes": 779,
+      "sha256": "e17a001ed31b2a48f2a29bfd1211dbac527349e3479b07cc312f93ad3129c712"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_22_2436.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_22_2436.json",
+      "bytes": 779,
+      "sha256": "6357a795aae4215f118aa1424280c3e720161d1ee5b91e3e0eeb953a7d2cf6db"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_22_4295.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_22_4295.json",
+      "bytes": 778,
+      "sha256": "c3dd0aac9c0efbe8f814ed42947689e42660a317101c6c25b4077bf1d6442fde"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_22_4321.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_22_4321.json",
+      "bytes": 1195,
+      "sha256": "3523295a52641d53e059f13f338cad3e58f3f01c8da8a5c28b62797531aa1a00"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_22_5563.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_22_5563.json",
+      "bytes": 779,
+      "sha256": "8966e3cae6f6b5392d009e67371dbb38ffe75840b8f759e26832cdc173b1611a"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_23_2436.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_23_2436.json",
+      "bytes": 779,
+      "sha256": "1182419c6d33cc17987e796496438eba6d5c08ea8f3ddb5f906dedcb8d97f3c6"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_23_4295.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_23_4295.json",
+      "bytes": 778,
+      "sha256": "fd5fc12216630cf4ad30d897383269cf6bac851363aa9e85371169df4b837598"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_23_4321.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_23_4321.json",
+      "bytes": 1196,
+      "sha256": "21188e623ce99ef5f7ac5415fd1ebc80df649752fd62697a652d5b911d3e66e2"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_23_5563.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_23_5563.json",
+      "bytes": 779,
+      "sha256": "e574dba78331ececb89c85279a9e99665940be42943cd5468ab38d28bb19003b"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_24_2436.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_24_2436.json",
+      "bytes": 779,
+      "sha256": "3622d9c9191a2a452f3e8d08f9a9016d3834d7b1754dcc57f29757f85dbcaefd"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_24_4295.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_24_4295.json",
+      "bytes": 778,
+      "sha256": "c615fca08b1cdc55946cdd2e9453249c0a704fcd3e2d02268f5753ae2563a797"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_24_4321.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_24_4321.json",
+      "bytes": 1190,
+      "sha256": "5c5d912337b4d7800f292f568b97b69a95f67a6d7ba6d33973c6af610ed9fc3e"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_24_5563.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_24_5563.json",
+      "bytes": 779,
+      "sha256": "a647b2c328010c9027c6292905759c2d8bd18357a822984616380b3b311cb766"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_25_2436.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_25_2436.json",
+      "bytes": 779,
+      "sha256": "b161eaa882ac855606d2b8ae443fcdac22342b713c1447421ec1e11681343dad"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_25_4295.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_25_4295.json",
+      "bytes": 778,
+      "sha256": "f682a1cac716f7bee7f84553d6b1274af8611c1a61a3e02bec9af9c7dfb85b50"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_25_4321.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_25_4321.json",
+      "bytes": 1196,
+      "sha256": "3e6d8ed2ebd85954835d7bf9830e595eceaf40f8c430c426f4ebb1e029e950c4"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_25_5563.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_25_5563.json",
+      "bytes": 779,
+      "sha256": "59c3473235bc2cc9b37a25dda7fd979551e79388db0872a479c272539724da5f"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_26_2436.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_26_2436.json",
+      "bytes": 779,
+      "sha256": "e1aa4fd05afc716c15810931b1611c27dadd00265d474e96a191b39653bb8046"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_26_4295.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_26_4295.json",
+      "bytes": 778,
+      "sha256": "ed78d4bf254109b1068d665764897c1fefd1b33f89ce33b106d1751c8bc57d3a"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_26_4321.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_26_4321.json",
+      "bytes": 1197,
+      "sha256": "24043f50a87f8eb9b7cea7bfc8b996d2ea51070033b9c3b27c4e9558b402dbca"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_26_5563.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_26_5563.json",
+      "bytes": 779,
+      "sha256": "3daf33446ba22713359c5f98da141147d7f14d14deb2b257b2518bdeb0e8e7ed"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_27_2436.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_27_2436.json",
+      "bytes": 779,
+      "sha256": "ed30d58576c7f6571ba55b21404f03754f93e4bf79f6605a243fbd514c096e15"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_27_4295.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_27_4295.json",
+      "bytes": 778,
+      "sha256": "dfcb2c4108826d95b7b4d6eb15a131eb87f425d67c9d3d9a40f2c05780ef1e09"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_27_4321.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_27_4321.json",
+      "bytes": 779,
+      "sha256": "10a66ab6e84e20a3a8b8b3d239e345af562ac9f455c628f772ff4a03bba759bd"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_27_5563.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_27_5563.json",
+      "bytes": 779,
+      "sha256": "fa3eacf597cad0d9c98a534f4a5363076d29f828ca9a3903ec11d750c27808a6"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_28_2436.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_28_2436.json",
+      "bytes": 779,
+      "sha256": "c9a43c5251d8940e08d88371e67ca03f52f726f665acf3ff32cb110b3c1484df"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_28_4295.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_28_4295.json",
+      "bytes": 778,
+      "sha256": "d64cff517f087443f7d0a9d96586e7a980210da8454cb57f467ef83e491446fb"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_28_4321.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_28_4321.json",
+      "bytes": 1190,
+      "sha256": "6f3a7c0a304211f3d99cfac5e93c209d49d7e1f08f34f4f646a9779863a03e68"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_28_5563.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_28_5563.json",
+      "bytes": 779,
+      "sha256": "7796eacc25b057e922115abf1ea0d5563b4315e905d7610d82e665e8478f3133"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_29_2436.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_29_2436.json",
+      "bytes": 779,
+      "sha256": "73cb0c909acbd564dd71acf12dfaf54c2e403f55e7090d0d9809a19ac04eb3b3"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_29_4295.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_29_4295.json",
+      "bytes": 778,
+      "sha256": "9dfba6b2674d6cb2ea6b5e44e54cf3693dca981d8f51eae4cfe052f64b4f4ac4"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_29_4321.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_29_4321.json",
+      "bytes": 1191,
+      "sha256": "06ece2665c90a129f923c32e3e7c01c37e539f2cc064f9fc139eec8938b9fd68"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_29_5563.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_29_5563.json",
+      "bytes": 779,
+      "sha256": "948e9064ddd0c16600543e5abeaffb91be33df82c0b00a6da0bfc3111521720a"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_30_2436.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_30_2436.json",
+      "bytes": 779,
+      "sha256": "bdabdd8e328d65fbd6942d78f9ddbb862da36caadc4cb18497122f5724db875a"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_30_4295.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_30_4295.json",
+      "bytes": 778,
+      "sha256": "15e3b9a35e60bcb96e531d6a46b00b1e3e4962961f13ebf557548bd911b032e2"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_30_4321.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_30_4321.json",
+      "bytes": 1184,
+      "sha256": "ce80292c360024cf000d14c815f5c4aa2c17ba317dc0cafb18df79f829d6f87a"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_30_5563.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_30_5563.json",
+      "bytes": 779,
+      "sha256": "00b4702519657f8630a9338962dd13892c119bd646e8159e4da09ee1ff40c648"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_31_2436.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_31_2436.json",
+      "bytes": 779,
+      "sha256": "f2fd874408b72b2d03e6933dc41ea48bde0c2830bea3b90b64addc6a420de15d"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_31_4295.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_31_4295.json",
+      "bytes": 778,
+      "sha256": "a452bf813cf26c51373786086274670bb7f8f265006657196ddd91e3773138d7"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_31_4321.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_31_4321.json",
+      "bytes": 1198,
+      "sha256": "dc5facd1395e4c5d36355784d2175aa184e5b54d5fbeebcc786f303f2a710a7e"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_31_5563.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/reference_31_5563.json",
+      "bytes": 779,
+      "sha256": "c7bc3b8f42647270bd2f27cc354be1c769ed54c4e0c83c8cbbcf76b3ae5975d2"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/summary.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3-independent-audit/summary.json",
+      "bytes": 27947,
+      "sha256": "ce98549bc69dc1bebabf54e6fc4d81da216ebc5a1c940b9f06822fc85ffd1ea9"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/tonic-burst-dopamine-quantitative-source-check-2026-09-13.md",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/tonic-burst-dopamine-quantitative-source-check-2026-09-13.md",
+      "bytes": 6659,
+      "sha256": "343fe850c71d5ea5493e0d05e38c4e9c2b6a739cc09b3808d550473bdc739054"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/tonic-burst-dopamine-source-reading-receipt-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/tonic-burst-dopamine-source-reading-receipt-2026-09-13.json",
+      "bytes": 52039,
+      "sha256": "864b2a44cdc88bc50297ec78cbb9a1b1b41aa8469d6f8f11acbca6aec5dbf439"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-protected-after-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-protected-after-2026-09-13.json",
+      "bytes": 305,
+      "sha256": "ad5d68e8cb68861a95e83a649a4447dc62ee16510fa855f327e325897eb9d65d"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-freeze-copy-manifest-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-freeze-copy-manifest-2026-09-13.json",
+      "bytes": 2793,
+      "sha256": "aab4365c3d23409538c13f072e62bd60a7a6ca05abef40caa2287c09f6d1fcea"
+    }
+  ],
+  "file_count": 136,
+  "bytes": 252378,
+  "originals_preserved": true
+}

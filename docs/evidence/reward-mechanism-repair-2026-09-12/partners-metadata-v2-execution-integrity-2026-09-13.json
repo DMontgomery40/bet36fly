@@ -1,0 +1,196 @@
+{
+  "created_at_utc": "2026-09-13T07:30:48.674007+00:00",
+  "scope": "Writer full saved-file/accounting recomputation with frozen parser; not an independent decoder or new request",
+  "status": "passed",
+  "execution": {
+    "session_id": 61220,
+    "exit_code": 0,
+    "actual_gets": 4759,
+    "retries": 0,
+    "body_payload_bytes": 0,
+    "native_circuit_calls": 0
+  },
+  "summary": {
+    "attempted_requests": 4759,
+    "body_payload_bytes_read": 0,
+    "elapsed_seconds": 815.8612757921219,
+    "files": {
+      "inventory.json": {
+        "bytes": 2379706,
+        "sha256": "aef32920c537c5912df5964bdb6811f8fda0eb8b7d6c2e8b32c30be6a77e137b"
+      },
+      "metadata.bin": {
+        "bytes": 3045760,
+        "sha256": "987eea35d6c6c5784c2b6538130ea9df8d4b65fbef238e04eed28e36476ca93f"
+      },
+      "requests.jsonl": {
+        "bytes": 10994713,
+        "sha256": "33a1a38cf627b9ae8dff6998c095044128bf4b87a28429055390af3793917f16"
+      }
+    },
+    "header_bytes": 4027890,
+    "limits": {
+      "concurrency": 1,
+      "header_bytes": 8388608,
+      "header_bytes_per_request": 8192,
+      "payload_bytes": 3045760,
+      "request_active_seconds": 14,
+      "request_wall_seconds": 15,
+      "requests": 4759,
+      "response_bytes": 11434368,
+      "total_wall_seconds": 1200
+    },
+    "payload_bytes": 3045760,
+    "plan_sha256": "3d77faa491248c15913e8a9b5b96f29e9420c63597d3d12a34d0f56e587913c4",
+    "planned_requests": 4759,
+    "received_requests": 4759,
+    "remaining_requests": 0,
+    "response_bytes": 7073650,
+    "started_at_utc": "2026-09-13T07:14:58.129318+00:00",
+    "status": "completed"
+  },
+  "inventory": {
+    "body_columns": {
+      "body_post": {
+        "null_count": 0,
+        "validity_bytes": 0,
+        "values_bytes": 1650277453
+      },
+      "body_pre": {
+        "null_count": 0,
+        "validity_bytes": 0,
+        "values_bytes": 363074510
+      }
+    },
+    "body_payload_bytes_read": 0,
+    "complete": true,
+    "compression_counts": {
+      "LZ4_FRAME": 4759
+    },
+    "eligible_for_scan_planning": true,
+    "full_scan_body_buffer_bytes": 2013351963,
+    "inspected_batches": 4759,
+    "inspected_body_buffer_bytes": 2013351963,
+    "inspected_rows": 311833243,
+    "missing_batches": 0
+  },
+  "journal_rows_checked": 9518,
+  "metadata_slices_reparsed": 4759,
+  "all_source_bindings_unchanged": 15,
+  "first_metadata_matches_preserved_reference": true,
+  "files_unchanged_during_audit": true,
+  "v1_sources_and_result_unchanged": true,
+  "header_line_counts": {
+    "2": 4759
+  },
+  "max_transport_seconds": 0.6068623750470579,
+  "mean_transport_seconds": 0.16380810588635433,
+  "max_processing_seconds": 0.009725207928568125,
+  "run_artifacts": [
+    {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/partners-metadata-v2-inventory-2026-09-13/inventory.json",
+      "bytes": 2379706,
+      "sha256": "aef32920c537c5912df5964bdb6811f8fda0eb8b7d6c2e8b32c30be6a77e137b"
+    },
+    {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/partners-metadata-v2-inventory-2026-09-13/metadata.bin",
+      "bytes": 3045760,
+      "sha256": "987eea35d6c6c5784c2b6538130ea9df8d4b65fbef238e04eed28e36476ca93f"
+    },
+    {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/partners-metadata-v2-inventory-2026-09-13/plan.json",
+      "bytes": 370859,
+      "sha256": "3d77faa491248c15913e8a9b5b96f29e9420c63597d3d12a34d0f56e587913c4"
+    },
+    {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/partners-metadata-v2-inventory-2026-09-13/requests.jsonl",
+      "bytes": 10994713,
+      "sha256": "33a1a38cf627b9ae8dff6998c095044128bf4b87a28429055390af3793917f16"
+    },
+    {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/partners-metadata-v2-inventory-2026-09-13/summary.json",
+      "bytes": 960,
+      "sha256": "661583f069ff2f60e86db61a015784a1914b0d1dd3ac19832a10488b3bdf7ed6"
+    }
+  ],
+  "source_bindings": [
+    {
+      "bytes": 32508,
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/partners_metadata_inventory_v2.py",
+      "sha256": "ce018ac60c768289769d272d8daacc7ce59b5226ce93804f92de1ce15aa6f255"
+    },
+    {
+      "bytes": 32601,
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_partners_metadata_inventory_v2.py",
+      "sha256": "f463488135e238fe0f287893f6bf6aeebbd67d826408d9a5ad569f2fda697a74"
+    },
+    {
+      "bytes": 7201,
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_partners_metadata_headers_v2.py",
+      "sha256": "20eb536517e4ebb9f06f5a3f3455c15cf30909789daa4836c023f6f63ddeb686"
+    },
+    {
+      "bytes": 2227,
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/partners-metadata-v2-source-contract-2026-09-13.md",
+      "sha256": "84ae3be7689af573e48b6b2d6c52ab7d1eb7772dc048aefad1f05db67d8a4480"
+    },
+    {
+      "bytes": 2318,
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/partners-metadata-inventory-2026-09-13/requests.jsonl",
+      "sha256": "8e07bdbd7b313ce43f5877e17c0bda08128dcbb6901a085b7d10adc3600168d7"
+    },
+    {
+      "bytes": 6102,
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/docs/evidence/reward-mechanism-repair-2026-09-12/localization_range_inspect.py",
+      "sha256": "6d66e8b124975dbb4e0c668a06ffdf09a633c17de137a5b8a67d32a4a3c13a82"
+    },
+    {
+      "bytes": 5592,
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/docs/evidence/reward-mechanism-repair-2026-09-12/localization_batch_metadata_inspect.py",
+      "sha256": "616d6b5551eb11dfdba9424fb66e61d1703aaf1b9ec22b24eb661d2541eef159"
+    },
+    {
+      "bytes": 9963,
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/docs/evidence/reward-mechanism-repair-2026-09-12/localization_batch_metadata_probe.py",
+      "sha256": "b4bde33bc78a738b4bd84a38be4123075000d177d0505eb471c5fe43f1465227"
+    },
+    {
+      "bytes": 572314,
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/docs/evidence/reward-mechanism-repair-2026-09-12/localization-range-probe-2026-09-13/footer-inspection-02.json",
+      "sha256": "afecf069b24c11d79b63debba9143bd3c0a61d7bb309c2c8443484f3ce43fc1c"
+    },
+    {
+      "bytes": 262144,
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/docs/evidence/reward-mechanism-repair-2026-09-12/localization-range-probe-2026-09-13/payload-02.bin",
+      "sha256": "7779ff2b04999bae9447db9dbae2570448bdb2c8bdbc9b11da3906f0e9789701"
+    },
+    {
+      "bytes": 1402,
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/docs/evidence/reward-mechanism-repair-2026-09-12/localization-range-probe-2026-09-13/result-02.json",
+      "sha256": "86f981f556d4f53ddcccf1bac176ed02438b4a6c9f36fbabe041fb2675b88d2c"
+    },
+    {
+      "bytes": 1512,
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/docs/evidence/reward-mechanism-repair-2026-09-12/localization-range-probe-2026-09-13/payload-03.bin",
+      "sha256": "09c80f93887d3f260b9ac1a101248994f2e8e73fd2e88e8128261921540e86bf"
+    },
+    {
+      "bytes": 21803,
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/docs/evidence/reward-mechanism-repair-2026-09-12/localization-range-probe-2026-09-13/payload-04.bin",
+      "sha256": "c5187ee92f011736e3877f22372869aaf11930fb176eb63fa942d39a9a11be8d"
+    },
+    {
+      "bytes": 6580,
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/docs/evidence/reward-mechanism-repair-2026-09-12/localization-batch-metadata-2026-09-13/payload-03.bin",
+      "sha256": "ec4274d76bfeb959b4a1961fa7ddb07dd06aa4a4a4960832c9fecec61f3bce53"
+    },
+    {
+      "bytes": 640,
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/docs/evidence/reward-mechanism-repair-2026-09-12/localization-batch-metadata-2026-09-13/payload-02.bin",
+      "sha256": "9ec93f728ec3339170e313696036f41e23dd8a58346bb89dc94387db1b098d33"
+    }
+  ],
+  "git_head_at_audit": "62aa5dd62ca6533a4ca7a620daa61f12f0d5bee9",
+  "audit_network_requests": 0,
+  "limitations": "Only declared metadata buffer costs and internal row totals are validated. No body ID, compressed frame, coordinate, selection, chemical exposure or learning result is validated."
+}

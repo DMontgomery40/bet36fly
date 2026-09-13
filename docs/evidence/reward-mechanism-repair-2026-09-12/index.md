@@ -13,11 +13,26 @@ or qualifies conditioning.
 The [complete-metadata v1 failure](partners-metadata-v1-result-2026-09-13.md)
 exposed a valid repeated-header case omitted by the synthetic tests. The
 [separate v2 correction](partners-metadata-v2-preparation-2026-09-13.md)
-has a documented field contract and independent regression coverage; its
-bounded execution is in progress at the latest dated
-[handoff](../../REWARD_REPAIR_HANDOFF.md). Neither metadata preparation nor
+has a documented field contract and independent regression coverage. Its
+[completed inventory](partners-metadata-v2-result-2026-09-13.md) covers all
+4,759 batches and establishes 2,013,351,963 unread body-column buffer bytes;
+no body IDs or coordinates were retrieved. Neither that metadata nor
 the [new weight-state source hypothesis](dopamine-weight-state-decision-2026-09-13.md)
 establishes a local dopamine exposure law or a qualified learning mechanism.
+
+The [completed weight-state shadow](weight-state-shadow-result-2026-09-13.md)
+is also rejected. All 32 histories completed once; the second/base home mean
+−0.268754929304 exceeds its 0.235695145300 limit. The independent audit passes
+128 fixed references and all 1,024 scalar comparisons, reproducing all eight
+guard classifications with zero actual or possible bound contacts. Preparation
+passed 794 distinct synthetic cases. This fixed-history failure changes no
+production rule and qualifies no conditioning.
+
+The separate [quantitative release/receptor inquiry](tonic-burst-dopamine-quantitative-source-check-2026-09-13.md)
+finds measured adult-fly regional release dependence and cultured-receptor
+dose responses. Those measurements do not calibrate local tonic/burst signaling
+at our selected PPL101/MBON11 or PAM12/MBON09 synapses. The inquiry was declared
+before the weight-state outcome and chose no new candidate parameters.
 
 ## Confirmed correction
 
@@ -152,9 +167,10 @@ passed. This does not establish an authentication or dataset condition.
 The [offline next-decision synthesis](localization-next-decision-synthesis-2026-09-13.md)
 narrows the useful anatomical deliverable to a complete partners-only export
 of all PPL101 outputs or MBON11 inputs. Its coordinates could describe contact
-geometry without a distance cutoff or exposure weights. The compressed cost
-of a complete predicate scan remains unknown; no further request, selected-row
-export or local plasticity candidate has been executed.
+geometry without a distance cutoff or exposure weights. The subsequent
+[complete metadata inventory](partners-metadata-v2-result-2026-09-13.md) measures
+the body predicate scan's unread buffers at 2,013,351,963 bytes. No body-value
+scan, selected-row export or local plasticity candidate has been executed.
 The separately completed [fixed rate-adaptation screen](rate-adaptation-shadow-result.md)
 completed all 32 declared saved histories in 50.4832 seconds, with zero circuit
 calls and unchanged inputs. It failed all four home guards through excessive

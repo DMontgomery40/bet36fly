@@ -60,12 +60,13 @@ or an ordering that permits skipping other batches.
 
 The subsequent [complete-metadata v1 attempt](../../docs/evidence/reward-mechanism-repair-2026-09-12/partners-metadata-v1-result-2026-09-13.md)
 stopped on a client header-compatibility bug before reading a payload. Its
-failure is preserved. A separately reviewed [v2 metadata inventory](../../docs/evidence/reward-mechanism-repair-2026-09-12/partners-metadata-v2-preparation-2026-09-13.md)
-is underway at the September 13, 07:17 UTC continuation boundary. It requests
-only the 4,759 batch metadata messages to measure body-column transfer cost;
-it does not retrieve body IDs, coordinates or a local exposure model. Check
-the [current handoff](../../docs/REWARD_REPAIR_HANDOFF.md) for completion before
-using a complete scan cost.
+failure is preserved. The separately reviewed [complete v2 metadata inventory](../../docs/evidence/reward-mechanism-repair-2026-09-12/partners-metadata-v2-result-2026-09-13.md)
+finished all 4,759 batch messages in 815.86 seconds. Every declared body-column
+range is now known: `body_pre` totals 363,074,510 bytes and `body_post` totals
+1,650,277,453 bytes, or **2,013,351,963 unread buffer bytes** before future HTTP
+overhead. All batches declare LZ4_FRAME compression and together declare
+311,833,243 rows. This is a complete metadata count, not an extrapolation from
+one batch. No body IDs, coordinates or local exposure model were retrieved.
 
 ## A complete home contact selection
 
@@ -88,9 +89,10 @@ question if a complete, version-bound selection can be obtained.
 No such selection has been retrieved. A separate [IPv4 transport check](../../docs/evidence/reward-mechanism-repair-2026-09-12/localization-neuprint-ipv4-report-2026-09-13.md)
 completed TLS but received no complete HTTP response before the active deadline;
 the attempt ended after 14.005 seconds. It did not establish authentication requirements or live dataset
-availability. A direct range route would first need all 4,759 partners batch
-metadata messages (3,045,760 payload bytes) to inventory the unknown compressed
-body-column cost. No complete metadata scan or body/coordinate download has run.
+availability. The direct range route has now retrieved all 3,045,760 metadata
+payload bytes and established the complete body-column cost above. A body
+predicate scan or selected-coordinate retrieval still requires its own finite
+plan. Neither has run.
 
 ## What remains to be established
 

@@ -1,0 +1,38 @@
+{
+  "index": 14,
+  "edge": 2436,
+  "group": 1,
+  "kc_events": 0,
+  "dan_events": 21,
+  "passed": true,
+  "actual": {
+    "gain": 1.0,
+    "electrical_gain": 1.0,
+    "positive": 0.0,
+    "negative": 0.0,
+    "electrical_positive": 0.0,
+    "electrical_negative": 0.0,
+    "tail_positive": 0.0,
+    "tail_negative": 0.0
+  },
+  "reference": {
+    "gain": 1.0,
+    "electrical_gain": 1.0,
+    "positive": 0.0,
+    "negative": 0.0,
+    "electrical_positive": 0.0,
+    "electrical_negative": 0.0,
+    "tail_positive": 0.0,
+    "tail_negative": 0.0
+  },
+  "absolute_errors": {
+    "gain": 0.0,
+    "electrical_gain": 0.0,
+    "positive": 0.0,
+    "negative": 0.0,
+    "electrical_positive": 0.0,
+    "electrical_negative": 0.0,
+    "tail_positive": 0.0,
+    "tail_negative": 0.0
+  }
+}

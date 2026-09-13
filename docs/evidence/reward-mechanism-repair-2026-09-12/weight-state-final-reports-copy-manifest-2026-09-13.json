@@ -1,0 +1,25 @@
+{
+  "files": [
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-independent-audit-report-2026-09-13.md",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-independent-audit-report-2026-09-13.md",
+      "bytes": 7612,
+      "sha256": "6e52d184bdc71b425f27b44501c9ecd4f8fc4aafa0e5b0245506eb24d740ec50"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-independent-audit-reading-receipt-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-independent-audit-reading-receipt-2026-09-13.json",
+      "bytes": 37907,
+      "sha256": "ba256458508b3506d259a2a0dd58399ac84ff328410082e139718d421f85876a"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-execution-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-execution-2026-09-13.txt",
+      "bytes": 2474,
+      "sha256": "9e77695080e9df716d387c3c54344e241c59199d73a36c25ce1d059f76462c83"
+    }
+  ],
+  "file_count": 3,
+  "bytes": 47993,
+  "originals_preserved": true
+}

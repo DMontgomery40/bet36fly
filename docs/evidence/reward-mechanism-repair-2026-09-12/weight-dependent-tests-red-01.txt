@@ -1,0 +1,871 @@
+FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF                                  [100%]
+=================================== FAILURES ===================================
+_ test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution[0.0-0.0-0.5] _
+
+initial = 0.5, p = 0.0, n = 0.0
+
+    @pytest.mark.parametrize("initial", [0.5, 0.7, 1.0, 1.3, 1.5])
+    @pytest.mark.parametrize("p,n", [(0.0, 0.0), (2.0, 0.0), (0.0, 3.0), (2.0, 2.0), (3.0, 2.0)])
+    def test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution(initial, p, n):
+        duration = 20.0
+>       result = candidate.integrate_products(lambda _: (p, n), duration, initial)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:15: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+products = <function test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution.<locals>.<lambda> at 0x1074f1580>
+duration = 20.0, initial_gain = 0.5
+
+    def integrate_products(products, duration, initial_gain):
+>       raise NotImplementedError("Synthetic numerical contract not implemented yet")
+E       NotImplementedError: Synthetic numerical contract not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:5: NotImplementedError
+_ test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution[0.0-0.0-0.7] _
+
+initial = 0.7, p = 0.0, n = 0.0
+
+    @pytest.mark.parametrize("initial", [0.5, 0.7, 1.0, 1.3, 1.5])
+    @pytest.mark.parametrize("p,n", [(0.0, 0.0), (2.0, 0.0), (0.0, 3.0), (2.0, 2.0), (3.0, 2.0)])
+    def test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution(initial, p, n):
+        duration = 20.0
+>       result = candidate.integrate_products(lambda _: (p, n), duration, initial)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:15: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+products = <function test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution.<locals>.<lambda> at 0x1074f1760>
+duration = 20.0, initial_gain = 0.7
+
+    def integrate_products(products, duration, initial_gain):
+>       raise NotImplementedError("Synthetic numerical contract not implemented yet")
+E       NotImplementedError: Synthetic numerical contract not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:5: NotImplementedError
+_ test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution[0.0-0.0-1.0] _
+
+initial = 1.0, p = 0.0, n = 0.0
+
+    @pytest.mark.parametrize("initial", [0.5, 0.7, 1.0, 1.3, 1.5])
+    @pytest.mark.parametrize("p,n", [(0.0, 0.0), (2.0, 0.0), (0.0, 3.0), (2.0, 2.0), (3.0, 2.0)])
+    def test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution(initial, p, n):
+        duration = 20.0
+>       result = candidate.integrate_products(lambda _: (p, n), duration, initial)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:15: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+products = <function test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution.<locals>.<lambda> at 0x107526a20>
+duration = 20.0, initial_gain = 1.0
+
+    def integrate_products(products, duration, initial_gain):
+>       raise NotImplementedError("Synthetic numerical contract not implemented yet")
+E       NotImplementedError: Synthetic numerical contract not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:5: NotImplementedError
+_ test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution[0.0-0.0-1.3] _
+
+initial = 1.3, p = 0.0, n = 0.0
+
+    @pytest.mark.parametrize("initial", [0.5, 0.7, 1.0, 1.3, 1.5])
+    @pytest.mark.parametrize("p,n", [(0.0, 0.0), (2.0, 0.0), (0.0, 3.0), (2.0, 2.0), (3.0, 2.0)])
+    def test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution(initial, p, n):
+        duration = 20.0
+>       result = candidate.integrate_products(lambda _: (p, n), duration, initial)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:15: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+products = <function test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution.<locals>.<lambda> at 0x107526980>
+duration = 20.0, initial_gain = 1.3
+
+    def integrate_products(products, duration, initial_gain):
+>       raise NotImplementedError("Synthetic numerical contract not implemented yet")
+E       NotImplementedError: Synthetic numerical contract not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:5: NotImplementedError
+_ test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution[0.0-0.0-1.5] _
+
+initial = 1.5, p = 0.0, n = 0.0
+
+    @pytest.mark.parametrize("initial", [0.5, 0.7, 1.0, 1.3, 1.5])
+    @pytest.mark.parametrize("p,n", [(0.0, 0.0), (2.0, 0.0), (0.0, 3.0), (2.0, 2.0), (3.0, 2.0)])
+    def test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution(initial, p, n):
+        duration = 20.0
+>       result = candidate.integrate_products(lambda _: (p, n), duration, initial)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:15: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+products = <function test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution.<locals>.<lambda> at 0x1075271a0>
+duration = 20.0, initial_gain = 1.5
+
+    def integrate_products(products, duration, initial_gain):
+>       raise NotImplementedError("Synthetic numerical contract not implemented yet")
+E       NotImplementedError: Synthetic numerical contract not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:5: NotImplementedError
+_ test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution[2.0-0.0-0.5] _
+
+initial = 0.5, p = 2.0, n = 0.0
+
+    @pytest.mark.parametrize("initial", [0.5, 0.7, 1.0, 1.3, 1.5])
+    @pytest.mark.parametrize("p,n", [(0.0, 0.0), (2.0, 0.0), (0.0, 3.0), (2.0, 2.0), (3.0, 2.0)])
+    def test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution(initial, p, n):
+        duration = 20.0
+>       result = candidate.integrate_products(lambda _: (p, n), duration, initial)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:15: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+products = <function test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution.<locals>.<lambda> at 0x107526f20>
+duration = 20.0, initial_gain = 0.5
+
+    def integrate_products(products, duration, initial_gain):
+>       raise NotImplementedError("Synthetic numerical contract not implemented yet")
+E       NotImplementedError: Synthetic numerical contract not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:5: NotImplementedError
+_ test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution[2.0-0.0-0.7] _
+
+initial = 0.7, p = 2.0, n = 0.0
+
+    @pytest.mark.parametrize("initial", [0.5, 0.7, 1.0, 1.3, 1.5])
+    @pytest.mark.parametrize("p,n", [(0.0, 0.0), (2.0, 0.0), (0.0, 3.0), (2.0, 2.0), (3.0, 2.0)])
+    def test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution(initial, p, n):
+        duration = 20.0
+>       result = candidate.integrate_products(lambda _: (p, n), duration, initial)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:15: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+products = <function test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution.<locals>.<lambda> at 0x107527240>
+duration = 20.0, initial_gain = 0.7
+
+    def integrate_products(products, duration, initial_gain):
+>       raise NotImplementedError("Synthetic numerical contract not implemented yet")
+E       NotImplementedError: Synthetic numerical contract not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:5: NotImplementedError
+_ test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution[2.0-0.0-1.0] _
+
+initial = 1.0, p = 2.0, n = 0.0
+
+    @pytest.mark.parametrize("initial", [0.5, 0.7, 1.0, 1.3, 1.5])
+    @pytest.mark.parametrize("p,n", [(0.0, 0.0), (2.0, 0.0), (0.0, 3.0), (2.0, 2.0), (3.0, 2.0)])
+    def test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution(initial, p, n):
+        duration = 20.0
+>       result = candidate.integrate_products(lambda _: (p, n), duration, initial)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:15: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+products = <function test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution.<locals>.<lambda> at 0x1075276a0>
+duration = 20.0, initial_gain = 1.0
+
+    def integrate_products(products, duration, initial_gain):
+>       raise NotImplementedError("Synthetic numerical contract not implemented yet")
+E       NotImplementedError: Synthetic numerical contract not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:5: NotImplementedError
+_ test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution[2.0-0.0-1.3] _
+
+initial = 1.3, p = 2.0, n = 0.0
+
+    @pytest.mark.parametrize("initial", [0.5, 0.7, 1.0, 1.3, 1.5])
+    @pytest.mark.parametrize("p,n", [(0.0, 0.0), (2.0, 0.0), (0.0, 3.0), (2.0, 2.0), (3.0, 2.0)])
+    def test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution(initial, p, n):
+        duration = 20.0
+>       result = candidate.integrate_products(lambda _: (p, n), duration, initial)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:15: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+products = <function test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution.<locals>.<lambda> at 0x107527d80>
+duration = 20.0, initial_gain = 1.3
+
+    def integrate_products(products, duration, initial_gain):
+>       raise NotImplementedError("Synthetic numerical contract not implemented yet")
+E       NotImplementedError: Synthetic numerical contract not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:5: NotImplementedError
+_ test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution[2.0-0.0-1.5] _
+
+initial = 1.5, p = 2.0, n = 0.0
+
+    @pytest.mark.parametrize("initial", [0.5, 0.7, 1.0, 1.3, 1.5])
+    @pytest.mark.parametrize("p,n", [(0.0, 0.0), (2.0, 0.0), (0.0, 3.0), (2.0, 2.0), (3.0, 2.0)])
+    def test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution(initial, p, n):
+        duration = 20.0
+>       result = candidate.integrate_products(lambda _: (p, n), duration, initial)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:15: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+products = <function test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution.<locals>.<lambda> at 0x107527ec0>
+duration = 20.0, initial_gain = 1.5
+
+    def integrate_products(products, duration, initial_gain):
+>       raise NotImplementedError("Synthetic numerical contract not implemented yet")
+E       NotImplementedError: Synthetic numerical contract not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:5: NotImplementedError
+_ test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution[0.0-3.0-0.5] _
+
+initial = 0.5, p = 0.0, n = 3.0
+
+    @pytest.mark.parametrize("initial", [0.5, 0.7, 1.0, 1.3, 1.5])
+    @pytest.mark.parametrize("p,n", [(0.0, 0.0), (2.0, 0.0), (0.0, 3.0), (2.0, 2.0), (3.0, 2.0)])
+    def test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution(initial, p, n):
+        duration = 20.0
+>       result = candidate.integrate_products(lambda _: (p, n), duration, initial)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:15: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+products = <function test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution.<locals>.<lambda> at 0x107527560>
+duration = 20.0, initial_gain = 0.5
+
+    def integrate_products(products, duration, initial_gain):
+>       raise NotImplementedError("Synthetic numerical contract not implemented yet")
+E       NotImplementedError: Synthetic numerical contract not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:5: NotImplementedError
+_ test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution[0.0-3.0-0.7] _
+
+initial = 0.7, p = 0.0, n = 3.0
+
+    @pytest.mark.parametrize("initial", [0.5, 0.7, 1.0, 1.3, 1.5])
+    @pytest.mark.parametrize("p,n", [(0.0, 0.0), (2.0, 0.0), (0.0, 3.0), (2.0, 2.0), (3.0, 2.0)])
+    def test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution(initial, p, n):
+        duration = 20.0
+>       result = candidate.integrate_products(lambda _: (p, n), duration, initial)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:15: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+products = <function test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution.<locals>.<lambda> at 0x107526b60>
+duration = 20.0, initial_gain = 0.7
+
+    def integrate_products(products, duration, initial_gain):
+>       raise NotImplementedError("Synthetic numerical contract not implemented yet")
+E       NotImplementedError: Synthetic numerical contract not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:5: NotImplementedError
+_ test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution[0.0-3.0-1.0] _
+
+initial = 1.0, p = 0.0, n = 3.0
+
+    @pytest.mark.parametrize("initial", [0.5, 0.7, 1.0, 1.3, 1.5])
+    @pytest.mark.parametrize("p,n", [(0.0, 0.0), (2.0, 0.0), (0.0, 3.0), (2.0, 2.0), (3.0, 2.0)])
+    def test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution(initial, p, n):
+        duration = 20.0
+>       result = candidate.integrate_products(lambda _: (p, n), duration, initial)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:15: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+products = <function test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution.<locals>.<lambda> at 0x107527100>
+duration = 20.0, initial_gain = 1.0
+
+    def integrate_products(products, duration, initial_gain):
+>       raise NotImplementedError("Synthetic numerical contract not implemented yet")
+E       NotImplementedError: Synthetic numerical contract not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:5: NotImplementedError
+_ test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution[0.0-3.0-1.3] _
+
+initial = 1.3, p = 0.0, n = 3.0
+
+    @pytest.mark.parametrize("initial", [0.5, 0.7, 1.0, 1.3, 1.5])
+    @pytest.mark.parametrize("p,n", [(0.0, 0.0), (2.0, 0.0), (0.0, 3.0), (2.0, 2.0), (3.0, 2.0)])
+    def test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution(initial, p, n):
+        duration = 20.0
+>       result = candidate.integrate_products(lambda _: (p, n), duration, initial)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:15: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+products = <function test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution.<locals>.<lambda> at 0x107526a20>
+duration = 20.0, initial_gain = 1.3
+
+    def integrate_products(products, duration, initial_gain):
+>       raise NotImplementedError("Synthetic numerical contract not implemented yet")
+E       NotImplementedError: Synthetic numerical contract not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:5: NotImplementedError
+_ test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution[0.0-3.0-1.5] _
+
+initial = 1.5, p = 0.0, n = 3.0
+
+    @pytest.mark.parametrize("initial", [0.5, 0.7, 1.0, 1.3, 1.5])
+    @pytest.mark.parametrize("p,n", [(0.0, 0.0), (2.0, 0.0), (0.0, 3.0), (2.0, 2.0), (3.0, 2.0)])
+    def test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution(initial, p, n):
+        duration = 20.0
+>       result = candidate.integrate_products(lambda _: (p, n), duration, initial)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:15: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+products = <function test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution.<locals>.<lambda> at 0x107527240>
+duration = 20.0, initial_gain = 1.5
+
+    def integrate_products(products, duration, initial_gain):
+>       raise NotImplementedError("Synthetic numerical contract not implemented yet")
+E       NotImplementedError: Synthetic numerical contract not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:5: NotImplementedError
+_ test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution[2.0-2.0-0.5] _
+
+initial = 0.5, p = 2.0, n = 2.0
+
+    @pytest.mark.parametrize("initial", [0.5, 0.7, 1.0, 1.3, 1.5])
+    @pytest.mark.parametrize("p,n", [(0.0, 0.0), (2.0, 0.0), (0.0, 3.0), (2.0, 2.0), (3.0, 2.0)])
+    def test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution(initial, p, n):
+        duration = 20.0
+>       result = candidate.integrate_products(lambda _: (p, n), duration, initial)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:15: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+products = <function test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution.<locals>.<lambda> at 0x107574540>
+duration = 20.0, initial_gain = 0.5
+
+    def integrate_products(products, duration, initial_gain):
+>       raise NotImplementedError("Synthetic numerical contract not implemented yet")
+E       NotImplementedError: Synthetic numerical contract not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:5: NotImplementedError
+_ test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution[2.0-2.0-0.7] _
+
+initial = 0.7, p = 2.0, n = 2.0
+
+    @pytest.mark.parametrize("initial", [0.5, 0.7, 1.0, 1.3, 1.5])
+    @pytest.mark.parametrize("p,n", [(0.0, 0.0), (2.0, 0.0), (0.0, 3.0), (2.0, 2.0), (3.0, 2.0)])
+    def test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution(initial, p, n):
+        duration = 20.0
+>       result = candidate.integrate_products(lambda _: (p, n), duration, initial)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:15: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+products = <function test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution.<locals>.<lambda> at 0x1075745e0>
+duration = 20.0, initial_gain = 0.7
+
+    def integrate_products(products, duration, initial_gain):
+>       raise NotImplementedError("Synthetic numerical contract not implemented yet")
+E       NotImplementedError: Synthetic numerical contract not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:5: NotImplementedError
+_ test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution[2.0-2.0-1.0] _
+
+initial = 1.0, p = 2.0, n = 2.0
+
+    @pytest.mark.parametrize("initial", [0.5, 0.7, 1.0, 1.3, 1.5])
+    @pytest.mark.parametrize("p,n", [(0.0, 0.0), (2.0, 0.0), (0.0, 3.0), (2.0, 2.0), (3.0, 2.0)])
+    def test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution(initial, p, n):
+        duration = 20.0
+>       result = candidate.integrate_products(lambda _: (p, n), duration, initial)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:15: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+products = <function test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution.<locals>.<lambda> at 0x107574860>
+duration = 20.0, initial_gain = 1.0
+
+    def integrate_products(products, duration, initial_gain):
+>       raise NotImplementedError("Synthetic numerical contract not implemented yet")
+E       NotImplementedError: Synthetic numerical contract not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:5: NotImplementedError
+_ test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution[2.0-2.0-1.3] _
+
+initial = 1.3, p = 2.0, n = 2.0
+
+    @pytest.mark.parametrize("initial", [0.5, 0.7, 1.0, 1.3, 1.5])
+    @pytest.mark.parametrize("p,n", [(0.0, 0.0), (2.0, 0.0), (0.0, 3.0), (2.0, 2.0), (3.0, 2.0)])
+    def test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution(initial, p, n):
+        duration = 20.0
+>       result = candidate.integrate_products(lambda _: (p, n), duration, initial)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:15: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+products = <function test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution.<locals>.<lambda> at 0x107574ae0>
+duration = 20.0, initial_gain = 1.3
+
+    def integrate_products(products, duration, initial_gain):
+>       raise NotImplementedError("Synthetic numerical contract not implemented yet")
+E       NotImplementedError: Synthetic numerical contract not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:5: NotImplementedError
+_ test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution[2.0-2.0-1.5] _
+
+initial = 1.5, p = 2.0, n = 2.0
+
+    @pytest.mark.parametrize("initial", [0.5, 0.7, 1.0, 1.3, 1.5])
+    @pytest.mark.parametrize("p,n", [(0.0, 0.0), (2.0, 0.0), (0.0, 3.0), (2.0, 2.0), (3.0, 2.0)])
+    def test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution(initial, p, n):
+        duration = 20.0
+>       result = candidate.integrate_products(lambda _: (p, n), duration, initial)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:15: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+products = <function test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution.<locals>.<lambda> at 0x107574d60>
+duration = 20.0, initial_gain = 1.5
+
+    def integrate_products(products, duration, initial_gain):
+>       raise NotImplementedError("Synthetic numerical contract not implemented yet")
+E       NotImplementedError: Synthetic numerical contract not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:5: NotImplementedError
+_ test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution[3.0-2.0-0.5] _
+
+initial = 0.5, p = 3.0, n = 2.0
+
+    @pytest.mark.parametrize("initial", [0.5, 0.7, 1.0, 1.3, 1.5])
+    @pytest.mark.parametrize("p,n", [(0.0, 0.0), (2.0, 0.0), (0.0, 3.0), (2.0, 2.0), (3.0, 2.0)])
+    def test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution(initial, p, n):
+        duration = 20.0
+>       result = candidate.integrate_products(lambda _: (p, n), duration, initial)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:15: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+products = <function test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution.<locals>.<lambda> at 0x107574fe0>
+duration = 20.0, initial_gain = 0.5
+
+    def integrate_products(products, duration, initial_gain):
+>       raise NotImplementedError("Synthetic numerical contract not implemented yet")
+E       NotImplementedError: Synthetic numerical contract not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:5: NotImplementedError
+_ test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution[3.0-2.0-0.7] _
+
+initial = 0.7, p = 3.0, n = 2.0
+
+    @pytest.mark.parametrize("initial", [0.5, 0.7, 1.0, 1.3, 1.5])
+    @pytest.mark.parametrize("p,n", [(0.0, 0.0), (2.0, 0.0), (0.0, 3.0), (2.0, 2.0), (3.0, 2.0)])
+    def test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution(initial, p, n):
+        duration = 20.0
+>       result = candidate.integrate_products(lambda _: (p, n), duration, initial)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:15: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+products = <function test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution.<locals>.<lambda> at 0x107575260>
+duration = 20.0, initial_gain = 0.7
+
+    def integrate_products(products, duration, initial_gain):
+>       raise NotImplementedError("Synthetic numerical contract not implemented yet")
+E       NotImplementedError: Synthetic numerical contract not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:5: NotImplementedError
+_ test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution[3.0-2.0-1.0] _
+
+initial = 1.0, p = 3.0, n = 2.0
+
+    @pytest.mark.parametrize("initial", [0.5, 0.7, 1.0, 1.3, 1.5])
+    @pytest.mark.parametrize("p,n", [(0.0, 0.0), (2.0, 0.0), (0.0, 3.0), (2.0, 2.0), (3.0, 2.0)])
+    def test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution(initial, p, n):
+        duration = 20.0
+>       result = candidate.integrate_products(lambda _: (p, n), duration, initial)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:15: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+products = <function test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution.<locals>.<lambda> at 0x107526840>
+duration = 20.0, initial_gain = 1.0
+
+    def integrate_products(products, duration, initial_gain):
+>       raise NotImplementedError("Synthetic numerical contract not implemented yet")
+E       NotImplementedError: Synthetic numerical contract not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:5: NotImplementedError
+_ test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution[3.0-2.0-1.3] _
+
+initial = 1.3, p = 3.0, n = 2.0
+
+    @pytest.mark.parametrize("initial", [0.5, 0.7, 1.0, 1.3, 1.5])
+    @pytest.mark.parametrize("p,n", [(0.0, 0.0), (2.0, 0.0), (0.0, 3.0), (2.0, 2.0), (3.0, 2.0)])
+    def test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution(initial, p, n):
+        duration = 20.0
+>       result = candidate.integrate_products(lambda _: (p, n), duration, initial)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:15: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+products = <function test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution.<locals>.<lambda> at 0x106c4a3e0>
+duration = 20.0, initial_gain = 1.3
+
+    def integrate_products(products, duration, initial_gain):
+>       raise NotImplementedError("Synthetic numerical contract not implemented yet")
+E       NotImplementedError: Synthetic numerical contract not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:5: NotImplementedError
+_ test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution[3.0-2.0-1.5] _
+
+initial = 1.5, p = 3.0, n = 2.0
+
+    @pytest.mark.parametrize("initial", [0.5, 0.7, 1.0, 1.3, 1.5])
+    @pytest.mark.parametrize("p,n", [(0.0, 0.0), (2.0, 0.0), (0.0, 3.0), (2.0, 2.0), (3.0, 2.0)])
+    def test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution(initial, p, n):
+        duration = 20.0
+>       result = candidate.integrate_products(lambda _: (p, n), duration, initial)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:15: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+products = <function test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution.<locals>.<lambda> at 0x1074f1bc0>
+duration = 20.0, initial_gain = 1.5
+
+    def integrate_products(products, duration, initial_gain):
+>       raise NotImplementedError("Synthetic numerical contract not implemented yet")
+E       NotImplementedError: Synthetic numerical contract not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:5: NotImplementedError
+______________ test_invalid_gain_cannot_be_clamped_or_coerced[-1] ______________
+
+initial = -1
+
+    @pytest.mark.parametrize("initial", [-1, 0.499, 1.501, math.nan, math.inf, True, "1"])
+    def test_invalid_gain_cannot_be_clamped_or_coerced(initial):
+        with pytest.raises(ValueError):
+>           candidate.integrate_products(lambda _: (1.0, 1.0), 0.2, initial)
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:34: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+products = <function test_invalid_gain_cannot_be_clamped_or_coerced.<locals>.<lambda> at 0x107102d40>
+duration = 0.2, initial_gain = -1
+
+    def integrate_products(products, duration, initial_gain):
+>       raise NotImplementedError("Synthetic numerical contract not implemented yet")
+E       NotImplementedError: Synthetic numerical contract not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:5: NotImplementedError
+____________ test_invalid_gain_cannot_be_clamped_or_coerced[0.499] _____________
+
+initial = 0.499
+
+    @pytest.mark.parametrize("initial", [-1, 0.499, 1.501, math.nan, math.inf, True, "1"])
+    def test_invalid_gain_cannot_be_clamped_or_coerced(initial):
+        with pytest.raises(ValueError):
+>           candidate.integrate_products(lambda _: (1.0, 1.0), 0.2, initial)
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:34: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+products = <function test_invalid_gain_cannot_be_clamped_or_coerced.<locals>.<lambda> at 0x107101080>
+duration = 0.2, initial_gain = 0.499
+
+    def integrate_products(products, duration, initial_gain):
+>       raise NotImplementedError("Synthetic numerical contract not implemented yet")
+E       NotImplementedError: Synthetic numerical contract not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:5: NotImplementedError
+____________ test_invalid_gain_cannot_be_clamped_or_coerced[1.501] _____________
+
+initial = 1.501
+
+    @pytest.mark.parametrize("initial", [-1, 0.499, 1.501, math.nan, math.inf, True, "1"])
+    def test_invalid_gain_cannot_be_clamped_or_coerced(initial):
+        with pytest.raises(ValueError):
+>           candidate.integrate_products(lambda _: (1.0, 1.0), 0.2, initial)
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:34: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+products = <function test_invalid_gain_cannot_be_clamped_or_coerced.<locals>.<lambda> at 0x107102f20>
+duration = 0.2, initial_gain = 1.501
+
+    def integrate_products(products, duration, initial_gain):
+>       raise NotImplementedError("Synthetic numerical contract not implemented yet")
+E       NotImplementedError: Synthetic numerical contract not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:5: NotImplementedError
+_____________ test_invalid_gain_cannot_be_clamped_or_coerced[nan] ______________
+
+initial = nan
+
+    @pytest.mark.parametrize("initial", [-1, 0.499, 1.501, math.nan, math.inf, True, "1"])
+    def test_invalid_gain_cannot_be_clamped_or_coerced(initial):
+        with pytest.raises(ValueError):
+>           candidate.integrate_products(lambda _: (1.0, 1.0), 0.2, initial)
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:34: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+products = <function test_invalid_gain_cannot_be_clamped_or_coerced.<locals>.<lambda> at 0x107527d80>
+duration = 0.2, initial_gain = nan
+
+    def integrate_products(products, duration, initial_gain):
+>       raise NotImplementedError("Synthetic numerical contract not implemented yet")
+E       NotImplementedError: Synthetic numerical contract not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:5: NotImplementedError
+_____________ test_invalid_gain_cannot_be_clamped_or_coerced[inf] ______________
+
+initial = inf
+
+    @pytest.mark.parametrize("initial", [-1, 0.499, 1.501, math.nan, math.inf, True, "1"])
+    def test_invalid_gain_cannot_be_clamped_or_coerced(initial):
+        with pytest.raises(ValueError):
+>           candidate.integrate_products(lambda _: (1.0, 1.0), 0.2, initial)
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:34: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+products = <function test_invalid_gain_cannot_be_clamped_or_coerced.<locals>.<lambda> at 0x107527920>
+duration = 0.2, initial_gain = inf
+
+    def integrate_products(products, duration, initial_gain):
+>       raise NotImplementedError("Synthetic numerical contract not implemented yet")
+E       NotImplementedError: Synthetic numerical contract not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:5: NotImplementedError
+_____________ test_invalid_gain_cannot_be_clamped_or_coerced[True] _____________
+
+initial = True
+
+    @pytest.mark.parametrize("initial", [-1, 0.499, 1.501, math.nan, math.inf, True, "1"])
+    def test_invalid_gain_cannot_be_clamped_or_coerced(initial):
+        with pytest.raises(ValueError):
+>           candidate.integrate_products(lambda _: (1.0, 1.0), 0.2, initial)
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:34: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+products = <function test_invalid_gain_cannot_be_clamped_or_coerced.<locals>.<lambda> at 0x107575260>
+duration = 0.2, initial_gain = True
+
+    def integrate_products(products, duration, initial_gain):
+>       raise NotImplementedError("Synthetic numerical contract not implemented yet")
+E       NotImplementedError: Synthetic numerical contract not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:5: NotImplementedError
+______________ test_invalid_gain_cannot_be_clamped_or_coerced[1] _______________
+
+initial = '1'
+
+    @pytest.mark.parametrize("initial", [-1, 0.499, 1.501, math.nan, math.inf, True, "1"])
+    def test_invalid_gain_cannot_be_clamped_or_coerced(initial):
+        with pytest.raises(ValueError):
+>           candidate.integrate_products(lambda _: (1.0, 1.0), 0.2, initial)
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:34: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+products = <function test_invalid_gain_cannot_be_clamped_or_coerced.<locals>.<lambda> at 0x1075758a0>
+duration = 0.2, initial_gain = '1'
+
+    def integrate_products(products, duration, initial_gain):
+>       raise NotImplementedError("Synthetic numerical contract not implemented yet")
+E       NotImplementedError: Synthetic numerical contract not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:5: NotImplementedError
+_____ test_invalid_product_drive_fails_without_hidden_flooring[products0] ______
+
+products = (-1, 1)
+
+    @pytest.mark.parametrize("products", [(-1, 1), (1, -1), (math.nan, 1), (1, math.inf), (True, 1), ("1", 1)])
+    def test_invalid_product_drive_fails_without_hidden_flooring(products):
+        with pytest.raises(ValueError):
+>           candidate.integrate_products(lambda _: products, 0.2, 1.0)
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:40: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+products = <function test_invalid_product_drive_fails_without_hidden_flooring.<locals>.<lambda> at 0x107574b80>
+duration = 0.2, initial_gain = 1.0
+
+    def integrate_products(products, duration, initial_gain):
+>       raise NotImplementedError("Synthetic numerical contract not implemented yet")
+E       NotImplementedError: Synthetic numerical contract not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:5: NotImplementedError
+_____ test_invalid_product_drive_fails_without_hidden_flooring[products1] ______
+
+products = (1, -1)
+
+    @pytest.mark.parametrize("products", [(-1, 1), (1, -1), (math.nan, 1), (1, math.inf), (True, 1), ("1", 1)])
+    def test_invalid_product_drive_fails_without_hidden_flooring(products):
+        with pytest.raises(ValueError):
+>           candidate.integrate_products(lambda _: products, 0.2, 1.0)
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:40: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+products = <function test_invalid_product_drive_fails_without_hidden_flooring.<locals>.<lambda> at 0x107574d60>
+duration = 0.2, initial_gain = 1.0
+
+    def integrate_products(products, duration, initial_gain):
+>       raise NotImplementedError("Synthetic numerical contract not implemented yet")
+E       NotImplementedError: Synthetic numerical contract not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:5: NotImplementedError
+_____ test_invalid_product_drive_fails_without_hidden_flooring[products2] ______
+
+products = (nan, 1)
+
+    @pytest.mark.parametrize("products", [(-1, 1), (1, -1), (math.nan, 1), (1, math.inf), (True, 1), ("1", 1)])
+    def test_invalid_product_drive_fails_without_hidden_flooring(products):
+        with pytest.raises(ValueError):
+>           candidate.integrate_products(lambda _: products, 0.2, 1.0)
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:40: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+products = <function test_invalid_product_drive_fails_without_hidden_flooring.<locals>.<lambda> at 0x107574360>
+duration = 0.2, initial_gain = 1.0
+
+    def integrate_products(products, duration, initial_gain):
+>       raise NotImplementedError("Synthetic numerical contract not implemented yet")
+E       NotImplementedError: Synthetic numerical contract not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:5: NotImplementedError
+_____ test_invalid_product_drive_fails_without_hidden_flooring[products3] ______
+
+products = (1, inf)
+
+    @pytest.mark.parametrize("products", [(-1, 1), (1, -1), (math.nan, 1), (1, math.inf), (True, 1), ("1", 1)])
+    def test_invalid_product_drive_fails_without_hidden_flooring(products):
+        with pytest.raises(ValueError):
+>           candidate.integrate_products(lambda _: products, 0.2, 1.0)
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:40: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+products = <function test_invalid_product_drive_fails_without_hidden_flooring.<locals>.<lambda> at 0x1071022a0>
+duration = 0.2, initial_gain = 1.0
+
+    def integrate_products(products, duration, initial_gain):
+>       raise NotImplementedError("Synthetic numerical contract not implemented yet")
+E       NotImplementedError: Synthetic numerical contract not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:5: NotImplementedError
+_____ test_invalid_product_drive_fails_without_hidden_flooring[products4] ______
+
+products = (True, 1)
+
+    @pytest.mark.parametrize("products", [(-1, 1), (1, -1), (math.nan, 1), (1, math.inf), (True, 1), ("1", 1)])
+    def test_invalid_product_drive_fails_without_hidden_flooring(products):
+        with pytest.raises(ValueError):
+>           candidate.integrate_products(lambda _: products, 0.2, 1.0)
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:40: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+products = <function test_invalid_product_drive_fails_without_hidden_flooring.<locals>.<lambda> at 0x107101080>
+duration = 0.2, initial_gain = 1.0
+
+    def integrate_products(products, duration, initial_gain):
+>       raise NotImplementedError("Synthetic numerical contract not implemented yet")
+E       NotImplementedError: Synthetic numerical contract not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:5: NotImplementedError
+_____ test_invalid_product_drive_fails_without_hidden_flooring[products5] ______
+
+products = ('1', 1)
+
+    @pytest.mark.parametrize("products", [(-1, 1), (1, -1), (math.nan, 1), (1, math.inf), (True, 1), ("1", 1)])
+    def test_invalid_product_drive_fails_without_hidden_flooring(products):
+        with pytest.raises(ValueError):
+>           candidate.integrate_products(lambda _: products, 0.2, 1.0)
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:40: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+products = <function test_invalid_product_drive_fails_without_hidden_flooring.<locals>.<lambda> at 0x107574220>
+duration = 0.2, initial_gain = 1.0
+
+    def integrate_products(products, duration, initial_gain):
+>       raise NotImplementedError("Synthetic numerical contract not implemented yet")
+E       NotImplementedError: Synthetic numerical contract not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:5: NotImplementedError
+____ test_vector_states_agree_with_distinct_initial_gain_analytic_solutions ____
+
+    def test_vector_states_agree_with_distinct_initial_gain_analytic_solutions():
+        initial = np.array([0.5, 0.9, 1.2, 1.5])
+>       result = candidate.integrate_products(lambda _: (np.array([1, 2, 3, 4]), 2.0), 2.0, initial)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:45: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+products = <function test_vector_states_agree_with_distinct_initial_gain_analytic_solutions.<locals>.<lambda> at 0x1075745e0>
+duration = 2.0, initial_gain = array([0.5, 0.9, 1.2, 1.5])
+
+    def integrate_products(products, duration, initial_gain):
+>       raise NotImplementedError("Synthetic numerical contract not implemented yet")
+E       NotImplementedError: Synthetic numerical contract not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:5: NotImplementedError
+=========================== short test summary info ============================
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution[0.0-0.0-0.5]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution[0.0-0.0-0.7]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution[0.0-0.0-1.0]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution[0.0-0.0-1.3]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution[0.0-0.0-1.5]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution[2.0-0.0-0.5]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution[2.0-0.0-0.7]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution[2.0-0.0-1.0]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution[2.0-0.0-1.3]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution[2.0-0.0-1.5]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution[0.0-3.0-0.5]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution[0.0-3.0-0.7]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution[0.0-3.0-1.0]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution[0.0-3.0-1.3]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution[0.0-3.0-1.5]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution[2.0-2.0-0.5]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution[2.0-2.0-0.7]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution[2.0-2.0-1.0]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution[2.0-2.0-1.3]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution[2.0-2.0-1.5]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution[3.0-2.0-0.5]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution[3.0-2.0-0.7]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution[3.0-2.0-1.0]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution[3.0-2.0-1.3]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_continuously_changing_gain_and_separate_areas_match_constant_drive_solution[3.0-2.0-1.5]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_invalid_gain_cannot_be_clamped_or_coerced[-1]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_invalid_gain_cannot_be_clamped_or_coerced[0.499]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_invalid_gain_cannot_be_clamped_or_coerced[1.501]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_invalid_gain_cannot_be_clamped_or_coerced[nan]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_invalid_gain_cannot_be_clamped_or_coerced[inf]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_invalid_gain_cannot_be_clamped_or_coerced[True]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_invalid_gain_cannot_be_clamped_or_coerced[1]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_invalid_product_drive_fails_without_hidden_flooring[products0]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_invalid_product_drive_fails_without_hidden_flooring[products1]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_invalid_product_drive_fails_without_hidden_flooring[products2]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_invalid_product_drive_fails_without_hidden_flooring[products3]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_invalid_product_drive_fails_without_hidden_flooring[products4]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_invalid_product_drive_fails_without_hidden_flooring[products5]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_vector_states_agree_with_distinct_initial_gain_analytic_solutions
+39 failed in 0.15s

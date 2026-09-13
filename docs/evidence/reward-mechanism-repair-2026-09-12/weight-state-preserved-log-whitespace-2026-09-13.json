@@ -1,0 +1,14 @@
+{
+  "unfiltered_returncode": 2,
+  "raw_log_trailing_whitespace_findings": 226,
+  "paths": [
+    "docs/evidence/reward-mechanism-repair-2026-09-12/weight-dependent-tests-red-01.txt",
+    "docs/evidence/reward-mechanism-repair-2026-09-12/weight-dependent-tests-red-02.txt",
+    "docs/evidence/reward-mechanism-repair-2026-09-12/weight-dependent-tests-red-03.txt",
+    "docs/evidence/reward-mechanism-repair-2026-09-12/weight-dependent-tests-red-05.txt"
+  ],
+  "preserved_byte_exact": true,
+  "explanation": "These are captured original pytest failure logs. Normalizing them would break source/copy hashes; current source, tests and narrative formatting pass the separate check.",
+  "code_prose_and_other_artifacts_check": "pass",
+  "changed_scientific_or_production_bytes": false
+}

@@ -1,0 +1,651 @@
+{
+  "plan": {
+    "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-frozen-2026-09-13.json",
+    "bytes": 21059,
+    "sha256": "95f0b95f0c64642348ed56e7b87135c97b4891e42e2091abb70bdc4c88ea80c0"
+  },
+  "artifacts": [
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/attempts.jsonl",
+      "bytes": 11960,
+      "sha256": "266fa8b606436a6da2f2aa153415f9a5c5a178e9d2772f4ae9f74788e809ff14"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/completion.json",
+      "bytes": 265,
+      "sha256": "46afeb9254ed9cdd19b49c6e3b0a181875797e802e0226a50403f8cec2277bc4"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/identity.json",
+      "bytes": 21059,
+      "sha256": "95f0b95f0c64642348ed56e7b87135c97b4891e42e2091abb70bdc4c88ea80c0"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/row_00.json",
+      "bytes": 785,
+      "sha256": "f431123be49cd5f7e052b725f1e43f0c4309daf7329eeb10f02c3ed469016e32"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/row_01.json",
+      "bytes": 785,
+      "sha256": "e170af1a3d9742d976824c1a9d8c8addbbb479b493147c32b03929b51795f992"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/row_02.json",
+      "bytes": 785,
+      "sha256": "ab0b5216e7d2433a005688520acd08d1fe7915f4c385d32de0525c54c2cacd02"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/row_03.json",
+      "bytes": 784,
+      "sha256": "151546b94603a9d4248750b5f64a30eec948521304f4a62bde4bdef2c2d7df7e"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/row_04.json",
+      "bytes": 783,
+      "sha256": "271b8012be8b96ce33b440e0b0c2c6d0e35962aad35ef8e047fe2dfea1afd07f"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/row_05.json",
+      "bytes": 785,
+      "sha256": "b0346a1798d7acb6ef33b7b855e30ba43686002bfc6b18ca0913c9f744888795"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/row_06.json",
+      "bytes": 783,
+      "sha256": "13895b1d5beebabf48bee1f61d8d6bbdf97fd3eed4f4a95bc41e120a5e84e35e"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/row_07.json",
+      "bytes": 787,
+      "sha256": "2737ba80ee8b87b48e57ade1edcf7793ecd8d8e8ade4f9008652d236b56448bd"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/row_08.json",
+      "bytes": 783,
+      "sha256": "188eba25fd5beb9bb8ae5fea6868126c6c256594cf8ee43558b6ab9544de211f"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/row_09.json",
+      "bytes": 784,
+      "sha256": "54d7713f4ba5bd835c5834828b597729cfbbc2bce848bf46d40579eb0771529a"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/row_10.json",
+      "bytes": 783,
+      "sha256": "5f77a16eace0841cce8a8cd883475718735c19b775ab6ecad66069c04f7df4f3"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/row_11.json",
+      "bytes": 783,
+      "sha256": "10f0dd6e62b9eaf3fe08933c8402d66623a16d0ce10a5cc4560c3cf26e4bc0a0"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/row_12.json",
+      "bytes": 785,
+      "sha256": "cb18badcdc7930399115390bb18d628e362705376cb5159745a911084268eee2"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/row_13.json",
+      "bytes": 786,
+      "sha256": "f10a5603b93653ac9c7bf140cc8e5e9298052a6be5d33b4cc73afe36c016fafe"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/row_14.json",
+      "bytes": 785,
+      "sha256": "54b0964f62d4c586f67bf64f0058d7ff9cbf384e38866f4f95b74cca972aaaf7"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/row_15.json",
+      "bytes": 787,
+      "sha256": "b5ece968016094ea79de30a41812d6b1b74b29617393c5c9595376cae14211d6"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/row_16.json",
+      "bytes": 787,
+      "sha256": "d004380c25a5d4170f540009a49d56bf75b051bdeace76b5ccaba3b533fb4b0b"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/row_17.json",
+      "bytes": 788,
+      "sha256": "60b5fcc73399ee7cceca9b8c6d9c5351befb855e5261529aed78266991d4de77"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/row_18.json",
+      "bytes": 788,
+      "sha256": "fc3a6140550c8ce61f0a53ad67070434a38eaf478f1eec9734afd7c30761533c"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/row_19.json",
+      "bytes": 785,
+      "sha256": "57c0f9b4adddd07ecba6d8be53bbe400c719b6633c5a0c7c2539cb718d0b3cac"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/row_20.json",
+      "bytes": 787,
+      "sha256": "7c891c0571692501707d89774a63d9aa531aa9986568e843e585747feb13de1e"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/row_21.json",
+      "bytes": 785,
+      "sha256": "aecec86ea3c930b55c6f0b45e5fee02d1a38320a0e59f852dcd1e2b0ad9ae68f"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/row_22.json",
+      "bytes": 787,
+      "sha256": "8c925af8bf6f64a5ec24cb6ed6e149675f0588f263d3643452cbd988bdc7d201"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/row_23.json",
+      "bytes": 785,
+      "sha256": "a0791b11d8e558d12bff09540158de4768d02a99dccdf782dc2aea07ef2c4797"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/row_24.json",
+      "bytes": 787,
+      "sha256": "bc217177f9730bde4579f88201b193e4f6f4f3af05d5b9b1f4e1336278e43267"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/row_25.json",
+      "bytes": 786,
+      "sha256": "74c75ee4f61cbfcf36f272b55943f01473e76ffb60e975ba56fdb504ba4efc36"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/row_26.json",
+      "bytes": 790,
+      "sha256": "482d417ff01fa534d551ff8a6de16e9d7e8b9bd54c7030d1acc3603f39ba7f49"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/row_27.json",
+      "bytes": 783,
+      "sha256": "0e58554c291449f7cda4863135733fc8f8d7e7022d70765d55d4e4f12302a0d8"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/row_28.json",
+      "bytes": 785,
+      "sha256": "2aade0c7989b8080b75c46c2cddb43f20b65ff4f3b7b52988a0c9d4b0ffeb852"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/row_29.json",
+      "bytes": 785,
+      "sha256": "3fe9c91515da7b869bb121dd56197f3e8c864163f1fefd4c915ebacfc268c47f"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/row_30.json",
+      "bytes": 785,
+      "sha256": "aff1372b3a5677a7f4bcb9c9847404a7a73ba1ef31fc0f6125783039fd85e6f5"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/row_31.json",
+      "bytes": 786,
+      "sha256": "19c10d21415138ba438461ea19e042972774563ba652560c446a98f7532c122c"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_00.npz",
+      "bytes": 162743,
+      "sha256": "843899d0e9f874f9c9a12a413ef7c7c8c3ecd299502f4080422cc898b3345c84"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_01.npz",
+      "bytes": 147543,
+      "sha256": "cc28ff2d62a89e52ac25b9630851f052ef5c63e1c8fdcfab3d07c35c2dc21345"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_02.npz",
+      "bytes": 121486,
+      "sha256": "647b7426554830cf0e8de4e577517d712fc2b32917219d4ffb790da067e81650"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_03.npz",
+      "bytes": 117118,
+      "sha256": "dc24c9af3daab56701920428262cae7db00137fe4f923b271546872576166b8b"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_04.npz",
+      "bytes": 220100,
+      "sha256": "53965dd040870d41bc3b049700656a496fc76149750de06aab7d1134449d996f"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_05.npz",
+      "bytes": 228896,
+      "sha256": "30f439bd9cee398ac7a7dd67410e926f12c89bcf8ac300d1e6bb3c0796866770"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_06.npz",
+      "bytes": 99144,
+      "sha256": "9b1e969e1b2fdefca82eb280df178040e245389e698e94d1df80837121755e86"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_07.npz",
+      "bytes": 105574,
+      "sha256": "22810f87f26cc462ec9578e1c3a2a1eb364ca132b15c94e964180494335d59e6"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_08.npz",
+      "bytes": 205901,
+      "sha256": "730c38d0c0509816c2130746e31c733e650ac4d13617fff4206df19ebc173d10"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_09.npz",
+      "bytes": 184333,
+      "sha256": "b767e7401e73cdec99a225b23c40af60ddc191749b95d31f101854819e65cda1"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_10.npz",
+      "bytes": 231250,
+      "sha256": "806b72d89702715a5e5aa9f4933ec82bec9a9cbe5982c3ac62bdeb3dff8e4a32"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_11.npz",
+      "bytes": 232127,
+      "sha256": "26ccd015b83ee633ccf10a3a9168cdd5bf4aaf8de0a75b189732ad62c97fbfdb"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_12.npz",
+      "bytes": 171894,
+      "sha256": "cf8a0a02f357b8e585f649ff760774535a4cd2e0d899e09793a3b4a5e65fa053"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_13.npz",
+      "bytes": 172107,
+      "sha256": "f6d4419c04c3ad9f4d66b487e70de58791b877a1edef86c2a729c6347d8db31b"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_14.npz",
+      "bytes": 138179,
+      "sha256": "fa43f1c42d5437c5f92d415c106566cfdec19efb498e61ccb7be612217791be4"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_15.npz",
+      "bytes": 154755,
+      "sha256": "81b023116bcb2c475e12743af746cc4ab0601a641d2755095f5ca702edc09d02"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_16.npz",
+      "bytes": 166218,
+      "sha256": "8c470f55b8b43328c3091a67a75907f732070d0bfa9efdd53a9f521efa0367df"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_17.npz",
+      "bytes": 168663,
+      "sha256": "a01250a77c315c534ab286b39adff8fd062cd3c0e4015c2d0454f6ed96078cda"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_18.npz",
+      "bytes": 193453,
+      "sha256": "9fe3059316991253ceb9853dff39fefea539b0f8d9dcc86bdb0e1b30ed070e2c"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_19.npz",
+      "bytes": 203560,
+      "sha256": "48cb913a0cd603b317f8543a67c8deb5a579f23f557be69442f3f712cec3439c"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_20.npz",
+      "bytes": 141750,
+      "sha256": "dbe82975721d8e1f71872c7c3cd1166ab7f19f8cfcdbf5db928dc21e20ec85b2"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_21.npz",
+      "bytes": 149167,
+      "sha256": "34561c7cfddf8d21a0b3a04e325a5739f1646934f2d91e9ee78a83c63d5e92c6"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_22.npz",
+      "bytes": 150568,
+      "sha256": "fe31ba020dd14b607d6737111e2e70e3477ab1782c6433ff571b4fee680081c5"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_23.npz",
+      "bytes": 140627,
+      "sha256": "522b0821457327939bc9bf30398e620c8c9a8979c149526a24198ecbeaf434f4"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_24.npz",
+      "bytes": 155644,
+      "sha256": "ca7806a52702eefb000dd7417d4b36c536ad21d8402cd88f5c9b12ce5b25eea5"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_25.npz",
+      "bytes": 147314,
+      "sha256": "5928720813e1a75ac5c9fd33a6001eb609f539a905564008af36bf4a3b22b16e"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_26.npz",
+      "bytes": 178540,
+      "sha256": "62ce136379697f45d1e308b6b69a8f95977f82005228ae36473565b0051331ef"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_27.npz",
+      "bytes": 147995,
+      "sha256": "b04549a0beee59f5ece9ee46b2ccf8c7202b66a6f19ef3cfd40cafb907870d2b"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_28.npz",
+      "bytes": 302320,
+      "sha256": "e46ee064d20c44aeebb7346d74a73a3603e7ddecbf84e33c6b927042318cddcd"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_29.npz",
+      "bytes": 264857,
+      "sha256": "f33613d832e36af2c040dc049440402ffdd446664a4d37bb3e3f920af53a5c67"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_30.npz",
+      "bytes": 169759,
+      "sha256": "2ec26f550ef4bf25759516bc9c08d2cf22c07cd6edd25ec7cfc2a24ccd6d2576"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_31.npz",
+      "bytes": 154423,
+      "sha256": "d06153e11e14aa4757254a5e242407f9a17910924085126a9e067f885603ad70"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/summary.json",
+      "bytes": 25074,
+      "sha256": "75f3b09006837980743006680817b445cc591f92fafc840cad7cc58756cc0037"
+    }
+  ],
+  "source_bindings": [
+    {
+      "path": "output/collaboration/reward-mechanism-repair/run_weight_state_shadow.py",
+      "bytes": 21831,
+      "sha256": "6e403b91f2fcdbe7578d744f5be5c7fa1d66700a37cff44697e239bb86b01ecd"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/test_run_weight_state_shadow.py",
+      "bytes": 13602,
+      "sha256": "d8b8fb681c324354e24035ab47a2ebdcac905d7248fde9151abe5724f5d80da1"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py",
+      "bytes": 12971,
+      "sha256": "170ccf5c1bd533cd58f38e32d6b2f8034171db507a8ec156a33647532a2b184d"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py",
+      "bytes": 15422,
+      "sha256": "5e79720858e2768d234a8d36edc6c6cb8f18f353365833b697d7a7f560203766"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight_state_reference.py",
+      "bytes": 8576,
+      "sha256": "000015fc0435c10df970ca81c1836b5b039fb1bc2f67851d9046af595fa34034"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/test_weight_state_reference.py",
+      "bytes": 9032,
+      "sha256": "07b3fa140e670393dd7e758c66af4347f37e553aab5c7b5c298b3b3dea79a05d"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight_state_guard_reference.py",
+      "bytes": 7515,
+      "sha256": "1257fb71083151aabd6726430d62102347cf5cac131c8e99edcfbae3786283f4"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/test_weight_state_guard_reference.py",
+      "bytes": 7986,
+      "sha256": "ee643af0a715e807432ed4f87de95c6172a10a2806511715400a4a7f45cea325"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/test_weight_state_helper_independent.py",
+      "bytes": 3794,
+      "sha256": "409a351d0f0020e75bd05a07bbb81a19e2f6978f4840002d2369f41babd3b843"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/test_weight_state_independent_review.py",
+      "bytes": 5872,
+      "sha256": "99275ebabaa60b6290d7537b8a20045d1cf6e16d174718123fbfda1c6de724ab"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-preregistration-2026-09-13.md",
+      "bytes": 9336,
+      "sha256": "7cc902cfaee01a40bd69828953016c9a4ca6ea3cd64a0a9a3e0c6516dd669b10"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-reference-contract-2026-09-13.md",
+      "bytes": 6784,
+      "sha256": "d40251beae7b1e880f6e6e8ad0e1067f735eacfcec7e07ecfe6a2e372179b713"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-exact-guard-contract-2026-09-13.md",
+      "bytes": 6586,
+      "sha256": "658d1ecd6773ee93a3ca8cd2f976aea00492a73a5a16252a07840a0a9fec2c85"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-dependent-helper-preparation-2026-09-13.md",
+      "bytes": 8686,
+      "sha256": "07edf9abfc7fa8338aa809ab9ca202c7104c462cd671eca2e117511ba04041a5"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-prerun-review-2026-09-13.json",
+      "bytes": 5773,
+      "sha256": "52164d923f63d04b5b034d61d1fd5181535b8958080896d163788b902d16a956"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-helper-independent-review-final-2026-09-13.json",
+      "bytes": 4743,
+      "sha256": "731777c47faa51088fe22337f1d7006218269c2cc5a07030a8358fcfecb8affc"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-exact-guard-reading-and-freeze-receipt-2026-09-13.json",
+      "bytes": 5188,
+      "sha256": "d1ec7ac3f0a6406ea544b225b2d0c5a0c83219dbebd0045d78d8b8cd7b98d306"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-dependent-helper-reading-and-freeze-receipt-2026-09-13.json",
+      "bytes": 52387,
+      "sha256": "b44569db45df5991f75b46f3aae172a12c9a93404e49846ed396a1cf9a3ed368"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-evidence-ui-pure-review-2026-09-13.json",
+      "bytes": 46771,
+      "sha256": "1e7cd7fbf9f7dcd5ad258e2375c31c628a9aa9d5991d8c6da4d1f3e9dac6ecae"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/audit_weight_state_shadow.py",
+      "bytes": 32611,
+      "sha256": "e2f1f59d80e6ef55bb5149d836cca9fbcc1e3e6f9227bcc3775516fc559f3383"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/test_audit_weight_state_shadow.py",
+      "bytes": 16918,
+      "sha256": "418bb7d085b8761296d3759484ae61860b9eac509b488eefe4664143bad00991"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/dopamine-weight-state-decision-2026-09-13.md",
+      "bytes": 12399,
+      "sha256": "04bde338649936357cafd4858ed216c1e4d00d5856f11e0a9029850b086e22c7"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/onset-capture-preregistration.json",
+      "bytes": 14517,
+      "sha256": "9aeea0c9227bf9ad4326277c39eb47966d5ab95ba6870bb3720f0d9b278788fc"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/onset-capture-preregistration.samples.npz",
+      "bytes": 214204,
+      "sha256": "5f2414ffe5cab3d99cc1c1f0e91071df1f48721a7709816e90360af8b41074b3"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/summary.json",
+      "bytes": 650399,
+      "sha256": "244b4dcc1aa40b8c0c7be068bf7e66f8e369921f1005dd474ca37f9460dabb1b"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/capture-receipt.json",
+      "bytes": 14517,
+      "sha256": "9aeea0c9227bf9ad4326277c39eb47966d5ab95ba6870bb3720f0d9b278788fc"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_00.npz",
+      "bytes": 304208,
+      "sha256": "4a438a1d4a9f3f04006ff540a61710ae494609516af5ad4fd60a7b7c5495439c"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_01.npz",
+      "bytes": 261004,
+      "sha256": "7b240f79326ce2eae6f39bd915b79f87620010a42819e0456ddfe93b8f13c9d0"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_02.npz",
+      "bytes": 246748,
+      "sha256": "5a52ef4192a5c3451c87b5a4e68d71634ed364f91f51791e58bf1981ca7e53bd"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_03.npz",
+      "bytes": 253126,
+      "sha256": "9f5bd6d632bfba279c0d8d0544b128ce5a88f8d706e6d7873b6f3eb3ae21079c"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_04.npz",
+      "bytes": 293592,
+      "sha256": "ac307e48234934babd39c0a6455cb072a521d6732873cf0e5163111cc8fe43dc"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_05.npz",
+      "bytes": 288644,
+      "sha256": "076ed8ef037a4a8ac17c9234d93cbebe3b19f14d4a34aee353e18b501c20c48c"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_06.npz",
+      "bytes": 250474,
+      "sha256": "bf1ecf62af1de626bcac4f358a665b2cf4b8f36fe3af0cb57760d91a0b5347e0"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_07.npz",
+      "bytes": 250524,
+      "sha256": "32fd4c05763c3080baad1ca0055e8b75335bb26e97115f04c6347bcb49582a1b"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_08.npz",
+      "bytes": 278486,
+      "sha256": "9f53e482a23d2f6aa14ebbc510aeb3e41f833a24491b4fe60f4284303c11bb6c"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_09.npz",
+      "bytes": 268165,
+      "sha256": "05dc4b454c6b4ef233452769ff96d3d03ed79596c90b09f847b3c31c39c30de2"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_10.npz",
+      "bytes": 297885,
+      "sha256": "b32ce1bef5e7b70375a6bd74d62034ebaf2f9aa4c797f0062350092950b960df"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_11.npz",
+      "bytes": 323946,
+      "sha256": "07ac0e2d1d2c34d00de827a5b96a024679642d06e442296b77fd1b8303a207e0"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_12.npz",
+      "bytes": 258583,
+      "sha256": "912a3e7580e7f7b08e3daaa16deaa0a18e4640587f592f0d62315e9596b766b4"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_13.npz",
+      "bytes": 265942,
+      "sha256": "9e83d9c5b2e7ee323e216fa8f15e363f046f50a8818131fd0e3429f1ba7da84a"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_14.npz",
+      "bytes": 246273,
+      "sha256": "1f362a2786326b960809c0a6abeeba3824851b63e5dfe41bce22eb936ae58935"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_15.npz",
+      "bytes": 259666,
+      "sha256": "a40c7d22af553478d802691e0bb390713e0625ab3d40ca9379139893b9dd1a99"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_16.npz",
+      "bytes": 259158,
+      "sha256": "00408ac82dd08534809801425ef9be3869b732d7dcacbe440cc9548fd29b6b05"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_17.npz",
+      "bytes": 264010,
+      "sha256": "47afab8b93f0ed827546d0b7fe624ae0d7a383576d14734dfe77321489263f5d"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_18.npz",
+      "bytes": 287419,
+      "sha256": "872d849d813cf56649044329aed3aa527b323e6cba63d7be30c9ce39b554cacc"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_19.npz",
+      "bytes": 274964,
+      "sha256": "fec4a8b1d82e2b4668438a9c7fe010cc06575eb416fe061b3f04074ab7023337"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_20.npz",
+      "bytes": 241766,
+      "sha256": "d2a5e5f42be0ba28342afc4e5b3f5fbf338893e09018577d414aad02b06f8f81"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_21.npz",
+      "bytes": 241190,
+      "sha256": "43c6dca974fb8b04673f992abc4c6a2e50ed9d9697637f408d00798b7f8c4433"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_22.npz",
+      "bytes": 273136,
+      "sha256": "07e21bed4584c9c6fab689c488bceeef1561f93df6b2d71d866d4ce72e47b6d8"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_23.npz",
+      "bytes": 263986,
+      "sha256": "bc9b5c3466e0a9a73599dbfd4276c1ff1d0b0703e007be6c5afa317ce6341fc9"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_24.npz",
+      "bytes": 318898,
+      "sha256": "d311d3a997ac06302cb1471817d2828f56d1a9824cc565a5d0f6390925cda876"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_25.npz",
+      "bytes": 276663,
+      "sha256": "bcdf73a09d7a638d1d13ad4421dd1547daa888fde3003b360a068f4aa54c44ef"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_26.npz",
+      "bytes": 284242,
+      "sha256": "4bfd5cfd1dea0fff8a72743b4af592f758afc9753b0bda2c1405cb04f1f48538"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_27.npz",
+      "bytes": 278629,
+      "sha256": "43f6d5d956ec9c93f075a81163825129829be8a02ce9c41a579de7096a1c52cf"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_28.npz",
+      "bytes": 309040,
+      "sha256": "b018679072496893290fb66ed610a3dcb04eb7252f5b2e2b5c073b9357f7e344"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_29.npz",
+      "bytes": 288384,
+      "sha256": "4fd3f67362ed8feca0dd2da2f53b882aaefdb8880b4b6962aa08a8702b9df6da"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_30.npz",
+      "bytes": 265261,
+      "sha256": "baf87916b22976fd62bfa5e5d576288c390ea102a32a31ba8a5cc19aa342b6f2"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_31.npz",
+      "bytes": 264598,
+      "sha256": "66799429f280fe90da61c7ecd5cb47544793d61ffc2dd109af0a362040257157"
+    },
+    {
+      "path": "bet36fly/reward_lif.cpp",
+      "bytes": 19913,
+      "sha256": "e7dbb0aa8f95873036415581e94de45c237941f05642ccc90812c1be1119be37"
+    },
+    {
+      "path": "docs/connectome-source-lock.json",
+      "bytes": 866,
+      "sha256": "df59963b365e4b70450a0ec3861bb845420d660a142cc2c43ad958a9f7767567"
+    }
+  ]
+}

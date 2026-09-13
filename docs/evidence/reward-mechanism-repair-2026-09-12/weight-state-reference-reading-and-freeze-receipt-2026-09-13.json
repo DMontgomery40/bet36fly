@@ -1,0 +1,152 @@
+{
+  "agent": "dopamine_sources",
+  "checked_at_utc": "2026-09-13T07:18:15.740079+00:00",
+  "status": "PASS independent synthetic-only numerical reference preparation",
+  "frozen_files": [
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight_state_reference.py",
+      "bytes": 8576,
+      "sha256": "000015fc0435c10df970ca81c1836b5b039fb1bc2f67851d9046af595fa34034"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/test_weight_state_reference.py",
+      "bytes": 9032,
+      "sha256": "07b3fa140e670393dd7e758c66af4347f37e553aab5c7b5c298b3b3dea79a05d"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-reference-contract-2026-09-13.md",
+      "bytes": 6784,
+      "sha256": "d40251beae7b1e880f6e6e8ad0e1067f735eacfcec7e07ecfe6a2e372179b713"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-reference-fixtures-2026-09-13.json",
+      "bytes": 6077,
+      "sha256": "e4b1e1a91df21936c9f20f6049cd0855d52bfda605b3d63b895b02da973e696b"
+    }
+  ],
+  "reference_scope": "Scalar continuous gain and weighted P/N products. No dataset loading, simulator/native imports, network, selected-cell mapping, mask wrapper, per-step publication counter, candidate runner or real-history evaluation.",
+  "equations": {
+    "law": "g prime = eta*(P*(1.5-g)/.5-N*(g-.5)/.5), P=.96*ED*RK, N=.96*EK*RD nonnegative",
+    "eta": 0.0005,
+    "rate_tau_ms": 100,
+    "eligibility_tau_ms": 500,
+    "gain_bounds": [
+      0.5,
+      1.5
+    ],
+    "constants_selected_from_outcomes": false
+  },
+  "independent_methods": [
+    "Direct event impulse superposition, stable eligibility construction and DOP853 of gain plus separate signed weighted areas; finite full-tail coordinate z=1-exp(-elapsed/500), no tail duration cutoff.",
+    "70-digit event-boundary coefficient reconstruction and integrating-factor quadrature, with z=exp(-lambda*h) for finite intervals or zero for the infinite tail; only input validation shared with ODE path."
+  ],
+  "frozen_comparison_allowances": {
+    "absolute_gain": 1e-11,
+    "absolute_each_eta_scaled_weighted_area": 2e-11,
+    "ode_rtol": 1e-13,
+    "ode_atol": 2e-15,
+    "finite_interval_max_step_ms": 0.5,
+    "finite_interval_max_step_also_limited_to_interval_over": 8,
+    "transformed_tail_max_step": 0.02,
+    "formal_interval_arithmetic_proof": false,
+    "exact_f32_midpoint_equivalence_claimed": false
+  },
+  "verification": {
+    "pytest_command": ".venv/bin/python -m pytest -q output/collaboration/reward-mechanism-repair/test_weight_state_reference.py",
+    "final_passed": 109,
+    "final_elapsed_seconds": 6.65,
+    "ruff": "All checks passed on reference and tests",
+    "red_phase": [
+      "Initial missing implementation produced a recorded setup error, then unimplemented API produced the expected test failure.",
+      "New ambiguous full-tail mode test failed before explicit boolean validation was implemented."
+    ],
+    "fixture_cases": 6,
+    "maximum_fixture_gain_method_difference": 1.1102230246251565e-15,
+    "maximum_fixture_accounting_residual": 1.1055067451748446e-15,
+    "full_repository_gate": "Not run by this output-only agent under the no-native preparation scope; root owns production/full repository verification."
+  },
+  "generalized_coverage": [
+    "constant positive/negative/balanced/zero drives",
+    "both bounds and interior initial gains",
+    "substantial saturation and exponential pure-branch exposure",
+    "same-time events with known nonzero opposing weighted areas",
+    "signed lags, mirrored initial states and retained isolated-pair polarity",
+    "repeated weighted histories and full-tail partition invariance",
+    "arbitrary finite interval splitting",
+    "electrical endpoint impulse semantics and optional finite mode",
+    "silence/one-input exact preservation and duplicate impulse mass",
+    "malformed event times/masses/endpoints/initial gains/products/intervals/tail mode"
+  ],
+  "reading": {
+    "prior_full_chain": {
+      "path": "output/collaboration/reward-mechanism-repair/dopamine-weight-state-reading-receipt-2026-09-13.json",
+      "bytes": 9162,
+      "sha256": "184823b05943497108a68e81a28590a6a7d2e3d4a41caa3ca50a5a8939b5ac3d"
+    },
+    "AGENTS_personally_reread": {
+      "path": "AGENTS.md",
+      "bytes": 5871,
+      "sha256": "187a8eb35173b1778f9a56bacbe6a0ae551b69aeb126e57bdd27abadab766de8"
+    },
+    "narrative_paths_reconciled": 157,
+    "new_narratives_personally_read_in_full": [
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/partners-metadata-independent-review-2026-09-13.md",
+        "bytes": 7888,
+        "sha256": "a335bf5ea204b5c1e00b2e2b8a7a11b8f6bec4b51e5f1b745256bc7ca06cd69c"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/partners-metadata-independent-v2-review-2026-09-13.md",
+        "bytes": 4486,
+        "sha256": "6e167407a8ac2e186e55f2c046305318695b4e213ddf3e87aaf5c1d47a772bba"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/partners-metadata-preparation-2026-09-13.md",
+        "bytes": 8560,
+        "sha256": "23d54cc86d24484580cecf09e0ae9d593e698f410ad605adcc84b6234191f2bb"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/partners-metadata-v1-result-2026-09-13.md",
+        "bytes": 2732,
+        "sha256": "bf3434cbbe8c644a0108776328065ce95683b2607f3f6f2b9e3eb3e9bd3b8be0"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/partners-metadata-v2-preparation-2026-09-13.md",
+        "bytes": 2980,
+        "sha256": "989f97a26f431c3b4582f8c3908b9a6c06071433a7e90c20154487fc1fa6cbb5"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/partners-metadata-v2-source-contract-2026-09-13.md",
+        "bytes": 2227,
+        "sha256": "84ae3be7689af573e48b6b2d6c52ab7d1eb7772dc048aefad1f05db67d8a4480"
+      }
+    ],
+    "exact_copy_deduplication": {
+      "original": {
+        "path": "output/collaboration/reward-mechanism-repair/dopamine-weight-state-decision-2026-09-13.md",
+        "bytes": 12399,
+        "sha256": "04bde338649936357cafd4858ed216c1e4d00d5856f11e0a9029850b086e22c7"
+      },
+      "copy": {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/dopamine-weight-state-decision-2026-09-13.md",
+        "bytes": 12399,
+        "sha256": "04bde338649936357cafd4858ed216c1e4d00d5856f11e0a9029850b086e22c7"
+      }
+    },
+    "unread_narrative_deltas": [],
+    "reading_note": "One first cat invocation had a mistyped date directory for v2 preparation; the correct full file was subsequently read."
+  },
+  "environment": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "mpmath": "1.3.0"
+  },
+  "collaboration": "Interface and exact allowances sent to delivered_arrivals, the separate efficient-helper writer. Oracle does not import that helper.",
+  "new_network_requests": 0,
+  "saved_history_evaluations": 0,
+  "actual_candidate_shadows": 0,
+  "native_or_circuit_calls": 0,
+  "production_edits": 0,
+  "earlier_frozen_sources_or_reports_modified": false,
+  "scientific_claim": "Numerical preparation only. Biological calibration, an efficient implementation comparison, qualification and learning remain unestablished."
+}

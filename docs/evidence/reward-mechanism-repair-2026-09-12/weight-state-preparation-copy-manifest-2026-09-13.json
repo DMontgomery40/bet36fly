@@ -1,0 +1,283 @@
+{
+  "files": [
+    {
+      "source": "output/collaboration/reward-mechanism-repair/run_weight_state_shadow.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/run_weight_state_shadow.py",
+      "bytes": 21831,
+      "sha256": "6e403b91f2fcdbe7578d744f5be5c7fa1d66700a37cff44697e239bb86b01ecd"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/test_run_weight_state_shadow.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/test_run_weight_state_shadow.py",
+      "bytes": 13602,
+      "sha256": "d8b8fb681c324354e24035ab47a2ebdcac905d7248fde9151abe5724f5d80da1"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/test_weight_dependent_shadow.py",
+      "bytes": 15422,
+      "sha256": "5e79720858e2768d234a8d36edc6c6cb8f18f353365833b697d7a7f560203766"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/test_weight_state_guard_reference.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/test_weight_state_guard_reference.py",
+      "bytes": 7986,
+      "sha256": "ee643af0a715e807432ed4f87de95c6172a10a2806511715400a4a7f45cea325"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/test_weight_state_helper_independent.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/test_weight_state_helper_independent.py",
+      "bytes": 3794,
+      "sha256": "409a351d0f0020e75bd05a07bbb81a19e2f6978f4840002d2369f41babd3b843"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/test_weight_state_independent_review.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/test_weight_state_independent_review.py",
+      "bytes": 5872,
+      "sha256": "99275ebabaa60b6290d7537b8a20045d1cf6e16d174718123fbfda1c6de724ab"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/test_weight_state_reference.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/test_weight_state_reference.py",
+      "bytes": 9032,
+      "sha256": "07b3fa140e670393dd7e758c66af4347f37e553aab5c7b5c298b3b3dea79a05d"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-dependent-helper-preparation-2026-09-13.md",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-dependent-helper-preparation-2026-09-13.md",
+      "bytes": 8686,
+      "sha256": "07edf9abfc7fa8338aa809ab9ca202c7104c462cd671eca2e117511ba04041a5"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-dependent-helper-reading-and-freeze-receipt-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-dependent-helper-reading-and-freeze-receipt-2026-09-13.json",
+      "bytes": 52387,
+      "sha256": "b44569db45df5991f75b46f3aae172a12c9a93404e49846ed396a1cf9a3ed368"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-dependent-helper-reviewed-fe8fa0d9.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-dependent-helper-reviewed-fe8fa0d9.py",
+      "bytes": 12725,
+      "sha256": "fe8fa0d9e782870fbcdc17b3f449b03b8414764d3fc67888866dc82f633d7be5"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-dependent-helper-tests-01.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-dependent-helper-tests-01.txt",
+      "bytes": 180,
+      "sha256": "63c724ae66d98651bd4c91b27463a33df4e813ac09341717ce10b5524de4fc5a"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-dependent-helper-tests-final-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-dependent-helper-tests-final-2026-09-13.txt",
+      "bytes": 180,
+      "sha256": "00fed318360c32aa37e8a12cfe30788dc5de2ae4710d3d34325bbdbadff83bed"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-dependent-helper-tests-final-v2-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-dependent-helper-tests-final-v2-2026-09-13.txt",
+      "bytes": 340,
+      "sha256": "4c13d3cb81bb3c809efb8d03d8f8933006025b7df16dff25f50cb74ef91177af"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-dependent-helper-tests-release-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-dependent-helper-tests-release-2026-09-13.txt",
+      "bytes": 180,
+      "sha256": "4671e044aaf4c4e4f091dd6465dac19b5eac97b8bc3ad420e7084193bafaaae3"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-dependent-synthetic-benchmark-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-dependent-synthetic-benchmark-2026-09-13.json",
+      "bytes": 1497,
+      "sha256": "86ffa2538b406957d7d7f07eedc426166401301572c1a0eeae739375f849c640"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-dependent-synthetic-benchmark-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-dependent-synthetic-benchmark-2026-09-13.txt",
+      "bytes": 1497,
+      "sha256": "86ffa2538b406957d7d7f07eedc426166401301572c1a0eeae739375f849c640"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-dependent-tests-red-01.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-dependent-tests-red-01.txt",
+      "bytes": 52353,
+      "sha256": "0cb83306168641e7b51171c06804d6ff11eb91c62fa9e9889c3e38469782e431"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-dependent-tests-red-02.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-dependent-tests-red-02.txt",
+      "bytes": 64183,
+      "sha256": "b8c28a863a3ad1bd41db5c27d241bf41ac29b133b2332837118945b52c3606b4"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-dependent-tests-red-03.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-dependent-tests-red-03.txt",
+      "bytes": 29394,
+      "sha256": "b3b86829ebf0b220c777982d7de02a506e28c756480ee915574a3d24851bf5e3"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-dependent-tests-red-04.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-dependent-tests-red-04.txt",
+      "bytes": 113,
+      "sha256": "445b282efed576eb658ddaac903050afae5f7a3863a59d8fe6693631b3152575"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-dependent-tests-red-05.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-dependent-tests-red-05.txt",
+      "bytes": 9296,
+      "sha256": "e8f59c52b64fce51f86d4d4e3b21077f4ac3873c6589370998886c738422e1b0"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-dependent-tests-red-06.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-dependent-tests-red-06.txt",
+      "bytes": 5803,
+      "sha256": "1161b1bd22c349319733d4bd41db74bf38cf5d9370301d6acc544a44b63adc14"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-evidence-ui-final-reading-review-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-evidence-ui-final-reading-review-2026-09-13.json",
+      "bytes": 46439,
+      "sha256": "94bdf8fa96d7248342854b8c8958162d9561b784b920e15bc558081c656c57df"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-evidence-ui-pure-review-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-evidence-ui-pure-review-2026-09-13.json",
+      "bytes": 46771,
+      "sha256": "1e7cd7fbf9f7dcd5ad258e2375c31c628a9aa9d5991d8c6da4d1f3e9dac6ecae"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-evidence-ui-review-2026-09-13.md",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-evidence-ui-review-2026-09-13.md",
+      "bytes": 3327,
+      "sha256": "a924cb1ad0ce3934a1df0581d90de33b3df85eb6eb5d6a3d543dd30aea4d8218"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-exact-guard-contract-2026-09-13.md",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-exact-guard-contract-2026-09-13.md",
+      "bytes": 6586,
+      "sha256": "658d1ecd6773ee93a3ca8cd2f976aea00492a73a5a16252a07840a0a9fec2c85"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-exact-guard-reading-and-freeze-receipt-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-exact-guard-reading-and-freeze-receipt-2026-09-13.json",
+      "bytes": 5188,
+      "sha256": "d1ec7ac3f0a6406ea544b225b2d0c5a0c83219dbebd0045d78d8b8cd7b98d306"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-helper-independent-review-final-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-helper-independent-review-final-2026-09-13.json",
+      "bytes": 4743,
+      "sha256": "731777c47faa51088fe22337f1d7006218269c2cc5a07030a8358fcfecb8affc"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-helper-independent-review-initial-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-helper-independent-review-initial-2026-09-13.json",
+      "bytes": 2151,
+      "sha256": "ecc5e5ae31f236c03ad3b7e4af27f37a989ccecc74788f53d9ca138dae21a0b6"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-independent-pure-release-tests-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-independent-pure-release-tests-2026-09-13.txt",
+      "bytes": 595,
+      "sha256": "a72fffaced367926e0f2de70496254108b0606e6bc5358598faf60b170163e71"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-independent-review-tests-v1.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-independent-review-tests-v1.txt",
+      "bytes": 9166,
+      "sha256": "97a48d93be674d1ad49a3d0eecd9b481b882a2672a39702f0ef03d2f463f8a1a"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-independent-review-tests-v2.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-independent-review-tests-v2.txt",
+      "bytes": 99,
+      "sha256": "8f5e74ee2bc9a663e3f55d6b5702a31bf48310b3223daf377333a701519c641c"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-independent-runner-final-tests-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-independent-runner-final-tests-2026-09-13.txt",
+      "bytes": 181,
+      "sha256": "ea1c2bdb81fad78c6142a89d1c1f31af37507ee48511f106190694a93cfbd394"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-independent-runner-review-tests-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-independent-runner-review-tests-2026-09-13.txt",
+      "bytes": 181,
+      "sha256": "cb849b3f8de4f29021a20b35ea5ce1eb3b71a661c275c4dc042c8b48ac9bd879"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-protected-before-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-protected-before-2026-09-13.json",
+      "bytes": 241670,
+      "sha256": "d9e4138924451490dabe75042991dcac1a698989b4711e25a93df9093f696d1a"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-reference-contract-2026-09-13.md",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-reference-contract-2026-09-13.md",
+      "bytes": 6784,
+      "sha256": "d40251beae7b1e880f6e6e8ad0e1067f735eacfcec7e07ecfe6a2e372179b713"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-reference-fixtures-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-reference-fixtures-2026-09-13.json",
+      "bytes": 6077,
+      "sha256": "e4b1e1a91df21936c9f20f6049cd0855d52bfda605b3d63b895b02da973e696b"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-reference-reading-and-freeze-receipt-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-reference-reading-and-freeze-receipt-2026-09-13.json",
+      "bytes": 7297,
+      "sha256": "6b8608563c9b0d299f1430eb3d794b28561ee63bea31957ee78057d3300868e8"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-root-prerun-tests-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-root-prerun-tests-2026-09-13.txt",
+      "bytes": 661,
+      "sha256": "82a00cc93141e4cfa484a1e5cb32ab7e5c30dc297c1d65b012117a6e4fbff19f"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-runner-tests-02.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-runner-tests-02.txt",
+      "bytes": 100,
+      "sha256": "a3ba5f5bf52842722c6be6f1670dd91fbb367a24b096594eab699c5383d18285"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-runner-tests-03.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-runner-tests-03.txt",
+      "bytes": 181,
+      "sha256": "dee76ca3958790a1340af85cff4d80a21a9a0b3b795d9f13ce581bc96337ee70"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-preregistration-2026-09-13.md",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-preregistration-2026-09-13.md",
+      "bytes": 9336,
+      "sha256": "7cc902cfaee01a40bd69828953016c9a4ca6ea3cd64a0a9a3e0c6516dd669b10"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight_dependent_shadow.py",
+      "bytes": 12971,
+      "sha256": "170ccf5c1bd533cd58f38e32d6b2f8034171db507a8ec156a33647532a2b184d"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight_dependent_synthetic_benchmark.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight_dependent_synthetic_benchmark.py",
+      "bytes": 3557,
+      "sha256": "099d5f1b52e520ffa6956f589c9cb1d580744cb6738681eb2bcee13fcb4d9b62"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight_state_guard_reference.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight_state_guard_reference.py",
+      "bytes": 7515,
+      "sha256": "1257fb71083151aabd6726430d62102347cf5cac131c8e99edcfbae3786283f4"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight_state_reference.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight_state_reference.py",
+      "bytes": 8576,
+      "sha256": "000015fc0435c10df970ca81c1836b5b039fb1bc2f67851d9046af595fa34034"
+    }
+  ],
+  "file_count": 46,
+  "bytes": 746505,
+  "originals_preserved": true
+}

@@ -1,0 +1,193 @@
+......................................FFFFFFF                            [100%]
+=================================== FAILURES ===================================
+_____ test_ordered_full_selector_identity_cannot_be_relabelled[duplicate] ______
+
+mutation = 'duplicate'
+
+    @pytest.mark.parametrize("mutation", ["duplicate", "wrong_game", "wrong_seed", "wrong_run", "float_seed", "bool_panel", "permutation"])
+    def test_ordered_full_selector_identity_cannot_be_relabelled(mutation):
+        rows = canonical_rows()
+        if mutation == "duplicate":
+            rows[2] = rows[0].copy()
+        elif mutation == "wrong_game":
+            rows[0]["game"] += 1
+        elif mutation == "wrong_seed":
+            rows[0]["seed"] += 1
+        elif mutation == "wrong_run":
+            rows[0]["run_id"] = rows[16]["run_id"]
+        elif mutation == "float_seed":
+            rows[0]["seed"] = float(rows[0]["seed"])
+        elif mutation == "bool_panel":
+            rows[0]["panel"] = False
+        else:
+            rows[0], rows[2] = rows[2], rows[0]
+>       with pytest.raises(ValueError):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE ValueError
+
+output/collaboration/reward-mechanism-repair/test_weight_state_independent_review.py:125: Failed
+_____ test_ordered_full_selector_identity_cannot_be_relabelled[wrong_game] _____
+
+mutation = 'wrong_game'
+
+    @pytest.mark.parametrize("mutation", ["duplicate", "wrong_game", "wrong_seed", "wrong_run", "float_seed", "bool_panel", "permutation"])
+    def test_ordered_full_selector_identity_cannot_be_relabelled(mutation):
+        rows = canonical_rows()
+        if mutation == "duplicate":
+            rows[2] = rows[0].copy()
+        elif mutation == "wrong_game":
+            rows[0]["game"] += 1
+        elif mutation == "wrong_seed":
+            rows[0]["seed"] += 1
+        elif mutation == "wrong_run":
+            rows[0]["run_id"] = rows[16]["run_id"]
+        elif mutation == "float_seed":
+            rows[0]["seed"] = float(rows[0]["seed"])
+        elif mutation == "bool_panel":
+            rows[0]["panel"] = False
+        else:
+            rows[0], rows[2] = rows[2], rows[0]
+>       with pytest.raises(ValueError):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE ValueError
+
+output/collaboration/reward-mechanism-repair/test_weight_state_independent_review.py:125: Failed
+_____ test_ordered_full_selector_identity_cannot_be_relabelled[wrong_seed] _____
+
+mutation = 'wrong_seed'
+
+    @pytest.mark.parametrize("mutation", ["duplicate", "wrong_game", "wrong_seed", "wrong_run", "float_seed", "bool_panel", "permutation"])
+    def test_ordered_full_selector_identity_cannot_be_relabelled(mutation):
+        rows = canonical_rows()
+        if mutation == "duplicate":
+            rows[2] = rows[0].copy()
+        elif mutation == "wrong_game":
+            rows[0]["game"] += 1
+        elif mutation == "wrong_seed":
+            rows[0]["seed"] += 1
+        elif mutation == "wrong_run":
+            rows[0]["run_id"] = rows[16]["run_id"]
+        elif mutation == "float_seed":
+            rows[0]["seed"] = float(rows[0]["seed"])
+        elif mutation == "bool_panel":
+            rows[0]["panel"] = False
+        else:
+            rows[0], rows[2] = rows[2], rows[0]
+>       with pytest.raises(ValueError):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE ValueError
+
+output/collaboration/reward-mechanism-repair/test_weight_state_independent_review.py:125: Failed
+_____ test_ordered_full_selector_identity_cannot_be_relabelled[wrong_run] ______
+
+mutation = 'wrong_run'
+
+    @pytest.mark.parametrize("mutation", ["duplicate", "wrong_game", "wrong_seed", "wrong_run", "float_seed", "bool_panel", "permutation"])
+    def test_ordered_full_selector_identity_cannot_be_relabelled(mutation):
+        rows = canonical_rows()
+        if mutation == "duplicate":
+            rows[2] = rows[0].copy()
+        elif mutation == "wrong_game":
+            rows[0]["game"] += 1
+        elif mutation == "wrong_seed":
+            rows[0]["seed"] += 1
+        elif mutation == "wrong_run":
+            rows[0]["run_id"] = rows[16]["run_id"]
+        elif mutation == "float_seed":
+            rows[0]["seed"] = float(rows[0]["seed"])
+        elif mutation == "bool_panel":
+            rows[0]["panel"] = False
+        else:
+            rows[0], rows[2] = rows[2], rows[0]
+>       with pytest.raises(ValueError):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE ValueError
+
+output/collaboration/reward-mechanism-repair/test_weight_state_independent_review.py:125: Failed
+_____ test_ordered_full_selector_identity_cannot_be_relabelled[float_seed] _____
+
+mutation = 'float_seed'
+
+    @pytest.mark.parametrize("mutation", ["duplicate", "wrong_game", "wrong_seed", "wrong_run", "float_seed", "bool_panel", "permutation"])
+    def test_ordered_full_selector_identity_cannot_be_relabelled(mutation):
+        rows = canonical_rows()
+        if mutation == "duplicate":
+            rows[2] = rows[0].copy()
+        elif mutation == "wrong_game":
+            rows[0]["game"] += 1
+        elif mutation == "wrong_seed":
+            rows[0]["seed"] += 1
+        elif mutation == "wrong_run":
+            rows[0]["run_id"] = rows[16]["run_id"]
+        elif mutation == "float_seed":
+            rows[0]["seed"] = float(rows[0]["seed"])
+        elif mutation == "bool_panel":
+            rows[0]["panel"] = False
+        else:
+            rows[0], rows[2] = rows[2], rows[0]
+>       with pytest.raises(ValueError):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE ValueError
+
+output/collaboration/reward-mechanism-repair/test_weight_state_independent_review.py:125: Failed
+_____ test_ordered_full_selector_identity_cannot_be_relabelled[bool_panel] _____
+
+mutation = 'bool_panel'
+
+    @pytest.mark.parametrize("mutation", ["duplicate", "wrong_game", "wrong_seed", "wrong_run", "float_seed", "bool_panel", "permutation"])
+    def test_ordered_full_selector_identity_cannot_be_relabelled(mutation):
+        rows = canonical_rows()
+        if mutation == "duplicate":
+            rows[2] = rows[0].copy()
+        elif mutation == "wrong_game":
+            rows[0]["game"] += 1
+        elif mutation == "wrong_seed":
+            rows[0]["seed"] += 1
+        elif mutation == "wrong_run":
+            rows[0]["run_id"] = rows[16]["run_id"]
+        elif mutation == "float_seed":
+            rows[0]["seed"] = float(rows[0]["seed"])
+        elif mutation == "bool_panel":
+            rows[0]["panel"] = False
+        else:
+            rows[0], rows[2] = rows[2], rows[0]
+>       with pytest.raises(ValueError):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE ValueError
+
+output/collaboration/reward-mechanism-repair/test_weight_state_independent_review.py:125: Failed
+____ test_ordered_full_selector_identity_cannot_be_relabelled[permutation] _____
+
+mutation = 'permutation'
+
+    @pytest.mark.parametrize("mutation", ["duplicate", "wrong_game", "wrong_seed", "wrong_run", "float_seed", "bool_panel", "permutation"])
+    def test_ordered_full_selector_identity_cannot_be_relabelled(mutation):
+        rows = canonical_rows()
+        if mutation == "duplicate":
+            rows[2] = rows[0].copy()
+        elif mutation == "wrong_game":
+            rows[0]["game"] += 1
+        elif mutation == "wrong_seed":
+            rows[0]["seed"] += 1
+        elif mutation == "wrong_run":
+            rows[0]["run_id"] = rows[16]["run_id"]
+        elif mutation == "float_seed":
+            rows[0]["seed"] = float(rows[0]["seed"])
+        elif mutation == "bool_panel":
+            rows[0]["panel"] = False
+        else:
+            rows[0], rows[2] = rows[2], rows[0]
+>       with pytest.raises(ValueError):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE ValueError
+
+output/collaboration/reward-mechanism-repair/test_weight_state_independent_review.py:125: Failed
+=========================== short test summary info ============================
+FAILED output/collaboration/reward-mechanism-repair/test_weight_state_independent_review.py::test_ordered_full_selector_identity_cannot_be_relabelled[duplicate]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_state_independent_review.py::test_ordered_full_selector_identity_cannot_be_relabelled[wrong_game]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_state_independent_review.py::test_ordered_full_selector_identity_cannot_be_relabelled[wrong_seed]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_state_independent_review.py::test_ordered_full_selector_identity_cannot_be_relabelled[wrong_run]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_state_independent_review.py::test_ordered_full_selector_identity_cannot_be_relabelled[float_seed]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_state_independent_review.py::test_ordered_full_selector_identity_cannot_be_relabelled[bool_panel]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_state_independent_review.py::test_ordered_full_selector_identity_cannot_be_relabelled[permutation]
+7 failed, 38 passed in 0.16s

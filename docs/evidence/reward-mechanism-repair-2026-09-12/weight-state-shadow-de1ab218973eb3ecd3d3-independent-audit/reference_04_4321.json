@@ -1,0 +1,38 @@
+{
+  "index": 4,
+  "edge": 4321,
+  "group": 0,
+  "kc_events": 6,
+  "dan_events": 34,
+  "passed": true,
+  "actual": {
+    "gain": 0.996685047830416,
+    "electrical_gain": 0.9971988879517946,
+    "positive": 0.017746793040201454,
+    "negative": -0.021061745209784287,
+    "electrical_positive": 0.013132584270194841,
+    "electrical_negative": -0.01593369631840181,
+    "tail_positive": 0.004614208770006612,
+    "tail_negative": -0.005128048891382477
+  },
+  "reference": {
+    "gain": 0.9966850478304163,
+    "electrical_gain": 0.9971988879517923,
+    "positive": 0.01774679304020116,
+    "negative": -0.021061745209783767,
+    "electrical_positive": 0.013132584270194671,
+    "electrical_negative": -0.015933696318401455,
+    "tail_positive": 0.004614208770006488,
+    "tail_negative": -0.005128048891382313
+  },
+  "absolute_errors": {
+    "gain": 3.3306690738754696e-16,
+    "electrical_gain": 2.220446049250313e-15,
+    "positive": 2.949029909160572e-16,
+    "negative": 5.204170427930421e-16,
+    "electrical_positive": 1.700029006457271e-16,
+    "electrical_negative": 3.5388358909926865e-16,
+    "tail_positive": 1.240327285323417e-16,
+    "tail_negative": 1.6393136847980827e-16
+  }
+}

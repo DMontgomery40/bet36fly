@@ -1,0 +1,415 @@
+{
+  "files": [
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/attempts.jsonl",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3/attempts.jsonl",
+      "bytes": 11960,
+      "sha256": "266fa8b606436a6da2f2aa153415f9a5c5a178e9d2772f4ae9f74788e809ff14"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/completion.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3/completion.json",
+      "bytes": 265,
+      "sha256": "46afeb9254ed9cdd19b49c6e3b0a181875797e802e0226a50403f8cec2277bc4"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/identity.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3/identity.json",
+      "bytes": 21059,
+      "sha256": "95f0b95f0c64642348ed56e7b87135c97b4891e42e2091abb70bdc4c88ea80c0"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/row_00.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3/row_00.json",
+      "bytes": 785,
+      "sha256": "f431123be49cd5f7e052b725f1e43f0c4309daf7329eeb10f02c3ed469016e32"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/row_01.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3/row_01.json",
+      "bytes": 785,
+      "sha256": "e170af1a3d9742d976824c1a9d8c8addbbb479b493147c32b03929b51795f992"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/row_02.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3/row_02.json",
+      "bytes": 785,
+      "sha256": "ab0b5216e7d2433a005688520acd08d1fe7915f4c385d32de0525c54c2cacd02"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/row_03.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3/row_03.json",
+      "bytes": 784,
+      "sha256": "151546b94603a9d4248750b5f64a30eec948521304f4a62bde4bdef2c2d7df7e"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/row_04.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3/row_04.json",
+      "bytes": 783,
+      "sha256": "271b8012be8b96ce33b440e0b0c2c6d0e35962aad35ef8e047fe2dfea1afd07f"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/row_05.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3/row_05.json",
+      "bytes": 785,
+      "sha256": "b0346a1798d7acb6ef33b7b855e30ba43686002bfc6b18ca0913c9f744888795"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/row_06.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3/row_06.json",
+      "bytes": 783,
+      "sha256": "13895b1d5beebabf48bee1f61d8d6bbdf97fd3eed4f4a95bc41e120a5e84e35e"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/row_07.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3/row_07.json",
+      "bytes": 787,
+      "sha256": "2737ba80ee8b87b48e57ade1edcf7793ecd8d8e8ade4f9008652d236b56448bd"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/row_08.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3/row_08.json",
+      "bytes": 783,
+      "sha256": "188eba25fd5beb9bb8ae5fea6868126c6c256594cf8ee43558b6ab9544de211f"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/row_09.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3/row_09.json",
+      "bytes": 784,
+      "sha256": "54d7713f4ba5bd835c5834828b597729cfbbc2bce848bf46d40579eb0771529a"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/row_10.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3/row_10.json",
+      "bytes": 783,
+      "sha256": "5f77a16eace0841cce8a8cd883475718735c19b775ab6ecad66069c04f7df4f3"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/row_11.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3/row_11.json",
+      "bytes": 783,
+      "sha256": "10f0dd6e62b9eaf3fe08933c8402d66623a16d0ce10a5cc4560c3cf26e4bc0a0"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/row_12.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3/row_12.json",
+      "bytes": 785,
+      "sha256": "cb18badcdc7930399115390bb18d628e362705376cb5159745a911084268eee2"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/row_13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3/row_13.json",
+      "bytes": 786,
+      "sha256": "f10a5603b93653ac9c7bf140cc8e5e9298052a6be5d33b4cc73afe36c016fafe"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/row_14.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3/row_14.json",
+      "bytes": 785,
+      "sha256": "54b0964f62d4c586f67bf64f0058d7ff9cbf384e38866f4f95b74cca972aaaf7"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/row_15.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3/row_15.json",
+      "bytes": 787,
+      "sha256": "b5ece968016094ea79de30a41812d6b1b74b29617393c5c9595376cae14211d6"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/row_16.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3/row_16.json",
+      "bytes": 787,
+      "sha256": "d004380c25a5d4170f540009a49d56bf75b051bdeace76b5ccaba3b533fb4b0b"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/row_17.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3/row_17.json",
+      "bytes": 788,
+      "sha256": "60b5fcc73399ee7cceca9b8c6d9c5351befb855e5261529aed78266991d4de77"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/row_18.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3/row_18.json",
+      "bytes": 788,
+      "sha256": "fc3a6140550c8ce61f0a53ad67070434a38eaf478f1eec9734afd7c30761533c"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/row_19.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3/row_19.json",
+      "bytes": 785,
+      "sha256": "57c0f9b4adddd07ecba6d8be53bbe400c719b6633c5a0c7c2539cb718d0b3cac"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/row_20.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3/row_20.json",
+      "bytes": 787,
+      "sha256": "7c891c0571692501707d89774a63d9aa531aa9986568e843e585747feb13de1e"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/row_21.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3/row_21.json",
+      "bytes": 785,
+      "sha256": "aecec86ea3c930b55c6f0b45e5fee02d1a38320a0e59f852dcd1e2b0ad9ae68f"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/row_22.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3/row_22.json",
+      "bytes": 787,
+      "sha256": "8c925af8bf6f64a5ec24cb6ed6e149675f0588f263d3643452cbd988bdc7d201"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/row_23.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3/row_23.json",
+      "bytes": 785,
+      "sha256": "a0791b11d8e558d12bff09540158de4768d02a99dccdf782dc2aea07ef2c4797"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/row_24.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3/row_24.json",
+      "bytes": 787,
+      "sha256": "bc217177f9730bde4579f88201b193e4f6f4f3af05d5b9b1f4e1336278e43267"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/row_25.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3/row_25.json",
+      "bytes": 786,
+      "sha256": "74c75ee4f61cbfcf36f272b55943f01473e76ffb60e975ba56fdb504ba4efc36"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/row_26.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3/row_26.json",
+      "bytes": 790,
+      "sha256": "482d417ff01fa534d551ff8a6de16e9d7e8b9bd54c7030d1acc3603f39ba7f49"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/row_27.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3/row_27.json",
+      "bytes": 783,
+      "sha256": "0e58554c291449f7cda4863135733fc8f8d7e7022d70765d55d4e4f12302a0d8"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/row_28.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3/row_28.json",
+      "bytes": 785,
+      "sha256": "2aade0c7989b8080b75c46c2cddb43f20b65ff4f3b7b52988a0c9d4b0ffeb852"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/row_29.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3/row_29.json",
+      "bytes": 785,
+      "sha256": "3fe9c91515da7b869bb121dd56197f3e8c864163f1fefd4c915ebacfc268c47f"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/row_30.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3/row_30.json",
+      "bytes": 785,
+      "sha256": "aff1372b3a5677a7f4bcb9c9847404a7a73ba1ef31fc0f6125783039fd85e6f5"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/row_31.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3/row_31.json",
+      "bytes": 786,
+      "sha256": "19c10d21415138ba438461ea19e042972774563ba652560c446a98f7532c122c"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_00.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_00.npz",
+      "bytes": 162743,
+      "sha256": "843899d0e9f874f9c9a12a413ef7c7c8c3ecd299502f4080422cc898b3345c84"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_01.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_01.npz",
+      "bytes": 147543,
+      "sha256": "cc28ff2d62a89e52ac25b9630851f052ef5c63e1c8fdcfab3d07c35c2dc21345"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_02.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_02.npz",
+      "bytes": 121486,
+      "sha256": "647b7426554830cf0e8de4e577517d712fc2b32917219d4ffb790da067e81650"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_03.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_03.npz",
+      "bytes": 117118,
+      "sha256": "dc24c9af3daab56701920428262cae7db00137fe4f923b271546872576166b8b"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_04.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_04.npz",
+      "bytes": 220100,
+      "sha256": "53965dd040870d41bc3b049700656a496fc76149750de06aab7d1134449d996f"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_05.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_05.npz",
+      "bytes": 228896,
+      "sha256": "30f439bd9cee398ac7a7dd67410e926f12c89bcf8ac300d1e6bb3c0796866770"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_06.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_06.npz",
+      "bytes": 99144,
+      "sha256": "9b1e969e1b2fdefca82eb280df178040e245389e698e94d1df80837121755e86"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_07.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_07.npz",
+      "bytes": 105574,
+      "sha256": "22810f87f26cc462ec9578e1c3a2a1eb364ca132b15c94e964180494335d59e6"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_08.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_08.npz",
+      "bytes": 205901,
+      "sha256": "730c38d0c0509816c2130746e31c733e650ac4d13617fff4206df19ebc173d10"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_09.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_09.npz",
+      "bytes": 184333,
+      "sha256": "b767e7401e73cdec99a225b23c40af60ddc191749b95d31f101854819e65cda1"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_10.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_10.npz",
+      "bytes": 231250,
+      "sha256": "806b72d89702715a5e5aa9f4933ec82bec9a9cbe5982c3ac62bdeb3dff8e4a32"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_11.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_11.npz",
+      "bytes": 232127,
+      "sha256": "26ccd015b83ee633ccf10a3a9168cdd5bf4aaf8de0a75b189732ad62c97fbfdb"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_12.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_12.npz",
+      "bytes": 171894,
+      "sha256": "cf8a0a02f357b8e585f649ff760774535a4cd2e0d899e09793a3b4a5e65fa053"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_13.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_13.npz",
+      "bytes": 172107,
+      "sha256": "f6d4419c04c3ad9f4d66b487e70de58791b877a1edef86c2a729c6347d8db31b"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_14.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_14.npz",
+      "bytes": 138179,
+      "sha256": "fa43f1c42d5437c5f92d415c106566cfdec19efb498e61ccb7be612217791be4"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_15.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_15.npz",
+      "bytes": 154755,
+      "sha256": "81b023116bcb2c475e12743af746cc4ab0601a641d2755095f5ca702edc09d02"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_16.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_16.npz",
+      "bytes": 166218,
+      "sha256": "8c470f55b8b43328c3091a67a75907f732070d0bfa9efdd53a9f521efa0367df"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_17.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_17.npz",
+      "bytes": 168663,
+      "sha256": "a01250a77c315c534ab286b39adff8fd062cd3c0e4015c2d0454f6ed96078cda"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_18.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_18.npz",
+      "bytes": 193453,
+      "sha256": "9fe3059316991253ceb9853dff39fefea539b0f8d9dcc86bdb0e1b30ed070e2c"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_19.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_19.npz",
+      "bytes": 203560,
+      "sha256": "48cb913a0cd603b317f8543a67c8deb5a579f23f557be69442f3f712cec3439c"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_20.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_20.npz",
+      "bytes": 141750,
+      "sha256": "dbe82975721d8e1f71872c7c3cd1166ab7f19f8cfcdbf5db928dc21e20ec85b2"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_21.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_21.npz",
+      "bytes": 149167,
+      "sha256": "34561c7cfddf8d21a0b3a04e325a5739f1646934f2d91e9ee78a83c63d5e92c6"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_22.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_22.npz",
+      "bytes": 150568,
+      "sha256": "fe31ba020dd14b607d6737111e2e70e3477ab1782c6433ff571b4fee680081c5"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_23.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_23.npz",
+      "bytes": 140627,
+      "sha256": "522b0821457327939bc9bf30398e620c8c9a8979c149526a24198ecbeaf434f4"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_24.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_24.npz",
+      "bytes": 155644,
+      "sha256": "ca7806a52702eefb000dd7417d4b36c536ad21d8402cd88f5c9b12ce5b25eea5"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_25.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_25.npz",
+      "bytes": 147314,
+      "sha256": "5928720813e1a75ac5c9fd33a6001eb609f539a905564008af36bf4a3b22b16e"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_26.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_26.npz",
+      "bytes": 178540,
+      "sha256": "62ce136379697f45d1e308b6b69a8f95977f82005228ae36473565b0051331ef"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_27.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_27.npz",
+      "bytes": 147995,
+      "sha256": "b04549a0beee59f5ece9ee46b2ccf8c7202b66a6f19ef3cfd40cafb907870d2b"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_28.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_28.npz",
+      "bytes": 302320,
+      "sha256": "e46ee064d20c44aeebb7346d74a73a3603e7ddecbf84e33c6b927042318cddcd"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_29.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_29.npz",
+      "bytes": 264857,
+      "sha256": "f33613d832e36af2c040dc049440402ffdd446664a4d37bb3e3f920af53a5c67"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_30.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_30.npz",
+      "bytes": 169759,
+      "sha256": "2ec26f550ef4bf25759516bc9c08d2cf22c07cd6edd25ec7cfc2a24ccd6d2576"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_31.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3/shadow_31.npz",
+      "bytes": 154423,
+      "sha256": "d06153e11e14aa4757254a5e242407f9a17910924085126a9e067f885603ad70"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/weight-state-shadow-de1ab218973eb3ecd3d3/summary.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-de1ab218973eb3ecd3d3/summary.json",
+      "bytes": 25074,
+      "sha256": "75f3b09006837980743006680817b445cc591f92fafc840cad7cc58756cc0037"
+    }
+  ],
+  "file_count": 68,
+  "bytes": 5611498,
+  "originals_preserved": true
+}

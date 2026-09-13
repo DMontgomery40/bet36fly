@@ -1,0 +1,76 @@
+{
+  "agent": "dopamine_sources",
+  "checked_at_utc": "2026-09-13T07:42:59.420330+00:00",
+  "status": "PASS bounded final mathematical and rejection-only delta review; no actual candidate evaluation",
+  "helper": {
+    "path": "output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py",
+    "bytes": 12971,
+    "sha256": "170ccf5c1bd533cd58f38e32d6b2f8034171db507a8ec156a33647532a2b184d"
+  },
+  "helper_tests": {
+    "path": "output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py",
+    "bytes": 15422,
+    "sha256": "5e79720858e2768d234a8d36edc6c6cb8f18f353365833b697d7a7f560203766"
+  },
+  "independent_comparison_tests": {
+    "path": "output/collaboration/reward-mechanism-repair/test_weight_state_helper_independent.py",
+    "bytes": 3794,
+    "sha256": "409a351d0f0020e75bd05a07bbb81a19e2f6978f4840002d2369f41babd3b843"
+  },
+  "preserved_initial_review": {
+    "path": "output/collaboration/reward-mechanism-repair/weight-state-helper-independent-review-initial-2026-09-13.json",
+    "bytes": 2151,
+    "sha256": "ecc5e5ae31f236c03ad3b7e4af27f37a989ccecc74788f53d9ca138dae21a0b6"
+  },
+  "previous_helper_archive": {
+    "path": "output/collaboration/reward-mechanism-repair/weight-dependent-helper-reviewed-fe8fa0d9.py",
+    "bytes": 12725,
+    "sha256": "fe8fa0d9e782870fbcdc17b3f449b03b8414764d3fc67888866dc82f633d7be5"
+  },
+  "frozen_reference_receipt": {
+    "path": "output/collaboration/reward-mechanism-repair/weight-state-reference-reading-and-freeze-receipt-2026-09-13.json",
+    "bytes": 7297,
+    "sha256": "6b8608563c9b0d299f1430eb3d794b28561ee63bea31957ee78057d3300868e8"
+  },
+  "exact_guard_receipt": {
+    "path": "output/collaboration/reward-mechanism-repair/weight-state-exact-guard-reading-and-freeze-receipt-2026-09-13.json",
+    "bytes": 5188,
+    "sha256": "d1ec7ac3f0a6406ea544b225b2d0c5a0c83219dbebd0045d78d8b8cd7b98d306"
+  },
+  "delta_review": {
+    "inspected": "Added over/invalid raising during RK coarse/fine/proposed accumulation and explicit finite proposed/difference checks. Six scalar/vector overflow regressions and three finite-integral controls read.",
+    "only_change_verified": "Reversing precisely this delta reconstructs the full historical helper hash fe8fa0d9e782870fbcdc17b3f449b03b8414764d3fc67888866dc82f633d7be5. Signal equations, stage gains, full tail, masks and wrapper publication logic remain the earlier reviewed bytes.",
+    "risk_scope": "The former112case mathematical suite missed the extreme finite-area accumulation family; later writer regression is preserved rather than treating the first PASS as universal numerical safety.",
+    "result": "Fix rejects nonfinite accumulation without changing the finite mathematical law; valid finite-integral extremes remain accepted."
+  },
+  "combined_verification": {
+    "command": ".venv/bin/python -m pytest -q output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py output/collaboration/reward-mechanism-repair/test_weight_state_helper_independent.py output/collaboration/reward-mechanism-repair/test_weight_state_reference.py output/collaboration/reward-mechanism-repair/test_weight_state_guard_reference.py",
+    "passed": 432,
+    "elapsed_seconds": 16.16,
+    "breakdown": {
+      "helper_writer": 120,
+      "independent_helper_comparison": 112,
+      "frozen_independent_numerical_reference": 109,
+      "exact_guard_reference": 91
+    },
+    "ruff": "All checks passed on all seven code/test files",
+    "frozen_input_hashes_rechecked": true
+  },
+  "mathematical_conclusion": "No remaining blocker found in the bounded comparison. Full-tail weighted products, changing gain, pure-branch analytic limits, arbitrary nonnegative states, initial gain bounds/interiors and vector/scalar/permutation results agree under the fixed tolerances.",
+  "remaining_scope_limits": [
+    "The fixed1e-11 gain allowance is a declared numerical comparison envelope, not a formal global integration proof.",
+    "Exact F32 guard classification is conditional on that envelope.",
+    "No actual histories, all-eight-cell scientific screen, recurrently changed trajectories or learning outcomes have been evaluated.",
+    "Experiment runner input binding, execution caps and final persistence need their separate review before root may dispatch a frozen study."
+  ],
+  "reading_refresh": {
+    "prior_chain": "Both linked frozen reading receipts retain all earlier full readings.",
+    "paths_checked_at_this_boundary_including_existing_output_report_bindings": 166,
+    "unread_narrative_deltas": []
+  },
+  "actual_saved_history_evaluations": 0,
+  "native_or_circuit_calls": 0,
+  "network_requests": 0,
+  "production_edits": 0,
+  "earlier_frozen_reference_or_guard_files_modified": false
+}

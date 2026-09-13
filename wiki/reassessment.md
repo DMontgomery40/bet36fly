@@ -22,6 +22,7 @@ untaught-home guard. [Complete repair evidence](../docs/evidence/reward-mechanis
 | Rate bridge, second panel `dea14759e9ca` | Home/base mean −0.272640; absolute limit 0.240845 | Qualification fails despite a smaller drift |
 | Fixed-history shadow `4343c21535c43f42` | Retaining pre-100 ms history worsens home/base to −0.481926; 30/32 home trials worsen | Reject the onset-history-only hypothesis |
 | Fixed rate-adaptation shadow `5165a92674683bf2b872` | Second/base home mean +2.638301; absolute limit 1.113472; all four home groups fail | Reject this fixed adaptation hypothesis |
+| Fixed gain-dependent shadow `de1ab218973eb3ecd3d3` | Second/base home mean −0.268755; absolute limit 0.235695; 128 independent references agree | Reject this specified gain-dependent hypothesis |
 | Conditioning and reversal | Not run; entry gate remains unmet | No learned-association or reversal claim |
 
 The shadow used the actual recorded spikes and never transmitted its alternative
@@ -34,6 +35,17 @@ also uses only saved spikes: it changes depression to excessive potentiation,
 with the complete mathematical tail retained. Signal generation and plasticity
 coupling remain under investigation, with accepted gains, channels and
 thresholds unchanged.
+
+The subsequent [gain-dependent calculation](../docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-result-2026-09-13.md)
+completed all 32 saved histories and its independent audit, with zero bound
+contacts, but still failed the same second/base home guard. Its 794 synthetic
+preparation tests establish numerical and artifact behavior; the actual
+negative result prevents treating those passing tests as a repaired mechanism.
+The new [release/receptor source check](../docs/evidence/reward-mechanism-repair-2026-09-12/tonic-burst-dopamine-quantitative-source-check-2026-09-13.md)
+finds quantitative measurements, while separating adult regional release,
+live-fly sensors and cultured-receptor assays from calibration of the selected
+γ1pedc/γ3 synapses. No receptor parameters or new candidate were selected from
+those findings.
 
 An earlier QA startup refreshed live sports caches and inserted 81 local v1 paper
 forecasts. These were preserved because no complete prior snapshot exists. The

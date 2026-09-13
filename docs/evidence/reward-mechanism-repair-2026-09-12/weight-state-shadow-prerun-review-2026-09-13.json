@@ -1,0 +1,139 @@
+{
+  "created_at": "2026-09-13T08:04:17.367587+00:00",
+  "reviewer": "root",
+  "status": "pass_for_one_frozen_shadow_and_prespecified_audit_only",
+  "bindings": [
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py",
+      "bytes": 12971,
+      "sha256": "170ccf5c1bd533cd58f38e32d6b2f8034171db507a8ec156a33647532a2b184d"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py",
+      "bytes": 15422,
+      "sha256": "5e79720858e2768d234a8d36edc6c6cb8f18f353365833b697d7a7f560203766"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight_state_reference.py",
+      "bytes": 8576,
+      "sha256": "000015fc0435c10df970ca81c1836b5b039fb1bc2f67851d9046af595fa34034"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/test_weight_state_reference.py",
+      "bytes": 9032,
+      "sha256": "07b3fa140e670393dd7e758c66af4347f37e553aab5c7b5c298b3b3dea79a05d"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight_state_guard_reference.py",
+      "bytes": 7515,
+      "sha256": "1257fb71083151aabd6726430d62102347cf5cac131c8e99edcfbae3786283f4"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/test_weight_state_guard_reference.py",
+      "bytes": 7986,
+      "sha256": "ee643af0a715e807432ed4f87de95c6172a10a2806511715400a4a7f45cea325"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/test_weight_state_helper_independent.py",
+      "bytes": 3794,
+      "sha256": "409a351d0f0020e75bd05a07bbb81a19e2f6978f4840002d2369f41babd3b843"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/test_weight_state_independent_review.py",
+      "bytes": 5872,
+      "sha256": "99275ebabaa60b6290d7537b8a20045d1cf6e16d174718123fbfda1c6de724ab"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/run_weight_state_shadow.py",
+      "bytes": 21831,
+      "sha256": "6e403b91f2fcdbe7578d744f5be5c7fa1d66700a37cff44697e239bb86b01ecd"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/test_run_weight_state_shadow.py",
+      "bytes": 13602,
+      "sha256": "d8b8fb681c324354e24035ab47a2ebdcac905d7248fde9151abe5724f5d80da1"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/audit_weight_state_shadow.py",
+      "bytes": 32611,
+      "sha256": "e2f1f59d80e6ef55bb5149d836cca9fbcc1e3e6f9227bcc3775516fc559f3383"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/test_audit_weight_state_shadow.py",
+      "bytes": 16918,
+      "sha256": "418bb7d085b8761296d3759484ae61860b9eac509b488eefe4664143bad00991"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-shadow-preregistration-2026-09-13.md",
+      "bytes": 9336,
+      "sha256": "7cc902cfaee01a40bd69828953016c9a4ca6ea3cd64a0a9a3e0c6516dd669b10"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-evidence-ui-final-reading-review-2026-09-13.json",
+      "bytes": 46439,
+      "sha256": "94bdf8fa96d7248342854b8c8958162d9561b784b920e15bc558081c656c57df"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-helper-independent-review-final-2026-09-13.json",
+      "bytes": 4743,
+      "sha256": "731777c47faa51088fe22337f1d7006218269c2cc5a07030a8358fcfecb8affc"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-dependent-helper-reading-and-freeze-receipt-2026-09-13.json",
+      "bytes": 52387,
+      "sha256": "b44569db45df5991f75b46f3aae172a12c9a93404e49846ed396a1cf9a3ed368"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-root-prerun-tests-2026-09-13.txt",
+      "bytes": 661,
+      "sha256": "82a00cc93141e4cfa484a1e5cb32ab7e5c30dc297c1d65b012117a6e4fbff19f"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-root-auditor-tests-2026-09-13.txt",
+      "bytes": 340,
+      "sha256": "295db866b9855fe4fbc87661824d0138ee04f17865dab96ec5a186088c5ae28b"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-make-verify-2026-09-13.txt",
+      "bytes": 6295,
+      "sha256": "2c47f06e5c9d865c35d9365bb0d66f7764fb52dd292ec118600a52655184def3"
+    }
+  ],
+  "runtime": {
+    "python": "3.12.9",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "mpmath": "1.3.0"
+  },
+  "root_fresh_tests": {
+    "preparation": 539,
+    "independent_auditor": 255,
+    "total_distinct": 794,
+    "repository_pytest": 4055,
+    "repository_frontend": 85,
+    "ruff": "pass",
+    "vite": "pass"
+  },
+  "review_scope": [
+    "Full final source and contract review; independent math, exact guard, runner and saved-result audit",
+    "Generalized selector, nonfinite arithmetic, domain, masks, failure/persistence, cap and numerical ambiguity regressions",
+    "Source decision explicitly engineered, not calibrated receptor/release kinetics",
+    "All32 inputs and128 reference selectors must be bound before execution"
+  ],
+  "unresolved": [
+    "No saved-history evaluation of this hypothesis has run",
+    "Both original full-circuit diagnostic panels still required after any favorable shadow",
+    "Conditioning and reversal remain unrun; complete goal not achieved",
+    "Numerical1e-11 enclosure conditional, not a formal ODE error bound",
+    "All saved counters checked structurally;128fixed edges integrated independently, not everytransient"
+  ],
+  "authorization": {
+    "shadow_calls": 32,
+    "shadow_wall_cap_seconds": 1200,
+    "audit_reference_calls": 128,
+    "audit_wall_cap_seconds": 1200,
+    "network_native_circuit_calls": 0,
+    "retries": 0
+  },
+  "later_changes_require_new_identity": true
+}

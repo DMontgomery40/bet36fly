@@ -1,0 +1,113 @@
+{
+  "agent": "dopamine_sources",
+  "checked_at_utc": "2026-09-13T07:37:11.275092+00:00",
+  "status": "PASS exact integer guard and conservative numerical ambiguity preparation",
+  "frozen_files": [
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight_state_guard_reference.py",
+      "bytes": 7515,
+      "sha256": "1257fb71083151aabd6726430d62102347cf5cac131c8e99edcfbae3786283f4"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/test_weight_state_guard_reference.py",
+      "bytes": 7986,
+      "sha256": "ee643af0a715e807432ed4f87de95c6172a10a2806511715400a4a7f45cea325"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-exact-guard-contract-2026-09-13.md",
+      "bytes": 6586,
+      "sha256": "658d1ecd6773ee93a3ca8cd2f976aea00492a73a5a16252a07840a0a9fec2c85"
+    }
+  ],
+  "scientific_criterion": "abs(mean) <= .5*sample_SD over exactly eight trials; unchanged",
+  "corrected_algebra": {
+    "definitions": "S=sum(T_i), Q=sum(T_i squared), n=8",
+    "general": "(5n-4)*S squared <= n squared*Q",
+    "n8": "9*S squared <=16*Q",
+    "rejected_draft": "[4(n-1)+1]*S squared <=n*Q",
+    "independent_counterexample": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "counterexample_actual_guard_passes": true,
+    "correction_before_any_frozen_plan_or_data_evaluation": true
+  },
+  "exact_methods": {
+    "publication": "Every F32 gain in [.5,1.5] is an integer multiple of2^-24. Exact selected-edge totals use Python integers.",
+    "enclosure": "Exact stored center +/- declared allowance via Fraction, intersection with mathematical bounds, exact rational nearest/ties-to-even F32 endpoint quantization. No intermediate float conversion.",
+    "maximum_variance": "Convex quadratic maximum over all256 vertices.",
+    "minimum_variance": "Exact piecewise quadratic distance from the trial box to constant-vector line; rational optimum/witness and exact mean certificate.",
+    "all_pass": "4*maximum_mean_squared <= minimum_variance",
+    "all_fail": "4*minimum_mean_squared > maximum_variance",
+    "otherwise": "inconclusive",
+    "limitation": "Classification is conservative and conditional on the numerical allowance enclosing the solution; exact downstream arithmetic does not prove the ODE error allowance."
+  },
+  "verification": {
+    "command": ".venv/bin/python -m pytest -q output/collaboration/reward-mechanism-repair/test_weight_state_guard_reference.py",
+    "passed": 91,
+    "elapsed_seconds": 0.67,
+    "ruff": "All checks passed",
+    "point_vector_matrix": 6561,
+    "small_integer_boxes_exhaustively_checked": 16,
+    "continuous_minimum_kkt_certificate_boxes": 24,
+    "vertex_count_per_box": 256,
+    "synthetic_edges_in_float32_sum_test": 4184,
+    "near_midpoint_fraction_perturbation": "2^-100",
+    "red_phase": "Unimplemented point guard failed the one-nonzero-trial test. Later large odd-integer allowance regression failed before preserving integer exactness.",
+    "exact_nonzero_guard_equality_example": [
+      5,
+      3,
+      1,
+      -1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "full_repository_gate": "Not run under this output-only no-native preparation scope; root owns full production verification."
+  },
+  "reading": {
+    "prior_full_chain": {
+      "path": "output/collaboration/reward-mechanism-repair/weight-state-reference-reading-and-freeze-receipt-2026-09-13.json",
+      "bytes": 7297,
+      "sha256": "6b8608563c9b0d299f1430eb3d794b28561ee63bea31957ee78057d3300868e8"
+    },
+    "narrative_paths_through_current_addition": 158,
+    "new_or_changed_narratives_read": [
+      {
+        "path": "docs/REWARD_REPAIR_HANDOFF.md",
+        "bytes": 35557,
+        "sha256": "20e480fa851042595f5b0cdae28bcff32f2ab584b361283c7c13bf9697f3e931"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/index.md",
+        "bytes": 19189,
+        "sha256": "10ac7d067e19e3936cc16de47ac072ec5b3a355907fb2aa7be05ca07994082f6"
+      },
+      {
+        "path": "wiki/cells/synapse-localization.md",
+        "bytes": 6910,
+        "sha256": "6951acafd90d0f004b8ad5013a2ff7bcf0ae31d91a887044d6560d1e09a4fe73"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/partners-metadata-v2-result-2026-09-13.md",
+        "bytes": 5215,
+        "sha256": "991345101cb44eaaae25b8423111b0f434d1d0b92881013e5ada13c013cd6771"
+      }
+    ],
+    "method": "Personally read07:17handoff addition, changed evidence-index opening and full synapse-localization page against prior complete readings; reread the truncated displayed additions in bounded chunks. Read complete new v2 result. Earlier full narrative chain retained.",
+    "unread_narrative_deltas_at_recorded_boundary": []
+  },
+  "collaboration": "Corrected algebra acknowledged by root before freeze. delivered_arrivals instructed to round any displayed double enclosures outward; independent classifier consumes center/allowance itself.",
+  "actual_saved_history_or_candidate_evaluations": 0,
+  "native_or_circuit_calls": 0,
+  "network_requests": 0,
+  "production_edits": 0,
+  "previous_frozen_reference_files_modified": false
+}

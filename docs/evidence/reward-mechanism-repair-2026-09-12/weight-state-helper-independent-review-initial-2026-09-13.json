@@ -1,0 +1,33 @@
+{
+  "agent": "dopamine_sources",
+  "recorded_at_utc": "2026-09-13T07:41:58.416914+00:00",
+  "status": "Historical bounded mathematical comparison PASS; superseded by a separately reviewed overflow rejection fix",
+  "former_helper_hash_measured_before_change": "fe8fa0d9e782870fbcdc17b3f449b03b8414764d3fc67888866dc82f633d7be5",
+  "former_helper_preserved": {
+    "path": "output/collaboration/reward-mechanism-repair/weight-dependent-helper-reviewed-fe8fa0d9.py",
+    "bytes": 12725,
+    "sha256": "fe8fa0d9e782870fbcdc17b3f449b03b8414764d3fc67888866dc82f633d7be5"
+  },
+  "archive_provenance": "Reconstructed by reversing only the explicit overflow errstate/finite-proposal delta from the later helper; resulting full-file hash exactly matches the source personally read and hashed before112comparison tests. No claim that this archive was created contemporaneously with that earlier run.",
+  "independent_tests": {
+    "path": "output/collaboration/reward-mechanism-repair/test_weight_state_helper_independent.py",
+    "bytes": 3794,
+    "sha256": "409a351d0f0020e75bd05a07bbb81a19e2f6978f4840002d2369f41babd3b843"
+  },
+  "frozen_oracle": {
+    "path": "output/collaboration/reward-mechanism-repair/weight_state_reference.py",
+    "bytes": 8576,
+    "sha256": "000015fc0435c10df970ca81c1836b5b039fb1bc2f67851d9046af595fa34034"
+  },
+  "verification": {
+    "passed": 112,
+    "elapsed_seconds": 1.8,
+    "ruff": "passed"
+  },
+  "scope": "Arbitrary synthetic nonnegative interval states, five bound/interior initial gains, finite/zero/infinite intervals, independent exp(-elapsed/100) full-tail product coordinate, exact pure-branch exposure, vector/scalar and permutation comparison.",
+  "later_discovered_gap": "Writer subsequently found finite extreme opposing areas could overflow accumulation and escape with NaN. These112tests did not cover that magnitude family. This bounded mathematical PASS did not establish universal finite-input handling. The earlier helper has not been used on actual candidate histories.",
+  "source_changed_by_this_agent": false,
+  "actual_saved_histories": 0,
+  "native_or_circuit_calls": 0,
+  "network_requests": 0
+}

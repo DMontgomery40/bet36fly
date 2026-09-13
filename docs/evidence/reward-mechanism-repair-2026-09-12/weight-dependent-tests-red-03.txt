@@ -1,0 +1,625 @@
+........................................................................ [ 74%]
+...........FFFFFFFFFFFFFF                                                [100%]
+=================================== FAILURES ===================================
+_ test_cold_onset_channel_normalization_and_tail_wrapper_match_independent_reference _
+
+    def test_cold_onset_channel_normalization_and_tail_wrapper_match_independent_reference():
+        from weight_state_reference import event_reference
+        args = raster_fixture()
+        initial = np.array([0.8, 1.0, 1.2, 1.1], np.float32)
+>       result = candidate.shadow(*args, initial=initial)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:115: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+kc = array([[0, 0],
+       [0, 0],
+       [0, 0],
+       ...,
+       [0, 0],
+       [0, 0],
+       [1, 0]], shape=(2000, 2), dtype=uint8)
+dan = array([[0, 0, 0, ..., 0, 0, 0],
+       [1, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [1, 0, 0, ..., 0, 0, 0]], shape=(2000, 24), dtype=uint8)
+pk = array([0, 1, 0, 1]), pc = array([0, 0, 1, 1])
+dc = array([0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+       1, 1])
+mask = array([1, 1, 1, 0], dtype=uint8), groups = array([0, 3, 4, 7])
+initial = array([0.8, 1. , 1.2, 1.1], dtype=float32), learning = True
+guard = None
+
+    def shadow(kc, dan, pk, pc, dc, mask, groups, *, initial=None, learning=True, guard=None):
+>       raise NotImplementedError("Fixed cold-onset raster wrapper not implemented yet")
+E       NotImplementedError: Fixed cold-onset raster wrapper not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:150: NotImplementedError
+_ test_off_and_masked_gains_preserve_exact_checkpoint_bytes_without_mutating_inputs[False-False] _
+
+learning = False, eligible = False
+
+    @pytest.mark.parametrize("learning", [False, True])
+    @pytest.mark.parametrize("eligible", [False, True])
+    def test_off_and_masked_gains_preserve_exact_checkpoint_bytes_without_mutating_inputs(learning, eligible):
+        args = raster_fixture()
+        args[5][:] = eligible
+        initial = np.array([0.8, 1.0, 1.2, 1.1], np.float32)
+        before = [a.tobytes() for a in args] + [initial.tobytes()]
+>       result = candidate.shadow(*args, initial=initial, learning=learning)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:141: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+kc = array([[0, 0],
+       [0, 0],
+       [0, 0],
+       ...,
+       [0, 0],
+       [0, 0],
+       [1, 0]], shape=(2000, 2), dtype=uint8)
+dan = array([[0, 0, 0, ..., 0, 0, 0],
+       [1, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [1, 0, 0, ..., 0, 0, 0]], shape=(2000, 24), dtype=uint8)
+pk = array([0, 1, 0, 1]), pc = array([0, 0, 1, 1])
+dc = array([0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+       1, 1])
+mask = array([0, 0, 0, 0], dtype=uint8), groups = array([0, 3, 4, 7])
+initial = array([0.8, 1. , 1.2, 1.1], dtype=float32), learning = False
+guard = None
+
+    def shadow(kc, dan, pk, pc, dc, mask, groups, *, initial=None, learning=True, guard=None):
+>       raise NotImplementedError("Fixed cold-onset raster wrapper not implemented yet")
+E       NotImplementedError: Fixed cold-onset raster wrapper not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:150: NotImplementedError
+_ test_off_and_masked_gains_preserve_exact_checkpoint_bytes_without_mutating_inputs[False-True] _
+
+learning = True, eligible = False
+
+    @pytest.mark.parametrize("learning", [False, True])
+    @pytest.mark.parametrize("eligible", [False, True])
+    def test_off_and_masked_gains_preserve_exact_checkpoint_bytes_without_mutating_inputs(learning, eligible):
+        args = raster_fixture()
+        args[5][:] = eligible
+        initial = np.array([0.8, 1.0, 1.2, 1.1], np.float32)
+        before = [a.tobytes() for a in args] + [initial.tobytes()]
+>       result = candidate.shadow(*args, initial=initial, learning=learning)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:141: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+kc = array([[0, 0],
+       [0, 0],
+       [0, 0],
+       ...,
+       [0, 0],
+       [0, 0],
+       [1, 0]], shape=(2000, 2), dtype=uint8)
+dan = array([[0, 0, 0, ..., 0, 0, 0],
+       [1, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [1, 0, 0, ..., 0, 0, 0]], shape=(2000, 24), dtype=uint8)
+pk = array([0, 1, 0, 1]), pc = array([0, 0, 1, 1])
+dc = array([0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+       1, 1])
+mask = array([0, 0, 0, 0], dtype=uint8), groups = array([0, 3, 4, 7])
+initial = array([0.8, 1. , 1.2, 1.1], dtype=float32), learning = True
+guard = None
+
+    def shadow(kc, dan, pk, pc, dc, mask, groups, *, initial=None, learning=True, guard=None):
+>       raise NotImplementedError("Fixed cold-onset raster wrapper not implemented yet")
+E       NotImplementedError: Fixed cold-onset raster wrapper not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:150: NotImplementedError
+_ test_off_and_masked_gains_preserve_exact_checkpoint_bytes_without_mutating_inputs[True-False] _
+
+learning = False, eligible = True
+
+    @pytest.mark.parametrize("learning", [False, True])
+    @pytest.mark.parametrize("eligible", [False, True])
+    def test_off_and_masked_gains_preserve_exact_checkpoint_bytes_without_mutating_inputs(learning, eligible):
+        args = raster_fixture()
+        args[5][:] = eligible
+        initial = np.array([0.8, 1.0, 1.2, 1.1], np.float32)
+        before = [a.tobytes() for a in args] + [initial.tobytes()]
+>       result = candidate.shadow(*args, initial=initial, learning=learning)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:141: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+kc = array([[0, 0],
+       [0, 0],
+       [0, 0],
+       ...,
+       [0, 0],
+       [0, 0],
+       [1, 0]], shape=(2000, 2), dtype=uint8)
+dan = array([[0, 0, 0, ..., 0, 0, 0],
+       [1, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [1, 0, 0, ..., 0, 0, 0]], shape=(2000, 24), dtype=uint8)
+pk = array([0, 1, 0, 1]), pc = array([0, 0, 1, 1])
+dc = array([0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+       1, 1])
+mask = array([1, 1, 1, 1], dtype=uint8), groups = array([0, 3, 4, 7])
+initial = array([0.8, 1. , 1.2, 1.1], dtype=float32), learning = False
+guard = None
+
+    def shadow(kc, dan, pk, pc, dc, mask, groups, *, initial=None, learning=True, guard=None):
+>       raise NotImplementedError("Fixed cold-onset raster wrapper not implemented yet")
+E       NotImplementedError: Fixed cold-onset raster wrapper not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:150: NotImplementedError
+_ test_off_and_masked_gains_preserve_exact_checkpoint_bytes_without_mutating_inputs[True-True] _
+
+learning = True, eligible = True
+
+    @pytest.mark.parametrize("learning", [False, True])
+    @pytest.mark.parametrize("eligible", [False, True])
+    def test_off_and_masked_gains_preserve_exact_checkpoint_bytes_without_mutating_inputs(learning, eligible):
+        args = raster_fixture()
+        args[5][:] = eligible
+        initial = np.array([0.8, 1.0, 1.2, 1.1], np.float32)
+        before = [a.tobytes() for a in args] + [initial.tobytes()]
+>       result = candidate.shadow(*args, initial=initial, learning=learning)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:141: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+kc = array([[0, 0],
+       [0, 0],
+       [0, 0],
+       ...,
+       [0, 0],
+       [0, 0],
+       [1, 0]], shape=(2000, 2), dtype=uint8)
+dan = array([[0, 0, 0, ..., 0, 0, 0],
+       [1, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [1, 0, 0, ..., 0, 0, 0]], shape=(2000, 24), dtype=uint8)
+pk = array([0, 1, 0, 1]), pc = array([0, 0, 1, 1])
+dc = array([0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+       1, 1])
+mask = array([1, 1, 1, 1], dtype=uint8), groups = array([0, 3, 4, 7])
+initial = array([0.8, 1. , 1.2, 1.1], dtype=float32), learning = True
+guard = None
+
+    def shadow(kc, dan, pk, pc, dc, mask, groups, *, initial=None, learning=True, guard=None):
+>       raise NotImplementedError("Fixed cold-onset raster wrapper not implemented yet")
+E       NotImplementedError: Fixed cold-onset raster wrapper not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:150: NotImplementedError
+_____ test_pre_onset_history_is_excluded_and_checkpoint_resets_all_signals _____
+
+    def test_pre_onset_history_is_excluded_and_checkpoint_resets_all_signals():
+        args = raster_fixture()
+>       first = candidate.shadow(*args)
+                ^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:150: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+kc = array([[0, 0],
+       [0, 0],
+       [0, 0],
+       ...,
+       [0, 0],
+       [0, 0],
+       [1, 0]], shape=(2000, 2), dtype=uint8)
+dan = array([[0, 0, 0, ..., 0, 0, 0],
+       [1, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [1, 0, 0, ..., 0, 0, 0]], shape=(2000, 24), dtype=uint8)
+pk = array([0, 1, 0, 1]), pc = array([0, 0, 1, 1])
+dc = array([0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+       1, 1])
+mask = array([1, 1, 1, 0], dtype=uint8), groups = array([0, 3, 4, 7])
+initial = None, learning = True, guard = None
+
+    def shadow(kc, dan, pk, pc, dc, mask, groups, *, initial=None, learning=True, guard=None):
+>       raise NotImplementedError("Fixed cold-onset raster wrapper not implemented yet")
+E       NotImplementedError: Fixed cold-onset raster wrapper not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:150: NotImplementedError
+___ test_inclusive_bound_observations_use_each_full_step_and_one_whole_tail ____
+
+    def test_inclusive_bound_observations_use_each_full_step_and_one_whole_tail():
+        args = raster_fixture()
+        args[0][:] = 0
+        args[1][:] = 0
+        args[5][:] = 1
+>       value = candidate.shadow(*args, initial=np.array([0.5, 1.5, 1.0, 1.0], np.float32))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:168: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+kc = array([[0, 0],
+       [0, 0],
+       [0, 0],
+       ...,
+       [0, 0],
+       [0, 0],
+       [0, 0]], shape=(2000, 2), dtype=uint8)
+dan = array([[0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0]], shape=(2000, 24), dtype=uint8)
+pk = array([0, 1, 0, 1]), pc = array([0, 0, 1, 1])
+dc = array([0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+       1, 1])
+mask = array([1, 1, 1, 1], dtype=uint8), groups = array([0, 3, 4, 7])
+initial = array([0.5, 1.5, 1. , 1. ], dtype=float32), learning = True
+guard = None
+
+    def shadow(kc, dan, pk, pc, dc, mask, groups, *, initial=None, learning=True, guard=None):
+>       raise NotImplementedError("Fixed cold-onset raster wrapper not implemented yet")
+E       NotImplementedError: Fixed cold-onset raster wrapper not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:150: NotImplementedError
+_ test_wrapper_rejects_malformed_schedule_mapping_and_checkpoint_contract[steps] _
+
+mutation = 'steps'
+
+    @pytest.mark.parametrize("mutation", ["steps", "raster", "mask", "group_channel", "missing_channel", "initial64", "learning"])
+    def test_wrapper_rejects_malformed_schedule_mapping_and_checkpoint_contract(mutation):
+        args = raster_fixture()
+        kwargs = {}
+        if mutation == "steps": args[0] = args[0][:-1]
+        elif mutation == "raster": args[1][600, 0] = 2
+        elif mutation == "mask": args[5][0] = 2
+        elif mutation == "group_channel": args[6][0] = 4
+        elif mutation == "missing_channel": args[4][:] = 1
+        elif mutation == "initial64": kwargs["initial"] = np.ones(4, np.float64)
+        else: kwargs["learning"] = "false"
+        with pytest.raises(ValueError):
+>           candidate.shadow(*args, **kwargs)
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:186: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+kc = array([[0, 0],
+       [0, 0],
+       [0, 0],
+       ...,
+       [0, 0],
+       [0, 0],
+       [0, 0]], shape=(1999, 2), dtype=uint8)
+dan = array([[0, 0, 0, ..., 0, 0, 0],
+       [1, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [1, 0, 0, ..., 0, 0, 0]], shape=(2000, 24), dtype=uint8)
+pk = array([0, 1, 0, 1]), pc = array([0, 0, 1, 1])
+dc = array([0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+       1, 1])
+mask = array([1, 1, 1, 0], dtype=uint8), groups = array([0, 3, 4, 7])
+initial = None, learning = True, guard = None
+
+    def shadow(kc, dan, pk, pc, dc, mask, groups, *, initial=None, learning=True, guard=None):
+>       raise NotImplementedError("Fixed cold-onset raster wrapper not implemented yet")
+E       NotImplementedError: Fixed cold-onset raster wrapper not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:150: NotImplementedError
+_ test_wrapper_rejects_malformed_schedule_mapping_and_checkpoint_contract[raster] _
+
+mutation = 'raster'
+
+    @pytest.mark.parametrize("mutation", ["steps", "raster", "mask", "group_channel", "missing_channel", "initial64", "learning"])
+    def test_wrapper_rejects_malformed_schedule_mapping_and_checkpoint_contract(mutation):
+        args = raster_fixture()
+        kwargs = {}
+        if mutation == "steps": args[0] = args[0][:-1]
+        elif mutation == "raster": args[1][600, 0] = 2
+        elif mutation == "mask": args[5][0] = 2
+        elif mutation == "group_channel": args[6][0] = 4
+        elif mutation == "missing_channel": args[4][:] = 1
+        elif mutation == "initial64": kwargs["initial"] = np.ones(4, np.float64)
+        else: kwargs["learning"] = "false"
+        with pytest.raises(ValueError):
+>           candidate.shadow(*args, **kwargs)
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:186: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+kc = array([[0, 0],
+       [0, 0],
+       [0, 0],
+       ...,
+       [0, 0],
+       [0, 0],
+       [1, 0]], shape=(2000, 2), dtype=uint8)
+dan = array([[0, 0, 0, ..., 0, 0, 0],
+       [1, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [1, 0, 0, ..., 0, 0, 0]], shape=(2000, 24), dtype=uint8)
+pk = array([0, 1, 0, 1]), pc = array([0, 0, 1, 1])
+dc = array([0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+       1, 1])
+mask = array([1, 1, 1, 0], dtype=uint8), groups = array([0, 3, 4, 7])
+initial = None, learning = True, guard = None
+
+    def shadow(kc, dan, pk, pc, dc, mask, groups, *, initial=None, learning=True, guard=None):
+>       raise NotImplementedError("Fixed cold-onset raster wrapper not implemented yet")
+E       NotImplementedError: Fixed cold-onset raster wrapper not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:150: NotImplementedError
+_ test_wrapper_rejects_malformed_schedule_mapping_and_checkpoint_contract[mask] _
+
+mutation = 'mask'
+
+    @pytest.mark.parametrize("mutation", ["steps", "raster", "mask", "group_channel", "missing_channel", "initial64", "learning"])
+    def test_wrapper_rejects_malformed_schedule_mapping_and_checkpoint_contract(mutation):
+        args = raster_fixture()
+        kwargs = {}
+        if mutation == "steps": args[0] = args[0][:-1]
+        elif mutation == "raster": args[1][600, 0] = 2
+        elif mutation == "mask": args[5][0] = 2
+        elif mutation == "group_channel": args[6][0] = 4
+        elif mutation == "missing_channel": args[4][:] = 1
+        elif mutation == "initial64": kwargs["initial"] = np.ones(4, np.float64)
+        else: kwargs["learning"] = "false"
+        with pytest.raises(ValueError):
+>           candidate.shadow(*args, **kwargs)
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:186: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+kc = array([[0, 0],
+       [0, 0],
+       [0, 0],
+       ...,
+       [0, 0],
+       [0, 0],
+       [1, 0]], shape=(2000, 2), dtype=uint8)
+dan = array([[0, 0, 0, ..., 0, 0, 0],
+       [1, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [1, 0, 0, ..., 0, 0, 0]], shape=(2000, 24), dtype=uint8)
+pk = array([0, 1, 0, 1]), pc = array([0, 0, 1, 1])
+dc = array([0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+       1, 1])
+mask = array([2, 1, 1, 0], dtype=uint8), groups = array([0, 3, 4, 7])
+initial = None, learning = True, guard = None
+
+    def shadow(kc, dan, pk, pc, dc, mask, groups, *, initial=None, learning=True, guard=None):
+>       raise NotImplementedError("Fixed cold-onset raster wrapper not implemented yet")
+E       NotImplementedError: Fixed cold-onset raster wrapper not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:150: NotImplementedError
+_ test_wrapper_rejects_malformed_schedule_mapping_and_checkpoint_contract[group_channel] _
+
+mutation = 'group_channel'
+
+    @pytest.mark.parametrize("mutation", ["steps", "raster", "mask", "group_channel", "missing_channel", "initial64", "learning"])
+    def test_wrapper_rejects_malformed_schedule_mapping_and_checkpoint_contract(mutation):
+        args = raster_fixture()
+        kwargs = {}
+        if mutation == "steps": args[0] = args[0][:-1]
+        elif mutation == "raster": args[1][600, 0] = 2
+        elif mutation == "mask": args[5][0] = 2
+        elif mutation == "group_channel": args[6][0] = 4
+        elif mutation == "missing_channel": args[4][:] = 1
+        elif mutation == "initial64": kwargs["initial"] = np.ones(4, np.float64)
+        else: kwargs["learning"] = "false"
+        with pytest.raises(ValueError):
+>           candidate.shadow(*args, **kwargs)
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:186: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+kc = array([[0, 0],
+       [0, 0],
+       [0, 0],
+       ...,
+       [0, 0],
+       [0, 0],
+       [1, 0]], shape=(2000, 2), dtype=uint8)
+dan = array([[0, 0, 0, ..., 0, 0, 0],
+       [1, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [1, 0, 0, ..., 0, 0, 0]], shape=(2000, 24), dtype=uint8)
+pk = array([0, 1, 0, 1]), pc = array([0, 0, 1, 1])
+dc = array([0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+       1, 1])
+mask = array([1, 1, 1, 0], dtype=uint8), groups = array([4, 3, 4, 7])
+initial = None, learning = True, guard = None
+
+    def shadow(kc, dan, pk, pc, dc, mask, groups, *, initial=None, learning=True, guard=None):
+>       raise NotImplementedError("Fixed cold-onset raster wrapper not implemented yet")
+E       NotImplementedError: Fixed cold-onset raster wrapper not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:150: NotImplementedError
+_ test_wrapper_rejects_malformed_schedule_mapping_and_checkpoint_contract[missing_channel] _
+
+mutation = 'missing_channel'
+
+    @pytest.mark.parametrize("mutation", ["steps", "raster", "mask", "group_channel", "missing_channel", "initial64", "learning"])
+    def test_wrapper_rejects_malformed_schedule_mapping_and_checkpoint_contract(mutation):
+        args = raster_fixture()
+        kwargs = {}
+        if mutation == "steps": args[0] = args[0][:-1]
+        elif mutation == "raster": args[1][600, 0] = 2
+        elif mutation == "mask": args[5][0] = 2
+        elif mutation == "group_channel": args[6][0] = 4
+        elif mutation == "missing_channel": args[4][:] = 1
+        elif mutation == "initial64": kwargs["initial"] = np.ones(4, np.float64)
+        else: kwargs["learning"] = "false"
+        with pytest.raises(ValueError):
+>           candidate.shadow(*args, **kwargs)
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:186: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+kc = array([[0, 0],
+       [0, 0],
+       [0, 0],
+       ...,
+       [0, 0],
+       [0, 0],
+       [1, 0]], shape=(2000, 2), dtype=uint8)
+dan = array([[0, 0, 0, ..., 0, 0, 0],
+       [1, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [1, 0, 0, ..., 0, 0, 0]], shape=(2000, 24), dtype=uint8)
+pk = array([0, 1, 0, 1]), pc = array([0, 0, 1, 1])
+dc = array([1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+       1, 1])
+mask = array([1, 1, 1, 0], dtype=uint8), groups = array([0, 3, 4, 7])
+initial = None, learning = True, guard = None
+
+    def shadow(kc, dan, pk, pc, dc, mask, groups, *, initial=None, learning=True, guard=None):
+>       raise NotImplementedError("Fixed cold-onset raster wrapper not implemented yet")
+E       NotImplementedError: Fixed cold-onset raster wrapper not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:150: NotImplementedError
+_ test_wrapper_rejects_malformed_schedule_mapping_and_checkpoint_contract[initial64] _
+
+mutation = 'initial64'
+
+    @pytest.mark.parametrize("mutation", ["steps", "raster", "mask", "group_channel", "missing_channel", "initial64", "learning"])
+    def test_wrapper_rejects_malformed_schedule_mapping_and_checkpoint_contract(mutation):
+        args = raster_fixture()
+        kwargs = {}
+        if mutation == "steps": args[0] = args[0][:-1]
+        elif mutation == "raster": args[1][600, 0] = 2
+        elif mutation == "mask": args[5][0] = 2
+        elif mutation == "group_channel": args[6][0] = 4
+        elif mutation == "missing_channel": args[4][:] = 1
+        elif mutation == "initial64": kwargs["initial"] = np.ones(4, np.float64)
+        else: kwargs["learning"] = "false"
+        with pytest.raises(ValueError):
+>           candidate.shadow(*args, **kwargs)
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:186: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+kc = array([[0, 0],
+       [0, 0],
+       [0, 0],
+       ...,
+       [0, 0],
+       [0, 0],
+       [1, 0]], shape=(2000, 2), dtype=uint8)
+dan = array([[0, 0, 0, ..., 0, 0, 0],
+       [1, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [1, 0, 0, ..., 0, 0, 0]], shape=(2000, 24), dtype=uint8)
+pk = array([0, 1, 0, 1]), pc = array([0, 0, 1, 1])
+dc = array([0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+       1, 1])
+mask = array([1, 1, 1, 0], dtype=uint8), groups = array([0, 3, 4, 7])
+initial = array([1., 1., 1., 1.]), learning = True, guard = None
+
+    def shadow(kc, dan, pk, pc, dc, mask, groups, *, initial=None, learning=True, guard=None):
+>       raise NotImplementedError("Fixed cold-onset raster wrapper not implemented yet")
+E       NotImplementedError: Fixed cold-onset raster wrapper not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:150: NotImplementedError
+_ test_wrapper_rejects_malformed_schedule_mapping_and_checkpoint_contract[learning] _
+
+mutation = 'learning'
+
+    @pytest.mark.parametrize("mutation", ["steps", "raster", "mask", "group_channel", "missing_channel", "initial64", "learning"])
+    def test_wrapper_rejects_malformed_schedule_mapping_and_checkpoint_contract(mutation):
+        args = raster_fixture()
+        kwargs = {}
+        if mutation == "steps": args[0] = args[0][:-1]
+        elif mutation == "raster": args[1][600, 0] = 2
+        elif mutation == "mask": args[5][0] = 2
+        elif mutation == "group_channel": args[6][0] = 4
+        elif mutation == "missing_channel": args[4][:] = 1
+        elif mutation == "initial64": kwargs["initial"] = np.ones(4, np.float64)
+        else: kwargs["learning"] = "false"
+        with pytest.raises(ValueError):
+>           candidate.shadow(*args, **kwargs)
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:186: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+kc = array([[0, 0],
+       [0, 0],
+       [0, 0],
+       ...,
+       [0, 0],
+       [0, 0],
+       [1, 0]], shape=(2000, 2), dtype=uint8)
+dan = array([[0, 0, 0, ..., 0, 0, 0],
+       [1, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [1, 0, 0, ..., 0, 0, 0]], shape=(2000, 24), dtype=uint8)
+pk = array([0, 1, 0, 1]), pc = array([0, 0, 1, 1])
+dc = array([0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+       1, 1])
+mask = array([1, 1, 1, 0], dtype=uint8), groups = array([0, 3, 4, 7])
+initial = None, learning = 'false', guard = None
+
+    def shadow(kc, dan, pk, pc, dc, mask, groups, *, initial=None, learning=True, guard=None):
+>       raise NotImplementedError("Fixed cold-onset raster wrapper not implemented yet")
+E       NotImplementedError: Fixed cold-onset raster wrapper not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:150: NotImplementedError
+=========================== short test summary info ============================
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_cold_onset_channel_normalization_and_tail_wrapper_match_independent_reference
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_off_and_masked_gains_preserve_exact_checkpoint_bytes_without_mutating_inputs[False-False]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_off_and_masked_gains_preserve_exact_checkpoint_bytes_without_mutating_inputs[False-True]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_off_and_masked_gains_preserve_exact_checkpoint_bytes_without_mutating_inputs[True-False]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_off_and_masked_gains_preserve_exact_checkpoint_bytes_without_mutating_inputs[True-True]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_pre_onset_history_is_excluded_and_checkpoint_resets_all_signals
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_inclusive_bound_observations_use_each_full_step_and_one_whole_tail
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_wrapper_rejects_malformed_schedule_mapping_and_checkpoint_contract[steps]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_wrapper_rejects_malformed_schedule_mapping_and_checkpoint_contract[raster]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_wrapper_rejects_malformed_schedule_mapping_and_checkpoint_contract[mask]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_wrapper_rejects_malformed_schedule_mapping_and_checkpoint_contract[group_channel]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_wrapper_rejects_malformed_schedule_mapping_and_checkpoint_contract[missing_channel]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_wrapper_rejects_malformed_schedule_mapping_and_checkpoint_contract[initial64]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_wrapper_rejects_malformed_schedule_mapping_and_checkpoint_contract[learning]
+14 failed, 83 passed in 3.13s

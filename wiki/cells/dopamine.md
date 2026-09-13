@@ -58,6 +58,28 @@ signaling. Its three-state topology is an uninstantiated engineering hypothesis;
 the inspected papers do not calibrate its kinetics for PPL101/MBON11 or
 PAM12/MBON09. The simulator still has no such receptor-state mechanism.
 
+The separate [weight-state hypothesis](../../docs/evidence/reward-mechanism-repair-2026-09-12/dopamine-weight-state-decision-2026-09-13.md)
+lets ongoing positive and negative plasticity depend on the edge's current
+normalized gain. Balanced activity then restores an altered gain toward one;
+silence after filter decay does not erase it. This is an engineered
+distance-to-bound rule, not a measurement of presynaptic release probability
+or a molecular mechanism calibrated for these named cells. It still cancels
+exactly coincident proportional signals at a fresh gain. Independent numerical
+references and a [fixed-history protocol](../../docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-preregistration-2026-09-13.md)
+supported its subsequent test on all 32 histories. The
+[result rejects this law](../../docs/evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-result-2026-09-13.md):
+the second/base home mean −0.268754929304 still exceeds the 0.235695145300
+limit. Independent numerical agreement establishes that result's calculation;
+it does not identify a missing molecular mechanism as the cause.
+
+A [quantitative source check](../../docs/evidence/reward-mechanism-repair-2026-09-12/tonic-burst-dopamine-quantitative-source-check-2026-09-13.md)
+finds adult-fly regional release measurements and distinct receptor dose
+responses in cultured cells. Neither measures the complete spike-to-dopamine-
+to-plasticity relationship at the selected γ1pedc or γ3 synapses. DAMB/DopR2
+in that receptor literature is not the D2-like receptor. The report also
+separates live-fly sensor evidence from mouse-slice kinetics, so those numbers
+are not silently assigned to the named fly cells.
+
 The rectified-rate adaptation hypothesis was tested under a
 frozen numerical contract on all 32 saved histories and **rejected**. All four
 home guards failed through excessive potentiation; second/base mean was

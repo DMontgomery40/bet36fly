@@ -1,0 +1,1191 @@
+{
+  "run_id": "weight-state-shadow-de1ab218973eb3ecd3d3",
+  "status": "pass",
+  "screen": "reject",
+  "computed_shadow_screen": "reject",
+  "attempted": 128,
+  "completed": 128,
+  "rows": 32,
+  "scalar_checks": 1024,
+  "guards": {
+    "0/base/home": {
+      "ticks": [
+        -585112,
+        -167677,
+        4180332,
+        -2249655,
+        -10567971,
+        343570,
+        -4062770,
+        -802806
+      ],
+      "lower_ticks": [
+        -585112,
+        -167677,
+        4180332,
+        -2249655,
+        -10567971,
+        343570,
+        -4062770,
+        -802806
+      ],
+      "upper_ticks": [
+        -585112,
+        -167677,
+        4180332,
+        -2249655,
+        -10567971,
+        343570,
+        -4062770,
+        -802806
+      ],
+      "point_pass": true,
+      "mean": -0.10365314036607742,
+      "sample_sd": 0.25454539850626495,
+      "limit": 0.12727269925313248,
+      "conditional": {
+        "classification": "all_pass",
+        "mean_interval": [
+          {
+            "numerator": -13912089,
+            "denominator": 8
+          },
+          {
+            "numerator": -13912089,
+            "denominator": 8
+          }
+        ],
+        "minimum_mean_squared": {
+          "numerator": 193546220343921,
+          "denominator": 64
+        },
+        "maximum_mean_squared": {
+          "numerator": 193546220343921,
+          "denominator": 64
+        },
+        "minimum_variance": {
+          "numerator": 1021311730267271,
+          "denominator": 56
+        },
+        "maximum_variance": {
+          "numerator": 1021311730267271,
+          "denominator": 56
+        },
+        "minimum_variance_witness": [
+          {
+            "numerator": -585112,
+            "denominator": 1
+          },
+          {
+            "numerator": -167677,
+            "denominator": 1
+          },
+          {
+            "numerator": 4180332,
+            "denominator": 1
+          },
+          {
+            "numerator": -2249655,
+            "denominator": 1
+          },
+          {
+            "numerator": -10567971,
+            "denominator": 1
+          },
+          {
+            "numerator": 343570,
+            "denominator": 1
+          },
+          {
+            "numerator": -4062770,
+            "denominator": 1
+          },
+          {
+            "numerator": -802806,
+            "denominator": 1
+          }
+        ],
+        "scope": "Conservative universal classification conditional on the declared numerical enclosure; scientific guard unchanged"
+      }
+    },
+    "0/base/away": {
+      "ticks": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lower_ticks": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "upper_ticks": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "point_pass": true,
+      "mean": 0.0,
+      "sample_sd": 0.0,
+      "limit": 0.0,
+      "conditional": {
+        "classification": "all_pass",
+        "mean_interval": [
+          {
+            "numerator": 0,
+            "denominator": 1
+          },
+          {
+            "numerator": 0,
+            "denominator": 1
+          }
+        ],
+        "minimum_mean_squared": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "maximum_mean_squared": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "minimum_variance": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "maximum_variance": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "minimum_variance_witness": [
+          {
+            "numerator": 0,
+            "denominator": 1
+          },
+          {
+            "numerator": 0,
+            "denominator": 1
+          },
+          {
+            "numerator": 0,
+            "denominator": 1
+          },
+          {
+            "numerator": 0,
+            "denominator": 1
+          },
+          {
+            "numerator": 0,
+            "denominator": 1
+          },
+          {
+            "numerator": 0,
+            "denominator": 1
+          },
+          {
+            "numerator": 0,
+            "denominator": 1
+          },
+          {
+            "numerator": 0,
+            "denominator": 1
+          }
+        ],
+        "scope": "Conservative universal classification conditional on the declared numerical enclosure; scientific guard unchanged"
+      }
+    },
+    "0/alt/home": {
+      "ticks": [
+        -1218002,
+        1942376,
+        -1835540,
+        -3308871,
+        -3527138,
+        8445696,
+        -4879707,
+        -3849633
+      ],
+      "lower_ticks": [
+        -1218002,
+        1942376,
+        -1835540,
+        -3308871,
+        -3527138,
+        8445696,
+        -4879707,
+        -3849633
+      ],
+      "upper_ticks": [
+        -1218002,
+        1942376,
+        -1835540,
+        -3308871,
+        -3527138,
+        8445696,
+        -4879707,
+        -3849633
+      ],
+      "point_pass": true,
+      "mean": -0.061324380338191986,
+      "sample_sd": 0.26030592842715794,
+      "limit": 0.13015296421357897,
+      "conditional": {
+        "classification": "all_pass",
+        "mean_interval": [
+          {
+            "numerator": -8230819,
+            "denominator": 8
+          },
+          {
+            "numerator": -8230819,
+            "denominator": 8
+          }
+        ],
+        "minimum_mean_squared": {
+          "numerator": 67746381410761,
+          "denominator": 64
+        },
+        "maximum_mean_squared": {
+          "numerator": 67746381410761,
+          "denominator": 64
+        },
+        "minimum_variance": {
+          "numerator": 1068060705146191,
+          "denominator": 56
+        },
+        "maximum_variance": {
+          "numerator": 1068060705146191,
+          "denominator": 56
+        },
+        "minimum_variance_witness": [
+          {
+            "numerator": -1218002,
+            "denominator": 1
+          },
+          {
+            "numerator": 1942376,
+            "denominator": 1
+          },
+          {
+            "numerator": -1835540,
+            "denominator": 1
+          },
+          {
+            "numerator": -3308871,
+            "denominator": 1
+          },
+          {
+            "numerator": -3527138,
+            "denominator": 1
+          },
+          {
+            "numerator": 8445696,
+            "denominator": 1
+          },
+          {
+            "numerator": -4879707,
+            "denominator": 1
+          },
+          {
+            "numerator": -3849633,
+            "denominator": 1
+          }
+        ],
+        "scope": "Conservative universal classification conditional on the declared numerical enclosure; scientific guard unchanged"
+      }
+    },
+    "0/alt/away": {
+      "ticks": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lower_ticks": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "upper_ticks": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "point_pass": true,
+      "mean": 0.0,
+      "sample_sd": 0.0,
+      "limit": 0.0,
+      "conditional": {
+        "classification": "all_pass",
+        "mean_interval": [
+          {
+            "numerator": 0,
+            "denominator": 1
+          },
+          {
+            "numerator": 0,
+            "denominator": 1
+          }
+        ],
+        "minimum_mean_squared": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "maximum_mean_squared": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "minimum_variance": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "maximum_variance": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "minimum_variance_witness": [
+          {
+            "numerator": 0,
+            "denominator": 1
+          },
+          {
+            "numerator": 0,
+            "denominator": 1
+          },
+          {
+            "numerator": 0,
+            "denominator": 1
+          },
+          {
+            "numerator": 0,
+            "denominator": 1
+          },
+          {
+            "numerator": 0,
+            "denominator": 1
+          },
+          {
+            "numerator": 0,
+            "denominator": 1
+          },
+          {
+            "numerator": 0,
+            "denominator": 1
+          },
+          {
+            "numerator": 0,
+            "denominator": 1
+          }
+        ],
+        "scope": "Conservative universal classification conditional on the declared numerical enclosure; scientific guard unchanged"
+      }
+    },
+    "1/base/home": {
+      "ticks": [
+        -7707382,
+        -3908931,
+        2469972,
+        -1318969,
+        114834,
+        -538827,
+        -22605323,
+        -2577050
+      ],
+      "lower_ticks": [
+        -7707382,
+        -3908931,
+        2469972,
+        -1318969,
+        114834,
+        -538828,
+        -22605324,
+        -2577050
+      ],
+      "upper_ticks": [
+        -7707382,
+        -3908931,
+        2469972,
+        -1318969,
+        114834,
+        -538827,
+        -22605323,
+        -2577049
+      ],
+      "point_pass": false,
+      "mean": -0.2687549293041229,
+      "sample_sd": 0.47139029060085247,
+      "limit": 0.23569514530042623,
+      "conditional": {
+        "classification": "all_fail",
+        "mean_interval": [
+          {
+            "numerator": -18035839,
+            "denominator": 4
+          },
+          {
+            "numerator": -36071675,
+            "denominator": 8
+          }
+        ],
+        "minimum_mean_squared": {
+          "numerator": 1301165737305625,
+          "denominator": 64
+        },
+        "maximum_mean_squared": {
+          "numerator": 325291488433921,
+          "denominator": 16
+        },
+        "minimum_variance": {
+          "numerator": 3502588173274863,
+          "denominator": 56
+        },
+        "maximum_variance": {
+          "numerator": 437823569656170,
+          "denominator": 7
+        },
+        "minimum_variance_witness": [
+          {
+            "numerator": -7707382,
+            "denominator": 1
+          },
+          {
+            "numerator": -3908931,
+            "denominator": 1
+          },
+          {
+            "numerator": 2469972,
+            "denominator": 1
+          },
+          {
+            "numerator": -1318969,
+            "denominator": 1
+          },
+          {
+            "numerator": 114834,
+            "denominator": 1
+          },
+          {
+            "numerator": -538828,
+            "denominator": 1
+          },
+          {
+            "numerator": -22605323,
+            "denominator": 1
+          },
+          {
+            "numerator": -2577050,
+            "denominator": 1
+          }
+        ],
+        "scope": "Conservative universal classification conditional on the declared numerical enclosure; scientific guard unchanged"
+      }
+    },
+    "1/base/away": {
+      "ticks": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lower_ticks": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "upper_ticks": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "point_pass": true,
+      "mean": 0.0,
+      "sample_sd": 0.0,
+      "limit": 0.0,
+      "conditional": {
+        "classification": "all_pass",
+        "mean_interval": [
+          {
+            "numerator": 0,
+            "denominator": 1
+          },
+          {
+            "numerator": 0,
+            "denominator": 1
+          }
+        ],
+        "minimum_mean_squared": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "maximum_mean_squared": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "minimum_variance": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "maximum_variance": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "minimum_variance_witness": [
+          {
+            "numerator": 0,
+            "denominator": 1
+          },
+          {
+            "numerator": 0,
+            "denominator": 1
+          },
+          {
+            "numerator": 0,
+            "denominator": 1
+          },
+          {
+            "numerator": 0,
+            "denominator": 1
+          },
+          {
+            "numerator": 0,
+            "denominator": 1
+          },
+          {
+            "numerator": 0,
+            "denominator": 1
+          },
+          {
+            "numerator": 0,
+            "denominator": 1
+          },
+          {
+            "numerator": 0,
+            "denominator": 1
+          }
+        ],
+        "scope": "Conservative universal classification conditional on the declared numerical enclosure; scientific guard unchanged"
+      }
+    },
+    "1/alt/home": {
+      "ticks": [
+        -844626,
+        3137702,
+        -6523922,
+        -4358403,
+        -3131170,
+        2084121,
+        1314970,
+        -1699829
+      ],
+      "lower_ticks": [
+        -844626,
+        3137702,
+        -6523922,
+        -4358404,
+        -3131170,
+        2084121,
+        1314970,
+        -1699829
+      ],
+      "upper_ticks": [
+        -844626,
+        3137702,
+        -6523922,
+        -4358403,
+        -3131168,
+        2084121,
+        1314970,
+        -1699829
+      ],
+      "point_pass": true,
+      "mean": -0.0746634379029274,
+      "sample_sd": 0.19938521036767662,
+      "limit": 0.09969260518383831,
+      "conditional": {
+        "classification": "all_pass",
+        "mean_interval": [
+          {
+            "numerator": -5010579,
+            "denominator": 4
+          },
+          {
+            "numerator": -10021155,
+            "denominator": 8
+          }
+        ],
+        "minimum_mean_squared": {
+          "numerator": 100423547534025,
+          "denominator": 64
+        },
+        "maximum_mean_squared": {
+          "numerator": 25105901915241,
+          "denominator": 16
+        },
+        "minimum_variance": {
+          "numerator": 626633572547407,
+          "denominator": 56
+        },
+        "maximum_variance": {
+          "numerator": 156658420588083,
+          "denominator": 14
+        },
+        "minimum_variance_witness": [
+          {
+            "numerator": -844626,
+            "denominator": 1
+          },
+          {
+            "numerator": 3137702,
+            "denominator": 1
+          },
+          {
+            "numerator": -6523922,
+            "denominator": 1
+          },
+          {
+            "numerator": -4358403,
+            "denominator": 1
+          },
+          {
+            "numerator": -3131168,
+            "denominator": 1
+          },
+          {
+            "numerator": 2084121,
+            "denominator": 1
+          },
+          {
+            "numerator": 1314970,
+            "denominator": 1
+          },
+          {
+            "numerator": -1699829,
+            "denominator": 1
+          }
+        ],
+        "scope": "Conservative universal classification conditional on the declared numerical enclosure; scientific guard unchanged"
+      }
+    },
+    "1/alt/away": {
+      "ticks": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lower_ticks": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "upper_ticks": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "point_pass": true,
+      "mean": 0.0,
+      "sample_sd": 0.0,
+      "limit": 0.0,
+      "conditional": {
+        "classification": "all_pass",
+        "mean_interval": [
+          {
+            "numerator": 0,
+            "denominator": 1
+          },
+          {
+            "numerator": 0,
+            "denominator": 1
+          }
+        ],
+        "minimum_mean_squared": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "maximum_mean_squared": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "minimum_variance": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "maximum_variance": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "minimum_variance_witness": [
+          {
+            "numerator": 0,
+            "denominator": 1
+          },
+          {
+            "numerator": 0,
+            "denominator": 1
+          },
+          {
+            "numerator": 0,
+            "denominator": 1
+          },
+          {
+            "numerator": 0,
+            "denominator": 1
+          },
+          {
+            "numerator": 0,
+            "denominator": 1
+          },
+          {
+            "numerator": 0,
+            "denominator": 1
+          },
+          {
+            "numerator": 0,
+            "denominator": 1
+          },
+          {
+            "numerator": 0,
+            "denominator": 1
+          }
+        ],
+        "scope": "Conservative universal classification conditional on the declared numerical enclosure; scientific guard unchanged"
+      }
+    }
+  },
+  "maximum_absolute_errors": {
+    "gain": 8.992806499463768e-15,
+    "electrical_gain": 7.66053886991358e-15,
+    "positive": 7.28583859910259e-16,
+    "negative": 7.147060721024445e-16,
+    "electrical_positive": 4.787836793695988e-16,
+    "electrical_negative": 4.614364446098307e-16,
+    "tail_positive": 2.5153490401663703e-16,
+    "tail_negative": 2.5153490401663703e-16
+  },
+  "row_checks": [
+    {
+      "index": 0,
+      "publications": 11141923,
+      "actual_bound_contacts": 0,
+      "conditional_bound_contacts": 0,
+      "rounding_ambiguous_publications": 197
+    },
+    {
+      "index": 1,
+      "publications": 11141923,
+      "actual_bound_contacts": 0,
+      "conditional_bound_contacts": 0,
+      "rounding_ambiguous_publications": 189
+    },
+    {
+      "index": 2,
+      "publications": 11141923,
+      "actual_bound_contacts": 0,
+      "conditional_bound_contacts": 0,
+      "rounding_ambiguous_publications": 124
+    },
+    {
+      "index": 3,
+      "publications": 11141923,
+      "actual_bound_contacts": 0,
+      "conditional_bound_contacts": 0,
+      "rounding_ambiguous_publications": 157
+    },
+    {
+      "index": 4,
+      "publications": 11141923,
+      "actual_bound_contacts": 0,
+      "conditional_bound_contacts": 0,
+      "rounding_ambiguous_publications": 304
+    },
+    {
+      "index": 5,
+      "publications": 11141923,
+      "actual_bound_contacts": 0,
+      "conditional_bound_contacts": 0,
+      "rounding_ambiguous_publications": 332
+    },
+    {
+      "index": 6,
+      "publications": 11141923,
+      "actual_bound_contacts": 0,
+      "conditional_bound_contacts": 0,
+      "rounding_ambiguous_publications": 124
+    },
+    {
+      "index": 7,
+      "publications": 11141923,
+      "actual_bound_contacts": 0,
+      "conditional_bound_contacts": 0,
+      "rounding_ambiguous_publications": 163
+    },
+    {
+      "index": 8,
+      "publications": 11141923,
+      "actual_bound_contacts": 0,
+      "conditional_bound_contacts": 0,
+      "rounding_ambiguous_publications": 289
+    },
+    {
+      "index": 9,
+      "publications": 11141923,
+      "actual_bound_contacts": 0,
+      "conditional_bound_contacts": 0,
+      "rounding_ambiguous_publications": 243
+    },
+    {
+      "index": 10,
+      "publications": 11141923,
+      "actual_bound_contacts": 0,
+      "conditional_bound_contacts": 0,
+      "rounding_ambiguous_publications": 326
+    },
+    {
+      "index": 11,
+      "publications": 11141923,
+      "actual_bound_contacts": 0,
+      "conditional_bound_contacts": 0,
+      "rounding_ambiguous_publications": 359
+    },
+    {
+      "index": 12,
+      "publications": 11141923,
+      "actual_bound_contacts": 0,
+      "conditional_bound_contacts": 0,
+      "rounding_ambiguous_publications": 262
+    },
+    {
+      "index": 13,
+      "publications": 11141923,
+      "actual_bound_contacts": 0,
+      "conditional_bound_contacts": 0,
+      "rounding_ambiguous_publications": 292
+    },
+    {
+      "index": 14,
+      "publications": 11141923,
+      "actual_bound_contacts": 0,
+      "conditional_bound_contacts": 0,
+      "rounding_ambiguous_publications": 184
+    },
+    {
+      "index": 15,
+      "publications": 11141923,
+      "actual_bound_contacts": 0,
+      "conditional_bound_contacts": 0,
+      "rounding_ambiguous_publications": 220
+    },
+    {
+      "index": 16,
+      "publications": 11141923,
+      "actual_bound_contacts": 0,
+      "conditional_bound_contacts": 0,
+      "rounding_ambiguous_publications": 219
+    },
+    {
+      "index": 17,
+      "publications": 11141923,
+      "actual_bound_contacts": 0,
+      "conditional_bound_contacts": 0,
+      "rounding_ambiguous_publications": 229
+    },
+    {
+      "index": 18,
+      "publications": 11141923,
+      "actual_bound_contacts": 0,
+      "conditional_bound_contacts": 0,
+      "rounding_ambiguous_publications": 310
+    },
+    {
+      "index": 19,
+      "publications": 11141923,
+      "actual_bound_contacts": 0,
+      "conditional_bound_contacts": 0,
+      "rounding_ambiguous_publications": 301
+    },
+    {
+      "index": 20,
+      "publications": 11141923,
+      "actual_bound_contacts": 0,
+      "conditional_bound_contacts": 0,
+      "rounding_ambiguous_publications": 177
+    },
+    {
+      "index": 21,
+      "publications": 11141923,
+      "actual_bound_contacts": 0,
+      "conditional_bound_contacts": 0,
+      "rounding_ambiguous_publications": 220
+    },
+    {
+      "index": 22,
+      "publications": 11141923,
+      "actual_bound_contacts": 0,
+      "conditional_bound_contacts": 0,
+      "rounding_ambiguous_publications": 190
+    },
+    {
+      "index": 23,
+      "publications": 11141923,
+      "actual_bound_contacts": 0,
+      "conditional_bound_contacts": 0,
+      "rounding_ambiguous_publications": 202
+    },
+    {
+      "index": 24,
+      "publications": 11141923,
+      "actual_bound_contacts": 0,
+      "conditional_bound_contacts": 0,
+      "rounding_ambiguous_publications": 207
+    },
+    {
+      "index": 25,
+      "publications": 11141923,
+      "actual_bound_contacts": 0,
+      "conditional_bound_contacts": 0,
+      "rounding_ambiguous_publications": 209
+    },
+    {
+      "index": 26,
+      "publications": 11141923,
+      "actual_bound_contacts": 0,
+      "conditional_bound_contacts": 0,
+      "rounding_ambiguous_publications": 203
+    },
+    {
+      "index": 27,
+      "publications": 11141923,
+      "actual_bound_contacts": 0,
+      "conditional_bound_contacts": 0,
+      "rounding_ambiguous_publications": 178
+    },
+    {
+      "index": 28,
+      "publications": 11141923,
+      "actual_bound_contacts": 0,
+      "conditional_bound_contacts": 0,
+      "rounding_ambiguous_publications": 517
+    },
+    {
+      "index": 29,
+      "publications": 11141923,
+      "actual_bound_contacts": 0,
+      "conditional_bound_contacts": 0,
+      "rounding_ambiguous_publications": 378
+    },
+    {
+      "index": 30,
+      "publications": 11141923,
+      "actual_bound_contacts": 0,
+      "conditional_bound_contacts": 0,
+      "rounding_ambiguous_publications": 245
+    },
+    {
+      "index": 31,
+      "publications": 11141923,
+      "actual_bound_contacts": 0,
+      "conditional_bound_contacts": 0,
+      "rounding_ambiguous_publications": 190
+    }
+  ],
+  "reference_files": [
+    "reference_00_4321.json",
+    "reference_00_2436.json",
+    "reference_00_5563.json",
+    "reference_00_4295.json",
+    "reference_01_4321.json",
+    "reference_01_2436.json",
+    "reference_01_5563.json",
+    "reference_01_4295.json",
+    "reference_02_4321.json",
+    "reference_02_2436.json",
+    "reference_02_5563.json",
+    "reference_02_4295.json",
+    "reference_03_4321.json",
+    "reference_03_2436.json",
+    "reference_03_5563.json",
+    "reference_03_4295.json",
+    "reference_04_4321.json",
+    "reference_04_2436.json",
+    "reference_04_5563.json",
+    "reference_04_4295.json",
+    "reference_05_4321.json",
+    "reference_05_2436.json",
+    "reference_05_5563.json",
+    "reference_05_4295.json",
+    "reference_06_4321.json",
+    "reference_06_2436.json",
+    "reference_06_5563.json",
+    "reference_06_4295.json",
+    "reference_07_4321.json",
+    "reference_07_2436.json",
+    "reference_07_5563.json",
+    "reference_07_4295.json",
+    "reference_08_4321.json",
+    "reference_08_2436.json",
+    "reference_08_5563.json",
+    "reference_08_4295.json",
+    "reference_09_4321.json",
+    "reference_09_2436.json",
+    "reference_09_5563.json",
+    "reference_09_4295.json",
+    "reference_10_4321.json",
+    "reference_10_2436.json",
+    "reference_10_5563.json",
+    "reference_10_4295.json",
+    "reference_11_4321.json",
+    "reference_11_2436.json",
+    "reference_11_5563.json",
+    "reference_11_4295.json",
+    "reference_12_4321.json",
+    "reference_12_2436.json",
+    "reference_12_5563.json",
+    "reference_12_4295.json",
+    "reference_13_4321.json",
+    "reference_13_2436.json",
+    "reference_13_5563.json",
+    "reference_13_4295.json",
+    "reference_14_4321.json",
+    "reference_14_2436.json",
+    "reference_14_5563.json",
+    "reference_14_4295.json",
+    "reference_15_4321.json",
+    "reference_15_2436.json",
+    "reference_15_5563.json",
+    "reference_15_4295.json",
+    "reference_16_4321.json",
+    "reference_16_2436.json",
+    "reference_16_5563.json",
+    "reference_16_4295.json",
+    "reference_17_4321.json",
+    "reference_17_2436.json",
+    "reference_17_5563.json",
+    "reference_17_4295.json",
+    "reference_18_4321.json",
+    "reference_18_2436.json",
+    "reference_18_5563.json",
+    "reference_18_4295.json",
+    "reference_19_4321.json",
+    "reference_19_2436.json",
+    "reference_19_5563.json",
+    "reference_19_4295.json",
+    "reference_20_4321.json",
+    "reference_20_2436.json",
+    "reference_20_5563.json",
+    "reference_20_4295.json",
+    "reference_21_4321.json",
+    "reference_21_2436.json",
+    "reference_21_5563.json",
+    "reference_21_4295.json",
+    "reference_22_4321.json",
+    "reference_22_2436.json",
+    "reference_22_5563.json",
+    "reference_22_4295.json",
+    "reference_23_4321.json",
+    "reference_23_2436.json",
+    "reference_23_5563.json",
+    "reference_23_4295.json",
+    "reference_24_4321.json",
+    "reference_24_2436.json",
+    "reference_24_5563.json",
+    "reference_24_4295.json",
+    "reference_25_4321.json",
+    "reference_25_2436.json",
+    "reference_25_5563.json",
+    "reference_25_4295.json",
+    "reference_26_4321.json",
+    "reference_26_2436.json",
+    "reference_26_5563.json",
+    "reference_26_4295.json",
+    "reference_27_4321.json",
+    "reference_27_2436.json",
+    "reference_27_5563.json",
+    "reference_27_4295.json",
+    "reference_28_4321.json",
+    "reference_28_2436.json",
+    "reference_28_5563.json",
+    "reference_28_4295.json",
+    "reference_29_4321.json",
+    "reference_29_2436.json",
+    "reference_29_5563.json",
+    "reference_29_4295.json",
+    "reference_30_4321.json",
+    "reference_30_2436.json",
+    "reference_30_5563.json",
+    "reference_30_4295.json",
+    "reference_31_4321.json",
+    "reference_31_2436.json",
+    "reference_31_5563.json",
+    "reference_31_4295.json"
+  ],
+  "gain_allowance": 1e-11,
+  "weighted_area_allowance": 2e-11,
+  "limitations": [
+    "Conditional numerical allowance, not a formal interval proof",
+    "128 fixed edges independently integrated; all edges checked structurally and arithmetically",
+    "Saved phase endpoints/counters do not reconstruct every intermediate bound or rounding event",
+    "Fixed histories have no candidate gain feedback; this is not circuit or biological qualification"
+  ],
+  "elapsed_seconds": 22.439677875023335,
+  "circuit_calls": 0,
+  "native_calls": 0,
+  "network_requests": 0,
+  "finished_at": "2026-09-13T08:07:21.620150+00:00"
+}

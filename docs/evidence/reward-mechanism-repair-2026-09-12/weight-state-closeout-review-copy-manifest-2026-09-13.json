@@ -1,0 +1,21 @@
+{
+  "created_at_utc": "2026-09-13T08:22:47.060747+00:00",
+  "status": "pass",
+  "scope": "Two final read-only review artifacts copied after the 271-pair checkpoint verification; originals preserved. No code/protocol or experiment rerun.",
+  "copies": [
+    {
+      "source": "output/collaboration/reward-mechanism-repair/evidence-ui-weight-state-closeout-review-2026-09-13.md",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/evidence-ui-weight-state-closeout-review-2026-09-13.md",
+      "bytes": 2414,
+      "sha256": "611b55b328a10e135222d66877223e344fd38bd229c7ebe4ddabf32542abdcd1",
+      "original_preserved": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/evidence-ui-weight-state-closeout-reading-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/evidence-ui-weight-state-closeout-reading-2026-09-13.json",
+      "bytes": 86588,
+      "sha256": "e3f7a538528e5e498d005da097c7facb6a6242d8e15872bb54e39685c9c6b180",
+      "original_preserved": true
+    }
+  ]
+}

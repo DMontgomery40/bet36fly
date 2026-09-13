@@ -1,5 +1,107 @@
 # Continue the dopamine mechanism repair
 
+## Active continuation boundary: September 13, 2026, 08:14 UTC
+
+Continue the existing full repair goal. It remains active and incomplete.
+Inspect Git for the local evidence checkpoint following `62aa5dd`; no push
+or promotion occurred. All computations below are finished, and their owned
+sessions are closed. No QA server, new native candidate, conditioning,
+reversal or sports pilot was started. The production failed qualification
+pair and accepted interfaces/gains remain unchanged.
+
+The single [weight-state shadow](evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-result-2026-09-13.md)
+completed all 32 histories in 82.316621 seconds and is **rejected**. Identity
+`weight-state-shadow-de1ab218973eb3ecd3d3` binds 60 files / 9,967,809 bytes;
+its frozen plan SHA256 is
+`95f0b95f0c64642348ed56e7b87135c97b4891e42e2091abb70bdc4c88ea80c0`.
+Second/base home mean −0.268754929304 exceeds the 0.235695145300 limit.
+The other seven guard cells pass. There are zero actual or possible bounds;
+7,740 ambiguous publications remain explicitly recorded. Do not rerun this
+identity or tune its parameters against the outcome.
+
+The [independent audit](evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-independent-audit-report-2026-09-13.md)
+passes all 128 prescribed references / 1,024 scalar comparisons in 22.440411
+seconds through summary persistence. Largest final-gain error is 8.99e-15;
+all 60 inputs and 68 original result files are unchanged. The complete 132-file
+audit, 68-file shadow, code/tests/contracts and receipts are copied into
+repository evidence without moving originals. Conditional numerical allowances
+and the limit on independently reconstructing transient counters remain visible.
+Neither this valid rejection nor the passing software tests establishes learning.
+
+The [tonic/burst source inquiry](evidence/reward-mechanism-repair-2026-09-12/tonic-burst-dopamine-quantitative-source-check-2026-09-13.md)
+was declared before the outcome and completed four queries/six primary-page
+opens. It found adult-fly regional release dependence and distinct cultured
+Drosophila receptor dose/activation measurements. These are not calibrated
+spike-to-local-dopamine-to-plasticity parameters for our PPL101/MBON11 or
+PAM12/MBON09 synapses. It also separates fly sensor evidence from mouse-slice
+kinetics. No parameter or new candidate was selected. Read the exact preparation,
+cell/region, units, access limits and transfer boundaries before further design.
+
+The completed [partners metadata inventory](evidence/reward-mechanism-repair-2026-09-12/partners-metadata-v2-result-2026-09-13.md)
+still establishes 2,013,351,963 unread body-column buffer bytes. No body IDs,
+coordinates or selected contact export has been retrieved. No new network
+operation follows automatically from that storage-cost result.
+
+Fresh root checks passed: `make verify` (4,055 Python tests, two existing
+warnings; 85 frontend tests; Ruff and Vite), all 794 new synthetic cases from
+their copied evidence location, and all 791 protected files plus complete
+inventory across verification and the shadow/audit. Production/API/UI behavior
+is unchanged, so no new browser/server run was needed. Preserve the earlier
+cache-regeneration and QA-startup exceptions as dated history.
+
+Next substantive work is signal generation and plasticity coupling grounded
+in the quantitative source evidence and named-cell constraints. Do not revive
+rejected onset, rectified adaptation or symmetric gain-dependence through
+parameter/threshold selection. A new mechanism needs a distinct frozen identity,
+independent numerical tests and both complete unchanged circuit qualification
+panels before the already implemented conditioning/reversal protocol can run.
+Keep one production writer and have every working agent read all narrative
+docs/wiki and new deltas personally. Inspect current agent status before
+assigning work; the prior preparation/audit/source assignments are complete.
+
+## Active continuation boundary: September 13, 2026, 07:54 UTC
+
+Continue the existing active goal. HEAD is local `62aa5dd`; new evidence copies
+and narrative updates are uncommitted. No push, new native/circuit candidate,
+conditioning or reversal has occurred. The failed qualification pair remains
+unchanged; the complete goal is not achieved by the following preparation.
+
+The [v2 partners inventory](evidence/reward-mechanism-repair-2026-09-12/partners-metadata-v2-result-2026-09-13.md)
+finished all 4,759 requests in 815.861276 seconds. Its complete five-file run,
+result and audit/reading receipts are copied into evidence with originals
+preserved. All 9,518 journal records and metadata slices passed the saved-file
+audit. The two body-ID columns declare **2,013,351,963 unread buffer bytes**.
+No body values or coordinates were downloaded. Session `61220` is finished;
+do not restart it or dispatch another request from the older boundary below.
+
+The fixed [weight-state shadow protocol](evidence/reward-mechanism-repair-2026-09-12/weight-state-shadow-preregistration-2026-09-13.md)
+is prepared. The helper, independent DOP853/70-digit references, exact float32
+guard and failure-safe runner pass **539 distinct synthetic tests**. Root
+independently ran those 539 tests in 28.40 seconds. The new rule is still an
+explicit engineering hypothesis, not calibrated fly receptor kinetics or a
+demonstrated repair. No saved history has been evaluated under it yet.
+
+`/root/dopamine_sources` is preparing the independent saved-result auditor and
+synthetic mutation tests. Its planned files are `audit_weight_state_shadow.py`
+and `test_audit_weight_state_shadow.py` under the shared output directory.
+They must exist and pass before root creates the new frozen study identity.
+Then run the single 32-history shadow and its predeclared 128 scalar-reference
+audit; keep every unchanged guard, mask, gain and timing boundary. A computed
+summary needs its separate hash-bound completion and no terminal-error marker.
+Do not qualify a circuit from a favorable shadow. A failed fixed-history screen
+is preserved and rejected without parameter selection from its outcomes.
+
+Root started `PYTHONDONTWRITEBYTECODE=1 make verify` in exec session `7939`;
+the durable log is `output/collaboration/reward-mechanism-repair/weight-state-make-verify-2026-09-13.txt`.
+Inspect completion before claiming a new repository-wide pass. The fresh
+791-file protected baseline is `weight-state-protected-before-2026-09-13.json`
+in the same directory. It follows the explicitly documented earlier regenerated
+server cache; do not erase that historical exception. No QA server/browser
+was started, and production/API/UI behavior is unchanged. The sole production
+writer remains `/root/evidence_ui`; root owns shared narratives. Every working
+agent must personally read all docs/wiki and new narrative deltas, with exact-
+copy deduplication only after actual reading.
+
 ## Active continuation boundary: September 13, 2026, 07:17 UTC
 
 Continue the existing active goal; no new user prompt or goal is needed.

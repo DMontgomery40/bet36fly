@@ -1,0 +1,1130 @@
+.......................................FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF [ 86%]
+FFFFFFFFFFF                                                              [100%]
+=================================== FAILURES ===================================
+_ test_event_intervals_and_entire_tail_match_independent_superposition_ode[kc0-dan0-0.7] _
+
+initial = 0.7, kc = [], dan = []
+
+    @pytest.mark.parametrize("initial", [0.7, 1.0, 1.3])
+    @pytest.mark.parametrize("kc,dan", [([], []), ([0], []), ([], [0]), ([0], [0]), ([0], [20]), ([20], [0]), ([0, 1, 17], [2, 5, 50])])
+    def test_event_intervals_and_entire_tail_match_independent_superposition_ode(initial, kc, dan):
+        from weight_state_reference import event_reference
+>       actual = event_helper(kc, dan, 50.0, initial)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:76: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:61: in event_helper
+    value = candidate.interval(rk, ek, rd, ed, gain, knots[i + 1] - left)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+rk = 0.0, ek = 0.0, rd = 0.0, ed = 0.0, gain = 0.7, duration = 50.0
+guard = None
+
+    def interval(rk, ek, rd, ed, gain, duration, *, guard=None):
+>       raise NotImplementedError("Event-free interval and full tail not implemented yet")
+E       NotImplementedError: Event-free interval and full tail not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:112: NotImplementedError
+_ test_event_intervals_and_entire_tail_match_independent_superposition_ode[kc0-dan0-1.0] _
+
+initial = 1.0, kc = [], dan = []
+
+    @pytest.mark.parametrize("initial", [0.7, 1.0, 1.3])
+    @pytest.mark.parametrize("kc,dan", [([], []), ([0], []), ([], [0]), ([0], [0]), ([0], [20]), ([20], [0]), ([0, 1, 17], [2, 5, 50])])
+    def test_event_intervals_and_entire_tail_match_independent_superposition_ode(initial, kc, dan):
+        from weight_state_reference import event_reference
+>       actual = event_helper(kc, dan, 50.0, initial)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:76: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:61: in event_helper
+    value = candidate.interval(rk, ek, rd, ed, gain, knots[i + 1] - left)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+rk = 0.0, ek = 0.0, rd = 0.0, ed = 0.0, gain = 1.0, duration = 50.0
+guard = None
+
+    def interval(rk, ek, rd, ed, gain, duration, *, guard=None):
+>       raise NotImplementedError("Event-free interval and full tail not implemented yet")
+E       NotImplementedError: Event-free interval and full tail not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:112: NotImplementedError
+_ test_event_intervals_and_entire_tail_match_independent_superposition_ode[kc0-dan0-1.3] _
+
+initial = 1.3, kc = [], dan = []
+
+    @pytest.mark.parametrize("initial", [0.7, 1.0, 1.3])
+    @pytest.mark.parametrize("kc,dan", [([], []), ([0], []), ([], [0]), ([0], [0]), ([0], [20]), ([20], [0]), ([0, 1, 17], [2, 5, 50])])
+    def test_event_intervals_and_entire_tail_match_independent_superposition_ode(initial, kc, dan):
+        from weight_state_reference import event_reference
+>       actual = event_helper(kc, dan, 50.0, initial)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:76: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:61: in event_helper
+    value = candidate.interval(rk, ek, rd, ed, gain, knots[i + 1] - left)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+rk = 0.0, ek = 0.0, rd = 0.0, ed = 0.0, gain = 1.3, duration = 50.0
+guard = None
+
+    def interval(rk, ek, rd, ed, gain, duration, *, guard=None):
+>       raise NotImplementedError("Event-free interval and full tail not implemented yet")
+E       NotImplementedError: Event-free interval and full tail not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:112: NotImplementedError
+_ test_event_intervals_and_entire_tail_match_independent_superposition_ode[kc1-dan1-0.7] _
+
+initial = 0.7, kc = [0], dan = []
+
+    @pytest.mark.parametrize("initial", [0.7, 1.0, 1.3])
+    @pytest.mark.parametrize("kc,dan", [([], []), ([0], []), ([], [0]), ([0], [0]), ([0], [20]), ([20], [0]), ([0, 1, 17], [2, 5, 50])])
+    def test_event_intervals_and_entire_tail_match_independent_superposition_ode(initial, kc, dan):
+        from weight_state_reference import event_reference
+>       actual = event_helper(kc, dan, 50.0, initial)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:76: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:61: in event_helper
+    value = candidate.interval(rk, ek, rd, ed, gain, knots[i + 1] - left)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+rk = np.float64(0.01), ek = 0.0, rd = 0.0, ed = 0.0, gain = 0.7, duration = 50.0
+guard = None
+
+    def interval(rk, ek, rd, ed, gain, duration, *, guard=None):
+>       raise NotImplementedError("Event-free interval and full tail not implemented yet")
+E       NotImplementedError: Event-free interval and full tail not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:112: NotImplementedError
+_ test_event_intervals_and_entire_tail_match_independent_superposition_ode[kc1-dan1-1.0] _
+
+initial = 1.0, kc = [0], dan = []
+
+    @pytest.mark.parametrize("initial", [0.7, 1.0, 1.3])
+    @pytest.mark.parametrize("kc,dan", [([], []), ([0], []), ([], [0]), ([0], [0]), ([0], [20]), ([20], [0]), ([0, 1, 17], [2, 5, 50])])
+    def test_event_intervals_and_entire_tail_match_independent_superposition_ode(initial, kc, dan):
+        from weight_state_reference import event_reference
+>       actual = event_helper(kc, dan, 50.0, initial)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:76: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:61: in event_helper
+    value = candidate.interval(rk, ek, rd, ed, gain, knots[i + 1] - left)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+rk = np.float64(0.01), ek = 0.0, rd = 0.0, ed = 0.0, gain = 1.0, duration = 50.0
+guard = None
+
+    def interval(rk, ek, rd, ed, gain, duration, *, guard=None):
+>       raise NotImplementedError("Event-free interval and full tail not implemented yet")
+E       NotImplementedError: Event-free interval and full tail not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:112: NotImplementedError
+_ test_event_intervals_and_entire_tail_match_independent_superposition_ode[kc1-dan1-1.3] _
+
+initial = 1.3, kc = [0], dan = []
+
+    @pytest.mark.parametrize("initial", [0.7, 1.0, 1.3])
+    @pytest.mark.parametrize("kc,dan", [([], []), ([0], []), ([], [0]), ([0], [0]), ([0], [20]), ([20], [0]), ([0, 1, 17], [2, 5, 50])])
+    def test_event_intervals_and_entire_tail_match_independent_superposition_ode(initial, kc, dan):
+        from weight_state_reference import event_reference
+>       actual = event_helper(kc, dan, 50.0, initial)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:76: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:61: in event_helper
+    value = candidate.interval(rk, ek, rd, ed, gain, knots[i + 1] - left)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+rk = np.float64(0.01), ek = 0.0, rd = 0.0, ed = 0.0, gain = 1.3, duration = 50.0
+guard = None
+
+    def interval(rk, ek, rd, ed, gain, duration, *, guard=None):
+>       raise NotImplementedError("Event-free interval and full tail not implemented yet")
+E       NotImplementedError: Event-free interval and full tail not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:112: NotImplementedError
+_ test_event_intervals_and_entire_tail_match_independent_superposition_ode[kc2-dan2-0.7] _
+
+initial = 0.7, kc = [], dan = [0]
+
+    @pytest.mark.parametrize("initial", [0.7, 1.0, 1.3])
+    @pytest.mark.parametrize("kc,dan", [([], []), ([0], []), ([], [0]), ([0], [0]), ([0], [20]), ([20], [0]), ([0, 1, 17], [2, 5, 50])])
+    def test_event_intervals_and_entire_tail_match_independent_superposition_ode(initial, kc, dan):
+        from weight_state_reference import event_reference
+>       actual = event_helper(kc, dan, 50.0, initial)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:76: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:61: in event_helper
+    value = candidate.interval(rk, ek, rd, ed, gain, knots[i + 1] - left)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+rk = 0.0, ek = 0.0, rd = np.float64(0.01), ed = 0.0, gain = 0.7, duration = 50.0
+guard = None
+
+    def interval(rk, ek, rd, ed, gain, duration, *, guard=None):
+>       raise NotImplementedError("Event-free interval and full tail not implemented yet")
+E       NotImplementedError: Event-free interval and full tail not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:112: NotImplementedError
+_ test_event_intervals_and_entire_tail_match_independent_superposition_ode[kc2-dan2-1.0] _
+
+initial = 1.0, kc = [], dan = [0]
+
+    @pytest.mark.parametrize("initial", [0.7, 1.0, 1.3])
+    @pytest.mark.parametrize("kc,dan", [([], []), ([0], []), ([], [0]), ([0], [0]), ([0], [20]), ([20], [0]), ([0, 1, 17], [2, 5, 50])])
+    def test_event_intervals_and_entire_tail_match_independent_superposition_ode(initial, kc, dan):
+        from weight_state_reference import event_reference
+>       actual = event_helper(kc, dan, 50.0, initial)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:76: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:61: in event_helper
+    value = candidate.interval(rk, ek, rd, ed, gain, knots[i + 1] - left)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+rk = 0.0, ek = 0.0, rd = np.float64(0.01), ed = 0.0, gain = 1.0, duration = 50.0
+guard = None
+
+    def interval(rk, ek, rd, ed, gain, duration, *, guard=None):
+>       raise NotImplementedError("Event-free interval and full tail not implemented yet")
+E       NotImplementedError: Event-free interval and full tail not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:112: NotImplementedError
+_ test_event_intervals_and_entire_tail_match_independent_superposition_ode[kc2-dan2-1.3] _
+
+initial = 1.3, kc = [], dan = [0]
+
+    @pytest.mark.parametrize("initial", [0.7, 1.0, 1.3])
+    @pytest.mark.parametrize("kc,dan", [([], []), ([0], []), ([], [0]), ([0], [0]), ([0], [20]), ([20], [0]), ([0, 1, 17], [2, 5, 50])])
+    def test_event_intervals_and_entire_tail_match_independent_superposition_ode(initial, kc, dan):
+        from weight_state_reference import event_reference
+>       actual = event_helper(kc, dan, 50.0, initial)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:76: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:61: in event_helper
+    value = candidate.interval(rk, ek, rd, ed, gain, knots[i + 1] - left)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+rk = 0.0, ek = 0.0, rd = np.float64(0.01), ed = 0.0, gain = 1.3, duration = 50.0
+guard = None
+
+    def interval(rk, ek, rd, ed, gain, duration, *, guard=None):
+>       raise NotImplementedError("Event-free interval and full tail not implemented yet")
+E       NotImplementedError: Event-free interval and full tail not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:112: NotImplementedError
+_ test_event_intervals_and_entire_tail_match_independent_superposition_ode[kc3-dan3-0.7] _
+
+initial = 0.7, kc = [0], dan = [0]
+
+    @pytest.mark.parametrize("initial", [0.7, 1.0, 1.3])
+    @pytest.mark.parametrize("kc,dan", [([], []), ([0], []), ([], [0]), ([0], [0]), ([0], [20]), ([20], [0]), ([0, 1, 17], [2, 5, 50])])
+    def test_event_intervals_and_entire_tail_match_independent_superposition_ode(initial, kc, dan):
+        from weight_state_reference import event_reference
+>       actual = event_helper(kc, dan, 50.0, initial)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:76: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:61: in event_helper
+    value = candidate.interval(rk, ek, rd, ed, gain, knots[i + 1] - left)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+rk = np.float64(0.01), ek = 0.0, rd = np.float64(0.01), ed = 0.0, gain = 0.7
+duration = 50.0, guard = None
+
+    def interval(rk, ek, rd, ed, gain, duration, *, guard=None):
+>       raise NotImplementedError("Event-free interval and full tail not implemented yet")
+E       NotImplementedError: Event-free interval and full tail not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:112: NotImplementedError
+_ test_event_intervals_and_entire_tail_match_independent_superposition_ode[kc3-dan3-1.0] _
+
+initial = 1.0, kc = [0], dan = [0]
+
+    @pytest.mark.parametrize("initial", [0.7, 1.0, 1.3])
+    @pytest.mark.parametrize("kc,dan", [([], []), ([0], []), ([], [0]), ([0], [0]), ([0], [20]), ([20], [0]), ([0, 1, 17], [2, 5, 50])])
+    def test_event_intervals_and_entire_tail_match_independent_superposition_ode(initial, kc, dan):
+        from weight_state_reference import event_reference
+>       actual = event_helper(kc, dan, 50.0, initial)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:76: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:61: in event_helper
+    value = candidate.interval(rk, ek, rd, ed, gain, knots[i + 1] - left)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+rk = np.float64(0.01), ek = 0.0, rd = np.float64(0.01), ed = 0.0, gain = 1.0
+duration = 50.0, guard = None
+
+    def interval(rk, ek, rd, ed, gain, duration, *, guard=None):
+>       raise NotImplementedError("Event-free interval and full tail not implemented yet")
+E       NotImplementedError: Event-free interval and full tail not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:112: NotImplementedError
+_ test_event_intervals_and_entire_tail_match_independent_superposition_ode[kc3-dan3-1.3] _
+
+initial = 1.3, kc = [0], dan = [0]
+
+    @pytest.mark.parametrize("initial", [0.7, 1.0, 1.3])
+    @pytest.mark.parametrize("kc,dan", [([], []), ([0], []), ([], [0]), ([0], [0]), ([0], [20]), ([20], [0]), ([0, 1, 17], [2, 5, 50])])
+    def test_event_intervals_and_entire_tail_match_independent_superposition_ode(initial, kc, dan):
+        from weight_state_reference import event_reference
+>       actual = event_helper(kc, dan, 50.0, initial)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:76: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:61: in event_helper
+    value = candidate.interval(rk, ek, rd, ed, gain, knots[i + 1] - left)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+rk = np.float64(0.01), ek = 0.0, rd = np.float64(0.01), ed = 0.0, gain = 1.3
+duration = 50.0, guard = None
+
+    def interval(rk, ek, rd, ed, gain, duration, *, guard=None):
+>       raise NotImplementedError("Event-free interval and full tail not implemented yet")
+E       NotImplementedError: Event-free interval and full tail not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:112: NotImplementedError
+_ test_event_intervals_and_entire_tail_match_independent_superposition_ode[kc4-dan4-0.7] _
+
+initial = 0.7, kc = [0], dan = [20]
+
+    @pytest.mark.parametrize("initial", [0.7, 1.0, 1.3])
+    @pytest.mark.parametrize("kc,dan", [([], []), ([0], []), ([], [0]), ([0], [0]), ([0], [20]), ([20], [0]), ([0, 1, 17], [2, 5, 50])])
+    def test_event_intervals_and_entire_tail_match_independent_superposition_ode(initial, kc, dan):
+        from weight_state_reference import event_reference
+>       actual = event_helper(kc, dan, 50.0, initial)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:76: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:61: in event_helper
+    value = candidate.interval(rk, ek, rd, ed, gain, knots[i + 1] - left)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+rk = np.float64(0.01), ek = 0.0, rd = 0.0, ed = 0.0, gain = 0.7, duration = 20.0
+guard = None
+
+    def interval(rk, ek, rd, ed, gain, duration, *, guard=None):
+>       raise NotImplementedError("Event-free interval and full tail not implemented yet")
+E       NotImplementedError: Event-free interval and full tail not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:112: NotImplementedError
+_ test_event_intervals_and_entire_tail_match_independent_superposition_ode[kc4-dan4-1.0] _
+
+initial = 1.0, kc = [0], dan = [20]
+
+    @pytest.mark.parametrize("initial", [0.7, 1.0, 1.3])
+    @pytest.mark.parametrize("kc,dan", [([], []), ([0], []), ([], [0]), ([0], [0]), ([0], [20]), ([20], [0]), ([0, 1, 17], [2, 5, 50])])
+    def test_event_intervals_and_entire_tail_match_independent_superposition_ode(initial, kc, dan):
+        from weight_state_reference import event_reference
+>       actual = event_helper(kc, dan, 50.0, initial)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:76: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:61: in event_helper
+    value = candidate.interval(rk, ek, rd, ed, gain, knots[i + 1] - left)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+rk = np.float64(0.01), ek = 0.0, rd = 0.0, ed = 0.0, gain = 1.0, duration = 20.0
+guard = None
+
+    def interval(rk, ek, rd, ed, gain, duration, *, guard=None):
+>       raise NotImplementedError("Event-free interval and full tail not implemented yet")
+E       NotImplementedError: Event-free interval and full tail not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:112: NotImplementedError
+_ test_event_intervals_and_entire_tail_match_independent_superposition_ode[kc4-dan4-1.3] _
+
+initial = 1.3, kc = [0], dan = [20]
+
+    @pytest.mark.parametrize("initial", [0.7, 1.0, 1.3])
+    @pytest.mark.parametrize("kc,dan", [([], []), ([0], []), ([], [0]), ([0], [0]), ([0], [20]), ([20], [0]), ([0, 1, 17], [2, 5, 50])])
+    def test_event_intervals_and_entire_tail_match_independent_superposition_ode(initial, kc, dan):
+        from weight_state_reference import event_reference
+>       actual = event_helper(kc, dan, 50.0, initial)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:76: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:61: in event_helper
+    value = candidate.interval(rk, ek, rd, ed, gain, knots[i + 1] - left)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+rk = np.float64(0.01), ek = 0.0, rd = 0.0, ed = 0.0, gain = 1.3, duration = 20.0
+guard = None
+
+    def interval(rk, ek, rd, ed, gain, duration, *, guard=None):
+>       raise NotImplementedError("Event-free interval and full tail not implemented yet")
+E       NotImplementedError: Event-free interval and full tail not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:112: NotImplementedError
+_ test_event_intervals_and_entire_tail_match_independent_superposition_ode[kc5-dan5-0.7] _
+
+initial = 0.7, kc = [20], dan = [0]
+
+    @pytest.mark.parametrize("initial", [0.7, 1.0, 1.3])
+    @pytest.mark.parametrize("kc,dan", [([], []), ([0], []), ([], [0]), ([0], [0]), ([0], [20]), ([20], [0]), ([0, 1, 17], [2, 5, 50])])
+    def test_event_intervals_and_entire_tail_match_independent_superposition_ode(initial, kc, dan):
+        from weight_state_reference import event_reference
+>       actual = event_helper(kc, dan, 50.0, initial)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:76: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:61: in event_helper
+    value = candidate.interval(rk, ek, rd, ed, gain, knots[i + 1] - left)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+rk = 0.0, ek = 0.0, rd = np.float64(0.01), ed = 0.0, gain = 0.7, duration = 20.0
+guard = None
+
+    def interval(rk, ek, rd, ed, gain, duration, *, guard=None):
+>       raise NotImplementedError("Event-free interval and full tail not implemented yet")
+E       NotImplementedError: Event-free interval and full tail not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:112: NotImplementedError
+_ test_event_intervals_and_entire_tail_match_independent_superposition_ode[kc5-dan5-1.0] _
+
+initial = 1.0, kc = [20], dan = [0]
+
+    @pytest.mark.parametrize("initial", [0.7, 1.0, 1.3])
+    @pytest.mark.parametrize("kc,dan", [([], []), ([0], []), ([], [0]), ([0], [0]), ([0], [20]), ([20], [0]), ([0, 1, 17], [2, 5, 50])])
+    def test_event_intervals_and_entire_tail_match_independent_superposition_ode(initial, kc, dan):
+        from weight_state_reference import event_reference
+>       actual = event_helper(kc, dan, 50.0, initial)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:76: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:61: in event_helper
+    value = candidate.interval(rk, ek, rd, ed, gain, knots[i + 1] - left)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+rk = 0.0, ek = 0.0, rd = np.float64(0.01), ed = 0.0, gain = 1.0, duration = 20.0
+guard = None
+
+    def interval(rk, ek, rd, ed, gain, duration, *, guard=None):
+>       raise NotImplementedError("Event-free interval and full tail not implemented yet")
+E       NotImplementedError: Event-free interval and full tail not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:112: NotImplementedError
+_ test_event_intervals_and_entire_tail_match_independent_superposition_ode[kc5-dan5-1.3] _
+
+initial = 1.3, kc = [20], dan = [0]
+
+    @pytest.mark.parametrize("initial", [0.7, 1.0, 1.3])
+    @pytest.mark.parametrize("kc,dan", [([], []), ([0], []), ([], [0]), ([0], [0]), ([0], [20]), ([20], [0]), ([0, 1, 17], [2, 5, 50])])
+    def test_event_intervals_and_entire_tail_match_independent_superposition_ode(initial, kc, dan):
+        from weight_state_reference import event_reference
+>       actual = event_helper(kc, dan, 50.0, initial)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:76: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:61: in event_helper
+    value = candidate.interval(rk, ek, rd, ed, gain, knots[i + 1] - left)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+rk = 0.0, ek = 0.0, rd = np.float64(0.01), ed = 0.0, gain = 1.3, duration = 20.0
+guard = None
+
+    def interval(rk, ek, rd, ed, gain, duration, *, guard=None):
+>       raise NotImplementedError("Event-free interval and full tail not implemented yet")
+E       NotImplementedError: Event-free interval and full tail not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:112: NotImplementedError
+_ test_event_intervals_and_entire_tail_match_independent_superposition_ode[kc6-dan6-0.7] _
+
+initial = 0.7, kc = [0, 1, 17], dan = [2, 5, 50]
+
+    @pytest.mark.parametrize("initial", [0.7, 1.0, 1.3])
+    @pytest.mark.parametrize("kc,dan", [([], []), ([0], []), ([], [0]), ([0], [0]), ([0], [20]), ([20], [0]), ([0, 1, 17], [2, 5, 50])])
+    def test_event_intervals_and_entire_tail_match_independent_superposition_ode(initial, kc, dan):
+        from weight_state_reference import event_reference
+>       actual = event_helper(kc, dan, 50.0, initial)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:76: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:61: in event_helper
+    value = candidate.interval(rk, ek, rd, ed, gain, knots[i + 1] - left)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+rk = np.float64(0.01), ek = 0.0, rd = 0.0, ed = 0.0, gain = 0.7, duration = 1.0
+guard = None
+
+    def interval(rk, ek, rd, ed, gain, duration, *, guard=None):
+>       raise NotImplementedError("Event-free interval and full tail not implemented yet")
+E       NotImplementedError: Event-free interval and full tail not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:112: NotImplementedError
+_ test_event_intervals_and_entire_tail_match_independent_superposition_ode[kc6-dan6-1.0] _
+
+initial = 1.0, kc = [0, 1, 17], dan = [2, 5, 50]
+
+    @pytest.mark.parametrize("initial", [0.7, 1.0, 1.3])
+    @pytest.mark.parametrize("kc,dan", [([], []), ([0], []), ([], [0]), ([0], [0]), ([0], [20]), ([20], [0]), ([0, 1, 17], [2, 5, 50])])
+    def test_event_intervals_and_entire_tail_match_independent_superposition_ode(initial, kc, dan):
+        from weight_state_reference import event_reference
+>       actual = event_helper(kc, dan, 50.0, initial)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:76: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:61: in event_helper
+    value = candidate.interval(rk, ek, rd, ed, gain, knots[i + 1] - left)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+rk = np.float64(0.01), ek = 0.0, rd = 0.0, ed = 0.0, gain = 1.0, duration = 1.0
+guard = None
+
+    def interval(rk, ek, rd, ed, gain, duration, *, guard=None):
+>       raise NotImplementedError("Event-free interval and full tail not implemented yet")
+E       NotImplementedError: Event-free interval and full tail not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:112: NotImplementedError
+_ test_event_intervals_and_entire_tail_match_independent_superposition_ode[kc6-dan6-1.3] _
+
+initial = 1.3, kc = [0, 1, 17], dan = [2, 5, 50]
+
+    @pytest.mark.parametrize("initial", [0.7, 1.0, 1.3])
+    @pytest.mark.parametrize("kc,dan", [([], []), ([0], []), ([], [0]), ([0], [0]), ([0], [20]), ([20], [0]), ([0, 1, 17], [2, 5, 50])])
+    def test_event_intervals_and_entire_tail_match_independent_superposition_ode(initial, kc, dan):
+        from weight_state_reference import event_reference
+>       actual = event_helper(kc, dan, 50.0, initial)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:76: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:61: in event_helper
+    value = candidate.interval(rk, ek, rd, ed, gain, knots[i + 1] - left)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+rk = np.float64(0.01), ek = 0.0, rd = 0.0, ed = 0.0, gain = 1.3, duration = 1.0
+guard = None
+
+    def interval(rk, ek, rd, ed, gain, duration, *, guard=None):
+>       raise NotImplementedError("Event-free interval and full tail not implemented yet")
+E       NotImplementedError: Event-free interval and full tail not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:112: NotImplementedError
+_ test_full_tail_has_no_finite_cutoff_or_electrical_partition_dependence[20.0] _
+
+end = 20.0
+
+    @pytest.mark.parametrize("end", [20.0, 40.0, 100.0])
+    def test_full_tail_has_no_finite_cutoff_or_electrical_partition_dependence(end):
+        from weight_state_reference import mp_event_gain
+>       value = event_helper([0, 7, 20], [1, 20], end, 0.8, [2, 0.5, 1], [0.5, 0.5])
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:85: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:61: in event_helper
+    value = candidate.interval(rk, ek, rd, ed, gain, knots[i + 1] - left)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+rk = 0.02, ek = 0.0, rd = 0.0, ed = 0.0, gain = 0.8, duration = 1.0
+guard = None
+
+    def interval(rk, ek, rd, ed, gain, duration, *, guard=None):
+>       raise NotImplementedError("Event-free interval and full tail not implemented yet")
+E       NotImplementedError: Event-free interval and full tail not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:112: NotImplementedError
+_ test_full_tail_has_no_finite_cutoff_or_electrical_partition_dependence[40.0] _
+
+end = 40.0
+
+    @pytest.mark.parametrize("end", [20.0, 40.0, 100.0])
+    def test_full_tail_has_no_finite_cutoff_or_electrical_partition_dependence(end):
+        from weight_state_reference import mp_event_gain
+>       value = event_helper([0, 7, 20], [1, 20], end, 0.8, [2, 0.5, 1], [0.5, 0.5])
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:85: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:61: in event_helper
+    value = candidate.interval(rk, ek, rd, ed, gain, knots[i + 1] - left)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+rk = 0.02, ek = 0.0, rd = 0.0, ed = 0.0, gain = 0.8, duration = 1.0
+guard = None
+
+    def interval(rk, ek, rd, ed, gain, duration, *, guard=None):
+>       raise NotImplementedError("Event-free interval and full tail not implemented yet")
+E       NotImplementedError: Event-free interval and full tail not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:112: NotImplementedError
+_ test_full_tail_has_no_finite_cutoff_or_electrical_partition_dependence[100.0] _
+
+end = 100.0
+
+    @pytest.mark.parametrize("end", [20.0, 40.0, 100.0])
+    def test_full_tail_has_no_finite_cutoff_or_electrical_partition_dependence(end):
+        from weight_state_reference import mp_event_gain
+>       value = event_helper([0, 7, 20], [1, 20], end, 0.8, [2, 0.5, 1], [0.5, 0.5])
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:85: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:61: in event_helper
+    value = candidate.interval(rk, ek, rd, ed, gain, knots[i + 1] - left)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+rk = 0.02, ek = 0.0, rd = 0.0, ed = 0.0, gain = 0.8, duration = 1.0
+guard = None
+
+    def interval(rk, ek, rd, ed, gain, duration, *, guard=None):
+>       raise NotImplementedError("Event-free interval and full tail not implemented yet")
+E       NotImplementedError: Event-free interval and full tail not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:112: NotImplementedError
+________ test_invalid_signal_states_fail_without_changing_gain[0--1.0] _________
+
+field = 0, bad = -1.0
+
+    @pytest.mark.parametrize("bad", [-1.0, math.nan, math.inf, True, "1"])
+    @pytest.mark.parametrize("field", range(4))
+    def test_invalid_signal_states_fail_without_changing_gain(field, bad):
+        states = [0.01, 0.1, 0.02, 0.2]
+        states[field] = bad
+        with pytest.raises(ValueError):
+>           candidate.interval(*states, 1.0, 0.2)
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:97: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+rk = -1.0, ek = 0.1, rd = 0.02, ed = 0.2, gain = 1.0, duration = 0.2
+guard = None
+
+    def interval(rk, ek, rd, ed, gain, duration, *, guard=None):
+>       raise NotImplementedError("Event-free interval and full tail not implemented yet")
+E       NotImplementedError: Event-free interval and full tail not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:112: NotImplementedError
+_________ test_invalid_signal_states_fail_without_changing_gain[0-nan] _________
+
+field = 0, bad = nan
+
+    @pytest.mark.parametrize("bad", [-1.0, math.nan, math.inf, True, "1"])
+    @pytest.mark.parametrize("field", range(4))
+    def test_invalid_signal_states_fail_without_changing_gain(field, bad):
+        states = [0.01, 0.1, 0.02, 0.2]
+        states[field] = bad
+        with pytest.raises(ValueError):
+>           candidate.interval(*states, 1.0, 0.2)
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:97: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+rk = nan, ek = 0.1, rd = 0.02, ed = 0.2, gain = 1.0, duration = 0.2
+guard = None
+
+    def interval(rk, ek, rd, ed, gain, duration, *, guard=None):
+>       raise NotImplementedError("Event-free interval and full tail not implemented yet")
+E       NotImplementedError: Event-free interval and full tail not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:112: NotImplementedError
+_________ test_invalid_signal_states_fail_without_changing_gain[0-inf] _________
+
+field = 0, bad = inf
+
+    @pytest.mark.parametrize("bad", [-1.0, math.nan, math.inf, True, "1"])
+    @pytest.mark.parametrize("field", range(4))
+    def test_invalid_signal_states_fail_without_changing_gain(field, bad):
+        states = [0.01, 0.1, 0.02, 0.2]
+        states[field] = bad
+        with pytest.raises(ValueError):
+>           candidate.interval(*states, 1.0, 0.2)
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:97: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+rk = inf, ek = 0.1, rd = 0.02, ed = 0.2, gain = 1.0, duration = 0.2
+guard = None
+
+    def interval(rk, ek, rd, ed, gain, duration, *, guard=None):
+>       raise NotImplementedError("Event-free interval and full tail not implemented yet")
+E       NotImplementedError: Event-free interval and full tail not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:112: NotImplementedError
+________ test_invalid_signal_states_fail_without_changing_gain[0-True] _________
+
+field = 0, bad = True
+
+    @pytest.mark.parametrize("bad", [-1.0, math.nan, math.inf, True, "1"])
+    @pytest.mark.parametrize("field", range(4))
+    def test_invalid_signal_states_fail_without_changing_gain(field, bad):
+        states = [0.01, 0.1, 0.02, 0.2]
+        states[field] = bad
+        with pytest.raises(ValueError):
+>           candidate.interval(*states, 1.0, 0.2)
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:97: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+rk = True, ek = 0.1, rd = 0.02, ed = 0.2, gain = 1.0, duration = 0.2
+guard = None
+
+    def interval(rk, ek, rd, ed, gain, duration, *, guard=None):
+>       raise NotImplementedError("Event-free interval and full tail not implemented yet")
+E       NotImplementedError: Event-free interval and full tail not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:112: NotImplementedError
+__________ test_invalid_signal_states_fail_without_changing_gain[0-1] __________
+
+field = 0, bad = '1'
+
+    @pytest.mark.parametrize("bad", [-1.0, math.nan, math.inf, True, "1"])
+    @pytest.mark.parametrize("field", range(4))
+    def test_invalid_signal_states_fail_without_changing_gain(field, bad):
+        states = [0.01, 0.1, 0.02, 0.2]
+        states[field] = bad
+        with pytest.raises(ValueError):
+>           candidate.interval(*states, 1.0, 0.2)
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:97: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+rk = '1', ek = 0.1, rd = 0.02, ed = 0.2, gain = 1.0, duration = 0.2
+guard = None
+
+    def interval(rk, ek, rd, ed, gain, duration, *, guard=None):
+>       raise NotImplementedError("Event-free interval and full tail not implemented yet")
+E       NotImplementedError: Event-free interval and full tail not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:112: NotImplementedError
+________ test_invalid_signal_states_fail_without_changing_gain[1--1.0] _________
+
+field = 1, bad = -1.0
+
+    @pytest.mark.parametrize("bad", [-1.0, math.nan, math.inf, True, "1"])
+    @pytest.mark.parametrize("field", range(4))
+    def test_invalid_signal_states_fail_without_changing_gain(field, bad):
+        states = [0.01, 0.1, 0.02, 0.2]
+        states[field] = bad
+        with pytest.raises(ValueError):
+>           candidate.interval(*states, 1.0, 0.2)
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:97: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+rk = 0.01, ek = -1.0, rd = 0.02, ed = 0.2, gain = 1.0, duration = 0.2
+guard = None
+
+    def interval(rk, ek, rd, ed, gain, duration, *, guard=None):
+>       raise NotImplementedError("Event-free interval and full tail not implemented yet")
+E       NotImplementedError: Event-free interval and full tail not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:112: NotImplementedError
+_________ test_invalid_signal_states_fail_without_changing_gain[1-nan] _________
+
+field = 1, bad = nan
+
+    @pytest.mark.parametrize("bad", [-1.0, math.nan, math.inf, True, "1"])
+    @pytest.mark.parametrize("field", range(4))
+    def test_invalid_signal_states_fail_without_changing_gain(field, bad):
+        states = [0.01, 0.1, 0.02, 0.2]
+        states[field] = bad
+        with pytest.raises(ValueError):
+>           candidate.interval(*states, 1.0, 0.2)
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:97: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+rk = 0.01, ek = nan, rd = 0.02, ed = 0.2, gain = 1.0, duration = 0.2
+guard = None
+
+    def interval(rk, ek, rd, ed, gain, duration, *, guard=None):
+>       raise NotImplementedError("Event-free interval and full tail not implemented yet")
+E       NotImplementedError: Event-free interval and full tail not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:112: NotImplementedError
+_________ test_invalid_signal_states_fail_without_changing_gain[1-inf] _________
+
+field = 1, bad = inf
+
+    @pytest.mark.parametrize("bad", [-1.0, math.nan, math.inf, True, "1"])
+    @pytest.mark.parametrize("field", range(4))
+    def test_invalid_signal_states_fail_without_changing_gain(field, bad):
+        states = [0.01, 0.1, 0.02, 0.2]
+        states[field] = bad
+        with pytest.raises(ValueError):
+>           candidate.interval(*states, 1.0, 0.2)
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:97: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+rk = 0.01, ek = inf, rd = 0.02, ed = 0.2, gain = 1.0, duration = 0.2
+guard = None
+
+    def interval(rk, ek, rd, ed, gain, duration, *, guard=None):
+>       raise NotImplementedError("Event-free interval and full tail not implemented yet")
+E       NotImplementedError: Event-free interval and full tail not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:112: NotImplementedError
+________ test_invalid_signal_states_fail_without_changing_gain[1-True] _________
+
+field = 1, bad = True
+
+    @pytest.mark.parametrize("bad", [-1.0, math.nan, math.inf, True, "1"])
+    @pytest.mark.parametrize("field", range(4))
+    def test_invalid_signal_states_fail_without_changing_gain(field, bad):
+        states = [0.01, 0.1, 0.02, 0.2]
+        states[field] = bad
+        with pytest.raises(ValueError):
+>           candidate.interval(*states, 1.0, 0.2)
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:97: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+rk = 0.01, ek = True, rd = 0.02, ed = 0.2, gain = 1.0, duration = 0.2
+guard = None
+
+    def interval(rk, ek, rd, ed, gain, duration, *, guard=None):
+>       raise NotImplementedError("Event-free interval and full tail not implemented yet")
+E       NotImplementedError: Event-free interval and full tail not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:112: NotImplementedError
+__________ test_invalid_signal_states_fail_without_changing_gain[1-1] __________
+
+field = 1, bad = '1'
+
+    @pytest.mark.parametrize("bad", [-1.0, math.nan, math.inf, True, "1"])
+    @pytest.mark.parametrize("field", range(4))
+    def test_invalid_signal_states_fail_without_changing_gain(field, bad):
+        states = [0.01, 0.1, 0.02, 0.2]
+        states[field] = bad
+        with pytest.raises(ValueError):
+>           candidate.interval(*states, 1.0, 0.2)
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:97: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+rk = 0.01, ek = '1', rd = 0.02, ed = 0.2, gain = 1.0, duration = 0.2
+guard = None
+
+    def interval(rk, ek, rd, ed, gain, duration, *, guard=None):
+>       raise NotImplementedError("Event-free interval and full tail not implemented yet")
+E       NotImplementedError: Event-free interval and full tail not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:112: NotImplementedError
+________ test_invalid_signal_states_fail_without_changing_gain[2--1.0] _________
+
+field = 2, bad = -1.0
+
+    @pytest.mark.parametrize("bad", [-1.0, math.nan, math.inf, True, "1"])
+    @pytest.mark.parametrize("field", range(4))
+    def test_invalid_signal_states_fail_without_changing_gain(field, bad):
+        states = [0.01, 0.1, 0.02, 0.2]
+        states[field] = bad
+        with pytest.raises(ValueError):
+>           candidate.interval(*states, 1.0, 0.2)
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:97: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+rk = 0.01, ek = 0.1, rd = -1.0, ed = 0.2, gain = 1.0, duration = 0.2
+guard = None
+
+    def interval(rk, ek, rd, ed, gain, duration, *, guard=None):
+>       raise NotImplementedError("Event-free interval and full tail not implemented yet")
+E       NotImplementedError: Event-free interval and full tail not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:112: NotImplementedError
+_________ test_invalid_signal_states_fail_without_changing_gain[2-nan] _________
+
+field = 2, bad = nan
+
+    @pytest.mark.parametrize("bad", [-1.0, math.nan, math.inf, True, "1"])
+    @pytest.mark.parametrize("field", range(4))
+    def test_invalid_signal_states_fail_without_changing_gain(field, bad):
+        states = [0.01, 0.1, 0.02, 0.2]
+        states[field] = bad
+        with pytest.raises(ValueError):
+>           candidate.interval(*states, 1.0, 0.2)
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:97: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+rk = 0.01, ek = 0.1, rd = nan, ed = 0.2, gain = 1.0, duration = 0.2
+guard = None
+
+    def interval(rk, ek, rd, ed, gain, duration, *, guard=None):
+>       raise NotImplementedError("Event-free interval and full tail not implemented yet")
+E       NotImplementedError: Event-free interval and full tail not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:112: NotImplementedError
+_________ test_invalid_signal_states_fail_without_changing_gain[2-inf] _________
+
+field = 2, bad = inf
+
+    @pytest.mark.parametrize("bad", [-1.0, math.nan, math.inf, True, "1"])
+    @pytest.mark.parametrize("field", range(4))
+    def test_invalid_signal_states_fail_without_changing_gain(field, bad):
+        states = [0.01, 0.1, 0.02, 0.2]
+        states[field] = bad
+        with pytest.raises(ValueError):
+>           candidate.interval(*states, 1.0, 0.2)
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:97: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+rk = 0.01, ek = 0.1, rd = inf, ed = 0.2, gain = 1.0, duration = 0.2
+guard = None
+
+    def interval(rk, ek, rd, ed, gain, duration, *, guard=None):
+>       raise NotImplementedError("Event-free interval and full tail not implemented yet")
+E       NotImplementedError: Event-free interval and full tail not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:112: NotImplementedError
+________ test_invalid_signal_states_fail_without_changing_gain[2-True] _________
+
+field = 2, bad = True
+
+    @pytest.mark.parametrize("bad", [-1.0, math.nan, math.inf, True, "1"])
+    @pytest.mark.parametrize("field", range(4))
+    def test_invalid_signal_states_fail_without_changing_gain(field, bad):
+        states = [0.01, 0.1, 0.02, 0.2]
+        states[field] = bad
+        with pytest.raises(ValueError):
+>           candidate.interval(*states, 1.0, 0.2)
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:97: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+rk = 0.01, ek = 0.1, rd = True, ed = 0.2, gain = 1.0, duration = 0.2
+guard = None
+
+    def interval(rk, ek, rd, ed, gain, duration, *, guard=None):
+>       raise NotImplementedError("Event-free interval and full tail not implemented yet")
+E       NotImplementedError: Event-free interval and full tail not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:112: NotImplementedError
+__________ test_invalid_signal_states_fail_without_changing_gain[2-1] __________
+
+field = 2, bad = '1'
+
+    @pytest.mark.parametrize("bad", [-1.0, math.nan, math.inf, True, "1"])
+    @pytest.mark.parametrize("field", range(4))
+    def test_invalid_signal_states_fail_without_changing_gain(field, bad):
+        states = [0.01, 0.1, 0.02, 0.2]
+        states[field] = bad
+        with pytest.raises(ValueError):
+>           candidate.interval(*states, 1.0, 0.2)
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:97: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+rk = 0.01, ek = 0.1, rd = '1', ed = 0.2, gain = 1.0, duration = 0.2
+guard = None
+
+    def interval(rk, ek, rd, ed, gain, duration, *, guard=None):
+>       raise NotImplementedError("Event-free interval and full tail not implemented yet")
+E       NotImplementedError: Event-free interval and full tail not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:112: NotImplementedError
+________ test_invalid_signal_states_fail_without_changing_gain[3--1.0] _________
+
+field = 3, bad = -1.0
+
+    @pytest.mark.parametrize("bad", [-1.0, math.nan, math.inf, True, "1"])
+    @pytest.mark.parametrize("field", range(4))
+    def test_invalid_signal_states_fail_without_changing_gain(field, bad):
+        states = [0.01, 0.1, 0.02, 0.2]
+        states[field] = bad
+        with pytest.raises(ValueError):
+>           candidate.interval(*states, 1.0, 0.2)
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:97: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+rk = 0.01, ek = 0.1, rd = 0.02, ed = -1.0, gain = 1.0, duration = 0.2
+guard = None
+
+    def interval(rk, ek, rd, ed, gain, duration, *, guard=None):
+>       raise NotImplementedError("Event-free interval and full tail not implemented yet")
+E       NotImplementedError: Event-free interval and full tail not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:112: NotImplementedError
+_________ test_invalid_signal_states_fail_without_changing_gain[3-nan] _________
+
+field = 3, bad = nan
+
+    @pytest.mark.parametrize("bad", [-1.0, math.nan, math.inf, True, "1"])
+    @pytest.mark.parametrize("field", range(4))
+    def test_invalid_signal_states_fail_without_changing_gain(field, bad):
+        states = [0.01, 0.1, 0.02, 0.2]
+        states[field] = bad
+        with pytest.raises(ValueError):
+>           candidate.interval(*states, 1.0, 0.2)
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:97: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+rk = 0.01, ek = 0.1, rd = 0.02, ed = nan, gain = 1.0, duration = 0.2
+guard = None
+
+    def interval(rk, ek, rd, ed, gain, duration, *, guard=None):
+>       raise NotImplementedError("Event-free interval and full tail not implemented yet")
+E       NotImplementedError: Event-free interval and full tail not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:112: NotImplementedError
+_________ test_invalid_signal_states_fail_without_changing_gain[3-inf] _________
+
+field = 3, bad = inf
+
+    @pytest.mark.parametrize("bad", [-1.0, math.nan, math.inf, True, "1"])
+    @pytest.mark.parametrize("field", range(4))
+    def test_invalid_signal_states_fail_without_changing_gain(field, bad):
+        states = [0.01, 0.1, 0.02, 0.2]
+        states[field] = bad
+        with pytest.raises(ValueError):
+>           candidate.interval(*states, 1.0, 0.2)
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:97: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+rk = 0.01, ek = 0.1, rd = 0.02, ed = inf, gain = 1.0, duration = 0.2
+guard = None
+
+    def interval(rk, ek, rd, ed, gain, duration, *, guard=None):
+>       raise NotImplementedError("Event-free interval and full tail not implemented yet")
+E       NotImplementedError: Event-free interval and full tail not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:112: NotImplementedError
+________ test_invalid_signal_states_fail_without_changing_gain[3-True] _________
+
+field = 3, bad = True
+
+    @pytest.mark.parametrize("bad", [-1.0, math.nan, math.inf, True, "1"])
+    @pytest.mark.parametrize("field", range(4))
+    def test_invalid_signal_states_fail_without_changing_gain(field, bad):
+        states = [0.01, 0.1, 0.02, 0.2]
+        states[field] = bad
+        with pytest.raises(ValueError):
+>           candidate.interval(*states, 1.0, 0.2)
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:97: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+rk = 0.01, ek = 0.1, rd = 0.02, ed = True, gain = 1.0, duration = 0.2
+guard = None
+
+    def interval(rk, ek, rd, ed, gain, duration, *, guard=None):
+>       raise NotImplementedError("Event-free interval and full tail not implemented yet")
+E       NotImplementedError: Event-free interval and full tail not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:112: NotImplementedError
+__________ test_invalid_signal_states_fail_without_changing_gain[3-1] __________
+
+field = 3, bad = '1'
+
+    @pytest.mark.parametrize("bad", [-1.0, math.nan, math.inf, True, "1"])
+    @pytest.mark.parametrize("field", range(4))
+    def test_invalid_signal_states_fail_without_changing_gain(field, bad):
+        states = [0.01, 0.1, 0.02, 0.2]
+        states[field] = bad
+        with pytest.raises(ValueError):
+>           candidate.interval(*states, 1.0, 0.2)
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:97: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+rk = 0.01, ek = 0.1, rd = 0.02, ed = '1', gain = 1.0, duration = 0.2
+guard = None
+
+    def interval(rk, ek, rd, ed, gain, duration, *, guard=None):
+>       raise NotImplementedError("Event-free interval and full tail not implemented yet")
+E       NotImplementedError: Event-free interval and full tail not implemented yet
+
+output/collaboration/reward-mechanism-repair/weight_dependent_shadow.py:112: NotImplementedError
+=========================== short test summary info ============================
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_event_intervals_and_entire_tail_match_independent_superposition_ode[kc0-dan0-0.7]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_event_intervals_and_entire_tail_match_independent_superposition_ode[kc0-dan0-1.0]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_event_intervals_and_entire_tail_match_independent_superposition_ode[kc0-dan0-1.3]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_event_intervals_and_entire_tail_match_independent_superposition_ode[kc1-dan1-0.7]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_event_intervals_and_entire_tail_match_independent_superposition_ode[kc1-dan1-1.0]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_event_intervals_and_entire_tail_match_independent_superposition_ode[kc1-dan1-1.3]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_event_intervals_and_entire_tail_match_independent_superposition_ode[kc2-dan2-0.7]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_event_intervals_and_entire_tail_match_independent_superposition_ode[kc2-dan2-1.0]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_event_intervals_and_entire_tail_match_independent_superposition_ode[kc2-dan2-1.3]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_event_intervals_and_entire_tail_match_independent_superposition_ode[kc3-dan3-0.7]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_event_intervals_and_entire_tail_match_independent_superposition_ode[kc3-dan3-1.0]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_event_intervals_and_entire_tail_match_independent_superposition_ode[kc3-dan3-1.3]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_event_intervals_and_entire_tail_match_independent_superposition_ode[kc4-dan4-0.7]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_event_intervals_and_entire_tail_match_independent_superposition_ode[kc4-dan4-1.0]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_event_intervals_and_entire_tail_match_independent_superposition_ode[kc4-dan4-1.3]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_event_intervals_and_entire_tail_match_independent_superposition_ode[kc5-dan5-0.7]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_event_intervals_and_entire_tail_match_independent_superposition_ode[kc5-dan5-1.0]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_event_intervals_and_entire_tail_match_independent_superposition_ode[kc5-dan5-1.3]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_event_intervals_and_entire_tail_match_independent_superposition_ode[kc6-dan6-0.7]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_event_intervals_and_entire_tail_match_independent_superposition_ode[kc6-dan6-1.0]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_event_intervals_and_entire_tail_match_independent_superposition_ode[kc6-dan6-1.3]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_full_tail_has_no_finite_cutoff_or_electrical_partition_dependence[20.0]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_full_tail_has_no_finite_cutoff_or_electrical_partition_dependence[40.0]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_full_tail_has_no_finite_cutoff_or_electrical_partition_dependence[100.0]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_invalid_signal_states_fail_without_changing_gain[0--1.0]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_invalid_signal_states_fail_without_changing_gain[0-nan]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_invalid_signal_states_fail_without_changing_gain[0-inf]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_invalid_signal_states_fail_without_changing_gain[0-True]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_invalid_signal_states_fail_without_changing_gain[0-1]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_invalid_signal_states_fail_without_changing_gain[1--1.0]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_invalid_signal_states_fail_without_changing_gain[1-nan]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_invalid_signal_states_fail_without_changing_gain[1-inf]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_invalid_signal_states_fail_without_changing_gain[1-True]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_invalid_signal_states_fail_without_changing_gain[1-1]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_invalid_signal_states_fail_without_changing_gain[2--1.0]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_invalid_signal_states_fail_without_changing_gain[2-nan]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_invalid_signal_states_fail_without_changing_gain[2-inf]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_invalid_signal_states_fail_without_changing_gain[2-True]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_invalid_signal_states_fail_without_changing_gain[2-1]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_invalid_signal_states_fail_without_changing_gain[3--1.0]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_invalid_signal_states_fail_without_changing_gain[3-nan]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_invalid_signal_states_fail_without_changing_gain[3-inf]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_invalid_signal_states_fail_without_changing_gain[3-True]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_invalid_signal_states_fail_without_changing_gain[3-1]
+44 failed, 39 passed in 0.95s

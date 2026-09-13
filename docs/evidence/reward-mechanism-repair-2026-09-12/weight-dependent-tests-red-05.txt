@@ -1,0 +1,132 @@
+FFFF                                                                     [100%]
+=================================== FAILURES ===================================
+_ test_conditional_bound_counters_every_publication_without_changing_phase_schema[False-False] _
+
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x10b8c9580>
+learning = False, enabled = False
+
+    @pytest.mark.parametrize("learning", [False, True])
+    @pytest.mark.parametrize("enabled", [False, True])
+    def test_conditional_bound_counters_every_publication_without_changing_phase_schema(monkeypatch, learning, enabled):
+        # Consumer fixture isolates exact, allowance-only, and interior publication cases.
+        # None of these imposed trajectories is a measured circuit history.
+        low_next = float(np.nextafter(np.float32(0.5), np.float32(np.inf)))
+        high_previous = float(np.nextafter(np.float32(1.5), np.float32(-np.inf)))
+        target = np.array([0.5, (0.5 + low_next) / 2 + 5e-12, low_next,
+                           1.0, high_previous, (1.5 + high_previous) / 2 - 5e-12, 1.5])
+    
+        def synthetic_interval(rk, ek, rd, ed, gain, duration, *, guard=None):
+            delta = target - gain
+            return dict(gain=target.copy(), positive=np.maximum(delta, 0), negative=np.minimum(delta, 0),
+                        estimated_error=np.zeros((3, 7)), accepted_substeps=1, attempted_substeps=1,
+                        state=(rk, ek, rd, ed))
+    
+        monkeypatch.setattr(candidate, "interval", synthetic_interval)
+        value = candidate.shadow(np.zeros((2000, 1), np.uint8), np.zeros((2000, 1), np.uint8),
+                                 np.zeros(7, np.int32), np.zeros(7, np.int32), np.zeros(1, np.int32),
+                                 np.full(7, enabled, np.uint8), np.zeros(7, np.int32), learning=learning)
+        expected = np.array([[1, 1, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 1, 1]]) * (1501 if learning and enabled else 0)
+>       np.testing.assert_array_equal(value["conditional_bound_counts"], expected)
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       KeyError: 'conditional_bound_counts'
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:314: KeyError
+_ test_conditional_bound_counters_every_publication_without_changing_phase_schema[False-True] _
+
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x10b903ef0>
+learning = True, enabled = False
+
+    @pytest.mark.parametrize("learning", [False, True])
+    @pytest.mark.parametrize("enabled", [False, True])
+    def test_conditional_bound_counters_every_publication_without_changing_phase_schema(monkeypatch, learning, enabled):
+        # Consumer fixture isolates exact, allowance-only, and interior publication cases.
+        # None of these imposed trajectories is a measured circuit history.
+        low_next = float(np.nextafter(np.float32(0.5), np.float32(np.inf)))
+        high_previous = float(np.nextafter(np.float32(1.5), np.float32(-np.inf)))
+        target = np.array([0.5, (0.5 + low_next) / 2 + 5e-12, low_next,
+                           1.0, high_previous, (1.5 + high_previous) / 2 - 5e-12, 1.5])
+    
+        def synthetic_interval(rk, ek, rd, ed, gain, duration, *, guard=None):
+            delta = target - gain
+            return dict(gain=target.copy(), positive=np.maximum(delta, 0), negative=np.minimum(delta, 0),
+                        estimated_error=np.zeros((3, 7)), accepted_substeps=1, attempted_substeps=1,
+                        state=(rk, ek, rd, ed))
+    
+        monkeypatch.setattr(candidate, "interval", synthetic_interval)
+        value = candidate.shadow(np.zeros((2000, 1), np.uint8), np.zeros((2000, 1), np.uint8),
+                                 np.zeros(7, np.int32), np.zeros(7, np.int32), np.zeros(1, np.int32),
+                                 np.full(7, enabled, np.uint8), np.zeros(7, np.int32), learning=learning)
+        expected = np.array([[1, 1, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 1, 1]]) * (1501 if learning and enabled else 0)
+>       np.testing.assert_array_equal(value["conditional_bound_counts"], expected)
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       KeyError: 'conditional_bound_counts'
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:314: KeyError
+_ test_conditional_bound_counters_every_publication_without_changing_phase_schema[True-False] _
+
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x10b940320>
+learning = False, enabled = True
+
+    @pytest.mark.parametrize("learning", [False, True])
+    @pytest.mark.parametrize("enabled", [False, True])
+    def test_conditional_bound_counters_every_publication_without_changing_phase_schema(monkeypatch, learning, enabled):
+        # Consumer fixture isolates exact, allowance-only, and interior publication cases.
+        # None of these imposed trajectories is a measured circuit history.
+        low_next = float(np.nextafter(np.float32(0.5), np.float32(np.inf)))
+        high_previous = float(np.nextafter(np.float32(1.5), np.float32(-np.inf)))
+        target = np.array([0.5, (0.5 + low_next) / 2 + 5e-12, low_next,
+                           1.0, high_previous, (1.5 + high_previous) / 2 - 5e-12, 1.5])
+    
+        def synthetic_interval(rk, ek, rd, ed, gain, duration, *, guard=None):
+            delta = target - gain
+            return dict(gain=target.copy(), positive=np.maximum(delta, 0), negative=np.minimum(delta, 0),
+                        estimated_error=np.zeros((3, 7)), accepted_substeps=1, attempted_substeps=1,
+                        state=(rk, ek, rd, ed))
+    
+        monkeypatch.setattr(candidate, "interval", synthetic_interval)
+        value = candidate.shadow(np.zeros((2000, 1), np.uint8), np.zeros((2000, 1), np.uint8),
+                                 np.zeros(7, np.int32), np.zeros(7, np.int32), np.zeros(1, np.int32),
+                                 np.full(7, enabled, np.uint8), np.zeros(7, np.int32), learning=learning)
+        expected = np.array([[1, 1, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 1, 1]]) * (1501 if learning and enabled else 0)
+>       np.testing.assert_array_equal(value["conditional_bound_counts"], expected)
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       KeyError: 'conditional_bound_counts'
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:314: KeyError
+_ test_conditional_bound_counters_every_publication_without_changing_phase_schema[True-True] _
+
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x10b940cb0>
+learning = True, enabled = True
+
+    @pytest.mark.parametrize("learning", [False, True])
+    @pytest.mark.parametrize("enabled", [False, True])
+    def test_conditional_bound_counters_every_publication_without_changing_phase_schema(monkeypatch, learning, enabled):
+        # Consumer fixture isolates exact, allowance-only, and interior publication cases.
+        # None of these imposed trajectories is a measured circuit history.
+        low_next = float(np.nextafter(np.float32(0.5), np.float32(np.inf)))
+        high_previous = float(np.nextafter(np.float32(1.5), np.float32(-np.inf)))
+        target = np.array([0.5, (0.5 + low_next) / 2 + 5e-12, low_next,
+                           1.0, high_previous, (1.5 + high_previous) / 2 - 5e-12, 1.5])
+    
+        def synthetic_interval(rk, ek, rd, ed, gain, duration, *, guard=None):
+            delta = target - gain
+            return dict(gain=target.copy(), positive=np.maximum(delta, 0), negative=np.minimum(delta, 0),
+                        estimated_error=np.zeros((3, 7)), accepted_substeps=1, attempted_substeps=1,
+                        state=(rk, ek, rd, ed))
+    
+        monkeypatch.setattr(candidate, "interval", synthetic_interval)
+        value = candidate.shadow(np.zeros((2000, 1), np.uint8), np.zeros((2000, 1), np.uint8),
+                                 np.zeros(7, np.int32), np.zeros(7, np.int32), np.zeros(1, np.int32),
+                                 np.full(7, enabled, np.uint8), np.zeros(7, np.int32), learning=learning)
+        expected = np.array([[1, 1, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 1, 1]]) * (1501 if learning and enabled else 0)
+>       np.testing.assert_array_equal(value["conditional_bound_counts"], expected)
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       KeyError: 'conditional_bound_counts'
+
+output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py:314: KeyError
+=========================== short test summary info ============================
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_conditional_bound_counters_every_publication_without_changing_phase_schema[False-False]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_conditional_bound_counters_every_publication_without_changing_phase_schema[False-True]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_conditional_bound_counters_every_publication_without_changing_phase_schema[True-False]
+FAILED output/collaboration/reward-mechanism-repair/test_weight_dependent_shadow.py::test_conditional_bound_counters_every_publication_without_changing_phase_schema[True-True]
+4 failed, 107 deselected in 0.11s

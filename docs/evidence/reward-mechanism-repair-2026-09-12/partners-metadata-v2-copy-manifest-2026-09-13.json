@@ -1,0 +1,76 @@
+{
+  "created_at_utc": "2026-09-13T07:35:35.127076+00:00",
+  "scope": "Copy complete accepted v2 metadata run and four closeout artifacts; never move",
+  "files": [
+    {
+      "source": "output/collaboration/reward-mechanism-repair/partners-metadata-v2-inventory-2026-09-13/inventory.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/partners-metadata-v2-inventory-2026-09-13/inventory.json",
+      "bytes": 2379706,
+      "sha256": "aef32920c537c5912df5964bdb6811f8fda0eb8b7d6c2e8b32c30be6a77e137b",
+      "source_preserved": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/partners-metadata-v2-inventory-2026-09-13/metadata.bin",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/partners-metadata-v2-inventory-2026-09-13/metadata.bin",
+      "bytes": 3045760,
+      "sha256": "987eea35d6c6c5784c2b6538130ea9df8d4b65fbef238e04eed28e36476ca93f",
+      "source_preserved": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/partners-metadata-v2-inventory-2026-09-13/plan.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/partners-metadata-v2-inventory-2026-09-13/plan.json",
+      "bytes": 370859,
+      "sha256": "3d77faa491248c15913e8a9b5b96f29e9420c63597d3d12a34d0f56e587913c4",
+      "source_preserved": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/partners-metadata-v2-inventory-2026-09-13/requests.jsonl",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/partners-metadata-v2-inventory-2026-09-13/requests.jsonl",
+      "bytes": 10994713,
+      "sha256": "33a1a38cf627b9ae8dff6998c095044128bf4b87a28429055390af3793917f16",
+      "source_preserved": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/partners-metadata-v2-inventory-2026-09-13/summary.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/partners-metadata-v2-inventory-2026-09-13/summary.json",
+      "bytes": 960,
+      "sha256": "661583f069ff2f60e86db61a015784a1914b0d1dd3ac19832a10488b3bdf7ed6",
+      "source_preserved": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/partners-metadata-v2-result-2026-09-13.md",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/partners-metadata-v2-result-2026-09-13.md",
+      "bytes": 5215,
+      "sha256": "991345101cb44eaaae25b8423111b0f434d1d0b92881013e5ada13c013cd6771",
+      "source_preserved": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/partners-metadata-v2-execution-integrity-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/partners-metadata-v2-execution-integrity-2026-09-13.json",
+      "bytes": 8638,
+      "sha256": "cb8f88cb4b317517b38ea3d85355017f5ce84dbfcd44fb6c1a6de44c4a822fdd",
+      "source_preserved": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/partners-metadata-v2-final-reading-closeout-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/partners-metadata-v2-final-reading-closeout-2026-09-13.json",
+      "bytes": 42534,
+      "sha256": "2f11406aeaf7a0bfe672009564c677b07e5b71e452ce4dd46ab06a70e808ecfe",
+      "source_preserved": true
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/partners-metadata-reading-supplement-0717-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/partners-metadata-reading-supplement-0717-2026-09-13.json",
+      "bytes": 41683,
+      "sha256": "ec11aebca1710b90f4ba395f0a9f273cbff2fb9fc86119cd903ffa92499caa3f",
+      "source_preserved": true
+    }
+  ],
+  "file_count": 9,
+  "bytes": 16890068,
+  "all_source_copy_hashes_match": true,
+  "all_originals_preserved": true,
+  "narrative_index_wiki_handoff_edits": false,
+  "network_requests": 0,
+  "native_circuit_calls": 0
+}

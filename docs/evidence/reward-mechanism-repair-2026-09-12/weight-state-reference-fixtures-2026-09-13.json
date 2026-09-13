@@ -1,0 +1,192 @@
+{
+  "checked_at_utc": "2026-09-13T07:16:45.730495+00:00",
+  "scope": "Six synthetic fixtures only; no recorded history or candidate circuit evaluation",
+  "reference": {
+    "path": "output/collaboration/reward-mechanism-repair/weight_state_reference.py",
+    "bytes": 8576,
+    "sha256": "000015fc0435c10df970ca81c1836b5b039fb1bc2f67851d9046af595fa34034"
+  },
+  "tests": {
+    "path": "output/collaboration/reward-mechanism-repair/test_weight_state_reference.py",
+    "bytes": 9032,
+    "sha256": "07b3fa140e670393dd7e758c66af4347f37e553aab5c7b5c298b3b3dea79a05d"
+  },
+  "gain_atol": 1e-11,
+  "weighted_area_atol": 2e-11,
+  "rows": [
+    {
+      "name": "silence",
+      "inputs": {
+        "kc_times": [],
+        "dan_times": [],
+        "end_ms": 30.0,
+        "initial_gain": 0.8
+      },
+      "ode_result": {
+        "gain": 0.8,
+        "gain32": 0.800000011920929,
+        "positive": 0.0,
+        "negative": 0.0,
+        "electrical_gain": 0.8,
+        "electrical_positive": 0.0,
+        "electrical_negative": 0.0,
+        "tail_positive": 0.0,
+        "tail_negative": 0.0,
+        "tail_gain_change": 0.0
+      },
+      "integrating_factor_gain_70_digits": "0.8000000000000000444089209850062616169452667236328125",
+      "gain_method_absolute_difference": 0.0,
+      "accounting_residual": 0.0
+    },
+    {
+      "name": "coincident_fresh",
+      "inputs": {
+        "kc_times": [
+          0.0
+        ],
+        "dan_times": [
+          0.0
+        ],
+        "end_ms": 0.0
+      },
+      "ode_result": {
+        "gain": 1.0,
+        "gain32": 1.0,
+        "positive": 0.00019999999999999993,
+        "negative": -0.00019999999999999993,
+        "electrical_gain": 1.0,
+        "electrical_positive": 0.0,
+        "electrical_negative": 0.0,
+        "tail_positive": 0.00019999999999999993,
+        "tail_negative": -0.00019999999999999993,
+        "tail_gain_change": 0.0
+      },
+      "integrating_factor_gain_70_digits": "1.0",
+      "gain_method_absolute_difference": 0.0,
+      "accounting_residual": 0.0
+    },
+    {
+      "name": "coincident_upper",
+      "inputs": {
+        "kc_times": [
+          0.0
+        ],
+        "dan_times": [
+          0.0
+        ],
+        "end_ms": 0.0,
+        "initial_gain": 1.5
+      },
+      "ode_result": {
+        "gain": 1.499600159957343,
+        "gain32": 1.4996001720428467,
+        "positive": 7.997867093251342e-08,
+        "negative": -0.00039992002132906726,
+        "electrical_gain": 1.5,
+        "electrical_positive": 0.0,
+        "electrical_negative": 0.0,
+        "tail_positive": 7.997867093251342e-08,
+        "tail_negative": -0.00039992002132906726,
+        "tail_gain_change": -0.0003998400426570292
+      },
+      "integrating_factor_gain_70_digits": "1.499600159957341865301515356974778735715675481411089449478625915091978",
+      "gain_method_absolute_difference": 1.1102230246251565e-15,
+      "accounting_residual": 1.1055067451748446e-15
+    },
+    {
+      "name": "kc_first",
+      "inputs": {
+        "kc_times": [
+          0.0
+        ],
+        "dan_times": [
+          50.0
+        ],
+        "end_ms": 70.0
+      },
+      "ode_result": {
+        "gain": 0.9998509186027735,
+        "gain32": 0.9998509287834167,
+        "positive": 0.00012133100238821439,
+        "negative": -0.00027041239961453145,
+        "electrical_gain": 0.9999681762391478,
+        "electrical_positive": 4.72027304147061e-06,
+        "electrical_negative": -3.654403389383079e-05,
+        "tail_positive": 0.00011661072934674378,
+        "tail_negative": -0.00023386836572070066,
+        "tail_gain_change": -0.00011725763637426834
+      },
+      "integrating_factor_gain_70_digits": "0.9998509186027736833856539572775237920877452061276643333977523975125788",
+      "gain_method_absolute_difference": 1.1102230246251565e-16,
+      "accounting_residual": -1.5222198501696482e-16
+    },
+    {
+      "name": "dan_first_changed_gain",
+      "inputs": {
+        "kc_times": [
+          50.0
+        ],
+        "dan_times": [
+          0.0
+        ],
+        "end_ms": 70.0,
+        "initial_gain": 1.2
+      },
+      "ode_result": {
+        "gain": 1.1999924365161039,
+        "gain32": 1.1999924182891846,
+        "positive": 0.00016226825376833553,
+        "negative": -0.00016983173766415378,
+        "electrical_gain": 1.2000153183140647,
+        "electrical_positive": 2.1926517749949477e-05,
+        "electrical_negative": -6.60820368538293e-06,
+        "tail_positive": 0.00014034173601838604,
+        "tail_negative": -0.00016322353397877086,
+        "tail_gain_change": -2.2881797960838668e-05
+      },
+      "integrating_factor_gain_70_digits": "1.199992436516104137148757102226015479892724131917400027132122152328345",
+      "gain_method_absolute_difference": 2.220446049250313e-16,
+      "accounting_residual": -2.5982905063615114e-16
+    },
+    {
+      "name": "repeated_fractional_dan",
+      "inputs": {
+        "kc_times": [
+          0.0,
+          0.2,
+          13.6,
+          120.0
+        ],
+        "dan_times": [
+          0.2,
+          15.0,
+          119.8
+        ],
+        "end_ms": 200.0,
+        "initial_gain": 0.7,
+        "dan_weights": [
+          0.5,
+          0.5,
+          0.5
+        ]
+      },
+      "ode_result": {
+        "gain": 0.7012310979826456,
+        "gain32": 0.7012311220169067,
+        "positive": 0.0017262555843595082,
+        "negative": -0.0004951576017133573,
+        "electrical_gain": 0.7007882986164549,
+        "electrical_positive": 0.0011078827912941384,
+        "electrical_negative": -0.0003195841748391421,
+        "tail_positive": 0.0006183727930653698,
+        "tail_negative": -0.0001755734268742152,
+        "tail_gain_change": 0.0004427993661907381
+      },
+      "integrating_factor_gain_70_digits": "0.701231097982646105673958530435237267711860158203938964959452963574367",
+      "gain_method_absolute_difference": 5.551115123125783e-16,
+      "accounting_residual": -5.05021371943748e-16
+    }
+  ],
+  "maximum_fixture_gain_method_difference": 1.1102230246251565e-15,
+  "maximum_fixture_accounting_residual": 1.1055067451748446e-15
+}
