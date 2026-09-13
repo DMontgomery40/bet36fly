@@ -1,6 +1,6 @@
 ---
 type: cell-family
-updated: 2026-09-12
+updated: 2026-09-13
 status: source-backed-and-code-inspected
 ---
 # ALPNs: the engineered entrance to the circuit
@@ -17,7 +17,7 @@ status: source-backed-and-code-inspected
 
 The schema-3 constructor sets the gain on all edges **ending at** ALPNs to zero. Their outgoing anatomical edges remain. Scheduled inputs can then drive projection neurons without the previous antennal-lobe recurrence re-exciting them. This bypasses part of the natural sensory computation; it is an explicit interface intervention. The main kernel also exempts designated sensory cells from its normal refractory delay. [Constructor](../../bet36fly/reward_protocol.py), [native event loop](../../bet36fly/reward_lif.cpp).
 
-The old 32-port rate interface drove nearly the same KC population for every game. Changing which ALPN groups receive input improved measured separation, but it did not fix the learning rule. The frozen protocol remains the current reference; another encoder redesign would confound the mechanism investigation. [Reassessment](../reassessment.md).
+The old 32-port rate interface drove nearly the same KC population for every game. Changing which ALPN groups receive input improved measured separation, but it did not fix the learning rule. Preserve this frozen interface when interpreting the legacy mechanism experiment. The [new direction](../../docs/PROJECT_DIRECTION.md) explicitly permits a separately identified natural sensory interface; it must not inherit the ALPN bypass accidentally. [Measured sensory inputs](../natural-sensory-inputs.md), [reassessment](../reassessment.md).
 
 ## Evidence to keep with any future change
 

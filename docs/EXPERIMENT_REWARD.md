@@ -1,5 +1,7 @@
 # On-circuit dopamine-association experiment
 
+**Legacy protocol; research priority changed September 13, 2026.** Preserve this experiment's controls, identities and SCI-001 HOLD. The [current direction](PROJECT_DIRECTION.md) and [new handoff](NATURAL_SENSORY_HANDOFF.md) begin with natural sensory calibration and a plasticity-off response assay. That separate assay does not require this learning gate to pass. Nothing in this update qualifies the legacy mechanism or authorizes its historical unrun candidates.
+
 **Status checked September 13, 2026 UTC:** the working checkout includes the
 retained raw-D and gamma-mask options, corrected refractory input handling and
 the numerically verified `rate-bridge-v1`. Both corrected raw and bridge rules

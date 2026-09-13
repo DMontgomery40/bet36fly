@@ -1,6 +1,8 @@
-# Continue the dopamine mechanism repair
+# Historical dopamine mechanism repair handoff
 
-## Current continuation boundary: September 13, 2026, separate DA/NO state component verified
+**Superseded priority — September 13, 2026.** Use the [natural sensory handoff](NATURAL_SENSORY_HANDOFF.md) and [canonical direction](PROJECT_DIRECTION.md) for continuation. The user now prioritizes calibrated food-related sensory input and a plasticity-off natural-response assay. The historical instructions below preserve earlier decisions and evidence; their “continue the active goal” language does not override this change. Legacy qualification remains failed. This banner does not stop another active task or execute the new plan.
+
+## Archived continuation boundary: September 13, 2026, separate DA/NO state component verified
 
 Continue this existing task and the active full repair goal on
 `feat/bet36fly-dopamine-learning`. No new task or user-written handoff is

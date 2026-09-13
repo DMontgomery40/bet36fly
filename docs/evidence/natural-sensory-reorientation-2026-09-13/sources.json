@@ -1,0 +1,118 @@
+{
+  "checked_date": "2026-09-13",
+  "purpose": "Bounded source audit for the user-directed natural-sensory reorientation. No simulator parameters selected and no neural runs authorized or performed by this documentation task.",
+  "sources": [
+    {
+      "id": "malecns",
+      "url": "https://male-cns.janelia.org/",
+      "version": "v1.0",
+      "date_checked": "2026-09-13",
+      "inspection": "Home and release notes checked; release page lists v1.0 June 8, 2026. Local source lock and all 166700 derived node rows examined.",
+      "limits": "Anatomy and release identity only; no new circuit assay."
+    },
+    {
+      "id": "malecns-release",
+      "url": "https://male-cns.janelia.org/release/",
+      "version": "v1.0 June 8, 2026",
+      "date_checked": "2026-09-13",
+      "inspection": "Direct public HTML retrieved after browser fetch failure; text inspected.",
+      "limits": "No newer release listed on this checked page; not an exhaustive literature claim."
+    },
+    {
+      "id": "shiu-paper",
+      "url": "https://www.nature.com/articles/s41586-024-07763-9",
+      "version": "2024 version of record; DOI 10.1038/s41586-024-07763-9",
+      "date_checked": "2026-09-13",
+      "inspection": "Article text and sensory/feeding methods inspected.",
+      "limits": "Female FlyWire. 10-200 Hz is a model sweep, not a measured natural sugar rate. No reproduction here."
+    },
+    {
+      "id": "shiu-code",
+      "url": "https://github.com/philshiu/Drosophila_brain_model",
+      "version": "91bdd1e7dcf193f3e7ca5a8933497fcef63b7960",
+      "date_checked": "2026-09-13",
+      "inspection": "Current main commit API, entire model.py, issues and releases inspected. No releases shown; open issue #9 concerns clustering.",
+      "limits": "No code execution or community-result reproduction."
+    },
+    {
+      "id": "zhao2022",
+      "url": "https://www.nature.com/articles/s41467-022-35527-4",
+      "version": "2022 version of record; DOI 10.1038/s41467-022-35527-4",
+      "date_checked": "2026-09-13",
+      "inspection": "Article methods, Figure 7 visual axes and complete 10600824-byte source workbook inspected. All 28 groups in panels 7b,7c,7e extracted with exact cell coordinates.",
+      "limits": "L-glucose differs from sucrose; taste counts/3s versus odor delta spikes/s. Multiple sensilla from 3 flies. Figure7f diet-label discrepancy excludes that panel. No raw spike waveform."
+    },
+    {
+      "id": "charlu2013",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3710667/",
+      "version": "2013 author manuscript; DOI 10.1038/ncomms3042",
+      "date_checked": "2026-09-13",
+      "inspection": "Methods, sucrose selection thresholds, Figure4 temporal description and mixture text inspected.",
+      "limits": "100mM sucrose >=50/30 spikes/s are inclusion criteria, not population means. Window first500ms. No digitized time series."
+    },
+    {
+      "id": "hallem2006",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16615896/",
+      "version": "2006; DOI 10.1016/j.cell.2006.01.050",
+      "date_checked": "2026-09-13",
+      "inspection": "Primary abstract and source-specific DoOR columns inspected; publisher full-methods open failed.",
+      "limits": "Provisional reference leads only; verify original baseline, timing and dose method before simulation binding."
+    },
+    {
+      "id": "door",
+      "url": "https://github.com/ropensci/DoOR.data",
+      "version": "db323a496577c4b4a72b5c2fcd1859e07521ffb5",
+      "date_checked": "2026-09-13",
+      "inspection": "Repository tree, original source-specific Or22a/Or42b/Or85a CSVs, dataset metadata, mappings and odor registry fetched. Complete selected CSVs parsed.",
+      "limits": "DoOR author-maintained compilation, not newly measured data. Normalized merged matrix is not Hz. Current site warns that some mappings need updates."
+    },
+    {
+      "id": "door-site",
+      "url": "https://neuro.uni-konstanz.de/DoOR/content/DoOR.php",
+      "version": "Live September 13, 2026",
+      "date_checked": "2026-09-13",
+      "inspection": "Project site and current receptor-map guidance inspected.",
+      "limits": "DoOR source units must be inspected separately for each dataset."
+    },
+    {
+      "id": "benton2025",
+      "url": "https://link.springer.com/article/10.1038/s44319-025-00476-8",
+      "version": "2025 version of record; DOI 10.1038/s44319-025-00476-8",
+      "date_checked": "2026-09-13",
+      "inspection": "Receptor/sensillum nomenclature resource and supplementary-map pointer inspected.",
+      "limits": "EV1 not exhaustively crosswalked to this MaleCNS specimen; no claim of exact functional binding."
+    },
+    {
+      "id": "stensmyr2012",
+      "url": "https://doi.org/10.1016/j.cell.2012.09.046",
+      "version": "2012; DOI 10.1016/j.cell.2012.09.046",
+      "date_checked": "2026-09-13",
+      "inspection": "Primary article indexed abstract/summary inspected for geosmin, Or56a/DA2 and avoidance.",
+      "limits": "No numerical dose/rate extraction or local behavioral test."
+    },
+    {
+      "id": "yamagata2016",
+      "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002586",
+      "version": "2016 version of record",
+      "date_checked": "2026-09-13",
+      "inspection": "Primary article inspected for PAM-gamma3 suppression, sugar memory and innate preference controls.",
+      "limits": "Not a calibrated PAM12 firing schedule in MaleCNS; calcium responses not converted to Hz."
+    },
+    {
+      "id": "flyhard",
+      "url": "https://github.com/MarkUnthank/flyhard",
+      "version": "README fetched September13; byte hash in retrievals.json",
+      "date_checked": "2026-09-13",
+      "inspection": "Current README inspected after complete copied wiki reading.",
+      "limits": "Community author reports constrained wheel control with engineered interfaces; implementation not freshly audited or reproduced here."
+    },
+    {
+      "id": "doomfly",
+      "url": "https://github.com/nftechie/doomfly",
+      "version": "README fetched September13; byte hash in retrievals.json",
+      "date_checked": "2026-09-13",
+      "inspection": "Current README inspected after complete copied wiki reading.",
+      "limits": "Author reports failed v6 learning/visual/survival gates. Not freshly reproduced; no authority for successful local learning."
+    }
+  ]
+}

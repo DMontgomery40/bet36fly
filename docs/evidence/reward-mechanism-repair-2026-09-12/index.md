@@ -1,5 +1,7 @@
 # Dopamine mechanism repair — September 12, 2026
 
+**Continuation priority changed September 13:** the [natural sensory direction](../../PROJECT_DIRECTION.md) and [current handoff](../../NATURAL_SENSORY_HANDOFF.md) supersede the repair queue. This index preserves the legacy experiment's evidence and failed qualification. Its historical “next” instructions are not the current project plan; a separate plasticity-off sensory assay does not depend on this learning gate.
+
 **Status: scientific HOLD; the rate bridge still fails the second panel's untaught-home guard.** Both the corrected raw-event rule and the subsequent rate bridge pass the original panel but fail the previously frozen second panel. The rate bridge reduces the measured drift without satisfying the unchanged guard. Numerical implementation tests pass; cue-specific acquisition, reversal and improved sports prediction remain unestablished. Conditioning has not run.
 
 The [separate DA/NO state component](aso-da-no-component-checkpoint-2026-09-13.md)
@@ -19,7 +21,7 @@ The [copy manifest](darela-source-preparation-copy-manifest-2026-09-13.json)
 binds the retained external source, license, reviews and initial helper tests.
 The source is a mouse FSCV model; the finite spike embedding is an engineering
 construction, not calibrated fly release. Follow the
-[current handoff](../../REWARD_REPAIR_HANDOFF.md) for the continuation boundary. The
+[historical repair handoff](../../REWARD_REPAIR_HANDOFF.md) for that dated boundary. The
 [completed checkpoint](darela-source-transfer-checkpoint-2026-09-13.md)
 passes eight source-kernel cases, independent review of all saved arrays and
 216 synthetic preparation tests. No new qualification or learning

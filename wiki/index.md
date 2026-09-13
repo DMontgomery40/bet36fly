@@ -5,7 +5,9 @@ status: active
 ---
 # BET36FLY: cells, circuits, and learning
 
-Start with the [reassessment](reassessment.md). The current problem is demonstrating specific, controlled learning in the implemented mushroom-body circuit. A usable activity range and changing gains have been demonstrated; useful associative learning has not. This wiki connects individual MaleCNS cells to the code, measured failures, and evidence needed next.
+Start with the [current direction](../docs/PROJECT_DIRECTION.md), [reassessment](reassessment.md), and [natural sensory inputs](natural-sensory-inputs.md). David's September 13 reorientation puts a calibrated food-related sensory-response assay first, then two distinguishable matchup opportunities. Both teams can be attractive. This interface is not implemented. The [continuation prompt](../docs/NATURAL_SENSORY_HANDOFF.md) supersedes the old repair queue.
+
+A usable activity range and changing gains have been demonstrated in the legacy mushroom-body experiment; useful associative learning has not. This wiki connects MaleCNS cells to implemented mechanisms, measured failures and the evidence needed for the new sensory task.
 
 The repair is integrated, but both corrected raw-event and rate-bridge rules fail
 the second panel's untaught-home guard. A later fixed-history investigation made
@@ -20,6 +22,7 @@ remains a dated snapshot.
 
 | Question | Read |
 | --- | --- |
+| What firing rates do fruit-related odors and sugar actually evoke? | [Measured sensory responses, exact units and candidate MaleCNS inputs](natural-sensory-inputs.md) |
 | Which exact cells and synapses are involved? | [Cell atlas](cells/index.md), [individual identities and subtype counts](cells/identities.md) |
 | How do sports features reach the circuit? | [ALPN inputs and the glomerular proxy](cells/alpn.md) |
 | Which Kenyon cells can learn, and why is the away mask different? | [KC families and synaptic support](cells/kenyon-cells.md) |

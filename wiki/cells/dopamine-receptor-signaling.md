@@ -131,7 +131,7 @@ change does not demonstrate away learning. The
 [complete 24-cell table](../../docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-cells/cell-summary.csv)
 retains every body identity. These are modeled release masses, not measured
 local concentrations or isolated causal contributions of either home DAN.
-The [current handoff](../../docs/REWARD_REPAIR_HANDOFF.md) records the
+The [historical repair handoff](../../docs/REWARD_REPAIR_HANDOFF.md) records the
 remaining source-grounded learning investigation.
 
 The current learning qualification still fails. A future intracellular

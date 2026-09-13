@@ -4,6 +4,8 @@ BET36FLY uses the actual MaleCNS v1.0 neuronal connectome from HHMI Janelia, Goo
 
 ## Current model and experiment status
 
+**Research priority changed September 13:** the [natural sensory direction](PROJECT_DIRECTION.md) now precedes further learning-model repair. Calibrated food-related inputs, a natural-response assay and a two-opportunity comparison are planned, not implemented. The active v1 checkpoint and the separate legacy reward results below remain unchanged by this documentation update. [Sensory measurements and transfer limits](../wiki/natural-sensory-inputs.md).
+
 The [reassessment, updated September 13 UTC](../wiki/reassessment.md), preserves
 the original branch distinction and records the later integration. Refractory
 input banking is corrected, gamma away eligibility is implemented, and the

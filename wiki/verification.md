@@ -1,9 +1,13 @@
 ---
 type: verification
 updated: 2026-09-13
-status: historical-verification-current-repair-in-progress
+status: dated-verification-records
 ---
 # Verification of this wiki integration
+
+## Natural sensory direction update — September 13
+
+The [reorientation verification record](../docs/evidence/natural-sensory-reorientation-2026-09-13/verification.md) covers the current documentation/rules change, measured-response arithmetic, local links, protected files and repository gate. Earlier software/browser checks below retain their dates and scope. The new natural sensory assay has not run; documentation verification does not establish physiology or choice behavior.
 
 The September 13 [mechanism evidence UI acceptance](../docs/evidence/reward-mechanism-repair-2026-09-12/task4b-acceptance.md)
 passed 970 Python tests, 81 frontend tests, Ruff/build and the actual guarded

@@ -1,0 +1,266 @@
+[
+  {
+    "path": "output/current-model.json",
+    "sha256": "975badb63a16ca1b24291a741b6818f1d83776b51adb18b18c6f0902b3a18b21"
+  },
+  {
+    "path": "docs/connectome-source-lock.json",
+    "sha256": "df59963b365e4b70450a0ec3861bb845420d660a142cc2c43ad958a9f7767567"
+  },
+  {
+    "path": "configs/experiment-v2.json",
+    "sha256": "3985d5e6ac2ce8ad2bd448b05c124bd2bb54a3177bdc30b35fac9d6d53b736b0"
+  },
+  {
+    "path": "configs/reward-v4-candidate.json",
+    "sha256": "dd2b070989a4680ca32c871c1b1be58a74ec5b40489e2bb0f6819ddb0e58c955"
+  },
+  {
+    "path": "configs/reward-v3-pilot.json",
+    "sha256": "c1e969f5d4f586b789bf4bf9235e8071f2734759b3e22f30ad1d01f9fc4be193"
+  },
+  {
+    "path": "wiki/imports/microduck-2026-09-12/COPY_MANIFEST.json",
+    "sha256": "fa7c766620cfc290d7b17994916aae7cdb11f82dffb5fa1a88952ff53b5b0206"
+  },
+  {
+    "path": "wiki/imports/microduck-2026-09-12/README.md",
+    "sha256": "51121084b6f0d945e0221e327140e0f283c7dfaf417809bdd6acadb7d76d91bc"
+  },
+  {
+    "path": "wiki/imports/microduck-2026-09-12/wiki/overview.md",
+    "sha256": "e9aa1ecfeb820b360bc6851e4b884c7d2b5b9a215225d9480b35401490d350de"
+  },
+  {
+    "path": "wiki/imports/microduck-2026-09-12/wiki/SCHEMA.md",
+    "sha256": "496209f8585ab0ae2a0d1dad4048353dae7d53b516d90d37ae4152807bbfcd31"
+  },
+  {
+    "path": "wiki/imports/microduck-2026-09-12/wiki/verification.md",
+    "sha256": "8d1a1ba10a3575cceab76d2279fe05bbcf235703a4219691fb7263d4e0f4c129"
+  },
+  {
+    "path": "wiki/imports/microduck-2026-09-12/wiki/log.md",
+    "sha256": "910cbfa59e36ac2211e447e75058c1838cc9af074c61afd311221019dea6ace4"
+  },
+  {
+    "path": "wiki/imports/microduck-2026-09-12/wiki/index.md",
+    "sha256": "c384e548e7b714247a6893f29e1563b55f3e36215744f8abb14857b1cb321a6a"
+  },
+  {
+    "path": "wiki/imports/microduck-2026-09-12/flybrain/connectome.py",
+    "sha256": "f350c9f318a1cf7219e3ba5ce144ea7458d69e6decb4b2425a634a9d002a79fb"
+  },
+  {
+    "path": "wiki/imports/microduck-2026-09-12/research/raw/index.md",
+    "sha256": "f7500261fc342b067c40f371c8b859ae52a9ea82d4a28c69fc7d3c96284c2feb"
+  },
+  {
+    "path": "wiki/imports/microduck-2026-09-12/research/raw/2026-09-12/source-ledger.json",
+    "sha256": "3d0bbbbbbe6cc68a7f9e302a1e931d838e2aba60f15561fbe272702c2f68cdae"
+  },
+  {
+    "path": "wiki/imports/microduck-2026-09-12/research/raw/2026-09-12/karpathy-source-record.json",
+    "sha256": "369d5adfb6aff6f3b358023f87295c95ae5b87a5bd741475c1d956fba032021e"
+  },
+  {
+    "path": "wiki/imports/microduck-2026-09-12/research/raw/2026-09-12/snapshot-manifest.json",
+    "sha256": "fa88dab469928504d889321a8341866719b96b834d37d0850ba6147d6db33ba9"
+  },
+  {
+    "path": "wiki/imports/microduck-2026-09-12/research/raw/2026-09-12/microduck_rl/LICENSE",
+    "sha256": "2d3fd9ffffa70a4307498ec630b14a6b4731e010f8ddda92686eaf65733c2dfe"
+  },
+  {
+    "path": "wiki/imports/microduck-2026-09-12/research/raw/2026-09-12/microduck_rl/pyproject.toml",
+    "sha256": "e4f73a9f9aff14826463aee558f53900307ba973a287fb3bfc27a8954a131026"
+  },
+  {
+    "path": "wiki/imports/microduck-2026-09-12/research/raw/2026-09-12/microduck_rl/README.md",
+    "sha256": "b5e606efe7ff71f4f6324820b36152d401a0b1be6e2f908bbaca01ffee81638d"
+  },
+  {
+    "path": "wiki/imports/microduck-2026-09-12/research/raw/2026-09-12/microduck-runtime/LICENSE",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+  },
+  {
+    "path": "wiki/imports/microduck-2026-09-12/research/raw/2026-09-12/microduck-runtime/README.md",
+    "sha256": "688c04bbb8e9b677c6ce65a1d76597488a02098ad5d69939a8a1d52f7b05698f"
+  },
+  {
+    "path": "wiki/imports/microduck-2026-09-12/research/raw/2026-09-12/microduck_rl/src/mjlab_microduck/export.py",
+    "sha256": "ef4d851eee70ce0d1c896a0be14fd4a936a0d17e83649dfd572a5282ffcdf5b9"
+  },
+  {
+    "path": "wiki/imports/microduck-2026-09-12/research/raw/2026-09-12/microduck_rl/src/mjlab_microduck/tasks/microduck_ground_pick_env_cfg.py",
+    "sha256": "9b68951e2c84fdccb5894701efa97e060438eb56c956a34c65e844ba3fa6185e"
+  },
+  {
+    "path": "wiki/imports/microduck-2026-09-12/research/raw/2026-09-12/microduck_rl/src/mjlab_microduck/tasks/microduck_ball_kick_env_cfg.py",
+    "sha256": "313180628c0d0364ea6d0f1843e7e3e10b76585491b90b0c1f0e301d9e5fd30c"
+  },
+  {
+    "path": "wiki/imports/microduck-2026-09-12/research/raw/2026-09-12/microduck_rl/src/mjlab_microduck/tasks/microduck_velocity_env_cfg.py",
+    "sha256": "75a0430b814ac7495eb237ab806fbd4dd10309b9fd3027ac3eee3c2e3c5a944a"
+  },
+  {
+    "path": "wiki/imports/microduck-2026-09-12/research/raw/2026-09-12/microduck_rl/src/mjlab_microduck/sim/camera.py",
+    "sha256": "5f2e6c83b33e594583cbd5f3e003c3b8bb77f7a0e7b734d86ba0b2c821eaed71"
+  },
+  {
+    "path": "wiki/imports/microduck-2026-09-12/research/raw/2026-09-12/microduck_rl/src/mjlab_microduck/sim/body_server.py",
+    "sha256": "2040c827628c33fee998944bce1fcd456c4b993802bb473f016681688bff7b08"
+  },
+  {
+    "path": "wiki/imports/microduck-2026-09-12/research/raw/2026-09-12/microduck-runtime/docs/recurrent-policies.md",
+    "sha256": "863cebeb5cf98fbb13ee5458b8460bf0962e8a732904d8b07021e2365fa00beb"
+  },
+  {
+    "path": "wiki/imports/microduck-2026-09-12/research/raw/2026-09-12/microduck-runtime/docs/policy-manifest.md",
+    "sha256": "483f6493b50d94b4b7befd341caf446a7e50df0de0fdfbf58c3b3bf0817fc3d5"
+  },
+  {
+    "path": "wiki/imports/microduck-2026-09-12/research/raw/2026-09-12/microduck-runtime/docs/design/architecture.md",
+    "sha256": "313bc1d1900da2f68f4d6473ff9a7f4901d466336ab06d87bc4dec2e109f76c5"
+  },
+  {
+    "path": "wiki/imports/microduck-2026-09-12/research/raw/2026-09-12/microduck-runtime/docs/robot/simulation.md",
+    "sha256": "7f24d8e7885aa2d6b2151ddee2c789dbb7be43c15e172b4998769b35daacdf7a"
+  },
+  {
+    "path": "wiki/imports/microduck-2026-09-12/wiki/synthesis/training-and-deployment.md",
+    "sha256": "1497b865a157c9ec3edb079d9154e78d5b60eae4cbdc56d1c11124ecd0c76ddc"
+  },
+  {
+    "path": "wiki/imports/microduck-2026-09-12/wiki/synthesis/hazard-evaluation.md",
+    "sha256": "8c6a94c28a8bf80712c329c8e26af1c767c97dcfcc693da15a49b18b9c0ddcac"
+  },
+  {
+    "path": "wiki/imports/microduck-2026-09-12/wiki/synthesis/open-questions.md",
+    "sha256": "bb4bdbbb45f4a3fcd35fc64f326a5dc98b44f09f2206f0a8f3d1e82b15433906"
+  },
+  {
+    "path": "wiki/imports/microduck-2026-09-12/wiki/compute/sources.json",
+    "sha256": "4694aaeeab0dddda06d60561eacd9b2236e453643aa4c88f0b7d7065aca98f98"
+  },
+  {
+    "path": "wiki/imports/microduck-2026-09-12/wiki/compute/sources.md",
+    "sha256": "033890187235e741fb896c7f9f821de695bf84cd1be2d8c8640bccb25be9beeb"
+  },
+  {
+    "path": "wiki/imports/microduck-2026-09-12/wiki/compute/brev.md",
+    "sha256": "e9e0dc41bd69cf50bec0d83f2ee070f2eb2998d5d24e7e357127d9e9d5100860"
+  },
+  {
+    "path": "wiki/imports/microduck-2026-09-12/wiki/compute/gpu-selection.md",
+    "sha256": "05d50e0e903f2899ef6a103c53420ce039f7f8e850dc790d094dbd3dbacdb7d9"
+  },
+  {
+    "path": "wiki/imports/microduck-2026-09-12/wiki/compute/index.md",
+    "sha256": "36306ddbb62fbadfc054b0fe9789fb9407fd28921e942d4e32667414f2d188da"
+  },
+  {
+    "path": "wiki/imports/microduck-2026-09-12/wiki/compute/ownership.md",
+    "sha256": "c0c54ab6009dde1a3465b4db513fb2f4e6b62b1bf6be7030f6319a572a2db92c"
+  },
+  {
+    "path": "wiki/imports/microduck-2026-09-12/wiki/compute/run-contract.md",
+    "sha256": "8da9ebd726d022218d74e0e95827a37526670df0e961cc5660c5a22c3c666607"
+  },
+  {
+    "path": "wiki/imports/microduck-2026-09-12/wiki/compute/hugging-face.md",
+    "sha256": "7d20b1d739f701d597ef11e24f99df15e581efa387724c3d28f4b045621393cd"
+  },
+  {
+    "path": "wiki/imports/microduck-2026-09-12/wiki/microduck/simulators.md",
+    "sha256": "500176c44d1b79bc0d7d82b37870a1e54223fb946e4f1897eed40d62f359a1bb"
+  },
+  {
+    "path": "wiki/imports/microduck-2026-09-12/wiki/microduck/sources.json",
+    "sha256": "efa08d61767f3447e8a121f44864c77d3899983a43f4f8255b51c8e07930c540"
+  },
+  {
+    "path": "wiki/imports/microduck-2026-09-12/wiki/microduck/sources.md",
+    "sha256": "aca088ee8a9e154bb1a1abcc081a7bc89039d3fa3059895511e0572fa100885e"
+  },
+  {
+    "path": "wiki/imports/microduck-2026-09-12/wiki/microduck/pickup-mechanics.md",
+    "sha256": "12cb353aed23313dc0f815affb4cadea71325eefba10a0605f3b8905ec669fc5"
+  },
+  {
+    "path": "wiki/imports/microduck-2026-09-12/wiki/microduck/trainer.md",
+    "sha256": "724321bbf0ee5356c02c9c3d2cab82915875113e5a3d1f8c4173365bc28e7c62"
+  },
+  {
+    "path": "wiki/imports/microduck-2026-09-12/wiki/microduck/index.md",
+    "sha256": "a8d182c29a0f1e748173c49996e51589b1bb84f63de838ec5db53eaf0b90d3c8"
+  },
+  {
+    "path": "wiki/imports/microduck-2026-09-12/wiki/microduck/runtime.md",
+    "sha256": "23ee03308018c60109dad2b5e7c68b373fb8ebc22dafefea8cbad8c5db1d0ff3"
+  },
+  {
+    "path": "wiki/imports/microduck-2026-09-12/wiki/community/sources.json",
+    "sha256": "98fdcb4fb9f8d471d9f7cf254fab6353f760850676233e5322abc6c9a9aee2e0"
+  },
+  {
+    "path": "wiki/imports/microduck-2026-09-12/wiki/community/sources.md",
+    "sha256": "215134bcf75aa9f642731f214a11d37afde54078059744cb8320c7c990998bf0"
+  },
+  {
+    "path": "wiki/imports/microduck-2026-09-12/wiki/community/fly-ecosystem.md",
+    "sha256": "defacabdc3994fe469dfc63c6f572df370bb6c7aaeb8f6825092c1b8a57408c3"
+  },
+  {
+    "path": "wiki/imports/microduck-2026-09-12/wiki/community/microduck-ecosystem.md",
+    "sha256": "35d8411198b054c61ccd657ad4926e7a37e0bd5f3ae08df9ec084e0776732f0e"
+  },
+  {
+    "path": "wiki/imports/microduck-2026-09-12/wiki/community/index.md",
+    "sha256": "45b10fa000066cb1f58e5e40211f01e6f1f925a3d30d6a9520e908e9b6a81a66"
+  },
+  {
+    "path": "wiki/imports/microduck-2026-09-12/wiki/community/tools-and-distribution.md",
+    "sha256": "237abf9ce9f64fac3d95e206e5f72b2fb0de76247cb94f8d1752b7dc7823f06c"
+  },
+  {
+    "path": "wiki/imports/microduck-2026-09-12/wiki/community/flyhard.md",
+    "sha256": "f5e93a0907bb47542602f139e80e5c76e779a94118e5363b2e86d6ede31e688a"
+  },
+  {
+    "path": "wiki/imports/microduck-2026-09-12/wiki/community/joint-projects.md",
+    "sha256": "e30fd98938ae81687969cc0d4a29961d25b167f083cb22c42d5b64fa3dc66453"
+  },
+  {
+    "path": "wiki/imports/microduck-2026-09-12/wiki/community/claims-map.md",
+    "sha256": "3a4bd710d39011b4551a90c43ff9f7fa720e65a23e18252fd93ab4897aae87e2"
+  },
+  {
+    "path": "wiki/imports/microduck-2026-09-12/wiki/connectome/sources.json",
+    "sha256": "210ea98d7721b9cb911e9ef14c7177d9588e4da858914cf590ad8b146f7dfcb9"
+  },
+  {
+    "path": "wiki/imports/microduck-2026-09-12/wiki/connectome/sources.md",
+    "sha256": "3ce73e4e729c32be9536f7d5fea62b43a969db164523e3360f73cfd877a37791"
+  },
+  {
+    "path": "wiki/imports/microduck-2026-09-12/wiki/connectome/brain-body-interface.md",
+    "sha256": "d72d5e81dfbf3280f3b52bb2971d177727235efbe85624d621f7cfc762ac848f"
+  },
+  {
+    "path": "wiki/imports/microduck-2026-09-12/wiki/connectome/embodiment-research.md",
+    "sha256": "5a6107f646f85708b5f9dceb884e1f99a5eea6a3043452c3ee90fb0166d329c4"
+  },
+  {
+    "path": "wiki/imports/microduck-2026-09-12/wiki/connectome/malecns-release.md",
+    "sha256": "decff1224415ffb99e46973d8795596564ed3e27d34374b1ee7af482a2c2ab72"
+  },
+  {
+    "path": "wiki/imports/microduck-2026-09-12/wiki/connectome/index.md",
+    "sha256": "c89df465d9e8b58e568216e10adb48e9fa5be6ce1168f2b1d7bdb3fa21aa930e"
+  },
+  {
+    "path": "wiki/imports/microduck-2026-09-12/data/brain/manifest.json",
+    "sha256": "9b98aae608bd8a5050c1dad1b1e9975bcd845333ffdf2e6a811b105d3ffc7159"
+  }
+]

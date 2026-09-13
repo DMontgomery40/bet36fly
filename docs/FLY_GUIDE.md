@@ -2,13 +2,15 @@
 
 **A guide to BET36FLY’s active v1 checkpoint and separate circuit experiments.**
 
+The [current research goal](PROJECT_DIRECTION.md) is to translate matchup information into natural food-related sensory patterns, allowing both teams to be attractive, and first verify an appropriate circuit response. That sensory interface is not yet implemented. This guide's existing training description is historical v1; the [sensory-rate page](../wiki/natural-sensory-inputs.md) distinguishes actual measurements from the old artificial input settings.
+
 For individual neurons, KC subtypes, APL, dopamine channels and MBON territories,
 use the [cell and circuit wiki](../wiki/index.md). Its [reassessment](../wiki/reassessment.md)
 now records the integrated repair and its failed controls. Both corrected raw
 spike timing and the rate bridge still change untaught home gains beyond the
 declared guard. Retaining earlier signal history made that failure worse.
 Conditioning and reversal have not run; the
-[current reward protocol](EXPERIMENT_REWARD.md) preserves the exact boundary.
+[legacy reward protocol](EXPERIMENT_REWARD.md) preserves its exact boundary.
 
 The fly really uses the measured fly connectome. Sports numbers stimulate neurons, spikes travel through the anatomical network, and a trained decoder turns the resulting activity into probabilities. Training changed a small subset of the actual connections. The first experiment works computationally, but **it does not yet predict games better than our simple statistical baseline**.
 

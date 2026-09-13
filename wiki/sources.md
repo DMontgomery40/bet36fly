@@ -1,9 +1,11 @@
 ---
 type: source-ledger
-updated: 2026-09-12
+updated: 2026-09-13
 status: checked-with-access-limits
 ---
 # Primary sources and evidence boundaries
+
+The September 13 [natural sensory source ledger](../docs/evidence/natural-sensory-reorientation-2026-09-13/sources.json) adds measured taste/odor responses, complete selected workbook-group extraction, candidate MaleCNS sensory/output IDs and refreshed upstream checks. The [sensory page](natural-sensory-inputs.md) distinguishes measured Hz from artificial model stimulation, records the excluded workbook discrepancy and labels provisional DoOR transfer. The older source checks below remain dated records.
 
 Checked September 12, 2026 UTC (September 11 America/Denver). The [machine-readable ledger](../docs/evidence/reassessment-2026-09-12/sources.json) records the URL, version, inspection scope and limitation for each new reference. [GitHub/release checks](../docs/evidence/reassessment-2026-09-12/upstream-checks.json) include returned revisions and content hashes. Source availability is distinct from reproduction.
 

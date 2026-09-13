@@ -1,8 +1,14 @@
 # Making the fly smarter, and knowing whether it improved
 
+## Current priority — September 13, 2026
+
+The [canonical direction](PROJECT_DIRECTION.md) supersedes the ordering of the older proposals below. First calibrate natural food-related sensory inputs and verify a bounded plasticity-off response. Then compare two distinguishable opportunities, including both-good and good/aversive cases, and only then map pregame metrics and measure the circuit's added contribution. The [handoff](NATURAL_SENSORY_HANDOFF.md) defines the next task. Native sensory calibration is unimplemented; no checkpoint or scientific verdict changed with this decision.
+
+## Historical product status and backlog
+
 Fly’s desk records pregame picks, scores confirmed outcomes, and refreshes public sources every 15 minutes while the local server runs. The [v2 protocol](EXPERIMENT_V2.md) remains frozen, but execution is paused by user instruction at 13 completed runs, eight cancelled temporal jobs and three unfinished whole-trial jobs. The [tracked development evidence](evidence/v2-development-summary.md) records the completed decoder, bookmaker and feature studies. All 16 decoder fits converged; the selected temporal readout now slightly beats the selected whole-trial readout in both sports, while the saved feature baseline remains better. The 30-configuration feature study selected 10-game pooled form with capped rest but did not improve the baseline or beat Bet365. These are validation-selected development results, not independent confirmation. No new full-brain simulation, gain training, matrix resume or model-pointer update occurred. The diagnostic does not establish a root cause or authorize an expanded search. [Current measured status](MODEL_CARD.md) distinguishes these studies from the incomplete matrix. Other ideas below remain future work and do not schedule monitoring or connect an account. [How the existing model works](FLY_GUIDE.md) · [Confidence and paper sizing](CONFIDENCE_AND_DRAWS.md).
 
-Our first priority should be better evidence and better observations. The fly currently loses to a simple feature baseline. Buying more compute or letting it run longer has not been shown to solve that.
+The older proposals below remain background options, not the current execution queue. The fly currently loses to a simple feature baseline. Buying more compute or letting it run longer has not been shown to solve that.
 
 ## Give it the external hard drive
 
@@ -24,7 +30,7 @@ For general written knowledge, an external language model could extract facts wi
 
 The resulting system should be called **LLM-assisted** if an LLM supplies meaningful predictions or representations. Keep an assistant-only baseline and measure the fly's incremental contribution. A natural-language explanation should report features, retrieved evidence and tested sensitivities; it should not invent an inner monologue for the neurons.
 
-## The experiments I would prioritize
+## Earlier proposed experiments — superseded ordering
 
 ### 1. Establish a trustworthy forward comparison
 

@@ -5,6 +5,8 @@ status: qualification-failed-conditioning-unrun
 ---
 # Evidence required for a learning claim
 
+**Scope:** the numerical guard and conditioning sequence below belong to the legacy dopamine experiment. The [current direction](../docs/PROJECT_DIRECTION.md) first requires a separate plasticity-off sensory-response assay. Its gates are source/cell/units validation, measured input and output response, then controlled two-opportunity presentation. That narrower assay does not require SCI-001 to pass. An external comparison of two probes is not an in-circuit choice, and either result is distinct from associative learning or sports usefulness.
+
 The active scientific hold is **SCI-001: untaught-home change exceeds the predeclared
 operational guard**. Corrected raw panel `e3d8898dc68a` fails at home/base mean
 −0.515622884 against absolute limit 0.489777884. Bridge panel `dea14759e9ca` fails
@@ -59,7 +61,9 @@ remapping without erasure and is not strict reversal.
 The historical [sports handoff](../docs/evidence/reassessment-2026-09-12/repair-handoff.md)
 specifies a descriptive development comparison with paired, shuffled, untaught
 and frozen arms. It is distinct from the conditioning/reversal program above.
-The active repair requires a qualified mechanism before a new sports default or
-pilot. No schema-5 pilot has run; historical scores do not satisfy these gates.
+Continuation of that legacy learning program requires a qualified mechanism before
+its sports default or pilot. The new sensory direction has separate prerequisites;
+it does not qualify or resume schema-5. No schema-5 pilot has run; historical scores
+do not satisfy these gates.
 
 [Wiki index](index.md) · [Reassessment](reassessment.md)

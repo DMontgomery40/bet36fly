@@ -1,0 +1,130 @@
+[
+  {
+    "file": "door-tree.json",
+    "url": "https://api.github.com/repos/ropensci/DoOR.data/git/trees/master?recursive=1",
+    "final_url": "https://api.github.com/repos/ropensci/DoOR.data/git/trees/master?recursive=1",
+    "status": 200,
+    "bytes": 45102,
+    "sha256": "e28a3da618851382d18254b23d50dbdb6ca837b14046e9d4978f4c5c2854a36d",
+    "checked_date": "2026-09-13"
+  },
+  {
+    "file": "zhao2022-source.xlsx",
+    "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-022-35527-4/MediaObjects/41467_2022_35527_MOESM3_ESM.xlsx",
+    "final_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-022-35527-4/MediaObjects/41467_2022_35527_MOESM3_ESM.xlsx",
+    "status": 200,
+    "bytes": 8000000,
+    "sha256": "d5d93a4942fb87b1d7d9d2773604471d43a1f95c5a0ba2193e3dd4adf6a62404",
+    "checked_date": "2026-09-13",
+    "complete": false,
+    "use": "Excluded: initial capped partial download; replaced by complete file."
+  },
+  {
+    "file": "shiu-model.py",
+    "url": "https://raw.githubusercontent.com/philshiu/Drosophila_brain_model/main/model.py",
+    "final_url": "https://raw.githubusercontent.com/philshiu/Drosophila_brain_model/main/model.py",
+    "status": 200,
+    "bytes": 11900,
+    "sha256": "fc45837d7122c6ce2a7f3f2f23c515992e4b232aadb919efabb72337fac88e4e",
+    "checked_date": "2026-09-13"
+  },
+  {
+    "file": "shiu-head.json",
+    "url": "https://api.github.com/repos/philshiu/Drosophila_brain_model/commits/main",
+    "final_url": "https://api.github.com/repos/philshiu/Drosophila_brain_model/commits/main",
+    "status": 200,
+    "bytes": 5623,
+    "sha256": "14be7663ea5dea9098ea43a97bb35ed2e3ef540f0ac4f4a97304d363e4f1a2ac",
+    "checked_date": "2026-09-13"
+  },
+  {
+    "file": "malecns-release.html",
+    "url": "https://male-cns.janelia.org/release/",
+    "final_url": "https://male-cns.janelia.org/release/",
+    "status": 200,
+    "bytes": 21431,
+    "sha256": "b2a4d40f0ae376f8c887cfbdbbc3dd10a6a165380b658fce8a20fd153a0a16aa",
+    "checked_date": "2026-09-13"
+  },
+  {
+    "file": "flyhard-readme.md",
+    "url": "https://raw.githubusercontent.com/MarkUnthank/flyhard/main/README.md",
+    "final_url": "https://raw.githubusercontent.com/MarkUnthank/flyhard/main/README.md",
+    "status": 200,
+    "bytes": 5934,
+    "sha256": "d13947973a32190b0f04ce61de323b5b0079c45e501e3810c74f90998119170c",
+    "checked_date": "2026-09-13"
+  },
+  {
+    "file": "doomfly-readme.md",
+    "url": "https://raw.githubusercontent.com/nftechie/doomfly/main/README.md",
+    "final_url": "https://raw.githubusercontent.com/nftechie/doomfly/main/README.md",
+    "status": 200,
+    "bytes": 7227,
+    "sha256": "7d34f12bf929161aed55b95c3e6708e6509d614802868a25ec37f2067595cb10",
+    "checked_date": "2026-09-13"
+  },
+  {
+    "file": "door-Or22a.csv",
+    "url": "https://raw.githubusercontent.com/ropensci/DoOR.data/db323a496577c4b4a72b5c2fcd1859e07521ffb5/data/Or22a.csv",
+    "status": 200,
+    "bytes": 85070,
+    "sha256": "60a869fbe0412b706b3b39d3ca3adca9d8ea5831196225b4f7c3e9419df97ebe",
+    "complete": true,
+    "checked_date": "2026-09-13"
+  },
+  {
+    "file": "door-Or42b.csv",
+    "url": "https://raw.githubusercontent.com/ropensci/DoOR.data/db323a496577c4b4a72b5c2fcd1859e07521ffb5/data/Or42b.csv",
+    "status": 200,
+    "bytes": 74306,
+    "sha256": "e3ac8690cb11ec5d861c42e98449bc11f8ff735609540c2bf859e367e3f61109",
+    "complete": true,
+    "checked_date": "2026-09-13"
+  },
+  {
+    "file": "door-Or85a.csv",
+    "url": "https://raw.githubusercontent.com/ropensci/DoOR.data/db323a496577c4b4a72b5c2fcd1859e07521ffb5/data/Or85a.csv",
+    "status": 200,
+    "bytes": 59206,
+    "sha256": "996c38e0c068c813b7082d81818d26af8c136f82bbf14b528b1a58594de6b310",
+    "complete": true,
+    "checked_date": "2026-09-13"
+  },
+  {
+    "file": "door-door_dataset_info.csv",
+    "url": "https://raw.githubusercontent.com/ropensci/DoOR.data/db323a496577c4b4a72b5c2fcd1859e07521ffb5/data/door_dataset_info.csv",
+    "status": 200,
+    "bytes": 11105,
+    "sha256": "6ab8bc1c843ffe4763e563eb763029c421898dce7889c31dc2c21b544c9be269",
+    "complete": true,
+    "checked_date": "2026-09-13"
+  },
+  {
+    "file": "door-door_mappings.csv",
+    "url": "https://raw.githubusercontent.com/ropensci/DoOR.data/db323a496577c4b4a72b5c2fcd1859e07521ffb5/data/door_mappings.csv",
+    "status": 200,
+    "bytes": 12824,
+    "sha256": "1197c492e769b1b587c907c5b750ffa2507d7e6c9fe9dfcb2ee8603871e00912",
+    "complete": true,
+    "checked_date": "2026-09-13"
+  },
+  {
+    "file": "door-odor.csv",
+    "url": "https://raw.githubusercontent.com/ropensci/DoOR.data/db323a496577c4b4a72b5c2fcd1859e07521ffb5/data/odor.csv",
+    "status": 200,
+    "bytes": 155880,
+    "sha256": "a31d1841cf90ce23ec149760a5efa38eae02de7820bb2300c3a7dba221745940",
+    "complete": true,
+    "checked_date": "2026-09-13"
+  },
+  {
+    "file": "zhao2022-source-full.xlsx",
+    "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-022-35527-4/MediaObjects/41467_2022_35527_MOESM3_ESM.xlsx",
+    "status": 200,
+    "bytes": 10600824,
+    "sha256": "41deeecbecbcc97d0c1336c4b1aaf009b3723b93c396086c0cc0ba1fb4866667",
+    "complete": true,
+    "checked_date": "2026-09-13"
+  }
+]

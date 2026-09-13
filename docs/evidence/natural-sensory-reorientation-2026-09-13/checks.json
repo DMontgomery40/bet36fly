@@ -1,0 +1,14 @@
+{
+  "date": "2026-09-13",
+  "markdown_files_checked": 36,
+  "wiki_metadata_checked": 23,
+  "missing_local_targets": [],
+  "imported_manifest_entries_verified": 59,
+  "protected_files_verified": 66,
+  "protected_changes": [],
+  "measured_groups_arithmetic_verified": 28,
+  "json_files_parsed": 8,
+  "wiki_reading_count_verified": 64,
+  "all_checks_pass": true,
+  "limits": "Local link targets checked, not every historical anchor or remote URL. Source extraction checks are arithmetic/provenance, not biological reproduction. Shared checkout has a separate active writer."
+}

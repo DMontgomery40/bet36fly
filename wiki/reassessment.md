@@ -1,13 +1,17 @@
 ---
 type: assessment
 updated: 2026-09-13
-status: learning-unvalidated
+status: natural-sensory-priority-legacy-learning-unvalidated
 ---
 # Where BET36FLY stands, and what went wrong
 
-**The present bottleneck is the learning mechanism and its causal validation.** We have real anatomical connectivity, an executing spiking circuit, and measured synaptic gain changes. We do not yet have a controlled demonstration that this configuration acquires and reverses a cue-specific association, or improves sports prediction. The biological approach is not refuted by a failure of these engineered dynamics.
+**The immediate gap is a biologically grounded sensory task.** David's September 13 reorientation calls for food-related input patterns that represent two matchup opportunities, allowing both to be attractive. The legacy sports-to-ALPN type assignment has no fruit/sugar calibration. First demonstrate a finite plasticity-off natural-response assay; then distinguish two opportunities and evaluate pregame encoding. [Canonical direction](../docs/PROJECT_DIRECTION.md), [source rates and cell inventory](natural-sensory-inputs.md), [audit](../docs/evidence/natural-sensory-reorientation-2026-09-13/index.md), [handoff](../docs/NATURAL_SENSORY_HANDOFF.md).
 
-## Current account — September 13 UTC
+The drift was turning repair of a specific learning guard into the overall objective and freezing an arbitrary sensory interface indefinitely. Numerical/source-model verification remains useful, but it does not demonstrate the requested sensory behavior. Innate response does not require associative learning to qualify first. No natural-response assay ran in this documentation task, and no old failure was reclassified.
+
+We have real anatomical connectivity, an executing spiking circuit and measured gain changes. Controlled acquisition, reversal and improved sports prediction remain unestablished. The biological approach is not refuted by these engineered failures. The dated account below preserves the **legacy learning** state; its next-step language is superseded by the natural-sensory handoff.
+
+## Legacy learning account — September 13 UTC
 
 The latest [home-output physiology and DA/NO component](cells/cyclic-nucleotide-plasticity.md)
 separate intracellular signaling, latent memory and expressed synaptic
