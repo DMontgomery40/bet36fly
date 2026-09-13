@@ -1,0 +1,142 @@
+{
+  "created_at_utc": "2026-09-13T10:15:02.391638+00:00",
+  "agent": "/root/evidence_ui",
+  "status": "completed_bounded_readonly_observability_audit",
+  "git_head": "f08e88e8dc969ad8f0217eeb73e9c06c50afea79",
+  "reading": {
+    "current_narrative_count": 176,
+    "prior_full_reading_receipts": {
+      "kc-local-final-reading-review-evidence-ui-2026-09-13.json": "5476c6dc1e5bc1b1b2d66839ed6a65d375d4b57d51922b5ee86d7c974680db3b",
+      "kc-local-shadow-runner-reading-evidence-ui-2026-09-13.json": "24affcaa97332c1f45870b7036c35c968af513443cac659c43a43dcff92ad15f",
+      "kc-local-state-integration-reading-evidence-ui-2026-09-13.json": "5b7a31c89c41d574ce0a346c50a460d7aa8c3b755d3b95ff1afa59949f5e302d",
+      "kc-lateral-evidence-ui-closeout-reading-supplement-2026-09-13.json": "f87d37b06ce97da39db56fce50be205caecddadd69aa9390ecfc36a47256aa30",
+      "kc-lateral-evidence-ui-reading-review-2026-09-13.json": "bd9bb0bc55f564f282acc6cd2cbbcdb662b3714daf1237c84484e5af0fbc2646"
+    },
+    "method": "All current AGENTS/README/docs/wiki narrative contents matched hashes from personally completed full readings; exact-content copied aliases deduplicated by SHA. Current relevant kernel/wrapper/protocol/diagnostic paths reread directly, selected tests and saved artifact headers inspected.",
+    "new_narrative_deltas": 0,
+    "unread_narrative_deltas": 0,
+    "inventory_sha256": "4765ba2177a4d0df67fb74e967175a65751ba4bd32e04d149ad07ac91e856793",
+    "fully_reread_contracts": [
+      "docs/evidence/reward-refractory-contract-2026-09-12.md",
+      "docs/evidence/reward-mechanism-repair-2026-09-12/rate-bridge-implementation-contract.md",
+      "docs/evidence/reward-mechanism-repair-2026-09-12/tonic-burst-dopamine-quantitative-source-check-2026-09-13.md"
+    ],
+    "code_scope": {
+      "bet36fly/reward_lif.cpp": "full",
+      "bet36fly/reward_brain.py": "full",
+      "bet36fly/reward_protocol.py": "full",
+      "scripts/reward_teaching_diagnostic.py": "full",
+      "bet36fly/reward_diagnostic.py": "panel protocol and selection/phase contracts, lines1-145",
+      "tests/test_reward_brain.py": "teaching/refractory/actual-event tests, lines190-246",
+      "tests/test_reward_rate_bridge.py": "independent pair/normalization/onset/tail/reset/recording tests, lines1-115",
+      "onset_history_capture.py": "frozen selection/input mapping, retained parity checks and no-pulse execution, lines125-176,202-226,248-302"
+    }
+  },
+  "reviewed_source_hashes": {
+    "bet36fly/reward_lif.cpp": "e7dbb0aa8f95873036415581e94de45c237941f05642ccc90812c1be1119be37",
+    "bet36fly/reward_brain.py": "5a6d67d38d226c6792c4f11430610772894ea3e9ae9593c2d215cfd7eaa0a6d5",
+    "bet36fly/reward_protocol.py": "e1a315f991debb677fca30f6e821a657135adccf032ad26054a00ed7688dc1bb",
+    "bet36fly/reward_diagnostic.py": "59feb14834813fa6793f0f97a8e4c208fd85494b383e9fa5875efe5b21189c99",
+    "scripts/reward_teaching_diagnostic.py": "d18df419fe4c78001019d6feadff5b6c37df2de69f7e278d46d3cf02bc539598",
+    "tests/test_reward_brain.py": "c133a48d86c73a0cce5ac00e8710384ef33f9a97b252e887b8926d4caf6a01c0",
+    "tests/test_reward_rate_bridge.py": "f759030dc47f6a2824540c5365ce00dbfdcd9b2ccab2794731d9713f4bf947e1",
+    "output/collaboration/reward-mechanism-repair/onset_history_capture.py": "8ec357c56d376d3f2073f2b3b64df3d7f3bf6955bdb4b0d55b007207d60833ed"
+  },
+  "artifact_metadata": {
+    "method": "ZIP inventory and every numeric NPY header read; no waveform values evaluated or candidate/filter run. Prior payload integrity is not newly re-certified by this header-only pass.",
+    "panels": [
+      {
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763",
+        "summary_sha256": "1536b139d018cfda709cde9f230623970d518a45d661d89d198a5c0e6be50e5a",
+        "npy_headers": 881,
+        "headers_sha256": "d3c11973d9629cd823c9ddb2bda77d51a2c9f6f921c3ad2bfc1fe6d3ad9a6f6c"
+      },
+      {
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca",
+        "summary_sha256": "d01e398ecebbaa2dfbedabcb27ff1765b6ddf1a1742632456dd4a3bb995307fe",
+        "npy_headers": 881,
+        "headers_sha256": "e1a98235c87a0831cef7c32edca3cd4488cbcb3ce65ca2e8d7e307a9ce334c37"
+      }
+    ],
+    "per_panel": {
+      "main_rows": 64,
+      "conditions": {
+        "frozen": 16,
+        "untaught": 16,
+        "home": 16,
+        "away": 16
+      },
+      "step_signals": [
+        64,
+        2000,
+        5
+      ],
+      "dan_bins": [
+        64,
+        40,
+        24
+      ],
+      "bridge_signals": [
+        80,
+        2000,
+        2,
+        2
+      ],
+      "bridge_kc_used": [
+        80,
+        2000,
+        8,
+        2
+      ],
+      "bridge_kc_bins": [
+        80,
+        40,
+        4064,
+        2
+      ],
+      "sampled_bins": [
+        8,
+        40,
+        4780
+      ]
+    },
+    "fine_capture": {
+      "id": "onset-history-capture-4343c21535c43f42",
+      "files": 32,
+      "condition": "untaught only",
+      "trace_shape": [
+        2000,
+        4774
+      ],
+      "trace_dtype": "int32",
+      "pulse_times_shape": [
+        0
+      ],
+      "pulse_dan_indices_shape": [
+        0
+      ],
+      "headers_sha256": "b84fd1d3b760acc23fd660794efc203f4976746dc1637cce9c1046960f240c93",
+      "summary_sha256": "244b4dcc1aa40b8c0c7be068bf7e66f8e369921f1005dd474ca37f9460dabb1b"
+    }
+  },
+  "conclusions": {
+    "new_contract_inconsistencies": [],
+    "teaching": "Scheduled after-cue voltage inputs; refractory-aware actual spike detection; no teaching-label input to gain equation.",
+    "untaught": "Circuit-generated under engineered cue/recurrent aftermath;50-100ms diagnostic baseline is during cue, not resting tonic physiology.",
+    "available": "Complete matched fine pooled DAN waveforms and coarse individual DAN counts; existing fine individual DAN/KC rasters only for32untaught histories.",
+    "limits": "No direct all-taught fine cell raster, pulse acceptance provenance, full membrane/conductance/refractoriness trace, or release/receptor measurement. New local chemistry requires explicit source-to-model choices; it is not a discovered bug."
+  },
+  "report": {
+    "path": "output/collaboration/reward-mechanism-repair/teaching-signal-observability-evidence-ui-2026-09-13.md",
+    "sha256": "e255ea3fac7e041ac3b03470710e4c4d1531727efb262ddbb8c16e7685718441"
+  },
+  "calls": {
+    "native": 0,
+    "candidate": 0,
+    "fit": 0,
+    "tests": 0,
+    "network": 0,
+    "browser": 0
+  },
+  "mutations": "Only this distinct output receipt and the linked output report; no production/shared narrative changes."
+}

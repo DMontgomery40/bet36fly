@@ -1,0 +1,23 @@
+{
+  "started_utc": "2026-09-13T10:30:17.749349+00:00",
+  "plan_sha256": "1d800b3ef8f2884380af4f82c696765716efca4fa8da043517616ab7275d20c7",
+  "identity": "incentive-handler-source-b7ce8a8ec24dab37ebe0",
+  "command": [
+    "/Users/davidmontgomery/.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/bin/python3.12",
+    "output/collaboration/reward-mechanism-repair/audit_incentive_handler.py",
+    "--run",
+    "--out",
+    "output/collaboration/reward-mechanism-repair/incentive-handler-source-b7ce8a8ec24dab37ebe0"
+  ],
+  "wall_cap_seconds": 30,
+  "restarts": 0,
+  "status": "failed",
+  "independent_review": "delivered_arrivals final cfb1cd22/1e608a1b review passed before dispatch",
+  "returncode": 1,
+  "wall_seconds": 0.04439220787025988,
+  "child_reaped": true,
+  "finished_utc": "2026-09-13T10:30:17.794038+00:00",
+  "bindings_unchanged": true,
+  "child_status": null,
+  "completed_cases": null
+}

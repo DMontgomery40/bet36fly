@@ -1,0 +1,24 @@
+{
+  "started_utc": "2026-09-13T10:32:55.393311+00:00",
+  "plan_sha256": "877b1829e50a6413bfe3f8d98e1047f17ff635f449f00fcf4372f0581bb7b794",
+  "identity": "incentive-handler-source-9c5800e30fdae747b49a",
+  "command": [
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/.venv/bin/python",
+    "output/collaboration/reward-mechanism-repair/audit_incentive_handler.py",
+    "--run",
+    "--out",
+    "output/collaboration/reward-mechanism-repair/incentive-handler-source-9c5800e30fdae747b49a"
+  ],
+  "wall_cap_seconds": 30,
+  "restarts": 0,
+  "launch_attempt_number": 2,
+  "previous_attempt_source_cases": 0,
+  "status": "completed",
+  "returncode": 0,
+  "wall_seconds": 0.37514737504534423,
+  "child_reaped": true,
+  "finished_utc": "2026-09-13T10:32:55.768726+00:00",
+  "bindings_unchanged": true,
+  "child_status": "completed",
+  "completed_cases": 6
+}

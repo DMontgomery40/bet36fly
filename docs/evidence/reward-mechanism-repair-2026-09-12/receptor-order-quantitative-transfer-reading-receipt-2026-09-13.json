@@ -1,0 +1,169 @@
+{
+  "agent": "/root/dopamine_sources",
+  "checked_at_utc": "2026-09-13T10:10:48.540209+00:00",
+  "head": "f08e88e8dc969ad8f0217eeb73e9c06c50afea79",
+  "status": "bounded_quantitative_source_decision_complete_no_candidate_frozen",
+  "reading": {
+    "prior_complete_personal_chain": {
+      "path": "output/collaboration/reward-mechanism-repair/kc-local-final-scientific-reading-review-2026-09-13.json",
+      "bytes": 19775,
+      "sha256": "68439f5a89a346cb7cf661d3bc52e87b1c8ce0531a35c3b840bb67c4154569f4"
+    },
+    "current_docs_wiki_and_AGENTS_paths": 175,
+    "unread_deltas": [],
+    "method": "Exact hashes reconcile current pages with personal full readings and complete prior deltas; no manifest substitutes for unread content. Prior chain includes other root/hidden/output narratives.",
+    "source_and_access_ledgers_reread": [
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dopamine-receptor-state-decision-2026-09-13.md",
+        "bytes": 13820,
+        "sha256": "63cdc757527e4692bb2e29405ea74276cc38006ac1bb6217bba32f469b94b3c7"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dopamine-receptor-state-reading-receipt-2026-09-13.json",
+        "bytes": 5554,
+        "sha256": "f70213b88a6e54448f0e2c247c0a0a7021fa16210e8682b70403e7b31ea3cee8"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/dopamine-signal-sources-resumed.md",
+        "bytes": 21098,
+        "sha256": "3eb2b28f996b1972444e50676ffcf29aa907a24ef39082f7c6a8883a62bb67b5"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/tonic-burst-dopamine-quantitative-source-check-2026-09-13.md",
+        "bytes": 6659,
+        "sha256": "343fe850c71d5ea5493e0d05e38c4e9c2b6a739cc09b3808d550473bdc739054"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/handler-kc-switch-model-transfer-review-2026-09-13.md",
+        "bytes": 13318,
+        "sha256": "26eb4bbc4d863eeffa53c455317fd26c76be26f14171a09242ea15aba63c5be7"
+      }
+    ],
+    "additional_reread": {
+      "file": {
+        "path": "output/collaboration/reward-mechanism-repair/dopamine-weight-state-decision-2026-09-13.md",
+        "bytes": 12399,
+        "sha256": "04bde338649936357cafd4858ed216c1e4d00d5856f11e0a9029850b086e22c7"
+      },
+      "scope": "first65lines, Hige/Handler/Cohn primary evidence/access section"
+    },
+    "current_code": {
+      "reward_lif": {
+        "path": "bet36fly/reward_lif.cpp",
+        "bytes": 19913,
+        "sha256": "e7dbb0aa8f95873036415581e94de45c237941f05642ccc90812c1be1119be37"
+      },
+      "scope": "Fresh lines1-180 including complete RateBridge/replay and simulator initialization. Retained prior full code reading; protocol/run timing references refreshed.",
+      "protocol": {
+        "path": "bet36fly/reward_protocol.py",
+        "bytes": 15356,
+        "sha256": "e1a315f991debb677fca30f6e821a657135adccf032ad26054a00ed7688dc1bb"
+      },
+      "engine": {
+        "path": "bet36fly/reward_brain.py",
+        "bytes": 28621,
+        "sha256": "5a6d67d38d226c6792c4f11430610772894ea3e9ae9593c2d215cfd7eaa0a6d5"
+      }
+    }
+  },
+  "web_budget": {
+    "maximum_search_queries": 4,
+    "maximum_primary_opens": 6,
+    "used_search_queries": 4,
+    "used_primary_opens": 6,
+    "additional_network": 0
+  },
+  "web_actions_in_order": [
+    {
+      "kind": "search",
+      "query": "\"Handler\" \"2019\" \"DopR2\" \"source data\"",
+      "read_limit": "Search result bundle partly truncated; no fresh source-data or availability claim rests on omitted content."
+    },
+    {
+      "kind": "search",
+      "query": "\"Himmelreich\" \"2017\" \"DAMB\" \"Gq\" kinetics model",
+      "read_limit": "Primary article identity confirmed; receptor numbers remain attributed to previous personally inspected primary indexed sections."
+    },
+    {
+      "kind": "open",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9012144/",
+      "read": "Accessible primary author manuscript, introductory Results through early Figure 4."
+    },
+    {
+      "kind": "open",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6168074/",
+      "read": "Challenge only; no bypass."
+    },
+    {
+      "kind": "open",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9012144/",
+      "position": 255,
+      "read": "Results Figures 5-7, Discussion and opening Methods; includes IP3 candidate and explicit compartment limits."
+    },
+    {
+      "kind": "search",
+      "query": "\"Adkins\" \"Taylor\" \"1999\" \"inositol\" \"calcium\" inhibition kinetics",
+      "read": "Primary PubMed Adkins identity/abstract fragment, primary indexed Purkinje model topology and inhibition-parameter excerpt. Secondary results not relied on."
+    },
+    {
+      "kind": "search",
+      "query": "\"Himmelreich\" \"DAMB\" \"single exponential\" \"BRET\"",
+      "read": "No additional independently usable quantitative primary methods returned in displayed combined result."
+    },
+    {
+      "kind": "open",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9012144/",
+      "position": 450,
+      "read": "Combined display returned only line 450; not treated as full Methods reading."
+    },
+    {
+      "kind": "open",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6725626/",
+      "position": 165,
+      "read": "Challenge only; no complete model, supplement, equation set or source code obtained."
+    },
+    {
+      "kind": "open",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9012144/",
+      "position": 382,
+      "read": "Full displayed primary lines315-479: exact functional imaging/explant/reporter methods, stimulus units, timing definition, waits and normalization. No claim of all remaining Methods/supplements read."
+    }
+  ],
+  "source_versions": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9012144/",
+      "version": "Cell2019 DOI10.1016/j.cell.2019.05.040; PMC author manuscript available2022-04-15",
+      "coverage": "Targeted accessible Results/Discussion and explant/reporter Methods; neither raw data nor supplement/code acquired."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6168074/",
+      "version": "CellReports2017 DOI10.1016/j.celrep.2017.10.108",
+      "coverage": "Prior indexed primary Results/Figure3/selected Methods retained; new direct challenge."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6725626/",
+      "version": "JournalofNeuroscience2005 primary model, PMID15673676",
+      "coverage": "Indexed IP3 receptor topology/inhibition-parameter section only; direct challenge. Not fly data or a fully inspected executable model."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10531009/",
+      "version": "CurrentBiology1999 DOI10.1016/s0960-9822(99)80481-3",
+      "coverage": "Primary identity/abstract fragment; no full experimental methods transfer."
+    }
+  ],
+  "decision": {
+    "quantitative_complete_fly_kinetics_obtained": false,
+    "source_motivated_invariants": "Separate coincidence depression and order-sensitive positive branch with fixed dopamine history and branch perturbations. Exact transfer to selected cells remains an engineering assumption.",
+    "fixed_by_source": "Named assay stimulus timing, reporter normalization windows, prior receptor assay sensitivities/rates in their own preparations; partial non-fly IP3 model parameters with explicit limits.",
+    "still_unfilled": "Spike/local-chemical units, complete production/clearance/receptor/storage equations, branch gain conversions, baseline/tail and call reset.",
+    "protocol_conflict": "500ms source KC stimulus alone exceeds400ms entire electrical call; zero-input tail cannot supply missing input. Reporter windows are not measured receptor taus.",
+    "candidate_parameters_selected": false
+  },
+  "report": {
+    "path": "output/collaboration/reward-mechanism-repair/receptor-order-quantitative-transfer-decision-2026-09-13.md",
+    "bytes": 9360,
+    "sha256": "c8c40430ab42cf6380f343b728ec8f6be88498d3eed01cd765a5ac012e082e05"
+  },
+  "verification": "Read-only source/units/protocol review and current narrative reconciliation. No fit, candidate, native, circuit, saved-history evaluation, bulk retrieval, production mutation or tests required for the JSON/decision-note output. Parent owns repository-wide gates.",
+  "memory_scope": "Quick registry search performed as developer-required orientation; its historical mechanistic suggestions were not used. All decisions use freshly checked repository/primary evidence."
+}

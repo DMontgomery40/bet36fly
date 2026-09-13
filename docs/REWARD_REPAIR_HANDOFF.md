@@ -1,5 +1,74 @@
 # Continue the dopamine mechanism repair
 
+## Active continuation boundary: September 13, 2026, 10:52 UTC
+
+Continue the existing full repair goal. It remains active and incomplete.
+The [six-condition published-model reproduction](evidence/reward-mechanism-repair-2026-09-12/incentive-handler-source-result-2026-09-13.md)
+and its independent numerical/data audits are now complete. No new BET36FLY
+mechanism, saved-history candidate, native qualification, conditioning or
+reversal ran. Inspect Git for the local checkpoint following `f08e88e`.
+Nothing has been pushed or promoted. All rejected identities below remain
+rejected; do not repeat them or tune against their outcomes.
+
+The Gkanias et al. 2022 source is pinned at
+`InsectRobotics/IncentiveCircuit@1610c80072fe8bb59bd397e7a61f716393a509b9`.
+The relevant helper and figure driver are byte-identical at publication
+revision `98a8f85745a1426e8e5b787ceedd3f680a2b66c6`. Source, license,
+421,421-byte workbook, plans, results and browser evidence have repository
+copies with originals retained. The first launch failed before any case
+because root resolved the venv executable to its base Python. The separate
+launcher repair passed 12 regressions; both attempt identities are preserved.
+The one completed source identity `incentive-handler-source-9c5800e30fdae747b49a`
+finished six cases in 0.375147 seconds under its 30-second cap. Do not rerun
+these authored conditions as new evidence.
+
+All 222 saved arrays and every recurrence reconcile. All 72,072 source/scalar
+values pass the fixed combined absolute/relative 1e-12 comparison; the largest
+absolute difference is 1.62e-12 at a large weight. The separate
+[workbook analysis](evidence/reward-mechanism-repair-2026-09-12/incentive-handler-saved-analysis-result-2026-09-13.md)
+completed once in 0.204362 seconds without rerunning or fitting the model.
+Literal reporter contrast has descriptive r=0.983739. It is not held-out
+validation: the authors used these conditions to choose timing constants.
+The primary +6-second cAMP window is incomplete, so there is no complete
+six-condition primary-window correlation or five-condition renormalization.
+
+The [cell-specific receptor page](../wiki/cells/dopamine-receptor-signaling.md)
+states the remaining transfer problem. The source helper runs at 15 ms,
+uses signed MBON feedback and clipping, retains negative internal weights,
+and reports proxies different from its signed update. Its long induction,
+reporter windows and γ4 scope do not calibrate our 400 ms γ1pedc/γ3 channels.
+The independent transfer analysis shows why equal-DC positive-spike filters
+can lose DAN-only recovery over a full continuous tail. No production
+receptor constant, state equation or spike-input scale was selected.
+
+The [Training display correction](evidence/reward-mechanism-repair-2026-09-12/incentive-ui-acceptance-2026-09-13.md)
+is complete. It distinguishes cue-window reference rates from evoked spikes
+above an unpulsed same-cue/seed probe while preserving legacy records. Fresh
+`make verify` passed 4,055 Python tests, 103 frontend tests, Ruff and the build
+(two existing Python warnings). All 203 additional standalone cases pass
+from their canonical evidence directory, with Ruff also clean. The marked
+read-only browser workflow passed on assigned port 54702, including actual
+failed/passed records, 20 fixture states, eight verified downloads and mobile
+widths. Root inspected desktop/mobile screenshots. Owned QA process 81668
+shut down cleanly and all owned execution sessions are closed.
+
+The post-browser protection check finds no unexpected changes: 788 of 791
+baseline files are identical; the three intended differences concern the
+browser verifier and rebuilt web assets. All 1,077 pre-existing evidence
+files checked against HEAD match. Original data, historical experiments,
+the active pointer and copied Microduck wiki remain intact. This does not
+erase the earlier documented normal-server startup incident.
+
+The production rate-bridge pair `b16d9b39d7fd3057` still fails the second
+panel's untaught-home guard; conditioning correctly remains
+`not_run_gate_failed`. Both complete qualification panels and acquisition/
+reversal under frozen controls are required to finish the goal. Preserve
+accepted gains, interfaces and masks. Keep one production writer and require
+every working agent to personally read all narrative docs/wiki and new deltas.
+The current agents' calculation assignments are finished; inspect their
+final reading/review receipts before assigning the next bounded mechanism
+decision. Earlier continuation boundaries below are historical records.
+
 ## Active continuation boundary: September 13, 2026, 09:51 UTC
 
 Continue the existing full repair goal, which remains active and incomplete.

@@ -1,0 +1,11 @@
+{
+  "raw_check_exit": 2,
+  "warnings": 143,
+  "preserved_byte_identical_source_and_log_paths": [
+    "docs/evidence/reward-mechanism-repair-2026-09-12/incentive-circuit-source-2026-09-13/README.md",
+    "docs/evidence/reward-mechanism-repair-2026-09-12/incentive-handler-mismatch-red-2026-09-13.txt",
+    "docs/evidence/reward-mechanism-repair-2026-09-12/incentive-handler-tests-red-2026-09-13.txt"
+  ],
+  "all_other_staged_files_check_exit": 0,
+  "reason": "Raw source and failure logs remain byte-identical; whitespace is preserved as evidence."
+}

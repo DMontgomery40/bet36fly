@@ -1,0 +1,1661 @@
+FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF      [100%]
+=================================== FAILURES ===================================
+_ test_unclipped_filters_follow_analytic_impulse_step_and_dc_gain[impulse-1.0] _
+
+tau = 1.0, kind = 'impulse'
+
+    @pytest.mark.parametrize('tau', [1., 2., 8., 60., 104.])
+    @pytest.mark.parametrize('kind', ['impulse', 'step', 'rectangle'])
+    def test_unclipped_filters_follow_analytic_impulse_step_and_dc_gain(tau, kind):
+>       a = audit()
+            ^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:20: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def audit():
+>       assert Path(__file__).with_name('audit_incentive_handler.py').is_file(), 'Audit helper is not implemented'
+E       AssertionError: Audit helper is not implemented
+E       assert False
+E        +  where False = is_file()
+E        +    where is_file = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py').is_file
+E        +      where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py') = with_name('audit_incentive_handler.py')
+E        +        where with_name = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py').with_name
+E        +          where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py') = Path('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py')
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:13: AssertionError
+_ test_unclipped_filters_follow_analytic_impulse_step_and_dc_gain[impulse-2.0] _
+
+tau = 2.0, kind = 'impulse'
+
+    @pytest.mark.parametrize('tau', [1., 2., 8., 60., 104.])
+    @pytest.mark.parametrize('kind', ['impulse', 'step', 'rectangle'])
+    def test_unclipped_filters_follow_analytic_impulse_step_and_dc_gain(tau, kind):
+>       a = audit()
+            ^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:20: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def audit():
+>       assert Path(__file__).with_name('audit_incentive_handler.py').is_file(), 'Audit helper is not implemented'
+E       AssertionError: Audit helper is not implemented
+E       assert False
+E        +  where False = is_file()
+E        +    where is_file = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py').is_file
+E        +      where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py') = with_name('audit_incentive_handler.py')
+E        +        where with_name = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py').with_name
+E        +          where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py') = Path('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py')
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:13: AssertionError
+_ test_unclipped_filters_follow_analytic_impulse_step_and_dc_gain[impulse-8.0] _
+
+tau = 8.0, kind = 'impulse'
+
+    @pytest.mark.parametrize('tau', [1., 2., 8., 60., 104.])
+    @pytest.mark.parametrize('kind', ['impulse', 'step', 'rectangle'])
+    def test_unclipped_filters_follow_analytic_impulse_step_and_dc_gain(tau, kind):
+>       a = audit()
+            ^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:20: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def audit():
+>       assert Path(__file__).with_name('audit_incentive_handler.py').is_file(), 'Audit helper is not implemented'
+E       AssertionError: Audit helper is not implemented
+E       assert False
+E        +  where False = is_file()
+E        +    where is_file = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py').is_file
+E        +      where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py') = with_name('audit_incentive_handler.py')
+E        +        where with_name = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py').with_name
+E        +          where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py') = Path('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py')
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:13: AssertionError
+_ test_unclipped_filters_follow_analytic_impulse_step_and_dc_gain[impulse-60.0] _
+
+tau = 60.0, kind = 'impulse'
+
+    @pytest.mark.parametrize('tau', [1., 2., 8., 60., 104.])
+    @pytest.mark.parametrize('kind', ['impulse', 'step', 'rectangle'])
+    def test_unclipped_filters_follow_analytic_impulse_step_and_dc_gain(tau, kind):
+>       a = audit()
+            ^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:20: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def audit():
+>       assert Path(__file__).with_name('audit_incentive_handler.py').is_file(), 'Audit helper is not implemented'
+E       AssertionError: Audit helper is not implemented
+E       assert False
+E        +  where False = is_file()
+E        +    where is_file = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py').is_file
+E        +      where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py') = with_name('audit_incentive_handler.py')
+E        +        where with_name = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py').with_name
+E        +          where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py') = Path('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py')
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:13: AssertionError
+_ test_unclipped_filters_follow_analytic_impulse_step_and_dc_gain[impulse-104.0] _
+
+tau = 104.0, kind = 'impulse'
+
+    @pytest.mark.parametrize('tau', [1., 2., 8., 60., 104.])
+    @pytest.mark.parametrize('kind', ['impulse', 'step', 'rectangle'])
+    def test_unclipped_filters_follow_analytic_impulse_step_and_dc_gain(tau, kind):
+>       a = audit()
+            ^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:20: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def audit():
+>       assert Path(__file__).with_name('audit_incentive_handler.py').is_file(), 'Audit helper is not implemented'
+E       AssertionError: Audit helper is not implemented
+E       assert False
+E        +  where False = is_file()
+E        +    where is_file = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py').is_file
+E        +      where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py') = with_name('audit_incentive_handler.py')
+E        +        where with_name = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py').with_name
+E        +          where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py') = Path('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py')
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:13: AssertionError
+__ test_unclipped_filters_follow_analytic_impulse_step_and_dc_gain[step-1.0] ___
+
+tau = 1.0, kind = 'step'
+
+    @pytest.mark.parametrize('tau', [1., 2., 8., 60., 104.])
+    @pytest.mark.parametrize('kind', ['impulse', 'step', 'rectangle'])
+    def test_unclipped_filters_follow_analytic_impulse_step_and_dc_gain(tau, kind):
+>       a = audit()
+            ^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:20: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def audit():
+>       assert Path(__file__).with_name('audit_incentive_handler.py').is_file(), 'Audit helper is not implemented'
+E       AssertionError: Audit helper is not implemented
+E       assert False
+E        +  where False = is_file()
+E        +    where is_file = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py').is_file
+E        +      where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py') = with_name('audit_incentive_handler.py')
+E        +        where with_name = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py').with_name
+E        +          where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py') = Path('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py')
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:13: AssertionError
+__ test_unclipped_filters_follow_analytic_impulse_step_and_dc_gain[step-2.0] ___
+
+tau = 2.0, kind = 'step'
+
+    @pytest.mark.parametrize('tau', [1., 2., 8., 60., 104.])
+    @pytest.mark.parametrize('kind', ['impulse', 'step', 'rectangle'])
+    def test_unclipped_filters_follow_analytic_impulse_step_and_dc_gain(tau, kind):
+>       a = audit()
+            ^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:20: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def audit():
+>       assert Path(__file__).with_name('audit_incentive_handler.py').is_file(), 'Audit helper is not implemented'
+E       AssertionError: Audit helper is not implemented
+E       assert False
+E        +  where False = is_file()
+E        +    where is_file = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py').is_file
+E        +      where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py') = with_name('audit_incentive_handler.py')
+E        +        where with_name = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py').with_name
+E        +          where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py') = Path('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py')
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:13: AssertionError
+__ test_unclipped_filters_follow_analytic_impulse_step_and_dc_gain[step-8.0] ___
+
+tau = 8.0, kind = 'step'
+
+    @pytest.mark.parametrize('tau', [1., 2., 8., 60., 104.])
+    @pytest.mark.parametrize('kind', ['impulse', 'step', 'rectangle'])
+    def test_unclipped_filters_follow_analytic_impulse_step_and_dc_gain(tau, kind):
+>       a = audit()
+            ^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:20: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def audit():
+>       assert Path(__file__).with_name('audit_incentive_handler.py').is_file(), 'Audit helper is not implemented'
+E       AssertionError: Audit helper is not implemented
+E       assert False
+E        +  where False = is_file()
+E        +    where is_file = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py').is_file
+E        +      where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py') = with_name('audit_incentive_handler.py')
+E        +        where with_name = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py').with_name
+E        +          where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py') = Path('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py')
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:13: AssertionError
+__ test_unclipped_filters_follow_analytic_impulse_step_and_dc_gain[step-60.0] __
+
+tau = 60.0, kind = 'step'
+
+    @pytest.mark.parametrize('tau', [1., 2., 8., 60., 104.])
+    @pytest.mark.parametrize('kind', ['impulse', 'step', 'rectangle'])
+    def test_unclipped_filters_follow_analytic_impulse_step_and_dc_gain(tau, kind):
+>       a = audit()
+            ^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:20: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def audit():
+>       assert Path(__file__).with_name('audit_incentive_handler.py').is_file(), 'Audit helper is not implemented'
+E       AssertionError: Audit helper is not implemented
+E       assert False
+E        +  where False = is_file()
+E        +    where is_file = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py').is_file
+E        +      where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py') = with_name('audit_incentive_handler.py')
+E        +        where with_name = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py').with_name
+E        +          where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py') = Path('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py')
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:13: AssertionError
+_ test_unclipped_filters_follow_analytic_impulse_step_and_dc_gain[step-104.0] __
+
+tau = 104.0, kind = 'step'
+
+    @pytest.mark.parametrize('tau', [1., 2., 8., 60., 104.])
+    @pytest.mark.parametrize('kind', ['impulse', 'step', 'rectangle'])
+    def test_unclipped_filters_follow_analytic_impulse_step_and_dc_gain(tau, kind):
+>       a = audit()
+            ^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:20: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def audit():
+>       assert Path(__file__).with_name('audit_incentive_handler.py').is_file(), 'Audit helper is not implemented'
+E       AssertionError: Audit helper is not implemented
+E       assert False
+E        +  where False = is_file()
+E        +    where is_file = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py').is_file
+E        +      where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py') = with_name('audit_incentive_handler.py')
+E        +        where with_name = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py').with_name
+E        +          where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py') = Path('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py')
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:13: AssertionError
+_ test_unclipped_filters_follow_analytic_impulse_step_and_dc_gain[rectangle-1.0] _
+
+tau = 1.0, kind = 'rectangle'
+
+    @pytest.mark.parametrize('tau', [1., 2., 8., 60., 104.])
+    @pytest.mark.parametrize('kind', ['impulse', 'step', 'rectangle'])
+    def test_unclipped_filters_follow_analytic_impulse_step_and_dc_gain(tau, kind):
+>       a = audit()
+            ^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:20: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def audit():
+>       assert Path(__file__).with_name('audit_incentive_handler.py').is_file(), 'Audit helper is not implemented'
+E       AssertionError: Audit helper is not implemented
+E       assert False
+E        +  where False = is_file()
+E        +    where is_file = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py').is_file
+E        +      where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py') = with_name('audit_incentive_handler.py')
+E        +        where with_name = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py').with_name
+E        +          where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py') = Path('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py')
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:13: AssertionError
+_ test_unclipped_filters_follow_analytic_impulse_step_and_dc_gain[rectangle-2.0] _
+
+tau = 2.0, kind = 'rectangle'
+
+    @pytest.mark.parametrize('tau', [1., 2., 8., 60., 104.])
+    @pytest.mark.parametrize('kind', ['impulse', 'step', 'rectangle'])
+    def test_unclipped_filters_follow_analytic_impulse_step_and_dc_gain(tau, kind):
+>       a = audit()
+            ^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:20: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def audit():
+>       assert Path(__file__).with_name('audit_incentive_handler.py').is_file(), 'Audit helper is not implemented'
+E       AssertionError: Audit helper is not implemented
+E       assert False
+E        +  where False = is_file()
+E        +    where is_file = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py').is_file
+E        +      where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py') = with_name('audit_incentive_handler.py')
+E        +        where with_name = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py').with_name
+E        +          where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py') = Path('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py')
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:13: AssertionError
+_ test_unclipped_filters_follow_analytic_impulse_step_and_dc_gain[rectangle-8.0] _
+
+tau = 8.0, kind = 'rectangle'
+
+    @pytest.mark.parametrize('tau', [1., 2., 8., 60., 104.])
+    @pytest.mark.parametrize('kind', ['impulse', 'step', 'rectangle'])
+    def test_unclipped_filters_follow_analytic_impulse_step_and_dc_gain(tau, kind):
+>       a = audit()
+            ^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:20: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def audit():
+>       assert Path(__file__).with_name('audit_incentive_handler.py').is_file(), 'Audit helper is not implemented'
+E       AssertionError: Audit helper is not implemented
+E       assert False
+E        +  where False = is_file()
+E        +    where is_file = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py').is_file
+E        +      where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py') = with_name('audit_incentive_handler.py')
+E        +        where with_name = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py').with_name
+E        +          where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py') = Path('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py')
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:13: AssertionError
+_ test_unclipped_filters_follow_analytic_impulse_step_and_dc_gain[rectangle-60.0] _
+
+tau = 60.0, kind = 'rectangle'
+
+    @pytest.mark.parametrize('tau', [1., 2., 8., 60., 104.])
+    @pytest.mark.parametrize('kind', ['impulse', 'step', 'rectangle'])
+    def test_unclipped_filters_follow_analytic_impulse_step_and_dc_gain(tau, kind):
+>       a = audit()
+            ^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:20: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def audit():
+>       assert Path(__file__).with_name('audit_incentive_handler.py').is_file(), 'Audit helper is not implemented'
+E       AssertionError: Audit helper is not implemented
+E       assert False
+E        +  where False = is_file()
+E        +    where is_file = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py').is_file
+E        +      where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py') = with_name('audit_incentive_handler.py')
+E        +        where with_name = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py').with_name
+E        +          where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py') = Path('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py')
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:13: AssertionError
+_ test_unclipped_filters_follow_analytic_impulse_step_and_dc_gain[rectangle-104.0] _
+
+tau = 104.0, kind = 'rectangle'
+
+    @pytest.mark.parametrize('tau', [1., 2., 8., 60., 104.])
+    @pytest.mark.parametrize('kind', ['impulse', 'step', 'rectangle'])
+    def test_unclipped_filters_follow_analytic_impulse_step_and_dc_gain(tau, kind):
+>       a = audit()
+            ^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:20: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def audit():
+>       assert Path(__file__).with_name('audit_incentive_handler.py').is_file(), 'Audit helper is not implemented'
+E       AssertionError: Audit helper is not implemented
+E       assert False
+E        +  where False = is_file()
+E        +    where is_file = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py').is_file
+E        +      where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py') = with_name('audit_incentive_handler.py')
+E        +        where with_name = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py').with_name
+E        +          where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py') = Path('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py')
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:13: AssertionError
+_ test_every_authored_state_matches_independent_scalar_for_synthetic_history[taus0-0] _
+
+seed = 0, taus = (2.0, 3.0, 7.0)
+
+    @pytest.mark.parametrize('seed', range(5))
+    @pytest.mark.parametrize('taus', [(2., 3., 7.), (100/3, 60., 104.), (1., 1., 2.)])
+    def test_every_authored_state_matches_independent_scalar_for_synthetic_history(seed, taus):
+>       a = audit()
+            ^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:43: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def audit():
+>       assert Path(__file__).with_name('audit_incentive_handler.py').is_file(), 'Audit helper is not implemented'
+E       AssertionError: Audit helper is not implemented
+E       assert False
+E        +  where False = is_file()
+E        +    where is_file = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py').is_file
+E        +      where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py') = with_name('audit_incentive_handler.py')
+E        +        where with_name = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py').with_name
+E        +          where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py') = Path('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py')
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:13: AssertionError
+_ test_every_authored_state_matches_independent_scalar_for_synthetic_history[taus0-1] _
+
+seed = 1, taus = (2.0, 3.0, 7.0)
+
+    @pytest.mark.parametrize('seed', range(5))
+    @pytest.mark.parametrize('taus', [(2., 3., 7.), (100/3, 60., 104.), (1., 1., 2.)])
+    def test_every_authored_state_matches_independent_scalar_for_synthetic_history(seed, taus):
+>       a = audit()
+            ^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:43: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def audit():
+>       assert Path(__file__).with_name('audit_incentive_handler.py').is_file(), 'Audit helper is not implemented'
+E       AssertionError: Audit helper is not implemented
+E       assert False
+E        +  where False = is_file()
+E        +    where is_file = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py').is_file
+E        +      where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py') = with_name('audit_incentive_handler.py')
+E        +        where with_name = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py').with_name
+E        +          where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py') = Path('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py')
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:13: AssertionError
+_ test_every_authored_state_matches_independent_scalar_for_synthetic_history[taus0-2] _
+
+seed = 2, taus = (2.0, 3.0, 7.0)
+
+    @pytest.mark.parametrize('seed', range(5))
+    @pytest.mark.parametrize('taus', [(2., 3., 7.), (100/3, 60., 104.), (1., 1., 2.)])
+    def test_every_authored_state_matches_independent_scalar_for_synthetic_history(seed, taus):
+>       a = audit()
+            ^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:43: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def audit():
+>       assert Path(__file__).with_name('audit_incentive_handler.py').is_file(), 'Audit helper is not implemented'
+E       AssertionError: Audit helper is not implemented
+E       assert False
+E        +  where False = is_file()
+E        +    where is_file = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py').is_file
+E        +      where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py') = with_name('audit_incentive_handler.py')
+E        +        where with_name = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py').with_name
+E        +          where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py') = Path('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py')
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:13: AssertionError
+_ test_every_authored_state_matches_independent_scalar_for_synthetic_history[taus0-3] _
+
+seed = 3, taus = (2.0, 3.0, 7.0)
+
+    @pytest.mark.parametrize('seed', range(5))
+    @pytest.mark.parametrize('taus', [(2., 3., 7.), (100/3, 60., 104.), (1., 1., 2.)])
+    def test_every_authored_state_matches_independent_scalar_for_synthetic_history(seed, taus):
+>       a = audit()
+            ^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:43: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def audit():
+>       assert Path(__file__).with_name('audit_incentive_handler.py').is_file(), 'Audit helper is not implemented'
+E       AssertionError: Audit helper is not implemented
+E       assert False
+E        +  where False = is_file()
+E        +    where is_file = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py').is_file
+E        +      where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py') = with_name('audit_incentive_handler.py')
+E        +        where with_name = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py').with_name
+E        +          where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py') = Path('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py')
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:13: AssertionError
+_ test_every_authored_state_matches_independent_scalar_for_synthetic_history[taus0-4] _
+
+seed = 4, taus = (2.0, 3.0, 7.0)
+
+    @pytest.mark.parametrize('seed', range(5))
+    @pytest.mark.parametrize('taus', [(2., 3., 7.), (100/3, 60., 104.), (1., 1., 2.)])
+    def test_every_authored_state_matches_independent_scalar_for_synthetic_history(seed, taus):
+>       a = audit()
+            ^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:43: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def audit():
+>       assert Path(__file__).with_name('audit_incentive_handler.py').is_file(), 'Audit helper is not implemented'
+E       AssertionError: Audit helper is not implemented
+E       assert False
+E        +  where False = is_file()
+E        +    where is_file = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py').is_file
+E        +      where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py') = with_name('audit_incentive_handler.py')
+E        +        where with_name = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py').with_name
+E        +          where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py') = Path('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py')
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:13: AssertionError
+_ test_every_authored_state_matches_independent_scalar_for_synthetic_history[taus1-0] _
+
+seed = 0, taus = (33.333333333333336, 60.0, 104.0)
+
+    @pytest.mark.parametrize('seed', range(5))
+    @pytest.mark.parametrize('taus', [(2., 3., 7.), (100/3, 60., 104.), (1., 1., 2.)])
+    def test_every_authored_state_matches_independent_scalar_for_synthetic_history(seed, taus):
+>       a = audit()
+            ^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:43: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def audit():
+>       assert Path(__file__).with_name('audit_incentive_handler.py').is_file(), 'Audit helper is not implemented'
+E       AssertionError: Audit helper is not implemented
+E       assert False
+E        +  where False = is_file()
+E        +    where is_file = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py').is_file
+E        +      where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py') = with_name('audit_incentive_handler.py')
+E        +        where with_name = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py').with_name
+E        +          where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py') = Path('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py')
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:13: AssertionError
+_ test_every_authored_state_matches_independent_scalar_for_synthetic_history[taus1-1] _
+
+seed = 1, taus = (33.333333333333336, 60.0, 104.0)
+
+    @pytest.mark.parametrize('seed', range(5))
+    @pytest.mark.parametrize('taus', [(2., 3., 7.), (100/3, 60., 104.), (1., 1., 2.)])
+    def test_every_authored_state_matches_independent_scalar_for_synthetic_history(seed, taus):
+>       a = audit()
+            ^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:43: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def audit():
+>       assert Path(__file__).with_name('audit_incentive_handler.py').is_file(), 'Audit helper is not implemented'
+E       AssertionError: Audit helper is not implemented
+E       assert False
+E        +  where False = is_file()
+E        +    where is_file = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py').is_file
+E        +      where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py') = with_name('audit_incentive_handler.py')
+E        +        where with_name = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py').with_name
+E        +          where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py') = Path('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py')
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:13: AssertionError
+_ test_every_authored_state_matches_independent_scalar_for_synthetic_history[taus1-2] _
+
+seed = 2, taus = (33.333333333333336, 60.0, 104.0)
+
+    @pytest.mark.parametrize('seed', range(5))
+    @pytest.mark.parametrize('taus', [(2., 3., 7.), (100/3, 60., 104.), (1., 1., 2.)])
+    def test_every_authored_state_matches_independent_scalar_for_synthetic_history(seed, taus):
+>       a = audit()
+            ^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:43: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def audit():
+>       assert Path(__file__).with_name('audit_incentive_handler.py').is_file(), 'Audit helper is not implemented'
+E       AssertionError: Audit helper is not implemented
+E       assert False
+E        +  where False = is_file()
+E        +    where is_file = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py').is_file
+E        +      where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py') = with_name('audit_incentive_handler.py')
+E        +        where with_name = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py').with_name
+E        +          where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py') = Path('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py')
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:13: AssertionError
+_ test_every_authored_state_matches_independent_scalar_for_synthetic_history[taus1-3] _
+
+seed = 3, taus = (33.333333333333336, 60.0, 104.0)
+
+    @pytest.mark.parametrize('seed', range(5))
+    @pytest.mark.parametrize('taus', [(2., 3., 7.), (100/3, 60., 104.), (1., 1., 2.)])
+    def test_every_authored_state_matches_independent_scalar_for_synthetic_history(seed, taus):
+>       a = audit()
+            ^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:43: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def audit():
+>       assert Path(__file__).with_name('audit_incentive_handler.py').is_file(), 'Audit helper is not implemented'
+E       AssertionError: Audit helper is not implemented
+E       assert False
+E        +  where False = is_file()
+E        +    where is_file = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py').is_file
+E        +      where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py') = with_name('audit_incentive_handler.py')
+E        +        where with_name = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py').with_name
+E        +          where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py') = Path('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py')
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:13: AssertionError
+_ test_every_authored_state_matches_independent_scalar_for_synthetic_history[taus1-4] _
+
+seed = 4, taus = (33.333333333333336, 60.0, 104.0)
+
+    @pytest.mark.parametrize('seed', range(5))
+    @pytest.mark.parametrize('taus', [(2., 3., 7.), (100/3, 60., 104.), (1., 1., 2.)])
+    def test_every_authored_state_matches_independent_scalar_for_synthetic_history(seed, taus):
+>       a = audit()
+            ^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:43: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def audit():
+>       assert Path(__file__).with_name('audit_incentive_handler.py').is_file(), 'Audit helper is not implemented'
+E       AssertionError: Audit helper is not implemented
+E       assert False
+E        +  where False = is_file()
+E        +    where is_file = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py').is_file
+E        +      where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py') = with_name('audit_incentive_handler.py')
+E        +        where with_name = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py').with_name
+E        +          where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py') = Path('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py')
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:13: AssertionError
+_ test_every_authored_state_matches_independent_scalar_for_synthetic_history[taus2-0] _
+
+seed = 0, taus = (1.0, 1.0, 2.0)
+
+    @pytest.mark.parametrize('seed', range(5))
+    @pytest.mark.parametrize('taus', [(2., 3., 7.), (100/3, 60., 104.), (1., 1., 2.)])
+    def test_every_authored_state_matches_independent_scalar_for_synthetic_history(seed, taus):
+>       a = audit()
+            ^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:43: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def audit():
+>       assert Path(__file__).with_name('audit_incentive_handler.py').is_file(), 'Audit helper is not implemented'
+E       AssertionError: Audit helper is not implemented
+E       assert False
+E        +  where False = is_file()
+E        +    where is_file = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py').is_file
+E        +      where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py') = with_name('audit_incentive_handler.py')
+E        +        where with_name = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py').with_name
+E        +          where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py') = Path('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py')
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:13: AssertionError
+_ test_every_authored_state_matches_independent_scalar_for_synthetic_history[taus2-1] _
+
+seed = 1, taus = (1.0, 1.0, 2.0)
+
+    @pytest.mark.parametrize('seed', range(5))
+    @pytest.mark.parametrize('taus', [(2., 3., 7.), (100/3, 60., 104.), (1., 1., 2.)])
+    def test_every_authored_state_matches_independent_scalar_for_synthetic_history(seed, taus):
+>       a = audit()
+            ^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:43: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def audit():
+>       assert Path(__file__).with_name('audit_incentive_handler.py').is_file(), 'Audit helper is not implemented'
+E       AssertionError: Audit helper is not implemented
+E       assert False
+E        +  where False = is_file()
+E        +    where is_file = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py').is_file
+E        +      where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py') = with_name('audit_incentive_handler.py')
+E        +        where with_name = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py').with_name
+E        +          where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py') = Path('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py')
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:13: AssertionError
+_ test_every_authored_state_matches_independent_scalar_for_synthetic_history[taus2-2] _
+
+seed = 2, taus = (1.0, 1.0, 2.0)
+
+    @pytest.mark.parametrize('seed', range(5))
+    @pytest.mark.parametrize('taus', [(2., 3., 7.), (100/3, 60., 104.), (1., 1., 2.)])
+    def test_every_authored_state_matches_independent_scalar_for_synthetic_history(seed, taus):
+>       a = audit()
+            ^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:43: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def audit():
+>       assert Path(__file__).with_name('audit_incentive_handler.py').is_file(), 'Audit helper is not implemented'
+E       AssertionError: Audit helper is not implemented
+E       assert False
+E        +  where False = is_file()
+E        +    where is_file = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py').is_file
+E        +      where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py') = with_name('audit_incentive_handler.py')
+E        +        where with_name = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py').with_name
+E        +          where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py') = Path('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py')
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:13: AssertionError
+_ test_every_authored_state_matches_independent_scalar_for_synthetic_history[taus2-3] _
+
+seed = 3, taus = (1.0, 1.0, 2.0)
+
+    @pytest.mark.parametrize('seed', range(5))
+    @pytest.mark.parametrize('taus', [(2., 3., 7.), (100/3, 60., 104.), (1., 1., 2.)])
+    def test_every_authored_state_matches_independent_scalar_for_synthetic_history(seed, taus):
+>       a = audit()
+            ^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:43: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def audit():
+>       assert Path(__file__).with_name('audit_incentive_handler.py').is_file(), 'Audit helper is not implemented'
+E       AssertionError: Audit helper is not implemented
+E       assert False
+E        +  where False = is_file()
+E        +    where is_file = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py').is_file
+E        +      where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py') = with_name('audit_incentive_handler.py')
+E        +        where with_name = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py').with_name
+E        +          where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py') = Path('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py')
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:13: AssertionError
+_ test_every_authored_state_matches_independent_scalar_for_synthetic_history[taus2-4] _
+
+seed = 4, taus = (1.0, 1.0, 2.0)
+
+    @pytest.mark.parametrize('seed', range(5))
+    @pytest.mark.parametrize('taus', [(2., 3., 7.), (100/3, 60., 104.), (1., 1., 2.)])
+    def test_every_authored_state_matches_independent_scalar_for_synthetic_history(seed, taus):
+>       a = audit()
+            ^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:43: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def audit():
+>       assert Path(__file__).with_name('audit_incentive_handler.py').is_file(), 'Audit helper is not implemented'
+E       AssertionError: Audit helper is not implemented
+E       assert False
+E        +  where False = is_file()
+E        +    where is_file = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py').is_file
+E        +      where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py') = with_name('audit_incentive_handler.py')
+E        +        where with_name = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py').with_name
+E        +          where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py') = Path('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py')
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:13: AssertionError
+_ test_source_first_sample_old_mbon_and_unclipped_internal_weight_are_distinct _
+
+    def test_source_first_sample_old_mbon_and_unclipped_internal_weight_are_distinct():
+>       a = audit()
+            ^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:53: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def audit():
+>       assert Path(__file__).with_name('audit_incentive_handler.py').is_file(), 'Audit helper is not implemented'
+E       AssertionError: Audit helper is not implemented
+E       assert False
+E        +  where False = is_file()
+E        +    where is_file = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py').is_file
+E        +      where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py') = with_name('audit_incentive_handler.py')
+E        +        where with_name = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py').with_name
+E        +          where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py') = Path('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py')
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:13: AssertionError
+_ test_dan_only_rule_has_exact_affine_iteration_and_zero_factor_invariants[-0.25--1.0] _
+
+w0 = -1.0, delta = -0.25
+
+    @pytest.mark.parametrize('w0', [-1., .2, 1., 1.8, 3.])
+    @pytest.mark.parametrize('delta', [-.25, 0., .2])
+    def test_dan_only_rule_has_exact_affine_iteration_and_zero_factor_invariants(w0, delta):
+>       a = audit()
+            ^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:71: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def audit():
+>       assert Path(__file__).with_name('audit_incentive_handler.py').is_file(), 'Audit helper is not implemented'
+E       AssertionError: Audit helper is not implemented
+E       assert False
+E        +  where False = is_file()
+E        +    where is_file = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py').is_file
+E        +      where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py') = with_name('audit_incentive_handler.py')
+E        +        where with_name = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py').with_name
+E        +          where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py') = Path('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py')
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:13: AssertionError
+_ test_dan_only_rule_has_exact_affine_iteration_and_zero_factor_invariants[-0.25-0.2] _
+
+w0 = 0.2, delta = -0.25
+
+    @pytest.mark.parametrize('w0', [-1., .2, 1., 1.8, 3.])
+    @pytest.mark.parametrize('delta', [-.25, 0., .2])
+    def test_dan_only_rule_has_exact_affine_iteration_and_zero_factor_invariants(w0, delta):
+>       a = audit()
+            ^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:71: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def audit():
+>       assert Path(__file__).with_name('audit_incentive_handler.py').is_file(), 'Audit helper is not implemented'
+E       AssertionError: Audit helper is not implemented
+E       assert False
+E        +  where False = is_file()
+E        +    where is_file = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py').is_file
+E        +      where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py') = with_name('audit_incentive_handler.py')
+E        +        where with_name = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py').with_name
+E        +          where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py') = Path('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py')
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:13: AssertionError
+_ test_dan_only_rule_has_exact_affine_iteration_and_zero_factor_invariants[-0.25-1.0] _
+
+w0 = 1.0, delta = -0.25
+
+    @pytest.mark.parametrize('w0', [-1., .2, 1., 1.8, 3.])
+    @pytest.mark.parametrize('delta', [-.25, 0., .2])
+    def test_dan_only_rule_has_exact_affine_iteration_and_zero_factor_invariants(w0, delta):
+>       a = audit()
+            ^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:71: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def audit():
+>       assert Path(__file__).with_name('audit_incentive_handler.py').is_file(), 'Audit helper is not implemented'
+E       AssertionError: Audit helper is not implemented
+E       assert False
+E        +  where False = is_file()
+E        +    where is_file = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py').is_file
+E        +      where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py') = with_name('audit_incentive_handler.py')
+E        +        where with_name = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py').with_name
+E        +          where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py') = Path('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py')
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:13: AssertionError
+_ test_dan_only_rule_has_exact_affine_iteration_and_zero_factor_invariants[-0.25-1.8] _
+
+w0 = 1.8, delta = -0.25
+
+    @pytest.mark.parametrize('w0', [-1., .2, 1., 1.8, 3.])
+    @pytest.mark.parametrize('delta', [-.25, 0., .2])
+    def test_dan_only_rule_has_exact_affine_iteration_and_zero_factor_invariants(w0, delta):
+>       a = audit()
+            ^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:71: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def audit():
+>       assert Path(__file__).with_name('audit_incentive_handler.py').is_file(), 'Audit helper is not implemented'
+E       AssertionError: Audit helper is not implemented
+E       assert False
+E        +  where False = is_file()
+E        +    where is_file = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py').is_file
+E        +      where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py') = with_name('audit_incentive_handler.py')
+E        +        where with_name = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py').with_name
+E        +          where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py') = Path('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py')
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:13: AssertionError
+_ test_dan_only_rule_has_exact_affine_iteration_and_zero_factor_invariants[-0.25-3.0] _
+
+w0 = 3.0, delta = -0.25
+
+    @pytest.mark.parametrize('w0', [-1., .2, 1., 1.8, 3.])
+    @pytest.mark.parametrize('delta', [-.25, 0., .2])
+    def test_dan_only_rule_has_exact_affine_iteration_and_zero_factor_invariants(w0, delta):
+>       a = audit()
+            ^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:71: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def audit():
+>       assert Path(__file__).with_name('audit_incentive_handler.py').is_file(), 'Audit helper is not implemented'
+E       AssertionError: Audit helper is not implemented
+E       assert False
+E        +  where False = is_file()
+E        +    where is_file = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py').is_file
+E        +      where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py') = with_name('audit_incentive_handler.py')
+E        +        where with_name = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py').with_name
+E        +          where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py') = Path('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py')
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:13: AssertionError
+_ test_dan_only_rule_has_exact_affine_iteration_and_zero_factor_invariants[0.0--1.0] _
+
+w0 = -1.0, delta = 0.0
+
+    @pytest.mark.parametrize('w0', [-1., .2, 1., 1.8, 3.])
+    @pytest.mark.parametrize('delta', [-.25, 0., .2])
+    def test_dan_only_rule_has_exact_affine_iteration_and_zero_factor_invariants(w0, delta):
+>       a = audit()
+            ^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:71: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def audit():
+>       assert Path(__file__).with_name('audit_incentive_handler.py').is_file(), 'Audit helper is not implemented'
+E       AssertionError: Audit helper is not implemented
+E       assert False
+E        +  where False = is_file()
+E        +    where is_file = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py').is_file
+E        +      where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py') = with_name('audit_incentive_handler.py')
+E        +        where with_name = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py').with_name
+E        +          where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py') = Path('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py')
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:13: AssertionError
+_ test_dan_only_rule_has_exact_affine_iteration_and_zero_factor_invariants[0.0-0.2] _
+
+w0 = 0.2, delta = 0.0
+
+    @pytest.mark.parametrize('w0', [-1., .2, 1., 1.8, 3.])
+    @pytest.mark.parametrize('delta', [-.25, 0., .2])
+    def test_dan_only_rule_has_exact_affine_iteration_and_zero_factor_invariants(w0, delta):
+>       a = audit()
+            ^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:71: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def audit():
+>       assert Path(__file__).with_name('audit_incentive_handler.py').is_file(), 'Audit helper is not implemented'
+E       AssertionError: Audit helper is not implemented
+E       assert False
+E        +  where False = is_file()
+E        +    where is_file = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py').is_file
+E        +      where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py') = with_name('audit_incentive_handler.py')
+E        +        where with_name = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py').with_name
+E        +          where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py') = Path('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py')
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:13: AssertionError
+_ test_dan_only_rule_has_exact_affine_iteration_and_zero_factor_invariants[0.0-1.0] _
+
+w0 = 1.0, delta = 0.0
+
+    @pytest.mark.parametrize('w0', [-1., .2, 1., 1.8, 3.])
+    @pytest.mark.parametrize('delta', [-.25, 0., .2])
+    def test_dan_only_rule_has_exact_affine_iteration_and_zero_factor_invariants(w0, delta):
+>       a = audit()
+            ^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:71: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def audit():
+>       assert Path(__file__).with_name('audit_incentive_handler.py').is_file(), 'Audit helper is not implemented'
+E       AssertionError: Audit helper is not implemented
+E       assert False
+E        +  where False = is_file()
+E        +    where is_file = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py').is_file
+E        +      where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py') = with_name('audit_incentive_handler.py')
+E        +        where with_name = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py').with_name
+E        +          where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py') = Path('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py')
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:13: AssertionError
+_ test_dan_only_rule_has_exact_affine_iteration_and_zero_factor_invariants[0.0-1.8] _
+
+w0 = 1.8, delta = 0.0
+
+    @pytest.mark.parametrize('w0', [-1., .2, 1., 1.8, 3.])
+    @pytest.mark.parametrize('delta', [-.25, 0., .2])
+    def test_dan_only_rule_has_exact_affine_iteration_and_zero_factor_invariants(w0, delta):
+>       a = audit()
+            ^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:71: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def audit():
+>       assert Path(__file__).with_name('audit_incentive_handler.py').is_file(), 'Audit helper is not implemented'
+E       AssertionError: Audit helper is not implemented
+E       assert False
+E        +  where False = is_file()
+E        +    where is_file = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py').is_file
+E        +      where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py') = with_name('audit_incentive_handler.py')
+E        +        where with_name = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py').with_name
+E        +          where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py') = Path('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py')
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:13: AssertionError
+_ test_dan_only_rule_has_exact_affine_iteration_and_zero_factor_invariants[0.0-3.0] _
+
+w0 = 3.0, delta = 0.0
+
+    @pytest.mark.parametrize('w0', [-1., .2, 1., 1.8, 3.])
+    @pytest.mark.parametrize('delta', [-.25, 0., .2])
+    def test_dan_only_rule_has_exact_affine_iteration_and_zero_factor_invariants(w0, delta):
+>       a = audit()
+            ^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:71: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def audit():
+>       assert Path(__file__).with_name('audit_incentive_handler.py').is_file(), 'Audit helper is not implemented'
+E       AssertionError: Audit helper is not implemented
+E       assert False
+E        +  where False = is_file()
+E        +    where is_file = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py').is_file
+E        +      where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py') = with_name('audit_incentive_handler.py')
+E        +        where with_name = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py').with_name
+E        +          where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py') = Path('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py')
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:13: AssertionError
+_ test_dan_only_rule_has_exact_affine_iteration_and_zero_factor_invariants[0.2--1.0] _
+
+w0 = -1.0, delta = 0.2
+
+    @pytest.mark.parametrize('w0', [-1., .2, 1., 1.8, 3.])
+    @pytest.mark.parametrize('delta', [-.25, 0., .2])
+    def test_dan_only_rule_has_exact_affine_iteration_and_zero_factor_invariants(w0, delta):
+>       a = audit()
+            ^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:71: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def audit():
+>       assert Path(__file__).with_name('audit_incentive_handler.py').is_file(), 'Audit helper is not implemented'
+E       AssertionError: Audit helper is not implemented
+E       assert False
+E        +  where False = is_file()
+E        +    where is_file = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py').is_file
+E        +      where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py') = with_name('audit_incentive_handler.py')
+E        +        where with_name = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py').with_name
+E        +          where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py') = Path('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py')
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:13: AssertionError
+_ test_dan_only_rule_has_exact_affine_iteration_and_zero_factor_invariants[0.2-0.2] _
+
+w0 = 0.2, delta = 0.2
+
+    @pytest.mark.parametrize('w0', [-1., .2, 1., 1.8, 3.])
+    @pytest.mark.parametrize('delta', [-.25, 0., .2])
+    def test_dan_only_rule_has_exact_affine_iteration_and_zero_factor_invariants(w0, delta):
+>       a = audit()
+            ^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:71: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def audit():
+>       assert Path(__file__).with_name('audit_incentive_handler.py').is_file(), 'Audit helper is not implemented'
+E       AssertionError: Audit helper is not implemented
+E       assert False
+E        +  where False = is_file()
+E        +    where is_file = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py').is_file
+E        +      where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py') = with_name('audit_incentive_handler.py')
+E        +        where with_name = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py').with_name
+E        +          where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py') = Path('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py')
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:13: AssertionError
+_ test_dan_only_rule_has_exact_affine_iteration_and_zero_factor_invariants[0.2-1.0] _
+
+w0 = 1.0, delta = 0.2
+
+    @pytest.mark.parametrize('w0', [-1., .2, 1., 1.8, 3.])
+    @pytest.mark.parametrize('delta', [-.25, 0., .2])
+    def test_dan_only_rule_has_exact_affine_iteration_and_zero_factor_invariants(w0, delta):
+>       a = audit()
+            ^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:71: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def audit():
+>       assert Path(__file__).with_name('audit_incentive_handler.py').is_file(), 'Audit helper is not implemented'
+E       AssertionError: Audit helper is not implemented
+E       assert False
+E        +  where False = is_file()
+E        +    where is_file = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py').is_file
+E        +      where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py') = with_name('audit_incentive_handler.py')
+E        +        where with_name = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py').with_name
+E        +          where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py') = Path('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py')
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:13: AssertionError
+_ test_dan_only_rule_has_exact_affine_iteration_and_zero_factor_invariants[0.2-1.8] _
+
+w0 = 1.8, delta = 0.2
+
+    @pytest.mark.parametrize('w0', [-1., .2, 1., 1.8, 3.])
+    @pytest.mark.parametrize('delta', [-.25, 0., .2])
+    def test_dan_only_rule_has_exact_affine_iteration_and_zero_factor_invariants(w0, delta):
+>       a = audit()
+            ^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:71: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def audit():
+>       assert Path(__file__).with_name('audit_incentive_handler.py').is_file(), 'Audit helper is not implemented'
+E       AssertionError: Audit helper is not implemented
+E       assert False
+E        +  where False = is_file()
+E        +    where is_file = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py').is_file
+E        +      where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py') = with_name('audit_incentive_handler.py')
+E        +        where with_name = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py').with_name
+E        +          where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py') = Path('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py')
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:13: AssertionError
+_ test_dan_only_rule_has_exact_affine_iteration_and_zero_factor_invariants[0.2-3.0] _
+
+w0 = 3.0, delta = 0.2
+
+    @pytest.mark.parametrize('w0', [-1., .2, 1., 1.8, 3.])
+    @pytest.mark.parametrize('delta', [-.25, 0., .2])
+    def test_dan_only_rule_has_exact_affine_iteration_and_zero_factor_invariants(w0, delta):
+>       a = audit()
+            ^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:71: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def audit():
+>       assert Path(__file__).with_name('audit_incentive_handler.py').is_file(), 'Audit helper is not implemented'
+E       AssertionError: Audit helper is not implemented
+E       assert False
+E        +  where False = is_file()
+E        +    where is_file = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py').is_file
+E        +      where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py') = with_name('audit_incentive_handler.py')
+E        +        where with_name = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py').with_name
+E        +          where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py') = Path('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py')
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:13: AssertionError
+___ test_biphasic_filter_full_tail_is_zero_but_euler_passive_product_is_not ____
+
+    def test_biphasic_filter_full_tail_is_zero_but_euler_passive_product_is_not():
+>       a = audit()
+            ^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:80: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def audit():
+>       assert Path(__file__).with_name('audit_incentive_handler.py').is_file(), 'Audit helper is not implemented'
+E       AssertionError: Audit helper is not implemented
+E       assert False
+E        +  where False = is_file()
+E        +    where is_file = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py').is_file
+E        +      where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py') = with_name('audit_incentive_handler.py')
+E        +        where with_name = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py').with_name
+E        +          where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py') = Path('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py')
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:13: AssertionError
+_______ test_source_grid_and_float_endpoint_membership_are_not_resampled _______
+
+    def test_source_grid_and_float_endpoint_membership_are_not_resampled():
+>       a = audit()
+            ^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:102: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def audit():
+>       assert Path(__file__).with_name('audit_incentive_handler.py').is_file(), 'Audit helper is not implemented'
+E       AssertionError: Audit helper is not implemented
+E       assert False
+E        +  where False = is_file()
+E        +    where is_file = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py').is_file
+E        +      where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py') = with_name('audit_incentive_handler.py')
+E        +        where with_name = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py').with_name
+E        +          where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py') = Path('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py')
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:13: AssertionError
+_ test_reporter_proxy_uses_post_rectified_weight_and_signed_delta_is_separate __
+
+    def test_reporter_proxy_uses_post_rectified_weight_and_signed_delta_is_separate():
+>       a = audit()
+            ^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:116: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def audit():
+>       assert Path(__file__).with_name('audit_incentive_handler.py').is_file(), 'Audit helper is not implemented'
+E       AssertionError: Audit helper is not implemented
+E       assert False
+E        +  where False = is_file()
+E        +    where is_file = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py').is_file
+E        +      where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py') = with_name('audit_incentive_handler.py')
+E        +        where with_name = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py').with_name
+E        +          where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py') = Path('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py')
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:13: AssertionError
+___________ test_scalar_input_domain_rejects_malformed_history[bad0] ___________
+
+bad = []
+
+    @pytest.mark.parametrize('bad', [[], [np.nan], [np.inf], [-1.], [[1.]], [True]])
+    def test_scalar_input_domain_rejects_malformed_history(bad):
+        with pytest.raises(ValueError):
+>           audit().scalar_events(bad, [0])
+            ^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:130: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def audit():
+>       assert Path(__file__).with_name('audit_incentive_handler.py').is_file(), 'Audit helper is not implemented'
+E       AssertionError: Audit helper is not implemented
+E       assert False
+E        +  where False = is_file()
+E        +    where is_file = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py').is_file
+E        +      where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py') = with_name('audit_incentive_handler.py')
+E        +        where with_name = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py').with_name
+E        +          where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py') = Path('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py')
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:13: AssertionError
+___________ test_scalar_input_domain_rejects_malformed_history[bad1] ___________
+
+bad = [nan]
+
+    @pytest.mark.parametrize('bad', [[], [np.nan], [np.inf], [-1.], [[1.]], [True]])
+    def test_scalar_input_domain_rejects_malformed_history(bad):
+        with pytest.raises(ValueError):
+>           audit().scalar_events(bad, [0])
+            ^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:130: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def audit():
+>       assert Path(__file__).with_name('audit_incentive_handler.py').is_file(), 'Audit helper is not implemented'
+E       AssertionError: Audit helper is not implemented
+E       assert False
+E        +  where False = is_file()
+E        +    where is_file = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py').is_file
+E        +      where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py') = with_name('audit_incentive_handler.py')
+E        +        where with_name = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py').with_name
+E        +          where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py') = Path('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py')
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:13: AssertionError
+___________ test_scalar_input_domain_rejects_malformed_history[bad2] ___________
+
+bad = [inf]
+
+    @pytest.mark.parametrize('bad', [[], [np.nan], [np.inf], [-1.], [[1.]], [True]])
+    def test_scalar_input_domain_rejects_malformed_history(bad):
+        with pytest.raises(ValueError):
+>           audit().scalar_events(bad, [0])
+            ^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:130: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def audit():
+>       assert Path(__file__).with_name('audit_incentive_handler.py').is_file(), 'Audit helper is not implemented'
+E       AssertionError: Audit helper is not implemented
+E       assert False
+E        +  where False = is_file()
+E        +    where is_file = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py').is_file
+E        +      where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py') = with_name('audit_incentive_handler.py')
+E        +        where with_name = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py').with_name
+E        +          where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py') = Path('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py')
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:13: AssertionError
+___________ test_scalar_input_domain_rejects_malformed_history[bad3] ___________
+
+bad = [-1.0]
+
+    @pytest.mark.parametrize('bad', [[], [np.nan], [np.inf], [-1.], [[1.]], [True]])
+    def test_scalar_input_domain_rejects_malformed_history(bad):
+        with pytest.raises(ValueError):
+>           audit().scalar_events(bad, [0])
+            ^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:130: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def audit():
+>       assert Path(__file__).with_name('audit_incentive_handler.py').is_file(), 'Audit helper is not implemented'
+E       AssertionError: Audit helper is not implemented
+E       assert False
+E        +  where False = is_file()
+E        +    where is_file = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py').is_file
+E        +      where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py') = with_name('audit_incentive_handler.py')
+E        +        where with_name = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py').with_name
+E        +          where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py') = Path('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py')
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:13: AssertionError
+___________ test_scalar_input_domain_rejects_malformed_history[bad4] ___________
+
+bad = [[1.0]]
+
+    @pytest.mark.parametrize('bad', [[], [np.nan], [np.inf], [-1.], [[1.]], [True]])
+    def test_scalar_input_domain_rejects_malformed_history(bad):
+        with pytest.raises(ValueError):
+>           audit().scalar_events(bad, [0])
+            ^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:130: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def audit():
+>       assert Path(__file__).with_name('audit_incentive_handler.py').is_file(), 'Audit helper is not implemented'
+E       AssertionError: Audit helper is not implemented
+E       assert False
+E        +  where False = is_file()
+E        +    where is_file = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py').is_file
+E        +      where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py') = with_name('audit_incentive_handler.py')
+E        +        where with_name = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py').with_name
+E        +          where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py') = Path('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py')
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:13: AssertionError
+___________ test_scalar_input_domain_rejects_malformed_history[bad5] ___________
+
+bad = [True]
+
+    @pytest.mark.parametrize('bad', [[], [np.nan], [np.inf], [-1.], [[1.]], [True]])
+    def test_scalar_input_domain_rejects_malformed_history(bad):
+        with pytest.raises(ValueError):
+>           audit().scalar_events(bad, [0])
+            ^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:130: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def audit():
+>       assert Path(__file__).with_name('audit_incentive_handler.py').is_file(), 'Audit helper is not implemented'
+E       AssertionError: Audit helper is not implemented
+E       assert False
+E        +  where False = is_file()
+E        +    where is_file = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py').is_file
+E        +      where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py') = with_name('audit_incentive_handler.py')
+E        +        where with_name = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py').with_name
+E        +          where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py') = Path('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py')
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:13: AssertionError
+_____ test_scalar_tau_domain_rejects_invalid_or_unstable_parameters[taus0] _____
+
+taus = (0, 2, 3)
+
+    @pytest.mark.parametrize('taus', [(0,2,3), (.5,2,3), (np.nan,2,3), (2,np.inf,3), (True,2,3), (2,3)])
+    def test_scalar_tau_domain_rejects_invalid_or_unstable_parameters(taus):
+        with pytest.raises(ValueError):
+>           audit().scalar_events([0,1], [0,1], taus=taus)
+            ^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:136: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def audit():
+>       assert Path(__file__).with_name('audit_incentive_handler.py').is_file(), 'Audit helper is not implemented'
+E       AssertionError: Audit helper is not implemented
+E       assert False
+E        +  where False = is_file()
+E        +    where is_file = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py').is_file
+E        +      where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py') = with_name('audit_incentive_handler.py')
+E        +        where with_name = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py').with_name
+E        +          where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py') = Path('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py')
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:13: AssertionError
+_____ test_scalar_tau_domain_rejects_invalid_or_unstable_parameters[taus1] _____
+
+taus = (0.5, 2, 3)
+
+    @pytest.mark.parametrize('taus', [(0,2,3), (.5,2,3), (np.nan,2,3), (2,np.inf,3), (True,2,3), (2,3)])
+    def test_scalar_tau_domain_rejects_invalid_or_unstable_parameters(taus):
+        with pytest.raises(ValueError):
+>           audit().scalar_events([0,1], [0,1], taus=taus)
+            ^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:136: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def audit():
+>       assert Path(__file__).with_name('audit_incentive_handler.py').is_file(), 'Audit helper is not implemented'
+E       AssertionError: Audit helper is not implemented
+E       assert False
+E        +  where False = is_file()
+E        +    where is_file = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py').is_file
+E        +      where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py') = with_name('audit_incentive_handler.py')
+E        +        where with_name = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py').with_name
+E        +          where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py') = Path('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py')
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:13: AssertionError
+_____ test_scalar_tau_domain_rejects_invalid_or_unstable_parameters[taus2] _____
+
+taus = (nan, 2, 3)
+
+    @pytest.mark.parametrize('taus', [(0,2,3), (.5,2,3), (np.nan,2,3), (2,np.inf,3), (True,2,3), (2,3)])
+    def test_scalar_tau_domain_rejects_invalid_or_unstable_parameters(taus):
+        with pytest.raises(ValueError):
+>           audit().scalar_events([0,1], [0,1], taus=taus)
+            ^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:136: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def audit():
+>       assert Path(__file__).with_name('audit_incentive_handler.py').is_file(), 'Audit helper is not implemented'
+E       AssertionError: Audit helper is not implemented
+E       assert False
+E        +  where False = is_file()
+E        +    where is_file = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py').is_file
+E        +      where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py') = with_name('audit_incentive_handler.py')
+E        +        where with_name = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py').with_name
+E        +          where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py') = Path('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py')
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:13: AssertionError
+_____ test_scalar_tau_domain_rejects_invalid_or_unstable_parameters[taus3] _____
+
+taus = (2, inf, 3)
+
+    @pytest.mark.parametrize('taus', [(0,2,3), (.5,2,3), (np.nan,2,3), (2,np.inf,3), (True,2,3), (2,3)])
+    def test_scalar_tau_domain_rejects_invalid_or_unstable_parameters(taus):
+        with pytest.raises(ValueError):
+>           audit().scalar_events([0,1], [0,1], taus=taus)
+            ^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:136: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def audit():
+>       assert Path(__file__).with_name('audit_incentive_handler.py').is_file(), 'Audit helper is not implemented'
+E       AssertionError: Audit helper is not implemented
+E       assert False
+E        +  where False = is_file()
+E        +    where is_file = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py').is_file
+E        +      where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py') = with_name('audit_incentive_handler.py')
+E        +        where with_name = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py').with_name
+E        +          where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py') = Path('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py')
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:13: AssertionError
+_____ test_scalar_tau_domain_rejects_invalid_or_unstable_parameters[taus4] _____
+
+taus = (True, 2, 3)
+
+    @pytest.mark.parametrize('taus', [(0,2,3), (.5,2,3), (np.nan,2,3), (2,np.inf,3), (True,2,3), (2,3)])
+    def test_scalar_tau_domain_rejects_invalid_or_unstable_parameters(taus):
+        with pytest.raises(ValueError):
+>           audit().scalar_events([0,1], [0,1], taus=taus)
+            ^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:136: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def audit():
+>       assert Path(__file__).with_name('audit_incentive_handler.py').is_file(), 'Audit helper is not implemented'
+E       AssertionError: Audit helper is not implemented
+E       assert False
+E        +  where False = is_file()
+E        +    where is_file = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py').is_file
+E        +      where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py') = with_name('audit_incentive_handler.py')
+E        +        where with_name = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py').with_name
+E        +          where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py') = Path('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py')
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:13: AssertionError
+_____ test_scalar_tau_domain_rejects_invalid_or_unstable_parameters[taus5] _____
+
+taus = (2, 3)
+
+    @pytest.mark.parametrize('taus', [(0,2,3), (.5,2,3), (np.nan,2,3), (2,np.inf,3), (True,2,3), (2,3)])
+    def test_scalar_tau_domain_rejects_invalid_or_unstable_parameters(taus):
+        with pytest.raises(ValueError):
+>           audit().scalar_events([0,1], [0,1], taus=taus)
+            ^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:136: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def audit():
+>       assert Path(__file__).with_name('audit_incentive_handler.py').is_file(), 'Audit helper is not implemented'
+E       AssertionError: Audit helper is not implemented
+E       assert False
+E        +  where False = is_file()
+E        +    where is_file = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py').is_file
+E        +      where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py') = with_name('audit_incentive_handler.py')
+E        +        where with_name = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py').with_name
+E        +          where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py') = Path('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py')
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:13: AssertionError
+___ test_reporter_window_contrast_is_not_final_weight_or_window_interchange ____
+
+    def test_reporter_window_contrast_is_not_final_weight_or_window_interchange():
+>       a = audit()
+            ^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:140: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def audit():
+>       assert Path(__file__).with_name('audit_incentive_handler.py').is_file(), 'Audit helper is not implemented'
+E       AssertionError: Audit helper is not implemented
+E       assert False
+E        +  where False = is_file()
+E        +    where is_file = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py').is_file
+E        +      where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py') = with_name('audit_incentive_handler.py')
+E        +        where with_name = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py').with_name
+E        +          where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py') = Path('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py')
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:13: AssertionError
+_____________ test_source_bindings_fail_before_import_on_mutation ______________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1670/test_source_bindings_fail_befo0')
+
+    def test_source_bindings_fail_before_import_on_mutation(tmp_path):
+>       a = audit()
+            ^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:155: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def audit():
+>       assert Path(__file__).with_name('audit_incentive_handler.py').is_file(), 'Audit helper is not implemented'
+E       AssertionError: Audit helper is not implemented
+E       assert False
+E        +  where False = is_file()
+E        +    where is_file = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py').is_file
+E        +      where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py') = with_name('audit_incentive_handler.py')
+E        +        where with_name = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py').with_name
+E        +          where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py') = Path('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py')
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:13: AssertionError
+_ test_execution_failure_preserves_terminal_error_and_never_reports_complete[case] _
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1670/test_execution_failure_preserv0')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x10b672c90>
+failure = 'case'
+
+    @pytest.mark.parametrize('failure', ['case', 'case_write', 'completion_write', 'late_clock'])
+    def test_execution_failure_preserves_terminal_error_and_never_reports_complete(tmp_path, monkeypatch, failure):
+>       a = audit()
+            ^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:165: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def audit():
+>       assert Path(__file__).with_name('audit_incentive_handler.py').is_file(), 'Audit helper is not implemented'
+E       AssertionError: Audit helper is not implemented
+E       assert False
+E        +  where False = is_file()
+E        +    where is_file = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py').is_file
+E        +      where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py') = with_name('audit_incentive_handler.py')
+E        +        where with_name = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py').with_name
+E        +          where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py') = Path('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py')
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:13: AssertionError
+_ test_execution_failure_preserves_terminal_error_and_never_reports_complete[case_write] _
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1670/test_execution_failure_preserv1')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x10b670b90>
+failure = 'case_write'
+
+    @pytest.mark.parametrize('failure', ['case', 'case_write', 'completion_write', 'late_clock'])
+    def test_execution_failure_preserves_terminal_error_and_never_reports_complete(tmp_path, monkeypatch, failure):
+>       a = audit()
+            ^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:165: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def audit():
+>       assert Path(__file__).with_name('audit_incentive_handler.py').is_file(), 'Audit helper is not implemented'
+E       AssertionError: Audit helper is not implemented
+E       assert False
+E        +  where False = is_file()
+E        +    where is_file = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py').is_file
+E        +      where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py') = with_name('audit_incentive_handler.py')
+E        +        where with_name = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py').with_name
+E        +          where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py') = Path('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py')
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:13: AssertionError
+_ test_execution_failure_preserves_terminal_error_and_never_reports_complete[completion_write] _
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1670/test_execution_failure_preserv2')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x10b6727e0>
+failure = 'completion_write'
+
+    @pytest.mark.parametrize('failure', ['case', 'case_write', 'completion_write', 'late_clock'])
+    def test_execution_failure_preserves_terminal_error_and_never_reports_complete(tmp_path, monkeypatch, failure):
+>       a = audit()
+            ^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:165: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def audit():
+>       assert Path(__file__).with_name('audit_incentive_handler.py').is_file(), 'Audit helper is not implemented'
+E       AssertionError: Audit helper is not implemented
+E       assert False
+E        +  where False = is_file()
+E        +    where is_file = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py').is_file
+E        +      where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py') = with_name('audit_incentive_handler.py')
+E        +        where with_name = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py').with_name
+E        +          where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py') = Path('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py')
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:13: AssertionError
+_ test_execution_failure_preserves_terminal_error_and_never_reports_complete[late_clock] _
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1670/test_execution_failure_preserv3')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x10b673e60>
+failure = 'late_clock'
+
+    @pytest.mark.parametrize('failure', ['case', 'case_write', 'completion_write', 'late_clock'])
+    def test_execution_failure_preserves_terminal_error_and_never_reports_complete(tmp_path, monkeypatch, failure):
+>       a = audit()
+            ^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:165: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def audit():
+>       assert Path(__file__).with_name('audit_incentive_handler.py').is_file(), 'Audit helper is not implemented'
+E       AssertionError: Audit helper is not implemented
+E       assert False
+E        +  where False = is_file()
+E        +    where is_file = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py').is_file
+E        +      where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py') = with_name('audit_incentive_handler.py')
+E        +        where with_name = PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py').with_name
+E        +          where PosixPath('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py') = Path('/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py')
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:13: AssertionError
+=========================== short test summary info ============================
+FAILED output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py::test_unclipped_filters_follow_analytic_impulse_step_and_dc_gain[impulse-1.0]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py::test_unclipped_filters_follow_analytic_impulse_step_and_dc_gain[impulse-2.0]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py::test_unclipped_filters_follow_analytic_impulse_step_and_dc_gain[impulse-8.0]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py::test_unclipped_filters_follow_analytic_impulse_step_and_dc_gain[impulse-60.0]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py::test_unclipped_filters_follow_analytic_impulse_step_and_dc_gain[impulse-104.0]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py::test_unclipped_filters_follow_analytic_impulse_step_and_dc_gain[step-1.0]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py::test_unclipped_filters_follow_analytic_impulse_step_and_dc_gain[step-2.0]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py::test_unclipped_filters_follow_analytic_impulse_step_and_dc_gain[step-8.0]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py::test_unclipped_filters_follow_analytic_impulse_step_and_dc_gain[step-60.0]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py::test_unclipped_filters_follow_analytic_impulse_step_and_dc_gain[step-104.0]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py::test_unclipped_filters_follow_analytic_impulse_step_and_dc_gain[rectangle-1.0]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py::test_unclipped_filters_follow_analytic_impulse_step_and_dc_gain[rectangle-2.0]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py::test_unclipped_filters_follow_analytic_impulse_step_and_dc_gain[rectangle-8.0]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py::test_unclipped_filters_follow_analytic_impulse_step_and_dc_gain[rectangle-60.0]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py::test_unclipped_filters_follow_analytic_impulse_step_and_dc_gain[rectangle-104.0]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py::test_every_authored_state_matches_independent_scalar_for_synthetic_history[taus0-0]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py::test_every_authored_state_matches_independent_scalar_for_synthetic_history[taus0-1]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py::test_every_authored_state_matches_independent_scalar_for_synthetic_history[taus0-2]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py::test_every_authored_state_matches_independent_scalar_for_synthetic_history[taus0-3]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py::test_every_authored_state_matches_independent_scalar_for_synthetic_history[taus0-4]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py::test_every_authored_state_matches_independent_scalar_for_synthetic_history[taus1-0]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py::test_every_authored_state_matches_independent_scalar_for_synthetic_history[taus1-1]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py::test_every_authored_state_matches_independent_scalar_for_synthetic_history[taus1-2]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py::test_every_authored_state_matches_independent_scalar_for_synthetic_history[taus1-3]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py::test_every_authored_state_matches_independent_scalar_for_synthetic_history[taus1-4]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py::test_every_authored_state_matches_independent_scalar_for_synthetic_history[taus2-0]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py::test_every_authored_state_matches_independent_scalar_for_synthetic_history[taus2-1]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py::test_every_authored_state_matches_independent_scalar_for_synthetic_history[taus2-2]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py::test_every_authored_state_matches_independent_scalar_for_synthetic_history[taus2-3]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py::test_every_authored_state_matches_independent_scalar_for_synthetic_history[taus2-4]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py::test_source_first_sample_old_mbon_and_unclipped_internal_weight_are_distinct
+FAILED output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py::test_dan_only_rule_has_exact_affine_iteration_and_zero_factor_invariants[-0.25--1.0]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py::test_dan_only_rule_has_exact_affine_iteration_and_zero_factor_invariants[-0.25-0.2]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py::test_dan_only_rule_has_exact_affine_iteration_and_zero_factor_invariants[-0.25-1.0]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py::test_dan_only_rule_has_exact_affine_iteration_and_zero_factor_invariants[-0.25-1.8]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py::test_dan_only_rule_has_exact_affine_iteration_and_zero_factor_invariants[-0.25-3.0]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py::test_dan_only_rule_has_exact_affine_iteration_and_zero_factor_invariants[0.0--1.0]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py::test_dan_only_rule_has_exact_affine_iteration_and_zero_factor_invariants[0.0-0.2]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py::test_dan_only_rule_has_exact_affine_iteration_and_zero_factor_invariants[0.0-1.0]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py::test_dan_only_rule_has_exact_affine_iteration_and_zero_factor_invariants[0.0-1.8]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py::test_dan_only_rule_has_exact_affine_iteration_and_zero_factor_invariants[0.0-3.0]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py::test_dan_only_rule_has_exact_affine_iteration_and_zero_factor_invariants[0.2--1.0]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py::test_dan_only_rule_has_exact_affine_iteration_and_zero_factor_invariants[0.2-0.2]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py::test_dan_only_rule_has_exact_affine_iteration_and_zero_factor_invariants[0.2-1.0]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py::test_dan_only_rule_has_exact_affine_iteration_and_zero_factor_invariants[0.2-1.8]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py::test_dan_only_rule_has_exact_affine_iteration_and_zero_factor_invariants[0.2-3.0]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py::test_biphasic_filter_full_tail_is_zero_but_euler_passive_product_is_not
+FAILED output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py::test_source_grid_and_float_endpoint_membership_are_not_resampled
+FAILED output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py::test_reporter_proxy_uses_post_rectified_weight_and_signed_delta_is_separate
+FAILED output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py::test_scalar_input_domain_rejects_malformed_history[bad0]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py::test_scalar_input_domain_rejects_malformed_history[bad1]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py::test_scalar_input_domain_rejects_malformed_history[bad2]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py::test_scalar_input_domain_rejects_malformed_history[bad3]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py::test_scalar_input_domain_rejects_malformed_history[bad4]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py::test_scalar_input_domain_rejects_malformed_history[bad5]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py::test_scalar_tau_domain_rejects_invalid_or_unstable_parameters[taus0]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py::test_scalar_tau_domain_rejects_invalid_or_unstable_parameters[taus1]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py::test_scalar_tau_domain_rejects_invalid_or_unstable_parameters[taus2]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py::test_scalar_tau_domain_rejects_invalid_or_unstable_parameters[taus3]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py::test_scalar_tau_domain_rejects_invalid_or_unstable_parameters[taus4]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py::test_scalar_tau_domain_rejects_invalid_or_unstable_parameters[taus5]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py::test_reporter_window_contrast_is_not_final_weight_or_window_interchange
+FAILED output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py::test_source_bindings_fail_before_import_on_mutation
+FAILED output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py::test_execution_failure_preserves_terminal_error_and_never_reports_complete[case]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py::test_execution_failure_preserves_terminal_error_and_never_reports_complete[case_write]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py::test_execution_failure_preserves_terminal_error_and_never_reports_complete[completion_write]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py::test_execution_failure_preserves_terminal_error_and_never_reports_complete[late_clock]
+67 failed in 0.34s

@@ -1,0 +1,35 @@
+{
+  "source": {
+    "src/incentive/handler.py": "7a943ec47bfc0db20ab2679f8b5f70f1a39dd9d646dbdac33fd99b4aecf0912a",
+    "src/incentive/models_base.py": "0113fedc0f15eb8c1f5c0f94a4bd566e1723a0aac34e4ab2ca8538363187f0a7",
+    "src/incentive/circuit.py": "94139014ada70594545becc730fb4e9c86e0aab584d39cf993e54d8e37acbb9a",
+    "examples/run_handler_2019.py": "cb4d4109083b162ee1547f385409955d65d1bedda00de4ecdc82a038cde75e53",
+    "README.md": "7bfb94640ce09dde570f08a48dd44f1a7c14dd49a8dbc64745c6bf5678580062",
+    "LICENSE": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+  },
+  "bindings": {
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py": "cfb1cd22bdbde43c86bb938e6584d681dc449531335f121847ae00034598e624",
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/incentive-handler-verification-plan-evidence-ui-2026-09-13.md": "f6695d502579440264414012e9f879c2fbe740a589c21af799769938562e717e",
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py": "1e608a1b5e06eebcdad259fd0ae4b9584a4621168c31ce5d8600f30b2be69383"
+  },
+  "ISIS": [
+    -6.0,
+    -1.2,
+    -0.6,
+    0.0,
+    0.5,
+    6.0
+  ],
+  "taus": [
+    33.333333333333336,
+    60.0,
+    104.0
+  ],
+  "samples": 1001,
+  "grid": [
+    -7,
+    8
+  ],
+  "cap_seconds": 30.0,
+  "scope": "authored_source_only"
+}

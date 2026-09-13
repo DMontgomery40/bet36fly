@@ -1,0 +1,21 @@
+{
+  "at_utc": "2026-09-13T10:42:13.468245+00:00",
+  "command": [
+    "/Users/davidmontgomery/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/analyze_incentive_handler_saved.py",
+    "--run",
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/incentive-handler-source-9c5800e30fdae747b49a",
+    "--identity-sha",
+    "431f3cdd5cb2872852f1a516716e3803fa296e611fd888c67b7f041d87f8e7d6",
+    "--out",
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/incentive-handler-saved-analysis-2026-09-13"
+  ],
+  "cap_seconds": 30,
+  "bindings": {
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/analyze_incentive_handler_saved.py": "df46cbd225d71a355c3c4ae5ee587cf95093d5e6e4edc490c033b2631b32f031",
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_analyze_incentive_handler_saved.py": "27ae7ca76a969318dcb930e9f7c3ab11c0bbee40b398d213a3feffcb98496661",
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/incentive-handler-saved-analysis-preregistration-2026-09-13.md": "d5dc6560a4151d65d0d4fe0cf778ef3ac3b70b1a466ad79a16561a8ff18b9b53",
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/incentive-handler-source-9c5800e30fdae747b49a/identity.json": "431f3cdd5cb2872852f1a516716e3803fa296e611fd888c67b7f041d87f8e7d6"
+  },
+  "model_executions": 0
+}

@@ -1,0 +1,9 @@
+{
+  "status": "complete",
+  "analysis_sha256": "eea464efc6c27b813643ba7293748616b095208b673c996a34b397591a9303b6",
+  "source_identity_sha256": "431f3cdd5cb2872852f1a516716e3803fa296e611fd888c67b7f041d87f8e7d6",
+  "elapsed_seconds": 0.17343637510202825,
+  "cases": 6,
+  "model_executions": 0,
+  "fits": 0
+}

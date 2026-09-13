@@ -1,0 +1,36 @@
+{
+  "checked_utc": "2026-09-13T10:44:38.652958+00:00",
+  "baseline_sha256": "d9e4138924451490dabe75042991dcac1a698989b4711e25a93df9093f696d1a",
+  "matched_baseline_files": 788,
+  "intentional_frontend_changes": [
+    {
+      "path": "scripts/verify_reward_browser.cjs",
+      "state": "changed",
+      "sha256": "28d2fcb0faf5fd917123a4f022a60a628dc5f8418b3909e4ea6faf8bd236a477",
+      "bytes": 22143
+    },
+    {
+      "path": "web/dist/assets/index-_R16x4Qi.js",
+      "state": "removed"
+    },
+    {
+      "path": "web/dist/index.html",
+      "state": "changed",
+      "sha256": "61647f0fc452894d5b69b48dbd0256eb81e35013630b3181f29e8e52bea34b48",
+      "bytes": 562
+    }
+  ],
+  "unexpected_changed": [],
+  "unexpected_missing": [],
+  "inventory_added": [
+    "web/dist/assets/index-BuQEd2Ul.js"
+  ],
+  "inventory_removed": [
+    "web/dist/assets/index-_R16x4Qi.js"
+  ],
+  "unexpected_inventory": [],
+  "existing_evidence_files_unchanged_against_HEAD": 1077,
+  "unexpected_existing_evidence_changes": [],
+  "protected_model_pointer_checked": true,
+  "wall_seconds": 2.590131290955469
+}

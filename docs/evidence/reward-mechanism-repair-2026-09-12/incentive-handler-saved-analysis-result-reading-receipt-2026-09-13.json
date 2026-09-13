@@ -1,0 +1,166 @@
+{
+  "agent": "/root/dopamine_sources",
+  "at_utc": "2026-09-13T10:44:49.824462+00:00",
+  "status": "independent_saved_data_audit_pass",
+  "source_run": "incentive-handler-source-9c5800e30fdae747b49a",
+  "source_identity_sha256": "431f3cdd5cb2872852f1a516716e3803fa296e611fd888c67b7f041d87f8e7d6",
+  "reading": {
+    "prior_receipt": {
+      "path": "output/collaboration/reward-mechanism-repair/incentive-handler-saved-analysis-preparation-receipt-2026-09-13.json",
+      "bytes": 45425,
+      "sha256": "8efe2876dc59066e67d6ad5ccc5f8f9ac8d2d8d9ef19ea2ef008f8bed1bb6948"
+    },
+    "current_narrative_count": 186,
+    "personally_read_full_new_page": {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/incentive-handler-source-result-2026-09-13.md",
+      "bytes": 5688,
+      "sha256": "94abcc0fba9400a5e69b60ca00682f7db3075d87b617af76fbb4583fd377e70f"
+    },
+    "personally_read_final_typo_delta": {
+      "path": "wiki/cells/dopamine-receptor-signaling.md",
+      "bytes": 5381,
+      "sha256": "141bb0231f0f11824d102c149d796f0a5ecf249b03b47769fc34d9eaf7c395d6"
+    },
+    "coverage_correction": "The earlier message said176 current narratives. Concurrent evidence copying produced186 paths in the preparation inventory: nine were byte-identical aliases of personally read source/notes, but the new root source-result page was not personally read until this closing review. Thus the prior blanket unread_deltas=[] assertion was too broad for that one page; it is now fully read. Prior receipt is preserved unchanged. No scientific selection or execution contract changed.",
+    "other_coverage": "All current pages reconcile by exact hashes to the full prior personal chain, nine already-read aliases, or the five personally read current pages/deltas: API contract, dopamine cell/index, receptor signaling and source result.",
+    "unread_deltas": []
+  },
+  "frozen_inputs_unchanged": true,
+  "input_bindings": {
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/incentive-handler-source-9c5800e30fdae747b49a/identity.json": "431f3cdd5cb2872852f1a516716e3803fa296e611fd888c67b7f041d87f8e7d6",
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/incentive-handler-source-9c5800e30fdae747b49a/status.json": "51a9b3f3aa72ed672273b8a9b7d42634c5bfb57cd0d21e12f23069dbbc9fc02c",
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/incentive-handler-source-9c5800e30fdae747b49a/summary.json": "dbcda7c99a25ee460acefa5098d1f62ebf0b8e80816c96a676135245f3f68bc4",
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/incentive-circuit-source-2026-09-13/src/incentive/handler.py": "7a943ec47bfc0db20ab2679f8b5f70f1a39dd9d646dbdac33fd99b4aecf0912a",
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/incentive-circuit-source-2026-09-13/src/incentive/models_base.py": "0113fedc0f15eb8c1f5c0f94a4bd566e1723a0aac34e4ab2ca8538363187f0a7",
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/incentive-circuit-source-2026-09-13/src/incentive/circuit.py": "94139014ada70594545becc730fb4e9c86e0aab584d39cf993e54d8e37acbb9a",
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/incentive-circuit-source-2026-09-13/examples/run_handler_2019.py": "cb4d4109083b162ee1547f385409955d65d1bedda00de4ecdc82a038cde75e53",
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/incentive-circuit-source-2026-09-13/README.md": "7bfb94640ce09dde570f08a48dd44f1a7c14dd49a8dbc64745c6bf5678580062",
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/incentive-circuit-source-2026-09-13/LICENSE": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py": "cfb1cd22bdbde43c86bb938e6584d681dc449531335f121847ae00034598e624",
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/incentive-handler-verification-plan-evidence-ui-2026-09-13.md": "f6695d502579440264414012e9f879c2fbe740a589c21af799769938562e717e",
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py": "1e608a1b5e06eebcdad259fd0ae4b9584a4621168c31ce5d8600f30b2be69383",
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/incentive-handler-source-9c5800e30fdae747b49a/case_00.npz": "9e6cf980a62df60c3e8665d29872454033de7e69297b033feb63a545a5c58250",
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/incentive-handler-source-9c5800e30fdae747b49a/case_01.npz": "e33db127cb07e50009d3809514009eb740b20563b039e20e21b62e66df088b79",
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/incentive-handler-source-9c5800e30fdae747b49a/case_02.npz": "6732c432570dd0799f4219f30f5404be64c5f2d31990b1781434cb6348d68704",
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/incentive-handler-source-9c5800e30fdae747b49a/case_03.npz": "766d8f7d79b44b90e83ac3362ac27eb0bfb1f3c8f36d07da1994bb5878a641d3",
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/incentive-handler-source-9c5800e30fdae747b49a/case_04.npz": "caa79f1e0a38db38c414b69ef9425f41886cd090e90322eb069e37ce3cdade35",
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/incentive-handler-source-9c5800e30fdae747b49a/case_05.npz": "8b5e19ccd05f9a3aa8d9b28c62ff473853796534407a993524c4dca7e467d125",
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/incentive-circuit-source-2026-09-13/src/incentive/data/handler2019/Handler2019_Fig2Fig5_Data.xlsx": "4db9b76cd0c41dc014c8d00a9e359bbd4165a7984095cc35d1932f9ee7f501dc",
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/analyze_incentive_handler_saved.py": "df46cbd225d71a355c3c4ae5ee587cf95093d5e6e4edc490c033b2631b32f031",
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_analyze_incentive_handler_saved.py": "27ae7ca76a969318dcb930e9f7c3ab11c0bbee40b398d213a3feffcb98496661",
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/incentive-handler-saved-analysis-preregistration-2026-09-13.md": "d5dc6560a4151d65d0d4fe0cf778ef3ac3b70b1a466ad79a16561a8ff18b9b53"
+  },
+  "actual_audit": {
+    "executions": 1,
+    "parent_elapsed_seconds": 0.2043615838047117,
+    "child_elapsed_seconds": 0.17343637510202825,
+    "exit_code": 0,
+    "parent_cap_seconds": 30,
+    "child_reaped": true,
+    "terminal_error_absent": true,
+    "source_model_executions": 0,
+    "fits": 0,
+    "BET36FLY_history_reads": 0,
+    "native_calls": 0,
+    "network_requests": 0
+  },
+  "results": {
+    "literal_model_vs_literal_experimental_contrast_r": 0.9837390584339578,
+    "literal_model_vs_primary_rounded_reporter_contrast_r": 0.9833715619387021,
+    "literal_model_vs_direct_MBON_mean_r": 0.9253083692299322,
+    "primary_five_complete_conditions": [
+      {
+        "isi": -6.0,
+        "model_ER_raw": 0.0007653527901314399,
+        "model_cAMP_raw": 0.018393345685438253,
+        "data_ER_raw_mean": -0.00845804104273778,
+        "data_cAMP_raw_mean": 0.06785468799294533
+      },
+      {
+        "isi": -1.2,
+        "model_ER_raw": 0.016994889941268587,
+        "model_cAMP_raw": 0.001495174437663123,
+        "data_ER_raw_mean": 0.08176272507557406,
+        "data_cAMP_raw_mean": 0.0958383028847759
+      },
+      {
+        "isi": -0.6,
+        "model_ER_raw": 0.01805809987569437,
+        "model_cAMP_raw": 0.005039684073115129,
+        "data_ER_raw_mean": 0.06238740895754039,
+        "data_cAMP_raw_mean": 0.11848098693071914
+      },
+      {
+        "isi": 0.0,
+        "model_ER_raw": 0.005127809644959209,
+        "model_cAMP_raw": 0.013126173762749962,
+        "data_ER_raw_mean": 0.002091803103571322,
+        "data_cAMP_raw_mean": 0.15084926529466888
+      },
+      {
+        "isi": 0.5,
+        "model_ER_raw": 0.003434110995569809,
+        "model_cAMP_raw": 0.012385497202545347,
+        "data_ER_raw_mean": -0.0150998395824183,
+        "data_cAMP_raw_mean": 0.12203072269100314
+      }
+    ],
+    "scope": "Descriptive, same data used by authors for timing selection; no acceptance threshold, calibrated units, causal receptor validation or MaleCNS qualification."
+  },
+  "primary_model": {
+    "complete_condition_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "normalized_contrast": null,
+    "correlation": null,
+    "reason": "The +6s cAMP window requires10s; saved source ends8s. No six-condition normalization or five-condition renormalization."
+  },
+  "artifacts": [
+    {
+      "path": "output/collaboration/reward-mechanism-repair/incentive-handler-saved-analysis-2026-09-13/analysis.json",
+      "bytes": 36167,
+      "sha256": "eea464efc6c27b813643ba7293748616b095208b673c996a34b397591a9303b6"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/incentive-handler-saved-analysis-2026-09-13/completion.json",
+      "bytes": 306,
+      "sha256": "fa68d9911c7141c57af37f13a7f91f6b8e1c1687f667a274090410e23e9f6b64"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/incentive-handler-saved-analysis-2026-09-13/started.json",
+      "bytes": 134,
+      "sha256": "429d6232bd07e8cba6733d54facf59180e2de8a2068187ffd731053104a95ad3"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/incentive-handler-saved-analysis-2026-09-13-execution/parent-result.json",
+      "bytes": 2073,
+      "sha256": "0cf3ccca3c770a0ff8cde8a134ad31404c5d62f4ace3b8e23c982fc4feead8ff"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/incentive-handler-saved-analysis-2026-09-13-execution/started.json",
+      "bytes": 1671,
+      "sha256": "bdde4fd45e0db192535cca3337066f145cbc11449e8cdb4af2d6f5103a855aa0"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/incentive-handler-saved-analysis-2026-09-13-execution/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/incentive-handler-saved-analysis-2026-09-13-execution/stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "report": {
+    "path": "output/collaboration/reward-mechanism-repair/incentive-handler-saved-analysis-result-2026-09-13.md",
+    "bytes": 3961,
+    "sha256": "60cba378062d55fa4a6dae8b22747d4d5faf0769f8a5ae334d766b6451443d8b"
+  },
+  "verification": "44 generalized analyzer tests and Ruff passed before freeze; root independently reviewed and reran44 before dispatch. This turn adds only immutable execution/result documentation. Persisted completion and all22inputhashes freshly checked; parent owns full-repository4055Python/103frontend/Ruff/build and browser acceptance.",
+  "scientific_scope": "Descriptive source/data normalized contrast reproduced; no complete six-condition primary-window model contrast, no calibrated receptor transfer, no new MaleCNS candidate or learning claim."
+}

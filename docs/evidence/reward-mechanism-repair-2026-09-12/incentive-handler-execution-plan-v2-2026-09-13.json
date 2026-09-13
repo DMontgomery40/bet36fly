@@ -1,0 +1,192 @@
+{
+  "declared_utc": "2026-09-13T10:32:30.923183+00:00",
+  "scope": "one authored six-ISI source-protocol computation; no BET36FLY candidate, native calls, fit or saved-history evaluation",
+  "code_revision": "f08e88e",
+  "parent_wall_cap_seconds": 30,
+  "restarts_allowed": 0,
+  "sources_preserved": true,
+  "preparation": "147 independent synthetic cases and Ruff passed; root full static review and discrepancy-preservation correction complete",
+  "files": [
+    {
+      "path": "output/collaboration/reward-mechanism-repair/audit_incentive_handler.py",
+      "bytes": 12448,
+      "sha256": "cfb1cd22bdbde43c86bb938e6584d681dc449531335f121847ae00034598e624"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py",
+      "bytes": 10342,
+      "sha256": "1e608a1b5e06eebcdad259fd0ae4b9584a4621168c31ce5d8600f30b2be69383"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/incentive-handler-verification-plan-evidence-ui-2026-09-13.md",
+      "bytes": 4111,
+      "sha256": "f6695d502579440264414012e9f879c2fbe740a589c21af799769938562e717e"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/incentive-handler-source-protocol-specification-2026-09-13.md",
+      "bytes": 8906,
+      "sha256": "48e61291d9daeba70ffabaf7346452d50118a442b149e859285588e690b3f5eb"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/incentive-dpr-equations-timing-audit-2026-09-13.md",
+      "bytes": 9511,
+      "sha256": "2cdb3d7d047e972759888b70ff60c07d5c5387c8cefa367800eb0e8347490c6d"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/incentive-dpr-continuous-transfer-boundary-2026-09-13.md",
+      "bytes": 5254,
+      "sha256": "ab6254c680fdb759cbaeea6304e3fea7cf34118d702fdbe10a3b20c666382b31"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/dpr_filter_transfer_math.py",
+      "bytes": 2384,
+      "sha256": "a7c67f23a6c899eba4d57062fb03d0218a14e0eec21635fd0932d7e1e0eb7010"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/test_dpr_filter_transfer_math.py",
+      "bytes": 4028,
+      "sha256": "96d15d32fa9206fb4c196669f331b8b80b578a90ff58c3911a035560288242d3"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/incentive-handler-preparation-reading-evidence-ui-2026-09-13.json",
+      "bytes": 3859,
+      "sha256": "25f5fce5188f95e17f02ee672115a8e1140dd02eca0e699475c5e772a2455f79"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/incentive-root-preparation-tests-2026-09-13.txt",
+      "bytes": 260,
+      "sha256": "b3bd3c30d32beac1ed7faf4b817eb822097359a3b92d5a1b53c47b77ce8d25a7"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/incentive-root-preparation-ruff-2026-09-13.txt",
+      "bytes": 19,
+      "sha256": "82b3e6a6c090a57601d22943bd23fca9218d1031dbe5a7b754092f9a156b4f18"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/incentive-circuit-source-2026-09-13/LICENSE",
+      "bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/incentive-circuit-source-2026-09-13/README.md",
+      "bytes": 4633,
+      "sha256": "7bfb94640ce09dde570f08a48dd44f1a7c14dd49a8dbc64745c6bf5678580062"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/incentive-circuit-source-2026-09-13/additional-metadata-receipt.json",
+      "bytes": 1502,
+      "sha256": "bee26fa48f8326f81650dfc3a144733bbb177f566e75b5a00e8081851d48ee69"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/incentive-circuit-source-2026-09-13/archived-commit-metadata.json",
+      "bytes": 3965,
+      "sha256": "ff36255110c771d458cd215f6e17a0533e27087bc1d38844868c3d574d65b6d8"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/incentive-circuit-source-2026-09-13/examples/run_handler_2019.py",
+      "bytes": 7162,
+      "sha256": "cb4d4109083b162ee1547f385409955d65d1bedda00de4ecdc82a038cde75e53"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/incentive-circuit-source-2026-09-13/fetch-receipt.json",
+      "bytes": 2071,
+      "sha256": "73bdb0e66dc157f0b036f7f6db5768cd795220fafd29899d57568fdb046b33a3"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/incentive-circuit-source-2026-09-13/publication-revision/examples/run_handler_2019.py",
+      "bytes": 7162,
+      "sha256": "cb4d4109083b162ee1547f385409955d65d1bedda00de4ecdc82a038cde75e53"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/incentive-circuit-source-2026-09-13/publication-revision/src/incentive/handler.py",
+      "bytes": 7428,
+      "sha256": "7a943ec47bfc0db20ab2679f8b5f70f1a39dd9d646dbdac33fd99b4aecf0912a"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/incentive-circuit-source-2026-09-13/publication-revision-receipt.json",
+      "bytes": 926,
+      "sha256": "1ab1fbc469d8d3a5a07610168876541fff2fc0acb22dd0778aed8c812631181b"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/incentive-circuit-source-2026-09-13/src/incentive/circuit.py",
+      "bytes": 9036,
+      "sha256": "94139014ada70594545becc730fb4e9c86e0aab584d39cf993e54d8e37acbb9a"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/incentive-circuit-source-2026-09-13/src/incentive/data/handler2019/Handler2019_Fig2Fig5_Data.xlsx",
+      "bytes": 421421,
+      "sha256": "4db9b76cd0c41dc014c8d00a9e359bbd4165a7984095cc35d1932f9ee7f501dc"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/incentive-circuit-source-2026-09-13/src/incentive/handler.py",
+      "bytes": 7428,
+      "sha256": "7a943ec47bfc0db20ab2679f8b5f70f1a39dd9d646dbdac33fd99b4aecf0912a"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/incentive-circuit-source-2026-09-13/src/incentive/models_base.py",
+      "bytes": 16796,
+      "sha256": "0113fedc0f15eb8c1f5c0f94a4bd566e1723a0aac34e4ab2ca8538363187f0a7"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/incentive-circuit-source-2026-09-13/workbook-decode-receipt.json",
+      "bytes": 378,
+      "sha256": "26d60eb3b61376b13ee420317313f64e9fc65552dab05cb62fe909b3a4ba564a"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/incentive-circuit-source-2026-09-13/workbook-metadata.json",
+      "bytes": 582071,
+      "sha256": "4bcae8fc91992da74b1d5aff5b0be37253762bc1481c6aa1f77e5216e6770c0f"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/source_audit_launch.py",
+      "bytes": 1639,
+      "sha256": "b9494a045158d5a92cfb9fe00942a7d8f4d9283b6910696fe1a3c90fea0b839b"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/test_source_audit_launch.py",
+      "bytes": 2131,
+      "sha256": "226008649f7fd3be0a1d3f47ab5844dcc7006db8fdffc8628e7c4e2e6e3f1dc4"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/incentive-launcher-tests-2026-09-13.txt",
+      "bytes": 99,
+      "sha256": "7a16feb8c93664cc7a068b3d42a9876c777899dcf75de1e562d130143b9213ae"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/incentive-launcher-correction-2026-09-13.md",
+      "bytes": 1535,
+      "sha256": "5567adf560c68925c76368fee624d1f89d7bd87abe61195a6b55a9a401eb75b3"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/incentive-launcher-environment-probe-2026-09-13.json",
+      "bytes": 301,
+      "sha256": "3e4cadccca8ed440cb18ec1deeeeea4859b976020e013dcdc54215c7f640a535"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/incentive-handler-independent-preexecution-review-2026-09-13.json",
+      "bytes": 5472,
+      "sha256": "ef80cd00f6e24302c8163cbe64b6d7a3ae00b5b1abad6c319cc18290a1f8b681"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/incentive-handler-execution-plan-2026-09-13.json",
+      "bytes": 6691,
+      "sha256": "1d800b3ef8f2884380af4f82c696765716efca4fa8da043517616ab7275d20c7"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/incentive-handler-source-b7ce8a8ec24dab37ebe0-execution/execution.json",
+      "bytes": 910,
+      "sha256": "d3ca356603784a971c331d3755fa3373c685ba0cc1d0679e17b9524e07a79efa"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/incentive-handler-source-b7ce8a8ec24dab37ebe0-execution/stderr.txt",
+      "bytes": 256,
+      "sha256": "78bcd7c98719bfd9ac82abd771a9e65248593e1ae12fa6523ad0d23959a04d2d"
+    }
+  ],
+  "launch_attempt_number": 2,
+  "previous_attempt": "incentive-handler-source-b7ce8a8ec24dab37ebe0",
+  "previous_attempt_source_cases": 0,
+  "launcher": "source_audit_launch.command preserves virtual-environment invocation path",
+  "scientific_parameters_unchanged": true,
+  "identity": "incentive-handler-source-9c5800e30fdae747b49a"
+}

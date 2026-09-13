@@ -1,0 +1,9 @@
+{
+  "decoded_utc": "2026-09-13T10:16:00.068153+00:00",
+  "source_metadata": "workbook-metadata.json",
+  "path": "src/incentive/data/handler2019/Handler2019_Fig2Fig5_Data.xlsx",
+  "bytes": 421421,
+  "sha256": "4db9b76cd0c41dc014c8d00a9e359bbd4165a7984095cc35d1932f9ee7f501dc",
+  "git_blob_sha1": "d20d67f99211000227bd861f3ccfc55b6281a24e",
+  "inspected_workbook_values": false
+}

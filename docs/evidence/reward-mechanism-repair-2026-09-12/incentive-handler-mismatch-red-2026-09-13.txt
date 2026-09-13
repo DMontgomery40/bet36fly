@@ -1,0 +1,126 @@
+FF                                                                       [100%]
+=================================== FAILURES ===================================
+_ test_failed_numerical_comparison_retains_observed_reference_and_error_arrays[k] _
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1672/test_failed_numerical_comparis0')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x1097dec30>
+field = 'k'
+
+    @pytest.mark.parametrize('field', ['k', 'internal_w'])
+    def test_failed_numerical_comparison_retains_observed_reference_and_error_arrays(tmp_path, monkeypatch, field):
+        a = audit()
+        # Non-published synthetic interval; never call authored run_case here.
+        t = np.linspace(-7,8,1001)
+        cs, us = ((t >= 0)&(t < .5)).astype(float), ((t >= .123)&(t < .723)).astype(float)
+        fake = dict(time=t, **a.scalar_events(cs, us))
+        fake[field][5] += .25
+        monkeypatch.setattr(a, '_observed_source', lambda *args: fake.copy())
+        compute = a._compute_case
+        monkeypatch.setattr(a, '_compute_case', lambda isi: compute(.123))
+        out = tmp_path/'mismatch'
+        with pytest.raises(ValueError, match='comparison'):
+>           a.execute(out)
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:176: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/audit_incentive_handler.py:227: in execute
+    arrays, details = _compute_case(isi)
+                      ^^^^^^^^^^^^^^^^^^
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:173: in <lambda>
+    monkeypatch.setattr(a, '_compute_case', lambda isi: compute(.123))
+                                                        ^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+isi = 0.123
+
+    def _compute_case(isi):
+        """Only called for the six protocols after explicit root dispatch."""
+        source = _observed_source(load_source(), isi, TAUS)
+        independent = scalar_events(source['cs'], source['us'])
+        t = np.linspace(-7., 8., 1001, endpoint=True)
+        np.testing.assert_array_equal(source['time'], t)
+        np.testing.assert_array_equal(source['cs'], (t >= 0)&(t < .5))
+        np.testing.assert_array_equal(source['us'], (t >= isi)&(t < isi+.6))
+        errors = {}
+        for key, expected in independent.items():
+            difference = source[key] - expected
+            errors[key] = float(np.max(np.abs(difference)))
+>           np.testing.assert_allclose(source[key], expected, atol=1e-12, rtol=1e-12, err_msg=key)
+E           AssertionError: 
+E           Not equal to tolerance rtol=1e-12, atol=1e-12
+E           k
+E           Mismatched elements: 1 / 1001 (0.0999%)
+E           Mismatch at index:
+E            [5]: 0.25 (ACTUAL), 0.0 (DESIRED)
+E           Max absolute difference among violations: 0.25
+E           Max relative difference among violations: inf
+E            ACTUAL: array([0.000000e+00, 0.000000e+00, 0.000000e+00, ..., 1.589252e-07,
+E                  1.541574e-07, 1.495327e-07], shape=(1001,))
+E            DESIRED: array([0.000000e+00, 0.000000e+00, 0.000000e+00, ..., 1.589252e-07,
+E                  1.541574e-07, 1.495327e-07], shape=(1001,))
+
+output/collaboration/reward-mechanism-repair/audit_incentive_handler.py:181: AssertionError
+_ test_failed_numerical_comparison_retains_observed_reference_and_error_arrays[internal_w] _
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1672/test_failed_numerical_comparis1')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x10de22630>
+field = 'internal_w'
+
+    @pytest.mark.parametrize('field', ['k', 'internal_w'])
+    def test_failed_numerical_comparison_retains_observed_reference_and_error_arrays(tmp_path, monkeypatch, field):
+        a = audit()
+        # Non-published synthetic interval; never call authored run_case here.
+        t = np.linspace(-7,8,1001)
+        cs, us = ((t >= 0)&(t < .5)).astype(float), ((t >= .123)&(t < .723)).astype(float)
+        fake = dict(time=t, **a.scalar_events(cs, us))
+        fake[field][5] += .25
+        monkeypatch.setattr(a, '_observed_source', lambda *args: fake.copy())
+        compute = a._compute_case
+        monkeypatch.setattr(a, '_compute_case', lambda isi: compute(.123))
+        out = tmp_path/'mismatch'
+        with pytest.raises(ValueError, match='comparison'):
+>           a.execute(out)
+
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:176: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/audit_incentive_handler.py:227: in execute
+    arrays, details = _compute_case(isi)
+                      ^^^^^^^^^^^^^^^^^^
+output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py:173: in <lambda>
+    monkeypatch.setattr(a, '_compute_case', lambda isi: compute(.123))
+                                                        ^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+isi = 0.123
+
+    def _compute_case(isi):
+        """Only called for the six protocols after explicit root dispatch."""
+        source = _observed_source(load_source(), isi, TAUS)
+        independent = scalar_events(source['cs'], source['us'])
+        t = np.linspace(-7., 8., 1001, endpoint=True)
+        np.testing.assert_array_equal(source['time'], t)
+        np.testing.assert_array_equal(source['cs'], (t >= 0)&(t < .5))
+        np.testing.assert_array_equal(source['us'], (t >= isi)&(t < isi+.6))
+        errors = {}
+        for key, expected in independent.items():
+            difference = source[key] - expected
+            errors[key] = float(np.max(np.abs(difference)))
+>           np.testing.assert_allclose(source[key], expected, atol=1e-12, rtol=1e-12, err_msg=key)
+E           AssertionError: 
+E           Not equal to tolerance rtol=1e-12, atol=1e-12
+E           internal_w
+E           Mismatched elements: 1 / 1001 (0.0999%)
+E           Mismatch at index:
+E            [5]: 1.25 (ACTUAL), 1.0 (DESIRED)
+E           Max absolute difference among violations: 0.25
+E           Max relative difference among violations: 0.25
+E            ACTUAL: array([  1.      ,   1.      ,   1.      , ..., -16.206471, -16.223058,
+E                  -16.239504], shape=(1001,))
+E            DESIRED: array([  1.      ,   1.      ,   1.      , ..., -16.206471, -16.223058,
+E                  -16.239504], shape=(1001,))
+
+output/collaboration/reward-mechanism-repair/audit_incentive_handler.py:181: AssertionError
+=========================== short test summary info ============================
+FAILED output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py::test_failed_numerical_comparison_retains_observed_reference_and_error_arrays[k]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_incentive_handler.py::test_failed_numerical_comparison_retains_observed_reference_and_error_arrays[internal_w]
+2 failed, 67 deselected in 0.35s

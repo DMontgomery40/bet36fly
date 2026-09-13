@@ -2,6 +2,23 @@
 
 **Status: scientific HOLD; the rate bridge still fails the second panel's untaught-home guard.** Both the corrected raw-event rule and the subsequent rate bridge pass the original panel but fail the previously frozen second panel. The rate bridge reduces the measured drift without satisfying the unchanged guard. Numerical implementation tests pass; cue-specific acquisition, reversal and improved sports prediction remain unestablished. Conditioning has not run.
 
+The September 13 [published Handler-model reproduction](incentive-handler-source-result-2026-09-13.md)
+now passes all six authored source conditions and its independent saved-state
+audit. The [separate workbook comparison](incentive-handler-saved-analysis-result-2026-09-13.md)
+reproduces the strong descriptive reporter contrast while identifying an
+incomplete primary window and different internal-weight observables. No new
+MaleCNS mechanism was selected. The [cell-specific receptor account](../../../wiki/cells/dopamine-receptor-signaling.md)
+distinguishes the paper's cells, measured signals and model from our accepted
+channels. All 203 standalone source/math/launcher/data cases pass from their
+repository copies, with the originals retained.
+
+The [Training display correction](incentive-ui-acceptance-2026-09-13.md) now
+distinguishes cue-window DAN reference rates from spikes evoked above a
+matched unpulsed probe, preserving historical records. Fresh verification
+passed 4,055 Python tests, 103 frontend tests, Ruff, the build and the marked
+read-only browser workflow. This validates the presentation and software;
+the scientific gate and model pointer remain unchanged.
+
 The later [KC-local calcium candidate](kc-local-calcium-shadow-result-2026-09-13.md)
 is also rejected. Its single external fit and 566 synthetic preparation tests
 preceded one complete 32-history screen. All four home guard groups fail;

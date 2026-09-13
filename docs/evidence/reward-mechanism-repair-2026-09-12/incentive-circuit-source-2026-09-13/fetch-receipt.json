@@ -1,0 +1,45 @@
+{
+  "checked_utc": "2026-09-13T10:14:22.264178+00:00",
+  "repository": "https://github.com/InsectRobotics/IncentiveCircuit",
+  "commit": "1610c80072fe8bb59bd397e7a61f716393a509b9",
+  "commit_date": "2023-12-02T19:57:17Z",
+  "files": [
+    {
+      "path": "src/incentive/handler.py",
+      "url": "https://raw.githubusercontent.com/InsectRobotics/IncentiveCircuit/1610c80072fe8bb59bd397e7a61f716393a509b9/src/incentive/handler.py",
+      "bytes": 7428,
+      "sha256": "7a943ec47bfc0db20ab2679f8b5f70f1a39dd9d646dbdac33fd99b4aecf0912a"
+    },
+    {
+      "path": "src/incentive/models_base.py",
+      "url": "https://raw.githubusercontent.com/InsectRobotics/IncentiveCircuit/1610c80072fe8bb59bd397e7a61f716393a509b9/src/incentive/models_base.py",
+      "bytes": 16796,
+      "sha256": "0113fedc0f15eb8c1f5c0f94a4bd566e1723a0aac34e4ab2ca8538363187f0a7"
+    },
+    {
+      "path": "src/incentive/circuit.py",
+      "url": "https://raw.githubusercontent.com/InsectRobotics/IncentiveCircuit/1610c80072fe8bb59bd397e7a61f716393a509b9/src/incentive/circuit.py",
+      "bytes": 9036,
+      "sha256": "94139014ada70594545becc730fb4e9c86e0aab584d39cf993e54d8e37acbb9a"
+    },
+    {
+      "path": "examples/run_handler_2019.py",
+      "url": "https://raw.githubusercontent.com/InsectRobotics/IncentiveCircuit/1610c80072fe8bb59bd397e7a61f716393a509b9/examples/run_handler_2019.py",
+      "bytes": 7162,
+      "sha256": "cb4d4109083b162ee1547f385409955d65d1bedda00de4ecdc82a038cde75e53"
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/InsectRobotics/IncentiveCircuit/1610c80072fe8bb59bd397e7a61f716393a509b9/README.md",
+      "bytes": 4633,
+      "sha256": "7bfb94640ce09dde570f08a48dd44f1a7c14dd49a8dbc64745c6bf5678580062"
+    },
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/InsectRobotics/IncentiveCircuit/1610c80072fe8bb59bd397e7a61f716393a509b9/LICENSE",
+      "bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    }
+  ],
+  "executed_upstream_code": false
+}

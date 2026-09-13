@@ -19,6 +19,12 @@ All body IDs are in [identities](identities.md) and [neurons.csv](data/neurons.c
 
 The task pools the cells of each teaching type into one mean DAN event signal per channel. It does not separately route left and right teaching by synaptic location. A pulse at 310, 330, 350 or 370 ms attempts to stimulate every selected cell in the taught population. Scheduled stimuli and evoked spikes are different measurements; the gate compares them with an unpulsed common-seed probe. [Protocol construction](../../bet36fly/reward_protocol.py), [native event loop](../../bet36fly/reward_lif.cpp).
 
+The [receptor-signaling page](dopamine-receptor-signaling.md) follows the
+distinction from these named cells to local KC signaling. It records a tested
+published source model, its original experimental workbook and the transfer
+limits exposed by independent calculations. The reported 50–100 ms DAN
+reference occurs during the cue; it is not a separate resting measurement.
+
 The newer [KC lateral-signaling review](kc-lateral-signaling.md) identifies
 another distinction: local KC calcium/cAMP can be modulated separately from
 somatic spikes. Its pinned primary model has both an external-shock gate and

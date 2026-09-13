@@ -1,0 +1,147 @@
+{
+  "agent": "/root/dopamine_sources",
+  "checked_at_utc": "2026-09-13T10:24:10.250138+00:00",
+  "head": "f08e88e8dc969ad8f0217eeb73e9c06c50afea79",
+  "status": "source_protocol_specification_ready_no_model_execution",
+  "reading": {
+    "prior_complete_personal_chain": {
+      "path": "output/collaboration/reward-mechanism-repair/kc-local-final-scientific-reading-review-2026-09-13.json",
+      "bytes": 19775,
+      "sha256": "68439f5a89a346cb7cf661d3bc52e87b1c8ce0531a35c3b840bb67c4154569f4"
+    },
+    "preceding_source_transfer_receipt": {
+      "path": "output/collaboration/reward-mechanism-repair/receptor-order-quantitative-transfer-reading-receipt-2026-09-13.json",
+      "bytes": 8569,
+      "sha256": "82d9f291bd6d46925bfd33fca9f608e74332a24305f189981d023225087304e2"
+    },
+    "current_AGENTS_docs_wiki_files_reconciled": 175,
+    "unread_deltas": [],
+    "personally_read_all_six_original_source_files": [
+      {
+        "path": "output/collaboration/reward-mechanism-repair/incentive-circuit-source-2026-09-13/src/incentive/handler.py",
+        "bytes": 7428,
+        "sha256": "7a943ec47bfc0db20ab2679f8b5f70f1a39dd9d646dbdac33fd99b4aecf0912a"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/incentive-circuit-source-2026-09-13/src/incentive/models_base.py",
+        "bytes": 16796,
+        "sha256": "0113fedc0f15eb8c1f5c0f94a4bd566e1723a0aac34e4ab2ca8538363187f0a7"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/incentive-circuit-source-2026-09-13/src/incentive/circuit.py",
+        "bytes": 9036,
+        "sha256": "94139014ada70594545becc730fb4e9c86e0aab584d39cf993e54d8e37acbb9a"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/incentive-circuit-source-2026-09-13/examples/run_handler_2019.py",
+        "bytes": 7162,
+        "sha256": "cb4d4109083b162ee1547f385409955d65d1bedda00de4ecdc82a038cde75e53"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/incentive-circuit-source-2026-09-13/README.md",
+        "bytes": 4633,
+        "sha256": "7bfb94640ce09dde570f08a48dd44f1a7c14dd49a8dbc64745c6bf5678580062"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/incentive-circuit-source-2026-09-13/LICENSE",
+        "bytes": 35149,
+        "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+      }
+    ],
+    "exact_byte_publication_aliases": [
+      {
+        "path": "output/collaboration/reward-mechanism-repair/incentive-circuit-source-2026-09-13/publication-revision/src/incentive/handler.py",
+        "bytes": 7428,
+        "sha256": "7a943ec47bfc0db20ab2679f8b5f70f1a39dd9d646dbdac33fd99b4aecf0912a"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/incentive-circuit-source-2026-09-13/publication-revision/examples/run_handler_2019.py",
+        "bytes": 7162,
+        "sha256": "cb4d4109083b162ee1547f385409955d65d1bedda00de4ecdc82a038cde75e53"
+      }
+    ],
+    "new_full_narrative_read": {
+      "path": "output/collaboration/reward-mechanism-repair/incentive-handler-verification-plan-evidence-ui-2026-09-13.md",
+      "bytes": 4111,
+      "sha256": "f6695d502579440264414012e9f879c2fbe740a589c21af799769938562e717e"
+    },
+    "metadata_receipts_read": [
+      {
+        "path": "output/collaboration/reward-mechanism-repair/incentive-circuit-source-2026-09-13/fetch-receipt.json",
+        "bytes": 2071,
+        "sha256": "73bdb0e66dc157f0b036f7f6db5768cd795220fafd29899d57568fdb046b33a3"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/incentive-circuit-source-2026-09-13/additional-metadata-receipt.json",
+        "bytes": 1502,
+        "sha256": "bee26fa48f8326f81650dfc3a144733bbb177f566e75b5a00e8081851d48ee69"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/incentive-circuit-source-2026-09-13/workbook-decode-receipt.json",
+        "bytes": 378,
+        "sha256": "26d60eb3b61376b13ee420317313f64e9fc65552dab05cb62fe909b3a4ba564a"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/incentive-circuit-source-2026-09-13/publication-revision-receipt.json",
+        "bytes": 926,
+        "sha256": "1ab1fbc469d8d3a5a07610168876541fff2fc0acb22dd0778aed8c812631181b"
+      }
+    ]
+  },
+  "primary_reading": {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8975552/",
+    "version": "Gkanias etal2022 eLife11:e75611 DOI10.7554/eLife.75611; article with published author response",
+    "access": "Accessible primary text, no challenge. Personally read introductory DPR/model context, complete displayed derivation/Figure16/decomposition/data-methods section, and relevant author-response passages on abstract components, trace mismatch, timing selection, implicit unit scaling and equation correction. Not a claim of reading unrelated full behavioural-model sections or every reference.",
+    "web_actions": [
+      {
+        "kind": "open",
+        "position": "initial"
+      },
+      {
+        "kind": "find",
+        "pattern": "Derivation of the dopaminergic"
+      },
+      {
+        "kind": "find",
+        "pattern": "Author response"
+      },
+      {
+        "kind": "find",
+        "pattern": "Figure16"
+      },
+      {
+        "kind": "open",
+        "position": 612
+      },
+      {
+        "kind": "open",
+        "position": 1264
+      }
+    ],
+    "previous_Handler_primary_methods": "Personally read exact explant/reporter/normalization methods in preceding source task; named DopR1/cAMP versus DopR2/Gq/ER association retained."
+  },
+  "workbook_audit": {
+    "inventory": {
+      "path": "output/collaboration/reward-mechanism-repair/incentive-handler-workbook-independent-inventory-2026-09-13.json",
+      "bytes": 14140,
+      "sha256": "5c5f5d55c05cef34a12bdb7013e571442a613a59d7ae19871d49c7b559169025"
+    },
+    "complete_sheets": 4,
+    "all_cells_scanned": 35418,
+    "finite_numeric_literals": 29051,
+    "formulas_recomputed": 205,
+    "maximum_cached_formula_error": 3.677613769070831e-16,
+    "reporter_samples_all_finite": 19200,
+    "source_reporter_means_exact": 78,
+    "source_reporter_windows": "Both endpoints included:41cAMP samples and11ER samples. DriverER71sample window remains separately identified.",
+    "no_model_import_or_execution": true
+  },
+  "report": {
+    "path": "output/collaboration/reward-mechanism-repair/incentive-handler-source-protocol-specification-2026-09-13.md",
+    "bytes": 8906,
+    "sha256": "48e61291d9daeba70ffabaf7346452d50118a442b149e859285588e690b3f5eb"
+  },
+  "scope": "No fit, source six-case run, BET36FLY history evaluation, circuit/native call, production change or source-byte edit. Source/data interpretation and static workbook aggregation only.",
+  "not_qualification": "Ready for a standalone source-protocol test with explicit interpretation limits; no receptor calibration or scientific learning claim.",
+  "verification": "All original source hashes and archived aliases freshly rechecked; all workbook formulas and selections checked; JSON reparsed. Parent owns whole-repository verify and later study dispatch."
+}

@@ -1,0 +1,31 @@
+{
+  "checked_utc": "2026-09-13T10:15:43.994639+00:00",
+  "requests": [
+    {
+      "path": "archived-commit-metadata.json",
+      "url": "https://api.github.com/repos/InsectRobotics/IncentiveCircuit/commits/98a8f85745a1426e8e5b787ceedd3f680a2b66c6",
+      "returncode": 0,
+      "stderr": "",
+      "bytes": 3965,
+      "sha256": "ff36255110c771d458cd215f6e17a0533e27087bc1d38844868c3d574d65b6d8",
+      "metadata": {
+        "sha": "98a8f85745a1426e8e5b787ceedd3f680a2b66c6",
+        "html_url": "https://github.com/InsectRobotics/IncentiveCircuit/commit/98a8f85745a1426e8e5b787ceedd3f680a2b66c6"
+      }
+    },
+    {
+      "path": "workbook-metadata.json",
+      "url": "https://api.github.com/repos/InsectRobotics/IncentiveCircuit/contents/src/incentive/data/handler2019/Handler2019_Fig2Fig5_Data.xlsx?ref=1610c80072fe8bb59bd397e7a61f716393a509b9",
+      "returncode": 0,
+      "stderr": "",
+      "bytes": 582071,
+      "sha256": "4bcae8fc91992da74b1d5aff5b0be37253762bc1481c6aa1f77e5216e6770c0f",
+      "metadata": {
+        "sha": "d20d67f99211000227bd861f3ccfc55b6281a24e",
+        "size": 421421,
+        "download_url": "https://raw.githubusercontent.com/InsectRobotics/IncentiveCircuit/1610c80072fe8bb59bd397e7a61f716393a509b9/src/incentive/data/handler2019/Handler2019_Fig2Fig5_Data.xlsx",
+        "html_url": "https://github.com/InsectRobotics/IncentiveCircuit/blob/1610c80072fe8bb59bd397e7a61f716393a509b9/src/incentive/data/handler2019/Handler2019_Fig2Fig5_Data.xlsx"
+      }
+    }
+  ]
+}

@@ -23,7 +23,7 @@ function reward(status = 'running'): Experiment {
   return {
     id: 'reward-v3-test', kind: 'dopamine-association', status,
     created_at: '2026-09-11T12:00:00Z', updated_at: '2026-09-11T13:00:00Z',
-    protocol: { global_weight_scale: .5, plasticity_onset_ms: 100, dan_baseline_window_ms: 50, min_teaching_evoked_fraction: .5, max_kc_code_overlap: .5 },
+    protocol: { schema_version: 3, stimulus_ms: 300, global_weight_scale: .5, plasticity_onset_ms: 100, dan_baseline_window_ms: 50, min_teaching_evoked_fraction: .5, max_kc_code_overlap: .5 },
     reward: {
       scope: 'Bounded MLB pilot using reused development rows.',
       rule: 'Biphasic KC/DAN spike-trace gain update.',
@@ -138,7 +138,7 @@ it('shows the phasic-baseline protocol, declared gate margins and code-specifici
   expect(html).toContain('overlap at most 50.0% between calibration games');
   expect(html).toContain('<dt>KC set overlap between calibration games</dt><dd>31.0%</dd>');
   expect(html).toContain('<dt>KCs still firing after stimulus offset</dt><dd>4.0%</dd>');
-  expect(html).toContain('<dt>Tonic DAN rate (home / away)</dt><dd>18.5 Hz / 3.3 Hz</dd>');
+  expect(html).toContain('<dt>Cue-window DAN reference rate (home / away)</dt><dd>18.5 Hz / 3.3 Hz</dd>');
   const failed = reward('failed');
   failed.reward!.activity_gate = { status: 'failed', message: 'No outcome-trained comparison ran: a teaching population evoked fewer spikes above its tonic rate than the declared margin; the active KC set is not game-specific (calibration overlap exceeds the guard).', kc_active_fraction: .74, max_mbon_hz: 368.3, input_discrimination: true, teaching_responsive: [false, true], teaching_compartment_spikes: [70, 127], teaching_scheduled_spikes: [8, 60], teaching_evoked_spikes: [2, 37], tonic_dan_hz: [380, 66.1], kc_code_overlap: .989, post_stimulus_kc_active_fraction: .727 };
   failed.reward!.outcome = { status: 'failed', message: failed.reward!.activity_gate.message };
@@ -158,6 +158,66 @@ it('shows the phasic-baseline protocol, declared gate margins and code-specifici
   expect(legacyHtml).not.toContain('Phasic dopamine drive');
   expect(legacyHtml).toContain('<dt>KC set overlap between calibration games</dt><dd>—</dd>');
   expect(legacyHtml).toContain('<td>responsive</td><td>20</td><td>—</td><td>—</td><td>—</td>');
+});
+
+it.each(['passed', 'failed'].flatMap(status => ['legacy1', 'legacy2', 'legacy3', 'raw4', 'missingTiming', 'missingMode'].map(mode => ({ status, mode }))))('distinguishes cue references and unpulsed comparisons for $mode/$status', ({ status, mode }) => {
+  const row = reward();
+  row.reward!.activity_gate!.status = status;
+  const storedMessage = `Stored ${status} message above its tonic rate.`;
+  row.reward!.activity_gate!.message = storedMessage;
+  if (mode === 'legacy1') {
+    row.protocol = { schema_version: 1, stimulus_ms: 300 };
+    delete row.reward!.activity_gate!.tonic_dan_hz;
+    delete row.reward!.activity_gate!.teaching_evoked_spikes;
+    delete row.jobs[0].reward_evidence!.tonic_dan_hz;
+  } else if (mode === 'legacy2') row.protocol!.schema_version = 2;
+  else if (mode === 'raw4') row.protocol = { ...row.protocol, schema_version: 4, dan_reference: 'none' };
+  else if (mode === 'missingTiming') delete row.protocol!.stimulus_ms;
+  else if (mode === 'missingMode') delete row.protocol!.schema_version;
+  const before = JSON.stringify(row);
+  const html = view(index([row]), '', 'paired');
+  expect(html).toContain(storedMessage);
+  expect(html).not.toContain('<th>Tonic rate</th>');
+  expect(html).not.toContain('<th>Evoked above tonic</th>');
+  expect(html).not.toContain('<dt>Tonic DAN rate');
+  expect(html).toContain('<th>Evoked above unpulsed probe</th>');
+  if (mode === 'legacy1') {
+    expect(html).toContain('No evoked spike margin was recorded for this legacy gate.');
+    expect(html).not.toContain('50–100 ms');
+  } else {
+    expect(html).toContain('same cue and seed');
+    expect(html).toContain('from the teaching bin onward');
+    expect(html).toContain('50–100 ms');
+    expect(html).toContain('not a resting tonic measurement');
+    expect(html).toContain('18.5 Hz');
+  }
+  if (mode === 'missingTiming') {
+    expect(html).not.toContain('Cue-window reference rate');
+    expect(html).toContain('Cue timing is not recorded');
+  }
+  if (mode === 'missingMode') {
+    expect(html).not.toContain('Phasic dopamine drive');
+    expect(html).toContain('Reference subtraction mode is not recorded');
+  }
+  if (mode === 'raw4') expect(html).toContain('measured and reported, not subtracted');
+  expect(JSON.stringify(row)).toBe(before);
+});
+
+it.each([
+  { onset: 100, window: 50, stimulus: 300, cue: true },
+  { onset: 100, window: 50, stimulus: 100, cue: true },
+  { onset: 100, window: 50, stimulus: 80, cue: false },
+  { onset: 100, window: 0, stimulus: 300, cue: false },
+  { onset: 100, window: 150, stimulus: 300, cue: false },
+  { onset: undefined, window: 50, stimulus: 300, cue: false },
+])('uses the recorded reference window without assuming it lies inside the cue: $onset/$window/$stimulus', ({ onset, window, stimulus, cue }) => {
+  const row = reward();
+  row.protocol = { ...row.protocol, plasticity_onset_ms: onset, dan_baseline_window_ms: window, stimulus_ms: stimulus };
+  const html = view(index([row]), '', 'paired');
+  expect(html.includes('<th>Cue-window reference rate</th>')).toBe(cue);
+  expect(html.includes('<dt>Cue-window DAN reference rate')).toBe(cue);
+  expect(html).not.toContain('NaN');
+  expect(html).toContain('18.5 Hz');
 });
 
 it('renders selected-arm class confusion with explicit truth and prediction axes', () => {

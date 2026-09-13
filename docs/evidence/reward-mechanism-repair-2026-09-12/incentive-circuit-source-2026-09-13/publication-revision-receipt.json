@@ -1,0 +1,24 @@
+{
+  "checked_utc": "2026-09-13T10:17:05.494939+00:00",
+  "commit": "98a8f85745a1426e8e5b787ceedd3f680a2b66c6",
+  "requests": [
+    {
+      "path": "src/incentive/handler.py",
+      "url": "https://raw.githubusercontent.com/InsectRobotics/IncentiveCircuit/98a8f85745a1426e8e5b787ceedd3f680a2b66c6/src/incentive/handler.py",
+      "returncode": 0,
+      "stderr": "",
+      "bytes": 7428,
+      "sha256": "7a943ec47bfc0db20ab2679f8b5f70f1a39dd9d646dbdac33fd99b4aecf0912a",
+      "identical_to_current_source": true
+    },
+    {
+      "path": "examples/run_handler_2019.py",
+      "url": "https://raw.githubusercontent.com/InsectRobotics/IncentiveCircuit/98a8f85745a1426e8e5b787ceedd3f680a2b66c6/examples/run_handler_2019.py",
+      "returncode": 0,
+      "stderr": "",
+      "bytes": 7162,
+      "sha256": "cb4d4109083b162ee1547f385409955d65d1bedda00de4ecdc82a038cde75e53",
+      "identical_to_current_source": true
+    }
+  ]
+}

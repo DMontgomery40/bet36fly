@@ -1,0 +1,510 @@
+{
+  "scope": "Complete four-sheet static value/formula/window audit only; no upstream model import or execution.",
+  "workbook": {
+    "path": "output/collaboration/reward-mechanism-repair/incentive-circuit-source-2026-09-13/src/incentive/data/handler2019/Handler2019_Fig2Fig5_Data.xlsx",
+    "bytes": 421421,
+    "sha256": "4db9b76cd0c41dc014c8d00a9e359bbd4165a7984095cc35d1932f9ee7f501dc"
+  },
+  "sheets": [
+    {
+      "name": "Fig2D-2E_gamma4MBON",
+      "rows": 106,
+      "columns": 87,
+      "counts": {
+        "blank": 2432,
+        "text": 94,
+        "finite_numeric": 6659,
+        "formula": 37
+      },
+      "all_cells_content_sha256": "be15e320f161a6b01119cb5e800a244e7111fdd61cf9aa08c311cabdcb650c8d",
+      "formulas_recomputed": 37,
+      "maximum_formula_cache_error": 2.220446049250313e-16
+    },
+    {
+      "name": "Fig5D_cAMP timecourse",
+      "rows": 303,
+      "columns": 48,
+      "counts": {
+        "blank": 1853,
+        "text": 55,
+        "finite_numeric": 12636
+      },
+      "all_cells_content_sha256": "b288fd89f037552a0abd3e7e106691e2e726962c98a8b89112797c573fc0e83e",
+      "formulas_recomputed": 0,
+      "maximum_formula_cache_error": 0
+    },
+    {
+      "name": "Fig5D_ERGCaMP timecourse",
+      "rows": 203,
+      "columns": 54,
+      "counts": {
+        "blank": 1258,
+        "text": 62,
+        "finite_numeric": 9642
+      },
+      "all_cells_content_sha256": "9f96c1e555687220f5ac0dbe6e7514931093b2b57e238607ff24521f087642c5",
+      "formulas_recomputed": 0,
+      "maximum_formula_cache_error": 0
+    },
+    {
+      "name": "Fig5E_(-)ERGCaMPnorm - cAMPnorm",
+      "rows": 46,
+      "columns": 15,
+      "counts": {
+        "blank": 354,
+        "text": 54,
+        "finite_numeric": 114,
+        "formula": 168
+      },
+      "all_cells_content_sha256": "3856d23a94bbf4e49760804210f9af05251bbcc54020f05bd072073ea8c0c04e",
+      "formulas_recomputed": 168,
+      "maximum_formula_cache_error": 3.677613769070831e-16
+    }
+  ],
+  "formula_count_recomputed": 205,
+  "maximum_formula_cache_error": 3.677613769070831e-16,
+  "reporters": [
+    {
+      "sheet": "Fig5D_cAMP timecourse",
+      "samples": 300,
+      "time_axis_s": [
+        0.0,
+        29.9
+      ],
+      "time_shift_to_KC_zero_s": -10,
+      "preparations": 6,
+      "finite_timecourse_values": 10800,
+      "conditions": [
+        {
+          "isi_s": -6,
+          "time_column": 2,
+          "preparation_columns": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "source_summary_means": [
+            0.06113593562243785,
+            0.10625380219543987,
+            0.03705979312896907,
+            0.05538499312382292,
+            0.0841491357372786,
+            0.06314446814972369
+          ],
+          "window_closed_s": [
+            4,
+            8
+          ],
+          "selected_samples": 41,
+          "legacy_selected_samples": 41,
+          "summary_recomputed_max_error": 0.0,
+          "legacy_summary_difference_max": 0.0
+        },
+        {
+          "isi_s": -1.2,
+          "time_column": 10,
+          "preparation_columns": [
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "source_summary_means": [
+            0.0846560277427604,
+            0.1493196339580483,
+            0.060223747999470736,
+            0.09015588938397749,
+            0.10627620956965773,
+            0.08439830865474075
+          ],
+          "window_closed_s": [
+            8.8,
+            12.8
+          ],
+          "selected_samples": 41,
+          "legacy_selected_samples": 41,
+          "summary_recomputed_max_error": 0.0,
+          "legacy_summary_difference_max": 0.0
+        },
+        {
+          "isi_s": -0.6,
+          "time_column": 18,
+          "preparation_columns": [
+            19,
+            20,
+            21,
+            22,
+            23,
+            24
+          ],
+          "source_summary_means": [
+            0.1331376452821752,
+            0.19670038555800773,
+            0.059475004846426066,
+            0.10957006273810337,
+            0.11698257253678786,
+            0.0950202506228146
+          ],
+          "window_closed_s": [
+            9.4,
+            13.4
+          ],
+          "selected_samples": 41,
+          "legacy_selected_samples": 41,
+          "summary_recomputed_max_error": 0.0,
+          "legacy_summary_difference_max": 0.0
+        },
+        {
+          "isi_s": 0,
+          "time_column": 26,
+          "preparation_columns": [
+            27,
+            28,
+            29,
+            30,
+            31,
+            32
+          ],
+          "source_summary_means": [
+            0.17899974844556496,
+            0.2568063199366377,
+            0.08955942120183245,
+            0.12219720900105321,
+            0.13300298894985477,
+            0.12452990423307016
+          ],
+          "window_closed_s": [
+            10,
+            14
+          ],
+          "selected_samples": 41,
+          "legacy_selected_samples": 41,
+          "summary_recomputed_max_error": 0.0,
+          "legacy_summary_difference_max": 0.0
+        },
+        {
+          "isi_s": 0.5,
+          "time_column": 34,
+          "preparation_columns": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40
+          ],
+          "source_summary_means": [
+            0.1249126686773851,
+            0.18169576768050116,
+            0.0684499431831852,
+            0.13127616282491794,
+            0.11526959591621434,
+            0.11058019786381522
+          ],
+          "window_closed_s": [
+            10.5,
+            14.5
+          ],
+          "selected_samples": 41,
+          "legacy_selected_samples": 41,
+          "summary_recomputed_max_error": 0.0,
+          "legacy_summary_difference_max": 0.0
+        },
+        {
+          "isi_s": 6,
+          "time_column": 42,
+          "preparation_columns": [
+            43,
+            44,
+            45,
+            46,
+            47,
+            48
+          ],
+          "source_summary_means": [
+            0.07734022956899704,
+            0.11928389341491336,
+            0.04100346666855664,
+            0.06343515096093873,
+            0.11180589971673194,
+            0.06668758680639843
+          ],
+          "window_closed_s": [
+            16,
+            20
+          ],
+          "selected_samples": 41,
+          "legacy_selected_samples": 41,
+          "summary_recomputed_max_error": 0.0,
+          "legacy_summary_difference_max": 0.0
+        }
+      ]
+    },
+    {
+      "sheet": "Fig5D_ERGCaMP timecourse",
+      "samples": 200,
+      "time_axis_s": [
+        0.0,
+        19.9
+      ],
+      "time_shift_to_KC_zero_s": -6,
+      "preparations": 7,
+      "finite_timecourse_values": 8400,
+      "conditions": [
+        {
+          "isi_s": -6,
+          "time_column": 2,
+          "preparation_columns": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "source_summary_means": [
+            0.013548760965423417,
+            0.01747553165253709,
+            0.015721917005349036,
+            0.008580606128652883,
+            -0.006561554028851976,
+            0.0006080954900516582,
+            0.009832930086002356
+          ],
+          "window_closed_s": [
+            6,
+            7
+          ],
+          "selected_samples": 11,
+          "legacy_selected_samples": 71,
+          "summary_recomputed_max_error": 0.0,
+          "legacy_summary_difference_max": 0.015467987847457844
+        },
+        {
+          "isi_s": -1.2,
+          "time_column": 11,
+          "preparation_columns": [
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ],
+          "source_summary_means": [
+            -0.05795597474280429,
+            -0.12081603918526328,
+            -0.0666947615676941,
+            -0.04493174792516542,
+            -0.1139106435704254,
+            -0.08634597218741406,
+            -0.08168393635025183
+          ],
+          "window_closed_s": [
+            6,
+            7
+          ],
+          "selected_samples": 11,
+          "legacy_selected_samples": 71,
+          "summary_recomputed_max_error": 0.0,
+          "legacy_summary_difference_max": 0.09879623930769886
+        },
+        {
+          "isi_s": -0.6,
+          "time_column": 20,
+          "preparation_columns": [
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27
+          ],
+          "source_summary_means": [
+            -0.06615430444809124,
+            -0.08158527535194499,
+            -0.048995758017328965,
+            -0.0524256997283207,
+            -0.09776307786240852,
+            -0.04844278215431829,
+            -0.04134496514037001
+          ],
+          "window_closed_s": [
+            6,
+            7
+          ],
+          "selected_samples": 11,
+          "legacy_selected_samples": 71,
+          "summary_recomputed_max_error": 0.0,
+          "legacy_summary_difference_max": 0.08132769035241856
+        },
+        {
+          "isi_s": 0,
+          "time_column": 29,
+          "preparation_columns": [
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36
+          ],
+          "source_summary_means": [
+            -0.0023506586987747935,
+            -0.007726211735705506,
+            0.004149254523673177,
+            -0.004576991651275571,
+            -0.0065722564586447145,
+            0.002416416688354896,
+            1.7825607373262046e-05
+          ],
+          "window_closed_s": [
+            6,
+            7
+          ],
+          "selected_samples": 11,
+          "legacy_selected_samples": 71,
+          "summary_recomputed_max_error": 0.0,
+          "legacy_summary_difference_max": 0.00492799191452873
+        },
+        {
+          "isi_s": 0.5,
+          "time_column": 38,
+          "preparation_columns": [
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45
+          ],
+          "source_summary_means": [
+            0.01944526719203144,
+            0.005693477822925639,
+            0.01678912129839421,
+            0.008349846465116035,
+            0.016804785115703758,
+            0.020485454863602183,
+            0.018130924319154834
+          ],
+          "window_closed_s": [
+            6,
+            7
+          ],
+          "selected_samples": 11,
+          "legacy_selected_samples": 71,
+          "summary_recomputed_max_error": 0.0,
+          "legacy_summary_difference_max": 0.017846083275082098
+        },
+        {
+          "isi_s": 6,
+          "time_column": 47,
+          "preparation_columns": [
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54
+          ],
+          "source_summary_means": [
+            0.016095726502855266,
+            0.008956901035202016,
+            0.00789716313811224,
+            0.006056353071211832,
+            -0.005915000133430759,
+            0.012172937901061625,
+            0.005050743486654728
+          ],
+          "window_closed_s": [
+            6,
+            7
+          ],
+          "selected_samples": 11,
+          "legacy_selected_samples": 71,
+          "summary_recomputed_max_error": 0.0,
+          "legacy_summary_difference_max": 0.012838445635136095
+        }
+      ]
+    }
+  ],
+  "rounded_summary_sheet_derived_values": [
+    {
+      "isi_s": -6,
+      "camp_normalized_mean": 0.0,
+      "camp_sem": 0.0,
+      "ER_release_normalized_mean": 0.07566030499540898,
+      "ER_release_sem": 0.030206413752944375,
+      "reporter_combination": 0.07566030499540898,
+      "combination_sem": 0.030206413752944375,
+      "combination_sem_is_present": true
+    },
+    {
+      "isi_s": -1.2,
+      "camp_normalized_mean": 0.3640256530106553,
+      "camp_sem": 0.04327139532673537,
+      "ER_release_normalized_mean": 0.968769382158356,
+      "ER_release_sem": 0.020374395056121493,
+      "reporter_combination": 0.6047437291477007,
+      "combination_sem": 0.04782812590333771,
+      "combination_sem_is_present": true
+    },
+    {
+      "isi_s": -0.6,
+      "camp_normalized_mean": 0.5906573431278868,
+      "camp_sem": 0.04252154198165407,
+      "ER_release_normalized_mean": 0.8031212727888555,
+      "ER_release_sem": 0.06144285777871044,
+      "reporter_combination": 0.21246392966096872,
+      "combination_sem": 0.07472152504139892,
+      "combination_sem_is_present": true
+    },
+    {
+      "isi_s": 0,
+      "camp_normalized_mean": 0.9800614616957414,
+      "camp_sem": 0.01993853830425859,
+      "ER_release_normalized_mean": 0.19048369890489852,
+      "ER_release_sem": 0.012925389614444291,
+      "reporter_combination": -0.7895777627908429,
+      "combination_sem": 0.023761544697169235,
+      "combination_sem_is_present": true
+    },
+    {
+      "isi_s": 0.5,
+      "camp_normalized_mean": 0.6749802289366542,
+      "camp_sem": 0.07543981662316229,
+      "ER_release_normalized_mean": 0.012711393601993538,
+      "ER_release_sem": 0.012092710491755107,
+      "reporter_combination": -0.6622688353346606,
+      "combination_sem": 0.07640287677289224,
+      "combination_sem_is_present": true
+    },
+    {
+      "isi_s": 6,
+      "camp_normalized_mean": 0.17150938086083964,
+      "camp_sem": 0.07970961466766383,
+      "ER_release_normalized_mean": 0.09018321697942697,
+      "ER_release_sem": 0.018827829368762213,
+      "reporter_combination": -0.08132616388141267,
+      "combination_sem": 0.0819030514035141,
+      "combination_sem_is_present": true
+    }
+  ],
+  "missing_combination_sem_cells": [],
+  "notes": [
+    "All six conditions retained. Blank spreadsheet structure distinguished from missing reporter data.",
+    "Numerical formula evaluation uses only a restricted AST and known arithmetic/aggregation functions; no workbook code/macros executed.",
+    "Initial read-only inspection used slow per-cell access and was interrupted; completed audit loads the small workbook once."
+  ]
+}

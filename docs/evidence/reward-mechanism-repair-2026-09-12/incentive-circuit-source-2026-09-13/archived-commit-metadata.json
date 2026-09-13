@@ -1,0 +1,66 @@
+{
+  "sha": "98a8f85745a1426e8e5b787ceedd3f680a2b66c6",
+  "node_id": "C_kwDOElyU59oAKDk4YThmODU3NDVhMTQyNmU4ZTViNzg3Y2VlZGQzZjY4MGEyYjY2YzY",
+  "commit": {
+    "author": {
+      "name": "evgkanias",
+      "email": "evgkanias@gmail.com",
+      "date": "2022-03-28T08:51:05Z"
+    },
+    "committer": {
+      "name": "evgkanias",
+      "email": "evgkanias@gmail.com",
+      "date": "2022-03-28T08:51:05Z"
+    },
+    "message": "Merge remote-tracking branch 'origin/main'",
+    "tree": {
+      "sha": "14169a09189481b91c4649235755f0e9c6a2d8f9",
+      "url": "https://api.github.com/repos/InsectRobotics/IncentiveCircuit/git/trees/14169a09189481b91c4649235755f0e9c6a2d8f9"
+    },
+    "url": "https://api.github.com/repos/InsectRobotics/IncentiveCircuit/git/commits/98a8f85745a1426e8e5b787ceedd3f680a2b66c6",
+    "comment_count": 0,
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null,
+      "verified_at": null
+    }
+  },
+  "url": "https://api.github.com/repos/InsectRobotics/IncentiveCircuit/commits/98a8f85745a1426e8e5b787ceedd3f680a2b66c6",
+  "html_url": "https://github.com/InsectRobotics/IncentiveCircuit/commit/98a8f85745a1426e8e5b787ceedd3f680a2b66c6",
+  "comments_url": "https://api.github.com/repos/InsectRobotics/IncentiveCircuit/commits/98a8f85745a1426e8e5b787ceedd3f680a2b66c6/comments",
+  "author": null,
+  "committer": null,
+  "parents": [
+    {
+      "sha": "da84ce88b2f0708b24fcd8a8c7c17b0820f6bda7",
+      "url": "https://api.github.com/repos/InsectRobotics/IncentiveCircuit/commits/da84ce88b2f0708b24fcd8a8c7c17b0820f6bda7",
+      "html_url": "https://github.com/InsectRobotics/IncentiveCircuit/commit/da84ce88b2f0708b24fcd8a8c7c17b0820f6bda7"
+    },
+    {
+      "sha": "4821b2d72b4037ad70bd8d4e5d2e40f8595c01c7",
+      "url": "https://api.github.com/repos/InsectRobotics/IncentiveCircuit/commits/4821b2d72b4037ad70bd8d4e5d2e40f8595c01c7",
+      "html_url": "https://github.com/InsectRobotics/IncentiveCircuit/commit/4821b2d72b4037ad70bd8d4e5d2e40f8595c01c7"
+    }
+  ],
+  "stats": {
+    "total": 2,
+    "additions": 1,
+    "deletions": 1
+  },
+  "files": [
+    {
+      "sha": "1b48ca875603f0b8d5ff1e124046e96d487393cc",
+      "filename": "README.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/InsectRobotics/IncentiveCircuit/blob/98a8f85745a1426e8e5b787ceedd3f680a2b66c6/README.md",
+      "raw_url": "https://github.com/InsectRobotics/IncentiveCircuit/raw/98a8f85745a1426e8e5b787ceedd3f680a2b66c6/README.md",
+      "contents_url": "https://api.github.com/repos/InsectRobotics/IncentiveCircuit/contents/README.md?ref=98a8f85745a1426e8e5b787ceedd3f680a2b66c6",
+      "patch": "@@ -1,4 +1,4 @@\n-# The Incentive Circuit ![GitHub top language](https://img.shields.io/github/languages/top/InsectRobotics/IncentiveCircuit) [![GitHub license](https://img.shields.io/github/license/InsectRobotics/IncentiveCircuit)](https://github.com/InsectRobotics/IncentiveCircuit/blob/main/LICENSE) ![GitHub last-commit](https://img.shields.io/github/last-commit/InsectRobotics/IncentiveCircuit) [![Build Status](https://travis-ci.com/InsectRobotics/IncentiveCircuit.svg?token=tyo7V4GZ2Vq6iYPrXVLD&branch=main)](https://travis-ci.com/InsectRobotics/IncentiveCircuit)\n+# The Incentive Circuit ![GitHub top language](https://img.shields.io/github/languages/top/InsectRobotics/IncentiveCircuit) [![GitHub license](https://img.shields.io/github/license/InsectRobotics/IncentiveCircuit)](https://github.com/InsectRobotics/IncentiveCircuit/blob/main/LICENSE) ![GitHub last-commit](https://img.shields.io/github/last-commit/InsectRobotics/IncentiveCircuit) <a href=\"https://app.travis-ci.com/InsectRobotics/IncentiveCircuit\" target=\"_blank\">![Build Status](https://app.travis-ci.com/InsectRobotics/IncentiveCircuit.svg?branch=main)</a>\n \n \n Python replication for the results from the eLife manuscript:"
+    }
+  ]
+}

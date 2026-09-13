@@ -1,0 +1,258 @@
+{
+  "agent": "/root/evidence_ui",
+  "created_at": "2026-09-13T10:58:46.486744+00:00",
+  "status": "passed_bounded_checkpoint_review",
+  "git_head": "f08e88e8dc969ad8f0217eeb73e9c06c50afea79",
+  "git_state": "Parent has staged intended checkpoint changes; reviewer made no shared-file edits.",
+  "reading": {
+    "current_narrative_files": 189,
+    "hash_matched_prior_personal_readings": 176,
+    "new_or_changed_hashes_personally_read": 13,
+    "method": "Reconciled AGENTS.md, README.md and all docs/wiki Markdown against the listed personal full-reading chain by exact content SHA256, including already read output/canonical aliases. Fully read seven new narratives and all changed text in six previously fully read narratives; historical unchanged bodies remain covered by the chain. Hashing alone was not treated as reading.",
+    "prior_receipts": [
+      {
+        "path": "output/collaboration/reward-mechanism-repair/incentive-handler-preparation-reading-evidence-ui-2026-09-13.json",
+        "bytes": 3859,
+        "sha256": "25f5fce5188f95e17f02ee672115a8e1140dd02eca0e699475c5e772a2455f79"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/teaching-signal-observability-reading-evidence-ui-2026-09-13.json",
+        "bytes": 6550,
+        "sha256": "7ef483ef61fa491e5c4937c2dfbd73f32eff385a5efd430d9ce7aace6ef3a266"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/kc-local-final-reading-review-evidence-ui-2026-09-13.json",
+        "bytes": 6095,
+        "sha256": "5476c6dc1e5bc1b1b2d66839ed6a65d375d4b57d51922b5ee86d7c974680db3b"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/kc-local-shadow-runner-reading-evidence-ui-2026-09-13.json",
+        "bytes": 5452,
+        "sha256": "24affcaa97332c1f45870b7036c35c968af513443cac659c43a43dcff92ad15f"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/kc-local-state-integration-reading-evidence-ui-2026-09-13.json",
+        "bytes": 4645,
+        "sha256": "5b7a31c89c41d574ce0a346c50a460d7aa8c3b755d3b95ff1afa59949f5e302d"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/kc-lateral-evidence-ui-closeout-reading-supplement-2026-09-13.json",
+        "bytes": 75493,
+        "sha256": "f87d37b06ce97da39db56fce50be205caecddadd69aa9390ecfc36a47256aa30"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/kc-lateral-evidence-ui-reading-review-2026-09-13.json",
+        "bytes": 74203,
+        "sha256": "bd9bb0bc55f564f282acc6cd2cbbcdb662b3714daf1237c84484e5af0fbc2646"
+      }
+    ],
+    "deltas": [
+      {
+        "path": "docs/REWARD_REPAIR_HANDOFF.md",
+        "bytes": 54624,
+        "sha256": "bc64b9b7d6f1b2d5473d60dbdff1322b61682eed0098fa52bca87a2ec7719c68",
+        "read_method": "Complete current changed text read against prior personally read full body; handoff current top also fully read."
+      },
+      {
+        "path": "docs/api-contract.md",
+        "bytes": 31772,
+        "sha256": "90d18290a98574f392c58e35ce71868bf0fe195352da936c0e289c8b91f7577b",
+        "read_method": "Complete current changed text read against prior personally read full body; handoff current top also fully read."
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/incentive-handler-saved-analysis-preregistration-2026-09-13.md",
+        "bytes": 5193,
+        "sha256": "d5dc6560a4151d65d0d4fe0cf778ef3ac3b70b1a466ad79a16561a8ff18b9b53",
+        "read_method": "Full current narrative personally read."
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/incentive-handler-saved-analysis-result-2026-09-13.md",
+        "bytes": 3961,
+        "sha256": "60cba378062d55fa4a6dae8b22747d4d5faf0769f8a5ae334d766b6451443d8b",
+        "read_method": "Full current narrative personally read."
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/incentive-handler-source-result-2026-09-13.md",
+        "bytes": 5688,
+        "sha256": "94abcc0fba9400a5e69b60ca00682f7db3075d87b617af76fbb4583fd377e70f",
+        "read_method": "Full current narrative personally read."
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/incentive-launcher-correction-2026-09-13.md",
+        "bytes": 1535,
+        "sha256": "5567adf560c68925c76368fee624d1f89d7bd87abe61195a6b55a9a401eb75b3",
+        "read_method": "Full current narrative personally read."
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/incentive-ui-acceptance-2026-09-13.md",
+        "bytes": 5015,
+        "sha256": "14d7b54ce57deeff7dade3597f301675a4953f57c6a12d5f97e13dde4ae793de",
+        "read_method": "Full current narrative personally read."
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/index.md",
+        "bytes": 23069,
+        "sha256": "81a7154eeca99fc01780f5c91be219baba19ce33f509a9856fce1e282a34da07",
+        "read_method": "Complete current changed text read against prior personally read full body; handoff current top also fully read."
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/receptor-order-quantitative-transfer-decision-2026-09-13.md",
+        "bytes": 9360,
+        "sha256": "c8c40430ab42cf6380f343b728ec8f6be88498d3eed01cd765a5ac012e082e05",
+        "read_method": "Full current narrative personally read."
+      },
+      {
+        "path": "wiki/cells/dopamine-receptor-signaling.md",
+        "bytes": 5381,
+        "sha256": "141bb0231f0f11824d102c149d796f0a5ecf249b03b47769fc34d9eaf7c395d6",
+        "read_method": "Full current narrative personally read."
+      },
+      {
+        "path": "wiki/cells/dopamine.md",
+        "bytes": 10345,
+        "sha256": "2200a9893f27e1c5852b874e4c5c9494e58b47cc1e8065a55b6910a35df0d9e8",
+        "read_method": "Complete current changed text read against prior personally read full body; handoff current top also fully read."
+      },
+      {
+        "path": "wiki/cells/index.md",
+        "bytes": 3915,
+        "sha256": "b8bfec1caf9be8187ae28a59ddbe7e2596b0fb88b5af91542da5ce36f560e89f",
+        "read_method": "Complete current changed text read against prior personally read full body; handoff current top also fully read."
+      },
+      {
+        "path": "wiki/reassessment.md",
+        "bytes": 13927,
+        "sha256": "1c722ebb8426bc3566f266d8b4b3a3e1205a751bb66318f62aa21b68f9f7d15e",
+        "read_method": "Complete current changed text read against prior personally read full body; handoff current top also fully read."
+      }
+    ],
+    "complete_current_inventory_sha256": "945abed44ed679490fb25356293bf583258979f500c435a9df287f9bd5fe59a2"
+  },
+  "corrected_current_status": {
+    "supersedes": "Prior preparation receipt statement that the six authored source cases were unrun. That was accurate before parent dispatch and is stale as current status.",
+    "source_identity": "incentive-handler-source-9c5800e30fdae747b49a",
+    "source_cases_completed_once": 6,
+    "external_wall_seconds": 0.37514737504534423,
+    "cap_seconds": 30,
+    "first_attempt": "Separate b7ce8a8ec24dab37ebe0 launcher failed before any source case and remains preserved.",
+    "numerical_audit": "All 222 arrays / 222222 values and 72072 source-scalar comparisons passed the declared combined atol=rtol=1e-12; this review checked bound receipts and six case/summary hashes without recomputing induction.",
+    "saved_workbook_analysis": "Completed once in 0.2043615838047117 seconds external wall without source-model rerun or fit. Literal reporter r=0.983739 is descriptive development-data agreement; primary +6-second cAMP coverage is incomplete, so no complete primary six-condition correlation is asserted.",
+    "production": "No new BET36FLY candidate or learning qualification. Pair b16d9b39d7fd3057 still fails untaught_guard; conditioning not_run_gate_failed. Full repair goal remains active."
+  },
+  "review": {
+    "material_findings": [],
+    "production_diff": "Reviewed the five changed UI/type/browser/API surfaces. Recorded fields and old messages are preserved. Cue-window label requires valid timing inside stimulus; unavailable timing is neutral. Legacy baseline subtraction remains distinct from raw mode. Evoked counts are matched taught-minus-unpulsed counts, not rate subtraction. No backend or mechanism changes appear in this diff.",
+    "browser": "Actual receipt uses marked read-only factory on port 54702, actual passed and failed records, four diagnostic detail matches, failed pair and blocked conditioning, 20 labeled fixture states, eight hash-matching downloads, five mobile widths and zero JS errors. Saved failed-record screenshot personally inspected: corrected reference/comparison labels visible; historical PAM11/MBON07 and original messages remain historical, not current population claims.",
+    "scientific_claims": "Current handoff/reassessment/receptor/source/data narratives keep source reproduction, reporter proxy, internal negative weight, finite 8-second endpoint, full-tail mathematics and actual MaleCNS learning separate. Historical preexecution/access-boundary reports are superseded by the current linked completion; no source calculation is promoted to conditioning success.",
+    "acceptance": "Saved make verify records 4055 Python passing with two existing warnings, 103 frontend passing, Ruff and TypeScript/Vite pass. Canonical source/math/launcher/data suite records 203 passing. Post-browser receipt records 788 unchanged baseline files plus three intended UI/build differences, no unexpected differences and 1077 pre-existing evidence files unchanged against HEAD. Root copy/link receipt records 95 exact copies totaling 5284421 bytes and 229 resolving links. QA shutdown is recorded in root acceptance/handoff; this reviewer launched no process."
+  },
+  "reviewed_surface_bindings": [
+    {
+      "path": "web/src/RewardExperiments.tsx",
+      "bytes": 24405,
+      "sha256": "c000db752396a9c43bcbc4f7e56fd8a0673f5498cb9136951425a4d520201e1d"
+    },
+    {
+      "path": "web/src/RewardExperiments.test.tsx",
+      "bytes": 21083,
+      "sha256": "4a22dd28ba6dee0237a678d978d8dd9584ea5d2aefdbbadda7d195a0755c051f"
+    },
+    {
+      "path": "web/src/types.ts",
+      "bytes": 13802,
+      "sha256": "c63f2ea1a8d1914958174926b7442af86b12e82f71e6d8b23bd8a87d73768afe"
+    },
+    {
+      "path": "scripts/verify_reward_browser.cjs",
+      "bytes": 22143,
+      "sha256": "28d2fcb0faf5fd917123a4f022a60a628dc5f8418b3909e4ea6faf8bd236a477"
+    },
+    {
+      "path": "docs/api-contract.md",
+      "bytes": 31772,
+      "sha256": "90d18290a98574f392c58e35ce71868bf0fe195352da936c0e289c8b91f7577b"
+    }
+  ],
+  "saved_evidence_bindings": [
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/incentive-handler-source-9c5800e30fdae747b49a/status.json",
+      "bytes": 4514,
+      "sha256": "51a9b3f3aa72ed672273b8a9b7d42634c5bfb57cd0d21e12f23069dbbc9fc02c"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/incentive-handler-source-9c5800e30fdae747b49a/summary.json",
+      "bytes": 1296,
+      "sha256": "dbcda7c99a25ee460acefa5098d1f62ebf0b8e80816c96a676135245f3f68bc4"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/incentive-handler-source-9c5800e30fdae747b49a-execution/execution.json",
+      "bytes": 857,
+      "sha256": "42c97af813c141e6e049426628f28bd4988f9057ffd62d82c4ed27cb060760db"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/incentive-handler-independent-saved-audit-2026-09-13.json",
+      "bytes": 60714,
+      "sha256": "e7f8c5fac3f676ceae82136edef5182efe4709164ab00b1aee11e14726d2e8d9"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/incentive-handler-saved-analysis-2026-09-13/completion.json",
+      "bytes": 306,
+      "sha256": "fa68d9911c7141c57af37f13a7f91f6b8e1c1687f667a274090410e23e9f6b64"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/incentive-handler-saved-analysis-2026-09-13/analysis.json",
+      "bytes": 36167,
+      "sha256": "eea464efc6c27b813643ba7293748616b095208b673c996a34b397591a9303b6"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/incentive-handler-saved-analysis-2026-09-13-execution/parent-result.json",
+      "bytes": 2073,
+      "sha256": "0cf3ccca3c770a0ff8cde8a134ad31404c5d62f4ace3b8e23c982fc4feead8ff"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/incentive-ui-browser-2026-09-13/bet36fly-reward-browser-evidence.json",
+      "bytes": 6846,
+      "sha256": "181426e2a2c20114a33ce3dd20512e5872d41d4f2cfadcbe904478d2deea2c94"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/incentive-ui-browser-2026-09-13/bet36fly-reward-gate-failed.png",
+      "bytes": 447047,
+      "sha256": "e214d06bc07ad00e4f63cbd208795f6772f03bc5279e947df078247dcd4d7c07"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/incentive-protection-after-browser-2026-09-13.json",
+      "bytes": 1089,
+      "sha256": "88b2da097579b6bc8d906d0b94887779fac3daf78314c21da8b9c0befc98efda"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/incentive-ui-make-verify-2026-09-13.txt",
+      "bytes": 6297,
+      "sha256": "8f911118cc2aa22c8bf47af867e2be5abc42dd349eaf90aa62daac46af398799"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/incentive-canonical-tests-2026-09-13.txt",
+      "bytes": 260,
+      "sha256": "18272531d8cab269b4029e3a27c3068a36380d7b385f2b538468d7d09b4c4e4d"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/incentive-canonical-ruff-2026-09-13.txt",
+      "bytes": 19,
+      "sha256": "82b3e6a6c090a57601d22943bd23fca9218d1031dbe5a7b754092f9a156b4f18"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/incentive-root-copy-link-check-2026-09-13.json",
+      "bytes": 105,
+      "sha256": "82cedf2f08491cff04d3ea98858c77f1b53fbc248998504945f1c959cf9e6a2d"
+    }
+  ],
+  "this_review_execution": {
+    "tests": 0,
+    "source_cases": 0,
+    "saved_history_evaluations": 0,
+    "native_calls": 0,
+    "fits": 0,
+    "network_calls": 0,
+    "browser_or_server_launches": 0,
+    "writes": "Only this new JSON receipt; all prior reports, receipts, source and shared narratives preserved."
+  }
+}

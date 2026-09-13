@@ -9,6 +9,18 @@ status: learning-unvalidated
 
 ## Current account — September 13 UTC
 
+The latest [receptor/source-model check](cells/dopamine-receptor-signaling.md)
+reproduces all six published Handler-model conditions and independently checks
+their saved state and experimental workbook. It finds consequential differences
+between receptor reporters, internal weights, plotted weights and measurement
+windows. Those results do not calibrate a new mechanism for our selected cells.
+The Training view also now identifies its reference as measured during the cue
+when recorded timing supports that label, and explains evoked spikes against
+the matched unpulsed probe. Historical records remain intact. The
+[display and verification checkpoint](../docs/evidence/reward-mechanism-repair-2026-09-12/incentive-ui-acceptance-2026-09-13.md)
+passed the full repository gate and actual read-only browser workflow; no new
+candidate, qualification, acquisition or reversal ran.
+
 A later [KC lateral-signaling source audit](cells/kc-lateral-signaling.md)
 adds a specific missing physiological representation: muscarinic modulation
 of local KC signaling. The current graph has 642,933 KC→KC pairs but no such

@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_incentive_handler.py", line 26, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'

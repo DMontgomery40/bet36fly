@@ -172,8 +172,26 @@ implemented rule (`event-biphasic-kc-dan-raw-v3` or
 records the engine mode, `reward.anatomy.plasticity_mask` holds a `home` and an
 `away` audit (`policy`, `eligible_edges`, `excluded_edges`, `by_class {gamma,
 apbp, ab, other}`, `ambiguous_labels[]`) and each compartment adds
-`eligible_edges`. `tonic_dan_hz` is measured in both modes and subtracted only
-under `tonic-baseline`. Missing evidence remains unavailable.
+`eligible_edges`. The legacy wire name `tonic_dan_hz` is retained in both
+modes. It is the population-mean DAN rate measured during
+`[plasticity_onset_ms - dan_baseline_window_ms, plasticity_onset_ms)`, averaged
+over calibration trials for the activity gate and over training trials for
+an arm. In the retained schema-2/3 and current protocols this is the
+50–100 ms **cue window**, not a resting tonic measurement. Only
+`tonic-baseline` subtracts the reference in the learning rule; `none` reports
+it without subtraction. The UI uses the recorded `stimulus_ms` and window
+to label a cue-window reference; incomplete timing retains a neutral
+reference-rate label.
+
+`teaching_evoked_spikes` is a separate per-compartment spike-count difference:
+taught minus unpulsed probe, with the same cue and seed, from
+`floor(teaching_ms / bin_ms)` through the final recorded bin. It is not a
+subtraction of `tonic_dan_hz`, and can be negative. Schema-1 responsiveness
+instead checked whether any taught bin exceeded its matched unpulsed bin;
+it did not record the later evoked-margin/reference fields. The UI preserves
+stored historical messages verbatim while explaining the actual comparison.
+Missing evidence remains unavailable. No wire values or scientific gates
+are changed by these display labels.
 
 Reward jobs use `paired|shuffled|frozen` variants and `queued|running|complete|failed|budget_stopped`
 statuses. Progress counts training plus evaluation trials. Completed jobs carry

@@ -1,0 +1,30 @@
+{
+  "status": "complete",
+  "elapsed_seconds": 0.2043615838047117,
+  "exit_code": 0,
+  "error": null,
+  "child_reaped": true,
+  "bindings_unchanged": true,
+  "after_hashes": {
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/analyze_incentive_handler_saved.py": "df46cbd225d71a355c3c4ae5ee587cf95093d5e6e4edc490c033b2631b32f031",
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/test_analyze_incentive_handler_saved.py": "27ae7ca76a969318dcb930e9f7c3ab11c0bbee40b398d213a3feffcb98496661",
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/incentive-handler-saved-analysis-preregistration-2026-09-13.md": "d5dc6560a4151d65d0d4fe0cf778ef3ac3b70b1a466ad79a16561a8ff18b9b53",
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/incentive-handler-source-9c5800e30fdae747b49a/identity.json": "431f3cdd5cb2872852f1a516716e3803fa296e611fd888c67b7f041d87f8e7d6"
+  },
+  "artifacts": {
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/incentive-handler-saved-analysis-2026-09-13/analysis.json": {
+      "bytes": 36167,
+      "sha256": "eea464efc6c27b813643ba7293748616b095208b673c996a34b397591a9303b6"
+    },
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/incentive-handler-saved-analysis-2026-09-13/completion.json": {
+      "bytes": 306,
+      "sha256": "fa68d9911c7141c57af37f13a7f91f6b8e1c1687f667a274090410e23e9f6b64"
+    },
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/incentive-handler-saved-analysis-2026-09-13/started.json": {
+      "bytes": 134,
+      "sha256": "429d6232bd07e8cba6733d54facf59180e2de8a2068187ffd731053104a95ad3"
+    }
+  },
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

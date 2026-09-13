@@ -1,0 +1,147 @@
+{
+  "agent": "/root/dopamine_sources",
+  "checked_at_utc": "2026-09-13T10:55:59.363439+00:00",
+  "status": "pass_final_documentation_claim_review",
+  "material_findings": [],
+  "reading": {
+    "prior_personal_chain": {
+      "path": "output/collaboration/reward-mechanism-repair/incentive-handler-saved-analysis-result-reading-receipt-2026-09-13.json",
+      "bytes": 11714,
+      "sha256": "e8ea0eed0d65089e01b986477d3675f219bb7288499b2d946737bbe9df2adac9"
+    },
+    "prior_inventory_and_freeze": {
+      "path": "output/collaboration/reward-mechanism-repair/incentive-handler-saved-analysis-preparation-receipt-2026-09-13.json",
+      "bytes": 45425,
+      "sha256": "8efe2876dc59066e67d6ad5ccc5f8f9ac8d2d8d9ef19ea2ef008f8bed1bb6948"
+    },
+    "prior_coverage_correction_preserved": "The saved-result receipt corrects one concurrently copied root result page that was only read at that closing boundary. That correction is part of this full personal chain.",
+    "current_narrative_count": 188,
+    "current_inventory_sha256": "c2d12a7547476cdfc5a3611be13873775abdc0a9a64ae80124982859757a503f",
+    "personally_read_complete_new_deltas_against_prior_full_pages": [
+      {
+        "path": "docs/REWARD_REPAIR_HANDOFF.md",
+        "bytes": 54624,
+        "sha256": "bc64b9b7d6f1b2d5473d60dbdff1322b61682eed0098fa52bca87a2ec7719c68"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/index.md",
+        "bytes": 23069,
+        "sha256": "81a7154eeca99fc01780f5c91be219baba19ce33f509a9856fce1e282a34da07"
+      },
+      {
+        "path": "wiki/reassessment.md",
+        "bytes": 13927,
+        "sha256": "1c722ebb8426bc3566f266d8b4b3a3e1205a751bb66318f62aa21b68f9f7d15e"
+      }
+    ],
+    "personally_read_full_new_acceptance": {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/incentive-ui-acceptance-2026-09-13.md",
+      "bytes": 5015,
+      "sha256": "14d7b54ce57deeff7dade3597f301675a4953f57c6a12d5f97e13dde4ae793de"
+    },
+    "personally_reread_full_scientific_pages": [
+      {
+        "path": "wiki/cells/dopamine-receptor-signaling.md",
+        "bytes": 5381,
+        "sha256": "141bb0231f0f11824d102c149d796f0a5ecf249b03b47769fc34d9eaf7c395d6"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/incentive-handler-source-result-2026-09-13.md",
+        "bytes": 5688,
+        "sha256": "94abcc0fba9400a5e69b60ca00682f7db3075d87b617af76fbb4583fd377e70f"
+      }
+    ],
+    "new_exact_byte_alias_of_previously_read_original": {
+      "original": {
+        "path": "output/collaboration/reward-mechanism-repair/incentive-handler-saved-analysis-result-2026-09-13.md",
+        "bytes": 3961,
+        "sha256": "60cba378062d55fa4a6dae8b22747d4d5faf0769f8a5ae334d766b6451443d8b"
+      },
+      "copy": {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/incentive-handler-saved-analysis-result-2026-09-13.md",
+        "bytes": 3961,
+        "sha256": "60cba378062d55fa4a6dae8b22747d4d5faf0769f8a5ae334d766b6451443d8b"
+      }
+    },
+    "all_other_narratives_exact_hash_matches_to_prior_personal_reading_chain": true,
+    "unread_deltas": []
+  },
+  "machine_receipts_personally_inspected": [
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/incentive-handler-independent-saved-audit-2026-09-13.json",
+      "bytes": 60714,
+      "sha256": "e7f8c5fac3f676ceae82136edef5182efe4709164ab00b1aee11e14726d2e8d9"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/incentive-protection-after-browser-2026-09-13.json",
+      "bytes": 1089,
+      "sha256": "88b2da097579b6bc8d906d0b94887779fac3daf78314c21da8b9c0befc98efda"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/incentive-copy-manifest-2026-09-13.json",
+      "bytes": 34308,
+      "sha256": "4044bfb2d4bfe1e9251e58263b0ed6df6c2441bb6f931ec670b7ba05aa729fd2"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/incentive-ui-browser-2026-09-13/bet36fly-reward-browser-evidence.json",
+      "bytes": 6846,
+      "sha256": "181426e2a2c20114a33ce3dd20512e5872d41d4f2cfadcbe904478d2deea2c94"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/incentive-canonical-tests-2026-09-13.txt",
+      "bytes": 260,
+      "sha256": "18272531d8cab269b4029e3a27c3068a36380d7b385f2b538468d7d09b4c4e4d"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/incentive-canonical-ruff-2026-09-13.txt",
+      "bytes": 19,
+      "sha256": "82b3e6a6c090a57601d22943bd23fca9218d1031dbe5a7b754092f9a156b4f18"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/incentive-ui-make-verify-2026-09-13.txt",
+      "bytes": 6297,
+      "sha256": "8f911118cc2aa22c8bf47af867e2be5abc42dd349eaf90aa62daac46af398799"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/incentive-handler-saved-analysis-2026-09-13/analysis.json",
+      "bytes": 36167,
+      "sha256": "eea464efc6c27b813643ba7293748616b095208b673c996a34b397591a9303b6"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/incentive-handler-saved-analysis-2026-09-13/completion.json",
+      "bytes": 306,
+      "sha256": "fa68d9911c7141c57af37f13a7f91f6b8e1c1687f667a274090410e23e9f6b64"
+    }
+  ],
+  "read_only_validation": {
+    "copy_manifest_pairs": 95,
+    "copied_bytes": 5284421,
+    "every_original_and_copy_hash_and_size_rechecked": true,
+    "source_saved_audit_coverage": {
+      "cases": 6,
+      "arrays": 222,
+      "double_values": 222222,
+      "source_scalar_values": 72072,
+      "frozen_inputs": 35
+    },
+    "maximum_source_scalar_absolute_error": 1.6200374375330284e-12,
+    "all_source_scalar_errors_within_predeclared_combined_absolute_relative_allowance": true,
+    "negative_internal_samples_coincidence_and_positive_half_second": [
+      401,
+      294
+    ],
+    "canonical_test_log": "203 passed in2.09s; Ruff pass",
+    "full_verify_log": "4055Python pass,2warnings,103frontend pass,Ruff andTypeScript/Vitebuild pass",
+    "browser_receipt": "markedread-only,20verifiedfixturestates,8hash-matcheddownloads,4detailcomparisons,noJSerrors,nohorizontaloverflow,failedqualificationandnot_run_gate_failedconditioningpreserved",
+    "protection_receipt": "788matchingbaseline+3intendedfrontenddifferences=791;1077existingevidencefilesunchanged;no unexpectedchange/missing/inventoryentries"
+  },
+  "scientific_claim_review": {
+    "literal_normalized_contrast": "Strong descriptive correlation reproduced, independently normalized reporter branches remain distinct from raw optical measurements and signed internal weights. No held-out or calibrated receptor claim.",
+    "primary_window": "The+6cAMP6\u201310swindow is incomplete at8s; no fabricated six-condition primary-model contrast/correlation or five-condition renormalization.",
+    "biological_scope": "DopR1/Gs/cAMP andDopR2/Gq/ER associations are maintained; reportergamma4/5 experiment is not calibrated to accepted PPL101/MBON11 orPAM12/MBON09 channels.",
+    "model_scope": "15ms releasedgrid,explicitrectangularinput,sourceunboundedinternalWversusrectifiedrecording,abstractreportersandsignedfeedbackremainseparatefromproductiongains/spikes.",
+    "transfer_math": "Equal-DCcoldlinearpositive-inputfilterswithcompletecontinuationcanceltheir signedareas; linkedfullproofstatesassumptions and doesnotclaimfinite-eta feedbackmodelprediction.",
+    "completion_scope": "Onlysource/data/software/displayworkcomplete. Bothlearningpanelsandcontrolledacquisition/reversalremainrequired; currentqualificationfailedandno goalcompletionclaim."
+  },
+  "review_limits": "This closing review did not rerun tests, models, audits, protection scan or browser. It inspected their copied machine receipts and logs; root owns live browser screenshots and QA-session shutdown evidence. No network, fits, nativecalls, productionedits or sourcechanges. Only this new output JSON was written."
+}
