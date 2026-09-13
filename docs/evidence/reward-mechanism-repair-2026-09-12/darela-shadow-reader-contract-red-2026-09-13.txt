@@ -1,0 +1,309 @@
+FFFFFFFF...FF..........                                                  [100%]
+=================================== FAILURES ===================================
+___________ test_rehashed_false_completion_contract[summary_status] ____________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1713/test_rehashed_false_completion0')
+ready_evaluator = <function quiet_evaluator at 0x109696520>
+change = 'summary_status'
+
+    @pytest.mark.parametrize("change",["summary_status","summary_count","screen","provisional","completion_count","journal_short","journal_order","journal_link"])
+    def test_rehashed_false_completion_contract(tmp_path,ready_evaluator,change):
+        r=module();p=plan(tmp_path);path,out=write_plan(tmp_path,p)
+        assert r.execute(path,out,_loader=loader,_evaluator=ready_evaluator,_check_runtime=False)["status"]=="completed"
+        completion=json.loads((out/"completion.json").read_text())
+        if change.startswith("journal"):
+            records=[json.loads(x) for x in (out/"attempts.jsonl").read_text().splitlines()]
+            if change=="journal_short":records.pop()
+            elif change=="journal_order":records[0],records[1]=records[1],records[0]
+            else:records[4]["detail"]["sha256"]="a"*64
+            (out/"attempts.jsonl").write_text("".join(json.dumps(x)+"\n" for x in records))
+        elif change=="completion_count":completion["completed"]=31
+        else:
+            summary=json.loads((out/"summary.json").read_text())
+            field,value={"summary_status":("status","failed"),"summary_count":("completed",31),"screen":("screen","passed_necessary_untaught_screen"),"provisional":("provisional","rejected_fixed_hypothesis")}[change]
+            if field=="provisional":field="provisional_screen"
+            summary[field]=value;(out/"summary.json").write_text(json.dumps(summary))
+        completion["bindings"]=[r.binding(x["path"]) for x in completion["bindings"]]
+        (out/"completion.json").write_text(json.dumps(completion))
+>       with pytest.raises(ValueError):r.validate_saved(out,p)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE ValueError
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:254: Failed
+____________ test_rehashed_false_completion_contract[summary_count] ____________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1713/test_rehashed_false_completion1')
+ready_evaluator = <function quiet_evaluator at 0x109696520>
+change = 'summary_count'
+
+    @pytest.mark.parametrize("change",["summary_status","summary_count","screen","provisional","completion_count","journal_short","journal_order","journal_link"])
+    def test_rehashed_false_completion_contract(tmp_path,ready_evaluator,change):
+        r=module();p=plan(tmp_path);path,out=write_plan(tmp_path,p)
+        assert r.execute(path,out,_loader=loader,_evaluator=ready_evaluator,_check_runtime=False)["status"]=="completed"
+        completion=json.loads((out/"completion.json").read_text())
+        if change.startswith("journal"):
+            records=[json.loads(x) for x in (out/"attempts.jsonl").read_text().splitlines()]
+            if change=="journal_short":records.pop()
+            elif change=="journal_order":records[0],records[1]=records[1],records[0]
+            else:records[4]["detail"]["sha256"]="a"*64
+            (out/"attempts.jsonl").write_text("".join(json.dumps(x)+"\n" for x in records))
+        elif change=="completion_count":completion["completed"]=31
+        else:
+            summary=json.loads((out/"summary.json").read_text())
+            field,value={"summary_status":("status","failed"),"summary_count":("completed",31),"screen":("screen","passed_necessary_untaught_screen"),"provisional":("provisional","rejected_fixed_hypothesis")}[change]
+            if field=="provisional":field="provisional_screen"
+            summary[field]=value;(out/"summary.json").write_text(json.dumps(summary))
+        completion["bindings"]=[r.binding(x["path"]) for x in completion["bindings"]]
+        (out/"completion.json").write_text(json.dumps(completion))
+>       with pytest.raises(ValueError):r.validate_saved(out,p)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE ValueError
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:254: Failed
+_______________ test_rehashed_false_completion_contract[screen] ________________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1713/test_rehashed_false_completion2')
+ready_evaluator = <function quiet_evaluator at 0x109696520>, change = 'screen'
+
+    @pytest.mark.parametrize("change",["summary_status","summary_count","screen","provisional","completion_count","journal_short","journal_order","journal_link"])
+    def test_rehashed_false_completion_contract(tmp_path,ready_evaluator,change):
+        r=module();p=plan(tmp_path);path,out=write_plan(tmp_path,p)
+        assert r.execute(path,out,_loader=loader,_evaluator=ready_evaluator,_check_runtime=False)["status"]=="completed"
+        completion=json.loads((out/"completion.json").read_text())
+        if change.startswith("journal"):
+            records=[json.loads(x) for x in (out/"attempts.jsonl").read_text().splitlines()]
+            if change=="journal_short":records.pop()
+            elif change=="journal_order":records[0],records[1]=records[1],records[0]
+            else:records[4]["detail"]["sha256"]="a"*64
+            (out/"attempts.jsonl").write_text("".join(json.dumps(x)+"\n" for x in records))
+        elif change=="completion_count":completion["completed"]=31
+        else:
+            summary=json.loads((out/"summary.json").read_text())
+            field,value={"summary_status":("status","failed"),"summary_count":("completed",31),"screen":("screen","passed_necessary_untaught_screen"),"provisional":("provisional","rejected_fixed_hypothesis")}[change]
+            if field=="provisional":field="provisional_screen"
+            summary[field]=value;(out/"summary.json").write_text(json.dumps(summary))
+        completion["bindings"]=[r.binding(x["path"]) for x in completion["bindings"]]
+        (out/"completion.json").write_text(json.dumps(completion))
+>       with pytest.raises(ValueError):r.validate_saved(out,p)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE ValueError
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:254: Failed
+_____________ test_rehashed_false_completion_contract[provisional] _____________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1713/test_rehashed_false_completion3')
+ready_evaluator = <function quiet_evaluator at 0x109696520>
+change = 'provisional'
+
+    @pytest.mark.parametrize("change",["summary_status","summary_count","screen","provisional","completion_count","journal_short","journal_order","journal_link"])
+    def test_rehashed_false_completion_contract(tmp_path,ready_evaluator,change):
+        r=module();p=plan(tmp_path);path,out=write_plan(tmp_path,p)
+        assert r.execute(path,out,_loader=loader,_evaluator=ready_evaluator,_check_runtime=False)["status"]=="completed"
+        completion=json.loads((out/"completion.json").read_text())
+        if change.startswith("journal"):
+            records=[json.loads(x) for x in (out/"attempts.jsonl").read_text().splitlines()]
+            if change=="journal_short":records.pop()
+            elif change=="journal_order":records[0],records[1]=records[1],records[0]
+            else:records[4]["detail"]["sha256"]="a"*64
+            (out/"attempts.jsonl").write_text("".join(json.dumps(x)+"\n" for x in records))
+        elif change=="completion_count":completion["completed"]=31
+        else:
+            summary=json.loads((out/"summary.json").read_text())
+            field,value={"summary_status":("status","failed"),"summary_count":("completed",31),"screen":("screen","passed_necessary_untaught_screen"),"provisional":("provisional","rejected_fixed_hypothesis")}[change]
+            if field=="provisional":field="provisional_screen"
+            summary[field]=value;(out/"summary.json").write_text(json.dumps(summary))
+        completion["bindings"]=[r.binding(x["path"]) for x in completion["bindings"]]
+        (out/"completion.json").write_text(json.dumps(completion))
+>       with pytest.raises(ValueError):r.validate_saved(out,p)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE ValueError
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:254: Failed
+__________ test_rehashed_false_completion_contract[completion_count] ___________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1713/test_rehashed_false_completion4')
+ready_evaluator = <function quiet_evaluator at 0x109696520>
+change = 'completion_count'
+
+    @pytest.mark.parametrize("change",["summary_status","summary_count","screen","provisional","completion_count","journal_short","journal_order","journal_link"])
+    def test_rehashed_false_completion_contract(tmp_path,ready_evaluator,change):
+        r=module();p=plan(tmp_path);path,out=write_plan(tmp_path,p)
+        assert r.execute(path,out,_loader=loader,_evaluator=ready_evaluator,_check_runtime=False)["status"]=="completed"
+        completion=json.loads((out/"completion.json").read_text())
+        if change.startswith("journal"):
+            records=[json.loads(x) for x in (out/"attempts.jsonl").read_text().splitlines()]
+            if change=="journal_short":records.pop()
+            elif change=="journal_order":records[0],records[1]=records[1],records[0]
+            else:records[4]["detail"]["sha256"]="a"*64
+            (out/"attempts.jsonl").write_text("".join(json.dumps(x)+"\n" for x in records))
+        elif change=="completion_count":completion["completed"]=31
+        else:
+            summary=json.loads((out/"summary.json").read_text())
+            field,value={"summary_status":("status","failed"),"summary_count":("completed",31),"screen":("screen","passed_necessary_untaught_screen"),"provisional":("provisional","rejected_fixed_hypothesis")}[change]
+            if field=="provisional":field="provisional_screen"
+            summary[field]=value;(out/"summary.json").write_text(json.dumps(summary))
+        completion["bindings"]=[r.binding(x["path"]) for x in completion["bindings"]]
+        (out/"completion.json").write_text(json.dumps(completion))
+>       with pytest.raises(ValueError):r.validate_saved(out,p)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE ValueError
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:254: Failed
+____________ test_rehashed_false_completion_contract[journal_short] ____________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1713/test_rehashed_false_completion5')
+ready_evaluator = <function quiet_evaluator at 0x109696520>
+change = 'journal_short'
+
+    @pytest.mark.parametrize("change",["summary_status","summary_count","screen","provisional","completion_count","journal_short","journal_order","journal_link"])
+    def test_rehashed_false_completion_contract(tmp_path,ready_evaluator,change):
+        r=module();p=plan(tmp_path);path,out=write_plan(tmp_path,p)
+        assert r.execute(path,out,_loader=loader,_evaluator=ready_evaluator,_check_runtime=False)["status"]=="completed"
+        completion=json.loads((out/"completion.json").read_text())
+        if change.startswith("journal"):
+            records=[json.loads(x) for x in (out/"attempts.jsonl").read_text().splitlines()]
+            if change=="journal_short":records.pop()
+            elif change=="journal_order":records[0],records[1]=records[1],records[0]
+            else:records[4]["detail"]["sha256"]="a"*64
+            (out/"attempts.jsonl").write_text("".join(json.dumps(x)+"\n" for x in records))
+        elif change=="completion_count":completion["completed"]=31
+        else:
+            summary=json.loads((out/"summary.json").read_text())
+            field,value={"summary_status":("status","failed"),"summary_count":("completed",31),"screen":("screen","passed_necessary_untaught_screen"),"provisional":("provisional","rejected_fixed_hypothesis")}[change]
+            if field=="provisional":field="provisional_screen"
+            summary[field]=value;(out/"summary.json").write_text(json.dumps(summary))
+        completion["bindings"]=[r.binding(x["path"]) for x in completion["bindings"]]
+        (out/"completion.json").write_text(json.dumps(completion))
+>       with pytest.raises(ValueError):r.validate_saved(out,p)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE ValueError
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:254: Failed
+____________ test_rehashed_false_completion_contract[journal_order] ____________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1713/test_rehashed_false_completion6')
+ready_evaluator = <function quiet_evaluator at 0x109696520>
+change = 'journal_order'
+
+    @pytest.mark.parametrize("change",["summary_status","summary_count","screen","provisional","completion_count","journal_short","journal_order","journal_link"])
+    def test_rehashed_false_completion_contract(tmp_path,ready_evaluator,change):
+        r=module();p=plan(tmp_path);path,out=write_plan(tmp_path,p)
+        assert r.execute(path,out,_loader=loader,_evaluator=ready_evaluator,_check_runtime=False)["status"]=="completed"
+        completion=json.loads((out/"completion.json").read_text())
+        if change.startswith("journal"):
+            records=[json.loads(x) for x in (out/"attempts.jsonl").read_text().splitlines()]
+            if change=="journal_short":records.pop()
+            elif change=="journal_order":records[0],records[1]=records[1],records[0]
+            else:records[4]["detail"]["sha256"]="a"*64
+            (out/"attempts.jsonl").write_text("".join(json.dumps(x)+"\n" for x in records))
+        elif change=="completion_count":completion["completed"]=31
+        else:
+            summary=json.loads((out/"summary.json").read_text())
+            field,value={"summary_status":("status","failed"),"summary_count":("completed",31),"screen":("screen","passed_necessary_untaught_screen"),"provisional":("provisional","rejected_fixed_hypothesis")}[change]
+            if field=="provisional":field="provisional_screen"
+            summary[field]=value;(out/"summary.json").write_text(json.dumps(summary))
+        completion["bindings"]=[r.binding(x["path"]) for x in completion["bindings"]]
+        (out/"completion.json").write_text(json.dumps(completion))
+>       with pytest.raises(ValueError):r.validate_saved(out,p)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE ValueError
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:254: Failed
+____________ test_rehashed_false_completion_contract[journal_link] _____________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1713/test_rehashed_false_completion7')
+ready_evaluator = <function quiet_evaluator at 0x109696520>
+change = 'journal_link'
+
+    @pytest.mark.parametrize("change",["summary_status","summary_count","screen","provisional","completion_count","journal_short","journal_order","journal_link"])
+    def test_rehashed_false_completion_contract(tmp_path,ready_evaluator,change):
+        r=module();p=plan(tmp_path);path,out=write_plan(tmp_path,p)
+        assert r.execute(path,out,_loader=loader,_evaluator=ready_evaluator,_check_runtime=False)["status"]=="completed"
+        completion=json.loads((out/"completion.json").read_text())
+        if change.startswith("journal"):
+            records=[json.loads(x) for x in (out/"attempts.jsonl").read_text().splitlines()]
+            if change=="journal_short":records.pop()
+            elif change=="journal_order":records[0],records[1]=records[1],records[0]
+            else:records[4]["detail"]["sha256"]="a"*64
+            (out/"attempts.jsonl").write_text("".join(json.dumps(x)+"\n" for x in records))
+        elif change=="completion_count":completion["completed"]=31
+        else:
+            summary=json.loads((out/"summary.json").read_text())
+            field,value={"summary_status":("status","failed"),"summary_count":("completed",31),"screen":("screen","passed_necessary_untaught_screen"),"provisional":("provisional","rejected_fixed_hypothesis")}[change]
+            if field=="provisional":field="provisional_screen"
+            summary[field]=value;(out/"summary.json").write_text(json.dumps(summary))
+        completion["bindings"]=[r.binding(x["path"]) for x in completion["bindings"]]
+        (out/"completion.json").write_text(json.dumps(completion))
+>       with pytest.raises(ValueError):r.validate_saved(out,p)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE ValueError
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:254: Failed
+_______ test_comparator_identity_dtype_count_and_gain_family[map_width] ________
+
+change = 'map_width'
+
+    @pytest.mark.parametrize("change",[None,"trace_dtype","nonbinary","map_width","map_order","original_ulp","delta","pulse","fingerprint_counts","population","main_kc","main_pool","dan_bins","sensory_bins","unused"])
+    def test_comparator_identity_dtype_count_and_gain_family(change):
+        r=module();fine,main,m,s=comparator_fixture()
+        if change=="trace_dtype":fine["trace"]=fine["trace"].astype(np.int64)
+        elif change=="nonbinary":fine["trace"][0,0]=2
+        elif change=="map_width":m["sample"]=m["sample"].astype(np.int64)
+        elif change=="map_order":m["kc_columns"]=m["kc_columns"][::-1].copy()
+        elif change=="original_ulp":main["gains"][0]=np.nextafter(np.float32(1),np.float32(2))
+        elif change=="delta":fine["gain_delta"][0]=.01
+        elif change=="pulse":fine["pulse_times_ms"]=np.array([310],np.float32)
+        elif change=="fingerprint_counts":fine["counts"][0]+=1
+        elif change=="population":fine["population"][0]=1
+        elif change=="main_kc":main["step_signals"][0,0]=1
+        elif change=="main_pool":main["step_signals"][0,1]=.5
+        elif change=="dan_bins":main["dan_bins"][0,0]=1
+        elif change=="sensory_bins":main["sensory_bins"][0,0]=1
+        elif change=="unused":main["step_signals"][0,3]=1
+        if change is None:r.validate_comparator(fine,main,m,s)
+        else:
+>           with pytest.raises(ValueError):r.validate_comparator(fine,main,m,s)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+E           Failed: DID NOT RAISE ValueError
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:289: Failed
+_______ test_comparator_identity_dtype_count_and_gain_family[map_order] ________
+
+change = 'map_order'
+
+    @pytest.mark.parametrize("change",[None,"trace_dtype","nonbinary","map_width","map_order","original_ulp","delta","pulse","fingerprint_counts","population","main_kc","main_pool","dan_bins","sensory_bins","unused"])
+    def test_comparator_identity_dtype_count_and_gain_family(change):
+        r=module();fine,main,m,s=comparator_fixture()
+        if change=="trace_dtype":fine["trace"]=fine["trace"].astype(np.int64)
+        elif change=="nonbinary":fine["trace"][0,0]=2
+        elif change=="map_width":m["sample"]=m["sample"].astype(np.int64)
+        elif change=="map_order":m["kc_columns"]=m["kc_columns"][::-1].copy()
+        elif change=="original_ulp":main["gains"][0]=np.nextafter(np.float32(1),np.float32(2))
+        elif change=="delta":fine["gain_delta"][0]=.01
+        elif change=="pulse":fine["pulse_times_ms"]=np.array([310],np.float32)
+        elif change=="fingerprint_counts":fine["counts"][0]+=1
+        elif change=="population":fine["population"][0]=1
+        elif change=="main_kc":main["step_signals"][0,0]=1
+        elif change=="main_pool":main["step_signals"][0,1]=.5
+        elif change=="dan_bins":main["dan_bins"][0,0]=1
+        elif change=="sensory_bins":main["sensory_bins"][0,0]=1
+        elif change=="unused":main["step_signals"][0,3]=1
+        if change is None:r.validate_comparator(fine,main,m,s)
+        else:
+>           with pytest.raises(ValueError):r.validate_comparator(fine,main,m,s)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+E           Failed: DID NOT RAISE ValueError
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:289: Failed
+=========================== short test summary info ============================
+FAILED output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_rehashed_false_completion_contract[summary_status]
+FAILED output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_rehashed_false_completion_contract[summary_count]
+FAILED output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_rehashed_false_completion_contract[screen]
+FAILED output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_rehashed_false_completion_contract[provisional]
+FAILED output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_rehashed_false_completion_contract[completion_count]
+FAILED output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_rehashed_false_completion_contract[journal_short]
+FAILED output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_rehashed_false_completion_contract[journal_order]
+FAILED output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_rehashed_false_completion_contract[journal_link]
+FAILED output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_comparator_identity_dtype_count_and_gain_family[map_width]
+FAILED output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_comparator_identity_dtype_count_and_gain_family[map_order]
+10 failed, 13 passed, 75 deselected in 4.50s

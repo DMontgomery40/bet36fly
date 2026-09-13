@@ -1,0 +1,1515 @@
+FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF                         [100%]
+=================================== FAILURES ===================================
+______ test_full_pair_and_finite_tail_from_independent_formula[0.25--100] ______
+
+lag = -100, mass = 0.25
+
+    @pytest.mark.parametrize('lag', [-100, 0, 100])
+    @pytest.mark.parametrize('mass', [.25, 1., 8., 10000.])
+    def test_full_pair_and_finite_tail_from_independent_formula(lag, mass):
+        kc, dan = data(900)
+        kc[650, 0] = min(1., 1 / mass)
+        dan[650 + lag, 0] = mass
+>       r = bridge_reference(kc, dan, *maps())
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:32: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       ...,
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], sh...
+       [0., 0.]], shape=(900, 2)), array([0, 1, 0, 1]), array([0, 0, 1, 1]), array([1, 0, 1, 1]), array([0, 1, 4, 6]))
+kwargs = {}
+
+    def bridge_reference(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:5: NotImplementedError
+_______ test_full_pair_and_finite_tail_from_independent_formula[0.25-0] ________
+
+lag = 0, mass = 0.25
+
+    @pytest.mark.parametrize('lag', [-100, 0, 100])
+    @pytest.mark.parametrize('mass', [.25, 1., 8., 10000.])
+    def test_full_pair_and_finite_tail_from_independent_formula(lag, mass):
+        kc, dan = data(900)
+        kc[650, 0] = min(1., 1 / mass)
+        dan[650 + lag, 0] = mass
+>       r = bridge_reference(kc, dan, *maps())
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:32: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       ...,
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], sh...
+       [0., 0.]], shape=(900, 2)), array([0, 1, 0, 1]), array([0, 0, 1, 1]), array([1, 0, 1, 1]), array([0, 1, 4, 6]))
+kwargs = {}
+
+    def bridge_reference(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:5: NotImplementedError
+______ test_full_pair_and_finite_tail_from_independent_formula[0.25-100] _______
+
+lag = 100, mass = 0.25
+
+    @pytest.mark.parametrize('lag', [-100, 0, 100])
+    @pytest.mark.parametrize('mass', [.25, 1., 8., 10000.])
+    def test_full_pair_and_finite_tail_from_independent_formula(lag, mass):
+        kc, dan = data(900)
+        kc[650, 0] = min(1., 1 / mass)
+        dan[650 + lag, 0] = mass
+>       r = bridge_reference(kc, dan, *maps())
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:32: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       ...,
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], sh...
+       [0., 0.]], shape=(900, 2)), array([0, 1, 0, 1]), array([0, 0, 1, 1]), array([1, 0, 1, 1]), array([0, 1, 4, 6]))
+kwargs = {}
+
+    def bridge_reference(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:5: NotImplementedError
+______ test_full_pair_and_finite_tail_from_independent_formula[1.0--100] _______
+
+lag = -100, mass = 1.0
+
+    @pytest.mark.parametrize('lag', [-100, 0, 100])
+    @pytest.mark.parametrize('mass', [.25, 1., 8., 10000.])
+    def test_full_pair_and_finite_tail_from_independent_formula(lag, mass):
+        kc, dan = data(900)
+        kc[650, 0] = min(1., 1 / mass)
+        dan[650 + lag, 0] = mass
+>       r = bridge_reference(kc, dan, *maps())
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:32: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       ...,
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], sh...
+       [0., 0.]], shape=(900, 2)), array([0, 1, 0, 1]), array([0, 0, 1, 1]), array([1, 0, 1, 1]), array([0, 1, 4, 6]))
+kwargs = {}
+
+    def bridge_reference(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:5: NotImplementedError
+________ test_full_pair_and_finite_tail_from_independent_formula[1.0-0] ________
+
+lag = 0, mass = 1.0
+
+    @pytest.mark.parametrize('lag', [-100, 0, 100])
+    @pytest.mark.parametrize('mass', [.25, 1., 8., 10000.])
+    def test_full_pair_and_finite_tail_from_independent_formula(lag, mass):
+        kc, dan = data(900)
+        kc[650, 0] = min(1., 1 / mass)
+        dan[650 + lag, 0] = mass
+>       r = bridge_reference(kc, dan, *maps())
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:32: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       ...,
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], sh...
+       [0., 0.]], shape=(900, 2)), array([0, 1, 0, 1]), array([0, 0, 1, 1]), array([1, 0, 1, 1]), array([0, 1, 4, 6]))
+kwargs = {}
+
+    def bridge_reference(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:5: NotImplementedError
+_______ test_full_pair_and_finite_tail_from_independent_formula[1.0-100] _______
+
+lag = 100, mass = 1.0
+
+    @pytest.mark.parametrize('lag', [-100, 0, 100])
+    @pytest.mark.parametrize('mass', [.25, 1., 8., 10000.])
+    def test_full_pair_and_finite_tail_from_independent_formula(lag, mass):
+        kc, dan = data(900)
+        kc[650, 0] = min(1., 1 / mass)
+        dan[650 + lag, 0] = mass
+>       r = bridge_reference(kc, dan, *maps())
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:32: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       ...,
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], sh...
+       [0., 0.]], shape=(900, 2)), array([0, 1, 0, 1]), array([0, 0, 1, 1]), array([1, 0, 1, 1]), array([0, 1, 4, 6]))
+kwargs = {}
+
+    def bridge_reference(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:5: NotImplementedError
+______ test_full_pair_and_finite_tail_from_independent_formula[8.0--100] _______
+
+lag = -100, mass = 8.0
+
+    @pytest.mark.parametrize('lag', [-100, 0, 100])
+    @pytest.mark.parametrize('mass', [.25, 1., 8., 10000.])
+    def test_full_pair_and_finite_tail_from_independent_formula(lag, mass):
+        kc, dan = data(900)
+        kc[650, 0] = min(1., 1 / mass)
+        dan[650 + lag, 0] = mass
+>       r = bridge_reference(kc, dan, *maps())
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:32: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       ...,
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], sh...
+       [0., 0.]], shape=(900, 2)), array([0, 1, 0, 1]), array([0, 0, 1, 1]), array([1, 0, 1, 1]), array([0, 1, 4, 6]))
+kwargs = {}
+
+    def bridge_reference(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:5: NotImplementedError
+________ test_full_pair_and_finite_tail_from_independent_formula[8.0-0] ________
+
+lag = 0, mass = 8.0
+
+    @pytest.mark.parametrize('lag', [-100, 0, 100])
+    @pytest.mark.parametrize('mass', [.25, 1., 8., 10000.])
+    def test_full_pair_and_finite_tail_from_independent_formula(lag, mass):
+        kc, dan = data(900)
+        kc[650, 0] = min(1., 1 / mass)
+        dan[650 + lag, 0] = mass
+>       r = bridge_reference(kc, dan, *maps())
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:32: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       ...,
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], sh...
+       [0., 0.]], shape=(900, 2)), array([0, 1, 0, 1]), array([0, 0, 1, 1]), array([1, 0, 1, 1]), array([0, 1, 4, 6]))
+kwargs = {}
+
+    def bridge_reference(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:5: NotImplementedError
+_______ test_full_pair_and_finite_tail_from_independent_formula[8.0-100] _______
+
+lag = 100, mass = 8.0
+
+    @pytest.mark.parametrize('lag', [-100, 0, 100])
+    @pytest.mark.parametrize('mass', [.25, 1., 8., 10000.])
+    def test_full_pair_and_finite_tail_from_independent_formula(lag, mass):
+        kc, dan = data(900)
+        kc[650, 0] = min(1., 1 / mass)
+        dan[650 + lag, 0] = mass
+>       r = bridge_reference(kc, dan, *maps())
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:32: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       ...,
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], sh...
+       [0., 0.]], shape=(900, 2)), array([0, 1, 0, 1]), array([0, 0, 1, 1]), array([1, 0, 1, 1]), array([0, 1, 4, 6]))
+kwargs = {}
+
+    def bridge_reference(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:5: NotImplementedError
+____ test_full_pair_and_finite_tail_from_independent_formula[10000.0--100] _____
+
+lag = -100, mass = 10000.0
+
+    @pytest.mark.parametrize('lag', [-100, 0, 100])
+    @pytest.mark.parametrize('mass', [.25, 1., 8., 10000.])
+    def test_full_pair_and_finite_tail_from_independent_formula(lag, mass):
+        kc, dan = data(900)
+        kc[650, 0] = min(1., 1 / mass)
+        dan[650 + lag, 0] = mass
+>       r = bridge_reference(kc, dan, *maps())
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:32: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       ...,
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], sh...
+       [0., 0.]], shape=(900, 2)), array([0, 1, 0, 1]), array([0, 0, 1, 1]), array([1, 0, 1, 1]), array([0, 1, 4, 6]))
+kwargs = {}
+
+    def bridge_reference(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:5: NotImplementedError
+______ test_full_pair_and_finite_tail_from_independent_formula[10000.0-0] ______
+
+lag = 0, mass = 10000.0
+
+    @pytest.mark.parametrize('lag', [-100, 0, 100])
+    @pytest.mark.parametrize('mass', [.25, 1., 8., 10000.])
+    def test_full_pair_and_finite_tail_from_independent_formula(lag, mass):
+        kc, dan = data(900)
+        kc[650, 0] = min(1., 1 / mass)
+        dan[650 + lag, 0] = mass
+>       r = bridge_reference(kc, dan, *maps())
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:32: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       ...,
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], sh...
+       [0., 0.]], shape=(900, 2)), array([0, 1, 0, 1]), array([0, 0, 1, 1]), array([1, 0, 1, 1]), array([0, 1, 4, 6]))
+kwargs = {}
+
+    def bridge_reference(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:5: NotImplementedError
+_____ test_full_pair_and_finite_tail_from_independent_formula[10000.0-100] _____
+
+lag = 100, mass = 10000.0
+
+    @pytest.mark.parametrize('lag', [-100, 0, 100])
+    @pytest.mark.parametrize('mass', [.25, 1., 8., 10000.])
+    def test_full_pair_and_finite_tail_from_independent_formula(lag, mass):
+        kc, dan = data(900)
+        kc[650, 0] = min(1., 1 / mass)
+        dan[650 + lag, 0] = mass
+>       r = bridge_reference(kc, dan, *maps())
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:32: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       ...,
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], sh...
+       [0., 0.]], shape=(900, 2)), array([0, 1, 0, 1]), array([0, 0, 1, 1]), array([1, 0, 1, 1]), array([0, 1, 4, 6]))
+kwargs = {}
+
+    def bridge_reference(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:5: NotImplementedError
+______ test_all_bridge_fields_against_separately_frozen_producer[True-7] _______
+
+seed = 7, learning = True
+
+    @pytest.mark.parametrize('seed', [7, 23, 51])
+    @pytest.mark.parametrize('learning', [True, False])
+    def test_all_bridge_fields_against_separately_frozen_producer(seed, learning):
+        kc, dan = data(1601)
+        rng = np.random.default_rng(seed)
+        kc[:] = (rng.random(kc.shape) < .03) * rng.random(kc.shape)
+        dan[:] = (rng.random(dan.shape) < .04) * 3
+        initial = np.array([.5, .75, 1., 1.5], np.float32)
+        args = (*maps(),)
+        before = [a.copy() for a in (kc, dan, *args, initial)]
+>       a = bridge_reference(kc, dan, *args, initial=initial, learning=learning)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:51: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       ...,
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], sh...       [0., 0.]], shape=(1601, 2)), array([0, 1, 0, 1]), array([0, 0, 1, 1]), array([1, 0, 1, 1]), array([0, 1, 4, 6]))
+kwargs = {'initial': array([0.5 , 0.75, 1.  , 1.5 ], dtype=float32), 'learning': True}
+
+    def bridge_reference(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:5: NotImplementedError
+______ test_all_bridge_fields_against_separately_frozen_producer[True-23] ______
+
+seed = 23, learning = True
+
+    @pytest.mark.parametrize('seed', [7, 23, 51])
+    @pytest.mark.parametrize('learning', [True, False])
+    def test_all_bridge_fields_against_separately_frozen_producer(seed, learning):
+        kc, dan = data(1601)
+        rng = np.random.default_rng(seed)
+        kc[:] = (rng.random(kc.shape) < .03) * rng.random(kc.shape)
+        dan[:] = (rng.random(dan.shape) < .04) * 3
+        initial = np.array([.5, .75, 1., 1.5], np.float32)
+        args = (*maps(),)
+        before = [a.copy() for a in (kc, dan, *args, initial)]
+>       a = bridge_reference(kc, dan, *args, initial=initial, learning=learning)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:51: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       ...,
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], sh...       [0., 0.]], shape=(1601, 2)), array([0, 1, 0, 1]), array([0, 0, 1, 1]), array([1, 0, 1, 1]), array([0, 1, 4, 6]))
+kwargs = {'initial': array([0.5 , 0.75, 1.  , 1.5 ], dtype=float32), 'learning': True}
+
+    def bridge_reference(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:5: NotImplementedError
+______ test_all_bridge_fields_against_separately_frozen_producer[True-51] ______
+
+seed = 51, learning = True
+
+    @pytest.mark.parametrize('seed', [7, 23, 51])
+    @pytest.mark.parametrize('learning', [True, False])
+    def test_all_bridge_fields_against_separately_frozen_producer(seed, learning):
+        kc, dan = data(1601)
+        rng = np.random.default_rng(seed)
+        kc[:] = (rng.random(kc.shape) < .03) * rng.random(kc.shape)
+        dan[:] = (rng.random(dan.shape) < .04) * 3
+        initial = np.array([.5, .75, 1., 1.5], np.float32)
+        args = (*maps(),)
+        before = [a.copy() for a in (kc, dan, *args, initial)]
+>       a = bridge_reference(kc, dan, *args, initial=initial, learning=learning)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:51: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (array([[0.        , 0.        ],
+       [0.        , 0.        ],
+       [0.        , 0.        ],
+       ...,
+      ...       [0., 3.]], shape=(1601, 2)), array([0, 1, 0, 1]), array([0, 0, 1, 1]), array([1, 0, 1, 1]), array([0, 1, 4, 6]))
+kwargs = {'initial': array([0.5 , 0.75, 1.  , 1.5 ], dtype=float32), 'learning': True}
+
+    def bridge_reference(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:5: NotImplementedError
+______ test_all_bridge_fields_against_separately_frozen_producer[False-7] ______
+
+seed = 7, learning = False
+
+    @pytest.mark.parametrize('seed', [7, 23, 51])
+    @pytest.mark.parametrize('learning', [True, False])
+    def test_all_bridge_fields_against_separately_frozen_producer(seed, learning):
+        kc, dan = data(1601)
+        rng = np.random.default_rng(seed)
+        kc[:] = (rng.random(kc.shape) < .03) * rng.random(kc.shape)
+        dan[:] = (rng.random(dan.shape) < .04) * 3
+        initial = np.array([.5, .75, 1., 1.5], np.float32)
+        args = (*maps(),)
+        before = [a.copy() for a in (kc, dan, *args, initial)]
+>       a = bridge_reference(kc, dan, *args, initial=initial, learning=learning)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:51: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       ...,
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], sh...       [0., 0.]], shape=(1601, 2)), array([0, 1, 0, 1]), array([0, 0, 1, 1]), array([1, 0, 1, 1]), array([0, 1, 4, 6]))
+kwargs = {'initial': array([0.5 , 0.75, 1.  , 1.5 ], dtype=float32), 'learning': False}
+
+    def bridge_reference(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:5: NotImplementedError
+_____ test_all_bridge_fields_against_separately_frozen_producer[False-23] ______
+
+seed = 23, learning = False
+
+    @pytest.mark.parametrize('seed', [7, 23, 51])
+    @pytest.mark.parametrize('learning', [True, False])
+    def test_all_bridge_fields_against_separately_frozen_producer(seed, learning):
+        kc, dan = data(1601)
+        rng = np.random.default_rng(seed)
+        kc[:] = (rng.random(kc.shape) < .03) * rng.random(kc.shape)
+        dan[:] = (rng.random(dan.shape) < .04) * 3
+        initial = np.array([.5, .75, 1., 1.5], np.float32)
+        args = (*maps(),)
+        before = [a.copy() for a in (kc, dan, *args, initial)]
+>       a = bridge_reference(kc, dan, *args, initial=initial, learning=learning)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:51: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       ...,
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], sh...       [0., 0.]], shape=(1601, 2)), array([0, 1, 0, 1]), array([0, 0, 1, 1]), array([1, 0, 1, 1]), array([0, 1, 4, 6]))
+kwargs = {'initial': array([0.5 , 0.75, 1.  , 1.5 ], dtype=float32), 'learning': False}
+
+    def bridge_reference(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:5: NotImplementedError
+_____ test_all_bridge_fields_against_separately_frozen_producer[False-51] ______
+
+seed = 51, learning = False
+
+    @pytest.mark.parametrize('seed', [7, 23, 51])
+    @pytest.mark.parametrize('learning', [True, False])
+    def test_all_bridge_fields_against_separately_frozen_producer(seed, learning):
+        kc, dan = data(1601)
+        rng = np.random.default_rng(seed)
+        kc[:] = (rng.random(kc.shape) < .03) * rng.random(kc.shape)
+        dan[:] = (rng.random(dan.shape) < .04) * 3
+        initial = np.array([.5, .75, 1., 1.5], np.float32)
+        args = (*maps(),)
+        before = [a.copy() for a in (kc, dan, *args, initial)]
+>       a = bridge_reference(kc, dan, *args, initial=initial, learning=learning)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:51: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (array([[0.        , 0.        ],
+       [0.        , 0.        ],
+       [0.        , 0.        ],
+       ...,
+      ...       [0., 3.]], shape=(1601, 2)), array([0, 1, 0, 1]), array([0, 0, 1, 1]), array([1, 0, 1, 1]), array([0, 1, 4, 6]))
+kwargs = {'initial': array([0.5 , 0.75, 1.  , 1.5 ], dtype=float32), 'learning': False}
+
+    def bridge_reference(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:5: NotImplementedError
+____________________ test_quiet_no_dan_and_cold_onset[none] ____________________
+
+where = 'none'
+
+    @pytest.mark.parametrize('where', ['none', 'before', 'at'])
+    def test_quiet_no_dan_and_cold_onset(where):
+        kc, dan = data(501)
+        kc[:] = 1
+        if where != 'none':
+            dan[499 if where == 'before' else 500] = 2
+>       r = bridge_reference(kc, dan, *maps())
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:71: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (array([[1., 1.],
+       [1., 1.],
+       [1., 1.],
+       ...,
+       [1., 1.],
+       [1., 1.],
+       [1., 1.]], sh...
+       [0., 0.]], shape=(501, 2)), array([0, 1, 0, 1]), array([0, 0, 1, 1]), array([1, 0, 1, 1]), array([0, 1, 4, 6]))
+kwargs = {}
+
+    def bridge_reference(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:5: NotImplementedError
+___________________ test_quiet_no_dan_and_cold_onset[before] ___________________
+
+where = 'before'
+
+    @pytest.mark.parametrize('where', ['none', 'before', 'at'])
+    def test_quiet_no_dan_and_cold_onset(where):
+        kc, dan = data(501)
+        kc[:] = 1
+        if where != 'none':
+            dan[499 if where == 'before' else 500] = 2
+>       r = bridge_reference(kc, dan, *maps())
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:71: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (array([[1., 1.],
+       [1., 1.],
+       [1., 1.],
+       ...,
+       [1., 1.],
+       [1., 1.],
+       [1., 1.]], sh...
+       [0., 0.]], shape=(501, 2)), array([0, 1, 0, 1]), array([0, 0, 1, 1]), array([1, 0, 1, 1]), array([0, 1, 4, 6]))
+kwargs = {}
+
+    def bridge_reference(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:5: NotImplementedError
+_____________________ test_quiet_no_dan_and_cold_onset[at] _____________________
+
+where = 'at'
+
+    @pytest.mark.parametrize('where', ['none', 'before', 'at'])
+    def test_quiet_no_dan_and_cold_onset(where):
+        kc, dan = data(501)
+        kc[:] = 1
+        if where != 'none':
+            dan[499 if where == 'before' else 500] = 2
+>       r = bridge_reference(kc, dan, *maps())
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:71: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (array([[1., 1.],
+       [1., 1.],
+       [1., 1.],
+       ...,
+       [1., 1.],
+       [1., 1.],
+       [1., 1.]], sh...
+       [2., 2.]], shape=(501, 2)), array([0, 1, 0, 1]), array([0, 0, 1, 1]), array([1, 0, 1, 1]), array([0, 1, 4, 6]))
+kwargs = {}
+
+    def bridge_reference(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:5: NotImplementedError
+_________ test_bound_contacts_and_frozen_checkpoint_policy[False-0.5] __________
+
+initial = 0.5, learning = False
+
+    @pytest.mark.parametrize('initial', [.5, 1., 1.5])
+    @pytest.mark.parametrize('learning', [False, True])
+    def test_bound_contacts_and_frozen_checkpoint_policy(initial, learning):
+        kc, dan = data(520)
+        checkpoint = np.full(4, initial, np.float32)
+>       r = bridge_reference(kc, dan, *maps(), initial=checkpoint, learning=learning)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:87: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       ...,
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], sh...
+       [0., 0.]], shape=(520, 2)), array([0, 1, 0, 1]), array([0, 0, 1, 1]), array([1, 0, 1, 1]), array([0, 1, 4, 6]))
+kwargs = {'initial': array([0.5, 0.5, 0.5, 0.5], dtype=float32), 'learning': False}
+
+    def bridge_reference(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:5: NotImplementedError
+_________ test_bound_contacts_and_frozen_checkpoint_policy[False-1.0] __________
+
+initial = 1.0, learning = False
+
+    @pytest.mark.parametrize('initial', [.5, 1., 1.5])
+    @pytest.mark.parametrize('learning', [False, True])
+    def test_bound_contacts_and_frozen_checkpoint_policy(initial, learning):
+        kc, dan = data(520)
+        checkpoint = np.full(4, initial, np.float32)
+>       r = bridge_reference(kc, dan, *maps(), initial=checkpoint, learning=learning)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:87: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       ...,
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], sh...
+       [0., 0.]], shape=(520, 2)), array([0, 1, 0, 1]), array([0, 0, 1, 1]), array([1, 0, 1, 1]), array([0, 1, 4, 6]))
+kwargs = {'initial': array([1., 1., 1., 1.], dtype=float32), 'learning': False}
+
+    def bridge_reference(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:5: NotImplementedError
+_________ test_bound_contacts_and_frozen_checkpoint_policy[False-1.5] __________
+
+initial = 1.5, learning = False
+
+    @pytest.mark.parametrize('initial', [.5, 1., 1.5])
+    @pytest.mark.parametrize('learning', [False, True])
+    def test_bound_contacts_and_frozen_checkpoint_policy(initial, learning):
+        kc, dan = data(520)
+        checkpoint = np.full(4, initial, np.float32)
+>       r = bridge_reference(kc, dan, *maps(), initial=checkpoint, learning=learning)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:87: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       ...,
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], sh...
+       [0., 0.]], shape=(520, 2)), array([0, 1, 0, 1]), array([0, 0, 1, 1]), array([1, 0, 1, 1]), array([0, 1, 4, 6]))
+kwargs = {'initial': array([1.5, 1.5, 1.5, 1.5], dtype=float32), 'learning': False}
+
+    def bridge_reference(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:5: NotImplementedError
+__________ test_bound_contacts_and_frozen_checkpoint_policy[True-0.5] __________
+
+initial = 0.5, learning = True
+
+    @pytest.mark.parametrize('initial', [.5, 1., 1.5])
+    @pytest.mark.parametrize('learning', [False, True])
+    def test_bound_contacts_and_frozen_checkpoint_policy(initial, learning):
+        kc, dan = data(520)
+        checkpoint = np.full(4, initial, np.float32)
+>       r = bridge_reference(kc, dan, *maps(), initial=checkpoint, learning=learning)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:87: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       ...,
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], sh...
+       [0., 0.]], shape=(520, 2)), array([0, 1, 0, 1]), array([0, 0, 1, 1]), array([1, 0, 1, 1]), array([0, 1, 4, 6]))
+kwargs = {'initial': array([0.5, 0.5, 0.5, 0.5], dtype=float32), 'learning': True}
+
+    def bridge_reference(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:5: NotImplementedError
+__________ test_bound_contacts_and_frozen_checkpoint_policy[True-1.0] __________
+
+initial = 1.0, learning = True
+
+    @pytest.mark.parametrize('initial', [.5, 1., 1.5])
+    @pytest.mark.parametrize('learning', [False, True])
+    def test_bound_contacts_and_frozen_checkpoint_policy(initial, learning):
+        kc, dan = data(520)
+        checkpoint = np.full(4, initial, np.float32)
+>       r = bridge_reference(kc, dan, *maps(), initial=checkpoint, learning=learning)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:87: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       ...,
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], sh...
+       [0., 0.]], shape=(520, 2)), array([0, 1, 0, 1]), array([0, 0, 1, 1]), array([1, 0, 1, 1]), array([0, 1, 4, 6]))
+kwargs = {'initial': array([1., 1., 1., 1.], dtype=float32), 'learning': True}
+
+    def bridge_reference(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:5: NotImplementedError
+__________ test_bound_contacts_and_frozen_checkpoint_policy[True-1.5] __________
+
+initial = 1.5, learning = True
+
+    @pytest.mark.parametrize('initial', [.5, 1., 1.5])
+    @pytest.mark.parametrize('learning', [False, True])
+    def test_bound_contacts_and_frozen_checkpoint_policy(initial, learning):
+        kc, dan = data(520)
+        checkpoint = np.full(4, initial, np.float32)
+>       r = bridge_reference(kc, dan, *maps(), initial=checkpoint, learning=learning)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:87: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       ...,
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], sh...
+       [0., 0.]], shape=(520, 2)), array([0, 1, 0, 1]), array([0, 0, 1, 1]), array([1, 0, 1, 1]), array([0, 1, 4, 6]))
+kwargs = {'initial': array([1.5, 1.5, 1.5, 1.5], dtype=float32), 'learning': True}
+
+    def bridge_reference(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:5: NotImplementedError
+____________ test_clipping_uses_interval_accumulator_not_pair_gain _____________
+
+    def test_clipping_uses_interval_accumulator_not_pair_gain():
+        kc, dan = data(700)
+        kc[510, 0] = 1
+        dan[520, 0] = 2**32
+>       r = bridge_reference(kc, dan, *maps())
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:98: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       ...,
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], sh...
+       [0., 0.]], shape=(700, 2)), array([0, 1, 0, 1]), array([0, 0, 1, 1]), array([1, 0, 1, 1]), array([0, 1, 4, 6]))
+kwargs = {}
+
+    def bridge_reference(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:5: NotImplementedError
+___________ test_separate_phase_areas_match_direct_event_quadrature ____________
+
+    def test_separate_phase_areas_match_direct_event_quadrature():
+        kc, dan = data(1600)
+        ke, de = [(510, .5), (900, 1.), (1520, .25)], [(530, 2.), (1300, 3.), (1599, 4.)]
+        for t, x in ke: kc[t, 0] = x
+        for t, x in de: dan[t, 0] = x
+>       r = bridge_reference(kc, dan, *maps())
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:112: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (array([[0., 0.],
+       [0., 0.],
+       [0., 0.],
+       ...,
+       [0., 0.],
+       [0., 0.],
+       [0., 0.]], sh...       [4., 0.]], shape=(1600, 2)), array([0, 1, 0, 1]), array([0, 0, 1, 1]), array([1, 0, 1, 1]), array([0, 1, 4, 6]))
+kwargs = {}
+
+    def bridge_reference(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:5: NotImplementedError
+_____________ test_exact_guard_boundary_and_neighbor_ticks[-1--1] ______________
+
+sign = -1, offset = -1
+
+    @pytest.mark.parametrize('sign', [-1, 1])
+    @pytest.mark.parametrize('offset', [-1, 0, 1])
+    def test_exact_guard_boundary_and_neighbor_ticks(sign, offset):
+        # Four zeros plus four equal values: equality. Change one of those values by a tick.
+        ticks = [0] * 4 + [sign * 12] * 4
+        ticks[-1] += offset
+        gains = np.array([[1 + t / 2**24] for t in ticks], np.float32)
+>       result = guard_cell(gains)
+                 ^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:139: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (array([[1.       ],
+       [1.       ],
+       [1.       ],
+       [1.       ],
+       [0.9999993],
+       [0.9999993],
+       [0.9999993],
+       [0.9999992]], dtype=float32),)
+kwargs = {}
+
+    def guard_cell(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:13: NotImplementedError
+______________ test_exact_guard_boundary_and_neighbor_ticks[-1-1] ______________
+
+sign = 1, offset = -1
+
+    @pytest.mark.parametrize('sign', [-1, 1])
+    @pytest.mark.parametrize('offset', [-1, 0, 1])
+    def test_exact_guard_boundary_and_neighbor_ticks(sign, offset):
+        # Four zeros plus four equal values: equality. Change one of those values by a tick.
+        ticks = [0] * 4 + [sign * 12] * 4
+        ticks[-1] += offset
+        gains = np.array([[1 + t / 2**24] for t in ticks], np.float32)
+>       result = guard_cell(gains)
+                 ^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:139: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (array([[1.       ],
+       [1.       ],
+       [1.       ],
+       [1.       ],
+       [1.0000007],
+       [1.0000007],
+       [1.0000007],
+       [1.0000007]], dtype=float32),)
+kwargs = {}
+
+    def guard_cell(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:13: NotImplementedError
+______________ test_exact_guard_boundary_and_neighbor_ticks[0--1] ______________
+
+sign = -1, offset = 0
+
+    @pytest.mark.parametrize('sign', [-1, 1])
+    @pytest.mark.parametrize('offset', [-1, 0, 1])
+    def test_exact_guard_boundary_and_neighbor_ticks(sign, offset):
+        # Four zeros plus four equal values: equality. Change one of those values by a tick.
+        ticks = [0] * 4 + [sign * 12] * 4
+        ticks[-1] += offset
+        gains = np.array([[1 + t / 2**24] for t in ticks], np.float32)
+>       result = guard_cell(gains)
+                 ^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:139: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (array([[1.       ],
+       [1.       ],
+       [1.       ],
+       [1.       ],
+       [0.9999993],
+       [0.9999993],
+       [0.9999993],
+       [0.9999993]], dtype=float32),)
+kwargs = {}
+
+    def guard_cell(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:13: NotImplementedError
+______________ test_exact_guard_boundary_and_neighbor_ticks[0-1] _______________
+
+sign = 1, offset = 0
+
+    @pytest.mark.parametrize('sign', [-1, 1])
+    @pytest.mark.parametrize('offset', [-1, 0, 1])
+    def test_exact_guard_boundary_and_neighbor_ticks(sign, offset):
+        # Four zeros plus four equal values: equality. Change one of those values by a tick.
+        ticks = [0] * 4 + [sign * 12] * 4
+        ticks[-1] += offset
+        gains = np.array([[1 + t / 2**24] for t in ticks], np.float32)
+>       result = guard_cell(gains)
+                 ^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:139: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (array([[1.       ],
+       [1.       ],
+       [1.       ],
+       [1.       ],
+       [1.0000007],
+       [1.0000007],
+       [1.0000007],
+       [1.0000007]], dtype=float32),)
+kwargs = {}
+
+    def guard_cell(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:13: NotImplementedError
+______________ test_exact_guard_boundary_and_neighbor_ticks[1--1] ______________
+
+sign = -1, offset = 1
+
+    @pytest.mark.parametrize('sign', [-1, 1])
+    @pytest.mark.parametrize('offset', [-1, 0, 1])
+    def test_exact_guard_boundary_and_neighbor_ticks(sign, offset):
+        # Four zeros plus four equal values: equality. Change one of those values by a tick.
+        ticks = [0] * 4 + [sign * 12] * 4
+        ticks[-1] += offset
+        gains = np.array([[1 + t / 2**24] for t in ticks], np.float32)
+>       result = guard_cell(gains)
+                 ^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:139: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (array([[1.        ],
+       [1.        ],
+       [1.        ],
+       [1.        ],
+       [0.9999993 ],
+       [0.9999993 ],
+       [0.9999993 ],
+       [0.99999934]], dtype=float32),)
+kwargs = {}
+
+    def guard_cell(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:13: NotImplementedError
+______________ test_exact_guard_boundary_and_neighbor_ticks[1-1] _______________
+
+sign = 1, offset = 1
+
+    @pytest.mark.parametrize('sign', [-1, 1])
+    @pytest.mark.parametrize('offset', [-1, 0, 1])
+    def test_exact_guard_boundary_and_neighbor_ticks(sign, offset):
+        # Four zeros plus four equal values: equality. Change one of those values by a tick.
+        ticks = [0] * 4 + [sign * 12] * 4
+        ticks[-1] += offset
+        gains = np.array([[1 + t / 2**24] for t in ticks], np.float32)
+>       result = guard_cell(gains)
+                 ^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:139: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (array([[1.       ],
+       [1.       ],
+       [1.       ],
+       [1.       ],
+       [1.0000007],
+       [1.0000007],
+       [1.0000007],
+       [1.0000007]], dtype=float32),)
+kwargs = {}
+
+    def guard_cell(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:13: NotImplementedError
+___________ test_guard_sign_permutation_and_zero_invariants[ticks0] ____________
+
+ticks = [0, 0, 0, 0, 0, 0, ...]
+
+    @pytest.mark.parametrize('ticks', [[0]*8, list(range(-7, 8, 2)), [10]*8, [0]*7+[100]])
+    def test_guard_sign_permutation_and_zero_invariants(ticks):
+        # Use even ticks so both sides of unit are exactly representable.
+        gains = np.array([[1 + 2*t / 2**24] for t in ticks], np.float32)
+>       a = guard_cell(gains)
+            ^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:151: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (array([[1.],
+       [1.],
+       [1.],
+       [1.],
+       [1.],
+       [1.],
+       [1.],
+       [1.]], dtype=float32),)
+kwargs = {}
+
+    def guard_cell(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:13: NotImplementedError
+___________ test_guard_sign_permutation_and_zero_invariants[ticks1] ____________
+
+ticks = [-7, -5, -3, -1, 1, 3, ...]
+
+    @pytest.mark.parametrize('ticks', [[0]*8, list(range(-7, 8, 2)), [10]*8, [0]*7+[100]])
+    def test_guard_sign_permutation_and_zero_invariants(ticks):
+        # Use even ticks so both sides of unit are exactly representable.
+        gains = np.array([[1 + 2*t / 2**24] for t in ticks], np.float32)
+>       a = guard_cell(gains)
+            ^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:151: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (array([[0.99999917],
+       [0.9999994 ],
+       [0.99999964],
+       [0.9999999 ],
+       [1.0000001 ],
+       [1.0000004 ],
+       [1.0000006 ],
+       [1.0000008 ]], dtype=float32),)
+kwargs = {}
+
+    def guard_cell(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:13: NotImplementedError
+___________ test_guard_sign_permutation_and_zero_invariants[ticks2] ____________
+
+ticks = [10, 10, 10, 10, 10, 10, ...]
+
+    @pytest.mark.parametrize('ticks', [[0]*8, list(range(-7, 8, 2)), [10]*8, [0]*7+[100]])
+    def test_guard_sign_permutation_and_zero_invariants(ticks):
+        # Use even ticks so both sides of unit are exactly representable.
+        gains = np.array([[1 + 2*t / 2**24] for t in ticks], np.float32)
+>       a = guard_cell(gains)
+            ^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:151: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (array([[1.0000012],
+       [1.0000012],
+       [1.0000012],
+       [1.0000012],
+       [1.0000012],
+       [1.0000012],
+       [1.0000012],
+       [1.0000012]], dtype=float32),)
+kwargs = {}
+
+    def guard_cell(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:13: NotImplementedError
+___________ test_guard_sign_permutation_and_zero_invariants[ticks3] ____________
+
+ticks = [0, 0, 0, 0, 0, 0, ...]
+
+    @pytest.mark.parametrize('ticks', [[0]*8, list(range(-7, 8, 2)), [10]*8, [0]*7+[100]])
+    def test_guard_sign_permutation_and_zero_invariants(ticks):
+        # Use even ticks so both sides of unit are exactly representable.
+        gains = np.array([[1 + 2*t / 2**24] for t in ticks], np.float32)
+>       a = guard_cell(gains)
+            ^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:151: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (array([[1.       ],
+       [1.       ],
+       [1.       ],
+       [1.       ],
+       [1.       ],
+       [1.       ],
+       [1.       ],
+       [1.0000119]], dtype=float32),)
+kwargs = {}
+
+    def guard_cell(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:13: NotImplementedError
+______________________ test_guard_malformed_family[dtype] ______________________
+
+case = 'dtype'
+
+    @pytest.mark.parametrize('case', ['dtype', 'count', 'empty', 'nan', 'low', 'high'])
+    def test_guard_malformed_family(case):
+        x = np.ones((8, 2), np.float32)
+        if case == 'dtype': x = x.astype(np.float64)
+        elif case == 'count': x = x[:7]
+        elif case == 'empty': x = x[:, :0]
+        else: x[0, 0] = {'nan': np.nan, 'low': .4, 'high': 1.6}[case]
+>       with pytest.raises(ValueError): guard_cell(x)
+                                        ^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:163: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (array([[1., 1.],
+       [1., 1.],
+       [1., 1.],
+       [1., 1.],
+       [1., 1.],
+       [1., 1.],
+       [1., 1.],
+       [1., 1.]]),)
+kwargs = {}
+
+    def guard_cell(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:13: NotImplementedError
+______________________ test_guard_malformed_family[count] ______________________
+
+case = 'count'
+
+    @pytest.mark.parametrize('case', ['dtype', 'count', 'empty', 'nan', 'low', 'high'])
+    def test_guard_malformed_family(case):
+        x = np.ones((8, 2), np.float32)
+        if case == 'dtype': x = x.astype(np.float64)
+        elif case == 'count': x = x[:7]
+        elif case == 'empty': x = x[:, :0]
+        else: x[0, 0] = {'nan': np.nan, 'low': .4, 'high': 1.6}[case]
+>       with pytest.raises(ValueError): guard_cell(x)
+                                        ^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:163: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (array([[1., 1.],
+       [1., 1.],
+       [1., 1.],
+       [1., 1.],
+       [1., 1.],
+       [1., 1.],
+       [1., 1.]], dtype=float32),)
+kwargs = {}
+
+    def guard_cell(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:13: NotImplementedError
+______________________ test_guard_malformed_family[empty] ______________________
+
+case = 'empty'
+
+    @pytest.mark.parametrize('case', ['dtype', 'count', 'empty', 'nan', 'low', 'high'])
+    def test_guard_malformed_family(case):
+        x = np.ones((8, 2), np.float32)
+        if case == 'dtype': x = x.astype(np.float64)
+        elif case == 'count': x = x[:7]
+        elif case == 'empty': x = x[:, :0]
+        else: x[0, 0] = {'nan': np.nan, 'low': .4, 'high': 1.6}[case]
+>       with pytest.raises(ValueError): guard_cell(x)
+                                        ^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:163: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (array([], shape=(8, 0), dtype=float32),), kwargs = {}
+
+    def guard_cell(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:13: NotImplementedError
+_______________________ test_guard_malformed_family[nan] _______________________
+
+case = 'nan'
+
+    @pytest.mark.parametrize('case', ['dtype', 'count', 'empty', 'nan', 'low', 'high'])
+    def test_guard_malformed_family(case):
+        x = np.ones((8, 2), np.float32)
+        if case == 'dtype': x = x.astype(np.float64)
+        elif case == 'count': x = x[:7]
+        elif case == 'empty': x = x[:, :0]
+        else: x[0, 0] = {'nan': np.nan, 'low': .4, 'high': 1.6}[case]
+>       with pytest.raises(ValueError): guard_cell(x)
+                                        ^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:163: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (array([[nan,  1.],
+       [ 1.,  1.],
+       [ 1.,  1.],
+       [ 1.,  1.],
+       [ 1.,  1.],
+       [ 1.,  1.],
+       [ 1.,  1.],
+       [ 1.,  1.]], dtype=float32),)
+kwargs = {}
+
+    def guard_cell(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:13: NotImplementedError
+_______________________ test_guard_malformed_family[low] _______________________
+
+case = 'low'
+
+    @pytest.mark.parametrize('case', ['dtype', 'count', 'empty', 'nan', 'low', 'high'])
+    def test_guard_malformed_family(case):
+        x = np.ones((8, 2), np.float32)
+        if case == 'dtype': x = x.astype(np.float64)
+        elif case == 'count': x = x[:7]
+        elif case == 'empty': x = x[:, :0]
+        else: x[0, 0] = {'nan': np.nan, 'low': .4, 'high': 1.6}[case]
+>       with pytest.raises(ValueError): guard_cell(x)
+                                        ^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:163: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (array([[0.4, 1. ],
+       [1. , 1. ],
+       [1. , 1. ],
+       [1. , 1. ],
+       [1. , 1. ],
+       [1. , 1. ],
+       [1. , 1. ],
+       [1. , 1. ]], dtype=float32),)
+kwargs = {}
+
+    def guard_cell(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:13: NotImplementedError
+______________________ test_guard_malformed_family[high] _______________________
+
+case = 'high'
+
+    @pytest.mark.parametrize('case', ['dtype', 'count', 'empty', 'nan', 'low', 'high'])
+    def test_guard_malformed_family(case):
+        x = np.ones((8, 2), np.float32)
+        if case == 'dtype': x = x.astype(np.float64)
+        elif case == 'count': x = x[:7]
+        elif case == 'empty': x = x[:, :0]
+        else: x[0, 0] = {'nan': np.nan, 'low': .4, 'high': 1.6}[case]
+>       with pytest.raises(ValueError): guard_cell(x)
+                                        ^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:163: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (array([[1.6, 1. ],
+       [1. , 1. ],
+       [1. , 1. ],
+       [1. , 1. ],
+       [1. , 1. ],
+       [1. , 1. ],
+       [1. , 1. ],
+       [1. , 1. ]], dtype=float32),)
+kwargs = {}
+
+    def guard_cell(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:13: NotImplementedError
+_______________ test_endpoint_rounding_ambiguity_is_not_pass[-1] _______________
+
+direction = -1
+
+    @pytest.mark.parametrize('direction', [-1, 1])
+    def test_endpoint_rounding_ambiguity_is_not_pass(direction):
+        lo = float(np.float32(.75)); hi = float(np.nextafter(np.float32(.75), np.float32(1)))
+        center = (lo + hi) / 2
+        reference = {'double_gains':np.array([center]), 'gains':np.array([center], np.float32), 'electrical_double_gains':np.array([center]), 'electrical_gains':np.array([center], np.float32)}
+        producer = {k:v.copy() for k,v in reference.items()}
+        for n in ['double_gains','electrical_double_gains']:
+            producer[n][0] += direction * 1e-12
+            producer[n.replace('double_', '')] = producer[n].astype(np.float32)
+>       result = compare_endpoints(reference, producer)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:175: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = ({'double_gains': array([0.75000003]), 'gains': array([0.75], dtype=float32), 'electrical_double_gains': array([0.7500...75], dtype=float32), 'electrical_double_gains': array([0.75000003]), 'electrical_gains': array([0.75], dtype=float32)})
+kwargs = {}
+
+    def compare_endpoints(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:9: NotImplementedError
+_______________ test_endpoint_rounding_ambiguity_is_not_pass[1] ________________
+
+direction = 1
+
+    @pytest.mark.parametrize('direction', [-1, 1])
+    def test_endpoint_rounding_ambiguity_is_not_pass(direction):
+        lo = float(np.float32(.75)); hi = float(np.nextafter(np.float32(.75), np.float32(1)))
+        center = (lo + hi) / 2
+        reference = {'double_gains':np.array([center]), 'gains':np.array([center], np.float32), 'electrical_double_gains':np.array([center]), 'electrical_gains':np.array([center], np.float32)}
+        producer = {k:v.copy() for k,v in reference.items()}
+        for n in ['double_gains','electrical_double_gains']:
+            producer[n][0] += direction * 1e-12
+            producer[n.replace('double_', '')] = producer[n].astype(np.float32)
+>       result = compare_endpoints(reference, producer)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:175: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = ({'double_gains': array([0.75000003]), 'gains': array([0.75], dtype=float32), 'electrical_double_gains': array([0.7500...type=float32), 'electrical_double_gains': array([0.75000003]), 'electrical_gains': array([0.75000006], dtype=float32)})
+kwargs = {}
+
+    def compare_endpoints(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:9: NotImplementedError
+_________ test_endpoint_outside_fixed_allowance_fails_even_if_same_f32 _________
+
+    def test_endpoint_outside_fixed_allowance_fails_even_if_same_f32():
+        r = {n:np.ones(2, np.float64 if 'double' in n else np.float32) for n in ['double_gains','gains','electrical_double_gains','electrical_gains']}
+        p = {k:v.copy() for k,v in r.items()}; p['double_gains'][0] += 2e-11
+>       assert compare_endpoints(r,p)['status'] == 'failed_double_comparison'
+               ^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:183: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = ({'double_gains': array([1., 1.]), 'gains': array([1., 1.], dtype=float32), 'electrical_double_gains': array([1., 1.])..., 1.], dtype=float32), 'electrical_double_gains': array([1., 1.]), 'electrical_gains': array([1., 1.], dtype=float32)})
+kwargs = {}
+
+    def compare_endpoints(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:9: NotImplementedError
+=========================== short test summary info ============================
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_full_pair_and_finite_tail_from_independent_formula[0.25--100]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_full_pair_and_finite_tail_from_independent_formula[0.25-0]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_full_pair_and_finite_tail_from_independent_formula[0.25-100]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_full_pair_and_finite_tail_from_independent_formula[1.0--100]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_full_pair_and_finite_tail_from_independent_formula[1.0-0]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_full_pair_and_finite_tail_from_independent_formula[1.0-100]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_full_pair_and_finite_tail_from_independent_formula[8.0--100]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_full_pair_and_finite_tail_from_independent_formula[8.0-0]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_full_pair_and_finite_tail_from_independent_formula[8.0-100]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_full_pair_and_finite_tail_from_independent_formula[10000.0--100]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_full_pair_and_finite_tail_from_independent_formula[10000.0-0]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_full_pair_and_finite_tail_from_independent_formula[10000.0-100]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_all_bridge_fields_against_separately_frozen_producer[True-7]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_all_bridge_fields_against_separately_frozen_producer[True-23]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_all_bridge_fields_against_separately_frozen_producer[True-51]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_all_bridge_fields_against_separately_frozen_producer[False-7]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_all_bridge_fields_against_separately_frozen_producer[False-23]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_all_bridge_fields_against_separately_frozen_producer[False-51]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_quiet_no_dan_and_cold_onset[none]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_quiet_no_dan_and_cold_onset[before]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_quiet_no_dan_and_cold_onset[at]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_bound_contacts_and_frozen_checkpoint_policy[False-0.5]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_bound_contacts_and_frozen_checkpoint_policy[False-1.0]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_bound_contacts_and_frozen_checkpoint_policy[False-1.5]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_bound_contacts_and_frozen_checkpoint_policy[True-0.5]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_bound_contacts_and_frozen_checkpoint_policy[True-1.0]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_bound_contacts_and_frozen_checkpoint_policy[True-1.5]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_clipping_uses_interval_accumulator_not_pair_gain
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_separate_phase_areas_match_direct_event_quadrature
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_exact_guard_boundary_and_neighbor_ticks[-1--1]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_exact_guard_boundary_and_neighbor_ticks[-1-1]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_exact_guard_boundary_and_neighbor_ticks[0--1]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_exact_guard_boundary_and_neighbor_ticks[0-1]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_exact_guard_boundary_and_neighbor_ticks[1--1]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_exact_guard_boundary_and_neighbor_ticks[1-1]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_guard_sign_permutation_and_zero_invariants[ticks0]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_guard_sign_permutation_and_zero_invariants[ticks1]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_guard_sign_permutation_and_zero_invariants[ticks2]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_guard_sign_permutation_and_zero_invariants[ticks3]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_guard_malformed_family[dtype]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_guard_malformed_family[count]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_guard_malformed_family[empty]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_guard_malformed_family[nan]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_guard_malformed_family[low]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_guard_malformed_family[high]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_endpoint_rounding_ambiguity_is_not_pass[-1]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_endpoint_rounding_ambiguity_is_not_pass[1]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_endpoint_outside_fixed_allowance_fails_even_if_same_f32
+48 failed in 0.43s

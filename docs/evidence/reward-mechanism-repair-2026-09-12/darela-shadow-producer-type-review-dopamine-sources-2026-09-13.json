@@ -1,0 +1,49 @@
+{
+  "agent": "/root/dopamine_sources",
+  "at_utc": "2026-09-13T13:23:18.676950+00:00",
+  "status": "PASS rejection-only producer terminal-type delta review; not machine-plan or execution acceptance",
+  "prior_review": {
+    "path": "output/collaboration/reward-mechanism-repair/darela-shadow-producer-code-review-dopamine-sources-2026-09-13.json",
+    "bytes": 5094,
+    "sha256": "32ea9f21e7dcac12842f1ac241b4a64b721850847e0639842404e83bb34d86e9"
+  },
+  "writer_delta_receipt": {
+    "path": "output/collaboration/reward-mechanism-repair/darela-shadow-producer-type-correction-evidence-ui-2026-09-13.json",
+    "bytes": 3007,
+    "sha256": "4e2f99f53f9e0edd3dc74568475d717c3d7fcb5f0ca49f8dccc8db1644e2ce6c"
+  },
+  "personally_read_final_diffs_against_preserved_reviewed_sources": [
+    {
+      "path": "output/collaboration/reward-mechanism-repair/run_darela_shadow.py",
+      "bytes": 33488,
+      "sha256": "924e23bb1d3e09e7b600fabc364783ed6440181ac3d69e4695a6a110d0a036eb"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py",
+      "bytes": 19805,
+      "sha256": "9c22d425740b16bf9050b86d699b2818cdbde37d77d87105fe6742083ebab319"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/launch_darela_shadow.py",
+      "bytes": 4370,
+      "sha256": "5832c26a51aea93b789a16b603efbd5c380bf114cdfdb46e2bb05cb9ca303086"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/test_launch_darela_shadow.py",
+      "bytes": 3740,
+      "sha256": "f88d7d1206b3f83b19f1ec65a6150b2c8e252bd8381ad4534a20d11d2a21aa17"
+    }
+  ],
+  "checks": [
+    "Exact typed helper counts, row indices, bound observations and zero native/network call fields reject bool/float substitutions.",
+    "Saved identity uses typed JSON equality; numeric elapsed fields reject booleans and out-of-cap values.",
+    "Launcher exit code must be integer0 with exact timed_out=False and child_reaped=True.",
+    "Seven saved-terminal corruption cases and four launcher status corruption cases preserve rehashed identities and exercise the bug family.",
+    "Candidate equations, parameters, masks, all32 selectors, all8 guard criteria and complete-tail calculation unchanged."
+  ],
+  "test_evidence": "Writer reports121 synthetic producer/launcher cases andRuff passing; this reviewer personally read the final diffs/fixtures and receipt but executed no tests.",
+  "reading": "Current205 inclusive narrative corpus reconciled by the prior203 actual-reading chain plus two byte-identical canonical copies of already fully read prereg/audit-contract pages; no unread changed narratives.",
+  "unresolved_findings": [],
+  "remaining": "Final independent-auditor correction review and external final machine-plan binding review.",
+  "operations": "Read-only file/diff/hash checks and this unique output-onlyJSON; no history, model, source, native, audit, network or test execution."
+}

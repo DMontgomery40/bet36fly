@@ -1,0 +1,13 @@
+{
+  "files": [
+    "AGENTS.md",
+    "docs/REWARD_REPAIR_HANDOFF.md",
+    "docs/evidence/reward-mechanism-repair-2026-09-12/index.md",
+    "wiki/reassessment.md",
+    "wiki/cells/dopamine-receptor-signaling.md",
+    "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-result-2026-09-13.md"
+  ],
+  "local_links_checked": 204,
+  "missing": [],
+  "passed": true
+}

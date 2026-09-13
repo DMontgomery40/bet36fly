@@ -1,0 +1,447 @@
+{
+  "status": "computed",
+  "run_id": "darela-shadow-bc6993b67befdb3a6c2d",
+  "screen": "pending_independent_audit",
+  "completed": 32,
+  "candidate_guards": {
+    "diag-rate-bridge-v1-maskgamma-de050d773763/base/home": {
+      "ticks": [
+        -1966741,
+        -429170,
+        1167531,
+        -2420380,
+        -13668365,
+        -2950667,
+        -5861263,
+        -1496320
+      ],
+      "edge_count": 4184,
+      "games": [
+        4362,
+        4366,
+        4370,
+        4374,
+        4378,
+        4383,
+        4387,
+        4391
+      ],
+      "mean": -0.2058250829577446,
+      "sample_sd": 0.27407256781026185,
+      "limit": 0.13703628390513092,
+      "passed": false
+    },
+    "diag-rate-bridge-v1-maskgamma-de050d773763/base/away": {
+      "ticks": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "edge_count": 3239,
+      "games": [
+        4362,
+        4366,
+        4370,
+        4374,
+        4378,
+        4383,
+        4387,
+        4391
+      ],
+      "mean": 0.0,
+      "sample_sd": 0.0,
+      "limit": 0.0,
+      "passed": true
+    },
+    "diag-rate-bridge-v1-maskgamma-de050d773763/alt/home": {
+      "ticks": [
+        -1917440,
+        1854728,
+        -4982932,
+        -3515838,
+        -5900484,
+        5557614,
+        -6749349,
+        -5303038
+      ],
+      "edge_count": 4184,
+      "games": [
+        4362,
+        4366,
+        4370,
+        4374,
+        4378,
+        4383,
+        4387,
+        4391
+      ],
+      "mean": -0.15613987296819687,
+      "sample_sd": 0.2556634474361028,
+      "limit": 0.1278317237180514,
+      "passed": false
+    },
+    "diag-rate-bridge-v1-maskgamma-de050d773763/alt/away": {
+      "ticks": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "edge_count": 3239,
+      "games": [
+        4362,
+        4366,
+        4370,
+        4374,
+        4378,
+        4383,
+        4387,
+        4391
+      ],
+      "mean": 0.0,
+      "sample_sd": 0.0,
+      "limit": 0.0,
+      "passed": true
+    },
+    "diag-rate-bridge-v1-maskgamma-dea14759e9ca/base/home": {
+      "ticks": [
+        -9772919,
+        -6085538,
+        1944791,
+        -2749792,
+        -1483093,
+        -1648722,
+        -35983141,
+        -3753376
+      ],
+      "edge_count": 4184,
+      "games": [
+        4395,
+        4399,
+        4404,
+        4408,
+        4412,
+        4416,
+        4420,
+        4425
+      ],
+      "mean": -0.443546399474144,
+      "sample_sd": 0.7176201031936715,
+      "limit": 0.35881005159683577,
+      "passed": false
+    },
+    "diag-rate-bridge-v1-maskgamma-dea14759e9ca/base/away": {
+      "ticks": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "edge_count": 3239,
+      "games": [
+        4395,
+        4399,
+        4404,
+        4408,
+        4412,
+        4416,
+        4420,
+        4425
+      ],
+      "mean": 0.0,
+      "sample_sd": 0.0,
+      "limit": 0.0,
+      "passed": true
+    },
+    "diag-rate-bridge-v1-maskgamma-dea14759e9ca/alt/home": {
+      "ticks": [
+        -2451707,
+        1751500,
+        -7409152,
+        -5442514,
+        -4339380,
+        1754772,
+        -4615435,
+        -2618440
+      ],
+      "edge_count": 4184,
+      "games": [
+        4395,
+        4399,
+        4404,
+        4408,
+        4412,
+        4416,
+        4420,
+        4425
+      ],
+      "mean": -0.17412272095680237,
+      "sample_sd": 0.19561033143960746,
+      "limit": 0.09780516571980373,
+      "passed": false
+    },
+    "diag-rate-bridge-v1-maskgamma-dea14759e9ca/alt/away": {
+      "ticks": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "edge_count": 3239,
+      "games": [
+        4395,
+        4399,
+        4404,
+        4408,
+        4412,
+        4416,
+        4420,
+        4425
+      ],
+      "mean": 0.0,
+      "sample_sd": 0.0,
+      "limit": 0.0,
+      "passed": true
+    }
+  },
+  "original_guards": {
+    "diag-rate-bridge-v1-maskgamma-de050d773763/base/home": {
+      "ticks": [
+        -627562,
+        -177805,
+        4269724,
+        -2263377,
+        -10653845,
+        348814,
+        -4004140,
+        -829028
+      ],
+      "edge_count": 4184,
+      "games": [
+        4362,
+        4366,
+        4370,
+        4374,
+        4378,
+        4383,
+        4387,
+        4391
+      ],
+      "mean": -0.10384037345647812,
+      "sample_sd": 0.25671016092650883,
+      "limit": 0.12835508046325442,
+      "passed": true
+    },
+    "diag-rate-bridge-v1-maskgamma-de050d773763/base/away": {
+      "ticks": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "edge_count": 3239,
+      "games": [
+        4362,
+        4366,
+        4370,
+        4374,
+        4378,
+        4383,
+        4387,
+        4391
+      ],
+      "mean": 0.0,
+      "sample_sd": 0.0,
+      "limit": 0.0,
+      "passed": true
+    },
+    "diag-rate-bridge-v1-maskgamma-de050d773763/alt/home": {
+      "ticks": [
+        -1197315,
+        1976768,
+        -1809420,
+        -3329277,
+        -3548302,
+        8562684,
+        -4896764,
+        -3944129
+      ],
+      "edge_count": 4184,
+      "games": [
+        4362,
+        4366,
+        4370,
+        4374,
+        4378,
+        4383,
+        4387,
+        4391
+      ],
+      "mean": -0.06098862737417221,
+      "sample_sd": 0.2634651416578477,
+      "limit": 0.13173257082892384,
+      "passed": true
+    },
+    "diag-rate-bridge-v1-maskgamma-de050d773763/alt/away": {
+      "ticks": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "edge_count": 3239,
+      "games": [
+        4362,
+        4366,
+        4370,
+        4374,
+        4378,
+        4383,
+        4387,
+        4391
+      ],
+      "mean": 0.0,
+      "sample_sd": 0.0,
+      "limit": 0.0,
+      "passed": true
+    },
+    "diag-rate-bridge-v1-maskgamma-dea14759e9ca/base/home": {
+      "ticks": [
+        -7749919,
+        -3926842,
+        2512513,
+        -1347785,
+        112668,
+        -505695,
+        -23108797,
+        -2579269
+      ],
+      "edge_count": 4184,
+      "games": [
+        4395,
+        4399,
+        4404,
+        4408,
+        4412,
+        4416,
+        4420,
+        4425
+      ],
+      "mean": -0.27264003455638885,
+      "sample_sd": 0.48169047084658934,
+      "limit": 0.24084523542329467,
+      "passed": false
+    },
+    "diag-rate-bridge-v1-maskgamma-dea14759e9ca/base/away": {
+      "ticks": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "edge_count": 3239,
+      "games": [
+        4395,
+        4399,
+        4404,
+        4408,
+        4412,
+        4416,
+        4420,
+        4425
+      ],
+      "mean": 0.0,
+      "sample_sd": 0.0,
+      "limit": 0.0,
+      "passed": true
+    },
+    "diag-rate-bridge-v1-maskgamma-dea14759e9ca/alt/home": {
+      "ticks": [
+        -854839,
+        3205922,
+        -6578258,
+        -4422376,
+        -3179134,
+        2094344,
+        1497915,
+        -1716703
+      ],
+      "edge_count": 4184,
+      "games": [
+        4395,
+        4399,
+        4404,
+        4408,
+        4412,
+        4416,
+        4420,
+        4425
+      ],
+      "mean": -0.07415658980607986,
+      "sample_sd": 0.20293166987276323,
+      "limit": 0.10146583493638162,
+      "passed": true
+    },
+    "diag-rate-bridge-v1-maskgamma-dea14759e9ca/alt/away": {
+      "ticks": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "edge_count": 3239,
+      "games": [
+        4395,
+        4399,
+        4404,
+        4408,
+        4412,
+        4416,
+        4420,
+        4425
+      ],
+      "mean": 0.0,
+      "sample_sd": 0.0,
+      "limit": 0.0,
+      "passed": true
+    }
+  },
+  "gain_bound_observations": 0,
+  "provisional_screen": "rejected_fixed_hypothesis",
+  "native_calls": 0,
+  "network_calls": 0,
+  "scope": "Conditional fixed-spike rejection screen; no qualification or learning claim"
+}

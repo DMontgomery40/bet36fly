@@ -1,0 +1,136 @@
+{
+  "schema": 1,
+  "agent": "/root/delivered_arrivals",
+  "created_at_utc": "2026-09-13T13:39:56.709401+00:00",
+  "status": "final_reading_and_claim_review_passed",
+  "material_findings": [],
+  "reading": {
+    "prior_complete_personal_chain": {
+      "path": "output/collaboration/reward-mechanism-repair/darela-shadow-audit-preparation-delivered-arrivals-2026-09-13.json",
+      "bytes": 57894,
+      "sha256": "ed4fb65b660b9d95908cf620f656e814f0561af4796bdf01d0632d2364d68102"
+    },
+    "current_narrative_count": 206,
+    "unchanged_personally_read_paths": 200,
+    "changed_personally_read": [
+      {
+        "path": "AGENTS.md",
+        "bytes": 7111,
+        "sha256": "05ebc5f01bf3f201da5b08acc49d1e8fd7ec204f8b5d598eb3ebf3e27b53f6b1",
+        "prior_sha256": "5977d1824326e231ae2a5a117382f386c5cb7f729adc7c95722dae6f32292fe6",
+        "method": "Full changed text personally read against byte-verified previously read Git HEAD body."
+      },
+      {
+        "path": "docs/REWARD_REPAIR_HANDOFF.md",
+        "bytes": 67163,
+        "sha256": "74b719997d3d7171a4c905774654339f11a8e598f6cc366474b5fb9d9c08ea58",
+        "prior_sha256": "30d5df134821ef1070d47a4488982d4ce175b3eb32330c33c52e720895703352",
+        "method": "Full changed text personally read against byte-verified previously read Git HEAD body."
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/index.md",
+        "bytes": 25832,
+        "sha256": "e4310d196ad7908d905fe8c9684d0f51c960112ebcdfd04582179ed7c1e6df1b",
+        "prior_sha256": "0399eeffb8dee3746c8cf0a54264fe95534fa6380271f46de92cc38d42e3eefe",
+        "method": "Full changed text personally read against byte-verified previously read Git HEAD body."
+      },
+      {
+        "path": "wiki/cells/dopamine-receptor-signaling.md",
+        "bytes": 8973,
+        "sha256": "7eb2b1a81a30c2f801359942691f7876318db9eea279a79df3602639344a65aa",
+        "prior_sha256": "0c807aa3df632e096a59510c94f950529f96021728f34de65f25a786505ec5f5",
+        "method": "Full changed text personally read against byte-verified previously read Git HEAD body."
+      },
+      {
+        "path": "wiki/reassessment.md",
+        "bytes": 15939,
+        "sha256": "33d2b849815a3ebbabe8b814ed9bd8eaa35a7090d6f9efc72250f4884a2d478d",
+        "prior_sha256": "ff22141768b07f8bcc0f146da14d64d088932171ecc74e93494ccf87283a9e40",
+        "method": "Full changed text personally read against byte-verified previously read Git HEAD body."
+      }
+    ],
+    "new_personally_read": [
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-result-2026-09-13.md",
+        "bytes": 7931,
+        "sha256": "59aebdc22431f791f5b0bd45d0392d044169c750dc70d2af51de79bc3771b1dd",
+        "method": "Entire narrative personally read."
+      }
+    ],
+    "unread_paths": [],
+    "current_inventory_sha256": "8b37d6f91e7a022646d81ba3aaa6f25bb891768ef7b5e55e4f456570e62e254a"
+  },
+  "saved_result_review": {
+    "path": "output/collaboration/reward-mechanism-repair/darela-shadow-independent-saved-result-review-delivered-arrivals-2026-09-13.json",
+    "bytes": 46232,
+    "sha256": "defa54a33523abe4e451b8c3c68e55add6fed6775e2af882ed9ae64c4e206718"
+  },
+  "claims_checked": [
+    "Exact guard table, four home failures/four zero-away passes and numerical tolerances agree with completed independently reviewed artifacts.",
+    "All32 home trial sums are strictly more depressive; recomputed exact binary32-derived home sums from saved gain arrays agree with every comparison row.",
+    "All24 table identities match retained body/graph maps; CSV and JSON agree; event counts, pre/onset partition, release masses, event mass extrema and all final factor ranges agree with saved arrays.",
+    "PPL101 right11327:544events/132pre/412admitted; left11900:524/126/398. Remaining22PAM12havezero events in these untaught recordings.",
+    "Dimensionless engineered release, finite reset/source transfer, no isolated individual-DAN causal claim, no recurrent feedback, no acquisition/reversal and unchanged production limitations remain explicit.",
+    "Completed execution times and567424exactF32 endpoints/zeroambiguity/zerobounds agree with parent and independent audit evidence."
+  ],
+  "descriptive_saved_table_check": {
+    "rows": 24,
+    "histories": 32,
+    "body_identity_exact": true,
+    "integer_event_counts_exact": true,
+    "csv_json_exact": true,
+    "endpoint_ranges_exact": true,
+    "mass_reduction_comparison_atol": 1e-12,
+    "mass_reduction_comparison_rtol": 1e-14,
+    "scope": "Saved array descriptive reductions only; no release/helper/source/neural evaluation."
+  },
+  "table_bindings": [
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-cells/cell-summary.csv",
+      "bytes": 1630,
+      "sha256": "06d800330824b7bd0fe109a1fdb52cae414a1a40198aabbe5b03656d8ac799c8"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-cells/cell-summary.json",
+      "bytes": 18754,
+      "sha256": "3a5bd55ef0d1a805d677028ba277459d5ec2cc8b50fbfcf7a214ce61d08d5123"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-home-trial-comparison-2026-09-13.json",
+      "bytes": 11692,
+      "sha256": "1b4e6d0e811bc292c9880342707c633e35083d083dc10aa0184ed43772c1238b"
+    }
+  ],
+  "copy_review": {
+    "manifest": {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-result-copy-manifest-2026-09-13.json",
+      "bytes": 71559,
+      "sha256": "84ac7a6841557021a9d03d22078971278f47e8cbbe2b31fb9f2d6f30117dd94b"
+    },
+    "source_copy_entries": 197,
+    "aggregate_bytes": 22817263,
+    "every_original_and_copy_exists_and_matches_manifest": true,
+    "scope": "This result-copy manifest only; revised code inventory and broad protected historical inventory are separately owned by root."
+  },
+  "verification_logs": [
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-canonical-final-tests-2026-09-13.txt",
+      "bytes": 879,
+      "sha256": "f27c1f608bf52b27de01fd86286630afd82a886c5964123bae47dc049690e503"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-make-verify-2026-09-13.log",
+      "bytes": 6297,
+      "sha256": "1f9f9ab0d3bf96ff56cb960747b1ad78a96de6669afef3ab9c0f531316831b5f"
+    }
+  ],
+  "actions": {
+    "numerical_script_reruns": 0,
+    "source_calls": 0,
+    "native_calls": 0,
+    "network_calls": 0,
+    "production_or_narrative_edits": 0,
+    "new_tests": 0
+  },
+  "conclusion": "Final narrative claims are supported and preserve the rejected fixed hypothesis and unfinished learning-goal boundary."
+}

@@ -1,0 +1,290 @@
+{
+  "index": 6,
+  "metadata": {
+    "game": 4374,
+    "seed_set": "base",
+    "seed": 4416,
+    "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+  },
+  "artifact": {
+    "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_06.npz",
+    "bytes": 275500,
+    "sha256": "902a53b6119578c97cf87ab9fa9183d021e11a2a56b26c845c4c4238f4adb978"
+  },
+  "arrays": {
+    "gains": {
+      "dtype": "float32",
+      "shape": [
+        8866
+      ],
+      "sha256": "847732a2ecf457682a83dd4109a0c8bf5dc06997e225ffdf04a28ad97147e5f2"
+    },
+    "double_gains": {
+      "dtype": "float64",
+      "shape": [
+        8866
+      ],
+      "sha256": "979bfa7c6a0373d4bc743b3383799a9c05b01691a9ee792223c159ade28d067d"
+    },
+    "electrical_gains": {
+      "dtype": "float32",
+      "shape": [
+        8866
+      ],
+      "sha256": "ed45654e67f8fcc6482a16a187122922c64ad9f87d8adf4010a5999c4297fdaf"
+    },
+    "electrical_double_gains": {
+      "dtype": "float64",
+      "shape": [
+        8866
+      ],
+      "sha256": "f67ba25cd8d73289c69e402d3ca4164e1812955480d2228d416df62a2de7f8fd"
+    },
+    "edge_phases": {
+      "dtype": "float64",
+      "shape": [
+        4,
+        8866,
+        8
+      ],
+      "sha256": "e6d0f2279391051f8ecec463cdc2c4d03c19c8411d5d4094bdf5183b8467c686"
+    },
+    "group_phases": {
+      "dtype": "float64",
+      "shape": [
+        4,
+        8,
+        8
+      ],
+      "sha256": "62fe5488f1918e3d965780750c150630bcfc9b4eda1a8232f5c33240a57d8c64"
+    },
+    "publication_counts": {
+      "dtype": "int64",
+      "shape": [
+        4,
+        8866
+      ],
+      "sha256": "d760719dcbe70da3281ade08306662ed1623ec542a779a91a99070b234b76445"
+    },
+    "bound_counts": {
+      "dtype": "int64",
+      "shape": [
+        2,
+        8866
+      ],
+      "sha256": "708844e5c08a8997898e891451d1c21c7f6e5d5c5acdac23d119121f73b20511"
+    },
+    "endpoint_kc": {
+      "dtype": "float64",
+      "shape": [
+        4064,
+        2
+      ],
+      "sha256": "dc1d0f46031f64dadad30361dfa00ed18147f38862eef43084ea299781a60c02"
+    },
+    "endpoint_dan": {
+      "dtype": "float64",
+      "shape": [
+        2,
+        2
+      ],
+      "sha256": "0dec2da362acc8900fa4eacc4bf8c9ba58fbba87b4f1a2e96a9e62616f6cfd8e"
+    },
+    "per_cell_release": {
+      "dtype": "float64",
+      "shape": [
+        2000,
+        24
+      ],
+      "sha256": "59a78fbc57c5afae26d36ec986b4de4d5d17c5b15b05957c69bd15450092a833"
+    },
+    "pooled_release": {
+      "dtype": "float64",
+      "shape": [
+        2000,
+        2
+      ],
+      "sha256": "5a7232aa894e08ad141aaa44d8b0b00bdedf09151549552cdf50fb344d2baaac"
+    },
+    "state_before": {
+      "dtype": "float64",
+      "shape": [
+        2000,
+        24,
+        3
+      ],
+      "sha256": "830b4d5e252fcfeed991103bcf22f50da5fafa16fe3265f82726cd4600005ef4"
+    },
+    "state_after": {
+      "dtype": "float64",
+      "shape": [
+        2000,
+        24,
+        3
+      ],
+      "sha256": "d48e6b119b1b1c1375992cea1f9d3d7611b072dd6a28a48c2044eff34e1a43f0"
+    },
+    "endpoint_state": {
+      "dtype": "float64",
+      "shape": [
+        24,
+        3
+      ],
+      "sha256": "d3112f916dafc6c5155ec9c367ed0bf63c607e711ec8ce4c76bd4b49f7bc4c85"
+    },
+    "initial_gains": {
+      "dtype": "float32",
+      "shape": [
+        8866
+      ],
+      "sha256": "e6cb0830b4841cb8f58bc4a8c76b552f5b1f8def40464661e9d6acc572204a5e"
+    },
+    "original_gains": {
+      "dtype": "float32",
+      "shape": [
+        8866
+      ],
+      "sha256": "cd9666e5663142a581a85a2239908c58493836ce95eb6733a7dc78ab5511f00e"
+    },
+    "original_gain_delta": {
+      "dtype": "float32",
+      "shape": [
+        8866
+      ],
+      "sha256": "f05835641dc37d1f7996dc26ebc11d1c0e44a1dd66e0e8f66b083b734b6ce5e0"
+    },
+    "raw_dan_events": {
+      "dtype": "int32",
+      "shape": [
+        2000,
+        24
+      ],
+      "sha256": "223d864127324b974340570e2ce97337092c62be0b2e82be28c9270e1fcf9b89"
+    },
+    "raw_kc_event_totals": {
+      "dtype": "int64",
+      "shape": [
+        4064
+      ],
+      "sha256": "aeaa5f3fe009909c1495540c3c6a3d31b277bdaa5b925b1facd61b465b960c3a"
+    },
+    "raw_dan_event_totals": {
+      "dtype": "int64",
+      "shape": [
+        24
+      ],
+      "sha256": "67e6b5641c549a940247eb489c2c1ce5ab858227fc9e2adc1428f93621035f1e"
+    },
+    "raw_compartment_event_counts": {
+      "dtype": "int64",
+      "shape": [
+        2000,
+        2
+      ],
+      "sha256": "bbe9abe71e4077f4f9856c52f1c23174a9b8b9bde495dfa3de0183fbe5fc7cbd"
+    },
+    "map__plastic_kc_indices": {
+      "dtype": "int32",
+      "shape": [
+        8866
+      ],
+      "sha256": "9cab1618c27af53d1bae1c5964f5963789f57867bb5e63eee9b58ed14b191c85"
+    },
+    "map__plastic_compartments": {
+      "dtype": "int32",
+      "shape": [
+        8866
+      ],
+      "sha256": "5e41a545bdfd13aadb4a9d6a0eb0de421d8b36460fd1e9dccfbf0f001e095a3f"
+    },
+    "map__plastic_mask": {
+      "dtype": "uint8",
+      "shape": [
+        8866
+      ],
+      "sha256": "6ca501a48beba5b5ff82d7ba583501e3d0eae8da72d395c2b1a32f849d92484a"
+    },
+    "map__plastic_groups": {
+      "dtype": "int32",
+      "shape": [
+        8866
+      ],
+      "sha256": "958a66b6c5494776d7f75f0e82adc08d323a9d3e0ccca4a75891969640a0ebca"
+    },
+    "map__sample": {
+      "dtype": "int32",
+      "shape": [
+        4774
+      ],
+      "sha256": "892a1b417865b185b2bc8ef8505cc1d90607a56276f4a98db5ae8bb166b2ecf9"
+    },
+    "map__body_ids": {
+      "dtype": "int64",
+      "shape": [
+        4774
+      ],
+      "sha256": "a429784837fc6899c8a6da617782ebbf455eaac91ce46611181fa225830800ad"
+    },
+    "map__kc_indices": {
+      "dtype": "int32",
+      "shape": [
+        4064
+      ],
+      "sha256": "9e990d10a63b0f74cd7bbbdc5369082f24d5246487af944ba289bc6bf48d4b75"
+    },
+    "map__dan_indices": {
+      "dtype": "int32",
+      "shape": [
+        24
+      ],
+      "sha256": "10604e7110f8a38863a59e8b9313b467d900ba78ab969f0b074ce61d294d8db2"
+    },
+    "map__sensory_indices": {
+      "dtype": "int32",
+      "shape": [
+        686
+      ],
+      "sha256": "56c4eb47cb535fcf990017b13a29d026f91a28397e6c206bd24a99598d2588ff"
+    },
+    "map__dan_compartments": {
+      "dtype": "int32",
+      "shape": [
+        24
+      ],
+      "sha256": "47c40d17d83b074658ca32bc9ff98aae5915134bc8af85ab99e4dc6ac7eafc9d"
+    },
+    "map__kc_columns": {
+      "dtype": "int32",
+      "shape": [
+        4064
+      ],
+      "sha256": "d4e942c154f75f8e58b322bd2151d7ae4ed276a014e55b4facc595ea76d3ec15"
+    },
+    "map__dan_columns": {
+      "dtype": "int32",
+      "shape": [
+        24
+      ],
+      "sha256": "6823d31cdbad46636387eb8fdedb16a6836bf564192f433f77c7dd8f0ab14a06"
+    },
+    "map__sensory_columns": {
+      "dtype": "int32",
+      "shape": [
+        686
+      ],
+      "sha256": "87897dba393b3af7a3e9861cc2b344345072bffd6c779d209d63a26aa7f986ad"
+    }
+  },
+  "fields": [
+    "positive",
+    "negative",
+    "attempted",
+    "applied_double",
+    "applied_published",
+    "low_count",
+    "high_count",
+    "absolute_area"
+  ],
+  "original_electrical_available": false,
+  "gain_bound_observations": 0
+}

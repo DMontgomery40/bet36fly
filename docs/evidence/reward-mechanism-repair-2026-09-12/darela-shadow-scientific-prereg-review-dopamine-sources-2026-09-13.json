@@ -1,0 +1,90 @@
+{
+  "agent": "/root/dopamine_sources",
+  "at_utc": "2026-09-13T12:54:38.972525+00:00",
+  "checkpoint": "13966a2a0cb6e4b8219d8cc9fa9349e87b396bba",
+  "status": "PASS scientific preregistration review; machine-contract freeze review remains separate",
+  "reading": {
+    "prior202_file_receipt": {
+      "path": "output/collaboration/reward-mechanism-repair/darela-final-reading-claim-review-dopamine-sources-2026-09-13.json",
+      "bytes": 5720,
+      "sha256": "f4546adec13a64b39743472bc61744034b50e70b597bec5ba8d9fb3eb4673d4a"
+    },
+    "root_README_supplement": {
+      "path": "output/collaboration/reward-mechanism-repair/darela-readme-coverage-supplement-dopamine-sources-2026-09-13.json",
+      "bytes": 1004,
+      "sha256": "f129e5e340c5ae5fb6a8ad12b4f09d02b4d52db959f94c100e880d936ece1be1"
+    },
+    "all203_current_narratives_unchanged_and_personally_covered": true,
+    "new_narratives_personally_read_in_full": [
+      {
+        "path": "output/collaboration/reward-mechanism-repair/darela-shadow-preregistration-2026-09-13.md",
+        "bytes": 9394,
+        "sha256": "63e88a1d968761e6f7182859ece4d0a12535130be2362d2c3e16acf2a7c9d492"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/darela-shadow-independent-audit-contract-2026-09-13.md",
+        "bytes": 6185,
+        "sha256": "eb4f8ed92c7c4e15895989211371b77e61b176be67cc02902f9e8f17daff94c7"
+      }
+    ],
+    "additional_implementation_read_in_full": {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/darela_release.py",
+      "bytes": 5060,
+      "sha256": "30d93ce99faca56a1fc862d4691b234ac70a89c7f4e638e475fdcd31576ecbe0"
+    },
+    "source_scope_correction": "Initial prereg wording conflated derived post-H products with executed full chemical release. Root corrected it; corrected paragraph personally re-read. The eight source cases execute factor kinetics; full-solver post-H ordering remains code inspection.",
+    "unread_current_narrative_deltas": []
+  },
+  "source_to_engineering_decision": {
+    "primary_scope": "Published mouse FSCV parameters and later pinned source factor kernel. No quantitative PPL101/PAM12 release or KC receptor calibration follows.",
+    "fixed_external_row": {
+      "p": [
+        0.0105,
+        -0.003,
+        -0.0011
+      ],
+      "tau_seconds": [
+        7.5,
+        15,
+        900
+      ],
+      "source": "Manuscript WT sweep-1 only; no fitted alternative row."
+    },
+    "engineering_assumptions": [
+      "Dimensionless pre-event product mass; source-Euler q=1+p kick after emission.",
+      "Exact quiet recovery per actual body history; H=1 at each400ms trial reset.",
+      "Transform each of24DAN histories before pooling with fixed2/22 divisors.",
+      "All actual events fromt0 advance physical H; bridge remains cold until step500/100ms with no retroactive release.",
+      "No release without an event; existing complete no-new-event bridge tail remains applicable.",
+      "No cue/teaching labels, source-burst gate, active-cell renormalization, release clipping, receptor law or assumed natural opponent pair."
+    ],
+    "domain": "Exactly2000binary0.2ms slots; conservative finite-domain envelope2^32 is input validation, not a state cap or chronic tonic-stability claim."
+  },
+  "preserved_controls": {
+    "eligible_edges": {
+      "home_all_KC_classes": 4184,
+      "away_gamma": 3239,
+      "away_noneligible_unit_gain": 1443
+    },
+    "candidate_initial_checkpoint": "Exact float32 unit gains; original final gains are comparator outputs, not candidate initial state.",
+    "unchanged": [
+      "eta0.0005",
+      "100ms rate and500ms eligibility filters",
+      "normalization0.96",
+      "accepted drive gains/ports/encoder/readout/source graph",
+      "per-complete-interval double clamp andfloat32 publication",
+      "single complete-tail publication and separate bound telemetry"
+    ],
+    "guard": "All32 ordered untaught histories, all8 panel\u00d7noise\u00d7channel cells, all8games per cell and all eligible edges. Existing exact integer-tick inclusive |mean|<=0.5sampleSD; no populationSD, mean rounding, trial dropping or pooled-cell rescue."
+  },
+  "required_evidence": "Full raw per-DAN events/counts, mapped body IDs and edges, all before/after/400ms endpoint H, per-cell and pooled emitted mass, original F32 gains, complete candidate phase/product/gain/filter/tail/publication/bound arrays, hashes and exact row identities. Independent release and bridge reconstructions must pass fixed tolerances; rounding/bound ambiguity remains explicit and cannot qualify the screen.",
+  "classification_review": {
+    "valid_guard_or_actual_bound_failure": "Reject this fixed finite engineered hypothesis under the recorded histories; do not infer failure of fly dopamine release biology.",
+    "fully_audited_all8_guard_no_bound_pass": "Necessary conditional untaught screen only. May justify native integration and both qualification panels; does not establish changed recurrent activity, taught per-cell histories, acquisition, reversal or sports performance.",
+    "invalid_incomplete_changed_or_numerically_ambiguous_evidence": "Does not establish either complete acceptance or a valid biological/mechanistic rejection. Preserve partial/failure artifacts.",
+    "selection_limit": "Previously used panels are not unseen data. No parameter/threshold/onset/mask tuning after outcomes or revival of rejected mappings."
+  },
+  "execution_gate": "Producer1200s and independent audit600s whole-study caps, single identity each, kill/reap and no failure-marker override. Machine plan, producer, auditor and all imported utilities/tests/inputs/reviews must still be frozen and independently reviewed before dispatch.",
+  "unresolved_findings": [],
+  "operations": "Only documentation/code reading, metadata/hash reconciliation and this newJSON. Zero candidate/history/source/native/audit executions, parameter fits, source searches or shared-document edits."
+}

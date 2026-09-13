@@ -1,0 +1,11 @@
+........................................................................ [ 28%]
+........................................................................ [ 57%]
+........................................................................ [ 86%]
+...................................                                      [100%]
+=============================== warnings summary ===============================
+docs/evidence/reward-mechanism-repair-2026-09-12/test_audit_darela_shadow.py::test_bound_loader_allocation_identity_and_path_family[duplicate_member]
+  /Users/davidmontgomery/.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/zipfile/__init__.py:1612: UserWarning: Duplicate name: 'a.npy'
+    return self._open_to_write(zinfo, force_zip64=force_zip64)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+251 passed, 1 warning in 19.15s

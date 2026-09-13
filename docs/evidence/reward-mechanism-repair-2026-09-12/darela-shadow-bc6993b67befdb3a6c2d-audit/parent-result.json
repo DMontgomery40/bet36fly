@@ -1,0 +1,31 @@
+{
+  "status": "completed",
+  "wall_seconds_cap": 600,
+  "child_reaped": true,
+  "timed_out": false,
+  "exit_code": 0,
+  "run_id": "darela-shadow-bc6993b67befdb3a6c2d",
+  "command": [
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/.venv/bin/python",
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/audit_darela_shadow.py",
+    "--plan",
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-plan.json",
+    "--producer-result",
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result",
+    "--output",
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result"
+  ],
+  "plan": {
+    "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-plan.json",
+    "bytes": 55704,
+    "sha256": "b22df9fe43bd4654ac686e8d6e0555f468db78cb42871bcdfa63ef208841adbb"
+  },
+  "numerical_status": "passed",
+  "screen": "rejected_fixed_hypothesis",
+  "child_completion": {
+    "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/completion.json",
+    "bytes": 19743,
+    "sha256": "7ff6ac335ce97d7bfd6f59cefbc7d307df0973ddc2469cb8917c713d8367d970"
+  },
+  "wall_seconds": 22.068991541163996
+}

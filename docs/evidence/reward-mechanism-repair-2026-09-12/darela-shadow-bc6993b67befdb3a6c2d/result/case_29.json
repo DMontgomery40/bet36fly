@@ -1,0 +1,290 @@
+{
+  "index": 29,
+  "metadata": {
+    "game": 4420,
+    "seed_set": "alt",
+    "seed": 3004462,
+    "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+  },
+  "artifact": {
+    "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_29.npz",
+    "bytes": 441768,
+    "sha256": "5cb00a31e4660b5961dc0c5521d1e9f5c023d449f1d6e89aa728cb1e7896b911"
+  },
+  "arrays": {
+    "gains": {
+      "dtype": "float32",
+      "shape": [
+        8866
+      ],
+      "sha256": "909a42a884cc1a765ce5d22f6991611e1570bebeacf9397dfaf6fdb2b316e880"
+    },
+    "double_gains": {
+      "dtype": "float64",
+      "shape": [
+        8866
+      ],
+      "sha256": "52755cc24d2dc82c51d605a61e95dfa13738c40d8f1cf7fd4d1e55010dac0fd8"
+    },
+    "electrical_gains": {
+      "dtype": "float32",
+      "shape": [
+        8866
+      ],
+      "sha256": "b4afaede37af2cf870a0412b7ad5d6f11e30dc30a13d3f83d8dca3db7aed2acf"
+    },
+    "electrical_double_gains": {
+      "dtype": "float64",
+      "shape": [
+        8866
+      ],
+      "sha256": "9e4fb757390d88534d682bd14f31208ae064932e7bdf5f84421e1a0cc2521d91"
+    },
+    "edge_phases": {
+      "dtype": "float64",
+      "shape": [
+        4,
+        8866,
+        8
+      ],
+      "sha256": "569dd2d21b8f47c59591c5b71cfa08b99ec482bbc897c1a8b94e902eea88fc89"
+    },
+    "group_phases": {
+      "dtype": "float64",
+      "shape": [
+        4,
+        8,
+        8
+      ],
+      "sha256": "fe071193db85f3ba4bc1b02a9e1ea8c08987613e77bbd086cb3297654391b86c"
+    },
+    "publication_counts": {
+      "dtype": "int64",
+      "shape": [
+        4,
+        8866
+      ],
+      "sha256": "d760719dcbe70da3281ade08306662ed1623ec542a779a91a99070b234b76445"
+    },
+    "bound_counts": {
+      "dtype": "int64",
+      "shape": [
+        2,
+        8866
+      ],
+      "sha256": "708844e5c08a8997898e891451d1c21c7f6e5d5c5acdac23d119121f73b20511"
+    },
+    "endpoint_kc": {
+      "dtype": "float64",
+      "shape": [
+        4064,
+        2
+      ],
+      "sha256": "2795aff28e79a03711df614c4e59fc0be80c0ef509cc8620cff0eee67c73af8a"
+    },
+    "endpoint_dan": {
+      "dtype": "float64",
+      "shape": [
+        2,
+        2
+      ],
+      "sha256": "eaef2a95dfcb8495fd2bdee6a7186a59aa88468ba3052b6aeff5f3c501dc44ad"
+    },
+    "per_cell_release": {
+      "dtype": "float64",
+      "shape": [
+        2000,
+        24
+      ],
+      "sha256": "1a3f49d43d8f881f2d93bac300144c7c429526a04fc5e6f36f0baf593f6c225f"
+    },
+    "pooled_release": {
+      "dtype": "float64",
+      "shape": [
+        2000,
+        2
+      ],
+      "sha256": "ab4c76a68fa7149bd411ef07481f3973e838b3ac1871de4aaba37f5028cf0c9a"
+    },
+    "state_before": {
+      "dtype": "float64",
+      "shape": [
+        2000,
+        24,
+        3
+      ],
+      "sha256": "1af56c0027e05c2db63b6d588218485d56b4d7fd57ffde24e5d45e8e0b5f9f5c"
+    },
+    "state_after": {
+      "dtype": "float64",
+      "shape": [
+        2000,
+        24,
+        3
+      ],
+      "sha256": "6b2ba639adeb143d75b922bf54109ed4daf95b3cf83822eb363ca60aeb32a9a3"
+    },
+    "endpoint_state": {
+      "dtype": "float64",
+      "shape": [
+        24,
+        3
+      ],
+      "sha256": "b318c3cfed49e02ffb859e14c5257965cea918a917bb55baae7f77336aa1d52a"
+    },
+    "initial_gains": {
+      "dtype": "float32",
+      "shape": [
+        8866
+      ],
+      "sha256": "e6cb0830b4841cb8f58bc4a8c76b552f5b1f8def40464661e9d6acc572204a5e"
+    },
+    "original_gains": {
+      "dtype": "float32",
+      "shape": [
+        8866
+      ],
+      "sha256": "636cc58f3849aa78a33c5c580e141e5852e291d8463ace7c5bb539158210aedb"
+    },
+    "original_gain_delta": {
+      "dtype": "float32",
+      "shape": [
+        8866
+      ],
+      "sha256": "aedeb14dc77e2142609e1dc04bedcc5af1fa40de524aee59eabdb5f77e27c85f"
+    },
+    "raw_dan_events": {
+      "dtype": "int32",
+      "shape": [
+        2000,
+        24
+      ],
+      "sha256": "4d2c818a0f89436079f6f07264dddfee93326b36dd7d192d07331bf4252a9512"
+    },
+    "raw_kc_event_totals": {
+      "dtype": "int64",
+      "shape": [
+        4064
+      ],
+      "sha256": "324cc45d0689b7a92a4e6aa52e2042790c86c1d9607cfa60e09285defb47d165"
+    },
+    "raw_dan_event_totals": {
+      "dtype": "int64",
+      "shape": [
+        24
+      ],
+      "sha256": "aecaacfaacdfe7ab9886858f376b101cd9ce1b5c51ad23a3523edec5578cf593"
+    },
+    "raw_compartment_event_counts": {
+      "dtype": "int64",
+      "shape": [
+        2000,
+        2
+      ],
+      "sha256": "7c4cc810db236527443df3c6585337680f680384ea2925a167f5d96aa54b6377"
+    },
+    "map__plastic_kc_indices": {
+      "dtype": "int32",
+      "shape": [
+        8866
+      ],
+      "sha256": "9cab1618c27af53d1bae1c5964f5963789f57867bb5e63eee9b58ed14b191c85"
+    },
+    "map__plastic_compartments": {
+      "dtype": "int32",
+      "shape": [
+        8866
+      ],
+      "sha256": "5e41a545bdfd13aadb4a9d6a0eb0de421d8b36460fd1e9dccfbf0f001e095a3f"
+    },
+    "map__plastic_mask": {
+      "dtype": "uint8",
+      "shape": [
+        8866
+      ],
+      "sha256": "6ca501a48beba5b5ff82d7ba583501e3d0eae8da72d395c2b1a32f849d92484a"
+    },
+    "map__plastic_groups": {
+      "dtype": "int32",
+      "shape": [
+        8866
+      ],
+      "sha256": "958a66b6c5494776d7f75f0e82adc08d323a9d3e0ccca4a75891969640a0ebca"
+    },
+    "map__sample": {
+      "dtype": "int32",
+      "shape": [
+        4774
+      ],
+      "sha256": "892a1b417865b185b2bc8ef8505cc1d90607a56276f4a98db5ae8bb166b2ecf9"
+    },
+    "map__body_ids": {
+      "dtype": "int64",
+      "shape": [
+        4774
+      ],
+      "sha256": "a429784837fc6899c8a6da617782ebbf455eaac91ce46611181fa225830800ad"
+    },
+    "map__kc_indices": {
+      "dtype": "int32",
+      "shape": [
+        4064
+      ],
+      "sha256": "9e990d10a63b0f74cd7bbbdc5369082f24d5246487af944ba289bc6bf48d4b75"
+    },
+    "map__dan_indices": {
+      "dtype": "int32",
+      "shape": [
+        24
+      ],
+      "sha256": "10604e7110f8a38863a59e8b9313b467d900ba78ab969f0b074ce61d294d8db2"
+    },
+    "map__sensory_indices": {
+      "dtype": "int32",
+      "shape": [
+        686
+      ],
+      "sha256": "56c4eb47cb535fcf990017b13a29d026f91a28397e6c206bd24a99598d2588ff"
+    },
+    "map__dan_compartments": {
+      "dtype": "int32",
+      "shape": [
+        24
+      ],
+      "sha256": "47c40d17d83b074658ca32bc9ff98aae5915134bc8af85ab99e4dc6ac7eafc9d"
+    },
+    "map__kc_columns": {
+      "dtype": "int32",
+      "shape": [
+        4064
+      ],
+      "sha256": "d4e942c154f75f8e58b322bd2151d7ae4ed276a014e55b4facc595ea76d3ec15"
+    },
+    "map__dan_columns": {
+      "dtype": "int32",
+      "shape": [
+        24
+      ],
+      "sha256": "6823d31cdbad46636387eb8fdedb16a6836bf564192f433f77c7dd8f0ab14a06"
+    },
+    "map__sensory_columns": {
+      "dtype": "int32",
+      "shape": [
+        686
+      ],
+      "sha256": "87897dba393b3af7a3e9861cc2b344345072bffd6c779d209d63a26aa7f986ad"
+    }
+  },
+  "fields": [
+    "positive",
+    "negative",
+    "attempted",
+    "applied_double",
+    "applied_published",
+    "low_count",
+    "high_count",
+    "absolute_area"
+  ],
+  "original_electrical_available": false,
+  "gain_bound_observations": 0
+}

@@ -1,0 +1,24 @@
+F                                                                        [100%]
+=================================== FAILURES ===================================
+_______________ test_guard_reports_trial_sum_units_and_sample_sd _______________
+
+    def test_guard_reports_trial_sum_units_and_sample_sd():
+        r=module();m=inputs()[3];rows=[]
+        for i,meta in enumerate(r.reader.expected_rows()):
+            candidate=np.ones(4,np.float32)
+            candidate[:2]=np.float32(1+(i//2%8-3.5)/32)
+            rows.append(dict(metadata=meta,gains=candidate,original_gains=np.ones(4,np.float32)))
+        guards=r.guard_summary(rows,m,"gains")
+        key=f"{r.reader.RUNS[0]}/base/home";g=guards[key]
+        expected=np.array([(i-3.5)/16 for i in range(8)])
+        assert g["mean"]==float(expected.mean())
+>       assert g["sample_sd"]==float(expected.std(ddof=1))
+E       assert 0.07654655446197431 == 0.15309310892394862
+E        +  where 0.15309310892394862 = float(np.float64(0.15309310892394862))
+E        +    where np.float64(0.15309310892394862) = <built-in method std of numpy.ndarray object at 0x10c260bd0>(ddof=1)
+E        +      where <built-in method std of numpy.ndarray object at 0x10c260bd0> = array([-0.21875, -0.15625, -0.09375, -0.03125,  0.03125,  0.09375,\n        0.15625,  0.21875]).std
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:228: AssertionError
+=========================== short test summary info ============================
+FAILED output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_guard_reports_trial_sum_units_and_sample_sd
+1 failed, 74 deselected in 0.09s

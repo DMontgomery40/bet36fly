@@ -1,0 +1,47 @@
+{
+  "status": "passed",
+  "max_absolute_errors": {
+    "group_phases": 7.682743330406083e-14,
+    "pooled_release": 2.220446049250313e-16,
+    "endpoint_kc": 1.1102230246251565e-13,
+    "state_before": 8.881784197001252e-16,
+    "edge_phases": 4.787836793695988e-16,
+    "per_cell_release": 4.440892098500626e-16,
+    "state_after": 8.881784197001252e-16,
+    "endpoint_state": 6.661338147750939e-16,
+    "endpoint_dan": 1.7408297026122455e-13
+  },
+  "failed_fields": [],
+  "endpoints": {
+    "status": "passed",
+    "max_absolute_errors": {
+      "double_gains": 4.440892098500626e-16,
+      "electrical_double_gains": 4.440892098500626e-16
+    },
+    "float32_mismatch_indices": {
+      "gains": [],
+      "electrical_gains": []
+    },
+    "conditional_mismatch_publication_intervals": {
+      "gains": [],
+      "electrical_gains": []
+    }
+  },
+  "bound_contacts": 0,
+  "conditional_possible_bound_contacts": 0,
+  "release_values_checked": 340072,
+  "bridge_values_checked": 416224,
+  "pair_gain_proof": "unclipped only",
+  "index": 12,
+  "metadata": {
+    "game": 4387,
+    "seed_set": "base",
+    "seed": 4429,
+    "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+  },
+  "reference_artifact": {
+    "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_12.npz",
+    "bytes": 316968,
+    "sha256": "2ba1136897518fc4c18d147eb2279a09cdb34eecc0d3647f3bab2f492150ea0a"
+  }
+}

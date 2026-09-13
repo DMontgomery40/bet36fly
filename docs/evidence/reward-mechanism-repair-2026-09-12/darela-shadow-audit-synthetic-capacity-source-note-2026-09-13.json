@@ -1,0 +1,6 @@
+{
+  "scope": "Historical exact source used by synthetic capacity check, before artifact-runner additions",
+  "source_snapshot": "output/collaboration/reward-mechanism-repair/audit_darela_shadow_capacity_snapshot.py",
+  "sha256": "f85623925ef7e2ad0e381f2ebabcd75022dca81bf04996a29f2432bd9f98f968",
+  "seed_note": "The recorded seed identifies the fixture, but no random draw was used. The construction is entirely the documented deterministic periodic indexing."
+}

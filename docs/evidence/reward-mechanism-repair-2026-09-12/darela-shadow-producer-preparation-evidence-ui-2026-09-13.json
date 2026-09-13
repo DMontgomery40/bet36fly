@@ -1,0 +1,103 @@
+{
+  "agent": "/root/evidence_ui",
+  "at_utc": "2026-09-13T13:10:31.289898+00:00",
+  "status": "prepared_synthetic_tests_passed_no_actual_history_evaluation",
+  "git_head": "13966a2a0cb6e4b8219d8cc9fa9349e87b396bba",
+  "reading": {
+    "current_narrative_count": 203,
+    "prior_personal_chain": [
+      {
+        "path": "output/collaboration/reward-mechanism-repair/darela-final-reading-ui-review-evidence-ui-2026-09-13.json",
+        "bytes": 7414,
+        "sha256": "6a7ed021188d54b90006d7ac0a7902de0986e34609425e3fc03b163e73f75683"
+      }
+    ],
+    "current_inventory_sha256": "532fa91aa3307b6ed1b5b58e22d089ac7456c1c8681cf397bd1191d7fb79a082",
+    "all203_unchanged_from_committed_full_reading": true,
+    "method": "Compared complete current narrative bytes with13966a2; previous personal full reading chain covers all203. Personally read new scientific preregistration, independent audit contract and scientific review; complete reused reader, release/bridge and guard code read. No manifest substituted for reading.",
+    "new_full_reads": [
+      {
+        "path": "output/collaboration/reward-mechanism-repair/darela-shadow-preregistration-2026-09-13.md",
+        "bytes": 9394,
+        "sha256": "63e88a1d968761e6f7182859ece4d0a12535130be2362d2c3e16acf2a7c9d492"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/darela-shadow-independent-audit-contract-2026-09-13.md",
+        "bytes": 6185,
+        "sha256": "eb4f8ed92c7c4e15895989211371b77e61b176be67cc02902f9e8f17daff94c7"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/darela-shadow-scientific-prereg-review-dopamine-sources-2026-09-13.json",
+        "bytes": 5960,
+        "sha256": "e384cbda5128d4446b1351623eb95d44f6d7f06f0e1378bf7a319e2d9d526f2c"
+      }
+    ],
+    "unread_deltas": []
+  },
+  "release": [
+    {
+      "path": "output/collaboration/reward-mechanism-repair/run_darela_shadow.py",
+      "bytes": 32939,
+      "sha256": "03d6ec1f3e23062ad8f9d71021d18de1a8b55310b4094bc78fbc9cb325655393"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py",
+      "bytes": 18274,
+      "sha256": "6106a9b0a82d57edefe0038e5718da514ce8802434c614bf7ce5ce6d8a1a3746"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/launch_darela_shadow.py",
+      "bytes": 4283,
+      "sha256": "6c79488588f48188379ca60b96c008cee208c73290f0a5f70c44d26dd25288e4"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/test_launch_darela_shadow.py",
+      "bytes": 2580,
+      "sha256": "1a2bd1c2b7ae2099fbfb81e40d4cf7c99aedb65f9ad944a7dc95eae4e2565a32"
+    }
+  ],
+  "tests": {
+    "command": "PYTHONPATH=output/collaboration/reward-mechanism-repair .venv/bin/python -m pytest -q output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py output/collaboration/reward-mechanism-repair/test_launch_darela_shadow.py",
+    "passed": 110,
+    "seconds": 7.08,
+    "ruff": "All checks passed; four files formatted",
+    "logs": [
+      {
+        "path": "output/collaboration/reward-mechanism-repair/darela-shadow-runner-tests-red-2026-09-13.txt",
+        "bytes": 113046,
+        "sha256": "901dc8f615938bd5413c60856ccc9a908d3354b0d3790f5af9f8251b369eeda8"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/darela-shadow-launcher-tests-red-2026-09-13.txt",
+        "bytes": 19571,
+        "sha256": "da249ac90e77e980c803e37ca1926371334bb8305e30db32c53c5cce2b288dda"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/darela-shadow-guard-units-red-2026-09-13.txt",
+        "bytes": 1651,
+        "sha256": "e2ef52eb5eac94c2cc8e4e2a305a0bf6e751ef1390761cce71b7429f13a853b4"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/darela-shadow-reader-contract-red-2026-09-13.txt",
+        "bytes": 22098,
+        "sha256": "ab35e1f52309a6feb3a4f989f9076ecf8f6db1863ac9824ff32770c487d53e8c"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/darela-shadow-producer-tests-final-2026-09-13.txt",
+        "bytes": 180,
+        "sha256": "e180b8fc82520e7e773cd11e40f4c1ecaffb7a7e54756de066ba39a6735e0cb3"
+      }
+    ]
+  },
+  "fixes": [
+    "Guard presentation uses sum of eligible gain deltas per trial, sampleSD and halfSD; exact tick classification unchanged. Multi-edge regression failed before fix.",
+    "Saved completion now requires all32 row/archive pairs,160 exact ordered intent/returned/complete journal rows and row-detail hashes, matching terminal counts/status, recomputed8guard/provisional classification and final output rehash. Rehashed false-summary/journal families failed before fix.",
+    "Typed comparator includes complete fine schema, strict maps, exact original main/fine gains/delta, per-step KC and pooledDAN parity, coarse per-DAN/sensory/sample reductions."
+  ],
+  "terminal_contract": "Valid producer completion requires child exit0 and reap, no parent/child terminal-error, completed32/attempted32,32invoked+returned eachhelper, complete160journal, matching plan/identity/status/summary/row hashes and whole-study time<1200seconds. Any late completion marker is invalidated by a failure marker. Independent numerical audit is additionally required for final scientific classification.",
+  "scope": "Output-only preparation. No saved-history candidate calculation, native, source-solver, fit, network, production/API/UI changes, browser or full-gate rerun. Root owns separate fresh makeverify and actual dispatch. Existing production failed qualification/conditioning display remains accurate.",
+  "remaining": [
+    "Parent freeze machine plan including all113 historical bindings, auditor/reviews and descriptive helper.",
+    "One parent-authorized read-only actual32 input preflight, then separate reviewed producer and independent audit dispatch."
+  ]
+}

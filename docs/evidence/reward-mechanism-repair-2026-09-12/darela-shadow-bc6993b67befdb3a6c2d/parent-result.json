@@ -1,0 +1,25 @@
+{
+  "status": "completed",
+  "child_reaped": true,
+  "exit_code": 0,
+  "timed_out": false,
+  "wall_seconds_cap": 1200,
+  "command": [
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/.venv/bin/python",
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/run_darela_shadow.py",
+    "--plan",
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-plan.json",
+    "--out",
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result"
+  ],
+  "run_id": "darela-shadow-bc6993b67befdb3a6c2d",
+  "plan_sha256": "b22df9fe43bd4654ac686e8d6e0555f468db78cb42871bcdfa63ef208841adbb",
+  "screen": "pending_independent_audit",
+  "provisional_screen": "rejected_fixed_hypothesis",
+  "child_completion": {
+    "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/completion.json",
+    "bytes": 1304,
+    "sha256": "346fab5919a425192dbe84e3951f22c38565dd1107e9f7eacf8a43f29a67ef0d"
+  },
+  "wall_seconds": 18.752042750129476
+}

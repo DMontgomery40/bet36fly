@@ -1,0 +1,994 @@
+FFF.FFFFFFFFFFFFFFFF...FFF                                               [100%]
+=================================== FAILURES ===================================
+_ test_producer_terminal_numeric_alias_family[parent-result.json-exit_code-False] _
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1726/test_producer_terminal_numeric0')
+row_fixture = (array([[0, 0, 1, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0...       [1.        , 1.        , 1.        ],
+        [1.        , 1.        , 1.        ]]], shape=(501, 24, 3)), ...})
+file = 'parent-result.json', key = 'exit_code', value = False
+
+    @pytest.mark.parametrize("file,key,value", [
+        ("parent-result.json", "exit_code", False),
+        ("parent-result.json", "exit_code", 0.0),
+        ("parent-result.json", "wall_seconds_cap", 1200.0),
+        ("parent-result.json", "wall_seconds", False),
+        ("summary.json", "native_calls", False),
+        ("summary.json", "network_calls", 0.0),
+    ])
+    def test_producer_terminal_numeric_alias_family(tmp_path, row_fixture, file, key, value):
+        import json
+        import audit_darela_shadow as a
+    
+        pp, source, _, bound = synthetic_archive(tmp_path, row_fixture)
+        target = (source.parent if file == "parent-result.json" else source) / file
+        obj = json.loads(target.read_text())
+        obj[key] = value
+        target.write_text(json.dumps(obj))
+        completion = json.loads((source / "completion.json").read_text())
+        completion["bindings"] = [bound(source / n) for n in ["identity.json", "status.json", "summary.json", "attempts.jsonl"]]
+        (source / "completion.json").write_text(json.dumps(completion))
+        parent = json.loads((source.parent / "parent-result.json").read_text())
+        parent["child_completion"] = bound(source / "completion.json")
+        (source.parent / "parent-result.json").write_text(json.dumps(parent))
+        paths = list(source.iterdir()) + [source.parent / "parent-result.json"]
+>       with pytest.raises(ValueError):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE ValueError
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:720: Failed
+_ test_producer_terminal_numeric_alias_family[parent-result.json-exit_code-0.0] _
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1726/test_producer_terminal_numeric1')
+row_fixture = (array([[0, 0, 1, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0...       [1.        , 1.        , 1.        ],
+        [1.        , 1.        , 1.        ]]], shape=(501, 24, 3)), ...})
+file = 'parent-result.json', key = 'exit_code', value = 0.0
+
+    @pytest.mark.parametrize("file,key,value", [
+        ("parent-result.json", "exit_code", False),
+        ("parent-result.json", "exit_code", 0.0),
+        ("parent-result.json", "wall_seconds_cap", 1200.0),
+        ("parent-result.json", "wall_seconds", False),
+        ("summary.json", "native_calls", False),
+        ("summary.json", "network_calls", 0.0),
+    ])
+    def test_producer_terminal_numeric_alias_family(tmp_path, row_fixture, file, key, value):
+        import json
+        import audit_darela_shadow as a
+    
+        pp, source, _, bound = synthetic_archive(tmp_path, row_fixture)
+        target = (source.parent if file == "parent-result.json" else source) / file
+        obj = json.loads(target.read_text())
+        obj[key] = value
+        target.write_text(json.dumps(obj))
+        completion = json.loads((source / "completion.json").read_text())
+        completion["bindings"] = [bound(source / n) for n in ["identity.json", "status.json", "summary.json", "attempts.jsonl"]]
+        (source / "completion.json").write_text(json.dumps(completion))
+        parent = json.loads((source.parent / "parent-result.json").read_text())
+        parent["child_completion"] = bound(source / "completion.json")
+        (source.parent / "parent-result.json").write_text(json.dumps(parent))
+        paths = list(source.iterdir()) + [source.parent / "parent-result.json"]
+>       with pytest.raises(ValueError):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE ValueError
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:720: Failed
+_ test_producer_terminal_numeric_alias_family[parent-result.json-wall_seconds_cap-1200.0] _
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1726/test_producer_terminal_numeric2')
+row_fixture = (array([[0, 0, 1, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0...       [1.        , 1.        , 1.        ],
+        [1.        , 1.        , 1.        ]]], shape=(501, 24, 3)), ...})
+file = 'parent-result.json', key = 'wall_seconds_cap', value = 1200.0
+
+    @pytest.mark.parametrize("file,key,value", [
+        ("parent-result.json", "exit_code", False),
+        ("parent-result.json", "exit_code", 0.0),
+        ("parent-result.json", "wall_seconds_cap", 1200.0),
+        ("parent-result.json", "wall_seconds", False),
+        ("summary.json", "native_calls", False),
+        ("summary.json", "network_calls", 0.0),
+    ])
+    def test_producer_terminal_numeric_alias_family(tmp_path, row_fixture, file, key, value):
+        import json
+        import audit_darela_shadow as a
+    
+        pp, source, _, bound = synthetic_archive(tmp_path, row_fixture)
+        target = (source.parent if file == "parent-result.json" else source) / file
+        obj = json.loads(target.read_text())
+        obj[key] = value
+        target.write_text(json.dumps(obj))
+        completion = json.loads((source / "completion.json").read_text())
+        completion["bindings"] = [bound(source / n) for n in ["identity.json", "status.json", "summary.json", "attempts.jsonl"]]
+        (source / "completion.json").write_text(json.dumps(completion))
+        parent = json.loads((source.parent / "parent-result.json").read_text())
+        parent["child_completion"] = bound(source / "completion.json")
+        (source.parent / "parent-result.json").write_text(json.dumps(parent))
+        paths = list(source.iterdir()) + [source.parent / "parent-result.json"]
+>       with pytest.raises(ValueError):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE ValueError
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:720: Failed
+_ test_producer_terminal_numeric_alias_family[summary.json-native_calls-False] _
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1726/test_producer_terminal_numeric4')
+row_fixture = (array([[0, 0, 1, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0...       [1.        , 1.        , 1.        ],
+        [1.        , 1.        , 1.        ]]], shape=(501, 24, 3)), ...})
+file = 'summary.json', key = 'native_calls', value = False
+
+    @pytest.mark.parametrize("file,key,value", [
+        ("parent-result.json", "exit_code", False),
+        ("parent-result.json", "exit_code", 0.0),
+        ("parent-result.json", "wall_seconds_cap", 1200.0),
+        ("parent-result.json", "wall_seconds", False),
+        ("summary.json", "native_calls", False),
+        ("summary.json", "network_calls", 0.0),
+    ])
+    def test_producer_terminal_numeric_alias_family(tmp_path, row_fixture, file, key, value):
+        import json
+        import audit_darela_shadow as a
+    
+        pp, source, _, bound = synthetic_archive(tmp_path, row_fixture)
+        target = (source.parent if file == "parent-result.json" else source) / file
+        obj = json.loads(target.read_text())
+        obj[key] = value
+        target.write_text(json.dumps(obj))
+        completion = json.loads((source / "completion.json").read_text())
+        completion["bindings"] = [bound(source / n) for n in ["identity.json", "status.json", "summary.json", "attempts.jsonl"]]
+        (source / "completion.json").write_text(json.dumps(completion))
+        parent = json.loads((source.parent / "parent-result.json").read_text())
+        parent["child_completion"] = bound(source / "completion.json")
+        (source.parent / "parent-result.json").write_text(json.dumps(parent))
+        paths = list(source.iterdir()) + [source.parent / "parent-result.json"]
+>       with pytest.raises(ValueError):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE ValueError
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:720: Failed
+_ test_producer_terminal_numeric_alias_family[summary.json-network_calls-0.0] __
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1726/test_producer_terminal_numeric5')
+row_fixture = (array([[0, 0, 1, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0...       [1.        , 1.        , 1.        ],
+        [1.        , 1.        , 1.        ]]], shape=(501, 24, 3)), ...})
+file = 'summary.json', key = 'network_calls', value = 0.0
+
+    @pytest.mark.parametrize("file,key,value", [
+        ("parent-result.json", "exit_code", False),
+        ("parent-result.json", "exit_code", 0.0),
+        ("parent-result.json", "wall_seconds_cap", 1200.0),
+        ("parent-result.json", "wall_seconds", False),
+        ("summary.json", "native_calls", False),
+        ("summary.json", "network_calls", 0.0),
+    ])
+    def test_producer_terminal_numeric_alias_family(tmp_path, row_fixture, file, key, value):
+        import json
+        import audit_darela_shadow as a
+    
+        pp, source, _, bound = synthetic_archive(tmp_path, row_fixture)
+        target = (source.parent if file == "parent-result.json" else source) / file
+        obj = json.loads(target.read_text())
+        obj[key] = value
+        target.write_text(json.dumps(obj))
+        completion = json.loads((source / "completion.json").read_text())
+        completion["bindings"] = [bound(source / n) for n in ["identity.json", "status.json", "summary.json", "attempts.jsonl"]]
+        (source / "completion.json").write_text(json.dumps(completion))
+        parent = json.loads((source.parent / "parent-result.json").read_text())
+        parent["child_completion"] = bound(source / "completion.json")
+        (source.parent / "parent-result.json").write_text(json.dumps(parent))
+        paths = list(source.iterdir()) + [source.parent / "parent-result.json"]
+>       with pytest.raises(ValueError):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE ValueError
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:720: Failed
+_______ test_parent_rehashed_classification_and_type_family[failed_row] ________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1726/test_parent_rehashed_classific0')
+completed_audit_fixture = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1726/completed-independent-synthetic0/audit')
+kind = 'failed_row'
+
+    @pytest.mark.parametrize("kind", ["failed_row", "unknown_row", "guard_flag", "guard_fail", "missing_guard", "extra_guard", "bound_total", "bound_row", "bound_bool", "attempted_float", "wall_bool", "scope_bool", "scope_float", "cap_float"])
+    def test_parent_rehashed_classification_and_type_family(tmp_path, completed_audit_fixture, kind):
+        import launch_audit_darela_shadow as parent
+    
+        def mutate(r):
+            g = next(iter(r["candidate_guards"].values()))
+            if kind == "failed_row":
+                r["rows"][31]["status"] = "failed_numerical_comparison"
+            elif kind == "unknown_row":
+                r["rows"][31]["status"] = "unreviewed"
+            elif kind == "guard_flag":
+                g["passed"] = False
+            elif kind == "guard_fail":
+                g.update(ticks=[1] * 8, passed=False)
+            elif kind == "missing_guard":
+                r["candidate_guards"].pop(next(iter(r["candidate_guards"])))
+            elif kind == "extra_guard":
+                r["original_guards"]["extra"] = dict(g)
+            elif kind == "bound_total":
+                r["gain_bound_observations"] = 1
+            elif kind == "bound_row":
+                r["rows"][0]["bound_contacts"] = 1
+                r["gain_bound_observations"] = 1
+            elif kind == "bound_bool":
+                r["rows"][0]["bound_contacts"] = False
+            elif kind == "attempted_float":
+                r["attempted"] = 32.0
+            elif kind == "wall_bool":
+                r["wall_seconds"] = False
+            elif kind == "scope_bool":
+                r["native_calls"] = False
+            elif kind == "scope_float":
+                r["source_solver_calls"] = 0.0
+            else:
+                r["wall_seconds_cap"] = 600.0
+    
+        out, r = mutated_audit_fixture(tmp_path, completed_audit_fixture, mutate)
+>       with pytest.raises(ValueError):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE ValueError
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:795: Failed
+_______ test_parent_rehashed_classification_and_type_family[unknown_row] _______
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1726/test_parent_rehashed_classific1')
+completed_audit_fixture = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1726/completed-independent-synthetic0/audit')
+kind = 'unknown_row'
+
+    @pytest.mark.parametrize("kind", ["failed_row", "unknown_row", "guard_flag", "guard_fail", "missing_guard", "extra_guard", "bound_total", "bound_row", "bound_bool", "attempted_float", "wall_bool", "scope_bool", "scope_float", "cap_float"])
+    def test_parent_rehashed_classification_and_type_family(tmp_path, completed_audit_fixture, kind):
+        import launch_audit_darela_shadow as parent
+    
+        def mutate(r):
+            g = next(iter(r["candidate_guards"].values()))
+            if kind == "failed_row":
+                r["rows"][31]["status"] = "failed_numerical_comparison"
+            elif kind == "unknown_row":
+                r["rows"][31]["status"] = "unreviewed"
+            elif kind == "guard_flag":
+                g["passed"] = False
+            elif kind == "guard_fail":
+                g.update(ticks=[1] * 8, passed=False)
+            elif kind == "missing_guard":
+                r["candidate_guards"].pop(next(iter(r["candidate_guards"])))
+            elif kind == "extra_guard":
+                r["original_guards"]["extra"] = dict(g)
+            elif kind == "bound_total":
+                r["gain_bound_observations"] = 1
+            elif kind == "bound_row":
+                r["rows"][0]["bound_contacts"] = 1
+                r["gain_bound_observations"] = 1
+            elif kind == "bound_bool":
+                r["rows"][0]["bound_contacts"] = False
+            elif kind == "attempted_float":
+                r["attempted"] = 32.0
+            elif kind == "wall_bool":
+                r["wall_seconds"] = False
+            elif kind == "scope_bool":
+                r["native_calls"] = False
+            elif kind == "scope_float":
+                r["source_solver_calls"] = 0.0
+            else:
+                r["wall_seconds_cap"] = 600.0
+    
+        out, r = mutated_audit_fixture(tmp_path, completed_audit_fixture, mutate)
+>       with pytest.raises(ValueError):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE ValueError
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:795: Failed
+_______ test_parent_rehashed_classification_and_type_family[guard_flag] ________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1726/test_parent_rehashed_classific2')
+completed_audit_fixture = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1726/completed-independent-synthetic0/audit')
+kind = 'guard_flag'
+
+    @pytest.mark.parametrize("kind", ["failed_row", "unknown_row", "guard_flag", "guard_fail", "missing_guard", "extra_guard", "bound_total", "bound_row", "bound_bool", "attempted_float", "wall_bool", "scope_bool", "scope_float", "cap_float"])
+    def test_parent_rehashed_classification_and_type_family(tmp_path, completed_audit_fixture, kind):
+        import launch_audit_darela_shadow as parent
+    
+        def mutate(r):
+            g = next(iter(r["candidate_guards"].values()))
+            if kind == "failed_row":
+                r["rows"][31]["status"] = "failed_numerical_comparison"
+            elif kind == "unknown_row":
+                r["rows"][31]["status"] = "unreviewed"
+            elif kind == "guard_flag":
+                g["passed"] = False
+            elif kind == "guard_fail":
+                g.update(ticks=[1] * 8, passed=False)
+            elif kind == "missing_guard":
+                r["candidate_guards"].pop(next(iter(r["candidate_guards"])))
+            elif kind == "extra_guard":
+                r["original_guards"]["extra"] = dict(g)
+            elif kind == "bound_total":
+                r["gain_bound_observations"] = 1
+            elif kind == "bound_row":
+                r["rows"][0]["bound_contacts"] = 1
+                r["gain_bound_observations"] = 1
+            elif kind == "bound_bool":
+                r["rows"][0]["bound_contacts"] = False
+            elif kind == "attempted_float":
+                r["attempted"] = 32.0
+            elif kind == "wall_bool":
+                r["wall_seconds"] = False
+            elif kind == "scope_bool":
+                r["native_calls"] = False
+            elif kind == "scope_float":
+                r["source_solver_calls"] = 0.0
+            else:
+                r["wall_seconds_cap"] = 600.0
+    
+        out, r = mutated_audit_fixture(tmp_path, completed_audit_fixture, mutate)
+>       with pytest.raises(ValueError):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE ValueError
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:795: Failed
+_______ test_parent_rehashed_classification_and_type_family[guard_fail] ________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1726/test_parent_rehashed_classific3')
+completed_audit_fixture = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1726/completed-independent-synthetic0/audit')
+kind = 'guard_fail'
+
+    @pytest.mark.parametrize("kind", ["failed_row", "unknown_row", "guard_flag", "guard_fail", "missing_guard", "extra_guard", "bound_total", "bound_row", "bound_bool", "attempted_float", "wall_bool", "scope_bool", "scope_float", "cap_float"])
+    def test_parent_rehashed_classification_and_type_family(tmp_path, completed_audit_fixture, kind):
+        import launch_audit_darela_shadow as parent
+    
+        def mutate(r):
+            g = next(iter(r["candidate_guards"].values()))
+            if kind == "failed_row":
+                r["rows"][31]["status"] = "failed_numerical_comparison"
+            elif kind == "unknown_row":
+                r["rows"][31]["status"] = "unreviewed"
+            elif kind == "guard_flag":
+                g["passed"] = False
+            elif kind == "guard_fail":
+                g.update(ticks=[1] * 8, passed=False)
+            elif kind == "missing_guard":
+                r["candidate_guards"].pop(next(iter(r["candidate_guards"])))
+            elif kind == "extra_guard":
+                r["original_guards"]["extra"] = dict(g)
+            elif kind == "bound_total":
+                r["gain_bound_observations"] = 1
+            elif kind == "bound_row":
+                r["rows"][0]["bound_contacts"] = 1
+                r["gain_bound_observations"] = 1
+            elif kind == "bound_bool":
+                r["rows"][0]["bound_contacts"] = False
+            elif kind == "attempted_float":
+                r["attempted"] = 32.0
+            elif kind == "wall_bool":
+                r["wall_seconds"] = False
+            elif kind == "scope_bool":
+                r["native_calls"] = False
+            elif kind == "scope_float":
+                r["source_solver_calls"] = 0.0
+            else:
+                r["wall_seconds_cap"] = 600.0
+    
+        out, r = mutated_audit_fixture(tmp_path, completed_audit_fixture, mutate)
+>       with pytest.raises(ValueError):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE ValueError
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:795: Failed
+______ test_parent_rehashed_classification_and_type_family[missing_guard] ______
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1726/test_parent_rehashed_classific4')
+completed_audit_fixture = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1726/completed-independent-synthetic0/audit')
+kind = 'missing_guard'
+
+    @pytest.mark.parametrize("kind", ["failed_row", "unknown_row", "guard_flag", "guard_fail", "missing_guard", "extra_guard", "bound_total", "bound_row", "bound_bool", "attempted_float", "wall_bool", "scope_bool", "scope_float", "cap_float"])
+    def test_parent_rehashed_classification_and_type_family(tmp_path, completed_audit_fixture, kind):
+        import launch_audit_darela_shadow as parent
+    
+        def mutate(r):
+            g = next(iter(r["candidate_guards"].values()))
+            if kind == "failed_row":
+                r["rows"][31]["status"] = "failed_numerical_comparison"
+            elif kind == "unknown_row":
+                r["rows"][31]["status"] = "unreviewed"
+            elif kind == "guard_flag":
+                g["passed"] = False
+            elif kind == "guard_fail":
+                g.update(ticks=[1] * 8, passed=False)
+            elif kind == "missing_guard":
+                r["candidate_guards"].pop(next(iter(r["candidate_guards"])))
+            elif kind == "extra_guard":
+                r["original_guards"]["extra"] = dict(g)
+            elif kind == "bound_total":
+                r["gain_bound_observations"] = 1
+            elif kind == "bound_row":
+                r["rows"][0]["bound_contacts"] = 1
+                r["gain_bound_observations"] = 1
+            elif kind == "bound_bool":
+                r["rows"][0]["bound_contacts"] = False
+            elif kind == "attempted_float":
+                r["attempted"] = 32.0
+            elif kind == "wall_bool":
+                r["wall_seconds"] = False
+            elif kind == "scope_bool":
+                r["native_calls"] = False
+            elif kind == "scope_float":
+                r["source_solver_calls"] = 0.0
+            else:
+                r["wall_seconds_cap"] = 600.0
+    
+        out, r = mutated_audit_fixture(tmp_path, completed_audit_fixture, mutate)
+>       with pytest.raises(ValueError):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE ValueError
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:795: Failed
+_______ test_parent_rehashed_classification_and_type_family[extra_guard] _______
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1726/test_parent_rehashed_classific5')
+completed_audit_fixture = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1726/completed-independent-synthetic0/audit')
+kind = 'extra_guard'
+
+    @pytest.mark.parametrize("kind", ["failed_row", "unknown_row", "guard_flag", "guard_fail", "missing_guard", "extra_guard", "bound_total", "bound_row", "bound_bool", "attempted_float", "wall_bool", "scope_bool", "scope_float", "cap_float"])
+    def test_parent_rehashed_classification_and_type_family(tmp_path, completed_audit_fixture, kind):
+        import launch_audit_darela_shadow as parent
+    
+        def mutate(r):
+            g = next(iter(r["candidate_guards"].values()))
+            if kind == "failed_row":
+                r["rows"][31]["status"] = "failed_numerical_comparison"
+            elif kind == "unknown_row":
+                r["rows"][31]["status"] = "unreviewed"
+            elif kind == "guard_flag":
+                g["passed"] = False
+            elif kind == "guard_fail":
+                g.update(ticks=[1] * 8, passed=False)
+            elif kind == "missing_guard":
+                r["candidate_guards"].pop(next(iter(r["candidate_guards"])))
+            elif kind == "extra_guard":
+                r["original_guards"]["extra"] = dict(g)
+            elif kind == "bound_total":
+                r["gain_bound_observations"] = 1
+            elif kind == "bound_row":
+                r["rows"][0]["bound_contacts"] = 1
+                r["gain_bound_observations"] = 1
+            elif kind == "bound_bool":
+                r["rows"][0]["bound_contacts"] = False
+            elif kind == "attempted_float":
+                r["attempted"] = 32.0
+            elif kind == "wall_bool":
+                r["wall_seconds"] = False
+            elif kind == "scope_bool":
+                r["native_calls"] = False
+            elif kind == "scope_float":
+                r["source_solver_calls"] = 0.0
+            else:
+                r["wall_seconds_cap"] = 600.0
+    
+        out, r = mutated_audit_fixture(tmp_path, completed_audit_fixture, mutate)
+>       with pytest.raises(ValueError):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE ValueError
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:795: Failed
+_______ test_parent_rehashed_classification_and_type_family[bound_total] _______
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1726/test_parent_rehashed_classific6')
+completed_audit_fixture = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1726/completed-independent-synthetic0/audit')
+kind = 'bound_total'
+
+    @pytest.mark.parametrize("kind", ["failed_row", "unknown_row", "guard_flag", "guard_fail", "missing_guard", "extra_guard", "bound_total", "bound_row", "bound_bool", "attempted_float", "wall_bool", "scope_bool", "scope_float", "cap_float"])
+    def test_parent_rehashed_classification_and_type_family(tmp_path, completed_audit_fixture, kind):
+        import launch_audit_darela_shadow as parent
+    
+        def mutate(r):
+            g = next(iter(r["candidate_guards"].values()))
+            if kind == "failed_row":
+                r["rows"][31]["status"] = "failed_numerical_comparison"
+            elif kind == "unknown_row":
+                r["rows"][31]["status"] = "unreviewed"
+            elif kind == "guard_flag":
+                g["passed"] = False
+            elif kind == "guard_fail":
+                g.update(ticks=[1] * 8, passed=False)
+            elif kind == "missing_guard":
+                r["candidate_guards"].pop(next(iter(r["candidate_guards"])))
+            elif kind == "extra_guard":
+                r["original_guards"]["extra"] = dict(g)
+            elif kind == "bound_total":
+                r["gain_bound_observations"] = 1
+            elif kind == "bound_row":
+                r["rows"][0]["bound_contacts"] = 1
+                r["gain_bound_observations"] = 1
+            elif kind == "bound_bool":
+                r["rows"][0]["bound_contacts"] = False
+            elif kind == "attempted_float":
+                r["attempted"] = 32.0
+            elif kind == "wall_bool":
+                r["wall_seconds"] = False
+            elif kind == "scope_bool":
+                r["native_calls"] = False
+            elif kind == "scope_float":
+                r["source_solver_calls"] = 0.0
+            else:
+                r["wall_seconds_cap"] = 600.0
+    
+        out, r = mutated_audit_fixture(tmp_path, completed_audit_fixture, mutate)
+>       with pytest.raises(ValueError):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE ValueError
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:795: Failed
+________ test_parent_rehashed_classification_and_type_family[bound_row] ________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1726/test_parent_rehashed_classific7')
+completed_audit_fixture = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1726/completed-independent-synthetic0/audit')
+kind = 'bound_row'
+
+    @pytest.mark.parametrize("kind", ["failed_row", "unknown_row", "guard_flag", "guard_fail", "missing_guard", "extra_guard", "bound_total", "bound_row", "bound_bool", "attempted_float", "wall_bool", "scope_bool", "scope_float", "cap_float"])
+    def test_parent_rehashed_classification_and_type_family(tmp_path, completed_audit_fixture, kind):
+        import launch_audit_darela_shadow as parent
+    
+        def mutate(r):
+            g = next(iter(r["candidate_guards"].values()))
+            if kind == "failed_row":
+                r["rows"][31]["status"] = "failed_numerical_comparison"
+            elif kind == "unknown_row":
+                r["rows"][31]["status"] = "unreviewed"
+            elif kind == "guard_flag":
+                g["passed"] = False
+            elif kind == "guard_fail":
+                g.update(ticks=[1] * 8, passed=False)
+            elif kind == "missing_guard":
+                r["candidate_guards"].pop(next(iter(r["candidate_guards"])))
+            elif kind == "extra_guard":
+                r["original_guards"]["extra"] = dict(g)
+            elif kind == "bound_total":
+                r["gain_bound_observations"] = 1
+            elif kind == "bound_row":
+                r["rows"][0]["bound_contacts"] = 1
+                r["gain_bound_observations"] = 1
+            elif kind == "bound_bool":
+                r["rows"][0]["bound_contacts"] = False
+            elif kind == "attempted_float":
+                r["attempted"] = 32.0
+            elif kind == "wall_bool":
+                r["wall_seconds"] = False
+            elif kind == "scope_bool":
+                r["native_calls"] = False
+            elif kind == "scope_float":
+                r["source_solver_calls"] = 0.0
+            else:
+                r["wall_seconds_cap"] = 600.0
+    
+        out, r = mutated_audit_fixture(tmp_path, completed_audit_fixture, mutate)
+>       with pytest.raises(ValueError):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE ValueError
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:795: Failed
+_______ test_parent_rehashed_classification_and_type_family[bound_bool] ________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1726/test_parent_rehashed_classific8')
+completed_audit_fixture = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1726/completed-independent-synthetic0/audit')
+kind = 'bound_bool'
+
+    @pytest.mark.parametrize("kind", ["failed_row", "unknown_row", "guard_flag", "guard_fail", "missing_guard", "extra_guard", "bound_total", "bound_row", "bound_bool", "attempted_float", "wall_bool", "scope_bool", "scope_float", "cap_float"])
+    def test_parent_rehashed_classification_and_type_family(tmp_path, completed_audit_fixture, kind):
+        import launch_audit_darela_shadow as parent
+    
+        def mutate(r):
+            g = next(iter(r["candidate_guards"].values()))
+            if kind == "failed_row":
+                r["rows"][31]["status"] = "failed_numerical_comparison"
+            elif kind == "unknown_row":
+                r["rows"][31]["status"] = "unreviewed"
+            elif kind == "guard_flag":
+                g["passed"] = False
+            elif kind == "guard_fail":
+                g.update(ticks=[1] * 8, passed=False)
+            elif kind == "missing_guard":
+                r["candidate_guards"].pop(next(iter(r["candidate_guards"])))
+            elif kind == "extra_guard":
+                r["original_guards"]["extra"] = dict(g)
+            elif kind == "bound_total":
+                r["gain_bound_observations"] = 1
+            elif kind == "bound_row":
+                r["rows"][0]["bound_contacts"] = 1
+                r["gain_bound_observations"] = 1
+            elif kind == "bound_bool":
+                r["rows"][0]["bound_contacts"] = False
+            elif kind == "attempted_float":
+                r["attempted"] = 32.0
+            elif kind == "wall_bool":
+                r["wall_seconds"] = False
+            elif kind == "scope_bool":
+                r["native_calls"] = False
+            elif kind == "scope_float":
+                r["source_solver_calls"] = 0.0
+            else:
+                r["wall_seconds_cap"] = 600.0
+    
+        out, r = mutated_audit_fixture(tmp_path, completed_audit_fixture, mutate)
+>       with pytest.raises(ValueError):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE ValueError
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:795: Failed
+_____ test_parent_rehashed_classification_and_type_family[attempted_float] _____
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1726/test_parent_rehashed_classific9')
+completed_audit_fixture = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1726/completed-independent-synthetic0/audit')
+kind = 'attempted_float'
+
+    @pytest.mark.parametrize("kind", ["failed_row", "unknown_row", "guard_flag", "guard_fail", "missing_guard", "extra_guard", "bound_total", "bound_row", "bound_bool", "attempted_float", "wall_bool", "scope_bool", "scope_float", "cap_float"])
+    def test_parent_rehashed_classification_and_type_family(tmp_path, completed_audit_fixture, kind):
+        import launch_audit_darela_shadow as parent
+    
+        def mutate(r):
+            g = next(iter(r["candidate_guards"].values()))
+            if kind == "failed_row":
+                r["rows"][31]["status"] = "failed_numerical_comparison"
+            elif kind == "unknown_row":
+                r["rows"][31]["status"] = "unreviewed"
+            elif kind == "guard_flag":
+                g["passed"] = False
+            elif kind == "guard_fail":
+                g.update(ticks=[1] * 8, passed=False)
+            elif kind == "missing_guard":
+                r["candidate_guards"].pop(next(iter(r["candidate_guards"])))
+            elif kind == "extra_guard":
+                r["original_guards"]["extra"] = dict(g)
+            elif kind == "bound_total":
+                r["gain_bound_observations"] = 1
+            elif kind == "bound_row":
+                r["rows"][0]["bound_contacts"] = 1
+                r["gain_bound_observations"] = 1
+            elif kind == "bound_bool":
+                r["rows"][0]["bound_contacts"] = False
+            elif kind == "attempted_float":
+                r["attempted"] = 32.0
+            elif kind == "wall_bool":
+                r["wall_seconds"] = False
+            elif kind == "scope_bool":
+                r["native_calls"] = False
+            elif kind == "scope_float":
+                r["source_solver_calls"] = 0.0
+            else:
+                r["wall_seconds_cap"] = 600.0
+    
+        out, r = mutated_audit_fixture(tmp_path, completed_audit_fixture, mutate)
+>       with pytest.raises(ValueError):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE ValueError
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:795: Failed
+________ test_parent_rehashed_classification_and_type_family[wall_bool] ________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1726/test_parent_rehashed_classific10')
+completed_audit_fixture = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1726/completed-independent-synthetic0/audit')
+kind = 'wall_bool'
+
+    @pytest.mark.parametrize("kind", ["failed_row", "unknown_row", "guard_flag", "guard_fail", "missing_guard", "extra_guard", "bound_total", "bound_row", "bound_bool", "attempted_float", "wall_bool", "scope_bool", "scope_float", "cap_float"])
+    def test_parent_rehashed_classification_and_type_family(tmp_path, completed_audit_fixture, kind):
+        import launch_audit_darela_shadow as parent
+    
+        def mutate(r):
+            g = next(iter(r["candidate_guards"].values()))
+            if kind == "failed_row":
+                r["rows"][31]["status"] = "failed_numerical_comparison"
+            elif kind == "unknown_row":
+                r["rows"][31]["status"] = "unreviewed"
+            elif kind == "guard_flag":
+                g["passed"] = False
+            elif kind == "guard_fail":
+                g.update(ticks=[1] * 8, passed=False)
+            elif kind == "missing_guard":
+                r["candidate_guards"].pop(next(iter(r["candidate_guards"])))
+            elif kind == "extra_guard":
+                r["original_guards"]["extra"] = dict(g)
+            elif kind == "bound_total":
+                r["gain_bound_observations"] = 1
+            elif kind == "bound_row":
+                r["rows"][0]["bound_contacts"] = 1
+                r["gain_bound_observations"] = 1
+            elif kind == "bound_bool":
+                r["rows"][0]["bound_contacts"] = False
+            elif kind == "attempted_float":
+                r["attempted"] = 32.0
+            elif kind == "wall_bool":
+                r["wall_seconds"] = False
+            elif kind == "scope_bool":
+                r["native_calls"] = False
+            elif kind == "scope_float":
+                r["source_solver_calls"] = 0.0
+            else:
+                r["wall_seconds_cap"] = 600.0
+    
+        out, r = mutated_audit_fixture(tmp_path, completed_audit_fixture, mutate)
+>       with pytest.raises(ValueError):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE ValueError
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:795: Failed
+_______ test_parent_rehashed_classification_and_type_family[scope_bool] ________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1726/test_parent_rehashed_classific11')
+completed_audit_fixture = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1726/completed-independent-synthetic0/audit')
+kind = 'scope_bool'
+
+    @pytest.mark.parametrize("kind", ["failed_row", "unknown_row", "guard_flag", "guard_fail", "missing_guard", "extra_guard", "bound_total", "bound_row", "bound_bool", "attempted_float", "wall_bool", "scope_bool", "scope_float", "cap_float"])
+    def test_parent_rehashed_classification_and_type_family(tmp_path, completed_audit_fixture, kind):
+        import launch_audit_darela_shadow as parent
+    
+        def mutate(r):
+            g = next(iter(r["candidate_guards"].values()))
+            if kind == "failed_row":
+                r["rows"][31]["status"] = "failed_numerical_comparison"
+            elif kind == "unknown_row":
+                r["rows"][31]["status"] = "unreviewed"
+            elif kind == "guard_flag":
+                g["passed"] = False
+            elif kind == "guard_fail":
+                g.update(ticks=[1] * 8, passed=False)
+            elif kind == "missing_guard":
+                r["candidate_guards"].pop(next(iter(r["candidate_guards"])))
+            elif kind == "extra_guard":
+                r["original_guards"]["extra"] = dict(g)
+            elif kind == "bound_total":
+                r["gain_bound_observations"] = 1
+            elif kind == "bound_row":
+                r["rows"][0]["bound_contacts"] = 1
+                r["gain_bound_observations"] = 1
+            elif kind == "bound_bool":
+                r["rows"][0]["bound_contacts"] = False
+            elif kind == "attempted_float":
+                r["attempted"] = 32.0
+            elif kind == "wall_bool":
+                r["wall_seconds"] = False
+            elif kind == "scope_bool":
+                r["native_calls"] = False
+            elif kind == "scope_float":
+                r["source_solver_calls"] = 0.0
+            else:
+                r["wall_seconds_cap"] = 600.0
+    
+        out, r = mutated_audit_fixture(tmp_path, completed_audit_fixture, mutate)
+>       with pytest.raises(ValueError):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE ValueError
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:795: Failed
+_______ test_parent_rehashed_classification_and_type_family[scope_float] _______
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1726/test_parent_rehashed_classific12')
+completed_audit_fixture = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1726/completed-independent-synthetic0/audit')
+kind = 'scope_float'
+
+    @pytest.mark.parametrize("kind", ["failed_row", "unknown_row", "guard_flag", "guard_fail", "missing_guard", "extra_guard", "bound_total", "bound_row", "bound_bool", "attempted_float", "wall_bool", "scope_bool", "scope_float", "cap_float"])
+    def test_parent_rehashed_classification_and_type_family(tmp_path, completed_audit_fixture, kind):
+        import launch_audit_darela_shadow as parent
+    
+        def mutate(r):
+            g = next(iter(r["candidate_guards"].values()))
+            if kind == "failed_row":
+                r["rows"][31]["status"] = "failed_numerical_comparison"
+            elif kind == "unknown_row":
+                r["rows"][31]["status"] = "unreviewed"
+            elif kind == "guard_flag":
+                g["passed"] = False
+            elif kind == "guard_fail":
+                g.update(ticks=[1] * 8, passed=False)
+            elif kind == "missing_guard":
+                r["candidate_guards"].pop(next(iter(r["candidate_guards"])))
+            elif kind == "extra_guard":
+                r["original_guards"]["extra"] = dict(g)
+            elif kind == "bound_total":
+                r["gain_bound_observations"] = 1
+            elif kind == "bound_row":
+                r["rows"][0]["bound_contacts"] = 1
+                r["gain_bound_observations"] = 1
+            elif kind == "bound_bool":
+                r["rows"][0]["bound_contacts"] = False
+            elif kind == "attempted_float":
+                r["attempted"] = 32.0
+            elif kind == "wall_bool":
+                r["wall_seconds"] = False
+            elif kind == "scope_bool":
+                r["native_calls"] = False
+            elif kind == "scope_float":
+                r["source_solver_calls"] = 0.0
+            else:
+                r["wall_seconds_cap"] = 600.0
+    
+        out, r = mutated_audit_fixture(tmp_path, completed_audit_fixture, mutate)
+>       with pytest.raises(ValueError):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE ValueError
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:795: Failed
+________ test_parent_rehashed_classification_and_type_family[cap_float] ________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1726/test_parent_rehashed_classific13')
+completed_audit_fixture = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1726/completed-independent-synthetic0/audit')
+kind = 'cap_float'
+
+    @pytest.mark.parametrize("kind", ["failed_row", "unknown_row", "guard_flag", "guard_fail", "missing_guard", "extra_guard", "bound_total", "bound_row", "bound_bool", "attempted_float", "wall_bool", "scope_bool", "scope_float", "cap_float"])
+    def test_parent_rehashed_classification_and_type_family(tmp_path, completed_audit_fixture, kind):
+        import launch_audit_darela_shadow as parent
+    
+        def mutate(r):
+            g = next(iter(r["candidate_guards"].values()))
+            if kind == "failed_row":
+                r["rows"][31]["status"] = "failed_numerical_comparison"
+            elif kind == "unknown_row":
+                r["rows"][31]["status"] = "unreviewed"
+            elif kind == "guard_flag":
+                g["passed"] = False
+            elif kind == "guard_fail":
+                g.update(ticks=[1] * 8, passed=False)
+            elif kind == "missing_guard":
+                r["candidate_guards"].pop(next(iter(r["candidate_guards"])))
+            elif kind == "extra_guard":
+                r["original_guards"]["extra"] = dict(g)
+            elif kind == "bound_total":
+                r["gain_bound_observations"] = 1
+            elif kind == "bound_row":
+                r["rows"][0]["bound_contacts"] = 1
+                r["gain_bound_observations"] = 1
+            elif kind == "bound_bool":
+                r["rows"][0]["bound_contacts"] = False
+            elif kind == "attempted_float":
+                r["attempted"] = 32.0
+            elif kind == "wall_bool":
+                r["wall_seconds"] = False
+            elif kind == "scope_bool":
+                r["native_calls"] = False
+            elif kind == "scope_float":
+                r["source_solver_calls"] = 0.0
+            else:
+                r["wall_seconds_cap"] = 600.0
+    
+        out, r = mutated_audit_fixture(tmp_path, completed_audit_fixture, mutate)
+>       with pytest.raises(ValueError):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE ValueError
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:795: Failed
+_____________ test_parent_late_artifact_snapshot_family[reference] _____________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1726/test_parent_late_artifact_snap0')
+completed_audit_fixture = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1726/completed-independent-synthetic0/audit')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x1091c2c90>
+kind = 'reference'
+
+    @pytest.mark.parametrize("kind", ["reference", "completion", "terminal_error"])
+    def test_parent_late_artifact_snapshot_family(tmp_path, completed_audit_fixture, monkeypatch, kind):
+        import audit_darela_shadow as a
+        import launch_audit_darela_shadow as parent
+    
+        out, r = mutated_audit_fixture(tmp_path, completed_audit_fixture, lambda _: None)
+        real = a.Store.json
+    
+        def read(self, path):
+            value = real(self, path)
+            if Path(path).name == "row_31.json":
+                if kind == "reference":
+                    (out / "reference_00.npz").write_bytes(b"changed after initial verify")
+                elif kind == "completion":
+                    (out / "completion.json").write_text("{}")
+                else:
+                    (out / "terminal-error.json").write_text("{}")
+            return value
+    
+        monkeypatch.setattr(a.Store, "json", read)
+>       with pytest.raises(ValueError):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE ValueError
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:835: Failed
+____________ test_parent_late_artifact_snapshot_family[completion] _____________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1726/test_parent_late_artifact_snap1')
+completed_audit_fixture = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1726/completed-independent-synthetic0/audit')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x10c32fc50>
+kind = 'completion'
+
+    @pytest.mark.parametrize("kind", ["reference", "completion", "terminal_error"])
+    def test_parent_late_artifact_snapshot_family(tmp_path, completed_audit_fixture, monkeypatch, kind):
+        import audit_darela_shadow as a
+        import launch_audit_darela_shadow as parent
+    
+        out, r = mutated_audit_fixture(tmp_path, completed_audit_fixture, lambda _: None)
+        real = a.Store.json
+    
+        def read(self, path):
+            value = real(self, path)
+            if Path(path).name == "row_31.json":
+                if kind == "reference":
+                    (out / "reference_00.npz").write_bytes(b"changed after initial verify")
+                elif kind == "completion":
+                    (out / "completion.json").write_text("{}")
+                else:
+                    (out / "terminal-error.json").write_text("{}")
+            return value
+    
+        monkeypatch.setattr(a.Store, "json", read)
+>       with pytest.raises(ValueError):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE ValueError
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:835: Failed
+__________ test_parent_late_artifact_snapshot_family[terminal_error] ___________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1726/test_parent_late_artifact_snap2')
+completed_audit_fixture = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1726/completed-independent-synthetic0/audit')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x10c323920>
+kind = 'terminal_error'
+
+    @pytest.mark.parametrize("kind", ["reference", "completion", "terminal_error"])
+    def test_parent_late_artifact_snapshot_family(tmp_path, completed_audit_fixture, monkeypatch, kind):
+        import audit_darela_shadow as a
+        import launch_audit_darela_shadow as parent
+    
+        out, r = mutated_audit_fixture(tmp_path, completed_audit_fixture, lambda _: None)
+        real = a.Store.json
+    
+        def read(self, path):
+            value = real(self, path)
+            if Path(path).name == "row_31.json":
+                if kind == "reference":
+                    (out / "reference_00.npz").write_bytes(b"changed after initial verify")
+                elif kind == "completion":
+                    (out / "completion.json").write_text("{}")
+                else:
+                    (out / "terminal-error.json").write_text("{}")
+            return value
+    
+        monkeypatch.setattr(a.Store, "json", read)
+>       with pytest.raises(ValueError):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE ValueError
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:835: Failed
+=========================== short test summary info ============================
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_producer_terminal_numeric_alias_family[parent-result.json-exit_code-False]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_producer_terminal_numeric_alias_family[parent-result.json-exit_code-0.0]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_producer_terminal_numeric_alias_family[parent-result.json-wall_seconds_cap-1200.0]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_producer_terminal_numeric_alias_family[summary.json-native_calls-False]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_producer_terminal_numeric_alias_family[summary.json-network_calls-0.0]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_parent_rehashed_classification_and_type_family[failed_row]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_parent_rehashed_classification_and_type_family[unknown_row]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_parent_rehashed_classification_and_type_family[guard_flag]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_parent_rehashed_classification_and_type_family[guard_fail]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_parent_rehashed_classification_and_type_family[missing_guard]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_parent_rehashed_classification_and_type_family[extra_guard]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_parent_rehashed_classification_and_type_family[bound_total]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_parent_rehashed_classification_and_type_family[bound_row]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_parent_rehashed_classification_and_type_family[bound_bool]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_parent_rehashed_classification_and_type_family[attempted_float]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_parent_rehashed_classification_and_type_family[wall_bool]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_parent_rehashed_classification_and_type_family[scope_bool]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_parent_rehashed_classification_and_type_family[scope_float]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_parent_rehashed_classification_and_type_family[cap_float]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_parent_late_artifact_snapshot_family[reference]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_parent_late_artifact_snapshot_family[completion]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_parent_late_artifact_snapshot_family[terminal_error]
+22 failed, 4 passed, 98 deselected in 2.65s

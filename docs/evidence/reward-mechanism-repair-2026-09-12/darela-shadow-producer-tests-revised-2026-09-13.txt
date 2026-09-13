@@ -1,0 +1,157 @@
+........................................................................ [ 59%]
+.............................................FFFF                        [100%]
+=================================== FAILURES ===================================
+________ test_subprocess_status_must_have_exact_types[exit_code-False] _________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1723/test_subprocess_status_must_ha0')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x109732cf0>
+field = 'exit_code', value = False
+
+    @pytest.mark.parametrize(
+        "field,value", [("exit_code", False), ("exit_code", 0.0), ("timed_out", 0), ("child_reaped", 1)]
+    )
+    def test_subprocess_status_must_have_exact_types(tmp_path, monkeypatch, field, value):
+        launch = module()
+        p = plan(tmp_path)
+        pp = tmp_path / "plan.json"
+        pp.write_text(json.dumps(p))
+        out = tmp_path / p["run_id"]
+    
+        def child(*args):
+            result = dict(timed_out=False, exit_code=0, child_reaped=True)
+            result[field] = value
+            return result
+    
+        monkeypatch.setattr(launch, "supervise", child)
+        monkeypatch.setattr(
+            launch.runner,
+            "validate_saved",
+            lambda *a, **kw: dict(
+                screen="pending_independent_audit", provisional_screen="rejected_fixed_hypothesis"
+            ),
+        )
+        result = launch.execute(pp, out)
+>       assert result["status"] == "failed" and (out / "terminal-error.json").is_file()
+E       AssertionError: assert ('completed' == 'failed'
+E         
+E         - failed
+E         + completed)
+
+output/collaboration/reward-mechanism-repair/test_launch_darela_shadow.py:102: AssertionError
+_________ test_subprocess_status_must_have_exact_types[exit_code-0.0] __________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1723/test_subprocess_status_must_ha1')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x109850ad0>
+field = 'exit_code', value = 0.0
+
+    @pytest.mark.parametrize(
+        "field,value", [("exit_code", False), ("exit_code", 0.0), ("timed_out", 0), ("child_reaped", 1)]
+    )
+    def test_subprocess_status_must_have_exact_types(tmp_path, monkeypatch, field, value):
+        launch = module()
+        p = plan(tmp_path)
+        pp = tmp_path / "plan.json"
+        pp.write_text(json.dumps(p))
+        out = tmp_path / p["run_id"]
+    
+        def child(*args):
+            result = dict(timed_out=False, exit_code=0, child_reaped=True)
+            result[field] = value
+            return result
+    
+        monkeypatch.setattr(launch, "supervise", child)
+        monkeypatch.setattr(
+            launch.runner,
+            "validate_saved",
+            lambda *a, **kw: dict(
+                screen="pending_independent_audit", provisional_screen="rejected_fixed_hypothesis"
+            ),
+        )
+        result = launch.execute(pp, out)
+>       assert result["status"] == "failed" and (out / "terminal-error.json").is_file()
+E       AssertionError: assert ('completed' == 'failed'
+E         
+E         - failed
+E         + completed)
+
+output/collaboration/reward-mechanism-repair/test_launch_darela_shadow.py:102: AssertionError
+__________ test_subprocess_status_must_have_exact_types[timed_out-0] ___________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1723/test_subprocess_status_must_ha2')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x1097a9280>
+field = 'timed_out', value = 0
+
+    @pytest.mark.parametrize(
+        "field,value", [("exit_code", False), ("exit_code", 0.0), ("timed_out", 0), ("child_reaped", 1)]
+    )
+    def test_subprocess_status_must_have_exact_types(tmp_path, monkeypatch, field, value):
+        launch = module()
+        p = plan(tmp_path)
+        pp = tmp_path / "plan.json"
+        pp.write_text(json.dumps(p))
+        out = tmp_path / p["run_id"]
+    
+        def child(*args):
+            result = dict(timed_out=False, exit_code=0, child_reaped=True)
+            result[field] = value
+            return result
+    
+        monkeypatch.setattr(launch, "supervise", child)
+        monkeypatch.setattr(
+            launch.runner,
+            "validate_saved",
+            lambda *a, **kw: dict(
+                screen="pending_independent_audit", provisional_screen="rejected_fixed_hypothesis"
+            ),
+        )
+        result = launch.execute(pp, out)
+>       assert result["status"] == "failed" and (out / "terminal-error.json").is_file()
+E       AssertionError: assert ('completed' == 'failed'
+E         
+E         - failed
+E         + completed)
+
+output/collaboration/reward-mechanism-repair/test_launch_darela_shadow.py:102: AssertionError
+_________ test_subprocess_status_must_have_exact_types[child_reaped-1] _________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1723/test_subprocess_status_must_ha3')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x1097aad50>
+field = 'child_reaped', value = 1
+
+    @pytest.mark.parametrize(
+        "field,value", [("exit_code", False), ("exit_code", 0.0), ("timed_out", 0), ("child_reaped", 1)]
+    )
+    def test_subprocess_status_must_have_exact_types(tmp_path, monkeypatch, field, value):
+        launch = module()
+        p = plan(tmp_path)
+        pp = tmp_path / "plan.json"
+        pp.write_text(json.dumps(p))
+        out = tmp_path / p["run_id"]
+    
+        def child(*args):
+            result = dict(timed_out=False, exit_code=0, child_reaped=True)
+            result[field] = value
+            return result
+    
+        monkeypatch.setattr(launch, "supervise", child)
+        monkeypatch.setattr(
+            launch.runner,
+            "validate_saved",
+            lambda *a, **kw: dict(
+                screen="pending_independent_audit", provisional_screen="rejected_fixed_hypothesis"
+            ),
+        )
+        result = launch.execute(pp, out)
+>       assert result["status"] == "failed" and (out / "terminal-error.json").is_file()
+E       AssertionError: assert ('completed' == 'failed'
+E         
+E         - failed
+E         + completed)
+
+output/collaboration/reward-mechanism-repair/test_launch_darela_shadow.py:102: AssertionError
+=========================== short test summary info ============================
+FAILED output/collaboration/reward-mechanism-repair/test_launch_darela_shadow.py::test_subprocess_status_must_have_exact_types[exit_code-False]
+FAILED output/collaboration/reward-mechanism-repair/test_launch_darela_shadow.py::test_subprocess_status_must_have_exact_types[exit_code-0.0]
+FAILED output/collaboration/reward-mechanism-repair/test_launch_darela_shadow.py::test_subprocess_status_must_have_exact_types[timed_out-0]
+FAILED output/collaboration/reward-mechanism-repair/test_launch_darela_shadow.py::test_subprocess_status_must_have_exact_types[child_reaped-1]
+4 failed, 117 passed in 10.84s

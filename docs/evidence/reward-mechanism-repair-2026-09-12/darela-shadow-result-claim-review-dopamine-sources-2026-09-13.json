@@ -1,0 +1,123 @@
+{
+  "agent": "/root/dopamine_sources",
+  "at_utc": "2026-09-13T13:34:35.470162+00:00",
+  "status": "PASS scientific interpretation review of valid rejected fixed shadow",
+  "run_id": "darela-shadow-bc6993b67befdb3a6c2d",
+  "prior_reading_and_scientific_contract": {
+    "path": "output/collaboration/reward-mechanism-repair/darela-shadow-machine-plan-review-dopamine-sources-2026-09-13.json",
+    "bytes": 4569,
+    "sha256": "26cb05a92abc74136caaf2f5bc6808fc61e57ac9914e0befaecbc7f6a3b7dc4c"
+  },
+  "saved_evidence_read": [
+    {
+      "path": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/summary.json",
+      "bytes": 8086,
+      "sha256": "6cee08bd142a69588ea14786780094b7ca4e885ade4ec3f007efea2947fe737a"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/status.json",
+      "bytes": 221,
+      "sha256": "a6a15ed55b540ffb2bcde6f010c663cfb28cdb317cc6af3cc5d2b9f70c395c65"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/parent-result.json",
+      "bytes": 1218,
+      "sha256": "cd91fc06a36c4be367a7cdd81073b2e4e41f4a32593d0c987a47c5a6fbbaf3e1"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/completion.json",
+      "bytes": 1304,
+      "sha256": "346fab5919a425192dbe84e3951f22c38565dd1107e9f7eacf8a43f29a67ef0d"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/audit.json",
+      "bytes": 82151,
+      "sha256": "09962a634e7d760ad974ad17c2f2c90367fbcccea2af6895c1301297f435ae29"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/status.json",
+      "bytes": 82151,
+      "sha256": "09962a634e7d760ad974ad17c2f2c90367fbcccea2af6895c1301297f435ae29"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/parent-result.json",
+      "bytes": 1571,
+      "sha256": "096bc844665fa2e0158c35d9e73aaadffcff91fd190b1953d054f539ea00fa01"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/completion.json",
+      "bytes": 19743,
+      "sha256": "7ff6ac335ce97d7bfd6f59cefbc7d307df0973ddc2469cb8917c713d8367d970"
+    }
+  ],
+  "complete_row_reading": {
+    "count": 32,
+    "method": "Personally read every field of all32 saved audit row JSONs in two16-row batches, including errors, endpoint statuses/mismatch lists, bound observations, original selectors and reference bindings. Programmatic JSON equality confirms the32 rows exactly match the audited report.",
+    "row_inventory_sha256": "c45eb0e18058c5286f14fc9deb879d7bdd75d21f65b83d2afd1c3dfb904d3733",
+    "all_rows_and_endpoints_passed": true,
+    "all_failed_fields_empty": true,
+    "all_float32_mismatch_lists_empty": true,
+    "all_actual_and_conditional_possible_bounds_zero": true
+  },
+  "result": {
+    "audit_numerical_status": "passed",
+    "audited_screen": "rejected_fixed_hypothesis",
+    "completed_histories": 32,
+    "home_guard_failures": "All4 home cells; all4184 eligible edges retained.",
+    "away_guard_outcome": "All4 away cells pass with recorded zero mean and zero sampleSD; this is not demonstrated away learning.",
+    "home_cells": {
+      "diag-rate-bridge-v1-maskgamma-de050d773763/base/home": {
+        "candidate_mean": -0.2058250829577446,
+        "candidate_limit": 0.13703628390513092,
+        "candidate_passed": false,
+        "original_mean": -0.10384037345647812,
+        "original_limit": 0.12835508046325442,
+        "original_passed": true
+      },
+      "diag-rate-bridge-v1-maskgamma-de050d773763/alt/home": {
+        "candidate_mean": -0.15613987296819687,
+        "candidate_limit": 0.1278317237180514,
+        "candidate_passed": false,
+        "original_mean": -0.06098862737417221,
+        "original_limit": 0.13173257082892384,
+        "original_passed": true
+      },
+      "diag-rate-bridge-v1-maskgamma-dea14759e9ca/base/home": {
+        "candidate_mean": -0.443546399474144,
+        "candidate_limit": 0.35881005159683577,
+        "candidate_passed": false,
+        "original_mean": -0.27264003455638885,
+        "original_limit": 0.24084523542329467,
+        "original_passed": false
+      },
+      "diag-rate-bridge-v1-maskgamma-dea14759e9ca/alt/home": {
+        "candidate_mean": -0.17412272095680237,
+        "candidate_limit": 0.09780516571980373,
+        "candidate_passed": false,
+        "original_mean": -0.07415658980607986,
+        "original_limit": 0.10146583493638162,
+        "original_passed": true
+      }
+    },
+    "critical_comparison": "Second/base absolute mean0.443546399474144 exceeds limit0.35881005159683577. Original absolute mean0.27264003455638885 exceeds its own limit0.24084523542329467. The signed negative mean must not be compared directly to a positive absolute-value threshold."
+  },
+  "completion_scope": {
+    "producer_parent_seconds": 18.752042750129476,
+    "audit_parent_seconds": 22.068991541163996,
+    "producer_child_through_summary_seconds": 17.812188416952267,
+    "audit_child_completion_seconds": 21.53362620808184,
+    "parents_record_zero_exit_killed_on_timeout_policy_not_needed": true,
+    "both_parents_record_reaped_true_timed_out_false": true,
+    "no_terminal_error_files_observed": true,
+    "one_completed_attempt_per_frozen_identity": "As recorded by the preserved parent/child receipts; no rerun by this reviewer."
+  },
+  "scientific_claims": [
+    "The predefined engineering transfer fails its necessary fixed-history untaught-control screen. This valid negative result supports rejecting that fixed transfer; numerical agreement is not functional learning.",
+    "This does not reject dopamine-dependent learning, fly presynaptic release physiology, or the measured mouse DARELA preparation. WT1 constants and every-spike/reset embedding remain explicit cross-system engineering assumptions.",
+    "The retained histories do not include feedback from newly changed gains; no closed-loop qualification, acquisition or reversal result follows.",
+    "No parameter, reset, onset, population, mask, gain, bound or guard change is justified by this review. Production qualification failure and blocked conditioning remain unchanged."
+  ],
+  "findings": [],
+  "pending": "Root is authoring the canonical result/cell table/handoff. Final narrative deltas will receive a separate personally read claim-review receipt; this JSON does not claim those unfinished pages were read.",
+  "operations": "Read-only savedJSON/byte hashes and this unique output-only review. No candidate/source/native/model/auditor rerun, neural-array analysis, recalculation, fit, tuning, new source lookup or candidate selection."
+}

@@ -1,0 +1,2195 @@
+FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEFEEEEEEEE [ 97%]
+EE                                                                       [100%]
+==================================== ERRORS ====================================
+_ ERROR at setup of test_result_inventory_dtype_and_nonfinite_family[missing-gains] _
+
+    @pytest.fixture(scope="module")
+    def quiet_result():
+>       return module().evaluate_history(*inputs())
+               ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:68: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+_ ERROR at setup of test_result_inventory_dtype_and_nonfinite_family[missing-state_before] _
+
+    @pytest.fixture(scope="module")
+    def quiet_result():
+>       return module().evaluate_history(*inputs())
+               ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:68: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+_ ERROR at setup of test_result_inventory_dtype_and_nonfinite_family[missing-pooled_release] _
+
+    @pytest.fixture(scope="module")
+    def quiet_result():
+>       return module().evaluate_history(*inputs())
+               ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:68: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+_ ERROR at setup of test_result_inventory_dtype_and_nonfinite_family[missing-edge_phases] _
+
+    @pytest.fixture(scope="module")
+    def quiet_result():
+>       return module().evaluate_history(*inputs())
+               ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:68: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+_ ERROR at setup of test_result_inventory_dtype_and_nonfinite_family[missing-endpoint_dan] _
+
+    @pytest.fixture(scope="module")
+    def quiet_result():
+>       return module().evaluate_history(*inputs())
+               ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:68: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+_ ERROR at setup of test_result_inventory_dtype_and_nonfinite_family[missing-bound_counts] _
+
+    @pytest.fixture(scope="module")
+    def quiet_result():
+>       return module().evaluate_history(*inputs())
+               ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:68: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+_ ERROR at setup of test_result_inventory_dtype_and_nonfinite_family[missing-raw_dan_events] _
+
+    @pytest.fixture(scope="module")
+    def quiet_result():
+>       return module().evaluate_history(*inputs())
+               ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:68: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+_ ERROR at setup of test_result_inventory_dtype_and_nonfinite_family[dtype-gains] _
+
+    @pytest.fixture(scope="module")
+    def quiet_result():
+>       return module().evaluate_history(*inputs())
+               ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:68: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+_ ERROR at setup of test_result_inventory_dtype_and_nonfinite_family[dtype-state_before] _
+
+    @pytest.fixture(scope="module")
+    def quiet_result():
+>       return module().evaluate_history(*inputs())
+               ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:68: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+_ ERROR at setup of test_result_inventory_dtype_and_nonfinite_family[dtype-pooled_release] _
+
+    @pytest.fixture(scope="module")
+    def quiet_result():
+>       return module().evaluate_history(*inputs())
+               ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:68: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+_ ERROR at setup of test_result_inventory_dtype_and_nonfinite_family[dtype-edge_phases] _
+
+    @pytest.fixture(scope="module")
+    def quiet_result():
+>       return module().evaluate_history(*inputs())
+               ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:68: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+_ ERROR at setup of test_result_inventory_dtype_and_nonfinite_family[dtype-endpoint_dan] _
+
+    @pytest.fixture(scope="module")
+    def quiet_result():
+>       return module().evaluate_history(*inputs())
+               ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:68: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+_ ERROR at setup of test_result_inventory_dtype_and_nonfinite_family[dtype-bound_counts] _
+
+    @pytest.fixture(scope="module")
+    def quiet_result():
+>       return module().evaluate_history(*inputs())
+               ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:68: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+_ ERROR at setup of test_result_inventory_dtype_and_nonfinite_family[dtype-raw_dan_events] _
+
+    @pytest.fixture(scope="module")
+    def quiet_result():
+>       return module().evaluate_history(*inputs())
+               ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:68: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+_ ERROR at setup of test_result_inventory_dtype_and_nonfinite_family[nonfinite-gains] _
+
+    @pytest.fixture(scope="module")
+    def quiet_result():
+>       return module().evaluate_history(*inputs())
+               ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:68: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+_ ERROR at setup of test_result_inventory_dtype_and_nonfinite_family[nonfinite-state_before] _
+
+    @pytest.fixture(scope="module")
+    def quiet_result():
+>       return module().evaluate_history(*inputs())
+               ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:68: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+_ ERROR at setup of test_result_inventory_dtype_and_nonfinite_family[nonfinite-pooled_release] _
+
+    @pytest.fixture(scope="module")
+    def quiet_result():
+>       return module().evaluate_history(*inputs())
+               ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:68: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+_ ERROR at setup of test_result_inventory_dtype_and_nonfinite_family[nonfinite-edge_phases] _
+
+    @pytest.fixture(scope="module")
+    def quiet_result():
+>       return module().evaluate_history(*inputs())
+               ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:68: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+_ ERROR at setup of test_result_inventory_dtype_and_nonfinite_family[nonfinite-endpoint_dan] _
+
+    @pytest.fixture(scope="module")
+    def quiet_result():
+>       return module().evaluate_history(*inputs())
+               ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:68: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+_ ERROR at setup of test_result_inventory_dtype_and_nonfinite_family[nonfinite-bound_counts] _
+
+    @pytest.fixture(scope="module")
+    def quiet_result():
+>       return module().evaluate_history(*inputs())
+               ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:68: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+_ ERROR at setup of test_result_inventory_dtype_and_nonfinite_family[nonfinite-raw_dan_events] _
+
+    @pytest.fixture(scope="module")
+    def quiet_result():
+>       return module().evaluate_history(*inputs())
+               ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:68: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+__ ERROR at setup of test_semantic_result_corruption_families[silent_release] __
+
+    @pytest.fixture(scope="module")
+    def quiet_result():
+>       return module().evaluate_history(*inputs())
+               ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:68: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+__ ERROR at setup of test_semantic_result_corruption_families[negative_state] __
+
+    @pytest.fixture(scope="module")
+    def quiet_result():
+>       return module().evaluate_history(*inputs())
+               ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:68: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+___ ERROR at setup of test_semantic_result_corruption_families[phase_order] ____
+
+    @pytest.fixture(scope="module")
+    def quiet_result():
+>       return module().evaluate_history(*inputs())
+               ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:68: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+_____ ERROR at setup of test_semantic_result_corruption_families[pooling] ______
+
+    @pytest.fixture(scope="module")
+    def quiet_result():
+>       return module().evaluate_history(*inputs())
+               ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:68: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+___ ERROR at setup of test_semantic_result_corruption_families[masked_gain] ____
+
+    @pytest.fixture(scope="module")
+    def quiet_result():
+>       return module().evaluate_history(*inputs())
+               ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:68: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+____ ERROR at setup of test_semantic_result_corruption_families[published] _____
+
+    @pytest.fixture(scope="module")
+    def quiet_result():
+>       return module().evaluate_history(*inputs())
+               ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:68: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+____ ERROR at setup of test_semantic_result_corruption_families[tail_count] ____
+
+    @pytest.fixture(scope="module")
+    def quiet_result():
+>       return module().evaluate_history(*inputs())
+               ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:68: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+___ ERROR at setup of test_semantic_result_corruption_families[bound_count] ____
+
+    @pytest.fixture(scope="module")
+    def quiet_result():
+>       return module().evaluate_history(*inputs())
+               ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:68: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+_______ ERROR at setup of test_semantic_result_corruption_families[map] ________
+
+    @pytest.fixture(scope="module")
+    def quiet_result():
+>       return module().evaluate_history(*inputs())
+               ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:68: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+__ ERROR at setup of test_semantic_result_corruption_families[original_delta] __
+
+    @pytest.fixture(scope="module")
+    def quiet_result():
+>       return module().evaluate_history(*inputs())
+               ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:68: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+__ ERROR at setup of test_complete32_cases_exact_guard_cells_and_no_overwrite __
+
+    @pytest.fixture(scope="module")
+    def quiet_result():
+>       return module().evaluate_history(*inputs())
+               ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:68: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+_ ERROR at setup of test_failure_preserves_partial_and_never_completes[input] __
+
+    @pytest.fixture(scope="module")
+    def quiet_result():
+>       return module().evaluate_history(*inputs())
+               ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:68: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+__ ERROR at setup of test_failure_preserves_partial_and_never_completes[row] ___
+
+    @pytest.fixture(scope="module")
+    def quiet_result():
+>       return module().evaluate_history(*inputs())
+               ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:68: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+_ ERROR at setup of test_failure_preserves_partial_and_never_completes[summary] _
+
+    @pytest.fixture(scope="module")
+    def quiet_result():
+>       return module().evaluate_history(*inputs())
+               ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:68: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+_ ERROR at setup of test_failure_preserves_partial_and_never_completes[completion] _
+
+    @pytest.fixture(scope="module")
+    def quiet_result():
+>       return module().evaluate_history(*inputs())
+               ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:68: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+_ ERROR at setup of test_failure_preserves_partial_and_never_completes[final_hash] _
+
+    @pytest.fixture(scope="module")
+    def quiet_result():
+>       return module().evaluate_history(*inputs())
+               ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:68: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+_ ERROR at setup of test_deadline_at_each_terminal_boundary_invalidates_success[before_call] _
+
+    @pytest.fixture(scope="module")
+    def quiet_result():
+>       return module().evaluate_history(*inputs())
+               ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:68: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+_ ERROR at setup of test_deadline_at_each_terminal_boundary_invalidates_success[summary] _
+
+    @pytest.fixture(scope="module")
+    def quiet_result():
+>       return module().evaluate_history(*inputs())
+               ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:68: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+_ ERROR at setup of test_deadline_at_each_terminal_boundary_invalidates_success[completion] _
+
+    @pytest.fixture(scope="module")
+    def quiet_result():
+>       return module().evaluate_history(*inputs())
+               ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:68: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+____ ERROR at setup of test_saved_truncation_hash_and_missing_row_rejected _____
+
+    @pytest.fixture(scope="module")
+    def quiet_result():
+>       return module().evaluate_history(*inputs())
+               ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:68: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+=================================== FAILURES ===================================
+_______________ test_complete_selector_identity_family[run_id-0] _______________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1706/test_complete_selector_identit0')
+index = 0, field = 'run_id'
+
+    @pytest.mark.parametrize("index", [0, 1, 15, 16, 30, 31])
+    @pytest.mark.parametrize("field", ["run_id", "game", "seed_set", "seed"])
+    def test_complete_selector_identity_family(tmp_path, index, field):
+>       r=module();p=plan(tmp_path);p["expected_rows"][index][field]=None;p["run_id"]=r.study_id(p)
+          ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:89: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+_______________ test_complete_selector_identity_family[run_id-1] _______________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1706/test_complete_selector_identit1')
+index = 1, field = 'run_id'
+
+    @pytest.mark.parametrize("index", [0, 1, 15, 16, 30, 31])
+    @pytest.mark.parametrize("field", ["run_id", "game", "seed_set", "seed"])
+    def test_complete_selector_identity_family(tmp_path, index, field):
+>       r=module();p=plan(tmp_path);p["expected_rows"][index][field]=None;p["run_id"]=r.study_id(p)
+          ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:89: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+______________ test_complete_selector_identity_family[run_id-15] _______________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1706/test_complete_selector_identit2')
+index = 15, field = 'run_id'
+
+    @pytest.mark.parametrize("index", [0, 1, 15, 16, 30, 31])
+    @pytest.mark.parametrize("field", ["run_id", "game", "seed_set", "seed"])
+    def test_complete_selector_identity_family(tmp_path, index, field):
+>       r=module();p=plan(tmp_path);p["expected_rows"][index][field]=None;p["run_id"]=r.study_id(p)
+          ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:89: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+______________ test_complete_selector_identity_family[run_id-16] _______________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1706/test_complete_selector_identit3')
+index = 16, field = 'run_id'
+
+    @pytest.mark.parametrize("index", [0, 1, 15, 16, 30, 31])
+    @pytest.mark.parametrize("field", ["run_id", "game", "seed_set", "seed"])
+    def test_complete_selector_identity_family(tmp_path, index, field):
+>       r=module();p=plan(tmp_path);p["expected_rows"][index][field]=None;p["run_id"]=r.study_id(p)
+          ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:89: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+______________ test_complete_selector_identity_family[run_id-30] _______________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1706/test_complete_selector_identit4')
+index = 30, field = 'run_id'
+
+    @pytest.mark.parametrize("index", [0, 1, 15, 16, 30, 31])
+    @pytest.mark.parametrize("field", ["run_id", "game", "seed_set", "seed"])
+    def test_complete_selector_identity_family(tmp_path, index, field):
+>       r=module();p=plan(tmp_path);p["expected_rows"][index][field]=None;p["run_id"]=r.study_id(p)
+          ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:89: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+______________ test_complete_selector_identity_family[run_id-31] _______________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1706/test_complete_selector_identit5')
+index = 31, field = 'run_id'
+
+    @pytest.mark.parametrize("index", [0, 1, 15, 16, 30, 31])
+    @pytest.mark.parametrize("field", ["run_id", "game", "seed_set", "seed"])
+    def test_complete_selector_identity_family(tmp_path, index, field):
+>       r=module();p=plan(tmp_path);p["expected_rows"][index][field]=None;p["run_id"]=r.study_id(p)
+          ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:89: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+________________ test_complete_selector_identity_family[game-0] ________________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1706/test_complete_selector_identit6')
+index = 0, field = 'game'
+
+    @pytest.mark.parametrize("index", [0, 1, 15, 16, 30, 31])
+    @pytest.mark.parametrize("field", ["run_id", "game", "seed_set", "seed"])
+    def test_complete_selector_identity_family(tmp_path, index, field):
+>       r=module();p=plan(tmp_path);p["expected_rows"][index][field]=None;p["run_id"]=r.study_id(p)
+          ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:89: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+________________ test_complete_selector_identity_family[game-1] ________________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1706/test_complete_selector_identit7')
+index = 1, field = 'game'
+
+    @pytest.mark.parametrize("index", [0, 1, 15, 16, 30, 31])
+    @pytest.mark.parametrize("field", ["run_id", "game", "seed_set", "seed"])
+    def test_complete_selector_identity_family(tmp_path, index, field):
+>       r=module();p=plan(tmp_path);p["expected_rows"][index][field]=None;p["run_id"]=r.study_id(p)
+          ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:89: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+_______________ test_complete_selector_identity_family[game-15] ________________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1706/test_complete_selector_identit8')
+index = 15, field = 'game'
+
+    @pytest.mark.parametrize("index", [0, 1, 15, 16, 30, 31])
+    @pytest.mark.parametrize("field", ["run_id", "game", "seed_set", "seed"])
+    def test_complete_selector_identity_family(tmp_path, index, field):
+>       r=module();p=plan(tmp_path);p["expected_rows"][index][field]=None;p["run_id"]=r.study_id(p)
+          ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:89: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+_______________ test_complete_selector_identity_family[game-16] ________________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1706/test_complete_selector_identit9')
+index = 16, field = 'game'
+
+    @pytest.mark.parametrize("index", [0, 1, 15, 16, 30, 31])
+    @pytest.mark.parametrize("field", ["run_id", "game", "seed_set", "seed"])
+    def test_complete_selector_identity_family(tmp_path, index, field):
+>       r=module();p=plan(tmp_path);p["expected_rows"][index][field]=None;p["run_id"]=r.study_id(p)
+          ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:89: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+_______________ test_complete_selector_identity_family[game-30] ________________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1706/test_complete_selector_identit10')
+index = 30, field = 'game'
+
+    @pytest.mark.parametrize("index", [0, 1, 15, 16, 30, 31])
+    @pytest.mark.parametrize("field", ["run_id", "game", "seed_set", "seed"])
+    def test_complete_selector_identity_family(tmp_path, index, field):
+>       r=module();p=plan(tmp_path);p["expected_rows"][index][field]=None;p["run_id"]=r.study_id(p)
+          ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:89: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+_______________ test_complete_selector_identity_family[game-31] ________________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1706/test_complete_selector_identit11')
+index = 31, field = 'game'
+
+    @pytest.mark.parametrize("index", [0, 1, 15, 16, 30, 31])
+    @pytest.mark.parametrize("field", ["run_id", "game", "seed_set", "seed"])
+    def test_complete_selector_identity_family(tmp_path, index, field):
+>       r=module();p=plan(tmp_path);p["expected_rows"][index][field]=None;p["run_id"]=r.study_id(p)
+          ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:89: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+______________ test_complete_selector_identity_family[seed_set-0] ______________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1706/test_complete_selector_identit12')
+index = 0, field = 'seed_set'
+
+    @pytest.mark.parametrize("index", [0, 1, 15, 16, 30, 31])
+    @pytest.mark.parametrize("field", ["run_id", "game", "seed_set", "seed"])
+    def test_complete_selector_identity_family(tmp_path, index, field):
+>       r=module();p=plan(tmp_path);p["expected_rows"][index][field]=None;p["run_id"]=r.study_id(p)
+          ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:89: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+______________ test_complete_selector_identity_family[seed_set-1] ______________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1706/test_complete_selector_identit13')
+index = 1, field = 'seed_set'
+
+    @pytest.mark.parametrize("index", [0, 1, 15, 16, 30, 31])
+    @pytest.mark.parametrize("field", ["run_id", "game", "seed_set", "seed"])
+    def test_complete_selector_identity_family(tmp_path, index, field):
+>       r=module();p=plan(tmp_path);p["expected_rows"][index][field]=None;p["run_id"]=r.study_id(p)
+          ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:89: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+_____________ test_complete_selector_identity_family[seed_set-15] ______________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1706/test_complete_selector_identit14')
+index = 15, field = 'seed_set'
+
+    @pytest.mark.parametrize("index", [0, 1, 15, 16, 30, 31])
+    @pytest.mark.parametrize("field", ["run_id", "game", "seed_set", "seed"])
+    def test_complete_selector_identity_family(tmp_path, index, field):
+>       r=module();p=plan(tmp_path);p["expected_rows"][index][field]=None;p["run_id"]=r.study_id(p)
+          ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:89: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+_____________ test_complete_selector_identity_family[seed_set-16] ______________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1706/test_complete_selector_identit15')
+index = 16, field = 'seed_set'
+
+    @pytest.mark.parametrize("index", [0, 1, 15, 16, 30, 31])
+    @pytest.mark.parametrize("field", ["run_id", "game", "seed_set", "seed"])
+    def test_complete_selector_identity_family(tmp_path, index, field):
+>       r=module();p=plan(tmp_path);p["expected_rows"][index][field]=None;p["run_id"]=r.study_id(p)
+          ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:89: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+_____________ test_complete_selector_identity_family[seed_set-30] ______________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1706/test_complete_selector_identit16')
+index = 30, field = 'seed_set'
+
+    @pytest.mark.parametrize("index", [0, 1, 15, 16, 30, 31])
+    @pytest.mark.parametrize("field", ["run_id", "game", "seed_set", "seed"])
+    def test_complete_selector_identity_family(tmp_path, index, field):
+>       r=module();p=plan(tmp_path);p["expected_rows"][index][field]=None;p["run_id"]=r.study_id(p)
+          ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:89: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+_____________ test_complete_selector_identity_family[seed_set-31] ______________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1706/test_complete_selector_identit17')
+index = 31, field = 'seed_set'
+
+    @pytest.mark.parametrize("index", [0, 1, 15, 16, 30, 31])
+    @pytest.mark.parametrize("field", ["run_id", "game", "seed_set", "seed"])
+    def test_complete_selector_identity_family(tmp_path, index, field):
+>       r=module();p=plan(tmp_path);p["expected_rows"][index][field]=None;p["run_id"]=r.study_id(p)
+          ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:89: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+________________ test_complete_selector_identity_family[seed-0] ________________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1706/test_complete_selector_identit18')
+index = 0, field = 'seed'
+
+    @pytest.mark.parametrize("index", [0, 1, 15, 16, 30, 31])
+    @pytest.mark.parametrize("field", ["run_id", "game", "seed_set", "seed"])
+    def test_complete_selector_identity_family(tmp_path, index, field):
+>       r=module();p=plan(tmp_path);p["expected_rows"][index][field]=None;p["run_id"]=r.study_id(p)
+          ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:89: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+________________ test_complete_selector_identity_family[seed-1] ________________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1706/test_complete_selector_identit19')
+index = 1, field = 'seed'
+
+    @pytest.mark.parametrize("index", [0, 1, 15, 16, 30, 31])
+    @pytest.mark.parametrize("field", ["run_id", "game", "seed_set", "seed"])
+    def test_complete_selector_identity_family(tmp_path, index, field):
+>       r=module();p=plan(tmp_path);p["expected_rows"][index][field]=None;p["run_id"]=r.study_id(p)
+          ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:89: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+_______________ test_complete_selector_identity_family[seed-15] ________________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1706/test_complete_selector_identit20')
+index = 15, field = 'seed'
+
+    @pytest.mark.parametrize("index", [0, 1, 15, 16, 30, 31])
+    @pytest.mark.parametrize("field", ["run_id", "game", "seed_set", "seed"])
+    def test_complete_selector_identity_family(tmp_path, index, field):
+>       r=module();p=plan(tmp_path);p["expected_rows"][index][field]=None;p["run_id"]=r.study_id(p)
+          ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:89: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+_______________ test_complete_selector_identity_family[seed-16] ________________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1706/test_complete_selector_identit21')
+index = 16, field = 'seed'
+
+    @pytest.mark.parametrize("index", [0, 1, 15, 16, 30, 31])
+    @pytest.mark.parametrize("field", ["run_id", "game", "seed_set", "seed"])
+    def test_complete_selector_identity_family(tmp_path, index, field):
+>       r=module();p=plan(tmp_path);p["expected_rows"][index][field]=None;p["run_id"]=r.study_id(p)
+          ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:89: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+_______________ test_complete_selector_identity_family[seed-30] ________________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1706/test_complete_selector_identit22')
+index = 30, field = 'seed'
+
+    @pytest.mark.parametrize("index", [0, 1, 15, 16, 30, 31])
+    @pytest.mark.parametrize("field", ["run_id", "game", "seed_set", "seed"])
+    def test_complete_selector_identity_family(tmp_path, index, field):
+>       r=module();p=plan(tmp_path);p["expected_rows"][index][field]=None;p["run_id"]=r.study_id(p)
+          ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:89: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+_______________ test_complete_selector_identity_family[seed-31] ________________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1706/test_complete_selector_identit23')
+index = 31, field = 'seed'
+
+    @pytest.mark.parametrize("index", [0, 1, 15, 16, 30, 31])
+    @pytest.mark.parametrize("field", ["run_id", "game", "seed_set", "seed"])
+    def test_complete_selector_identity_family(tmp_path, index, field):
+>       r=module();p=plan(tmp_path);p["expected_rows"][index][field]=None;p["run_id"]=r.study_id(p)
+          ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:89: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+____________ test_plan_order_typed_values_and_frozen_choices[short] ____________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1706/test_plan_order_typed_values_a0')
+change = 'short'
+
+    @pytest.mark.parametrize("change", ["short", "reverse", "duplicate", "float_seed", "cap", "parameters", "identity"])
+    def test_plan_order_typed_values_and_frozen_choices(tmp_path, change):
+>       r=module();p=plan(tmp_path)
+          ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:95: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+___________ test_plan_order_typed_values_and_frozen_choices[reverse] ___________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1706/test_plan_order_typed_values_a1')
+change = 'reverse'
+
+    @pytest.mark.parametrize("change", ["short", "reverse", "duplicate", "float_seed", "cap", "parameters", "identity"])
+    def test_plan_order_typed_values_and_frozen_choices(tmp_path, change):
+>       r=module();p=plan(tmp_path)
+          ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:95: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+__________ test_plan_order_typed_values_and_frozen_choices[duplicate] __________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1706/test_plan_order_typed_values_a2')
+change = 'duplicate'
+
+    @pytest.mark.parametrize("change", ["short", "reverse", "duplicate", "float_seed", "cap", "parameters", "identity"])
+    def test_plan_order_typed_values_and_frozen_choices(tmp_path, change):
+>       r=module();p=plan(tmp_path)
+          ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:95: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+_________ test_plan_order_typed_values_and_frozen_choices[float_seed] __________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1706/test_plan_order_typed_values_a3')
+change = 'float_seed'
+
+    @pytest.mark.parametrize("change", ["short", "reverse", "duplicate", "float_seed", "cap", "parameters", "identity"])
+    def test_plan_order_typed_values_and_frozen_choices(tmp_path, change):
+>       r=module();p=plan(tmp_path)
+          ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:95: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+_____________ test_plan_order_typed_values_and_frozen_choices[cap] _____________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1706/test_plan_order_typed_values_a4')
+change = 'cap'
+
+    @pytest.mark.parametrize("change", ["short", "reverse", "duplicate", "float_seed", "cap", "parameters", "identity"])
+    def test_plan_order_typed_values_and_frozen_choices(tmp_path, change):
+>       r=module();p=plan(tmp_path)
+          ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:95: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+_________ test_plan_order_typed_values_and_frozen_choices[parameters] __________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1706/test_plan_order_typed_values_a5')
+change = 'parameters'
+
+    @pytest.mark.parametrize("change", ["short", "reverse", "duplicate", "float_seed", "cap", "parameters", "identity"])
+    def test_plan_order_typed_values_and_frozen_choices(tmp_path, change):
+>       r=module();p=plan(tmp_path)
+          ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:95: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+__________ test_plan_order_typed_values_and_frozen_choices[identity] ___________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1706/test_plan_order_typed_values_a6')
+change = 'identity'
+
+    @pytest.mark.parametrize("change", ["short", "reverse", "duplicate", "float_seed", "cap", "parameters", "identity"])
+    def test_plan_order_typed_values_and_frozen_choices(tmp_path, change):
+>       r=module();p=plan(tmp_path)
+          ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:95: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+__________ test_full_candidate_schema_and_unit_original_are_distinct ___________
+
+    def test_full_candidate_schema_and_unit_original_are_distinct():
+>       r=module();trace,original,delta,maps=inputs();trace[510,0]=1;trace[550,2:4]=1
+          ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:108: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+_____________________ test_helper_input_mutation_rejected ______________________
+
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x109e27920>
+
+    def test_helper_input_mutation_rejected(monkeypatch):
+>       r=module();real=r.release_events
+          ^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:148: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:14: in module
+    return importlib.import_module("run_darela_shadow")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'run_darela_shadow', import_ = <function _gcd_import at 0x102b640e0>
+
+>   ???
+E   ModuleNotFoundError: No module named 'run_darela_shadow'
+
+<frozen importlib._bootstrap>:1324: ModuleNotFoundError
+=========================== short test summary info ============================
+FAILED output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_complete_selector_identity_family[run_id-0]
+FAILED output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_complete_selector_identity_family[run_id-1]
+FAILED output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_complete_selector_identity_family[run_id-15]
+FAILED output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_complete_selector_identity_family[run_id-16]
+FAILED output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_complete_selector_identity_family[run_id-30]
+FAILED output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_complete_selector_identity_family[run_id-31]
+FAILED output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_complete_selector_identity_family[game-0]
+FAILED output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_complete_selector_identity_family[game-1]
+FAILED output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_complete_selector_identity_family[game-15]
+FAILED output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_complete_selector_identity_family[game-16]
+FAILED output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_complete_selector_identity_family[game-30]
+FAILED output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_complete_selector_identity_family[game-31]
+FAILED output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_complete_selector_identity_family[seed_set-0]
+FAILED output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_complete_selector_identity_family[seed_set-1]
+FAILED output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_complete_selector_identity_family[seed_set-15]
+FAILED output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_complete_selector_identity_family[seed_set-16]
+FAILED output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_complete_selector_identity_family[seed_set-30]
+FAILED output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_complete_selector_identity_family[seed_set-31]
+FAILED output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_complete_selector_identity_family[seed-0]
+FAILED output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_complete_selector_identity_family[seed-1]
+FAILED output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_complete_selector_identity_family[seed-15]
+FAILED output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_complete_selector_identity_family[seed-16]
+FAILED output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_complete_selector_identity_family[seed-30]
+FAILED output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_complete_selector_identity_family[seed-31]
+FAILED output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_plan_order_typed_values_and_frozen_choices[short]
+FAILED output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_plan_order_typed_values_and_frozen_choices[reverse]
+FAILED output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_plan_order_typed_values_and_frozen_choices[duplicate]
+FAILED output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_plan_order_typed_values_and_frozen_choices[float_seed]
+FAILED output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_plan_order_typed_values_and_frozen_choices[cap]
+FAILED output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_plan_order_typed_values_and_frozen_choices[parameters]
+FAILED output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_plan_order_typed_values_and_frozen_choices[identity]
+FAILED output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_full_candidate_schema_and_unit_original_are_distinct
+FAILED output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_helper_input_mutation_rejected
+ERROR output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_result_inventory_dtype_and_nonfinite_family[missing-gains]
+ERROR output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_result_inventory_dtype_and_nonfinite_family[missing-state_before]
+ERROR output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_result_inventory_dtype_and_nonfinite_family[missing-pooled_release]
+ERROR output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_result_inventory_dtype_and_nonfinite_family[missing-edge_phases]
+ERROR output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_result_inventory_dtype_and_nonfinite_family[missing-endpoint_dan]
+ERROR output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_result_inventory_dtype_and_nonfinite_family[missing-bound_counts]
+ERROR output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_result_inventory_dtype_and_nonfinite_family[missing-raw_dan_events]
+ERROR output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_result_inventory_dtype_and_nonfinite_family[dtype-gains]
+ERROR output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_result_inventory_dtype_and_nonfinite_family[dtype-state_before]
+ERROR output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_result_inventory_dtype_and_nonfinite_family[dtype-pooled_release]
+ERROR output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_result_inventory_dtype_and_nonfinite_family[dtype-edge_phases]
+ERROR output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_result_inventory_dtype_and_nonfinite_family[dtype-endpoint_dan]
+ERROR output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_result_inventory_dtype_and_nonfinite_family[dtype-bound_counts]
+ERROR output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_result_inventory_dtype_and_nonfinite_family[dtype-raw_dan_events]
+ERROR output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_result_inventory_dtype_and_nonfinite_family[nonfinite-gains]
+ERROR output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_result_inventory_dtype_and_nonfinite_family[nonfinite-state_before]
+ERROR output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_result_inventory_dtype_and_nonfinite_family[nonfinite-pooled_release]
+ERROR output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_result_inventory_dtype_and_nonfinite_family[nonfinite-edge_phases]
+ERROR output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_result_inventory_dtype_and_nonfinite_family[nonfinite-endpoint_dan]
+ERROR output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_result_inventory_dtype_and_nonfinite_family[nonfinite-bound_counts]
+ERROR output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_result_inventory_dtype_and_nonfinite_family[nonfinite-raw_dan_events]
+ERROR output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_semantic_result_corruption_families[silent_release]
+ERROR output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_semantic_result_corruption_families[negative_state]
+ERROR output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_semantic_result_corruption_families[phase_order]
+ERROR output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_semantic_result_corruption_families[pooling]
+ERROR output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_semantic_result_corruption_families[masked_gain]
+ERROR output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_semantic_result_corruption_families[published]
+ERROR output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_semantic_result_corruption_families[tail_count]
+ERROR output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_semantic_result_corruption_families[bound_count]
+ERROR output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_semantic_result_corruption_families[map]
+ERROR output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_semantic_result_corruption_families[original_delta]
+ERROR output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_complete32_cases_exact_guard_cells_and_no_overwrite
+ERROR output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_failure_preserves_partial_and_never_completes[input]
+ERROR output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_failure_preserves_partial_and_never_completes[row]
+ERROR output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_failure_preserves_partial_and_never_completes[summary]
+ERROR output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_failure_preserves_partial_and_never_completes[completion]
+ERROR output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_failure_preserves_partial_and_never_completes[final_hash]
+ERROR output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_deadline_at_each_terminal_boundary_invalidates_success[before_call]
+ERROR output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_deadline_at_each_terminal_boundary_invalidates_success[summary]
+ERROR output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_deadline_at_each_terminal_boundary_invalidates_success[completion]
+ERROR output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_saved_truncation_hash_and_missing_row_rejected
+33 failed, 41 errors in 0.50s

@@ -1,0 +1,72 @@
+{
+  "agent": "/root/evidence_ui",
+  "at_utc": "2026-09-13T13:30:31.509682+00:00",
+  "status": "frozen_preparation_and_single_real_input_preflight_passed",
+  "reading": {
+    "current_narratives": 205,
+    "unchanged_prior_fully_read": 203,
+    "new_exact_aliases_of_personally_read_full_contracts": [
+      {
+        "canonical": {
+          "path": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-independent-audit-contract-2026-09-13.md",
+          "bytes": 6185,
+          "sha256": "eb4f8ed92c7c4e15895989211371b77e61b176be67cc02902f9e8f17daff94c7"
+        },
+        "personally_read_original": {
+          "path": "output/collaboration/reward-mechanism-repair/darela-shadow-independent-audit-contract-2026-09-13.md",
+          "bytes": 6185,
+          "sha256": "eb4f8ed92c7c4e15895989211371b77e61b176be67cc02902f9e8f17daff94c7"
+        }
+      },
+      {
+        "canonical": {
+          "path": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-preregistration-2026-09-13.md",
+          "bytes": 9394,
+          "sha256": "63e88a1d968761e6f7182859ece4d0a12535130be2362d2c3e16acf2a7c9d492"
+        },
+        "personally_read_original": {
+          "path": "output/collaboration/reward-mechanism-repair/darela-shadow-preregistration-2026-09-13.md",
+          "bytes": 9394,
+          "sha256": "63e88a1d968761e6f7182859ece4d0a12535130be2362d2c3e16acf2a7c9d492"
+        }
+      }
+    ],
+    "prior_personal_chain": [
+      {
+        "path": "output/collaboration/reward-mechanism-repair/darela-final-reading-ui-review-evidence-ui-2026-09-13.json",
+        "bytes": 7414,
+        "sha256": "6a7ed021188d54b90006d7ac0a7902de0986e34609425e3fc03b163e73f75683"
+      },
+      {
+        "path": "output/collaboration/reward-mechanism-repair/darela-shadow-producer-preparation-evidence-ui-2026-09-13.json",
+        "bytes": 5895,
+        "sha256": "db8083bd0cefb3c294a627c71fc92d2d02127b9b88bc05bc5936274f4f421fcc"
+      }
+    ],
+    "unread_deltas": []
+  },
+  "plan": {
+    "path": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-plan.json",
+    "bytes": 55704,
+    "sha256": "b22df9fe43bd4654ac686e8d6e0555f468db78cb42871bcdfa63ef208841adbb"
+  },
+  "producer_final_preparation": {
+    "path": "output/collaboration/reward-mechanism-repair/darela-shadow-producer-final-preparation-evidence-ui-2026-09-13.json",
+    "bytes": 3211,
+    "sha256": "07dd26228ec94a12e74bd0b24d1c29ab7853e9bcd38aa86a18d108ef10ea2210"
+  },
+  "input_preflight": {
+    "path": "output/collaboration/reward-mechanism-repair/darela-shadow-input-preflight-2026-09-13.json",
+    "bytes": 47655,
+    "sha256": "7ff0b684230715620ca79f56c2560c92653ed892827afea5cd95ec2564742210"
+  },
+  "preflight": {
+    "rows": 32,
+    "wall_seconds": 3.240960708120838,
+    "all168_input_bindings_unchanged": true,
+    "candidate_helper_calls": 0,
+    "scope": "Actual complete fine fingerprints, typed original maps and main/fine gain/delta equality and event-count reductions. Candidate release/bridge/evaluate_history replaced by forbidden sentinels; no candidate or neural evaluation."
+  },
+  "tests": "122 focused producer/launcher cases passed; root reports251 canonical producer/auditor/summary cases and4055Python/103frontend/Ruff/build complete. No duplicate full gate or browser by this agent.",
+  "scope": "Production/API/UI unchanged and still accurate. Existing failed qualification/conditioning not-run state unchanged.32-history DARELA screen remains unrun; root owns final external machine review and numerical dispatch."
+}

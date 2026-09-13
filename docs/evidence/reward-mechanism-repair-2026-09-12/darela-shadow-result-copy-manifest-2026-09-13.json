@@ -1,0 +1,1189 @@
+{
+  "scope": "Complete fixed-screen and independent-audit outputs plus preparation/review/test evidence; originals retained. Current code copies listed in separate revised-code manifest.",
+  "files": [
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-audit-artifact-green-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-audit-artifact-green-2026-09-13.txt",
+      "bytes": 713,
+      "sha256": "24528308f96cef370a619c1e78e289631f5bc8629824473e37301f74652d4f3c"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-audit-artifact-red-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-audit-artifact-red-2026-09-13.txt",
+      "bytes": 66990,
+      "sha256": "8bdb32c3c39cf320df90064838dcc1dc642e2d36aaa012e37bb9a89dbba69f3a"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-audit-complete-tests-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-audit-complete-tests-2026-09-13.txt",
+      "bytes": 713,
+      "sha256": "1ee2641462e02e2d3dde820c2cb83b1070e9ad6142323a33de76c259fb62a874"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-audit-final-tests-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-audit-final-tests-2026-09-13.txt",
+      "bytes": 713,
+      "sha256": "e3694d8e2601421382ee27caf739427b1252df59196fb166cedf4928877b57b4"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-audit-first-green-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-audit-first-green-2026-09-13.txt",
+      "bytes": 99,
+      "sha256": "a67620ef7d964f5909984b19b552609ed5261dbc55fc543dab73d50a38dceef7"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-audit-initial-red-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-audit-initial-red-2026-09-13.txt",
+      "bytes": 63257,
+      "sha256": "753724470aefac772673136ffe660c0cf327d9d13906ec7dec89ef20512ab120"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-audit-lifecycle-first-green-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-audit-lifecycle-first-green-2026-09-13.txt",
+      "bytes": 713,
+      "sha256": "d0b3c9aef71ef4415a717777320ced2af899f4e27218cb388dafba2db9166748"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-audit-lifecycle-red-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-audit-lifecycle-red-2026-09-13.txt",
+      "bytes": 29020,
+      "sha256": "7161107166f606f25d1f85bb221870a3a770a2e60d7b304fd1b2c8e3dbba9e73"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-audit-preparation-delivered-arrivals-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-audit-preparation-delivered-arrivals-2026-09-13.json",
+      "bytes": 57894,
+      "sha256": "ed4fb65b660b9d95908cf620f656e814f0561af4796bdf01d0632d2364d68102"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-audit-synthetic-capacity-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-audit-synthetic-capacity-2026-09-13.json",
+      "bytes": 895,
+      "sha256": "4d8ef15333702aafc8c336b702e55fe864eeb789cb34ee47fcbcaacb0aaa9ae5"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-audit-synthetic-capacity-source-note-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-audit-synthetic-capacity-source-note-2026-09-13.json",
+      "bytes": 464,
+      "sha256": "54e8666d310a655e6645381fb7fd2068c95fd402462848015c78706344178e3a"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-audit-terminal-final-tests-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-audit-terminal-final-tests-2026-09-13.txt",
+      "bytes": 714,
+      "sha256": "18f8c5aceebbd1cfe287bb8af3ffa78c449c10be95fa8ab18ac7dc8430d41351"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-audit-terminal-red-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-audit-terminal-red-2026-09-13.txt",
+      "bytes": 54268,
+      "sha256": "f7c950702dab0413a12ede65cf80ab1ca4d1904204f04369237275e9e3f667d7"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-audit-terminal-release-tests-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-audit-terminal-release-tests-2026-09-13.txt",
+      "bytes": 714,
+      "sha256": "7b60df617095dd87655bf5cc90303ac1af8c88955c349113b92c994fdd7d2e9d"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-plan.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-plan.json",
+      "bytes": 55704,
+      "sha256": "b22df9fe43bd4654ac686e8d6e0555f468db78cb42871bcdfa63ef208841adbb"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-canonical-final-tests-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-canonical-final-tests-2026-09-13.txt",
+      "bytes": 879,
+      "sha256": "f27c1f608bf52b27de01fd86286630afd82a886c5964123bae47dc049690e503"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-canonical-tests-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-canonical-tests-2026-09-13.txt",
+      "bytes": 799,
+      "sha256": "b0cbcfdc7df901574a78992d61c253b9504034689c5235604f72e783fb6fb408"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-final-code-review-dopamine-sources-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-final-code-review-dopamine-sources-2026-09-13.json",
+      "bytes": 9095,
+      "sha256": "8fcccb64cebcef0f4a89ee757bbe68058d7489f02488b21d6d4153c185a5cf8b"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-guard-units-red-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-guard-units-red-2026-09-13.txt",
+      "bytes": 1651,
+      "sha256": "e2ef52eb5eac94c2cc8e4e2a305a0bf6e751ef1390761cce71b7429f13a853b4"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-home-trial-comparison-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-home-trial-comparison-2026-09-13.json",
+      "bytes": 11692,
+      "sha256": "1b4e6d0e811bc292c9880342707c633e35083d083dc10aa0184ed43772c1238b"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-independent-audit-contract-2026-09-13.md",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-independent-audit-contract-2026-09-13.md",
+      "bytes": 6185,
+      "sha256": "eb4f8ed92c7c4e15895989211371b77e61b176be67cc02902f9e8f17daff94c7"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-independent-saved-result-review-delivered-arrivals-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-independent-saved-result-review-delivered-arrivals-2026-09-13.json",
+      "bytes": 46232,
+      "sha256": "defa54a33523abe4e451b8c3c68e55add6fed6775e2af882ed9ae64c4e206718"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-initial-freeze-preserved-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-initial-freeze-preserved-2026-09-13.json",
+      "bytes": 1769,
+      "sha256": "491208f214f6da427a8e2bab59dbc90d0c6a68412a7a40c25fbf525a25a51b89"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-input-preflight-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-input-preflight-2026-09-13.json",
+      "bytes": 47655,
+      "sha256": "7ff0b684230715620ca79f56c2560c92653ed892827afea5cd95ec2564742210"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-launcher-tests-red-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-launcher-tests-red-2026-09-13.txt",
+      "bytes": 19571,
+      "sha256": "da249ac90e77e980c803e37ca1926371334bb8305e30db32c53c5cce2b288dda"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-machine-plan-review-dopamine-sources-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-machine-plan-review-dopamine-sources-2026-09-13.json",
+      "bytes": 4569,
+      "sha256": "26cb05a92abc74136caaf2f5bc6808fc61e57ac9914e0befaecbc7f6a3b7dc4c"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-make-verify-2026-09-13.log",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-make-verify-2026-09-13.log",
+      "bytes": 6297,
+      "sha256": "1f9f9ab0d3bf96ff56cb960747b1ad78a96de6669afef3ab9c0f531316831b5f"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-plan-preflight-reading-evidence-ui-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-plan-preflight-reading-evidence-ui-2026-09-13.json",
+      "bytes": 3556,
+      "sha256": "1db9c9aec6eb1d3ec4d794321642733ee37afdc2e0aec6aacce4428182d4daa1"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-preparation-copy-manifest-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-preparation-copy-manifest-2026-09-13.json",
+      "bytes": 6369,
+      "sha256": "8dafaebaf979aaee02b197a64976fb0ba107527edd2d7e549d2121dc30772f70"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-preregistration-2026-09-13.md",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-preregistration-2026-09-13.md",
+      "bytes": 9394,
+      "sha256": "63e88a1d968761e6f7182859ece4d0a12535130be2362d2c3e16acf2a7c9d492"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-producer-code-review-dopamine-sources-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-producer-code-review-dopamine-sources-2026-09-13.json",
+      "bytes": 5094,
+      "sha256": "32ea9f21e7dcac12842f1ac241b4a64b721850847e0639842404e83bb34d86e9"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-producer-final-preparation-evidence-ui-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-producer-final-preparation-evidence-ui-2026-09-13.json",
+      "bytes": 3211,
+      "sha256": "07dd26228ec94a12e74bd0b24d1c29ab7853e9bcd38aa86a18d108ef10ea2210"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-producer-preparation-evidence-ui-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-producer-preparation-evidence-ui-2026-09-13.json",
+      "bytes": 5895,
+      "sha256": "db8083bd0cefb3c294a627c71fc92d2d02127b9b88bc05bc5936274f4f421fcc"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-producer-tests-final-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-producer-tests-final-2026-09-13.txt",
+      "bytes": 180,
+      "sha256": "e180b8fc82520e7e773cd11e40f4c1ecaffb7a7e54756de066ba39a6735e0cb3"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-producer-tests-revised-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-producer-tests-revised-2026-09-13.txt",
+      "bytes": 7071,
+      "sha256": "4c3a3ea38be0a83361f09b0a2ad2557d06ff049eb866e225c180d898525cfca5"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-producer-tests-revised-final-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-producer-tests-revised-final-2026-09-13.txt",
+      "bytes": 181,
+      "sha256": "8e57cb6418571405d3d60151b11a57b5ee86ed0bc3ed240c2d65140118c021ff"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-producer-type-correction-evidence-ui-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-producer-type-correction-evidence-ui-2026-09-13.json",
+      "bytes": 3007,
+      "sha256": "4e2f99f53f9e0edd3dc74568475d717c3d7fcb5f0ca49f8dccc8db1644e2ce6c"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-producer-type-review-dopamine-sources-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-producer-type-review-dopamine-sources-2026-09-13.json",
+      "bytes": 2929,
+      "sha256": "8253645574e3cf2fc2f4dfa8b1749104bb2ae5b78f79a58b30471d3793ad709d"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-protected-before-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-protected-before-2026-09-13.json",
+      "bytes": 1028,
+      "sha256": "3173d28c1b9e16a67a085e86e33204220315a8f5f2415a416e3eade21ff2e83a"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-protected-before-corrected-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-protected-before-corrected-2026-09-13.json",
+      "bytes": 521,
+      "sha256": "123674e61efa028c11dbe5763b4a6da5aa0680e1e70dc6c523e4ee4226f4935d"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-reader-contract-red-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-reader-contract-red-2026-09-13.txt",
+      "bytes": 22098,
+      "sha256": "ab35e1f52309a6feb3a4f989f9076ecf8f6db1863ac9824ff32770c487d53e8c"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-result-claim-review-dopamine-sources-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-result-claim-review-dopamine-sources-2026-09-13.json",
+      "bytes": 6878,
+      "sha256": "967a9f8b88b952e67323785598924ab47415bea6f1d2a690d0795e696ba60aee"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-revised-code-copy-manifest-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-revised-code-copy-manifest-2026-09-13.json",
+      "bytes": 4816,
+      "sha256": "1aa427191c497f3a128eb1234c00be5d80d2cd004f67debb3f49908cc2ef5837"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-root-structural-preflight-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-root-structural-preflight-2026-09-13.json",
+      "bytes": 76645,
+      "sha256": "62d0341394b7b8c06bfae16f24489d3d4a9c06798a941914be7a0a64b7e56ecb"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-runner-launcher-green-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-runner-launcher-green-2026-09-13.txt",
+      "bytes": 179,
+      "sha256": "12f6b02c2ca8445bafde6fb0f65cc9bbfa45bd437ea5d68c0c2f64d0cce6de55"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-runner-launcher-green-v2-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-runner-launcher-green-v2-2026-09-13.txt",
+      "bytes": 180,
+      "sha256": "127feaddf5d1b69c50dbaf3c4e7a667c7f8827ad516e8f02deab2fdfa65e5e21"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-runner-tests-first-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-runner-tests-first-2026-09-13.txt",
+      "bytes": 179,
+      "sha256": "3319ce392f8b466fa55f5e757d6e7b6482e47d2a77b4fbf90f1f7bdea2d736da"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-runner-tests-red-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-runner-tests-red-2026-09-13.txt",
+      "bytes": 113046,
+      "sha256": "901dc8f615938bd5413c60856ccc9a908d3354b0d3790f5af9f8251b369eeda8"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-scientific-prereg-review-dopamine-sources-2026-09-13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-scientific-prereg-review-dopamine-sources-2026-09-13.json",
+      "bytes": 5960,
+      "sha256": "e384cbda5128d4446b1351623eb95d44f6d7f06f0e1378bf7a319e2d9d526f2c"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-terminal-types-red-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-terminal-types-red-2026-09-13.txt",
+      "bytes": 20830,
+      "sha256": "88bdc5a6c70765743ef8a1432766c932a53205a81cfcc15e3af80f378546f914"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/audit_darela_shadow_capacity_snapshot.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/audit_darela_shadow_capacity_snapshot.py",
+      "bytes": 8140,
+      "sha256": "f85623925ef7e2ad0e381f2ebabcd75022dca81bf04996a29f2432bd9f98f968"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-cell-summary-tests-final-2026-09-13.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-cell-summary-tests-final-2026-09-13.txt",
+      "bytes": 98,
+      "sha256": "51d71d626f7f335437c0d6a6c62303cf0d313d6287566ec770d41e78000d35f9"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/parent-result.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/parent-result.json",
+      "bytes": 1218,
+      "sha256": "cd91fc06a36c4be367a7cdd81073b2e4e41f4a32593d0c987a47c5a6fbbaf3e1"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/plan.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/plan.json",
+      "bytes": 55704,
+      "sha256": "b22df9fe43bd4654ac686e8d6e0555f468db78cb42871bcdfa63ef208841adbb"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/attempts.jsonl",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/result/attempts.jsonl",
+      "bytes": 15598,
+      "sha256": "1800d9408cffb9b40ab2421b9c6bc05068b20c7094f6c6edfac8c12d8bb2b3b0"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_00.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/result/case_00.json",
+      "bytes": 7173,
+      "sha256": "258d3f539df5d29d41ab171a92198a15af7bdbc45946dd187cb4480eb3633fd1"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_00.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/result/case_00.npz",
+      "bytes": 349220,
+      "sha256": "cb1c0a6fa6fcebebfd8306f307609c76967f5c1d22e1d4a9e87a7cab21260713"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_01.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/result/case_01.json",
+      "bytes": 7175,
+      "sha256": "518f75c410744140872cb205fa4dad8533d9c9ec215a4693d24e588aa5db1132"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_01.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/result/case_01.npz",
+      "bytes": 331799,
+      "sha256": "c48d5ce5f7d1ed530a8fbd0ec21272896ef821d01625d8ae3800f7cb5b6e7f18"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_02.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/result/case_02.json",
+      "bytes": 7173,
+      "sha256": "6d64c0a488e3802280aefe054d85edac0b0ca8ca55a33e40db95f67ebdc5442c"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_02.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/result/case_02.npz",
+      "bytes": 298326,
+      "sha256": "1fea1d489eaa9ec5002b08c79edf6915e1a4cabd7804900372f285f2ebcf61b4"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_03.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/result/case_03.json",
+      "bytes": 7175,
+      "sha256": "666230feff22a50089b182a9a5701fa6a0980b679bc0f612602d77ee184f82f3"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_03.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/result/case_03.npz",
+      "bytes": 304014,
+      "sha256": "ff995c0a47ae82e4d64890a981e812b4ac5d0ecda0a53d5af3caa6765173d8a5"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_04.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/result/case_04.json",
+      "bytes": 7173,
+      "sha256": "d54e39ba1652763cf92247f9927dca56c6c2aa976ce84fc14034ab3e3382fb6d"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_04.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/result/case_04.npz",
+      "bytes": 400275,
+      "sha256": "24a9cc96845cf23dacf9b2e53c779fa41eda0263e20ca277b4d86b20ba2e014e"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_05.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/result/case_05.json",
+      "bytes": 7175,
+      "sha256": "8da728ee150ca5ffec1023472928159a64ba3dfc34a1bddcec269c8f766f93bd"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_05.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/result/case_05.npz",
+      "bytes": 411168,
+      "sha256": "4f2287acb871565bf5b2fc8c90db71a223c939939659e521ee9d1d149fe88f4b"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_06.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/result/case_06.json",
+      "bytes": 7173,
+      "sha256": "451b50a4484eed32e6b0306a0e7dc3a41b85483fb071e6db3015b0eeddca94f2"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_06.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/result/case_06.npz",
+      "bytes": 275500,
+      "sha256": "902a53b6119578c97cf87ab9fa9183d021e11a2a56b26c845c4c4238f4adb978"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_07.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/result/case_07.json",
+      "bytes": 7175,
+      "sha256": "e8a4685d265f8174e68bbe35810545e8cf88acd8ad4736e12c4ce388ed715796"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_07.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/result/case_07.npz",
+      "bytes": 281260,
+      "sha256": "df143b7410e5b20df4068abfb5df98e3958aeed156e669239aa43ad7ec0c6741"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_08.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/result/case_08.json",
+      "bytes": 7173,
+      "sha256": "a100033da4bc54b2e8e6a2f4919ee41371c8c204a1034ade74a91ad9a9a366c9"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_08.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/result/case_08.npz",
+      "bytes": 385289,
+      "sha256": "da927bffbb33244e24fd674eb1695d6fd4cf3309350eaa59d177932f27b4f577"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_09.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/result/case_09.json",
+      "bytes": 7175,
+      "sha256": "ea769dabf644d4d91b054b5a2c4479b20f31ba66c339a07865784463c9a67123"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_09.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/result/case_09.npz",
+      "bytes": 363422,
+      "sha256": "b0febddf1a41c30ce89fee183f35dbcba48491fa9170bdcaaa3ce819a9504ede"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_10.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/result/case_10.json",
+      "bytes": 7174,
+      "sha256": "d825405a17f6d6c759a1edbda56ca9796ba3b47d94e8686fb85a21a37f10d26b"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_10.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/result/case_10.npz",
+      "bytes": 417359,
+      "sha256": "4669364daabffcd18c12f8b4afc8ae509c4ef5ac8c19855adf78b9ae51db2175"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_11.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/result/case_11.json",
+      "bytes": 7176,
+      "sha256": "3f78248cd563bb823d77b9ad47ea04903a62e222dc522a8898853a865dbf4ea9"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_11.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/result/case_11.npz",
+      "bytes": 415939,
+      "sha256": "a57f2057478c56410e2a40a5d3dea02842e7bfe6925dac429ee319f753590a3f"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_12.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/result/case_12.json",
+      "bytes": 7174,
+      "sha256": "8295e04042567ba6f43ca5324775e088a50916bdd71fe2a603484b94ffe5255d"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_12.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/result/case_12.npz",
+      "bytes": 357610,
+      "sha256": "8f7674ffa35a630060bc99e1ead16270d8a95962a264c30a93d5aa87d95049d1"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/result/case_13.json",
+      "bytes": 7176,
+      "sha256": "17fc64461b658cc3c4cf1299cba642e005f5268f432f88eecef79f1f590008aa"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_13.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/result/case_13.npz",
+      "bytes": 355404,
+      "sha256": "8ded3217f5c48ba5984de25e16b40adbc53657487e680bdf289ab0211946da2a"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_14.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/result/case_14.json",
+      "bytes": 7174,
+      "sha256": "23a946b2876275aa25de08daa92f3b3425e10e5aafb66a7992d4362475d54a0e"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_14.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/result/case_14.npz",
+      "bytes": 320086,
+      "sha256": "eef9b303f4f15c5dafad42575cf24816f020ecbb1a7b627692fc236d8165005c"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_15.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/result/case_15.json",
+      "bytes": 7176,
+      "sha256": "4f30f986f46d45e8f55580c14b28024e3d1a8fd3f727560af363c89cabcb2c11"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_15.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/result/case_15.npz",
+      "bytes": 336318,
+      "sha256": "2daddab7c021e1c446549864c25c79b6382aedba9894b5418cf862f58e744b85"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_16.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/result/case_16.json",
+      "bytes": 7177,
+      "sha256": "96a32d7a613eb7f3c3851a70e1e9d05d2e663bbe614f12fab8a6d782469b9a22"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_16.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/result/case_16.npz",
+      "bytes": 347497,
+      "sha256": "181ccb34849136b574028e9ca250c61966321495b7f27f8f49f8e1a586189622"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_17.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/result/case_17.json",
+      "bytes": 7176,
+      "sha256": "aeb2b1967aefc4021b1315bd4d9bd2422fe7bbdc28904815261ae1095c197522"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_17.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/result/case_17.npz",
+      "bytes": 354171,
+      "sha256": "6de2749c8bbfee70930a421b7e651fdd105e97979aa104048524a84a34766dbb"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_18.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/result/case_18.json",
+      "bytes": 7177,
+      "sha256": "df5eb06383438f2673bc103062b1d0659fea13061ba7e22b2120b09d2c47678a"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_18.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/result/case_18.npz",
+      "bytes": 374725,
+      "sha256": "b0a94e94c7dd262d73c6412f45b900d20792e2a9f14ad9a03b3abb594b3c1a38"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_19.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/result/case_19.json",
+      "bytes": 7176,
+      "sha256": "641867713e58fcfe59e98ffb71805c3aa6a349c406bd60c2349ed4379a5c35a9"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_19.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/result/case_19.npz",
+      "bytes": 385411,
+      "sha256": "ba5abf2e803ca6821323844912408c0cb368ef0f9ad6be8f962b4fe7656cc360"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_20.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/result/case_20.json",
+      "bytes": 7177,
+      "sha256": "97623a953b01bb5736fa3a9de4fa18f8d0570647a08b8935ffde17e244de9dee"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_20.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/result/case_20.npz",
+      "bytes": 324430,
+      "sha256": "8e35374aa531d222eaf32a98ef264413828dc75a790b23322f31f64f5cb4b3c2"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_21.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/result/case_21.json",
+      "bytes": 7176,
+      "sha256": "31936c1163038e0643a5c26591fa1e4f3192f2938dc8115107dd9c6e015ddc36"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_21.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/result/case_21.npz",
+      "bytes": 322189,
+      "sha256": "9b57fe47f93669e0119f956e393654e1c0f9addfe8313127b10b864d54a77097"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_22.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/result/case_22.json",
+      "bytes": 7177,
+      "sha256": "9019cd98500ffa88147839a64839b0ef58534d7faf928ed19ce15a9a1489f79f"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_22.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/result/case_22.npz",
+      "bytes": 336793,
+      "sha256": "f1ebdbeed3fdb5b2158fe42df979717ccf051442c535897afcb583b4966f4bea"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_23.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/result/case_23.json",
+      "bytes": 7176,
+      "sha256": "bb381e607962b5cced8ae17eba45aed3da78596efb1454302825f0391395f955"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_23.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/result/case_23.npz",
+      "bytes": 326369,
+      "sha256": "7abd2b354bd22a66733895d7e03487cdddc85802329a22bef5087cc810b37879"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_24.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/result/case_24.json",
+      "bytes": 7177,
+      "sha256": "42a8f6844617f2cf85f9c4e2ad3effbcb9144dde76cd744ae6f84d4522d540b9"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_24.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/result/case_24.npz",
+      "bytes": 336692,
+      "sha256": "59579262ab5369e79366670c491a58c75826f3dfe29f3cdce6ef9f082e2162a4"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_25.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/result/case_25.json",
+      "bytes": 7176,
+      "sha256": "1ff6d0cc4e40bdd01d77d2e16e20e7338db872aa09515314b5063e099dfb2b5e"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_25.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/result/case_25.npz",
+      "bytes": 335063,
+      "sha256": "89b2153952e10a30c594bfb4171ca4bb5e9dbcc765f80ab61ba05babad37fcbf"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_26.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/result/case_26.json",
+      "bytes": 7177,
+      "sha256": "b28d06d8e7d9933eb73be9d06b7ef076510831c7b6ad41e82fa15ffa43441e96"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_26.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/result/case_26.npz",
+      "bytes": 360625,
+      "sha256": "94930c2d6fb82c758347f18ae214f27b66dca95c812b0852999db056efab069d"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_27.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/result/case_27.json",
+      "bytes": 7176,
+      "sha256": "6dad5ac18e55fcd680e951f20cb5b392e5f8536819144ead74546202a9f93aa3"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_27.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/result/case_27.npz",
+      "bytes": 326273,
+      "sha256": "15ccb16ac8d7f65615bf391baf7af9ee1bbe6b34cd7817988684d2cfae2865eb"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_28.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/result/case_28.json",
+      "bytes": 7177,
+      "sha256": "6b4e9cd1e824ff8817376904426cb229910a45fcc37fba1c10c3185336c1ae9d"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_28.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/result/case_28.npz",
+      "bytes": 480775,
+      "sha256": "bbf80028c4cced394b2a6a800823e8f2b286192af7e0188b9f3322eb96690a44"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_29.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/result/case_29.json",
+      "bytes": 7176,
+      "sha256": "f7def1b93a540bc5bcf06da415f3eb91bd44ca55b249227c58d27fa497bd397e"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_29.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/result/case_29.npz",
+      "bytes": 441768,
+      "sha256": "5cb00a31e4660b5961dc0c5521d1e9f5c023d449f1d6e89aa728cb1e7896b911"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_30.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/result/case_30.json",
+      "bytes": 7177,
+      "sha256": "e8831855cfb733a8b2bc037786c905275de13b89edc09b4adf89562597f28918"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_30.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/result/case_30.npz",
+      "bytes": 350269,
+      "sha256": "2c94d845195858b98d1cadcbd4f186c860943b51be6c49260f1f662cbcd3fac6"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_31.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/result/case_31.json",
+      "bytes": 7176,
+      "sha256": "bc97179a1e5a8fb1ce9fe4ca1aa08ccc0aafcc6df74b8f24efc486da1206a37a"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_31.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/result/case_31.npz",
+      "bytes": 338923,
+      "sha256": "de5465ae9141d791dc5d333921ad7de51b5f28b5e74cf0a835ca97ffe998c05e"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/completion.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/result/completion.json",
+      "bytes": 1304,
+      "sha256": "346fab5919a425192dbe84e3951f22c38565dd1107e9f7eacf8a43f29a67ef0d"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/identity.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/result/identity.json",
+      "bytes": 58097,
+      "sha256": "38817cd6ac46a8bb07501872e986d816f6408110c96700bf568b8cb428941942"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/status.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/result/status.json",
+      "bytes": 221,
+      "sha256": "a6a15ed55b540ffb2bcde6f010c663cfb28cdb317cc6af3cc5d2b9f70c395c65"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/summary.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/result/summary.json",
+      "bytes": 8086,
+      "sha256": "6cee08bd142a69588ea14786780094b7ca4e885ade4ec3f007efea2947fe737a"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/stderr.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/stdout.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/stdout.txt",
+      "bytes": 183,
+      "sha256": "3f5f933c7a878708e1205fba1b50852413d5eaedfff0c48cd93b61cf91aa491e"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/parent-result.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/parent-result.json",
+      "bytes": 1571,
+      "sha256": "096bc844665fa2e0158c35d9e73aaadffcff91fd190b1953d054f539ea00fa01"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/audit.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/result/audit.json",
+      "bytes": 82151,
+      "sha256": "09962a634e7d760ad974ad17c2f2c90367fbcccea2af6895c1301297f435ae29"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/completion.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/result/completion.json",
+      "bytes": 19743,
+      "sha256": "7ff6ac335ce97d7bfd6f59cefbc7d307df0973ddc2469cb8917c713d8367d970"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_00.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_00.npz",
+      "bytes": 308327,
+      "sha256": "ba14c91c5f0cd7163459a0e9b36d829dddbe153237b1b2a33efb44f5a7ce9e71"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_01.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_01.npz",
+      "bytes": 290342,
+      "sha256": "2af1656c849528b5b17d5488747c744687f4241d819a41f1ec8e2d84b2c5ebcf"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_02.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_02.npz",
+      "bytes": 255889,
+      "sha256": "0523521768d940b095276c74c52506f99775d871e9b8c5a7302abba8401dfc2a"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_03.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_03.npz",
+      "bytes": 261247,
+      "sha256": "ddb0f5d03ad768aa3734295f13543050ce56c9a11cd2a74f588096ac8b8cde4d"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_04.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_04.npz",
+      "bytes": 361712,
+      "sha256": "598302d4d5e8ceb1e3a7f1d55bb1d760a2bfbc1ab1df3b64e2717e1f63692fbc"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_05.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_05.npz",
+      "bytes": 373135,
+      "sha256": "a0ba5e75fdd43dd24994c51137ffeacc0429b78e8d63e6a788a25b324e647c61"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_06.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_06.npz",
+      "bytes": 232629,
+      "sha256": "2c12ebef0086cf0e93cb7311d0d7b7557a9f8d5a680f3d05474ba86b585b8afe"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_07.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_07.npz",
+      "bytes": 238221,
+      "sha256": "ea81fc9cf459c650c8aed66825e0a702a0856d780f8f6afc47e5f7d3603b35fb"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_08.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_08.npz",
+      "bytes": 346029,
+      "sha256": "7471655bd4f033dd6e7c4e29599533d464580621208481bd5f195ce0be50bcac"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_09.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_09.npz",
+      "bytes": 323351,
+      "sha256": "58d798b3f56f6123f6f6302133a33bda70aee800a56fdcd3338fca70e27e2e6f"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_10.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_10.npz",
+      "bytes": 379260,
+      "sha256": "28a47d4f0cc9ebf18c70b454e3fa89b5b0bea1f5d57fd900cd7c1f9b26a36820"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_11.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_11.npz",
+      "bytes": 377929,
+      "sha256": "1eff4331a315a97f177e2fe3e5d4baa8c2503233c54debe6457735e893676318"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_12.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_12.npz",
+      "bytes": 316968,
+      "sha256": "2ba1136897518fc4c18d147eb2279a09cdb34eecc0d3647f3bab2f492150ea0a"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_13.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_13.npz",
+      "bytes": 314825,
+      "sha256": "65531d94b27f05bd9613c0142f6d108058b150ec59b4ee4f4c70d1983a35fa9f"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_14.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_14.npz",
+      "bytes": 278290,
+      "sha256": "f6ca4dc88704f461cc8c76797f96685eea15ac04f0f3baa79c62c91ce9e34390"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_15.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_15.npz",
+      "bytes": 295199,
+      "sha256": "c0c9190c69ba79c83eea07a08d72afd47b0b474ec17b07aae0da838d66b3b833"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_16.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_16.npz",
+      "bytes": 306556,
+      "sha256": "b67448b2400daa0a6e70b13aa2616ed2454b3988702753995119448907071569"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_17.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_17.npz",
+      "bytes": 313461,
+      "sha256": "856f0804bd38c800aa071d59449867ae0aab0bfb1e7fde8714f4e91d4e138d59"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_18.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_18.npz",
+      "bytes": 335397,
+      "sha256": "a9210389afa152f0a7170b72928581c09cbb0645fe2e64de80e56a8bd2e7db56"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_19.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_19.npz",
+      "bytes": 346225,
+      "sha256": "e9e0043e4111813ad6eab7b874af44950f7d29ac43241e6d7267eff85229f74a"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_20.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_20.npz",
+      "bytes": 282949,
+      "sha256": "810343da114456d5fadc0f2bc88d6891d4c53e8ca119efe66d9cec2a0d3e033a"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_21.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_21.npz",
+      "bytes": 280809,
+      "sha256": "10ffe24392336311740d9641dd5e73b3987381c8383080abe9556d6947691c31"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_22.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_22.npz",
+      "bytes": 295451,
+      "sha256": "76dc77a8cc33c546521cb47b8a1fbe9cfef15e9da3c4f325339caaf315b52109"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_23.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_23.npz",
+      "bytes": 284597,
+      "sha256": "a9f9b67f6f0669c0b4a75f507b09e2e90166cafd4f6ca88daaa26f069563fee1"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_24.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_24.npz",
+      "bytes": 295718,
+      "sha256": "c20c3430b37b6d1c5a22173aef938898e23c059eaf517ea3e9f38dfb9f4f088b"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_25.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_25.npz",
+      "bytes": 293506,
+      "sha256": "4ebcbeb954eaabe263a068833ed5411a33de243188a3dcfd580ddb5ff21e8752"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_26.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_26.npz",
+      "bytes": 320352,
+      "sha256": "849ced3a16b1b652ec6dad603a17148f86b25e38e09c061eea5a492ecd9b16ff"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_27.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_27.npz",
+      "bytes": 284958,
+      "sha256": "8e64958e3caa432c43d132bf4896c821aa0acfa638af4cefb0ae20ce4a8b59bc"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_28.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_28.npz",
+      "bytes": 445414,
+      "sha256": "efaf477ca78a4e3437263130d90c12ca534750f0f64a6d831677381144fd783b"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_29.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_29.npz",
+      "bytes": 405292,
+      "sha256": "d03d4713e2b4e06689dddaec3fee97842b4d840f26b9bf3a379040cc2afb37a8"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_30.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_30.npz",
+      "bytes": 309531,
+      "sha256": "34e5a9d75a5169db5eb0f894de0cee0e8195aa342bef2e279076b06e68942096"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_31.npz",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_31.npz",
+      "bytes": 297589,
+      "sha256": "4c54484587bd33bcefed919d1b1a7dbd38e2340f76c87685f6cfd14ea79b7e32"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/row_00.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/result/row_00.json",
+      "bytes": 1494,
+      "sha256": "84b7ad485154c52464847b76e6b2eda50b63e6a5bd519c59cf169e295ab42b3c"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/row_01.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/result/row_01.json",
+      "bytes": 1496,
+      "sha256": "e2d7cb33403ad68a33df8acd171881fdc5d65962b78db772d68f22963b217cf8"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/row_02.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/result/row_02.json",
+      "bytes": 1491,
+      "sha256": "0430224896746eddca1f6dda22b03734f46a8d99e7e8ee5cc42f586ef03d2fce"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/row_03.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/result/row_03.json",
+      "bytes": 1491,
+      "sha256": "3a576746d7054f6ced1df62ee8356c49982bde080ea48edeb601ed0f204b7322"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/row_04.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/result/row_04.json",
+      "bytes": 1490,
+      "sha256": "73da5c253d140e66328181e4e710fddfe197c035749d5e68d7dfbb75bd5d4a52"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/row_05.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/result/row_05.json",
+      "bytes": 1491,
+      "sha256": "1cd2c65b27a7945784fe5620aff0571c3149cdb275fa719af24573b0a19b084f"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/row_06.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/result/row_06.json",
+      "bytes": 1489,
+      "sha256": "49cbda993703401129b8d14856d48e1010755137ec8ef17cc2af4299b272ce2f"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/row_07.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/result/row_07.json",
+      "bytes": 1492,
+      "sha256": "f944fec276d6f28c878be0a7f683ef14f492deb5dd4c2f13d56fce1e2866a35a"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/row_08.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/result/row_08.json",
+      "bytes": 1493,
+      "sha256": "ae0cf4107c269047296ee9e8a0e76379b3db7284a41c3a1918b9af6bdb4042c6"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/row_09.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/result/row_09.json",
+      "bytes": 1495,
+      "sha256": "1b95458c630ec15c29fe6e62c2acb744f1582c2779a4ab892e9a35e3f80f1d15"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/row_10.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/result/row_10.json",
+      "bytes": 1494,
+      "sha256": "ad1849b23d1a5cf032ce53900aacb60ee2e72649f408fa162e50be9ecce7c9ac"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/row_11.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/result/row_11.json",
+      "bytes": 1495,
+      "sha256": "bbb9dce2d1d9d78ca63eb6df206dba17c22821a4a41c39131670e68426370b50"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/row_12.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/result/row_12.json",
+      "bytes": 1490,
+      "sha256": "7df0589c5fde3e1c6dd194b7eb957cd39e8c2de2fd2492c743d6c66b3431c2c1"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/row_13.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/result/row_13.json",
+      "bytes": 1492,
+      "sha256": "6d7cdced45d6c73ab67e8784d039f742631b695464bf2082c7668f1da793da5f"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/row_14.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/result/row_14.json",
+      "bytes": 1489,
+      "sha256": "4e84a335a39aadfce4b8223e446fcdb9faec11b2b12a8aae8dd681f845e9e604"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/row_15.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/result/row_15.json",
+      "bytes": 1496,
+      "sha256": "2664a38c942b202a5cd30bb05c75bd7b8a6a77357f99cfcb9d14ea4cc4b8113a"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/row_16.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/result/row_16.json",
+      "bytes": 1491,
+      "sha256": "6c4a8ec72fbf7d5a9275de80f96644859d467e4f7645dd3ff2e1ffd5535eca5c"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/row_17.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/result/row_17.json",
+      "bytes": 1496,
+      "sha256": "e8defa1b36683cad6bbb0400508c35e5acccf66fc3eda7ebe4732b049ee61446"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/row_18.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/result/row_18.json",
+      "bytes": 1497,
+      "sha256": "d9550e6caa9042a44987bfeac832d63b3a74fedb14036def42777b1188dd4d29"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/row_19.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/result/row_19.json",
+      "bytes": 1496,
+      "sha256": "ea73c686597dc2e92af4e162b94b83da87a218e7939fed50585f1f9a817eccf9"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/row_20.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/result/row_20.json",
+      "bytes": 1497,
+      "sha256": "37c9be62a71f3a93680b8ae7fadcb263e008b1a2058103d70b01061b328af497"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/row_21.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/result/row_21.json",
+      "bytes": 1494,
+      "sha256": "e6bf205b18c36d2971a45d36f9a70621b63bb89a5f219dee16fae1f083873160"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/row_22.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/result/row_22.json",
+      "bytes": 1496,
+      "sha256": "515ae35ceccdc0a9ff59164200ad1e6752d4bc8036b98b87db9f9d0be2bb3438"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/row_23.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/result/row_23.json",
+      "bytes": 1492,
+      "sha256": "eef7149d5ded6193b09ee7c37666b7ac4c6bce1c483aafd28226456069c0e6c0"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/row_24.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/result/row_24.json",
+      "bytes": 1496,
+      "sha256": "6bfd0c17dbb46c23e82d2ff7833745b84022831c94eae1a182f0a674188cf395"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/row_25.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/result/row_25.json",
+      "bytes": 1494,
+      "sha256": "47aa7f2fbf8126e107399cd3b20f9fb66c167d007b8c55c4e8425054b762f9d9"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/row_26.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/result/row_26.json",
+      "bytes": 1496,
+      "sha256": "2b9ee894c0249ba0d89ac23a756fd743dd2d74bb7cdcfd54a655aac5f2c4931b"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/row_27.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/result/row_27.json",
+      "bytes": 1493,
+      "sha256": "8d19fbda8860cf6a8f3c303e18a6281216f58a7ecb9eb30923ffbc35cefdcd85"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/row_28.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/result/row_28.json",
+      "bytes": 1495,
+      "sha256": "b6d87d5435c4fd25fd233e2554490f25f3fd709fb7138e458a8d48ddcf3c1942"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/row_29.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/result/row_29.json",
+      "bytes": 1494,
+      "sha256": "f9d21e64f01f97e642b24eb6412cc5dac7e1cb13be32a058f45283bb0528f986"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/row_30.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/result/row_30.json",
+      "bytes": 1497,
+      "sha256": "363314765c5006031bb5d0298eb0994acad535b4af890ebfbec2797907e18351"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/row_31.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/result/row_31.json",
+      "bytes": 1492,
+      "sha256": "22fa184ba48b0ed5d8567be6433e49d2ce88b4ab838c6976a5329df5f2ab9893"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/status.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/result/status.json",
+      "bytes": 82151,
+      "sha256": "09962a634e7d760ad974ad17c2f2c90367fbcccea2af6895c1301297f435ae29"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/stderr.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/stdout.txt",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/stdout.txt",
+      "bytes": 574,
+      "sha256": "074adf1598a23195434c63d1845550a552e6afa1e113428c711f9e178d49f5e1"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-cells/cell-summary.csv",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-cells/cell-summary.csv",
+      "bytes": 1630,
+      "sha256": "06d800330824b7bd0fe109a1fdb52cae414a1a40198aabbe5b03656d8ac799c8"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-cells/cell-summary.json",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-cells/cell-summary.json",
+      "bytes": 18754,
+      "sha256": "3a5bd55ef0d1a805d677028ba277459d5ec2cc8b50fbfcf7a214ce61d08d5123"
+    }
+  ],
+  "file_count": 197,
+  "bytes": 22817263
+}

@@ -1,0 +1,117 @@
+{
+  "agent": "/root/evidence_ui",
+  "created_at_utc": "2026-09-13T13:41:39.561053+00:00",
+  "status": "passed_final_narrative_and_unchanged_ui_scope_review",
+  "material_findings": [],
+  "reading": {
+    "current_narratives": 206,
+    "complete": true,
+    "prior_personal_chain": [
+      {
+        "path": "output/collaboration/reward-mechanism-repair/darela-shadow-plan-preflight-reading-evidence-ui-2026-09-13.json",
+        "bytes": 3556,
+        "sha256": "1db9c9aec6eb1d3ec4d794321642733ee37afdc2e0aec6aacce4428182d4daa1"
+      }
+    ],
+    "full_new_report": {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-result-2026-09-13.md",
+      "bytes": 7931,
+      "sha256": "59aebdc22431f791f5b0bd45d0392d044169c750dc70d2af51de79bc3771b1dd"
+    },
+    "complete_changed_deltas": [
+      {
+        "path": "AGENTS.md",
+        "bytes": 7111,
+        "sha256": "05ebc5f01bf3f201da5b08acc49d1e8fd7ec204f8b5d598eb3ebf3e27b53f6b1"
+      },
+      {
+        "path": "docs/REWARD_REPAIR_HANDOFF.md",
+        "bytes": 67163,
+        "sha256": "74b719997d3d7171a4c905774654339f11a8e598f6cc366474b5fb9d9c08ea58"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/index.md",
+        "bytes": 25832,
+        "sha256": "e4310d196ad7908d905fe8c9684d0f51c960112ebcdfd04582179ed7c1e6df1b"
+      },
+      {
+        "path": "wiki/reassessment.md",
+        "bytes": 15939,
+        "sha256": "33d2b849815a3ebbabe8b814ed9bd8eaa35a7090d6f9efc72250f4884a2d478d"
+      },
+      {
+        "path": "wiki/cells/dopamine-receptor-signaling.md",
+        "bytes": 8973,
+        "sha256": "7eb2b1a81a30c2f801359942691f7876318db9eea279a79df3602639344a65aa"
+      }
+    ],
+    "method": "Prior205 personal reading chain plus full new result report and complete final Git deltas against fully read base. Every other current narrative byte reconciled against13966a2 or already personally read exact contract aliases; no manifest substituted for reading.",
+    "unread": []
+  },
+  "saved_evidence": [
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/parent-result.json",
+      "bytes": 1218,
+      "sha256": "cd91fc06a36c4be367a7cdd81073b2e4e41f4a32593d0c987a47c5a6fbbaf3e1"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d/result/summary.json",
+      "bytes": 8086,
+      "sha256": "6cee08bd142a69588ea14786780094b7ca4e885ade4ec3f007efea2947fe737a"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/parent-result.json",
+      "bytes": 1571,
+      "sha256": "096bc844665fa2e0158c35d9e73aaadffcff91fd190b1953d054f539ea00fa01"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-audit/result/audit.json",
+      "bytes": 82151,
+      "sha256": "09962a634e7d760ad974ad17c2f2c90367fbcccea2af6895c1301297f435ae29"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-independent-saved-result-review-delivered-arrivals-2026-09-13.json",
+      "bytes": 46232,
+      "sha256": "defa54a33523abe4e451b8c3c68e55add6fed6775e2af882ed9ae64c4e206718"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-home-trial-comparison-2026-09-13.json",
+      "bytes": 11692,
+      "sha256": "1b4e6d0e811bc292c9880342707c633e35083d083dc10aa0184ed43772c1238b"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-cells/cell-summary.json",
+      "bytes": 18754,
+      "sha256": "3a5bd55ef0d1a805d677028ba277459d5ec2cc8b50fbfcf7a214ce61d08d5123"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-canonical-final-tests-2026-09-13.txt",
+      "bytes": 879,
+      "sha256": "f27c1f608bf52b27de01fd86286630afd82a886c5964123bae47dc049690e503"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-make-verify-2026-09-13.log",
+      "bytes": 6297,
+      "sha256": "1f9f9ab0d3bf96ff56cb960747b1ad78a96de6669afef3ab9c0f531316831b5f"
+    }
+  ],
+  "result": {
+    "identity": "darela-shadow-bc6993b67befdb3a6c2d",
+    "producer_seconds": 18.752042750129476,
+    "audit_seconds": 22.068991541163996,
+    "terminal": "Each completed once, exit0/reaped, no errors/timeouts.",
+    "classification": "rejected_fixed_hypothesis",
+    "numerical_rows_passed": 32,
+    "exact_final_electrical_float32_values": 567424,
+    "home_guard_failures": 4,
+    "away_guard_passes": 4,
+    "actual_and_conditional_bound_observations": 0,
+    "more_depressive_home_trials": 32,
+    "second_base_home_mean": -0.443546399474144,
+    "absolute_limit": 0.35881005159683577,
+    "cells": "All24 saved records read: PPL10111327/11900 have544/524 events;412/398 admitted after100ms; modeled masses441.0482033106386/425.09491615379227. All22 PAM12 cells silent in these untaught histories. Dimensionless release is not concentration or isolated causal attribution."
+  },
+  "ui_scope": "No production/API/UI diff from13966a2. reward_evidence reads output/diagnostics, not offline collaboration studies. RewardEvidence/Training still require the validated qualification pair before conditioning and distinguish execution from scientific pass. Failed qualification/not_run_gate_failed remains accurate; no cosmetic or new browser/HTTP claim needed.",
+  "verification": "Read saved251-case canonical pass (122producer/124auditor/5cellsummary; one intentional duplicate-ZIP warning) and4055Python/103frontend/Ruff/build log (two existing Python warnings). This closeout performed reads only; no tests/model/source/native/network/browser reruns.",
+  "continuation": "Earlier unrun statements are superseded: both actual studies completed and this candidate is rejected. Only the fixed mouse-WT1 every-spike/reset construction on reused histories is rejected, not fly biology or the mouse source model. Full learning goal remains active; no new candidate selected or tuning/rerun/push/promotion. Root owns final copy/link/protection and local commit."
+}

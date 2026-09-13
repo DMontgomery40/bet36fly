@@ -15,10 +15,13 @@ per-DAN engineering construction. The source is pinned and copied with its
 license; its eight fixed source-kernel cases and 216 synthetic preparation
 tests pass, including independent saved-state and event-transfer checks.
 [Exact result and limits](../docs/evidence/reward-mechanism-repair-2026-09-12/darela-source-transfer-checkpoint-2026-09-13.md).
-No DARELA saved-history
-screen or production integration has run. This addresses a concrete missing
-representation between actual DAN spikes and the plasticity input, while
-leaving the failed learning qualification unchanged.
+The subsequent [fixed 32-history screen](../docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-result-2026-09-13.md)
+is now complete and independently audited. All four home guard groups fail,
+and all 32 home trials become more depressive. Every final/electrical
+float32 endpoint matches the independent calculation exactly. This fixed
+transfer is rejected and remains outside production; the learning
+qualification is unchanged. The result includes the actual two PPL101 and
+22 PAM12 cell histories and modeled release totals.
 
 The latest [saved-record comparison](../docs/evidence/reward-mechanism-repair-2026-09-12/dan-causal-prefix-result-2026-09-13.md)
 establishes a teaching input difference in all 64 matched cases at 310 ms.
@@ -70,6 +73,7 @@ untaught-home guard. [Complete repair evidence](../docs/evidence/reward-mechanis
 | Fixed rate-adaptation shadow `5165a92674683bf2b872` | Second/base home mean +2.638301; absolute limit 1.113472; all four home groups fail | Reject this fixed adaptation hypothesis |
 | Fixed gain-dependent shadow `de1ab218973eb3ecd3d3` | Second/base home mean −0.268755; absolute limit 0.235695; 128 independent references agree | Reject this specified gain-dependent hypothesis |
 | Fixed KC-local calcium shadow `6734494c82c54702ead0` | Second/base home mean −0.360410; absolute limit 0.279657; all four home groups fail with exact independent float32 endpoint agreement | Reject this specified local-calcium mapping |
+| Fixed per-DAN DARELA shadow `bc6993b67befdb3a6c2d` | Second/base home mean −0.443546; absolute limit 0.358810; all four home groups fail, with all 32 home trials more depressive | Reject this specified every-spike/reset release transfer |
 | Conditioning and reversal | Not run; entry gate remains unmet | No learned-association or reversal claim |
 
 The shadow used the actual recorded spikes and never transmitted its alternative

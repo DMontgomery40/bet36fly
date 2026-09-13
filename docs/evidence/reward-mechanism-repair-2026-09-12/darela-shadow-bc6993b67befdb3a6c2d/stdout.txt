@@ -1,0 +1,1 @@
+{"attempted": 32, "completed": 32, "invocations": {"bridge": 32, "release": 32}, "returned": {"bridge": 32, "release": 32}, "status": "completed", "wall_seconds": 17.811748541891575}

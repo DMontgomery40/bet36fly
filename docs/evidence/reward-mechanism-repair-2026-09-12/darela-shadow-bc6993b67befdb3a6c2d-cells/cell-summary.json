@@ -1,0 +1,641 @@
+{
+  "scope": "Descriptive aggregation of32 saved untaught histories. Dimensionless engineered release mass, not concentration; pooled plasticity cannot establish an individual DAN's causal contribution.",
+  "bindings": {
+    "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_00.npz": "cb1c0a6fa6fcebebfd8306f307609c76967f5c1d22e1d4a9e87a7cab21260713",
+    "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_01.npz": "c48d5ce5f7d1ed530a8fbd0ec21272896ef821d01625d8ae3800f7cb5b6e7f18",
+    "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_02.npz": "1fea1d489eaa9ec5002b08c79edf6915e1a4cabd7804900372f285f2ebcf61b4",
+    "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_03.npz": "ff995c0a47ae82e4d64890a981e812b4ac5d0ecda0a53d5af3caa6765173d8a5",
+    "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_04.npz": "24a9cc96845cf23dacf9b2e53c779fa41eda0263e20ca277b4d86b20ba2e014e",
+    "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_05.npz": "4f2287acb871565bf5b2fc8c90db71a223c939939659e521ee9d1d149fe88f4b",
+    "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_06.npz": "902a53b6119578c97cf87ab9fa9183d021e11a2a56b26c845c4c4238f4adb978",
+    "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_07.npz": "df143b7410e5b20df4068abfb5df98e3958aeed156e669239aa43ad7ec0c6741",
+    "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_08.npz": "da927bffbb33244e24fd674eb1695d6fd4cf3309350eaa59d177932f27b4f577",
+    "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_09.npz": "b0febddf1a41c30ce89fee183f35dbcba48491fa9170bdcaaa3ce819a9504ede",
+    "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_10.npz": "4669364daabffcd18c12f8b4afc8ae509c4ef5ac8c19855adf78b9ae51db2175",
+    "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_11.npz": "a57f2057478c56410e2a40a5d3dea02842e7bfe6925dac429ee319f753590a3f",
+    "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_12.npz": "8f7674ffa35a630060bc99e1ead16270d8a95962a264c30a93d5aa87d95049d1",
+    "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_13.npz": "8ded3217f5c48ba5984de25e16b40adbc53657487e680bdf289ab0211946da2a",
+    "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_14.npz": "eef9b303f4f15c5dafad42575cf24816f020ecbb1a7b627692fc236d8165005c",
+    "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_15.npz": "2daddab7c021e1c446549864c25c79b6382aedba9894b5418cf862f58e744b85",
+    "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_16.npz": "181ccb34849136b574028e9ca250c61966321495b7f27f8f49f8e1a586189622",
+    "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_17.npz": "6de2749c8bbfee70930a421b7e651fdd105e97979aa104048524a84a34766dbb",
+    "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_18.npz": "b0a94e94c7dd262d73c6412f45b900d20792e2a9f14ad9a03b3abb594b3c1a38",
+    "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_19.npz": "ba5abf2e803ca6821323844912408c0cb368ef0f9ad6be8f962b4fe7656cc360",
+    "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_20.npz": "8e35374aa531d222eaf32a98ef264413828dc75a790b23322f31f64f5cb4b3c2",
+    "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_21.npz": "9b57fe47f93669e0119f956e393654e1c0f9addfe8313127b10b864d54a77097",
+    "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_22.npz": "f1ebdbeed3fdb5b2158fe42df979717ccf051442c535897afcb583b4966f4bea",
+    "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_23.npz": "7abd2b354bd22a66733895d7e03487cdddc85802329a22bef5087cc810b37879",
+    "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_24.npz": "59579262ab5369e79366670c491a58c75826f3dfe29f3cdce6ef9f082e2162a4",
+    "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_25.npz": "89b2153952e10a30c594bfb4171ca4bb5e9dbcc765f80ab61ba05babad37fcbf",
+    "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_26.npz": "94930c2d6fb82c758347f18ae214f27b66dca95c812b0852999db056efab069d",
+    "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_27.npz": "15ccb16ac8d7f65615bf391baf7af9ee1bbe6b34cd7817988684d2cfae2865eb",
+    "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_28.npz": "bbf80028c4cced394b2a6a800823e8f2b286192af7e0188b9f3322eb96690a44",
+    "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_29.npz": "5cb00a31e4660b5961dc0c5521d1e9f5c023d449f1d6e89aa728cb1e7896b911",
+    "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_30.npz": "2c94d845195858b98d1cadcbd4f186c860943b51be6c49260f1f662cbcd3fac6",
+    "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_31.npz": "de5465ae9141d791dc5d333921ad7de51b5f28b5e74cf0a835ca97ffe998c05e",
+    "wiki/cells/data/neurons.csv": "b129852f530f6f48c5e8e9e37df4e414e958c5af40e2ec6cd5a7d28cbf31283c",
+    "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/summarize_darela_cells.py": "6ba43b82ed9d0cb10a4b43a98e61925215e75c42af3688d9a2cf98a5923a778e"
+  },
+  "cells": [
+    {
+      "body_id": 11327,
+      "graph_index": 1235,
+      "type": "PPL101",
+      "instance": "PPL101(y1ped)_R",
+      "channel": "home",
+      "trials": 32,
+      "events": 544,
+      "pre_onset_events": 132,
+      "admitted_events": 412,
+      "release_mass": 574.5315755734483,
+      "admitted_release_mass": 441.0482033106386,
+      "minimum_event_mass": 1.0,
+      "maximum_event_mass": 1.1895382326839243,
+      "endpoint_min": [
+        1.0845580405785817,
+        0.9177876561957861,
+        0.9685942587844207
+      ],
+      "endpoint_max": [
+        1.343042338093658,
+        0.9766032792281409,
+        0.9912359970940924
+      ]
+    },
+    {
+      "body_id": 11900,
+      "graph_index": 1774,
+      "type": "PPL101",
+      "instance": "PPL101(y1ped)_L",
+      "channel": "home",
+      "trials": 32,
+      "events": 524,
+      "pre_onset_events": 126,
+      "admitted_events": 398,
+      "release_mass": 552.444104177803,
+      "admitted_release_mass": 425.09491615379227,
+      "minimum_event_mass": 1.0,
+      "maximum_event_mass": 1.182074986893342,
+      "endpoint_min": [
+        1.0736272275680945,
+        0.9205216837593589,
+        0.9696607166465797
+      ],
+      "endpoint_max": [
+        1.3292762581750919,
+        0.97949342232635,
+        0.9923272584069326
+      ]
+    },
+    {
+      "body_id": 61360,
+      "graph_index": 45217,
+      "type": "PAM12",
+      "instance": "PAM12(y3)_L",
+      "channel": "away",
+      "trials": 32,
+      "events": 0,
+      "pre_onset_events": 0,
+      "admitted_events": 0,
+      "release_mass": 0.0,
+      "admitted_release_mass": 0.0,
+      "minimum_event_mass": null,
+      "maximum_event_mass": null,
+      "endpoint_min": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "endpoint_max": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "body_id": 91391,
+      "graph_index": 69138,
+      "type": "PAM12",
+      "instance": "PAM12(y3)_L",
+      "channel": "away",
+      "trials": 32,
+      "events": 0,
+      "pre_onset_events": 0,
+      "admitted_events": 0,
+      "release_mass": 0.0,
+      "admitted_release_mass": 0.0,
+      "minimum_event_mass": null,
+      "maximum_event_mass": null,
+      "endpoint_min": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "endpoint_max": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "body_id": 91875,
+      "graph_index": 69496,
+      "type": "PAM12",
+      "instance": "PAM12(y3)_L",
+      "channel": "away",
+      "trials": 32,
+      "events": 0,
+      "pre_onset_events": 0,
+      "admitted_events": 0,
+      "release_mass": 0.0,
+      "admitted_release_mass": 0.0,
+      "minimum_event_mass": null,
+      "maximum_event_mass": null,
+      "endpoint_min": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "endpoint_max": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "body_id": 96571,
+      "graph_index": 73032,
+      "type": "PAM12",
+      "instance": "PAM12(y3)_L",
+      "channel": "away",
+      "trials": 32,
+      "events": 0,
+      "pre_onset_events": 0,
+      "admitted_events": 0,
+      "release_mass": 0.0,
+      "admitted_release_mass": 0.0,
+      "minimum_event_mass": null,
+      "maximum_event_mass": null,
+      "endpoint_min": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "endpoint_max": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "body_id": 104460,
+      "graph_index": 78787,
+      "type": "PAM12",
+      "instance": "PAM12(y3)_L",
+      "channel": "away",
+      "trials": 32,
+      "events": 0,
+      "pre_onset_events": 0,
+      "admitted_events": 0,
+      "release_mass": 0.0,
+      "admitted_release_mass": 0.0,
+      "minimum_event_mass": null,
+      "maximum_event_mass": null,
+      "endpoint_min": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "endpoint_max": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "body_id": 105447,
+      "graph_index": 79533,
+      "type": "PAM12",
+      "instance": "PAM12(y3)_L",
+      "channel": "away",
+      "trials": 32,
+      "events": 0,
+      "pre_onset_events": 0,
+      "admitted_events": 0,
+      "release_mass": 0.0,
+      "admitted_release_mass": 0.0,
+      "minimum_event_mass": null,
+      "maximum_event_mass": null,
+      "endpoint_min": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "endpoint_max": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "body_id": 111665,
+      "graph_index": 83971,
+      "type": "PAM12",
+      "instance": "PAM12(y3)_R",
+      "channel": "away",
+      "trials": 32,
+      "events": 0,
+      "pre_onset_events": 0,
+      "admitted_events": 0,
+      "release_mass": 0.0,
+      "admitted_release_mass": 0.0,
+      "minimum_event_mass": null,
+      "maximum_event_mass": null,
+      "endpoint_min": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "endpoint_max": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "body_id": 113001,
+      "graph_index": 84937,
+      "type": "PAM12",
+      "instance": "PAM12(y3)_R",
+      "channel": "away",
+      "trials": 32,
+      "events": 0,
+      "pre_onset_events": 0,
+      "admitted_events": 0,
+      "release_mass": 0.0,
+      "admitted_release_mass": 0.0,
+      "minimum_event_mass": null,
+      "maximum_event_mass": null,
+      "endpoint_min": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "endpoint_max": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "body_id": 126900,
+      "graph_index": 94204,
+      "type": "PAM12",
+      "instance": "PAM12(y3)_L",
+      "channel": "away",
+      "trials": 32,
+      "events": 0,
+      "pre_onset_events": 0,
+      "admitted_events": 0,
+      "release_mass": 0.0,
+      "admitted_release_mass": 0.0,
+      "minimum_event_mass": null,
+      "maximum_event_mass": null,
+      "endpoint_min": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "endpoint_max": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "body_id": 135171,
+      "graph_index": 99150,
+      "type": "PAM12",
+      "instance": "PAM12(y3)_R",
+      "channel": "away",
+      "trials": 32,
+      "events": 0,
+      "pre_onset_events": 0,
+      "admitted_events": 0,
+      "release_mass": 0.0,
+      "admitted_release_mass": 0.0,
+      "minimum_event_mass": null,
+      "maximum_event_mass": null,
+      "endpoint_min": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "endpoint_max": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "body_id": 138585,
+      "graph_index": 100975,
+      "type": "PAM12",
+      "instance": "PAM12(y3)_L",
+      "channel": "away",
+      "trials": 32,
+      "events": 0,
+      "pre_onset_events": 0,
+      "admitted_events": 0,
+      "release_mass": 0.0,
+      "admitted_release_mass": 0.0,
+      "minimum_event_mass": null,
+      "maximum_event_mass": null,
+      "endpoint_min": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "endpoint_max": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "body_id": 139280,
+      "graph_index": 101336,
+      "type": "PAM12",
+      "instance": "PAM12(y3)_R",
+      "channel": "away",
+      "trials": 32,
+      "events": 0,
+      "pre_onset_events": 0,
+      "admitted_events": 0,
+      "release_mass": 0.0,
+      "admitted_release_mass": 0.0,
+      "minimum_event_mass": null,
+      "maximum_event_mass": null,
+      "endpoint_min": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "endpoint_max": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "body_id": 139378,
+      "graph_index": 101377,
+      "type": "PAM12",
+      "instance": "PAM12(y3)_R",
+      "channel": "away",
+      "trials": 32,
+      "events": 0,
+      "pre_onset_events": 0,
+      "admitted_events": 0,
+      "release_mass": 0.0,
+      "admitted_release_mass": 0.0,
+      "minimum_event_mass": null,
+      "maximum_event_mass": null,
+      "endpoint_min": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "endpoint_max": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "body_id": 144625,
+      "graph_index": 103993,
+      "type": "PAM12",
+      "instance": "PAM12(y3)_L",
+      "channel": "away",
+      "trials": 32,
+      "events": 0,
+      "pre_onset_events": 0,
+      "admitted_events": 0,
+      "release_mass": 0.0,
+      "admitted_release_mass": 0.0,
+      "minimum_event_mass": null,
+      "maximum_event_mass": null,
+      "endpoint_min": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "endpoint_max": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "body_id": 146418,
+      "graph_index": 104819,
+      "type": "PAM12",
+      "instance": "PAM12(y3)_R",
+      "channel": "away",
+      "trials": 32,
+      "events": 0,
+      "pre_onset_events": 0,
+      "admitted_events": 0,
+      "release_mass": 0.0,
+      "admitted_release_mass": 0.0,
+      "minimum_event_mass": null,
+      "maximum_event_mass": null,
+      "endpoint_min": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "endpoint_max": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "body_id": 152428,
+      "graph_index": 107336,
+      "type": "PAM12",
+      "instance": "PAM12(y3)_L",
+      "channel": "away",
+      "trials": 32,
+      "events": 0,
+      "pre_onset_events": 0,
+      "admitted_events": 0,
+      "release_mass": 0.0,
+      "admitted_release_mass": 0.0,
+      "minimum_event_mass": null,
+      "maximum_event_mass": null,
+      "endpoint_min": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "endpoint_max": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "body_id": 157257,
+      "graph_index": 109114,
+      "type": "PAM12",
+      "instance": "PAM12(y3)_L",
+      "channel": "away",
+      "trials": 32,
+      "events": 0,
+      "pre_onset_events": 0,
+      "admitted_events": 0,
+      "release_mass": 0.0,
+      "admitted_release_mass": 0.0,
+      "minimum_event_mass": null,
+      "maximum_event_mass": null,
+      "endpoint_min": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "endpoint_max": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "body_id": 158917,
+      "graph_index": 109681,
+      "type": "PAM12",
+      "instance": "PAM12(y3)_R",
+      "channel": "away",
+      "trials": 32,
+      "events": 0,
+      "pre_onset_events": 0,
+      "admitted_events": 0,
+      "release_mass": 0.0,
+      "admitted_release_mass": 0.0,
+      "minimum_event_mass": null,
+      "maximum_event_mass": null,
+      "endpoint_min": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "endpoint_max": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "body_id": 196622,
+      "graph_index": 118374,
+      "type": "PAM12",
+      "instance": "PAM12(y3)_R",
+      "channel": "away",
+      "trials": 32,
+      "events": 0,
+      "pre_onset_events": 0,
+      "admitted_events": 0,
+      "release_mass": 0.0,
+      "admitted_release_mass": 0.0,
+      "minimum_event_mass": null,
+      "maximum_event_mass": null,
+      "endpoint_min": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "endpoint_max": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "body_id": 206851,
+      "graph_index": 119922,
+      "type": "PAM12",
+      "instance": "PAM12(y3)_R",
+      "channel": "away",
+      "trials": 32,
+      "events": 0,
+      "pre_onset_events": 0,
+      "admitted_events": 0,
+      "release_mass": 0.0,
+      "admitted_release_mass": 0.0,
+      "minimum_event_mass": null,
+      "maximum_event_mass": null,
+      "endpoint_min": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "endpoint_max": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "body_id": 520384,
+      "graph_index": 130695,
+      "type": "PAM12",
+      "instance": "PAM12(y3)_R",
+      "channel": "away",
+      "trials": 32,
+      "events": 0,
+      "pre_onset_events": 0,
+      "admitted_events": 0,
+      "release_mass": 0.0,
+      "admitted_release_mass": 0.0,
+      "minimum_event_mass": null,
+      "maximum_event_mass": null,
+      "endpoint_min": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "endpoint_max": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "body_id": 552362,
+      "graph_index": 142007,
+      "type": "PAM12",
+      "instance": "PAM12(y3)_R",
+      "channel": "away",
+      "trials": 32,
+      "events": 0,
+      "pre_onset_events": 0,
+      "admitted_events": 0,
+      "release_mass": 0.0,
+      "admitted_release_mass": 0.0,
+      "minimum_event_mass": null,
+      "maximum_event_mass": null,
+      "endpoint_min": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "endpoint_max": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  ]
+}

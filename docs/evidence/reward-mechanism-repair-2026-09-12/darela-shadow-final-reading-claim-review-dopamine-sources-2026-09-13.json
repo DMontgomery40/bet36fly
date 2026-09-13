@@ -1,0 +1,106 @@
+{
+  "agent": "/root/dopamine_sources",
+  "at_utc": "2026-09-13T13:40:55.922697+00:00",
+  "status": "PASS final canonical DARELA scientific reading and claim review",
+  "prior_complete205_chain": {
+    "path": "output/collaboration/reward-mechanism-repair/darela-shadow-final-code-review-dopamine-sources-2026-09-13.json",
+    "bytes": 9095,
+    "sha256": "8fcccb64cebcef0f4a89ee757bbe68058d7489f02488b21d6d4153c185a5cf8b"
+  },
+  "prior_all32_saved_result_review": {
+    "path": "output/collaboration/reward-mechanism-repair/darela-shadow-result-claim-review-dopamine-sources-2026-09-13.json",
+    "bytes": 6878,
+    "sha256": "967a9f8b88b952e67323785598924ab47415bea6f1d2a690d0795e696ba60aee"
+  },
+  "reading": {
+    "current_narrative_count": 206,
+    "unchanged_prior_personally_read": 200,
+    "changed_full_page_deltas": 5,
+    "new_full_page": 1,
+    "personally_read_final_pages_or_deltas": [
+      {
+        "path": "AGENTS.md",
+        "bytes": 7111,
+        "sha256": "05ebc5f01bf3f201da5b08acc49d1e8fd7ec204f8b5d598eb3ebf3e27b53f6b1"
+      },
+      {
+        "path": "docs/REWARD_REPAIR_HANDOFF.md",
+        "bytes": 67163,
+        "sha256": "74b719997d3d7171a4c905774654339f11a8e598f6cc366474b5fb9d9c08ea58"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-result-2026-09-13.md",
+        "bytes": 7931,
+        "sha256": "59aebdc22431f791f5b0bd45d0392d044169c750dc70d2af51de79bc3771b1dd"
+      },
+      {
+        "path": "docs/evidence/reward-mechanism-repair-2026-09-12/index.md",
+        "bytes": 25832,
+        "sha256": "e4310d196ad7908d905fe8c9684d0f51c960112ebcdfd04582179ed7c1e6df1b"
+      },
+      {
+        "path": "wiki/cells/dopamine-receptor-signaling.md",
+        "bytes": 8973,
+        "sha256": "7eb2b1a81a30c2f801359942691f7876318db9eea279a79df3602639344a65aa"
+      },
+      {
+        "path": "wiki/reassessment.md",
+        "bytes": 15939,
+        "sha256": "33d2b849815a3ebbabe8b814ed9bd8eaa35a7090d6f9efc72250f4884a2d478d"
+      }
+    ],
+    "current_inventory_sha256": "06164fa0af3703d15c33a0a915013ad8be807eb872398b02f39e7c75dbe1daa5",
+    "method": "Personally read the entire new result page and all actual changed text in the five listed pages against the previously complete full-page reading chain, including the full current handoff opening. Reconciled every other current narrative by exact path/byte hash. Root README remains included. The two source/prereg aliases were already fully read before copying. No manifest-only substitute for narrative reading.",
+    "unread_deltas": []
+  },
+  "cell_and_result_evidence": [
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-cells/cell-summary.csv",
+      "bytes": 1630,
+      "sha256": "06d800330824b7bd0fe109a1fdb52cae414a1a40198aabbe5b03656d8ac799c8"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-cells/cell-summary.json",
+      "bytes": 18754,
+      "sha256": "3a5bd55ef0d1a805d677028ba277459d5ec2cc8b50fbfcf7a214ce61d08d5123"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-home-trial-comparison-2026-09-13.json",
+      "bytes": 11692,
+      "sha256": "1b4e6d0e811bc292c9880342707c633e35083d083dc10aa0184ed43772c1238b"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-independent-saved-result-review-delivered-arrivals-2026-09-13.json",
+      "bytes": 46232,
+      "sha256": "defa54a33523abe4e451b8c3c68e55add6fed6775e2af882ed9ae64c4e206718"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-input-preflight-2026-09-13.json",
+      "bytes": 47655,
+      "sha256": "7ff0b684230715620ca79f56c2560c92653ed892827afea5cd95ec2564742210"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-canonical-final-tests-2026-09-13.txt",
+      "bytes": 879,
+      "sha256": "f27c1f608bf52b27de01fd86286630afd82a886c5964123bae47dc049690e503"
+    },
+    {
+      "path": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-make-verify-2026-09-13.log",
+      "bytes": 6297,
+      "sha256": "1f9f9ab0d3bf96ff56cb960747b1ad78a96de6669afef3ab9c0f531316831b5f"
+    }
+  ],
+  "claim_checks": [
+    "All24 CSV rows and complete corresponding JSON cell records personally read. Body11327 has544 events,132 pre-onset and412 admitted; body11900 has524,126 and398. Displayed admitted masses441.048203 and425.094916 and maxima1.189538/1.182075 round the saved values correctly. All22 PAM12 rows record zero events/mass and unit factor endpoints.",
+    "All32 saved trial-comparison records personally read: each records a more-depressive home sum. This describes total eligible-edge change relative to its original comparator, not depression at every individual edge.",
+    "All8 displayed guard means/limits and all4 home failures agree with the already personally read producer/auditor summaries. The absolute-value rule and per-trial sum units remain explicit.",
+    "567424 exact F32 endpoints,10882304 release/state values,13319168 bridge/reference values and stated maximum errors match the saved independent review. The final/electrical endpoints are separate from publication counts.",
+    "The final251-case canonical log and make-verify completion section support251 focused,4055 Python and103 frontend passing tests with Ruff/build. Software verification is not presented as learning. Input-only preflight metadata records3.240960708 seconds and no candidate helper calls.",
+    "Untaught PAM12 silence is scoped to these recordings; earlier taught spikes are distinguished. Dimensionless engineered release is not measured local concentration; pooled home plasticity does not identify either DAN as an isolated causal driver.",
+    "The fixed mouse-WT1 every-spike/rested-reset transfer is rejected on reused fixed histories. No physiology refutation, new parameter selection, production integration, closed-loop qualification, conditioning, browser run, push or model promotion is claimed.",
+    "Current handoff supersedes older not-yet-run statements and retains the unfinished learning goal, accepted masks/gains and complete native qualification/acquisition/reversal requirements."
+  ],
+  "findings": [],
+  "operations": "Read-only prose, savedCSV/JSON, metadata/hash and existing-log review plus this unique output-onlyJSON. No source search, hypothesis selection, fitting, candidate/native/model/auditor/test rerun, neural-array evaluation or shared-document edits.",
+  "completion_boundary": "Scientific documentation review complete; root owns final protection/copy/link/Git checks and local commit."
+}

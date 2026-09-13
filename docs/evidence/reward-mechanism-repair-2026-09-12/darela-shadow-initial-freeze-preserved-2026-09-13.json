@@ -1,0 +1,33 @@
+{
+  "reason": "Before actual machine plan or numerical evaluation, final review found a strict-type terminal-validation family. Preserve original tested preparation bytes; ensuing correction does not change numerical construction.",
+  "files": [
+    {
+      "file": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-preparation-v1/run_darela_shadow.py",
+      "sha256": "03d6ec1f3e23062ad8f9d71021d18de1a8b55310b4094bc78fbc9cb325655393"
+    },
+    {
+      "file": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-preparation-v1/test_run_darela_shadow.py",
+      "sha256": "6106a9b0a82d57edefe0038e5718da514ce8802434c614bf7ce5ce6d8a1a3746"
+    },
+    {
+      "file": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-preparation-v1/launch_darela_shadow.py",
+      "sha256": "6c79488588f48188379ca60b96c008cee208c73290f0a5f70c44d26dd25288e4"
+    },
+    {
+      "file": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-preparation-v1/test_launch_darela_shadow.py",
+      "sha256": "1a2bd1c2b7ae2099fbfb81e40d4cf7c99aedb65f9ad944a7dc95eae4e2565a32"
+    },
+    {
+      "file": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-preparation-v1/audit_darela_shadow.py",
+      "sha256": "2f8c573fc4d3c10155f75ab7e0f5adaf3701e744636a3c0d9a9f8f96799fc0da"
+    },
+    {
+      "file": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-preparation-v1/test_audit_darela_shadow.py",
+      "sha256": "822d98e3e21497aa196d1e4175cb68488cd906cf0870de04b511e6dbc5af0bc1"
+    },
+    {
+      "file": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-preparation-v1/launch_audit_darela_shadow.py",
+      "sha256": "d75031840e4770b66b542da13de498a10f89c973fc2f3843543b76505a167767"
+    }
+  ]
+}

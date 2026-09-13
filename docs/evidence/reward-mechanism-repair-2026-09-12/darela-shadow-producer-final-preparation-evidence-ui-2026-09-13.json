@@ -1,0 +1,63 @@
+{
+  "agent": "/root/evidence_ui",
+  "at_utc": "2026-09-13T13:23:51.868617+00:00",
+  "status": "final_revised_preparation_passed_no_actual_history_evaluation",
+  "release": [
+    {
+      "path": "output/collaboration/reward-mechanism-repair/run_darela_shadow.py",
+      "bytes": 33488,
+      "sha256": "924e23bb1d3e09e7b600fabc364783ed6440181ac3d69e4695a6a110d0a036eb"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py",
+      "bytes": 19805,
+      "sha256": "9c22d425740b16bf9050b86d699b2818cdbde37d77d87105fe6742083ebab319"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/launch_darela_shadow.py",
+      "bytes": 4370,
+      "sha256": "5832c26a51aea93b789a16b603efbd5c380bf114cdfdb46e2bb05cb9ca303086"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/test_launch_darela_shadow.py",
+      "bytes": 3740,
+      "sha256": "f88d7d1206b3f83b19f1ec65a6150b2c8e252bd8381ad4534a20d11d2a21aa17"
+    }
+  ],
+  "prior_initial_preparation": {
+    "path": "output/collaboration/reward-mechanism-repair/darela-shadow-producer-preparation-evidence-ui-2026-09-13.json",
+    "bytes": 5895,
+    "sha256": "db8083bd0cefb3c294a627c71fc92d2d02127b9b88bc05bc5936274f4f421fcc"
+  },
+  "preserved_initial_snapshot": {
+    "path": "output/collaboration/reward-mechanism-repair/darela-shadow-producer-initial-preparation-source-2026-09-13/copy.json",
+    "bytes": 1373,
+    "sha256": "105d397a8da0f8d024a615252fab423e74fd6f31412e243f30959175e93c5ab5"
+  },
+  "tests": {
+    "passed": 122,
+    "seconds": 10.22,
+    "log": {
+      "path": "output/collaboration/reward-mechanism-repair/darela-shadow-producer-tests-revised-final-2026-09-13.txt",
+      "bytes": 181,
+      "sha256": "8e57cb6418571405d3d60151b11a57b5ee86ed0bc3ed240c2d65140118c021ff"
+    },
+    "ruff": "All four output files clean and formatted",
+    "red_terminal_family": {
+      "path": "output/collaboration/reward-mechanism-repair/darela-shadow-terminal-types-red-2026-09-13.txt",
+      "bytes": 20830,
+      "sha256": "88bdc5a6c70765743ef8a1432766c932a53205a81cfcc15e3af80f378546f914"
+    },
+    "partial_green_stale_module_failure": {
+      "path": "output/collaboration/reward-mechanism-repair/darela-shadow-producer-tests-revised-2026-09-13.txt",
+      "bytes": 7071,
+      "sha256": "4c3a3ea38be0a83361f09b0a2ad2557d06ff049eb866e225c180d898525cfca5"
+    }
+  },
+  "corrected_families": [
+    "Typed integer helper/row/bound/zero-call counts, numeric non-bool elapsed times and exact saved plan equality.",
+    "Strict subprocess zero integer exit, true reaping and false timeout;11 generalized red cases now pass.",
+    "Restore sys.path immediately after canonical frozen helper imports. Tests now explicitly assert current output producer and launcher module paths; copied historical launcher cannot shadow the reviewed launcher."
+  ],
+  "scope": "No mathematical candidate/helper change, no production/API/UI change. All203 narratives still covered plus prereg/audit and review deltas. No actual raster or candidate/native/source/fit/network evaluation. Parent owns frozen plan and numerical dispatch; one actual input-only preflight remains after plan binding."
+}

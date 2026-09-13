@@ -1,0 +1,1387 @@
+{
+  "schema": 1,
+  "agent": "/root/delivered_arrivals",
+  "created_at_utc": "2026-09-13T13:34:24.445607+00:00",
+  "status": "saved_result_review_passed",
+  "scientific_disposition": "rejected_fixed_hypothesis",
+  "material_findings": [],
+  "run_id": "darela-shadow-bc6993b67befdb3a6c2d",
+  "preparation_receipt": {
+    "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-audit-preparation-delivered-arrivals-2026-09-13.json",
+    "bytes": 57894,
+    "sha256": "ed4fb65b660b9d95908cf620f656e814f0561af4796bdf01d0632d2364d68102"
+  },
+  "plan": {
+    "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-plan.json",
+    "bytes": 55704,
+    "sha256": "b22df9fe43bd4654ac686e8d6e0555f468db78cb42871bcdfa63ef208841adbb"
+  },
+  "terminal": {
+    "audit_parent": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/parent-result.json",
+      "bytes": 1571,
+      "sha256": "096bc844665fa2e0158c35d9e73aaadffcff91fd190b1953d054f539ea00fa01"
+    },
+    "audit_completion": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/completion.json",
+      "bytes": 19743,
+      "sha256": "7ff6ac335ce97d7bfd6f59cefbc7d307df0973ddc2469cb8917c713d8367d970"
+    },
+    "audit_report": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/audit.json",
+      "bytes": 82151,
+      "sha256": "09962a634e7d760ad974ad17c2f2c90367fbcccea2af6895c1301297f435ae29"
+    },
+    "producer_parent": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/parent-result.json",
+      "bytes": 1218,
+      "sha256": "cd91fc06a36c4be367a7cdd81073b2e4e41f4a32593d0c987a47c5a6fbbaf3e1"
+    },
+    "producer_completion": {
+      "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/completion.json",
+      "bytes": 1304,
+      "sha256": "346fab5919a425192dbe84e3951f22c38565dd1107e9f7eacf8a43f29a67ef0d"
+    },
+    "all32_completed": true,
+    "audit_parent_seconds": 22.068991541163996,
+    "audit_completion_seconds": 21.53362620808184,
+    "producer_parent_seconds": 18.752042750129476,
+    "zero_exit_reaped_no_timeout_no_errors": true,
+    "limits_seconds": {
+      "producer": 1200,
+      "audit": 600
+    }
+  },
+  "bindings": {
+    "plan_input_count": 168,
+    "plan_input_bytes": 918187523,
+    "audit_completion_count": 66,
+    "producer_snapshot_count": 70,
+    "all_verified_before_and_after_saved_array_reads": true
+  },
+  "numerical": {
+    "rows_passed": 32,
+    "failed_rows": 0,
+    "release_values_checked": 10882304,
+    "bridge_values_checked": 13319168,
+    "all_reference_arrays": 576,
+    "all_reference_values": 24201472,
+    "final_and_electrical_float32_values_exact": 567424,
+    "double_endpoint_values_compared": 567424,
+    "float32_mismatches": 0,
+    "rounding_ambiguities": 0,
+    "bound_ambiguities": 0,
+    "observed_bound_contacts": 0,
+    "conditional_possible_bound_contacts": 0,
+    "publication_count_total": 356541536,
+    "max_absolute_errors_recomputed_from_saved_arrays": {
+      "group_phases": 2.291500322826323e-13,
+      "pooled_release": 1.2212453270876722e-15,
+      "endpoint_kc": 1.4832579608992091e-13,
+      "state_before": 2.4424906541753444e-15,
+      "edge_phases": 9.575673587391975e-16,
+      "per_cell_release": 2.4424906541753444e-15,
+      "state_after": 2.4424906541753444e-15,
+      "endpoint_state": 2.220446049250313e-15,
+      "endpoint_dan": 3.090860900556436e-13,
+      "double_gains": 6.661338147750939e-16,
+      "electrical_double_gains": 6.661338147750939e-16
+    },
+    "reference_schema": {
+      "per_cell_release": {
+        "dtype": "float64",
+        "shape": [
+          2000,
+          24
+        ]
+      },
+      "pooled_release": {
+        "dtype": "float64",
+        "shape": [
+          2000,
+          2
+        ]
+      },
+      "state_before": {
+        "dtype": "float64",
+        "shape": [
+          2000,
+          24,
+          3
+        ]
+      },
+      "state_after": {
+        "dtype": "float64",
+        "shape": [
+          2000,
+          24,
+          3
+        ]
+      },
+      "endpoint_state": {
+        "dtype": "float64",
+        "shape": [
+          24,
+          3
+        ]
+      },
+      "gains": {
+        "dtype": "float32",
+        "shape": [
+          8866
+        ]
+      },
+      "double_gains": {
+        "dtype": "float64",
+        "shape": [
+          8866
+        ]
+      },
+      "electrical_gains": {
+        "dtype": "float32",
+        "shape": [
+          8866
+        ]
+      },
+      "electrical_double_gains": {
+        "dtype": "float64",
+        "shape": [
+          8866
+        ]
+      },
+      "edge_phases": {
+        "dtype": "float64",
+        "shape": [
+          4,
+          8866,
+          8
+        ]
+      },
+      "group_phases": {
+        "dtype": "float64",
+        "shape": [
+          4,
+          8,
+          8
+        ]
+      },
+      "publication_counts": {
+        "dtype": "int64",
+        "shape": [
+          4,
+          8866
+        ]
+      },
+      "bound_counts": {
+        "dtype": "int64",
+        "shape": [
+          2,
+          8866
+        ]
+      },
+      "endpoint_kc": {
+        "dtype": "float64",
+        "shape": [
+          4064,
+          2
+        ]
+      },
+      "endpoint_dan": {
+        "dtype": "float64",
+        "shape": [
+          2,
+          2
+        ]
+      },
+      "conditional_bound_counts": {
+        "dtype": "int64",
+        "shape": [
+          2,
+          8866
+        ]
+      },
+      "unconstrained_pair": {
+        "dtype": "float64",
+        "shape": [
+          8866
+        ]
+      },
+      "unconstrained_electrical_pair": {
+        "dtype": "float64",
+        "shape": [
+          8866
+        ]
+      }
+    }
+  },
+  "guards": {
+    "candidate": {
+      "diag-rate-bridge-v1-maskgamma-de050d773763/base/home": {
+        "ticks": [
+          -1966741,
+          -429170,
+          1167531,
+          -2420380,
+          -13668365,
+          -2950667,
+          -5861263,
+          -1496320
+        ],
+        "edge_count": 4184,
+        "games": [
+          4362,
+          4366,
+          4370,
+          4374,
+          4378,
+          4383,
+          4387,
+          4391
+        ],
+        "mean": -0.2058250829577446,
+        "sample_sd": 0.27407256781026185,
+        "limit": 0.13703628390513092,
+        "passed": false
+      },
+      "diag-rate-bridge-v1-maskgamma-de050d773763/base/away": {
+        "ticks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "edge_count": 3239,
+        "games": [
+          4362,
+          4366,
+          4370,
+          4374,
+          4378,
+          4383,
+          4387,
+          4391
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "limit": 0.0,
+        "passed": true
+      },
+      "diag-rate-bridge-v1-maskgamma-de050d773763/alt/home": {
+        "ticks": [
+          -1917440,
+          1854728,
+          -4982932,
+          -3515838,
+          -5900484,
+          5557614,
+          -6749349,
+          -5303038
+        ],
+        "edge_count": 4184,
+        "games": [
+          4362,
+          4366,
+          4370,
+          4374,
+          4378,
+          4383,
+          4387,
+          4391
+        ],
+        "mean": -0.15613987296819687,
+        "sample_sd": 0.2556634474361028,
+        "limit": 0.1278317237180514,
+        "passed": false
+      },
+      "diag-rate-bridge-v1-maskgamma-de050d773763/alt/away": {
+        "ticks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "edge_count": 3239,
+        "games": [
+          4362,
+          4366,
+          4370,
+          4374,
+          4378,
+          4383,
+          4387,
+          4391
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "limit": 0.0,
+        "passed": true
+      },
+      "diag-rate-bridge-v1-maskgamma-dea14759e9ca/base/home": {
+        "ticks": [
+          -9772919,
+          -6085538,
+          1944791,
+          -2749792,
+          -1483093,
+          -1648722,
+          -35983141,
+          -3753376
+        ],
+        "edge_count": 4184,
+        "games": [
+          4395,
+          4399,
+          4404,
+          4408,
+          4412,
+          4416,
+          4420,
+          4425
+        ],
+        "mean": -0.443546399474144,
+        "sample_sd": 0.7176201031936715,
+        "limit": 0.35881005159683577,
+        "passed": false
+      },
+      "diag-rate-bridge-v1-maskgamma-dea14759e9ca/base/away": {
+        "ticks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "edge_count": 3239,
+        "games": [
+          4395,
+          4399,
+          4404,
+          4408,
+          4412,
+          4416,
+          4420,
+          4425
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "limit": 0.0,
+        "passed": true
+      },
+      "diag-rate-bridge-v1-maskgamma-dea14759e9ca/alt/home": {
+        "ticks": [
+          -2451707,
+          1751500,
+          -7409152,
+          -5442514,
+          -4339380,
+          1754772,
+          -4615435,
+          -2618440
+        ],
+        "edge_count": 4184,
+        "games": [
+          4395,
+          4399,
+          4404,
+          4408,
+          4412,
+          4416,
+          4420,
+          4425
+        ],
+        "mean": -0.17412272095680237,
+        "sample_sd": 0.19561033143960746,
+        "limit": 0.09780516571980373,
+        "passed": false
+      },
+      "diag-rate-bridge-v1-maskgamma-dea14759e9ca/alt/away": {
+        "ticks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "edge_count": 3239,
+        "games": [
+          4395,
+          4399,
+          4404,
+          4408,
+          4412,
+          4416,
+          4420,
+          4425
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "limit": 0.0,
+        "passed": true
+      }
+    },
+    "original": {
+      "diag-rate-bridge-v1-maskgamma-de050d773763/base/home": {
+        "ticks": [
+          -627562,
+          -177805,
+          4269724,
+          -2263377,
+          -10653845,
+          348814,
+          -4004140,
+          -829028
+        ],
+        "edge_count": 4184,
+        "games": [
+          4362,
+          4366,
+          4370,
+          4374,
+          4378,
+          4383,
+          4387,
+          4391
+        ],
+        "mean": -0.10384037345647812,
+        "sample_sd": 0.25671016092650883,
+        "limit": 0.12835508046325442,
+        "passed": true
+      },
+      "diag-rate-bridge-v1-maskgamma-de050d773763/base/away": {
+        "ticks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "edge_count": 3239,
+        "games": [
+          4362,
+          4366,
+          4370,
+          4374,
+          4378,
+          4383,
+          4387,
+          4391
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "limit": 0.0,
+        "passed": true
+      },
+      "diag-rate-bridge-v1-maskgamma-de050d773763/alt/home": {
+        "ticks": [
+          -1197315,
+          1976768,
+          -1809420,
+          -3329277,
+          -3548302,
+          8562684,
+          -4896764,
+          -3944129
+        ],
+        "edge_count": 4184,
+        "games": [
+          4362,
+          4366,
+          4370,
+          4374,
+          4378,
+          4383,
+          4387,
+          4391
+        ],
+        "mean": -0.06098862737417221,
+        "sample_sd": 0.2634651416578477,
+        "limit": 0.13173257082892384,
+        "passed": true
+      },
+      "diag-rate-bridge-v1-maskgamma-de050d773763/alt/away": {
+        "ticks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "edge_count": 3239,
+        "games": [
+          4362,
+          4366,
+          4370,
+          4374,
+          4378,
+          4383,
+          4387,
+          4391
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "limit": 0.0,
+        "passed": true
+      },
+      "diag-rate-bridge-v1-maskgamma-dea14759e9ca/base/home": {
+        "ticks": [
+          -7749919,
+          -3926842,
+          2512513,
+          -1347785,
+          112668,
+          -505695,
+          -23108797,
+          -2579269
+        ],
+        "edge_count": 4184,
+        "games": [
+          4395,
+          4399,
+          4404,
+          4408,
+          4412,
+          4416,
+          4420,
+          4425
+        ],
+        "mean": -0.27264003455638885,
+        "sample_sd": 0.48169047084658934,
+        "limit": 0.24084523542329467,
+        "passed": false
+      },
+      "diag-rate-bridge-v1-maskgamma-dea14759e9ca/base/away": {
+        "ticks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "edge_count": 3239,
+        "games": [
+          4395,
+          4399,
+          4404,
+          4408,
+          4412,
+          4416,
+          4420,
+          4425
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "limit": 0.0,
+        "passed": true
+      },
+      "diag-rate-bridge-v1-maskgamma-dea14759e9ca/alt/home": {
+        "ticks": [
+          -854839,
+          3205922,
+          -6578258,
+          -4422376,
+          -3179134,
+          2094344,
+          1497915,
+          -1716703
+        ],
+        "edge_count": 4184,
+        "games": [
+          4395,
+          4399,
+          4404,
+          4408,
+          4412,
+          4416,
+          4420,
+          4425
+        ],
+        "mean": -0.07415658980607986,
+        "sample_sd": 0.20293166987276323,
+        "limit": 0.10146583493638162,
+        "passed": true
+      },
+      "diag-rate-bridge-v1-maskgamma-dea14759e9ca/alt/away": {
+        "ticks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "edge_count": 3239,
+        "games": [
+          4395,
+          4399,
+          4404,
+          4408,
+          4412,
+          4416,
+          4420,
+          4425
+        ],
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "limit": 0.0,
+        "passed": true
+      }
+    },
+    "candidate_failed": [
+      "diag-rate-bridge-v1-maskgamma-de050d773763/base/home",
+      "diag-rate-bridge-v1-maskgamma-de050d773763/alt/home",
+      "diag-rate-bridge-v1-maskgamma-dea14759e9ca/base/home",
+      "diag-rate-bridge-v1-maskgamma-dea14759e9ca/alt/home"
+    ],
+    "original_failed": [
+      "diag-rate-bridge-v1-maskgamma-dea14759e9ca/base/home"
+    ],
+    "exact_integer_totals_and_passes_recomputed": true,
+    "producer_auditor_saved_gain_agreement": true,
+    "descriptions_recomputed_in_trial_sum_units": true
+  },
+  "rows": [
+    {
+      "index": 0,
+      "metadata": {
+        "game": 4362,
+        "seed_set": "base",
+        "seed": 4404,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "status": "passed",
+      "reference_artifact": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_00.npz",
+        "bytes": 308327,
+        "sha256": "ba14c91c5f0cd7163459a0e9b36d829dddbe153237b1b2a33efb44f5a7ce9e71"
+      },
+      "producer_artifact": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_00.npz",
+        "bytes": 349220,
+        "sha256": "cb1c0a6fa6fcebebfd8306f307609c76967f5c1d22e1d4a9e87a7cab21260713"
+      },
+      "release_values": 340072,
+      "bridge_values": 416224
+    },
+    {
+      "index": 1,
+      "metadata": {
+        "game": 4362,
+        "seed_set": "alt",
+        "seed": 1004404,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "status": "passed",
+      "reference_artifact": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_01.npz",
+        "bytes": 290342,
+        "sha256": "2af1656c849528b5b17d5488747c744687f4241d819a41f1ec8e2d84b2c5ebcf"
+      },
+      "producer_artifact": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_01.npz",
+        "bytes": 331799,
+        "sha256": "c48d5ce5f7d1ed530a8fbd0ec21272896ef821d01625d8ae3800f7cb5b6e7f18"
+      },
+      "release_values": 340072,
+      "bridge_values": 416224
+    },
+    {
+      "index": 2,
+      "metadata": {
+        "game": 4366,
+        "seed_set": "base",
+        "seed": 4408,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "status": "passed",
+      "reference_artifact": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_02.npz",
+        "bytes": 255889,
+        "sha256": "0523521768d940b095276c74c52506f99775d871e9b8c5a7302abba8401dfc2a"
+      },
+      "producer_artifact": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_02.npz",
+        "bytes": 298326,
+        "sha256": "1fea1d489eaa9ec5002b08c79edf6915e1a4cabd7804900372f285f2ebcf61b4"
+      },
+      "release_values": 340072,
+      "bridge_values": 416224
+    },
+    {
+      "index": 3,
+      "metadata": {
+        "game": 4366,
+        "seed_set": "alt",
+        "seed": 1004408,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "status": "passed",
+      "reference_artifact": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_03.npz",
+        "bytes": 261247,
+        "sha256": "ddb0f5d03ad768aa3734295f13543050ce56c9a11cd2a74f588096ac8b8cde4d"
+      },
+      "producer_artifact": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_03.npz",
+        "bytes": 304014,
+        "sha256": "ff995c0a47ae82e4d64890a981e812b4ac5d0ecda0a53d5af3caa6765173d8a5"
+      },
+      "release_values": 340072,
+      "bridge_values": 416224
+    },
+    {
+      "index": 4,
+      "metadata": {
+        "game": 4370,
+        "seed_set": "base",
+        "seed": 4412,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "status": "passed",
+      "reference_artifact": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_04.npz",
+        "bytes": 361712,
+        "sha256": "598302d4d5e8ceb1e3a7f1d55bb1d760a2bfbc1ab1df3b64e2717e1f63692fbc"
+      },
+      "producer_artifact": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_04.npz",
+        "bytes": 400275,
+        "sha256": "24a9cc96845cf23dacf9b2e53c779fa41eda0263e20ca277b4d86b20ba2e014e"
+      },
+      "release_values": 340072,
+      "bridge_values": 416224
+    },
+    {
+      "index": 5,
+      "metadata": {
+        "game": 4370,
+        "seed_set": "alt",
+        "seed": 1004412,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "status": "passed",
+      "reference_artifact": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_05.npz",
+        "bytes": 373135,
+        "sha256": "a0ba5e75fdd43dd24994c51137ffeacc0429b78e8d63e6a788a25b324e647c61"
+      },
+      "producer_artifact": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_05.npz",
+        "bytes": 411168,
+        "sha256": "4f2287acb871565bf5b2fc8c90db71a223c939939659e521ee9d1d149fe88f4b"
+      },
+      "release_values": 340072,
+      "bridge_values": 416224
+    },
+    {
+      "index": 6,
+      "metadata": {
+        "game": 4374,
+        "seed_set": "base",
+        "seed": 4416,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "status": "passed",
+      "reference_artifact": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_06.npz",
+        "bytes": 232629,
+        "sha256": "2c12ebef0086cf0e93cb7311d0d7b7557a9f8d5a680f3d05474ba86b585b8afe"
+      },
+      "producer_artifact": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_06.npz",
+        "bytes": 275500,
+        "sha256": "902a53b6119578c97cf87ab9fa9183d021e11a2a56b26c845c4c4238f4adb978"
+      },
+      "release_values": 340072,
+      "bridge_values": 416224
+    },
+    {
+      "index": 7,
+      "metadata": {
+        "game": 4374,
+        "seed_set": "alt",
+        "seed": 1004416,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "status": "passed",
+      "reference_artifact": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_07.npz",
+        "bytes": 238221,
+        "sha256": "ea81fc9cf459c650c8aed66825e0a702a0856d780f8f6afc47e5f7d3603b35fb"
+      },
+      "producer_artifact": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_07.npz",
+        "bytes": 281260,
+        "sha256": "df143b7410e5b20df4068abfb5df98e3958aeed156e669239aa43ad7ec0c6741"
+      },
+      "release_values": 340072,
+      "bridge_values": 416224
+    },
+    {
+      "index": 8,
+      "metadata": {
+        "game": 4378,
+        "seed_set": "base",
+        "seed": 4420,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "status": "passed",
+      "reference_artifact": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_08.npz",
+        "bytes": 346029,
+        "sha256": "7471655bd4f033dd6e7c4e29599533d464580621208481bd5f195ce0be50bcac"
+      },
+      "producer_artifact": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_08.npz",
+        "bytes": 385289,
+        "sha256": "da927bffbb33244e24fd674eb1695d6fd4cf3309350eaa59d177932f27b4f577"
+      },
+      "release_values": 340072,
+      "bridge_values": 416224
+    },
+    {
+      "index": 9,
+      "metadata": {
+        "game": 4378,
+        "seed_set": "alt",
+        "seed": 1004420,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "status": "passed",
+      "reference_artifact": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_09.npz",
+        "bytes": 323351,
+        "sha256": "58d798b3f56f6123f6f6302133a33bda70aee800a56fdcd3338fca70e27e2e6f"
+      },
+      "producer_artifact": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_09.npz",
+        "bytes": 363422,
+        "sha256": "b0febddf1a41c30ce89fee183f35dbcba48491fa9170bdcaaa3ce819a9504ede"
+      },
+      "release_values": 340072,
+      "bridge_values": 416224
+    },
+    {
+      "index": 10,
+      "metadata": {
+        "game": 4383,
+        "seed_set": "base",
+        "seed": 4425,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "status": "passed",
+      "reference_artifact": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_10.npz",
+        "bytes": 379260,
+        "sha256": "28a47d4f0cc9ebf18c70b454e3fa89b5b0bea1f5d57fd900cd7c1f9b26a36820"
+      },
+      "producer_artifact": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_10.npz",
+        "bytes": 417359,
+        "sha256": "4669364daabffcd18c12f8b4afc8ae509c4ef5ac8c19855adf78b9ae51db2175"
+      },
+      "release_values": 340072,
+      "bridge_values": 416224
+    },
+    {
+      "index": 11,
+      "metadata": {
+        "game": 4383,
+        "seed_set": "alt",
+        "seed": 1004425,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "status": "passed",
+      "reference_artifact": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_11.npz",
+        "bytes": 377929,
+        "sha256": "1eff4331a315a97f177e2fe3e5d4baa8c2503233c54debe6457735e893676318"
+      },
+      "producer_artifact": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_11.npz",
+        "bytes": 415939,
+        "sha256": "a57f2057478c56410e2a40a5d3dea02842e7bfe6925dac429ee319f753590a3f"
+      },
+      "release_values": 340072,
+      "bridge_values": 416224
+    },
+    {
+      "index": 12,
+      "metadata": {
+        "game": 4387,
+        "seed_set": "base",
+        "seed": 4429,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "status": "passed",
+      "reference_artifact": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_12.npz",
+        "bytes": 316968,
+        "sha256": "2ba1136897518fc4c18d147eb2279a09cdb34eecc0d3647f3bab2f492150ea0a"
+      },
+      "producer_artifact": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_12.npz",
+        "bytes": 357610,
+        "sha256": "8f7674ffa35a630060bc99e1ead16270d8a95962a264c30a93d5aa87d95049d1"
+      },
+      "release_values": 340072,
+      "bridge_values": 416224
+    },
+    {
+      "index": 13,
+      "metadata": {
+        "game": 4387,
+        "seed_set": "alt",
+        "seed": 1004429,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "status": "passed",
+      "reference_artifact": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_13.npz",
+        "bytes": 314825,
+        "sha256": "65531d94b27f05bd9613c0142f6d108058b150ec59b4ee4f4c70d1983a35fa9f"
+      },
+      "producer_artifact": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_13.npz",
+        "bytes": 355404,
+        "sha256": "8ded3217f5c48ba5984de25e16b40adbc53657487e680bdf289ab0211946da2a"
+      },
+      "release_values": 340072,
+      "bridge_values": 416224
+    },
+    {
+      "index": 14,
+      "metadata": {
+        "game": 4391,
+        "seed_set": "base",
+        "seed": 4433,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "status": "passed",
+      "reference_artifact": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_14.npz",
+        "bytes": 278290,
+        "sha256": "f6ca4dc88704f461cc8c76797f96685eea15ac04f0f3baa79c62c91ce9e34390"
+      },
+      "producer_artifact": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_14.npz",
+        "bytes": 320086,
+        "sha256": "eef9b303f4f15c5dafad42575cf24816f020ecbb1a7b627692fc236d8165005c"
+      },
+      "release_values": 340072,
+      "bridge_values": 416224
+    },
+    {
+      "index": 15,
+      "metadata": {
+        "game": 4391,
+        "seed_set": "alt",
+        "seed": 1004433,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "status": "passed",
+      "reference_artifact": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_15.npz",
+        "bytes": 295199,
+        "sha256": "c0c9190c69ba79c83eea07a08d72afd47b0b474ec17b07aae0da838d66b3b833"
+      },
+      "producer_artifact": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_15.npz",
+        "bytes": 336318,
+        "sha256": "2daddab7c021e1c446549864c25c79b6382aedba9894b5418cf862f58e744b85"
+      },
+      "release_values": 340072,
+      "bridge_values": 416224
+    },
+    {
+      "index": 16,
+      "metadata": {
+        "game": 4395,
+        "seed_set": "base",
+        "seed": 2004437,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "status": "passed",
+      "reference_artifact": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_16.npz",
+        "bytes": 306556,
+        "sha256": "b67448b2400daa0a6e70b13aa2616ed2454b3988702753995119448907071569"
+      },
+      "producer_artifact": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_16.npz",
+        "bytes": 347497,
+        "sha256": "181ccb34849136b574028e9ca250c61966321495b7f27f8f49f8e1a586189622"
+      },
+      "release_values": 340072,
+      "bridge_values": 416224
+    },
+    {
+      "index": 17,
+      "metadata": {
+        "game": 4395,
+        "seed_set": "alt",
+        "seed": 3004437,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "status": "passed",
+      "reference_artifact": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_17.npz",
+        "bytes": 313461,
+        "sha256": "856f0804bd38c800aa071d59449867ae0aab0bfb1e7fde8714f4e91d4e138d59"
+      },
+      "producer_artifact": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_17.npz",
+        "bytes": 354171,
+        "sha256": "6de2749c8bbfee70930a421b7e651fdd105e97979aa104048524a84a34766dbb"
+      },
+      "release_values": 340072,
+      "bridge_values": 416224
+    },
+    {
+      "index": 18,
+      "metadata": {
+        "game": 4399,
+        "seed_set": "base",
+        "seed": 2004441,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "status": "passed",
+      "reference_artifact": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_18.npz",
+        "bytes": 335397,
+        "sha256": "a9210389afa152f0a7170b72928581c09cbb0645fe2e64de80e56a8bd2e7db56"
+      },
+      "producer_artifact": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_18.npz",
+        "bytes": 374725,
+        "sha256": "b0a94e94c7dd262d73c6412f45b900d20792e2a9f14ad9a03b3abb594b3c1a38"
+      },
+      "release_values": 340072,
+      "bridge_values": 416224
+    },
+    {
+      "index": 19,
+      "metadata": {
+        "game": 4399,
+        "seed_set": "alt",
+        "seed": 3004441,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "status": "passed",
+      "reference_artifact": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_19.npz",
+        "bytes": 346225,
+        "sha256": "e9e0043e4111813ad6eab7b874af44950f7d29ac43241e6d7267eff85229f74a"
+      },
+      "producer_artifact": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_19.npz",
+        "bytes": 385411,
+        "sha256": "ba5abf2e803ca6821323844912408c0cb368ef0f9ad6be8f962b4fe7656cc360"
+      },
+      "release_values": 340072,
+      "bridge_values": 416224
+    },
+    {
+      "index": 20,
+      "metadata": {
+        "game": 4404,
+        "seed_set": "base",
+        "seed": 2004446,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "status": "passed",
+      "reference_artifact": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_20.npz",
+        "bytes": 282949,
+        "sha256": "810343da114456d5fadc0f2bc88d6891d4c53e8ca119efe66d9cec2a0d3e033a"
+      },
+      "producer_artifact": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_20.npz",
+        "bytes": 324430,
+        "sha256": "8e35374aa531d222eaf32a98ef264413828dc75a790b23322f31f64f5cb4b3c2"
+      },
+      "release_values": 340072,
+      "bridge_values": 416224
+    },
+    {
+      "index": 21,
+      "metadata": {
+        "game": 4404,
+        "seed_set": "alt",
+        "seed": 3004446,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "status": "passed",
+      "reference_artifact": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_21.npz",
+        "bytes": 280809,
+        "sha256": "10ffe24392336311740d9641dd5e73b3987381c8383080abe9556d6947691c31"
+      },
+      "producer_artifact": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_21.npz",
+        "bytes": 322189,
+        "sha256": "9b57fe47f93669e0119f956e393654e1c0f9addfe8313127b10b864d54a77097"
+      },
+      "release_values": 340072,
+      "bridge_values": 416224
+    },
+    {
+      "index": 22,
+      "metadata": {
+        "game": 4408,
+        "seed_set": "base",
+        "seed": 2004450,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "status": "passed",
+      "reference_artifact": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_22.npz",
+        "bytes": 295451,
+        "sha256": "76dc77a8cc33c546521cb47b8a1fbe9cfef15e9da3c4f325339caaf315b52109"
+      },
+      "producer_artifact": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_22.npz",
+        "bytes": 336793,
+        "sha256": "f1ebdbeed3fdb5b2158fe42df979717ccf051442c535897afcb583b4966f4bea"
+      },
+      "release_values": 340072,
+      "bridge_values": 416224
+    },
+    {
+      "index": 23,
+      "metadata": {
+        "game": 4408,
+        "seed_set": "alt",
+        "seed": 3004450,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "status": "passed",
+      "reference_artifact": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_23.npz",
+        "bytes": 284597,
+        "sha256": "a9f9b67f6f0669c0b4a75f507b09e2e90166cafd4f6ca88daaa26f069563fee1"
+      },
+      "producer_artifact": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_23.npz",
+        "bytes": 326369,
+        "sha256": "7abd2b354bd22a66733895d7e03487cdddc85802329a22bef5087cc810b37879"
+      },
+      "release_values": 340072,
+      "bridge_values": 416224
+    },
+    {
+      "index": 24,
+      "metadata": {
+        "game": 4412,
+        "seed_set": "base",
+        "seed": 2004454,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "status": "passed",
+      "reference_artifact": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_24.npz",
+        "bytes": 295718,
+        "sha256": "c20c3430b37b6d1c5a22173aef938898e23c059eaf517ea3e9f38dfb9f4f088b"
+      },
+      "producer_artifact": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_24.npz",
+        "bytes": 336692,
+        "sha256": "59579262ab5369e79366670c491a58c75826f3dfe29f3cdce6ef9f082e2162a4"
+      },
+      "release_values": 340072,
+      "bridge_values": 416224
+    },
+    {
+      "index": 25,
+      "metadata": {
+        "game": 4412,
+        "seed_set": "alt",
+        "seed": 3004454,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "status": "passed",
+      "reference_artifact": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_25.npz",
+        "bytes": 293506,
+        "sha256": "4ebcbeb954eaabe263a068833ed5411a33de243188a3dcfd580ddb5ff21e8752"
+      },
+      "producer_artifact": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_25.npz",
+        "bytes": 335063,
+        "sha256": "89b2153952e10a30c594bfb4171ca4bb5e9dbcc765f80ab61ba05babad37fcbf"
+      },
+      "release_values": 340072,
+      "bridge_values": 416224
+    },
+    {
+      "index": 26,
+      "metadata": {
+        "game": 4416,
+        "seed_set": "base",
+        "seed": 2004458,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "status": "passed",
+      "reference_artifact": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_26.npz",
+        "bytes": 320352,
+        "sha256": "849ced3a16b1b652ec6dad603a17148f86b25e38e09c061eea5a492ecd9b16ff"
+      },
+      "producer_artifact": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_26.npz",
+        "bytes": 360625,
+        "sha256": "94930c2d6fb82c758347f18ae214f27b66dca95c812b0852999db056efab069d"
+      },
+      "release_values": 340072,
+      "bridge_values": 416224
+    },
+    {
+      "index": 27,
+      "metadata": {
+        "game": 4416,
+        "seed_set": "alt",
+        "seed": 3004458,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "status": "passed",
+      "reference_artifact": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_27.npz",
+        "bytes": 284958,
+        "sha256": "8e64958e3caa432c43d132bf4896c821aa0acfa638af4cefb0ae20ce4a8b59bc"
+      },
+      "producer_artifact": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_27.npz",
+        "bytes": 326273,
+        "sha256": "15ccb16ac8d7f65615bf391baf7af9ee1bbe6b34cd7817988684d2cfae2865eb"
+      },
+      "release_values": 340072,
+      "bridge_values": 416224
+    },
+    {
+      "index": 28,
+      "metadata": {
+        "game": 4420,
+        "seed_set": "base",
+        "seed": 2004462,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "status": "passed",
+      "reference_artifact": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_28.npz",
+        "bytes": 445414,
+        "sha256": "efaf477ca78a4e3437263130d90c12ca534750f0f64a6d831677381144fd783b"
+      },
+      "producer_artifact": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_28.npz",
+        "bytes": 480775,
+        "sha256": "bbf80028c4cced394b2a6a800823e8f2b286192af7e0188b9f3322eb96690a44"
+      },
+      "release_values": 340072,
+      "bridge_values": 416224
+    },
+    {
+      "index": 29,
+      "metadata": {
+        "game": 4420,
+        "seed_set": "alt",
+        "seed": 3004462,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "status": "passed",
+      "reference_artifact": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_29.npz",
+        "bytes": 405292,
+        "sha256": "d03d4713e2b4e06689dddaec3fee97842b4d840f26b9bf3a379040cc2afb37a8"
+      },
+      "producer_artifact": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_29.npz",
+        "bytes": 441768,
+        "sha256": "5cb00a31e4660b5961dc0c5521d1e9f5c023d449f1d6e89aa728cb1e7896b911"
+      },
+      "release_values": 340072,
+      "bridge_values": 416224
+    },
+    {
+      "index": 30,
+      "metadata": {
+        "game": 4425,
+        "seed_set": "base",
+        "seed": 2004467,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "status": "passed",
+      "reference_artifact": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_30.npz",
+        "bytes": 309531,
+        "sha256": "34e5a9d75a5169db5eb0f894de0cee0e8195aa342bef2e279076b06e68942096"
+      },
+      "producer_artifact": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_30.npz",
+        "bytes": 350269,
+        "sha256": "2c94d845195858b98d1cadcbd4f186c860943b51be6c49260f1f662cbcd3fac6"
+      },
+      "release_values": 340072,
+      "bridge_values": 416224
+    },
+    {
+      "index": 31,
+      "metadata": {
+        "game": 4425,
+        "seed_set": "alt",
+        "seed": 3004467,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "status": "passed",
+      "reference_artifact": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-audit/result/reference_31.npz",
+        "bytes": 297589,
+        "sha256": "4c54484587bd33bcefed919d1b1a7dbd38e2340f76c87685f6cfd14ea79b7e32"
+      },
+      "producer_artifact": {
+        "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d/result/case_31.npz",
+        "bytes": 338923,
+        "sha256": "de5465ae9141d791dc5d333921ad7de51b5f28b5e74cf0a835ca97ffe998c05e"
+      },
+      "release_values": 340072,
+      "bridge_values": 416224
+    }
+  ],
+  "claims": [
+    "All four candidate home guards fail; all four away guards pass with exact zero final gain deltas. The original comparator fails only second-panel/base/home.",
+    "All8866 edges and both final/electrical endpoints are covered in every row; masked1443 away edges remain exact unit gains and have no publications.",
+    "Numerical reconstruction agrees within preregistered tolerances and all567424 final/electrical F32 values match exactly; no rounded acceptance or tolerance change.",
+    "This rejects this fixed finite DARELA event-transfer construction on reused untaught histories. It does not refute the mouse source model or establish fly physiology, acquisition, reversal, or recurrent circuit behavior."
+  ],
+  "scope": {
+    "saved_artifact_reads_only": true,
+    "numerical_scripts_rerun": 0,
+    "neural_or_native_calls": 0,
+    "source_or_fit_calls": 0,
+    "production_edits": 0,
+    "reading": "Preparation205 narrative reading chain retained. Final result/canonical narrative deltas will be read on parent final freeze; this receipt inspects saved machine results."
+  }
+}

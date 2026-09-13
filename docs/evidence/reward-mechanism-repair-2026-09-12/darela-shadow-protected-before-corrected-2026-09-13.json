@@ -1,0 +1,11 @@
+{
+  "checked_at": "2026-09-13T12:59:36.592546+00:00",
+  "baseline": "output/collaboration/reward-mechanism-repair/darela-protected-before-2026-09-13.json",
+  "files_checked": 760,
+  "file_changes": {},
+  "inventory_changed": false,
+  "added_entries": [],
+  "removed_entries": [],
+  "passed": true,
+  "correction": "Initial root comparison wrongly added standalone protected files to scope-only inventory. All760 byte hashes passed; inventory now compared using baseline scope definition. Original comparison retained."
+}

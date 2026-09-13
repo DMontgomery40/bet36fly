@@ -1,0 +1,14 @@
+{
+  "status": "completed",
+  "completed": 32,
+  "attempted": 32,
+  "invocations": {
+    "release": 32,
+    "bridge": 32
+  },
+  "returned": {
+    "release": 32,
+    "bridge": 32
+  },
+  "wall_seconds": 17.811748541891575
+}

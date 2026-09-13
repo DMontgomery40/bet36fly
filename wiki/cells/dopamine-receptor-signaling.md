@@ -110,8 +110,25 @@ reconstructs local dopamine concentration nor implements a KC receptor
 state, and it has not produced a new qualification or conditioning result.
 The [numerical checkpoint](../../docs/evidence/reward-mechanism-repair-2026-09-12/darela-source-transfer-checkpoint-2026-09-13.md)
 passes the fixed source-kernel comparison and independent event/bridge tests.
-The [current handoff](../../docs/REWARD_REPAIR_HANDOFF.md) records the next
-fixed-history screen; no screen result is yet available.
+The [fixed-history screen](../../docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-result-2026-09-13.md)
+has now run once and been independently audited. It fails all four home
+guard groups; every home trial becomes more depressive. All 567,424
+final/electrical float32 gains match the independent calculation exactly,
+with zero gain bounds or numerical ambiguity. This specified transfer is
+rejected and remains outside production.
+
+Across those 32 untaught histories, right PPL101 body 11327 produced 544
+spikes and left PPL101 body 11900 produced 524. Of these, 412 and 398 events
+respectively entered the bridge after its unchanged 100 ms onset; earlier
+events still changed each body's release factors. The corresponding
+dimensionless admitted masses were 441.048203 and 425.094916. All 22 PAM12
+cells were silent in these untaught recordings, so the away guard's zero
+change does not demonstrate away learning. The
+[complete 24-cell table](../../docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-cells/cell-summary.csv)
+retains every body identity. These are modeled release masses, not measured
+local concentrations or isolated causal contributions of either home DAN.
+The [current handoff](../../docs/REWARD_REPAIR_HANDOFF.md) records the
+remaining source-grounded learning investigation.
 
 The current learning qualification still fails. A future intracellular
 mechanism needs independently specified input units, state transitions,

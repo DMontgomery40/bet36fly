@@ -1,0 +1,3443 @@
+{
+  "scope": "Read-only original archive headers, input hashes and atlas identities; no candidate release or bridge calculation.",
+  "files": [
+    {
+      "index": 0,
+      "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_00.npz",
+      "sha256": "4a438a1d4a9f3f04006ff540a61710ae494609516af5ad4fd60a7b7c5495439c",
+      "fields": {
+        "counts.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "rates.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "rates_hz.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "voltage.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "trace.npy": {
+          "shape": [
+            2000,
+            4774
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "population.npy": {
+          "shape": [
+            2000
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "dan_counts.npy": {
+          "shape": [
+            24
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "compartment_dan_counts.npy": {
+          "shape": [
+            2
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "compartment_tonic_hz.npy": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "gains.npy": {
+          "shape": [
+            8866
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "gain_delta.npy": {
+          "shape": [
+            8866
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "pulse_times_ms.npy": {
+          "shape": [
+            0
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "pulse_dan_indices.npy": {
+          "shape": [
+            0
+          ],
+          "dtype": "int32",
+          "fortran": false
+        }
+      }
+    },
+    {
+      "index": 1,
+      "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_01.npz",
+      "sha256": "7b240f79326ce2eae6f39bd915b79f87620010a42819e0456ddfe93b8f13c9d0",
+      "fields": {
+        "counts.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "rates.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "rates_hz.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "voltage.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "trace.npy": {
+          "shape": [
+            2000,
+            4774
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "population.npy": {
+          "shape": [
+            2000
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "dan_counts.npy": {
+          "shape": [
+            24
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "compartment_dan_counts.npy": {
+          "shape": [
+            2
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "compartment_tonic_hz.npy": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "gains.npy": {
+          "shape": [
+            8866
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "gain_delta.npy": {
+          "shape": [
+            8866
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "pulse_times_ms.npy": {
+          "shape": [
+            0
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "pulse_dan_indices.npy": {
+          "shape": [
+            0
+          ],
+          "dtype": "int32",
+          "fortran": false
+        }
+      }
+    },
+    {
+      "index": 2,
+      "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_02.npz",
+      "sha256": "5a52ef4192a5c3451c87b5a4e68d71634ed364f91f51791e58bf1981ca7e53bd",
+      "fields": {
+        "counts.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "rates.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "rates_hz.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "voltage.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "trace.npy": {
+          "shape": [
+            2000,
+            4774
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "population.npy": {
+          "shape": [
+            2000
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "dan_counts.npy": {
+          "shape": [
+            24
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "compartment_dan_counts.npy": {
+          "shape": [
+            2
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "compartment_tonic_hz.npy": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "gains.npy": {
+          "shape": [
+            8866
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "gain_delta.npy": {
+          "shape": [
+            8866
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "pulse_times_ms.npy": {
+          "shape": [
+            0
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "pulse_dan_indices.npy": {
+          "shape": [
+            0
+          ],
+          "dtype": "int32",
+          "fortran": false
+        }
+      }
+    },
+    {
+      "index": 3,
+      "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_03.npz",
+      "sha256": "9f5bd6d632bfba279c0d8d0544b128ce5a88f8d706e6d7873b6f3eb3ae21079c",
+      "fields": {
+        "counts.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "rates.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "rates_hz.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "voltage.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "trace.npy": {
+          "shape": [
+            2000,
+            4774
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "population.npy": {
+          "shape": [
+            2000
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "dan_counts.npy": {
+          "shape": [
+            24
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "compartment_dan_counts.npy": {
+          "shape": [
+            2
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "compartment_tonic_hz.npy": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "gains.npy": {
+          "shape": [
+            8866
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "gain_delta.npy": {
+          "shape": [
+            8866
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "pulse_times_ms.npy": {
+          "shape": [
+            0
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "pulse_dan_indices.npy": {
+          "shape": [
+            0
+          ],
+          "dtype": "int32",
+          "fortran": false
+        }
+      }
+    },
+    {
+      "index": 4,
+      "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_04.npz",
+      "sha256": "ac307e48234934babd39c0a6455cb072a521d6732873cf0e5163111cc8fe43dc",
+      "fields": {
+        "counts.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "rates.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "rates_hz.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "voltage.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "trace.npy": {
+          "shape": [
+            2000,
+            4774
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "population.npy": {
+          "shape": [
+            2000
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "dan_counts.npy": {
+          "shape": [
+            24
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "compartment_dan_counts.npy": {
+          "shape": [
+            2
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "compartment_tonic_hz.npy": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "gains.npy": {
+          "shape": [
+            8866
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "gain_delta.npy": {
+          "shape": [
+            8866
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "pulse_times_ms.npy": {
+          "shape": [
+            0
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "pulse_dan_indices.npy": {
+          "shape": [
+            0
+          ],
+          "dtype": "int32",
+          "fortran": false
+        }
+      }
+    },
+    {
+      "index": 5,
+      "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_05.npz",
+      "sha256": "076ed8ef037a4a8ac17c9234d93cbebe3b19f14d4a34aee353e18b501c20c48c",
+      "fields": {
+        "counts.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "rates.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "rates_hz.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "voltage.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "trace.npy": {
+          "shape": [
+            2000,
+            4774
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "population.npy": {
+          "shape": [
+            2000
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "dan_counts.npy": {
+          "shape": [
+            24
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "compartment_dan_counts.npy": {
+          "shape": [
+            2
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "compartment_tonic_hz.npy": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "gains.npy": {
+          "shape": [
+            8866
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "gain_delta.npy": {
+          "shape": [
+            8866
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "pulse_times_ms.npy": {
+          "shape": [
+            0
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "pulse_dan_indices.npy": {
+          "shape": [
+            0
+          ],
+          "dtype": "int32",
+          "fortran": false
+        }
+      }
+    },
+    {
+      "index": 6,
+      "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_06.npz",
+      "sha256": "bf1ecf62af1de626bcac4f358a665b2cf4b8f36fe3af0cb57760d91a0b5347e0",
+      "fields": {
+        "counts.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "rates.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "rates_hz.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "voltage.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "trace.npy": {
+          "shape": [
+            2000,
+            4774
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "population.npy": {
+          "shape": [
+            2000
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "dan_counts.npy": {
+          "shape": [
+            24
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "compartment_dan_counts.npy": {
+          "shape": [
+            2
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "compartment_tonic_hz.npy": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "gains.npy": {
+          "shape": [
+            8866
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "gain_delta.npy": {
+          "shape": [
+            8866
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "pulse_times_ms.npy": {
+          "shape": [
+            0
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "pulse_dan_indices.npy": {
+          "shape": [
+            0
+          ],
+          "dtype": "int32",
+          "fortran": false
+        }
+      }
+    },
+    {
+      "index": 7,
+      "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_07.npz",
+      "sha256": "32fd4c05763c3080baad1ca0055e8b75335bb26e97115f04c6347bcb49582a1b",
+      "fields": {
+        "counts.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "rates.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "rates_hz.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "voltage.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "trace.npy": {
+          "shape": [
+            2000,
+            4774
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "population.npy": {
+          "shape": [
+            2000
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "dan_counts.npy": {
+          "shape": [
+            24
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "compartment_dan_counts.npy": {
+          "shape": [
+            2
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "compartment_tonic_hz.npy": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "gains.npy": {
+          "shape": [
+            8866
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "gain_delta.npy": {
+          "shape": [
+            8866
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "pulse_times_ms.npy": {
+          "shape": [
+            0
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "pulse_dan_indices.npy": {
+          "shape": [
+            0
+          ],
+          "dtype": "int32",
+          "fortran": false
+        }
+      }
+    },
+    {
+      "index": 8,
+      "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_08.npz",
+      "sha256": "9f53e482a23d2f6aa14ebbc510aeb3e41f833a24491b4fe60f4284303c11bb6c",
+      "fields": {
+        "counts.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "rates.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "rates_hz.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "voltage.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "trace.npy": {
+          "shape": [
+            2000,
+            4774
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "population.npy": {
+          "shape": [
+            2000
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "dan_counts.npy": {
+          "shape": [
+            24
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "compartment_dan_counts.npy": {
+          "shape": [
+            2
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "compartment_tonic_hz.npy": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "gains.npy": {
+          "shape": [
+            8866
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "gain_delta.npy": {
+          "shape": [
+            8866
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "pulse_times_ms.npy": {
+          "shape": [
+            0
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "pulse_dan_indices.npy": {
+          "shape": [
+            0
+          ],
+          "dtype": "int32",
+          "fortran": false
+        }
+      }
+    },
+    {
+      "index": 9,
+      "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_09.npz",
+      "sha256": "05dc4b454c6b4ef233452769ff96d3d03ed79596c90b09f847b3c31c39c30de2",
+      "fields": {
+        "counts.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "rates.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "rates_hz.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "voltage.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "trace.npy": {
+          "shape": [
+            2000,
+            4774
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "population.npy": {
+          "shape": [
+            2000
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "dan_counts.npy": {
+          "shape": [
+            24
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "compartment_dan_counts.npy": {
+          "shape": [
+            2
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "compartment_tonic_hz.npy": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "gains.npy": {
+          "shape": [
+            8866
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "gain_delta.npy": {
+          "shape": [
+            8866
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "pulse_times_ms.npy": {
+          "shape": [
+            0
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "pulse_dan_indices.npy": {
+          "shape": [
+            0
+          ],
+          "dtype": "int32",
+          "fortran": false
+        }
+      }
+    },
+    {
+      "index": 10,
+      "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_10.npz",
+      "sha256": "b32ce1bef5e7b70375a6bd74d62034ebaf2f9aa4c797f0062350092950b960df",
+      "fields": {
+        "counts.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "rates.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "rates_hz.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "voltage.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "trace.npy": {
+          "shape": [
+            2000,
+            4774
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "population.npy": {
+          "shape": [
+            2000
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "dan_counts.npy": {
+          "shape": [
+            24
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "compartment_dan_counts.npy": {
+          "shape": [
+            2
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "compartment_tonic_hz.npy": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "gains.npy": {
+          "shape": [
+            8866
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "gain_delta.npy": {
+          "shape": [
+            8866
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "pulse_times_ms.npy": {
+          "shape": [
+            0
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "pulse_dan_indices.npy": {
+          "shape": [
+            0
+          ],
+          "dtype": "int32",
+          "fortran": false
+        }
+      }
+    },
+    {
+      "index": 11,
+      "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_11.npz",
+      "sha256": "07ac0e2d1d2c34d00de827a5b96a024679642d06e442296b77fd1b8303a207e0",
+      "fields": {
+        "counts.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "rates.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "rates_hz.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "voltage.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "trace.npy": {
+          "shape": [
+            2000,
+            4774
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "population.npy": {
+          "shape": [
+            2000
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "dan_counts.npy": {
+          "shape": [
+            24
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "compartment_dan_counts.npy": {
+          "shape": [
+            2
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "compartment_tonic_hz.npy": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "gains.npy": {
+          "shape": [
+            8866
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "gain_delta.npy": {
+          "shape": [
+            8866
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "pulse_times_ms.npy": {
+          "shape": [
+            0
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "pulse_dan_indices.npy": {
+          "shape": [
+            0
+          ],
+          "dtype": "int32",
+          "fortran": false
+        }
+      }
+    },
+    {
+      "index": 12,
+      "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_12.npz",
+      "sha256": "912a3e7580e7f7b08e3daaa16deaa0a18e4640587f592f0d62315e9596b766b4",
+      "fields": {
+        "counts.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "rates.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "rates_hz.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "voltage.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "trace.npy": {
+          "shape": [
+            2000,
+            4774
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "population.npy": {
+          "shape": [
+            2000
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "dan_counts.npy": {
+          "shape": [
+            24
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "compartment_dan_counts.npy": {
+          "shape": [
+            2
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "compartment_tonic_hz.npy": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "gains.npy": {
+          "shape": [
+            8866
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "gain_delta.npy": {
+          "shape": [
+            8866
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "pulse_times_ms.npy": {
+          "shape": [
+            0
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "pulse_dan_indices.npy": {
+          "shape": [
+            0
+          ],
+          "dtype": "int32",
+          "fortran": false
+        }
+      }
+    },
+    {
+      "index": 13,
+      "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_13.npz",
+      "sha256": "9e83d9c5b2e7ee323e216fa8f15e363f046f50a8818131fd0e3429f1ba7da84a",
+      "fields": {
+        "counts.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "rates.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "rates_hz.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "voltage.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "trace.npy": {
+          "shape": [
+            2000,
+            4774
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "population.npy": {
+          "shape": [
+            2000
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "dan_counts.npy": {
+          "shape": [
+            24
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "compartment_dan_counts.npy": {
+          "shape": [
+            2
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "compartment_tonic_hz.npy": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "gains.npy": {
+          "shape": [
+            8866
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "gain_delta.npy": {
+          "shape": [
+            8866
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "pulse_times_ms.npy": {
+          "shape": [
+            0
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "pulse_dan_indices.npy": {
+          "shape": [
+            0
+          ],
+          "dtype": "int32",
+          "fortran": false
+        }
+      }
+    },
+    {
+      "index": 14,
+      "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_14.npz",
+      "sha256": "1f362a2786326b960809c0a6abeeba3824851b63e5dfe41bce22eb936ae58935",
+      "fields": {
+        "counts.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "rates.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "rates_hz.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "voltage.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "trace.npy": {
+          "shape": [
+            2000,
+            4774
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "population.npy": {
+          "shape": [
+            2000
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "dan_counts.npy": {
+          "shape": [
+            24
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "compartment_dan_counts.npy": {
+          "shape": [
+            2
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "compartment_tonic_hz.npy": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "gains.npy": {
+          "shape": [
+            8866
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "gain_delta.npy": {
+          "shape": [
+            8866
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "pulse_times_ms.npy": {
+          "shape": [
+            0
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "pulse_dan_indices.npy": {
+          "shape": [
+            0
+          ],
+          "dtype": "int32",
+          "fortran": false
+        }
+      }
+    },
+    {
+      "index": 15,
+      "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_15.npz",
+      "sha256": "a40c7d22af553478d802691e0bb390713e0625ab3d40ca9379139893b9dd1a99",
+      "fields": {
+        "counts.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "rates.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "rates_hz.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "voltage.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "trace.npy": {
+          "shape": [
+            2000,
+            4774
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "population.npy": {
+          "shape": [
+            2000
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "dan_counts.npy": {
+          "shape": [
+            24
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "compartment_dan_counts.npy": {
+          "shape": [
+            2
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "compartment_tonic_hz.npy": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "gains.npy": {
+          "shape": [
+            8866
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "gain_delta.npy": {
+          "shape": [
+            8866
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "pulse_times_ms.npy": {
+          "shape": [
+            0
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "pulse_dan_indices.npy": {
+          "shape": [
+            0
+          ],
+          "dtype": "int32",
+          "fortran": false
+        }
+      }
+    },
+    {
+      "index": 16,
+      "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_16.npz",
+      "sha256": "00408ac82dd08534809801425ef9be3869b732d7dcacbe440cc9548fd29b6b05",
+      "fields": {
+        "counts.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "rates.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "rates_hz.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "voltage.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "trace.npy": {
+          "shape": [
+            2000,
+            4774
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "population.npy": {
+          "shape": [
+            2000
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "dan_counts.npy": {
+          "shape": [
+            24
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "compartment_dan_counts.npy": {
+          "shape": [
+            2
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "compartment_tonic_hz.npy": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "gains.npy": {
+          "shape": [
+            8866
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "gain_delta.npy": {
+          "shape": [
+            8866
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "pulse_times_ms.npy": {
+          "shape": [
+            0
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "pulse_dan_indices.npy": {
+          "shape": [
+            0
+          ],
+          "dtype": "int32",
+          "fortran": false
+        }
+      }
+    },
+    {
+      "index": 17,
+      "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_17.npz",
+      "sha256": "47afab8b93f0ed827546d0b7fe624ae0d7a383576d14734dfe77321489263f5d",
+      "fields": {
+        "counts.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "rates.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "rates_hz.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "voltage.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "trace.npy": {
+          "shape": [
+            2000,
+            4774
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "population.npy": {
+          "shape": [
+            2000
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "dan_counts.npy": {
+          "shape": [
+            24
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "compartment_dan_counts.npy": {
+          "shape": [
+            2
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "compartment_tonic_hz.npy": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "gains.npy": {
+          "shape": [
+            8866
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "gain_delta.npy": {
+          "shape": [
+            8866
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "pulse_times_ms.npy": {
+          "shape": [
+            0
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "pulse_dan_indices.npy": {
+          "shape": [
+            0
+          ],
+          "dtype": "int32",
+          "fortran": false
+        }
+      }
+    },
+    {
+      "index": 18,
+      "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_18.npz",
+      "sha256": "872d849d813cf56649044329aed3aa527b323e6cba63d7be30c9ce39b554cacc",
+      "fields": {
+        "counts.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "rates.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "rates_hz.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "voltage.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "trace.npy": {
+          "shape": [
+            2000,
+            4774
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "population.npy": {
+          "shape": [
+            2000
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "dan_counts.npy": {
+          "shape": [
+            24
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "compartment_dan_counts.npy": {
+          "shape": [
+            2
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "compartment_tonic_hz.npy": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "gains.npy": {
+          "shape": [
+            8866
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "gain_delta.npy": {
+          "shape": [
+            8866
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "pulse_times_ms.npy": {
+          "shape": [
+            0
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "pulse_dan_indices.npy": {
+          "shape": [
+            0
+          ],
+          "dtype": "int32",
+          "fortran": false
+        }
+      }
+    },
+    {
+      "index": 19,
+      "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_19.npz",
+      "sha256": "fec4a8b1d82e2b4668438a9c7fe010cc06575eb416fe061b3f04074ab7023337",
+      "fields": {
+        "counts.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "rates.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "rates_hz.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "voltage.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "trace.npy": {
+          "shape": [
+            2000,
+            4774
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "population.npy": {
+          "shape": [
+            2000
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "dan_counts.npy": {
+          "shape": [
+            24
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "compartment_dan_counts.npy": {
+          "shape": [
+            2
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "compartment_tonic_hz.npy": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "gains.npy": {
+          "shape": [
+            8866
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "gain_delta.npy": {
+          "shape": [
+            8866
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "pulse_times_ms.npy": {
+          "shape": [
+            0
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "pulse_dan_indices.npy": {
+          "shape": [
+            0
+          ],
+          "dtype": "int32",
+          "fortran": false
+        }
+      }
+    },
+    {
+      "index": 20,
+      "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_20.npz",
+      "sha256": "d2a5e5f42be0ba28342afc4e5b3f5fbf338893e09018577d414aad02b06f8f81",
+      "fields": {
+        "counts.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "rates.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "rates_hz.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "voltage.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "trace.npy": {
+          "shape": [
+            2000,
+            4774
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "population.npy": {
+          "shape": [
+            2000
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "dan_counts.npy": {
+          "shape": [
+            24
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "compartment_dan_counts.npy": {
+          "shape": [
+            2
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "compartment_tonic_hz.npy": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "gains.npy": {
+          "shape": [
+            8866
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "gain_delta.npy": {
+          "shape": [
+            8866
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "pulse_times_ms.npy": {
+          "shape": [
+            0
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "pulse_dan_indices.npy": {
+          "shape": [
+            0
+          ],
+          "dtype": "int32",
+          "fortran": false
+        }
+      }
+    },
+    {
+      "index": 21,
+      "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_21.npz",
+      "sha256": "43c6dca974fb8b04673f992abc4c6a2e50ed9d9697637f408d00798b7f8c4433",
+      "fields": {
+        "counts.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "rates.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "rates_hz.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "voltage.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "trace.npy": {
+          "shape": [
+            2000,
+            4774
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "population.npy": {
+          "shape": [
+            2000
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "dan_counts.npy": {
+          "shape": [
+            24
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "compartment_dan_counts.npy": {
+          "shape": [
+            2
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "compartment_tonic_hz.npy": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "gains.npy": {
+          "shape": [
+            8866
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "gain_delta.npy": {
+          "shape": [
+            8866
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "pulse_times_ms.npy": {
+          "shape": [
+            0
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "pulse_dan_indices.npy": {
+          "shape": [
+            0
+          ],
+          "dtype": "int32",
+          "fortran": false
+        }
+      }
+    },
+    {
+      "index": 22,
+      "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_22.npz",
+      "sha256": "07e21bed4584c9c6fab689c488bceeef1561f93df6b2d71d866d4ce72e47b6d8",
+      "fields": {
+        "counts.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "rates.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "rates_hz.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "voltage.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "trace.npy": {
+          "shape": [
+            2000,
+            4774
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "population.npy": {
+          "shape": [
+            2000
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "dan_counts.npy": {
+          "shape": [
+            24
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "compartment_dan_counts.npy": {
+          "shape": [
+            2
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "compartment_tonic_hz.npy": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "gains.npy": {
+          "shape": [
+            8866
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "gain_delta.npy": {
+          "shape": [
+            8866
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "pulse_times_ms.npy": {
+          "shape": [
+            0
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "pulse_dan_indices.npy": {
+          "shape": [
+            0
+          ],
+          "dtype": "int32",
+          "fortran": false
+        }
+      }
+    },
+    {
+      "index": 23,
+      "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_23.npz",
+      "sha256": "bc9b5c3466e0a9a73599dbfd4276c1ff1d0b0703e007be6c5afa317ce6341fc9",
+      "fields": {
+        "counts.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "rates.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "rates_hz.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "voltage.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "trace.npy": {
+          "shape": [
+            2000,
+            4774
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "population.npy": {
+          "shape": [
+            2000
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "dan_counts.npy": {
+          "shape": [
+            24
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "compartment_dan_counts.npy": {
+          "shape": [
+            2
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "compartment_tonic_hz.npy": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "gains.npy": {
+          "shape": [
+            8866
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "gain_delta.npy": {
+          "shape": [
+            8866
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "pulse_times_ms.npy": {
+          "shape": [
+            0
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "pulse_dan_indices.npy": {
+          "shape": [
+            0
+          ],
+          "dtype": "int32",
+          "fortran": false
+        }
+      }
+    },
+    {
+      "index": 24,
+      "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_24.npz",
+      "sha256": "d311d3a997ac06302cb1471817d2828f56d1a9824cc565a5d0f6390925cda876",
+      "fields": {
+        "counts.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "rates.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "rates_hz.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "voltage.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "trace.npy": {
+          "shape": [
+            2000,
+            4774
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "population.npy": {
+          "shape": [
+            2000
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "dan_counts.npy": {
+          "shape": [
+            24
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "compartment_dan_counts.npy": {
+          "shape": [
+            2
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "compartment_tonic_hz.npy": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "gains.npy": {
+          "shape": [
+            8866
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "gain_delta.npy": {
+          "shape": [
+            8866
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "pulse_times_ms.npy": {
+          "shape": [
+            0
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "pulse_dan_indices.npy": {
+          "shape": [
+            0
+          ],
+          "dtype": "int32",
+          "fortran": false
+        }
+      }
+    },
+    {
+      "index": 25,
+      "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_25.npz",
+      "sha256": "bcdf73a09d7a638d1d13ad4421dd1547daa888fde3003b360a068f4aa54c44ef",
+      "fields": {
+        "counts.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "rates.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "rates_hz.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "voltage.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "trace.npy": {
+          "shape": [
+            2000,
+            4774
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "population.npy": {
+          "shape": [
+            2000
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "dan_counts.npy": {
+          "shape": [
+            24
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "compartment_dan_counts.npy": {
+          "shape": [
+            2
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "compartment_tonic_hz.npy": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "gains.npy": {
+          "shape": [
+            8866
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "gain_delta.npy": {
+          "shape": [
+            8866
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "pulse_times_ms.npy": {
+          "shape": [
+            0
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "pulse_dan_indices.npy": {
+          "shape": [
+            0
+          ],
+          "dtype": "int32",
+          "fortran": false
+        }
+      }
+    },
+    {
+      "index": 26,
+      "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_26.npz",
+      "sha256": "4bfd5cfd1dea0fff8a72743b4af592f758afc9753b0bda2c1405cb04f1f48538",
+      "fields": {
+        "counts.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "rates.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "rates_hz.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "voltage.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "trace.npy": {
+          "shape": [
+            2000,
+            4774
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "population.npy": {
+          "shape": [
+            2000
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "dan_counts.npy": {
+          "shape": [
+            24
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "compartment_dan_counts.npy": {
+          "shape": [
+            2
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "compartment_tonic_hz.npy": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "gains.npy": {
+          "shape": [
+            8866
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "gain_delta.npy": {
+          "shape": [
+            8866
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "pulse_times_ms.npy": {
+          "shape": [
+            0
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "pulse_dan_indices.npy": {
+          "shape": [
+            0
+          ],
+          "dtype": "int32",
+          "fortran": false
+        }
+      }
+    },
+    {
+      "index": 27,
+      "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_27.npz",
+      "sha256": "43f6d5d956ec9c93f075a81163825129829be8a02ce9c41a579de7096a1c52cf",
+      "fields": {
+        "counts.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "rates.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "rates_hz.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "voltage.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "trace.npy": {
+          "shape": [
+            2000,
+            4774
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "population.npy": {
+          "shape": [
+            2000
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "dan_counts.npy": {
+          "shape": [
+            24
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "compartment_dan_counts.npy": {
+          "shape": [
+            2
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "compartment_tonic_hz.npy": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "gains.npy": {
+          "shape": [
+            8866
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "gain_delta.npy": {
+          "shape": [
+            8866
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "pulse_times_ms.npy": {
+          "shape": [
+            0
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "pulse_dan_indices.npy": {
+          "shape": [
+            0
+          ],
+          "dtype": "int32",
+          "fortran": false
+        }
+      }
+    },
+    {
+      "index": 28,
+      "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_28.npz",
+      "sha256": "b018679072496893290fb66ed610a3dcb04eb7252f5b2e2b5c073b9357f7e344",
+      "fields": {
+        "counts.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "rates.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "rates_hz.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "voltage.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "trace.npy": {
+          "shape": [
+            2000,
+            4774
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "population.npy": {
+          "shape": [
+            2000
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "dan_counts.npy": {
+          "shape": [
+            24
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "compartment_dan_counts.npy": {
+          "shape": [
+            2
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "compartment_tonic_hz.npy": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "gains.npy": {
+          "shape": [
+            8866
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "gain_delta.npy": {
+          "shape": [
+            8866
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "pulse_times_ms.npy": {
+          "shape": [
+            0
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "pulse_dan_indices.npy": {
+          "shape": [
+            0
+          ],
+          "dtype": "int32",
+          "fortran": false
+        }
+      }
+    },
+    {
+      "index": 29,
+      "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_29.npz",
+      "sha256": "4fd3f67362ed8feca0dd2da2f53b882aaefdb8880b4b6962aa08a8702b9df6da",
+      "fields": {
+        "counts.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "rates.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "rates_hz.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "voltage.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "trace.npy": {
+          "shape": [
+            2000,
+            4774
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "population.npy": {
+          "shape": [
+            2000
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "dan_counts.npy": {
+          "shape": [
+            24
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "compartment_dan_counts.npy": {
+          "shape": [
+            2
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "compartment_tonic_hz.npy": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "gains.npy": {
+          "shape": [
+            8866
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "gain_delta.npy": {
+          "shape": [
+            8866
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "pulse_times_ms.npy": {
+          "shape": [
+            0
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "pulse_dan_indices.npy": {
+          "shape": [
+            0
+          ],
+          "dtype": "int32",
+          "fortran": false
+        }
+      }
+    },
+    {
+      "index": 30,
+      "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_30.npz",
+      "sha256": "baf87916b22976fd62bfa5e5d576288c390ea102a32a31ba8a5cc19aa342b6f2",
+      "fields": {
+        "counts.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "rates.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "rates_hz.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "voltage.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "trace.npy": {
+          "shape": [
+            2000,
+            4774
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "population.npy": {
+          "shape": [
+            2000
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "dan_counts.npy": {
+          "shape": [
+            24
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "compartment_dan_counts.npy": {
+          "shape": [
+            2
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "compartment_tonic_hz.npy": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "gains.npy": {
+          "shape": [
+            8866
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "gain_delta.npy": {
+          "shape": [
+            8866
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "pulse_times_ms.npy": {
+          "shape": [
+            0
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "pulse_dan_indices.npy": {
+          "shape": [
+            0
+          ],
+          "dtype": "int32",
+          "fortran": false
+        }
+      }
+    },
+    {
+      "index": 31,
+      "path": "output/collaboration/reward-mechanism-repair/onset-history-captures/onset-history-capture-4343c21535c43f42/fine_31.npz",
+      "sha256": "66799429f280fe90da61c7ecd5cb47544793d61ffc2dd109af0a362040257157",
+      "fields": {
+        "counts.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "rates.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "rates_hz.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "voltage.npy": {
+          "shape": [
+            166700
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "trace.npy": {
+          "shape": [
+            2000,
+            4774
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "population.npy": {
+          "shape": [
+            2000
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "dan_counts.npy": {
+          "shape": [
+            24
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "compartment_dan_counts.npy": {
+          "shape": [
+            2
+          ],
+          "dtype": "int32",
+          "fortran": false
+        },
+        "compartment_tonic_hz.npy": {
+          "shape": [
+            2
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "gains.npy": {
+          "shape": [
+            8866
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "gain_delta.npy": {
+          "shape": [
+            8866
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "pulse_times_ms.npy": {
+          "shape": [
+            0
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "pulse_dan_indices.npy": {
+          "shape": [
+            0
+          ],
+          "dtype": "int32",
+          "fortran": false
+        }
+      }
+    }
+  ],
+  "dan_cells": [
+    {
+      "body_id": 11327,
+      "graph_index": 1235,
+      "channel": "home",
+      "type": "PPL101",
+      "instance": "PPL101(y1ped)_R",
+      "transmitter": "dopamine",
+      "cell_class": "DAN",
+      "soma_side": "R",
+      "root_side": ""
+    },
+    {
+      "body_id": 11900,
+      "graph_index": 1774,
+      "channel": "home",
+      "type": "PPL101",
+      "instance": "PPL101(y1ped)_L",
+      "transmitter": "dopamine",
+      "cell_class": "DAN",
+      "soma_side": "L",
+      "root_side": ""
+    },
+    {
+      "body_id": 61360,
+      "graph_index": 45217,
+      "channel": "away",
+      "type": "PAM12",
+      "instance": "PAM12(y3)_L",
+      "transmitter": "dopamine",
+      "cell_class": "DAN",
+      "soma_side": "L",
+      "root_side": ""
+    },
+    {
+      "body_id": 91391,
+      "graph_index": 69138,
+      "channel": "away",
+      "type": "PAM12",
+      "instance": "PAM12(y3)_L",
+      "transmitter": "dopamine",
+      "cell_class": "DAN",
+      "soma_side": "L",
+      "root_side": ""
+    },
+    {
+      "body_id": 91875,
+      "graph_index": 69496,
+      "channel": "away",
+      "type": "PAM12",
+      "instance": "PAM12(y3)_L",
+      "transmitter": "dopamine",
+      "cell_class": "DAN",
+      "soma_side": "L",
+      "root_side": ""
+    },
+    {
+      "body_id": 96571,
+      "graph_index": 73032,
+      "channel": "away",
+      "type": "PAM12",
+      "instance": "PAM12(y3)_L",
+      "transmitter": "dopamine",
+      "cell_class": "DAN",
+      "soma_side": "L",
+      "root_side": ""
+    },
+    {
+      "body_id": 104460,
+      "graph_index": 78787,
+      "channel": "away",
+      "type": "PAM12",
+      "instance": "PAM12(y3)_L",
+      "transmitter": "dopamine",
+      "cell_class": "DAN",
+      "soma_side": "L",
+      "root_side": ""
+    },
+    {
+      "body_id": 105447,
+      "graph_index": 79533,
+      "channel": "away",
+      "type": "PAM12",
+      "instance": "PAM12(y3)_L",
+      "transmitter": "dopamine",
+      "cell_class": "DAN",
+      "soma_side": "L",
+      "root_side": ""
+    },
+    {
+      "body_id": 111665,
+      "graph_index": 83971,
+      "channel": "away",
+      "type": "PAM12",
+      "instance": "PAM12(y3)_R",
+      "transmitter": "dopamine",
+      "cell_class": "DAN",
+      "soma_side": "R",
+      "root_side": ""
+    },
+    {
+      "body_id": 113001,
+      "graph_index": 84937,
+      "channel": "away",
+      "type": "PAM12",
+      "instance": "PAM12(y3)_R",
+      "transmitter": "dopamine",
+      "cell_class": "DAN",
+      "soma_side": "R",
+      "root_side": ""
+    },
+    {
+      "body_id": 126900,
+      "graph_index": 94204,
+      "channel": "away",
+      "type": "PAM12",
+      "instance": "PAM12(y3)_L",
+      "transmitter": "dopamine",
+      "cell_class": "DAN",
+      "soma_side": "L",
+      "root_side": ""
+    },
+    {
+      "body_id": 135171,
+      "graph_index": 99150,
+      "channel": "away",
+      "type": "PAM12",
+      "instance": "PAM12(y3)_R",
+      "transmitter": "dopamine",
+      "cell_class": "DAN",
+      "soma_side": "R",
+      "root_side": ""
+    },
+    {
+      "body_id": 138585,
+      "graph_index": 100975,
+      "channel": "away",
+      "type": "PAM12",
+      "instance": "PAM12(y3)_L",
+      "transmitter": "dopamine",
+      "cell_class": "DAN",
+      "soma_side": "L",
+      "root_side": ""
+    },
+    {
+      "body_id": 139280,
+      "graph_index": 101336,
+      "channel": "away",
+      "type": "PAM12",
+      "instance": "PAM12(y3)_R",
+      "transmitter": "dopamine",
+      "cell_class": "DAN",
+      "soma_side": "R",
+      "root_side": ""
+    },
+    {
+      "body_id": 139378,
+      "graph_index": 101377,
+      "channel": "away",
+      "type": "PAM12",
+      "instance": "PAM12(y3)_R",
+      "transmitter": "dopamine",
+      "cell_class": "DAN",
+      "soma_side": "R",
+      "root_side": ""
+    },
+    {
+      "body_id": 144625,
+      "graph_index": 103993,
+      "channel": "away",
+      "type": "PAM12",
+      "instance": "PAM12(y3)_L",
+      "transmitter": "dopamine",
+      "cell_class": "DAN",
+      "soma_side": "L",
+      "root_side": ""
+    },
+    {
+      "body_id": 146418,
+      "graph_index": 104819,
+      "channel": "away",
+      "type": "PAM12",
+      "instance": "PAM12(y3)_R",
+      "transmitter": "dopamine",
+      "cell_class": "DAN",
+      "soma_side": "R",
+      "root_side": ""
+    },
+    {
+      "body_id": 152428,
+      "graph_index": 107336,
+      "channel": "away",
+      "type": "PAM12",
+      "instance": "PAM12(y3)_L",
+      "transmitter": "dopamine",
+      "cell_class": "DAN",
+      "soma_side": "L",
+      "root_side": ""
+    },
+    {
+      "body_id": 157257,
+      "graph_index": 109114,
+      "channel": "away",
+      "type": "PAM12",
+      "instance": "PAM12(y3)_L",
+      "transmitter": "dopamine",
+      "cell_class": "DAN",
+      "soma_side": "L",
+      "root_side": ""
+    },
+    {
+      "body_id": 158917,
+      "graph_index": 109681,
+      "channel": "away",
+      "type": "PAM12",
+      "instance": "PAM12(y3)_R",
+      "transmitter": "dopamine",
+      "cell_class": "DAN",
+      "soma_side": "R",
+      "root_side": ""
+    },
+    {
+      "body_id": 196622,
+      "graph_index": 118374,
+      "channel": "away",
+      "type": "PAM12",
+      "instance": "PAM12(y3)_R",
+      "transmitter": "dopamine",
+      "cell_class": "DAN",
+      "soma_side": "R",
+      "root_side": ""
+    },
+    {
+      "body_id": 206851,
+      "graph_index": 119922,
+      "channel": "away",
+      "type": "PAM12",
+      "instance": "PAM12(y3)_R",
+      "transmitter": "dopamine",
+      "cell_class": "DAN",
+      "soma_side": "R",
+      "root_side": ""
+    },
+    {
+      "body_id": 520384,
+      "graph_index": 130695,
+      "channel": "away",
+      "type": "PAM12",
+      "instance": "PAM12(y3)_R",
+      "transmitter": "dopamine",
+      "cell_class": "DAN",
+      "soma_side": "R",
+      "root_side": ""
+    },
+    {
+      "body_id": 552362,
+      "graph_index": 142007,
+      "channel": "away",
+      "type": "PAM12",
+      "instance": "PAM12(y3)_R",
+      "transmitter": "dopamine",
+      "cell_class": "DAN",
+      "soma_side": "R",
+      "root_side": ""
+    }
+  ],
+  "eligible_home": 4184,
+  "eligible_away": 3239,
+  "ineligible_away": 1443,
+  "passed": true
+}

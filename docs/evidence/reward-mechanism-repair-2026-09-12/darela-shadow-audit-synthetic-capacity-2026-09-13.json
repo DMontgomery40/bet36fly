@@ -1,0 +1,26 @@
+{
+  "scope": "one generated synthetic capacity fixture only; no saved histories or producer call",
+  "seed": 270913,
+  "construction": "KC[c%97::97,c]=1; DAN[c::(37+c),c]=1; toy modulo maps, home4184/away4682, eligible7423",
+  "dimensions": {
+    "rows": 2000,
+    "kcs": 4064,
+    "dans": 24,
+    "edges": 8866
+  },
+  "release_seconds": 0.5520701659843326,
+  "bridge_seconds": 0.5705042500048876,
+  "total_seconds": 1.1252906250301749,
+  "peak_rss_bytes_macos": 384270336,
+  "bound_contacts_synthetic": 0,
+  "bindings": [
+    {
+      "path": "output/collaboration/reward-mechanism-repair/audit_darela_shadow.py",
+      "sha256": "f85623925ef7e2ad0e381f2ebabcd75022dca81bf04996a29f2432bd9f98f968"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/darela_release_reference.py",
+      "sha256": "8b9c053b1f583cac77402a3d745d1d83c6aacd5041a9e7284069842e87c1be70"
+    }
+  ]
+}

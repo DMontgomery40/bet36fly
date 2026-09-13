@@ -1,0 +1,485 @@
+........................................................................ [ 76%]
+........FFFFFFFFFFFFFF                                                   [100%]
+=================================== FAILURES ===================================
+______________ test_full32_synthetic_artifact_audit_and_no_reuse _______________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1716/test_full32_synthetic_artifact0')
+row_fixture = (array([[0, 0, 1, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0...       [1.        , 1.        , 1.        ],
+        [1.        , 1.        , 1.        ]]], shape=(501, 24, 3)), ...})
+
+    def test_full32_synthetic_artifact_audit_and_no_reuse(tmp_path,row_fixture):
+        import audit_darela_shadow as a
+>       pp,source,loader,_=synthetic_archive(tmp_path,row_fixture);out=tmp_path/'audit'
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:312: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:299: in synthetic_archive
+    candidate_guards=a.guards_for_rows(rows,m,'gains'),original_guards=a.guards_for_rows(rows,m,'original_gains'),
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = ([{'metadata': {'game': 4362, 'seed_set': 'base', 'seed': 4404, 'run_id': 'diag-rate-bridge-v1-maskgamma-de050d773763'...5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16, 17, 18,
+       19, 20, 21, 22, 23, 24, 25], dtype=int32), ...}, 'gains')
+kwargs = {}
+
+    def guards_for_rows(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:284: NotImplementedError
+_______ test_terminal_identity_and_summary_failure_family[parent_error] ________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1716/test_terminal_identity_and_sum0')
+row_fixture = (array([[0, 0, 1, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0...       [1.        , 1.        , 1.        ],
+        [1.        , 1.        , 1.        ]]], shape=(501, 24, 3)), ...})
+kind = 'parent_error'
+
+    @pytest.mark.parametrize('kind',['parent_error','child_error','row_metadata','missing_row','archive_change','descriptive_units','unknown_screen','helper_journal'])
+    def test_terminal_identity_and_summary_failure_family(tmp_path,row_fixture,kind):
+        import audit_darela_shadow as a
+        import json
+>       pp,source,loader,bound=synthetic_archive(tmp_path,row_fixture)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:325: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:299: in synthetic_archive
+    candidate_guards=a.guards_for_rows(rows,m,'gains'),original_guards=a.guards_for_rows(rows,m,'original_gains'),
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = ([{'metadata': {'game': 4362, 'seed_set': 'base', 'seed': 4404, 'run_id': 'diag-rate-bridge-v1-maskgamma-de050d773763'...5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16, 17, 18,
+       19, 20, 21, 22, 23, 24, 25], dtype=int32), ...}, 'gains')
+kwargs = {}
+
+    def guards_for_rows(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:284: NotImplementedError
+________ test_terminal_identity_and_summary_failure_family[child_error] ________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1716/test_terminal_identity_and_sum1')
+row_fixture = (array([[0, 0, 1, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0...       [1.        , 1.        , 1.        ],
+        [1.        , 1.        , 1.        ]]], shape=(501, 24, 3)), ...})
+kind = 'child_error'
+
+    @pytest.mark.parametrize('kind',['parent_error','child_error','row_metadata','missing_row','archive_change','descriptive_units','unknown_screen','helper_journal'])
+    def test_terminal_identity_and_summary_failure_family(tmp_path,row_fixture,kind):
+        import audit_darela_shadow as a
+        import json
+>       pp,source,loader,bound=synthetic_archive(tmp_path,row_fixture)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:325: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:299: in synthetic_archive
+    candidate_guards=a.guards_for_rows(rows,m,'gains'),original_guards=a.guards_for_rows(rows,m,'original_gains'),
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = ([{'metadata': {'game': 4362, 'seed_set': 'base', 'seed': 4404, 'run_id': 'diag-rate-bridge-v1-maskgamma-de050d773763'...5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16, 17, 18,
+       19, 20, 21, 22, 23, 24, 25], dtype=int32), ...}, 'gains')
+kwargs = {}
+
+    def guards_for_rows(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:284: NotImplementedError
+_______ test_terminal_identity_and_summary_failure_family[row_metadata] ________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1716/test_terminal_identity_and_sum2')
+row_fixture = (array([[0, 0, 1, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0...       [1.        , 1.        , 1.        ],
+        [1.        , 1.        , 1.        ]]], shape=(501, 24, 3)), ...})
+kind = 'row_metadata'
+
+    @pytest.mark.parametrize('kind',['parent_error','child_error','row_metadata','missing_row','archive_change','descriptive_units','unknown_screen','helper_journal'])
+    def test_terminal_identity_and_summary_failure_family(tmp_path,row_fixture,kind):
+        import audit_darela_shadow as a
+        import json
+>       pp,source,loader,bound=synthetic_archive(tmp_path,row_fixture)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:325: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:299: in synthetic_archive
+    candidate_guards=a.guards_for_rows(rows,m,'gains'),original_guards=a.guards_for_rows(rows,m,'original_gains'),
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = ([{'metadata': {'game': 4362, 'seed_set': 'base', 'seed': 4404, 'run_id': 'diag-rate-bridge-v1-maskgamma-de050d773763'...5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16, 17, 18,
+       19, 20, 21, 22, 23, 24, 25], dtype=int32), ...}, 'gains')
+kwargs = {}
+
+    def guards_for_rows(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:284: NotImplementedError
+________ test_terminal_identity_and_summary_failure_family[missing_row] ________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1716/test_terminal_identity_and_sum3')
+row_fixture = (array([[0, 0, 1, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0...       [1.        , 1.        , 1.        ],
+        [1.        , 1.        , 1.        ]]], shape=(501, 24, 3)), ...})
+kind = 'missing_row'
+
+    @pytest.mark.parametrize('kind',['parent_error','child_error','row_metadata','missing_row','archive_change','descriptive_units','unknown_screen','helper_journal'])
+    def test_terminal_identity_and_summary_failure_family(tmp_path,row_fixture,kind):
+        import audit_darela_shadow as a
+        import json
+>       pp,source,loader,bound=synthetic_archive(tmp_path,row_fixture)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:325: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:299: in synthetic_archive
+    candidate_guards=a.guards_for_rows(rows,m,'gains'),original_guards=a.guards_for_rows(rows,m,'original_gains'),
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = ([{'metadata': {'game': 4362, 'seed_set': 'base', 'seed': 4404, 'run_id': 'diag-rate-bridge-v1-maskgamma-de050d773763'...5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16, 17, 18,
+       19, 20, 21, 22, 23, 24, 25], dtype=int32), ...}, 'gains')
+kwargs = {}
+
+    def guards_for_rows(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:284: NotImplementedError
+______ test_terminal_identity_and_summary_failure_family[archive_change] _______
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1716/test_terminal_identity_and_sum4')
+row_fixture = (array([[0, 0, 1, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0...       [1.        , 1.        , 1.        ],
+        [1.        , 1.        , 1.        ]]], shape=(501, 24, 3)), ...})
+kind = 'archive_change'
+
+    @pytest.mark.parametrize('kind',['parent_error','child_error','row_metadata','missing_row','archive_change','descriptive_units','unknown_screen','helper_journal'])
+    def test_terminal_identity_and_summary_failure_family(tmp_path,row_fixture,kind):
+        import audit_darela_shadow as a
+        import json
+>       pp,source,loader,bound=synthetic_archive(tmp_path,row_fixture)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:325: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:299: in synthetic_archive
+    candidate_guards=a.guards_for_rows(rows,m,'gains'),original_guards=a.guards_for_rows(rows,m,'original_gains'),
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = ([{'metadata': {'game': 4362, 'seed_set': 'base', 'seed': 4404, 'run_id': 'diag-rate-bridge-v1-maskgamma-de050d773763'...5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16, 17, 18,
+       19, 20, 21, 22, 23, 24, 25], dtype=int32), ...}, 'gains')
+kwargs = {}
+
+    def guards_for_rows(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:284: NotImplementedError
+_____ test_terminal_identity_and_summary_failure_family[descriptive_units] _____
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1716/test_terminal_identity_and_sum5')
+row_fixture = (array([[0, 0, 1, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0...       [1.        , 1.        , 1.        ],
+        [1.        , 1.        , 1.        ]]], shape=(501, 24, 3)), ...})
+kind = 'descriptive_units'
+
+    @pytest.mark.parametrize('kind',['parent_error','child_error','row_metadata','missing_row','archive_change','descriptive_units','unknown_screen','helper_journal'])
+    def test_terminal_identity_and_summary_failure_family(tmp_path,row_fixture,kind):
+        import audit_darela_shadow as a
+        import json
+>       pp,source,loader,bound=synthetic_archive(tmp_path,row_fixture)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:325: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:299: in synthetic_archive
+    candidate_guards=a.guards_for_rows(rows,m,'gains'),original_guards=a.guards_for_rows(rows,m,'original_gains'),
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = ([{'metadata': {'game': 4362, 'seed_set': 'base', 'seed': 4404, 'run_id': 'diag-rate-bridge-v1-maskgamma-de050d773763'...5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16, 17, 18,
+       19, 20, 21, 22, 23, 24, 25], dtype=int32), ...}, 'gains')
+kwargs = {}
+
+    def guards_for_rows(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:284: NotImplementedError
+______ test_terminal_identity_and_summary_failure_family[unknown_screen] _______
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1716/test_terminal_identity_and_sum6')
+row_fixture = (array([[0, 0, 1, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0...       [1.        , 1.        , 1.        ],
+        [1.        , 1.        , 1.        ]]], shape=(501, 24, 3)), ...})
+kind = 'unknown_screen'
+
+    @pytest.mark.parametrize('kind',['parent_error','child_error','row_metadata','missing_row','archive_change','descriptive_units','unknown_screen','helper_journal'])
+    def test_terminal_identity_and_summary_failure_family(tmp_path,row_fixture,kind):
+        import audit_darela_shadow as a
+        import json
+>       pp,source,loader,bound=synthetic_archive(tmp_path,row_fixture)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:325: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:299: in synthetic_archive
+    candidate_guards=a.guards_for_rows(rows,m,'gains'),original_guards=a.guards_for_rows(rows,m,'original_gains'),
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = ([{'metadata': {'game': 4362, 'seed_set': 'base', 'seed': 4404, 'run_id': 'diag-rate-bridge-v1-maskgamma-de050d773763'...5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16, 17, 18,
+       19, 20, 21, 22, 23, 24, 25], dtype=int32), ...}, 'gains')
+kwargs = {}
+
+    def guards_for_rows(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:284: NotImplementedError
+______ test_terminal_identity_and_summary_failure_family[helper_journal] _______
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1716/test_terminal_identity_and_sum7')
+row_fixture = (array([[0, 0, 1, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0...       [1.        , 1.        , 1.        ],
+        [1.        , 1.        , 1.        ]]], shape=(501, 24, 3)), ...})
+kind = 'helper_journal'
+
+    @pytest.mark.parametrize('kind',['parent_error','child_error','row_metadata','missing_row','archive_change','descriptive_units','unknown_screen','helper_journal'])
+    def test_terminal_identity_and_summary_failure_family(tmp_path,row_fixture,kind):
+        import audit_darela_shadow as a
+        import json
+>       pp,source,loader,bound=synthetic_archive(tmp_path,row_fixture)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:325: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:299: in synthetic_archive
+    candidate_guards=a.guards_for_rows(rows,m,'gains'),original_guards=a.guards_for_rows(rows,m,'original_gains'),
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = ([{'metadata': {'game': 4362, 'seed_set': 'base', 'seed': 4404, 'run_id': 'diag-rate-bridge-v1-maskgamma-de050d773763'...5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16, 17, 18,
+       19, 20, 21, 22, 23, 24, 25], dtype=int32), ...}, 'gains')
+kwargs = {}
+
+    def guards_for_rows(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:284: NotImplementedError
+____________ test_audit_cap_and_finalization_preserve_failure[work] ____________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1716/test_audit_cap_and_finalizatio0')
+row_fixture = (array([[0, 0, 1, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0...       [1.        , 1.        , 1.        ],
+        [1.        , 1.        , 1.        ]]], shape=(501, 24, 3)), ...})
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x10e80b1d0>
+stage = 'work'
+
+    @pytest.mark.parametrize('stage',['work','summary','completion','final_source'])
+    def test_audit_cap_and_finalization_preserve_failure(tmp_path,row_fixture,monkeypatch,stage):
+        import audit_darela_shadow as a
+>       pp,source,loader,_=synthetic_archive(tmp_path,row_fixture);now=[0.];real=a.write_json
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:350: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:299: in synthetic_archive
+    candidate_guards=a.guards_for_rows(rows,m,'gains'),original_guards=a.guards_for_rows(rows,m,'original_gains'),
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = ([{'metadata': {'game': 4362, 'seed_set': 'base', 'seed': 4404, 'run_id': 'diag-rate-bridge-v1-maskgamma-de050d773763'...5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16, 17, 18,
+       19, 20, 21, 22, 23, 24, 25], dtype=int32), ...}, 'gains')
+kwargs = {}
+
+    def guards_for_rows(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:284: NotImplementedError
+__________ test_audit_cap_and_finalization_preserve_failure[summary] ___________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1716/test_audit_cap_and_finalizatio1')
+row_fixture = (array([[0, 0, 1, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0...       [1.        , 1.        , 1.        ],
+        [1.        , 1.        , 1.        ]]], shape=(501, 24, 3)), ...})
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x10e8fcbc0>
+stage = 'summary'
+
+    @pytest.mark.parametrize('stage',['work','summary','completion','final_source'])
+    def test_audit_cap_and_finalization_preserve_failure(tmp_path,row_fixture,monkeypatch,stage):
+        import audit_darela_shadow as a
+>       pp,source,loader,_=synthetic_archive(tmp_path,row_fixture);now=[0.];real=a.write_json
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:350: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:299: in synthetic_archive
+    candidate_guards=a.guards_for_rows(rows,m,'gains'),original_guards=a.guards_for_rows(rows,m,'original_gains'),
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = ([{'metadata': {'game': 4362, 'seed_set': 'base', 'seed': 4404, 'run_id': 'diag-rate-bridge-v1-maskgamma-de050d773763'...5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16, 17, 18,
+       19, 20, 21, 22, 23, 24, 25], dtype=int32), ...}, 'gains')
+kwargs = {}
+
+    def guards_for_rows(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:284: NotImplementedError
+_________ test_audit_cap_and_finalization_preserve_failure[completion] _________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1716/test_audit_cap_and_finalizatio2')
+row_fixture = (array([[0, 0, 1, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0...       [1.        , 1.        , 1.        ],
+        [1.        , 1.        , 1.        ]]], shape=(501, 24, 3)), ...})
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x10e8fda90>
+stage = 'completion'
+
+    @pytest.mark.parametrize('stage',['work','summary','completion','final_source'])
+    def test_audit_cap_and_finalization_preserve_failure(tmp_path,row_fixture,monkeypatch,stage):
+        import audit_darela_shadow as a
+>       pp,source,loader,_=synthetic_archive(tmp_path,row_fixture);now=[0.];real=a.write_json
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:350: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:299: in synthetic_archive
+    candidate_guards=a.guards_for_rows(rows,m,'gains'),original_guards=a.guards_for_rows(rows,m,'original_gains'),
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = ([{'metadata': {'game': 4362, 'seed_set': 'base', 'seed': 4404, 'run_id': 'diag-rate-bridge-v1-maskgamma-de050d773763'...5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16, 17, 18,
+       19, 20, 21, 22, 23, 24, 25], dtype=int32), ...}, 'gains')
+kwargs = {}
+
+    def guards_for_rows(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:284: NotImplementedError
+________ test_audit_cap_and_finalization_preserve_failure[final_source] ________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1716/test_audit_cap_and_finalizatio3')
+row_fixture = (array([[0, 0, 1, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0...       [1.        , 1.        , 1.        ],
+        [1.        , 1.        , 1.        ]]], shape=(501, 24, 3)), ...})
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x10e80b3b0>
+stage = 'final_source'
+
+    @pytest.mark.parametrize('stage',['work','summary','completion','final_source'])
+    def test_audit_cap_and_finalization_preserve_failure(tmp_path,row_fixture,monkeypatch,stage):
+        import audit_darela_shadow as a
+>       pp,source,loader,_=synthetic_archive(tmp_path,row_fixture);now=[0.];real=a.write_json
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:350: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:299: in synthetic_archive
+    candidate_guards=a.guards_for_rows(rows,m,'gains'),original_guards=a.guards_for_rows(rows,m,'original_gains'),
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = ([{'metadata': {'game': 4362, 'seed_set': 'base', 'seed': 4404, 'run_id': 'diag-rate-bridge-v1-maskgamma-de050d773763'...5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16, 17, 18,
+       19, 20, 21, 22, 23, 24, 25], dtype=int32), ...}, 'gains')
+kwargs = {}
+
+    def guards_for_rows(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:284: NotImplementedError
+____________ test_guard_descriptions_use_trial_sums_not_edge_means _____________
+
+    def test_guard_descriptions_use_trial_sums_not_edge_means():
+        import audit_darela_shadow as a
+        import run_dan_causal_prefix_v2 as reader
+        m={'plastic_compartments':np.array([0,0,1,1]),'plastic_mask':np.ones(4,np.uint8)}
+        rows=[dict(metadata=r,gains=np.full(4,.75,np.float32)) for r in reader.expected_rows()]
+>       for v in a.guards_for_rows(rows,m,'gains').values():
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:369: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = ([{'metadata': {'game': 4362, 'seed_set': 'base', 'seed': 4404, 'run_id': 'diag-rate-bridge-v1-maskgamma-de050d773763'...at32)}, ...], {'plastic_compartments': array([0, 0, 1, 1]), 'plastic_mask': array([1, 1, 1, 1], dtype=uint8)}, 'gains')
+kwargs = {}
+
+    def guards_for_rows(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:284: NotImplementedError
+=============================== warnings summary ===============================
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_bound_loader_allocation_identity_and_path_family[duplicate_member]
+  /Users/davidmontgomery/.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/zipfile/__init__.py:1612: UserWarning: Duplicate name: 'a.npy'
+    return self._open_to_write(zinfo, force_zip64=force_zip64)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_full32_synthetic_artifact_audit_and_no_reuse
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_terminal_identity_and_summary_failure_family[parent_error]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_terminal_identity_and_summary_failure_family[child_error]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_terminal_identity_and_summary_failure_family[row_metadata]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_terminal_identity_and_summary_failure_family[missing_row]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_terminal_identity_and_summary_failure_family[archive_change]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_terminal_identity_and_summary_failure_family[descriptive_units]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_terminal_identity_and_summary_failure_family[unknown_screen]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_terminal_identity_and_summary_failure_family[helper_journal]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_audit_cap_and_finalization_preserve_failure[work]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_audit_cap_and_finalization_preserve_failure[summary]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_audit_cap_and_finalization_preserve_failure[completion]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_audit_cap_and_finalization_preserve_failure[final_source]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_guard_descriptions_use_trial_sums_not_edge_means
+14 failed, 80 passed, 1 warning in 2.51s

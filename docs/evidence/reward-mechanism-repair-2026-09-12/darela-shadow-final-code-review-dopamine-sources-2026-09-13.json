@@ -1,0 +1,159 @@
+{
+  "agent": "/root/dopamine_sources",
+  "at_utc": "2026-09-13T13:28:44.814228+00:00",
+  "status": "PASS final frozen producer and independent-auditor code review; machine-plan review remains separate",
+  "prior_scientific_review": {
+    "path": "output/collaboration/reward-mechanism-repair/darela-shadow-scientific-prereg-review-dopamine-sources-2026-09-13.json",
+    "bytes": 5960,
+    "sha256": "e384cbda5128d4446b1351623eb95d44f6d7f06f0e1378bf7a319e2d9d526f2c"
+  },
+  "prior_code_reviews": [
+    {
+      "path": "output/collaboration/reward-mechanism-repair/darela-shadow-producer-code-review-dopamine-sources-2026-09-13.json",
+      "bytes": 5094,
+      "sha256": "32ea9f21e7dcac12842f1ac241b4a64b721850847e0639842404e83bb34d86e9"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/darela-shadow-producer-type-review-dopamine-sources-2026-09-13.json",
+      "bytes": 2929,
+      "sha256": "8253645574e3cf2fc2f4dfa8b1749104bb2ae5b78f79a58b30471d3793ad709d"
+    }
+  ],
+  "personally_read_final_release": [
+    {
+      "path": "output/collaboration/reward-mechanism-repair/run_darela_shadow.py",
+      "bytes": 33488,
+      "sha256": "924e23bb1d3e09e7b600fabc364783ed6440181ac3d69e4695a6a110d0a036eb"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py",
+      "bytes": 19805,
+      "sha256": "9c22d425740b16bf9050b86d699b2818cdbde37d77d87105fe6742083ebab319"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/launch_darela_shadow.py",
+      "bytes": 4370,
+      "sha256": "5832c26a51aea93b789a16b603efbd5c380bf114cdfdb46e2bb05cb9ca303086"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/test_launch_darela_shadow.py",
+      "bytes": 3740,
+      "sha256": "f88d7d1206b3f83b19f1ec65a6150b2c8e252bd8381ad4534a20d11d2a21aa17"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/audit_darela_shadow.py",
+      "bytes": 41394,
+      "sha256": "44835ff888ae2b4796a92a17c7738d41b737a2dd0753767fe9edc9a302643052"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py",
+      "bytes": 32550,
+      "sha256": "2dbea84065916ce68bf027024a1b891595470b247839be277f951d54ab8a9187"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/launch_audit_darela_shadow.py",
+      "bytes": 9223,
+      "sha256": "ecbb27607742878e807d25cd296a853977a5f51e2300aefc814af1e1ef51ca1e"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/darela-shadow-independent-audit-contract-2026-09-13.md",
+      "bytes": 6185,
+      "sha256": "eb4f8ed92c7c4e15895989211371b77e61b176be67cc02902f9e8f17daff94c7"
+    }
+  ],
+  "preparation_receipts": [
+    {
+      "path": "output/collaboration/reward-mechanism-repair/darela-shadow-producer-final-preparation-evidence-ui-2026-09-13.json",
+      "bytes": 3211,
+      "sha256": "07dd26228ec94a12e74bd0b24d1c29ab7853e9bcd38aa86a18d108ef10ea2210"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/darela-shadow-audit-preparation-delivered-arrivals-2026-09-13.json",
+      "bytes": 57894,
+      "sha256": "ed4fb65b660b9d95908cf620f656e814f0561af4796bdf01d0632d2364d68102"
+    }
+  ],
+  "reading": {
+    "prior202": {
+      "path": "output/collaboration/reward-mechanism-repair/darela-final-reading-claim-review-dopamine-sources-2026-09-13.json",
+      "bytes": 5720,
+      "sha256": "f4546adec13a64b39743472bc61744034b50e70b597bec5ba8d9fb3eb4673d4a"
+    },
+    "readme_supplement": {
+      "path": "output/collaboration/reward-mechanism-repair/darela-readme-coverage-supplement-dopamine-sources-2026-09-13.json",
+      "bytes": 1004,
+      "sha256": "f129e5e340c5ae5fb6a8ad12b4f09d02b4d52db959f94c100e880d936ece1be1"
+    },
+    "current_count": 205,
+    "current_inventory_sha256": "7a5f553ef9f55c6346f1a6da8f9a7780a92342a14b1f1bbab18843083e791cec",
+    "prior202_exact_hash_unchanged": true,
+    "readme": {
+      "path": "README.md",
+      "bytes": 15752,
+      "sha256": "07cce9023a321e0a13585f63fac4f16310550319e460faa7e09081414de8903c"
+    },
+    "exact_aliases": [
+      {
+        "original": {
+          "path": "output/collaboration/reward-mechanism-repair/darela-shadow-preregistration-2026-09-13.md",
+          "bytes": 9394,
+          "sha256": "63e88a1d968761e6f7182859ece4d0a12535130be2362d2c3e16acf2a7c9d492"
+        },
+        "canonical": {
+          "path": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-preregistration-2026-09-13.md",
+          "bytes": 9394,
+          "sha256": "63e88a1d968761e6f7182859ece4d0a12535130be2362d2c3e16acf2a7c9d492"
+        }
+      },
+      {
+        "original": {
+          "path": "output/collaboration/reward-mechanism-repair/darela-shadow-independent-audit-contract-2026-09-13.md",
+          "bytes": 6185,
+          "sha256": "eb4f8ed92c7c4e15895989211371b77e61b176be67cc02902f9e8f17daff94c7"
+        },
+        "canonical": {
+          "path": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-independent-audit-contract-2026-09-13.md",
+          "bytes": 6185,
+          "sha256": "eb4f8ed92c7c4e15895989211371b77e61b176be67cc02902f9e8f17daff94c7"
+        }
+      }
+    ],
+    "method": "Original full narratives and complete code/tests personally read. Current released code is covered by those reads plus complete final diffs against the preserved v1 source; every added fixture and final receipt prose was read. Canonical aliases are accepted only after original content reading and exact byte equality. Auditor inventory compared by path/hash mapping, not list order.",
+    "unread_deltas": []
+  },
+  "independent_math_checks": [
+    "Per-body60-digit release oracle uses fixed externalWT1, q=1+p, pre-H emission and exact recovery from unit reset; pooling follows nonlinear per-body release.",
+    "Direct event superposition builds bridge states independently of producer recurrence. Analytic positive/negative interval integrals and full tail preserve onset500, eta0.0005, norm0.96 and100/500ms times.",
+    "Separate complete pair kernel checks unconstrained attempted area; gain endpoints use interval clipping and publication, so pair equality is not substituted for clipped gains.",
+    "All8866 edges,4184home/3239away eligibility,1443off,1501 publications, complete original checkpoints/maps and all8 exact guards are retained.",
+    "Gain allowance1e-11 and area2e-11 plus relative1e-12 remain declared numerical comparisons; exact F32 equality passes, plausible mismatches remain ambiguous, forged publications fail.",
+    "Exact eight-trial guard is9*S^2<=16*Q in2^-24 integer tick totals; descriptive fields use trial sums. No teaching label or calibration claim is added."
+  ],
+  "resolved_final_findings": [
+    "Auditor launcher now derives numerical_status from all32 known row statuses and screen from all8 exact guard cells plus reconciled nonnegative bound counts. Rehashed false-passed summaries are rejected.",
+    "Auditor parent rehashes completed output files, verifies terminal snapshot and checks late failure marker after row reads. All26 new typed/classification/snapshot/control fixtures were reviewed.",
+    "Producer scopes canonical sys.path insertion to frozen dependency imports, then restores lookup; a regression checks that current producer and launcher modules are loaded.",
+    "Producer/auditor terminal integer/boolean distinctions are explicit; outcome criteria and numerical equations are unchanged."
+  ],
+  "tests": {
+    "producer_log": {
+      "path": "output/collaboration/reward-mechanism-repair/darela-shadow-producer-tests-revised-final-2026-09-13.txt",
+      "bytes": 181,
+      "sha256": "8e57cb6418571405d3d60151b11a57b5ee86ed0bc3ed240c2d65140118c021ff"
+    },
+    "producer_passed": 122,
+    "producer_seconds": 10.22,
+    "auditor_log": {
+      "path": "output/collaboration/reward-mechanism-repair/darela-shadow-audit-terminal-release-tests-2026-09-13.txt",
+      "bytes": 714,
+      "sha256": "7b60df617095dd87655bf5cc90303ac1af8c88955c349113b92c994fdd7d2e9d"
+    },
+    "auditor_passed": 124,
+    "auditor_seconds": 8.66,
+    "attribution": "Logs personally read; tests executed by respective writers, not this reviewer. One expected duplicate-ZIP warning comes from a rejecting malformed-input fixture.",
+    "historical_correction": "The earlier type-review JSON attributed the writer's initial121-pass claim. Final producer receipt identifies that log as a partial green run with stale copied-module failures. This final122-pass log supersedes that test-count statement; both earlier receipts/logs remain preserved."
+  },
+  "unresolved_findings": [],
+  "remaining": "Read the final machine plan, its actual frozen inputs/reviews and input-only preflight externally; this code-only receipt deliberately does not bind a nonexistent plan or accept a candidate result.",
+  "operations": "Read-only code/diff/documentation/metadata/hash checks plus this unique output-onlyJSON; no tests, actual histories, candidate/source/native/audit execution, network, fitting or shared code/prose edits."
+}

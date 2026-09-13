@@ -1,0 +1,33 @@
+{
+  "checked_at": "2026-09-13T12:59:36.592546+00:00",
+  "baseline": "output/collaboration/reward-mechanism-repair/darela-protected-before-2026-09-13.json",
+  "files_checked": 760,
+  "file_changes": {},
+  "inventory_changed": true,
+  "added_entries": [
+    "output/.DS_Store",
+    "output/acceptance.md",
+    "output/backend-review-package.txt",
+    "output/backend-review.md",
+    "output/brain-gates.json",
+    "output/browser-mobile.png",
+    "output/browser-observatory.png",
+    "output/browser-replay.png",
+    "output/browser-training.png",
+    "output/connectome-import.json",
+    "output/current-model.json",
+    "output/dashboard-concept.png",
+    "output/desk-mobile-bug.png",
+    "output/frontend-report.md",
+    "output/paper-picks.csv",
+    "output/runtime-acceptance.json",
+    "output/server.log",
+    "output/sports-agent-report.md",
+    "output/training-progress.json",
+    "output/training-run.log",
+    "output/verification.log",
+    "output/verify-desk.cjs"
+  ],
+  "removed_entries": [],
+  "passed": false
+}

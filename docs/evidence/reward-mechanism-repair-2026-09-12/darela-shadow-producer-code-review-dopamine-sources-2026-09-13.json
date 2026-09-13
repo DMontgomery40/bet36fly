@@ -1,0 +1,85 @@
+{
+  "agent": "/root/dopamine_sources",
+  "at_utc": "2026-09-13T13:13:23.400821+00:00",
+  "status": "PASS frozen producer and launcher code review; not machine-plan or execution acceptance",
+  "prior_scientific_reading_decision": {
+    "path": "output/collaboration/reward-mechanism-repair/darela-shadow-scientific-prereg-review-dopamine-sources-2026-09-13.json",
+    "bytes": 5960,
+    "sha256": "e384cbda5128d4446b1351623eb95d44f6d7f06f0e1378bf7a319e2d9d526f2c"
+  },
+  "all203_canonical_narratives_unchanged_and_personally_covered": true,
+  "personally_read_complete_code_and_tests": [
+    {
+      "path": "output/collaboration/reward-mechanism-repair/run_darela_shadow.py",
+      "bytes": 32939,
+      "sha256": "03d6ec1f3e23062ad8f9d71021d18de1a8b55310b4094bc78fbc9cb325655393"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py",
+      "bytes": 18274,
+      "sha256": "6106a9b0a82d57edefe0038e5718da514ce8802434c614bf7ce5ce6d8a1a3746"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/launch_darela_shadow.py",
+      "bytes": 4283,
+      "sha256": "6c79488588f48188379ca60b96c008cee208c73290f0a5f70c44d26dd25288e4"
+    },
+    {
+      "path": "output/collaboration/reward-mechanism-repair/test_launch_darela_shadow.py",
+      "bytes": 2580,
+      "sha256": "1a2bd1c2b7ae2099fbfb81e40d4cf7c99aedb65f9ad944a7dc95eae4e2565a32"
+    }
+  ],
+  "reviewed_writer_preparation": {
+    "path": "output/collaboration/reward-mechanism-repair/darela-shadow-producer-preparation-evidence-ui-2026-09-13.json",
+    "bytes": 5895,
+    "sha256": "db8083bd0cefb3c294a627c71fc92d2d02127b9b88bc05bc5936274f4f421fcc"
+  },
+  "preregistration": {
+    "path": "output/collaboration/reward-mechanism-repair/darela-shadow-preregistration-2026-09-13.md",
+    "bytes": 9394,
+    "sha256": "63e88a1d968761e6f7182859ece4d0a12535130be2362d2c3e16acf2a7c9d492"
+  },
+  "audit_contract_personally_read": {
+    "path": "output/collaboration/reward-mechanism-repair/darela-shadow-independent-audit-contract-2026-09-13.md",
+    "bytes": 6185,
+    "sha256": "eb4f8ed92c7c4e15895989211371b77e61b176be67cc02902f9e8f17daff94c7"
+  },
+  "root_preflight_metadata_review": {
+    "receipt": {
+      "path": "output/collaboration/reward-mechanism-repair/darela-shadow-root-structural-preflight-2026-09-13.json",
+      "bytes": 76645,
+      "sha256": "62d0341394b7b8c06bfae16f24489d3d4a9c06798a941914be7a0a64b7e56ecb"
+    },
+    "scope": "Parsed all32 header/hash records and24 atlas-cell records from the root receipt; all32 schemas agree. No original raster arrays read or transformed by this reviewer."
+  },
+  "resolved_findings": [
+    {
+      "finding": "Descriptive mean andSD used per-edge averages while historical reports use per-trial sums.",
+      "resolution": "Now divides integer ticks only by2^24; multi-edge regression verifies exact sum units and sampleSD. Guard inequality was not changed."
+    },
+    {
+      "finding": "Saved completion omitted strict summary/completion disposition and provisional classification checks.",
+      "resolution": "Requires computed/pending-independent-audit summary, exact32counts, recomputes8guard cells and bound-based provisional classification."
+    },
+    {
+      "finding": "Invocation journal hashes were checked without validating160records and row links.",
+      "resolution": "Requires exact ordered intent/returned/complete records and matching row-detail hashes; generalized rehashed corruption fixtures included."
+    }
+  ],
+  "conformity": [
+    "All32 ordered typed selectors and113 historical bindings are required; strict mainint64/fineint32 mapping and full numerical fingerprints/main-fine raw parity are checked.",
+    "Candidate starts from unit F32; original finalgains are retained only as comparators. Fixed per-body pre-H release, q=1+p, exactquiet recovery and2/22 pooling precede the unchanged cold-onset bridge.",
+    "All4184home/3239away eligible edges and1443off edges, complete phase/tail outputs, per-body state/mass arrays and unit masked bytes are retained.",
+    "All8 exact tick guards use all8 trials; valid failures do not stop the32-row screen early. Producer summary remains pending independent audit.",
+    "External1200s watchdog kills/reaps, venv invocation is not resolved, final hashes and persistence stay within cap, and terminal errors invalidate earlier completion markers."
+  ],
+  "tests": "Writer reports110synthetic producer/launcher cases andRuff passed; code/fixtures and receipt read, no tests executed by this reviewer.",
+  "remaining": [
+    "Independent final auditor/launcher review.",
+    "Root must create the frozen machineplan with code/review/input bindings; this reviewer will inspect it separately without adding circular plan bindings.",
+    "Actual producer/audit executions require explicit root dispatch."
+  ],
+  "unresolved_findings": [],
+  "operations": "Code/documentation and metadata/hash review plus this output-onlyJSON. No history evaluation, candidate/source/native/audit execution, network, parameter selection or shared-source changes."
+}

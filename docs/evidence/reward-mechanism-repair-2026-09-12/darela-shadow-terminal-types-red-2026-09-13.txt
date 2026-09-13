@@ -1,0 +1,316 @@
+FFFFFFFFFFF                                                              [100%]
+=================================== FAILURES ===================================
+_______ test_terminal_scalars_preserve_types[status-invocations-value0] ________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1722/test_terminal_scalars_preserve0')
+ready_evaluator = <function quiet_evaluator at 0x1075d7100>, target = 'status'
+field = 'invocations', value = {'release': 32.0, 'bridge': 32}
+
+    @pytest.mark.parametrize("target,field,value",[
+        ("status","invocations",dict(release=32.0,bridge=32)),
+        ("status","returned",dict(release=32,bridge=32.0)),
+        ("status","wall_seconds",False),
+        ("completion","elapsed_through_summary",False),
+        ("summary","native_calls",False),("summary","network_calls",0.0),
+        ("row","index",False),
+    ])
+    def test_terminal_scalars_preserve_types(tmp_path,ready_evaluator,target,field,value):
+        r=module();p=plan(tmp_path);path,out=write_plan(tmp_path,p)
+        assert r.execute(path,out,_loader=loader,_evaluator=ready_evaluator,_check_runtime=False)["status"]=="completed"
+        name={"row":"case_00","status":"status","completion":"completion","summary":"summary"}[target]+".json"
+        obj=json.loads((out/name).read_text());obj[field]=value;(out/name).write_text(json.dumps(obj))
+        if target=="row":
+            records=[json.loads(x) for x in (out/"attempts.jsonl").read_text().splitlines()]
+            records[4]["detail"]=r.binding(out/name)
+            (out/"attempts.jsonl").write_text("".join(json.dumps(x)+"\n" for x in records))
+        completion=json.loads((out/"completion.json").read_text())
+        completion["bindings"]=[r.binding(x["path"]) for x in completion["bindings"]]
+        (out/"completion.json").write_text(json.dumps(completion))
+>       with pytest.raises(ValueError):r.validate_saved(out,p)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE ValueError
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:557: Failed
+_________ test_terminal_scalars_preserve_types[status-returned-value1] _________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1722/test_terminal_scalars_preserve1')
+ready_evaluator = <function quiet_evaluator at 0x1075d7100>, target = 'status'
+field = 'returned', value = {'release': 32, 'bridge': 32.0}
+
+    @pytest.mark.parametrize("target,field,value",[
+        ("status","invocations",dict(release=32.0,bridge=32)),
+        ("status","returned",dict(release=32,bridge=32.0)),
+        ("status","wall_seconds",False),
+        ("completion","elapsed_through_summary",False),
+        ("summary","native_calls",False),("summary","network_calls",0.0),
+        ("row","index",False),
+    ])
+    def test_terminal_scalars_preserve_types(tmp_path,ready_evaluator,target,field,value):
+        r=module();p=plan(tmp_path);path,out=write_plan(tmp_path,p)
+        assert r.execute(path,out,_loader=loader,_evaluator=ready_evaluator,_check_runtime=False)["status"]=="completed"
+        name={"row":"case_00","status":"status","completion":"completion","summary":"summary"}[target]+".json"
+        obj=json.loads((out/name).read_text());obj[field]=value;(out/name).write_text(json.dumps(obj))
+        if target=="row":
+            records=[json.loads(x) for x in (out/"attempts.jsonl").read_text().splitlines()]
+            records[4]["detail"]=r.binding(out/name)
+            (out/"attempts.jsonl").write_text("".join(json.dumps(x)+"\n" for x in records))
+        completion=json.loads((out/"completion.json").read_text())
+        completion["bindings"]=[r.binding(x["path"]) for x in completion["bindings"]]
+        (out/"completion.json").write_text(json.dumps(completion))
+>       with pytest.raises(ValueError):r.validate_saved(out,p)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE ValueError
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:557: Failed
+_______ test_terminal_scalars_preserve_types[status-wall_seconds-False] ________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1722/test_terminal_scalars_preserve2')
+ready_evaluator = <function quiet_evaluator at 0x1075d7100>, target = 'status'
+field = 'wall_seconds', value = False
+
+    @pytest.mark.parametrize("target,field,value",[
+        ("status","invocations",dict(release=32.0,bridge=32)),
+        ("status","returned",dict(release=32,bridge=32.0)),
+        ("status","wall_seconds",False),
+        ("completion","elapsed_through_summary",False),
+        ("summary","native_calls",False),("summary","network_calls",0.0),
+        ("row","index",False),
+    ])
+    def test_terminal_scalars_preserve_types(tmp_path,ready_evaluator,target,field,value):
+        r=module();p=plan(tmp_path);path,out=write_plan(tmp_path,p)
+        assert r.execute(path,out,_loader=loader,_evaluator=ready_evaluator,_check_runtime=False)["status"]=="completed"
+        name={"row":"case_00","status":"status","completion":"completion","summary":"summary"}[target]+".json"
+        obj=json.loads((out/name).read_text());obj[field]=value;(out/name).write_text(json.dumps(obj))
+        if target=="row":
+            records=[json.loads(x) for x in (out/"attempts.jsonl").read_text().splitlines()]
+            records[4]["detail"]=r.binding(out/name)
+            (out/"attempts.jsonl").write_text("".join(json.dumps(x)+"\n" for x in records))
+        completion=json.loads((out/"completion.json").read_text())
+        completion["bindings"]=[r.binding(x["path"]) for x in completion["bindings"]]
+        (out/"completion.json").write_text(json.dumps(completion))
+>       with pytest.raises(ValueError):r.validate_saved(out,p)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE ValueError
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:557: Failed
+_ test_terminal_scalars_preserve_types[completion-elapsed_through_summary-False] _
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1722/test_terminal_scalars_preserve3')
+ready_evaluator = <function quiet_evaluator at 0x1075d7100>
+target = 'completion', field = 'elapsed_through_summary', value = False
+
+    @pytest.mark.parametrize("target,field,value",[
+        ("status","invocations",dict(release=32.0,bridge=32)),
+        ("status","returned",dict(release=32,bridge=32.0)),
+        ("status","wall_seconds",False),
+        ("completion","elapsed_through_summary",False),
+        ("summary","native_calls",False),("summary","network_calls",0.0),
+        ("row","index",False),
+    ])
+    def test_terminal_scalars_preserve_types(tmp_path,ready_evaluator,target,field,value):
+        r=module();p=plan(tmp_path);path,out=write_plan(tmp_path,p)
+        assert r.execute(path,out,_loader=loader,_evaluator=ready_evaluator,_check_runtime=False)["status"]=="completed"
+        name={"row":"case_00","status":"status","completion":"completion","summary":"summary"}[target]+".json"
+        obj=json.loads((out/name).read_text());obj[field]=value;(out/name).write_text(json.dumps(obj))
+        if target=="row":
+            records=[json.loads(x) for x in (out/"attempts.jsonl").read_text().splitlines()]
+            records[4]["detail"]=r.binding(out/name)
+            (out/"attempts.jsonl").write_text("".join(json.dumps(x)+"\n" for x in records))
+        completion=json.loads((out/"completion.json").read_text())
+        completion["bindings"]=[r.binding(x["path"]) for x in completion["bindings"]]
+        (out/"completion.json").write_text(json.dumps(completion))
+>       with pytest.raises(ValueError):r.validate_saved(out,p)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE ValueError
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:557: Failed
+_______ test_terminal_scalars_preserve_types[summary-native_calls-False] _______
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1722/test_terminal_scalars_preserve4')
+ready_evaluator = <function quiet_evaluator at 0x1075d7100>, target = 'summary'
+field = 'native_calls', value = False
+
+    @pytest.mark.parametrize("target,field,value",[
+        ("status","invocations",dict(release=32.0,bridge=32)),
+        ("status","returned",dict(release=32,bridge=32.0)),
+        ("status","wall_seconds",False),
+        ("completion","elapsed_through_summary",False),
+        ("summary","native_calls",False),("summary","network_calls",0.0),
+        ("row","index",False),
+    ])
+    def test_terminal_scalars_preserve_types(tmp_path,ready_evaluator,target,field,value):
+        r=module();p=plan(tmp_path);path,out=write_plan(tmp_path,p)
+        assert r.execute(path,out,_loader=loader,_evaluator=ready_evaluator,_check_runtime=False)["status"]=="completed"
+        name={"row":"case_00","status":"status","completion":"completion","summary":"summary"}[target]+".json"
+        obj=json.loads((out/name).read_text());obj[field]=value;(out/name).write_text(json.dumps(obj))
+        if target=="row":
+            records=[json.loads(x) for x in (out/"attempts.jsonl").read_text().splitlines()]
+            records[4]["detail"]=r.binding(out/name)
+            (out/"attempts.jsonl").write_text("".join(json.dumps(x)+"\n" for x in records))
+        completion=json.loads((out/"completion.json").read_text())
+        completion["bindings"]=[r.binding(x["path"]) for x in completion["bindings"]]
+        (out/"completion.json").write_text(json.dumps(completion))
+>       with pytest.raises(ValueError):r.validate_saved(out,p)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE ValueError
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:557: Failed
+_______ test_terminal_scalars_preserve_types[summary-network_calls-0.0] ________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1722/test_terminal_scalars_preserve5')
+ready_evaluator = <function quiet_evaluator at 0x1075d7100>, target = 'summary'
+field = 'network_calls', value = 0.0
+
+    @pytest.mark.parametrize("target,field,value",[
+        ("status","invocations",dict(release=32.0,bridge=32)),
+        ("status","returned",dict(release=32,bridge=32.0)),
+        ("status","wall_seconds",False),
+        ("completion","elapsed_through_summary",False),
+        ("summary","native_calls",False),("summary","network_calls",0.0),
+        ("row","index",False),
+    ])
+    def test_terminal_scalars_preserve_types(tmp_path,ready_evaluator,target,field,value):
+        r=module();p=plan(tmp_path);path,out=write_plan(tmp_path,p)
+        assert r.execute(path,out,_loader=loader,_evaluator=ready_evaluator,_check_runtime=False)["status"]=="completed"
+        name={"row":"case_00","status":"status","completion":"completion","summary":"summary"}[target]+".json"
+        obj=json.loads((out/name).read_text());obj[field]=value;(out/name).write_text(json.dumps(obj))
+        if target=="row":
+            records=[json.loads(x) for x in (out/"attempts.jsonl").read_text().splitlines()]
+            records[4]["detail"]=r.binding(out/name)
+            (out/"attempts.jsonl").write_text("".join(json.dumps(x)+"\n" for x in records))
+        completion=json.loads((out/"completion.json").read_text())
+        completion["bindings"]=[r.binding(x["path"]) for x in completion["bindings"]]
+        (out/"completion.json").write_text(json.dumps(completion))
+>       with pytest.raises(ValueError):r.validate_saved(out,p)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE ValueError
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:557: Failed
+____________ test_terminal_scalars_preserve_types[row-index-False] _____________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1722/test_terminal_scalars_preserve6')
+ready_evaluator = <function quiet_evaluator at 0x1075d7100>, target = 'row'
+field = 'index', value = False
+
+    @pytest.mark.parametrize("target,field,value",[
+        ("status","invocations",dict(release=32.0,bridge=32)),
+        ("status","returned",dict(release=32,bridge=32.0)),
+        ("status","wall_seconds",False),
+        ("completion","elapsed_through_summary",False),
+        ("summary","native_calls",False),("summary","network_calls",0.0),
+        ("row","index",False),
+    ])
+    def test_terminal_scalars_preserve_types(tmp_path,ready_evaluator,target,field,value):
+        r=module();p=plan(tmp_path);path,out=write_plan(tmp_path,p)
+        assert r.execute(path,out,_loader=loader,_evaluator=ready_evaluator,_check_runtime=False)["status"]=="completed"
+        name={"row":"case_00","status":"status","completion":"completion","summary":"summary"}[target]+".json"
+        obj=json.loads((out/name).read_text());obj[field]=value;(out/name).write_text(json.dumps(obj))
+        if target=="row":
+            records=[json.loads(x) for x in (out/"attempts.jsonl").read_text().splitlines()]
+            records[4]["detail"]=r.binding(out/name)
+            (out/"attempts.jsonl").write_text("".join(json.dumps(x)+"\n" for x in records))
+        completion=json.loads((out/"completion.json").read_text())
+        completion["bindings"]=[r.binding(x["path"]) for x in completion["bindings"]]
+        (out/"completion.json").write_text(json.dumps(completion))
+>       with pytest.raises(ValueError):r.validate_saved(out,p)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE ValueError
+
+output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py:557: Failed
+________ test_subprocess_status_must_have_exact_types[exit_code-False] _________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1722/test_subprocess_status_must_ha0')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x1072a9a90>
+field = 'exit_code', value = False
+
+    @pytest.mark.parametrize("field,value",[("exit_code",False),("exit_code",0.0),("timed_out",0),("child_reaped",1)])
+    def test_subprocess_status_must_have_exact_types(tmp_path,monkeypatch,field,value):
+        launch=module();p=plan(tmp_path);pp=tmp_path/"plan.json";pp.write_text(json.dumps(p));out=tmp_path/p["run_id"]
+        def child(*args):
+            result=dict(timed_out=False,exit_code=0,child_reaped=True);result[field]=value;return result
+        monkeypatch.setattr(launch,"supervise",child)
+        monkeypatch.setattr(launch.runner,"validate_saved",lambda *a,**kw:dict(screen="pending_independent_audit",provisional_screen="rejected_fixed_hypothesis"))
+        result=launch.execute(pp,out)
+>       assert result["status"]=="failed" and (out/"terminal-error.json").is_file()
+E       AssertionError: assert ('completed' == 'failed'
+E         
+E         - failed
+E         + completed)
+
+output/collaboration/reward-mechanism-repair/test_launch_darela_shadow.py:86: AssertionError
+_________ test_subprocess_status_must_have_exact_types[exit_code-0.0] __________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1722/test_subprocess_status_must_ha1')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x1072a8cb0>
+field = 'exit_code', value = 0.0
+
+    @pytest.mark.parametrize("field,value",[("exit_code",False),("exit_code",0.0),("timed_out",0),("child_reaped",1)])
+    def test_subprocess_status_must_have_exact_types(tmp_path,monkeypatch,field,value):
+        launch=module();p=plan(tmp_path);pp=tmp_path/"plan.json";pp.write_text(json.dumps(p));out=tmp_path/p["run_id"]
+        def child(*args):
+            result=dict(timed_out=False,exit_code=0,child_reaped=True);result[field]=value;return result
+        monkeypatch.setattr(launch,"supervise",child)
+        monkeypatch.setattr(launch.runner,"validate_saved",lambda *a,**kw:dict(screen="pending_independent_audit",provisional_screen="rejected_fixed_hypothesis"))
+        result=launch.execute(pp,out)
+>       assert result["status"]=="failed" and (out/"terminal-error.json").is_file()
+E       AssertionError: assert ('completed' == 'failed'
+E         
+E         - failed
+E         + completed)
+
+output/collaboration/reward-mechanism-repair/test_launch_darela_shadow.py:86: AssertionError
+__________ test_subprocess_status_must_have_exact_types[timed_out-0] ___________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1722/test_subprocess_status_must_ha2')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x1072a96d0>
+field = 'timed_out', value = 0
+
+    @pytest.mark.parametrize("field,value",[("exit_code",False),("exit_code",0.0),("timed_out",0),("child_reaped",1)])
+    def test_subprocess_status_must_have_exact_types(tmp_path,monkeypatch,field,value):
+        launch=module();p=plan(tmp_path);pp=tmp_path/"plan.json";pp.write_text(json.dumps(p));out=tmp_path/p["run_id"]
+        def child(*args):
+            result=dict(timed_out=False,exit_code=0,child_reaped=True);result[field]=value;return result
+        monkeypatch.setattr(launch,"supervise",child)
+        monkeypatch.setattr(launch.runner,"validate_saved",lambda *a,**kw:dict(screen="pending_independent_audit",provisional_screen="rejected_fixed_hypothesis"))
+        result=launch.execute(pp,out)
+>       assert result["status"]=="failed" and (out/"terminal-error.json").is_file()
+E       AssertionError: assert ('completed' == 'failed'
+E         
+E         - failed
+E         + completed)
+
+output/collaboration/reward-mechanism-repair/test_launch_darela_shadow.py:86: AssertionError
+_________ test_subprocess_status_must_have_exact_types[child_reaped-1] _________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1722/test_subprocess_status_must_ha3')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x10773d6d0>
+field = 'child_reaped', value = 1
+
+    @pytest.mark.parametrize("field,value",[("exit_code",False),("exit_code",0.0),("timed_out",0),("child_reaped",1)])
+    def test_subprocess_status_must_have_exact_types(tmp_path,monkeypatch,field,value):
+        launch=module();p=plan(tmp_path);pp=tmp_path/"plan.json";pp.write_text(json.dumps(p));out=tmp_path/p["run_id"]
+        def child(*args):
+            result=dict(timed_out=False,exit_code=0,child_reaped=True);result[field]=value;return result
+        monkeypatch.setattr(launch,"supervise",child)
+        monkeypatch.setattr(launch.runner,"validate_saved",lambda *a,**kw:dict(screen="pending_independent_audit",provisional_screen="rejected_fixed_hypothesis"))
+        result=launch.execute(pp,out)
+>       assert result["status"]=="failed" and (out/"terminal-error.json").is_file()
+E       AssertionError: assert ('completed' == 'failed'
+E         
+E         - failed
+E         + completed)
+
+output/collaboration/reward-mechanism-repair/test_launch_darela_shadow.py:86: AssertionError
+=========================== short test summary info ============================
+FAILED output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_terminal_scalars_preserve_types[status-invocations-value0]
+FAILED output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_terminal_scalars_preserve_types[status-returned-value1]
+FAILED output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_terminal_scalars_preserve_types[status-wall_seconds-False]
+FAILED output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_terminal_scalars_preserve_types[completion-elapsed_through_summary-False]
+FAILED output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_terminal_scalars_preserve_types[summary-native_calls-False]
+FAILED output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_terminal_scalars_preserve_types[summary-network_calls-0.0]
+FAILED output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py::test_terminal_scalars_preserve_types[row-index-False]
+FAILED output/collaboration/reward-mechanism-repair/test_launch_darela_shadow.py::test_subprocess_status_must_have_exact_types[exit_code-False]
+FAILED output/collaboration/reward-mechanism-repair/test_launch_darela_shadow.py::test_subprocess_status_must_have_exact_types[exit_code-0.0]
+FAILED output/collaboration/reward-mechanism-repair/test_launch_darela_shadow.py::test_subprocess_status_must_have_exact_types[timed_out-0]
+FAILED output/collaboration/reward-mechanism-repair/test_launch_darela_shadow.py::test_subprocess_status_must_have_exact_types[child_reaped-1]
+11 failed, 110 deselected in 4.39s

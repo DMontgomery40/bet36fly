@@ -1,0 +1,1121 @@
+................................................FFFFFFFFFFFFFFFFFFFFFFFF [ 90%]
+FFFFFFFF                                                                 [100%]
+=================================== FAILURES ===================================
+___________________ test_complete_synthetic_row_is_accepted ____________________
+
+row_fixture = (array([[0, 0, 1, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0...       [1.        , 1.        , 1.        ],
+        [1.        , 1.        , 1.        ]]], shape=(501, 24, 3)), ...})
+
+    def test_complete_synthetic_row_is_accepted(row_fixture):
+        from audit_darela_shadow import audit_case
+        trace,m,v=row_fixture
+>       report,ref=audit_case(trace,m,v,original=v['original_gains'],original_delta=v['original_gain_delta'])
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:212: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (array([[0, 0, 1, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0...       [1.        , 1.        , 1.        ],
+        [1.        , 1.        , 1.        ]]], shape=(501, 24, 3)), ...})
+kwargs = {'original': array([1., 1., 1., 1.], dtype=float32), 'original_delta': array([0., 0., 0., 0.], dtype=float32)}
+
+    def audit_case(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:153: NotImplementedError
+____ test_same_shape_false_measurement_family_is_not_accepted[state_before] ____
+
+row_fixture = (array([[0, 0, 1, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0...       [1.        , 1.        , 1.        ],
+        [1.        , 1.        , 1.        ]]], shape=(501, 24, 3)), ...})
+key = 'state_before'
+
+    @pytest.mark.parametrize('key',['state_before','state_after','endpoint_state','per_cell_release','pooled_release','endpoint_dan','edge_phases','group_phases'])
+    def test_same_shape_false_measurement_family_is_not_accepted(row_fixture,key):
+        from audit_darela_shadow import audit_case
+        trace,m,saved=row_fixture;v={k:a.copy() for k,a in saved.items()};v[key].flat[-1]+=.001
+>       report,_=audit_case(trace,m,v,original=saved['original_gains'],original_delta=saved['original_gain_delta'])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:221: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (array([[0, 0, 1, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0...       [1.        , 1.        , 1.        ],
+        [1.        , 1.        , 1.        ]]], shape=(501, 24, 3)), ...})
+kwargs = {'original': array([1., 1., 1., 1.], dtype=float32), 'original_delta': array([0., 0., 0., 0.], dtype=float32)}
+
+    def audit_case(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:153: NotImplementedError
+____ test_same_shape_false_measurement_family_is_not_accepted[state_after] _____
+
+row_fixture = (array([[0, 0, 1, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0...       [1.        , 1.        , 1.        ],
+        [1.        , 1.        , 1.        ]]], shape=(501, 24, 3)), ...})
+key = 'state_after'
+
+    @pytest.mark.parametrize('key',['state_before','state_after','endpoint_state','per_cell_release','pooled_release','endpoint_dan','edge_phases','group_phases'])
+    def test_same_shape_false_measurement_family_is_not_accepted(row_fixture,key):
+        from audit_darela_shadow import audit_case
+        trace,m,saved=row_fixture;v={k:a.copy() for k,a in saved.items()};v[key].flat[-1]+=.001
+>       report,_=audit_case(trace,m,v,original=saved['original_gains'],original_delta=saved['original_gain_delta'])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:221: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (array([[0, 0, 1, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0...       [1.        , 1.        , 1.        ],
+        [1.        , 1.        , 1.001     ]]], shape=(501, 24, 3)), ...})
+kwargs = {'original': array([1., 1., 1., 1.], dtype=float32), 'original_delta': array([0., 0., 0., 0.], dtype=float32)}
+
+    def audit_case(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:153: NotImplementedError
+___ test_same_shape_false_measurement_family_is_not_accepted[endpoint_state] ___
+
+row_fixture = (array([[0, 0, 1, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0...       [1.        , 1.        , 1.        ],
+        [1.        , 1.        , 1.        ]]], shape=(501, 24, 3)), ...})
+key = 'endpoint_state'
+
+    @pytest.mark.parametrize('key',['state_before','state_after','endpoint_state','per_cell_release','pooled_release','endpoint_dan','edge_phases','group_phases'])
+    def test_same_shape_false_measurement_family_is_not_accepted(row_fixture,key):
+        from audit_darela_shadow import audit_case
+        trace,m,saved=row_fixture;v={k:a.copy() for k,a in saved.items()};v[key].flat[-1]+=.001
+>       report,_=audit_case(trace,m,v,original=saved['original_gains'],original_delta=saved['original_gain_delta'])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:221: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (array([[0, 0, 1, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0...       [1.        , 1.        , 1.        ],
+        [1.        , 1.        , 1.        ]]], shape=(501, 24, 3)), ...})
+kwargs = {'original': array([1., 1., 1., 1.], dtype=float32), 'original_delta': array([0., 0., 0., 0.], dtype=float32)}
+
+    def audit_case(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:153: NotImplementedError
+__ test_same_shape_false_measurement_family_is_not_accepted[per_cell_release] __
+
+row_fixture = (array([[0, 0, 1, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0...       [1.        , 1.        , 1.        ],
+        [1.        , 1.        , 1.        ]]], shape=(501, 24, 3)), ...})
+key = 'per_cell_release'
+
+    @pytest.mark.parametrize('key',['state_before','state_after','endpoint_state','per_cell_release','pooled_release','endpoint_dan','edge_phases','group_phases'])
+    def test_same_shape_false_measurement_family_is_not_accepted(row_fixture,key):
+        from audit_darela_shadow import audit_case
+        trace,m,saved=row_fixture;v={k:a.copy() for k,a in saved.items()};v[key].flat[-1]+=.001
+>       report,_=audit_case(trace,m,v,original=saved['original_gains'],original_delta=saved['original_gain_delta'])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:221: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (array([[0, 0, 1, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0...       [1.        , 1.        , 1.        ],
+        [1.        , 1.        , 1.        ]]], shape=(501, 24, 3)), ...})
+kwargs = {'original': array([1., 1., 1., 1.], dtype=float32), 'original_delta': array([0., 0., 0., 0.], dtype=float32)}
+
+    def audit_case(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:153: NotImplementedError
+___ test_same_shape_false_measurement_family_is_not_accepted[pooled_release] ___
+
+row_fixture = (array([[0, 0, 1, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0...       [1.        , 1.        , 1.        ],
+        [1.        , 1.        , 1.        ]]], shape=(501, 24, 3)), ...})
+key = 'pooled_release'
+
+    @pytest.mark.parametrize('key',['state_before','state_after','endpoint_state','per_cell_release','pooled_release','endpoint_dan','edge_phases','group_phases'])
+    def test_same_shape_false_measurement_family_is_not_accepted(row_fixture,key):
+        from audit_darela_shadow import audit_case
+        trace,m,saved=row_fixture;v={k:a.copy() for k,a in saved.items()};v[key].flat[-1]+=.001
+>       report,_=audit_case(trace,m,v,original=saved['original_gains'],original_delta=saved['original_gain_delta'])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:221: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (array([[0, 0, 1, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0...       [1.        , 1.        , 1.        ],
+        [1.        , 1.        , 1.        ]]], shape=(501, 24, 3)), ...})
+kwargs = {'original': array([1., 1., 1., 1.], dtype=float32), 'original_delta': array([0., 0., 0., 0.], dtype=float32)}
+
+    def audit_case(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:153: NotImplementedError
+____ test_same_shape_false_measurement_family_is_not_accepted[endpoint_dan] ____
+
+row_fixture = (array([[0, 0, 1, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0...       [1.        , 1.        , 1.        ],
+        [1.        , 1.        , 1.        ]]], shape=(501, 24, 3)), ...})
+key = 'endpoint_dan'
+
+    @pytest.mark.parametrize('key',['state_before','state_after','endpoint_state','per_cell_release','pooled_release','endpoint_dan','edge_phases','group_phases'])
+    def test_same_shape_false_measurement_family_is_not_accepted(row_fixture,key):
+        from audit_darela_shadow import audit_case
+        trace,m,saved=row_fixture;v={k:a.copy() for k,a in saved.items()};v[key].flat[-1]+=.001
+>       report,_=audit_case(trace,m,v,original=saved['original_gains'],original_delta=saved['original_gain_delta'])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:221: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (array([[0, 0, 1, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0...       [1.        , 1.        , 1.        ],
+        [1.        , 1.        , 1.        ]]], shape=(501, 24, 3)), ...})
+kwargs = {'original': array([1., 1., 1., 1.], dtype=float32), 'original_delta': array([0., 0., 0., 0.], dtype=float32)}
+
+    def audit_case(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:153: NotImplementedError
+____ test_same_shape_false_measurement_family_is_not_accepted[edge_phases] _____
+
+row_fixture = (array([[0, 0, 1, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0...       [1.        , 1.        , 1.        ],
+        [1.        , 1.        , 1.        ]]], shape=(501, 24, 3)), ...})
+key = 'edge_phases'
+
+    @pytest.mark.parametrize('key',['state_before','state_after','endpoint_state','per_cell_release','pooled_release','endpoint_dan','edge_phases','group_phases'])
+    def test_same_shape_false_measurement_family_is_not_accepted(row_fixture,key):
+        from audit_darela_shadow import audit_case
+        trace,m,saved=row_fixture;v={k:a.copy() for k,a in saved.items()};v[key].flat[-1]+=.001
+>       report,_=audit_case(trace,m,v,original=saved['original_gains'],original_delta=saved['original_gain_delta'])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:221: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (array([[0, 0, 1, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0...       [1.        , 1.        , 1.        ],
+        [1.        , 1.        , 1.        ]]], shape=(501, 24, 3)), ...})
+kwargs = {'original': array([1., 1., 1., 1.], dtype=float32), 'original_delta': array([0., 0., 0., 0.], dtype=float32)}
+
+    def audit_case(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:153: NotImplementedError
+____ test_same_shape_false_measurement_family_is_not_accepted[group_phases] ____
+
+row_fixture = (array([[0, 0, 1, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0...       [1.        , 1.        , 1.        ],
+        [1.        , 1.        , 1.        ]]], shape=(501, 24, 3)), ...})
+key = 'group_phases'
+
+    @pytest.mark.parametrize('key',['state_before','state_after','endpoint_state','per_cell_release','pooled_release','endpoint_dan','edge_phases','group_phases'])
+    def test_same_shape_false_measurement_family_is_not_accepted(row_fixture,key):
+        from audit_darela_shadow import audit_case
+        trace,m,saved=row_fixture;v={k:a.copy() for k,a in saved.items()};v[key].flat[-1]+=.001
+>       report,_=audit_case(trace,m,v,original=saved['original_gains'],original_delta=saved['original_gain_delta'])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:221: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (array([[0, 0, 1, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0...       [1.        , 1.        , 1.        ],
+        [1.        , 1.        , 1.        ]]], shape=(501, 24, 3)), ...})
+kwargs = {'original': array([1., 1., 1., 1.], dtype=float32), 'original_delta': array([0., 0., 0., 0.], dtype=float32)}
+
+    def audit_case(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:153: NotImplementedError
+_____ test_discrete_identity_and_retained_accounting_family[map__body_ids] _____
+
+row_fixture = (array([[0, 0, 1, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0...       [1.        , 1.        , 1.        ],
+        [1.        , 1.        , 1.        ]]], shape=(501, 24, 3)), ...})
+key = 'map__body_ids'
+
+    @pytest.mark.parametrize('key',['map__body_ids','raw_dan_events','raw_kc_event_totals','raw_dan_event_totals','raw_compartment_event_counts','initial_gains','original_gains','original_gain_delta','publication_counts','bound_counts'])
+    def test_discrete_identity_and_retained_accounting_family(row_fixture,key):
+        from audit_darela_shadow import audit_case
+        trace,m,saved=row_fixture;v={k:a.copy() for k,a in saved.items()};v[key].flat[-1]+=1
+>       with pytest.raises(ValueError):audit_case(trace,m,v,original=saved['original_gains'],original_delta=saved['original_gain_delta'])
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:229: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (array([[0, 0, 1, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0...       [1.        , 1.        , 1.        ],
+        [1.        , 1.        , 1.        ]]], shape=(501, 24, 3)), ...})
+kwargs = {'original': array([1., 1., 1., 1.], dtype=float32), 'original_delta': array([0., 0., 0., 0.], dtype=float32)}
+
+    def audit_case(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:153: NotImplementedError
+____ test_discrete_identity_and_retained_accounting_family[raw_dan_events] _____
+
+row_fixture = (array([[0, 0, 1, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0...       [1.        , 1.        , 1.        ],
+        [1.        , 1.        , 1.        ]]], shape=(501, 24, 3)), ...})
+key = 'raw_dan_events'
+
+    @pytest.mark.parametrize('key',['map__body_ids','raw_dan_events','raw_kc_event_totals','raw_dan_event_totals','raw_compartment_event_counts','initial_gains','original_gains','original_gain_delta','publication_counts','bound_counts'])
+    def test_discrete_identity_and_retained_accounting_family(row_fixture,key):
+        from audit_darela_shadow import audit_case
+        trace,m,saved=row_fixture;v={k:a.copy() for k,a in saved.items()};v[key].flat[-1]+=1
+>       with pytest.raises(ValueError):audit_case(trace,m,v,original=saved['original_gains'],original_delta=saved['original_gain_delta'])
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:229: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (array([[0, 0, 1, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0...       [1.        , 1.        , 1.        ],
+        [1.        , 1.        , 1.        ]]], shape=(501, 24, 3)), ...})
+kwargs = {'original': array([1., 1., 1., 1.], dtype=float32), 'original_delta': array([0., 0., 0., 0.], dtype=float32)}
+
+    def audit_case(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:153: NotImplementedError
+__ test_discrete_identity_and_retained_accounting_family[raw_kc_event_totals] __
+
+row_fixture = (array([[0, 0, 1, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0...       [1.        , 1.        , 1.        ],
+        [1.        , 1.        , 1.        ]]], shape=(501, 24, 3)), ...})
+key = 'raw_kc_event_totals'
+
+    @pytest.mark.parametrize('key',['map__body_ids','raw_dan_events','raw_kc_event_totals','raw_dan_event_totals','raw_compartment_event_counts','initial_gains','original_gains','original_gain_delta','publication_counts','bound_counts'])
+    def test_discrete_identity_and_retained_accounting_family(row_fixture,key):
+        from audit_darela_shadow import audit_case
+        trace,m,saved=row_fixture;v={k:a.copy() for k,a in saved.items()};v[key].flat[-1]+=1
+>       with pytest.raises(ValueError):audit_case(trace,m,v,original=saved['original_gains'],original_delta=saved['original_gain_delta'])
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:229: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (array([[0, 0, 1, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0...       [1.        , 1.        , 1.        ],
+        [1.        , 1.        , 1.        ]]], shape=(501, 24, 3)), ...})
+kwargs = {'original': array([1., 1., 1., 1.], dtype=float32), 'original_delta': array([0., 0., 0., 0.], dtype=float32)}
+
+    def audit_case(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:153: NotImplementedError
+_ test_discrete_identity_and_retained_accounting_family[raw_dan_event_totals] __
+
+row_fixture = (array([[0, 0, 1, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0...       [1.        , 1.        , 1.        ],
+        [1.        , 1.        , 1.        ]]], shape=(501, 24, 3)), ...})
+key = 'raw_dan_event_totals'
+
+    @pytest.mark.parametrize('key',['map__body_ids','raw_dan_events','raw_kc_event_totals','raw_dan_event_totals','raw_compartment_event_counts','initial_gains','original_gains','original_gain_delta','publication_counts','bound_counts'])
+    def test_discrete_identity_and_retained_accounting_family(row_fixture,key):
+        from audit_darela_shadow import audit_case
+        trace,m,saved=row_fixture;v={k:a.copy() for k,a in saved.items()};v[key].flat[-1]+=1
+>       with pytest.raises(ValueError):audit_case(trace,m,v,original=saved['original_gains'],original_delta=saved['original_gain_delta'])
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:229: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (array([[0, 0, 1, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0...       [1.        , 1.        , 1.        ],
+        [1.        , 1.        , 1.        ]]], shape=(501, 24, 3)), ...})
+kwargs = {'original': array([1., 1., 1., 1.], dtype=float32), 'original_delta': array([0., 0., 0., 0.], dtype=float32)}
+
+    def audit_case(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:153: NotImplementedError
+_ test_discrete_identity_and_retained_accounting_family[raw_compartment_event_counts] _
+
+row_fixture = (array([[0, 0, 1, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0...       [1.        , 1.        , 1.        ],
+        [1.        , 1.        , 1.        ]]], shape=(501, 24, 3)), ...})
+key = 'raw_compartment_event_counts'
+
+    @pytest.mark.parametrize('key',['map__body_ids','raw_dan_events','raw_kc_event_totals','raw_dan_event_totals','raw_compartment_event_counts','initial_gains','original_gains','original_gain_delta','publication_counts','bound_counts'])
+    def test_discrete_identity_and_retained_accounting_family(row_fixture,key):
+        from audit_darela_shadow import audit_case
+        trace,m,saved=row_fixture;v={k:a.copy() for k,a in saved.items()};v[key].flat[-1]+=1
+>       with pytest.raises(ValueError):audit_case(trace,m,v,original=saved['original_gains'],original_delta=saved['original_gain_delta'])
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:229: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (array([[0, 0, 1, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0...       [1.        , 1.        , 1.        ],
+        [1.        , 1.        , 1.        ]]], shape=(501, 24, 3)), ...})
+kwargs = {'original': array([1., 1., 1., 1.], dtype=float32), 'original_delta': array([0., 0., 0., 0.], dtype=float32)}
+
+    def audit_case(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:153: NotImplementedError
+_____ test_discrete_identity_and_retained_accounting_family[initial_gains] _____
+
+row_fixture = (array([[0, 0, 1, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0...       [1.        , 1.        , 1.        ],
+        [1.        , 1.        , 1.        ]]], shape=(501, 24, 3)), ...})
+key = 'initial_gains'
+
+    @pytest.mark.parametrize('key',['map__body_ids','raw_dan_events','raw_kc_event_totals','raw_dan_event_totals','raw_compartment_event_counts','initial_gains','original_gains','original_gain_delta','publication_counts','bound_counts'])
+    def test_discrete_identity_and_retained_accounting_family(row_fixture,key):
+        from audit_darela_shadow import audit_case
+        trace,m,saved=row_fixture;v={k:a.copy() for k,a in saved.items()};v[key].flat[-1]+=1
+>       with pytest.raises(ValueError):audit_case(trace,m,v,original=saved['original_gains'],original_delta=saved['original_gain_delta'])
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:229: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (array([[0, 0, 1, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0...       [1.        , 1.        , 1.        ],
+        [1.        , 1.        , 1.        ]]], shape=(501, 24, 3)), ...})
+kwargs = {'original': array([1., 1., 1., 1.], dtype=float32), 'original_delta': array([0., 0., 0., 0.], dtype=float32)}
+
+    def audit_case(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:153: NotImplementedError
+____ test_discrete_identity_and_retained_accounting_family[original_gains] _____
+
+row_fixture = (array([[0, 0, 1, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0...       [1.        , 1.        , 1.        ],
+        [1.        , 1.        , 1.        ]]], shape=(501, 24, 3)), ...})
+key = 'original_gains'
+
+    @pytest.mark.parametrize('key',['map__body_ids','raw_dan_events','raw_kc_event_totals','raw_dan_event_totals','raw_compartment_event_counts','initial_gains','original_gains','original_gain_delta','publication_counts','bound_counts'])
+    def test_discrete_identity_and_retained_accounting_family(row_fixture,key):
+        from audit_darela_shadow import audit_case
+        trace,m,saved=row_fixture;v={k:a.copy() for k,a in saved.items()};v[key].flat[-1]+=1
+>       with pytest.raises(ValueError):audit_case(trace,m,v,original=saved['original_gains'],original_delta=saved['original_gain_delta'])
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:229: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (array([[0, 0, 1, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0...       [1.        , 1.        , 1.        ],
+        [1.        , 1.        , 1.        ]]], shape=(501, 24, 3)), ...})
+kwargs = {'original': array([1., 1., 1., 1.], dtype=float32), 'original_delta': array([0., 0., 0., 0.], dtype=float32)}
+
+    def audit_case(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:153: NotImplementedError
+__ test_discrete_identity_and_retained_accounting_family[original_gain_delta] __
+
+row_fixture = (array([[0, 0, 1, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0...       [1.        , 1.        , 1.        ],
+        [1.        , 1.        , 1.        ]]], shape=(501, 24, 3)), ...})
+key = 'original_gain_delta'
+
+    @pytest.mark.parametrize('key',['map__body_ids','raw_dan_events','raw_kc_event_totals','raw_dan_event_totals','raw_compartment_event_counts','initial_gains','original_gains','original_gain_delta','publication_counts','bound_counts'])
+    def test_discrete_identity_and_retained_accounting_family(row_fixture,key):
+        from audit_darela_shadow import audit_case
+        trace,m,saved=row_fixture;v={k:a.copy() for k,a in saved.items()};v[key].flat[-1]+=1
+>       with pytest.raises(ValueError):audit_case(trace,m,v,original=saved['original_gains'],original_delta=saved['original_gain_delta'])
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:229: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (array([[0, 0, 1, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0...       [1.        , 1.        , 1.        ],
+        [1.        , 1.        , 1.        ]]], shape=(501, 24, 3)), ...})
+kwargs = {'original': array([1., 1., 1., 1.], dtype=float32), 'original_delta': array([0., 0., 0., 0.], dtype=float32)}
+
+    def audit_case(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:153: NotImplementedError
+__ test_discrete_identity_and_retained_accounting_family[publication_counts] ___
+
+row_fixture = (array([[0, 0, 1, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0...       [1.        , 1.        , 1.        ],
+        [1.        , 1.        , 1.        ]]], shape=(501, 24, 3)), ...})
+key = 'publication_counts'
+
+    @pytest.mark.parametrize('key',['map__body_ids','raw_dan_events','raw_kc_event_totals','raw_dan_event_totals','raw_compartment_event_counts','initial_gains','original_gains','original_gain_delta','publication_counts','bound_counts'])
+    def test_discrete_identity_and_retained_accounting_family(row_fixture,key):
+        from audit_darela_shadow import audit_case
+        trace,m,saved=row_fixture;v={k:a.copy() for k,a in saved.items()};v[key].flat[-1]+=1
+>       with pytest.raises(ValueError):audit_case(trace,m,v,original=saved['original_gains'],original_delta=saved['original_gain_delta'])
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:229: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (array([[0, 0, 1, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0...       [1.        , 1.        , 1.        ],
+        [1.        , 1.        , 1.        ]]], shape=(501, 24, 3)), ...})
+kwargs = {'original': array([1., 1., 1., 1.], dtype=float32), 'original_delta': array([0., 0., 0., 0.], dtype=float32)}
+
+    def audit_case(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:153: NotImplementedError
+_____ test_discrete_identity_and_retained_accounting_family[bound_counts] ______
+
+row_fixture = (array([[0, 0, 1, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0...       [1.        , 1.        , 1.        ],
+        [1.        , 1.        , 1.        ]]], shape=(501, 24, 3)), ...})
+key = 'bound_counts'
+
+    @pytest.mark.parametrize('key',['map__body_ids','raw_dan_events','raw_kc_event_totals','raw_dan_event_totals','raw_compartment_event_counts','initial_gains','original_gains','original_gain_delta','publication_counts','bound_counts'])
+    def test_discrete_identity_and_retained_accounting_family(row_fixture,key):
+        from audit_darela_shadow import audit_case
+        trace,m,saved=row_fixture;v={k:a.copy() for k,a in saved.items()};v[key].flat[-1]+=1
+>       with pytest.raises(ValueError):audit_case(trace,m,v,original=saved['original_gains'],original_delta=saved['original_gain_delta'])
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:229: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (array([[0, 0, 1, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0...       [1.        , 1.        , 1.        ],
+        [1.        , 1.        , 1.        ]]], shape=(501, 24, 3)), ...})
+kwargs = {'original': array([1., 1., 1., 1.], dtype=float32), 'original_delta': array([0., 0., 0., 0.], dtype=float32)}
+
+    def audit_case(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:153: NotImplementedError
+______ test_publication_forgery_is_failure_not_rounding_ambiguity[gains] _______
+
+key = 'gains'
+
+    @pytest.mark.parametrize('key',['gains','electrical_gains'])
+    def test_publication_forgery_is_failure_not_rounding_ambiguity(key):
+        r={n:np.ones(2,np.float64 if 'double' in n else np.float32) for n in ['double_gains','gains','electrical_double_gains','electrical_gains']}
+        p={k:v.copy() for k,v in r.items()};p[key][0]=np.nextafter(np.float32(1),np.float32(2))
+>       assert compare_endpoints(r,p)['status']=='failed_publication'
+E       AssertionError: assert 'rounding_ambiguous' == 'failed_publication'
+E         
+E         - failed_publication
+E         + rounding_ambiguous
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:236: AssertionError
+_ test_publication_forgery_is_failure_not_rounding_ambiguity[electrical_gains] _
+
+key = 'electrical_gains'
+
+    @pytest.mark.parametrize('key',['gains','electrical_gains'])
+    def test_publication_forgery_is_failure_not_rounding_ambiguity(key):
+        r={n:np.ones(2,np.float64 if 'double' in n else np.float32) for n in ['double_gains','gains','electrical_double_gains','electrical_gains']}
+        p={k:v.copy() for k,v in r.items()};p[key][0]=np.nextafter(np.float32(1),np.float32(2))
+>       assert compare_endpoints(r,p)['status']=='failed_publication'
+E       AssertionError: assert 'rounding_ambiguous' == 'failed_publication'
+E         
+E         - failed_publication
+E         + rounding_ambiguous
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:236: AssertionError
+___________________ test_bound_loader_valid_numeric_control ____________________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1708/test_bound_loader_valid_numeri0')
+
+    def test_bound_loader_valid_numeric_control(tmp_path):
+        from audit_darela_shadow import load_bound_npz
+        import hashlib
+        p=tmp_path/'numbers.npz';np.savez(p,hello=np.arange(9,dtype=np.int32))
+        raw=p.read_bytes();item={'path':str(p),'bytes':len(raw),'sha256':hashlib.sha256(raw).hexdigest()}
+>       np.testing.assert_array_equal(load_bound_npz(p,item)['hello'],np.arange(9,dtype=np.int32))
+                                      ^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:244: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1708/test_bound_...alid_numeri0/numbers.npz', 'bytes': 300, 'sha256': 'f6bde0262afa982c44ddf3c2dc6cce8ab814c38280ec46168f4e94e8f733e2f4'})
+kwargs = {}
+
+    def load_bound_npz(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:157: NotImplementedError
+________ test_bound_loader_allocation_identity_and_path_family[object] _________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1708/test_bound_loader_allocation_i0')
+kind = 'object'
+
+    @pytest.mark.parametrize('kind',['object','extra_payload','missing_payload','huge_shape','duplicate_member','foreign_path','wrong_hash','negative_size','float_size','symlink'])
+    def test_bound_loader_allocation_identity_and_path_family(tmp_path,kind):
+        from audit_darela_shadow import load_bound_npz
+        import hashlib,io,zipfile
+        p=tmp_path/'numbers.npz'
+        if kind in ['extra_payload','missing_payload','huge_shape']:
+            z=io.BytesIO();np.lib.format.write_array_header_1_0(z,dict(descr='<f8',fortran_order=False,shape=(2**40 if kind=='huge_shape' else 1,)))
+            raw=z.getvalue()+(b'0'*16 if kind=='extra_payload' else b'')
+            with zipfile.ZipFile(p,'w') as f:f.writestr('a.npy',raw)
+        elif kind=='object':np.savez(p,a=np.array([{}],object))
+        elif kind=='duplicate_member':
+            z=io.BytesIO();np.save(z,np.array([1.]))
+            with zipfile.ZipFile(p,'w') as f:
+                f.writestr('a.npy',z.getvalue());f.writestr('a.npy',z.getvalue())
+        else:np.savez(p,a=np.arange(2))
+        raw=p.read_bytes();item={'path':str(p),'bytes':len(raw),'sha256':hashlib.sha256(raw).hexdigest()}
+        if kind=='foreign_path':item['path']=str(tmp_path/'other.npz')
+        elif kind=='wrong_hash':item['sha256']='0'*64
+        elif kind=='negative_size':item['bytes']=-1
+        elif kind=='float_size':item['bytes']=float(len(raw))
+        elif kind=='symlink':q=tmp_path/'alias.npz';q.symlink_to(p);p=q;item['path']=str(p)
+>       with pytest.raises(ValueError):load_bound_npz(p,item)
+                                       ^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:268: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1708/test_bound_...llocation_i0/numbers.npz', 'bytes': 406, 'sha256': '3867a799af309bb597570bb0a86c12fc521a859e73dbed944caa660b0c47bba4'})
+kwargs = {}
+
+    def load_bound_npz(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:157: NotImplementedError
+_____ test_bound_loader_allocation_identity_and_path_family[extra_payload] _____
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1708/test_bound_loader_allocation_i1')
+kind = 'extra_payload'
+
+    @pytest.mark.parametrize('kind',['object','extra_payload','missing_payload','huge_shape','duplicate_member','foreign_path','wrong_hash','negative_size','float_size','symlink'])
+    def test_bound_loader_allocation_identity_and_path_family(tmp_path,kind):
+        from audit_darela_shadow import load_bound_npz
+        import hashlib,io,zipfile
+        p=tmp_path/'numbers.npz'
+        if kind in ['extra_payload','missing_payload','huge_shape']:
+            z=io.BytesIO();np.lib.format.write_array_header_1_0(z,dict(descr='<f8',fortran_order=False,shape=(2**40 if kind=='huge_shape' else 1,)))
+            raw=z.getvalue()+(b'0'*16 if kind=='extra_payload' else b'')
+            with zipfile.ZipFile(p,'w') as f:f.writestr('a.npy',raw)
+        elif kind=='object':np.savez(p,a=np.array([{}],object))
+        elif kind=='duplicate_member':
+            z=io.BytesIO();np.save(z,np.array([1.]))
+            with zipfile.ZipFile(p,'w') as f:
+                f.writestr('a.npy',z.getvalue());f.writestr('a.npy',z.getvalue())
+        else:np.savez(p,a=np.arange(2))
+        raw=p.read_bytes();item={'path':str(p),'bytes':len(raw),'sha256':hashlib.sha256(raw).hexdigest()}
+        if kind=='foreign_path':item['path']=str(tmp_path/'other.npz')
+        elif kind=='wrong_hash':item['sha256']='0'*64
+        elif kind=='negative_size':item['bytes']=-1
+        elif kind=='float_size':item['bytes']=float(len(raw))
+        elif kind=='symlink':q=tmp_path/'alias.npz';q.symlink_to(p);p=q;item['path']=str(p)
+>       with pytest.raises(ValueError):load_bound_npz(p,item)
+                                       ^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:268: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1708/test_bound_...llocation_i1/numbers.npz', 'bytes': 252, 'sha256': 'cd430f0a786d1a7a862fe4ec6c1101b7cb4b045434461bd7a7a23eaf23e10e1c'})
+kwargs = {}
+
+    def load_bound_npz(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:157: NotImplementedError
+____ test_bound_loader_allocation_identity_and_path_family[missing_payload] ____
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1708/test_bound_loader_allocation_i2')
+kind = 'missing_payload'
+
+    @pytest.mark.parametrize('kind',['object','extra_payload','missing_payload','huge_shape','duplicate_member','foreign_path','wrong_hash','negative_size','float_size','symlink'])
+    def test_bound_loader_allocation_identity_and_path_family(tmp_path,kind):
+        from audit_darela_shadow import load_bound_npz
+        import hashlib,io,zipfile
+        p=tmp_path/'numbers.npz'
+        if kind in ['extra_payload','missing_payload','huge_shape']:
+            z=io.BytesIO();np.lib.format.write_array_header_1_0(z,dict(descr='<f8',fortran_order=False,shape=(2**40 if kind=='huge_shape' else 1,)))
+            raw=z.getvalue()+(b'0'*16 if kind=='extra_payload' else b'')
+            with zipfile.ZipFile(p,'w') as f:f.writestr('a.npy',raw)
+        elif kind=='object':np.savez(p,a=np.array([{}],object))
+        elif kind=='duplicate_member':
+            z=io.BytesIO();np.save(z,np.array([1.]))
+            with zipfile.ZipFile(p,'w') as f:
+                f.writestr('a.npy',z.getvalue());f.writestr('a.npy',z.getvalue())
+        else:np.savez(p,a=np.arange(2))
+        raw=p.read_bytes();item={'path':str(p),'bytes':len(raw),'sha256':hashlib.sha256(raw).hexdigest()}
+        if kind=='foreign_path':item['path']=str(tmp_path/'other.npz')
+        elif kind=='wrong_hash':item['sha256']='0'*64
+        elif kind=='negative_size':item['bytes']=-1
+        elif kind=='float_size':item['bytes']=float(len(raw))
+        elif kind=='symlink':q=tmp_path/'alias.npz';q.symlink_to(p);p=q;item['path']=str(p)
+>       with pytest.raises(ValueError):load_bound_npz(p,item)
+                                       ^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:268: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1708/test_bound_...llocation_i2/numbers.npz', 'bytes': 236, 'sha256': '96d5b788aab627a9b1d2e779f695682ca38c16e26595cd7a74ab30a47a8af287'})
+kwargs = {}
+
+    def load_bound_npz(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:157: NotImplementedError
+______ test_bound_loader_allocation_identity_and_path_family[huge_shape] _______
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1708/test_bound_loader_allocation_i3')
+kind = 'huge_shape'
+
+    @pytest.mark.parametrize('kind',['object','extra_payload','missing_payload','huge_shape','duplicate_member','foreign_path','wrong_hash','negative_size','float_size','symlink'])
+    def test_bound_loader_allocation_identity_and_path_family(tmp_path,kind):
+        from audit_darela_shadow import load_bound_npz
+        import hashlib,io,zipfile
+        p=tmp_path/'numbers.npz'
+        if kind in ['extra_payload','missing_payload','huge_shape']:
+            z=io.BytesIO();np.lib.format.write_array_header_1_0(z,dict(descr='<f8',fortran_order=False,shape=(2**40 if kind=='huge_shape' else 1,)))
+            raw=z.getvalue()+(b'0'*16 if kind=='extra_payload' else b'')
+            with zipfile.ZipFile(p,'w') as f:f.writestr('a.npy',raw)
+        elif kind=='object':np.savez(p,a=np.array([{}],object))
+        elif kind=='duplicate_member':
+            z=io.BytesIO();np.save(z,np.array([1.]))
+            with zipfile.ZipFile(p,'w') as f:
+                f.writestr('a.npy',z.getvalue());f.writestr('a.npy',z.getvalue())
+        else:np.savez(p,a=np.arange(2))
+        raw=p.read_bytes();item={'path':str(p),'bytes':len(raw),'sha256':hashlib.sha256(raw).hexdigest()}
+        if kind=='foreign_path':item['path']=str(tmp_path/'other.npz')
+        elif kind=='wrong_hash':item['sha256']='0'*64
+        elif kind=='negative_size':item['bytes']=-1
+        elif kind=='float_size':item['bytes']=float(len(raw))
+        elif kind=='symlink':q=tmp_path/'alias.npz';q.symlink_to(p);p=q;item['path']=str(p)
+>       with pytest.raises(ValueError):load_bound_npz(p,item)
+                                       ^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:268: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1708/test_bound_...llocation_i3/numbers.npz', 'bytes': 236, 'sha256': '8fcdf146be50ebaea980ffe78f193348ccddcff23ce1164126c9ac016c31a881'})
+kwargs = {}
+
+    def load_bound_npz(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:157: NotImplementedError
+___ test_bound_loader_allocation_identity_and_path_family[duplicate_member] ____
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1708/test_bound_loader_allocation_i4')
+kind = 'duplicate_member'
+
+    @pytest.mark.parametrize('kind',['object','extra_payload','missing_payload','huge_shape','duplicate_member','foreign_path','wrong_hash','negative_size','float_size','symlink'])
+    def test_bound_loader_allocation_identity_and_path_family(tmp_path,kind):
+        from audit_darela_shadow import load_bound_npz
+        import hashlib,io,zipfile
+        p=tmp_path/'numbers.npz'
+        if kind in ['extra_payload','missing_payload','huge_shape']:
+            z=io.BytesIO();np.lib.format.write_array_header_1_0(z,dict(descr='<f8',fortran_order=False,shape=(2**40 if kind=='huge_shape' else 1,)))
+            raw=z.getvalue()+(b'0'*16 if kind=='extra_payload' else b'')
+            with zipfile.ZipFile(p,'w') as f:f.writestr('a.npy',raw)
+        elif kind=='object':np.savez(p,a=np.array([{}],object))
+        elif kind=='duplicate_member':
+            z=io.BytesIO();np.save(z,np.array([1.]))
+            with zipfile.ZipFile(p,'w') as f:
+                f.writestr('a.npy',z.getvalue());f.writestr('a.npy',z.getvalue())
+        else:np.savez(p,a=np.arange(2))
+        raw=p.read_bytes();item={'path':str(p),'bytes':len(raw),'sha256':hashlib.sha256(raw).hexdigest()}
+        if kind=='foreign_path':item['path']=str(tmp_path/'other.npz')
+        elif kind=='wrong_hash':item['sha256']='0'*64
+        elif kind=='negative_size':item['bytes']=-1
+        elif kind=='float_size':item['bytes']=float(len(raw))
+        elif kind=='symlink':q=tmp_path/'alias.npz';q.symlink_to(p);p=q;item['path']=str(p)
+>       with pytest.raises(ValueError):load_bound_npz(p,item)
+                                       ^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:268: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1708/test_bound_...llocation_i4/numbers.npz', 'bytes': 466, 'sha256': '6e2201d1263cc1d0266238af6c7860d10fd002527a2e42ea0bae1a44e36cb67b'})
+kwargs = {}
+
+    def load_bound_npz(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:157: NotImplementedError
+_____ test_bound_loader_allocation_identity_and_path_family[foreign_path] ______
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1708/test_bound_loader_allocation_i5')
+kind = 'foreign_path'
+
+    @pytest.mark.parametrize('kind',['object','extra_payload','missing_payload','huge_shape','duplicate_member','foreign_path','wrong_hash','negative_size','float_size','symlink'])
+    def test_bound_loader_allocation_identity_and_path_family(tmp_path,kind):
+        from audit_darela_shadow import load_bound_npz
+        import hashlib,io,zipfile
+        p=tmp_path/'numbers.npz'
+        if kind in ['extra_payload','missing_payload','huge_shape']:
+            z=io.BytesIO();np.lib.format.write_array_header_1_0(z,dict(descr='<f8',fortran_order=False,shape=(2**40 if kind=='huge_shape' else 1,)))
+            raw=z.getvalue()+(b'0'*16 if kind=='extra_payload' else b'')
+            with zipfile.ZipFile(p,'w') as f:f.writestr('a.npy',raw)
+        elif kind=='object':np.savez(p,a=np.array([{}],object))
+        elif kind=='duplicate_member':
+            z=io.BytesIO();np.save(z,np.array([1.]))
+            with zipfile.ZipFile(p,'w') as f:
+                f.writestr('a.npy',z.getvalue());f.writestr('a.npy',z.getvalue())
+        else:np.savez(p,a=np.arange(2))
+        raw=p.read_bytes();item={'path':str(p),'bytes':len(raw),'sha256':hashlib.sha256(raw).hexdigest()}
+        if kind=='foreign_path':item['path']=str(tmp_path/'other.npz')
+        elif kind=='wrong_hash':item['sha256']='0'*64
+        elif kind=='negative_size':item['bytes']=-1
+        elif kind=='float_size':item['bytes']=float(len(raw))
+        elif kind=='symlink':q=tmp_path/'alias.npz';q.symlink_to(p);p=q;item['path']=str(p)
+>       with pytest.raises(ValueError):load_bound_npz(p,item)
+                                       ^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:268: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1708/test_bound_..._allocation_i5/other.npz', 'bytes': 272, 'sha256': '9096d27e9c7f362621e78f60e3f0e9886da390f71102dfe1ed7cdc0545680633'})
+kwargs = {}
+
+    def load_bound_npz(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:157: NotImplementedError
+______ test_bound_loader_allocation_identity_and_path_family[wrong_hash] _______
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1708/test_bound_loader_allocation_i6')
+kind = 'wrong_hash'
+
+    @pytest.mark.parametrize('kind',['object','extra_payload','missing_payload','huge_shape','duplicate_member','foreign_path','wrong_hash','negative_size','float_size','symlink'])
+    def test_bound_loader_allocation_identity_and_path_family(tmp_path,kind):
+        from audit_darela_shadow import load_bound_npz
+        import hashlib,io,zipfile
+        p=tmp_path/'numbers.npz'
+        if kind in ['extra_payload','missing_payload','huge_shape']:
+            z=io.BytesIO();np.lib.format.write_array_header_1_0(z,dict(descr='<f8',fortran_order=False,shape=(2**40 if kind=='huge_shape' else 1,)))
+            raw=z.getvalue()+(b'0'*16 if kind=='extra_payload' else b'')
+            with zipfile.ZipFile(p,'w') as f:f.writestr('a.npy',raw)
+        elif kind=='object':np.savez(p,a=np.array([{}],object))
+        elif kind=='duplicate_member':
+            z=io.BytesIO();np.save(z,np.array([1.]))
+            with zipfile.ZipFile(p,'w') as f:
+                f.writestr('a.npy',z.getvalue());f.writestr('a.npy',z.getvalue())
+        else:np.savez(p,a=np.arange(2))
+        raw=p.read_bytes();item={'path':str(p),'bytes':len(raw),'sha256':hashlib.sha256(raw).hexdigest()}
+        if kind=='foreign_path':item['path']=str(tmp_path/'other.npz')
+        elif kind=='wrong_hash':item['sha256']='0'*64
+        elif kind=='negative_size':item['bytes']=-1
+        elif kind=='float_size':item['bytes']=float(len(raw))
+        elif kind=='symlink':q=tmp_path/'alias.npz';q.symlink_to(p);p=q;item['path']=str(p)
+>       with pytest.raises(ValueError):load_bound_npz(p,item)
+                                       ^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:268: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1708/test_bound_...llocation_i6/numbers.npz', 'bytes': 272, 'sha256': '0000000000000000000000000000000000000000000000000000000000000000'})
+kwargs = {}
+
+    def load_bound_npz(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:157: NotImplementedError
+_____ test_bound_loader_allocation_identity_and_path_family[negative_size] _____
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1708/test_bound_loader_allocation_i7')
+kind = 'negative_size'
+
+    @pytest.mark.parametrize('kind',['object','extra_payload','missing_payload','huge_shape','duplicate_member','foreign_path','wrong_hash','negative_size','float_size','symlink'])
+    def test_bound_loader_allocation_identity_and_path_family(tmp_path,kind):
+        from audit_darela_shadow import load_bound_npz
+        import hashlib,io,zipfile
+        p=tmp_path/'numbers.npz'
+        if kind in ['extra_payload','missing_payload','huge_shape']:
+            z=io.BytesIO();np.lib.format.write_array_header_1_0(z,dict(descr='<f8',fortran_order=False,shape=(2**40 if kind=='huge_shape' else 1,)))
+            raw=z.getvalue()+(b'0'*16 if kind=='extra_payload' else b'')
+            with zipfile.ZipFile(p,'w') as f:f.writestr('a.npy',raw)
+        elif kind=='object':np.savez(p,a=np.array([{}],object))
+        elif kind=='duplicate_member':
+            z=io.BytesIO();np.save(z,np.array([1.]))
+            with zipfile.ZipFile(p,'w') as f:
+                f.writestr('a.npy',z.getvalue());f.writestr('a.npy',z.getvalue())
+        else:np.savez(p,a=np.arange(2))
+        raw=p.read_bytes();item={'path':str(p),'bytes':len(raw),'sha256':hashlib.sha256(raw).hexdigest()}
+        if kind=='foreign_path':item['path']=str(tmp_path/'other.npz')
+        elif kind=='wrong_hash':item['sha256']='0'*64
+        elif kind=='negative_size':item['bytes']=-1
+        elif kind=='float_size':item['bytes']=float(len(raw))
+        elif kind=='symlink':q=tmp_path/'alias.npz';q.symlink_to(p);p=q;item['path']=str(p)
+>       with pytest.raises(ValueError):load_bound_npz(p,item)
+                                       ^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:268: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1708/test_bound_...allocation_i7/numbers.npz', 'bytes': -1, 'sha256': '9096d27e9c7f362621e78f60e3f0e9886da390f71102dfe1ed7cdc0545680633'})
+kwargs = {}
+
+    def load_bound_npz(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:157: NotImplementedError
+______ test_bound_loader_allocation_identity_and_path_family[float_size] _______
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1708/test_bound_loader_allocation_i8')
+kind = 'float_size'
+
+    @pytest.mark.parametrize('kind',['object','extra_payload','missing_payload','huge_shape','duplicate_member','foreign_path','wrong_hash','negative_size','float_size','symlink'])
+    def test_bound_loader_allocation_identity_and_path_family(tmp_path,kind):
+        from audit_darela_shadow import load_bound_npz
+        import hashlib,io,zipfile
+        p=tmp_path/'numbers.npz'
+        if kind in ['extra_payload','missing_payload','huge_shape']:
+            z=io.BytesIO();np.lib.format.write_array_header_1_0(z,dict(descr='<f8',fortran_order=False,shape=(2**40 if kind=='huge_shape' else 1,)))
+            raw=z.getvalue()+(b'0'*16 if kind=='extra_payload' else b'')
+            with zipfile.ZipFile(p,'w') as f:f.writestr('a.npy',raw)
+        elif kind=='object':np.savez(p,a=np.array([{}],object))
+        elif kind=='duplicate_member':
+            z=io.BytesIO();np.save(z,np.array([1.]))
+            with zipfile.ZipFile(p,'w') as f:
+                f.writestr('a.npy',z.getvalue());f.writestr('a.npy',z.getvalue())
+        else:np.savez(p,a=np.arange(2))
+        raw=p.read_bytes();item={'path':str(p),'bytes':len(raw),'sha256':hashlib.sha256(raw).hexdigest()}
+        if kind=='foreign_path':item['path']=str(tmp_path/'other.npz')
+        elif kind=='wrong_hash':item['sha256']='0'*64
+        elif kind=='negative_size':item['bytes']=-1
+        elif kind=='float_size':item['bytes']=float(len(raw))
+        elif kind=='symlink':q=tmp_path/'alias.npz';q.symlink_to(p);p=q;item['path']=str(p)
+>       with pytest.raises(ValueError):load_bound_npz(p,item)
+                                       ^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:268: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1708/test_bound_...ocation_i8/numbers.npz', 'bytes': 272.0, 'sha256': '9096d27e9c7f362621e78f60e3f0e9886da390f71102dfe1ed7cdc0545680633'})
+kwargs = {}
+
+    def load_bound_npz(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:157: NotImplementedError
+________ test_bound_loader_allocation_identity_and_path_family[symlink] ________
+
+tmp_path = PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1708/test_bound_loader_allocation_i9')
+kind = 'symlink'
+
+    @pytest.mark.parametrize('kind',['object','extra_payload','missing_payload','huge_shape','duplicate_member','foreign_path','wrong_hash','negative_size','float_size','symlink'])
+    def test_bound_loader_allocation_identity_and_path_family(tmp_path,kind):
+        from audit_darela_shadow import load_bound_npz
+        import hashlib,io,zipfile
+        p=tmp_path/'numbers.npz'
+        if kind in ['extra_payload','missing_payload','huge_shape']:
+            z=io.BytesIO();np.lib.format.write_array_header_1_0(z,dict(descr='<f8',fortran_order=False,shape=(2**40 if kind=='huge_shape' else 1,)))
+            raw=z.getvalue()+(b'0'*16 if kind=='extra_payload' else b'')
+            with zipfile.ZipFile(p,'w') as f:f.writestr('a.npy',raw)
+        elif kind=='object':np.savez(p,a=np.array([{}],object))
+        elif kind=='duplicate_member':
+            z=io.BytesIO();np.save(z,np.array([1.]))
+            with zipfile.ZipFile(p,'w') as f:
+                f.writestr('a.npy',z.getvalue());f.writestr('a.npy',z.getvalue())
+        else:np.savez(p,a=np.arange(2))
+        raw=p.read_bytes();item={'path':str(p),'bytes':len(raw),'sha256':hashlib.sha256(raw).hexdigest()}
+        if kind=='foreign_path':item['path']=str(tmp_path/'other.npz')
+        elif kind=='wrong_hash':item['sha256']='0'*64
+        elif kind=='negative_size':item['bytes']=-1
+        elif kind=='float_size':item['bytes']=float(len(raw))
+        elif kind=='symlink':q=tmp_path/'alias.npz';q.symlink_to(p);p=q;item['path']=str(p)
+>       with pytest.raises(ValueError):load_bound_npz(p,item)
+                                       ^^^^^^^^^^^^^^^^^^^^^^
+
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py:268: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (PosixPath('/private/var/folders/fh/tnbpt3jd26l_4b09q54m033c0000gn/T/pytest-of-davidmontgomery/pytest-1708/test_bound_..._allocation_i9/alias.npz', 'bytes': 272, 'sha256': '9096d27e9c7f362621e78f60e3f0e9886da390f71102dfe1ed7cdc0545680633'})
+kwargs = {}
+
+    def load_bound_npz(*args, **kwargs):
+>       raise NotImplementedError
+E       NotImplementedError
+
+output/collaboration/reward-mechanism-repair/audit_darela_shadow.py:157: NotImplementedError
+=============================== warnings summary ===============================
+output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_bound_loader_allocation_identity_and_path_family[duplicate_member]
+  /Users/davidmontgomery/.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/zipfile/__init__.py:1612: UserWarning: Duplicate name: 'a.npy'
+    return self._open_to_write(zinfo, force_zip64=force_zip64)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_complete_synthetic_row_is_accepted
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_same_shape_false_measurement_family_is_not_accepted[state_before]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_same_shape_false_measurement_family_is_not_accepted[state_after]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_same_shape_false_measurement_family_is_not_accepted[endpoint_state]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_same_shape_false_measurement_family_is_not_accepted[per_cell_release]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_same_shape_false_measurement_family_is_not_accepted[pooled_release]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_same_shape_false_measurement_family_is_not_accepted[endpoint_dan]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_same_shape_false_measurement_family_is_not_accepted[edge_phases]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_same_shape_false_measurement_family_is_not_accepted[group_phases]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_discrete_identity_and_retained_accounting_family[map__body_ids]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_discrete_identity_and_retained_accounting_family[raw_dan_events]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_discrete_identity_and_retained_accounting_family[raw_kc_event_totals]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_discrete_identity_and_retained_accounting_family[raw_dan_event_totals]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_discrete_identity_and_retained_accounting_family[raw_compartment_event_counts]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_discrete_identity_and_retained_accounting_family[initial_gains]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_discrete_identity_and_retained_accounting_family[original_gains]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_discrete_identity_and_retained_accounting_family[original_gain_delta]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_discrete_identity_and_retained_accounting_family[publication_counts]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_discrete_identity_and_retained_accounting_family[bound_counts]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_publication_forgery_is_failure_not_rounding_ambiguity[gains]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_publication_forgery_is_failure_not_rounding_ambiguity[electrical_gains]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_bound_loader_valid_numeric_control
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_bound_loader_allocation_identity_and_path_family[object]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_bound_loader_allocation_identity_and_path_family[extra_payload]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_bound_loader_allocation_identity_and_path_family[missing_payload]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_bound_loader_allocation_identity_and_path_family[huge_shape]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_bound_loader_allocation_identity_and_path_family[duplicate_member]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_bound_loader_allocation_identity_and_path_family[foreign_path]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_bound_loader_allocation_identity_and_path_family[wrong_hash]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_bound_loader_allocation_identity_and_path_family[negative_size]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_bound_loader_allocation_identity_and_path_family[float_size]
+FAILED output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py::test_bound_loader_allocation_identity_and_path_family[symlink]
+32 failed, 48 passed, 1 warning in 1.18s

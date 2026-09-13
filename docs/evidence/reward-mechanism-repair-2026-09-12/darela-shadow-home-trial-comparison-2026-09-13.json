@@ -1,0 +1,392 @@
+{
+  "scope": "Descriptive exact binary32-derived per-trial sums across all eligible home edges; no new model calculation.",
+  "more_depressive_trials": 32,
+  "equal_trials": 0,
+  "less_depressive_trials": 0,
+  "rows": [
+    {
+      "index": 0,
+      "metadata": {
+        "game": 4362,
+        "seed_set": "base",
+        "seed": 4404,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "original_home_gain_delta_sum": -0.03740561008453369,
+      "candidate_home_gain_delta_sum": -0.11722689867019653,
+      "difference": -0.07982128858566284
+    },
+    {
+      "index": 1,
+      "metadata": {
+        "game": 4362,
+        "seed_set": "alt",
+        "seed": 1004404,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "original_home_gain_delta_sum": -0.07136553525924683,
+      "candidate_home_gain_delta_sum": -0.114288330078125,
+      "difference": -0.042922794818878174
+    },
+    {
+      "index": 2,
+      "metadata": {
+        "game": 4366,
+        "seed_set": "base",
+        "seed": 4408,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "original_home_gain_delta_sum": -0.01059800386428833,
+      "candidate_home_gain_delta_sum": -0.025580525398254395,
+      "difference": -0.014982521533966064
+    },
+    {
+      "index": 3,
+      "metadata": {
+        "game": 4366,
+        "seed_set": "alt",
+        "seed": 1004408,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "original_home_gain_delta_sum": 0.11782455444335938,
+      "candidate_home_gain_delta_sum": 0.1105504035949707,
+      "difference": -0.007274150848388672
+    },
+    {
+      "index": 4,
+      "metadata": {
+        "game": 4370,
+        "seed_set": "base",
+        "seed": 4412,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "original_home_gain_delta_sum": 0.25449538230895996,
+      "candidate_home_gain_delta_sum": 0.06959027051925659,
+      "difference": -0.18490511178970337
+    },
+    {
+      "index": 5,
+      "metadata": {
+        "game": 4370,
+        "seed_set": "alt",
+        "seed": 1004412,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "original_home_gain_delta_sum": -0.1078498363494873,
+      "candidate_home_gain_delta_sum": -0.29700589179992676,
+      "difference": -0.18915605545043945
+    },
+    {
+      "index": 6,
+      "metadata": {
+        "game": 4374,
+        "seed_set": "base",
+        "seed": 4416,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "original_home_gain_delta_sum": -0.1349077820777893,
+      "candidate_home_gain_delta_sum": -0.14426589012145996,
+      "difference": -0.009358108043670654
+    },
+    {
+      "index": 7,
+      "metadata": {
+        "game": 4374,
+        "seed_set": "alt",
+        "seed": 1004416,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "original_home_gain_delta_sum": -0.19844037294387817,
+      "candidate_home_gain_delta_sum": -0.20956027507781982,
+      "difference": -0.01111990213394165
+    },
+    {
+      "index": 8,
+      "metadata": {
+        "game": 4378,
+        "seed_set": "base",
+        "seed": 4420,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "original_home_gain_delta_sum": -0.6350186467170715,
+      "candidate_home_gain_delta_sum": -0.8146980404853821,
+      "difference": -0.17967939376831055
+    },
+    {
+      "index": 9,
+      "metadata": {
+        "game": 4378,
+        "seed_set": "alt",
+        "seed": 1004420,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "original_home_gain_delta_sum": -0.2114952802658081,
+      "candidate_home_gain_delta_sum": -0.351696252822876,
+      "difference": -0.14020097255706787
+    },
+    {
+      "index": 10,
+      "metadata": {
+        "game": 4383,
+        "seed_set": "base",
+        "seed": 4425,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "original_home_gain_delta_sum": 0.020790934562683105,
+      "candidate_home_gain_delta_sum": -0.17587345838546753,
+      "difference": -0.19666439294815063
+    },
+    {
+      "index": 11,
+      "metadata": {
+        "game": 4383,
+        "seed_set": "alt",
+        "seed": 1004425,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "original_home_gain_delta_sum": 0.5103757381439209,
+      "candidate_home_gain_delta_sum": 0.3312596082687378,
+      "difference": -0.1791161298751831
+    },
+    {
+      "index": 12,
+      "metadata": {
+        "game": 4387,
+        "seed_set": "base",
+        "seed": 4429,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "original_home_gain_delta_sum": -0.23866534233093262,
+      "candidate_home_gain_delta_sum": -0.3493584990501404,
+      "difference": -0.11069315671920776
+    },
+    {
+      "index": 13,
+      "metadata": {
+        "game": 4387,
+        "seed_set": "alt",
+        "seed": 1004429,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "original_home_gain_delta_sum": -0.2918698787689209,
+      "candidate_home_gain_delta_sum": -0.40229254961013794,
+      "difference": -0.11042267084121704
+    },
+    {
+      "index": 14,
+      "metadata": {
+        "game": 4391,
+        "seed_set": "base",
+        "seed": 4433,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "original_home_gain_delta_sum": -0.04941391944885254,
+      "candidate_home_gain_delta_sum": -0.0891876220703125,
+      "difference": -0.03977370262145996
+    },
+    {
+      "index": 15,
+      "metadata": {
+        "game": 4391,
+        "seed_set": "alt",
+        "seed": 1004433,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "original_home_gain_delta_sum": -0.23508840799331665,
+      "candidate_home_gain_delta_sum": -0.31608569622039795,
+      "difference": -0.0809972882270813
+    },
+    {
+      "index": 16,
+      "metadata": {
+        "game": 4395,
+        "seed_set": "base",
+        "seed": 2004437,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "original_home_gain_delta_sum": -0.46193116903305054,
+      "candidate_home_gain_delta_sum": -0.5825113654136658,
+      "difference": -0.12058019638061523
+    },
+    {
+      "index": 17,
+      "metadata": {
+        "game": 4395,
+        "seed_set": "alt",
+        "seed": 3004437,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "original_home_gain_delta_sum": -0.050952374935150146,
+      "candidate_home_gain_delta_sum": -0.14613312482833862,
+      "difference": -0.09518074989318848
+    },
+    {
+      "index": 18,
+      "metadata": {
+        "game": 4399,
+        "seed_set": "base",
+        "seed": 2004441,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "original_home_gain_delta_sum": -0.23405802249908447,
+      "candidate_home_gain_delta_sum": -0.3627263307571411,
+      "difference": -0.12866830825805664
+    },
+    {
+      "index": 19,
+      "metadata": {
+        "game": 4399,
+        "seed_set": "alt",
+        "seed": 3004441,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "original_home_gain_delta_sum": 0.19108784198760986,
+      "candidate_home_gain_delta_sum": 0.10439753532409668,
+      "difference": -0.08669030666351318
+    },
+    {
+      "index": 20,
+      "metadata": {
+        "game": 4404,
+        "seed_set": "base",
+        "seed": 2004446,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "original_home_gain_delta_sum": 0.14975744485855103,
+      "candidate_home_gain_delta_sum": 0.11591857671737671,
+      "difference": -0.033838868141174316
+    },
+    {
+      "index": 21,
+      "metadata": {
+        "game": 4404,
+        "seed_set": "alt",
+        "seed": 3004446,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "original_home_gain_delta_sum": -0.3920947313308716,
+      "candidate_home_gain_delta_sum": -0.441619873046875,
+      "difference": -0.04952514171600342
+    },
+    {
+      "index": 22,
+      "metadata": {
+        "game": 4408,
+        "seed_set": "base",
+        "seed": 2004450,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "original_home_gain_delta_sum": -0.08033424615859985,
+      "candidate_home_gain_delta_sum": -0.16390037536621094,
+      "difference": -0.08356612920761108
+    },
+    {
+      "index": 23,
+      "metadata": {
+        "game": 4408,
+        "seed_set": "alt",
+        "seed": 3004450,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "original_home_gain_delta_sum": -0.2635941505432129,
+      "candidate_home_gain_delta_sum": -0.32439911365509033,
+      "difference": -0.06080496311187744
+    },
+    {
+      "index": 24,
+      "metadata": {
+        "game": 4412,
+        "seed_set": "base",
+        "seed": 2004454,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "original_home_gain_delta_sum": 0.006715536117553711,
+      "candidate_home_gain_delta_sum": -0.08839923143386841,
+      "difference": -0.09511476755142212
+    },
+    {
+      "index": 25,
+      "metadata": {
+        "game": 4412,
+        "seed_set": "alt",
+        "seed": 3004454,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "original_home_gain_delta_sum": -0.1894911527633667,
+      "candidate_home_gain_delta_sum": -0.25864720344543457,
+      "difference": -0.06915605068206787
+    },
+    {
+      "index": 26,
+      "metadata": {
+        "game": 4416,
+        "seed_set": "base",
+        "seed": 2004458,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "original_home_gain_delta_sum": -0.030141770839691162,
+      "candidate_home_gain_delta_sum": -0.09827148914337158,
+      "difference": -0.06812971830368042
+    },
+    {
+      "index": 27,
+      "metadata": {
+        "game": 4416,
+        "seed_set": "alt",
+        "seed": 3004458,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "original_home_gain_delta_sum": 0.1248326301574707,
+      "candidate_home_gain_delta_sum": 0.10459256172180176,
+      "difference": -0.020240068435668945
+    },
+    {
+      "index": 28,
+      "metadata": {
+        "game": 4420,
+        "seed_set": "base",
+        "seed": 2004462,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "original_home_gain_delta_sum": -1.3773916363716125,
+      "candidate_home_gain_delta_sum": -2.144762337207794,
+      "difference": -0.7673707008361816
+    },
+    {
+      "index": 29,
+      "metadata": {
+        "game": 4420,
+        "seed_set": "alt",
+        "seed": 3004462,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "original_home_gain_delta_sum": 0.08928269147872925,
+      "candidate_home_gain_delta_sum": -0.27510136365890503,
+      "difference": -0.3643840551376343
+    },
+    {
+      "index": 30,
+      "metadata": {
+        "game": 4425,
+        "seed_set": "base",
+        "seed": 2004467,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "original_home_gain_delta_sum": -0.153736412525177,
+      "candidate_home_gain_delta_sum": -0.22371864318847656,
+      "difference": -0.06998223066329956
+    },
+    {
+      "index": 31,
+      "metadata": {
+        "game": 4425,
+        "seed_set": "alt",
+        "seed": 3004467,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "original_home_gain_delta_sum": -0.10232347249984741,
+      "candidate_home_gain_delta_sum": -0.15607118606567383,
+      "difference": -0.053747713565826416
+    }
+  ]
+}

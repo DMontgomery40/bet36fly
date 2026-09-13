@@ -1,0 +1,77 @@
+{
+  "scope": "Final pre-execution corrections; original and initial copied bytes retained.",
+  "files": [
+    {
+      "source": "output/collaboration/reward-mechanism-repair/run_darela_shadow.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/run_darela_shadow.py",
+      "bytes": 33488,
+      "sha256": "924e23bb1d3e09e7b600fabc364783ed6440181ac3d69e4695a6a110d0a036eb",
+      "prior_sha256": "03d6ec1f3e23062ad8f9d71021d18de1a8b55310b4094bc78fbc9cb325655393",
+      "prior_preserved": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-preparation-v1/run_darela_shadow.py"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/test_run_darela_shadow.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/test_run_darela_shadow.py",
+      "bytes": 19805,
+      "sha256": "9c22d425740b16bf9050b86d699b2818cdbde37d77d87105fe6742083ebab319",
+      "prior_sha256": "6106a9b0a82d57edefe0038e5718da514ce8802434c614bf7ce5ce6d8a1a3746",
+      "prior_preserved": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-preparation-v1/test_run_darela_shadow.py"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/launch_darela_shadow.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/launch_darela_shadow.py",
+      "bytes": 4370,
+      "sha256": "5832c26a51aea93b789a16b603efbd5c380bf114cdfdb46e2bb05cb9ca303086",
+      "prior_sha256": "6c79488588f48188379ca60b96c008cee208c73290f0a5f70c44d26dd25288e4",
+      "prior_preserved": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-preparation-v1/launch_darela_shadow.py"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/test_launch_darela_shadow.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/test_launch_darela_shadow.py",
+      "bytes": 3740,
+      "sha256": "f88d7d1206b3f83b19f1ec65a6150b2c8e252bd8381ad4534a20d11d2a21aa17",
+      "prior_sha256": "1a2bd1c2b7ae2099fbfb81e40d4cf7c99aedb65f9ad944a7dc95eae4e2565a32",
+      "prior_preserved": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-preparation-v1/test_launch_darela_shadow.py"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/audit_darela_shadow.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/audit_darela_shadow.py",
+      "bytes": 41394,
+      "sha256": "44835ff888ae2b4796a92a17c7738d41b737a2dd0753767fe9edc9a302643052",
+      "prior_sha256": "2f8c573fc4d3c10155f75ab7e0f5adaf3701e744636a3c0d9a9f8f96799fc0da",
+      "prior_preserved": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-preparation-v1/audit_darela_shadow.py"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/test_audit_darela_shadow.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/test_audit_darela_shadow.py",
+      "bytes": 32550,
+      "sha256": "2dbea84065916ce68bf027024a1b891595470b247839be277f951d54ab8a9187",
+      "prior_sha256": "822d98e3e21497aa196d1e4175cb68488cd906cf0870de04b511e6dbc5af0bc1",
+      "prior_preserved": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-preparation-v1/test_audit_darela_shadow.py"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/launch_audit_darela_shadow.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/launch_audit_darela_shadow.py",
+      "bytes": 9223,
+      "sha256": "ecbb27607742878e807d25cd296a853977a5f51e2300aefc814af1e1ef51ca1e",
+      "prior_sha256": "d75031840e4770b66b542da13de498a10f89c973fc2f3843543b76505a167767",
+      "prior_preserved": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-preparation-v1/launch_audit_darela_shadow.py"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/summarize_darela_cells.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/summarize_darela_cells.py",
+      "bytes": 5270,
+      "sha256": "6ba43b82ed9d0cb10a4b43a98e61925215e75c42af3688d9a2cf98a5923a778e",
+      "prior_sha256": "a6d40204c7fd65ed4df5641a7ce3f0eac16f7b83037a158181bddc00e8b4b261",
+      "prior_preserved": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-preparation-v1/summarize_darela_cells.py"
+    },
+    {
+      "source": "output/collaboration/reward-mechanism-repair/test_summarize_darela_cells.py",
+      "copy": "docs/evidence/reward-mechanism-repair-2026-09-12/test_summarize_darela_cells.py",
+      "bytes": 3060,
+      "sha256": "a65316afefb2a84051e1f87bae54ab3a6571cd3e7035d74f775152fdde0617c9",
+      "prior_sha256": "01524a2ea433c730f8fe21cf8b5bebe0790c953d019c45392000d95346d23698",
+      "prior_preserved": "docs/evidence/reward-mechanism-repair-2026-09-12/darela-shadow-preparation-v1/test_summarize_darela_cells.py"
+    }
+  ]
+}

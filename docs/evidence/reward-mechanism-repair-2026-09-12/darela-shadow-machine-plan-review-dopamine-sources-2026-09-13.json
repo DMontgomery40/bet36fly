@@ -1,0 +1,60 @@
+{
+  "agent": "/root/dopamine_sources",
+  "at_utc": "2026-09-13T13:30:46.629679+00:00",
+  "status": "PASS external frozen machine-plan and scientific-conformity review",
+  "plan": {
+    "path": "output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-plan.json",
+    "bytes": 55704,
+    "sha256": "b22df9fe43bd4654ac686e8d6e0555f468db78cb42871bcdfa63ef208841adbb"
+  },
+  "run_id": "darela-shadow-bc6993b67befdb3a6c2d",
+  "final_code_review": {
+    "path": "output/collaboration/reward-mechanism-repair/darela-shadow-final-code-review-dopamine-sources-2026-09-13.json",
+    "bytes": 9095,
+    "sha256": "8fcccb64cebcef0f4a89ee757bbe68058d7489f02488b21d6d4153c185a5cf8b"
+  },
+  "prereg": {
+    "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-preregistration-2026-09-13.md",
+    "bytes": 9394,
+    "sha256": "63e88a1d968761e6f7182859ece4d0a12535130be2362d2c3e16acf2a7c9d492"
+  },
+  "audit_contract": {
+    "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-independent-audit-contract-2026-09-13.md",
+    "bytes": 6185,
+    "sha256": "eb4f8ed92c7c4e15895989211371b77e61b176be67cc02902f9e8f17daff94c7"
+  },
+  "binding_review": {
+    "count": 168,
+    "total_bytes": 918187523,
+    "fresh_streaming_sha256_comparisons": 168,
+    "mismatches": [],
+    "historical_bindings_preserved": 113,
+    "ordered_context_fields_equal": true,
+    "unique_absolute_nonsymlink_paths": true,
+    "all_declared_reviews_bound": true,
+    "bindings_sha256": "43c433881a0b91f8234d37626d703dc9ec3b470ad4a6f6171d846da48906402f",
+    "method": "Independently parsed the complete machine plan. Read every non-input field and all55 added binding records; inherited113 records match the previously reviewed context exactly. Independently streamed every one of the168 current files for byte count and SHA256 without parsing neural arrays. Identity rederived from canonical plan JSON;32 selectors independently reconstructed from fixed games, panel/noise order and seed formula."
+  },
+  "scientific_conformity": [
+    "Plan contract matches both producer and auditor literal constants by static AST parsing; no module was executed.",
+    "Fixed externalWT1 q=1+p, pre-H emission, unit per-body reset, exact recovery and fixed2/22 pooling remain unchanged; all actual t0 events advance release state and bridge learning starts cold at step500.",
+    "Masks/gains/source maps and all32 original selectors are pinned. All8 exact guards retain8 trials each; complete bridge tail and inclusive publication/bound policy remain fixed.",
+    "Producer1200-second and auditor600-second caps are fixed by the plan and bound audit contract/code. Final numerical tolerances and rounding/bound ambiguity policy are unchanged.",
+    "All final producer/launcher/auditor/test files and actual output/canonical dependency paths are hash-bound. No old preparation source is selected as the active driver.",
+    "Producer summary stays pending independent audit; a pass requires completed independent numerical/artifact agreement, all8 guards and zero bound contacts. A failed guard rejects only this fixed engineering transfer on the retained histories."
+  ],
+  "reading": {
+    "inclusive_narratives": 205,
+    "chain": {
+      "path": "output/collaboration/reward-mechanism-repair/darela-shadow-final-code-review-dopamine-sources-2026-09-13.json",
+      "bytes": 9095,
+      "sha256": "8fcccb64cebcef0f4a89ee757bbe68058d7489f02488b21d6d4153c185a5cf8b"
+    },
+    "new_narrative_deltas": []
+  },
+  "separation": "This external receipt binds the final code review and frozen plan without circular inclusion or changing the plan. The bound descriptive cell-summary helper is an ancillary root-owned report tool and is not imported by the candidate producer; this review does not claim a new independent review of that ancillary helper.",
+  "input_only_preflight": "Writer-owned and in progress at this review boundary; its completion is a separate prerequisite and this receipt does not substitute for it.",
+  "unresolved_findings": [],
+  "limits": "No candidate outcome, calibrated fly release, closed-loop learning, qualification or conditioning acceptance is established. Root dispatch remains required for actual producer and independent auditor execution.",
+  "operations": "Read-only code/static-AST/JSON/binding hashing and this unique output-onlyJSON; no candidate/model/source/native/audit/test execution, fits, network or neural array evaluation."
+}

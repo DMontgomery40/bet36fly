@@ -1,0 +1,2056 @@
+{
+  "status": "passed_input_only",
+  "scope": "One real-input validation only; release/bridge/evaluate_history forbidden. No candidate/source/native/network computation.",
+  "started_at_utc": "2026-09-13T13:29:14.533766+00:00",
+  "rows": [
+    {
+      "index": 0,
+      "metadata": {
+        "game": 4362,
+        "seed_set": "base",
+        "seed": 4404,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "trace": {
+        "dtype": "int32",
+        "shape": [
+          2000,
+          4774
+        ],
+        "sha256": "490267af019b960d9a7fe023b4f27961ef18a01369ffbadc42fd5cde294696cd"
+      },
+      "original_gains": {
+        "dtype": "float32",
+        "shape": [
+          8866
+        ],
+        "sha256": "afbe2316a497356064dc94142aea1da7b1536b4d54f2158acf36828b54f14879"
+      },
+      "original_gain_delta": {
+        "dtype": "float32",
+        "shape": [
+          8866
+        ],
+        "sha256": "ab6bcd3a27c7cb84cc152e59a09ca6c833d7b8a7872a24b0f8a4b89481ba34dd"
+      },
+      "original_electrical_available": false,
+      "kc_event_count": 2572,
+      "dan_event_counts": [
+        17,
+        17,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "verified": "Complete saved fine fingerprints; strict main/fine maps, gain/delta parity; per-step KC/pooled DAN and whole-bin per-DAN/sensory/sample reductions; untaught empty pulse arrays and unit initial identity."
+    },
+    {
+      "index": 1,
+      "metadata": {
+        "game": 4362,
+        "seed_set": "alt",
+        "seed": 1004404,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "trace": {
+        "dtype": "int32",
+        "shape": [
+          2000,
+          4774
+        ],
+        "sha256": "b665f2a346a2cbbf144b5b16fa951089e027349108e23806ab8474df28d1a74f"
+      },
+      "original_gains": {
+        "dtype": "float32",
+        "shape": [
+          8866
+        ],
+        "sha256": "301a1242810d4174657929125022d0becedaab30521d4f93076bd839733fa937"
+      },
+      "original_gain_delta": {
+        "dtype": "float32",
+        "shape": [
+          8866
+        ],
+        "sha256": "9eef907f17abbcc799dd9d5df81d97bda4d55ba67b65f6b04a7202cff687515c"
+      },
+      "original_electrical_available": false,
+      "kc_event_count": 2286,
+      "dan_event_counts": [
+        14,
+        14,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "verified": "Complete saved fine fingerprints; strict main/fine maps, gain/delta parity; per-step KC/pooled DAN and whole-bin per-DAN/sensory/sample reductions; untaught empty pulse arrays and unit initial identity."
+    },
+    {
+      "index": 2,
+      "metadata": {
+        "game": 4366,
+        "seed_set": "base",
+        "seed": 4408,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "trace": {
+        "dtype": "int32",
+        "shape": [
+          2000,
+          4774
+        ],
+        "sha256": "f14862984d29d588a65666b7aec1e1ae05a3c3f187259f7e642ce716a4b493da"
+      },
+      "original_gains": {
+        "dtype": "float32",
+        "shape": [
+          8866
+        ],
+        "sha256": "ffd98bfb5a27dcc0344f2575cfba336df443e08c0d285f6ae04e7444a56007d2"
+      },
+      "original_gain_delta": {
+        "dtype": "float32",
+        "shape": [
+          8866
+        ],
+        "sha256": "e84201a44241cf241dd403140d303c2b7d30dcfee56f7cd0ca2c1430a357f812"
+      },
+      "original_electrical_available": false,
+      "kc_event_count": 1635,
+      "dan_event_counts": [
+        11,
+        9,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "verified": "Complete saved fine fingerprints; strict main/fine maps, gain/delta parity; per-step KC/pooled DAN and whole-bin per-DAN/sensory/sample reductions; untaught empty pulse arrays and unit initial identity."
+    },
+    {
+      "index": 3,
+      "metadata": {
+        "game": 4366,
+        "seed_set": "alt",
+        "seed": 1004408,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "trace": {
+        "dtype": "int32",
+        "shape": [
+          2000,
+          4774
+        ],
+        "sha256": "6b2523cc0e3f073bf2d0663021ae3079dab29612459ce3bdf5e230796e3849ee"
+      },
+      "original_gains": {
+        "dtype": "float32",
+        "shape": [
+          8866
+        ],
+        "sha256": "f33b024ab35ded0e9c6a38d22cd353f86f6a13869ef5ccdd7b5614fe31d9ed42"
+      },
+      "original_gain_delta": {
+        "dtype": "float32",
+        "shape": [
+          8866
+        ],
+        "sha256": "33945a72c00068fa889045e3e002fba11755b8830412b59a13c813745f4d9172"
+      },
+      "original_electrical_available": false,
+      "kc_event_count": 1668,
+      "dan_event_counts": [
+        11,
+        10,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "verified": "Complete saved fine fingerprints; strict main/fine maps, gain/delta parity; per-step KC/pooled DAN and whole-bin per-DAN/sensory/sample reductions; untaught empty pulse arrays and unit initial identity."
+    },
+    {
+      "index": 4,
+      "metadata": {
+        "game": 4370,
+        "seed_set": "base",
+        "seed": 4412,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "trace": {
+        "dtype": "int32",
+        "shape": [
+          2000,
+          4774
+        ],
+        "sha256": "00e8effb854d7498b2bda085d34dbb1cefad06af911d31a02eb9c4925d3f8a9f"
+      },
+      "original_gains": {
+        "dtype": "float32",
+        "shape": [
+          8866
+        ],
+        "sha256": "06f5841db4033837c37224d71f4d496ed08f52159ce6b7354cfacff5dbee05ff"
+      },
+      "original_gain_delta": {
+        "dtype": "float32",
+        "shape": [
+          8866
+        ],
+        "sha256": "0f691f5bca4cf586098952478457a5ead8773519f120bdab26f61e290085f050"
+      },
+      "original_electrical_available": false,
+      "kc_event_count": 3824,
+      "dan_event_counts": [
+        23,
+        22,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "verified": "Complete saved fine fingerprints; strict main/fine maps, gain/delta parity; per-step KC/pooled DAN and whole-bin per-DAN/sensory/sample reductions; untaught empty pulse arrays and unit initial identity."
+    },
+    {
+      "index": 5,
+      "metadata": {
+        "game": 4370,
+        "seed_set": "alt",
+        "seed": 1004412,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "trace": {
+        "dtype": "int32",
+        "shape": [
+          2000,
+          4774
+        ],
+        "sha256": "918f344a57573d7449cf0dec7a5c1741774a3b978155ca18d693dc70f0cef659"
+      },
+      "original_gains": {
+        "dtype": "float32",
+        "shape": [
+          8866
+        ],
+        "sha256": "408027892935c303565191ac6c05661e7cee83f4c9c6376e8289980b5f3e6241"
+      },
+      "original_gain_delta": {
+        "dtype": "float32",
+        "shape": [
+          8866
+        ],
+        "sha256": "5b1c7cd198a2a81655c9d57167fe186e421f9dc02e3f14e785272a5df37447d9"
+      },
+      "original_electrical_available": false,
+      "kc_event_count": 3742,
+      "dan_event_counts": [
+        21,
+        19,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "verified": "Complete saved fine fingerprints; strict main/fine maps, gain/delta parity; per-step KC/pooled DAN and whole-bin per-DAN/sensory/sample reductions; untaught empty pulse arrays and unit initial identity."
+    },
+    {
+      "index": 6,
+      "metadata": {
+        "game": 4374,
+        "seed_set": "base",
+        "seed": 4416,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "trace": {
+        "dtype": "int32",
+        "shape": [
+          2000,
+          4774
+        ],
+        "sha256": "87276e2288402913a314770bc49194486dd9cfd886193d3845c0d501ae69e885"
+      },
+      "original_gains": {
+        "dtype": "float32",
+        "shape": [
+          8866
+        ],
+        "sha256": "cd9666e5663142a581a85a2239908c58493836ce95eb6733a7dc78ab5511f00e"
+      },
+      "original_gain_delta": {
+        "dtype": "float32",
+        "shape": [
+          8866
+        ],
+        "sha256": "f05835641dc37d1f7996dc26ebc11d1c0e44a1dd66e0e8f66b083b734b6ce5e0"
+      },
+      "original_electrical_available": false,
+      "kc_event_count": 1342,
+      "dan_event_counts": [
+        8,
+        7,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "verified": "Complete saved fine fingerprints; strict main/fine maps, gain/delta parity; per-step KC/pooled DAN and whole-bin per-DAN/sensory/sample reductions; untaught empty pulse arrays and unit initial identity."
+    },
+    {
+      "index": 7,
+      "metadata": {
+        "game": 4374,
+        "seed_set": "alt",
+        "seed": 1004416,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "trace": {
+        "dtype": "int32",
+        "shape": [
+          2000,
+          4774
+        ],
+        "sha256": "6f33eaeafdd991ddabaa566edd42949382a7bf24f109e88dabafae033deea7c5"
+      },
+      "original_gains": {
+        "dtype": "float32",
+        "shape": [
+          8866
+        ],
+        "sha256": "f969e37c480aea7420edacf228fd74ca2a8b5724dcca9b331f68a7788077e399"
+      },
+      "original_gain_delta": {
+        "dtype": "float32",
+        "shape": [
+          8866
+        ],
+        "sha256": "6597dfed2b5831973df80136955461242056b4d5238115986ff526b059acc127"
+      },
+      "original_electrical_available": false,
+      "kc_event_count": 1299,
+      "dan_event_counts": [
+        8,
+        7,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "verified": "Complete saved fine fingerprints; strict main/fine maps, gain/delta parity; per-step KC/pooled DAN and whole-bin per-DAN/sensory/sample reductions; untaught empty pulse arrays and unit initial identity."
+    },
+    {
+      "index": 8,
+      "metadata": {
+        "game": 4378,
+        "seed_set": "base",
+        "seed": 4420,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "trace": {
+        "dtype": "int32",
+        "shape": [
+          2000,
+          4774
+        ],
+        "sha256": "2beb63b59abddfe7cbf3edb366a7c79027e08d23a0e874c949d68c3e5e61e75e"
+      },
+      "original_gains": {
+        "dtype": "float32",
+        "shape": [
+          8866
+        ],
+        "sha256": "57981b2deb64b13e15a5aca28df7e85a0ecb442e92242d0d6f581f61edde2380"
+      },
+      "original_gain_delta": {
+        "dtype": "float32",
+        "shape": [
+          8866
+        ],
+        "sha256": "04fcc19781d13a14a2cc0bd98be54a4aa1b7ba1e4b7132f7f2ea6ead73152895"
+      },
+      "original_electrical_available": false,
+      "kc_event_count": 3096,
+      "dan_event_counts": [
+        19,
+        19,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "verified": "Complete saved fine fingerprints; strict main/fine maps, gain/delta parity; per-step KC/pooled DAN and whole-bin per-DAN/sensory/sample reductions; untaught empty pulse arrays and unit initial identity."
+    },
+    {
+      "index": 9,
+      "metadata": {
+        "game": 4378,
+        "seed_set": "alt",
+        "seed": 1004420,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "trace": {
+        "dtype": "int32",
+        "shape": [
+          2000,
+          4774
+        ],
+        "sha256": "e051f3e90518dd9a0b57659a614af18174579b7456a09c9d6638f72b49d15209"
+      },
+      "original_gains": {
+        "dtype": "float32",
+        "shape": [
+          8866
+        ],
+        "sha256": "8a2f898dc4f85f159c392b008d619e7819a3d85d7372bf9b9ed7c5835a7cd6f0"
+      },
+      "original_gain_delta": {
+        "dtype": "float32",
+        "shape": [
+          8866
+        ],
+        "sha256": "31dce72de3bccd07b4061c0b19222eb3e31625e83bda18e5da81e0314edc0065"
+      },
+      "original_electrical_available": false,
+      "kc_event_count": 2881,
+      "dan_event_counts": [
+        18,
+        19,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "verified": "Complete saved fine fingerprints; strict main/fine maps, gain/delta parity; per-step KC/pooled DAN and whole-bin per-DAN/sensory/sample reductions; untaught empty pulse arrays and unit initial identity."
+    },
+    {
+      "index": 10,
+      "metadata": {
+        "game": 4383,
+        "seed_set": "base",
+        "seed": 4425,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "trace": {
+        "dtype": "int32",
+        "shape": [
+          2000,
+          4774
+        ],
+        "sha256": "9dbedf20878dac157774ad70421564f68f47cec010fcb0dc08578c1b3ebb69ef"
+      },
+      "original_gains": {
+        "dtype": "float32",
+        "shape": [
+          8866
+        ],
+        "sha256": "25bcae36f64dc1dcce5feb681ed6cd3d66e8bf045b4656fde9da8fe2055146ea"
+      },
+      "original_gain_delta": {
+        "dtype": "float32",
+        "shape": [
+          8866
+        ],
+        "sha256": "3269512e433abeb0567746530d759bae4b773b0a7583eb47d3b8700cb4f1c68b"
+      },
+      "original_electrical_available": false,
+      "kc_event_count": 4218,
+      "dan_event_counts": [
+        24,
+        23,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "verified": "Complete saved fine fingerprints; strict main/fine maps, gain/delta parity; per-step KC/pooled DAN and whole-bin per-DAN/sensory/sample reductions; untaught empty pulse arrays and unit initial identity."
+    },
+    {
+      "index": 11,
+      "metadata": {
+        "game": 4383,
+        "seed_set": "alt",
+        "seed": 1004425,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "trace": {
+        "dtype": "int32",
+        "shape": [
+          2000,
+          4774
+        ],
+        "sha256": "454363eb8ef26155f0a95064f756f545655b93f4df6ec8ea563cc0e8399056c8"
+      },
+      "original_gains": {
+        "dtype": "float32",
+        "shape": [
+          8866
+        ],
+        "sha256": "5e958e83e8e2437e9121e88e3b3589f814095f21d80be018e7c682df823b1d48"
+      },
+      "original_gain_delta": {
+        "dtype": "float32",
+        "shape": [
+          8866
+        ],
+        "sha256": "14243039ce1303bc84e452c82e95c9d9a34b61ce72c504313b9b904361ff7f10"
+      },
+      "original_electrical_available": false,
+      "kc_event_count": 4320,
+      "dan_event_counts": [
+        23,
+        23,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "verified": "Complete saved fine fingerprints; strict main/fine maps, gain/delta parity; per-step KC/pooled DAN and whole-bin per-DAN/sensory/sample reductions; untaught empty pulse arrays and unit initial identity."
+    },
+    {
+      "index": 12,
+      "metadata": {
+        "game": 4387,
+        "seed_set": "base",
+        "seed": 4429,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "trace": {
+        "dtype": "int32",
+        "shape": [
+          2000,
+          4774
+        ],
+        "sha256": "d442531531ccc3d1cafddb1e87f908b50377562aac03bcba3108e321b698b471"
+      },
+      "original_gains": {
+        "dtype": "float32",
+        "shape": [
+          8866
+        ],
+        "sha256": "d7a2b1dda1bdd8eb66c64ceeaaeb35bb268d7361d35d6257bbd7c8ed274ce117"
+      },
+      "original_gain_delta": {
+        "dtype": "float32",
+        "shape": [
+          8866
+        ],
+        "sha256": "395ca612114a07d86fa8e83234f6115c5c7b7531a33f86cc2be137593253e42c"
+      },
+      "original_electrical_available": false,
+      "kc_event_count": 2773,
+      "dan_event_counts": [
+        20,
+        19,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "verified": "Complete saved fine fingerprints; strict main/fine maps, gain/delta parity; per-step KC/pooled DAN and whole-bin per-DAN/sensory/sample reductions; untaught empty pulse arrays and unit initial identity."
+    },
+    {
+      "index": 13,
+      "metadata": {
+        "game": 4387,
+        "seed_set": "alt",
+        "seed": 1004429,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "trace": {
+        "dtype": "int32",
+        "shape": [
+          2000,
+          4774
+        ],
+        "sha256": "d005035655a13a79c3583bbf2bc4d59e3686bcbce7b6567b4c72fa406345e5c7"
+      },
+      "original_gains": {
+        "dtype": "float32",
+        "shape": [
+          8866
+        ],
+        "sha256": "9da06f55218f2f4eb782594c2da05f213a9b58ac1746c3d86c32cf27e47670c5"
+      },
+      "original_gain_delta": {
+        "dtype": "float32",
+        "shape": [
+          8866
+        ],
+        "sha256": "067d8832f483e85cf90ab9fc87ff52f2a7402abf2184aee9261a97f4f0b54902"
+      },
+      "original_electrical_available": false,
+      "kc_event_count": 2752,
+      "dan_event_counts": [
+        17,
+        18,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "verified": "Complete saved fine fingerprints; strict main/fine maps, gain/delta parity; per-step KC/pooled DAN and whole-bin per-DAN/sensory/sample reductions; untaught empty pulse arrays and unit initial identity."
+    },
+    {
+      "index": 14,
+      "metadata": {
+        "game": 4391,
+        "seed_set": "base",
+        "seed": 4433,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "trace": {
+        "dtype": "int32",
+        "shape": [
+          2000,
+          4774
+        ],
+        "sha256": "e2ac5efd98472aed66e6a4f50c2f590b72e231877e8aa3190dca5928d3ad63e7"
+      },
+      "original_gains": {
+        "dtype": "float32",
+        "shape": [
+          8866
+        ],
+        "sha256": "09e54a8e1cf13b860741e68f989c97a7b38d233a2b03f1cd25590f15d2f2d0a0"
+      },
+      "original_gain_delta": {
+        "dtype": "float32",
+        "shape": [
+          8866
+        ],
+        "sha256": "180fabb68f0363dedb0c28db911db5c165584f57410b60f5bcdca8a41f9e403b"
+      },
+      "original_electrical_available": false,
+      "kc_event_count": 2015,
+      "dan_event_counts": [
+        14,
+        13,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "verified": "Complete saved fine fingerprints; strict main/fine maps, gain/delta parity; per-step KC/pooled DAN and whole-bin per-DAN/sensory/sample reductions; untaught empty pulse arrays and unit initial identity."
+    },
+    {
+      "index": 15,
+      "metadata": {
+        "game": 4391,
+        "seed_set": "alt",
+        "seed": 1004433,
+        "run_id": "diag-rate-bridge-v1-maskgamma-de050d773763"
+      },
+      "trace": {
+        "dtype": "int32",
+        "shape": [
+          2000,
+          4774
+        ],
+        "sha256": "f4fc03020eed894c1aeab9ecb7eef61645cafb685c863555803d214cf8977915"
+      },
+      "original_gains": {
+        "dtype": "float32",
+        "shape": [
+          8866
+        ],
+        "sha256": "d20b25efe9aa3d1e2b53d45074d62c3eec91a62bb57851414604daf1c1ff3b9f"
+      },
+      "original_gain_delta": {
+        "dtype": "float32",
+        "shape": [
+          8866
+        ],
+        "sha256": "38eae74b94468c5bd9b48bfefb0ff9723b31bb33085128e3e708562a4f20dc49"
+      },
+      "original_electrical_available": false,
+      "kc_event_count": 2370,
+      "dan_event_counts": [
+        16,
+        15,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "verified": "Complete saved fine fingerprints; strict main/fine maps, gain/delta parity; per-step KC/pooled DAN and whole-bin per-DAN/sensory/sample reductions; untaught empty pulse arrays and unit initial identity."
+    },
+    {
+      "index": 16,
+      "metadata": {
+        "game": 4395,
+        "seed_set": "base",
+        "seed": 2004437,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "trace": {
+        "dtype": "int32",
+        "shape": [
+          2000,
+          4774
+        ],
+        "sha256": "c3334a3bac4157cef6c4832ec0a1e23e080b9bddb6656b24b51bc5be82ac3f8e"
+      },
+      "original_gains": {
+        "dtype": "float32",
+        "shape": [
+          8866
+        ],
+        "sha256": "7725a0ce08089b03de10d09fb6b91585bc86f402cb28eed2e3a6a792bbf9c7ec"
+      },
+      "original_gain_delta": {
+        "dtype": "float32",
+        "shape": [
+          8866
+        ],
+        "sha256": "fa1242acada0738392f85d237a534a65b7c48854227e16edee7a8cda1c1739e0"
+      },
+      "original_electrical_available": false,
+      "kc_event_count": 2667,
+      "dan_event_counts": [
+        18,
+        18,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "verified": "Complete saved fine fingerprints; strict main/fine maps, gain/delta parity; per-step KC/pooled DAN and whole-bin per-DAN/sensory/sample reductions; untaught empty pulse arrays and unit initial identity."
+    },
+    {
+      "index": 17,
+      "metadata": {
+        "game": 4395,
+        "seed_set": "alt",
+        "seed": 3004437,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "trace": {
+        "dtype": "int32",
+        "shape": [
+          2000,
+          4774
+        ],
+        "sha256": "d9ddcd9c13c42132dd21247f7c12429aec893ad7a7c7f1741bb79ee5ce3e4568"
+      },
+      "original_gains": {
+        "dtype": "float32",
+        "shape": [
+          8866
+        ],
+        "sha256": "7fbf8583d0b2ca4a462285414aae9a25cace9483bf898f24354470da56eee332"
+      },
+      "original_gain_delta": {
+        "dtype": "float32",
+        "shape": [
+          8866
+        ],
+        "sha256": "5434f63b734f235c87f92fd9e1aba2239f205633d93367873e0ded1c767aaf5e"
+      },
+      "original_electrical_available": false,
+      "kc_event_count": 2875,
+      "dan_event_counts": [
+        19,
+        18,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "verified": "Complete saved fine fingerprints; strict main/fine maps, gain/delta parity; per-step KC/pooled DAN and whole-bin per-DAN/sensory/sample reductions; untaught empty pulse arrays and unit initial identity."
+    },
+    {
+      "index": 18,
+      "metadata": {
+        "game": 4399,
+        "seed_set": "base",
+        "seed": 2004441,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "trace": {
+        "dtype": "int32",
+        "shape": [
+          2000,
+          4774
+        ],
+        "sha256": "7c7f05717b157ac8a6b5e23257e4a63fdbff50e044ff5318ddfdc64e78c555d2"
+      },
+      "original_gains": {
+        "dtype": "float32",
+        "shape": [
+          8866
+        ],
+        "sha256": "35e7b0026251d39ab9dcc37a262ad60b04a632e2213e3136680ea16d6f5f449e"
+      },
+      "original_gain_delta": {
+        "dtype": "float32",
+        "shape": [
+          8866
+        ],
+        "sha256": "9e16de2272233ca50bfc7a11657483f709eb319db49499bc2ffca6de12adf1f5"
+      },
+      "original_electrical_available": false,
+      "kc_event_count": 2891,
+      "dan_event_counts": [
+        18,
+        17,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "verified": "Complete saved fine fingerprints; strict main/fine maps, gain/delta parity; per-step KC/pooled DAN and whole-bin per-DAN/sensory/sample reductions; untaught empty pulse arrays and unit initial identity."
+    },
+    {
+      "index": 19,
+      "metadata": {
+        "game": 4399,
+        "seed_set": "alt",
+        "seed": 3004441,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "trace": {
+        "dtype": "int32",
+        "shape": [
+          2000,
+          4774
+        ],
+        "sha256": "adc3d65ef2ae7a970d5ac58fc64350c9cde5bd83f9f6114bd540858ac97e18fe"
+      },
+      "original_gains": {
+        "dtype": "float32",
+        "shape": [
+          8866
+        ],
+        "sha256": "091c5404dd87906f837324f0486f009195b8d3c8c749f04a7ab3ced62ccc6739"
+      },
+      "original_gain_delta": {
+        "dtype": "float32",
+        "shape": [
+          8866
+        ],
+        "sha256": "7b63aefcff0086b2305fc8c2c4df155853dc1383663e5a2b1b81b6986fa34a01"
+      },
+      "original_electrical_available": false,
+      "kc_event_count": 2969,
+      "dan_event_counts": [
+        18,
+        16,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "verified": "Complete saved fine fingerprints; strict main/fine maps, gain/delta parity; per-step KC/pooled DAN and whole-bin per-DAN/sensory/sample reductions; untaught empty pulse arrays and unit initial identity."
+    },
+    {
+      "index": 20,
+      "metadata": {
+        "game": 4404,
+        "seed_set": "base",
+        "seed": 2004446,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "trace": {
+        "dtype": "int32",
+        "shape": [
+          2000,
+          4774
+        ],
+        "sha256": "984bac826d67803caf582f8032f7921164e3daf6f75581831077ef63fd0ae4c8"
+      },
+      "original_gains": {
+        "dtype": "float32",
+        "shape": [
+          8866
+        ],
+        "sha256": "e4388f1724f20b88d5da74591abd397283f79205d202170702f93691f6649743"
+      },
+      "original_gain_delta": {
+        "dtype": "float32",
+        "shape": [
+          8866
+        ],
+        "sha256": "6af9bde9a0066e098e04e1e68384273a4ea6401736a832e5c3ddc051bd7193dd"
+      },
+      "original_electrical_available": false,
+      "kc_event_count": 2047,
+      "dan_event_counts": [
+        14,
+        13,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "verified": "Complete saved fine fingerprints; strict main/fine maps, gain/delta parity; per-step KC/pooled DAN and whole-bin per-DAN/sensory/sample reductions; untaught empty pulse arrays and unit initial identity."
+    },
+    {
+      "index": 21,
+      "metadata": {
+        "game": 4404,
+        "seed_set": "alt",
+        "seed": 3004446,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "trace": {
+        "dtype": "int32",
+        "shape": [
+          2000,
+          4774
+        ],
+        "sha256": "cda08d311ef6ffa858e01002e9d1d8b354e46a24582dde3125244b99d6bf51f8"
+      },
+      "original_gains": {
+        "dtype": "float32",
+        "shape": [
+          8866
+        ],
+        "sha256": "aa80c58a7599375dc76d0173f2048be7ed197c8120a729fba1873a004f15cc06"
+      },
+      "original_gain_delta": {
+        "dtype": "float32",
+        "shape": [
+          8866
+        ],
+        "sha256": "000fa3a761f33e44364603f4983a854a06ade5c10f1884ea32582d446fa4919e"
+      },
+      "original_electrical_available": false,
+      "kc_event_count": 2002,
+      "dan_event_counts": [
+        12,
+        11,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "verified": "Complete saved fine fingerprints; strict main/fine maps, gain/delta parity; per-step KC/pooled DAN and whole-bin per-DAN/sensory/sample reductions; untaught empty pulse arrays and unit initial identity."
+    },
+    {
+      "index": 22,
+      "metadata": {
+        "game": 4408,
+        "seed_set": "base",
+        "seed": 2004450,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "trace": {
+        "dtype": "int32",
+        "shape": [
+          2000,
+          4774
+        ],
+        "sha256": "2a6e2c6fd1857e0451a37af1a86b8da685dbc15aec82ec73da57322db19d2a19"
+      },
+      "original_gains": {
+        "dtype": "float32",
+        "shape": [
+          8866
+        ],
+        "sha256": "c6d3758da7ce327a1bebd12affe09a15aaeae932d7280b8a5efc3b098321074b"
+      },
+      "original_gain_delta": {
+        "dtype": "float32",
+        "shape": [
+          8866
+        ],
+        "sha256": "22f84d5e54f131780abd9f4f1f841b5e2cc6dd48aac615c5f69cda3446b55408"
+      },
+      "original_electrical_available": false,
+      "kc_event_count": 2515,
+      "dan_event_counts": [
+        17,
+        16,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "verified": "Complete saved fine fingerprints; strict main/fine maps, gain/delta parity; per-step KC/pooled DAN and whole-bin per-DAN/sensory/sample reductions; untaught empty pulse arrays and unit initial identity."
+    },
+    {
+      "index": 23,
+      "metadata": {
+        "game": 4408,
+        "seed_set": "alt",
+        "seed": 3004450,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "trace": {
+        "dtype": "int32",
+        "shape": [
+          2000,
+          4774
+        ],
+        "sha256": "5c8d8b34a259f85b1a5f37a30f5c964dbd3890a82c7107b6484704985bcab206"
+      },
+      "original_gains": {
+        "dtype": "float32",
+        "shape": [
+          8866
+        ],
+        "sha256": "46ddc8c29ad5cf7811d3a5f4a8198838b01f5f8bf66f67aee44b8a25f60b7a04"
+      },
+      "original_gain_delta": {
+        "dtype": "float32",
+        "shape": [
+          8866
+        ],
+        "sha256": "4f28c8e66624036a24c9371a4cda9a682d2fb14ef5cbcd251a648b30fb725f0a"
+      },
+      "original_electrical_available": false,
+      "kc_event_count": 2223,
+      "dan_event_counts": [
+        16,
+        16,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "verified": "Complete saved fine fingerprints; strict main/fine maps, gain/delta parity; per-step KC/pooled DAN and whole-bin per-DAN/sensory/sample reductions; untaught empty pulse arrays and unit initial identity."
+    },
+    {
+      "index": 24,
+      "metadata": {
+        "game": 4412,
+        "seed_set": "base",
+        "seed": 2004454,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "trace": {
+        "dtype": "int32",
+        "shape": [
+          2000,
+          4774
+        ],
+        "sha256": "79c43ac7ef360f4993e9370e4b495b8490453dfa0f4d2e09d8c0ed7d1179ee69"
+      },
+      "original_gains": {
+        "dtype": "float32",
+        "shape": [
+          8866
+        ],
+        "sha256": "f38496d7c20ffe2ddea3c341439add52a40c94cb22e70ad38b82b8aa4ea42788"
+      },
+      "original_gain_delta": {
+        "dtype": "float32",
+        "shape": [
+          8866
+        ],
+        "sha256": "509bfb2272f528da0e6dd085febafe5b20ff20e3e6fb7aefdb6dfa82f905e38d"
+      },
+      "original_electrical_available": false,
+      "kc_event_count": 2747,
+      "dan_event_counts": [
+        18,
+        18,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "verified": "Complete saved fine fingerprints; strict main/fine maps, gain/delta parity; per-step KC/pooled DAN and whole-bin per-DAN/sensory/sample reductions; untaught empty pulse arrays and unit initial identity."
+    },
+    {
+      "index": 25,
+      "metadata": {
+        "game": 4412,
+        "seed_set": "alt",
+        "seed": 3004454,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "trace": {
+        "dtype": "int32",
+        "shape": [
+          2000,
+          4774
+        ],
+        "sha256": "2b3d02755ee146fddb3ecb92d246311a0c1201fb3dbb319715839b4e18979ed4"
+      },
+      "original_gains": {
+        "dtype": "float32",
+        "shape": [
+          8866
+        ],
+        "sha256": "3bfddafc83c93c751de93f5b9e58d6fe2a8adb61f5d1a59692745af7e2d51388"
+      },
+      "original_gain_delta": {
+        "dtype": "float32",
+        "shape": [
+          8866
+        ],
+        "sha256": "4b259bcaca26bb31f47ef11ca87418484f0303341ae8d89fa506d2b7c9b955a8"
+      },
+      "original_electrical_available": false,
+      "kc_event_count": 2438,
+      "dan_event_counts": [
+        18,
+        17,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "verified": "Complete saved fine fingerprints; strict main/fine maps, gain/delta parity; per-step KC/pooled DAN and whole-bin per-DAN/sensory/sample reductions; untaught empty pulse arrays and unit initial identity."
+    },
+    {
+      "index": 26,
+      "metadata": {
+        "game": 4416,
+        "seed_set": "base",
+        "seed": 2004458,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "trace": {
+        "dtype": "int32",
+        "shape": [
+          2000,
+          4774
+        ],
+        "sha256": "833ac7acc1c81ed22571be9faaebd3f10b98fc4bab6bbcefd35b97e538dacd4d"
+      },
+      "original_gains": {
+        "dtype": "float32",
+        "shape": [
+          8866
+        ],
+        "sha256": "f10f78d86c4162cf899900ab914de41499667e94a0e43582a28fa952cf73e23e"
+      },
+      "original_gain_delta": {
+        "dtype": "float32",
+        "shape": [
+          8866
+        ],
+        "sha256": "e093e989bbbdb7e83d1d08960ce60289334da7ae316a14118b3836f4d3e2bd1b"
+      },
+      "original_electrical_available": false,
+      "kc_event_count": 2558,
+      "dan_event_counts": [
+        16,
+        16,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "verified": "Complete saved fine fingerprints; strict main/fine maps, gain/delta parity; per-step KC/pooled DAN and whole-bin per-DAN/sensory/sample reductions; untaught empty pulse arrays and unit initial identity."
+    },
+    {
+      "index": 27,
+      "metadata": {
+        "game": 4416,
+        "seed_set": "alt",
+        "seed": 3004458,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "trace": {
+        "dtype": "int32",
+        "shape": [
+          2000,
+          4774
+        ],
+        "sha256": "cac116b4f0df0a949531defebdbd89bcfadf7e268aa5c0029c8d48a593c6f1ef"
+      },
+      "original_gains": {
+        "dtype": "float32",
+        "shape": [
+          8866
+        ],
+        "sha256": "e50aa62360b7d168be2144f3f227ee9dd8a212015c39d83ea794fc210d3fb1a1"
+      },
+      "original_gain_delta": {
+        "dtype": "float32",
+        "shape": [
+          8866
+        ],
+        "sha256": "c97e51a51272f33e9f7a93bcb6007ca01dac8b0dc830386800b912ad549fff84"
+      },
+      "original_electrical_available": false,
+      "kc_event_count": 2070,
+      "dan_event_counts": [
+        12,
+        12,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "verified": "Complete saved fine fingerprints; strict main/fine maps, gain/delta parity; per-step KC/pooled DAN and whole-bin per-DAN/sensory/sample reductions; untaught empty pulse arrays and unit initial identity."
+    },
+    {
+      "index": 28,
+      "metadata": {
+        "game": 4420,
+        "seed_set": "base",
+        "seed": 2004462,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "trace": {
+        "dtype": "int32",
+        "shape": [
+          2000,
+          4774
+        ],
+        "sha256": "2d5e468cfbfdf3402e2219f36e13f018e99eba0490391e6d2fe93baa19412309"
+      },
+      "original_gains": {
+        "dtype": "float32",
+        "shape": [
+          8866
+        ],
+        "sha256": "ce3b5b55f6924a8d296336d45589c848db3edb53e4ddbd333f6fefcebc9ea164"
+      },
+      "original_gain_delta": {
+        "dtype": "float32",
+        "shape": [
+          8866
+        ],
+        "sha256": "b446c19c65b2ee63dec486e767fd2063cf8e7b4709e3fee5d9e5a4823d4a3306"
+      },
+      "original_electrical_available": false,
+      "kc_event_count": 5548,
+      "dan_event_counts": [
+        29,
+        28,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "verified": "Complete saved fine fingerprints; strict main/fine maps, gain/delta parity; per-step KC/pooled DAN and whole-bin per-DAN/sensory/sample reductions; untaught empty pulse arrays and unit initial identity."
+    },
+    {
+      "index": 29,
+      "metadata": {
+        "game": 4420,
+        "seed_set": "alt",
+        "seed": 3004462,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "trace": {
+        "dtype": "int32",
+        "shape": [
+          2000,
+          4774
+        ],
+        "sha256": "caa4728bb07b2e0f648e4e92ff8e1114a1d497af6d4d2308adbd909d42ad4eab"
+      },
+      "original_gains": {
+        "dtype": "float32",
+        "shape": [
+          8866
+        ],
+        "sha256": "636cc58f3849aa78a33c5c580e141e5852e291d8463ace7c5bb539158210aedb"
+      },
+      "original_gain_delta": {
+        "dtype": "float32",
+        "shape": [
+          8866
+        ],
+        "sha256": "aedeb14dc77e2142609e1dc04bedcc5af1fa40de524aee59eabdb5f77e27c85f"
+      },
+      "original_electrical_available": false,
+      "kc_event_count": 4707,
+      "dan_event_counts": [
+        26,
+        25,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "verified": "Complete saved fine fingerprints; strict main/fine maps, gain/delta parity; per-step KC/pooled DAN and whole-bin per-DAN/sensory/sample reductions; untaught empty pulse arrays and unit initial identity."
+    },
+    {
+      "index": 30,
+      "metadata": {
+        "game": 4425,
+        "seed_set": "base",
+        "seed": 2004467,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "trace": {
+        "dtype": "int32",
+        "shape": [
+          2000,
+          4774
+        ],
+        "sha256": "3da350b25c8a29e15bc325fb53534ce824bfcdbfd0d920bcfb7730df22d79e14"
+      },
+      "original_gains": {
+        "dtype": "float32",
+        "shape": [
+          8866
+        ],
+        "sha256": "15aabcc268f03528f10353b30d7e0147d317ac378120591b11f47a3dcecffeef"
+      },
+      "original_gain_delta": {
+        "dtype": "float32",
+        "shape": [
+          8866
+        ],
+        "sha256": "59367bf228c998b5f1be2aed6347cac0e4defaff6f4f73a452fccc6fd8c8dbe6"
+      },
+      "original_electrical_available": false,
+      "kc_event_count": 2264,
+      "dan_event_counts": [
+        15,
+        15,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "verified": "Complete saved fine fingerprints; strict main/fine maps, gain/delta parity; per-step KC/pooled DAN and whole-bin per-DAN/sensory/sample reductions; untaught empty pulse arrays and unit initial identity."
+    },
+    {
+      "index": 31,
+      "metadata": {
+        "game": 4425,
+        "seed_set": "alt",
+        "seed": 3004467,
+        "run_id": "diag-rate-bridge-v1-maskgamma-dea14759e9ca"
+      },
+      "trace": {
+        "dtype": "int32",
+        "shape": [
+          2000,
+          4774
+        ],
+        "sha256": "59d89f18b4b1f3ab82accc126c01fc60e5b4b2bb5685c82e3125d68cc213371c"
+      },
+      "original_gains": {
+        "dtype": "float32",
+        "shape": [
+          8866
+        ],
+        "sha256": "28f3a2c8ed225e0e3d19d556bd2a64d1edae94344c4505d7ade007c47573d9da"
+      },
+      "original_gain_delta": {
+        "dtype": "float32",
+        "shape": [
+          8866
+        ],
+        "sha256": "ee462c28e640cf3cd7f71215c300cd35463f47fcf4d3013d45d3af45b8701d94"
+      },
+      "original_electrical_available": false,
+      "kc_event_count": 2303,
+      "dan_event_counts": [
+        14,
+        14,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "verified": "Complete saved fine fingerprints; strict main/fine maps, gain/delta parity; per-step KC/pooled DAN and whole-bin per-DAN/sensory/sample reductions; untaught empty pulse arrays and unit initial identity."
+    }
+  ],
+  "candidate_helper_calls": [],
+  "wall_seconds_cap": 120,
+  "plan": {
+    "path": "/Users/davidmontgomery/Documents/ChatGPT/bet36fly/output/collaboration/reward-mechanism-repair/darela-shadow-bc6993b67befdb3a6c2d-plan.json",
+    "bytes": 55704,
+    "sha256": "b22df9fe43bd4654ac686e8d6e0555f468db78cb42871bcdfa63ef208841adbb"
+  },
+  "maps": {
+    "plastic_kc_indices": {
+      "dtype": "int32",
+      "shape": [
+        8866
+      ],
+      "sha256": "9cab1618c27af53d1bae1c5964f5963789f57867bb5e63eee9b58ed14b191c85"
+    },
+    "plastic_compartments": {
+      "dtype": "int32",
+      "shape": [
+        8866
+      ],
+      "sha256": "5e41a545bdfd13aadb4a9d6a0eb0de421d8b36460fd1e9dccfbf0f001e095a3f"
+    },
+    "plastic_mask": {
+      "dtype": "uint8",
+      "shape": [
+        8866
+      ],
+      "sha256": "6ca501a48beba5b5ff82d7ba583501e3d0eae8da72d395c2b1a32f849d92484a"
+    },
+    "plastic_groups": {
+      "dtype": "int32",
+      "shape": [
+        8866
+      ],
+      "sha256": "958a66b6c5494776d7f75f0e82adc08d323a9d3e0ccca4a75891969640a0ebca"
+    },
+    "sample": {
+      "dtype": "int32",
+      "shape": [
+        4774
+      ],
+      "sha256": "892a1b417865b185b2bc8ef8505cc1d90607a56276f4a98db5ae8bb166b2ecf9"
+    },
+    "body_ids": {
+      "dtype": "int64",
+      "shape": [
+        4774
+      ],
+      "sha256": "a429784837fc6899c8a6da617782ebbf455eaac91ce46611181fa225830800ad"
+    },
+    "kc_indices": {
+      "dtype": "int32",
+      "shape": [
+        4064
+      ],
+      "sha256": "9e990d10a63b0f74cd7bbbdc5369082f24d5246487af944ba289bc6bf48d4b75"
+    },
+    "dan_indices": {
+      "dtype": "int32",
+      "shape": [
+        24
+      ],
+      "sha256": "10604e7110f8a38863a59e8b9313b467d900ba78ab969f0b074ce61d294d8db2"
+    },
+    "sensory_indices": {
+      "dtype": "int32",
+      "shape": [
+        686
+      ],
+      "sha256": "56c4eb47cb535fcf990017b13a29d026f91a28397e6c206bd24a99598d2588ff"
+    },
+    "dan_compartments": {
+      "dtype": "int32",
+      "shape": [
+        24
+      ],
+      "sha256": "47c40d17d83b074658ca32bc9ff98aae5915134bc8af85ab99e4dc6ac7eafc9d"
+    },
+    "kc_columns": {
+      "dtype": "int32",
+      "shape": [
+        4064
+      ],
+      "sha256": "d4e942c154f75f8e58b322bd2151d7ae4ed276a014e55b4facc595ea76d3ec15"
+    },
+    "dan_columns": {
+      "dtype": "int32",
+      "shape": [
+        24
+      ],
+      "sha256": "6823d31cdbad46636387eb8fdedb16a6836bf564192f433f77c7dd8f0ab14a06"
+    },
+    "sensory_columns": {
+      "dtype": "int32",
+      "shape": [
+        686
+      ],
+      "sha256": "87897dba393b3af7a3e9861cc2b344345072bffd6c779d209d63a26aa7f986ad"
+    }
+  },
+  "dan_body_ids": [
+    11327,
+    11900,
+    61360,
+    91391,
+    91875,
+    96571,
+    104460,
+    105447,
+    111665,
+    113001,
+    126900,
+    135171,
+    138585,
+    139280,
+    139378,
+    144625,
+    146418,
+    152428,
+    157257,
+    158917,
+    196622,
+    206851,
+    520384,
+    552362
+  ],
+  "completed": 32,
+  "bindings_unchanged": true,
+  "wall_seconds": 3.240960708120838
+}

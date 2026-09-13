@@ -10,12 +10,20 @@ The [copy manifest](darela-source-preparation-copy-manifest-2026-09-13.json)
 binds the retained external source, license, reviews and initial helper tests.
 The source is a mouse FSCV model; the finite spike embedding is an engineering
 construction, not calibrated fly release. Follow the
-[current handoff](../../REWARD_REPAIR_HANDOFF.md) for completed numerical
-checks and the next fixed-history screen. The
+[current handoff](../../REWARD_REPAIR_HANDOFF.md) for the continuation boundary. The
 [completed checkpoint](darela-source-transfer-checkpoint-2026-09-13.md)
 passes eight source-kernel cases, independent review of all saved arrays and
 216 synthetic preparation tests. No new qualification or learning
 result follows from this source preparation.
+
+The subsequent [fixed DARELA screen](darela-shadow-result-2026-09-13.md) is
+complete and rejected. All four home guards fail, and all 32 home trials
+become more depressive. The independent audit matches every one of 567,424
+final/electrical float32 endpoints exactly, with no bounds or ambiguity.
+The [24-cell table](darela-shadow-bc6993b67befdb3a6c2d-cells/cell-summary.csv)
+records actual PPL101/PAM12 events and dimensionless modeled release.
+All 251 new focused tests and the full repository gate pass; these software
+checks do not turn the failed screen into a qualified learning mechanism.
 
 The new [64-contrast causal-prefix audit](dan-causal-prefix-result-2026-09-13.md)
 finds an actual teaching input difference in every comparison at 310 ms,

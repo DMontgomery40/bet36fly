@@ -1,6 +1,59 @@
 # Continue the dopamine mechanism repair
 
-## Current continuation boundary: September 13, 2026, DARELA numerical preparation complete
+## Current continuation boundary: September 13, 2026, DARELA screen rejected after independent audit
+
+Continue this existing task and full active repair goal on
+`feat/bet36fly-dopamine-learning`. The starting checkpoint for this phase was
+`13966a2`; inspect Git for the subsequent local commit. No handoff to a new
+task is needed. Do not repeat the broad documentation survey: reconcile each
+agent's complete personal reading chain and read all final narrative changes.
+
+The [fixed DARELA screen](evidence/reward-mechanism-repair-2026-09-12/darela-shadow-result-2026-09-13.md)
+completed exactly once under identity `darela-shadow-bc6993b67befdb3a6c2d`.
+Its 168 bound inputs retain all 113 historical context records. The single
+input-only preflight checked all 32 real histories before any candidate
+calculation. Producer and independent audit finished in 18.752 and 22.069
+seconds under their respective 1,200/600-second caps, with exit zero, reaping,
+unchanged bindings and no terminal errors. Both executions are complete;
+do not rerun or resume them.
+
+The candidate is rejected: all four home guard cells fail, all four away
+cells pass at zero change, and every home trial becomes more depressive.
+Second/base home mean is −0.443546399474 against an absolute limit of
+0.358810051597. All 567,424 final/electrical float32 endpoints match the
+independent calculation exactly. There are no actual or conditional bounds
+and no numerical ambiguities. This rejects the specified mouse-WT1,
+every-spike, rested-reset engineering transfer on these saved histories;
+it does not reject the source mouse model or fly biology.
+
+The [24-cell results](evidence/reward-mechanism-repair-2026-09-12/darela-shadow-bc6993b67befdb3a6c2d-cells/cell-summary.csv)
+identify the two active PPL101 neurons and 22 silent PAM12 neurons in the
+untaught recordings. Pre-100 ms events advanced per-body release factors;
+the bridge remained cold until 100 ms. Release masses are dimensionless,
+not local concentrations. Pooled home plasticity does not isolate either
+DAN's causal contribution. Full producer/reference arrays, source contracts,
+tests, failing preparation logs and initial code are copied into this repo
+with their originals retained.
+
+All 251 current focused tests pass from canonical paths: 122 producer,
+124 independent audit and five cell-summary cases. Preparation corrected
+reporting units, incomplete journal/terminal checks, Python numeric type
+aliases, inconsistent aggregate classification and stale launcher imports.
+Fresh `make verify` passed 4,055 Python tests, 103 frontend tests, Ruff and
+the build. The existing failed qualification/`not_run_gate_failed` UI is
+still accurate; this phase changes no production/API/UI behavior and claims
+no new browser run. The active model pointer remains unchanged.
+
+The complete learning goal remains unfinished. Do not tune this rejected
+construction's p/tau, onset, eta, bounds, thresholds or masks. No next
+candidate is selected here. Continue primary-source work on release/receptor
+coupling and KC eligibility, then qualify an explicitly specified mechanism
+on both complete native panels before controlled acquisition and reversal.
+Preserve the accepted gains, ports, all home inputs and the gamma-only away
+plasticity mask. Do not push or promote. The earlier boundaries below are
+historical; statements that the DARELA screen has not run are superseded.
+
+## Previous boundary: September 13, 2026, DARELA numerical preparation complete
 
 Continue in this existing task and on `feat/bet36fly-dopamine-learning`.
 The full repair goal is active and incomplete. The checkpoint immediately

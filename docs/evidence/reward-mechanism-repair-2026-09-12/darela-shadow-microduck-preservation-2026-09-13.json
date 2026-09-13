@@ -1,0 +1,25 @@
+{
+  "checked_at": "2026-09-13T13:41:17.296785+00:00",
+  "snapshot_copies_match": 59,
+  "original_files_still_present": 59,
+  "originals_changed_since_snapshot": [
+    "research/raw/2026-09-12/source-ledger.json",
+    "wiki/SCHEMA.md",
+    "wiki/community/tools-and-distribution.md",
+    "wiki/connectome/brain-body-interface.md",
+    "wiki/index.md",
+    "wiki/log.md",
+    "wiki/microduck/pickup-mechanics.md",
+    "wiki/microduck/runtime.md",
+    "wiki/microduck/sources.json",
+    "wiki/microduck/sources.md",
+    "wiki/microduck/trainer.md",
+    "wiki/overview.md",
+    "wiki/synthesis/hazard-evaluation.md",
+    "wiki/synthesis/open-questions.md",
+    "wiki/synthesis/training-and-deployment.md",
+    "wiki/verification.md"
+  ],
+  "scope": "Preserved dated copy, not a current upstream mirror; no original written or removed.",
+  "passed": true
+}
