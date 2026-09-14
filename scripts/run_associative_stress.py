@@ -21,6 +21,21 @@ from bet36fly.connectome import ROOT  # noqa: E402
 from bet36fly.associative import atomic_json  # noqa: E402
 
 
+def reinforcement_plan(keys, cycles, retired_cue=None, retire_after_cycles=None):
+    """Ordered (cycle, cue) reinforcements; a retired cue is never reinforced from its retirement cycle on."""
+    if (retired_cue is None) != (retire_after_cycles is None):
+        raise ValueError('retired_cue and retire_after_cycles must be given together.')
+    if retired_cue is not None and (retired_cue not in keys or not 0 < retire_after_cycles <= cycles):
+        raise ValueError('The retired cue must be one of the cues and retire inside the run.')
+    return [(cycle, key) for cycle in range(cycles) for key in keys
+            if not (retired_cue is not None and key == retired_cue and cycle >= retire_after_cycles)]
+
+
+def last_in_cycle(keys, retired_cue, retire_after_cycles, cycle):
+    active = [k for k in keys if not (retired_cue is not None and k == retired_cue and cycle >= retire_after_cycles)]
+    return active[-1]
+
+
 def run(protocol_path, arm, rho, root=ROOT):
     raw = protocol_path.read_bytes()
     protocol = json.loads(raw)
@@ -111,11 +126,12 @@ def run(protocol_path, arm, rho, root=ROOT):
         probe_all('unit')
         base = protocol['training_seed_base']
         n = 0
-        for cycle in range(protocol['cycles']):
-            for key in keys:
-                reinforce(odors[key], base + n, key)
-                n += 1
-            if (cycle + 1) % protocol['probe_every_cycles'] == 0:
+        for cycle, key in reinforcement_plan(keys, protocol['cycles'], protocol.get('retired_cue'),
+                                             protocol.get('retire_after_cycles')):
+            reinforce(odors[key], base + n, key)
+            n += 1
+            if key == last_in_cycle(keys, protocol.get('retired_cue'), protocol.get('retire_after_cycles'), cycle) \
+                    and (cycle + 1) % protocol['probe_every_cycles'] == 0:
                 probe_all(f'cycle-{cycle + 1}')
         save_checkpoint(out / 'checkpoint-history.npz', engine, identity=identity, note='after the long history')
         history = engine.gains.copy()

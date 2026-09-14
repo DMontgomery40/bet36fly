@@ -1,0 +1,652 @@
+{
+ "0.005": {
+  "identity": "associative-stress-4fff6d5c3da00f716e81",
+  "status": "completed",
+  "retired_cue_depression_by_cycle": {
+   "cycle-4": [
+    -12,
+    -12,
+    -15
+   ],
+   "cycle-8": [
+    -20,
+    -21,
+    -20
+   ],
+   "cycle-12": [
+    -29,
+    -28,
+    -25
+   ],
+   "cycle-16": [
+    -30,
+    -30,
+    -34
+   ],
+   "cycle-20": [
+    -35,
+    -31,
+    -32
+   ],
+   "cycle-24": [
+    -37,
+    -37,
+    -38
+   ]
+  },
+  "mean_active_cue_depression_by_cycle": {
+   "cycle-4": -11.5,
+   "cycle-8": -21.0,
+   "cycle-12": -29.2,
+   "cycle-16": -35.5,
+   "cycle-20": -39.2,
+   "cycle-24": -41.6
+  },
+  "lower_bound_cycle24": [
+   0.036,
+   0.041
+  ],
+  "above_rest_cycle24": [
+   0.0,
+   0.0
+  ],
+  "post": {
+   "delta": {
+    "paired": [
+     [
+      -5,
+      0
+     ],
+     [
+      -10,
+      -2
+     ],
+     [
+      -8,
+      3
+     ]
+    ],
+    "untaught": [
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ]
+    ],
+    "frozen": [
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ]
+    ]
+   },
+   "paired_contrast": [
+    -5,
+    -8,
+    -11
+   ],
+   "untaught_contrast": [
+    0,
+    0,
+    0
+   ],
+   "reversal_delta": [
+    [
+     9,
+     -4
+    ],
+    [
+     4,
+     -6
+    ],
+    [
+     6,
+     -3
+    ]
+   ],
+   "reversal_preference": [
+    13,
+    10,
+    9
+   ],
+   "acquisition_passed": true,
+   "reversal_flipped": true
+  },
+  "total_recovery": 307.8395510313872
+ },
+ "0.01": {
+  "identity": "associative-stress-5656e6f81167629c3b28",
+  "status": "completed",
+  "retired_cue_depression_by_cycle": {
+   "cycle-4": [
+    -15,
+    -16,
+    -12
+   ],
+   "cycle-8": [
+    -22,
+    -18,
+    -19
+   ],
+   "cycle-12": [
+    -25,
+    -23,
+    -21
+   ],
+   "cycle-16": [
+    -26,
+    -29,
+    -24
+   ],
+   "cycle-20": [
+    -30,
+    -30,
+    -29
+   ],
+   "cycle-24": [
+    -32,
+    -29,
+    -32
+   ]
+  },
+  "mean_active_cue_depression_by_cycle": {
+   "cycle-4": -11.7,
+   "cycle-8": -18.2,
+   "cycle-12": -25.4,
+   "cycle-16": -29.6,
+   "cycle-20": -33.2,
+   "cycle-24": -34.8
+  },
+  "lower_bound_cycle24": [
+   0.02,
+   0.023
+  ],
+  "above_rest_cycle24": [
+   0.0,
+   0.0
+  ],
+  "post": {
+   "delta": {
+    "paired": [
+     [
+      -10,
+      1
+     ],
+     [
+      -11,
+      7
+     ],
+     [
+      -14,
+      3
+     ]
+    ],
+    "untaught": [
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ]
+    ],
+    "frozen": [
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ]
+    ]
+   },
+   "paired_contrast": [
+    -11,
+    -18,
+    -17
+   ],
+   "untaught_contrast": [
+    0,
+    0,
+    0
+   ],
+   "reversal_delta": [
+    [
+     7,
+     -2
+    ],
+    [
+     9,
+     2
+    ],
+    [
+     7,
+     -1
+    ]
+   ],
+   "reversal_preference": [
+    9,
+    7,
+    8
+   ],
+   "acquisition_passed": true,
+   "reversal_flipped": true
+  },
+  "total_recovery": 486.3943794730529
+ },
+ "0.02": {
+  "identity": "associative-stress-ab4beecd80459fa6365b",
+  "status": "completed",
+  "retired_cue_depression_by_cycle": {
+   "cycle-4": [
+    -13,
+    -14,
+    -11
+   ],
+   "cycle-8": [
+    -16,
+    -17,
+    -18
+   ],
+   "cycle-12": [
+    -20,
+    -18,
+    -20
+   ],
+   "cycle-16": [
+    -21,
+    -19,
+    -21
+   ],
+   "cycle-20": [
+    -22,
+    -19,
+    -20
+   ],
+   "cycle-24": [
+    -21,
+    -22,
+    -21
+   ]
+  },
+  "mean_active_cue_depression_by_cycle": {
+   "cycle-4": -10.1,
+   "cycle-8": -15.8,
+   "cycle-12": -19.5,
+   "cycle-16": -22.0,
+   "cycle-20": -24.0,
+   "cycle-24": -25.4
+  },
+  "lower_bound_cycle24": [
+   0.009,
+   0.01
+  ],
+  "above_rest_cycle24": [
+   0.0,
+   0.0
+  ],
+  "post": {
+   "delta": {
+    "paired": [
+     [
+      -13,
+      6
+     ],
+     [
+      -12,
+      5
+     ],
+     [
+      -10,
+      3
+     ]
+    ],
+    "untaught": [
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ]
+    ],
+    "frozen": [
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ]
+    ]
+   },
+   "paired_contrast": [
+    -19,
+    -17,
+    -13
+   ],
+   "untaught_contrast": [
+    0,
+    0,
+    0
+   ],
+   "reversal_delta": [
+    [
+     8,
+     2
+    ],
+    [
+     9,
+     4
+    ],
+    [
+     6,
+     5
+    ]
+   ],
+   "reversal_preference": [
+    6,
+    5,
+    1
+   ],
+   "acquisition_passed": true,
+   "reversal_flipped": true
+  },
+  "total_recovery": 659.8661803123005
+ },
+ "baseline": {
+  "identity": "associative-stress-b5298f7348c9602d602e",
+  "status": "completed",
+  "retired_cue_depression_by_cycle": {
+   "cycle-4": [
+    -15,
+    -16,
+    -14
+   ],
+   "cycle-8": [
+    -22,
+    -21,
+    -25
+   ],
+   "cycle-12": [
+    -33,
+    -31,
+    -33
+   ],
+   "cycle-16": [
+    -36,
+    -39,
+    -38
+   ],
+   "cycle-20": [
+    -44,
+    -41,
+    -42
+   ],
+   "cycle-24": [
+    -46,
+    -45,
+    -51
+   ]
+  },
+  "mean_active_cue_depression_by_cycle": {
+   "cycle-4": -12.1,
+   "cycle-8": -22.9,
+   "cycle-12": -33.5,
+   "cycle-16": -40.3,
+   "cycle-20": -46.0,
+   "cycle-24": -49.1
+  },
+  "lower_bound_cycle24": [
+   0.163,
+   0.17
+  ],
+  "above_rest_cycle24": [
+   0.0,
+   0.0
+  ],
+  "post": {
+   "delta": {
+    "paired": [
+     [
+      -10,
+      0
+     ],
+     [
+      -5,
+      -1
+     ],
+     [
+      -5,
+      0
+     ]
+    ],
+    "untaught": [
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ]
+    ],
+    "frozen": [
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ]
+    ]
+   },
+   "paired_contrast": [
+    -10,
+    -4,
+    -5
+   ],
+   "untaught_contrast": [
+    0,
+    0,
+    0
+   ],
+   "reversal_delta": [
+    [
+     3,
+     -4
+    ],
+    [
+     4,
+     -8
+    ],
+    [
+     5,
+     -7
+    ]
+   ],
+   "reversal_preference": [
+    7,
+    12,
+    12
+   ],
+   "acquisition_passed": true,
+   "reversal_flipped": true
+  },
+  "total_recovery": 0.0
+ },
+ "0.04": {
+  "identity": "associative-stress-f3df8eafc32e8e5283a4",
+  "status": "completed",
+  "retired_cue_depression_by_cycle": {
+   "cycle-4": [
+    -11,
+    -9,
+    -15
+   ],
+   "cycle-8": [
+    -11,
+    -13,
+    -14
+   ],
+   "cycle-12": [
+    -14,
+    -15,
+    -14
+   ],
+   "cycle-16": [
+    -16,
+    -16,
+    -12
+   ],
+   "cycle-20": [
+    -11,
+    -17,
+    -14
+   ],
+   "cycle-24": [
+    -14,
+    -15,
+    -14
+   ]
+  },
+  "mean_active_cue_depression_by_cycle": {
+   "cycle-4": -8.2,
+   "cycle-8": -12.4,
+   "cycle-12": -13.6,
+   "cycle-16": -14.3,
+   "cycle-20": -14.9,
+   "cycle-24": -15.5
+  },
+  "lower_bound_cycle24": [
+   0.004,
+   0.005
+  ],
+  "above_rest_cycle24": [
+   0.0,
+   0.0
+  ],
+  "post": {
+   "delta": {
+    "paired": [
+     [
+      -11,
+      2
+     ],
+     [
+      -12,
+      -1
+     ],
+     [
+      -12,
+      3
+     ]
+    ],
+    "untaught": [
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ]
+    ],
+    "frozen": [
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ]
+    ]
+   },
+   "paired_contrast": [
+    -13,
+    -11,
+    -15
+   ],
+   "untaught_contrast": [
+    0,
+    0,
+    0
+   ],
+   "reversal_delta": [
+    [
+     11,
+     2
+    ],
+    [
+     10,
+     -1
+    ],
+    [
+     5,
+     3
+    ]
+   ],
+   "reversal_preference": [
+    9,
+    11,
+    2
+   ],
+   "acquisition_passed": true,
+   "reversal_flipped": true
+  },
+  "total_recovery": 767.5314167341899
+ }
+}

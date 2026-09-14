@@ -1,0 +1,66 @@
+{
+  "schema": 1,
+  "label": "associative-stress-02-forgetting",
+  "contract": "docs/EXPERIMENT_ASSOCIATIVE.md",
+  "baseline_circuit": "configs/associative-circuit-01.json",
+  "recovery_circuit": "configs/associative-circuit-02.json",
+  "rho_grid": [
+    0.005,
+    0.01,
+    0.02,
+    0.04
+  ],
+  "cues": [
+    "stress:0",
+    "stress:1",
+    "stress:2",
+    "stress:3",
+    "stress:4",
+    "stress:5",
+    "stress:6",
+    "stress:7"
+  ],
+  "cycles": 24,
+  "order": "cycle through the 8 cues in fixed order; each presentation is the forward-paired reinforcement trial of the circuit timing",
+  "probe_every_cycles": 4,
+  "probe_seeds": [
+    3021,
+    3022,
+    3023
+  ],
+  "training_seed_base": 40000,
+  "post_history": {
+    "cues": {
+      "A": "cue:E",
+      "B": "cue:F"
+    },
+    "exposures_per_cue": 12,
+    "arms": [
+      "paired",
+      "untaught",
+      "frozen"
+    ],
+    "reversal": "backward-erasure-plus-swap from the post-history paired checkpoint"
+  },
+  "metrics": [
+    "fraction of eligible edges at the lower/upper bound after every probe cycle, per compartment",
+    "gain histogram deciles per compartment",
+    "recent memory: summed MBON05+MBON01 response to the cue reinforced last, relative to its unit-gain probe",
+    "old memory: same for the cue reinforced longest ago",
+    "post-history acquisition and reversal verdicts with the conditioning-02 criteria"
+  ],
+  "selection_criteria": {
+    "bound_occupancy": "fraction of eligible edges at the lower bound after 24 cycles <= 0.10 in both compartments",
+    "recent_memory": "summed response depression of the most recently reinforced cue >= 3 x the frozen-probe null in every seed",
+    "no_gain_above_rest": "true",
+    "post_history_acquisition": "conditioning-02 acquisition criteria pass on the fresh pair",
+    "rule": "choose the SMALLEST rho in the grid meeting every criterion; report the memory-lifetime tradeoff (old-cue depression retained) for every rho without using it for selection"
+  },
+  "call_cap": 2000,
+  "wall_cap_seconds": 5400,
+  "interpretation": "Mechanistic stress test of continual learning; no sports data, no outcomes. Answers whether dopamine-gated recovery preserves usable KC->MBON dynamic range without destroying cue-specific memory.",
+  "based_on": "configs/associative-stress-01.json",
+  "retired_cue": "stress:0",
+  "retire_after_cycles": 4,
+  "purpose": "Supplementary lifetime measurement: cue stress:0 is reinforced only in cycles 1-4 and then retired while the other seven cues continue; its probed depression at cycles 4, 8, ..., 24 is the forgetting curve under each rho. Reported as the memory-lifetime tradeoff; NOT a selection criterion (the selection rule of stress-01 stands)."
+}

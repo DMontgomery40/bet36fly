@@ -144,3 +144,21 @@ def test_version_two_evaluation_options_are_validated_and_applied():
     assert v2['criteria']['backward_potentiates_gains'] and v2['readout'] == 'sum'
     endpoints['backward'] = endpoint(-1., a_gain=-0.01)
     assert not ac.evaluate_acquisition(unit, endpoints, partition, unit_gains, spec=spec)['criteria']['backward_potentiates_gains']
+
+
+def test_stress_reinforcement_plan_retires_a_cue_without_changing_the_others():
+    import importlib.util
+    spec = importlib.util.spec_from_file_location('stress', 'scripts/run_associative_stress.py')
+    stress = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(stress)
+    keys = ['a', 'b', 'c']
+    full = stress.reinforcement_plan(keys, 4)
+    assert full == [(c, k) for c in range(4) for k in keys]
+    retired = stress.reinforcement_plan(keys, 4, 'a', 2)
+    assert [k for c, k in retired if c < 2] == ['a', 'b', 'c', 'a', 'b', 'c']
+    assert [k for c, k in retired if c >= 2] == ['b', 'c', 'b', 'c']
+    assert stress.last_in_cycle(keys, 'a', 2, 1) == 'c' and stress.last_in_cycle(['b', 'a'], 'a', 2, 3) == 'b'
+    with pytest.raises(ValueError):
+        stress.reinforcement_plan(keys, 4, 'zz', 2)
+    with pytest.raises(ValueError):
+        stress.reinforcement_plan(keys, 4, 'a', None)
