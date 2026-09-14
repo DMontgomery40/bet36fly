@@ -1,0 +1,15 @@
+{
+  "factory": "/Users/davidmontgomery/markdown-video-experiment/md-video-maker/mdvm.py",
+  "factory_sha256": "c9c20320fcca4afe42f0a763eed70e00914c90e3e5eb2762bffb7b519fcd33b2",
+  "planning_command": "mdvm.py plan /Users/davidmontgomery/Documents/ChatGPT/bet36fly/video/connectome-film --force",
+  "rendering_command": "mdvm.py render /Users/davidmontgomery/Documents/ChatGPT/bet36fly/video/connectome-film",
+  "planner_binary": "/Applications/ChatGPT.app/Contents/Resources/codex",
+  "planner_output_sha256": "024c9f9dc740694524a3a3df55676461213efdb36988b84106c1dd9fac70f5f2",
+  "narration_revision": "Inline editorial corrections after factory visual planning; final exact text approved by a fresh Claude holistic review.",
+  "approved_narration_sha256": "54ca41204d050576ed7e3db99d4c4a2da0a0d47111c6298534a01df4ad121d65",
+  "images": "31 existing GPT-image-2.5 images across 33 still scenes; no new images generated.",
+  "voice_id": "SAz9YHcvj6GT2YYXdXww",
+  "native_speed": 0.82,
+  "postproduction_speed_change": false,
+  "packaging": "Copy the factory video stream; add aligned captions, chapters and audio loudness normalization."
+}

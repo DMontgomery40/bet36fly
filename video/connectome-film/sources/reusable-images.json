@@ -1,0 +1,187 @@
+[
+  {
+    "prior_scene": 0,
+    "description": "An unlikely colleague",
+    "image_source_path": "assets/generated-v3/scene_000.png"
+  },
+  {
+    "prior_scene": 1,
+    "description": "How did we get here?",
+    "image_source_path": "assets/generated-v2/scene_000-credited.png"
+  },
+  {
+    "prior_scene": 2,
+    "description": "A fly in Doom",
+    "image_source_path": "assets/generated-v2/scene_009.png"
+  },
+  {
+    "prior_scene": 3,
+    "description": "Follow the controls",
+    "image_source_path": "assets/generated-v3/scene_003-reviewed.png"
+  },
+  {
+    "prior_scene": 4,
+    "description": "The trail through the code",
+    "image_source_path": "assets/generated-v3/scene_004.png"
+  },
+  {
+    "prior_scene": 5,
+    "description": "Inside the specimen",
+    "image_source_path": "assets/generated-v2/scene_001-model25.png"
+  },
+  {
+    "prior_scene": 6,
+    "description": "Google Research and the reconstruction",
+    "image_source_path": "assets/generated-v3/scene_006.png"
+  },
+  {
+    "prior_scene": 7,
+    "description": "An architecture with an address book",
+    "image_source_path": "assets/generated-v3/scene_007-reviewed.png"
+  },
+  {
+    "prior_scene": 8,
+    "description": "A different starting point",
+    "image_source_path": "assets/generated-v2/scene_003.png"
+  },
+  {
+    "prior_scene": 9,
+    "description": "The wiring waits",
+    "image_source_path": "assets/generated-v2/scene_005.png"
+  },
+  {
+    "prior_scene": 10,
+    "description": "Give a neuron time",
+    "image_source_path": "assets/generated-v3/scene_010-reviewed.png"
+  },
+  {
+    "prior_scene": 11,
+    "description": "Bring it back to bet365",
+    "image_source_path": "assets/generated-v2/scene_012-reviewed.png"
+  },
+  {
+    "prior_scene": 12,
+    "description": "What does baseball taste like?",
+    "image_source_path": "assets/generated-v3/scene_017-reviewed.png"
+  },
+  {
+    "prior_scene": 13,
+    "description": "Two opportunities",
+    "image_source_path": "assets/generated-v2/scene_013-reviewed.png"
+  },
+  {
+    "prior_scene": 14,
+    "description": "Read the response",
+    "image_source_path": "assets/generated-v3/scene_019.png"
+  },
+  {
+    "prior_scene": 15,
+    "description": "A season through the circuit",
+    "image_source_path": "assets/generated-v3/scene_020.png"
+  },
+  {
+    "prior_scene": 16,
+    "description": "What the season gives us",
+    "image_source_path": "assets/generated-v3/scene_021-reviewed.png"
+  },
+  {
+    "prior_scene": 17,
+    "description": "After the outcome",
+    "image_source_path": "assets/generated-v3/scene_022-reviewed.png"
+  },
+  {
+    "prior_scene": 18,
+    "description": "Let the world in",
+    "image_source_path": "assets/generated-v3/scene_011.png"
+  },
+  {
+    "prior_scene": 19,
+    "description": "From odor to memory",
+    "image_source_path": "assets/generated-v2/scene_006.png"
+  },
+  {
+    "prior_scene": 20,
+    "description": "A local teaching signal",
+    "image_source_path": "assets/generated-v2/scene_016.png"
+  },
+  {
+    "prior_scene": 21,
+    "description": "Teaching a cue",
+    "image_source_path": "assets/generated-v3/scene_024-final.png"
+  },
+  {
+    "prior_scene": 22,
+    "description": "Room for another experience",
+    "image_source_path": "assets/generated-v3/scene_025.png"
+  },
+  {
+    "prior_scene": 23,
+    "description": "A different engineering conversation",
+    "image_source_path": "assets/generated-v3/scene_026.png"
+  },
+  {
+    "prior_scene": 24,
+    "description": "Change the circuit, ask again",
+    "image_source_path": "assets/generated-v3/scene_029.png"
+  },
+  {
+    "prior_scene": 25,
+    "description": "Borrowing the front end",
+    "image_source_path": "assets/generated-v3/scene_013.png"
+  },
+  {
+    "prior_scene": 26,
+    "description": "A research lineage",
+    "image_source_path": "assets/generated-v2/scene_010-reviewed.png"
+  },
+  {
+    "prior_scene": 27,
+    "description": "A body to inhabit",
+    "image_source_path": "assets/generated-v2/scene_011.png"
+  },
+  {
+    "prior_scene": 28,
+    "description": "Why the pace feels different",
+    "image_source_path": "assets/generated-v2/scene_020.png"
+  },
+  {
+    "prior_scene": 29,
+    "description": "Weeks of experiments, years of science",
+    "image_source_path": "assets/generated-v3/scene_031.png"
+  },
+  {
+    "prior_scene": 30,
+    "description": "The next animal",
+    "image_source_path": "assets/generated-v2/scene_021.png"
+  },
+  {
+    "prior_scene": 31,
+    "description": "Wiring meets activity",
+    "image_source_path": "assets/generated-v3/scene_033.png"
+  },
+  {
+    "prior_scene": 32,
+    "description": "From plausible to calibrated",
+    "image_source_path": "assets/generated-v3/scene_034-reviewed.png"
+  },
+  {
+    "prior_scene": 33,
+    "description": "Into mammalian tissue",
+    "image_source_path": "assets/generated-v2/scene_022-reviewed.png"
+  },
+  {
+    "prior_scene": 34,
+    "description": "Tools that carry forward",
+    "image_source_path": "assets/generated-v3/scene_036-reviewed.png"
+  },
+  {
+    "prior_scene": 35,
+    "description": "Choose a problem and enter the circuit",
+    "image_source_path": "assets/generated-v3/scene_037.png"
+  },
+  {
+    "prior_scene": 36,
+    "description": "Back to the kitchen",
+    "image_source_path": "assets/generated-v3/scene_038.png"
+  }
+]

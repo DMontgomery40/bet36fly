@@ -1,0 +1,67 @@
+You are a fresh independent listener. Below is the entire narration; you have no other project context. Judge only the overall story: is it engaging, coherent, logically constructed, and understandable to the audience implied by the text? Does it start from sufficient background, develop its ideas in an order a listener can follow, and reach a reasonable ending? Give APPROVE if it generally succeeds at those things. Give REJECT only for a substantial problem that would make the overall story confusing, incoherent, or unengaging. This is a holistic narrative gate, not a demand for perfect wording or a scientific peer review. Do not propose word substitutions, optional refinements, additional studies, or a line-edit list. Return an explicit verdict and a short explanation grounded in the story.
+
+What could you build with a neural network whose architecture came from an animal?
+
+A connectome gives you that starting point: a map of an animal's neurons and the connections between them. At the sports betting company bet three sixty-five, we're exploring how circuitry shaped by an animal's life responds to a completely different kind of information. Sports gives us a familiar problem to bring to that unfamiliar architecture.
+
+A biological neuron is a cell with branches that reach toward other cells. Where they make contact, a junction called a synapse carries signals between them. Researchers trace those cells and contacts through real tissue to build the map.
+
+Connectomes come in different sizes: some cover a single circuit, some a region, some a whole brain. The one behind this project covers a male fruit fly's brain together with its ventral nerve cord, the bundle of nervous tissue running down into its body — roughly a hundred and sixty-seven thousand neurons, in a volume smaller than a sesame seed.
+
+Recovering a map like that is slow physical work. The tissue is preserved and sliced far thinner than a wavelength of light, and every slice goes under an electron microscope. What comes back is a stack of tens of thousands of images in which a neuron appears only as a cross-section, a smudge that has to be matched to the smudge above it and the smudge below it, through every branch and every turn, past thousands of neighboring cells doing the same thing.
+
+Google Research built the machine-learning systems that draft those tracings, working with HHMI Janelia, the University of Cambridge, and the MRC Laboratory of Molecular Biology, whose scientists proofread and corrected the result. The imaging and tracing methods behind it were developed over decades. This particular resource went public in June twenty twenty-six, and the paper followed in September.
+
+What an engineer downloads at the end of all that is a graph. Neurons are the nodes, connections are the edges, and each edge carries the number of synaptic contacts the two cells make with each other. The graph arrives with structure already in it: dedicated routes for vision, for smell, for driving legs and wings, for holding onto something that happened a moment ago. Nobody drew that layout on a whiteboard. It is there because it kept flies alive.
+
+To make that graph respond, we give its neurons equations that describe their behavior: how much voltage builds in a modeled neuron as inputs arrive, how much charge crosses a synapse, when the cell fires, and how quickly it settles afterward.
+
+Those equations come out of the experimental literature — fly neurons have been recorded from for decades, and published spiking models of fly circuits are already there to work from. So the wiring comes out of the animal, the timing comes out of a simulator, and running the thing means running both.
+
+Which brings us to the awkward part. A fruit fly's nervous system has no input for baseball. It has inputs for light, for odor molecules, for the taste of something sweet and the taste of something bitter, for the position of its own legs. We named our project bet three sixty fly after the animal supplying the wiring. Our first engineering problem is the adapter.
+
+We use the taste pathways. The pregame numbers for a team — recent form, the starting pitcher, the ordinary inputs any baseball model takes — become patterns of stimulation on the food-attraction and food-avoidance pathways, an engineered version of putting something sweet or something bitter in front of the animal.
+
+Each team's stimulus uses only information available before the game. Both teams follow the same encoding rules and are presented separately. Both can taste good; the encoding preserves their individual qualities.
+
+Then you run it and watch. Activity spreads from the taste inputs through whatever the wiring allows, settles, and leaves a pattern across a set of neurons we chose in advance. That pattern is what we read out, and a small external model, trained on past seasons, turns the two patterns into a prediction.
+
+If you work with embeddings, the shape will be familiar: something goes in, a representation comes out of the middle, and an output layer reads the representation. We designed the input adapter and the readout. The connections inside the circuit come from the measured anatomy, and the simulator follows activity through those connections over time.
+
+Sports gives us a way to test this chain against outcomes we can check. For our first full-season test, we fixed the model before giving it the twenty twenty-three Major League Baseball games. Across more than twenty-four hundred games, it called about fifty-six percent correctly, level with a conventional model given the same pregame information. We are still investigating which features of the fly's wiring contribute useful capabilities.
+
+The circuit gives that investigation a physical reference: named cells and the connections measured between them. One experiment we can design is to quiet a selected pathway, present the same matchup again, and compare the response.
+
+Comparing the intact circuit with altered wiring is how we can test which parts of the anatomy contribute to the representation.
+
+We can also let experience change the connections. A living fly carries the previous encounter into the next one. A fly that finds food while a particular smell is in the air will treat that smell differently the next time it drifts past.
+
+The structure behind that is called the mushroom body, where sensory signals meet a teaching signal carried by dopamine. We implemented an association experiment in a separate version of our simulator: pair a cue with the teaching signal, wait, then present the cue on its own, and the circuit answers it differently than it did before.
+
+The change stays specific to the cue that was trained, and it reverses when the teaching signal reverses. This lets us study a representation that changes with experience, alongside the fixed responses used in the season test.
+
+Once you have an adapter into the circuit, you can give it a different environment. A developer connected the same released wiring to Doom, the first-person shooter, in a project called DOOMFLY. Game frames go in as input, the code path runs through the retained connectome graph, and a fixed set of outputs is mapped onto moving and shooting.
+
+The screen alone can hide how a demo works. A browser can also show a convincing fly animation using JavaScript and entirely scripted movement. When you watch a fly demo online, look for what controls its next action. In DOOMFLY, you can open the repository and follow a game frame through the neural model to a keypress.
+
+In Doom, each action changes the next game frame. Turning alters the view; moving brings something closer. The circuit's outputs become part of its next input.
+
+Giving that loop the sensory detail and physical consequences of an animal's world is a larger undertaking. FlyVis develops the visual side: researchers constrain a model with measured fly connectivity, train it on visual tasks, and compare its responses with recordings from real cells.
+
+FlyBody supplies a body in a physics engine, with reinforcement-learning controllers for walking and flight. It provides a way to test the consequences of a controller's outputs, down to whether the fly keeps its feet on the ground.
+
+The reason all of this is arriving at once is that two very different timescales met. The imaging, the tracing, the proofreading — that is decades of method and years of work on this one specimen, released in June. The experiments built on top of it are weeks old.
+
+Reading into an unfamiliar literature, writing an adapter, getting somebody else's research code to run used to be the slow parts, and coding agents built on large language models have made them cheap enough that a small team can cross from neuroscience to a running pipeline in days.
+
+And the maps keep improving. A larval zebrafish is transparent, which means you can point a microscope at a living one and watch neurons light up across most of its brain while the animal behaves.
+
+Google Research is working toward pairing a zebrafish wiring map with activity recorded from the same specimen. The associated activity dataset already covers more than seventy thousand neurons. You could run your equations on the measured wiring, compare the result with what those same neurons did, and tighten the model where the two disagree. The recordings would give the simulator a detailed target from the animal it represents.
+
+The same approach is reaching mammalian circuits. The MICrONS project reconstructed a block of mouse visual cortex, the brain tissue that processes vision, containing roughly half a billion synaptic contacts alongside activity recordings.
+
+Larger mapping programs are underway, bringing increasingly rich circuits within reach of this kind of experiment.
+
+We started with a network architecture that came from an animal. We can now give part of that network an unfamiliar input, measure the response, and change a pathway to see what it contributes.
+
+The fly lets us begin doing that work today. As maps of fish and mammalian brains develop, engineers will have more biological architectures to build around, with recordings that show how those circuits worked in the living animal.

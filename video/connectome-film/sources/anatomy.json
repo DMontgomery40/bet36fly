@@ -1,0 +1,8 @@
+{
+  "source": "data/brain/nodes.feather",
+  "source_sha256": "d706a6dd5ec1dc17cfba2e8f439232723af81729bf1d0c17bf0cc73860a9c867",
+  "display_sample": 5500,
+  "sampling_seed": 36,
+  "projection": "X,Z with Y depth; rotation is camera motion only",
+  "activity": "none"
+}

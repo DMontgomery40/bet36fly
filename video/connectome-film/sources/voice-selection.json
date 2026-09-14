@@ -1,0 +1,15 @@
+{
+  "checked": "2026-09-14",
+  "provider": "ElevenLabs",
+  "endpoint": "/v1/voices",
+  "voice_id": "SAz9YHcvj6GT2YYXdXww",
+  "name": "River - Relaxed, Neutral, Informative",
+  "labels": {
+    "accent": "american",
+    "descriptive": "calm",
+    "use_case": "conversational",
+    "gender": "neutral"
+  },
+  "description": "A relaxed, neutral voice ready for narrations or conversational projects.",
+  "selection_reason": "User rejected the aggressive Adam voice; select calm conversational delivery, zero style exaggeration, speaker boost off."
+}

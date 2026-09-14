@@ -1,0 +1,73 @@
+Somewhere in your kitchen, a fruit fly is making a living with a nervous system smaller than a pinhead. It finds food, avoids trouble, and remembers what happened. Here at bet three sixty-five, we've given a model built from fly wiring a different assignment: respond to baseball matchups.
+
+The project is called bet three sixty fly. It starts with connections inside a male fruit fly's nervous system, reconstructed by Google Research and its scientific collaborators. What would it take to give that circuitry an entirely different world?
+
+One developer chose Doom. Game screenshots become neural input. Activity travels through a model of the fly's network, and selected outputs control movement and firing. Circuitry shaped around the problems of being a fly now has a route to a first-person shooter's controls.
+
+The flies appearing in your feed can look similar while working very differently. Some use JavaScript to animate scripted behavior. A fly can wander around with a dopamine meter beside it while no neural model makes its decisions. The picture alone doesn't reveal what's driving it.
+
+In DOOMFLY, you can follow the code from game frames through the released anatomical connections to the action mapping. That gives the experiment somewhere to go: change a pathway, repeat the input, and see whether the behavior changes.
+
+First, someone had to recover those pathways. Researchers imaged the tissue with electron microscopy. Imagine tracing a cable through a building using only a stack of paper-thin slices, with every cable branching into more cables. That was the reconstruction problem.
+
+Google Research helped reconstruct neurons from those images using machine learning. Scientists checked and corrected the result. Google worked with H H M I Janelia, the University of Cambridge, and the M R C Laboratory of Molecular Biology to turn a biological specimen into data an engineer can load.
+
+A connectome is that map of neurons and their connections. This male fly resource covers roughly a hundred and sixty-seven thousand neurons, including the brain and the nerve cord connecting it to the body. The June release and September paper opened years of work to a new wave of experiments.
+
+Usually, we choose a neural network's architecture: repeat a block, set its width, train its weights. Here, the architecture arrives with the specimen. Specialized routes for vision, smell, movement, and memory come with it. We inherit a structure to explore.
+
+The wiring still needs dynamics. We supply equations for how modeled neurons respond, how signals cross connections, and how connections change with experience. The anatomical map constrains the model. The simulator makes it unfold in time.
+
+In a simple spiking model, incoming signals raise or lower a neuron's voltage. Enough excitation triggers a pulse to its neighbors. Between inputs, the voltage relaxes. Each new signal meets the state left by the signals before it.
+
+For our bet three sixty-five experiment, the environment contains two teams and pregame measurements. An outcome arrives later. We need to translate those opportunities into something the circuit can receive. A fly has no reason to care about a starting pitcher's recent form.
+
+It does have circuitry for food-related signals. So bet three sixty fly translates pregame information into appetitive and aversive stimulation: an engineered version of presenting something sweet or bitter. We chose food-related stimulation as the interface between baseball information and the modeled circuit.
+
+Each team follows the same encoding rules. Both can produce an attractive pattern; one team's sweetness doesn't require the other to become bitter. We present two opportunities, carrying their differences into the sensory input without assigning the winner beforehand.
+
+We present the patterns separately, measure selected neurons, and fit an external readout to predict the outcome. If you work with embeddings, the workflow will feel familiar. The middle stage here is a representation produced by an anatomically structured circuit responding over time.
+
+Across two thousand four hundred and twenty-three games from the twenty twenty-three baseball season, the frozen pipeline got just over fifty-six percent right. Conventional baselines performed at about the same level. Every prediction can be followed back through the circuit response to the pregame information.
+
+We can now inspect a particular matchup and ask where its information goes. That makes the next experiment concrete: change an input mapping, record another pathway, compare the response. A strange-sounding idea has become a system we can work on.
+
+The kitchen fly also brings yesterday's experience into today. Finding food can change its response when an odor returns. In a separate model, we tested whether a teaching signal could leave a lasting, specific change in the circuit.
+
+For an odor to become a memory, it first needs a pattern the circuit can recognize. Different sensory neurons respond to different components of an odor mixture. That pattern travels inward, giving the learning circuitry a particular combination of signals to associate with an outcome.
+
+One sensory route leads into the mushroom body, a region involved in learning associations. Its Kenyon cells respond in sparse combinations: a small subset becomes active for a particular cue. That gives the model a pattern it can associate with a teaching signal.
+
+Synaptic plasticity means changing a connection's strength. In the mushroom body, dopamine helps regulate changes where active Kenyon cells contact output neurons. Our modeled rule combines recent local activity with an engineered teaching signal, allowing experience to affect the next response.
+
+Pair a sensory cue with that signal, wait, then present the cue alone. In controlled experiments, the newer circuit retains a cue-specific change and reverses the association when the teaching changes. That demonstrates an association in the model. Its contribution to prediction is a separate research question.
+
+In this model, repeated learning can push connection strengths to their limits. A recovery mechanism restores some room for further change. Shared neurons create another complication: learning about one cue can disturb another. Each result gives us a more specific problem to work on.
+
+The debugging conversation now concerns particular cells and connections. Where did the teaching signal arrive? Which synapses changed? How long did that change last? The experiment gives us access to the machinery carrying an association from one encounter to the next.
+
+When a pathway looks important, we can silence selected modeled neurons and repeat the input. That tests whether the response depends on that route. The circuit becomes an experimental object we can take apart selectively, while keeping the rest of the setup fixed.
+
+A richer environment closes the loop: neural output changes what the model senses next. DOOMFLY provides a game world for that experiment. Moving toward an animal's experience adds further demands, including detailed vision and the consequences of controlling a physical body.
+
+FlyVis shows how researchers have developed the visual side: constrain a model with measured fly connectivity, optimize it on visual tasks, and compare its responses with real cells. That joins anatomy, task performance, and biological measurements in one development loop.
+
+FlyBody addresses the other end: a detailed simulated body, with physics and reinforcement-learning controllers for walking and flight. It supplies an environment where future neural controllers can face the practical consequences of their outputs, including whether the animal stays on its feet.
+
+This has become much easier to attempt because two developments are meeting. Connectomics teams release richer maps, while LLMs and coding agents accelerate the work of reading research, building interfaces, and testing software. A small team can work across fields that once demanded much more coordination.
+
+The recent burst of games and experiments follows from that combination. Developers can take the same released circuit into different environments, inspect one another's implementations, and borrow what works. Years of reconstruction can support many experiments its creators never had to anticipate.
+
+Soon, those engineering tools will have richer resources to work with. Young zebrafish are transparent enough to record activity across much of the living brain. That creates an opportunity to connect a wiring map with observations of how the same brain responds.
+
+Google's neural-mapping program is working toward that pairing in Fish2. The associated ZAPBench resource includes activity from more than seventy thousand neurons. The aim is to pair activity with wiring from the same specimen, so model builders can test their dynamics against observed responses.
+
+We began with connections and supplied equations to make them respond. Paired recordings bring more of those equations into contact with measurements from the animal. Each response becomes a test of how well the simulation captures the circuit we're trying to use.
+
+Rodent work is advancing too. MICrONS reconstructed a volume of mouse visual cortex, which processes visual information, containing roughly half a billion synapses and linked activity recordings. Larger mapping programs are underway, extending this approach into increasingly rich mammalian circuitry.
+
+Each animal demands its own biology. But experience with input interfaces, response measurements, and local learning experiments carries forward. Working with the fly prepares us to ask better questions when we can build around those larger, more thoroughly measured circuits.
+
+There is room for engineering teams to contribute now: choose an environment, build its interfaces, and make the experiment inspectable. bet three sixty fly begins with sports information. DOOMFLY begins with a game screen. Both ask what happens when biological wiring encounters a new problem.
+
+The fly in the kitchen still has its own problems to solve. We now have access to an animal's wiring and software to explore it. We can put that circuitry into a new environment and find out what it can do. For us, that starts with two baseball teams and a taste of fruit.

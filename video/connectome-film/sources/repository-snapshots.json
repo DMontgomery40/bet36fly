@@ -1,0 +1,74 @@
+[
+  {
+    "project": "doomfly",
+    "repository": "https://github.com/nftechie/doomfly",
+    "commit": "71ecf53d78eaffaf1a57ed7b0ccf5d458abc9f33",
+    "commit_date": "2026-09-09T15:11:10Z",
+    "files": [
+      {
+        "path": "README.md",
+        "local": "sources/raw/doomfly--README.md",
+        "sha256": "7d34f12bf929161aed55b95c3e6708e6509d614802868a25ec37f2067595cb10"
+      },
+      {
+        "path": "doom/connectome.py",
+        "local": "sources/raw/doomfly--doom__connectome.py",
+        "sha256": "11d0eed94557ffe5b0f9e5f46773bcd5f490600ac8d9cd8b15ce678edac8e19d"
+      }
+    ]
+  },
+  {
+    "project": "flyvis",
+    "repository": "https://github.com/TuragaLab/flyvis",
+    "commit": "92b3845cc426dd309a1a0e1b3890156c42e14021",
+    "commit_date": "2026-08-06T04:09:38Z",
+    "files": [
+      {
+        "path": "readme.md",
+        "local": "sources/raw/flyvis--readme.md",
+        "sha256": "50d091c9a906f81f87e9291bb0de3b2324bcf6e1c19e1308fd4e3172c1280633"
+      },
+      {
+        "path": "flyvis/network/network.py",
+        "local": "sources/raw/flyvis--flyvis__network__network.py",
+        "sha256": "eb172be7db1727a2b1af9f4211c2e1a8655004e8602a4db677e56702a3dfeb43"
+      }
+    ]
+  },
+  {
+    "project": "flybody",
+    "repository": "https://github.com/TuragaLab/flybody",
+    "commit": "d015e9bfe441bd90ae431bac24c55cb74bdbce26",
+    "commit_date": "2025-07-30T22:49:01Z",
+    "files": [
+      {
+        "path": "README.md",
+        "local": "sources/raw/flybody--README.md",
+        "sha256": "de77eb75185842f298e6dad6f26dd372ff1555465dd16f759d8b20e8a0a516f0"
+      },
+      {
+        "path": "flybody/fly_envs.py",
+        "local": "sources/raw/flybody--flybody__fly_envs.py",
+        "sha256": "0c520d4ae2daa051b838dafa7ef595fc260a035c1b7516fd4c0afdb4c231e781"
+      }
+    ]
+  },
+  {
+    "project": "shiu",
+    "repository": "https://github.com/philshiu/Drosophila_brain_model",
+    "commit": "91bdd1e7dcf193f3e7ca5a8933497fcef63b7960",
+    "commit_date": "2024-09-14T13:47:44Z",
+    "files": [
+      {
+        "path": "Readme.md",
+        "local": "sources/raw/shiu--Readme.md",
+        "sha256": "0654ac53f9af85000b50f6a5d2297aade8602c507a44e811f8aff602629c2625"
+      },
+      {
+        "path": "model.py",
+        "local": "sources/raw/shiu--model.py",
+        "sha256": "fc45837d7122c6ce2a7f3f2f23c515992e4b232aadb919efabb72337fac88e4e"
+      }
+    ]
+  }
+]

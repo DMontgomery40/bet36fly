@@ -1,0 +1,904 @@
+{
+  "stage": "source-image matching",
+  "export_checked": true,
+  "new_images_generated": 0,
+  "scenes": [
+    {
+      "id": 0,
+      "image": "assets/generated-v3/scene_000.png",
+      "narration_matches_source_image": true,
+      "notes": "Existing image viewed; labels and subject checked against the new passage."
+    },
+    {
+      "id": 1,
+      "image": "assets/generated-v2/scene_000-credited.png",
+      "narration_matches_source_image": true,
+      "notes": "Existing image viewed; labels and subject checked against the new passage."
+    },
+    {
+      "id": 2,
+      "image": "assets/generated-v2/scene_001-model25.png",
+      "narration_matches_source_image": true,
+      "notes": "Existing image viewed; labels and subject checked against the new passage."
+    },
+    {
+      "id": 3,
+      "image": "assets/generated-v3/scene_007-reviewed.png",
+      "narration_matches_source_image": true,
+      "notes": "Existing image viewed; labels and subject checked against the new passage."
+    },
+    {
+      "id": 4,
+      "image": "assets/generated-v2/scene_001-model25.png",
+      "narration_matches_source_image": true,
+      "notes": "Existing image viewed; labels and subject checked against the new passage."
+    },
+    {
+      "id": 5,
+      "image": "assets/generated-v3/scene_006.png",
+      "narration_matches_source_image": true,
+      "notes": "Existing image viewed; labels and subject checked against the new passage."
+    },
+    {
+      "id": 6,
+      "image": "assets/generated-v2/scene_003.png",
+      "narration_matches_source_image": true,
+      "notes": "Existing image viewed; labels and subject checked against the new passage."
+    },
+    {
+      "id": 7,
+      "image": "assets/generated-v2/scene_005.png",
+      "narration_matches_source_image": true,
+      "notes": "Existing image viewed; labels and subject checked against the new passage."
+    },
+    {
+      "id": 8,
+      "image": "assets/generated-v3/scene_010-reviewed.png",
+      "narration_matches_source_image": true,
+      "notes": "Existing image viewed; labels and subject checked against the new passage."
+    },
+    {
+      "id": 9,
+      "image": "assets/generated-v2/scene_012-reviewed.png",
+      "narration_matches_source_image": true,
+      "notes": "Existing image viewed; labels and subject checked against the new passage."
+    },
+    {
+      "id": 10,
+      "image": "assets/generated-v3/scene_017-reviewed.png",
+      "narration_matches_source_image": true,
+      "notes": "Existing image viewed; labels and subject checked against the new passage."
+    },
+    {
+      "id": 11,
+      "image": "assets/generated-v2/scene_013-reviewed.png",
+      "narration_matches_source_image": true,
+      "notes": "Existing image viewed; labels and subject checked against the new passage."
+    },
+    {
+      "id": 12,
+      "image": "assets/generated-v3/scene_019.png",
+      "narration_matches_source_image": true,
+      "notes": "Existing image viewed; labels and subject checked against the new passage."
+    },
+    {
+      "id": 13,
+      "image": "assets/generated-v3/scene_021-reviewed.png",
+      "narration_matches_source_image": true,
+      "notes": "Existing image viewed; labels and subject checked against the new passage."
+    },
+    {
+      "id": 14,
+      "image": "assets/generated-v3/scene_020.png",
+      "narration_matches_source_image": true,
+      "notes": "Existing image viewed; labels and subject checked against the new passage."
+    },
+    {
+      "id": 15,
+      "image": "assets/generated-v3/scene_029.png",
+      "narration_matches_source_image": true,
+      "notes": "Existing image viewed; labels and subject checked against the new passage."
+    },
+    {
+      "id": 16,
+      "image": "assets/generated-v3/scene_029.png",
+      "narration_matches_source_image": true,
+      "notes": "Existing image viewed; labels and subject checked against the new passage."
+    },
+    {
+      "id": 17,
+      "image": "assets/generated-v3/scene_022-reviewed.png",
+      "narration_matches_source_image": true,
+      "notes": "Existing image viewed; labels and subject checked against the new passage."
+    },
+    {
+      "id": 18,
+      "image": "assets/generated-v2/scene_006.png",
+      "narration_matches_source_image": true,
+      "notes": "Existing image viewed; labels and subject checked against the new passage."
+    },
+    {
+      "id": 19,
+      "image": "assets/generated-v3/scene_024-final.png",
+      "narration_matches_source_image": true,
+      "notes": "Existing image viewed; labels and subject checked against the new passage."
+    },
+    {
+      "id": 20,
+      "image": "assets/generated-v2/scene_009.png",
+      "narration_matches_source_image": true,
+      "notes": "Existing image viewed; labels and subject checked against the new passage."
+    },
+    {
+      "id": 21,
+      "image": "assets/generated-v3/scene_003-reviewed.png",
+      "narration_matches_source_image": true,
+      "notes": "Existing image viewed; labels and subject checked against the new passage."
+    },
+    {
+      "id": 22,
+      "image": "assets/generated-v3/scene_013.png",
+      "narration_matches_source_image": true,
+      "notes": "Existing image viewed; labels and subject checked against the new passage."
+    },
+    {
+      "id": 23,
+      "image": "assets/generated-v2/scene_010-reviewed.png",
+      "narration_matches_source_image": true,
+      "notes": "Existing image viewed; labels and subject checked against the new passage."
+    },
+    {
+      "id": 24,
+      "image": "assets/generated-v2/scene_011.png",
+      "narration_matches_source_image": true,
+      "notes": "Existing image viewed; labels and subject checked against the new passage."
+    },
+    {
+      "id": 25,
+      "image": "assets/generated-v3/scene_031.png",
+      "narration_matches_source_image": true,
+      "notes": "Existing image viewed; labels and subject checked against the new passage."
+    },
+    {
+      "id": 26,
+      "image": "assets/generated-v2/scene_020.png",
+      "narration_matches_source_image": true,
+      "notes": "Existing image viewed; labels and subject checked against the new passage."
+    },
+    {
+      "id": 27,
+      "image": "assets/generated-v2/scene_021.png",
+      "narration_matches_source_image": true,
+      "notes": "Existing image viewed; labels and subject checked against the new passage."
+    },
+    {
+      "id": 28,
+      "image": "assets/generated-v3/scene_033.png",
+      "narration_matches_source_image": true,
+      "notes": "Existing image viewed; labels and subject checked against the new passage."
+    },
+    {
+      "id": 29,
+      "image": "assets/generated-v2/scene_022-reviewed.png",
+      "narration_matches_source_image": true,
+      "notes": "Existing image viewed; labels and subject checked against the new passage."
+    },
+    {
+      "id": 30,
+      "image": "assets/generated-v3/scene_036-reviewed.png",
+      "narration_matches_source_image": true,
+      "notes": "Existing image viewed; labels and subject checked against the new passage."
+    },
+    {
+      "id": 31,
+      "image": "assets/generated-v3/scene_037.png",
+      "narration_matches_source_image": true,
+      "notes": "Existing image viewed; labels and subject checked against the new passage."
+    },
+    {
+      "id": 32,
+      "image": "assets/generated-v3/scene_038.png",
+      "narration_matches_source_image": true,
+      "notes": "Existing image viewed; labels and subject checked against the new passage."
+    }
+  ],
+  "all_33_midframes_visually_reviewed": true,
+  "early_middle_late_source_matches": 99,
+  "max_thumbnail_rmse": 1.8030139207839966,
+  "frame_checks": [
+    {
+      "scene": 0,
+      "phase": "early",
+      "source": "assets/generated-v3/scene_000.png",
+      "thumbnail_rmse": 1.8030139207839966,
+      "matched": true
+    },
+    {
+      "scene": 0,
+      "phase": "mid",
+      "source": "assets/generated-v3/scene_000.png",
+      "thumbnail_rmse": 1.8030139207839966,
+      "matched": true
+    },
+    {
+      "scene": 0,
+      "phase": "late",
+      "source": "assets/generated-v3/scene_000.png",
+      "thumbnail_rmse": 1.8030139207839966,
+      "matched": true
+    },
+    {
+      "scene": 1,
+      "phase": "early",
+      "source": "assets/generated-v2/scene_000-credited.png",
+      "thumbnail_rmse": 1.6794404983520508,
+      "matched": true
+    },
+    {
+      "scene": 1,
+      "phase": "mid",
+      "source": "assets/generated-v2/scene_000-credited.png",
+      "thumbnail_rmse": 1.2834534645080566,
+      "matched": true
+    },
+    {
+      "scene": 1,
+      "phase": "late",
+      "source": "assets/generated-v2/scene_000-credited.png",
+      "thumbnail_rmse": 1.2834534645080566,
+      "matched": true
+    },
+    {
+      "scene": 2,
+      "phase": "early",
+      "source": "assets/generated-v2/scene_001-model25.png",
+      "thumbnail_rmse": 1.3733022212982178,
+      "matched": true
+    },
+    {
+      "scene": 2,
+      "phase": "mid",
+      "source": "assets/generated-v2/scene_001-model25.png",
+      "thumbnail_rmse": 1.3733022212982178,
+      "matched": true
+    },
+    {
+      "scene": 2,
+      "phase": "late",
+      "source": "assets/generated-v2/scene_001-model25.png",
+      "thumbnail_rmse": 1.2718433141708374,
+      "matched": true
+    },
+    {
+      "scene": 3,
+      "phase": "early",
+      "source": "assets/generated-v3/scene_007-reviewed.png",
+      "thumbnail_rmse": 1.3194329738616943,
+      "matched": true
+    },
+    {
+      "scene": 3,
+      "phase": "mid",
+      "source": "assets/generated-v3/scene_007-reviewed.png",
+      "thumbnail_rmse": 1.3194329738616943,
+      "matched": true
+    },
+    {
+      "scene": 3,
+      "phase": "late",
+      "source": "assets/generated-v3/scene_007-reviewed.png",
+      "thumbnail_rmse": 1.3194329738616943,
+      "matched": true
+    },
+    {
+      "scene": 4,
+      "phase": "early",
+      "source": "assets/generated-v2/scene_001-model25.png",
+      "thumbnail_rmse": 1.5940563678741455,
+      "matched": true
+    },
+    {
+      "scene": 4,
+      "phase": "mid",
+      "source": "assets/generated-v2/scene_001-model25.png",
+      "thumbnail_rmse": 1.2718433141708374,
+      "matched": true
+    },
+    {
+      "scene": 4,
+      "phase": "late",
+      "source": "assets/generated-v2/scene_001-model25.png",
+      "thumbnail_rmse": 1.2718433141708374,
+      "matched": true
+    },
+    {
+      "scene": 5,
+      "phase": "early",
+      "source": "assets/generated-v3/scene_006.png",
+      "thumbnail_rmse": 1.6250306367874146,
+      "matched": true
+    },
+    {
+      "scene": 5,
+      "phase": "mid",
+      "source": "assets/generated-v3/scene_006.png",
+      "thumbnail_rmse": 1.2598246335983276,
+      "matched": true
+    },
+    {
+      "scene": 5,
+      "phase": "late",
+      "source": "assets/generated-v3/scene_006.png",
+      "thumbnail_rmse": 1.2598246335983276,
+      "matched": true
+    },
+    {
+      "scene": 6,
+      "phase": "early",
+      "source": "assets/generated-v2/scene_003.png",
+      "thumbnail_rmse": 1.6796908378601074,
+      "matched": true
+    },
+    {
+      "scene": 6,
+      "phase": "mid",
+      "source": "assets/generated-v2/scene_003.png",
+      "thumbnail_rmse": 1.2929226160049438,
+      "matched": true
+    },
+    {
+      "scene": 6,
+      "phase": "late",
+      "source": "assets/generated-v2/scene_003.png",
+      "thumbnail_rmse": 1.2929226160049438,
+      "matched": true
+    },
+    {
+      "scene": 7,
+      "phase": "early",
+      "source": "assets/generated-v2/scene_005.png",
+      "thumbnail_rmse": 1.7578414678573608,
+      "matched": true
+    },
+    {
+      "scene": 7,
+      "phase": "mid",
+      "source": "assets/generated-v2/scene_005.png",
+      "thumbnail_rmse": 1.3875818252563477,
+      "matched": true
+    },
+    {
+      "scene": 7,
+      "phase": "late",
+      "source": "assets/generated-v2/scene_005.png",
+      "thumbnail_rmse": 1.3875818252563477,
+      "matched": true
+    },
+    {
+      "scene": 8,
+      "phase": "early",
+      "source": "assets/generated-v3/scene_010-reviewed.png",
+      "thumbnail_rmse": 1.7127050161361694,
+      "matched": true
+    },
+    {
+      "scene": 8,
+      "phase": "mid",
+      "source": "assets/generated-v3/scene_010-reviewed.png",
+      "thumbnail_rmse": 1.3297206163406372,
+      "matched": true
+    },
+    {
+      "scene": 8,
+      "phase": "late",
+      "source": "assets/generated-v3/scene_010-reviewed.png",
+      "thumbnail_rmse": 1.3297206163406372,
+      "matched": true
+    },
+    {
+      "scene": 9,
+      "phase": "early",
+      "source": "assets/generated-v2/scene_012-reviewed.png",
+      "thumbnail_rmse": 1.3241873979568481,
+      "matched": true
+    },
+    {
+      "scene": 9,
+      "phase": "mid",
+      "source": "assets/generated-v2/scene_012-reviewed.png",
+      "thumbnail_rmse": 1.2452528476715088,
+      "matched": true
+    },
+    {
+      "scene": 9,
+      "phase": "late",
+      "source": "assets/generated-v2/scene_012-reviewed.png",
+      "thumbnail_rmse": 1.2452528476715088,
+      "matched": true
+    },
+    {
+      "scene": 10,
+      "phase": "early",
+      "source": "assets/generated-v3/scene_017-reviewed.png",
+      "thumbnail_rmse": 1.8025699853897095,
+      "matched": true
+    },
+    {
+      "scene": 10,
+      "phase": "mid",
+      "source": "assets/generated-v3/scene_017-reviewed.png",
+      "thumbnail_rmse": 1.382103681564331,
+      "matched": true
+    },
+    {
+      "scene": 10,
+      "phase": "late",
+      "source": "assets/generated-v3/scene_017-reviewed.png",
+      "thumbnail_rmse": 1.382103681564331,
+      "matched": true
+    },
+    {
+      "scene": 11,
+      "phase": "early",
+      "source": "assets/generated-v2/scene_013-reviewed.png",
+      "thumbnail_rmse": 1.744395136833191,
+      "matched": true
+    },
+    {
+      "scene": 11,
+      "phase": "mid",
+      "source": "assets/generated-v2/scene_013-reviewed.png",
+      "thumbnail_rmse": 1.344954013824463,
+      "matched": true
+    },
+    {
+      "scene": 11,
+      "phase": "late",
+      "source": "assets/generated-v2/scene_013-reviewed.png",
+      "thumbnail_rmse": 1.344954013824463,
+      "matched": true
+    },
+    {
+      "scene": 12,
+      "phase": "early",
+      "source": "assets/generated-v3/scene_019.png",
+      "thumbnail_rmse": 1.6760262250900269,
+      "matched": true
+    },
+    {
+      "scene": 12,
+      "phase": "mid",
+      "source": "assets/generated-v3/scene_019.png",
+      "thumbnail_rmse": 1.3295743465423584,
+      "matched": true
+    },
+    {
+      "scene": 12,
+      "phase": "late",
+      "source": "assets/generated-v3/scene_019.png",
+      "thumbnail_rmse": 1.3295743465423584,
+      "matched": true
+    },
+    {
+      "scene": 13,
+      "phase": "early",
+      "source": "assets/generated-v3/scene_021-reviewed.png",
+      "thumbnail_rmse": 1.5989950895309448,
+      "matched": true
+    },
+    {
+      "scene": 13,
+      "phase": "mid",
+      "source": "assets/generated-v3/scene_021-reviewed.png",
+      "thumbnail_rmse": 1.2215105295181274,
+      "matched": true
+    },
+    {
+      "scene": 13,
+      "phase": "late",
+      "source": "assets/generated-v3/scene_021-reviewed.png",
+      "thumbnail_rmse": 1.2215105295181274,
+      "matched": true
+    },
+    {
+      "scene": 14,
+      "phase": "early",
+      "source": "assets/generated-v3/scene_020.png",
+      "thumbnail_rmse": 1.2434107065200806,
+      "matched": true
+    },
+    {
+      "scene": 14,
+      "phase": "mid",
+      "source": "assets/generated-v3/scene_020.png",
+      "thumbnail_rmse": 1.2434107065200806,
+      "matched": true
+    },
+    {
+      "scene": 14,
+      "phase": "late",
+      "source": "assets/generated-v3/scene_020.png",
+      "thumbnail_rmse": 1.2434107065200806,
+      "matched": true
+    },
+    {
+      "scene": 15,
+      "phase": "early",
+      "source": "assets/generated-v3/scene_029.png",
+      "thumbnail_rmse": 1.6822056770324707,
+      "matched": true
+    },
+    {
+      "scene": 15,
+      "phase": "mid",
+      "source": "assets/generated-v3/scene_029.png",
+      "thumbnail_rmse": 1.3521820306777954,
+      "matched": true
+    },
+    {
+      "scene": 15,
+      "phase": "late",
+      "source": "assets/generated-v3/scene_029.png",
+      "thumbnail_rmse": 1.3521820306777954,
+      "matched": true
+    },
+    {
+      "scene": 16,
+      "phase": "early",
+      "source": "assets/generated-v3/scene_029.png",
+      "thumbnail_rmse": 1.3521820306777954,
+      "matched": true
+    },
+    {
+      "scene": 16,
+      "phase": "mid",
+      "source": "assets/generated-v3/scene_029.png",
+      "thumbnail_rmse": 1.3521820306777954,
+      "matched": true
+    },
+    {
+      "scene": 16,
+      "phase": "late",
+      "source": "assets/generated-v3/scene_029.png",
+      "thumbnail_rmse": 1.3521820306777954,
+      "matched": true
+    },
+    {
+      "scene": 17,
+      "phase": "early",
+      "source": "assets/generated-v3/scene_022-reviewed.png",
+      "thumbnail_rmse": 1.6621628999710083,
+      "matched": true
+    },
+    {
+      "scene": 17,
+      "phase": "mid",
+      "source": "assets/generated-v3/scene_022-reviewed.png",
+      "thumbnail_rmse": 1.6621628999710083,
+      "matched": true
+    },
+    {
+      "scene": 17,
+      "phase": "late",
+      "source": "assets/generated-v3/scene_022-reviewed.png",
+      "thumbnail_rmse": 1.3017082214355469,
+      "matched": true
+    },
+    {
+      "scene": 18,
+      "phase": "early",
+      "source": "assets/generated-v2/scene_006.png",
+      "thumbnail_rmse": 1.3548442125320435,
+      "matched": true
+    },
+    {
+      "scene": 18,
+      "phase": "mid",
+      "source": "assets/generated-v2/scene_006.png",
+      "thumbnail_rmse": 1.3548442125320435,
+      "matched": true
+    },
+    {
+      "scene": 18,
+      "phase": "late",
+      "source": "assets/generated-v2/scene_006.png",
+      "thumbnail_rmse": 1.3372710943222046,
+      "matched": true
+    },
+    {
+      "scene": 19,
+      "phase": "early",
+      "source": "assets/generated-v3/scene_024-final.png",
+      "thumbnail_rmse": 1.4700945615768433,
+      "matched": true
+    },
+    {
+      "scene": 19,
+      "phase": "mid",
+      "source": "assets/generated-v3/scene_024-final.png",
+      "thumbnail_rmse": 1.4700945615768433,
+      "matched": true
+    },
+    {
+      "scene": 19,
+      "phase": "late",
+      "source": "assets/generated-v3/scene_024-final.png",
+      "thumbnail_rmse": 1.2809147834777832,
+      "matched": true
+    },
+    {
+      "scene": 20,
+      "phase": "early",
+      "source": "assets/generated-v2/scene_009.png",
+      "thumbnail_rmse": 1.6738615036010742,
+      "matched": true
+    },
+    {
+      "scene": 20,
+      "phase": "mid",
+      "source": "assets/generated-v2/scene_009.png",
+      "thumbnail_rmse": 1.2817580699920654,
+      "matched": true
+    },
+    {
+      "scene": 20,
+      "phase": "late",
+      "source": "assets/generated-v2/scene_009.png",
+      "thumbnail_rmse": 1.2817580699920654,
+      "matched": true
+    },
+    {
+      "scene": 21,
+      "phase": "early",
+      "source": "assets/generated-v3/scene_003-reviewed.png",
+      "thumbnail_rmse": 1.2526230812072754,
+      "matched": true
+    },
+    {
+      "scene": 21,
+      "phase": "mid",
+      "source": "assets/generated-v3/scene_003-reviewed.png",
+      "thumbnail_rmse": 1.2526230812072754,
+      "matched": true
+    },
+    {
+      "scene": 21,
+      "phase": "late",
+      "source": "assets/generated-v3/scene_003-reviewed.png",
+      "thumbnail_rmse": 1.2526230812072754,
+      "matched": true
+    },
+    {
+      "scene": 22,
+      "phase": "early",
+      "source": "assets/generated-v3/scene_013.png",
+      "thumbnail_rmse": 1.719822883605957,
+      "matched": true
+    },
+    {
+      "scene": 22,
+      "phase": "mid",
+      "source": "assets/generated-v3/scene_013.png",
+      "thumbnail_rmse": 1.719822883605957,
+      "matched": true
+    },
+    {
+      "scene": 22,
+      "phase": "late",
+      "source": "assets/generated-v3/scene_013.png",
+      "thumbnail_rmse": 1.3005685806274414,
+      "matched": true
+    },
+    {
+      "scene": 23,
+      "phase": "early",
+      "source": "assets/generated-v2/scene_010-reviewed.png",
+      "thumbnail_rmse": 1.6646472215652466,
+      "matched": true
+    },
+    {
+      "scene": 23,
+      "phase": "mid",
+      "source": "assets/generated-v2/scene_010-reviewed.png",
+      "thumbnail_rmse": 1.3287137746810913,
+      "matched": true
+    },
+    {
+      "scene": 23,
+      "phase": "late",
+      "source": "assets/generated-v2/scene_010-reviewed.png",
+      "thumbnail_rmse": 1.3287137746810913,
+      "matched": true
+    },
+    {
+      "scene": 24,
+      "phase": "early",
+      "source": "assets/generated-v2/scene_011.png",
+      "thumbnail_rmse": 1.539451003074646,
+      "matched": true
+    },
+    {
+      "scene": 24,
+      "phase": "mid",
+      "source": "assets/generated-v2/scene_011.png",
+      "thumbnail_rmse": 1.1888470649719238,
+      "matched": true
+    },
+    {
+      "scene": 24,
+      "phase": "late",
+      "source": "assets/generated-v2/scene_011.png",
+      "thumbnail_rmse": 1.1888470649719238,
+      "matched": true
+    },
+    {
+      "scene": 25,
+      "phase": "early",
+      "source": "assets/generated-v3/scene_031.png",
+      "thumbnail_rmse": 1.3031766414642334,
+      "matched": true
+    },
+    {
+      "scene": 25,
+      "phase": "mid",
+      "source": "assets/generated-v3/scene_031.png",
+      "thumbnail_rmse": 1.3031766414642334,
+      "matched": true
+    },
+    {
+      "scene": 25,
+      "phase": "late",
+      "source": "assets/generated-v3/scene_031.png",
+      "thumbnail_rmse": 1.2784168720245361,
+      "matched": true
+    },
+    {
+      "scene": 26,
+      "phase": "early",
+      "source": "assets/generated-v2/scene_020.png",
+      "thumbnail_rmse": 1.2779959440231323,
+      "matched": true
+    },
+    {
+      "scene": 26,
+      "phase": "mid",
+      "source": "assets/generated-v2/scene_020.png",
+      "thumbnail_rmse": 1.2779959440231323,
+      "matched": true
+    },
+    {
+      "scene": 26,
+      "phase": "late",
+      "source": "assets/generated-v2/scene_020.png",
+      "thumbnail_rmse": 1.2663928270339966,
+      "matched": true
+    },
+    {
+      "scene": 27,
+      "phase": "early",
+      "source": "assets/generated-v2/scene_021.png",
+      "thumbnail_rmse": 1.5281851291656494,
+      "matched": true
+    },
+    {
+      "scene": 27,
+      "phase": "mid",
+      "source": "assets/generated-v2/scene_021.png",
+      "thumbnail_rmse": 1.1781506538391113,
+      "matched": true
+    },
+    {
+      "scene": 27,
+      "phase": "late",
+      "source": "assets/generated-v2/scene_021.png",
+      "thumbnail_rmse": 1.1781506538391113,
+      "matched": true
+    },
+    {
+      "scene": 28,
+      "phase": "early",
+      "source": "assets/generated-v3/scene_033.png",
+      "thumbnail_rmse": 1.5051062107086182,
+      "matched": true
+    },
+    {
+      "scene": 28,
+      "phase": "mid",
+      "source": "assets/generated-v3/scene_033.png",
+      "thumbnail_rmse": 1.3882887363433838,
+      "matched": true
+    },
+    {
+      "scene": 28,
+      "phase": "late",
+      "source": "assets/generated-v3/scene_033.png",
+      "thumbnail_rmse": 1.3882887363433838,
+      "matched": true
+    },
+    {
+      "scene": 29,
+      "phase": "early",
+      "source": "assets/generated-v2/scene_022-reviewed.png",
+      "thumbnail_rmse": 1.4373490810394287,
+      "matched": true
+    },
+    {
+      "scene": 29,
+      "phase": "mid",
+      "source": "assets/generated-v2/scene_022-reviewed.png",
+      "thumbnail_rmse": 1.4373490810394287,
+      "matched": true
+    },
+    {
+      "scene": 29,
+      "phase": "late",
+      "source": "assets/generated-v2/scene_022-reviewed.png",
+      "thumbnail_rmse": 1.416877269744873,
+      "matched": true
+    },
+    {
+      "scene": 30,
+      "phase": "early",
+      "source": "assets/generated-v3/scene_036-reviewed.png",
+      "thumbnail_rmse": 1.6408950090408325,
+      "matched": true
+    },
+    {
+      "scene": 30,
+      "phase": "mid",
+      "source": "assets/generated-v3/scene_036-reviewed.png",
+      "thumbnail_rmse": 1.6408950090408325,
+      "matched": true
+    },
+    {
+      "scene": 30,
+      "phase": "late",
+      "source": "assets/generated-v3/scene_036-reviewed.png",
+      "thumbnail_rmse": 1.2496997117996216,
+      "matched": true
+    },
+    {
+      "scene": 31,
+      "phase": "early",
+      "source": "assets/generated-v3/scene_037.png",
+      "thumbnail_rmse": 1.707663655281067,
+      "matched": true
+    },
+    {
+      "scene": 31,
+      "phase": "mid",
+      "source": "assets/generated-v3/scene_037.png",
+      "thumbnail_rmse": 1.707663655281067,
+      "matched": true
+    },
+    {
+      "scene": 31,
+      "phase": "late",
+      "source": "assets/generated-v3/scene_037.png",
+      "thumbnail_rmse": 1.3087053298950195,
+      "matched": true
+    },
+    {
+      "scene": 32,
+      "phase": "early",
+      "source": "assets/generated-v3/scene_038.png",
+      "thumbnail_rmse": 1.751564860343933,
+      "matched": true
+    },
+    {
+      "scene": 32,
+      "phase": "mid",
+      "source": "assets/generated-v3/scene_038.png",
+      "thumbnail_rmse": 1.331857442855835,
+      "matched": true
+    },
+    {
+      "scene": 32,
+      "phase": "late",
+      "source": "assets/generated-v3/scene_038.png",
+      "thumbnail_rmse": 1.331857442855835,
+      "matched": true
+    }
+  ],
+  "passed": true
+}

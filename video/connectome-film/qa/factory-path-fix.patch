@@ -1,0 +1,62 @@
+--- a/md-video-maker/mdvm.py
++++ b/md-video-maker/mdvm.py
+@@ -66 +66 @@
+-    if raw is None:
++    if raw is None or not str(raw).strip():
+@@ -68 +68 @@
+-    candidate = Path(raw).expanduser()
++    candidate = Path(str(raw).strip()).expanduser()
+@@ -300,2 +300,2 @@
+-    source_path = str(scene.get("image_source_path", "")).strip()
+-    video_source_path = str(scene.get("video_source_path", "")).strip()
++    source_path = str(scene.get("image_source_path") or "").strip()
++    video_source_path = str(scene.get("video_source_path") or "").strip()
+--- /dev/null
++++ b/md-video-maker/tests/test_plan_paths.py
+@@ -0,0 +1,46 @@
++from pathlib import Path
++import sys
++import tempfile
++import unittest
++
++sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
++from mdvm import normalize_scene, resolve_plan_path
++
++
++class OptionalMediaPathsTest(unittest.TestCase):
++    def test_absent_paths_stay_absent(self):
++        for raw in (None, '', ' ', '\n\t'):
++            with self.subTest(raw=raw):
++                self.assertIsNone(resolve_plan_path(Path('/tmp/project'), raw))
++
++    def test_still_scene_does_not_gain_a_video_source(self):
++        for video in ('missing', None, '', '  '):
++            with self.subTest(video=video), tempfile.TemporaryDirectory() as raw:
++                project = Path(raw)
++                source = {'narration': 'An existing still.', 'image_source_path': 'image.png'}
++                if video != 'missing':
++                    source['video_source_path'] = video
++                normalized = normalize_scene(source, 0, project)
++                self.assertIsNone(normalized['video_source_path'])
++                self.assertEqual(normalized['image_source_path'], 'image.png')
++
++    def test_video_and_generated_scenes_keep_their_paths(self):
++        with tempfile.TemporaryDirectory() as raw:
++            project = Path(raw)
++            video = normalize_scene({'narration': 'Video.', 'video_source_path': 'clip.mp4'}, 0, project)
++            self.assertEqual(video['video_source_path'], 'clip.mp4')
++            self.assertIsNone(video['image_source_path'])
++            generated = normalize_scene({'narration': 'Generated.', 'visual_prompt': 'An image.'}, 1, project)
++            self.assertIsNone(generated['video_source_path'])
++            self.assertIsNone(generated['image_source_path'])
++            self.assertEqual(generated['image_path'], 'images/scene_001.png')
++
++    def test_existing_relative_and_absolute_paths_resolve(self):
++        with tempfile.TemporaryDirectory() as raw:
++            project = Path(raw)
++            for value in ('a.png', str(project / 'a.png')):
++                self.assertEqual(resolve_plan_path(project, value), (project / 'a.png').resolve())
++
++
++if __name__ == '__main__':
++    unittest.main()

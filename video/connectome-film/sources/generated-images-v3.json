@@ -1,0 +1,261 @@
+[
+  {
+    "scene": 0,
+    "source": "assets/generated-v3/scene_000.png",
+    "sha256": "4b4667908bb25427fda6e9889046bd3517b47807d23207c5e6dcbd6d6199d9ba",
+    "requested_model": "gpt-image-2.5-sunburst",
+    "route": "OpenAI Images API"
+  },
+  {
+    "scene": 1,
+    "source": "assets/generated-v2/scene_000-credited.png",
+    "sha256": "b4e490e936688100d03b5bbecde05765d420d538b89a4d4688d77fcba4e97724",
+    "requested_model": "gpt-image-2.5-sunburst",
+    "route": "OpenAI Images API"
+  },
+  {
+    "scene": 2,
+    "source": "assets/generated-v2/scene_009.png",
+    "sha256": "cd09c1168cd2f0d8b5a478a71cff4c80df58cf000ec6041a962720b435b00d13",
+    "requested_model": "gpt-image-2.5-sunburst",
+    "route": "OpenAI Images API"
+  },
+  {
+    "scene": 3,
+    "source": "assets/generated-v3/scene_003-reviewed.png",
+    "sha256": "1a525f010e5a2d3e8b6c2c7cdc72d5b1e28404d02db1470c9e28f18d4c6ff41d",
+    "requested_model": "gpt-image-2.5-sunburst",
+    "route": "OpenAI Images API"
+  },
+  {
+    "scene": 4,
+    "source": "assets/generated-v3/scene_004.png",
+    "sha256": "4ee4cc759b19a3d0bea273f22f9303721f809c67b24d4b8fa8b4689dcf0dde1d",
+    "requested_model": "gpt-image-2.5-sunburst",
+    "route": "OpenAI Images API"
+  },
+  {
+    "scene": 5,
+    "source": "assets/generated-v2/scene_001-model25.png",
+    "sha256": "0889ecc93f90eed5efd858cc1f190702edd3f92db0646480ead71b1daa1f7310",
+    "requested_model": "gpt-image-2.5-sunburst",
+    "route": "OpenAI Images API"
+  },
+  {
+    "scene": 6,
+    "source": "assets/generated-v3/scene_006.png",
+    "sha256": "85c80df91da7f7c0a6d1a953fe61598af3974bdb22fce8484a29c30ad74bb0fe",
+    "requested_model": "gpt-image-2.5-sunburst",
+    "route": "OpenAI Images API"
+  },
+  {
+    "scene": 7,
+    "source": "assets/generated-v3/scene_007-reviewed.png",
+    "sha256": "0682d006402364b118ee697f23c7146f49c56486a272d5601a8c05d91a3ff9bc",
+    "requested_model": "gpt-image-2.5-sunburst",
+    "route": "OpenAI Images API"
+  },
+  {
+    "scene": 8,
+    "source": "assets/generated-v2/scene_003.png",
+    "sha256": "828a84c3ffac1f3022c7bcf0a406d766c965b166d9f2a65eb205bb97cb5c8ec2",
+    "requested_model": "gpt-image-2.5-sunburst",
+    "route": "OpenAI Images API"
+  },
+  {
+    "scene": 9,
+    "source": "assets/generated-v2/scene_005.png",
+    "sha256": "de5ee08068ec2aa70c91e6e21c2bf96f3c8fdf2da7d3f75bcbbacefe8b8444d1",
+    "requested_model": "gpt-image-2.5-sunburst",
+    "route": "OpenAI Images API"
+  },
+  {
+    "scene": 10,
+    "source": "assets/generated-v3/scene_010-reviewed.png",
+    "sha256": "46278e1e1fb27778268b4526dcfde4806f0a0798a784cf8963cd0e4a4eaba643",
+    "requested_model": "gpt-image-2.5-sunburst",
+    "route": "OpenAI Images API"
+  },
+  {
+    "scene": 11,
+    "source": "assets/generated-v2/scene_012-reviewed.png",
+    "sha256": "d12b7850c9c0a3c60b00800d3904f8f70086ce33af59a900fba9524df6652182",
+    "requested_model": "gpt-image-2.5-sunburst",
+    "route": "OpenAI Images API"
+  },
+  {
+    "scene": 12,
+    "source": "assets/generated-v3/scene_017-reviewed.png",
+    "sha256": "a980bde3d53ddfc740b3ab456b7443a8d6ab6d331ed80ce844ae77c2c7a11584",
+    "requested_model": "gpt-image-2.5-sunburst",
+    "route": "OpenAI Images API"
+  },
+  {
+    "scene": 13,
+    "source": "assets/generated-v2/scene_013-reviewed.png",
+    "sha256": "8216cb2908f7cbf76c886f4853737fe1782b5374d14c80f83e914bf02dc796a4",
+    "requested_model": "gpt-image-2.5-sunburst",
+    "route": "OpenAI Images API"
+  },
+  {
+    "scene": 14,
+    "source": "assets/generated-v3/scene_019.png",
+    "sha256": "769d26194db254d58cd40dc2089f2945c6a9e190374ff9abf96c330ad319f964",
+    "requested_model": "gpt-image-2.5-sunburst",
+    "route": "OpenAI Images API"
+  },
+  {
+    "scene": 15,
+    "source": "assets/generated-v3/scene_020.png",
+    "sha256": "a7aac2934040b55d79f3bae6b61752adf308a97b8a2ebbda20720fa82f678414",
+    "requested_model": "gpt-image-2.5-sunburst",
+    "route": "OpenAI Images API"
+  },
+  {
+    "scene": 16,
+    "source": "assets/generated-v3/scene_021-reviewed.png",
+    "sha256": "35dc7d8b8cc1a34fcca6f5d1f854791c4a2aaf9ee4d085c4d97c42f77024533a",
+    "requested_model": "gpt-image-2.5-sunburst",
+    "route": "OpenAI Images API"
+  },
+  {
+    "scene": 17,
+    "source": "assets/generated-v3/scene_022-reviewed.png",
+    "sha256": "0988df427b2802667eab76e1545b0d54f47bd9231feebadf7ca33ae78d20484e",
+    "requested_model": "gpt-image-2.5-sunburst",
+    "route": "OpenAI Images API"
+  },
+  {
+    "scene": 18,
+    "source": "assets/generated-v3/scene_011.png",
+    "sha256": "5dc77ee2ca6fbc6064a0ac733acfa0e72b3c6f580a0b7533ca248bde6e1092d2",
+    "requested_model": "gpt-image-2.5-sunburst",
+    "route": "OpenAI Images API"
+  },
+  {
+    "scene": 19,
+    "source": "assets/generated-v2/scene_006.png",
+    "sha256": "6d3d3500afede284ecb4f4635a9991a11265de5a459aa34c6b70bd2695576959",
+    "requested_model": "gpt-image-2.5-sunburst",
+    "route": "OpenAI Images API"
+  },
+  {
+    "scene": 20,
+    "source": "assets/generated-v2/scene_016.png",
+    "sha256": "66e9252f922bc8e4e693b37e6f2b19824ad25b8965ed692fa6b269bacbdd9794",
+    "requested_model": "gpt-image-2.5-sunburst",
+    "route": "OpenAI Images API"
+  },
+  {
+    "scene": 21,
+    "source": "assets/generated-v3/scene_024-final.png",
+    "sha256": "ee49baabba81d6decc885cfc49bc65045953d0b7020510f3649f777cb73bdb73",
+    "requested_model": "gpt-image-2.5-sunburst",
+    "route": "OpenAI Images API"
+  },
+  {
+    "scene": 22,
+    "source": "assets/generated-v3/scene_025.png",
+    "sha256": "b8d9b07c1dfe0c252389d58e603e6427d96faef8e917c76c461588166924c4b3",
+    "requested_model": "gpt-image-2.5-sunburst",
+    "route": "OpenAI Images API"
+  },
+  {
+    "scene": 23,
+    "source": "assets/generated-v3/scene_026.png",
+    "sha256": "e3ad09bdfd600a53836c300e9edd777d7a5c8b6d1e7d87859ec113e88032e03a",
+    "requested_model": "gpt-image-2.5-sunburst",
+    "route": "OpenAI Images API"
+  },
+  {
+    "scene": 24,
+    "source": "assets/generated-v3/scene_029.png",
+    "sha256": "0135cefbed989e7e06187e110c51d75bde33de4bb3fda31eba614f1fba3b8e57",
+    "requested_model": "gpt-image-2.5-sunburst",
+    "route": "OpenAI Images API"
+  },
+  {
+    "scene": 25,
+    "source": "assets/generated-v3/scene_013.png",
+    "sha256": "8f9a6c34c10107856176fe34e067811f8daf0808a20f8267a77b4e92e76b9048",
+    "requested_model": "gpt-image-2.5-sunburst",
+    "route": "OpenAI Images API"
+  },
+  {
+    "scene": 26,
+    "source": "assets/generated-v2/scene_010-reviewed.png",
+    "sha256": "85d6ed98d9b5fb40568139bd6d32807c7e6fde9012c740dcf34a10f63d6e3c96",
+    "requested_model": "gpt-image-2.5-sunburst",
+    "route": "OpenAI Images API"
+  },
+  {
+    "scene": 27,
+    "source": "assets/generated-v2/scene_011.png",
+    "sha256": "c5d873236254593f00d96c1bff054b73423e4287f987bfa15b8801377bdca686",
+    "requested_model": "gpt-image-2.5-sunburst",
+    "route": "OpenAI Images API"
+  },
+  {
+    "scene": 28,
+    "source": "assets/generated-v2/scene_020.png",
+    "sha256": "066f2add60a25bdd8bf9af42cf9f84375a37abeb6e5699684bb950f59439ebe0",
+    "requested_model": "gpt-image-2.5-sunburst",
+    "route": "OpenAI Images API"
+  },
+  {
+    "scene": 29,
+    "source": "assets/generated-v3/scene_031.png",
+    "sha256": "0de7fb3d2631cd29e404f6c083d4bbde8f746c0e008631bc534fc5bd7ef5186e",
+    "requested_model": "gpt-image-2.5-sunburst",
+    "route": "OpenAI Images API"
+  },
+  {
+    "scene": 30,
+    "source": "assets/generated-v2/scene_021.png",
+    "sha256": "c42f1ac09a97c169d984254cabd126abc5d664c0f7b070786e2463c81ea0ec37",
+    "requested_model": "gpt-image-2.5-sunburst",
+    "route": "OpenAI Images API"
+  },
+  {
+    "scene": 31,
+    "source": "assets/generated-v3/scene_033.png",
+    "sha256": "e192246fd7b835d819c21b86332c041c81f1744e608be21fbd43b48be7386c6b",
+    "requested_model": "gpt-image-2.5-sunburst",
+    "route": "OpenAI Images API"
+  },
+  {
+    "scene": 32,
+    "source": "assets/generated-v3/scene_034-reviewed.png",
+    "sha256": "89b035e87583923b0b98309fb1329011e4cfd04b25076671e5d8688350e766b0",
+    "requested_model": "gpt-image-2.5-sunburst",
+    "route": "OpenAI Images API"
+  },
+  {
+    "scene": 33,
+    "source": "assets/generated-v2/scene_022-reviewed.png",
+    "sha256": "8a647017e2e239bf8c635843b7cb7928e4e864b0827ce5f7fbab61daa18b8595",
+    "requested_model": "gpt-image-2.5-sunburst",
+    "route": "OpenAI Images API"
+  },
+  {
+    "scene": 34,
+    "source": "assets/generated-v3/scene_036-reviewed.png",
+    "sha256": "e58c6d09726dec97178f296dce1a9820edec3f01d0c56d0c0bcb8ece9590aef9",
+    "requested_model": "gpt-image-2.5-sunburst",
+    "route": "OpenAI Images API"
+  },
+  {
+    "scene": 35,
+    "source": "assets/generated-v3/scene_037.png",
+    "sha256": "d690b785af27bcc0a3fcbe91915ecb0bce7ef6318bc422e83a42ec3f435e1d9b",
+    "requested_model": "gpt-image-2.5-sunburst",
+    "route": "OpenAI Images API"
+  },
+  {
+    "scene": 36,
+    "source": "assets/generated-v3/scene_038.png",
+    "sha256": "dd31714a2593587b348e100320513365dcb2657bd2068a8dc261fbc89bac77bc",
+    "requested_model": "gpt-image-2.5-sunburst",
+    "route": "OpenAI Images API"
+  }
+]

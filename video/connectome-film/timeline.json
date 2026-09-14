@@ -1,0 +1,204 @@
+{
+  "duration": 666.97,
+  "scenes": [
+    {
+      "id": 0,
+      "title": "Animal Architecture",
+      "start": 0.0,
+      "duration": 5.11
+    },
+    {
+      "id": 1,
+      "title": "The Starting Point",
+      "start": 5.11,
+      "duration": 25.12
+    },
+    {
+      "id": 2,
+      "title": "Cells and Synapses",
+      "start": 30.23,
+      "duration": 17.37
+    },
+    {
+      "id": 3,
+      "title": "Scale of the Map",
+      "start": 47.6,
+      "duration": 25.45
+    },
+    {
+      "id": 4,
+      "title": "Physical Reconstruction",
+      "start": 73.05,
+      "duration": 33.95
+    },
+    {
+      "id": 5,
+      "title": "Research Credit",
+      "start": 107.0,
+      "duration": 30.09
+    },
+    {
+      "id": 6,
+      "title": "Graph With Structure",
+      "start": 137.09,
+      "duration": 33.99
+    },
+    {
+      "id": 7,
+      "title": "Equations for Activity",
+      "start": 171.08,
+      "duration": 16.76
+    },
+    {
+      "id": 8,
+      "title": "Spiking Timing",
+      "start": 187.84,
+      "duration": 20.29
+    },
+    {
+      "id": 9,
+      "title": "No Baseball Input",
+      "start": 208.13,
+      "duration": 26.75
+    },
+    {
+      "id": 10,
+      "title": "Taste Pathways",
+      "start": 234.88,
+      "duration": 22.11
+    },
+    {
+      "id": 11,
+      "title": "Two Teams",
+      "start": 256.99,
+      "duration": 16.39
+    },
+    {
+      "id": 12,
+      "title": "Circuit Response",
+      "start": 273.38,
+      "duration": 22.43
+    },
+    {
+      "id": 13,
+      "title": "Representation Head",
+      "start": 295.81,
+      "duration": 23.87
+    },
+    {
+      "id": 14,
+      "title": "Season Test",
+      "start": 319.68,
+      "duration": 30.51
+    },
+    {
+      "id": 15,
+      "title": "Named Cells",
+      "start": 350.19,
+      "duration": 16.95
+    },
+    {
+      "id": 16,
+      "title": "Altered Wiring",
+      "start": 367.14,
+      "duration": 8.64
+    },
+    {
+      "id": 17,
+      "title": "Experience Changes",
+      "start": 375.78,
+      "duration": 17.04
+    },
+    {
+      "id": 18,
+      "title": "Mushroom Body",
+      "start": 392.82,
+      "duration": 23.36
+    },
+    {
+      "id": 19,
+      "title": "Cue Specificity",
+      "start": 416.18,
+      "duration": 16.21
+    },
+    {
+      "id": 20,
+      "title": "Different Environment",
+      "start": 432.39,
+      "duration": 22.71
+    },
+    {
+      "id": 21,
+      "title": "Scripted or Neural",
+      "start": 455.09999999999997,
+      "duration": 25.59
+    },
+    {
+      "id": 22,
+      "title": "Input Action Loop",
+      "start": 480.68999999999994,
+      "duration": 13.05
+    },
+    {
+      "id": 23,
+      "title": "Vision and Body",
+      "start": 493.73999999999995,
+      "duration": 21.04
+    },
+    {
+      "id": 24,
+      "title": "Future Controller",
+      "start": 514.78,
+      "duration": 15.0
+    },
+    {
+      "id": 25,
+      "title": "Two Timescales",
+      "start": 529.78,
+      "duration": 19.37
+    },
+    {
+      "id": 26,
+      "title": "Agents Speed the Work",
+      "start": 549.15,
+      "duration": 19.64
+    },
+    {
+      "id": 27,
+      "title": "Better Maps",
+      "start": 568.79,
+      "duration": 13.47
+    },
+    {
+      "id": 28,
+      "title": "Wiring With Activity",
+      "start": 582.26,
+      "duration": 31.07
+    },
+    {
+      "id": 29,
+      "title": "Measured Targets",
+      "start": 613.33,
+      "duration": 17.51
+    },
+    {
+      "id": 30,
+      "title": "Mammalian Programs",
+      "start": 630.84,
+      "duration": 7.2
+    },
+    {
+      "id": 31,
+      "title": "What We Can Do",
+      "start": 638.0400000000001,
+      "duration": 13.28
+    },
+    {
+      "id": 32,
+      "title": "The Fly Today",
+      "start": 651.32,
+      "duration": 15.65
+    }
+  ],
+  "caption_cues": 167
+}

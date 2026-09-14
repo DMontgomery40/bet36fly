@@ -1,0 +1,19 @@
+{
+  "Where does a neural network's architecture come from, if nobody sits down and designs it?": "What could you build with a neural network whose architecture came from an animal?",
+  "At bet365 we have spent the last few months building on one of them,": "At bet three sixty-five, we have started building on one of them,",
+  "The one behind this project covers a male fruit fly's brain together with the ventral nerve cord that runs down into its body": "The one behind this project covers a male fruit fly's brain together with its ventral nerve cord, the bundle of nervous tissue running down into its body",
+  "A graph does not do anything on its own. It tells you which cells can send signals to which, and the rest has to be supplied:": "To make that graph respond, we give its neurons equations that describe their behavior:",
+  "We use the taste pathways. The pregame numbers": "We use the taste pathways. The pregame numbers",
+  "the appetitive and aversive channels, an engineered version of putting something sweet or something sharp": "the food-attraction and food-avoidance pathways, an engineered version of putting something sweet or something bitter",
+  "and nothing in the input tells the circuit in advance which one to favor.": "using only information available before the game.",
+  "What the season really bought us is the environment.": "That gives us a season of recorded responses to investigate.",
+  "The other thing a fly does, which the pipeline as described does not, is remember.": "A living fly also carries the previous encounter into the next one.",
+  "We have run that learning inside the sports pipeline as well; it has not produced a prediction improvement we would stand behind, and the mechanism is now sitting there, inside a circuit we can take apart.": "Those learned connections give us another part of the model to investigate in the sports experiments.",
+  "We are not the only people who have taken this graph somewhere it was never meant to go. A developer wired it into Doom.": "Once you have an adapter into the circuit, you can give it a different environment. A developer connected the same released wiring to Doom, the first-person shooter, in a project called DOOMFLY.",
+  "Looking biological on screen tells you nothing about what is driving it.": "The useful question is what controls the next movement.",
+  "Doom also shows up what our own setup is missing, which is consequence. Our circuit is presented with something and responds, and nothing it does changes what arrives next. Two other projects fill in pieces of that loop.": "In Doom, each action changes the next game frame. Turning alters the view; moving brings something closer. The circuit's outputs become part of its next input. Giving that loop the sensory detail and physical consequences of an animal's world is a larger undertaking, and researchers have been developing the pieces.",
+  "Nobody has joined them into a single animal, and between them they mark out what a connectome-derived controller with eyes and legs would have to handle.": "Those resources let researchers study what a future connectome-derived controller with eyes and legs would have to handle.",
+  "finished in June.": "released in June.",
+  "Mammalian circuits are at an earlier stage, and that work is moving too.": "This work is extending into mammalian circuits too.",
+  "larger mapping programs are running now.": "larger mapping programs are underway."
+}

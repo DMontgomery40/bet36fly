@@ -1,0 +1,210 @@
+[
+  {
+    "title": "An unlikely colleague",
+    "image": "assets/generated-v3/scene_000.png",
+    "visual": "Intimate cinematic macro photograph-style image of a male Drosophila standing on the cut edge of a ripe peach on a kitchen counter. Warm morning light, soft depth of field, exquisitely detailed tiny fly. Large title 'An unlikely colleague', small subtitle 'bet36fly \u00b7 for bet365'.",
+    "narration": "Somewhere in your kitchen, a fruit fly is making a living with a nervous system smaller than a pinhead. It finds food, avoids trouble, and remembers what happened. Here at bet three sixty-five, we've given a model built from fly wiring a different assignment: respond to baseball matchups."
+  },
+  {
+    "title": "How did we get here?",
+    "image": "assets/generated-v2/scene_000-credited.png",
+    "narration": "The project is called bet three sixty fly. It starts with connections inside a male fruit fly's nervous system, reconstructed by Google Research and its scientific collaborators. What would it take to give that circuitry an entirely different world?"
+  },
+  {
+    "title": "A fly in Doom",
+    "image": "assets/generated-v2/scene_009.png",
+    "narration": "One developer chose Doom. Game screenshots become neural input. Activity travels through a model of the fly's network, and selected outputs control movement and firing. Circuitry shaped around the problems of being a fly now has a route to a first-person shooter's controls."
+  },
+  {
+    "title": "Follow the controls",
+    "image": "assets/generated-v3/scene_003-reviewed.png",
+    "visual": "Cinematic editorial diptych of two desktop monitors with beautiful tiny rendered flies, visually equally convincing. Beneath the left monitor a tangible strip of JavaScript code with legible label 'Scripted movement'. Beneath the right an elaborate inset of insect neurites linked to a joystick with label 'Neural output'. Title 'Follow the controls'.",
+    "narration": "The flies appearing in your feed can look similar while working very differently. Some use JavaScript to animate scripted behavior. A fly can wander around with a dopamine meter beside it while no neural model makes its decisions. The picture alone doesn't reveal what's driving it."
+  },
+  {
+    "title": "The trail through the code",
+    "image": "assets/generated-v3/scene_004.png",
+    "visual": "Rich editorial scientific cutaway, three large connected objects across landscape: a tiny rendered game screen, intricate fly-neurite computational sculpture, and a physical game controller. Glowing continuous path connects them. Exact labels 'Frames', 'Neural computation', 'Actions'. Title 'DOOMFLY: an inspectable loop'. Footer 'Published implementation \u00b7 conceptual illustration'.",
+    "narration": "In DOOMFLY, you can follow the code from game frames through the released anatomical connections to the action mapping. That gives the experiment somewhere to go: change a pathway, repeat the input, and see whether the behavior changes."
+  },
+  {
+    "title": "Inside the specimen",
+    "image": "assets/generated-v2/scene_001-model25.png",
+    "narration": "First, someone had to recover those pathways. Researchers imaged the tissue with electron microscopy. Imagine tracing a cable through a building using only a stack of paper-thin slices, with every cable branching into more cables. That was the reconstruction problem."
+  },
+  {
+    "title": "Google Research and the reconstruction",
+    "image": "assets/generated-v3/scene_006.png",
+    "visual": "Premium science documentary image of an electron-microscopy section stack becoming colored segmented insect neurites, with a scientist carefully examining a branching reconstruction on a monitor. Dominant large heading 'Google Research'. Secondary large credit 'HHMI Janelia \u00b7 University of Cambridge \u00b7 MRC Laboratory of Molecular Biology'. Smaller line 'Machine learning reconstruction + scientific proofreading'. Beautiful charcoal turquoise amber ivory palette and tangible laboratory detail.",
+    "narration": "Google Research helped reconstruct neurons from those images using machine learning. Scientists checked and corrected the result. Google worked with H H M I Janelia, the University of Cambridge, and the M R C Laboratory of Molecular Biology to turn a biological specimen into data an engineer can load."
+  },
+  {
+    "title": "An architecture with an address book",
+    "image": "assets/generated-v3/scene_007-reviewed.png",
+    "visual": "Large intricately detailed translucent insect brain and descending ventral nerve cord, suspended above archival specimen records. Fine colored neurites visible through glasslike anatomy. Exact heading 'MaleCNS'. Large readable annotations '166,700 neurons' and 'Brain + ventral nerve cord'. Small line 'v1.0 \u00b7 June 2026'. This is an editorial anatomical illustration, not a data visualization or human brain.",
+    "narration": "A connectome is that map of neurons and their connections. This male fly resource covers roughly a hundred and sixty-seven thousand neurons, including the brain and the nerve cord connecting it to the body. The June release and September paper opened years of work to a new wave of experiments."
+  },
+  {
+    "title": "A different starting point",
+    "image": "assets/generated-v2/scene_003.png",
+    "narration": "Usually, we choose a neural network's architecture: repeat a block, set its width, train its weights. Here, the architecture arrives with the specimen. Specialized routes for vision, smell, movement, and memory come with it. We inherit a structure to explore."
+  },
+  {
+    "title": "The wiring waits",
+    "image": "assets/generated-v2/scene_005.png",
+    "narration": "The wiring still needs dynamics. We supply equations for how modeled neurons respond, how signals cross connections, and how connections change with experience. The anatomical map constrains the model. The simulator makes it unfold in time."
+  },
+  {
+    "title": "Give a neuron time",
+    "image": "assets/generated-v3/scene_010-reviewed.png",
+    "visual": "Scientific editorial extreme close-up of a single insect neuron membrane and branching dendrites, with luminous incoming impulses and one outgoing axon pulse. A beautifully integrated small oscilloscope-style illustrative voltage trace rises to a threshold and resets. Exact heading 'A neuron that unfolds in time'. Labels 'Input', 'Threshold', 'Spike'. Trace labeled 'Illustrative'.",
+    "narration": "In a simple spiking model, incoming signals raise or lower a neuron's voltage. Enough excitation triggers a pulse to its neighbors. Between inputs, the voltage relaxes. Each new signal meets the state left by the signals before it."
+  },
+  {
+    "title": "Bring it back to bet365",
+    "image": "assets/generated-v2/scene_012-reviewed.png",
+    "narration": "For our bet three sixty-five experiment, the environment contains two teams and pregame measurements. An outcome arrives later. We need to translate those opportunities into something the circuit can receive. A fly has no reason to care about a starting pitcher's recent form."
+  },
+  {
+    "title": "What does baseball taste like?",
+    "image": "assets/generated-v3/scene_017-reviewed.png",
+    "visual": "Beautiful editorial still-life on a dark scientific workbench: two baseballs beside two separate translucent amber and turquoise sensory sample dishes. A macro fly is poised near the dishes; behind them softly focused stadium lights. Heading 'What does baseball taste like?'. Labels 'Home opportunity' and 'Away opportunity'. Subtitle 'An engineered sensory encoding'.",
+    "narration": "It does have circuitry for food-related signals. So bet three sixty fly translates pregame information into appetitive and aversive stimulation: an engineered version of presenting something sweet or bitter. We chose food-related stimulation as the interface between baseball information and the modeled circuit."
+  },
+  {
+    "title": "Two opportunities",
+    "image": "assets/generated-v2/scene_013-reviewed.png",
+    "narration": "Each team follows the same encoding rules. Both can produce an attractive pattern; one team's sweetness doesn't require the other to become bitter. We present two opportunities, carrying their differences into the sensory input without assigning the winner beforehand."
+  },
+  {
+    "title": "Read the response",
+    "image": "assets/generated-v3/scene_019.png",
+    "visual": "Premium detailed insect sensory-circuit illustration with two distinct amber/turquoise input probes entering the same intricate neural sculpture, and two output traces on laboratory paper to the right. Heading 'Present. Measure. Compare.'. Labels 'Home probe', 'Away probe', 'External readout'. Small footer 'Pipeline schematic \u00b7 traces illustrative'.",
+    "narration": "We present the patterns separately, measure selected neurons, and fit an external readout to predict the outcome. If you work with embeddings, the workflow will feel familiar. The middle stage here is a representation produced by an anatomically structured circuit responding over time."
+  },
+  {
+    "title": "A season through the circuit",
+    "image": "assets/generated-v3/scene_020.png",
+    "visual": "Rich baseball-science editorial composition: a season's worth of compact baseball scorecards flowing past a detailed translucent insect neural circuit into an archival results notebook. Exact heading '2,423 MLB games'. Large exact result '56.21% correct'. Clear subtitle 'Frozen 2023 pipeline backtest'. Smaller but readable values 'Encoder: 55.84% \u00b7 Same-information baseline: 56.29%'. No decorative charts or invented numbers.",
+    "narration": "Across two thousand four hundred and twenty-three games from the twenty twenty-three baseball season, the frozen pipeline got just over fifty-six percent right. Conventional baselines performed at about the same level. Every prediction can be followed back through the circuit response to the pregame information."
+  },
+  {
+    "title": "What the season gives us",
+    "image": "assets/generated-v3/scene_021-reviewed.png",
+    "visual": "Cinematic close view of a scientific notebook opened to one baseball matchup, two neatly arranged sensory traces and a detailed neural pathway inset, an engineer's pencil pointing to the input-output connection. Heading 'Follow one matchup through'. Diagram labels 'Pregame information', 'Sensory pattern', 'Circuit response', 'Prediction'. All illustrative content, no fake app screenshots.",
+    "narration": "We can now inspect a particular matchup and ask where its information goes. That makes the next experiment concrete: change an input mapping, record another pathway, compare the response. A strange-sounding idea has become a system we can work on."
+  },
+  {
+    "title": "After the outcome",
+    "image": "assets/generated-v3/scene_022-reviewed.png",
+    "visual": "Cinematic diptych of same ripe fruit and same male fruit fly under two different lighting moments, with an inset of a small insect mushroom-body circuit connecting the two. The first side has exact label 'Experience'; the second 'Next encounter'. Heading 'What changes after experience?'.",
+    "narration": "The kitchen fly also brings yesterday's experience into today. Finding food can change its response when an odor returns. In a separate model, we tested whether a teaching signal could leave a lasting, specific change in the circuit."
+  },
+  {
+    "title": "Let the world in",
+    "image": "assets/generated-v3/scene_011.png",
+    "visual": "Dramatic photographic-style male fruit fly at the edge of a sliced ripe strawberry. Delicate amber odor plume leads toward detailed antennae, with an elegant translucent inset of the fly sensory pathway and turquoise branching neurites. Exact heading 'What reaches the circuit?'.",
+    "narration": "For an odor to become a memory, it first needs a pattern the circuit can recognize. Different sensory neurons respond to different components of an odor mixture. That pattern travels inward, giving the learning circuitry a particular combination of signals to associate with an outcome."
+  },
+  {
+    "title": "From odor to memory",
+    "image": "assets/generated-v2/scene_006.png",
+    "narration": "One sensory route leads into the mushroom body, a region involved in learning associations. Its Kenyon cells respond in sparse combinations: a small subset becomes active for a particular cue. That gives the model a pattern it can associate with a teaching signal."
+  },
+  {
+    "title": "A local teaching signal",
+    "image": "assets/generated-v2/scene_016.png",
+    "narration": "Synaptic plasticity means changing a connection's strength. In the mushroom body, dopamine helps regulate changes where active Kenyon cells contact output neurons. Our modeled rule combines recent local activity with an engineered teaching signal, allowing experience to affect the next response."
+  },
+  {
+    "title": "Teaching a cue",
+    "image": "assets/generated-v3/scene_024-final.png",
+    "visual": "Rich scientific editorial storyboard in three broad connected panels with tangible sensory sample dishes and an intricate insect synapse illustration. Exact title 'An association survives the lesson'. Labels 'Cue + teaching pulse', 'Pause', 'Cue alone'. Highlight same amber cue in first and third panels. Footer 'Controlled conditioning in the simulator \u00b7 conceptual illustration'.",
+    "narration": "Pair a sensory cue with that signal, wait, then present the cue alone. In controlled experiments, the newer circuit retains a cue-specific change and reverses the association when the teaching changes. That demonstrates an association in the model. Its contribution to prediction is a separate research question."
+  },
+  {
+    "title": "Room for another experience",
+    "image": "assets/generated-v3/scene_025.png",
+    "visual": "Beautiful extreme macro scientific illustration of a branching insect neural circuit with several synaptic contacts shown at different strengths through luminous area, with gentle restorative teal gradients. Behind it, elegant lab notebook repeated cue marks. Heading 'Make room for the next association'. Subtitle 'Recovery and repeated experience'. Illustrative, no quantified traces.",
+    "narration": "In this model, repeated learning can push connection strengths to their limits. A recovery mechanism restores some room for further change. Shared neurons create another complication: learning about one cue can disturb another. Each result gives us a more specific problem to work on."
+  },
+  {
+    "title": "A different engineering conversation",
+    "image": "assets/generated-v3/scene_026.png",
+    "visual": "Photographic-style programmer's desk with open code on one monitor and a beautifully detailed mushroom-body neural reconstruction on another. Physical index cards read 'Timing', 'Recovery', 'Interference'. Warm personal workspace light meets turquoise scientific display. Heading 'Learning has a location'.",
+    "narration": "The debugging conversation now concerns particular cells and connections. Where did the teaching signal arrive? Which synapses changed? How long did that change last? The experiment gives us access to the machinery carrying an association from one encounter to the next."
+  },
+  {
+    "title": "Change the circuit, ask again",
+    "image": "assets/generated-v3/scene_029.png",
+    "visual": "Close scientific editorial view of two matched insect neural circuit sculptures side by side. One has a single pathway carefully muted gray while rest remains identical turquoise and amber. Exact heading 'Intervene, then compare'. Labels 'Original circuit', 'Selected pathway muted'. Footer 'Experimental design \u00b7 conceptual illustration'.",
+    "narration": "When a pathway looks important, we can silence selected modeled neurons and repeat the input. That tests whether the response depends on that route. The circuit becomes an experimental object we can take apart selectively, while keeping the rest of the setup fixed."
+  },
+  {
+    "title": "Borrowing the front end",
+    "image": "assets/generated-v3/scene_013.png",
+    "visual": "An engineer's elegant physical workbench featuring a small camera, a detailed fly compound-eye lens inset, and a screen showing an abstract first-person game corridor. Amber visual features flow into a translucent fly optic-lobe neurite sculpture. Heading 'Translate the input'. Large labels 'Game frames' and 'Visual neurons'.",
+    "narration": "A richer environment closes the loop: neural output changes what the model senses next. DOOMFLY provides a game world for that experiment. Moving toward an animal's experience adds further demands, including detailed vision and the consequences of controlling a physical body."
+  },
+  {
+    "title": "A research lineage",
+    "image": "assets/generated-v2/scene_010-reviewed.png",
+    "narration": "FlyVis shows how researchers have developed the visual side: constrain a model with measured fly connectivity, optimize it on visual tasks, and compare its responses with real cells. That joins anatomy, task performance, and biological measurements in one development loop."
+  },
+  {
+    "title": "A body to inhabit",
+    "image": "assets/generated-v2/scene_011.png",
+    "narration": "FlyBody addresses the other end: a detailed simulated body, with physics and reinforcement-learning controllers for walking and flight. It supplies an environment where future neural controllers can face the practical consequences of their outputs, including whether the animal stays on its feet."
+  },
+  {
+    "title": "Why the pace feels different",
+    "image": "assets/generated-v2/scene_020.png",
+    "narration": "This has become much easier to attempt because two developments are meeting. Connectomics teams release richer maps, while LLMs and coding agents accelerate the work of reading research, building interfaces, and testing software. A small team can work across fields that once demanded much more coordination."
+  },
+  {
+    "title": "Weeks of experiments, years of science",
+    "image": "assets/generated-v3/scene_031.png",
+    "visual": "Editorial panoramic composition from a carefully lit microscopy laboratory with archival image stacks on left to a modern small engineering workspace on right, connected by one flowing detailed fly neural reconstruction. Exact title 'Years of science. Weeks of new experiments.'. Elegant large readable typography, grounded realistic scene.",
+    "narration": "The recent burst of games and experiments follows from that combination. Developers can take the same released circuit into different environments, inspect one another's implementations, and borrow what works. Years of reconstruction can support many experiments its creators never had to anticipate."
+  },
+  {
+    "title": "The next animal",
+    "image": "assets/generated-v2/scene_021.png",
+    "narration": "Soon, those engineering tools will have richer resources to work with. Young zebrafish are transparent enough to record activity across much of the living brain. That creates an opportunity to connect a wiring map with observations of how the same brain responds."
+  },
+  {
+    "title": "Wiring meets activity",
+    "image": "assets/generated-v3/scene_033.png",
+    "visual": "Beautiful microscopic photograph-style translucent larval zebrafish head, with turquoise and amber cell-scale lights inside brain, and a separate detailed neurite reconstruction beside it. Exact heading 'The same brain, two views'. Labels 'Recorded activity' and 'Reconstructed wiring'. Small 'Google Research \u00b7 Fish2 / ZAPBench'. Footnote 'Conceptual illustration of the research programme'.",
+    "narration": "Google's neural-mapping program is working toward that pairing in Fish2. The associated ZAPBench resource includes activity from more than seventy thousand neurons. The aim is to pair activity with wiring from the same specimen, so model builders can test their dynamics against observed responses."
+  },
+  {
+    "title": "From plausible to calibrated",
+    "image": "assets/generated-v3/scene_034-reviewed.png",
+    "visual": "Premium scientific still of transparent larval zebrafish above a beautiful two-page research notebook: left page marked 'Recorded response', right 'Modeled response', with simple clearly illustrative traces and highlighted mismatched region linked to a parameter note. Heading 'Fit the dynamics to the animal'. Rich cinematic material detail.",
+    "narration": "We began with connections and supplied equations to make them respond. Paired recordings bring more of those equations into contact with measurements from the animal. Each response becomes a test of how well the simulation captures the circuit we're trying to use."
+  },
+  {
+    "title": "Into mammalian tissue",
+    "image": "assets/generated-v2/scene_022-reviewed.png",
+    "narration": "Rodent work is advancing too. MICrONS reconstructed a volume of mouse visual cortex, which processes visual information, containing roughly half a billion synapses and linked activity recordings. Larger mapping programs are underway, extending this approach into increasingly rich mammalian circuitry."
+  },
+  {
+    "title": "Tools that carry forward",
+    "image": "assets/generated-v3/scene_036-reviewed.png",
+    "visual": "Three tangible scientific specimens arranged on a premium dark laboratory surface: a tiny male Drosophila, a transparent larval zebrafish in a clear dish, and an isolated illustrative mouse cortical tissue volume under glass. Fine pathways connect each to the same reusable scientific instrument probes. Heading 'Carry the tools forward'. Footer 'Different resources, different scales \u00b7 conceptual illustration'.",
+    "narration": "Each animal demands its own biology. But experience with input interfaces, response measurements, and local learning experiments carries forward. Working with the fly prepares us to ask better questions when we can build around those larger, more thoroughly measured circuits."
+  },
+  {
+    "title": "Choose a problem and enter the circuit",
+    "image": "assets/generated-v3/scene_037.png",
+    "visual": "Cinematic wide engineering workbench showing the same intricate fly circuit model in center with three tangible inputs around it: small game controller, sensory sample dishes beside baseball, and a miniature realistic fly body simulation monitor. Exact heading 'Choose a problem. Build an interface.'. Elegant natural lighting, visual storytelling through objects.",
+    "narration": "There is room for engineering teams to contribute now: choose an environment, build its interfaces, and make the experiment inspectable. bet three sixty fly begins with sports information. DOOMFLY begins with a game screen. Both ask what happens when biological wiring encounters a new problem."
+  },
+  {
+    "title": "Back to the kitchen",
+    "image": "assets/generated-v3/scene_038.png",
+    "visual": "Return to opening kitchen peach and same anatomically realistic tiny male Drosophila, now viewed slightly wider: its shadow falls across the fruit while a softly reflected intricate insect-neurite reconstruction appears in the dark countertop. Warm late-afternoon sunlight. Exact heading 'A nervous system you can build with'. Small lowercase 'bet36fly'. Quiet thoughtful premium documentary closing image.",
+    "narration": "The fly in the kitchen still has its own problems to solve. We now have access to an animal's wiring and software to explore it. We can put that circuitry into a new environment and find out what it can do. For us, that starts with two baseball teams and a taste of fruit."
+  }
+]

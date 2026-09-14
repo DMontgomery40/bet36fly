@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>bet36fly · Connectomes</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#09111a;color:#efeee4;font:17px/1.55 system-ui,sans-serif}main{max-width:1200px;margin:auto;padding:32px 28px 64px}header{display:flex;justify-content:space-between;color:#4ad8c9;font-size:14px}h1{font:clamp(28px,4vw,44px)/1.2 Georgia,serif;max-width:900px;margin:24px 0 12px}p{color:#a8bac8}video{display:block;width:100%;aspect-ratio:16/9;background:#000;border:1px solid #253a46;border-radius:8px;margin:28px 0 20px}a{color:#4ad8c9}nav{display:flex;gap:12px;flex-wrap:wrap}button{background:#111d28;color:#efeee4;border:1px solid #304859;border-radius:7px;padding:10px 14px;cursor:pointer;font:inherit;font-size:14px}button:hover,button:focus{border-color:#4ad8c9}footer{margin-top:28px;font-size:14px;color:#95a9b6}::cue{background:#09111ae8;color:#fff}
+</style>
+<main>
+<header><span>bet36fly / CONNECTOMES</span><span>SEPTEMBER 2026</span></header>
+<h1>Connectomes: an architecture from an animal</h1>
+<p id="summary">A technical introduction for bet365. Calm American narration · full HD · English captions</p>
+<video id="film" controls preload="metadata" poster="assets/generated-v3/scene_000.png" playsinline>
+<source src="bet36fly-connectomes.mp4?v=6" type="video/mp4">
+<track kind="captions" src="captions.vtt?v=6" srclang="en" label="English">
+</video>
+<nav aria-label="Film chapters" id="chapters"></nav>
+<p><button id="captions" aria-pressed="false">English captions: off</button></p>
+<footer><a href="bet36fly-connectomes.mp4" download>Download film</a> · <a href="captions.srt" download>Captions</a> · <a href="NARRATION.md">Narration</a> · <a href="SOURCES.md">Source notes</a><p>Existing GPT-image-2.5 illustrations accompany the story. Neural and anatomical images are conceptual illustrations. Google Research and the MaleCNS collaboration are credited in the film.</p></footer>
+</main>
+<script>
+const film=document.getElementById('film');
+document.getElementById('captions').onclick=event=>{
+ const show=film.textTracks[0].mode!=='showing';
+ film.textTracks[0].mode=show?'showing':'disabled';
+ event.currentTarget.textContent=`English captions: ${show?'on':'off'}`;
+ event.currentTarget.setAttribute('aria-pressed',String(show));
+};
+fetch('timeline.json?v=6', {cache:'no-store'}).then(r=>r.json()).then(t=>{
+ const selected=[0,3,5,9,14,17,20,27,29,31];
+ document.getElementById("summary").textContent=`A technical introduction for bet365. ${Math.floor(t.duration/60)}:${String(Math.round(t.duration%60)).padStart(2,"0")} · American narration · full HD · English captions`;
+ t.scenes.filter(s=>selected.includes(s.id)).forEach(s=>{
+  const button=document.createElement('button');
+  button.textContent=`${Math.floor(s.start/60)}:${String(Math.floor(s.start%60)).padStart(2,'0')} ${s.title}`;
+  button.onclick=()=>{film.currentTime=s.start;film.play().catch(()=>{});};
+  document.getElementById('chapters').append(button);
+ });
+});
+</script>
+</html>

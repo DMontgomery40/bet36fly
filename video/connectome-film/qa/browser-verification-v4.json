@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "url": "http://127.0.0.1:8790/",
+  "source": "bet36fly-connectomes.mp4?v=6",
+  "duration_seconds": 667,
+  "width": 1920,
+  "height": 1080,
+  "opening_playback": "time advanced, readyState 4, playing",
+  "captions": "enabled and visibly matched narration over microscopy and season-test scenes",
+  "chapter_seek": "5:19 season chapter sought successfully; correct image and caption visible at 337.5 seconds",
+  "metadata_cache": "fixed stale chapter list with no-store fetch and no-store metadata response headers; refreshed page shows 11:07 and new chapters",
+  "ending": "closing image checked in exported frames; full media decode passed. User began playing the opening during final checks, so their playback was left undisturbed.",
+  "visual_export": "All 33 midframes reviewed; all 99 early/middle/late samples match intended images."
+}

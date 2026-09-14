@@ -1,0 +1,335 @@
+[
+  {
+    "id": 0,
+    "title": "An unlikely colleague",
+    "image": "assets/generated-v3/scene_000.png",
+    "narration_matched": true,
+    "source_image_opened": true,
+    "status": "passed",
+    "exported_midpoint_reviewed": true
+  },
+  {
+    "id": 1,
+    "title": "How did we get here?",
+    "image": "assets/generated-v2/scene_000-credited.png",
+    "narration_matched": true,
+    "source_image_opened": true,
+    "status": "passed",
+    "exported_midpoint_reviewed": true
+  },
+  {
+    "id": 2,
+    "title": "A fly in Doom",
+    "image": "assets/generated-v2/scene_009.png",
+    "narration_matched": true,
+    "source_image_opened": true,
+    "status": "passed",
+    "exported_midpoint_reviewed": true
+  },
+  {
+    "id": 3,
+    "title": "Follow the controls",
+    "image": "assets/generated-v3/scene_003-reviewed.png",
+    "narration_matched": true,
+    "source_image_opened": true,
+    "status": "passed",
+    "exported_midpoint_reviewed": true
+  },
+  {
+    "id": 4,
+    "title": "The trail through the code",
+    "image": "assets/generated-v3/scene_004.png",
+    "narration_matched": true,
+    "source_image_opened": true,
+    "status": "passed",
+    "exported_midpoint_reviewed": true
+  },
+  {
+    "id": 5,
+    "title": "Inside the specimen",
+    "image": "assets/generated-v2/scene_001-model25.png",
+    "narration_matched": true,
+    "source_image_opened": true,
+    "status": "passed",
+    "exported_midpoint_reviewed": true
+  },
+  {
+    "id": 6,
+    "title": "Google Research and the reconstruction",
+    "image": "assets/generated-v3/scene_006.png",
+    "narration_matched": true,
+    "source_image_opened": true,
+    "status": "passed",
+    "exported_midpoint_reviewed": true
+  },
+  {
+    "id": 7,
+    "title": "An architecture with an address book",
+    "image": "assets/generated-v3/scene_007-reviewed.png",
+    "narration_matched": true,
+    "source_image_opened": true,
+    "status": "passed",
+    "exported_midpoint_reviewed": true
+  },
+  {
+    "id": 8,
+    "title": "A different starting point",
+    "image": "assets/generated-v2/scene_003.png",
+    "narration_matched": true,
+    "source_image_opened": true,
+    "status": "passed",
+    "exported_midpoint_reviewed": true
+  },
+  {
+    "id": 9,
+    "title": "The wiring waits",
+    "image": "assets/generated-v2/scene_005.png",
+    "narration_matched": true,
+    "source_image_opened": true,
+    "status": "passed",
+    "exported_midpoint_reviewed": true
+  },
+  {
+    "id": 10,
+    "title": "Give a neuron time",
+    "image": "assets/generated-v3/scene_010-reviewed.png",
+    "narration_matched": true,
+    "source_image_opened": true,
+    "status": "passed",
+    "exported_midpoint_reviewed": true
+  },
+  {
+    "id": 11,
+    "title": "Bring it back to bet365",
+    "image": "assets/generated-v2/scene_012-reviewed.png",
+    "narration_matched": true,
+    "source_image_opened": true,
+    "status": "passed",
+    "exported_midpoint_reviewed": true
+  },
+  {
+    "id": 12,
+    "title": "What does baseball taste like?",
+    "image": "assets/generated-v3/scene_017-reviewed.png",
+    "narration_matched": true,
+    "source_image_opened": true,
+    "status": "passed",
+    "exported_midpoint_reviewed": true
+  },
+  {
+    "id": 13,
+    "title": "Two opportunities",
+    "image": "assets/generated-v2/scene_013-reviewed.png",
+    "narration_matched": true,
+    "source_image_opened": true,
+    "status": "passed",
+    "exported_midpoint_reviewed": true
+  },
+  {
+    "id": 14,
+    "title": "Read the response",
+    "image": "assets/generated-v3/scene_019.png",
+    "narration_matched": true,
+    "source_image_opened": true,
+    "status": "passed",
+    "exported_midpoint_reviewed": true
+  },
+  {
+    "id": 15,
+    "title": "A season through the circuit",
+    "image": "assets/generated-v3/scene_020.png",
+    "narration_matched": true,
+    "source_image_opened": true,
+    "status": "passed",
+    "exported_midpoint_reviewed": true
+  },
+  {
+    "id": 16,
+    "title": "What the season gives us",
+    "image": "assets/generated-v3/scene_021-reviewed.png",
+    "narration_matched": true,
+    "source_image_opened": true,
+    "status": "passed",
+    "exported_midpoint_reviewed": true
+  },
+  {
+    "id": 17,
+    "title": "After the outcome",
+    "image": "assets/generated-v3/scene_022-reviewed.png",
+    "narration_matched": true,
+    "source_image_opened": true,
+    "status": "passed",
+    "exported_midpoint_reviewed": true
+  },
+  {
+    "id": 18,
+    "title": "Let the world in",
+    "image": "assets/generated-v3/scene_011.png",
+    "narration_matched": true,
+    "source_image_opened": true,
+    "status": "passed",
+    "exported_midpoint_reviewed": true
+  },
+  {
+    "id": 19,
+    "title": "From odor to memory",
+    "image": "assets/generated-v2/scene_006.png",
+    "narration_matched": true,
+    "source_image_opened": true,
+    "status": "passed",
+    "exported_midpoint_reviewed": true
+  },
+  {
+    "id": 20,
+    "title": "A local teaching signal",
+    "image": "assets/generated-v2/scene_016.png",
+    "narration_matched": true,
+    "source_image_opened": true,
+    "status": "passed",
+    "exported_midpoint_reviewed": true
+  },
+  {
+    "id": 21,
+    "title": "Teaching a cue",
+    "image": "assets/generated-v3/scene_024-final.png",
+    "narration_matched": true,
+    "source_image_opened": true,
+    "status": "passed",
+    "exported_midpoint_reviewed": true
+  },
+  {
+    "id": 22,
+    "title": "Room for another experience",
+    "image": "assets/generated-v3/scene_025.png",
+    "narration_matched": true,
+    "source_image_opened": true,
+    "status": "passed",
+    "exported_midpoint_reviewed": true
+  },
+  {
+    "id": 23,
+    "title": "A different engineering conversation",
+    "image": "assets/generated-v3/scene_026.png",
+    "narration_matched": true,
+    "source_image_opened": true,
+    "status": "passed",
+    "exported_midpoint_reviewed": true
+  },
+  {
+    "id": 24,
+    "title": "Change the circuit, ask again",
+    "image": "assets/generated-v3/scene_029.png",
+    "narration_matched": true,
+    "source_image_opened": true,
+    "status": "passed",
+    "exported_midpoint_reviewed": true
+  },
+  {
+    "id": 25,
+    "title": "Borrowing the front end",
+    "image": "assets/generated-v3/scene_013.png",
+    "narration_matched": true,
+    "source_image_opened": true,
+    "status": "passed",
+    "exported_midpoint_reviewed": true
+  },
+  {
+    "id": 26,
+    "title": "A research lineage",
+    "image": "assets/generated-v2/scene_010-reviewed.png",
+    "narration_matched": true,
+    "source_image_opened": true,
+    "status": "passed",
+    "exported_midpoint_reviewed": true
+  },
+  {
+    "id": 27,
+    "title": "A body to inhabit",
+    "image": "assets/generated-v2/scene_011.png",
+    "narration_matched": true,
+    "source_image_opened": true,
+    "status": "passed",
+    "exported_midpoint_reviewed": true
+  },
+  {
+    "id": 28,
+    "title": "Why the pace feels different",
+    "image": "assets/generated-v2/scene_020.png",
+    "narration_matched": true,
+    "source_image_opened": true,
+    "status": "passed",
+    "exported_midpoint_reviewed": true
+  },
+  {
+    "id": 29,
+    "title": "Weeks of experiments, years of science",
+    "image": "assets/generated-v3/scene_031.png",
+    "narration_matched": true,
+    "source_image_opened": true,
+    "status": "passed",
+    "exported_midpoint_reviewed": true
+  },
+  {
+    "id": 30,
+    "title": "The next animal",
+    "image": "assets/generated-v2/scene_021.png",
+    "narration_matched": true,
+    "source_image_opened": true,
+    "status": "passed",
+    "exported_midpoint_reviewed": true
+  },
+  {
+    "id": 31,
+    "title": "Wiring meets activity",
+    "image": "assets/generated-v3/scene_033.png",
+    "narration_matched": true,
+    "source_image_opened": true,
+    "status": "passed",
+    "exported_midpoint_reviewed": true
+  },
+  {
+    "id": 32,
+    "title": "From plausible to calibrated",
+    "image": "assets/generated-v3/scene_034-reviewed.png",
+    "narration_matched": true,
+    "source_image_opened": true,
+    "status": "passed",
+    "exported_midpoint_reviewed": true
+  },
+  {
+    "id": 33,
+    "title": "Into mammalian tissue",
+    "image": "assets/generated-v2/scene_022-reviewed.png",
+    "narration_matched": true,
+    "source_image_opened": true,
+    "status": "passed",
+    "exported_midpoint_reviewed": true
+  },
+  {
+    "id": 34,
+    "title": "Tools that carry forward",
+    "image": "assets/generated-v3/scene_036-reviewed.png",
+    "narration_matched": true,
+    "source_image_opened": true,
+    "status": "passed",
+    "exported_midpoint_reviewed": true
+  },
+  {
+    "id": 35,
+    "title": "Choose a problem and enter the circuit",
+    "image": "assets/generated-v3/scene_037.png",
+    "narration_matched": true,
+    "source_image_opened": true,
+    "status": "passed",
+    "exported_midpoint_reviewed": true
+  },
+  {
+    "id": 36,
+    "title": "Back to the kitchen",
+    "image": "assets/generated-v3/scene_038.png",
+    "narration_matched": true,
+    "source_image_opened": true,
+    "status": "passed",
+    "exported_midpoint_reviewed": true
+  }
+]

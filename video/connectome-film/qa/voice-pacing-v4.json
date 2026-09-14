@@ -1,0 +1,12 @@
+{
+  "measured_first_15_scenes_at_speed_0_92": {
+    "seconds": 298.2,
+    "words_per_minute": 162.0
+  },
+  "chosen_native_speed": 0.82,
+  "reason": "Reduce delivered spoken pace toward 140\u2013150 words per minute; no post-production time stretching.",
+  "final_narration_seconds": 666.9699770000001,
+  "final_word_count": 1543,
+  "final_words_per_minute": 138.80684767314494,
+  "new_opening_words_per_minute": 140.8
+}
