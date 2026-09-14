@@ -37,8 +37,8 @@ function response(status, marker, body) {
     assert result.returncode == 0, result.stderr
 
 
-def test_reward_browser_preflight_precedes_chromium_launch():
-    source = (ROOT / 'scripts/verify_reward_browser.cjs').read_text()
+def test_current_browser_preflight_precedes_chromium_launch():
+    source = (ROOT / 'scripts/verify_sensory_browser.cjs').read_text()
     assert "verifyReadOnlyServer(base)" in source
     assert source.index('verifyReadOnlyServer(base)') < source.index('chromium.launch')
 
@@ -49,3 +49,9 @@ def test_verification_launcher_uses_explicit_factory_without_bytecode_writes():
     command = next(line for line in makefile.splitlines() if 'bet36fly.server:create_verification_app' in line)
     assert 'PYTHONDONTWRITEBYTECODE=1' in command
     assert '--factory' in command
+
+
+def test_retired_browser_launchers_run_current_acceptance():
+    for name in ['reward', 'desk']:
+        source = (ROOT / f'scripts/verify_{name}_browser.cjs').read_text()
+        assert "require('./verify_sensory_browser.cjs')" in source

@@ -25,7 +25,7 @@ def test_no_model_and_no_games_are_explicit(tmp_path):
 def test_refresh_conflict_and_external_origin_are_rejected(tmp_path):
     app = create_app(root=tmp_path, warm_on_start=False)
     with TestClient(app) as client:
-        app.state.runtime.refresh = lambda: False
+        app.state.get_runtime().refresh = lambda: False
         assert client.post("/api/refresh").status_code == 409
         assert client.post("/api/refresh", headers={"Origin": "https://unrelated.example"}).status_code == 403
 

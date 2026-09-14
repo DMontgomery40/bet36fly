@@ -150,7 +150,7 @@ def test_verification_lifespan_and_metadata_gets_are_read_only(tmp_path, monkeyp
     app = server_module.create_verification_app(root=tmp_path)
     assert 'runtime' not in app.state._state
     with TestClient(app) as client:
-        runtime = app.state.runtime
+        runtime = app.state.get_runtime()
         assert runtime.read_only is True
         status = client.get('/api/status')
         assert status.status_code == 200
@@ -186,7 +186,7 @@ def test_verification_rejects_every_mutating_method_before_handlers(tmp_path, me
     before = _inventory(tmp_path)
     app = create_verification_app(root=tmp_path)
     with TestClient(app) as client:
-        runtime = app.state.runtime
+        runtime = app.state.get_runtime()
         runtime.predict = lambda *args, **kwargs: pytest.fail('predict handler ran')
         runtime.refresh = lambda *args, **kwargs: pytest.fail('refresh handler ran')
         headers = {'Origin': origin} if origin else {}
@@ -488,7 +488,7 @@ def test_separate_verification_lifespans_get_one_fresh_runtime_each(tmp_path, mo
     for _ in range(2):
         app = server_module.create_verification_app(root=tmp_path)
         with TestClient(app) as client:
-            assert app.state.runtime is created[-1]
+            assert app.state.get_runtime() is created[-1]
             assert client.get('/api/status').status_code == 200
     assert len(created) == 2
     assert created[0] is not created[1]

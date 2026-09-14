@@ -1,5 +1,7 @@
 # Current direction: let the fly perform a food-choice task
 
+**Current application — September 13:** the product now presents the frozen sensory confirmation, all MLB confirmation games, matchup-specific probe evidence, methods and downloads. Historical training, model selectors, prediction controls and brain replay are removed from the mounted UI. The default server no longer starts source-following. The v1 pointer, legacy code and frozen scientific artifacts remain preserved; they are not sensory predictions. [Current application contract](api-contract.md).
+
 **Decision: David's September 13, 2026 reorientation. Status: source-informed second-order sensory pipeline implemented; full feeding and biological learning unvalidated.** This is the canonical project objective. The [handoff](NATURAL_SENSORY_HANDOFF.md) defines the next bounded task; the [reassessment](../wiki/reassessment.md) records evidence. Dated experiment protocols remain authoritative for their own results, not for choosing the project's next objective.
 
 ## Backtest goal achieved — September 13, 2026
@@ -53,4 +55,4 @@ Proceed through stages 1–5 under the active goal, with finite per-experiment l
 
 Update this file when the user changes the objective. Update the handoff, `AGENTS.md`, README entry point, wiki index/reassessment and affected protocol status together. `CLAUDE.md` imports `AGENTS.md`; it must not maintain another architecture description. Put detailed failures and numerical histories in dated evidence, not in growing agent instructions. Mark superseded handoffs at the top and preserve their historical bodies. The imported Microduck snapshot remains immutable.
 
-Current implementation facts belong in the [model card](MODEL_CARD.md): v1 still serves; v2 is paused; legacy dopamine qualification is failed; natural sensory calibration and behavior are not yet implemented. Documentation changes alone do not change any of those facts.
+Current implementation facts belong in the [model card](MODEL_CARD.md): the product serves stored sensory confirmation evidence; the historical v1 pointer is preserved, v2 is paused and legacy dopamine qualification is failed. The sensory pipeline is implemented; feeding and innate choice remain unqualified. Application integration does not promote a model or broaden the scientific claim.

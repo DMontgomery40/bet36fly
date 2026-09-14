@@ -1,0 +1,58 @@
+{
+  "schema": 1,
+  "identity": "sensory-confirmation-4887cb8c17f6281d8166",
+  "files": {
+    "predictions": {
+      "path": "docs/evidence/sensory-backtest-goal-2026-09-13/confirmation-predictions.csv",
+      "sha256": "3d3a90d89bed0c7c4d75711bd1ebc6e5e51f69a7bed4205c1768b06a8387696e"
+    },
+    "evaluation": {
+      "path": "docs/evidence/sensory-backtest-goal-2026-09-13/confirmation-evaluation.json",
+      "sha256": "da162101122aff7a34beee92df96cafc0f14da8418fb2342ff6df172b4add572"
+    },
+    "manifest": {
+      "path": "docs/evidence/sensory-backtest-goal-2026-09-13/confirmation-manifest.json",
+      "sha256": "2ad17d3a9ccab983960382c3d356be98259a8ae745451c8fd9b245a9d6b25ad9"
+    },
+    "integrity": {
+      "path": "docs/evidence/sensory-backtest-goal-2026-09-13/confirmation-integrity.json",
+      "sha256": "46d9990b7ca13c43da87709d60ade7737b4423d08d54032bc7c629e68f415d83"
+    },
+    "candidate": {
+      "path": "docs/evidence/sensory-backtest-goal-2026-09-13/frozen-candidate.json",
+      "sha256": "422e5ae3af9f59bfb0df40090a8ffb7ecab02d97cf55a392c40ab9c3a386a7dd"
+    },
+    "result": {
+      "path": "docs/evidence/sensory-backtest-goal-2026-09-13/RESULT.md",
+      "sha256": "55583ef027a84104cc35f9757878458221a7214b32f427340553605f7b73447d"
+    },
+    "cells": {
+      "path": "docs/evidence/sensory-backtest-goal-2026-09-13/second-order-crosswalk.json",
+      "sha256": "75696e0ad4ecb90935984a9a89bfe6eb750d71d6a63cbfdc3a33e421b7a36d42"
+    },
+    "responses": {
+      "path": "docs/evidence/sensory-backtest-goal-2026-09-13/sensory-opportunities-3750a28fd2728835047b-result.json",
+      "sha256": "90254306481e7eb4e1aa5155dba2c9b71fc2398b190bde6aabbf6869285c2d0e"
+    },
+    "development": {
+      "path": "docs/evidence/sensory-backtest-goal-2026-09-13/development-evaluation.json",
+      "sha256": "d4d1a0b60faf604251fa8022e0e0e3ece2cc883d3a93e5f22509bd8356da986a"
+    },
+    "opportunities": {
+      "path": "configs/sensory-opportunities-01.json",
+      "sha256": "3750a28fd2728835047b7a07099ecdc04aa3ed0a5e67203a5251cea10d78f7ea"
+    },
+    "assay": {
+      "path": "configs/sensory-assay-01.json",
+      "sha256": "42234be994aca8e42414a9613b0c9ef25f4cd484c7ae0a29337ff707c89390cc"
+    },
+    "confirmation": {
+      "path": "configs/sensory-confirmation-01.json",
+      "sha256": "4887cb8c17f6281d8166e06664d48cbab37c4d155b27b98f42590a6db0db1ad2"
+    },
+    "development_source": {
+      "path": "docs/evidence/sensory-backtest-goal-2026-09-13/development-source-manifest.json",
+      "sha256": "59ca5865ac1cfa5688cabd37b09f1bcef22910e841abc8523fcd9f3eef99d7ef"
+    }
+  }
+}

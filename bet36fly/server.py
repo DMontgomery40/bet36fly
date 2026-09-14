@@ -13,6 +13,7 @@ from fastapi import FastAPI, HTTPException, Request
 from fastapi.responses import FileResponse, HTMLResponse, JSONResponse, Response
 from starlette.middleware.trustedhost import TrustedHostMiddleware
 
+from .sensory_evidence import sensory_router
 from .connectome import ROOT
 from .runtime import Runtime, read_json
 from .ledger import ReadOnlyDatabaseError
@@ -53,8 +54,8 @@ def create_app(root=ROOT, warm_on_start=True, *, read_only=False):
 
     @asynccontextmanager
     async def lifespan(app):
-        runtime = get_runtime()
         if warm_on_start and not read_only:
+            runtime = get_runtime()
             threading.Thread(target=follow_sources, args=(runtime, stop), daemon=True,
                              name='public-source-followup').start()
         yield
@@ -191,6 +192,8 @@ def create_app(root=ROOT, warm_on_start=True, *, read_only=False):
         return {'model_card': card.read_text() if card.exists() else 'Model card not installed.',
                 'manifest': read_json(root / 'data/brain/manifest.json', {})}
 
+    app.include_router(sensory_router(root))
+
     @app.get('/{path:path}')
     def frontend(path: str):
         if path == 'api' or path.startswith('api/'):
@@ -202,8 +205,8 @@ def create_app(root=ROOT, warm_on_start=True, *, read_only=False):
         index = dist / 'index.html'
         if index.exists():
             return FileResponse(index)
-        return HTMLResponse('<h1>BET36FLY</h1><p>The real neural backend is running. '
-                            'The spectator frontend has not been built yet.</p>', status_code=503)
+        return HTMLResponse('<h1>BET36FLY</h1><p>The sensory research frontend '
+                            'has not been built yet.</p>', status_code=503)
 
     return app
 
@@ -213,4 +216,4 @@ def create_verification_app(root=ROOT):
     return create_app(root=root, warm_on_start=False, read_only=True)
 
 
-app = create_app()
+app = create_app(warm_on_start=False)

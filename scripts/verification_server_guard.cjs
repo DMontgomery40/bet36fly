@@ -1,7 +1,7 @@
 'use strict';
 
 async function verifyReadOnlyServer(base, fetchImpl = globalThis.fetch) {
-  const failure = () => new Error('Reward browser QA requires the marked read-only verification server.');
+  const failure = () => new Error('Browser QA requires the marked read-only verification server.');
   if (typeof fetchImpl !== 'function') throw failure();
   const statusUrl = `${String(base).replace(/\/+$/, '')}/api/status`;
   let response;

@@ -1,5 +1,7 @@
 # Working rules for bet36fly
 
+**Current application — September 13:** the product now presents the frozen sensory confirmation, all MLB confirmation games, matchup-specific probe evidence, methods and downloads. Historical training, model selectors, prediction controls and brain replay are removed from the mounted UI. The default server no longer starts source-following. The v1 pointer, legacy code and frozen scientific artifacts remain preserved; they are not sensory predictions. [Current application contract](docs/api-contract.md).
+
 ## Identity
 
 - The circuit is the male CNS connectome. `docs/connectome-source-lock.json` pins the exact v1.0 files. Do not confuse it with the older female FlyWire datasets or with any Google language model.
@@ -44,6 +46,6 @@ A backend change is not complete until the frontend reflects it. Trace each chan
 
 ## Verification and git
 
-- `make verify` runs pytest, Ruff, vitest and the vite build. Rebuild `web` before any browser check. Start QA with `make serve-verify`; the reward-panel browser check is `scripts/verify_reward_browser.cjs` (Playwright) and refuses an unmarked normal server before launching Chromium.
+- `make verify` runs pytest, Ruff, vitest and the vite build. Rebuild `web` before any browser check. Start QA with `make serve-verify`; the current application browser check is `scripts/verify_sensory_browser.cjs` (Playwright) and refuses an unmarked normal server before launching Chromium.
 - State what ran, what passed and what is unverified when finishing.
 - Commit locally on the working branch. David decides when to push.

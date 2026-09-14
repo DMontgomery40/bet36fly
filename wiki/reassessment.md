@@ -5,6 +5,8 @@ status: natural-sensory-priority-legacy-learning-unvalidated
 ---
 # Where BET36FLY stands, and what went wrong
 
+**Current application — September 13:** the product now presents the frozen sensory confirmation, all MLB confirmation games, matchup-specific probe evidence, methods and downloads. Historical training, model selectors, prediction controls and brain replay are removed from the mounted UI. The default server no longer starts source-following. The v1 pointer, legacy code and frozen scientific artifacts remain preserved; they are not sensory predictions. [Current application contract](../docs/api-contract.md).
+
 **Backtest goal achieved.** The conditional historical confirmation passed; additional runs for this goal have stopped. See the measured result below.
 
 ## Latest calibration checkpoint

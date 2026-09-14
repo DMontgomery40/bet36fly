@@ -1,0 +1,54 @@
+{
+  "base": "http://127.0.0.1:8766",
+  "guard": {
+    "verification_mode": true,
+    "marker": "read-only"
+  },
+  "checks": [
+    "overview: identity, confirmation and comparators",
+    "all games: filters, paging and full versus subset summaries",
+    "matchup: exact qualities, cells, requests and recorded outputs",
+    "empty results, invalid dates and clearing filters",
+    "methods, provenance and every exact-byte download",
+    "legacy hashes and path bookmarks resolve to current overview",
+    "no legacy polling or mutating product requests",
+    "keyboard skip navigation preserves the active page",
+    "responsive overview, explorer, details and methods",
+    "loading and unavailable summary, retry recovery",
+    "game and detail errors, retry and unknown game"
+  ],
+  "errors": [],
+  "consoleMessages": [
+    {
+      "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)",
+      "expected": true
+    },
+    {
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+      "expected": true
+    }
+  ],
+  "browser": "Playwright Chromium; Browser plugin unavailable",
+  "synthetic_states": [
+    "loading",
+    "unavailable",
+    "invalid",
+    "503 games"
+  ],
+  "screenshots": [
+    "backtest-mobile.png",
+    "empty.png",
+    "filtered-desktop.png",
+    "invalid.png",
+    "matchup-desktop.png",
+    "matchup-mobile-viewport.png",
+    "matchup-mobile.png",
+    "methods-desktop.png",
+    "methods-mobile.png",
+    "overview-desktop-viewport.png",
+    "overview-desktop.png",
+    "overview-mobile-viewport.png",
+    "overview-mobile.png",
+    "unavailable.png"
+  ]
+}

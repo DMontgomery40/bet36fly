@@ -1,61 +1,39 @@
 import { useEffect, useState } from 'react';
-import { date, number, request, useResource } from './data';
-import BrainView from './BrainView';
-import Curve from './Curve';
-import GamesView from './GamesView';
-import TrainingView, { TrainingProgress } from './TrainingView';
-import LedgerView from './LedgerView';
-import DeskView from './DeskView';
-import MethodsDialog from './MethodsDialog';
-import type { Brain, Desk, Game, Games, Inference, Ledger, Source, Sport, Status, Training } from './types';
+import { useResource } from './data';
+import { count, day, fixed, methodNames, methods, pct, route, selectedGame } from './sensoryData';
+import type { Summary, SummaryState } from './sensoryTypes';
+import Backtest from './SensoryBacktest';
+import SensoryMethods, { Pipeline } from './SensoryMethods';
 
-type Tab = 'observatory' | 'training' | 'ledger' | 'desk';
-function initialTab(): Tab { const hash = window.location.hash.slice(1); return hash === 'training' || hash === 'ledger' || hash === 'desk' ? hash : 'observatory'; }
-function Sources({ sources }: { sources: Source[] }) { return sources.length ? <details className="sources"><summary>Source status · {sources.some(source => ['stale', 'failed'].includes(source.status)) ? 'attention needed' : 'view provenance'}</summary><ul>{sources.map((source, index) => <li key={`${source.name}-${index}`}><strong>{source.name}</strong><span className={['stale', 'failed'].includes(source.status) ? 'warning-text' : ''}>{source.status}</span><span>Fetched {date(source.fetched_at)}</span>{source.error && <span>{source.error}</span>}</li>)}</ul></details> : null; }
+export function Message({ title, children, retry }: { title: string; children?: React.ReactNode; retry?: () => void }) {
+  return <section className="state" role={retry ? 'alert' : 'status'}><span className="eyebrow">Research evidence</span><h1>{title}</h1><p>{children}</p>{retry && <button onClick={retry}>Try again</button>}</section>;
+}
+function Overview({ data }: { data: Summary }) {
+  const e = data.evaluation, metric = e.metrics.neural;
+  const [lo, hi] = e.accuracy_interval;
+  const position = (p: number) => 65 + (p - .45) / .2 * 560;
+  return <>
+    <section className="result-hero">
+      <div className="hero-copy"><span className="eyebrow"><span className="status-dot"/>2023 MLB · Historical confirmation</span><h1>A small circuit.<br/>A measured result.</h1><p className="lede">A frozen fly-connectome sensory pipeline predicted MLB winners better than chance in its predefined historical backtest.</p><a className="button dark" href="#backtest">Explore every game <span aria-hidden="true">↗</span></a><p className="hero-footnote">Engineered pregame encoder. Real simulated sensory responses. Externally fitted probability readout.</p></div>
+      <div className="result-card"><div className="result-top"><span className="eyebrow">Complete pipeline accuracy</span><span className="tag">Confirmed</span></div><div className="big-result">{pct(metric.accuracy).replace('%', '')}<span>%</span></div><p>{count(data.correct)} correct / {count(metric.n)} games</p><div className="interval-caption"><strong>{pct(lo)}–{pct(hi)}</strong><span>95% weekly-block bootstrap interval</span></div><svg className="interval-chart" viewBox="0 0 690 90" role="img" aria-label={`Accuracy ${pct(metric.accuracy)}, 95% interval ${pct(lo)} to ${pct(hi)}, above 50% expected chance`}><line x1="65" y1="33" x2="625" y2="33" stroke="currentColor" opacity=".22"/>{[.45,.50,.55,.60,.65].map(p => <g key={p}><line x1={position(p)} x2={position(p)} y1="29" y2="38" stroke="currentColor" opacity=".35"/><text x={position(p)} y="65" textAnchor="middle">{Math.round(p*100)}%</text></g>)}<line x1={position(.5)} x2={position(.5)} y1="5" y2="44" stroke="#ba5b36" strokeDasharray="4 4"/><line x1={position(lo)} x2={position(hi)} y1="33" y2="33" stroke="#b9d59c" strokeWidth="10" strokeLinecap="round"/><circle cx={position(metric.accuracy)} cy="33" r="8" fill="#fbf9f1"/></svg><div className="chart-key"><span><i className="line-key"/>95% interval</span><span><i className="chance-key"/>50% expected random-guess accuracy</span></div></div>
+    </section>
+    <section className="stat-strip" aria-label="Confirmation measurements"><div><span>Probability log loss ↓</span><strong>{fixed(metric.log_loss)}</strong><small>Uniform chance: {fixed(e.metrics.uniform.log_loss)}</small></div><div><span>Brier score ↓</span><strong>{fixed(metric.brier)}</strong><small>Lower probability error is better</small></div><div><span>Confirmation period</span><strong className="period">{day(e.start).replace(', 2023', '')} – {day(e.end)}</strong><small>{count(metric.n)} eligible regular-season games</small></div></section>
+    <section className="comparison-section"><div className="section-intro"><span className="eyebrow">Keep the comparison</span><h2>Better than chance.<br/>Added neural value is unresolved.</h2><p>The encoder and same-information baseline use the same pregame information. The paired loss intervals against both include zero, so an incremental neural benefit is not established.</p></div><div className="table-wrap"><table><caption>Full confirmation · identical games for every method</caption><thead><tr><th scope="col">Pipeline / comparator</th><th scope="col">Accuracy</th><th scope="col">Log loss ↓</th></tr></thead><tbody>{methods.map(method => <tr className={method === 'neural' ? 'highlight' : ''} key={method}><th scope="row">{methodNames[method]}</th><td>{pct(e.metrics[method].accuracy)}</td><td>{fixed(e.metrics[method].log_loss)}</td></tr>)}</tbody></table><p className="fine-print">At 50% probability, the fixed tie rule selects home. Uniform and silenced accuracy therefore reflects always choosing home; random guessing has expected accuracy 50%.</p><a className="text-link" href="#methods">View paired uncertainty and full methods →</a></div></section>
+    <section className="pipeline-preview"><div className="section-heading"><div><span className="eyebrow">Inside the experiment</span><h2>From pregame form to sensory response.</h2></div><a className="text-link" href="#methods">Follow the pipeline →</a></div><Pipeline/></section>
+    <aside className="scope-note"><strong>What this result demonstrates</strong><p>Better-than-chance performance for the complete fitted historical pipeline. It does not establish neural learning, in-circuit choice, feeding behavior, prospective performance, or betting profit.</p></aside>
+  </>;
+}
 export default function App() {
-  const [tab, setTab] = useState<Tab>(initialTab);
-  const [sport, setSport] = useState<Sport>('all');
-  const [methods, setMethods] = useState(false);
-  const [busyId, setBusyId] = useState<string | null>(null);
-  const [refreshRequested, setRefreshRequested] = useState(false);
-  const [actionError, setActionError] = useState('');
-  const [inference, setInference] = useState<Inference | null>(null);
-  const status = useResource<Status>('/api/status', 3000);
-  const games = useResource<Games>('/api/games?sport=all', 12000);
-  const brain = useResource<Brain>('/api/brain');
-  const training = useResource<Training>('/api/training', 6000);
-  const ledger = useResource<Ledger>('/api/ledger', 12000);
-  const desk = useResource<Desk>('/api/desk', 12000);
-  const verificationMode = status.data?.verification_mode === true;
-  const refreshing = refreshRequested || status.data?.refresh.status === 'running';
-  const modelReady = status.data?.model_ready === true && !verificationMode;
-  useEffect(() => { const listener = () => setTab(initialTab()); window.addEventListener('hashchange', listener); return () => window.removeEventListener('hashchange', listener); }, []);
+  const [hash, setHash] = useState(() => window.location.hash);
+  const resource = useResource<SummaryState>('/api/sensory/summary');
+  const page = route(hash);
   useEffect(() => {
-    if (status.data?.refresh.status === 'complete' || status.data?.refresh.status === 'failed') { void games.reload(); void ledger.reload(); void desk.reload(); }
-  }, [status.data?.refresh.status, games.reload, ledger.reload, desk.reload]);
-  async function refresh() {
-    if (verificationMode || !status.data) return;
-    setRefreshRequested(true); setActionError('');
-    try { await request('/api/refresh', { method: 'POST' }); await status.reload(); await Promise.all([games.reload(), ledger.reload(), desk.reload()]); }
-    catch (error) { setActionError(error instanceof Error ? error.message : 'Refresh failed.'); }
-    finally { setRefreshRequested(false); }
-  }
-  async function predict(game: Game) {
-    if (verificationMode) return;
-    setBusyId(game.id); setActionError('');
-    try { const result = await request<Inference>(`/api/predict/${encodeURIComponent(game.id)}`, { method: 'POST' }); setInference(result); if (window.innerWidth <= 720) requestAnimationFrame(() => document.querySelector(window.location.hash === '#desk' ? '.desk-neural' : '.brain-section')?.scrollIntoView({ behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth', block: 'start' })); await Promise.all([games.reload(), ledger.reload(), desk.reload()]); }
-    catch (error) { setActionError(error instanceof Error ? error.message : 'Inference failed.'); }
-    finally { setBusyId(null); }
-  }
-  const report = training.data?.report;
-  const sources = games.data?.sources?.length ? games.data.sources : status.data?.sources || [];
-  return <><a className="skip-link" href="#content">Skip to content</a><header className="header"><a className="brand" href="#observatory" aria-label="BET36FLY observatory">BET<span>36</span>FLY</a><div className="brand-description">Fruit fly connectome<br/>sports experiment</div><nav aria-label="Main navigation">{([{ id: 'observatory', name: 'Observatory' }, { id: 'training', name: 'Training' }, { id: 'ledger', name: 'Pick ledger' }, { id: 'desk', name: 'Fly’s desk' }] as const).map(item => <a key={item.id} href={`#${item.id}`} aria-current={tab === item.id ? 'page' : undefined}>{item.name}</a>)}</nav><div className="header-actions"><span className="paper"><i/>Paper mode</span><button className="refresh" disabled={refreshing || verificationMode || !status.data} onClick={() => void refresh()}><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6v5h-5M20 11a8 8 0 1 0-1 6M20 6l-2 2"/></svg>{refreshing ? 'Refreshing…' : 'Refresh games'}</button></div><time className="updated" dateTime={status.data?.updated_at}>{status.data?.updated_at ? date(status.data.updated_at) : 'Connecting…'}</time></header>
-    <main id="content">
-      {verificationMode && <p className="notice verification-notice" role="status"><strong>Read-only verification</strong> · Viewing stored evidence only. Source refresh and neural inference are disabled.</p>}
-      {status.error && <div className="error" role="alert">{status.data ? 'Connection interrupted. Displayed data may be stale. ' : 'Cannot connect to the experiment. '}{status.error}<button className="small" onClick={() => { void status.reload(); void games.reload(); void training.reload(); void ledger.reload(); void desk.reload(); }}>Reconnect</button></div>}
-      {actionError && <div className="error" role="alert">{actionError}<button className="small" onClick={() => setActionError('')}>Dismiss</button></div>}
-      {(refreshing || status.data?.refresh.status === 'failed') && <p className={refreshing ? 'notice' : 'error'} role="status">{status.data?.refresh.message || (refreshing ? 'Refreshing public schedules and computing paper picks…' : 'Game refresh failed. Please retry.')}</p>}
-      {tab === 'observatory' ? <div className="observatory"><div className="science"><div className="hero"><h1>A small brain. A new game.</h1><p>Real fly wiring. Real games. Paper picks.</p></div><BrainView brain={brain.data} error={brain.error} inference={inference} busy={!!busyId} retry={() => void brain.reload()}/><dl className="stats"><div><dt>Neurons</dt><dd>{number(status.data?.brain?.neurons)}</dd></div><div><dt>Connections</dt><dd>{number(status.data?.brain?.edges)}</dd></div><div><dt>Training games</dt><dd>{number(report?.splits?.train?.n ?? training.data?.progress?.splits?.train?.n ?? status.data?.training?.splits?.train?.n)}</dd></div><div><dt>Runtime</dt><dd>{status.data?.runtime || '—'}</dd></div></dl><Curve curve={report?.curve || training.data?.progress.curve || []}/>{!report && <TrainingProgress progress={training.data?.progress || status.data?.training}/>}</div><GamesView data={games.data} error={games.error} loading={games.loading} sport={sport} onSport={setSport} onPredict={game => void predict(game)} busyId={busyId} modelReady={modelReady} selectedId={inference?.game.id}/></div> : tab === 'training' ? <TrainingView data={training.data} error={training.error} loading={training.loading}/> : tab === 'desk' ? <DeskView data={desk.data} error={desk.error} loading={desk.loading} games={games.data?.games || []} inference={inference} busyId={busyId} modelReady={modelReady} onPredict={predict}/> : <LedgerView data={ledger.data} error={ledger.error} loading={ledger.loading}/>}
-      <Sources sources={sources}/>
-    </main><footer><span>{brain.data?.dataset || 'MaleCNS'} · Experimental model · No real money</span><button className="text-button" onClick={() => setMethods(true)}>Methods & sources</button></footer>{methods && <MethodsDialog onClose={() => setMethods(false)}/>}</>;
+    const update = () => { const current = window.location.hash; setHash(current); if (!current || !['#overview', '#backtest', '#methods'].includes(current) && !current.startsWith('#backtest/')) { window.history.replaceState(null, '', '/#overview'); setHash('#overview'); } };
+    update(); window.addEventListener('hashchange', update); return () => window.removeEventListener('hashchange', update);
+  }, []);
+  useEffect(() => { window.scrollTo(0, 0); }, [page]);
+  const data = resource.data?.status === 'available' && !resource.error ? resource.data : null;
+  return <><a className="skip-link" href="#main" onClick={event => { event.preventDefault(); document.getElementById('main')?.focus(); }}>Skip to content</a><header className="app-header"><a className="brand" href="#overview" aria-label="BET36FLY overview">BET<span>36</span>FLY<span className="brand-mark" aria-hidden="true">✳</span></a><nav aria-label="Main navigation">{(['overview', 'backtest', 'methods'] as const).map(p => <a href={`#${p}`} key={p} aria-current={page === p ? 'page' : undefined}>{p === 'overview' ? 'Overview' : p === 'backtest' ? 'Backtest explorer' : 'Pipeline & methods'}</a>)}</nav><span className="header-label">MaleCNS / Research</span></header><main id="main" tabIndex={-1}>
+    {resource.error ? <Message title="Confirmation unavailable" retry={() => void resource.reload()}>{resource.error} Previously loaded results are hidden until validation succeeds.</Message> : !resource.data ? <Message title="Loading frozen confirmation…">Checking the saved result and its evidence.</Message> : !data ? <Message title="Confirmation unavailable" retry={() => void resource.reload()}>{resource.data.status !== 'available' && resource.data.message}</Message> : page === 'overview' ? <Overview data={data}/> : page === 'backtest' ? <Backtest data={data} gameId={selectedGame(hash)}/> : <SensoryMethods data={data}/>}
+    </main><footer className="app-footer"><span>BET36FLY <span aria-hidden="true">/</span> Source-informed sensory research</span><span>Frozen historical evidence · Plasticity off</span></footer></>;
 }

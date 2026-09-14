@@ -1,3 +1,5 @@
+QA_PORT ?= 8765
+
 .PHONY: setup brain fetch train serve serve-verify verify
 
 setup:
@@ -17,7 +19,7 @@ serve:
 	.venv/bin/python -m uvicorn bet36fly.server:app --host 127.0.0.1 --port 8765
 
 serve-verify:
-	PYTHONDONTWRITEBYTECODE=1 .venv/bin/python -m uvicorn bet36fly.server:create_verification_app --factory --host 127.0.0.1 --port 8765
+	PYTHONDONTWRITEBYTECODE=1 .venv/bin/python -m uvicorn bet36fly.server:create_verification_app --factory --host 127.0.0.1 --port $(QA_PORT)
 
 verify:
 	.venv/bin/python -m pytest -q

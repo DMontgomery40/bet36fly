@@ -1,12 +1,18 @@
 # BET36FLY model card
 
+**Current application — September 13:** the product now presents the frozen sensory confirmation, all MLB confirmation games, matchup-specific probe evidence, methods and downloads. Historical training, model selectors, prediction controls and brain replay are removed from the mounted UI. The default server no longer starts source-following. The v1 pointer, legacy code and frozen scientific artifacts remain preserved; they are not sensory predictions. [Current application contract](api-contract.md).
+
 ## Natural sensory calibration checkpoint — September 13
 
 The frozen sensory pipeline passed its predefined 2023 MLB confirmation: **56.21% accuracy on 2,423 games**, with a 95% paired-week bootstrap interval of **54.42–58.02%**. Log loss was **0.680493**, better than uniform chance and the training prior with the declared bounds. Incremental benefit over the encoder alone remains unproven. The qualified sensory stage is a conditional Clavicle/Quasimodo response with an external comparison of independent probes; feeding, innate choice and neural learning remain unqualified. [Full result and every prediction](evidence/sensory-backtest-goal-2026-09-13/RESULT.md). V1 remains active and v2 paused; no push, deployment or model promotion.
 
 BET36FLY uses the actual MaleCNS v1.0 neuronal connectome from HHMI Janelia, Google Research and collaborators. Its sports behavior is an experimental engineering application, not a behavior reported or validated by those researchers. It contains no language model deciding the picks and no randomly generated substitute brain.
 
-## Current model and experiment status
+## Historical model and experiment details
+
+The following v1/v2/reward descriptions are retained scientific history. UI controls, polling and startup descriptions in these historical sections no longer describe the current sensory application.
+
+## Stored model and experiment status
 
 **Research priority changed September 13:** the [natural sensory direction](PROJECT_DIRECTION.md) now precedes further learning-model repair. Source-informed food-related inputs and a finite native assay are implemented, with second-order response qualification and an external two-opportunity comparison; full feeding remains unqualified. The active v1 checkpoint and the separate legacy reward results below remain unchanged by this documentation update. [Sensory measurements and transfer limits](../wiki/natural-sensory-inputs.md).
 

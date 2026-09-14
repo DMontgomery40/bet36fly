@@ -5,6 +5,10 @@ status: active
 ---
 # Wiki change log
 
+## September 13 — sensory research application
+
+Replaced the mounted legacy product with the frozen sensory confirmation overview, all-game explorer, matchup-specific quality/contact/output evidence and methods/downloads. Added hash-validated read-only delivery, retired obsolete polling and startup source-following, and preserved the active-model pointer and frozen scientific artifacts. The displayed claim remains the complete fitted historical pipeline; incremental neural value, feeding and learning remain unqualified. [Application verification](../docs/evidence/sensory-application-2026-09-13/verification.md).
+
 ## 2026-09-13 — bounded sensory calibration
 
 Exported 475 exact anatomical candidate rows and 523 directed projection pairs; checked source hashes and retained graph accounting. Recomputed ten original measurement groups and identified the new Tastekin molecular map as the next bounded extraction. Added a zero-call unresolved assay decision and independent-quality sports contract. No simulator interface, model pointer or legacy result changed. [Evidence and verification](../docs/evidence/natural-sensory-calibration-2026-09-13/index.md).
