@@ -38,7 +38,11 @@
       "pass": true
     },
     {
-      "name": "all four stage badge verdict states read Yes, Yes, Not established, No",
+      "name": "confirmation section renders exactly as many cards as the API returns, with season/attempt/status, metrics, paired header and chips",
+      "pass": true
+    },
+    {
+      "name": "all four stage badge verdict states read Yes, Yes, No (confirmed on the reserved block), No",
       "pass": true
     },
     {
@@ -121,10 +125,36 @@
       "Plasticity contributes: no"
     ],
     "apiEvaluationsAllPlasticityContributesFalse": true,
+    "apiConfirmationCount": 1,
+    "confirmationCardCount": 1,
+    "confirmationMeta": [
+      "Season 2018",
+      "Attempt 1",
+      "Recorded status failed_confirmation",
+      "Manifest valid",
+      "Games scored 2,429",
+      "Date range 2018-03-29T16:40:00Z to 2018-10-01T20:09:00Z"
+    ],
+    "confirmationOutcomeText": "Confirmation failed: plasticity does not contribute · recorded status failed_confirmation",
+    "confirmationMetricsRowHeaders": [
+      "Recovery plastic (candidate)",
+      "Frozen twin",
+      "Reinforcement-shuffled twin",
+      "No-recovery plastic baseline",
+      "Encoder only",
+      "Same-information baseline",
+      "Training prior",
+      "Uniform chance"
+    ],
+    "confirmationPairedHeader": "PLASTIC MINUS COMPARATOR (95% PAIRED INTERVAL)",
+    "confirmationChipTexts": [
+      "Better than chance: yes",
+      "Plasticity contributes: no"
+    ],
     "badgeStates": [
       "YES",
       "YES",
-      "NOT ESTABLISHED",
+      "NO (CONFIRMED ON THE RESERVED BLOCK)",
       "NO"
     ],
     "mobileOverflow": {
@@ -159,7 +189,7 @@
     ]
   },
   "requests_summary": {
-    "total": 9,
+    "total": 10,
     "non_get": 2
   },
   "browser": "Playwright Chromium (bundled)",

@@ -107,3 +107,33 @@ def test_inference_against_an_immutable_checkpoint_never_changes_it():
     assert checkpoint.read_bytes() == before
     with np.load(checkpoint) as data:
         assert data['gains'].dtype == np.float32
+
+
+def test_evidence_lists_reserved_block_confirmations_without_inventing_verdicts(tmp_path):
+    run = tmp_path / 'output/associative/associative-confirmation-abc'
+    run.mkdir(parents=True)
+    (run / 'manifest.json').write_text(json.dumps(dict(
+        identity='associative-confirmation-abc', status='failed_confirmation', season=2018, attempt=1,
+        source_url='https://example/2018', source_sha256='ab' * 32, frozen_candidate_sha256='cd' * 32,
+        arms=dict(plastic=dict(calls=1, reinforcements=1, final_gains_sha256='x', days=1, bound_contacts=0.0)),
+        evaluation=dict(metrics=dict(plastic=dict(n=10, accuracy=.6, log_loss=.67, brier=.24)),
+                        paired_loss=dict(frozen=dict(mean=.001, interval=[.0001, .002])),
+                        shuffled_minus_frozen=dict(mean=.0, interval=[-.1, .1]), baseline_minus_frozen=None,
+                        accuracy_interval=[.55, .65], plasticity_contributes=False, goal_passed=True,
+                        start='2018-03-29T00:00:00Z', end='2018-10-01T00:00:00Z', exclusions=dict(unplayed=1)))))
+    (run / 'predictions.csv').write_text('game_id\n')
+    evidence = build_evidence(tmp_path)
+    [entry] = evidence['confirmations']
+    assert entry['status'] == 'failed_confirmation' and entry['plasticity_contributes'] is False
+    assert entry['better_than_chance'] is True and entry['games'] == 10 and entry['attempt'] == 1
+    assert entry['predictions_csv'] == 'output/associative/associative-confirmation-abc/predictions.csv'
+    # A runtime failure or an unfinished attempt carries no verdict fields, never a fabricated one.
+    (run / 'manifest.json').write_text(json.dumps(dict(identity='associative-confirmation-abc', status='failed_runtime',
+                                                       error='network', season=2018, attempt=1)))
+    [entry] = build_evidence(tmp_path)['confirmations']
+    assert entry['plasticity_contributes'] is None and entry['better_than_chance'] is None and entry['error'] == 'network'
+    # The real installation reports the single 2018 attempt as recorded.
+    real = build_evidence(ROOT)['confirmations']
+    if real:
+        assert all(c['season'] == 2018 and c['attempt'] == 1 for c in real)
+        assert all(c['plasticity_contributes'] in (True, False) for c in real if c['status'] != 'failed_runtime')

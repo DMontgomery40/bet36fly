@@ -4,7 +4,7 @@ import { renderToStaticMarkup } from 'react-dom/server';
 import {
   DEFAULT_JOB_FORM, conditioningVerdict, jobsActive, num, rate, signed, spikeMap, stageBadges, triple,
 } from './learningTypes';
-import type { AssociativeEvidence, ConditioningRun, JobsPayload, StressRun } from './learningTypes';
+import type { AssociativeEvidence, ConditioningRun, Confirmation, JobsPayload, StressRun } from './learningTypes';
 
 /** `useResource` is the only thing mocked; `request` stays real so the 405 path is exercised. */
 const hosts = vi.hoisted(() => ({
@@ -27,7 +27,9 @@ vi.mock('./data', async importActual => {
   };
 });
 import App from './App';
-import LearningView, { ConditioningCard, JobsSection, LearningBadges, SportsSection, StressSection, startJob } from './LearningView';
+import LearningView, {
+  ConditioningCard, ConfirmationSection, JobsSection, LearningBadges, SportsSection, StressSection, startJob,
+} from './LearningView';
 vi.stubGlobal('window', { location: { hash: '#learning' } });
 
 const READ_ONLY = 'Verification mode is read-only; training and inference are disabled.';
@@ -281,6 +283,154 @@ describe('season backtests', () => {
     const html = renderToStaticMarkup(<SportsSection sports={[]} evaluations={[]}/>);
     expect(html).toContain('No season arm is recorded.');
     expect(html).toContain('No evaluation is recorded.');
+  });
+});
+
+/** Shaped after the recorded manifest of `associative-confirmation-662fc9e1bd5d450aba64`
+ *  as `build_evidence` flattens it (bet36fly/associative_api.py). */
+function failedConfirmation(): Confirmation {
+  return {
+    identity: 'associative-confirmation-662fc9e1bd5d450aba64', valid: true, status: 'failed_confirmation', error: null,
+    season: 2018, attempt: 1,
+    source_url: 'https://statsapi.mlb.com/api/v1/schedule?sportId=1&gameType=R&season=2018',
+    source_sha256: '1e4f07f54161e93bcfe4823d923fc868ba1cf0d42ecd39ff4d5db7382759aa9c',
+    source_fetched_at: '2026-09-14T04:02:12.384720+00:00',
+    frozen_candidate_sha256: '34b8177d4539d31d616b38bf658136833696b88c3a37328a8ad7b8eab7a27355',
+    arms: {
+      plastic: { calls: 6500, reinforcements: 2388, final_gains_sha256: 'ef76e890ed193bfcfdff2681013e1d63e2a37e6802d550138c1d62557a943706', days: 184, bound_contacts: 66441227 },
+      frozen: { calls: 30, reinforcements: 0, final_gains_sha256: 'eee1b3c392f1b2f83b4e2590a20909c98c25cd3e631aa92fb39ee4c8e4b14220', days: 184, bound_contacts: 0 },
+      shuffled: { calls: 6500, reinforcements: 2388, final_gains_sha256: '1bc040eadab0af3d17b4b28d86b70539d30f8f601b8bb7cb5bbfa2b7f5147295', days: 184, bound_contacts: 67270538 },
+      'plastic:baseline': { calls: 6500, reinforcements: 2388, final_gains_sha256: '5ad795e9798762522776214e01c2f4e79594981d2fd5e7c39c40f78d84d68633', days: 184, bound_contacts: 1245752162 },
+    },
+    metrics: {
+      plastic: { n: 2429, accuracy: 0.569781803211198, log_loss: 0.6787178050172268, brier: 0.24288557143818984 },
+      frozen: { n: 2429, accuracy: 0.5656648826677645, log_loss: 0.6780136505060231, brier: 0.24253798903678214 },
+      shuffled: { n: 2429, accuracy: 0.5677233429394812, log_loss: 0.6789655857900919, brier: 0.24300300478012007 },
+      'plastic:baseline': { n: 2429, accuracy: 0.5660765747221078, log_loss: 0.6790973500136949, brier: 0.24306709174148652 },
+      encoder_only: { n: 2429, accuracy: 0.5718402634829148, log_loss: 0.674228263028722, brier: 0.24068782540517217 },
+      same_information: { n: 2429, accuracy: 0.5660765747221078, log_loss: 0.6772615984331644, brier: 0.2420771082325974 },
+      uniform: { n: 2429, accuracy: 0.5273775216138329, log_loss: 0.6931471805599453, brier: 0.25 },
+      prior: { n: 2429, accuracy: 0.5273775216138329, log_loss: 0.6918237402277722, brier: 0.24933825427787656 },
+    },
+    paired_loss: {
+      frozen: { mean: 0.0007041545112035464, interval: [0.00009600918556315937, 0.0013675598717078066] },
+      shuffled: { mean: -0.00024778077286509274, interval: [-0.0006220462632195097, 0.00012489844353757415] },
+      'plastic:baseline': { mean: -0.00037954499646824326, interval: [-0.0009388514038233849, 0.0001823003997757659] },
+      encoder_only: { mean: 0.004489541988504746, interval: [0.0012882699159609873, 0.0076070179292005305] },
+      same_information: { mean: 0.001456206584062452, interval: [-0.004359253887418961, 0.007247358947173071] },
+      uniform: { mean: -0.014429375542718545, interval: [-0.021274777372880787, -0.007575110558261579] },
+      prior: { mean: -0.01310593521054526, interval: [-0.019324755272866943, -0.006825843941554446] },
+    },
+    shuffled_minus_frozen: { mean: 0.0009519352840686392, interval: [0.00008399681791342389, 0.0018476554808009003] },
+    baseline_minus_frozen: { mean: 0.0010836995076717896, interval: [0.00013100155979542188, 0.002058888142426279] },
+    accuracy_interval: [0.5470154459838488, 0.5910356554326375], plasticity_contributes: false, better_than_chance: true,
+    games: 2429, start: '2018-03-29T16:40:00Z', end: '2018-10-01T20:09:00Z',
+    exclusions: { unplayed: 54, resumed_or_suspended: 4 },
+    predictions_csv: 'output/associative/associative-confirmation-662fc9e1bd5d450aba64/predictions.csv',
+  };
+}
+const METHOD_LABELS = [
+  'Recovery plastic (candidate)', 'Frozen twin', 'Reinforcement-shuffled twin', 'No-recovery plastic baseline',
+  'Encoder only', 'Same-information baseline', 'Training prior', 'Uniform chance',
+];
+
+describe('reserved-block confirmation', () => {
+  it('renders the recorded failure, every labelled method and both verdicts separately', () => {
+    const html = renderToStaticMarkup(<ConfirmationSection rows={[failedConfirmation()]}/>);
+    expect(html).toContain('Reserved-block confirmation (2018, one attempt)');
+    // The human reading and the raw status both appear; the label never replaces the recorded string.
+    expect(html).toContain('Confirmation failed: plasticity does not contribute');
+    expect(html).toContain('failed_confirmation');
+    expect(html).toContain('associative-confirmation-662fc9e1bd5d450aba64');
+    expect(html).toContain('2,429');
+    expect(html).toContain('2018-03-29T16:40:00Z');
+    expect(html).toContain('2018-10-01T20:09:00Z');
+    expect(html).toContain('https://statsapi.mlb.com/api/v1/schedule?sportId=1&amp;gameType=R&amp;season=2018');
+    expect(html).toContain('2026-09-14T04:02:12.384720+00:00');
+    expect(html).toContain('1e4f07f54161');
+    expect(html).toContain('34b8177d4539');
+    // Every method carries its plain-language label, in the declared order.
+    for (const label of METHOD_LABELS) expect(html).toContain(label);
+    const positions = METHOD_LABELS.map(label => html.indexOf(label));
+    expect(positions).toEqual([...positions].sort((a, b) => a - b));
+    expect(html).toContain('56.98%');
+    expect(html).toContain('0.6787');
+    expect(html).toContain('0.2429');
+    // A season is a year, never a formatted count.
+    expect(html).toContain('<b>Season</b> 2018');
+    expect(html).not.toContain('2,018');
+    // Paired table: header, sign caption and the six-place values that keep a 1e-4 bound visible.
+    expect(html).toContain('Plastic minus comparator (95% paired interval)');
+    expect(html).toContain('A negative value favours the plastic arm');
+    expect(html).toContain('an interval entirely above zero means the plastic arm is reliably worse');
+    expect(html).toContain('+0.000704 (0.000096 to 0.001368)');
+    expect(html).toContain('-0.014429');
+    expect(html).toContain('Reinforcement-shuffled twin minus frozen twin: +0.000952');
+    expect(html).toContain('No-recovery plastic baseline minus frozen twin: +0.001084');
+    expect(html).toContain('54.70% – 59.10%');
+    expect(html).toContain('unplayed 54');
+    expect(html).toContain('predictions.csv');
+    // Arms are recorded per arm, never merged into a single training claim.
+    expect(html).toContain('66,441,227');
+    expect(html).toContain('2,388');
+    // The two questions stay two chips.
+    expect(html).toContain('Better than chance: yes');
+    expect(html).toContain('Plasticity contributes: no');
+  });
+  it('reports the refuted contribution in the stage badge without collapsing the four claims', () => {
+    const badges = stageBadges(evidence({ confirmations: [failedConfirmation()] }));
+    expect(badges.map(badge => badge.key)).toEqual(['implemented', 'conditioning', 'prediction', 'application']);
+    expect(badges[2].state).toBe('No (confirmed on the reserved block)');
+    expect(badges[2].verdict).toBe('no');
+    const html = renderToStaticMarkup(<LearningBadges evidence={evidence({ confirmations: [failedConfirmation()] })}/>);
+    expect(html).toContain('No (confirmed on the reserved block)');
+    expect(html).toContain('associative-confirmation-662fc9e1bd5d450aba64 (season 2018)');
+    expect(html.match(/learning-verdict learning-/g)).toHaveLength(4);
+  });
+  it('confirms a contributing reserved block just as explicitly', () => {
+    const badges = stageBadges(evidence({ confirmations: [{ ...failedConfirmation(), status: 'passed_confirmation', plasticity_contributes: true }] }));
+    expect(badges[2].state).toBe('Yes (confirmed on the reserved block)');
+    expect(badges[2].verdict).toBe('yes');
+    const html = renderToStaticMarkup(<ConfirmationSection rows={[{ ...failedConfirmation(), status: 'passed_confirmation', plasticity_contributes: true }]}/>);
+    expect(html).toContain('Confirmation passed: plasticity contributes');
+    expect(html).toContain('passed_confirmation');
+    expect(html).toContain('Plasticity contributes: yes');
+  });
+  it('shows an explicit empty state and leaves the badge unestablished when nothing is recorded', () => {
+    const html = renderToStaticMarkup(<ConfirmationSection rows={[]}/>);
+    expect(html).toContain('No reserved-block confirmation recorded.');
+    expect(html).not.toContain('<table');
+    expect(stageBadges(evidence()).map(badge => badge.state)).toEqual(['Yes', 'Yes', 'Not established', 'No']);
+    expect(stageBadges(evidence({ confirmations: [] }))[2].state).toBe('Not established');
+    expect(stageBadges(evidence({ confirmations: null }))[2].state).toBe('Not established');
+    expect(stageBadges(evidence())[2].detail).toContain('No reserved-block confirmation is recorded.');
+    expect(stageBadges(evidence({ confirmations: [] }))[2].detail).toContain('No reserved-block confirmation is recorded.');
+  });
+  it('prints a runtime failure verbatim and records no verdict it does not have', () => {
+    const row: Confirmation = {
+      identity: 'associative-confirmation-0000000000000000', valid: true, status: 'failed_runtime', error: 'boom',
+      season: 2018, attempt: 1, source_url: null, source_sha256: null, source_fetched_at: null,
+      frozen_candidate_sha256: null, arms: null, metrics: null, paired_loss: null, shuffled_minus_frozen: null,
+      baseline_minus_frozen: null, accuracy_interval: null, plasticity_contributes: null, better_than_chance: null,
+      games: null, start: null, end: null, exclusions: null, predictions_csv: null,
+    };
+    const html = renderToStaticMarkup(<ConfirmationSection rows={[row]}/>);
+    expect(html).toContain('boom');
+    expect(html).toContain('failed_runtime');
+    expect(html).toContain('Better than chance: not recorded');
+    expect(html).toContain('Plasticity contributes: not recorded');
+    expect(html).toContain('No reserved-block metrics were recorded');
+    expect(html).toContain('No paired loss intervals were recorded for this confirmation.');
+    expect(html).toContain('No arm records are stored with this confirmation.');
+    // A run that never scored a game gets no human confirmation reading at all.
+    expect(html).not.toContain('Confirmation failed: plasticity does not contribute');
+    expect(html).not.toContain('Confirmation passed: plasticity contributes');
+    // An unrecorded status is unavailable, never a zero.
+    const badge = stageBadges(evidence({ confirmations: [row] }))[2];
+    expect(badge.state).toBe('Not established');
+    // The badge must not claim an absence: this confirmation exists, it just has no verdict.
+    expect(badge.detail).toContain('A reserved-block confirmation is recorded (1) but records no contribution verdict.');
+    expect(badge.detail).not.toContain('No reserved-block confirmation is recorded.');
   });
 });
 

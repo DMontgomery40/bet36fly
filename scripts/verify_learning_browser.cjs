@@ -9,7 +9,8 @@
  * the report or the screenshots. The process still exits non-zero if any
  * check failed, if a page error was thrown, or if the console logged an
  * unexpected error/warning. */
-const { chromium } = require('playwright');
+const { loadPlaywright } = require('./playwright.cjs');
+const { chromium } = loadPlaywright();
 const fs = require('fs'), path = require('path'), assert = require('assert/strict');
 const { verifyReadOnlyServer } = require('./verification_server_guard.cjs');
 const base = process.env.BET36FLY_BASE_URL || 'http://127.0.0.1:8765';
@@ -215,7 +216,51 @@ const output = path.resolve(process.argv[2] || '/tmp/bet36fly-learning-browser')
       assert.ok(allFalseInApi, 'expected /api/associative/evidence evaluations[].plasticity_contributes to be false for every entry');
     });
 
-    await check('all four stage badge verdict states read Yes, Yes, Not established, No', async () => {
+    await check('confirmation section renders exactly as many cards as the API returns, with season/attempt/status, metrics, paired header and chips', async () => {
+      const evidencePayload = await page.request.get(base + '/api/associative/evidence').then(r => r.json());
+      const apiConfirmations = evidencePayload.confirmations || [];
+      observed.apiConfirmationCount = apiConfirmations.length;
+      assert.equal(apiConfirmations.length, 1, `expected exactly one recorded confirmation from the API, saw ${apiConfirmations.length}`);
+      const confirmation = section('Reserved-block confirmation (2018, one attempt)');
+      await visible(confirmation);
+      const cards = confirmation.locator('article.learning-card');
+      const cardCount = await cards.count();
+      observed.confirmationCardCount = cardCount;
+      assert.equal(cardCount, apiConfirmations.length,
+        `expected the rendered confirmation card count to match /api/associative/evidence (${apiConfirmations.length}), saw ${cardCount}`);
+      const card = cards.first();
+      const metaTexts = await card.locator('.learning-meta li').allInnerTexts();
+      observed.confirmationMeta = metaTexts;
+      assert.ok(metaTexts.some(t => /Season\s*2018/.test(t)), `expected a Season 2018 meta row, saw ${JSON.stringify(metaTexts)}`);
+      assert.ok(metaTexts.some(t => /Attempt\s*1\b/.test(t)), `expected an Attempt 1 meta row, saw ${JSON.stringify(metaTexts)}`);
+      assert.ok(metaTexts.some(t => /Recorded status\s*failed_confirmation/.test(t)),
+        `expected the raw status string failed_confirmation in a meta row, saw ${JSON.stringify(metaTexts)}`);
+      const outcomeText = await card.locator('.learning-verdict-line').first().innerText();
+      observed.confirmationOutcomeText = outcomeText;
+      assert.match(outcomeText, /Confirmation failed: plasticity does not contribute/);
+      assert.match(outcomeText, /failed_confirmation/);
+      const metricsTable = card.locator('table').filter({ hasText: 'Reserved-block metrics' });
+      const metricRowHeaders = await metricsTable.locator('tbody th').allInnerTexts();
+      observed.confirmationMetricsRowHeaders = metricRowHeaders;
+      for (const expected of ['Recovery plastic (candidate)', 'Frozen twin', 'Encoder only']) {
+        assert.ok(metricRowHeaders.includes(expected),
+          `expected a "${expected}" row in the reserved-block metrics table, saw ${JSON.stringify(metricRowHeaders)}`);
+      }
+      const pairedTable = card.locator('table').filter({ hasText: 'Paired log-loss differences' });
+      const pairedHeader = await pairedTable.locator('thead th').nth(1).innerText();
+      observed.confirmationPairedHeader = pairedHeader;
+      // Table headers are CSS text-transform:uppercase (like the verdict pills elsewhere on this
+      // page); compare case-insensitively against the JSX source casing.
+      assert.match(pairedHeader, /Plastic minus comparator/i);
+      const chipTexts = await card.locator('.learning-chips .learning-chip').allInnerTexts();
+      observed.confirmationChipTexts = chipTexts;
+      assert.ok(chipTexts.some(t => /Better than chance:\s*yes/i.test(t)),
+        `expected a "Better than chance: yes" chip, saw ${JSON.stringify(chipTexts)}`);
+      assert.ok(chipTexts.some(t => /Plasticity contributes:\s*no/i.test(t)),
+        `expected a "Plasticity contributes: no" chip, saw ${JSON.stringify(chipTexts)}`);
+    });
+
+    await check('all four stage badge verdict states read Yes, Yes, No (confirmed on the reserved block), No', async () => {
       const badges = page.locator('.learning-badge');
       await visible(badges.first());
       const states = await badges.locator('.learning-verdict').allInnerTexts();
@@ -223,7 +268,12 @@ const output = path.resolve(process.argv[2] || '/tmp/bet36fly-learning-browser')
       // the rendered (uppercased) text here, not the JSX source casing — compare case-insensitively,
       // matching the convention the application-badge check above already uses for this same element.
       observed.badgeStates = states.map(s => s.trim());
-      assert.deepEqual(observed.badgeStates.map(s => s.toUpperCase()), ['YES', 'YES', 'NOT ESTABLISHED', 'NO']);
+      const upperStates = observed.badgeStates.map(s => s.toUpperCase());
+      assert.equal(upperStates[0], 'YES', `expected badge 1 (mechanism implemented) to read Yes, saw ${JSON.stringify(observed.badgeStates)}`);
+      assert.equal(upperStates[1], 'YES', `expected badge 2 (conditioning qualified) to read Yes, saw ${JSON.stringify(observed.badgeStates)}`);
+      assert.match(upperStates[2], /^NO \(CONFIRMED ON THE RESERVED BLOCK\)$/,
+        `expected badge 3 (held-out prediction) to read "No (confirmed on the reserved block)", saw ${JSON.stringify(observed.badgeStates)}`);
+      assert.equal(upperStates[3], 'NO', `expected badge 4 (application uses a learned checkpoint) to read No, saw ${JSON.stringify(observed.badgeStates)}`);
     });
 
     await check('navigating to overview and back to learning both work', async () => {

@@ -1,13 +1,16 @@
 import { useEffect, useState } from 'react';
 import { request, useResource } from './data';
 import {
-  ARM_CAPTIONS, COMPARTMENTS, DEFAULT_JOB_FORM, DEFAULT_PROBE_FORM, JOB_ARMS, armLabel, conditioningVerdict, contrastList,
-  decimalOrMissing, auditEntries, errorText, interval, jobsActive, newestFirst, num, occupancyPoints, percentInterval,
-  percentOrMissing, rate, readable, rhoText, seconds, shortHash, signed, spikeMap, stageBadges, triple, words,
+  ARM_CAPTIONS, BASELINE_MINUS_FROZEN_LABEL, COMPARTMENTS, CONFIRMATION_EMPTY, CONFIRMATION_PAIRED_HEADER,
+  DEFAULT_JOB_FORM, DEFAULT_PROBE_FORM, JOB_ARMS, SHUFFLED_MINUS_FROZEN_LABEL, armLabel, conditioningVerdict,
+  confirmationOutcome, confirmationState, contrastList,
+  decimalOrMissing, auditEntries, errorText, interval, jobsActive, methodLabel, newestFirst, num, occupancyPoints,
+  orderedMethods, percentInterval,
+  percentOrMissing, rate, readable, rhoText, seconds, shortHash, signed, spikeMap, stageBadges, triple, words, year,
 } from './learningTypes';
 import type {
-  AssociativeEvidence, Badge, Checkpoint, CheckpointsPayload, ConditioningRun, Job, JobsPayload, LinksRun,
-  Prediction, ProbeForm, SportsEvaluation, SportsRun, StartJobForm, StressRun, Verdict,
+  AssociativeEvidence, Badge, Checkpoint, CheckpointsPayload, ConditioningRun, Confirmation, Job, JobsPayload, LinksRun,
+  PairedLoss, Prediction, ProbeForm, SportsEvaluation, SportsRun, StartJobForm, StressRun, Verdict,
 } from './learningTypes';
 import './learning.css';
 
@@ -321,13 +324,92 @@ export function SportsSection({ sports, evaluations }: { sports: SportsRun[]; ev
   </section>;
 }
 
+/** Paired differences are order 1e-4 here, so six places are kept; rounding them to four
+ *  would print a real non-zero bound as 0.0000 and contradict the caption beside it. */
+const PAIRED_PLACES = 6;
+function pairedLine(label: string, value: PairedLoss | null | undefined) {
+  return `${label}: ${signed(value?.mean, PAIRED_PLACES)} (95% paired interval ${interval(value?.interval, PAIRED_PLACES)})`;
+}
+
+export function ConfirmationCard({ row }: { row: Confirmation }) {
+  const state = confirmationState(row);
+  const metrics = orderedMethods(row.metrics);
+  const paired = orderedMethods(row.paired_loss);
+  const arms = Object.entries(row.arms || {});
+  const exclusions = Object.entries(row.exclusions || {});
+  return <article className="learning-card">
+    <div className="learning-card-head"><h3>{row.identity}</h3>
+      <span className={`learning-verdict learning-${state.verdict}`}>{state.label}</span></div>
+    <ul className="learning-meta">
+      <li><b>Season</b> {year(row.season)}</li>
+      <li><b>Attempt</b> {num(row.attempt)}</li>
+      <li><b>Recorded status</b> {words(row.status, 'not recorded')}</li>
+      <li><b>Manifest</b> {row.valid ? 'valid' : 'invalid'}</li>
+      <li><b>Games scored</b> {num(row.games)}</li>
+      <li><b>Date range</b> {words(row.start, 'not recorded')} to {words(row.end, 'not recorded')}</li>
+    </ul>
+    <p className="learning-verdict-line">{confirmationOutcome(row)}</p>
+    {row.error ? <ErrorBlock message={row.error}/> : null}
+    <dl className="learning-keyvalue">
+      <div><dt>Schedule source</dt><dd>{words(row.source_url, 'not recorded')}</dd></div>
+      <div><dt>Source fetched at</dt><dd>{words(row.source_fetched_at, 'not recorded')}</dd></div>
+      <div><dt>Source SHA-256</dt><dd>{shortHash(row.source_sha256)}</dd></div>
+      <div><dt>Frozen candidate SHA-256</dt><dd>{shortHash(row.frozen_candidate_sha256)}</dd></div>
+    </dl>
+    {arms.length ? <div className="table-wrap"><table>
+      <caption>Arms walked forward over the reserved block before any game was scored</caption>
+      <thead><tr><th scope="col">Arm</th><th scope="col">Calls</th><th scope="col">Reinforcements</th><th scope="col">Days</th><th scope="col">Bound contacts</th><th scope="col">Final gains</th></tr></thead>
+      <tbody>{arms.map(([name, arm]) => <tr key={name}>
+        <th scope="row">{methodLabel(name)}</th><td>{num(arm.calls)}</td><td>{num(arm.reinforcements)}</td>
+        <td>{num(arm.days)}</td><td>{num(arm.bound_contacts)}</td><td>{shortHash(arm.final_gains_sha256)}</td>
+      </tr>)}</tbody></table></div> : <Empty>No arm records are stored with this confirmation.</Empty>}
+    {metrics.length ? <div className="table-wrap"><table>
+      <caption>Reserved-block metrics, identical games for every method</caption>
+      <thead><tr><th scope="col">Method</th><th scope="col">Games</th><th scope="col">Accuracy</th><th scope="col">Log loss ↓</th><th scope="col">Brier ↓</th></tr></thead>
+      <tbody>{metrics.map(([method, metric]) => <tr key={method}>
+        <th scope="row">{methodLabel(method)}</th><td>{num(metric.n)}</td><td>{percentOrMissing(metric.accuracy)}</td>
+        <td>{decimalOrMissing(metric.log_loss)}</td><td>{decimalOrMissing(metric.brier)}</td></tr>)}</tbody></table></div>
+      : <Empty>No reserved-block metrics were recorded, so no method is scored here.</Empty>}
+    {paired.length ? <div className="table-wrap"><table>
+      <caption>Paired log-loss differences as the API records them. A negative value favours the plastic arm;
+        an interval entirely above zero means the plastic arm is reliably worse than that comparator.</caption>
+      <thead><tr><th scope="col">Comparator</th><th scope="col">{CONFIRMATION_PAIRED_HEADER}</th></tr></thead>
+      <tbody>{paired.map(([method, value]) => <tr key={method}>
+        <th scope="row">{methodLabel(method)}</th>
+        <td>{signed(value.mean, PAIRED_PLACES)} ({interval(value.interval, PAIRED_PLACES)})</td></tr>)}</tbody></table></div>
+      : <Empty>No paired loss intervals were recorded for this confirmation.</Empty>}
+    <p className="learning-note">{pairedLine(SHUFFLED_MINUS_FROZEN_LABEL, row.shuffled_minus_frozen)}.</p>
+    <p className="learning-note">{pairedLine(BASELINE_MINUS_FROZEN_LABEL, row.baseline_minus_frozen)}.</p>
+    <p className="learning-note">Accuracy interval for the candidate: {percentInterval(row.accuracy_interval)}.
+      {exclusions.length ? ` Games excluded before scoring: ${exclusions.map(([name, value]) => `${readable(name)} ${num(value)}`).join(', ')}.` : ' No exclusion counts are recorded.'}
+      {row.predictions_csv ? ` Per-game predictions: ${row.predictions_csv}.` : ' No per-game prediction file is recorded.'}</p>
+    <ul className="learning-chips">
+      <li><Chip verdict={row.better_than_chance === true ? 'yes' : row.better_than_chance === false ? 'no' : 'unknown'}>
+        Better than chance: {row.better_than_chance === true ? 'yes' : row.better_than_chance === false ? 'no' : 'not recorded'}</Chip></li>
+      <li><Chip verdict={row.plasticity_contributes === true ? 'yes' : row.plasticity_contributes === false ? 'no' : 'unknown'}>
+        Plasticity contributes: {row.plasticity_contributes === true ? 'yes' : row.plasticity_contributes === false ? 'no' : 'not recorded'}</Chip></li>
+    </ul>
+  </article>;
+}
+
+export function ConfirmationSection({ rows }: { rows: Confirmation[] }) {
+  return <section className="learning-section"><span className="eyebrow">06 / Reserved-block confirmation</span>
+    <h2>Reserved-block confirmation (2018, one attempt)</h2>
+    <p className="learning-lede">The reserved block is fetched once for a frozen, committed candidate and is never rerun.
+      Whatever it recorded stands: these are the two separate questions of better-than-chance accuracy and of whether
+      plasticity contributes anything over the frozen twin, and a failure here is not softened by a development result.</p>
+    {rows.length ? newestFirst(rows).map(row => <ConfirmationCard key={row.identity} row={row}/>)
+      : <Empty>{CONFIRMATION_EMPTY}</Empty>}
+  </section>;
+}
+
 export function JobsSection(props: {
   jobs: Job[]; running: string | null; loadError: string; startError: string; cancelError: string;
   pending: boolean; form: StartJobForm; onChange: (form: StartJobForm) => void;
   onStart: () => void; onCancel: (id: string) => void;
 }) {
   const { jobs, running, loadError, startError, cancelError, pending, form, onChange, onStart, onCancel } = props;
-  return <section className="learning-section"><span className="eyebrow">06 / Training jobs</span>
+  return <section className="learning-section"><span className="eyebrow">07 / Training jobs</span>
     <h2>Run an arm.</h2>
     <p className="learning-lede">One job runs at a time. Progress, cancellation and resume come from the job registry on disk; a read-only verification server refuses to start anything and its refusal is shown below exactly as sent.</p>
     {loadError ? <ErrorBlock message={loadError}/> : null}
@@ -375,7 +457,7 @@ export function ProbeSection(props: {
     </dl>
     {value?.odor_types?.length ? <details><summary>Odor type list</summary><p className="learning-note">{value.odor_types.join(', ')}</p></details> : null}
   </div>;
-  return <section className="learning-section"><span className="eyebrow">07 / Probe a checkpoint</span>
+  return <section className="learning-section"><span className="eyebrow">08 / Probe a checkpoint</span>
     <h2>Read one immutable checkpoint.</h2>
     <p className="learning-lede">Presents each team's odor alone against stored gains. This is an inspection of learned weights, not a product prediction and not a probability.</p>
     {loadError ? <ErrorBlock message={loadError}/> : null}
@@ -455,6 +537,7 @@ export default function LearningView() {
     <ConditioningSection runs={evidence?.conditioning || []}/>
     <StressSection runs={evidence?.stress || []}/>
     <SportsSection sports={evidence?.sports || []} evaluations={evidence?.evaluations || []}/>
+    <ConfirmationSection rows={evidence?.confirmations || []}/>
     <JobsSection jobs={jobs?.jobs || []} running={jobs?.running || null} loadError={jobsError} startError={startError}
       cancelError={cancelError} pending={startPending} form={jobForm}
       onChange={next => { setJobForm(next); setStartError(''); setCancelError(''); }} onStart={onStart} onCancel={onCancel}/>

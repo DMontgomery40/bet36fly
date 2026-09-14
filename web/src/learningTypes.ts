@@ -57,6 +57,27 @@ export type SportsEvaluation = {
   plasticity_contributes?: boolean | null; goal_passed?: boolean | null;
   readouts?: unknown; predictions_csv?: string | null;
 };
+/** One arm of a reserved-block confirmation, as `associative_api.build_evidence` passes it through. */
+export type ConfirmationArm = {
+  calls?: number | null; reinforcements?: number | null; final_gains_sha256?: string | null;
+  days?: number | null; bound_contacts?: number | null;
+};
+/** One one-shot confirmation on the reserved block. `status` is recorded verbatim; a run that
+ *  never reached evaluation records `failed_runtime` with an `error` and no metrics at all. */
+export type Confirmation = {
+  identity: string; valid: boolean; status?: string | null; error?: string | null;
+  season?: number | null; attempt?: number | null;
+  source_url?: string | null; source_sha256?: string | null; source_fetched_at?: string | null;
+  frozen_candidate_sha256?: string | null; arms?: Record<string, ConfirmationArm> | null;
+  metrics?: Record<string, EvaluationMetric> | null;
+  /** Plastic minus comparator: negative favours the plastic arm. */
+  paired_loss?: Record<string, PairedLoss> | null;
+  shuffled_minus_frozen?: PairedLoss | null; baseline_minus_frozen?: PairedLoss | null;
+  accuracy_interval?: number[] | null; plasticity_contributes?: boolean | null; better_than_chance?: boolean | null;
+  games?: number | null; start?: string | null; end?: string | null;
+  exclusions?: Record<string, number> | null; predictions_csv?: string | null;
+};
+
 /** One compartment's gain-distribution snapshot at a single probe label. */
 export type CompartmentOccupancy = {
   lower?: number | null; upper?: number | null; above_rest?: number | null; mean?: number | null; deciles?: number[] | null;
@@ -84,6 +105,8 @@ export type AssociativeEvidence = {
   links: LinksRun[]; conditioning: ConditioningRun[]; sports: SportsRun[]; evaluations: SportsEvaluation[];
   /** Added with the continual-learning stage; an older manifest read has no `stress` key at all. */
   stress?: StressRun[] | null;
+  /** Added with the reserved-block confirmation stage; an older manifest read has no `confirmations` key. */
+  confirmations?: Confirmation[] | null;
   mechanism_qualified?: boolean | null; qualified_conditioning?: string[] | null;
   sensory_confirmation_unchanged?: string | null; note?: string | null;
 };
@@ -125,6 +148,59 @@ export const ARM_CAPTIONS: Record<string, string> = {
   swap: 'the other cue is rewarded',
   order: 'same as paired, other presentation order',
 };
+
+/** Plain-language names for the methods a reserved-block confirmation scores. The key order is
+ *  also the render order; a method that is not listed keeps its recorded name and is appended. */
+export const CONFIRMATION_METHOD_LABELS: Record<string, string> = {
+  plastic: 'Recovery plastic (candidate)',
+  frozen: 'Frozen twin',
+  shuffled: 'Reinforcement-shuffled twin',
+  'plastic:baseline': 'No-recovery plastic baseline',
+  encoder_only: 'Encoder only',
+  same_information: 'Same-information baseline',
+  prior: 'Training prior',
+  uniform: 'Uniform chance',
+};
+/** Written with the word "minus" rather than a dash so the label survives every encoding. */
+export const SHUFFLED_MINUS_FROZEN_LABEL = 'Reinforcement-shuffled twin minus frozen twin';
+export const BASELINE_MINUS_FROZEN_LABEL = 'No-recovery plastic baseline minus frozen twin';
+export const CONFIRMATION_EMPTY = 'No reserved-block confirmation recorded.';
+export const CONFIRMATION_PAIRED_HEADER = 'Plastic minus comparator (95% paired interval)';
+
+export function methodLabel(method: string) { return CONFIRMATION_METHOD_LABELS[method] || readable(method); }
+/** Known methods in the declared order, then any other recorded method in its recorded order. */
+export function orderedMethods<T>(map: Record<string, T> | null | undefined): [string, T][] {
+  const known = Object.keys(CONFIRMATION_METHOD_LABELS);
+  const rank = (name: string) => (known.indexOf(name) === -1 ? known.length : known.indexOf(name));
+  return Object.entries(map || {}).sort((a, b) => rank(a[0]) - rank(b[0]));
+}
+/** The human reading of a recorded confirmation status, or null when no reading is declared.
+ *  The raw status is always rendered beside this, never replaced by it. */
+export function confirmationStatusLabel(status: string | null | undefined) {
+  if (status === 'failed_confirmation') return 'Confirmation failed: plasticity does not contribute';
+  if (status === 'passed_confirmation') return 'Confirmation passed: plasticity contributes';
+  return null;
+}
+/** Human reading and recorded status together, so an unmapped status is still shown in full. */
+export function confirmationOutcome(row: Confirmation) {
+  const mapped = confirmationStatusLabel(row.status);
+  return `${mapped || 'No confirmation outcome is declared for this status'} · recorded status ${words(row.status, 'not recorded')}`;
+}
+/** The head pill stays short; the full reading lives in the outcome line. */
+export function confirmationState(row: Confirmation): { verdict: Verdict; label: string } {
+  if (row.status === 'passed_confirmation') return { verdict: 'yes', label: 'Passed' };
+  if (row.status === 'failed_confirmation') return { verdict: 'no', label: 'Failed' };
+  if (row.status === 'failed_runtime' || row.error) return { verdict: 'no', label: 'Run failed' };
+  if (!row.valid) return { verdict: 'no', label: 'Invalid manifest' };
+  return { verdict: 'unknown', label: words(row.status, 'No status recorded') };
+}
+/** A season is a year, not a count, so it never picks up a thousands separator. */
+export function year(value: number | null | undefined) {
+  return typeof value === 'number' && Number.isFinite(value) ? String(value) : 'not recorded';
+}
+export function confirmationName(row: Confirmation) {
+  return row.season == null ? row.identity : `${row.identity} (season ${row.season})`;
+}
 
 /** `count` throws on null, so every optional number goes through these guards instead. */
 export function num(value: number | null | undefined) {
@@ -179,6 +255,17 @@ export function stageBadges(evidence: AssociativeEvidence | null): Badge[] {
   const qualified = evidence?.qualified_conditioning || [];
   const isQualified = evidence?.mechanism_qualified === true;
   const contributing = (evidence?.evaluations || []).filter(item => item.plasticity_contributes === true);
+  // The reserved block is the one-shot confirmation and overrides a development evaluation in
+  // either direction. A recorded refutation is reported first and is never softened.
+  const confirmations = evidence?.confirmations || [];
+  const refuted = confirmations.filter(item => item.plasticity_contributes === false);
+  const confirmedContribution = confirmations.filter(item => item.plasticity_contributes === true);
+  // A confirmation that never reached a contribution verdict (a runtime failure) is still a
+  // recorded confirmation, so the fallback must not claim that none exists.
+  const unresolved = confirmations.length - refuted.length - confirmedContribution.length;
+  const confirmationClause = unresolved
+    ? ` A reserved-block confirmation is recorded (${unresolved}) but records no contribution verdict.`
+    : ' No reserved-block confirmation is recorded.';
   return [
     {
       key: 'implemented', title: 'Mechanism implemented',
@@ -194,13 +281,25 @@ export function stageBadges(evidence: AssociativeEvidence | null): Badge[] {
         ? `Qualified by ${qualified.join(', ')}. This qualifies the mechanism in this simulator only.`
         : 'No conditioning run has passed acquisition, retention, reversal and audit together.',
     },
-    {
-      key: 'prediction', title: 'Plasticity improves held-out prediction',
-      verdict: contributing.length ? 'yes' : 'no', state: contributing.length ? 'Yes' : 'Not established',
-      detail: contributing.length
-        ? `Established by ${contributing.map(item => item.identity).join(', ')}.`
-        : 'No recorded evaluation places the plastic minus frozen paired log-loss interval below zero.',
-    },
+    refuted.length
+      ? {
+        key: 'prediction', title: 'Plasticity improves held-out prediction',
+        verdict: 'no' as Verdict, state: 'No (confirmed on the reserved block)',
+        detail: `The one-shot reserved-block confirmation ${refuted.map(confirmationName).join(', ')} recorded plasticity_contributes false: the plastic minus frozen paired log-loss interval is not below zero. This result stands.`,
+      }
+      : confirmedContribution.length
+      ? {
+        key: 'prediction', title: 'Plasticity improves held-out prediction',
+        verdict: 'yes' as Verdict, state: 'Yes (confirmed on the reserved block)',
+        detail: `The one-shot reserved-block confirmation ${confirmedContribution.map(confirmationName).join(', ')} recorded plasticity_contributes true.`,
+      }
+      : {
+        key: 'prediction', title: 'Plasticity improves held-out prediction',
+        verdict: (contributing.length ? 'yes' : 'no') as Verdict, state: contributing.length ? 'Yes' : 'Not established',
+        detail: contributing.length
+          ? `Established by ${contributing.map(item => item.identity).join(', ')} on a development evaluation only.${confirmationClause}`
+          : `No recorded evaluation places the plastic minus frozen paired log-loss interval below zero.${confirmationClause}`,
+      },
     {
       key: 'application', title: 'Application uses a learned checkpoint',
       verdict: 'no', state: 'No',

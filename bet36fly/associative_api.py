@@ -113,11 +113,28 @@ def build_evidence(root):
                            total_recovery=summary.get('total_recovery'), total_bound_contacts=summary.get('total_bound_contacts'),
                            memory_by_cycle=summary.get('memory_by_cycle'), post_history=summary.get('post_history'),
                            occupancy=[{k: v for k, v in o.items() if k != 'gains_sha256'} for o in m.get('occupancy', [])]))
+    confirmations = []
+    for r in _manifests(root, 'associative-confirmation-'):
+        m = r['manifest'] or {}
+        e = m.get('evaluation') or {}
+        confirmations.append(dict(identity=r['identity'], valid=r['valid'], status=m.get('status'), error=m.get('error'),
+                                  season=m.get('season'), attempt=m.get('attempt'), source_url=m.get('source_url'),
+                                  source_sha256=m.get('source_sha256'), source_fetched_at=m.get('source_fetched_at'),
+                                  frozen_candidate_sha256=m.get('frozen_candidate_sha256'), arms=m.get('arms'),
+                                  metrics=e.get('metrics'), paired_loss=e.get('paired_loss'),
+                                  shuffled_minus_frozen=e.get('shuffled_minus_frozen'),
+                                  baseline_minus_frozen=e.get('baseline_minus_frozen'),
+                                  accuracy_interval=e.get('accuracy_interval'), plasticity_contributes=e.get('plasticity_contributes'),
+                                  better_than_chance=e.get('goal_passed'), games=(e.get('metrics') or {}).get('plastic', {}).get('n'),
+                                  start=e.get('start'), end=e.get('end'), exclusions=e.get('exclusions'),
+                                  predictions_csv=f"output/associative/{r['identity']}/predictions.csv"
+                                  if (root / 'output/associative' / r['identity'] / 'predictions.csv').exists() else None))
     contract = root / CONTRACT
     qualified = [c for c in conditioning if c['valid'] and (c.get('summary') or {}).get('all_passed') is True]
     return dict(contract=dict(path=CONTRACT, sha256=_sha(contract), exists=contract.exists()),
                 circuit=dict(path='configs/associative-circuit-01.json', sha256=_sha(root / 'configs/associative-circuit-01.json')),
                 links=links, conditioning=conditioning, sports=sports, evaluations=evaluations, stress=stress,
+                confirmations=confirmations,
                 mechanism_qualified=bool(qualified), qualified_conditioning=[c['identity'] for c in qualified],
                 sensory_confirmation_unchanged='sensory-confirmation-4887cb8c17f6281d8166',
                 note='Missing or failed evidence stays missing or failed here. Passing conditioning qualifies the '
