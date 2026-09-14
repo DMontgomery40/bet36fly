@@ -39,7 +39,7 @@ node scripts/verify_sensory_browser.cjs /tmp/bet36fly-sensory-browser
 node scripts/verify_circuit_browser.cjs
 ```
 
-`make verify` runs pytest, Ruff, vitest and the production build. Rebuild before browser checks. If 8765 is occupied, use `make serve-verify QA_PORT=8766` and set `BET36FLY_BASE_URL=http://127.0.0.1:8766` for the browser command. The guard checks the exact read-only server marker before Chromium starts. The acceptance suite covers real results, filtering, details, downloads, loading/empty/error recovery, old URLs and desktop/mobile layouts. The old reward/desk browser commands now launch this current suite.
+`make verify` runs pytest, Ruff, vitest and the production build. Rebuild before browser checks. If 8765 is occupied, use `make serve-verify QA_PORT=8766` and set `BET36FLY_BASE_URL=http://127.0.0.1:8766` for the browser command. Playwright is not vendored here; both browser scripts need it resolvable, for example through `NODE_PATH`. The guard checks the exact read-only server marker before Chromium starts. The acceptance suite covers real results, filtering, details, downloads, loading/empty/error recovery, old URLs and desktop/mobile layouts. The old reward/desk browser commands now launch this current suite.
 
 ## Research and preservation
 

@@ -81,5 +81,17 @@ observed, console output and the screenshot filenames.
 - Explainer copy lost the topics that described the retired workflow (recorded replay, firing activity and
   shared training gains) along with counts that traced only to a diagram label rather than to the model
   card or the dataset. What remains separates fly biology, released dataset facts and simulator mechanisms.
+- The anatomy layer legend and the view-angle control stay rendered in the error and empty states, inert
+  but visible, matching the retired layout. The neuron search and inspect controls are hidden there,
+  because they need a loaded graph. This is a layout choice worth a second opinion, not a defect.
+- The browser check synthesizes the 503 with a route fulfillment, which proves only that the frontend
+  handles it. The real server path is covered separately by
+  `tests/test_api.py::test_brain_geometry_reports_an_unprepared_connectome_as_503`, which asserts the
+  documented message for an absent, empty and partially prepared `data/brain`.
+- Playwright is not vendored in this repository. The command above resolved it from an external
+  `node_modules` via `NODE_PATH`; a checkout without Playwright available cannot run the script as written.
+- `evidence.json` shows `/api/sensory/summary` fetched while on the Circuit page. That is pre-existing:
+  `web/src/App.tsx` mounts that resource once for the whole application regardless of the active page, as
+  the contract already describes. The Circuit page itself adds only the single `/api/brain` GET.
 - The page is a soma projection of a sample, not a neuropil reconstruction, and display filters never
   change any computation. Both statements appear in the page copy and in the API contract.

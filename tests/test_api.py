@@ -22,6 +22,26 @@ def test_no_model_and_no_games_are_explicit(tmp_path):
         assert client.get("/api/desk?sport=cricket").status_code == 422
 
 
+@pytest.mark.parametrize("prepared", ["absent", "empty", "ids_only"])
+def test_brain_geometry_reports_an_unprepared_connectome_as_503(tmp_path, prepared):
+    """The Circuit page documents an explicit 503 for a missing prepared connectome.
+
+    Every partial state must reach that message rather than a 500, because the page
+    shows the returned detail verbatim next to its retry control.
+    """
+    import numpy as np
+
+    brain = tmp_path / "data" / "brain"
+    if prepared != "absent":
+        brain.mkdir(parents=True)
+    if prepared == "ids_only":
+        np.save(brain / "ids.npy", np.arange(10))
+    with TestClient(create_app(root=tmp_path, warm_on_start=False)) as client:
+        response = client.get("/api/brain")
+        assert response.status_code == 503
+        assert response.json()["detail"] == "Official connectome data has not been prepared yet."
+
+
 def test_refresh_conflict_and_external_origin_are_rejected(tmp_path):
     app = create_app(root=tmp_path, warm_on_start=False)
     with TestClient(app) as client:
