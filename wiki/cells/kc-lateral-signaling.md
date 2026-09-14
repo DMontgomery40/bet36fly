@@ -1,9 +1,11 @@
 ---
 type: cell-mechanism
-updated: 2026-09-13
+updated: 2026-09-14
 status: offline-candidate-rejected
 ---
 # Local signaling between Kenyon cells
+
+**Scope:** the detailed experiment claims below concern the legacy PPL101/MBON11 and PAM12/MBON09 investigation. Its failed or unresolved results remain unchanged. The separate PAM08/PAM01 circuit now has [qualified controlled conditioning](../associative-learning.md); that does not establish these molecular transfers or local dopamine exposure models.
 
 KC activity at a plastic synapse need not be identical to its somatic spike
 count. A 2026 study reports activity-dependent muscarinic-B modulation of

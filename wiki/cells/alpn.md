@@ -1,9 +1,11 @@
 ---
 type: cell-family
-updated: 2026-09-13
+updated: 2026-09-14
 status: source-backed-and-code-inspected
 ---
-# ALPNs: the engineered entrance to the circuit
+# ALPNs and the legacy engineered input
+
+**Current interfaces:** the frozen sensory pipeline uses identified taste populations; associative conditioning uses 16-type ORN identity codes and retains ALPN input connectivity. The 275-port feature encoder described below belongs to the **legacy reward** experiment. [Sensory inputs](../natural-sensory-inputs.md), [new odor circuit](../associative-learning.md).
 
 **Biology.** Antennal-lobe projection neurons carry processed sensory signals toward regions including the mushroom body. Convergence from different glomerular channels onto KCs supplies a combinatorial representation. Sports quantities have no natural ALPN assignment. [Caron et al. 2013](https://www.nature.com/articles/nature12063).
 

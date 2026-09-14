@@ -2,21 +2,11 @@
 
 **Current application — September 13:** the product now presents the frozen sensory confirmation, all MLB confirmation games, matchup-specific probe evidence, methods and downloads. Historical training, model selectors, prediction controls and brain replay are removed from the mounted UI. The default server no longer starts source-following. The v1 pointer, legacy code and frozen scientific artifacts remain preserved; they are not sensory predictions. [Current application contract](api-contract.md).
 
-**A guide to BET36FLY’s active v1 checkpoint and separate circuit experiments.**
+The current product presents the completed plasticity-off sensory backtest and a separate dopamine-learning research page. The sensory pipeline's above-chance result is not a learning result. The newer associative engine passed controlled conditioning and recovery tests, but its 2022 development comparisons did not establish predictive benefit over a frozen twin and remained worse than encoder-only. [Current evidence](../wiki/reassessment.md).
 
-The [current research goal](PROJECT_DIRECTION.md) is to translate matchup information into natural food-related sensory patterns, allowing both teams to be attractive, and first verify an appropriate circuit response. That sensory interface is not yet implemented. This guide's existing training description is historical v1; the [sensory-rate page](../wiki/natural-sensory-inputs.md) distinguishes actual measurements from the old artificial input settings.
+Use the [organized knowledge wiki](../wiki/index.md) for [sensory inputs](../wiki/natural-sensory-inputs.md), [associative learning](../wiki/associative-learning.md), [recovery and interference](../wiki/continual-learning.md), exact cell identities and [proposed research directions](../wiki/research-directions.md). The [associative handoff](ASSOCIATIVE_LEARNING_HANDOFF.md) owns continuation; [the model card](MODEL_CARD.md) retains the numerical results and historical model distinctions.
 
-For individual neurons, KC subtypes, APL, dopamine channels and MBON territories,
-use the [cell and circuit wiki](../wiki/index.md). Its [reassessment](../wiki/reassessment.md)
-now records the integrated repair and its failed controls. Both corrected raw
-spike timing and the rate bridge still change untaught home gains beyond the
-declared guard. Retaining earlier signal history made that failure worse.
-Conditioning and reversal have not run; the
-[legacy reward protocol](EXPERIMENT_REWARD.md) preserves its exact boundary.
-
-The fly really uses the measured fly connectome. Sports numbers stimulate neurons, spikes travel through the anatomical network, and a trained decoder turns the resulting activity into probabilities. Training changed a small subset of the actual connections. The first experiment works computationally, but **it does not yet predict games better than our simple statistical baseline**.
-
-V1 remains the active model. The user paused v2 with 13 completed runs, eight cancelled temporal jobs and three unfinished whole-trial jobs. The bounded stronger-L2 diagnostic is summarized in the [tracked development evidence](evidence/v2-development-summary.md#decoder-diagnostics), using the existing frozen seed-42 responses and unchanged decoder. All 16 fits converged after the four C=0.01 reproduction checks passed. With stronger regularization, the selected temporal readout now slightly beats the selected whole-trial readout in both sports, but the simple feature baseline still has lower validation log loss. Selection used validation data, so this is development evidence rather than independent confirmation. It did not simulate the brain again, learn connection gains, resume the matrix or change a model pointer. The running app has passed desktop/mobile checks, documented in the [model card](MODEL_CARD.md#verification-and-acceptance), which is authoritative for current status, methods and results. This guide explains the active system and preserves its original training evidence. Read [confidence, draws and paper bet size](CONFIDENCE_AND_DRAWS.md) for the historical probability audit, and [the roadmap](ROADMAP.md) for future work.
+The v1 pointer is preserved, v2 is paused, and the legacy reward SCI-001 claim remains on HOLD. The historical explanation below describes those earlier models, not the source of current sensory probabilities. Its statements about trials, fitting and output dimensions are scoped to v1/v2.
 
 ## Historical guide
 

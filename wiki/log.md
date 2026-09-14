@@ -1,9 +1,15 @@
 ---
 type: log
-updated: 2026-09-13
+updated: 2026-09-14
 status: active
 ---
 # Wiki change log
+
+## September 14 UTC — Claude research integrated by topic
+
+Integrated the recent associative-learning research into the existing cell, sensory, learning, source and evidence pages. Added primary homes for [associative conditioning](associative-learning.md), [continual learning and interference](continual-learning.md), [visual/downstream anatomy](cells/visual-and-downstream.md) and [the consolidated research directions](research-directions.md). Rebuilt navigation around reader questions, updated the current reassessment and scoped earlier failures to their original experiments.
+
+Reconciled all fourteen proposal items, source identities, gain denominators, recovery/retired-cue numbers and the distinction between anatomical contacts and demonstrated computation. Read saved artifacts and recomputed anatomy/storage counts without neural calls. Preserved imported research, frozen results, configurations and the active-model pointer. The 2018 attempt was reported launched in Claude's session; this integration does not claim a remotely verified result. [Coverage and corrections](../docs/evidence/wiki-integration-2026-09-14/reconciliation.md) · [Verification](../docs/evidence/wiki-integration-2026-09-14/verification.md).
 
 ## September 13 — sensory research application
 

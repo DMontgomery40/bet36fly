@@ -1,13 +1,31 @@
 ---
 type: cell-family
-updated: 2026-09-13
+updated: 2026-09-14
 status: mechanism-under-investigation
 ---
-# Dopamine neurons: PPL101, PAM12, and the residual
+# Dopamine neurons: reward physiology and experiment-specific channels
 
 **Biology.** Specific DAN activation can teach associations at KC→MBON synapses, with timing and compartment specificity. Dopamine is not universally synonymous with reward, punishment, or a scalar prediction error. Models of heterogeneous DAN activity explicitly construct or optimize the circuitry generating learning signals. [Hige et al. 2015](https://pubmed.ncbi.nlm.nih.gov/26637800/), [Jiang and Litwin-Kumar 2021](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009205).
 
-## Exact task populations
+## Reward compartments in the associative engine
+
+| Compartment | Released type | Selected cells | Output and update scope |
+| --- | --- | ---: | --- |
+| γ4 | PAM08 | 50 | MBON05 bodies 10495 / 519371; 1,839 eligible γ-KC pairs |
+| γ5 | PAM01 | 44 | MBON01 bodies 10013 / 520151; 1,578 eligible γ-KC pairs |
+
+[All 94 DAN body IDs and source checks](../../docs/evidence/wiki-integration-2026-09-14/anatomy-and-storage.json). Selection requires the named type, `class=DAN` and pure-dopamine transmitter label. These are compartment-level assignments; no reconstructed local dopamine field or synapse-coordinate eligibility is implied.
+
+**Biological reward evidence:** Liu 2012 identifies PAM-cluster sugar-reward signaling. Huetteroth 2015 distinguishes sweet-taste short-term reinforcement through β′2/γ4 from nutrient-dependent long-term reinforcement through γ5b; Yamagata 2015 independently distinguishes short- and long-term reward populations. Therefore PAM08/γ4 is the more direct sweet-taste match; the PAM01/γ5 pool should not be called a homogeneous measured sweet-taste population. The simulator drives both declared pools as an engineered reinforcer. [Liu](https://pubmed.ncbi.nlm.nih.gov/22810589/), [Huetteroth](https://pubmed.ncbi.nlm.nih.gov/25728694/), [Yamagata](https://pubmed.ncbi.nlm.nih.gov/25548178/).
+
+The measured sweet probe evoked no DAN spike at 0.11 mV/contact; direct 30 Hz requested drive evoked the recorded reinforcement. The absence is conditional on that trial, not evidence against reward physiology in real flies. The new cue-only calibration also contains nonzero dopamine for some keys. [Full link/conditioning account](../associative-learning.md).
+
+Reward-prediction-error feedback, PPL1 punishment and different compartment timescales are [proposals](../research-directions.md), not functions established by these two selected pools. [Recovery](../continual-learning.md) operates on their event-history proxies, without receptor kinetics.
+
+## Legacy PPL101/PAM12 teaching channels
+
+Everything below concerns the historical reward diagnostic; “home/away” are its engineered labels.
+### Exact legacy task populations
 
 | Population | Cells | Released instance territory | Engineering role |
 | --- | ---: | --- | --- |

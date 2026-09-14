@@ -1,13 +1,30 @@
 ---
 type: cell-family
-updated: 2026-09-12
+updated: 2026-09-14
 status: source-backed-and-code-inspected
 ---
 # MBONs: output identity is not a plasticity territory
 
 **Biology.** MBON dendrites and DAN terminals organize mushroom-body learning compartments. MBON09 is γ3β′1; MBON11 is γ1pedc>α/β. These are not two equivalent, single-territory outputs. The anatomical study distinguishes their innervation and transmitter classes; its cell counts must not be substituted for counts in the released MaleCNS specimen. [Aso et al. 2014, Table 1 and Figure 8](https://elifesciences.org/articles/04577).
 
-## Current and historical outputs
+## Associative and sensory outputs
+
+| Stage | Output | Exact bodies | What is measured |
+| --- | --- | --- | --- |
+| Associative γ4 | MBON05 / γ4>γ1γ2, glutamate | 10495, 519371 | Cue-window spikes; 1,999 selected KC inputs, 1,839 γ-eligible |
+| Associative γ5 | MBON01 / γ5β′2a, glutamate | 10013, 520151 | Cue-window spikes; 2,109 selected KC inputs, 1,578 γ-eligible |
+| Frozen sensory | Clavicle / ANXXX462a, ACh | 19480, 514625 | Recorded second-order taste response; not an MBON |
+| Frozen sensory | Quasimodo / GNG042, GABA | 15321, 15734 | Recorded second-order taste response; not an MBON |
+
+[Associative source-aligned IDs](../../docs/evidence/wiki-integration-2026-09-14/anatomy-and-storage.json), [sensory crosswalk](../../docs/evidence/sensory-backtest-goal-2026-09-13/second-order-crosswalk.json). Both associative outputs have non-γ inputs that transmit without updating; soma/compartment names do not make every incoming synapse eligible.
+
+**Valence in real flies:** Aso 2014 reports avoidance with activation of glutamatergic MBONs including γ4>γ1γ2 and γ5β′2a. This motivates reduced output as an appetitive-memory expression in the controlled assay. It is distinct from the presynaptic glutamate sign proxy in the simulator and from the fitted coefficient in a baseball probability readout. [Aso 2014 functional study](https://elifesciences.org/articles/04580).
+
+Conditioning-02 uses **the sum of both MBON population counts** for its primary response criterion, following the documented plasticity-off sensitivity check. Sports readout keeps two separate log-count differences and combines them with four innate-response differences in a fitted model. Neither is an in-circuit choice. [Conditioning and readout](../associative-learning.md), [proposed broader outputs](../research-directions.md#a-read-what-exists-before-collecting-more).
+
+## Legacy reward outputs
+
+### Selected legacy populations
 
 | Type | Body IDs | Released instance stem | Transmitter | KC input pairs / contacts |
 | --- | --- | --- | --- | ---: |
@@ -19,7 +36,7 @@ Values are freshly derived from local source-aligned graph arrays. [Target data]
 
 PAM12's γ3 teaching territory does not justify modifying every input to γ3β′1 MBON09. Its 1,438 α′/β′ KC pairs carry 19,317 contacts; the five α/β pairs carry five contacts. The repair policy excludes these 1,443 pairs from updates while retaining their transmission. The 3,239 gamma pairs carry 44,257 contacts. This is a KC-label proxy for territory, not a synapse-location proof. Home retains all 4,184 pairs; it is not gamma-filtered by analogy. [KC support table](kenyon-cells.md).
 
-## What the sports readout computes
+## What the legacy reward sports readout computes
 
 The reward experiment reads the mean activity of the two MBON11 cells and the four MBON09 cells. It transforms each response with `log1p`, standardizes using frozen calibration means and scales, clips at ±4, subtracts that value from the log training prior, and applies a two-class softmax. Thus lower activity in the selected MBON population increases its assigned class probability. No response-to-label coefficient is fitted in this reward readout. [Exact calibration and decode functions](../../bet36fly/reward_protocol.py).
 

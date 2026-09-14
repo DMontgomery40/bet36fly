@@ -1,9 +1,11 @@
 ---
 type: model-boundary
-updated: 2026-09-12
+updated: 2026-09-14
 status: implementation-audited
 ---
 # Transmitters, receptors, glia, and unmodeled cell biology
+
+The table below describes the **legacy reward kernel**. The separate associative engine also lacks receptor kinetics, local dopamine concentration, glia and consolidation; it adds [dopamine-gated recovery toward resting gain](../continual-learning.md) on inactive eligible synapses. That tested engineering recovery is not a molecular homeostasis model. Its traces use 1,000 ms rather than the legacy 500 ms, and APL outgoing weights are zero rather than quarter-scaled. [Current state contract](../associative-learning.md).
 
 This is an inventory of what the code represents, not a claim that excluded biology is irrelevant or unavailable to future models. The official release provides neuron annotations and aggregate transmitter predictions, plus separate synaptic-location and transmitter resources. An anatomical label does not supply the numerical dynamics of this simulator. [MaleCNS download schema](https://male-cns.janelia.org/download/).
 

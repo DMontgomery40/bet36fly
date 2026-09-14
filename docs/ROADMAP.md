@@ -1,8 +1,8 @@
 # Making the fly smarter, and knowing whether it improved
 
-## Current priority — September 13, 2026
+## Current priority — September 14, 2026 UTC
 
-The [canonical direction](PROJECT_DIRECTION.md) supersedes the ordering of the older proposals below. First calibrate natural food-related sensory inputs and verify a bounded plasticity-off response. Then compare two distinguishable opportunities, including both-good and good/aversive cases, and only then map pregame metrics and measure the circuit's added contribution. The [handoff](NATURAL_SENSORY_HANDOFF.md) defines the next task. Native sensory calibration is unimplemented; no checkpoint or scientific verdict changed with this decision.
+The [associative handoff](ASSOCIATIVE_LEARNING_HANDOFF.md) is the current continuation point under the [canonical direction](PROJECT_DIRECTION.md). The frozen sensory confirmation is complete; controlled associative conditioning and recovery subsequently passed, while added predictive value remains unestablished. The [wiki reassessment](../wiki/reassessment.md) owns measured status. The [integrated research directions](../wiki/research-directions.md) organize the fourteen newer proposals, their dependencies and controls; the original [research memo](ASSOCIATIVE_NEXT_APPROACHES.md) is retained. Those proposals do not authorize new runs.
 
 ## Historical product status and backlog
 

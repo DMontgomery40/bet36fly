@@ -1,9 +1,13 @@
 ---
 type: cell-family
-updated: 2026-09-12
+updated: 2026-09-14
 status: source-backed-and-code-inspected
 ---
 # Kenyon cells: identity, overlap, and eligible synapses
+
+**Associative support:** the newer γ4/γ5 circuit uses 1,839 eligible γ-KC→MBON05 and 1,578 eligible γ-KC→MBON01 pairs. Its remaining 691 non-γ inputs still transmit but never update. There is no legacy 1.25 KC-input gain in this engine. Its 16-type odor calibration recruited a median 388 KCs (9.5%) with mean/max pairwise Jaccard 0.140/0.443; these are protocol measurements, not natural sparsity constants. [Exact anatomy and IDs](../../docs/evidence/wiki-integration-2026-09-14/anatomy-and-storage.json), [conditioning](../associative-learning.md).
+
+**Representation and interference:** conditioning-02 used E/F cues with lower overlap (0.128) than conditioning-01's A/B pair (0.39). The later retired-cue assay showed continued depression during other cues' reinforcement. [Continual learning](../continual-learning.md) owns that result and its causal limits; [research directions](../research-directions.md) keeps edge-sharing analyses and less-overlapping codes as proposals. The 206 `KCg-d` cells also support a candidate [visual input route](visual-and-downstream.md). The home/away table below remains specific to the legacy reward selection.
 
 **Biology.** KCs integrate projection-neuron input into distributed sensory representations. The anatomical α/β, α′/β′ and γ divisions refer to axonal organization, not task labels. Sparse representations can support specific associations while overlapping representations can generalize. Those observations motivate measuring cue overlap rather than assuming that every active KC represents a different game. [Caron et al. 2013](https://www.nature.com/articles/nature12063), [Hige et al. 2015](https://pubmed.ncbi.nlm.nih.gov/26637800/).
 

@@ -1,9 +1,11 @@
 ---
 type: cell-evidence
-updated: 2026-09-13
+updated: 2026-09-14
 status: metadata-verified-coordinates-not-retrieved
 ---
 # Locating dopamine contacts around KC→MBON synapses
+
+**Scope:** the detailed experiment claims below concern the legacy PPL101/MBON11 and PAM12/MBON09 investigation. Its failed or unresolved results remain unchanged. The separate PAM08/PAM01 circuit now has [qualified controlled conditioning](../associative-learning.md); that does not establish these molecular transfers or local dopamine exposure models.
 
 The current simulator assigns one mean DAN signal to every eligible edge in
 each teaching channel. To investigate a more local coupling, the relevant

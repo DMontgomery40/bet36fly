@@ -1,15 +1,15 @@
 ---
 type: sensory-calibration
-updated: 2026-09-13
+updated: 2026-09-14
 status: second-order-response-qualified-feeding-unqualified
 ---
 # Fruit, sugar water and aversive inputs
 
 ## Calibration checkpoint — September 13
 
-The earlier [zero-call calibration checkpoint](../docs/evidence/natural-sensory-calibration-2026-09-13/index.md) remains frozen. [New primary-source retrieval and native trials](../docs/evidence/sensory-backtest-goal-2026-09-13/index.md) bind 34 proposed sweet LB3b/c, 17 water LB3a and 38 bitter LB1a–d cells, with exact MN9 IDs 10331/16949. Published functional assignments are morphology-based proposals. Cameron 2010 supplies first-second raw bristle means: 100 mM sucrose 58.9 ±3.3, water 12.0 ±0.9, 10 mM caffeine 18.8 ±3.0 Hz (SEM, all solutions 1 mM KCl). Uniform class transfer, constant waveform and zero background are explicit model assumptions. The first16-call feeding assay and coupling sweep failed. A subsequent narrower Clavicle/Quasimodo sensory assay passed fresh-seed, timing and recovery guards at0.11 mV/contact; its independent-contact comparison is external. Water ingestion, calibrated chemical mixtures, innate choice and prospective sports usefulness remain unverified. The separate conditional historical backtest passed.
+The earlier [zero-call calibration checkpoint](../docs/evidence/natural-sensory-calibration-2026-09-13/index.md) remains frozen. [New primary-source retrieval and native trials](../docs/evidence/sensory-backtest-goal-2026-09-13/index.md) bind 34 proposed sweet LB3b/c, 17 water LB3a and 38 bitter LB1a–d cells, with exact MN9 IDs 10331/16949. Published functional assignments are morphology-based proposals. Cameron 2010 supplies first-second raw bristle means: 100 mM sucrose 58.9 ±3.3, water 12.0 ±0.9, 10 mM caffeine 18.8 ±3.0 Hz (SEM, all solutions 1 mM KCl). Uniform class transfer, constant waveform and zero background are explicit model assumptions. The first 16-call feeding assay and coupling sweep failed. A subsequent narrower Clavicle/Quasimodo sensory assay passed fresh-seed, timing and recovery guards at 0.11 mV/contact; its independent-contact comparison is external. Water ingestion, calibrated chemical mixtures, innate choice and prospective sports usefulness remain unverified. The separate conditional historical backtest passed.
 
-The [current direction](../docs/PROJECT_DIRECTION.md) is to establish a natural sensory-response assay before returning to sports learning. There is no single “Hz into the fly brain” for fruit or sugar water. A defensible input is a stimulus-specific pattern over identified sensory neurons, with a dose, baseline, onset, duration and uncertainty. This page records actual measurements and separates them from simulator settings.
+The [project direction](../docs/PROJECT_DIRECTION.md) established this sensory stage before the separate [associative-learning stage](associative-learning.md). There is no single “Hz into the fly brain” for fruit or sugar water. A defensible input is a stimulus-specific pattern over identified sensory neurons, with a dose, baseline, onset, duration and uncertainty. This page records actual measurements and separates them from simulator settings.
 
 ## Measured taste and odor responses
 
@@ -27,7 +27,7 @@ Taste values are diluent-subtracted averages, not onset rates; L-glucose differs
 
 For **sucrose specifically**, Charlu et al. 2013 measured 100 mM sucrose responses in 3–10-day-old male flies, counting the first 0–500 ms and doubling to obtain spikes/s. Their inclusion criteria were **at least 50 spikes/s for L-type sensilla**, or **30 spikes/s for I/S-type**. These are sample-selection thresholds, not typical firing rates. The study also examines temporal responses in 50-ms bins and sugar/acid mixtures. Its shorter window must not be compared as if equivalent to Zhao's three-second average. [Primary methods and Figure 4](https://pmc.ncbi.nlm.nih.gov/articles/PMC3710667/).
 
-These sources establish useful numerical anchors. They do not yet specify a validated native MaleCNS drive schedule. Resolve the chosen tastant, sensory identities and baseline/window semantics before choosing parameters; do not average unlike assays into a universal “sugar Hz.” Water also needs its own source and cell mapping—the taste electrolyte suppresses water-neuron responses.
+These source measurements establish numerical anchors, not a universal native MaleCNS drive schedule. The later frozen sensory assay uses the explicit transfers in the calibration checkpoint above. Resolve the chosen tastant, sensory identities and baseline/window semantics before choosing parameters; do not average unlike assays into a universal “sugar Hz.” Water also needs its own source and cell mapping—the taste electrolyte suppresses water-neuron responses.
 
 ## Fruit odor is a population pattern
 
@@ -57,7 +57,13 @@ Shiu et al. 2024 use female FlyWire connectivity to model taste-to-feeding respo
 
 The inspected reference `model.py`, revision `91bdd1e7dcf193f3e7ca5a8933497fcef63b7960`, defaults to 150 Hz Poisson input with a 250× synaptic scaling factor and removes the refractory delay for externally driven cells. Those are interface settings. [Pinned code](https://github.com/philshiu/Drosophila_brain_model/blob/91bdd1e7dcf193f3e7ca5a8933497fcef63b7960/model.py).
 
-## What BET36FLY currently does
+## Team odors and reinforcement are separate engineered inputs
+
+The associative engine chooses 16 of 53 ORN types by team-key hash and requests 118 Hz uniformly across selected cells. That rate borrows Zhao's **baseline-subtracted ab1B/Or92a response** above; the code applies it as an absolute generator rate across other types, with a different 400 ms cue window. The transfer is explicit, not a measured multi-receptor fruit profile. Exact recruitment, input events and downstream activity belong to the identified trial.
+
+In the associative links assay, the 34-cell sweet input at 58.9 Hz did not evoke any DAN/KC/MBON spike at 0.11 mV/contact. The experiment therefore uses direct PAM08/PAM01 drive as an engineered reinforcement substitute. That does not contradict the frozen second-order sweet response: the target population and required downstream path differ. [Current odor/reinforcer contract](associative-learning.md), [reward physiology](cells/dopamine.md#reward-compartments-in-the-associative-engine).
+
+## What the legacy reward encoder does
 
 The legacy reward encoder assigns sports features to 64 ALPN annotation-type groups and drives 275 ports with Gaussian preferred values and a 150 Hz peak. It does not contain a stimulus/receptor response map. Incoming ALPN connections are scaled to zero in that diagnostic. The native input loop uses a per-step event probability `rate_hz * dt_ms / 1000`; each event adds 68.75 mV to a designated input cell. With the usual 0.2-ms step this is a discrete Bernoulli drive. Requested generator rates must therefore be checked against achieved spikes and time-bin resolution. [Encoder](../bet36fly/reward_encoder.py), [constructor](../bet36fly/reward_protocol.py), [native loop](../bet36fly/reward_lif.cpp), [existing ALPN explanation](cells/alpn.md).
 
@@ -65,4 +71,4 @@ The fixed legacy home/away MBON readout is an engineered sports interface. It ha
 
 PAM-γ3 provides a particularly useful warning against equating stimulation with sweetness: Yamagata et al. find that sugar ingestion suppresses its ongoing activity, and selective manipulation distinguishes appetitive memory from innate sucrose preference. This does not validate a particular PAM12 rate or transfer function in our specimen. [Primary study](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002586).
 
-The [handoff](../docs/NATURAL_SENSORY_HANDOFF.md) records the current finite assay stage. The isolated sensory engine does not change the legacy ALPN encoder or active model. Second-order response and external independent-opportunity controls passed; feeding and in-circuit choice remain unqualified. The frozen pipeline passed the predefined historical 2023 backtest; incremental neural value remains unproven. [Result](../docs/evidence/sensory-backtest-goal-2026-09-13/RESULT.md).
+The [historical sensory handoff](../docs/NATURAL_SENSORY_HANDOFF.md) records that completed stage; the [associative handoff](../docs/ASSOCIATIVE_LEARNING_HANDOFF.md) owns current continuation. The isolated sensory engine does not change the legacy ALPN encoder or active model. Second-order response and external independent-opportunity controls passed; feeding and in-circuit choice remain unqualified. The frozen pipeline passed the predefined historical 2023 backtest; incremental neural value remains unproven. [Result](../docs/evidence/sensory-backtest-goal-2026-09-13/RESULT.md).

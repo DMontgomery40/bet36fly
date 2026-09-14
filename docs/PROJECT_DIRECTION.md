@@ -2,7 +2,7 @@
 
 **Current application — September 13:** the product now presents the frozen sensory confirmation, all MLB confirmation games, matchup-specific probe evidence, methods and downloads. Historical training, model selectors, prediction controls and brain replay are removed from the mounted UI. The default server no longer starts source-following. The v1 pointer, legacy code and frozen scientific artifacts remain preserved; they are not sensory predictions. [Current application contract](api-contract.md).
 
-**Decision: David's September 13, 2026 reorientation. Status: source-informed second-order sensory pipeline implemented; full feeding and biological learning unvalidated.** This is the canonical project objective. The [handoff](NATURAL_SENSORY_HANDOFF.md) defines the next bounded task; the [reassessment](../wiki/reassessment.md) records evidence. Dated experiment protocols remain authoritative for their own results, not for choosing the project's next objective.
+**Decision: David's September 13, 2026 reorientation. Status: source-informed second-order sensory pipeline implemented; full feeding unvalidated; controlled associative conditioning is separately qualified below.** This is the canonical project objective. The [associative handoff](ASSOCIATIVE_LEARNING_HANDOFF.md) defines the current stage; the natural-sensory sequence below records the earlier direction; the [reassessment](../wiki/reassessment.md) records evidence. Dated experiment protocols remain authoritative for their own results, not for choosing the project's next objective.
 
 ## Backtest goal achieved — September 13, 2026
 
@@ -10,7 +10,7 @@ David has authorized continuing in `/goal` until better-than-chance backtesting 
 
 Use a predefined chance baseline, chronological separation, uncertainty and encoder-only/same-information comparisons. Develop on development data and evaluate a frozen candidate on an unused confirmation block; do not keep testing the same holdout until it passes. Report any lack of incremental circuit contribution explicitly. The [frozen preregistration protocol](EXPERIMENT_SENSORY.md) records each finite stage and its remaining requirements. The old calibration decision remains immutable; new source access and new protocols receive new identities.
 
-The frozen sensory pipeline passed its predefined 2023 MLB confirmation: **56.21% accuracy on 2,423 games**, with a 95% paired-week bootstrap interval of **54.42–58.02%**. Log loss was **0.680493**, better than uniform chance and the training prior with the declared bounds. Incremental benefit over the encoder alone remains unproven. The qualified sensory stage is a conditional Clavicle/Quasimodo response with an external comparison of independent probes; feeding, innate choice and neural learning remain unqualified. [Full result and every prediction](evidence/sensory-backtest-goal-2026-09-13/RESULT.md). V1 remains active and v2 paused; no push, deployment or model promotion.
+The frozen sensory pipeline passed its predefined 2023 MLB confirmation: **56.21% accuracy on 2,423 games**, with a 95% paired-week bootstrap interval of **54.42–58.02%**. Log loss was **0.680493**, better than uniform chance and the training prior with the declared bounds. Incremental benefit over the encoder alone remains unproven. The qualified sensory stage is a conditional Clavicle/Quasimodo response with an external comparison of independent probes; feeding, innate choice and learning are not established by that plasticity-off result. [Full result and every prediction](evidence/sensory-backtest-goal-2026-09-13/RESULT.md). V1 remains active and v2 paused; no push, deployment or model promotion.
 
 The backtest stopping condition has been met. Preserve this first confirmation and stop automatic tuning; broader biological and prospective claims require distinct future work.
 
@@ -28,7 +28,7 @@ Both teams can look like good food. A close matchup between two strong teams mus
 
 The sensory mapping is engineered. The fly is not expected to understand football, baseball or team names. A simulated feeding signal is not a living fly eating or evidence of subjective taste. We are testing how much useful, anatomically constrained computation survives this translation.
 
-## What changes now
+## September 13 sensory reorientation — retained rationale
 
 The immediate question changes from “which dopamine equation passes our old guard?” to “can this circuit distinguish and appropriately respond to a calibrated appetitive versus aversive sensory exposure?” A frozen-plasticity sensory assay does **not** depend on repairing associative learning first. Innate response, learned association and sports prediction are separate claims.
 
@@ -36,7 +36,7 @@ The existing sports-to-ALPN map assigns standardized feature values to ranked an
 
 The old dopamine work remains valuable evidence. Its accepted interfaces/gains, failed candidates, numerical oracles and SCI-001 HOLD remain intact. Preserve those controls when interpreting or reproducing those experiments. They are not a ban on the new sensory work. Molecular modeling resumes only to address a demonstrated limitation of the selected assay, with a bounded question and independent evidence; another source-model reproduction is not the default next milestone.
 
-## Milestones and decisions
+## Sensory milestones and decisions — original sequence
 
 | Stage | Required deliverable | Decision boundary |
 | --- | --- | --- |
@@ -47,7 +47,7 @@ The old dopamine work remains valuable evidence. Its accepted interfaces/gains, 
 | 5. Sports evaluation | Chronological held-out comparison with encoder-only, same-information conventional, frozen-circuit and appropriate ablation controls | Report the circuit's incremental contribution. If it merely follows a forecast already encoded as sweetness, say so. A sensory response score is not automatically a calibrated win probability. |
 | 6. Optional associative learning | Explicit cue/reinforcer timing, natural reward pathway, paired/unpaired/untaught/frozen controls and reversal from acquired state | Keep prediction-time sensory quality separate from outcome-time reinforcement. Define the biological claim and new gates before results; preserve all old failures. |
 
-Proceed through stages 1–5 under the active goal, with finite per-experiment limits. Stage 6 remains conditional on a specific measured need; no model-pointer switch or deployment is authorized. A biological-state assumption (for example hunger) must be disclosed; absence of a modeled gut does not license inventing its parameters or require building the entire gut first.
+The earlier stages 1–5 led to the completed sensory goal above; their automatic execution has stopped. Stage 6 was subsequently authorized under the separate associative protocol; no model-pointer switch or deployment is authorized. A biological-state assumption (for example hunger) must be disclosed; absence of a modeled gut does not license inventing its parameters or require building the entire gut first.
 
 ## Rules for the translation
 

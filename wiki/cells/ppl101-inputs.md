@@ -1,9 +1,11 @@
 ---
 type: cell-detail
-updated: 2026-09-13
+updated: 2026-09-14
 status: anatomy-verified-mechanism-under-investigation
 ---
 # PPL101 cells 11327 and 11900: inputs and feedback
+
+**Scope:** the detailed experiment claims below concern the legacy PPL101/MBON11 and PAM12/MBON09 investigation. Its failed or unresolved results remain unchanged. The separate PAM08/PAM01 circuit now has [qualified controlled conditioning](../associative-learning.md); that does not establish these molecular transfers or local dopamine exposure models.
 
 These are the two accepted home teaching neurons. Their released identities are
 `PPL101(y1ped)_R` (body 11327, retained index 1235) and

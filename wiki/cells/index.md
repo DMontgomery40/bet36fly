@@ -1,9 +1,11 @@
 ---
 type: atlas
-updated: 2026-09-13
+updated: 2026-09-14
 status: locally-derived-anatomy
 ---
-# Cells in the BET36FLY learning circuit
+# Cell atlas and experiment-specific roles
+
+The generated atlas below remains the **legacy reward selection** and broad cell inventory. Its “home/away” roles are historical. For the newer associative circuit, [DANs](dopamine.md#reward-compartments-in-the-associative-engine) and [MBONs](mbons.md#associative-and-sensory-outputs) bind 94 PAM08/PAM01 cells and four MBON05/MBON01 cells; [the checked anatomy record](../../docs/evidence/wiki-integration-2026-09-14/anatomy-and-storage.json) retains all exact IDs and separates 4,108 transmitting gain slots from 3,417 eligible edges. [Visual and downstream pathways](visual-and-downstream.md) cover the newer whole-graph research leads.
 
 The atlas contains **5,243 distinct retained cells**: the 4,064 KCs, 686 ALPNs, 97 MBONs, two APLs, and the union of annotated DANs and pure-dopamine-labeled cells. It covers the learning-related populations, not all 166,700 neurons. The rest of the retained graph still participates in recurrent simulation. Counts are recomputed from the local graph; no activity experiment was run for this export.
 

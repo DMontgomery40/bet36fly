@@ -1,60 +1,35 @@
 ---
 type: index
-updated: 2026-09-13
+updated: 2026-09-14
 status: active
 ---
-# BET36FLY: cells, circuits, and learning
+# BET36FLY: cells, circuits, and evidence
 
-**Current application — September 13:** the product now presents the frozen sensory confirmation, all MLB confirmation games, matchup-specific probe evidence, methods and downloads. Historical training, model selectors, prediction controls and brain replay are removed from the mounted UI. The default server no longer starts source-following. The v1 pointer, legacy code and frozen scientific artifacts remain preserved; they are not sensory predictions. [Current application contract](../docs/api-contract.md).
+BET36FLY uses the locked MaleCNS graph with modeled neural dynamics and engineered sports interfaces. Start with [what is established](reassessment.md), then follow the relevant topic below. Biology in flies, connectivity in this specimen, simulator mechanisms and predictive results are separate evidence levels.
 
-**Associative learning stage — September 13 evening.** Dopamine-gated KC→MBON plasticity is implemented on the actual circuit and passed controlled conditioning (conditioning-02) after a preserved failure (conditioning-01). [Contract](../docs/EXPERIMENT_ASSOCIATIVE.md), [evidence](../docs/evidence/associative-learning-2026-09-13/index.md), [handoff](../docs/ASSOCIATIVE_LEARNING_HANDOFF.md). The legacy learning-rule page below describes the historical PPL101/PAM12 diagnostic, not this engine.
+The frozen **2023 sensory confirmation passed** at 56.21% accuracy on 2,423 MLB games. A separate **associative engine passed controlled conditioning** and its selected recovery tests. **Added predictive benefit remains unestablished** in the recorded 2022 development comparisons. The product's probabilities still come from the frozen sensory confirmation; the learning page reports research separately. [Current results and limits](reassessment.md).
 
-**Backtest goal achieved.** The conditional historical confirmation passed; additional runs for this goal have stopped. See the measured result below.
+## Read by question
 
-## Latest evidence
+| Question | Main page | Supporting detail |
+| --- | --- | --- |
+| What works, what failed, and which data blocks are already used? | [Current reassessment](reassessment.md) | [Model card](../docs/MODEL_CARD.md), [dated associative evidence](../docs/evidence/associative-learning-2026-09-13/index.md) |
+| What do fruit odor, sugar and bitter inputs mean in cells and Hz? | [Natural sensory inputs](natural-sensory-inputs.md) | [Frozen sensory result](../docs/evidence/sensory-backtest-goal-2026-09-13/RESULT.md) |
+| How does the new circuit learn an association? | [Associative learning](associative-learning.md) | [Dopamine cells](cells/dopamine.md), [MBONs](cells/mbons.md), [KC support](cells/kenyon-cells.md) |
+| What do recovery and forgetting experiments show? | [Continual learning and interference](continual-learning.md) | [KC representations](cells/kenyon-cells.md) |
+| What could be tested next, and what would it establish? | [Organized research directions](research-directions.md) | [Original Claude memo](../docs/ASSOCIATIVE_NEXT_APPROACHES.md) |
+| What anatomy supports vision, lateral-horn integration and choice? | [Visual and downstream pathways](cells/visual-and-downstream.md) | [Cell atlas](cells/index.md), [anatomical identities](cells/identities.md) |
+| How are claims qualified? | [Evidence gates](evidence-gates.md) | [Verification records](verification.md) |
+| What happened in the older reward experiment? | [Legacy learning rule](learning-rule.md) | [Legacy failure account](reassessment.md#legacy-learning-account--september-13-utc), [PPL101 inputs](cells/ppl101-inputs.md) |
 
-The frozen sensory pipeline passed its predefined 2023 MLB confirmation: **56.21% accuracy on 2,423 games**, with a 95% paired-week bootstrap interval of **54.42–58.02%**. Log loss was **0.680493**, better than uniform chance and the training prior with the declared bounds. Incremental benefit over the encoder alone remains unproven. The qualified sensory stage is a conditional Clavicle/Quasimodo response with an external comparison of independent probes; feeding, innate choice and neural learning remain unqualified. [Full result and every prediction](../docs/evidence/sensory-backtest-goal-2026-09-13/RESULT.md). V1 remains active and v2 paused; no push, deployment or model promotion.
+## Cell and mechanism reference
 
-Start with the [current direction](../docs/PROJECT_DIRECTION.md), [reassessment](reassessment.md), and [natural sensory inputs](natural-sensory-inputs.md). David's September 13 reorientation puts a calibrated food-related sensory-response assay first, then two distinguishable matchup opportunities. Both teams can be attractive. The separate offline sensory interface is implemented; the production model remains unchanged. The [continuation prompt](../docs/NATURAL_SENSORY_HANDOFF.md) supersedes the old repair queue.
+The [cell atlas](cells/index.md) connects exact IDs to roles in each experiment. General cell pages cover [ALPNs and odor inputs](cells/alpn.md), [APL inhibition](cells/apl.md), [KCs](cells/kenyon-cells.md), [DANs](cells/dopamine.md), [MBONs](cells/mbons.md) and [neurochemistry](cells/neurochemistry.md). Specialized legacy investigations cover [synapse localization](cells/synapse-localization.md), [dopamine receptors](cells/dopamine-receptor-signaling.md), [KC lateral signaling](cells/kc-lateral-signaling.md) and [separate induction/expression states](cells/cyclic-nucleotide-plasticity.md). Their negative results remain attached to their original protocols.
 
-A usable activity range and changing gains have been demonstrated in the legacy mushroom-body experiment; useful associative learning has not. This wiki connects MaleCNS cells to implemented mechanisms, measured failures and the evidence needed for the new sensory task.
+## Sources, history and continuation
 
-The repair is integrated, but both corrected raw-event and rate-bridge rules fail
-the second panel's untaught-home guard. A later fixed-history investigation made
-that failure worse. A subsequent fixed rate-adaptation shadow produced excessive
-potentiation and failed all four home groups; acquisition and reversal have not run. The
-[current evidence index](../docs/evidence/reward-mechanism-repair-2026-09-12/index.md)
-preserves those results. Dates use UTC; the
-[initial workspace record](../docs/evidence/reassessment-2026-09-12/index.md)
-remains a dated snapshot.
+- [Primary source ledger](sources.md) and [community comparisons](community.md).
+- [Canonical direction](../docs/PROJECT_DIRECTION.md), [current associative handoff](../docs/ASSOCIATIVE_LEARNING_HANDOFF.md), [current application contract](../docs/api-contract.md). The natural-sensory handoff is historical; its completed result is preserved.
+- [Wiki conventions](SCHEMA.md), [change log](log.md), [research integration coverage and corrections](../docs/evidence/wiki-integration-2026-09-14/reconciliation.md).
 
-## Cell reference
-
-| Question | Read |
-| --- | --- |
-| What firing rates do fruit-related odors and sugar actually evoke? | [Measured sensory responses, exact units and candidate MaleCNS inputs](natural-sensory-inputs.md) |
-| Which exact cells and synapses are involved? | [Cell atlas](cells/index.md), [individual identities and subtype counts](cells/identities.md) |
-| How do sports features reach the circuit? | [ALPN inputs and the glomerular proxy](cells/alpn.md) |
-| Which Kenyon cells can learn, and why is the away mask different? | [KC families and synaptic support](cells/kenyon-cells.md) |
-| Why did inhibition silence the readout? | [The two APL cells](cells/apl.md) |
-| What do PPL101 and PAM12 actually do here? | [Dopamine neurons and teaching channels](cells/dopamine.md) |
-| Where are DAN contacts relative to KC→MBON sites? | [Synapse locations: observed metadata and missing coordinates](cells/synapse-localization.md) |
-| Is MBON09 exclusively γ3? | [MBON identities, compartments, and readout](cells/mbons.md) |
-| What about other transmitters, receptors, and glia? | [Cell biology represented and omitted](cells/neurochemistry.md) |
-
-## Mechanism and experiment
-
-- [Current state and what went wrong](reassessment.md)
-- [Circuit and learning-rule contract](learning-rule.md)
-- [Conditioning, controls, and evidence gates](evidence-gates.md)
-- [Community results and what transfers to this experiment](community.md)
-- [Primary sources and retrieval limits](sources.md)
-- [Maintenance conventions](SCHEMA.md), [change log](log.md), [verification](verification.md)
-
-## Copied Microduck research
-
-All 38 source wiki files, including every fly-specific passage in mixed-topic pages, are preserved byte-for-byte in the [Microduck snapshot](imports/microduck-2026-09-12/README.md). The copy also retains its source records, licensed upstream excerpts, and two local references so its compiled-wiki links resolve. Microduck's originals remain in place. Robot-only context is retained for completeness; it does not define BET36FLY's architecture or authorize training.
-
-Useful entry points: [MaleCNS](imports/microduck-2026-09-12/wiki/connectome/index.md), [embodiment research](imports/microduck-2026-09-12/wiki/connectome/embodiment-research.md), [fly community](imports/microduck-2026-09-12/wiki/community/fly-ecosystem.md), [Flyhard](imports/microduck-2026-09-12/wiki/community/flyhard.md), [Microfly](imports/microduck-2026-09-12/wiki/community/joint-projects.md), [training roles](imports/microduck-2026-09-12/wiki/synthesis/training-and-deployment.md), and [GPU considerations](imports/microduck-2026-09-12/wiki/compute/gpu-selection.md).
-
-Existing project documents remain connected: [model card](../docs/MODEL_CARD.md), [plain-language fly guide](../docs/FLY_GUIDE.md), [reward protocol](../docs/EXPERIMENT_REWARD.md), and [historical measurements](../docs/evidence/reward-v3-summary.md).
+All 38 original Microduck wiki files and their referenced source layer remain byte-preserved in the [copied snapshot](imports/microduck-2026-09-12/README.md). Its instructions and robot-specific goals are historical source context. Useful entries: [MaleCNS](imports/microduck-2026-09-12/wiki/connectome/index.md), [embodiment research](imports/microduck-2026-09-12/wiki/connectome/embodiment-research.md), [fly ecosystem](imports/microduck-2026-09-12/wiki/community/fly-ecosystem.md), [Flyhard](imports/microduck-2026-09-12/wiki/community/flyhard.md), [joint projects](imports/microduck-2026-09-12/wiki/community/joint-projects.md), and [training roles](imports/microduck-2026-09-12/wiki/synthesis/training-and-deployment.md).

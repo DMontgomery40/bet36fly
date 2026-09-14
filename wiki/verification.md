@@ -1,9 +1,13 @@
 ---
 type: verification
-updated: 2026-09-13
+updated: 2026-09-14
 status: dated-verification-records
 ---
 # Verification of this wiki integration
+
+## Research integration — September 14
+
+The [current integration verification](../docs/evidence/wiki-integration-2026-09-14/verification.md) covers authored-page organization, local links/anchors, source attribution, static anatomy/storage checks, protected files and the repository gate. This was documentation work; no experiment was launched. The records below retain their historical timestamps and test scopes. “Conditioning unrun” and “no sensory assay” in those entries are not current project-wide claims.
 
 ## Sensory calibration checkpoint — September 13
 

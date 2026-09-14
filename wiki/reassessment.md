@@ -1,25 +1,40 @@
 ---
 type: assessment
-updated: 2026-09-13
-status: natural-sensory-priority-legacy-learning-unvalidated
+updated: 2026-09-14
+status: conditioning-qualified-predictive-contribution-unestablished
 ---
-# Where BET36FLY stands, and what went wrong
+# Where BET36FLY stands
 
-**Current application — September 13:** the product now presents the frozen sensory confirmation, all MLB confirmation games, matchup-specific probe evidence, methods and downloads. Historical training, model selectors, prediction controls and brain replay are removed from the mounted UI. The default server no longer starts source-following. The v1 pointer, legacy code and frozen scientific artifacts remain preserved; they are not sensory predictions. [Current application contract](../docs/api-contract.md).
+This is the current evidence summary. Detailed mechanisms belong in the linked topic pages and numerical tables in dated evidence. Older sections below retain their original scope and dates; they do not override later experiments in different circuits.
 
-**Associative learning stage — September 13 evening (updated September 14 UTC).** A new engine implements the biological KC-then-dopamine depression / dopamine-then-KC potentiation rule on the γ4 (PAM08→MBON05) and γ5 (PAM01→MBON01) compartments of the actual graph. Measured before learning: sweet taste evokes no dopamine spike at 0.11 mV/contact (the natural reward pathway is unresolved; the reinforcer is engineered), raw ORN odor runs the antennal lobe away unless local-neuron output is zeroed, and the spiking APL proxy silences MBON05/MBON01 unless zeroed. Conditioning-01 failed its predeclared criteria (readout, null-set and cue-overlap design errors, diagnosed and preserved); conditioning-02 passed acquisition, retention, reversal, causal lesion, timing, cue-identity and order criteria with independent recomputation. [Evidence](../docs/evidence/associative-learning-2026-09-13/index.md). Sports contribution is a separate question answered in [the handoff](../docs/ASSOCIATIVE_LEARNING_HANDOFF.md).
+## Four questions, separate answers
 
-**Backtest goal achieved.** The conditional historical confirmation passed; additional runs for this goal have stopped. See the measured result below.
+| Question | Recorded answer | Evidence |
+| --- | --- | --- |
+| Is dopamine-dependent plasticity implemented in the circuit? | Yes, in the separate associative engine; engineered odor/reinforcer interfaces and declared interventions | [Rule, state and measured links](associative-learning.md) |
+| Has controlled conditioning qualified? | Conditioning-01 failed; conditioning-02 passed; conditioning-03 passed at all four tested recovery settings | [Conditioning account](associative-learning.md#conditioning-preserve-the-failed-design-and-the-qualified-successor) |
+| Does plasticity improve prediction? | Not established in the recorded 2022 development comparisons, with or without recovery | [Prediction evidence](#prediction-evidence-and-data-use) |
+| Does the product use a learned associative checkpoint for its probabilities? | No; it serves the frozen sensory confirmation. The learning page exposes separate evidence, explicit jobs and checkpoint probes | [Application contract](../docs/api-contract.md) |
 
-## Latest calibration checkpoint
+## Prediction evidence and data use
 
-The frozen sensory pipeline passed its predefined 2023 MLB confirmation: **56.21% accuracy on 2,423 games**, with a 95% paired-week bootstrap interval of **54.42–58.02%**. Log loss was **0.680493**, better than uniform chance and the training prior with the declared bounds. Incremental benefit over the encoder alone remains unproven. The qualified sensory stage is a conditional Clavicle/Quasimodo response with an external comparison of independent probes; feeding, innate choice and neural learning remain unqualified. [Full result and every prediction](../docs/evidence/sensory-backtest-goal-2026-09-13/RESULT.md). V1 remains active and v2 paused; no push, deployment or model promotion.
+The **plasticity-off sensory pipeline** passed its predefined 2023 MLB confirmation: 1,362 correct of 2,423 games, **56.21% accuracy**, 95% weekly-block bootstrap interval **54.42–58.02%**, log loss **0.680493**. This is a complete fitted historical pipeline with an engineered pregame encoder and external probability readout. Incremental benefit over encoder-only and same-information baselines remains unestablished. It is not evidence of dopamine learning, feeding, in-circuit choice, prospective performance or profit. [Frozen result](../docs/evidence/sensory-backtest-goal-2026-09-13/RESULT.md).
 
-**The immediate gap is a biologically grounded sensory task.** David's September 13 reorientation calls for food-related input patterns that represent two matchup opportunities, allowing both to be attractive. The legacy sports-to-ALPN type assignment has no fruit/sugar calibration. First demonstrate a finite plasticity-off natural-response assay; then distinguish two opportunities and evaluate pregame encoding. [Canonical direction](../docs/PROJECT_DIRECTION.md), [source rates and cell inventory](natural-sensory-inputs.md), [audit](../docs/evidence/natural-sensory-reorientation-2026-09-13/index.md), [handoff](../docs/NATURAL_SENSORY_HANDOFF.md).
+The **associative sports stage** uses 2022 as development: 1,137 games for the fixed readout-fitting procedure and 1,292 later games for evaluation. No-recovery and recovery circuits each tested three declared learning rates against frozen/shuffled twins and conventional baselines. At the selected recovery η = 4e-5, log loss is **0.674268**, versus frozen **0.673896** and encoder **0.668847**. Recovery-minus-frozen is **+0.000372**, interval **[−0.000806, +0.001456]**; recovery-minus-encoder is **+0.005420**, interval **[+0.000787, +0.010243]**. Lower loss is better. Thus the circuit did not establish incremental plasticity benefit and was worse than the encoder under this development comparison. Non-significant twin differences are not proof of equivalence. [Baseline](../docs/evidence/associative-learning-2026-09-13/sports-development.md), [recovery results](../docs/evidence/associative-learning-2026-09-13/sports-recovery.md).
 
-The drift was turning repair of a specific learning guard into the overall objective and freezing an arbitrary sensory interface indefinitely. Numerical/source-model verification remains useful, but it does not demonstrate the requested sensory behavior. Innate response does not require associative learning to qualify first. The earlier zero-call documentation checkpoint is preserved; later failed assay results have their own identities.
+2019–2021 trained the sensory encoder; 2022 is development; 2023 is an already used confirmation; historical v1/v2 also exposed later seasons. The 2018 associative candidate was frozen at η = 4e-5 and ρ = 0.005. Claude's session reports its single confirmation attempt launched; no completed confirmation result was present in the local evidence/output directories at this integration's cutoff. That is a session-reported launch, not a live remote-job verification or an inferred result. Do not launch it again or treat 2018 as unused. [Cutoff and provenance](../docs/evidence/wiki-integration-2026-09-14/reconciliation.md), [working handoff](../docs/ASSOCIATIVE_LEARNING_HANDOFF.md).
 
-We have real anatomical connectivity, an executing spiking circuit and measured gain changes. Controlled acquisition, reversal and incremental neural predictive value remain unestablished. The biological approach is not refuted by these engineered failures. The dated account below preserves the **legacy learning** state; its next-step language is superseded by the natural-sensory handoff.
+## What the new research resolved—and what it did not
+
+The associative stage measured usable odor→KC→MBON responses with explicit ALLN/APL interventions, then demonstrated controlled synaptic learning using an engineered PAM reinforcer. It did not resolve natural sweet→dopamine transmission at the selected coupling. A conditional second-order Clavicle/Quasimodo response is established separately; MN9 feeding qualification remains failed. [Sensory evidence](natural-sensory-inputs.md), [associative links](associative-learning.md#measured-links-and-declared-interventions).
+
+Recovery restored dynamic range during repeated associations. The retired-cue experiment exposed continued depression while other, overlapping cues were reinforced, motivating interference analysis. Neither result established a sports advantage. [Continual learning](continual-learning.md).
+
+The [research directions](research-directions.md) integrate richer readouts, temporal reservoirs, residual reinforcement, interference reduction, visual pathways, lateral-horn integration, physiological calibration and downstream choice. They are proposals with finite questions and controls, not completed mechanisms. The [canonical direction](../docs/PROJECT_DIRECTION.md) and [current handoff](../docs/ASSOCIATIVE_LEARNING_HANDOFF.md) own execution scope. No model is promoted by this documentation.
+
+## Preserved legacy context
+
+SCI-001 remains HOLD for the PPL101/MBON11–PAM12/MBON09 reward diagnostic. Its failed shadows remain rejected and its gated conditioning program remains unrun. Those failures do not contradict later controlled conditioning on the separate PAM08/MBON05–PAM01/MBON01 associative engine. The historical v1 pointer remains preserved and v2 paused; neither is relabeled as a sensory or associative prediction.
 
 ## Legacy learning account — September 13 UTC
 

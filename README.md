@@ -43,9 +43,9 @@ node scripts/verify_sensory_browser.cjs /tmp/bet36fly-sensory-browser
 
 The backtest stopping condition is fulfilled. Do not tune on 2023, repeat it as an unused holdout, resume paused experiments or promote a model. New scientific work needs a distinct objective and experiment identity. Local changes are committed on the working branch; pushing and deployment remain David's decision.
 
-- [Current direction](docs/PROJECT_DIRECTION.md) and [handoff](docs/NATURAL_SENSORY_HANDOFF.md).
+- [Current direction](docs/PROJECT_DIRECTION.md) and [handoff](docs/ASSOCIATIVE_LEARNING_HANDOFF.md).
 - [Model card and retained historical results](docs/MODEL_CARD.md).
-- [Authored cell/circuit wiki](wiki/index.md), [reassessment](wiki/reassessment.md) and [sensory-rate evidence](wiki/natural-sensory-inputs.md).
+- [Organized knowledge wiki](wiki/index.md): [current evidence](wiki/reassessment.md), [associative learning](wiki/associative-learning.md), [recovery/interference](wiki/continual-learning.md), [sensory rates](wiki/natural-sensory-inputs.md) and [future research directions](wiki/research-directions.md).
 - [Locked MaleCNS source](docs/connectome-source-lock.json). Attribution: Berg et al.; HHMI Janelia, Cambridge, MRC LMB and Google Research, CC BY 4.0.
 - [Shiu reference simulator](https://github.com/philshiu/Drosophila_brain_model), on female FlyWire; its stimulation settings are not measurements of natural sugar input.
 

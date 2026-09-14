@@ -1,13 +1,30 @@
 ---
 type: experimental-reasoning
-updated: 2026-09-13
-status: qualification-failed-conditioning-unrun
+updated: 2026-09-14
+status: current-and-legacy-gates-separated
 ---
 # Evidence required for a learning claim
 
-**Scope:** the numerical guard and conditioning sequence below belong to the legacy dopamine experiment. The [current direction](../docs/PROJECT_DIRECTION.md) first requires a separate plasticity-off sensory-response assay. Its gates are source/cell/units validation, measured input and output response, then controlled two-opportunity presentation. That narrower assay does not require SCI-001 to pass. An external comparison of two probes is not an in-circuit choice, and either result is distinct from associative learning or sports usefulness.
+## Current evidence levels
 
-The active scientific hold is **SCI-001: untaught-home change exceeds the predeclared
+| Level | What establishes it | Current record |
+| --- | --- | --- |
+| Anatomy | Source lock, exact IDs and directed contacts | Retained MaleCNS graph and source-aligned inventories |
+| Numerical implementation | Independent formula/state/disabled-learning checks | Verified software, distinct from scientific qualification |
+| Conditional sensory response | Source/cell/unit match, output, timing, recovery and independent repeats | Narrower Clavicle/Quasimodo assay passed; feeding did not |
+| Cue-specific associative learning | Acquisition, retention, reversal, timing, identity and causal controls | Conditioning-02/03 passed in the new associative circuit; conditioning-01 remains failed |
+| Incremental prediction | Frozen, shuffled, encoder-only and same-information comparators with chronological evaluation and paired uncertainty | Unestablished on 2022 development; the separate 2023 complete sensory pipeline beat chance |
+| Application use | A named checkpoint actually supplies the displayed prediction | Associative checkpoints are not promoted; product probabilities remain frozen sensory results |
+
+[Associative mechanism and controls](associative-learning.md), [recovery selection](continual-learning.md), [current result/data-use status](reassessment.md). The new protocol's backward arm is a directional control, not an assumed null; reversal with backward erasure is distinct from passive extinction. Qualification under that protocol does not relabel legacy failures.
+
+A proposed architecture must predeclare its own finite question. A mechanism assay does not require unused sports outcomes. A new prediction claim requires a justified frozen evaluation design: 2023 is already exposed and the 2018 attempt must not be repeated. Page loads and wiki maintenance authorize no neural runs.
+
+## Legacy reward gate and conditioning program
+
+The following guard, masks, controls and call budgets belong only to the historical reward experiment. They are not universal requirements for every sensory or associative protocol.
+
+The legacy scientific hold is **SCI-001: untaught-home change exceeds the predeclared
 operational guard**. Corrected raw panel `e3d8898dc68a` fails at home/base mean
 −0.515622884 against absolute limit 0.489777884. Bridge panel `dea14759e9ca` fails
 at −0.272640035 against 0.240845235. The onset-history shadow was also rejected.
@@ -15,7 +32,7 @@ at −0.272640035 against 0.240845235. The onset-history shadow was also rejecte
 The following sequence describes evidence still needed; conditioning and reversal
 have not run.
 
-## Keep four levels separate
+## Legacy evidence at its stopping point
 
 | Level | What would establish it | Current evidence |
 | --- | --- | --- |

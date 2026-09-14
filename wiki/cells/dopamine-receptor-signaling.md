@@ -1,9 +1,11 @@
 ---
 type: mechanism
-updated: 2026-09-13
+updated: 2026-09-14
 status: source-tested-transfer-unresolved
 ---
 # From a DAN spike to plasticity in a particular KC
+
+**Scope:** the detailed experiment claims below concern the legacy PPL101/MBON11 and PAM12/MBON09 investigation. Its failed or unresolved results remain unchanged. The separate PAM08/PAM01 circuit now has [qualified controlled conditioning](../associative-learning.md); that does not establish these molecular transfers or local dopamine exposure models.
 
 **A DAN spike, local dopamine exposure and a KC's intracellular response are
 different quantities.** MaleCNS provides the cells and contacts. The current
