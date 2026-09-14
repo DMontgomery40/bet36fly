@@ -5,6 +5,10 @@ status: active
 ---
 # Wiki change log
 
+## September 14 UTC — fast-weight navigation candidate inspected and partly reproduced
+
+Added Peter Wang's MaleCNS/hemibrain hΔ fast-weight navigation proposal to the [community assessment](community.md), [source ledger](sources.md), [central-complex anatomy](cells/visual-and-downstream.md), [continual-learning distinction](continual-learning.md), [current reassessment](reassessment.md) and [research direction B](research-directions.md). Inspected commit `3e6a266`, including its next-day correction audit; reproduced the corrected deterministic eight-bin route simulation byte-for-byte. Recorded that the work nominates a synaptic-state path-integration assay but does not demonstrate hΔ plasticity, causal dopamine/octopamine gating, full-connectome navigation or BET36FLY's associative mechanism. The frozen sensory/associative results, current handoff and product pointer were unchanged. [Inspection record](../docs/evidence/community-sources-2026-09-14/fast-weight-navigation.md).
+
 ## September 14 UTC — FlyOCR community source inspected
 
 Added Jerry Liu's FlyOCR (fixed MaleCNS v1.0 glyph recognition, DOOMFLY kernel lineage) to [community](community.md), [sources](sources.md), the [visual pathway page](cells/visual-and-downstream.md) and [research directions](research-directions.md) as a community report with an inspected implementation at commit 48cf341; nothing reproduced. Recorded that it pins the same three source files as our lock, that its released-column eye map is the prerequisite our visual page names, and that its own controls show a conventional classifier beats the circuit on identical pixels. [Inspection record](../docs/evidence/community-sources-2026-09-14/flyocr.md).

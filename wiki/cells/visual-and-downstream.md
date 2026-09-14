@@ -59,6 +59,12 @@ Westeinde et al. studied transformation of heading signals into steering command
 
 The first question is whether simultaneous alternatives evoke stable lateralized responses that reverse with identity/side swaps and survive appropriate controls. A sensory-to-motor claim requires a measured downstream chain, not Python subtraction of two independently reset probes. None of this follows solely from retaining these neurons in a whole-graph integrator. Physiological calibration of inhibition and response dynamics should precede functional claims for the new routes.
 
+### Fast synaptic journey-vector candidate
+
+Wang's September 14 MaleCNS analysis nominates hΔH, hΔA, hΔI and hΔG as possible column-wise stores downstream of the hΔB world-relative travel signal. Under the repository's ≥10-contact audit, the proposed motif is incomplete rather than uniform: FB4M dopamine covers hΔA and hΔI, FB5H covers hΔH, hΔG lacks an equivalent dopamine gate; OA-VPM3 octopamine covers hΔH and most hΔG cells but only part of hΔA and almost none of hΔI. Outputs reach FC2/PFL routes, but the corrected model needs hΔA→hΔI or FC2B→hΔM inversion to point home, and the stronger direct routes still point away.
+
+Those are released-connectome relationships and author-derived contact/column summaries, not functional identities. MaleCNS supplies graph edges, annotations and transmitter predictions separately; it does not supply receptor action, effective weight, plasticity sign, eligibility timing or a food-triggered reset. The inspected implementation imposes the weight update in a reduced eight-angle model rather than discovering it by running the full graph. The deterministic corrected simulation reproduced, but the raw graph derivation and biology did not. [Community assessment](../community.md#fast-weight-navigation-candidate--inspected-and-partly-reproduced-september-14-2026) · [inspection record](../../docs/evidence/community-sources-2026-09-14/fast-weight-navigation.md).
+
 ## Other sensory channels
 
 The retained class inventory includes 2,558 `mechanosensory_tactile`, 1,454 `mechanosensory_proprioceptive`, 1,733 `mechanosensory`, 66 `hygrosensory` and 25 `thermosensory` cells. Encoding rest, travel or score histories through these channels would be an engineered input assignment requiring its own calibration and same-information comparator. Those annotations do not provide a natural baseball code.

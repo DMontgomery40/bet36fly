@@ -17,6 +17,7 @@ The frozen **2023 sensory confirmation passed** at 56.21% accuracy on 2,423 MLB 
 | What do fruit odor, sugar and bitter inputs mean in cells and Hz? | [Natural sensory inputs](natural-sensory-inputs.md) | [Frozen sensory result](../docs/evidence/sensory-backtest-goal-2026-09-13/RESULT.md) |
 | How does the new circuit learn an association? | [Associative learning](associative-learning.md) | [Dopamine cells](cells/dopamine.md), [MBONs](cells/mbons.md), [KC support](cells/kenyon-cells.md) |
 | What do recovery and forgetting experiments show? | [Continual learning and interference](continual-learning.md) | [KC representations](cells/kenyon-cells.md) |
+| What does the new hΔ fast-weight navigation proposal establish? | [Community source assessment](community.md#fast-weight-navigation-candidate--inspected-and-partly-reproduced-september-14-2026) | [Central-complex anatomy and limits](cells/visual-and-downstream.md#fast-synaptic-journey-vector-candidate), [inspection record](../docs/evidence/community-sources-2026-09-14/fast-weight-navigation.md) |
 | What could be tested next, and what would it establish? | [Organized research directions](research-directions.md) | [Original Claude memo](../docs/ASSOCIATIVE_NEXT_APPROACHES.md) |
 | What anatomy supports vision, lateral-horn integration and choice? | [Visual and downstream pathways](cells/visual-and-downstream.md) | [Cell atlas](cells/index.md), [anatomical identities](cells/identities.md) |
 | How are claims qualified? | [Evidence gates](evidence-gates.md) | [Verification records](verification.md) |

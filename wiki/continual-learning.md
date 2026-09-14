@@ -13,6 +13,12 @@ Fly experiments distinguish dopamine-dependent forgetting, restoration of depres
 
 Jiang and Litwin-Kumar's 2021 model motivates an additional dopamine-dependent potentiation term for long association sequences: bounded weights otherwise accumulate near their lower limit. Their Eq. 5 and Fig. 7 are a model precedent. BET36FLY adds its own gate and resting bound; it does not claim a literal reproduction of their equation or natural forgetting in this specimen. [Primary model](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009205).
 
+## Fast synaptic path integration is a different memory problem
+
+Peter Wang's [MaleCNS navigation analysis](community.md#fast-weight-navigation-candidate--inspected-and-partly-reproduced-september-14-2026) proposes storing a journey vector in rapidly changing central-complex synaptic strengths on hΔH, hΔA, hΔI or hΔG. That state would be written while the fly walks and re-zeroed at food. It is therefore a candidate within-journey working-memory/path-integration mechanism, not evidence for the cross-trial KC→MBON association, recovery or interference measured on this page.
+
+The released implementation uses an imposed additive weight vector in an eight-bin rate model; it does not implement the candidate dopamine/octopamine cells as causal write/reset signals. Its corrected route simulation reproduced here, but no synaptic plasticity has been measured in those hΔ cells and activity-based storage remains possible. A future BET36FLY synaptic-state reservoir would require a new experiment identity and its own write, retention, read, reset, pathway-intervention and matched-null controls. It cannot inherit conditioning-02/03 qualification. [Inspection record](../docs/evidence/community-sources-2026-09-14/fast-weight-navigation.md).
+
 ## What circuit-02 adds
 
 For an eligible edge with **no current KC spike and exactly zero KC eligibility trace**, positive compartment dopamine trace and gain below rest:
