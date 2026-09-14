@@ -8,6 +8,12 @@ import App from './App';
 vi.stubGlobal('window', { location: { hash: '#overview' } });
 describe('sensory application navigation', () => {
   it.each(['#training', '#ledger', '#desk', '#observatory', '#v1', '#v2', '#bogus', ''])('retires old bookmark %s', hash => expect(route(hash)).toBe('overview'));
+  it('resolves every mounted page hash to its own page', () => {
+    expect(route('#circuit')).toBe('circuit');
+    expect(route('#learning')).toBe('learning');
+    expect(route('#methods')).toBe('methods');
+    expect(route('#overview')).toBe('overview');
+  });
   it('routes encoded MLB details without losing fixture identity', () => {
     const hash = '#backtest/' + encodeURIComponent('baseball:mlb:718780');
     expect(route(hash)).toBe('backtest'); expect(selectedGame(hash)).toBe('baseball:mlb:718780');

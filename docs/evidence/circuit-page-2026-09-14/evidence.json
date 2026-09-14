@@ -1,0 +1,79 @@
+{
+  "base": "http://127.0.0.1:8766",
+  "guard": {
+    "verification_mode": true,
+    "marker": "read-only"
+  },
+  "checks": [
+    "circuit page reached from the header nav and kept on its own hash",
+    "displayed and retained counts come from the payload",
+    "the KC to MBON layer is named anatomically, never plastic or learned",
+    "layer toggle changes only what is displayed",
+    "hovering a real node previews it and clicking opens the inspector",
+    "explainer topics pin into the inspector and close with Escape",
+    "every rendered text size clears the 11px legibility floor",
+    "desktop screenshot at device scale factor 1",
+    "no horizontal overflow from 320 px upward",
+    "the circuit page runs no simulator and issues only GET reads",
+    "connectome error state, explicit retry and recovery",
+    "empty geometry states plainly that nothing can be drawn"
+  ],
+  "errors": [],
+  "consoleMessages": [
+    {
+      "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)",
+      "expected": true
+    }
+  ],
+  "requests": [
+    {
+      "url": "http://127.0.0.1:8766/api/sensory/summary",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:8766/api/brain",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:8766/api/brain",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:8766/api/sensory/summary",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:8766/api/brain",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:8766/api/sensory/summary",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:8766/api/brain",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:8766/api/brain",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:8766/api/sensory/summary",
+      "method": "GET"
+    }
+  ],
+  "browser": "Playwright Chromium; Browser plugin unavailable",
+  "device_scale_factor": 1,
+  "synthetic_states": [
+    "503 brain",
+    "empty geometry"
+  ],
+  "screenshots": [
+    "circuit-desktop-1920.png",
+    "circuit-empty.png",
+    "circuit-error.png",
+    "circuit-inspector-desktop.png",
+    "circuit-mobile-320.png"
+  ]
+}

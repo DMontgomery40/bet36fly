@@ -21,20 +21,22 @@ Open [BET36FLY locally](http://127.0.0.1:8765/#overview).
 - **Overview:** full confirmation, uncertainty, comparator performance and claim boundaries.
 - **Backtest explorer:** every eligible game, team/date filters, probabilities, outcomes and matchup details.
 - **Pipeline & methods:** chronological splits, independent qualities, sensory probes, output measurements, provenance and exact frozen downloads.
+- **Circuit:** the MaleCNS v1.0 anatomy the simulator runs on, drawn as a sampled soma projection with a strong-edge overlay, anatomy layer filters and a neuron inspector. It shows released wiring only: no activity, prediction or learned parameter, and no page control changes any computation.
 
-Each matchup shows its persisted quality scores and uncertainty, reconstructed recruited body IDs and requested rates, and recorded Clavicle/ANXXX462a and Quasimodo/GNG042 responses. A lookup reuses previously simulated probes; it never starts a neural run. Achieved per-cell input rates are explicitly unavailable in this adapter. The old brain animation, model selectors, training dashboards and live-pick workflows are no longer mounted. Old bookmarks resolve to the overview.
+Each matchup shows its persisted quality scores and uncertainty, reconstructed recruited body IDs and requested rates, and recorded Clavicle/ANXXX462a and Quasimodo/GNG042 responses. A lookup reuses previously simulated probes; it never starts a neural run. Achieved per-cell input rates are explicitly unavailable in this adapter. The old brain spike animation, model selectors, training dashboards and live-pick workflows are no longer mounted; the Circuit page draws released anatomy only, with no activity replay. Old bookmarks resolve to the overview.
 
 The default server does not warm the old model or follow sports sources. It leaves `output/current-model.json` unchanged. Historical code, checkpoints, ledgers, research and failed results remain on disk; none are relabeled as sensory evidence. The retired backend endpoints remain separate compatibility APIs. [Current API contract](docs/api-contract.md).
 
 ## Installation and verification
 
-Requires Python 3.12, `uv` and Node.js/npm. Install dependencies with `make setup`. The current application reads the frozen files named in `configs/sensory-application-lock.json`; missing, incomplete, symlinked or corrupt evidence produces an explicit unavailable state. Opening the application requires no source retrieval, fit, confirmation rerun or large neural-data load.
+Requires Python 3.12, `uv` and Node.js/npm. Install dependencies with `make setup`. The current application reads the frozen files named in `configs/sensory-application-lock.json`; missing, incomplete, symlinked or corrupt evidence produces an explicit unavailable state. Opening the sensory pages requires no source retrieval, fit, confirmation rerun or neural-data load. The Circuit page additionally reads the prepared connectome geometry from `data/brain`, which loads released anatomy and caches it; it builds no simulator and runs no dynamics.
 
 ```sh
 make verify
 make serve-verify
 # In another terminal, with the existing Playwright package available:
 node scripts/verify_sensory_browser.cjs /tmp/bet36fly-sensory-browser
+node scripts/verify_circuit_browser.cjs
 ```
 
 `make verify` runs pytest, Ruff, vitest and the production build. Rebuild before browser checks. If 8765 is occupied, use `make serve-verify QA_PORT=8766` and set `BET36FLY_BASE_URL=http://127.0.0.1:8766` for the browser command. The guard checks the exact read-only server marker before Chromium starts. The acceptance suite covers real results, filtering, details, downloads, loading/empty/error recovery, old URLs and desktop/mobile layouts. The old reward/desk browser commands now launch this current suite.

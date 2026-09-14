@@ -1,6 +1,6 @@
 # Working rules for bet36fly
 
-**Current application — September 13:** the product now presents the frozen sensory confirmation, all MLB confirmation games, matchup-specific probe evidence, methods and downloads. Historical training, model selectors, prediction controls and brain replay are removed from the mounted UI. The separate associative Learning page presents mechanism evidence and explicit research jobs; it does not replace the frozen sensory predictions. The default server no longer starts source-following. The v1 pointer, legacy code and frozen scientific artifacts remain preserved; they are not sensory predictions. [Current application contract](docs/api-contract.md).
+**Current application — September 13:** the product now presents the frozen sensory confirmation, all MLB confirmation games, matchup-specific probe evidence, methods and downloads. Historical training, model selectors, prediction controls and brain replay are removed from the mounted UI. The separate associative Learning page presents mechanism evidence and explicit research jobs, and the Circuit page draws the released MaleCNS anatomy as a sampled, display-only soma projection with no activity; neither replaces the frozen sensory predictions. The default server no longer starts source-following. The v1 pointer, legacy code and frozen scientific artifacts remain preserved; they are not sensory predictions. [Current application contract](docs/api-contract.md).
 
 ## Identity
 

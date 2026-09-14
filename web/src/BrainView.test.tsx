@@ -1,13 +1,14 @@
 import { beforeEach, expect, it, vi } from 'vitest';
 import type { ReactElement, ReactNode } from 'react';
-import type { Brain, BrainNode } from './types';
+import type { Brain, BrainCategory, BrainNode } from './types';
 const host = vi.hoisted(() => ({ state: [] as unknown[], cursor: 0, refs: [] as { current: unknown }[], refCursor: 0, effects: [] as (() => unknown)[] }));
 vi.mock('react', async original => ({ ...await original<typeof import('react')>(),
   useState: (value: unknown) => { const i = host.cursor++; if (!(i in host.state)) host.state[i] = value; return [host.state[i], (v: unknown) => { host.state[i] = typeof v === 'function' ? v(host.state[i]) : v; }]; },
   useRef: (value: unknown) => { const i = host.refCursor++; if (!(i in host.refs)) host.refs[i] = { current: value }; return host.refs[i]; },
   useEffect: (effect: () => unknown) => { host.effects.push(effect); },
 }));
-import BrainView, { CATEGORY_STYLE, categoryOf, hitNode, nodeStyle, projectNodes } from './BrainView';
+import BrainView, { CANVAS_BACKGROUND, CATEGORY_STYLE, DRAW_ORDER, EDGE_STYLE, categoryOf, hitNode, nodeStyle, projectNodes } from './BrainView';
+import { EXPLAINERS } from './brainExplainers';
 const nodes: BrainNode[] = [
   { id: '1', x: -1, y: 1, z: 0, type: 'KCg', group: 'KC', category: 'kc' },
   { id: '2', x: 1, y: -1, z: 1, type: 'MBON01', group: 'MBON', category: 'mbon' },
@@ -19,17 +20,61 @@ function elements(node: ReactNode): ReactElement<Record<string, unknown>>[] {
   const e = node as ReactElement<Record<string, unknown>>;
   return [e, ...[e.props.children].flat(Infinity).flatMap(child => elements(child as ReactNode))];
 }
-function render() { host.cursor = 0; host.refCursor = 0; host.effects = []; return elements(BrainView({ brain, error: '', inference: null, busy: false, retry: vi.fn() })); }
+function render() { host.cursor = 0; host.refCursor = 0; host.effects = []; return elements(BrainView({ brain, error: '', retry: vi.fn() })); }
+function runEffects() { host.effects.forEach(effect => effect()); }
+function keydownListener() {
+  const call = vi.mocked(window.addEventListener).mock.calls.find(args => args[0] === 'keydown');
+  return call![1] as unknown as (event: { key: string }) => void;
+}
+/** WCAG relative luminance and contrast ratio, so the legibility floor is measured, not asserted by eye. */
+function luminance(hex: string) {
+  const channel = (part: number) => { const c = part / 255; return c <= .03928 ? c / 12.92 : ((c + .055) / 1.055) ** 2.4; };
+  const value = hex.replace('#', '');
+  const [r, g, b] = [0, 2, 4].map(i => channel(parseInt(value.slice(i, i + 2), 16)));
+  return .2126 * r + .7152 * g + .0722 * b;
+}
+function contrast(a: string, b: string) {
+  const [high, low] = [luminance(a), luminance(b)].sort((x, y) => y - x);
+  return (high + .05) / (low + .05);
+}
 beforeEach(() => { host.state = []; host.refs = []; vi.stubGlobal('document', { activeElement: { focus: vi.fn() } }); vi.stubGlobal('window', { addEventListener: vi.fn(), removeEventListener: vi.fn() }); });
-it('keeps anatomy colors during spikes and provides distinct shapes and unknown fallback', () => {
-  for (const category of Object.keys(CATEGORY_STYLE) as (keyof typeof CATEGORY_STYLE)[]) {
-    const node = { ...nodes[0], category };
-    expect(nodeStyle(node, 4).color).toBe(nodeStyle(node, 0).color);
-    expect(nodeStyle(node, 4).halo).toBe(true); expect(nodeStyle(node, 0).halo).toBe(false);
+
+it('keeps every category legible on the canvas ground with a distinct shape', () => {
+  for (const category of Object.keys(CATEGORY_STYLE) as BrainCategory[]) {
+    const style = nodeStyle({ ...nodes[0], category });
+    expect(style).toBe(CATEGORY_STYLE[category]);
+    expect(style.radius).toBeGreaterThan(0);
+    // Legibility floor: decorative ink needs 3:1 against its own composited background.
+    expect(contrast(style.color, CANVAS_BACKGROUND)).toBeGreaterThanOrEqual(3);
   }
+  for (const style of Object.values(EDGE_STYLE)) expect(contrast(style.color, CANVAS_BACKGROUND)).toBeGreaterThanOrEqual(3);
+  // The circuit populations are a small minority of the sample, so they must not be drawn smaller.
+  for (const category of ['alpn', 'kc', 'mbon'] as const) expect(CATEGORY_STYLE[category].radius).toBeGreaterThan(CATEGORY_STYLE.other.radius);
   expect(CATEGORY_STYLE.kc.color).toBe('#B79CED'); expect(CATEGORY_STYLE.mbon.color).toBe('#E69F00');
   expect(new Set(Object.values(CATEGORY_STYLE).map(style => style.shape)).size).toBe(5);
   expect(categoryOf(nodes[2])).toBe('unknown');
+});
+it('draws background annotations before the sparse circuit populations, covering every category once', () => {
+  expect(DRAW_ORDER.flat().sort()).toEqual(Object.keys(CATEGORY_STYLE).sort());
+  expect(DRAW_ORDER[0]).toEqual(['other', 'unknown']);
+  expect(DRAW_ORDER[1]).toEqual(['alpn', 'kc', 'mbon']);
+});
+it('names the KC to MBON layer anatomically and claims no learning anywhere in the copy', () => {
+  // Biology may describe learned associations in real flies; the retired workflow may not reappear.
+  const retired = /plastic|decoder|replay|recorded spike|\bdesk\b|training|trained\b|learned (gain|weight|parameter|checkpoint)|\bpick\b|win probability|forecast/i;
+  expect(EDGE_STYLE.kcmbon.label).toBe('KC→MBON output synapses');
+  expect(EDGE_STYLE.kcmbon.label).not.toMatch(retired);
+  expect(Object.keys(EXPLAINERS)).not.toContain('replay');
+  expect(Object.keys(EXPLAINERS)).not.toContain('firing');
+  expect(Object.keys(EXPLAINERS)).not.toContain('sharedGains');
+  for (const [key, explainer] of Object.entries(EXPLAINERS)) {
+    const text = [explainer.title, explainer.summary, ...explainer.paragraphs].join(' ');
+    expect(text, `${key} still describes the retired workflow`).not.toMatch(retired);
+    expect(explainer.paragraphs.length).toBeGreaterThan(0);
+  }
+  // Documented fly biology stays; it is the simulator workflow that was removed.
+  expect(EXPLAINERS.mushroomBodies.summary).toMatch(/learned associations/);
+  expect(EXPLAINERS.sample.paragraphs.join(' ')).toMatch(/released class annotation is ALPN/);
 });
 it.each([[0, 800, 600], [50, 800, 600], [-30, 360, 400]])('hit tests the actual projection after rotation/resize %s %s %s', (rotation, width, height) => {
   const points = projectNodes(nodes, rotation, width, height);
@@ -41,13 +86,12 @@ it('pins explanations by keyboard-compatible activation, closes with Escape, and
   const explain = tree.find(e => e.props['aria-label'] === 'Explain About Kenyon cells')!;
   (explain.props.onClick as () => void)(); tree = render();
   expect(tree.some(e => e.props.role === 'dialog')).toBe(true);
-  host.effects[1]();
-  const listener = vi.mocked(window.addEventListener).mock.calls.find(args => args[0] === 'keydown')![1] as unknown as (event: { key: string }) => void;
-  listener({ key: 'Escape' }); tree = render();
+  runEffects();
+  keydownListener()({ key: 'Escape' }); tree = render();
   expect(tree.some(e => e.props.role === 'dialog')).toBe(false);
   const selector = tree.find(e => e.props['aria-label'] === 'Inspect displayed neuron')!;
   (selector.props.onChange as (event: unknown) => void)({ target: { value: '0' } }); tree = render();
-  expect(tree.some(e => e.type === 'p' && e.props.children === 'No recorded activity time selected.')).toBe(true);
+  expect(tree.some(e => e.type === 'p' && e.props.children === 'Released annotations only. This view records no simulated activity for any neuron.')).toBe(true);
   expect(tree.some(e => e.props['aria-label'] === 'Inspect target 2')).toBe(true);
 });
 it('layer toggles affect display selection without mutating graph or making predictions', () => {
