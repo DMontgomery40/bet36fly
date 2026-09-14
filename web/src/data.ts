@@ -7,18 +7,26 @@ export async function request<T>(url: string, init?: RequestInit): Promise<T> {
   }
   return response.json();
 }
-export function useResource<T>(url: string, interval = 0) {
+/** A null url means this page does not need the resource: nothing is fetched and nothing stays loading. */
+export function useResource<T>(url: string | null, interval = 0) {
   const [data, setData] = useState<T | null>(null);
   const [error, setError] = useState('');
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(!!url);
   const sequence = useRef(0);
   const reload = useCallback(async () => {
+    if (!url) { sequence.current++; setLoading(false); return; }
     const current = ++sequence.current;
     try { const result = await request<T>(url); if (current === sequence.current) { setData(result); setError(''); } }
     catch (e) { if (current === sequence.current) setError(e instanceof Error ? e.message : 'Unable to load data.'); }
     finally { if (current === sequence.current) setLoading(false); }
   }, [url]);
-  useEffect(() => { setLoading(true); setData(null); void reload(); const timer = interval ? window.setInterval(reload, interval) : undefined; return () => { sequence.current++; clearInterval(timer); }; }, [reload, interval]);
+  useEffect(() => {
+    setData(null); setError(''); setLoading(!!url);
+    if (!url) { sequence.current++; return; }
+    void reload();
+    const timer = interval ? window.setInterval(reload, interval) : undefined;
+    return () => { sequence.current++; clearInterval(timer); };
+  }, [url, reload, interval]);
   return { data, error, loading, reload };
 }
 export function number(value?: number) { return typeof value === 'number' && Number.isFinite(value) ? new Intl.NumberFormat('en-US', { maximumFractionDigits: 0 }).format(value) : '—'; }

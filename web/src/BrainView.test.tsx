@@ -7,7 +7,10 @@ vi.mock('react', async original => ({ ...await original<typeof import('react')>(
   useRef: (value: unknown) => { const i = host.refCursor++; if (!(i in host.refs)) host.refs[i] = { current: value }; return host.refs[i]; },
   useEffect: (effect: () => unknown) => { host.effects.push(effect); },
 }));
-import BrainView, { CANVAS_BACKGROUND, CATEGORY_STYLE, DRAW_ORDER, EDGE_STYLE, categoryOf, hitNode, nodeStyle, projectNodes } from './BrainView';
+import BrainView, {
+  CANVAS_BACKGROUND, CATEGORY_STYLE, DEFAULT_VIEW, DRAW_ORDER, EDGE_STYLE, HIGHLIGHT, MAX_PITCH, MAX_ZOOM, MIN_ZOOM,
+  categoryCounts, categoryOf, edgeCounts, hitNode, nodeStyle, projectNodes, rotateView, sameView, wrapDegrees, zoomView,
+} from './BrainView';
 import { EXPLAINERS } from './brainExplainers';
 const nodes: BrainNode[] = [
   { id: '1', x: -1, y: 1, z: 0, type: 'KCg', group: 'KC', category: 'kc' },
@@ -54,6 +57,35 @@ it('keeps every category legible on the canvas ground with a distinct shape', ()
   expect(new Set(Object.values(CATEGORY_STYLE).map(style => style.shape)).size).toBe(5);
   expect(categoryOf(nodes[2])).toBe('unknown');
 });
+it('treats rotate, tilt, zoom and pan as a bounded camera that never touches the graph', () => {
+  const original = JSON.stringify(nodes);
+  // Yaw wraps so dragging never hits a wall; tilt clamps so the projection cannot flip.
+  expect(wrapDegrees(190)).toBeCloseTo(-170); expect(wrapDegrees(-190)).toBeCloseTo(170);
+  expect(rotateView(DEFAULT_VIEW, 9999, 0).yaw).toBeGreaterThanOrEqual(-180);
+  expect(rotateView(DEFAULT_VIEW, 9999, 0).yaw).toBeLessThanOrEqual(180);
+  expect(rotateView(DEFAULT_VIEW, 0, -9999).pitch).toBe(MAX_PITCH);
+  expect(rotateView(DEFAULT_VIEW, 0, 9999).pitch).toBe(-MAX_PITCH);
+  expect(zoomView(DEFAULT_VIEW, 1000, 400, 300, 800, 600).zoom).toBe(MAX_ZOOM);
+  expect(zoomView(DEFAULT_VIEW, .0001, 400, 300, 800, 600).zoom).toBe(MIN_ZOOM);
+  // Zooming about a point keeps the anatomy under that point fixed on screen.
+  const zoomed = zoomView(DEFAULT_VIEW, 2, 200, 150, 800, 600);
+  const before = projectNodes(nodes, DEFAULT_VIEW, 800, 600), after = projectNodes(nodes, zoomed, 800, 600);
+  const anchor = (points: typeof before, index: number) => ({ x: points[index].x, y: points[index].y });
+  const scaleAbout = (points: typeof before, index: number) => ({
+    x: 200 + (anchor(points, index).x - 200) * 2, y: 150 + (anchor(points, index).y - 150) * 2,
+  });
+  expect(after[0].x).toBeCloseTo(scaleAbout(before, 0).x, 6);
+  expect(after[0].y).toBeCloseTo(scaleAbout(before, 0).y, 6);
+  expect(sameView(DEFAULT_VIEW, { ...DEFAULT_VIEW })).toBe(true);
+  expect(sameView(DEFAULT_VIEW, { ...DEFAULT_VIEW, yaw: 1 })).toBe(false);
+  expect(JSON.stringify(nodes)).toBe(original);
+});
+it('reports the released counts the legend shows', () => {
+  expect(categoryCounts(nodes)).toEqual({ alpn: 0, kc: 1, mbon: 1, other: 0, unknown: 1 });
+  expect(edgeCounts(brain)).toEqual({ kcmbon: 1, connections: 0 });
+  expect(HIGHLIGHT).not.toBe(CANVAS_BACKGROUND);
+  expect(contrast(HIGHLIGHT, CANVAS_BACKGROUND)).toBeGreaterThanOrEqual(3);
+});
 it('draws background annotations before the sparse circuit populations, covering every category once', () => {
   expect(DRAW_ORDER.flat().sort()).toEqual(Object.keys(CATEGORY_STYLE).sort());
   expect(DRAW_ORDER[0]).toEqual(['other', 'unknown']);
@@ -76,8 +108,13 @@ it('names the KC to MBON layer anatomically and claims no learning anywhere in t
   expect(EXPLAINERS.mushroomBodies.summary).toMatch(/learned associations/);
   expect(EXPLAINERS.sample.paragraphs.join(' ')).toMatch(/released class annotation is ALPN/);
 });
-it.each([[0, 800, 600], [50, 800, 600], [-30, 360, 400]])('hit tests the actual projection after rotation/resize %s %s %s', (rotation, width, height) => {
-  const points = projectNodes(nodes, rotation, width, height);
+it.each([
+  [DEFAULT_VIEW, 800, 600],
+  [{ ...DEFAULT_VIEW, yaw: 50 }, 800, 600],
+  [{ ...DEFAULT_VIEW, yaw: -30, pitch: 40 }, 360, 400],
+  [{ ...DEFAULT_VIEW, zoom: 3.5, panX: 60, panY: -25 }, 800, 600],
+])('hit tests the actual projection after rotate/tilt/zoom/pan %#', (view, width, height) => {
+  const points = projectNodes(nodes, view, width, height);
   points.forEach((point, index) => expect(hitNode(points, point.x, point.y, () => true)).toBe(index));
   expect(hitNode(points, points[0].x, points[0].y, index => index !== 0)).toBe(-1);
 });

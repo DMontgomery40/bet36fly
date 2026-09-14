@@ -27,8 +27,9 @@ function Overview({ data }: { data: Summary }) {
 }
 export default function App() {
   const [hash, setHash] = useState(() => window.location.hash);
-  const resource = useResource<SummaryState>('/api/sensory/summary');
   const page = route(hash);
+  // The learning and circuit pages carry their own evidence, so they never request the confirmation.
+  const resource = useResource<SummaryState>(page === 'learning' || page === 'circuit' ? null : '/api/sensory/summary');
   useEffect(() => {
     const update = () => { const current = window.location.hash; setHash(current); if (!current || !['#overview', '#backtest', '#methods', '#learning', '#circuit'].includes(current) && !current.startsWith('#backtest/')) { window.history.replaceState(null, '', '/#overview'); setHash('#overview'); } };
     update(); window.addEventListener('hashchange', update); return () => window.removeEventListener('hashchange', update);

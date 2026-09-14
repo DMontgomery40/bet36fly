@@ -1,5 +1,6 @@
 /* Current product acceptance. Browser plugin unavailable; use bundled Playwright. */
-const { chromium } = require('playwright');
+const { loadPlaywright } = require('./playwright.cjs');
+const { chromium } = loadPlaywright();
 const fs = require('fs'), path = require('path'), assert = require('assert/strict'), crypto = require('crypto');
 const { verifyReadOnlyServer } = require('./verification_server_guard.cjs');
 const base = process.env.BET36FLY_BASE_URL || 'http://127.0.0.1:8765';

@@ -11,13 +11,19 @@ const hosts = vi.hoisted(() => ({
   sensory: { data: null as unknown, loading: false, error: 'Evidence failed validation.', reload: vi.fn() },
   evidence: { data: null as unknown, loading: false, error: '', reload: vi.fn() },
   checkpoints: { data: { checkpoints: [] } as unknown, loading: false, error: '', reload: vi.fn() },
+  absent: { data: null as unknown, loading: false, error: '', reload: vi.fn() },
+  requested: [] as (string | null)[],
 }));
 vi.mock('./data', async importActual => {
   const actual = await importActual<typeof import('./data')>();
   return {
     ...actual,
-    useResource: (url: string) => url.includes('/api/associative/evidence') ? hosts.evidence
-      : url.includes('/api/associative/checkpoints') ? hosts.checkpoints : hosts.sensory,
+    useResource: (url: string | null) => {
+      hosts.requested.push(url);
+      return url === null ? hosts.absent
+        : url.includes('/api/associative/evidence') ? hosts.evidence
+        : url.includes('/api/associative/checkpoints') ? hosts.checkpoints : hosts.sensory;
+    },
   };
 });
 import App from './App';
@@ -312,10 +318,12 @@ describe('training jobs', () => {
 });
 
 describe('the learning page stands alone', () => {
-  it('renders when the sensory summary request fails', () => {
+  it('renders without ever requesting the sensory confirmation', () => {
     hosts.sensory.data = null; hosts.sensory.error = 'Evidence failed validation.';
     hosts.evidence.data = evidence();
+    hosts.requested.length = 0;
     const html = renderToStaticMarkup(<App/>);
+    expect(hosts.requested).not.toContain('/api/sensory/summary');
     expect(html).toContain('Stage: dopamine-dependent learning on the MaleCNS circuit');
     expect(html).toContain('Dopamine learning');
     expect(html).toContain('Mechanism implemented');

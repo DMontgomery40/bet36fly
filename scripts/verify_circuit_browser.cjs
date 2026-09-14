@@ -1,6 +1,7 @@
 /* Circuit page acceptance. Browser plugin unavailable; use bundled Playwright.
    Screenshots are taken at deviceScaleFactor 1, matching the owner's low-DPI monitors. */
-const { chromium } = require('playwright');
+const { loadPlaywright } = require('./playwright.cjs');
+const { chromium } = loadPlaywright();
 const fs = require('fs'), path = require('path'), assert = require('assert/strict');
 const { verifyReadOnlyServer } = require('./verification_server_guard.cjs');
 const base = process.env.BET36FLY_BASE_URL || 'http://127.0.0.1:8765';
@@ -20,6 +21,21 @@ const output = path.resolve(process.argv[2] || path.join(__dirname, '..', 'docs/
   const snap = async name => { await page.evaluate(() => { if (document.activeElement?.id === 'main') document.activeElement.blur(); window.scrollTo(0, 0); }); await page.screenshot({ path: path.join(output, name + '.png'), fullPage: true, animations: 'disabled' }); };
   const canvas = () => page.getByRole('img', { name: /Projection of/ });
   const options = () => page.getByLabel('Inspect displayed neuron', { exact: true }).locator('option');
+  /** The canvas publishes its camera as data-view, so rotation is read as state, not pixels. */
+  const viewState = async () => {
+    const [yaw, pitch, zoom] = (await canvas().getAttribute('data-view')).split(',').map(Number);
+    return { yaw, pitch, zoom };
+  };
+  const defaultView = async () => {
+    await page.getByRole('button', { name: 'Reset view', exact: true }).isDisabled();
+    return { yaw: 0, pitch: Number((Math.asin(0.12) * 180 / Math.PI).toFixed(1)), zoom: 1 };
+  };
+  /** Reset is disabled at the default camera, so a drag that nets to zero leaves nothing to click. */
+  const resetView = async () => {
+    const button = page.getByRole('button', { name: 'Reset view', exact: true });
+    if (await button.isEnabled()) await button.click();
+    assert.deepEqual(await viewState(), await defaultView());
+  };
   /** Walk a coarse grid until the hover tooltip proves a real node sits under the pointer. */
   const findNode = async () => {
     const box = await canvas().boundingBox();
@@ -81,6 +97,59 @@ const output = path.resolve(process.argv[2] || path.join(__dirname, '..', 'docs/
       await page.keyboard.press('Escape');
       await dialog.waitFor({ state: 'detached' });
     });
+    await check('dragging the canvas rotates the camera and double-click resets it', async () => {
+      const box = await canvas().boundingBox();
+      const before = await viewState();
+      await page.mouse.move(box.x + box.width / 2, box.y + box.height / 2);
+      await page.mouse.down();
+      await page.mouse.move(box.x + box.width / 2 + 140, box.y + box.height / 2 + 60, { steps: 12 });
+      await page.mouse.up();
+      const after = await viewState();
+      assert.notEqual(after.yaw, before.yaw, 'dragging did not rotate');
+      assert.notEqual(after.pitch, before.pitch, 'dragging did not tilt');
+      assert.ok(Math.abs(after.pitch) <= 85, `tilt escaped its clamp: ${after.pitch}`);
+      await snap('circuit-rotated-desktop');
+      // The corner sits outside the centred projection, so double-click resets instead of
+      // inspecting. Over a neuron the first click opens the inspector, which is the wanted
+      // precedence and the reason this gesture only ever reaches empty canvas.
+      await page.mouse.move(box.x + 10, box.y + 10);
+      assert.equal(await page.locator('.neuron-preview').count(), 0, 'the reset corner is not empty canvas');
+      await page.mouse.dblclick(box.x + 10, box.y + 10);
+      assert.deepEqual(await viewState(), await defaultView());
+      assert.equal(await page.getByRole('dialog').count(), 0);
+    });
+    await check('a drag that ends on a neuron does not open the inspector', async () => {
+      const point = await findNode();
+      await page.mouse.move(point.x, point.y);
+      await page.mouse.down();
+      await page.mouse.move(point.x + 90, point.y + 30, { steps: 10 });
+      await page.mouse.move(point.x, point.y, { steps: 10 });
+      await page.mouse.up();
+      assert.equal(await page.getByRole('dialog', { name: 'Circuit explanation inspector' }).count(), 0,
+        'a rotate drag ending over a neuron opened the inspector');
+      await resetView();
+    });
+    await check('wheel zooms the canvas without scrolling the page', async () => {
+      const box = await canvas().boundingBox();
+      await page.evaluate(() => window.scrollTo(0, 0));
+      await page.mouse.move(box.x + box.width / 2, box.y + box.height / 2);
+      await page.mouse.wheel(0, -600);
+      await page.waitForFunction(() => Number(document.querySelector('canvas').dataset.view.split(',')[2]) > 1);
+      const zoomed = await viewState();
+      assert.ok(zoomed.zoom > 1 && zoomed.zoom <= 8, `zoom out of range: ${zoomed.zoom}`);
+      assert.equal(await page.evaluate(() => window.scrollY), 0, 'the wheel scrolled the page instead of zooming');
+      await snap('circuit-zoomed-desktop');
+      await resetView();
+    });
+    await check('keyboard rotates, zooms and resets the focused canvas', async () => {
+      await canvas().focus();
+      await page.keyboard.press('ArrowRight');
+      assert.notEqual((await viewState()).yaw, (await defaultView()).yaw);
+      await page.keyboard.press('Equal');
+      assert.ok((await viewState()).zoom > 1);
+      await page.keyboard.press('Digit0');
+      assert.deepEqual(await viewState(), await defaultView());
+    });
     await check('explainer topics pin into the inspector and close with Escape', async () => {
       await page.getByRole('button', { name: 'Explain Kenyon cells — KCs' }).click();
       const dialog = page.getByRole('dialog', { name: 'Circuit explanation inspector' });
@@ -107,7 +176,9 @@ const output = path.resolve(process.argv[2] || path.join(__dirname, '..', 'docs/
     await check('no horizontal overflow from 320 px upward', async () => {
       for (const width of [320, 390, 720, 1024, 1440]) {
         await page.setViewportSize({ width, height: 844 });
-        await page.goto(base + '/#circuit');
+        // A distinct query forces a real document load; re-visiting the same hash keeps
+        // the previous focus and React state, which would leak into the screenshots.
+        await page.goto(`${base}/?w=${width}#circuit`);
         await visible(canvas());
         assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1), `overflow at ${width}`);
         if (width === 320) await snap('circuit-mobile-320');

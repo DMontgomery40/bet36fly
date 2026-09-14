@@ -10,6 +10,10 @@
     "the KC to MBON layer is named anatomically, never plastic or learned",
     "layer toggle changes only what is displayed",
     "hovering a real node previews it and clicking opens the inspector",
+    "dragging the canvas rotates the camera and double-click resets it",
+    "a drag that ends on a neuron does not open the inspector",
+    "wheel zooms the canvas without scrolling the page",
+    "keyboard rotates, zooms and resets the focused canvas",
     "explainer topics pin into the inspector and close with Escape",
     "every rendered text size clears the 11px legibility floor",
     "desktop screenshot at device scale factor 1",
@@ -39,15 +43,7 @@
       "method": "GET"
     },
     {
-      "url": "http://127.0.0.1:8766/api/sensory/summary",
-      "method": "GET"
-    },
-    {
       "url": "http://127.0.0.1:8766/api/brain",
-      "method": "GET"
-    },
-    {
-      "url": "http://127.0.0.1:8766/api/sensory/summary",
       "method": "GET"
     },
     {
@@ -59,7 +55,23 @@
       "method": "GET"
     },
     {
-      "url": "http://127.0.0.1:8766/api/sensory/summary",
+      "url": "http://127.0.0.1:8766/api/brain",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:8766/api/brain",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:8766/api/brain",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:8766/api/brain",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:8766/api/brain",
       "method": "GET"
     }
   ],
@@ -74,6 +86,8 @@
     "circuit-empty.png",
     "circuit-error.png",
     "circuit-inspector-desktop.png",
-    "circuit-mobile-320.png"
+    "circuit-mobile-320.png",
+    "circuit-rotated-desktop.png",
+    "circuit-zoomed-desktop.png"
   ]
 }
