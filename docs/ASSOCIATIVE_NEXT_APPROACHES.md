@@ -70,7 +70,90 @@ The plastic circuit is asked to learn team value from binary outcomes, delivered
 
 **Honest reading.** This is machine learning with an anatomical prior; it says nothing about dopamine learning, and v2 already lost to a logistic baseline with 61,210 free gains. It would be justified only if the optic-lobe precedent (item 2) shows the anatomy is a useful prior for this input format.
 
-## Recommended order and the bar
+### 7. MaleCNS as a temporal reservoir (David, September 14)
+
+**Idea.** Stop asking KC→MBON synapses to store season-long team strength. Use the fixed 25.6-million-edge recurrent graph as a nonlinear temporal reservoir: present pregame-available history as a *sequence* (recent games, score differentials, opponent strength, rest and travel, pitcher or team state where available, and the encoder's uncertainty), let the circuit state evolve across the sequence, and fit one small frozen readout on the resulting neural state. Plasticity off; the computation is the recurrent dynamics.
+
+**Why it could help.** Reservoir computing exploits exactly what the graph has and the associative stage ignores: 166,700 neurons with heterogeneous fan-in, delays and mixed signs. The v1/v2 readouts used only an 80 ms static probe; a sequence-driven state is a different object.
+
+**Controls that decide whether the anatomy matters.** (i) The same features flattened into a conventional model; (ii) an echo-state / random reservoir with matched state dimensionality and spectral radius; (iii) a degree-preserving rewiring of MaleCNS (the null-graph machinery from v2 already exists); (iv) a fully randomized recurrent graph. Anatomy contributes only if MaleCNS beats (ii)–(iv) on the same readout procedure. Interpretation is the same as the sensory stage: an engineered encoder-in, fitted readout-out comparator, not a fly behaviour.
+
+**Finite question.** Do sequence-driven states differ reproducibly between matchups and carry information beyond the flattened features on the 2022 block? Cost: one probe per game per arm (≈ 2,400 calls, ≈ 0.5 h per arm on Hugging Face) plus the three null graphs.
+
+### 8. Richer readout before more simulation
+
+**Idea.** Before any new architecture, ask whether the circuit already produces incremental information that the current two-channel readout discards: read all relevant MBONs, MBON plus downstream convergence cells, fan-shaped-body targets, and other anatomically justified downstream populations, with the same fixed logistic procedure and the same comparators, on development data only.
+
+**What the existing recordings hold.** The 2022 sports rows store only the two summed MBON05/MBON01 counts per probe (`home_response`, `away_response`), not sampled traces. Every UTC-day checkpoint of every arm is saved, so a richer readout requires re-probing each team cue at each saved checkpoint with a wider sample: ≈ 6,400 plasticity-off probes per arm (≈ 1 h on Hugging Face), no new reinforcement, no new outcomes. The conditioning runs did save full sampled traces (all KCs, both MBON pairs, the reward DANs) and can seed the channel choice.
+
+**Finite question.** Does any anatomically justified channel set lower the 2022 second-half log loss of the plastic arm below its frozen twin and below the encoder, under the fixed readout procedure? If not, the learned state carries nothing the current readout misses, and further readout work stops.
+
+### 9. Interference and credit assignment (not just forgetting)
+
+**What the forgetting run showed.** The retired cue was not forgotten; it kept being depressed by the seven cues that were still reinforced (−15 → −46 without recovery). With 16-type codes, cues share Kenyon cells (calibration Jaccard mean 0.14, max 0.44), so every reinforcement writes to synapses that other memories depend on. That is representational interference, a credit-assignment failure, and recovery only limits the damage.
+
+**Quantify, on saved artifacts first.** KC overlap between the 30 team cues (from the links run) and between conditioning cues; overlap versus unintended gain change (the swap arm already shows B-edge depression −0.030 from A reinforcement at Jaccard 0.39 versus −0.009 at 0.13); how many cues share each eligible edge (the edge-sharing histogram from the calibration KC sets); whether interference predicts memory corruption (regress the retired cue's drift on its shared-edge count); and whether recovery improves *specificity* (contrast between a cue and its overlapping neighbours) or only depth.
+
+**Remedies to test separately, each a new identity.** Sparser cue codes (fewer ORN types at higher rate; the 4–8-type codes recruited 0.1–1% of KCs but missed MBON05, so the rate must rise); cue families chosen for near-orthogonal KC sets (the stress-02 follow-up needs Jaccard ≤ 0.05); compartmentalized memories (assign cue families to different compartments); different compartments for different timescales (item 4). Raising ρ until interference vanishes is not a remedy: it erases memory (−15 at ρ = 0.04).
+
+### 10. Residual / surprise learning
+
+**Idea.** The reinforcer today is "won" — a signal redundant with Elo, form and win rate. Instead make dopamine proportional to what the frozen pregame probability did **not** predict: reinforce with the outcome residual (win minus encoder probability, signed through the reward and punishment compartments, or magnitude-scaled reinforcer rate). The circuit is then asked to learn residual structure the encoder misses, which is the only thing that can lower log loss below the encoder.
+
+**Key control.** A same-information online non-neural residual learner (for example an online logistic on the same residual stream and team identity), plus the frozen and shuffled twins. If the conventional residual learner gains nothing, the residual is noise and the circuit cannot help; if it gains and the circuit does not, the circuit is the limit.
+
+**Finite question.** Conditioning battery with a graded reinforcer (rate proportional to residual magnitude; punishment compartment for negative residuals), then a 2022 development arm. Uses the existing harness; the only new mechanism is the reinforcer schedule and, for negative residuals, a PPL1 compartment.
+
+### 11. Visual pathway: avoid the image-wrapping trap
+
+Rendering the encoder's probability or Elo as pixels and reading it back out is not new computation. Any visual design must state exactly what structured information enters the scene (which quantities, in which spatial arrangement, at what contrast), and the conventional comparator must receive the identical rendered data. Three separate hypotheses, never pooled:
+
+- **11A. Visual system as a fixed nonlinear encoder** (item 2): photoreceptors → lamina/medulla/lobula → visual projection neurons; readout on LC/LPLC/MeVP activity; comparator is a nonlinear conventional model on the same rendered data.
+- **11B. Visual associative learning** (item 1): visual projection neurons → accessory calyx → γ-d Kenyon cells → MB outputs, with the qualified dopamine rule; comparator is the frozen twin.
+- **11C. Actual bilateral choice** (items 3 and 13): two visual alternatives → learned MB value → central complex / fan-shaped body → PFL3 or other steering-related output.
+
+### 12. Lateral horn plus mushroom body integration
+
+**Idea.** The fly separates innate stimulus value (lateral horn) from learned, contextual correction (mushroom body) and integrates them downstream. The dataset supports this decomposition: 2,028 LH-typed cells receive 443,271 contacts from ALPNs (more than the 390,928 onto Kenyon cells); MBONs send 36,712 contacts to LH neurons and receive 21,199 back; 1,766 cells receive at least 20 contacts from both MBONs and LH neurons (including 86 DANs, 59 central-complex cells and convergence types such as CRE055 and LHPV6a1); LH neurons reach descending neurons with 22,810 contacts against 4,347 from MBONs.
+
+**Why it could help.** A pregame quality signal could be represented as innate value in the lateral horn (fixed, calibrated, the analogue of the sensory stage) while the MB learns only the residual (item 10); the readout then sits at the anatomical convergence cells rather than at two MBONs. This is more biologically faithful than forcing every useful computation through MB plasticity.
+
+**Finite question.** Do LH neurons respond to the team-odor codes at the qualified coupling, and do the convergence cells carry both the innate and the learned signal in the conditioning battery? Links first.
+
+### 13. Physiological calibration, separate from any sports fit
+
+**Idea.** Fit the simulator's dynamics to published fly recordings, not to baseball: membrane and synaptic time constants, per-contact gain, inhibition (the APL and antennal-lobe local-neuron proxies we had to zero), response scaling and cell-type dynamics. Sources to use: Lappalainen et al. 2024 (connectome-constrained optic-lobe parameters validated against 26 studies), Shiu et al. 2024 (the LIF constants we inherit), Honegger et al. 2011 and Turner/Hige recordings for KC sparseness and MBON responses, Zhao 2022 and Cameron 2010 for sensory rates already recorded in the wiki, and the DoOR/Hallem odor responses for ORN-type tuning.
+
+**Rule.** Physiology-derived parameters are frozen before any sports evaluation and recorded with their source; dynamics are never optimized on MLB outcomes and then called anatomical. The current interventions (ALLN out 0, APL out 0, DA fast out 0, 0.11 mV/contact) are engineering fixes to sign-proxy failures and should be the first targets of a physiological fit.
+
+### 14. Full sensory-to-motor choice
+
+**Idea.** The strongest claim: two alternatives represented simultaneously, their value integrated in the circuit, and a descending or motor-related output choosing one. Anatomy available: MBON → central complex 8,543 contacts; central complex → descending neurons 7,187; LH → descending 22,810; 1,314 descending neurons in the import. The readout becomes a descending-neuron asymmetry, not a Python subtraction.
+
+**Finite question.** With plasticity off, do two simultaneously presented alternatives (two odor codes, or two visual alternatives per 11C) produce a reproducible, swap-reversing descending-neuron asymmetry? Only after that does learned value enter. This is the endpoint of items 3, 11C and 12, not a starting point.
+
+## Re-ranked roadmap (September 14)
+
+Scores are 1 (low) to 5 (high). "Hides the encoder" is the risk that the result is the conventional encoder wearing a biological interface; lower is better. "Block" says whether an unused confirmation block would be needed to make a prediction claim (2018 is spent by the running confirmation; 2017 and earlier remain).
+
+| Rank | Approach | Novelty | P(incremental value) | MaleCNS contribution | Cost | Controls | Hides encoder (risk) | Block needed |
+|---|---|---|---|---|---|---|---|---|
+| A | 8. Richer readout from saved 2022 checkpoints | 2 | 2 | 3 | 1 (re-probe, ≈ 1 h/arm, no new outcomes) | strong (same procedure, twins) | 3 | no (development only) |
+| B | 7. Fixed temporal reservoir | 4 | 3 | 5 (uses the whole recurrent graph) | 2 | strongest (matched reservoir, rewired, random) | 2 | yes for a claim |
+| C | 10. Residual / surprise learning | 4 | 3 | 3 | 2 (existing harness) | strong (online residual learner, twins) | 2 | yes for a claim |
+| D | 9. Interference reduction / compartmental memory | 3 | 2 | 4 | 2 (artifact analysis first) | strong (swap/overlap already measured) | 1 | no until a sports arm |
+| E | 11B / 1. Visual accessory-calyx learning | 4 | 2 | 4 | 4 (optic lobe never simulated here) | as conditioning-02 | 2 | yes for a claim |
+| F | 3 / 11C. Central-complex in-circuit choice | 5 | 2 | 5 | 4 | swap/side controls | 1 | no (mechanism claim) |
+| G | 14. Full sensory-to-motor assay | 5 | 1 | 5 | 5 | swap/side/lesion | 1 | no (mechanism claim) |
+| — | 5. Extra features, conventional test | 1 | 3 | 0 | 1 | n/a | n/a | no |
+| — | 12. LH + MB integration | 3 | 2 | 4 | 3 | links first | 2 | later |
+| — | 13. Physiological calibration | 3 | — | 5 | 3 | source-bound | 0 | no |
+| — | 11A / 2. Optic lobe as encoder | 3 | 2 | 3 | 4 | nonlinear comparator | 4 | yes |
+| — | 6. Fitted circuit parameters | 1 | 2 | 2 | 3 | v2 precedent (lost) | 5 | yes |
+
+Order of investigation: **A, B, C, D, E, F, G.** The extra-features conventional test (5) runs in parallel because it is cheap; a positive result there is a fact about the data, not evidence for any neural architecture. Physiological calibration (13) should precede E–G because the optic lobe and central complex have never run under this simulator and the sign proxies already failed twice. The lateral-horn decomposition (12) becomes the readout site for C once its links are measured. Nothing selects anything using the 2018 result; 2018 is not touched again.
+
+## The bar (and the first ordering, superseded by the re-ranked roadmap above)
 
 1. **Item 5 first, because it is cheap and decides everything else.** If no extra stream improves a conventional model on 2022, no circuit will; stop there.
 2. **Item 4 (prediction error + punishment + timescales)** on the existing odor pathway: it keeps the qualified mechanism, fixes the reason the learned value is a noisy win count, and reuses the whole harness.
