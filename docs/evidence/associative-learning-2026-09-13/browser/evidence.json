@@ -14,7 +14,7 @@
       "pass": true
     },
     {
-      "name": "conditioning section lists two runs, one qualified and one not",
+      "name": "conditioning section lists at least two runs including one qualified and one not, count matches the API",
       "pass": true
     },
     {
@@ -30,11 +30,27 @@
       "pass": true
     },
     {
+      "name": "continual-learning section renders >=5 run cards with baseline and recovery arms, each with a chart, recovery cards show rho",
+      "pass": true
+    },
+    {
+      "name": "season backtests section renders evaluation cards with metrics tables and a plasticity-does-not-contribute verdict, count matches the API",
+      "pass": true
+    },
+    {
+      "name": "all four stage badge verdict states read Yes, Yes, Not established, No",
+      "pass": true
+    },
+    {
       "name": "navigating to overview and back to learning both work",
       "pass": true
     },
     {
       "name": "responsive width 390 shows no horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "responsive width 320 shows no horizontal overflow on learning and overview",
       "pass": true
     },
     {
@@ -51,23 +67,85 @@
     ],
     "applicationBadgeDetail": "No — the product's predictions remain the frozen sensory confirmation; checkpoints are inspectable only.",
     "applicationBadgeState": "NO",
+    "apiConditioningCount": 6,
+    "conditioningRunCount": 6,
     "conditioningIdentities": [
+      "associative-conditioning-e2faf2fdb0667212b38c",
       "associative-conditioning-d1d3992e38c1dfa5fef1",
-      "associative-conditioning-42845736c62d3ac9841e"
+      "associative-conditioning-b70d59bfbd69d6f2de48",
+      "associative-conditioning-5f88c46159eedb590aad",
+      "associative-conditioning-42845736c62d3ac9841e",
+      "associative-conditioning-117e4b8a909efdac6030"
     ],
     "conditioningVerdicts": [
       "QUALIFIED",
-      "DID NOT QUALIFY"
+      "QUALIFIED",
+      "QUALIFIED",
+      "QUALIFIED",
+      "DID NOT QUALIFY",
+      "QUALIFIED"
     ],
-    "sportsArmRows": 7,
+    "sportsArmRows": 14,
     "startJobErrorText": "Verification mode is read-only.",
-    "checkpointOptionCount": 630,
+    "checkpointOptionCount": 2604,
     "probeErrorText": "Verification mode is read-only.",
+    "stressCardCount": 5,
+    "stressArmTexts": [
+      "Arm recovery",
+      "Arm recovery",
+      "Arm recovery",
+      "Arm recovery",
+      "Arm baseline (no recovery)"
+    ],
+    "stressChartCounts": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "stressRhoValues": [
+      "Recovery strength ρ 0.04",
+      "Recovery strength ρ 0.01",
+      "Recovery strength ρ 0.02",
+      "Recovery strength ρ 0.005"
+    ],
+    "apiEvaluationCount": 6,
+    "renderedEvaluationCount": 6,
+    "evaluationVerdictLines": [
+      "Plasticity contributes: no",
+      "Plasticity contributes: no",
+      "Plasticity contributes: no",
+      "Plasticity contributes: no",
+      "Plasticity contributes: no",
+      "Plasticity contributes: no"
+    ],
+    "apiEvaluationsAllPlasticityContributesFalse": true,
+    "badgeStates": [
+      "YES",
+      "YES",
+      "NOT ESTABLISHED",
+      "NO"
+    ],
     "mobileOverflow": {
       "scrollWidth": 390,
       "innerWidth": 390
     },
     "mobileOverflowCulprit": null,
+    "overflow320": {
+      "learning": {
+        "scrollWidth": 320,
+        "innerWidth": 320
+      },
+      "overview": {
+        "scrollWidth": 320,
+        "innerWidth": 320
+      }
+    },
+    "overflow320Culprit": {
+      "learning": null,
+      "overview": null
+    },
     "pageErrors": [],
     "consoleMessages": [
       {
@@ -86,8 +164,11 @@
   },
   "browser": "Playwright Chromium (bundled)",
   "screenshots": [
+    "learning-continual.png",
     "learning-desktop.png",
-    "learning-mobile.png"
+    "learning-mobile-320.png",
+    "learning-mobile.png",
+    "overview-mobile-320.png"
   ],
   "all_passed": true
 }

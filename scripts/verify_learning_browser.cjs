@@ -73,11 +73,18 @@ const output = path.resolve(process.argv[2] || '/tmp/bet36fly-learning-browser')
       await snap('learning-desktop');
     });
 
-    await check('conditioning section lists two runs, one qualified and one not', async () => {
+    await check('conditioning section lists at least two runs including one qualified and one not, count matches the API', async () => {
+      const evidencePayload = await page.request.get(base + '/api/associative/evidence').then(r => r.json());
+      const apiConditioningCount = (evidencePayload.conditioning || []).length;
+      observed.apiConditioningCount = apiConditioningCount;
       const conditioning = section('Does the rule learn a cue, and only from pairing?');
       await visible(conditioning);
       const runs = conditioning.locator('article.learning-card');
-      assert.equal(await runs.count(), 2);
+      const runCount = await runs.count();
+      observed.conditioningRunCount = runCount;
+      assert.ok(runCount >= 2, `expected at least 2 conditioning run cards, saw ${runCount}`);
+      assert.equal(runCount, apiConditioningCount,
+        `expected the rendered conditioning card count to match /api/associative/evidence (${apiConditioningCount}), saw ${runCount}`);
       const identities = await runs.locator('.learning-card-head h3').allInnerTexts();
       const verdicts = await runs.locator('.learning-card-head .learning-verdict').allInnerTexts();
       observed.conditioningIdentities = identities;
@@ -145,6 +152,80 @@ const output = path.resolve(process.argv[2] || '/tmp/bet36fly-learning-browser')
       assert.equal(text, 'Verification mode is read-only.');
     });
 
+    await check('continual-learning section renders >=5 run cards with baseline and recovery arms, each with a chart, recovery cards show rho', async () => {
+      const stress = section('Continual learning: dopamine-gated recovery');
+      await visible(stress);
+      const cards = stress.locator('article.learning-card');
+      const cardCount = await cards.count();
+      observed.stressCardCount = cardCount;
+      assert.ok(cardCount >= 5, `expected at least 5 continual-learning run cards, saw ${cardCount}`);
+      let baselineCount = 0, recoveryCount = 0;
+      const chartCounts = [], rhoValues = [], armTexts = [];
+      for (let i = 0; i < cardCount; i++) {
+        const card = cards.nth(i);
+        const meta = card.locator('.learning-meta li');
+        const armLi = await meta.first().innerText();
+        const rhoLi = await meta.nth(1).innerText();
+        armTexts.push(armLi);
+        const isBaseline = /baseline/i.test(armLi);
+        const isRecovery = /recovery/i.test(armLi) && !isBaseline;
+        if (isBaseline) baselineCount += 1;
+        if (isRecovery) recoveryCount += 1;
+        chartCounts.push(await card.locator('svg.learning-chart').count());
+        if (isRecovery) rhoValues.push(rhoLi);
+      }
+      observed.stressArmTexts = armTexts;
+      observed.stressChartCounts = chartCounts;
+      observed.stressRhoValues = rhoValues;
+      assert.ok(baselineCount >= 1, `expected at least one card with a "baseline" arm label, saw ${JSON.stringify(armTexts)}`);
+      assert.ok(recoveryCount >= 1, `expected at least one card with a "recovery" arm label, saw ${JSON.stringify(armTexts)}`);
+      assert.ok(chartCounts.every(c => c >= 1), `expected every continual-learning card to render an SVG chart, saw counts ${JSON.stringify(chartCounts)}`);
+      assert.ok(rhoValues.length >= 1, 'expected at least one recovery card');
+      assert.ok(rhoValues.every(v => /Recovery strength ρ\s*[-\d.]/.test(v)), `expected every recovery card to show a numeric rho value, saw ${JSON.stringify(rhoValues)}`);
+      await snap('learning-continual');
+    });
+
+    await check('season backtests section renders evaluation cards with metrics tables and a plasticity-does-not-contribute verdict, count matches the API', async () => {
+      const evidencePayload = await page.request.get(base + '/api/associative/evidence').then(r => r.json());
+      const apiEvaluations = evidencePayload.evaluations || [];
+      observed.apiEvaluationCount = apiEvaluations.length;
+      const sports = section('Does plasticity change a held-out prediction?');
+      await visible(sports);
+      const evaluationCards = sports.locator('article.learning-card');
+      const renderedCount = await evaluationCards.count();
+      observed.renderedEvaluationCount = renderedCount;
+      assert.ok(renderedCount >= 1, 'expected at least one rendered evaluation card');
+      assert.equal(renderedCount, apiEvaluations.length,
+        `expected the rendered evaluation card count to match /api/associative/evidence (${apiEvaluations.length}), saw ${renderedCount}`);
+      let metricsTableSeen = false, doesNotContributeSeen = false;
+      const verdictLines = [];
+      for (let i = 0; i < renderedCount; i++) {
+        const card = evaluationCards.nth(i);
+        const caption = await card.locator('table').first().locator('caption').innerText().catch(() => '');
+        if (/Held-out metrics/.test(caption)) metricsTableSeen = true;
+        const verdictLine = await card.locator('.learning-verdict-line').filter({ hasText: 'Plasticity contributes' }).innerText();
+        verdictLines.push(verdictLine);
+        if (/Plasticity contributes:\s*no\b/i.test(verdictLine)) doesNotContributeSeen = true;
+      }
+      observed.evaluationVerdictLines = verdictLines;
+      assert.ok(metricsTableSeen, 'expected at least one evaluation card to render a "Held-out metrics" table');
+      assert.ok(doesNotContributeSeen, `expected at least one verdict line reading plasticity does not contribute, saw ${JSON.stringify(verdictLines)}`);
+      const allFalseInApi = apiEvaluations.every(item => item.plasticity_contributes === false);
+      observed.apiEvaluationsAllPlasticityContributesFalse = allFalseInApi;
+      assert.ok(allFalseInApi, 'expected /api/associative/evidence evaluations[].plasticity_contributes to be false for every entry');
+    });
+
+    await check('all four stage badge verdict states read Yes, Yes, Not established, No', async () => {
+      const badges = page.locator('.learning-badge');
+      await visible(badges.first());
+      const states = await badges.locator('.learning-verdict').allInnerTexts();
+      // The verdict pill is CSS text-transform:uppercase, and Playwright's innerText returns
+      // the rendered (uppercased) text here, not the JSX source casing — compare case-insensitively,
+      // matching the convention the application-badge check above already uses for this same element.
+      observed.badgeStates = states.map(s => s.trim());
+      assert.deepEqual(observed.badgeStates.map(s => s.toUpperCase()), ['YES', 'YES', 'NOT ESTABLISHED', 'NO']);
+    });
+
     await check('navigating to overview and back to learning both work', async () => {
       await page.getByRole('link', { name: 'Overview', exact: true }).click();
       await visible(page.getByRole('heading', { name: 'A small circuit. A measured result.' }));
@@ -180,6 +261,46 @@ const output = path.resolve(process.argv[2] || '/tmp/bet36fly-learning-browser')
         `scrollWidth ${overflow.scrollWidth} > innerWidth+1 ${overflow.innerWidth + 1}` +
         (culprit ? ` — likely cause: <${culprit.tag}> "${culprit.text}" right edge ${culprit.right}px (header nav overflow, present on every page, not specific to #learning)` : ''));
       await page.setViewportSize({ width: 1440, height: 1050 });
+    });
+
+    await check('responsive width 320 shows no horizontal overflow on learning and overview', async () => {
+      const measure = async (hash, heading, snapName) => {
+        await page.setViewportSize({ width: 320, height: 844 });
+        await page.goto(base + hash);
+        await visible(heading);
+        // Screenshot first: capture the real rendered state regardless of the assertion below.
+        await snap(snapName);
+        const overflow = await page.evaluate(() => ({ scrollWidth: document.documentElement.scrollWidth, innerWidth: window.innerWidth }));
+        let culprit = null;
+        if (overflow.scrollWidth > overflow.innerWidth + 1) {
+          culprit = await page.evaluate(() => {
+            let best = null;
+            document.querySelectorAll('a,nav').forEach(el => {
+              const r = el.getBoundingClientRect();
+              if (r.right > window.innerWidth + 1 && (!best || r.right > best.right)) {
+                best = { tag: el.tagName, text: (el.textContent || '').trim().slice(0, 40), right: Math.round(r.right) };
+              }
+            });
+            return best;
+          });
+        }
+        return { overflow, culprit };
+      };
+      const learning = await measure('/#learning',
+        page.getByRole('heading', { level: 1, name: 'Stage: dopamine-dependent learning on the MaleCNS circuit' }),
+        'learning-mobile-320');
+      const overview = await measure('/#overview',
+        page.getByRole('heading', { name: 'A small circuit. A measured result.' }),
+        'overview-mobile-320');
+      observed.overflow320 = { learning: learning.overflow, overview: overview.overflow };
+      observed.overflow320Culprit = { learning: learning.culprit, overview: overview.culprit };
+      await page.setViewportSize({ width: 1440, height: 1050 });
+      assert.ok(learning.overflow.scrollWidth <= learning.overflow.innerWidth + 1,
+        `learning at 320px: scrollWidth ${learning.overflow.scrollWidth} > innerWidth+1 ${learning.overflow.innerWidth + 1}` +
+        (learning.culprit ? ` — likely cause: <${learning.culprit.tag}> "${learning.culprit.text}" right edge ${learning.culprit.right}px` : ''));
+      assert.ok(overview.overflow.scrollWidth <= overview.overflow.innerWidth + 1,
+        `overview at 320px: scrollWidth ${overview.overflow.scrollWidth} > innerWidth+1 ${overview.overflow.innerWidth + 1}` +
+        (overview.culprit ? ` — likely cause: <${overview.culprit.tag}> "${overview.culprit.text}" right edge ${overview.culprit.right}px` : ''));
     });
 
     await check('no page errors and no unexpected console errors/warnings across the whole run', async () => {
