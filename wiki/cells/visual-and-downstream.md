@@ -21,6 +21,8 @@ Lappalainen et al. modeled 64 optic-lobe cell types, optimized unknown neuron/sy
 
 Rendering an existing probability as brightness changes its presentation, not its information. Any scene must declare quantities, spatial arrangement, contrast, timing and uncertainty. Retinotopic stimulation also needs a verified body-to-column/eye map; the current compact node table alone does not supply that mapping.
 
+**An inspected eye map exists.** [FlyOCR](../community.md#flyocr--inspected-september-14-2026) (commit 48cf341, read September 14) builds its retinotopic input from the released `assignedOlHex1`/`assignedOlHex2` column annotations on L1/L2/L3 cells, assigning each of the 3,335 `R1-R6` cells to its strongest connected annotated lamina anchor (825 distinct sites, then a 33 × 25 grid by minimum displacement). That is a reproducible body-to-column map from the same annotation file our lock pins; it is an inferred projection, not optical calibration, and it feeds a DOOMFLY-constant LIF rather than this simulator's dynamics. Any BET36FLY retinotopic stimulus should start from those annotation fields and re-derive the map under our own coupling, not import FlyOCR's stimulus constants.
+
 ## What this MaleCNS graph contains
 
 These are **retained neuron counts and aggregate synaptic contacts**, recomputed from all local graph arrays without a simulator. `LH` means a type-name prefix, not all cells with processes in the lateral horn. Class, superclass and type selectors are recorded in the [reproducible static audit](../../docs/evidence/wiki-integration-2026-09-14/anatomy-and-storage.json).

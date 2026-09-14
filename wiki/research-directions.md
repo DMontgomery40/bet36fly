@@ -53,6 +53,8 @@ The retired-cue result motivates saved-artifact analyses of team-cue KC overlap,
 
 ### E–G. Keep visual encoding, visual memory and choice separate
 
+Precedent to read first: [FlyOCR](community.md#flyocr--inspected-september-14-2026) already ran the fixed-optic-lobe-plus-fitted-readout design on this exact graph and, by its authors' controls, lost to a raw-pixel linear classifier on the same input. A visual-encoder arm here inherits that expected verdict and must declare the nonlinear same-information comparator before any neural run.
+
 Visual input offers three distinct questions: fixed nonlinear encoding (memo 2/11A), associative memory (1/11B), and comparison/steering (3/11C/14). Each needs a specified stimulus-to-cell map and measured downstream response. A visual image of Elo is still Elo. The fixed-encoding arm needs a nonlinear comparator on the same rendering; the memory arm needs a frozen twin; the choice arm needs simultaneous alternatives and swap-reversing output. [Biology, exact anatomy and limits](cells/visual-and-downstream.md).
 
 ## Supporting work, with its own interpretation

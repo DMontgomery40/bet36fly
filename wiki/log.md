@@ -5,6 +5,10 @@ status: active
 ---
 # Wiki change log
 
+## September 14 UTC — FlyOCR community source inspected
+
+Added Jerry Liu's FlyOCR (fixed MaleCNS v1.0 glyph recognition, DOOMFLY kernel lineage) to [community](community.md), [sources](sources.md), the [visual pathway page](cells/visual-and-downstream.md) and [research directions](research-directions.md) as a community report with an inspected implementation at commit 48cf341; nothing reproduced. Recorded that it pins the same three source files as our lock, that its released-column eye map is the prerequisite our visual page names, and that its own controls show a conventional classifier beats the circuit on identical pixels. [Inspection record](../docs/evidence/community-sources-2026-09-14/flyocr.md).
+
 ## September 14 UTC — Claude research integrated by topic
 
 Integrated the recent associative-learning research into the existing cell, sensory, learning, source and evidence pages. Added primary homes for [associative conditioning](associative-learning.md), [continual learning and interference](continual-learning.md), [visual/downstream anatomy](cells/visual-and-downstream.md) and [the consolidated research directions](research-directions.md). Rebuilt navigation around reader questions, updated the current reassessment and scoped earlier failures to their original experiments.
