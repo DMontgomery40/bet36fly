@@ -8,6 +8,8 @@ The plastic circuit is asked to learn team value from binary outcomes, delivered
 
 ## What the imported graph contains beyond the mushroom body
 
+Counts below were read from the locked graph arrays and saved manifests with zero neural calls by [`audit_anatomy.py`](evidence/wiki-integration-2026-09-14/audit_anatomy.py); the full output, including compartment body ids, LH/MBON convergence, stress-test gain deciles and sports-row storage, is [anatomy-and-storage.json](evidence/wiki-integration-2026-09-14/anatomy-and-storage.json) (checked 2026-09-14 UTC).
+
 | Population (MaleCNS v1.0 as imported) | Count | Why it matters |
 | --- | ---: | --- |
 | Optic-lobe intrinsic neurons (`ol_intrinsic`) | 89,403 | Full medulla/lobula circuitry: L1 1,776; Mi types 5,054; Tm types 28,042; Dm 8,258; T4 6,865; T5 6,720 |

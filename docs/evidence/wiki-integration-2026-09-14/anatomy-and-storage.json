@@ -1,0 +1,490 @@
+{
+  "checked_date_utc": "2026-09-14",
+  "kind": "static_anatomy_and_saved_artifact_audit",
+  "neural_calls": 0,
+  "neurons": 166700,
+  "pairs": 25582938,
+  "contacts": 124177616,
+  "selectors": {
+    "superclass": [
+      "ol_intrinsic",
+      "ol_sensory",
+      "visual_projection",
+      "descending_neuron"
+    ],
+    "class": [
+      "Kenyon_Cell",
+      "MBON",
+      "DAN",
+      "CX",
+      "ALPN"
+    ],
+    "LH": "type starts with LH (annotation proxy, not every neuron innervating LH)",
+    "KCg-d": "type equals KCg-d"
+  },
+  "counts": {
+    "ol_intrinsic": 89403,
+    "ol_sensory": 6098,
+    "visual_projection": 9201,
+    "descending": 1314,
+    "KC": 4064,
+    "MBON": 97,
+    "DAN": 340,
+    "CX": 2950,
+    "ALPN": 686,
+    "LH": 2028,
+    "KCg-d": 206
+  },
+  "classes": {
+    "": 140187,
+    "visual": 6091,
+    "Kenyon_Cell": 4064,
+    "CX": 2950,
+    "olfactory": 2639,
+    "mechanosensory_tactile": 2558,
+    "mechanosensory": 1733,
+    "unknown_sensory": 1712,
+    "mechanosensory_proprioceptive": 1454,
+    "gustatory": 1428,
+    "ALPN": 686,
+    "ALLN": 420,
+    "DAN": 340,
+    "ol_bilateral": 116,
+    "MBON": 97,
+    "hygrosensory": 66,
+    "chemosensory": 58,
+    "SEZPN": 27,
+    "thermosensory": 25,
+    "ALIN": 24,
+    "ALON": 14,
+    "mechanosensory_tbc": 11
+  },
+  "superclasses": {
+    "ol_intrinsic": 89403,
+    "cb_intrinsic": 32164,
+    "vnc_intrinsic": 13161,
+    "visual_projection": 9201,
+    "vnc_sensory": 6370,
+    "ol_sensory": 6098,
+    "cb_sensory": 4868,
+    "ascending_neuron": 1846,
+    "descending_neuron": 1314,
+    "vnc_motor": 708,
+    "visual_centrifugal": 563,
+    "sensory_ascending": 537,
+    "cb_motor": 107,
+    "vnc_efferent": 94,
+    "cb_endocrine": 72,
+    "ENS": 50,
+    "vnc_tbc": 38,
+    "vnc_sensory_tbc": 36,
+    "vnc_endocrine": 22,
+    "cb_sensory_tbc": 14,
+    "sensory_descending": 12,
+    "efferent_ascending": 8,
+    "efferent_descending": 4,
+    "cb_efferent": 4,
+    "visual_projection_tbc": 2,
+    "sensory_ascending_tbc": 2,
+    "descending_neuron_tbc": 2
+  },
+  "connections": {
+    "visual_projection->KC": {
+      "pairs": 1616,
+      "contacts": 11094,
+      "presynaptic_cells": 252
+    },
+    "visual_projection->KCg-d": {
+      "pairs": 1088,
+      "contacts": 8041,
+      "presynaptic_cells": 200
+    },
+    "MBON->CX": {
+      "pairs": 1433,
+      "contacts": 8543,
+      "presynaptic_cells": 92
+    },
+    "MBON->DAN": {
+      "pairs": 2589,
+      "contacts": 11309,
+      "presynaptic_cells": 97
+    },
+    "CX->DAN": {
+      "pairs": 1491,
+      "contacts": 3852,
+      "presynaptic_cells": 504
+    },
+    "ALPN->LH": {
+      "pairs": 63055,
+      "contacts": 443271,
+      "presynaptic_cells": 685
+    },
+    "ALPN->KC": {
+      "pairs": 22586,
+      "contacts": 390928,
+      "presynaptic_cells": 314
+    },
+    "MBON->LH": {
+      "pairs": 4033,
+      "contacts": 36712,
+      "presynaptic_cells": 92
+    },
+    "LH->MBON": {
+      "pairs": 2537,
+      "contacts": 21199,
+      "presynaptic_cells": 594
+    },
+    "CX->descending": {
+      "pairs": 914,
+      "contacts": 7187,
+      "presynaptic_cells": 388
+    },
+    "LH->descending": {
+      "pairs": 3032,
+      "contacts": 22810,
+      "presynaptic_cells": 946
+    },
+    "MBON->descending": {
+      "pairs": 409,
+      "contacts": 4347,
+      "presynaptic_cells": 49
+    }
+  },
+  "hashes": {
+    "data/brain/ids.npy": "ab90597b7b0ce07cbc22cb39a65b70bea2ac73cc7fd225951bd9d73f2fc8dd3f",
+    "data/brain/indptr.npy": "fe43420f11e6242a11f8199ae7f097cab4b8a6db181d36f2a46b9e46670acbb4",
+    "data/brain/post.npy": "ce20f7433f78442c717ad2a7b5394cf4a3b109d990b4be0788040b7b0f4ed150",
+    "data/brain/counts.npy": "4a11faf9771fc3d5a5ff78ae7620ec1ce400f52d099ff657f0342cfc7a519f6b",
+    "data/brain/nodes.feather": "d706a6dd5ec1dc17cfba2e8f439232723af81729bf1d0c17bf0cc73860a9c867"
+  },
+  "LH_MBON_convergence": {
+    "threshold_contacts_from_each": 20,
+    "cells": 1766,
+    "DAN": 86,
+    "CX": 59
+  },
+  "associative_compartments": [
+    {
+      "label": "gamma4",
+      "dan_type": "PAM08",
+      "mbon_type": "MBON05",
+      "kc_class": "gamma",
+      "biology": "PAM-gamma4 sugar-reward dopamine neurons depress KC inputs to MBON-gamma4>gamma1gamma2 (Aso 2014; Yamagata 2015; Cohn 2015).",
+      "dan_cells": 50,
+      "mbon_cells": 2,
+      "dan_body_ids": [
+        55210,
+        58941,
+        65524,
+        65886,
+        69722,
+        74743,
+        75922,
+        76362,
+        86156,
+        87177,
+        90678,
+        90902,
+        95523,
+        102936,
+        103255,
+        104713,
+        105365,
+        107285,
+        109624,
+        117782,
+        119499,
+        122062,
+        129430,
+        133019,
+        135578,
+        136144,
+        142538,
+        146058,
+        147184,
+        152019,
+        152044,
+        152385,
+        157134,
+        158372,
+        161153,
+        162050,
+        174672,
+        174862,
+        175459,
+        175964,
+        178101,
+        178487,
+        184778,
+        197920,
+        212160,
+        226708,
+        242429,
+        523382,
+        523942,
+        524069
+      ],
+      "mbon_body_ids": [
+        10495,
+        519371
+      ],
+      "mbon_transmitter": [
+        "glutamate"
+      ],
+      "plastic_edges": 1999,
+      "eligible_edges": 1839,
+      "by_class": {
+        "gamma": 1839,
+        "apbp": 159,
+        "ab": 1,
+        "other": 0
+      }
+    },
+    {
+      "label": "gamma5",
+      "dan_type": "PAM01",
+      "mbon_type": "MBON01",
+      "kc_class": "gamma",
+      "biology": "PAM-gamma5 sugar-reward dopamine neurons depress KC inputs to MBON-gamma5beta'2a (Aso 2014; Yamagata 2015).",
+      "dan_cells": 44,
+      "mbon_cells": 2,
+      "dan_body_ids": [
+        53285,
+        62731,
+        63391,
+        74856,
+        80744,
+        83277,
+        88477,
+        90867,
+        93704,
+        99089,
+        100258,
+        113067,
+        114216,
+        114700,
+        129563,
+        138629,
+        141615,
+        144315,
+        145094,
+        145148,
+        146603,
+        150177,
+        153931,
+        155916,
+        156028,
+        156046,
+        159062,
+        159158,
+        164086,
+        165365,
+        167009,
+        169278,
+        181924,
+        185518,
+        197691,
+        198758,
+        205884,
+        212085,
+        252045,
+        325731,
+        506819,
+        523638,
+        533294,
+        543677
+      ],
+      "mbon_body_ids": [
+        10013,
+        520151
+      ],
+      "mbon_transmitter": [
+        "glutamate"
+      ],
+      "plastic_edges": 2109,
+      "eligible_edges": 1578,
+      "by_class": {
+        "gamma": 1578,
+        "apbp": 531,
+        "ab": 0,
+        "other": 0
+      }
+    }
+  ],
+  "selected_edge_slots": 4108,
+  "eligible_edges": 3417,
+  "season_floor_denominators": [
+    {
+      "run": "associative-sports-94f9a4913dcb12a55f15",
+      "checkpoint": "checkpoint-plastic-2022-10-05.npz",
+      "floor_count": 31,
+      "all_slots_fraction": 0.007546251217137293,
+      "eligible_fraction": 0.009072285630670179
+    },
+    {
+      "run": "associative-sports-8cc62a9ff149c9aed4e4",
+      "checkpoint": "checkpoint-plastic-2022-10-05.npz",
+      "floor_count": 32,
+      "all_slots_fraction": 0.007789678675754625,
+      "eligible_fraction": 0.009364940005853088
+    },
+    {
+      "run": "associative-sports-a50c18cdef85f343bf71",
+      "checkpoint": "checkpoint-plastic-2022-10-05.npz",
+      "floor_count": 35,
+      "all_slots_fraction": 0.008519961051606621,
+      "eligible_fraction": 0.010242903131401814
+    }
+  ],
+  "stress_cycle24": {
+    "associative-stress-d68e0f3df819053aa1ee": [
+      {
+        "label": "cycle-24",
+        "calls": 360,
+        "gains_sha256": "a787226bda190c53ebc0ac994f2064d5e093535005d0c4fda2821e43095038fa",
+        "0": {
+          "lower": 0.2039151712887439,
+          "upper": 0.0,
+          "above_rest": 0.0,
+          "mean": 0.7996236085891724,
+          "deciles": [
+            0.5,
+            0.5,
+            0.5,
+            0.643996036052704,
+            0.7766136527061462,
+            0.8637983202934265,
+            0.9446729898452759,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "1": {
+          "lower": 0.2173637515842839,
+          "upper": 0.0,
+          "above_rest": 0.0,
+          "mean": 0.7960444092750549,
+          "deciles": [
+            0.5,
+            0.5,
+            0.5,
+            0.6303145229816437,
+            0.7669432878494263,
+            0.8606567978858948,
+            0.9511277437210086,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    ],
+    "associative-stress-d3d4da0959060f926f57": [
+      {
+        "label": "cycle-24",
+        "calls": 360,
+        "gains_sha256": "8043e336b41dfd084e580392cf9ed43d2fb99af9b3292a73920c36228c295ff8",
+        "0": {
+          "lower": 0.03860793909733551,
+          "upper": 0.0,
+          "above_rest": 0.0,
+          "mean": 0.8414288759231567,
+          "deciles": [
+            0.5,
+            0.5068196654319763,
+            0.6461273431777954,
+            0.7721728086471558,
+            0.8637064695358276,
+            0.9187509417533875,
+            0.9667661786079407,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "1": {
+          "lower": 0.043726235741444866,
+          "upper": 0.0,
+          "above_rest": 0.0,
+          "mean": 0.8369640111923218,
+          "deciles": [
+            0.5,
+            0.5036452412605286,
+            0.6188847422599792,
+            0.7596041262149812,
+            0.8551061272621157,
+            0.9164939224720001,
+            0.9708557724952698,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    ]
+  },
+  "sports_storage": [
+    {
+      "run": "associative-sports-94f9a4913dcb12a55f15",
+      "rows": 2429,
+      "all_have_two_counts_per_team": true,
+      "row_keys": [
+        "away",
+        "away_response",
+        "gains_sha256",
+        "game_id",
+        "home",
+        "home_response",
+        "index",
+        "innate",
+        "learned",
+        "outcome",
+        "start_time"
+      ],
+      "checkpoint_files": 179
+    },
+    {
+      "run": "associative-sports-8cc62a9ff149c9aed4e4",
+      "rows": 2429,
+      "all_have_two_counts_per_team": true,
+      "row_keys": [
+        "away",
+        "away_response",
+        "gains_sha256",
+        "game_id",
+        "home",
+        "home_response",
+        "index",
+        "innate",
+        "learned",
+        "outcome",
+        "start_time"
+      ],
+      "checkpoint_files": 179
+    },
+    {
+      "run": "associative-sports-a50c18cdef85f343bf71",
+      "rows": 2429,
+      "all_have_two_counts_per_team": true,
+      "row_keys": [
+        "away",
+        "away_response",
+        "gains_sha256",
+        "game_id",
+        "home",
+        "home_response",
+        "index",
+        "innate",
+        "learned",
+        "outcome",
+        "start_time"
+      ],
+      "checkpoint_files": 179
+    }
+  ]
+}
