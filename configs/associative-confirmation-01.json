@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "label": "associative-2018-confirmation-attempt-01",
+  "attempt": 1,
+  "season": 2018,
+  "frozen_candidate": "configs/associative-candidate-01.json",
+  "frozen_candidate_sha256": "34b8177d4539d31d616b38bf658136833696b88c3a37328a8ad7b8eab7a27355",
+  "alpha": 0.025,
+  "replicates": 10000,
+  "stopping": "One source retrieval of the 2018 MLB regular season and one evaluation of the frozen candidate. No refit, candidate change or adaptive reuse. Preserve a failed confirmation.",
+  "never_accessed_by": [
+    "encoder training (2019-2021)",
+    "sensory development (2022)",
+    "sensory confirmation (2023)",
+    "v1/v2 datasets (2024-2026)"
+  ]
+}

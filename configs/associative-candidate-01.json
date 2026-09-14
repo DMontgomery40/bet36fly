@@ -1,0 +1,236 @@
+{
+  "schema": 1,
+  "label": "associative-candidate-01",
+  "development_protocol": "configs/associative-sports-02.json",
+  "development_evaluation": "associative-sports-evaluation-2d1eac7f2f62b8de5144",
+  "learning_rate": 4e-05,
+  "considered": {
+    "associative-sports-evaluation-25761719aa78e66627ef": {
+      "learning_rate": 2e-05,
+      "plastic_development_log_loss": 0.6744077651618915,
+      "plasticity_contributes": false
+    },
+    "associative-sports-evaluation-2d1eac7f2f62b8de5144": {
+      "learning_rate": 4e-05,
+      "plastic_development_log_loss": 0.6742675377407754,
+      "plasticity_contributes": false
+    },
+    "associative-sports-evaluation-4182a66dd401fb6c12c1": {
+      "learning_rate": 1e-05,
+      "plastic_development_log_loss": 0.6744267662674741,
+      "plasticity_contributes": false
+    }
+  },
+  "readouts": {
+    "plastic": {
+      "C": 0.01,
+      "scales": [
+        1.4528457655395361,
+        1.1861538713244872,
+        1.4570477296887472,
+        1.2296953018620413,
+        0.8228535844069169,
+        1.1071579581369755
+      ],
+      "coef": [
+        0.08995354117076568,
+        0.11045245122971163,
+        0.0382971235850292,
+        0.06274055960667692,
+        0.06468763372004678,
+        0.04626290099235783
+      ],
+      "intercept": 0.0
+    },
+    "frozen": {
+      "C": 0.01,
+      "scales": [
+        1.4528457655395361,
+        1.1861538713244872,
+        1.4570477296887472,
+        1.2296953018620413,
+        0.6905918759425344,
+        0.5799381076049557
+      ],
+      "coef": [
+        0.09086883903389538,
+        0.11070392152941394,
+        0.037632177258297976,
+        0.06255388652353319,
+        0.07626573374536855,
+        0.01959008962924301
+      ],
+      "intercept": 0.0
+    },
+    "shuffled": {
+      "C": 0.01,
+      "scales": [
+        1.4528457655395361,
+        1.1861538713244872,
+        1.4570477296887472,
+        1.2296953018620413,
+        0.8190767484505211,
+        1.1115381638764519
+      ],
+      "coef": [
+        0.09013530172762287,
+        0.10993320050314362,
+        0.038280544178690624,
+        0.06241814396340189,
+        0.051490195223481756,
+        0.06430394553552285
+      ],
+      "intercept": 0.0
+    },
+    "plastic:baseline": {
+      "C": 0.01,
+      "scales": [
+        1.4528457655395361,
+        1.1861538713244872,
+        1.4570477296887472,
+        1.2296953018620413,
+        0.9011420411188723,
+        1.4130482364584303
+      ],
+      "coef": [
+        0.08842796958376939,
+        0.10950092189179178,
+        0.038299692307296844,
+        0.06281163370738635,
+        0.06205377582075146,
+        0.06257913054150385
+      ],
+      "intercept": 0.0
+    },
+    "same_information": {
+      "C": 0.01,
+      "scales": [
+        0.04886221151981011,
+        0.34983009456651915,
+        0.11151488938517362,
+        0.21948002889432328,
+        0.035432035831246184,
+        0.6321073155538618
+      ],
+      "coef": [
+        0.13176138191421374,
+        0.06447032354901522,
+        0.06539703105627577,
+        0.07698542472138432,
+        0.0805037650528161,
+        0.049057818894641794
+      ],
+      "intercept": 0.06365108429330167
+    }
+  },
+  "arms": {
+    "plastic": "associative-sports-a50c18cdef85f343bf71",
+    "frozen": "associative-sports-39e1b2e1a5b6c86c6f10",
+    "shuffled": "associative-sports-8e54361b9939c1dfbed2",
+    "plastic:baseline": "associative-sports-07b4c10e301f2f69e815"
+  },
+  "circuit_sha256": "e8a8b1a10c50d6415c189be544d0e04fb05621c3558fa82f1e1bf7a4ffc93259",
+  "development_metrics": {
+    "plastic": {
+      "n": 1292,
+      "accuracy": 0.5851393188854489,
+      "log_loss": 0.6742675377407754,
+      "brier": 0.24066122600510814
+    },
+    "frozen": {
+      "n": 1292,
+      "accuracy": 0.5835913312693498,
+      "log_loss": 0.673895958292291,
+      "brier": 0.24047436701246108
+    },
+    "shuffled": {
+      "n": 1292,
+      "accuracy": 0.5828173374613003,
+      "log_loss": 0.6746032885145598,
+      "brier": 0.24082212207749398
+    },
+    "plastic:baseline": {
+      "n": 1292,
+      "accuracy": 0.5905572755417957,
+      "log_loss": 0.67489839432202,
+      "brier": 0.24097213827097558
+    },
+    "encoder_only": {
+      "n": 1292,
+      "accuracy": 0.586687306501548,
+      "log_loss": 0.6688470899405133,
+      "brier": 0.23800440332659964
+    },
+    "same_information": {
+      "n": 1292,
+      "accuracy": 0.5890092879256966,
+      "log_loss": 0.6755310992984875,
+      "brier": 0.24118851314802098
+    },
+    "uniform": {
+      "n": 1292,
+      "accuracy": 0.5503095975232198,
+      "log_loss": 0.6931471805599453,
+      "brier": 0.25
+    },
+    "prior": {
+      "n": 1292,
+      "accuracy": 0.5503095975232198,
+      "log_loss": 0.6884469321032762,
+      "brier": 0.24765289446705083
+    }
+  },
+  "development_paired_loss": {
+    "frozen": {
+      "mean": 0.0003715794484845253,
+      "interval": [
+        -0.0008056434599925911,
+        0.0014557386532332317
+      ]
+    },
+    "shuffled": {
+      "mean": -0.00033575077378418647,
+      "interval": [
+        -0.0008884132638145892,
+        0.00017213431343029794
+      ]
+    },
+    "plastic:baseline": {
+      "mean": -0.0006308565812444636,
+      "interval": [
+        -0.0016934474498963184,
+        0.0003797855153736024
+      ]
+    },
+    "encoder_only": {
+      "mean": 0.005420447800262179,
+      "interval": [
+        0.0007871695300590814,
+        0.010243254881736177
+      ]
+    },
+    "same_information": {
+      "mean": -0.001263561557712101,
+      "interval": [
+        -0.00823332944849313,
+        0.004535688708003259
+      ]
+    },
+    "uniform": {
+      "mean": -0.0188796428191698,
+      "interval": [
+        -0.0236924239464023,
+        -0.014065597638788044
+      ]
+    },
+    "prior": {
+      "mean": -0.014179394362500666,
+      "interval": [
+        -0.02054619885077579,
+        -0.007000798556379834
+      ]
+    }
+  },
+  "development_plasticity_contributes": false,
+  "interpretation": "Selected on 2022 development data only; readouts fitted on games before the 2022 split and never refitted. Only the reserved 2018 block can confirm."
+}

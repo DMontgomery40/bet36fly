@@ -70,14 +70,19 @@ def run(protocol_path, root=ROOT):
         dates = [g['start_time'] for g in rows]
         arms = {}
         arm_records = {}
-        for arm in ('plastic', 'frozen', 'shuffled'):
-            circuit = build_circuit(root, circuit_protocol)
-            permutation = sp.within_week_permutation(dates, dev_protocol['shuffle_seed']) if arm == 'shuffled' else None
-            learner = sp.SeasonLearner(circuit, circuit_protocol, arm=arm, games=rows, features=x, innate=innate,
-                                       outcomes=labels, week_permutation=permutation, out_dir=out / arm,
-                                       learning_rate=frozen['learning_rate'] if arm != 'frozen' else None)
+        baseline_protocol = json.loads((root / dev_protocol['baseline_protocol']).read_text()) if 'baseline_protocol' in dev_protocol else None
+        baseline_circuit = json.loads((root / baseline_protocol['circuit']).read_text()) if baseline_protocol else None
+        arm_names = ('plastic', 'frozen', 'shuffled') + (('plastic:baseline',) if baseline_circuit else ())
+        for arm in arm_names:
+            kind = arm.split(':')[0]
+            circuit_spec = baseline_circuit if arm == 'plastic:baseline' else circuit_protocol
+            circuit = build_circuit(root, circuit_spec)
+            permutation = sp.within_week_permutation(dates, dev_protocol['shuffle_seed']) if kind == 'shuffled' else None
+            learner = sp.SeasonLearner(circuit, circuit_spec, arm=kind, games=rows, features=x, innate=innate,
+                                       outcomes=labels, week_permutation=permutation, out_dir=out / arm.replace(':', '-'),
+                                       learning_rate=frozen['learning_rate'] if kind != 'frozen' else None)
             learner.run()
-            atomic_json(out / arm / 'rows.json', learner.rows)
+            atomic_json(out / arm.replace(':', '-') / 'rows.json', learner.rows)
             arms[arm] = np.array([r['innate'] + r['learned'] for r in learner.rows], float)
             arm_records[arm] = dict(calls=learner.calls, reinforcements=learner.reinforcements,
                                     final_gains_sha256=learner.engine.gains_sha256(), days=len(learner.days),
@@ -101,6 +106,10 @@ def run(protocol_path, root=ROOT):
         evaluation['shuffled_minus_frozen'] = paired_evaluation(yy, control, dates, 10000, 0.025)['paired_loss']['frozen']
         evaluation['plasticity_contributes'] = bool(evaluation['paired_loss']['frozen']['interval'][1] < 0
                                                      and evaluation['shuffled_minus_frozen']['interval'][1] >= 0)
+        if 'plastic:baseline' in predictions:
+            evaluation['recovery_minus_baseline'] = evaluation['paired_loss'].get('plastic:baseline')
+            baseline = dict(subset, neural=predictions['plastic:baseline'])
+            evaluation['baseline_minus_frozen'] = paired_evaluation(yy, baseline, dates, 10000, 0.025)['paired_loss']['frozen']
         evaluation.update(exclusions=exclusions, start=dates[0], end=dates[-1],
                           interpretation='Reserved-block confirmation of the frozen associative candidate with readouts fitted on '
                                          '2022 only; plasticity contributes only if plastic beats its matched frozen twin '

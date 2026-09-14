@@ -93,7 +93,8 @@ def evaluate(protocol_path, arm_ids, root=ROOT, learning_rate=None):
     for arm, identity in arm_ids.items():
         directory = root / 'output/associative' / identity
         manifest = json.loads((directory / 'manifest.json').read_text())
-        if manifest['status'] != 'completed' or manifest['arm'] != arm:
+        # Arm keys may carry a ':label' suffix (e.g. 'plastic:baseline') to include a comparator arm of another protocol.
+        if manifest['status'] != 'completed' or manifest['arm'] != arm.split(':')[0]:
             raise ValueError(f'Arm {arm} is not a completed run.')
         saved = json.loads((directory / 'rows.json').read_text())
         if [r['game_id'] for r in saved] != [g['id'] for g in rows]:

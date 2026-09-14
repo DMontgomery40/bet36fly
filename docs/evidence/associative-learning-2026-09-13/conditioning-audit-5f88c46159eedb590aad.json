@@ -1,0 +1,54 @@
+{
+  "run": "associative-conditioning-5f88c46159eedb590aad",
+  "calls": 389,
+  "checks": {
+    "probe_gain_unchanged": true,
+    "gains_hash_chain": true,
+    "bound_contacts": 0.0,
+    "recovery_failures": [],
+    "response_mismatches": [],
+    "probes_with_reward_dan_spikes": []
+  },
+  "agreement": {
+    "acquisition_criteria": true,
+    "acquisition_all_passed": true,
+    "retention": true,
+    "reversal_criteria": true,
+    "reversal_all_passed": true,
+    "arms_numeric": true
+  },
+  "independent": {
+    "acquisition": {
+      "acquisition_response": true,
+      "acquisition_gain": true,
+      "acquisition_target_depressed": true,
+      "frozen_and_lesion_bytes_identical": true,
+      "backward_not_depressing": true,
+      "backward_potentiates_gains": true,
+      "swap_mirror": true,
+      "order_matches_paired": true,
+      "no_loss_of_responsiveness": true,
+      "max_gain_change_bounded": true
+    },
+    "acquisition_all_passed": true,
+    "retention": {
+      "passed": true
+    },
+    "reversal": {
+      "parent_preference_negative": true,
+      "erasure_flips_preference": true,
+      "erasure_recovers_a": true,
+      "erasure_depresses_b": true,
+      "frozen_retention_bytes_identical": true
+    },
+    "reversal_all_passed": true,
+    "paired_contrast": [
+      -12.0,
+      -9.0,
+      -9.0
+    ],
+    "null_response_scale": 0.0,
+    "null_gain_scale": 0.0
+  },
+  "all_agree": true
+}

@@ -265,6 +265,8 @@ def evaluate_arms(arms, x, wins, y, dates, train_mask, candidate, eval_mask, c=0
     # zero) while the reinforcement-shuffled twin does not.
     evaluation['plasticity_contributes'] = bool(evaluation['paired_loss']['frozen']['interval'][1] < 0
                                                  and (shuffled is None or shuffled['interval'][1] >= 0))
+    if 'plastic:baseline' in arms:
+        evaluation['recovery_minus_baseline'] = evaluation['paired_loss'].get('plastic:baseline')
     evaluation['training_metrics'] = {k: metrics(y[train_mask], v[train_mask]) for k, v in predictions.items()}
     return dict(predictions={k: v.tolist() for k, v in predictions.items()}, readouts=readouts, evaluation=evaluation)
 
