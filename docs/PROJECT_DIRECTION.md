@@ -14,6 +14,12 @@ The frozen sensory pipeline passed its predefined 2023 MLB confirmation: **56.21
 
 The backtest stopping condition has been met. Preserve this first confirmation and stop automatic tuning; broader biological and prospective claims require distinct future work.
 
+## Associative learning stage authorized — September 13, 2026 (evening)
+
+David authorized a new research stage beyond the completed plasticity-off sensory backtest: implement and demonstrate dopamine-dependent synaptic learning in the actual MaleCNS circuit, then determine whether that learning improves sports prediction. The causal learning contract, predeclared protocols and measured outcomes are in [EXPERIMENT_ASSOCIATIVE.md](EXPERIMENT_ASSOCIATIVE.md) and [the dated evidence](evidence/associative-learning-2026-09-13/index.md); the working handoff is [ASSOCIATIVE_LEARNING_HANDOFF.md](ASSOCIATIVE_LEARNING_HANDOFF.md). The stage has its own engine (`bet36fly/associative_lif.cpp`, `bet36fly/associative.py`), circuit configuration and identities. It does not reopen the legacy PPL101/PAM12 diagnostic, does not change the frozen 2023 sensory confirmation, and authorizes no push, deployment or model-pointer change.
+
+Four questions stay separate in every report: (1) which plasticity and dopamine mechanisms are implemented; (2) whether controlled acquisition, retention, reversal and dopamine dependence passed; (3) whether plasticity improved held-out prediction against a matched frozen circuit and the encoder; (4) whether the backend and visible application use a learned checkpoint. As of the latest evidence: (1) implemented; (2) passed in conditioning-02 after conditioning-01 failed and was preserved; (3) and (4) are reported in the handoff from the sports evaluations, and the product's predictions remain the frozen sensory confirmation.
+
 ## The intended experiment
 
 Represent the information available before a sports matchup as two distinguishable food opportunities. Better-supported prospects should evoke more appetitive fruit-odor or sweet-taste input patterns; sufficiently poor prospects can evoke a source-supported aversive pattern. Let the MaleCNS circuit transform those sensory inputs and measure its response. Establish ordinary sensory/feeding responses first, then ask whether this transformation contributes anything to matchup selection.

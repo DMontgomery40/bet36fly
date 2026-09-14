@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "label": "associative-sports-02-development-recovery",
+  "circuit": "configs/associative-circuit-02.json",
+  "contract": "docs/EXPERIMENT_ASSOCIATIVE.md",
+  "sensory_candidate": "docs/evidence/sensory-backtest-goal-2026-09-13/frozen-candidate.json",
+  "sensory_candidate_sha256": "422e5ae3af9f59bfb0df40090a8ffb7ecab02d97cf55a392c40ab9c3a386a7dd",
+  "games": "data/sensory-sports/development-2019-2022-v2/games.json",
+  "history_seasons": [
+    2019,
+    2020,
+    2021
+  ],
+  "season": 2022,
+  "readout_split": "2022-07-01T00:00:00Z",
+  "readout_C": 0.01,
+  "arms": [
+    "plastic",
+    "frozen",
+    "shuffled"
+  ],
+  "shuffle_seed": 20260913,
+  "learning_rate_candidates": [
+    2e-05,
+    4e-05,
+    1e-05
+  ],
+  "call_cap_per_arm": 12000,
+  "wall_cap_seconds_per_arm": 14400,
+  "confirmation": {
+    "season": 2018,
+    "status": "reserved; fetched only after the candidate is frozen and committed",
+    "never_accessed_by": [
+      "encoder training",
+      "sensory development",
+      "sensory confirmation",
+      "v1/v2 datasets"
+    ]
+  },
+  "interpretation": "Development comparison of the version-2 recovery circuit (rho 0.005 selected by mechanistic criteria) against its own frozen and reinforcement-shuffled twins and the no-recovery baseline arms, around the frozen sensory pipeline. Selection here is descriptive; only the reserved 2018 block can confirm.",
+  "candidate_note": "Three learning rates declared before any sports run; the conditioning-01 magnitude (about 11% MBON01 depression after 12 pairings at 1e-4) motivated adding 4e-5. Selection by development log loss of the plastic arm only.",
+  "baseline_protocol": "configs/associative-sports-01.json"
+}

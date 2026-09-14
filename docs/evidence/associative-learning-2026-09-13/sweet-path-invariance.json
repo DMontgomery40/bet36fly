@@ -1,0 +1,40 @@
+{
+  "schedule": "sweet 34 cells 58.9 Hz 500-1500 ms of 2000 ms, seed 809, circuit associative-circuit-01",
+  "results": {
+    "unit": {
+      "counts_sha": "c4464afce138da61dd693e5f9aaa3a03b93832435ba481e268fc76fd9290ed8c",
+      "clav_quasi": [
+        23,
+        28,
+        49,
+        49
+      ],
+      "kc_spikes": 0,
+      "total": 2540
+    },
+    "paired": {
+      "counts_sha": "c4464afce138da61dd693e5f9aaa3a03b93832435ba481e268fc76fd9290ed8c",
+      "clav_quasi": [
+        23,
+        28,
+        49,
+        49
+      ],
+      "kc_spikes": 0,
+      "total": 2540
+    },
+    "reversal": {
+      "counts_sha": "c4464afce138da61dd693e5f9aaa3a03b93832435ba481e268fc76fd9290ed8c",
+      "clav_quasi": [
+        23,
+        28,
+        49,
+        49
+      ],
+      "kc_spikes": 0,
+      "total": 2540
+    }
+  },
+  "identical": true,
+  "note": "Sweet taste evokes no KC spike, so no plastic KC->MBON edge is traversed; the innate Clavicle/Quasimodo response is invariant to the learned gains. This justifies reusing the frozen sensory response cache (which was recorded on the sensory engine without the ALLN/APL/DA interventions) as the innate feature source in the sports stage, since sweet input never reaches those cells either."
+}

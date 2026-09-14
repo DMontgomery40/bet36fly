@@ -7,6 +7,8 @@ status: active
 
 **Current application — September 13:** the product now presents the frozen sensory confirmation, all MLB confirmation games, matchup-specific probe evidence, methods and downloads. Historical training, model selectors, prediction controls and brain replay are removed from the mounted UI. The default server no longer starts source-following. The v1 pointer, legacy code and frozen scientific artifacts remain preserved; they are not sensory predictions. [Current application contract](../docs/api-contract.md).
 
+**Associative learning stage — September 13 evening.** Dopamine-gated KC→MBON plasticity is implemented on the actual circuit and passed controlled conditioning (conditioning-02) after a preserved failure (conditioning-01). [Contract](../docs/EXPERIMENT_ASSOCIATIVE.md), [evidence](../docs/evidence/associative-learning-2026-09-13/index.md), [handoff](../docs/ASSOCIATIVE_LEARNING_HANDOFF.md). The legacy learning-rule page below describes the historical PPL101/PAM12 diagnostic, not this engine.
+
 **Backtest goal achieved.** The conditional historical confirmation passed; additional runs for this goal have stopped. See the measured result below.
 
 ## Latest evidence

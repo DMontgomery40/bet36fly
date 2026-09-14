@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "label": "associative-conditioning-03-recovery",
+  "circuit": "configs/associative-circuit-02.json",
+  "contract": "docs/EXPERIMENT_ASSOCIATIVE.md",
+  "supersedes": "conditioning-02 remains the qualified no-recovery run; this re-runs the identical battery with the version-2 recovery term",
+  "cues": {
+    "A": "cue:E",
+    "B": "cue:F"
+  },
+  "cue_selection": "Among twelve candidate keys cue:A..cue:L probed on unit gains (seed 17, plasticity off), the pair with the lowest KC-set Jaccard among cues with at least 400 active KCs and 60 MBON05 spikes: cue:E (411 KCs; MBON05 60, MBON01 53) and cue:F (473 KCs; 73, 67), Jaccard 0.128. Conditioning-01 used cue:A/cue:B with Jaccard 0.39, whose overlap produced large generalization.",
+  "probe_seeds": [
+    3011,
+    3012,
+    3013
+  ],
+  "training_seed_base": 20000,
+  "readout": "sum",
+  "readout_justification": "Plasticity-off sensitivity measurement on cue:A: setting every eligible gain to 0.5 reduced MBON01 by 55% (85 to 38) and MBON05 by 29% (90 to 64); both are the natural appetitive-memory MBONs, so the summed count of both learned compartments is the primary response readout. Gain criteria remain per compartment.",
+  "null_arms": [
+    "unpaired",
+    "untaught",
+    "frozen",
+    "lesion"
+  ],
+  "backward_rule": "directional",
+  "backward_justification": "Dopamine before the cue is predicted by the declared rule and by Handler et al. 2019 to potentiate, an opposite-sign effect; conditioning-01 treated it as a null and its predicted potentiation (+0.082 mean A-edge gain) then masked the paired depression (-0.089). A directional control cannot define the null scale.",
+  "entry_gate": {
+    "min_kc_active": 81,
+    "min_mbon05_spikes": 8,
+    "max_ab_jaccard": 0.5,
+    "max_tail_fraction": 0.01
+  },
+  "effect_ratio": 3,
+  "call_cap": 420,
+  "wall_cap_seconds": 1800,
+  "interpretation": "Controlled cue learning on the actual MaleCNS graph with an engineered optogenetic-style reinforcer of the sugar-reward dopamine neurons. Passing establishes acquisition, retention, reversal and dopamine dependence for this simulator, not natural sugar reward, feeding or sports usefulness.",
+  "additional_criteria": {
+    "no_gain_above_rest": "every eligible gain <= rest_gain at every endpoint",
+    "paired_differs_from_unpaired": "already required by the 3x null criterion",
+    "recovery_reported": "total recovery term per arm reported"
+  }
+}

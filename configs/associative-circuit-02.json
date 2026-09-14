@@ -1,0 +1,99 @@
+{
+  "schema": 1,
+  "label": "associative-circuit-02-recovery",
+  "contact_mv": 0.11,
+  "alln_output_gain": 0.0,
+  "apl_output_gain": 0.0,
+  "dopamine_fast_output_gain": 0.0,
+  "taste_assay": "configs/sensory-assay-01.json",
+  "compartments": [
+    {
+      "label": "gamma4",
+      "dan_type": "PAM08",
+      "mbon_type": "MBON05",
+      "kc_class": "gamma",
+      "biology": "PAM-gamma4 sugar-reward dopamine neurons depress KC inputs to MBON-gamma4>gamma1gamma2 (Aso 2014; Yamagata 2015; Cohn 2015)."
+    },
+    {
+      "label": "gamma5",
+      "dan_type": "PAM01",
+      "mbon_type": "MBON01",
+      "kc_class": "gamma",
+      "biology": "PAM-gamma5 sugar-reward dopamine neurons depress KC inputs to MBON-gamma5beta'2a (Aso 2014; Yamagata 2015)."
+    }
+  ],
+  "coupling": [
+    1.0,
+    1.0
+  ],
+  "tau_kc_ms": 1000.0,
+  "tau_dan_ms": 1000.0,
+  "learning_rate": 0.0001,
+  "gain_bounds": [
+    0.5,
+    1.5
+  ],
+  "odor_code": {
+    "salt": "BET36FLY-team-odor-01",
+    "width": 16,
+    "hz": 118.0,
+    "class": "olfactory ORN_* types",
+    "rate_anchor": "Zhao et al. 2022 Figure 7: ab1B/Or92a change of 118 spikes/s to 2,3-butanedione 1e-3 v/v; transferred uniformly to every cell of each selected ORN type",
+    "calibration_games": "data/sensory-sports/development-2019-2022-v2/games.json",
+    "min_kc_active": 81,
+    "min_mbon05_spikes": 8,
+    "max_jaccard": 0.5
+  },
+  "reinforcer": {
+    "cells": "every PAM08 and PAM01 dopamine neuron",
+    "hz": 30.0,
+    "duration_ms": 400,
+    "status": "engineered optogenetic-style substitute; the sweet GRN pathway does not reach any dopamine neuron at 0.11 mV/contact (measured)"
+  },
+  "timing": {
+    "dt_ms": 0.2,
+    "bin_ms": 20,
+    "probe_bins": 35,
+    "cue_bins": [
+      5,
+      25
+    ],
+    "reinforcement_bins": 50,
+    "us_bins": [
+      25,
+      45
+    ],
+    "backward_us_bins": [
+      5,
+      25
+    ],
+    "backward_cue_bins": [
+      25,
+      45
+    ]
+  },
+  "interventions_justification": {
+    "alln_output_gain": "Measured: with local-neuron output intact, 4 ORN types at 118 Hz drove 18,400-24,000 spikes per 100 ms in the antennal lobe that persisted after odor offset; with it zeroed the lobe recovered fully within 100 ms.",
+    "apl_output_gain": "Measured: the spiking APL proxy delivered 21,582 contact-weighted inhibitory events onto MBON01 and 31,192 onto MBON05 during one odor trial and silenced both; with 0.25 they stayed silent; with 0 MBON05 fired 80 spikes and KC activity stayed at 5%.",
+    "dopamine_fast_output_gain": "Dopamine is modelled as a modulator acting only through the plasticity rule; the ambiguous +1 fast sign otherwise excites MBON01/MBON05 directly during reinforcement (51/54 spikes measured)."
+  },
+  "based_on": "configs/associative-circuit-01.json",
+  "rule_version": 2,
+  "rest_gain": 1.0,
+  "recovery": [
+    0.005,
+    0.005
+  ],
+  "recovery_rule": {
+    "source": "Jiang & Litwin-Kumar 2021 PLOS Comput Biol 17(8):e1009205, Eq. 5: dw_ij/dt = rbar_i^DAN r_j^KC - rbar_j^KC r_i^DAN + beta rbar_i^DAN, beta >= 0 per compartment (non-specific potentiation after dopamine; Fig. 7 continual learning)",
+    "implemented": "per 0.2 ms step, eligible edge k (KC j, compartment c): if Kbar_j == 0 and gain_k < rest: gain_k += eta * rho_c * Dbar_c * (rest - gain_k), capped at rest",
+    "deviations": [
+      "gated on zero KC eligibility trace in the current trial (dopamine WITHOUT that KC's activity) so the qualified depression/potentiation on active edges stays bit-identical; JLK apply beta unconditionally",
+      "bounded toward the resting gain (1.0) instead of the maximum weight; edges at or above rest are untouched",
+      "event units and traces as in the version-1 rule; beta_c = eta * rho_c with rho_c declared per compartment",
+      "no time-based decay: recovery happens only when the compartment's dopamine trace is nonzero, i.e. during reinforcement of other cues; no mapping from elapsed calendar time to a fly memory constant is used"
+    ],
+    "selection": "rho grid declared in configs/associative-stress-01.json and chosen by stress-test criteria only, never by sports outcomes"
+  },
+  "recovery_selected_by": "configs/associative-stress-01.json selection rule; evidence continual-learning.md"
+}

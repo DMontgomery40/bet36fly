@@ -5,7 +5,7 @@ status: integrated-rules-qualification-failed
 ---
 # Circuit and learning-rule contract
 
-This is the **legacy reward** circuit contract. The [new sensory direction](../docs/PROJECT_DIRECTION.md) permits a separately specified input/output assay; the diagram below is not a natural fruit/sugar encoder or the new execution plan.
+This is the **legacy reward** circuit contract. The September 13 associative stage uses a different engine, compartments (PAM08/MBON05, PAM01/MBON01), cue code and reinforcer; see [EXPERIMENT_ASSOCIATIVE.md](../docs/EXPERIMENT_ASSOCIATIVE.md). The [new sensory direction](../docs/PROJECT_DIRECTION.md) permits a separately specified input/output assay; the diagram below is not a natural fruit/sugar encoder or the new execution plan.
 
 This page describes the integrated code and preserves the historical event-rule
 contract. It is not biological validation. The corrected raw-event and bridge

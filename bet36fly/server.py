@@ -14,6 +14,7 @@ from fastapi.responses import FileResponse, HTMLResponse, JSONResponse, Response
 from starlette.middleware.trustedhost import TrustedHostMiddleware
 
 from .sensory_evidence import sensory_router
+from .associative_api import associative_router
 from .connectome import ROOT
 from .runtime import Runtime, read_json
 from .ledger import ReadOnlyDatabaseError
@@ -193,6 +194,7 @@ def create_app(root=ROOT, warm_on_start=True, *, read_only=False):
                 'manifest': read_json(root / 'data/brain/manifest.json', {})}
 
     app.include_router(sensory_router(root))
+    app.include_router(associative_router(root, read_only=read_only))
 
     @app.get('/{path:path}')
     def frontend(path: str):

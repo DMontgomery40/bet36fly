@@ -1,0 +1,93 @@
+{
+  "base": "http://127.0.0.1:8767",
+  "guard": {
+    "verification_mode": true,
+    "marker": "read-only"
+  },
+  "checks": [
+    {
+      "name": "nav: Dopamine learning link present, stage heading renders",
+      "pass": true
+    },
+    {
+      "name": "four separate stage badges, last says no learned checkpoint in the product",
+      "pass": true
+    },
+    {
+      "name": "conditioning section lists two runs, one qualified and one not",
+      "pass": true
+    },
+    {
+      "name": "season backtests table lists at least one arm",
+      "pass": true
+    },
+    {
+      "name": "start-job form exists and its 405 is rendered verbatim without mutating",
+      "pass": true
+    },
+    {
+      "name": "checkpoint probe form lists checkpoints and its 405 is rendered verbatim",
+      "pass": true
+    },
+    {
+      "name": "navigating to overview and back to learning both work",
+      "pass": true
+    },
+    {
+      "name": "responsive width 390 shows no horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "no page errors and no unexpected console errors/warnings across the whole run",
+      "pass": true
+    }
+  ],
+  "observed": {
+    "badgeTitles": [
+      "Mechanism implemented",
+      "Controlled acquisition, retention and reversal qualified",
+      "Plasticity improves held-out prediction",
+      "Application uses a learned checkpoint"
+    ],
+    "applicationBadgeDetail": "No — the product's predictions remain the frozen sensory confirmation; checkpoints are inspectable only.",
+    "applicationBadgeState": "NO",
+    "conditioningIdentities": [
+      "associative-conditioning-d1d3992e38c1dfa5fef1",
+      "associative-conditioning-42845736c62d3ac9841e"
+    ],
+    "conditioningVerdicts": [
+      "QUALIFIED",
+      "DID NOT QUALIFY"
+    ],
+    "sportsArmRows": 7,
+    "startJobErrorText": "Verification mode is read-only.",
+    "checkpointOptionCount": 630,
+    "probeErrorText": "Verification mode is read-only.",
+    "mobileOverflow": {
+      "scrollWidth": 390,
+      "innerWidth": 390
+    },
+    "mobileOverflowCulprit": null,
+    "pageErrors": [],
+    "consoleMessages": [
+      {
+        "text": "Failed to load resource: the server responded with a status of 405 (Method Not Allowed)",
+        "expected": true
+      },
+      {
+        "text": "Failed to load resource: the server responded with a status of 405 (Method Not Allowed)",
+        "expected": true
+      }
+    ]
+  },
+  "requests_summary": {
+    "total": 9,
+    "non_get": 2
+  },
+  "browser": "Playwright Chromium (bundled)",
+  "screenshots": [
+    "learning-desktop.png",
+    "learning-mobile.png"
+  ],
+  "all_passed": true
+}

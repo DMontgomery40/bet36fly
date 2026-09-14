@@ -6,6 +6,8 @@ The complete fitted pipeline achieved **56.21% accuracy on 2,423 games**, with a
 
 The circuit uses real anatomical connectivity with modeled neural dynamics. Pregame encoding and the probability readout are engineered and fitted externally. The result does not establish neural learning, in-circuit choice, feeding behavior, prospective performance or betting profit. Both teams can receive attractive inputs.
 
+**Associative learning stage (September 13 evening):** dopamine-dependent KC→MBON plasticity now runs on the actual circuit with controlled acquisition, retention and reversal ([contract](docs/EXPERIMENT_ASSOCIATIVE.md), [evidence](docs/evidence/associative-learning-2026-09-13/index.md), [handoff](docs/ASSOCIATIVE_LEARNING_HANDOFF.md)). The product's predictions remain the frozen sensory confirmation; the `/#learning` page reports the learning stage separately.
+
 ## Open the research application
 
 ```sh

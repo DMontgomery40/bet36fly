@@ -4,6 +4,7 @@ import { count, day, fixed, methodNames, methods, pct, route, selectedGame } fro
 import type { Summary, SummaryState } from './sensoryTypes';
 import Backtest from './SensoryBacktest';
 import SensoryMethods, { Pipeline } from './SensoryMethods';
+import LearningView from './LearningView';
 
 export function Message({ title, children, retry }: { title: string; children?: React.ReactNode; retry?: () => void }) {
   return <section className="state" role={retry ? 'alert' : 'status'}><span className="eyebrow">Research evidence</span><h1>{title}</h1><p>{children}</p>{retry && <button onClick={retry}>Try again</button>}</section>;
@@ -28,12 +29,12 @@ export default function App() {
   const resource = useResource<SummaryState>('/api/sensory/summary');
   const page = route(hash);
   useEffect(() => {
-    const update = () => { const current = window.location.hash; setHash(current); if (!current || !['#overview', '#backtest', '#methods'].includes(current) && !current.startsWith('#backtest/')) { window.history.replaceState(null, '', '/#overview'); setHash('#overview'); } };
+    const update = () => { const current = window.location.hash; setHash(current); if (!current || !['#overview', '#backtest', '#methods', '#learning'].includes(current) && !current.startsWith('#backtest/')) { window.history.replaceState(null, '', '/#overview'); setHash('#overview'); } };
     update(); window.addEventListener('hashchange', update); return () => window.removeEventListener('hashchange', update);
   }, []);
   useEffect(() => { window.scrollTo(0, 0); }, [page]);
   const data = resource.data?.status === 'available' && !resource.error ? resource.data : null;
-  return <><a className="skip-link" href="#main" onClick={event => { event.preventDefault(); document.getElementById('main')?.focus(); }}>Skip to content</a><header className="app-header"><a className="brand" href="#overview" aria-label="BET36FLY overview">BET<span>36</span>FLY<span className="brand-mark" aria-hidden="true">✳</span></a><nav aria-label="Main navigation">{(['overview', 'backtest', 'methods'] as const).map(p => <a href={`#${p}`} key={p} aria-current={page === p ? 'page' : undefined}>{p === 'overview' ? 'Overview' : p === 'backtest' ? 'Backtest explorer' : 'Pipeline & methods'}</a>)}</nav><span className="header-label">MaleCNS / Research</span></header><main id="main" tabIndex={-1}>
-    {resource.error ? <Message title="Confirmation unavailable" retry={() => void resource.reload()}>{resource.error} Previously loaded results are hidden until validation succeeds.</Message> : !resource.data ? <Message title="Loading frozen confirmation…">Checking the saved result and its evidence.</Message> : !data ? <Message title="Confirmation unavailable" retry={() => void resource.reload()}>{resource.data.status !== 'available' && resource.data.message}</Message> : page === 'overview' ? <Overview data={data}/> : page === 'backtest' ? <Backtest data={data} gameId={selectedGame(hash)}/> : <SensoryMethods data={data}/>}
+  return <><a className="skip-link" href="#main" onClick={event => { event.preventDefault(); document.getElementById('main')?.focus(); }}>Skip to content</a><header className="app-header"><a className="brand" href="#overview" aria-label="BET36FLY overview">BET<span>36</span>FLY<span className="brand-mark" aria-hidden="true">✳</span></a><nav aria-label="Main navigation">{(['overview', 'backtest', 'methods', 'learning'] as const).map(p => <a href={`#${p}`} key={p} aria-current={page === p ? 'page' : undefined}>{p === 'overview' ? 'Overview' : p === 'backtest' ? 'Backtest explorer' : p === 'methods' ? 'Pipeline & methods' : 'Dopamine learning'}</a>)}</nav><span className="header-label">MaleCNS / Research</span></header><main id="main" tabIndex={-1}>
+    {page === 'learning' ? <LearningView/> : resource.error ? <Message title="Confirmation unavailable" retry={() => void resource.reload()}>{resource.error} Previously loaded results are hidden until validation succeeds.</Message> : !resource.data ? <Message title="Loading frozen confirmation…">Checking the saved result and its evidence.</Message> : !data ? <Message title="Confirmation unavailable" retry={() => void resource.reload()}>{resource.data.status !== 'available' && resource.data.message}</Message> : page === 'overview' ? <Overview data={data}/> : page === 'backtest' ? <Backtest data={data} gameId={selectedGame(hash)}/> : <SensoryMethods data={data}/>}
     </main><footer className="app-footer"><span>BET36FLY <span aria-hidden="true">/</span> Source-informed sensory research</span><span>Frozen historical evidence · Plasticity off</span></footer></>;
 }

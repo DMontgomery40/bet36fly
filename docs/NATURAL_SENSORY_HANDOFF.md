@@ -1,4 +1,6 @@
-# Current handoff: backtest goal achieved
+# Superseded handoff (September 13 evening): the current handoff is [ASSOCIATIVE_LEARNING_HANDOFF.md](ASSOCIATIVE_LEARNING_HANDOFF.md)
+
+# Historical handoff: backtest goal achieved
 
 **Current application — September 13:** the product now presents the frozen sensory confirmation, all MLB confirmation games, matchup-specific probe evidence, methods and downloads. Historical training, model selectors, prediction controls and brain replay are removed from the mounted UI. The default server no longer starts source-following. The v1 pointer, legacy code and frozen scientific artifacts remain preserved; they are not sensory predictions. [Current application contract](api-contract.md).
 

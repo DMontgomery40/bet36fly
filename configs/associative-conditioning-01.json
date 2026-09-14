@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "label": "associative-conditioning-01",
+  "circuit": "configs/associative-circuit-01.json",
+  "contract": "docs/EXPERIMENT_ASSOCIATIVE.md",
+  "cues": {"A": "cue:A", "B": "cue:B"},
+  "entry_gate": {"min_kc_active": 81, "min_mbon05_spikes": 8, "max_ab_jaccard": 0.5, "max_tail_fraction": 0.01},
+  "effect_ratio": 3,
+  "call_cap": 420,
+  "wall_cap_seconds": 1800,
+  "interpretation": "Controlled cue learning on the actual MaleCNS graph with an engineered optogenetic-style reinforcer of the sugar-reward dopamine neurons. Passing establishes acquisition, retention, reversal and dopamine dependence for this simulator, not natural sugar reward, feeding or sports usefulness."
+}

@@ -1,0 +1,75 @@
+/* Dopamine-learning page. Sizes and contrast follow the project legibility floor:
+   nothing under 11px, body text 14px and up, support text at 4.5:1 or better. */
+.learning-page{padding-bottom:30px}
+.learning-page p{font-size:14.5px;line-height:1.65}
+.learning-page table{font-size:13px}
+.learning-page thead{font-size:11.5px;color:#4f5b4f;letter-spacing:.4px}
+.learning-page caption{font-size:11.5px;color:#4f5b4f}
+.learning-page th,.learning-page td{padding:12px 12px}
+.learning-section{border-top:1px solid var(--line);padding:34px 0 8px}
+.learning-section>h2{margin-top:10px}
+.learning-lede{max-width:760px;color:#3f4f43}
+
+.learning-badges{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin:26px 0 10px;padding:0;list-style:none}
+.learning-badge{border:1px solid var(--line);background:#fbfaf5;padding:18px;display:flex;flex-direction:column;gap:11px;min-width:0}
+.learning-badge h3{font-size:15px;margin:0;letter-spacing:-.2px;line-height:1.35}
+.learning-badge p{font-size:14px;margin:0;color:#3f4f43;line-height:1.6;overflow-wrap:anywhere}
+.learning-verdict{display:inline-flex;align-items:center;gap:7px;font-size:11.5px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;border-radius:3px;padding:6px 10px;align-self:flex-start}
+.learning-yes{background:#dbe7cf;color:#2c4d2f}
+.learning-no{background:#f0e2d4;color:#8a4b26}
+.learning-unknown{background:#e2e5da;color:#414a40}
+
+.learning-chips{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0 4px;padding:0;list-style:none}
+.learning-chip{font-size:11.5px;font-weight:600;border-radius:3px;padding:6px 10px;line-height:1.35;display:inline-block}
+.learning-chip.learning-yes{letter-spacing:0;text-transform:none}
+.learning-chip.learning-no{letter-spacing:0;text-transform:none}
+
+.learning-card{border:1px solid var(--line);background:#fbfaf5;padding:24px;margin:22px 0}
+.learning-card-head{display:flex;flex-wrap:wrap;gap:14px;align-items:baseline;justify-content:space-between}
+.learning-card-head h3{margin:0;font-size:17px;overflow-wrap:anywhere}
+.learning-meta{display:flex;flex-wrap:wrap;gap:9px 22px;font-size:12.5px;color:#4f5b4f;margin:12px 0 0;padding:0;list-style:none}
+.learning-meta b{font-weight:600;color:var(--ink)}
+.learning-error{background:#f4e5d8;border-left:3px solid #b45e39;padding:13px 16px;font-size:13.5px;line-height:1.6;color:#7a4322;margin:14px 0;overflow-wrap:anywhere;white-space:pre-wrap}
+.learning-note{font-size:12.5px;color:#4f5b4f;line-height:1.7;margin-top:12px}
+.learning-empty{border:1px dashed #b6c0ad;background:#f1f2e9;padding:20px 22px;font-size:14px;color:#3f4f43;line-height:1.6;margin:20px 0}
+.learning-legend{font-size:12.5px;color:#4f5b4f;line-height:1.8;margin:14px 0 0;padding:0;list-style:none;columns:2;column-gap:34px}
+.learning-legend b{color:var(--ink)}
+
+/* Continual-learning occupancy chart. The svg never renders narrower than its viewBox, so the
+   scale stays at or above 1 and the 11.5px axis labels never fall under the legibility floor;
+   a narrow viewport scrolls the wrapper instead of shrinking the type. */
+.learning-chart-wrap{overflow-x:auto;min-width:0;margin:18px 0 10px}
+.learning-chart{display:block;width:100%;min-width:560px;max-width:640px;height:auto}
+.learning-chart text{font-size:11.5px;fill:#3f4f43;font-variant-numeric:tabular-nums}
+.learning-chart .learning-grid{stroke:#c2ccb9;stroke-width:1}
+.learning-chart .learning-axis{stroke:#77856f;stroke-width:1}
+.learning-chart-legend{display:flex;flex-wrap:wrap;gap:8px 22px;align-items:center;font-size:12.5px;color:#3f4f43;line-height:1.6;margin:0;padding:0;list-style:none}
+.learning-chart-legend li{display:flex;align-items:center;gap:9px}
+.learning-chart-legend i{display:inline-block;width:22px;height:4px;border-radius:2px;flex:none}
+
+.learning-form{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;align-items:end;margin:20px 0 4px}
+.learning-form label{display:flex;flex-direction:column;gap:8px;font-size:12.5px;min-width:0;color:#3f4f43}
+.learning-form .learning-submit{grid-column:1/-1}
+.learning-form button{font-size:14px}
+.learning-pair{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:20px}
+.learning-keyvalue{margin:0;font-size:13.5px}
+.learning-keyvalue div{display:flex;gap:16px;justify-content:space-between;border-bottom:1px solid var(--line);padding:11px 0}
+.learning-keyvalue dt{color:#4f5b4f}
+.learning-keyvalue dd{margin:0;text-align:right;font-weight:600;overflow-wrap:anywhere}
+.learning-verdict-line{font-size:15px;font-weight:600;margin:14px 0 0}
+.learning-cancel{font-size:13px;padding:9px 14px;min-height:38px}
+
+@media(max-width:1000px){.learning-badges{grid-template-columns:1fr 1fr}.learning-form{grid-template-columns:1fr 1fr}}
+@media(max-width:720px){
+  .learning-badges{grid-template-columns:1fr}
+  .learning-form{grid-template-columns:1fr}
+  .learning-pair{grid-template-columns:1fr}
+  .learning-legend{columns:1}
+  .learning-card{padding:18px}
+  .learning-page .table-wrap table{min-width:640px}
+}
+
+/* Scoped floor overrides for shared classes reused on this page; style.css is untouched. */
+.learning-page .eyebrow{font-size:11.5px}
+.learning-page .scope-note p{font-size:14px;color:#3c4a39}
+.learning-page .scope-note strong{font-size:14px}
